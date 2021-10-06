@@ -1,0 +1,2343 @@
+name = "PrusaHive"
+repo = "https://wikifactory.com/@prusalab/prusahive"
+version = "20210609122652"
+spdx-license = "N/A"
+licensor = "Prusalab"
+documentation-language = "en"
+image = "https://wikifactory.com/files/RmlsZTo1NTg2NTE="
+function = "Developing a DIY beehive scale and sensor array with modular connection architecture allowing for easy dissassembly of a hive when inspecting. \nThe project is updated with progress as we go. Input from community with mods and hacks is always welcome!"
+[[files]]
+name = "Firmware/Beep-Sensor-data-API-v0.4.pdf"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTQyMTc="
+mimetype = "application/pdf"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/.gitignore"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUyNTU="
+mimetype = "text/plain"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/.pio/build/project.checksum"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUyNTQ="
+mimetype = "text/plain"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/.vscode/arduino.json"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUyNTM="
+mimetype = "application/json"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/.vscode/c_cpp_properties.json"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUyNTI="
+mimetype = "application/json"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/.vscode/extensions.json"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUyNTE="
+mimetype = "application/json"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/.vscode/launch.json"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUyNTA="
+mimetype = "application/json"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/history/main V0.1.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUyNDk="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/include/README"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUyNDg="
+mimetype = "text/x-c"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/DallasTemperature/DallasTemperature.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUyNDc="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/DallasTemperature/DallasTemperature.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUyNDY="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/DallasTemperature/examples/Alarm/Alarm.ino"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUyNDU="
+mimetype = "text/x-c"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/DallasTemperature/examples/Alarm/Alarm.pde"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUyNDQ="
+mimetype = "text/x-c"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/DallasTemperature/examples/AlarmHandler/AlarmHandler.ino"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUyNDM="
+mimetype = "text/x-c"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/DallasTemperature/examples/AlarmHandler/AlarmHandler.pde"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUyNDI="
+mimetype = "text/x-c"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/DallasTemperature/examples/ExternalPullup/ExternalPullup.ino"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUyNDE="
+mimetype = "text/x-c"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/DallasTemperature/examples/Multibus_simple/Multibus_simple.ino"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUyNDA="
+mimetype = "text/x-c"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/DallasTemperature/examples/Multiple/Multiple.ino"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUyMzk="
+mimetype = "text/x-c"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/DallasTemperature/examples/Multiple/Multiple.pde"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUyMzg="
+mimetype = "text/x-c"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/DallasTemperature/examples/oneWireSearch/oneWireSearch.ino"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUyMzc="
+mimetype = "text/x-c"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/DallasTemperature/examples/readPowerSupply/readPowerSupply.ino"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUyMzY="
+mimetype = "text/x-c"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/DallasTemperature/examples/SaveRecallScratchPad/SaveRecallScratchPad.ino"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUyMzU="
+mimetype = "text/x-c"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/DallasTemperature/examples/setUserData/SetUserData.ino"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUyMzQ="
+mimetype = "text/x-c"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/DallasTemperature/examples/Simple/Simple.ino"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUyMzM="
+mimetype = "text/x-c"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/DallasTemperature/examples/Simple/Simple.pde"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUyMzI="
+mimetype = "text/x-c"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/DallasTemperature/examples/Single/Single.ino"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUyMzE="
+mimetype = "text/x-c"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/DallasTemperature/examples/Single/Single.pde"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUyMzA="
+mimetype = "text/x-c"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/DallasTemperature/examples/Tester/Tester.ino"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUyMjk="
+mimetype = "text/x-c"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/DallasTemperature/examples/Timing/Timing.ino"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUyMjg="
+mimetype = "text/x-c"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/DallasTemperature/examples/TwoPin_DS18B20/TwoPin_DS18B20.ino"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUyMjc="
+mimetype = "text/x-c"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/DallasTemperature/examples/UserDataDemo/UserDataDemo.ino"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUyMjY="
+mimetype = "text/x-c"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/DallasTemperature/examples/UserDataWriteBatch/UserDataWriteBatch.ino"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUyMjU="
+mimetype = "text/x-c"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/DallasTemperature/examples/WaitForConversion2/WaitForConversion2.pde"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUyMjE="
+mimetype = "text/x-c"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/DallasTemperature/examples/WaitForConversion/WaitForConversion.ino"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUyMjQ="
+mimetype = "text/x-c"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/DallasTemperature/examples/WaitForConversion/WaitForConversion.pde"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUyMjM="
+mimetype = "text/x-c"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/DallasTemperature/keywords.txt"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUyMjA="
+mimetype = "text/plain"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/DallasTemperature/library.json"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUyMTk="
+mimetype = "application/json"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/DallasTemperature/library.properties"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUyMTg="
+mimetype = "text/plain"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/DallasTemperature/README.md"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUyMTc="
+mimetype = "text/plain"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ESP32 BLE Arduino/.piopm"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUyMTY="
+mimetype = "text/plain"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ESP32 BLE Arduino/examples/BLE_client/BLE_client.ino"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUyMTU="
+mimetype = "text/x-c"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ESP32 BLE Arduino/examples/BLE_iBeacon/BLE_iBeacon.ino"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUyMTQ="
+mimetype = "text/x-c"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ESP32 BLE Arduino/examples/BLE_notify/BLE_notify.ino"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUyMTM="
+mimetype = "text/x-c"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ESP32 BLE Arduino/examples/BLE_scan/BLE_scan.ino"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUyMTI="
+mimetype = "text/x-c++"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ESP32 BLE Arduino/examples/BLE_server_multiconnect/BLE_server_multiconnect.ino"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUyMTA="
+mimetype = "text/x-c"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ESP32 BLE Arduino/examples/BLE_uart/BLE_uart.ino"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUyMDk="
+mimetype = "text/plain"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ESP32 BLE Arduino/examples/BLE_write/BLE_write.ino"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUyMDg="
+mimetype = "text/x-c++"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ESP32 BLE Arduino/library.properties"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUyMDc="
+mimetype = "text/plain"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ESP32 BLE Arduino/README.md"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUyMDY="
+mimetype = "text/plain"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ESP32 BLE Arduino/src/BLE2902.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUyMDU="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ESP32 BLE Arduino/src/BLE2902.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUyMDQ="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ESP32 BLE Arduino/src/BLE2904.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUyMDM="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ESP32 BLE Arduino/src/BLE2904.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUyMDI="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ESP32 BLE Arduino/src/BLEAddress.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUyMDE="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ESP32 BLE Arduino/src/BLEAddress.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUyMDA="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ESP32 BLE Arduino/src/BLEAdvertisedDevice.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxOTk="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ESP32 BLE Arduino/src/BLEAdvertisedDevice.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxOTg="
+mimetype = ""
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ESP32 BLE Arduino/src/BLEAdvertising.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxOTc="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ESP32 BLE Arduino/src/BLEAdvertising.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxOTY="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ESP32 BLE Arduino/src/BLEBeacon.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxOTU="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ESP32 BLE Arduino/src/BLEBeacon.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxOTQ="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ESP32 BLE Arduino/src/BLECharacteristic.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxOTM="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ESP32 BLE Arduino/src/BLECharacteristic.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxOTI="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ESP32 BLE Arduino/src/BLECharacteristicMap.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxOTE="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ESP32 BLE Arduino/src/BLEClient.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxOTA="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ESP32 BLE Arduino/src/BLEClient.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxODk="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ESP32 BLE Arduino/src/BLEDescriptor.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxODg="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ESP32 BLE Arduino/src/BLEDescriptor.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxODc="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ESP32 BLE Arduino/src/BLEDescriptorMap.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxODY="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ESP32 BLE Arduino/src/BLEDevice.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxODU="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ESP32 BLE Arduino/src/BLEDevice.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxODQ="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ESP32 BLE Arduino/src/BLEEddystoneTLM.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxODM="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ESP32 BLE Arduino/src/BLEEddystoneTLM.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxODI="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ESP32 BLE Arduino/src/BLEEddystoneURL.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxODE="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ESP32 BLE Arduino/src/BLEEddystoneURL.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxODA="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ESP32 BLE Arduino/src/BLEExceptions.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxNzk="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ESP32 BLE Arduino/src/BLEExceptions.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxNzg="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ESP32 BLE Arduino/src/BLEHIDDevice.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxNzc="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ESP32 BLE Arduino/src/BLEHIDDevice.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxNzY="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ESP32 BLE Arduino/src/BLERemoteCharacteristic.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxNzU="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ESP32 BLE Arduino/src/BLERemoteCharacteristic.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxNzQ="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ESP32 BLE Arduino/src/BLERemoteDescriptor.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxNzM="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ESP32 BLE Arduino/src/BLERemoteDescriptor.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxNzI="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ESP32 BLE Arduino/src/BLERemoteService.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxNzE="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ESP32 BLE Arduino/src/BLERemoteService.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxNzA="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ESP32 BLE Arduino/src/BLEScan.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxNjk="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ESP32 BLE Arduino/src/BLEScan.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxNjg="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ESP32 BLE Arduino/src/BLESecurity.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxNjY="
+mimetype = ""
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ESP32 BLE Arduino/src/BLEServer.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxNjU="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ESP32 BLE Arduino/src/BLEServer.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxNjQ="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ESP32 BLE Arduino/src/BLEService.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxNjM="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ESP32 BLE Arduino/src/BLEService.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxNjI="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ESP32 BLE Arduino/src/BLEServiceMap.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxNjE="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ESP32 BLE Arduino/src/BLEUtils.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxNjA="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ESP32 BLE Arduino/src/BLEUtils.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxNTk="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ESP32 BLE Arduino/src/BLEUUID.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxNTg="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ESP32 BLE Arduino/src/BLEUUID.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxNTc="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ESP32 BLE Arduino/src/BLEValue.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxNTY="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ESP32 BLE Arduino/src/BLEValue.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxNTU="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ESP32 BLE Arduino/src/FreeRTOS.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxNTQ="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ESP32 BLE Arduino/src/FreeRTOS.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxNTM="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ESP32 BLE Arduino/src/GeneralUtils.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxNTI="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ESP32 BLE Arduino/src/GeneralUtils.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxNTE="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ESP32 BLE Arduino/src/HIDKeyboardTypes.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxNTA="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ESP32 BLE Arduino/src/HIDTypes.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxNDk="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ezTime/component.mk"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxNDg="
+mimetype = "text/plain"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ezTime/examples/EventsAndOrdinalTime/EventsAndOrdinalTime.ino"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxNDY="
+mimetype = "text/x-c"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ezTime/examples/milliseconds/milliseconds.ino"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxNDU="
+mimetype = "text/x-c"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ezTime/examples/NoNetwork/NoNetwork.ino"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxNDQ="
+mimetype = "text/x-c"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ezTime/examples/TimeFormats/TimeFormats.ino"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxNDM="
+mimetype = "text/x-c"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ezTime/examples/Timezones/Timezones.ino"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxNDI="
+mimetype = "text/x-c"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ezTime/images/Arduino-Micro.jpg"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxNDE="
+mimetype = "image/jpeg"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ezTime/images/Arduino-MKR-1000.jpg"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxNDA="
+mimetype = "image/jpeg"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ezTime/images/Arduino-Nano.jpg"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxMzk="
+mimetype = "image/jpeg"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ezTime/images/ESP8266.jpg"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxMzc="
+mimetype = "image/jpeg"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ezTime/images/esp-ntp-clock.jpg"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxMzg="
+mimetype = "image/jpeg"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ezTime/images/M5Stack-debug.jpg"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxMzY="
+mimetype = "image/jpeg"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ezTime/images/M5Stack.jpg"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxMzU="
+mimetype = "image/jpeg"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ezTime/images/setting-clock.jpg"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxMzM="
+mimetype = "image/jpeg"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ezTime/images/Teensy-3.2.jpg"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxMzI="
+mimetype = "image/jpeg"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ezTime/images/ticker-and-ntpclock.jpg"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxMzE="
+mimetype = "image/jpeg"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ezTime/images/timezones.gif"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxMzA="
+mimetype = "image/gif"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ezTime/images/Uno-with-Ethernet.jpg"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxMjk="
+mimetype = "image/jpeg"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ezTime/keywords.txt"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxMjg="
+mimetype = "text/plain"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ezTime/library.json"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxMjc="
+mimetype = "application/json"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ezTime/library.properties"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxMjY="
+mimetype = "text/plain"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ezTime/LICENSE"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxMjU="
+mimetype = "text/plain"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ezTime/README.md"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxMjQ="
+mimetype = "text/plain"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ezTime/server/README.md"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxMjM="
+mimetype = "text/plain"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ezTime/server/server"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxMjI="
+mimetype = "text/x-php"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ezTime/server/timezoned"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxMjE="
+mimetype = "text/x-shellscript"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ezTime/server/update"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxMjA="
+mimetype = "text/x-shellscript"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ezTime/src/ezTime.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxMTk="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ezTime/src/ezTime.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxMTg="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ezTime/src/lang/CA"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxMTc="
+mimetype = "text/plain"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ezTime/src/lang/DE"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxMTY="
+mimetype = "text/plain"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ezTime/src/lang/EN"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxMTU="
+mimetype = "text/plain"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/ezTime/src/lang/ES"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxMTQ="
+mimetype = "text/plain"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/HTTPClient/examples/Authorization/Authorization.ino"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxMTI="
+mimetype = "text/x-c"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/HTTPClient/examples/BasicHttpClient/BasicHttpClient.ino"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxMTE="
+mimetype = "text/x-c"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/HTTPClient/examples/BasicHttpsClient/BasicHttpsClient.ino"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxMTA="
+mimetype = "text/x-c"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/HTTPClient/examples/HTTPClientEnterprise/HTTPClientEnterprise.ino"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxMDk="
+mimetype = "text/x-c"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/HTTPClient/examples/ReuseConnection/ReuseConnection.ino"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxMDg="
+mimetype = "text/x-c"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/HTTPClient/library.properties"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxMDY="
+mimetype = "text/plain"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/HTTPClient/src/HTTPClient.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxMDU="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/HTTPClient/src/HTTPClient.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxMDQ="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/HX711_ADC/examples/Read_1x_load_cell/Read_1x_load_cell.ino"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxMDM="
+mimetype = "text/x-c"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/HX711_ADC/examples/Read_1x_load_cell_interrupt_driven/Read_1x_load_cell_interrupt_driven.ino"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxMDI="
+mimetype = "text/plain"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/HX711_ADC/examples/Read_2x_load_cell/Read_2x_load_cell.ino"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxMDE="
+mimetype = "text/x-c"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/HX711_ADC/examples/Testing/Testing.ino"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUxMDA="
+mimetype = "text/x-c"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/HX711_ADC/extra/hx711_ADC data sheet v2_0.pdf"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUwOTk="
+mimetype = "application/pdf"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/HX711_ADC/keywords.txt"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUwOTg="
+mimetype = "text/plain"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/HX711_ADC/library.properties"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUwOTc="
+mimetype = "text/plain"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/HX711_ADC/LICENSE"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUwOTY="
+mimetype = "text/plain"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/HX711_ADC/README.md"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUwOTU="
+mimetype = "text/plain"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/HX711_ADC/src/config.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUwOTQ="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/HX711_ADC/src/HX711_ADC.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUwOTM="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/HX711_ADC/src/HX711_ADC.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUwOTI="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/HX711_Arduino_Library/CONTRIBUTORS.md"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUwOTE="
+mimetype = "text/plain"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/HX711_Arduino_Library/doc/notes.md"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUwOTA="
+mimetype = "text/plain"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/HX711_Arduino_Library/doc/platformio-howto.md"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUwODk="
+mimetype = "text/plain"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/HX711_Arduino_Library/examples/HX711_basic_example/HX711_basic_example.ino"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUwODg="
+mimetype = "text/x-c"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/HX711_Arduino_Library/examples/HX711_retry_example/HX711_retry_example.ino"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUwODY="
+mimetype = "text/x-c"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/HX711_Arduino_Library/keywords.txt"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUwODQ="
+mimetype = "text/plain"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/HX711_Arduino_Library/library.json"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUwODM="
+mimetype = "application/json"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/HX711_Arduino_Library/library.properties"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUwODI="
+mimetype = "text/html"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/HX711_Arduino_Library/LICENSE"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUwODE="
+mimetype = "text/plain"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/HX711_Arduino_Library/Makefile"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUwODA="
+mimetype = "text/plain"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/HX711_Arduino_Library/platformio.ini"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUwNzk="
+mimetype = "text/plain"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/HX711_Arduino_Library/README.md"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUwNzg="
+mimetype = "text/x-c"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/HX711_Arduino_Library/src/HX711.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUwNzc="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/HX711_Arduino_Library/src/HX711.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUwNzY="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/MCCI_LoRaWAN_LMIC_library/assets/Feather-M0-LoRa-Wire.ai"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUwNzU="
+mimetype = "application/postscript"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/MCCI_LoRaWAN_LMIC_library/assets/Feather-M0-LoRa-Wire.png"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUwNzQ="
+mimetype = "image/png"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/MCCI_LoRaWAN_LMIC_library/ci/platformio.sh"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUwNzM="
+mimetype = "text/x-sh"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/MCCI_LoRaWAN_LMIC_library/doc/IBM-DISCLAIMER.txt"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUwNzI="
+mimetype = "text/plain"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/MCCI_LoRaWAN_LMIC_library/doc/IBM-release-notes.txt"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUwNzE="
+mimetype = "text/plain"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/MCCI_LoRaWAN_LMIC_library/doc/LMIC-FSM.cdd"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUwNzA="
+mimetype = "application/xml"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/MCCI_LoRaWAN_LMIC_library/doc/LMIC-FSM.pdf"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUwNjk="
+mimetype = "application/pdf"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/MCCI_LoRaWAN_LMIC_library/doc/LMIC-structure-diagram.cdd"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUwNjg="
+mimetype = "application/xml"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/MCCI_LoRaWAN_LMIC_library/doc/LMIC-structure-diagram.pdf"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUwNjc="
+mimetype = "application/pdf"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/MCCI_LoRaWAN_LMIC_library/doc/LMIC-v3.3.0-redline.pdf"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUwNjY="
+mimetype = "application/pdf"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/MCCI_LoRaWAN_LMIC_library/doc/LMIC-v3.3.0.docx"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUwNjU="
+mimetype = "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/MCCI_LoRaWAN_LMIC_library/doc/LMIC-v3.3.0.pdf"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUwNjM="
+mimetype = "application/pdf"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/MCCI_LoRaWAN_LMIC_library/doc/LoRaWAN-at-a-glance.pdf"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUwNjE="
+mimetype = "application/pdf"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/MCCI_LoRaWAN_LMIC_library/doc/LoRaWAN-at-a-glance.vsdx"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUwNjA="
+mimetype = "application/zip"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/MCCI_LoRaWAN_LMIC_library/doc/RadioDriver.md"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUwNTk="
+mimetype = "text/plain"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/MCCI_LoRaWAN_LMIC_library/doc/README.md"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUwNTg="
+mimetype = "text/plain"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/MCCI_LoRaWAN_LMIC_library/examples/compliance-otaa-halconfig/compliance-otaa-halconfig.ino"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUwNTc="
+mimetype = "text/x-c++"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/MCCI_LoRaWAN_LMIC_library/examples/header_test/header_test.ino"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUwNTY="
+mimetype = "text/x-c"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/MCCI_LoRaWAN_LMIC_library/examples/helium-us915/helium-us915.ino"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUwNTU="
+mimetype = "text/plain"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/MCCI_LoRaWAN_LMIC_library/examples/raw-feather/raw-feather.ino"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUwNTM="
+mimetype = "text/x-c"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/MCCI_LoRaWAN_LMIC_library/examples/raw-halconfig/raw-halconfig.ino"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUwNTI="
+mimetype = "text/x-c"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/MCCI_LoRaWAN_LMIC_library/examples/raw/raw.ino"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUwNTQ="
+mimetype = "text/x-c"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/MCCI_LoRaWAN_LMIC_library/examples/ttn-abp-feather-us915-dht22/ttn-abp-feather-us915-dht22.ino"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUwNTA="
+mimetype = "text/x-c"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/MCCI_LoRaWAN_LMIC_library/examples/ttn-abp/ttn-abp.ino"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUwNTE="
+mimetype = "text/plain"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/MCCI_LoRaWAN_LMIC_library/examples/ttn-otaa-feather-us915/ttn-otaa-feather-us915.ino"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUwNDg="
+mimetype = "text/plain"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/MCCI_LoRaWAN_LMIC_library/examples/ttn-otaa-halconfig-us915/ttn-otaa-halconfig-us915.ino"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUwNDY="
+mimetype = "text/plain"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/MCCI_LoRaWAN_LMIC_library/examples/ttn-otaa-network-time/ttn-otaa-network-time.ino"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUwNDU="
+mimetype = "text/plain"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/MCCI_LoRaWAN_LMIC_library/examples/ttn-otaa/ttn-otaa.ino"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUwNDk="
+mimetype = "text/plain"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/MCCI_LoRaWAN_LMIC_library/HOWTO-ADD-REGION.md"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUwNDQ="
+mimetype = "text/plain"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/MCCI_LoRaWAN_LMIC_library/library.properties"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUwNDM="
+mimetype = "text/plain"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/MCCI_LoRaWAN_LMIC_library/LICENSE"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUwNDI="
+mimetype = "text/plain"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/MCCI_LoRaWAN_LMIC_library/project_config/lmic_project_config.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUwNDE="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/MCCI_LoRaWAN_LMIC_library/README.md"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUwNDA="
+mimetype = "text/plain"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/MCCI_LoRaWAN_LMIC_library/src/aes/lmic.c"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUwMzg="
+mimetype = "text/x-csrc"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/MCCI_LoRaWAN_LMIC_library/src/aes/other.c"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUwMzc="
+mimetype = "text/x-csrc"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/MCCI_LoRaWAN_LMIC_library/src/arduino_lmic.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUwMzY="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/MCCI_LoRaWAN_LMIC_library/src/arduino_lmic_hal_boards.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUwMzU="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/MCCI_LoRaWAN_LMIC_library/src/arduino_lmic_hal_configuration.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUwMzQ="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/MCCI_LoRaWAN_LMIC_library/src/arduino_lmic_lorawan_compliance.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUwMzM="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/MCCI_LoRaWAN_LMIC_library/src/arduino_lmic_user_configuration.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUwMzI="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/MCCI_LoRaWAN_LMIC_library/src/hal/getpinmap_catena4420.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUwMzE="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/MCCI_LoRaWAN_LMIC_library/src/hal/getpinmap_catena4551.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUwMzA="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/MCCI_LoRaWAN_LMIC_library/src/hal/getpinmap_catena4610.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUwMjk="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/MCCI_LoRaWAN_LMIC_library/src/hal/getpinmap_catena4611.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUwMjg="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/MCCI_LoRaWAN_LMIC_library/src/hal/getpinmap_catena4612.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUwMjc="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/MCCI_LoRaWAN_LMIC_library/src/hal/getpinmap_catena4617.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUwMjY="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/MCCI_LoRaWAN_LMIC_library/src/hal/getpinmap_catena4618.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUwMjU="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/MCCI_LoRaWAN_LMIC_library/src/hal/getpinmap_catena4630.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUwMjQ="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/MCCI_LoRaWAN_LMIC_library/src/hal/getpinmap_catena4801.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUwMjM="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/MCCI_LoRaWAN_LMIC_library/src/hal/getpinmap_catena4802.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUwMjI="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/MCCI_LoRaWAN_LMIC_library/src/hal/getpinmap_disco_l072cs_lrwan1.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUwMjE="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/OneWire/docs/issue_template.md"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTU0NDM="
+mimetype = "text/plain"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/OneWire/examples/DS250x_PROM/DS250x_PROM.pde"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTU0NDA="
+mimetype = "text/plain"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/OneWire/examples/DS2408_Switch/DS2408_Switch.pde"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTU0NDE="
+mimetype = "text/x-c"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/OneWire/keywords.txt"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTU0Mzk="
+mimetype = "text/plain"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/OneWire/library.json"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTU0Mzg="
+mimetype = "application/json"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/OneWire/library.properties"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTU0Mzc="
+mimetype = "text/plain"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/OneWire/OneWire.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTU0MzY="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/OneWire/OneWire.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTU0MzU="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/OneWire/util/OneWire_direct_gpio.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTU0MzQ="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/OneWire/util/OneWire_direct_regtype.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTU0MzM="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/PINS/boards.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTU0Mjk="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/project_config/lmic_project_config.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTU0Mjg="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/.clang-format"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTU0Mjc="
+mimetype = "text/plain"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/.gitattributes"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTU0MjY="
+mimetype = "text/plain"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/.gitignore"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTU0MjU="
+mimetype = "text/plain"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/examples/ttn-otaa-sleep/ttn-otaa-sleep.ino"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTU0MjI="
+mimetype = "text/x-c"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/examples/ttn_abp/ttn_abp.ino"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTU0MjE="
+mimetype = "text/x-c"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/library.properties"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTU0MjA="
+mimetype = "text/plain"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/project_config/lmic_project_config.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTU0MTk="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/README.md"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTU0MTg="
+mimetype = "text/x-c"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/BLE2902.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTU0MTc="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/BLE2902.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTU0MTY="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/BLE2904.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTU0MTU="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/BLE2904.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTU0MTQ="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/BLEAddress.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTU0MTM="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/BLEAddress.h"
+permalink = "https://wikifactory.com/files/RmlsZTo2MDQyOTQ="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/BLEAdvertisedDevice.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTU0MTE="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/BLEAdvertisedDevice.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTU0MTA="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/BLEAdvertising.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTU0MDk="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/BLEAdvertising.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTU0MDg="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/BLEBeacon.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTU0MDc="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/BLEBeacon.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTU0MDY="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/BLECharacteristic.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTU0MDU="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/BLECharacteristic.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTU0MDQ="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/BLECharacteristicMap.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTU0MDM="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/BLEClient.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTU0MDI="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/BLEClient.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTU0MDE="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/BLEDescriptor.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTU0MDA="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/BLEDescriptor.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzOTk="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/BLEDescriptorMap.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzOTg="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/BLEDevice.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzOTc="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/BLEDevice.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzOTY="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/BLEEddystoneTLM.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzOTU="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/BLEEddystoneTLM.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzOTQ="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/BLEEddystoneURL.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzOTM="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/BLEEddystoneURL.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzOTI="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/BLEExceptions.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzOTE="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/BLEExceptions.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzOTA="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/BLEHIDDevice.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzODk="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/BLEHIDDevice.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzODg="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/BLERemoteCharacteristic.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzODc="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/BLERemoteCharacteristic.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzODY="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/BLERemoteDescriptor.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzODU="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/BLERemoteDescriptor.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzODQ="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/BLERemoteService.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzODM="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/BLERemoteService.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzODI="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/BLEScan.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzODE="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/BLEScan.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzODA="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/BLESecurity.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzNzk="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/BLESecurity.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzNzg="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/BLEServer.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzNzc="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/BLEServer.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzNzY="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/BLEService.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzNzU="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/BLEService.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzNzQ="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/BLEServiceMap.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzNzM="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/BLEUtils.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzNzI="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/BLEUtils.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzNzE="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/BLEUUID.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzNzA="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/BLEUUID.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzNjk="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/BLEValue.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzNjg="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/BLEValue.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzNjc="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/ByteArrayUtils.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzNjY="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/FreeRTOS.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzNjU="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/FreeRTOS.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzNjQ="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/GeneralUtils.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzNjM="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/GeneralUtils.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzNjI="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/helper.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzNjE="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/HIDKeyboardTypes.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzNjA="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/HIDTypes.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzNTk="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/lmic/aes/ideetron/AES-128_V10.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzNTg="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/lmic/aes/lmic.c"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzNTc="
+mimetype = "text/x-csrc"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/lmic/arduino_lmic.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzNTU="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/lmic/arduino_lmic_hal_boards.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzNTQ="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/lmic/arduino_lmic_hal_configuration.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzNTM="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/lmic/arduino_lmic_lorawan_compliance.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzNTI="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/lmic/arduino_lmic_user_configuration.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzNTE="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/lmic/hal/getpinmap_catena4420.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzNTA="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/lmic/hal/getpinmap_catena4551.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzNDk="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/lmic/hal/getpinmap_catena4610.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzNDg="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/lmic/hal/getpinmap_catena4617.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzNDU="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/lmic/hal/getpinmap_catena4618.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzNDQ="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/lmic/hal/getpinmap_catena4630.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzNDM="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/lmic/hal/getpinmap_catena4801.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzNDI="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/lmic/hal/getpinmap_feather32u4lora.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzNDE="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/lmic/hal/getpinmap_featherm0lora.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzNDA="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/lmic/hal/getpinmap_heltec_Wifi_Lora_32.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzMzk="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/lmic/hal/getpinmap_heltec_Wifi_Lora_32_V2.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzMzg="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/lmic/hal/getpinmap_heltec_wirless_stick.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzMzc="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/lmic/hal/getpinmap_M5stack_Lora.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzMzY="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/lmic/hal/getpinmap_thisboard.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzMzU="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/lmic/hal/getpinmap_ttgo_lora32_v1.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzMzQ="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/lmic/hal/getpinmap_ttgo_TBEAM.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzMzM="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/lmic/hal/hal.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzMzI="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/lmic/hal/hal.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzMzE="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/lmic/lmic.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUyODc="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/lmic/lmic/config.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzMzA="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/lmic/lmic/hal.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzMjk="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/lmic/lmic/lmic.c"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzMjg="
+mimetype = "text/x-csrc"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/lmic/lmic/lmic.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzMjc="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/lmic/lmic/lmic_as923.c"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzMjY="
+mimetype = "text/x-csrc"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/lmic/lmic/lmic_au921.c"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzMjQ="
+mimetype = "text/x-csrc"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/lmic/lmic/lmic_bandplan.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzMjM="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/lmic/lmic/lmic_bandplan_as923.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzMjI="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/lmic/lmic/lmic_bandplan_au915.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzMjE="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/lmic/lmic/lmic_bandplan_au921.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzMjA="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/lmic/lmic/lmic_bandplan_eu868.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzMTk="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/lmic/lmic/lmic_bandplan_us915.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzMTY="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/lmic/lmic/lmic_compat.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzMTU="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/lmic/lmic/lmic_compliance.c"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzMTQ="
+mimetype = "text/x-csrc"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/lmic/lmic/lmic_compliance.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzMTM="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/lmic/lmic/lmic_config_preconditions.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzMTI="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/lmic/lmic/lmic_env.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzMTE="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/lmic/lmic/lmic_eu868.c"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzMTA="
+mimetype = "text/x-csrc"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/lmic/lmic/lmic_eu_like.c"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzMDk="
+mimetype = "text/x-csrc"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/lmic/lmic/lmic_eu_like.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzMDg="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/lmic/lmic/lmic_in866.c"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzMDc="
+mimetype = "text/x-csrc"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/lmic/lmic/lmic_us915.c"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzMDU="
+mimetype = "text/x-csrc"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/lmic/lmic/lmic_us_like.c"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzMDQ="
+mimetype = "text/x-csrc"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/lmic/lmic/lmic_us_like.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzMDM="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/lmic/lmic/lmic_util.c"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzMDI="
+mimetype = "text/x-csrc"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/lmic/lmic/lmic_util.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzMDE="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/lmic/lmic/lorabase.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUzMDA="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/lmic/lmic/lorabase_au921.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUyOTc="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/lmic/lmic/lorabase_eu868.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUyOTY="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/lmic/lmic/lorabase_in866.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUyOTU="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/lmic/lmic/lorabase_kr920.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUyOTQ="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/lmic/lmic/lorabase_us915.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUyOTM="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/lmic/lmic/lorawan_spec_compliance.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUyOTI="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/lmic/lmic/oslmic.c"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUyOTE="
+mimetype = "text/x-csrc"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/lmic/lmic/oslmic.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUyOTA="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/lmic/lmic/oslmic_types.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUyODk="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/lmic/lmic/radio.c"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTUyODg="
+mimetype = "text/x-csrc"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/NVSHandler.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo2MDQyODU="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/NVSHandler.h"
+permalink = "https://wikifactory.com/files/RmlsZTo2MDQyODQ="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/TTN_BLE_esp32.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo2MDQyOTA="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/TTN_BLE_esp32.h"
+permalink = "https://wikifactory.com/files/RmlsZTo2MDQyODI="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/TTN_CayenneLPP.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo2MDQyODk="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/TTN_CayenneLPP.h"
+permalink = "https://wikifactory.com/files/RmlsZTo2MDQyODg="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/TTN_esp32.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo2MDQyNzk="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/lib/TheThingsNetwork_esp32-master/src/TTN_esp32.h"
+permalink = "https://wikifactory.com/files/RmlsZTo2MDQyNzg="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/platformio.ini"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTg5NjE="
+mimetype = "text/plain"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/src/configuration.h"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTU0NDc="
+mimetype = "text/x-chdr"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/src/main.cpp"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTU0NDY="
+mimetype = "text/x-c++src"
+
+[[files]]
+name = "Firmware/PrusaHiveV0.2/TTN-Payload-decoder.txt"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTU0NDg="
+mimetype = "text/plain"
+
+[[files]]
+name = "Hardware/Datasheets/DS18B20.pdf"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTQzNTQ="
+mimetype = "application/pdf"
+
+[[files]]
+name = "Hardware/Datasheets/hx711_english.pdf"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTQzNTM="
+mimetype = "application/pdf"
+
+[[files]]
+name = "Hardware/TTGO_Mini32_Pinout.jpg"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTQ3NTA="
+mimetype = "image/jpeg"
+
+[[files]]
+name = "Hardware/TTGO_Mini32_Schematic.pdf"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTQ3NTE="
+mimetype = "application/pdf"
+
+[[files]]
+name = "Hardware/Wireless_Stick_pinout.pdf"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTQyMTE="
+mimetype = "application/pdf"
+
+[[files]]
+name = "Hardware/WirelessStick_Sketch_breadboard.jpg"
+permalink = "https://wikifactory.com/files/RmlsZTo1MTU0NTE="
+mimetype = "image/jpeg"
+
+[[files]]
+name = "Pics/18650 battery.jpg"
+permalink = "https://wikifactory.com/files/RmlsZTo0NDU2MjM="
+mimetype = "image/jpeg"
+
+[[files]]
+name = "Pics/Beutenkarl rmx V1.jpg"
+permalink = "https://wikifactory.com/files/RmlsZTo0NDk0NTc="
+mimetype = "image/jpeg"
+
+[[files]]
+name = "Pics/Beutenkarl rmx V1_render.jpg"
+permalink = "https://wikifactory.com/files/RmlsZTo0NDkzMDY="
+mimetype = "image/jpeg"
+
+[[files]]
+name = "Pics/ds18b20.jpg"
+permalink = "https://wikifactory.com/files/RmlsZTo0NDU2NTA="
+mimetype = "image/jpeg"
+
+[[files]]
+name = "Pics/electronics prototype PrusaHiveV1 .jpg"
+permalink = "https://wikifactory.com/files/RmlsZTo0NDU2MDk="
+mimetype = "image/jpeg"
+
+[[files]]
+name = "Pics/HX711.jpg"
+permalink = "https://wikifactory.com/files/RmlsZTo0NDU2MTI="
+mimetype = "image/jpeg"
+
+[[files]]
+name = "Pics/pg7.html"
+permalink = "https://wikifactory.com/files/RmlsZTo0NDU2NDk="
+mimetype = "text/html"
+
+[[files]]
+name = "Pics/prusahive_bb.jpg"
+permalink = "https://wikifactory.com/files/RmlsZTo0NDkzMDU="
+mimetype = "image/jpeg"
+
+[[files]]
+name = "Pics/PrusaHive_box v1 render.jpg"
+permalink = "https://wikifactory.com/files/RmlsZTo0NTUzODk="
+mimetype = "image/jpeg"
+
+[[files]]
+name = "Pics/PrusaHive_box v1.jpg"
+permalink = "https://wikifactory.com/files/RmlsZTo0NTUzNzQ="
+mimetype = "image/jpeg"
+
+[[files]]
+name = "Pics/PrusaHive_weightframe.jpg"
+permalink = "https://wikifactory.com/files/RmlsZTo0NTUzNzY="
+mimetype = "image/jpeg"
+
+[[files]]
+name = "Pics/prusahive_wiring_diagram.jpg"
+permalink = "https://wikifactory.com/files/RmlsZTo0NDk1MDA="
+mimetype = "image/jpeg"
+
+[[files]]
+name = "Pics/readings.jpg"
+permalink = "https://wikifactory.com/files/RmlsZTo0NDk1MDY="
+mimetype = "image/jpeg"
+
+[[files]]
+name = "Pics/solar panel.jpg"
+permalink = "https://wikifactory.com/files/RmlsZTo0NDk0OTg="
+mimetype = "image/jpeg"
+
+[[files]]
+name = "Pics/TTGO MINI32.jpg"
+permalink = "https://wikifactory.com/files/RmlsZTo0NDU2MTk="
+mimetype = "image/jpeg"
+
+[[files]]
+name = "Pics/yzc-1b-1.jpg"
+permalink = "https://wikifactory.com/files/RmlsZTo0NDU2MzA="
+mimetype = "image/jpeg"
+
+[[files]]
+name = "Programming tutorial/README.md"
+permalink = "https://wikifactory.com/files/RmlsZTo1NDAzNDM="
+mimetype = "text/markdown"
+
+[[files]]
+name = "/README.md"
+permalink = "https://wikifactory.com/files/RmlsZTo1NTg2MDY="
+mimetype = "text/markdown"
+
+[[files]]
+name = "Soldering Tutorial/README.md"
+permalink = "https://wikifactory.com/files/RmlsZTo1NDA2NzQ="
+mimetype = "text/markdown"
+
+[[files]]
+name = "Soldering Tutorial/SolderingTutorialPics/IMG_2301.JPG"
+permalink = "https://wikifactory.com/files/RmlsZTo1MDY0MTI="
+mimetype = "image/jpeg"
+
+[[files]]
+name = "Soldering Tutorial/SolderingTutorialPics/IMG_2303.JPG"
+permalink = "https://wikifactory.com/files/RmlsZTo1MDYzODg="
+mimetype = "image/jpeg"
+
+[[files]]
+name = "Soldering Tutorial/SolderingTutorialPics/IMG_2304.JPG"
+permalink = "https://wikifactory.com/files/RmlsZTo1MDYzNzE="
+mimetype = "image/jpeg"
+
+[[files]]
+name = "Soldering Tutorial/SolderingTutorialPics/IMG_2305.JPG"
+permalink = "https://wikifactory.com/files/RmlsZTo1MDYzNzg="
+mimetype = "image/jpeg"
+
+[[files]]
+name = "Soldering Tutorial/SolderingTutorialPics/IMG_2307.JPG"
+permalink = "https://wikifactory.com/files/RmlsZTo1MDY0MTM="
+mimetype = "image/jpeg"
+
+[[files]]
+name = "Soldering Tutorial/SolderingTutorialPics/IMG_2308.JPG"
+permalink = "https://wikifactory.com/files/RmlsZTo1MDY0MDI="
+mimetype = "image/jpeg"
+
+[[files]]
+name = "Soldering Tutorial/SolderingTutorialPics/IMG_2309.JPG"
+permalink = "https://wikifactory.com/files/RmlsZTo1MDYzNzY="
+mimetype = "image/jpeg"
+
+[[files]]
+name = "Soldering Tutorial/SolderingTutorialPics/IMG_2311.JPG"
+permalink = "https://wikifactory.com/files/RmlsZTo1MDYzNzQ="
+mimetype = "image/jpeg"
+
+[[files]]
+name = "Soldering Tutorial/SolderingTutorialPics/IMG_2312.JPG"
+permalink = "https://wikifactory.com/files/RmlsZTo1MDYzODA="
+mimetype = "image/jpeg"
+
+[[files]]
+name = "Soldering Tutorial/SolderingTutorialPics/IMG_2313.JPG"
+permalink = "https://wikifactory.com/files/RmlsZTo1MDYzNzI="
+mimetype = "image/jpeg"
+
+[[files]]
+name = "Soldering Tutorial/SolderingTutorialPics/IMG_2314.JPG"
+permalink = "https://wikifactory.com/files/RmlsZTo1MDYzOTg="
+mimetype = "image/jpeg"
+
+[[files]]
+name = "Soldering Tutorial/SolderingTutorialPics/IMG_2315.JPG"
+permalink = "https://wikifactory.com/files/RmlsZTo1MDYzOTc="
+mimetype = "image/jpeg"
+
+[[files]]
+name = "Soldering Tutorial/SolderingTutorialPics/IMG_2319.JPG"
+permalink = "https://wikifactory.com/files/RmlsZTo1MDY0MDM="
+mimetype = "image/jpeg"
+
+[[files]]
+name = "Soldering Tutorial/SolderingTutorialPics/IMG_2320.JPG"
+permalink = "https://wikifactory.com/files/RmlsZTo1MDYzOTA="
+mimetype = "image/jpeg"
+
+[[files]]
+name = "Soldering Tutorial/SolderingTutorialPics/IMG_2321.JPG"
+permalink = "https://wikifactory.com/files/RmlsZTo1MDYzOTY="
+mimetype = "image/jpeg"
+
+[[files]]
+name = "Soldering Tutorial/SolderingTutorialPics/IMG_2322.JPG"
+permalink = "https://wikifactory.com/files/RmlsZTo1MDYzNzA="
+mimetype = "image/jpeg"
+
+[[files]]
+name = "Soldering Tutorial/SolderingTutorialPics/IMG_2323.JPG"
+permalink = "https://wikifactory.com/files/RmlsZTo1MDYzODk="
+mimetype = "image/jpeg"
+
+[[files]]
+name = "Soldering Tutorial/SolderingTutorialPics/IMG_2324.JPG"
+permalink = "https://wikifactory.com/files/RmlsZTo1MDYzOTQ="
+mimetype = "image/jpeg"
+
+[[files]]
+name = "Soldering Tutorial/SolderingTutorialPics/IMG_2325.JPG"
+permalink = "https://wikifactory.com/files/RmlsZTo1MDYzOTI="
+mimetype = "image/jpeg"
+
+[[files]]
+name = "Soldering Tutorial/SolderingTutorialPics/IMG_2328.JPG"
+permalink = "https://wikifactory.com/files/RmlsZTo1MDY0MDU="
+mimetype = "image/jpeg"
+
+[[files]]
+name = "Soldering Tutorial/SolderingTutorialPics/IMG_2329.JPG"
+permalink = "https://wikifactory.com/files/RmlsZTo1MDYzODM="
+mimetype = "image/jpeg"
+
+[[files]]
+name = "Soldering Tutorial/SolderingTutorialPics/IMG_2330.JPG"
+permalink = "https://wikifactory.com/files/RmlsZTo1MDYzOTE="
+mimetype = "image/jpeg"
+
+[[files]]
+name = "Soldering Tutorial/SolderingTutorialPics/IMG_2331.JPG"
+permalink = "https://wikifactory.com/files/RmlsZTo1MDY0MDQ="
+mimetype = "image/jpeg"
+
+[[files]]
+name = "Soldering Tutorial/SolderingTutorialPics/IMG_2332.JPG"
+permalink = "https://wikifactory.com/files/RmlsZTo1MDYzODI="
+mimetype = "image/jpeg"
+
+[[files]]
+name = "Soldering Tutorial/SolderingTutorialPics/IMG_2333.JPG"
+permalink = "https://wikifactory.com/files/RmlsZTo1MDY0MDk="
+mimetype = "image/jpeg"
+
+[[files]]
+name = "Soldering Tutorial/SolderingTutorialPics/IMG_2334.JPG"
+permalink = "https://wikifactory.com/files/RmlsZTo1MDYzODU="
+mimetype = "image/jpeg"
+
+[[files]]
+name = "Soldering Tutorial/SolderingTutorialPics/IMG_2335.JPG"
+permalink = "https://wikifactory.com/files/RmlsZTo1MDY0MTA="
+mimetype = "image/jpeg"
+
+[[files]]
+name = "Soldering Tutorial/SolderingTutorialPics/IMG_2336.JPG"
+permalink = "https://wikifactory.com/files/RmlsZTo1MDYzNzk="
+mimetype = "image/jpeg"
+
+[[files]]
+name = "Soldering Tutorial/SolderingTutorialPics/IMG_2338.JPG"
+permalink = "https://wikifactory.com/files/RmlsZTo1MDYzODE="
+mimetype = "image/jpeg"
+
+[[files]]
+name = "Soldering Tutorial/SolderingTutorialPics/IMG_2340.JPG"
+permalink = "https://wikifactory.com/files/RmlsZTo1MDY0MTQ="
+mimetype = "image/jpeg"
+
+[[files]]
+name = "Soldering Tutorial/SolderingTutorialPics/IMG_2346.JPG"
+permalink = "https://wikifactory.com/files/RmlsZTo1MDYzOTk="
+mimetype = "image/jpeg"
+
+[[files]]
+name = "Soldering Tutorial/SolderingTutorialPics/IMG_2347.JPG"
+permalink = "https://wikifactory.com/files/RmlsZTo1MDYzODc="
+mimetype = "image/jpeg"
+
+[[files]]
+name = "Soldering Tutorial/SolderingTutorialPics/IMG_2348.JPG"
+permalink = "https://wikifactory.com/files/RmlsZTo1MDYzOTM="
+mimetype = "image/jpeg"
+
+[[files]]
+name = "Soldering Tutorial/SolderingTutorialPics/IMG_2349.JPG"
+permalink = "https://wikifactory.com/files/RmlsZTo1MDYzNzM="
+mimetype = "image/jpeg"
+
+[[files]]
+name = "Soldering Tutorial/SolderingTutorialPics/IMG_2352.JPG"
+permalink = "https://wikifactory.com/files/RmlsZTo1MDYzODY="
+mimetype = "image/jpeg"
+
+[[files]]
+name = "Soldering Tutorial/SolderingTutorialPics/IMG_2354.JPG"
+permalink = "https://wikifactory.com/files/RmlsZTo1MDY0MDY="
+mimetype = "image/jpeg"
+
+[[files]]
+name = "Soldering Tutorial/SolderingTutorialPics/IMG_2356.JPG"
+permalink = "https://wikifactory.com/files/RmlsZTo1MDY0MTE="
+mimetype = "image/jpeg"
+
+[[files]]
+name = "Soldering Tutorial/SolderingTutorialPics/IMG_2360 - kopie.JPG"
+permalink = "https://wikifactory.com/files/RmlsZTo1MDY0MDc="
+mimetype = "image/jpeg"
+
+[[files]]
+name = "Soldering Tutorial/SolderingTutorialPics/IMG_2360.JPG"
+permalink = "https://wikifactory.com/files/RmlsZTo1MDY0MDg="
+mimetype = "image/jpeg"
+
+[[files]]
+name = "Soldering Tutorial/SolderingTutorialPics/IMG_2362.JPG"
+permalink = "https://wikifactory.com/files/RmlsZTo1MDYzODQ="
+mimetype = "image/jpeg"
+
+[[files]]
+name = "Soldering Tutorial/SolderingTutorialPics/IMG_2367 - kopie.JPG"
+permalink = "https://wikifactory.com/files/RmlsZTo1MDY0MDA="
+mimetype = "image/jpeg"
+
+[[files]]
+name = "Soldering Tutorial/SolderingTutorialPics/IMG_2367.JPG"
+permalink = "https://wikifactory.com/files/RmlsZTo1MDY0MDE="
+mimetype = "image/jpeg"
+
+[[files]]
+name = "Soldering Tutorial/SolderingTutorialPics/IMG_2373.JPG"
+permalink = "https://wikifactory.com/files/RmlsZTo1MDYzNzc="
+mimetype = "image/jpeg"
+
+[[files]]
+name = "Soldering Tutorial/SolderingTutorialPics/IMG_2383.JPG"
+permalink = "https://wikifactory.com/files/RmlsZTo1MDYzNzU="
+mimetype = "image/jpeg"
+
+[[files]]
+name = "Soldering Tutorial/SolderingTutorialPics/IMG_2384.JPG"
+permalink = "https://wikifactory.com/files/RmlsZTo1MDYzOTU="
+mimetype = "image/jpeg"
+
+[[files]]
+name = "Stand STLs/Hive Socket.stl"
+permalink = "https://wikifactory.com/files/RmlsZTo1NTQ0Njc="
+mimetype = "application/sla"
+
+[[files]]
+name = "Stand STLs/HiveBall lower part mk2.stl"
+permalink = "https://wikifactory.com/files/RmlsZTo1NTQ0Nzk="
+mimetype = "application/sla"
+
+[[files]]
+name = "Stand STLs/PrusaHive panel stand v4.stl"
+permalink = "https://wikifactory.com/files/RmlsZTo1NTQ0NzM="
+mimetype = "application/sla"
+
+[[files]]
+name = "Stand STLs/PrusaHive socket stand v3.stl"
+permalink = "https://wikifactory.com/files/RmlsZTo1NTQ0ODU="
+mimetype = "application/sla"
+
+[[files]]
+name = "STL/PrusaHive_bee.stl"
+permalink = "https://wikifactory.com/files/RmlsZTo0NTUzNDY="
+mimetype = "application/sla"
+
+[[files]]
+name = "STL/PrusaHive_bottom.stl"
+permalink = "https://wikifactory.com/files/RmlsZTo0NTUzNDU="
+mimetype = "application/sla"
+
+[[files]]
+name = "STL/PrusaHive_Clam_I.stl"
+permalink = "https://wikifactory.com/files/RmlsZTo0NTUzNDQ="
+mimetype = "application/sla"
+
+[[files]]
+name = "STL/PrusaHive_Clam_II.stl"
+permalink = "https://wikifactory.com/files/RmlsZTo0NTUzNTk="
+mimetype = "application/sla"
+
+[[files]]
+name = "STL/PrusaHive_Gasket.stl"
+permalink = "https://wikifactory.com/files/RmlsZTo0NTUzNTg="
+mimetype = "application/sla"
+
+[[files]]
+name = "STL/PrusaHive_hexagon.stl"
+permalink = "https://wikifactory.com/files/RmlsZTo0NTUzNTc="
+mimetype = "application/sla"
+
+[[files]]
+name = "STL/PrusaHive_letters__H.stl"
+permalink = "https://wikifactory.com/files/RmlsZTo0NTUzNTY="
+mimetype = "application/sla"
+
+[[files]]
+name = "STL/PrusaHive_letters__I.stl"
+permalink = "https://wikifactory.com/files/RmlsZTo0NTUzNTU="
+mimetype = "application/sla"
+
+[[files]]
+name = "STL/PrusaHive_letters__P.stl"
+permalink = "https://wikifactory.com/files/RmlsZTo0NTUzNTQ="
+mimetype = "application/sla"
+
+[[files]]
+name = "STL/PrusaHive_letters__R.stl"
+permalink = "https://wikifactory.com/files/RmlsZTo0NTUzNTM="
+mimetype = "application/sla"
+
+[[files]]
+name = "STL/PrusaHive_letters_A.stl"
+permalink = "https://wikifactory.com/files/RmlsZTo0NTUzNTI="
+mimetype = "application/sla"
+
+[[files]]
+name = "STL/PrusaHive_letters_E.stl"
+permalink = "https://wikifactory.com/files/RmlsZTo0NTUzNTE="
+mimetype = "application/sla"
+
+[[files]]
+name = "STL/PrusaHive_letters_S.stl"
+permalink = "https://wikifactory.com/files/RmlsZTo0NTUzNTA="
+mimetype = "application/sla"
+
+[[files]]
+name = "STL/PrusaHive_letters_U.stl"
+permalink = "https://wikifactory.com/files/RmlsZTo0NTUzNDk="
+mimetype = "application/sla"
+
+[[files]]
+name = "STL/PrusaHive_letters_V.stl"
+permalink = "https://wikifactory.com/files/RmlsZTo0NTUzNDg="
+mimetype = "application/sla"
+
+[[files]]
+name = "STL/PrusaHive_top.stl"
+permalink = "https://wikifactory.com/files/RmlsZTo0NTUzNDc="
+mimetype = "application/sla"
+

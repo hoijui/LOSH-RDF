@@ -4,11 +4,26 @@
 
 :Corocotta a okh:Module ;
     rdfs:label "Corocotta" ;
+    okh:dataSource "Wikifactory" ;
     okh:documentationLanguage "en" ;
     okh:function "250mm³ cube like 3D printer, designed and made at FabLabSantander®, coreXY. Try to be as cheap as possible." ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
     okh:licensor "Laurent Brunel" ;
     okh:repo <https://wikifactory.com/@lsbrunel/corocotta> ;
-    okh:spdxLicense "CC-BY-4.0" ;
+    okh:repoHost "Wikifactory" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
     okh:version "20191007140042" ;
     okh:versionOf <https://wikifactory.com/@lsbrunel/corocotta> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Corocotta v20191007140042" ;
+    okh:originalUrl <https://wikifactory.com/files/RmlsZToyNzMyNzA=> ;
+    okh:permaUrl <https://wikifactory.com/files/RmlsZToyNzMyNzA=> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of Corocotta v20191007140042" ;
+    okh:fileFormat "md" ;
+    okh:originalUrl <https://wikifactory.com/files/RmlsZToyNzMxNTU=> ;
+    okh:permaUrl <https://wikifactory.com/files/RmlsZToyNzMxNTU=> .
 

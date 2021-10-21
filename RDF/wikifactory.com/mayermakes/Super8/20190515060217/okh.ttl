@@ -1,0 +1,36 @@
+@prefix : <https://wikifactory.com/@mayermakes/super8/20190515060217/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Super8 a okh:Module ;
+    rdfs:label "Super8" ;
+    okh:dataSource "Wikifactory" ;
+    okh:documentationLanguage "en" ;
+    okh:function """A digital replacement for Super8 film cartridges.
+the POC was done on element14presents
+this project ultimately aims to:
+be compatible with any Super8 camera produced
+be easy to use
+provide an easy to build kit
+be fully open source
+keeping the original look of the footage recorded with a Super8 camera""" ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "mayermakes" ;
+    okh:repo <https://wikifactory.com/@mayermakes/super8> ;
+    okh:repoHost "Wikifactory" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0> ;
+    okh:version "20190515060217" ;
+    okh:versionOf <https://wikifactory.com/@mayermakes/super8> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Super8 v20190515060217" ;
+    okh:originalUrl <https://wikifactory.com/files/RmlsZToyMDg4NTU=> ;
+    okh:permaUrl <https://wikifactory.com/files/RmlsZToyMDg4NTU=> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of Super8 v20190515060217" ;
+    okh:fileFormat "md" ;
+    okh:originalUrl <https://wikifactory.com/files/RmlsZToyMDg4NTg=> ;
+    okh:permaUrl <https://wikifactory.com/files/RmlsZToyMDg4NTg=> .
+

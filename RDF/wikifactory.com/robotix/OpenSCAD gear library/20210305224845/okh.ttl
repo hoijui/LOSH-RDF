@@ -1,0 +1,39 @@
+@prefix : <https://wikifactory.com/@robotix/openscad-gear-library/20210305224845/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:OpenscadGearLibrary a okh:Module ;
+    rdfs:label "OpenSCAD gear library" ;
+    okh:dataSource "Wikifactory" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Here is a library for OpenSCAD to easily create gears. 
+
+<b>include lib-gear-dh.scad</b>
+
+use the following commands to create the gears:
+
+<b>gear(teeth,thick,scale);</b>
+<ul><li><b>teeth</b> : number of teeth
+</li><li><b>thick</b>: thickness of the gearing
+</li><li><em><b>scale</b></em>: scale value to adjust the gear to the correct size in the system in which it functions.
+</li></ul>""" ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "roberto hamm" ;
+    okh:repo <https://wikifactory.com/@robotix/openscad-gear-library> ;
+    okh:repoHost "Wikifactory" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:version "20210305224845" ;
+    okh:versionOf <https://wikifactory.com/@robotix/openscad-gear-library> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of OpenSCAD gear library v20210305224845" ;
+    okh:originalUrl <https://wikifactory.com/files/RmlsZTo1NjIzMjU=> ;
+    okh:permaUrl <https://wikifactory.com/files/RmlsZTo1NjIzMjU=> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of OpenSCAD gear library v20210305224845" ;
+    okh:fileFormat "md" ;
+    okh:originalUrl <https://wikifactory.com/files/RmlsZTo1NjIzMzY=> ;
+    okh:permaUrl <https://wikifactory.com/files/RmlsZTo1NjIzMzY=> .
+

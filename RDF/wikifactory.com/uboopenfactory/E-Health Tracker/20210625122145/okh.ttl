@@ -1,0 +1,32 @@
+@prefix : <https://wikifactory.com/@mcariou/e-health-tracker/20210625122145/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:EhealthTracker a okh:Module ;
+    rdfs:label "E-Health Tracker" ;
+    okh:dataSource "Wikifactory" ;
+    okh:documentationLanguage "fr" ;
+    okh:function """Un traqueur de la santé d'un patient depuis application et le serveur Thingspeak pour facilité le suivie médicale des patients. 
+auteur : Mourad Sourdi
+année : 2021
+licence : CC-BY-SA""" ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "Mathieu Cariou" ;
+    okh:repo <https://wikifactory.com/@mcariou/e-health-tracker> ;
+    okh:repoHost "Wikifactory" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:version "20210625122145" ;
+    okh:versionOf <https://wikifactory.com/@mcariou/e-health-tracker> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of E-Health Tracker v20210625122145" ;
+    okh:originalUrl <https://wikifactory.com/files/RmlsZTo2MjU5MjY=> ;
+    okh:permaUrl <https://wikifactory.com/files/RmlsZTo2MjU5MjY=> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of E-Health Tracker v20210625122145" ;
+    okh:fileFormat "md" ;
+    okh:originalUrl <https://wikifactory.com/files/RmlsZTo2MjU5MTE=> ;
+    okh:permaUrl <https://wikifactory.com/files/RmlsZTo2MjU5MTE=> .
+

@@ -1,0 +1,30 @@
+@prefix : <https://wikifactory.com/@foo00/rm-racer无人机/20210205065013/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Rmracerdiydrone a okh:Module ;
+    rdfs:label "RM-Racer➕DIY-Drone" ;
+    okh:dataSource "Wikifactory" ;
+    okh:documentationLanguage "en" ;
+    okh:function """使用无人机悬停在RM-Racer赛道上记录追踪RM-Racer小车轨迹，同时将小车运行视频图像回传到RM-Racer车载Jetson Nano。
+Tracking RM-Racer laps around RM-Racer track from bird view by streaming video from a drone to the RM-Racer on board Jetson Nano SBC.""" ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "Peter" ;
+    okh:repo <https://wikifactory.com/@foo00/rm-racer无人机> ;
+    okh:repoHost "Wikifactory" ;
+    okh:spdxLicense <https://spdx.org/licenses/MIT> ;
+    okh:version "20210205065013" ;
+    okh:versionOf <https://wikifactory.com/@foo00/rm-racer无人机> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of RM-Racer➕DIY-Drone v20210205065013" ;
+    okh:originalUrl <https://wikifactory.com/files/RmlsZTo1MzUyNjc=> ;
+    okh:permaUrl <https://wikifactory.com/files/RmlsZTo1MzUyNjc=> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of RM-Racer➕DIY-Drone v20210205065013" ;
+    okh:fileFormat "md" ;
+    okh:originalUrl <https://wikifactory.com/files/RmlsZTo1MzY1MjY=> ;
+    okh:permaUrl <https://wikifactory.com/files/RmlsZTo1MzY1MjY=> .
+

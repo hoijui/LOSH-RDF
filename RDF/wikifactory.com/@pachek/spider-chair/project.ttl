@@ -1,0 +1,44 @@
+@prefix : <https://wikifactory.com/@pachek/spider-chair/c2a9c75fd1831f374e3870e5944fe0d8f4f7345d/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:SpiderChair a okh:Module ;
+    rdfs:label "Spider Chair" ;
+    okh:documentationLanguage "en" ;
+    okh:function "This unique CNC-cut chair design, with aesthetic and futuristic appearance, will give you more than comfort and maximize your productivity at home!" ;
+    okh:hasComponent :Spiderchairdrw ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "pachek " ;
+    okh:release <https://wikifactory.com/@pachek/spider-chair/v/c2a9c75> ;
+    okh:repo <https://wikifactory.com/@pachek/spider-chair> ;
+    okh:repoHost "wikifactory.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:version "c2a9c75fd1831f374e3870e5944fe0d8f4f7345d" ;
+    okh:versionOf <https://wikifactory.com/@pachek/spider-chair> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Spider Chair c2a9c75fd1831f374e3870e5944fe0d8f4f7345d" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/828/cropped-0.jpg> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo3MzQ5> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of Spider Chair c2a9c75fd1831f374e3870e5944fe0d8f4f7345d" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/828/readme-6.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo5MTc1> .
+
+:Spiderchairdrw a okh:Part ;
+    rdfs:label "SPIDER_CHAIR_DRW" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :Spiderchairdrw_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Spiderchairdrw_source a okh:SourceFile ;
+    rdfs:label "Source File of SPIDER_CHAIR_DRW of Spider Chair c2a9c75fd1831f374e3870e5944fe0d8f4f7345d" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/828/spiderchairdrw.dxf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo3NzE0> .
+

@@ -1,0 +1,122 @@
+@prefix : <https://wikifactory.com/+uboopenfactory/tempiece/7c36d84bd34aea3c59c08bd13236fc2604245b2e/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Tempiece a okh:Module ;
+    rdfs:label "TEMPIECE" ;
+    okh:documentationLanguage "fr" ;
+    okh:function "C'est un petit thermomètre électronique avec un micro contrôleur et un capteur de température, il permet d'envoyer les données de température à un serveur web en wifi.auteur : Vincent Fredouillardannée : 2021licence : CC-BY-SA" ;
+    okh:hasComponent :Default,
+        :Nouvellepiece,
+        :Piecechargeur,
+        :Piecemanquante,
+        :Premier,
+        :Rackbox ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "Mathieu Cariou" ;
+    okh:organisation "UBO Open Factory" ;
+    okh:release <https://wikifactory.com/+uboopenfactory/tempiece/v/7c36d84> ;
+    okh:repo <https://wikifactory.com/+uboopenfactory/tempiece> ;
+    okh:repoHost "wikifactory.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:version "7c36d84bd34aea3c59c08bd13236fc2604245b2e" ;
+    okh:versionOf <https://wikifactory.com/+uboopenfactory/tempiece> .
+
+:Default a okh:Part ;
+    rdfs:label "default" ;
+    okh:documentationLanguage "fr" ;
+    okh:licensor "Vincent FREDOUILLARD " ;
+    okh:source :Default_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Default_source a okh:SourceFile ;
+    rdfs:label "Source File of default of TEMPIECE 7c36d84bd34aea3c59c08bd13236fc2604245b2e" ;
+    okh:fileFormat "SVG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/145193/default.svg> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjM5Mjc=> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of TEMPIECE 7c36d84bd34aea3c59c08bd13236fc2604245b2e" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/145193/img_2397-b0fc8.JPG> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjM5MDY=> .
+
+:Nouvellepiece a okh:Part ;
+    rdfs:label "nouvelle_piece" ;
+    okh:documentationLanguage "fr" ;
+    okh:licensor "Vincent FREDOUILLARD " ;
+    okh:source :Nouvellepiece_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Nouvellepiece_source a okh:SourceFile ;
+    rdfs:label "Source File of nouvelle_piece of TEMPIECE 7c36d84bd34aea3c59c08bd13236fc2604245b2e" ;
+    okh:fileFormat "SVG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/145193/nouvelle_piece.svg> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjQyMDI=> .
+
+:Piecechargeur a okh:Part ;
+    rdfs:label "piece_chargeur" ;
+    okh:documentationLanguage "fr" ;
+    okh:licensor "Vincent FREDOUILLARD " ;
+    okh:source :Piecechargeur_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Piecechargeur_source a okh:SourceFile ;
+    rdfs:label "Source File of piece_chargeur of TEMPIECE 7c36d84bd34aea3c59c08bd13236fc2604245b2e" ;
+    okh:fileFormat "SVG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/145193/piece_chargeur.svg> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjM5MzA=> .
+
+:Piecemanquante a okh:Part ;
+    rdfs:label "piece_manquante" ;
+    okh:documentationLanguage "fr" ;
+    okh:licensor "Vincent FREDOUILLARD " ;
+    okh:source :Piecemanquante_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Piecemanquante_source a okh:SourceFile ;
+    rdfs:label "Source File of piece_manquante of TEMPIECE 7c36d84bd34aea3c59c08bd13236fc2604245b2e" ;
+    okh:fileFormat "SVG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/145193/piece_manquante.svg> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjQyMDE=> .
+
+:Premier a okh:Part ;
+    rdfs:label "premier" ;
+    okh:documentationLanguage "fr" ;
+    okh:licensor "Vincent FREDOUILLARD " ;
+    okh:source :Premier_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Premier_source a okh:SourceFile ;
+    rdfs:label "Source File of premier of TEMPIECE 7c36d84bd34aea3c59c08bd13236fc2604245b2e" ;
+    okh:fileFormat "SVG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/145193/premier.svg> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjM5MjU=> .
+
+:Rackbox a okh:Part ;
+    rdfs:label "RackBox" ;
+    okh:documentationLanguage "fr" ;
+    okh:export :Rackbox_export1 ;
+    okh:licensor "Vincent FREDOUILLARD " ;
+    okh:source :Rackbox_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Rackbox_export1 a okh:ExportFile ;
+    rdfs:label "Export File of RackBox of TEMPIECE 7c36d84bd34aea3c59c08bd13236fc2604245b2e" ;
+    okh:fileFormat "SVG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/145193/rackbox-a3b5f.svg> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjM5Mjg=> .
+
+:Rackbox_source a okh:SourceFile ;
+    rdfs:label "Source File of RackBox of TEMPIECE 7c36d84bd34aea3c59c08bd13236fc2604245b2e" ;
+    okh:fileFormat "SVG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/145193/rackbox.svg> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjM5MjY=> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of TEMPIECE 7c36d84bd34aea3c59c08bd13236fc2604245b2e" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/145193/readme-dcfb1.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjU2MTk=> .
+

@@ -1,0 +1,44 @@
+@prefix : <https://wikifactory.com/@hackability/zoomografo/31ebea2233f8c7afc0a8c499024cba351f83ad4b/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Zoomografo a okh:Module ;
+    rdfs:label "Zoomografo" ;
+    okh:documentationLanguage "en" ;
+    okh:function "Zoomografo is a tool for visually impaired people. It zooms words and images without losing the thread of the sentence. The tool is 3Dprinted in a single pre-assembled and adjustable piece, equipped with light and wifi endoscopic camera that through a smartphone facilitates reading and writing." ;
+    okh:hasComponent :Zoomografohackability ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "Hackability" ;
+    okh:release <https://wikifactory.com/@hackability/zoomografo/v/31ebea2> ;
+    okh:repo <https://wikifactory.com/@hackability/zoomografo> ;
+    okh:repoHost "wikifactory.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:version "31ebea2233f8c7afc0a8c499024cba351f83ad4b" ;
+    okh:versionOf <https://wikifactory.com/@hackability/zoomografo> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Zoomografo 31ebea2233f8c7afc0a8c499024cba351f83ad4b" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1060/cover-image.jpg> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMTkzMw==> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of Zoomografo 31ebea2233f8c7afc0a8c499024cba351f83ad4b" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1060/readme-3.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMTk1Mg==> .
+
+:Zoomografohackability a okh:Part ;
+    rdfs:label "Zoomografo_Hackability" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Hackability" ;
+    okh:source :Zoomografohackability_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Zoomografohackability_source a okh:SourceFile ;
+    rdfs:label "Source File of Zoomografo_Hackability of Zoomografo 31ebea2233f8c7afc0a8c499024cba351f83ad4b" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1060/zoomografohackability.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMTk1MQ==> .
+

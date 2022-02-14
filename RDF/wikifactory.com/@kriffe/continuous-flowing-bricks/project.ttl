@@ -1,0 +1,65 @@
+@prefix : <https://wikifactory.com/@kriffe/continuous-flowing-bricks/01f1aaf89c9be2ee55e3d2c813e6f78e6192d13a/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ContinuousFlowingBricks a okh:Module ;
+    rdfs:label "Continuous flowing bricks" ;
+    okh:documentationLanguage "en" ;
+    okh:function "Experiment with continuous flowing bricks that can be 3D-printed and stacked (with some glue). Inspired by the late artist Erwin Hauer and his Modular constructivism" ;
+    okh:hasComponent :Flowingbricksv2,
+        :Pattern4x4 ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "Kristofer Skyttner" ;
+    okh:release <https://wikifactory.com/@kriffe/continuous-flowing-bricks/v/01f1aaf> ;
+    okh:repo <https://wikifactory.com/@kriffe/continuous-flowing-bricks> ;
+    okh:repoHost "wikifactory.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:version "01f1aaf89c9be2ee55e3d2c813e6f78e6192d13a" ;
+    okh:versionOf <https://wikifactory.com/@kriffe/continuous-flowing-bricks> .
+
+:Flowingbricksv2 a okh:Part ;
+    rdfs:label "Flowing_bricks_v2" ;
+    okh:documentationLanguage "en" ;
+    okh:export :Flowingbricksv2_export1 ;
+    okh:licensor "Kristofer Skyttner" ;
+    okh:source :Flowingbricksv2_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Flowingbricksv2_export1 a okh:ExportFile ;
+    rdfs:label "Export File of Flowing_bricks_v2 of Continuous flowing bricks 01f1aaf89c9be2ee55e3d2c813e6f78e6192d13a" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/23342/flowingbricksv2.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyMTU0OTA=> .
+
+:Flowingbricksv2_source a okh:SourceFile ;
+    rdfs:label "Source File of Flowing_bricks_v2 of Continuous flowing bricks 01f1aaf89c9be2ee55e3d2c813e6f78e6192d13a" ;
+    okh:fileFormat "STEP" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/23342/flowingbricksv2.step> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyMTU0OTE=> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Continuous flowing bricks 01f1aaf89c9be2ee55e3d2c813e6f78e6192d13a" ;
+    okh:fileFormat "PNG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/23342/patternofbricks-71f99.PNG> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyMTU0OTc=> .
+
+:Pattern4x4 a okh:Part ;
+    rdfs:label "Pattern_4x4" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Kristofer Skyttner" ;
+    okh:source :Pattern4x4_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Pattern4x4_source a okh:SourceFile ;
+    rdfs:label "Source File of Pattern_4x4 of Continuous flowing bricks 01f1aaf89c9be2ee55e3d2c813e6f78e6192d13a" ;
+    okh:fileFormat "STEP" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/23342/pattern4x4.step> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyMTU0OTI=> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of Continuous flowing bricks 01f1aaf89c9be2ee55e3d2c813e6f78e6192d13a" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/23342/readme.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyMTU0OTk=> .
+

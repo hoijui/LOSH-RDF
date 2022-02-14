@@ -1,0 +1,45 @@
+@prefix : <https://wikifactory.com/+fablabfabbulle/construire-une-catapulte/cc2b1df2afe56168d7e09aae108d0ab2fc771508/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ConstruireUneCatapulte a okh:Module ;
+    rdfs:label "Construire une catapulte" ;
+    okh:documentationLanguage "fr" ;
+    okh:function "Fabriquez une catapulte et découvrez le processus pour lancer la découpe laser d'un fichier déjà prêt. Concept: Obuq (designer - Ivo Rodrigues) CC-BYApprentissages : lancement de fichier, Job Control, démarrage de la machine, paramètres de découpe, focus, positionnement des matériaux" ;
+    okh:hasComponent :Catapulte ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "Jérôme Frédéric Bouchard" ;
+    okh:organisation "Fablab Fabbulle" ;
+    okh:release <https://wikifactory.com/+fablabfabbulle/construire-une-catapulte/v/cc2b1df> ;
+    okh:repo <https://wikifactory.com/+fablabfabbulle/construire-une-catapulte> ;
+    okh:repoHost "wikifactory.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:version "cc2b1df2afe56168d7e09aae108d0ab2fc771508" ;
+    okh:versionOf <https://wikifactory.com/+fablabfabbulle/construire-une-catapulte> .
+
+:Catapulte a okh:Part ;
+    rdfs:label "Catapulte" ;
+    okh:documentationLanguage "fr" ;
+    okh:licensor "Jérôme Frédéric Bouchard" ;
+    okh:source :Catapulte_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Catapulte_source a okh:SourceFile ;
+    rdfs:label "Source File of Catapulte of Construire une catapulte cc2b1df2afe56168d7e09aae108d0ab2fc771508" ;
+    okh:fileFormat "SVG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/50180/catapulte.svg> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozNjc0MTU=> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Construire une catapulte cc2b1df2afe56168d7e09aae108d0ab2fc771508" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/50180/catapulte-58568.jpg> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozNjczODI=> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of Construire une catapulte cc2b1df2afe56168d7e09aae108d0ab2fc771508" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/50180/readme-0ce44.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozNjc2MDY=> .
+

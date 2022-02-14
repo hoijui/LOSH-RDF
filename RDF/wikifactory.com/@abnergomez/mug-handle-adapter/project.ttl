@@ -1,0 +1,142 @@
+@prefix : <https://wikifactory.com/@abnergomez/mug-handle-adapter/1dd03a22bdf03166726889b8ffa370a764188733/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:MugHandleAdapter a okh:Module ;
+    rdfs:label "Mug Handle Adapter" ;
+    okh:documentationLanguage "en" ;
+    okh:function "A sure way to grab your favorite mug." ;
+    okh:hasComponent :Assembly,
+        :Bom,
+        :Bookletmdflex2,
+        :Ha001,
+        :Ha002,
+        :MugHandle,
+        :Safetoplaydesignchallengemethodology ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "Abner Gómez" ;
+    okh:release <https://wikifactory.com/@abnergomez/mug-handle-adapter/v/1dd03a2> ;
+    okh:repo <https://wikifactory.com/@abnergomez/mug-handle-adapter> ;
+    okh:repoHost "wikifactory.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:version "1dd03a22bdf03166726889b8ffa370a764188733" ;
+    okh:versionOf <https://wikifactory.com/@abnergomez/mug-handle-adapter> .
+
+:Assembly a okh:Part ;
+    rdfs:label "Assembly" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Abner Gómez" ;
+    okh:source :Assembly_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Assembly_source a okh:SourceFile ;
+    rdfs:label "Source File of Assembly of Mug Handle Adapter 1dd03a22bdf03166726889b8ffa370a764188733" ;
+    okh:fileFormat "SLDASM" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/63052/assembly.SLDASM> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTg4NjU=> .
+
+:Bom a okh:Part ;
+    rdfs:label "BOM" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Abner Gómez" ;
+    okh:source :Bom_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Bom_source a okh:SourceFile ;
+    rdfs:label "Source File of BOM of Mug Handle Adapter 1dd03a22bdf03166726889b8ffa370a764188733" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/63052/bom.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTg4NTA=> .
+
+:Bookletmdflex2 a okh:Part ;
+    rdfs:label "booklet__MDflex2" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Abner Gómez" ;
+    okh:source :Bookletmdflex2_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Bookletmdflex2_source a okh:SourceFile ;
+    rdfs:label "Source File of booklet__MDflex2 of Mug Handle Adapter 1dd03a22bdf03166726889b8ffa370a764188733" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/63052/booklet__mdflex2.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTg4NTk=> .
+
+:Ha001 a okh:Part ;
+    rdfs:label "HA001" ;
+    okh:documentationLanguage "en" ;
+    okh:export :Ha001_export1 ;
+    okh:licensor "Abner Gómez" ;
+    okh:source :Ha001_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Ha001_export1 a okh:ExportFile ;
+    rdfs:label "Export File of HA001 of Mug Handle Adapter 1dd03a22bdf03166726889b8ffa370a764188733" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/63052/ha001.STL> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTg4Nzg=> .
+
+:Ha001_source a okh:SourceFile ;
+    rdfs:label "Source File of HA001 of Mug Handle Adapter 1dd03a22bdf03166726889b8ffa370a764188733" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/63052/ha001.SLDPRT> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTg4NjQ=> .
+
+:Ha002 a okh:Part ;
+    rdfs:label "HA002" ;
+    okh:documentationLanguage "en" ;
+    okh:export :Ha002_export1 ;
+    okh:licensor "Abner Gómez" ;
+    okh:source :Ha002_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Ha002_export1 a okh:ExportFile ;
+    rdfs:label "Export File of HA002 of Mug Handle Adapter 1dd03a22bdf03166726889b8ffa370a764188733" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/63052/ha002.STL> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTg4NzY=> .
+
+:Ha002_source a okh:SourceFile ;
+    rdfs:label "Source File of HA002 of Mug Handle Adapter 1dd03a22bdf03166726889b8ffa370a764188733" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/63052/mug_handle_2.SLDPRT> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTg4NjM=> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Mug Handle Adapter 1dd03a22bdf03166726889b8ffa370a764188733" ;
+    okh:fileFormat "PNG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/63052/untitled_13-cba55.png> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTg4NDM=> .
+
+:MugHandle a okh:Part ;
+    rdfs:label "Mug Handle" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Abner Gómez" ;
+    okh:source :MugHandle_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:MugHandle_source a okh:SourceFile ;
+    rdfs:label "Source File of Mug Handle of Mug Handle Adapter 1dd03a22bdf03166726889b8ffa370a764188733" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/63052/mug_handle.PDF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTg4OTE=> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of Mug Handle Adapter 1dd03a22bdf03166726889b8ffa370a764188733" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/63052/readme-b661f.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0MDA2MzM=> .
+
+:Safetoplaydesignchallengemethodology a okh:Part ;
+    rdfs:label "SafeToPlay_Design_Challenge_Methodology" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Abner Gómez" ;
+    okh:source :Safetoplaydesignchallengemethodology_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Safetoplaydesignchallengemethodology_source a okh:SourceFile ;
+    rdfs:label "Source File of SafeToPlay_Design_Challenge_Methodology of Mug Handle Adapter 1dd03a22bdf03166726889b8ffa370a764188733" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/63052/safetoplay_design_challenge_methodology.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0MDI2NTU=> .
+

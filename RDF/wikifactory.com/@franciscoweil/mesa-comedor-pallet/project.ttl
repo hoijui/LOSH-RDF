@@ -1,0 +1,58 @@
+@prefix : <https://wikifactory.com/@franciscoweil/mesa-comedor-pallet/4945af56d30d04f2c14ce08a3d4a12601636a9ed/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:MesaComedorPallet a okh:Module ;
+    rdfs:label "Mesa comedor Pallet" ;
+    okh:documentationLanguage "es" ;
+    okh:function "Manual Constructivo en Pallet es un proyecto que toma la oportunidad de reutilización de pallets, dentro de la comunidad de Diego de Almagro, para diseñar el paso a paso de 5 mobiliarios con el fin de que sus habitantes puedan autoconstruirlos." ;
+    okh:hasComponent :ManualMesa01,
+        :Modelomesa ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "Francisco Weil" ;
+    okh:release <https://wikifactory.com/@franciscoweil/mesa-comedor-pallet/v/4945af5> ;
+    okh:repo <https://wikifactory.com/@franciscoweil/mesa-comedor-pallet> ;
+    okh:repoHost "wikifactory.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:version "4945af56d30d04f2c14ce08a3d4a12601636a9ed" ;
+    okh:versionOf <https://wikifactory.com/@franciscoweil/mesa-comedor-pallet> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Mesa comedor Pallet 4945af56d30d04f2c14ce08a3d4a12601636a9ed" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/115572/mesa_13-4ef76.JPG> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1MjY5MDI=> .
+
+:ManualMesa01 a okh:Part ;
+    rdfs:label "Manual Mesa_01" ;
+    okh:documentationLanguage "es" ;
+    okh:licensor "Francisco Weil" ;
+    okh:source :ManualMesa01_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:ManualMesa01_source a okh:SourceFile ;
+    rdfs:label "Source File of Manual Mesa_01 of Mesa comedor Pallet 4945af56d30d04f2c14ce08a3d4a12601636a9ed" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/115572/m_mesa_1801.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1MjQ2NTA=> .
+
+:Modelomesa a okh:Part ;
+    rdfs:label "Modelo_mesa" ;
+    okh:documentationLanguage "es" ;
+    okh:licensor "Francisco Weil" ;
+    okh:source :Modelomesa_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Modelomesa_source a okh:SourceFile ;
+    rdfs:label "Source File of Modelo_mesa of Mesa comedor Pallet 4945af56d30d04f2c14ce08a3d4a12601636a9ed" ;
+    okh:fileFormat "3DM" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/115572/modelo_mesa.3dm> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1MjQ0NDg=> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of Mesa comedor Pallet 4945af56d30d04f2c14ce08a3d4a12601636a9ed" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/115572/readme-a7858.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1MjY5MzU=> .
+

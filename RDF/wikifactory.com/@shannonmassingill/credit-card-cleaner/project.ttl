@@ -1,0 +1,72 @@
+@prefix : <https://wikifactory.com/@shannonmassingill/credit-card-cleaner/d3f1b640be0327dd32decd5bf56de39f8cc8fef5/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:CreditCardCleaner a okh:Module ;
+    rdfs:label "Credit Card Cleaner" ;
+    okh:documentationLanguage "en" ;
+    okh:function "From getting supplies to paying for equipment, paying is part of playing. In our new reality, how do we keep our credit cards clean? This keychain allows you to easily clean your credit card so you are #safetoplay" ;
+    okh:hasComponent :Cccleaner,
+        :Cccleanerplastic,
+        :Cccleanerrubber ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "shannonmassingill" ;
+    okh:release <https://wikifactory.com/@shannonmassingill/credit-card-cleaner/v/d3f1b64> ;
+    okh:repo <https://wikifactory.com/@shannonmassingill/credit-card-cleaner> ;
+    okh:repoHost "wikifactory.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/MIT> ;
+    okh:version "d3f1b640be0327dd32decd5bf56de39f8cc8fef5" ;
+    okh:versionOf <https://wikifactory.com/@shannonmassingill/credit-card-cleaner> .
+
+:Cccleaner a okh:Part ;
+    rdfs:label "CCCleaner" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "shannonmassingill" ;
+    okh:source :Cccleaner_source ;
+    okh:spdxLicense <https://spdx.org/licenses/MIT> .
+
+:Cccleaner_source a okh:SourceFile ;
+    rdfs:label "Source File of CCCleaner of Credit Card Cleaner d3f1b640be0327dd32decd5bf56de39f8cc8fef5" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/59994/cccleaner.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozODYxOTg=> .
+
+:Cccleanerplastic a okh:Part ;
+    rdfs:label "CCCleaner_plastic" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "shannonmassingill" ;
+    okh:source :Cccleanerplastic_source ;
+    okh:spdxLicense <https://spdx.org/licenses/MIT> .
+
+:Cccleanerplastic_source a okh:SourceFile ;
+    rdfs:label "Source File of CCCleaner_plastic of Credit Card Cleaner d3f1b640be0327dd32decd5bf56de39f8cc8fef5" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/59994/cccleaner_plastic.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozODQ1Njg=> .
+
+:Cccleanerrubber a okh:Part ;
+    rdfs:label "CCCleaner_rubber" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "shannonmassingill" ;
+    okh:source :Cccleanerrubber_source ;
+    okh:spdxLicense <https://spdx.org/licenses/MIT> .
+
+:Cccleanerrubber_source a okh:SourceFile ;
+    rdfs:label "Source File of CCCleaner_rubber of Credit Card Cleaner d3f1b640be0327dd32decd5bf56de39f8cc8fef5" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/59994/cccleaner_rubber.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozODQ1NzA=> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Credit Card Cleaner d3f1b640be0327dd32decd5bf56de39f8cc8fef5" ;
+    okh:fileFormat "PNG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/59994/annotation_2020-06-22_214305.png> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozODg1OTA=> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of Credit Card Cleaner d3f1b640be0327dd32decd5bf56de39f8cc8fef5" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/59994/readme-2dc04.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozODg2MDQ=> .
+

@@ -1,0 +1,198 @@
+@prefix : <https://wikifactory.com/@schmidtbytes/contactless-sweets/aed087dcef5122e9d0e34a10de542f21d94f2727/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ContactlessSweets a okh:Module ;
+    rdfs:label "Contactless Sweets" ;
+    okh:documentationLanguage "en" ;
+    okh:function "This is an arduino based sweets dispenser that woks with distance sensors instead of buttons." ;
+    okh:hasComponent :Sweetdispenser,
+        :Sweetdispenseracrylicrot,
+        :Sweetdispenserbottommount,
+        :Sweetdispenserfunnel,
+        :Sweetdispenserfunnel1,
+        :Sweetdispenserfunnelholder,
+        :Sweetdispenserhandmountleftpt1,
+        :Sweetdispenserhandmountleftpt2,
+        :Sweetdispenserhandrot,
+        :Sweetdispenserpusher,
+        :Sweetdispenserrot,
+        :Sweetdispensertopmount ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "SchmidtBytes" ;
+    okh:release <https://wikifactory.com/@schmidtbytes/contactless-sweets/v/aed087d> ;
+    okh:repo <https://wikifactory.com/@schmidtbytes/contactless-sweets> ;
+    okh:repoHost "wikifactory.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:version "aed087dcef5122e9d0e34a10de542f21d94f2727" ;
+    okh:versionOf <https://wikifactory.com/@schmidtbytes/contactless-sweets> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Contactless Sweets aed087dcef5122e9d0e34a10de542f21d94f2727" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/66467/20200705_161327.jpg> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0MDM2OTU=> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of Contactless Sweets aed087dcef5122e9d0e34a10de542f21d94f2727" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/66467/readme-c19e7.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0MTEyMjA=> .
+
+:Sweetdispenser a okh:Part ;
+    rdfs:label "Sweet_Dispenser" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "SchmidtBytes" ;
+    okh:source :Sweetdispenser_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Sweetdispenser_source a okh:SourceFile ;
+    rdfs:label "Source File of Sweet_Dispenser of Contactless Sweets aed087dcef5122e9d0e34a10de542f21d94f2727" ;
+    okh:fileFormat "SCAD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/66467/sweet_dispenser-55490.scad> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0MDMxNDM=> .
+
+:Sweetdispenseracrylicrot a okh:Part ;
+    rdfs:label "Sweet_Dispenser_acrylic_rot" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "SchmidtBytes" ;
+    okh:source :Sweetdispenseracrylicrot_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Sweetdispenseracrylicrot_source a okh:SourceFile ;
+    rdfs:label "Source File of Sweet_Dispenser_acrylic_rot of Contactless Sweets aed087dcef5122e9d0e34a10de542f21d94f2727" ;
+    okh:fileFormat "SVG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/66467/sweet_dispenser_acrylic_rot.svg> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0MDMzMTE=> .
+
+:Sweetdispenserbottommount a okh:Part ;
+    rdfs:label "Sweet_Dispenser_bottom_mount" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "SchmidtBytes" ;
+    okh:source :Sweetdispenserbottommount_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Sweetdispenserbottommount_source a okh:SourceFile ;
+    rdfs:label "Source File of Sweet_Dispenser_bottom_mount of Contactless Sweets aed087dcef5122e9d0e34a10de542f21d94f2727" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/66467/sweet_dispenser_bottom_mount-6b59c.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0MDI5NTE=> .
+
+:Sweetdispenserfunnel a okh:Part ;
+    rdfs:label "Sweet_Dispenser_funnel" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "SchmidtBytes" ;
+    okh:source :Sweetdispenserfunnel_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Sweetdispenserfunnel1 a okh:Part ;
+    rdfs:label "Sweet_Dispenser_funnel_1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "SchmidtBytes" ;
+    okh:source :Sweetdispenserfunnel1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Sweetdispenserfunnel1_source a okh:SourceFile ;
+    rdfs:label "Source File of Sweet_Dispenser_funnel_1 of Contactless Sweets aed087dcef5122e9d0e34a10de542f21d94f2727" ;
+    okh:fileFormat "SVG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/66467/sweet_dispenser_funnel_1-cb12b.svg> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0MDM0MDU=> .
+
+:Sweetdispenserfunnel_source a okh:SourceFile ;
+    rdfs:label "Source File of Sweet_Dispenser_funnel of Contactless Sweets aed087dcef5122e9d0e34a10de542f21d94f2727" ;
+    okh:fileFormat "SVG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/66467/sweet_dispenser_funnel.svg> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0MDIwOTY=> .
+
+:Sweetdispenserfunnelholder a okh:Part ;
+    rdfs:label "Sweet_Dispenser_funnel_holder" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "SchmidtBytes" ;
+    okh:source :Sweetdispenserfunnelholder_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Sweetdispenserfunnelholder_source a okh:SourceFile ;
+    rdfs:label "Source File of Sweet_Dispenser_funnel_holder of Contactless Sweets aed087dcef5122e9d0e34a10de542f21d94f2727" ;
+    okh:fileFormat "SVG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/66467/sweet_dispenser_funnel_holder.svg> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0MDIwNjg=> .
+
+:Sweetdispenserhandmountleftpt1 a okh:Part ;
+    rdfs:label "Sweet_Dispenser_hand_mount_left_pt1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "SchmidtBytes" ;
+    okh:source :Sweetdispenserhandmountleftpt1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Sweetdispenserhandmountleftpt1_source a okh:SourceFile ;
+    rdfs:label "Source File of Sweet_Dispenser_hand_mount_left_pt1 of Contactless Sweets aed087dcef5122e9d0e34a10de542f21d94f2727" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/66467/sweet_dispenser_hand_mount_left_pt1.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0MDIwNTY=> .
+
+:Sweetdispenserhandmountleftpt2 a okh:Part ;
+    rdfs:label "Sweet_Dispenser_hand_mount_left_pt2" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "SchmidtBytes" ;
+    okh:source :Sweetdispenserhandmountleftpt2_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Sweetdispenserhandmountleftpt2_source a okh:SourceFile ;
+    rdfs:label "Source File of Sweet_Dispenser_hand_mount_left_pt2 of Contactless Sweets aed087dcef5122e9d0e34a10de542f21d94f2727" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/66467/sweet_dispenser_hand_mount_left_pt2.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0MDIwMzQ=> .
+
+:Sweetdispenserhandrot a okh:Part ;
+    rdfs:label "Sweet_Dispenser_hand_rot" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "SchmidtBytes" ;
+    okh:source :Sweetdispenserhandrot_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Sweetdispenserhandrot_source a okh:SourceFile ;
+    rdfs:label "Source File of Sweet_Dispenser_hand_rot of Contactless Sweets aed087dcef5122e9d0e34a10de542f21d94f2727" ;
+    okh:fileFormat "SVG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/66467/sweet_dispenser_hand_rot.svg> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0MDMzNjU=> .
+
+:Sweetdispenserpusher a okh:Part ;
+    rdfs:label "Sweet_Dispenser_Pusher" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "SchmidtBytes" ;
+    okh:source :Sweetdispenserpusher_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Sweetdispenserpusher_source a okh:SourceFile ;
+    rdfs:label "Source File of Sweet_Dispenser_Pusher of Contactless Sweets aed087dcef5122e9d0e34a10de542f21d94f2727" ;
+    okh:fileFormat "SVG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/66467/sweet_dispenser_pusher-e03f4.svg> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0MDMzMDc=> .
+
+:Sweetdispenserrot a okh:Part ;
+    rdfs:label "Sweet_Dispenser_rot" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "SchmidtBytes" ;
+    okh:source :Sweetdispenserrot_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Sweetdispenserrot_source a okh:SourceFile ;
+    rdfs:label "Source File of Sweet_Dispenser_rot of Contactless Sweets aed087dcef5122e9d0e34a10de542f21d94f2727" ;
+    okh:fileFormat "SVG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/66467/sweet_dispenser_rot.svg> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0MDMzMDg=> .
+
+:Sweetdispensertopmount a okh:Part ;
+    rdfs:label "Sweet_Dispenser_top_mount" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "SchmidtBytes" ;
+    okh:source :Sweetdispensertopmount_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Sweetdispensertopmount_source a okh:SourceFile ;
+    rdfs:label "Source File of Sweet_Dispenser_top_mount of Contactless Sweets aed087dcef5122e9d0e34a10de542f21d94f2727" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/66467/sweet_dispenser_top_mount.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0MDIwNTk=> .
+

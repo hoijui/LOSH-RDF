@@ -1,0 +1,275 @@
+@prefix : <https://wikifactory.com/@botler/miniskybot-v2/371ab350b2ba38621d17319cd26ecf30dfd6aeaa/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Miniskybot a okh:Module ;
+    rdfs:label "Miniskybot" ;
+    okh:documentationLanguage "en" ;
+    okh:function "Miniskybot is a mobile robot aimed for educational purposes, 3D-printable on low cost reprap-like machines, fully open source (including mechanics and electronics), and designed exclusively with open source tools. Project developed by Obijuan" ;
+    okh:hasComponent :Batteryholder,
+        :Batteryholderdoc,
+        :Chassis,
+        :Chassisdoc,
+        :Configuration,
+        :Fakeultrasound,
+        :Functions,
+        :Futabadoc,
+        :Main,
+        :Miniskybotv2,
+        :Miniskybotv2explodedviewdrawing,
+        :Parameterizedbatteryholder,
+        :Servowheel,
+        :Servowheel4armhorn,
+        :Servowheel6armhorn,
+        :Servowheelroundedhorn,
+        :Servowheelsdoc ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "James Botler" ;
+    okh:release <https://wikifactory.com/@botler/miniskybot-v2/v/371ab35> ;
+    okh:repo <https://wikifactory.com/@botler/miniskybot-v2> ;
+    okh:repoHost "wikifactory.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:version "371ab350b2ba38621d17319cd26ecf30dfd6aeaa" ;
+    okh:versionOf <https://wikifactory.com/@botler/miniskybot-v2> .
+
+:Batteryholder a okh:Part ;
+    rdfs:label "battery_holder" ;
+    okh:documentationLanguage "en" ;
+    okh:export :Batteryholder_export1 ;
+    okh:licensor "James Botler" ;
+    okh:source :Batteryholder_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Batteryholder_export1 a okh:ExportFile ;
+    rdfs:label "Export File of battery_holder of Miniskybot 371ab350b2ba38621d17319cd26ecf30dfd6aeaa" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/623/batteryholder.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozODM2> .
+
+:Batteryholder_source a okh:SourceFile ;
+    rdfs:label "Source File of battery_holder of Miniskybot 371ab350b2ba38621d17319cd26ecf30dfd6aeaa" ;
+    okh:fileFormat "SCAD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/623/batteryholder.scad> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozODQy> .
+
+:Batteryholderdoc a okh:Part ;
+    rdfs:label "Battery-holder-doc" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :Batteryholderdoc_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Batteryholderdoc_source a okh:SourceFile ;
+    rdfs:label "Source File of Battery-holder-doc of Miniskybot 371ab350b2ba38621d17319cd26ecf30dfd6aeaa" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/623/battery-holder-doc.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozODMx> .
+
+:Chassis a okh:Part ;
+    rdfs:label "chassis" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :Chassis_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Chassis_source a okh:SourceFile ;
+    rdfs:label "Source File of chassis of Miniskybot 371ab350b2ba38621d17319cd26ecf30dfd6aeaa" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/623/chassis.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozODMz> .
+
+:Chassisdoc a okh:Part ;
+    rdfs:label "chassis-doc" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :Chassisdoc_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Chassisdoc_source a okh:SourceFile ;
+    rdfs:label "Source File of chassis-doc of Miniskybot 371ab350b2ba38621d17319cd26ecf30dfd6aeaa" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/623/chassis-doc.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozODI5> .
+
+:Configuration a okh:Part ;
+    rdfs:label "configuration" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :Configuration_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Configuration_source a okh:SourceFile ;
+    rdfs:label "Source File of configuration of Miniskybot 371ab350b2ba38621d17319cd26ecf30dfd6aeaa" ;
+    okh:fileFormat "SCAD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/623/configuration.scad> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozODQx> .
+
+:Fakeultrasound a okh:Part ;
+    rdfs:label "fake_ultrasound" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :Fakeultrasound_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Fakeultrasound_source a okh:SourceFile ;
+    rdfs:label "Source File of fake_ultrasound of Miniskybot 371ab350b2ba38621d17319cd26ecf30dfd6aeaa" ;
+    okh:fileFormat "SCAD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/623/fakeultrasound.scad> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozODM5> .
+
+:Functions a okh:Part ;
+    rdfs:label "functions" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :Functions_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Functions_source a okh:SourceFile ;
+    rdfs:label "Source File of functions of Miniskybot 371ab350b2ba38621d17319cd26ecf30dfd6aeaa" ;
+    okh:fileFormat "SCAD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/623/functions.scad> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozODM4> .
+
+:Futabadoc a okh:Part ;
+    rdfs:label "Futaba-doc" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :Futabadoc_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Futabadoc_source a okh:SourceFile ;
+    rdfs:label "Source File of Futaba-doc of Miniskybot 371ab350b2ba38621d17319cd26ecf30dfd6aeaa" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/623/futaba-doc.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozODMw> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Miniskybot 371ab350b2ba38621d17319cd26ecf30dfd6aeaa" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/623/miniskybot.jpg> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozODU0> .
+
+:Main a okh:Part ;
+    rdfs:label "main" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :Main_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Main_source a okh:SourceFile ;
+    rdfs:label "Source File of main of Miniskybot 371ab350b2ba38621d17319cd26ecf30dfd6aeaa" ;
+    okh:fileFormat "SCAD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/623/main.scad> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozODQw> .
+
+:Miniskybotv2 a okh:Part ;
+    rdfs:label "Mini-skybot-v2" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :Miniskybotv2_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Miniskybotv2_source a okh:SourceFile ;
+    rdfs:label "Source File of Mini-skybot-v2 of Miniskybot 371ab350b2ba38621d17319cd26ecf30dfd6aeaa" ;
+    okh:fileFormat "FCSTD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/623/mini-skybot-v2.fcstd> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozODI0> .
+
+:Miniskybotv2explodedviewdrawing a okh:Part ;
+    rdfs:label "Mini-skybot-v2-exploded_view_drawing" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :Miniskybotv2explodedviewdrawing_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Miniskybotv2explodedviewdrawing_source a okh:SourceFile ;
+    rdfs:label "Source File of Mini-skybot-v2-exploded_view_drawing of Miniskybot 371ab350b2ba38621d17319cd26ecf30dfd6aeaa" ;
+    okh:fileFormat "FCSTD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/623/mini-skybot-v2-explodedviewdrawing.fcstd> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozODIz> .
+
+:Parameterizedbatteryholder a okh:Part ;
+    rdfs:label "Parameterized_battery_holder" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :Parameterizedbatteryholder_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Parameterizedbatteryholder_source a okh:SourceFile ;
+    rdfs:label "Source File of Parameterized_battery_holder of Miniskybot 371ab350b2ba38621d17319cd26ecf30dfd6aeaa" ;
+    okh:fileFormat "SCAD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/623/parameterizedbatteryholder.scad> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozODQ0> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of Miniskybot 371ab350b2ba38621d17319cd26ecf30dfd6aeaa" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/623/readme-10.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0Nzg0> .
+
+:Servowheel a okh:Part ;
+    rdfs:label "Servo-wheel" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :Servowheel_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Servowheel4armhorn a okh:Part ;
+    rdfs:label "Servo-wheel-4-arm-horn" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :Servowheel4armhorn_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Servowheel4armhorn_source a okh:SourceFile ;
+    rdfs:label "Source File of Servo-wheel-4-arm-horn of Miniskybot 371ab350b2ba38621d17319cd26ecf30dfd6aeaa" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/623/servo-wheel-4-arm-horn.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozODM3> .
+
+:Servowheel6armhorn a okh:Part ;
+    rdfs:label "Servo-wheel-6-arm-horn" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :Servowheel6armhorn_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Servowheel6armhorn_source a okh:SourceFile ;
+    rdfs:label "Source File of Servo-wheel-6-arm-horn of Miniskybot 371ab350b2ba38621d17319cd26ecf30dfd6aeaa" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/623/servo-wheel-6-arm-horn.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozODM1> .
+
+:Servowheel_source a okh:SourceFile ;
+    rdfs:label "Source File of Servo-wheel of Miniskybot 371ab350b2ba38621d17319cd26ecf30dfd6aeaa" ;
+    okh:fileFormat "SCAD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/623/servo-wheel.scad> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozODQz> .
+
+:Servowheelroundedhorn a okh:Part ;
+    rdfs:label "Servo-wheel-rounded-horn" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :Servowheelroundedhorn_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Servowheelroundedhorn_source a okh:SourceFile ;
+    rdfs:label "Source File of Servo-wheel-rounded-horn of Miniskybot 371ab350b2ba38621d17319cd26ecf30dfd6aeaa" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/623/servo-wheel-rounded-horn.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozODM0> .
+
+:Servowheelsdoc a okh:Part ;
+    rdfs:label "servo-wheels-doc" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :Servowheelsdoc_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Servowheelsdoc_source a okh:SourceFile ;
+    rdfs:label "Source File of servo-wheels-doc of Miniskybot 371ab350b2ba38621d17319cd26ecf30dfd6aeaa" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/623/servo-wheels-doc.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozODI4> .
+

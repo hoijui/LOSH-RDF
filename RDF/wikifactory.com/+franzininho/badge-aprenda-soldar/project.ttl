@@ -1,0 +1,101 @@
+@prefix : <https://wikifactory.com/+franzininho/badge-aprenda-soldar/1750f422e9a759af555fa2c886cfea9cbce70593/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:BadgeAprendaSoldar a okh:Module ;
+    rdfs:label "Badge Aprenda Soldar" ;
+    okh:documentationLanguage "pt" ;
+    okh:function "O badge Aprenda Soldar foi desenvolvido para oficinas de solda onde os participantes dão os primeiros passos com o uso de ferramentas e no conhecimento dos componentes eletrônicos e circuito da placa. Com poucos componentes, esse badge permite que qualquer pessoa aprenda a soldar e se divertir." ;
+    okh:hasComponent :Badge00,
+        :Badge0020180801114902,
+        :Schematic ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "Fabio Souza" ;
+    okh:organisation "Franzininho" ;
+    okh:release <https://wikifactory.com/+franzininho/badge-aprenda-soldar/v/1750f42> ;
+    okh:repo <https://wikifactory.com/+franzininho/badge-aprenda-soldar> ;
+    okh:repoHost "wikifactory.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:version "1750f422e9a759af555fa2c886cfea9cbce70593" ;
+    okh:versionOf <https://wikifactory.com/+franzininho/badge-aprenda-soldar> .
+
+:Badge00 a okh:Part ;
+    rdfs:label "badge00" ;
+    okh:documentationLanguage "pt" ;
+    okh:export :Badge00_export1,
+        :Badge00_export2,
+        :Badge00_export3 ;
+    okh:licensor "Fabio Souza" ;
+    okh:source :Badge00_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Badge0020180801114902 a okh:Part ;
+    rdfs:label "badge00-2018-08-01-11-49-02" ;
+    okh:documentationLanguage "pt" ;
+    okh:export :Badge0020180801114902_export1 ;
+    okh:licensor "Fabio Souza" ;
+    okh:source :Badge0020180801114902_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Badge0020180801114902_export1 a okh:ExportFile ;
+    rdfs:label "Export File of badge00-2018-08-01-11-49-02 of Badge Aprenda Soldar 1750f422e9a759af555fa2c886cfea9cbce70593" ;
+    okh:fileFormat "SCH" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/30531/badge00-2018-08-01-11-49-02.sch> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyODc3MDM=> .
+
+:Badge0020180801114902_source a okh:SourceFile ;
+    rdfs:label "Source File of badge00-2018-08-01-11-49-02 of Badge Aprenda Soldar 1750f422e9a759af555fa2c886cfea9cbce70593" ;
+    okh:fileFormat "PRO" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/30531/badge00-2018-08-01-11-49-02.pro> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyODc3MDE=> .
+
+:Badge00_export1 a okh:ExportFile ;
+    rdfs:label "Export File of badge00 of Badge Aprenda Soldar 1750f422e9a759af555fa2c886cfea9cbce70593" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/30531/badge00.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyODc3MDQ=> .
+
+:Badge00_export2 a okh:ExportFile ;
+    rdfs:label "Export File of badge00 of Badge Aprenda Soldar 1750f422e9a759af555fa2c886cfea9cbce70593" ;
+    okh:fileFormat "PRO" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/30531/badge00.pro> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyODc3MDU=> .
+
+:Badge00_export3 a okh:ExportFile ;
+    rdfs:label "Export File of badge00 of Badge Aprenda Soldar 1750f422e9a759af555fa2c886cfea9cbce70593" ;
+    okh:fileFormat "SCH" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/30531/badge00.sch> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyODc3MTY=> .
+
+:Badge00_source a okh:SourceFile ;
+    rdfs:label "Source File of badge00 of Badge Aprenda Soldar 1750f422e9a759af555fa2c886cfea9cbce70593" ;
+    okh:fileFormat "KICAD_PCB" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/30531/badge00.kicad_pcb> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyODc2OTI=> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Badge Aprenda Soldar 1750f422e9a759af555fa2c886cfea9cbce70593" ;
+    okh:fileFormat "JPEG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/30531/00.jpeg> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyODc2ODc=> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of Badge Aprenda Soldar 1750f422e9a759af555fa2c886cfea9cbce70593" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/30531/readme-61780.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyODc3NzA=> .
+
+:Schematic a okh:Part ;
+    rdfs:label "schematic" ;
+    okh:documentationLanguage "pt" ;
+    okh:licensor "Fabio Souza" ;
+    okh:source :Schematic_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Schematic_source a okh:SourceFile ;
+    rdfs:label "Source File of schematic of Badge Aprenda Soldar 1750f422e9a759af555fa2c886cfea9cbce70593" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/30531/schematic.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyODc3Mzc=> .
+

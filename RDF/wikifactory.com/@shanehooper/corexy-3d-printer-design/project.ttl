@@ -1,0 +1,353 @@
+@prefix : <https://wikifactory.com/@shanehooper/corexy-3d-printer-design/9910ee69f98f9f8906c4ac77cfa4d886e0402038/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Corexy3dPrinterDesign a okh:Module ;
+    rdfs:label "CoreXY 3D Printer Design" ;
+    okh:documentationLanguage "en" ;
+    okh:function "The SolidCore CoreXY is designed to be a highspeed workhorse for repeated use.  Our long term goal is to is to build a modular platform, not just a printer. Think of it as an ecosystem of parts that can be arranged in different configurations and adapted for unique applications." ;
+    okh:hasComponent :Bedmagnet,
+        :Carriageclip,
+        :Corexyexplained,
+        :Corneridlerplate,
+        :Cornerplatestoolchanger,
+        :Hotendmount,
+        :Idlerplate,
+        :Motormountwithsquareflange,
+        :Motorplate20mmgates,
+        :Newidlerplategates,
+        :Solidcorebltouchhotendmount,
+        :Solidcorecorexy3dprinter,
+        :Xcarriage,
+        :Ycarriage,
+        :Zaxislbracket ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "Shane Hooper" ;
+    okh:release <https://wikifactory.com/@shanehooper/corexy-3d-printer-design/v/9910ee6> ;
+    okh:repo <https://wikifactory.com/@shanehooper/corexy-3d-printer-design> ;
+    okh:repoHost "wikifactory.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:version "9910ee69f98f9f8906c4ac77cfa4d886e0402038" ;
+    okh:versionOf <https://wikifactory.com/@shanehooper/corexy-3d-printer-design> .
+
+:Bedmagnet a okh:Part ;
+    rdfs:label "Bed_Magnet_" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Shane Hooper" ;
+    okh:source :Bedmagnet_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Bedmagnet_source a okh:SourceFile ;
+    rdfs:label "Source File of Bed_Magnet_ of CoreXY 3D Printer Design 9910ee69f98f9f8906c4ac77cfa4d886e0402038" ;
+    okh:fileFormat "STEP" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/120757/bed_magnet_.step> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1MzI0OTM=> .
+
+:Carriageclip a okh:Part ;
+    rdfs:label "Carriage_Clip" ;
+    okh:documentationLanguage "en" ;
+    okh:export :Carriageclip_export1 ;
+    okh:image :Carriageclip_image ;
+    okh:licensor "Shane Hooper" ;
+    okh:source :Carriageclip_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Carriageclip_export1 a okh:ExportFile ;
+    rdfs:label "Export File of Carriage_Clip of CoreXY 3D Printer Design 9910ee69f98f9f8906c4ac77cfa4d886e0402038" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/120757/carriage_clip.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1MzI0OTE=> .
+
+:Carriageclip_image a okh:Image ;
+    rdfs:label "Image of Carriage_Clip of CoreXY 3D Printer Design 9910ee69f98f9f8906c4ac77cfa4d886e0402038" ;
+    okh:fileFormat "PNG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/120757/carriage_clip.png> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1MzI1NTQ=> .
+
+:Carriageclip_source a okh:SourceFile ;
+    rdfs:label "Source File of Carriage_Clip of CoreXY 3D Printer Design 9910ee69f98f9f8906c4ac77cfa4d886e0402038" ;
+    okh:fileFormat "STEP" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/120757/carriage_clip.step> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1MzI0OTI=> .
+
+:Corexyexplained a okh:Part ;
+    rdfs:label "CoreXY_Explained" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Shane Hooper" ;
+    okh:source :Corexyexplained_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Corexyexplained_source a okh:SourceFile ;
+    rdfs:label "Source File of CoreXY_Explained of CoreXY 3D Printer Design 9910ee69f98f9f8906c4ac77cfa4d886e0402038" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/120757/corexy_explained.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1MzI1MTY=> .
+
+:Corneridlerplate a okh:Part ;
+    rdfs:label "Corner_Idler_Plate" ;
+    okh:documentationLanguage "en" ;
+    okh:image :Corneridlerplate_image ;
+    okh:licensor "Shane Hooper" ;
+    okh:source :Corneridlerplate_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Corneridlerplate_image a okh:Image ;
+    rdfs:label "Image of Corner_Idler_Plate of CoreXY 3D Printer Design 9910ee69f98f9f8906c4ac77cfa4d886e0402038" ;
+    okh:fileFormat "PNG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/120757/corner_idler_plate.png> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1MzI1NDk=> .
+
+:Corneridlerplate_source a okh:SourceFile ;
+    rdfs:label "Source File of Corner_Idler_Plate of CoreXY 3D Printer Design 9910ee69f98f9f8906c4ac77cfa4d886e0402038" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/120757/corner_idler_plate.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1MzI1MTU=> .
+
+:Cornerplatestoolchanger a okh:Part ;
+    rdfs:label "Corner_Plates_Toolchanger" ;
+    okh:documentationLanguage "en" ;
+    okh:image :Cornerplatestoolchanger_image ;
+    okh:licensor "Shane Hooper" ;
+    okh:source :Cornerplatestoolchanger_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Cornerplatestoolchanger_image a okh:Image ;
+    rdfs:label "Image of Corner_Plates_Toolchanger of CoreXY 3D Printer Design 9910ee69f98f9f8906c4ac77cfa4d886e0402038" ;
+    okh:fileFormat "PNG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/120757/corner_plates_toolchanger.png> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1MzI1NDg=> .
+
+:Cornerplatestoolchanger_source a okh:SourceFile ;
+    rdfs:label "Source File of Corner_Plates_Toolchanger of CoreXY 3D Printer Design 9910ee69f98f9f8906c4ac77cfa4d886e0402038" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/120757/corner_plates_toolchanger.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1MzI1MTM=> .
+
+:Hotendmount a okh:Part ;
+    rdfs:label "hotend_mount" ;
+    okh:documentationLanguage "en" ;
+    okh:image :Hotendmount_image ;
+    okh:licensor "Shane Hooper" ;
+    okh:source :Hotendmount_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Hotendmount_image a okh:Image ;
+    rdfs:label "Image of hotend_mount of CoreXY 3D Printer Design 9910ee69f98f9f8906c4ac77cfa4d886e0402038" ;
+    okh:fileFormat "PNG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/120757/hotend_mount.png> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1MzI1NDc=> .
+
+:Hotendmount_source a okh:SourceFile ;
+    rdfs:label "Source File of hotend_mount of CoreXY 3D Printer Design 9910ee69f98f9f8906c4ac77cfa4d886e0402038" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/120757/hotend_mount.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1MzI1MTI=> .
+
+:Idlerplate a okh:Part ;
+    rdfs:label "idler_Plate" ;
+    okh:documentationLanguage "en" ;
+    okh:export :Idlerplate_export1 ;
+    okh:image :Idlerplate_image ;
+    okh:licensor "Shane Hooper" ;
+    okh:source :Idlerplate_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Idlerplate_export1 a okh:ExportFile ;
+    rdfs:label "Export File of idler_Plate of CoreXY 3D Printer Design 9910ee69f98f9f8906c4ac77cfa4d886e0402038" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/120757/idler_plate.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1MzI1MDk=> .
+
+:Idlerplate_image a okh:Image ;
+    rdfs:label "Image of idler_Plate of CoreXY 3D Printer Design 9910ee69f98f9f8906c4ac77cfa4d886e0402038" ;
+    okh:fileFormat "PNG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/120757/idler_plate.png> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1MzI1NDY=> .
+
+:Idlerplate_source a okh:SourceFile ;
+    rdfs:label "Source File of idler_Plate of CoreXY 3D Printer Design 9910ee69f98f9f8906c4ac77cfa4d886e0402038" ;
+    okh:fileFormat "STEP" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/120757/idler_plate.step> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1MzI1MTA=> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of CoreXY 3D Printer Design 9910ee69f98f9f8906c4ac77cfa4d886e0402038" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/120757/solidcore-3d-printer-corexy-up-close-3-9b52d-0f06a.jpg> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTY5NzM=> .
+
+:Motormountwithsquareflange a okh:Part ;
+    rdfs:label "motor_mount_with_square_flange" ;
+    okh:documentationLanguage "en" ;
+    okh:image :Motormountwithsquareflange_image ;
+    okh:licensor "Shane Hooper" ;
+    okh:source :Motormountwithsquareflange_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Motormountwithsquareflange_image a okh:Image ;
+    rdfs:label "Image of motor_mount_with_square_flange of CoreXY 3D Printer Design 9910ee69f98f9f8906c4ac77cfa4d886e0402038" ;
+    okh:fileFormat "PNG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/120757/motor_mount_with_square_flange.png> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1MzI1NDQ=> .
+
+:Motormountwithsquareflange_source a okh:SourceFile ;
+    rdfs:label "Source File of motor_mount_with_square_flange of CoreXY 3D Printer Design 9910ee69f98f9f8906c4ac77cfa4d886e0402038" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/120757/motor_mount_with_square_flange.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1MzI1MDg=> .
+
+:Motorplate20mmgates a okh:Part ;
+    rdfs:label "Motor_Plate_20mm_Gates",
+        "Motor_Plate_20mm_Gates_" ;
+    okh:documentationLanguage "en" ;
+    okh:image :Motorplate20mmgates_image ;
+    okh:licensor "Shane Hooper" ;
+    okh:source :Motorplate20mmgates_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Motorplate20mmgates_image a okh:Image ;
+    rdfs:label "Image of Motor_Plate_20mm_Gates of CoreXY 3D Printer Design 9910ee69f98f9f8906c4ac77cfa4d886e0402038" ;
+    okh:fileFormat "PNG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/120757/motor_plate_20mm_gates.png> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1MzI1NDI=> .
+
+:Motorplate20mmgates_source a okh:SourceFile ;
+    rdfs:label "Source File of Motor_Plate_20mm_Gates of CoreXY 3D Printer Design 9910ee69f98f9f8906c4ac77cfa4d886e0402038",
+        "Source File of Motor_Plate_20mm_Gates_ of CoreXY 3D Printer Design 9910ee69f98f9f8906c4ac77cfa4d886e0402038" ;
+    okh:fileFormat "STEP",
+        "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/120757/motor_plate_20mm_gates.stl>,
+        <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/120757/motor_plate_20mm_gates_.step> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1MzI1MDQ=>,
+        <https://wikifactory.com/files/RmlsZTo1MzI1MDY=> .
+
+:Newidlerplategates a okh:Part ;
+    rdfs:label "New_Idler_Plate_Gates_" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Shane Hooper" ;
+    okh:source :Newidlerplategates_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Newidlerplategates_source a okh:SourceFile ;
+    rdfs:label "Source File of New_Idler_Plate_Gates_ of CoreXY 3D Printer Design 9910ee69f98f9f8906c4ac77cfa4d886e0402038" ;
+    okh:fileFormat "STEP" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/120757/new_idler_plate_gates_.step> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1MzI1MDM=> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of CoreXY 3D Printer Design 9910ee69f98f9f8906c4ac77cfa4d886e0402038" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/120757/readme-da311.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTY5Nzc=> .
+
+:Solidcorebltouchhotendmount a okh:Part ;
+    rdfs:label "SolidCore_BLTOUCH_Hotend_Mount" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Shane Hooper" ;
+    okh:source :Solidcorebltouchhotendmount_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Solidcorebltouchhotendmount_source a okh:SourceFile ;
+    rdfs:label "Source File of SolidCore_BLTOUCH_Hotend_Mount of CoreXY 3D Printer Design 9910ee69f98f9f8906c4ac77cfa4d886e0402038" ;
+    okh:fileFormat "STEP" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/120757/solidcore_bltouch_hotend_mount.step> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1MzI1MDI=> .
+
+:Solidcorecorexy3dprinter a okh:Part ;
+    rdfs:label "SolidCore_CoreXY_3D_Printer" ;
+    okh:documentationLanguage "en" ;
+    okh:image :Solidcorecorexy3dprinter_image ;
+    okh:licensor "Shane Hooper" ;
+    okh:source :Solidcorecorexy3dprinter_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Solidcorecorexy3dprinter_image a okh:Image ;
+    rdfs:label "Image of SolidCore_CoreXY_3D_Printer of CoreXY 3D Printer Design 9910ee69f98f9f8906c4ac77cfa4d886e0402038" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/120757/solidcore_corexy_3d_printer.jpg> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1MzI1MzY=> .
+
+:Solidcorecorexy3dprinter_source a okh:SourceFile ;
+    rdfs:label "Source File of SolidCore_CoreXY_3D_Printer of CoreXY 3D Printer Design 9910ee69f98f9f8906c4ac77cfa4d886e0402038" ;
+    okh:fileFormat "STEP" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/120757/solidcore_corexy_3d_printer.step> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1MzI1MDA=> .
+
+:Xcarriage a okh:Part ;
+    rdfs:label "X-Carriage",
+        "X-Carriage_" ;
+    okh:documentationLanguage "en" ;
+    okh:image :Xcarriage_image ;
+    okh:licensor "Shane Hooper" ;
+    okh:source :Xcarriage_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Xcarriage_image a okh:Image ;
+    rdfs:label "Image of X-Carriage of CoreXY 3D Printer Design 9910ee69f98f9f8906c4ac77cfa4d886e0402038" ;
+    okh:fileFormat "PNG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/120757/x-carriage.png> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1MzI1MjU=> .
+
+:Xcarriage_source a okh:SourceFile ;
+    rdfs:label "Source File of X-Carriage of CoreXY 3D Printer Design 9910ee69f98f9f8906c4ac77cfa4d886e0402038",
+        "Source File of X-Carriage_ of CoreXY 3D Printer Design 9910ee69f98f9f8906c4ac77cfa4d886e0402038" ;
+    okh:fileFormat "STEP",
+        "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/120757/x-carriage.stl>,
+        <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/120757/x-carriage_.step> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1MzI0OTg=>,
+        <https://wikifactory.com/files/RmlsZTo1MzI0OTk=> .
+
+:Ycarriage a okh:Part ;
+    rdfs:label "Y-Carriage",
+        "Y-Carriage_" ;
+    okh:documentationLanguage "en" ;
+    okh:image :Ycarriage_image ;
+    okh:licensor "Shane Hooper" ;
+    okh:source :Ycarriage_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Ycarriage_image a okh:Image ;
+    rdfs:label "Image of Y-Carriage of CoreXY 3D Printer Design 9910ee69f98f9f8906c4ac77cfa4d886e0402038" ;
+    okh:fileFormat "PNG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/120757/y-carriage.png> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1MzI1MjQ=> .
+
+:Ycarriage_source a okh:SourceFile ;
+    rdfs:label "Source File of Y-Carriage of CoreXY 3D Printer Design 9910ee69f98f9f8906c4ac77cfa4d886e0402038",
+        "Source File of Y-Carriage_ of CoreXY 3D Printer Design 9910ee69f98f9f8906c4ac77cfa4d886e0402038" ;
+    okh:fileFormat "STEP",
+        "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/120757/y-carriage.stl>,
+        <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/120757/y-carriage_.step> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1MzI0OTY=>,
+        <https://wikifactory.com/files/RmlsZTo1MzI0OTc=> .
+
+:Zaxislbracket a okh:Part ;
+    rdfs:label "Z-Axis_L-Bracket" ;
+    okh:documentationLanguage "en" ;
+    okh:export :Zaxislbracket_export1 ;
+    okh:image :Zaxislbracket_image ;
+    okh:licensor "Shane Hooper" ;
+    okh:source :Zaxislbracket_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Zaxislbracket_export1 a okh:ExportFile ;
+    rdfs:label "Export File of Z-Axis_L-Bracket of CoreXY 3D Printer Design 9910ee69f98f9f8906c4ac77cfa4d886e0402038" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/120757/z-axis_l-bracket.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1MzI0OTQ=> .
+
+:Zaxislbracket_image a okh:Image ;
+    rdfs:label "Image of Z-Axis_L-Bracket of CoreXY 3D Printer Design 9910ee69f98f9f8906c4ac77cfa4d886e0402038" ;
+    okh:fileFormat "PNG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/120757/z-axis_l-bracket.png> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1MzI1MjM=> .
+
+:Zaxislbracket_source a okh:SourceFile ;
+    rdfs:label "Source File of Z-Axis_L-Bracket of CoreXY 3D Printer Design 9910ee69f98f9f8906c4ac77cfa4d886e0402038" ;
+    okh:fileFormat "STEP" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/120757/z-axis_l-bracket.step> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1MzI0OTU=> .
+

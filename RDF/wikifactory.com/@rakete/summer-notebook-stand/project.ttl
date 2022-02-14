@@ -1,0 +1,107 @@
+@prefix : <https://wikifactory.com/@rakete/summer-notebook-stand/22e6961ead2bc50edb12fbb98c7057284e705e9c/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:SummerNotebookStand a okh:Module ;
+    rdfs:label "Summer Notebook Stand" ;
+    okh:documentationLanguage "en" ;
+    okh:function "It was hot this Summer. So I made a Notebook stand with which I could mount a 120mm fan to the back of my Notebook to cool it." ;
+    okh:hasComponent :Fanleft,
+        :Fanright,
+        :Notebooksummer,
+        :Rackleft,
+        :Rackright ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "Andreas Raster" ;
+    okh:release <https://wikifactory.com/@rakete/summer-notebook-stand/v/22e6961> ;
+    okh:repo <https://wikifactory.com/@rakete/summer-notebook-stand> ;
+    okh:repoHost "wikifactory.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/MIT> ;
+    okh:version "22e6961ead2bc50edb12fbb98c7057284e705e9c" ;
+    okh:versionOf <https://wikifactory.com/@rakete/summer-notebook-stand> .
+
+:Fanleft a okh:Part ;
+    rdfs:label "FanLeft" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Andreas Raster" ;
+    okh:source :Fanleft_source ;
+    okh:spdxLicense <https://spdx.org/licenses/MIT> .
+
+:Fanleft_source a okh:SourceFile ;
+    rdfs:label "Source File of FanLeft of Summer Notebook Stand 22e6961ead2bc50edb12fbb98c7057284e705e9c" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1038/fanleft.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMTcwNg==> .
+
+:Fanright a okh:Part ;
+    rdfs:label "FanRight" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Andreas Raster" ;
+    okh:source :Fanright_source ;
+    okh:spdxLicense <https://spdx.org/licenses/MIT> .
+
+:Fanright_source a okh:SourceFile ;
+    rdfs:label "Source File of FanRight of Summer Notebook Stand 22e6961ead2bc50edb12fbb98c7057284e705e9c" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1038/fanright.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMTcwOA==> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Summer Notebook Stand 22e6961ead2bc50edb12fbb98c7057284e705e9c" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1038/screenshot-from-2018-09-14-18-55-19.jpg> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMTcyNw==> .
+
+:Notebooksummer a okh:Part ;
+    rdfs:label "NotebookSummer" ;
+    okh:documentationLanguage "en" ;
+    okh:export :Notebooksummer_export1 ;
+    okh:licensor "Andreas Raster" ;
+    okh:source :Notebooksummer_source ;
+    okh:spdxLicense <https://spdx.org/licenses/MIT> .
+
+:Notebooksummer_export1 a okh:ExportFile ;
+    rdfs:label "Export File of NotebookSummer of Summer Notebook Stand 22e6961ead2bc50edb12fbb98c7057284e705e9c" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1038/notebooksummer.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMTcyOA==> .
+
+:Notebooksummer_source a okh:SourceFile ;
+    rdfs:label "Source File of NotebookSummer of Summer Notebook Stand 22e6961ead2bc50edb12fbb98c7057284e705e9c" ;
+    okh:fileFormat "SCAD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1038/notebooksummer.scad> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMTcwNA==> .
+
+:Rackleft a okh:Part ;
+    rdfs:label "RackLeft" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Andreas Raster" ;
+    okh:source :Rackleft_source ;
+    okh:spdxLicense <https://spdx.org/licenses/MIT> .
+
+:Rackleft_source a okh:SourceFile ;
+    rdfs:label "Source File of RackLeft of Summer Notebook Stand 22e6961ead2bc50edb12fbb98c7057284e705e9c" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1038/rackleft.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMTcxMA==> .
+
+:Rackright a okh:Part ;
+    rdfs:label "RackRight" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Andreas Raster" ;
+    okh:source :Rackright_source ;
+    okh:spdxLicense <https://spdx.org/licenses/MIT> .
+
+:Rackright_source a okh:SourceFile ;
+    rdfs:label "Source File of RackRight of Summer Notebook Stand 22e6961ead2bc50edb12fbb98c7057284e705e9c" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1038/rackright.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMTcxMQ==> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of Summer Notebook Stand 22e6961ead2bc50edb12fbb98c7057284e705e9c" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1038/readme.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NDI5OTc=> .
+

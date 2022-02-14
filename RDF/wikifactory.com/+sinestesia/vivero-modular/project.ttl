@@ -1,0 +1,59 @@
+@prefix : <https://wikifactory.com/+sinestesia/vivero-modular/df416718819aa5545db320c61ab6a2036eec1177/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ViveroModular a okh:Module ;
+    rdfs:label "Vivero Modular" ;
+    okh:documentationLanguage "es" ;
+    okh:function "Vivero modular Replicable, de bajo costo y fácil construcción.- Planimetrías y manuales de fabricación.- Fichas de manejo de plantas nativas del norte de Chile- Instructivo para plantar un árbol en suelo desertico" ;
+    okh:hasComponent :Manualconstrucciónmoduloviverosinestesia,
+        :Motajedecomponentesvivero ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "Joaquin Gonzalez" ;
+    okh:organisation "Sinestesia.cc" ;
+    okh:release <https://wikifactory.com/+sinestesia/vivero-modular/v/df41671> ;
+    okh:repo <https://wikifactory.com/+sinestesia/vivero-modular> ;
+    okh:repoHost "wikifactory.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:version "df416718819aa5545db320c61ab6a2036eec1177" ;
+    okh:versionOf <https://wikifactory.com/+sinestesia/vivero-modular> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Vivero Modular df416718819aa5545db320c61ab6a2036eec1177" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/107881/portada_mesa_de_trabajo_1_mesa_de_trabajo_1_mesa_de_trabajo_1.jpg> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1MjI0MTU=> .
+
+:Manualconstrucciónmoduloviverosinestesia a okh:Part ;
+    rdfs:label "Manual_Construcción_Modulo_Vivero_Sinestesia" ;
+    okh:documentationLanguage "es" ;
+    okh:licensor "Joaquin Gonzalez" ;
+    okh:source :Manualconstrucciónmoduloviverosinestesia_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Manualconstrucciónmoduloviverosinestesia_source a okh:SourceFile ;
+    rdfs:label "Source File of Manual_Construcción_Modulo_Vivero_Sinestesia of Vivero Modular df416718819aa5545db320c61ab6a2036eec1177" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/107881/prueba_manual.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1MjI2NTU=> .
+
+:Motajedecomponentesvivero a okh:Part ;
+    rdfs:label "Motaje_de_componentes_vivero" ;
+    okh:documentationLanguage "es" ;
+    okh:licensor "fernanda lara" ;
+    okh:source :Motajedecomponentesvivero_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Motajedecomponentesvivero_source a okh:SourceFile ;
+    rdfs:label "Source File of Motaje_de_componentes_vivero of Vivero Modular df416718819aa5545db320c61ab6a2036eec1177" ;
+    okh:fileFormat "3DM" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/107881/motaje_de_componentes_vivero-49cd9.3dm> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1MjcwNDM=> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of Vivero Modular df416718819aa5545db320c61ab6a2036eec1177" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/107881/readme-54bd6.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1MjcwNjg=> .
+

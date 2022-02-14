@@ -1,0 +1,58 @@
+@prefix : <https://wikifactory.com/@saverio/shanghai-stool/3555547c36021bb71edf80da6fbe15c440e89760/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ShanghaiStool a okh:Module ;
+    rdfs:label "Shanghai Stool" ;
+    okh:documentationLanguage "en" ;
+    okh:function "A high stool with a feet rest and maximum material use efficiency. Cut with 1/4\" endmill on 18mm plywood" ;
+    okh:hasComponent :Shanghaihighstool,
+        :Shanghaistoolplanmodel ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "Saverio Silli" ;
+    okh:release <https://wikifactory.com/@saverio/shanghai-stool/v/3555547> ;
+    okh:repo <https://wikifactory.com/@saverio/shanghai-stool> ;
+    okh:repoHost "wikifactory.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:version "3555547c36021bb71edf80da6fbe15c440e89760" ;
+    okh:versionOf <https://wikifactory.com/@saverio/shanghai-stool> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Shanghai Stool 3555547c36021bb71edf80da6fbe15c440e89760" ;
+    okh:fileFormat "PNG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/76983/shanghai_stool_assembly.png> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0MjU4ODQ=> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of Shanghai Stool 3555547c36021bb71edf80da6fbe15c440e89760" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/76983/readme-da302.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0MjU5MDY=> .
+
+:Shanghaihighstool a okh:Part ;
+    rdfs:label "shanghai_high_stool" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Saverio Silli" ;
+    okh:source :Shanghaihighstool_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Shanghaihighstool_source a okh:SourceFile ;
+    rdfs:label "Source File of shanghai_high_stool of Shanghai Stool 3555547c36021bb71edf80da6fbe15c440e89760" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/76983/shanghai_high_stool.dxf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0MjU4ODY=> .
+
+:Shanghaistoolplanmodel a okh:Part ;
+    rdfs:label "shanghai_stool_planmodel" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Saverio Silli" ;
+    okh:source :Shanghaistoolplanmodel_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Shanghaistoolplanmodel_source a okh:SourceFile ;
+    rdfs:label "Source File of shanghai_stool_planmodel of Shanghai Stool 3555547c36021bb71edf80da6fbe15c440e89760" ;
+    okh:fileFormat "3DM" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/76983/shanghai_stool_planmodel.3dm> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0MjU4ODc=> .
+

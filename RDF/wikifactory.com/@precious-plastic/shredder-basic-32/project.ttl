@@ -1,0 +1,1451 @@
+@prefix : <https://wikifactory.com/@precious-plastic/shredder-basic-32/78551d7e213e723a839456c1ff838ed174ed2eed/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ShredderBasic32 a okh:Module ;
+    rdfs:label "Shredder basic 3.2" ;
+    okh:documentationLanguage "en" ;
+    okh:function "Based on previous improvements made on the shredder (reinforced axis and box + better coupling), this version is adding a layer of safety to comply with CE requirement." ;
+    okh:hasComponent :BearingProtection15MmX1,
+        :Blade15MmX5,
+        :Blade25MmX5,
+        :Blade35MmX4,
+        :BoxPlate110MmX2,
+        :BoxPlate25MmX2,
+        :BoxPlate35MmX1,
+        :BoxPlate45MmX1,
+        :CouplingBottomCover15MmX1,
+        :CouplingProtectionFixingPlate3MmX1,
+        :CouplingProtectionFront15MmX1,
+        :CouplingProtectionRear15MmX1,
+        :DrillingTemplate15mmX1,
+        :FixBlade16MmX14,
+        :FixBlade25MmX13,
+        :FrameMountingPlate5MmX4,
+        :FrameRackSheet15MmX2,
+        :FrameTopCover15MmX1,
+        :FunnelBackSheet15MmX1,
+        :FunnelFrontSheet15MmX1,
+        :FunnelLateralSheet15MmX2,
+        :HopperBackSheet15MmX1,
+        :HopperDoorFrame15MmX1,
+        :HopperFixingPlate13MmX1,
+        :HopperFixingPlate23MmX1,
+        :HopperFrontSheet15MmX1,
+        :HopperHandgrip5MmX1,
+        :HopperLeftSheet15MmX1,
+        :HopperRightSheet15MmX1,
+        :HopperSensorSupport15MmX1,
+        :MotorSupport10MmX1,
+        :Shr30000002ShredderBasic32,
+        :Shr30000002ShredderBasicAssembly,
+        :Shr31000002ShredderBoxAssembly,
+        :Shr31000012FixBlade1,
+        :Shr31000022FixBlade2,
+        :Shr31000032BearingProtection,
+        :Shr31000042ThreadedBarM10,
+        :Shr31000052ThreadedBarM8,
+        :Shr31100002ShredderBox,
+        :Shr31100012BoxPlate1,
+        :Shr31100022BoxPlate2,
+        :Shr31100032BoxPlate3,
+        :Shr31100042BoxPlate4,
+        :Shr31200002ShaftAssembly,
+        :Shr31200012Shaft,
+        :Shr31200022Blade1,
+        :Shr31200032Blade2,
+        :Shr31200042Blade3,
+        :Shr31200052Spacer,
+        :Shr31200062SlottM35X15,
+        :Shr31300002SieveAssembly,
+        :Shr31300012SieveFrontPlate,
+        :Shr31300022SieveRearPlate,
+        :Shr31300032SieveSidePlate,
+        :Shr31300042SieveMidPlate,
+        :Shr31300052SieveMesh8mmHole,
+        :Shr31400002FunnelAssembly,
+        :Shr31400012FunnelFrontSheet,
+        :Shr31400022FunnelBackSheet,
+        :Shr31400032FunnelLateralSheet,
+        :Shr32000002FrameAssembly,
+        :Shr32000012Frame,
+        :Shr32000022CouplingBottomCover,
+        :Shr32000032FrameTopCover,
+        :Shr32000042MotorSupport,
+        :Shr32000052FrameRackSheet,
+        :Shr32000062FrameFixingPlate,
+        :Shr32000072DrillingTemplate,
+        :Shr32Cabling,
+        :Shr33000002HopperAssembly,
+        :Shr33000012HopperFrontSheet,
+        :Shr33000022HopperBackSheet,
+        :Shr33000032HopperRightSheet,
+        :Shr33000042HopperLeftSheet,
+        :Shr33000052HopperFixingPlate1,
+        :Shr33000062HopperFixingPlate2,
+        :Shr33100002HopperDoor,
+        :Shr33100012HopperDoorFrame,
+        :Shr33100022HopperSensorSupport,
+        :Shr33100032HopperHandgrip,
+        :Shr33100042HopperMesh,
+        :Shr34000002CouplingProtectionAssembly,
+        :Shr34000012CouplingProtectionFront,
+        :Shr34100002CouplingProtectionRearAssembly,
+        :Shr34100012CouplingProtectionFixingPlate,
+        :Shr34100022CouplingProtectionRear,
+        :ShrV32Boma,
+        :Shrb32Box,
+        :Shrb32Control,
+        :Shrb32Power,
+        :SieveFrontPlate3MmX1,
+        :SieveMesh8mmHole15mmX1,
+        :SieveMiddlePlate3MmX1,
+        :SieveRearPlate3MmX1,
+        :SieveSidePlate3MmX2,
+        :Spacer105Mm05MmX16,
+        :Spacer105Mm1MmX16,
+        :Spacer6MmX13,
+        :Spacer85Mm05MmX16,
+        :Spacer85Mm1MmX16 ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "Precious Plastic" ;
+    okh:release <https://wikifactory.com/@precious-plastic/shredder-basic-32/v/78551d7> ;
+    okh:repo <https://wikifactory.com/@precious-plastic/shredder-basic-32> ;
+    okh:repoHost "wikifactory.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:version "78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:versionOf <https://wikifactory.com/@precious-plastic/shredder-basic-32> .
+
+:BearingProtection15MmX1 a okh:Part ;
+    rdfs:label "Bearing protection - 1,5 mm - x1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :BearingProtection15MmX1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:BearingProtection15MmX1_source a okh:SourceFile ;
+    rdfs:label "Source File of Bearing protection - 1,5 mm - x1 of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/bearing-protection-15-mm-x1.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ3MjI=> .
+
+:Blade15MmX5 a okh:Part ;
+    rdfs:label "Blade 1 - 5 mm - x5" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :Blade15MmX5_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Blade15MmX5_source a okh:SourceFile ;
+    rdfs:label "Source File of Blade 1 - 5 mm - x5 of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/blade-1-5-mm-x5.dxf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ2Njk=> .
+
+:Blade25MmX5 a okh:Part ;
+    rdfs:label "Blade 2 - 5 mm - x5" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :Blade25MmX5_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Blade25MmX5_source a okh:SourceFile ;
+    rdfs:label "Source File of Blade 2 - 5 mm - x5 of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/blade-2-5-mm-x5.dxf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ2Njg=> .
+
+:Blade35MmX4 a okh:Part ;
+    rdfs:label "Blade 3 - 5 mm - x4" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :Blade35MmX4_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Blade35MmX4_source a okh:SourceFile ;
+    rdfs:label "Source File of Blade 3 - 5 mm - x4 of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/blade-3-5-mm-x4.dxf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ2NzA=> .
+
+:BoxPlate110MmX2 a okh:Part ;
+    rdfs:label "Box plate 1 - 10 mm - x2" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :BoxPlate110MmX2_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:BoxPlate110MmX2_source a okh:SourceFile ;
+    rdfs:label "Source File of Box plate 1 - 10 mm - x2 of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/box-plate-1-10-mm-x2.dxf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ3NzQ=> .
+
+:BoxPlate25MmX2 a okh:Part ;
+    rdfs:label "Box plate 2 - 5 mm - x2" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :BoxPlate25MmX2_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:BoxPlate25MmX2_source a okh:SourceFile ;
+    rdfs:label "Source File of Box plate 2 - 5 mm - x2 of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/box-plate-2-5-mm-x2.dxf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ4MTU=> .
+
+:BoxPlate35MmX1 a okh:Part ;
+    rdfs:label "Box plate 3 - 5 mm - x1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :BoxPlate35MmX1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:BoxPlate35MmX1_source a okh:SourceFile ;
+    rdfs:label "Source File of Box plate 3 - 5 mm - x1 of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/box-plate-3-5-mm-x1.dxf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ4MTQ=> .
+
+:BoxPlate45MmX1 a okh:Part ;
+    rdfs:label "Box plate 4 - 5 mm - x1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :BoxPlate45MmX1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:BoxPlate45MmX1_source a okh:SourceFile ;
+    rdfs:label "Source File of Box plate 4 - 5 mm - x1 of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/box-plate-4-5-mm-x1.dxf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ4MDc=> .
+
+:CouplingBottomCover15MmX1 a okh:Part ;
+    rdfs:label "Coupling bottom cover - 1,5 mm - x1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :CouplingBottomCover15MmX1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:CouplingBottomCover15MmX1_source a okh:SourceFile ;
+    rdfs:label "Source File of Coupling bottom cover - 1,5 mm - x1 of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/coupling-bottom-cover-15-mm-x1.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ3MjA=> .
+
+:CouplingProtectionFixingPlate3MmX1 a okh:Part ;
+    rdfs:label "Coupling protection fixing plate - 3 mm - x1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :CouplingProtectionFixingPlate3MmX1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:CouplingProtectionFixingPlate3MmX1_source a okh:SourceFile ;
+    rdfs:label "Source File of Coupling protection fixing plate - 3 mm - x1 of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/coupling-protection-fixing-plate-3-mm-x1.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ3ODk=> .
+
+:CouplingProtectionFront15MmX1 a okh:Part ;
+    rdfs:label "Coupling protection front - 1,5 mm - x1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :CouplingProtectionFront15MmX1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:CouplingProtectionFront15MmX1_source a okh:SourceFile ;
+    rdfs:label "Source File of Coupling protection front - 1,5 mm - x1 of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/coupling-protection-front-15-mm-x1.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ3MTU=> .
+
+:CouplingProtectionRear15MmX1 a okh:Part ;
+    rdfs:label "Coupling protection rear - 1,5 mm - x1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :CouplingProtectionRear15MmX1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:CouplingProtectionRear15MmX1_source a okh:SourceFile ;
+    rdfs:label "Source File of Coupling protection rear - 1,5 mm - x1 of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/coupling-protection-rear-15-mm-x1.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ3MDQ=> .
+
+:DrillingTemplate15mmX1 a okh:Part ;
+    rdfs:label "Drilling template - 1,5mm - x1" ;
+    okh:documentationLanguage "en" ;
+    okh:export :DrillingTemplate15mmX1_export1 ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :DrillingTemplate15mmX1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:DrillingTemplate15mmX1_export1 a okh:ExportFile ;
+    rdfs:label "Export File of Drilling template - 1,5mm - x1 of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/drilling-template-15mm-x1.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ2NDc=> .
+
+:DrillingTemplate15mmX1_source a okh:SourceFile ;
+    rdfs:label "Source File of Drilling template - 1,5mm - x1 of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/drilling-template-15mm-x1.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ3MDI=> .
+
+:FixBlade16MmX14 a okh:Part ;
+    rdfs:label "Fix blade 1 - 6 mm - x14" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :FixBlade16MmX14_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:FixBlade16MmX14_source a okh:SourceFile ;
+    rdfs:label "Source File of Fix blade 1 - 6 mm - x14 of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/fix-blade-1-6-mm-x14.dxf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ2NzM=> .
+
+:FixBlade25MmX13 a okh:Part ;
+    rdfs:label "Fix blade 2 - 5 mm - x13" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :FixBlade25MmX13_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:FixBlade25MmX13_source a okh:SourceFile ;
+    rdfs:label "Source File of Fix blade 2 - 5 mm - x13 of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/fix-blade-2-5-mm-x13.dxf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ2Nzc=> .
+
+:FrameMountingPlate5MmX4 a okh:Part ;
+    rdfs:label "Frame mounting plate - 5 mm - x4" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :FrameMountingPlate5MmX4_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:FrameMountingPlate5MmX4_source a okh:SourceFile ;
+    rdfs:label "Source File of Frame mounting plate - 5 mm - x4 of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/frame-mounting-plate-5-mm-x4.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ4MjM=> .
+
+:FrameRackSheet15MmX2 a okh:Part ;
+    rdfs:label "Frame rack sheet - 1,5 mm - x2" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :FrameRackSheet15MmX2_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:FrameRackSheet15MmX2_source a okh:SourceFile ;
+    rdfs:label "Source File of Frame rack sheet - 1,5 mm - x2 of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/frame-rack-sheet-15-mm-x2.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ2OTg=> .
+
+:FrameTopCover15MmX1 a okh:Part ;
+    rdfs:label "Frame top cover - 1,5 mm - x1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :FrameTopCover15MmX1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:FrameTopCover15MmX1_source a okh:SourceFile ;
+    rdfs:label "Source File of Frame top cover - 1,5 mm - x1 of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/frame-top-cover-15-mm-x1.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ2OTM=> .
+
+:FunnelBackSheet15MmX1 a okh:Part ;
+    rdfs:label "Funnel back sheet - 1,5 mm - x1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :FunnelBackSheet15MmX1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:FunnelBackSheet15MmX1_source a okh:SourceFile ;
+    rdfs:label "Source File of Funnel back sheet - 1,5 mm - x1 of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/funnel-back-sheet-15-mm-x1.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ2ODg=> .
+
+:FunnelFrontSheet15MmX1 a okh:Part ;
+    rdfs:label "Funnel front sheet - 1,5 mm - x1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :FunnelFrontSheet15MmX1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:FunnelFrontSheet15MmX1_source a okh:SourceFile ;
+    rdfs:label "Source File of Funnel front sheet - 1,5 mm - x1 of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/funnel-front-sheet-15-mm-x1.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ2ODQ=> .
+
+:FunnelLateralSheet15MmX2 a okh:Part ;
+    rdfs:label "Funnel lateral sheet - 1,5 mm - x2" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :FunnelLateralSheet15MmX2_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:FunnelLateralSheet15MmX2_source a okh:SourceFile ;
+    rdfs:label "Source File of Funnel lateral sheet - 1,5 mm - x2 of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/funnel-lateral-sheet-15-mm-x2.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ3NjU=> .
+
+:HopperBackSheet15MmX1 a okh:Part ;
+    rdfs:label "Hopper back sheet - 1,5 mm - x1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :HopperBackSheet15MmX1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:HopperBackSheet15MmX1_source a okh:SourceFile ;
+    rdfs:label "Source File of Hopper back sheet - 1,5 mm - x1 of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/hopper-back-sheet-15-mm-x1.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ3NjE=> .
+
+:HopperDoorFrame15MmX1 a okh:Part ;
+    rdfs:label "Hopper door frame - 1,5 mm - x1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :HopperDoorFrame15MmX1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:HopperDoorFrame15MmX1_source a okh:SourceFile ;
+    rdfs:label "Source File of Hopper door frame - 1,5 mm - x1 of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/hopper-door-frame-15-mm-x1.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ3NTI=> .
+
+:HopperFixingPlate13MmX1 a okh:Part ;
+    rdfs:label "Hopper fixing plate 1 - 3 mm - x1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :HopperFixingPlate13MmX1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:HopperFixingPlate13MmX1_source a okh:SourceFile ;
+    rdfs:label "Source File of Hopper fixing plate 1 - 3 mm - x1 of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/hopper-fixing-plate-1-3-mm-x1.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ3ODY=> .
+
+:HopperFixingPlate23MmX1 a okh:Part ;
+    rdfs:label "Hopper fixing plate 2 - 3 mm - x1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :HopperFixingPlate23MmX1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:HopperFixingPlate23MmX1_source a okh:SourceFile ;
+    rdfs:label "Source File of Hopper fixing plate 2 - 3 mm - x1 of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/hopper-fixing-plate-2-3-mm-x1.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ3ODI=> .
+
+:HopperFrontSheet15MmX1 a okh:Part ;
+    rdfs:label "Hopper front sheet - 1,5 mm - x1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :HopperFrontSheet15MmX1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:HopperFrontSheet15MmX1_source a okh:SourceFile ;
+    rdfs:label "Source File of Hopper front sheet - 1,5 mm - x1 of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/hopper-front-sheet-15-mm-x1.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ3NDc=> .
+
+:HopperHandgrip5MmX1 a okh:Part ;
+    rdfs:label "Hopper handgrip - 5 mm - x1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :HopperHandgrip5MmX1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:HopperHandgrip5MmX1_source a okh:SourceFile ;
+    rdfs:label "Source File of Hopper handgrip - 5 mm - x1 of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/hopper-handgrip-5-mm-x1.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ4MTY=> .
+
+:HopperLeftSheet15MmX1 a okh:Part ;
+    rdfs:label "Hopper left sheet - 1,5 mm - x1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :HopperLeftSheet15MmX1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:HopperLeftSheet15MmX1_source a okh:SourceFile ;
+    rdfs:label "Source File of Hopper left sheet - 1,5 mm - x1 of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/hopper-left-sheet-15-mm-x1.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ3NDI=> .
+
+:HopperRightSheet15MmX1 a okh:Part ;
+    rdfs:label "Hopper right sheet - 1,5 mm - x1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :HopperRightSheet15MmX1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:HopperRightSheet15MmX1_source a okh:SourceFile ;
+    rdfs:label "Source File of Hopper right sheet - 1,5 mm - x1 of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/hopper-right-sheet-15-mm-x1.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ3Mzc=> .
+
+:HopperSensorSupport15MmX1 a okh:Part ;
+    rdfs:label "Hopper sensor support - 1,5 mm - x1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :HopperSensorSupport15MmX1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:HopperSensorSupport15MmX1_source a okh:SourceFile ;
+    rdfs:label "Source File of Hopper sensor support - 1,5 mm - x1 of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/hopper-sensor-support-15-mm-x1.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ3MzI=> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/32.jpg> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ4NzU=> .
+
+:MotorSupport10MmX1 a okh:Part ;
+    rdfs:label "Motor support - 10 mm - x1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :MotorSupport10MmX1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:MotorSupport10MmX1_source a okh:SourceFile ;
+    rdfs:label "Source File of Motor support - 10 mm - x1 of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/motor-support-10-mm-x1.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ3NzU=> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/readme.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzUwMjk=> .
+
+:Shr30000002ShredderBasic32 a okh:Part ;
+    rdfs:label "SHR-3 0000.00-2 - Shredder basic 3.2" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :Shr30000002ShredderBasic32_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Shr30000002ShredderBasic32_source a okh:SourceFile ;
+    rdfs:label "Source File of SHR-3 0000.00-2 - Shredder basic 3.2 of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "STEP" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-000000-2-shredder-basic-32.step> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ4Nzk=> .
+
+:Shr30000002ShredderBasicAssembly a okh:Part ;
+    rdfs:label "SHR-3 0000.00-2 - Shredder basic assembly" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :Shr30000002ShredderBasicAssembly_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Shr30000002ShredderBasicAssembly_source a okh:SourceFile ;
+    rdfs:label "Source File of SHR-3 0000.00-2 - Shredder basic assembly of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-000000-2-shredder-basic-assembly.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzUwMjI=> .
+
+:Shr31000002ShredderBoxAssembly a okh:Part ;
+    rdfs:label "SHR-3 1000.00-2 - Shredder Box assembly" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :Shr31000002ShredderBoxAssembly_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Shr31000002ShredderBoxAssembly_source a okh:SourceFile ;
+    rdfs:label "Source File of SHR-3 1000.00-2 - Shredder Box assembly of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-100000-2-shredder-box-assembly.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzUwMjA=> .
+
+:Shr31000012FixBlade1 a okh:Part ;
+    rdfs:label "SHR-3 1000.01-2 - Fix blade 1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :Shr31000012FixBlade1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Shr31000012FixBlade1_source a okh:SourceFile ;
+    rdfs:label "Source File of SHR-3 1000.01-2 - Fix blade 1 of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-100001-2-fix-blade-1.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzUwMTg=> .
+
+:Shr31000022FixBlade2 a okh:Part ;
+    rdfs:label "SHR-3 1000.02-2 - Fix blade 2" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :Shr31000022FixBlade2_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Shr31000022FixBlade2_source a okh:SourceFile ;
+    rdfs:label "Source File of SHR-3 1000.02-2 - Fix blade 2 of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-100002-2-fix-blade-2.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzUwMTY=> .
+
+:Shr31000032BearingProtection a okh:Part ;
+    rdfs:label "SHR-3 1000.03-2 - Bearing protection" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :Shr31000032BearingProtection_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Shr31000032BearingProtection_source a okh:SourceFile ;
+    rdfs:label "Source File of SHR-3 1000.03-2 - Bearing protection of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-100003-2-bearing-protection.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzUwMTQ=> .
+
+:Shr31000042ThreadedBarM10 a okh:Part ;
+    rdfs:label "SHR-3 1000.04-2 - Threaded bar M10" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :Shr31000042ThreadedBarM10_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Shr31000042ThreadedBarM10_source a okh:SourceFile ;
+    rdfs:label "Source File of SHR-3 1000.04-2 - Threaded bar M10 of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-100004-2-threaded-bar-m10.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzUwMTI=> .
+
+:Shr31000052ThreadedBarM8 a okh:Part ;
+    rdfs:label "SHR-3 1000.05-2 - Threaded bar M8" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :Shr31000052ThreadedBarM8_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Shr31000052ThreadedBarM8_source a okh:SourceFile ;
+    rdfs:label "Source File of SHR-3 1000.05-2 - Threaded bar M8 of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-100005-2-threaded-bar-m8.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzUwMTA=> .
+
+:Shr31100002ShredderBox a okh:Part ;
+    rdfs:label "SHR-3 1100.00-2 - Shredder Box" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :Shr31100002ShredderBox_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Shr31100002ShredderBox_source a okh:SourceFile ;
+    rdfs:label "Source File of SHR-3 1100.00-2 - Shredder Box of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-110000-2-shredder-box.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzUwMDg=> .
+
+:Shr31100012BoxPlate1 a okh:Part ;
+    rdfs:label "SHR-3 1100.01-2 - Box plate 1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :Shr31100012BoxPlate1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Shr31100012BoxPlate1_source a okh:SourceFile ;
+    rdfs:label "Source File of SHR-3 1100.01-2 - Box plate 1 of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-110001-2-box-plate-1.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzUwMDY=> .
+
+:Shr31100022BoxPlate2 a okh:Part ;
+    rdfs:label "SHR-3 1100.02-2 - Box plate 2" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :Shr31100022BoxPlate2_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Shr31100022BoxPlate2_source a okh:SourceFile ;
+    rdfs:label "Source File of SHR-3 1100.02-2 - Box plate 2 of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-110002-2-box-plate-2.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzUwMDQ=> .
+
+:Shr31100032BoxPlate3 a okh:Part ;
+    rdfs:label "SHR-3 1100.03-2 - Box plate 3" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :Shr31100032BoxPlate3_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Shr31100032BoxPlate3_source a okh:SourceFile ;
+    rdfs:label "Source File of SHR-3 1100.03-2 - Box plate 3 of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-110003-2-box-plate-3.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzUwMDI=> .
+
+:Shr31100042BoxPlate4 a okh:Part ;
+    rdfs:label "SHR-3 1100.04-2 - Box plate 4" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :Shr31100042BoxPlate4_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Shr31100042BoxPlate4_source a okh:SourceFile ;
+    rdfs:label "Source File of SHR-3 1100.04-2 - Box plate 4 of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-110004-2-box-plate-4.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzUwMDA=> .
+
+:Shr31200002ShaftAssembly a okh:Part ;
+    rdfs:label "SHR-3 1200.00-2 - Shaft assembly" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :Shr31200002ShaftAssembly_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Shr31200002ShaftAssembly_source a okh:SourceFile ;
+    rdfs:label "Source File of SHR-3 1200.00-2 - Shaft assembly of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-120000-2-shaft-assembly.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ5OTg=> .
+
+:Shr31200012Shaft a okh:Part ;
+    rdfs:label "SHR-3 1200.01-2 - Shaft" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :Shr31200012Shaft_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Shr31200012Shaft_source a okh:SourceFile ;
+    rdfs:label "Source File of SHR-3 1200.01-2 - Shaft of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-120001-2-shaft.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ5OTY=> .
+
+:Shr31200022Blade1 a okh:Part ;
+    rdfs:label "SHR-3 1200.02-2 - Blade 1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :Shr31200022Blade1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Shr31200022Blade1_source a okh:SourceFile ;
+    rdfs:label "Source File of SHR-3 1200.02-2 - Blade 1 of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-120002-2-blade-1.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ5OTQ=> .
+
+:Shr31200032Blade2 a okh:Part ;
+    rdfs:label "SHR-3 1200.03-2 - Blade 2" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :Shr31200032Blade2_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Shr31200032Blade2_source a okh:SourceFile ;
+    rdfs:label "Source File of SHR-3 1200.03-2 - Blade 2 of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-120003-2-blade-2.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ5OTI=> .
+
+:Shr31200042Blade3 a okh:Part ;
+    rdfs:label "SHR-3 1200.04-2 - Blade 3" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :Shr31200042Blade3_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Shr31200042Blade3_source a okh:SourceFile ;
+    rdfs:label "Source File of SHR-3 1200.04-2 - Blade 3 of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-120004-2-blade-3.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ5OTA=> .
+
+:Shr31200052Spacer a okh:Part ;
+    rdfs:label "SHR-3 1200.05-2 - Spacer" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :Shr31200052Spacer_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Shr31200052Spacer_source a okh:SourceFile ;
+    rdfs:label "Source File of SHR-3 1200.05-2 - Spacer of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-120005-2-spacer.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ5ODg=> .
+
+:Shr31200062SlottM35X15 a okh:Part ;
+    rdfs:label "SHR-3 1200.06-2 - SLOTT M35 X 1,5" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :Shr31200062SlottM35X15_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Shr31200062SlottM35X15_source a okh:SourceFile ;
+    rdfs:label "Source File of SHR-3 1200.06-2 - SLOTT M35 X 1,5 of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-120006-2-slott-m35-x-15.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ5ODY=> .
+
+:Shr31300002SieveAssembly a okh:Part ;
+    rdfs:label "SHR-3 1300.00-2 - Sieve assembly" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :Shr31300002SieveAssembly_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Shr31300002SieveAssembly_source a okh:SourceFile ;
+    rdfs:label "Source File of SHR-3 1300.00-2 - Sieve assembly of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-130000-2-sieve-assembly.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ5ODQ=> .
+
+:Shr31300012SieveFrontPlate a okh:Part ;
+    rdfs:label "SHR-3 1300.01-2 - Sieve front plate" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :Shr31300012SieveFrontPlate_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Shr31300012SieveFrontPlate_source a okh:SourceFile ;
+    rdfs:label "Source File of SHR-3 1300.01-2 - Sieve front plate of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-130001-2-sieve-front-plate.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ5ODI=> .
+
+:Shr31300022SieveRearPlate a okh:Part ;
+    rdfs:label "SHR-3 1300.02-2 - Sieve rear plate" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :Shr31300022SieveRearPlate_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Shr31300022SieveRearPlate_source a okh:SourceFile ;
+    rdfs:label "Source File of SHR-3 1300.02-2 - Sieve rear plate of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-130002-2-sieve-rear-plate.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ5ODA=> .
+
+:Shr31300032SieveSidePlate a okh:Part ;
+    rdfs:label "SHR-3 1300.03-2 - Sieve side plate" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :Shr31300032SieveSidePlate_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Shr31300032SieveSidePlate_source a okh:SourceFile ;
+    rdfs:label "Source File of SHR-3 1300.03-2 - Sieve side plate of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-130003-2-sieve-side-plate.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ5Nzg=> .
+
+:Shr31300042SieveMidPlate a okh:Part ;
+    rdfs:label "SHR-3 1300.04-2 - Sieve mid plate" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :Shr31300042SieveMidPlate_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Shr31300042SieveMidPlate_source a okh:SourceFile ;
+    rdfs:label "Source File of SHR-3 1300.04-2 - Sieve mid plate of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-130004-2-sieve-mid-plate.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ5NzY=> .
+
+:Shr31300052SieveMesh8mmHole a okh:Part ;
+    rdfs:label "SHR-3 1300.05-2 - Sieve mesh 8mm hole" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :Shr31300052SieveMesh8mmHole_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Shr31300052SieveMesh8mmHole_source a okh:SourceFile ;
+    rdfs:label "Source File of SHR-3 1300.05-2 - Sieve mesh 8mm hole of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-130005-2-sieve-mesh-8mm-hole.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ5NzQ=> .
+
+:Shr31400002FunnelAssembly a okh:Part ;
+    rdfs:label "SHR-3 1400.00-2 - Funnel assembly" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :Shr31400002FunnelAssembly_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Shr31400002FunnelAssembly_source a okh:SourceFile ;
+    rdfs:label "Source File of SHR-3 1400.00-2 - Funnel assembly of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-140000-2-funnel-assembly.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ5NzI=> .
+
+:Shr31400012FunnelFrontSheet a okh:Part ;
+    rdfs:label "SHR-3 1400.01-2 - Funnel front sheet" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :Shr31400012FunnelFrontSheet_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Shr31400012FunnelFrontSheet_source a okh:SourceFile ;
+    rdfs:label "Source File of SHR-3 1400.01-2 - Funnel front sheet of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-140001-2-funnel-front-sheet.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ5NzA=> .
+
+:Shr31400022FunnelBackSheet a okh:Part ;
+    rdfs:label "SHR-3 1400.02-2 - Funnel back sheet" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :Shr31400022FunnelBackSheet_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Shr31400022FunnelBackSheet_source a okh:SourceFile ;
+    rdfs:label "Source File of SHR-3 1400.02-2 - Funnel back sheet of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-140002-2-funnel-back-sheet.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ5Njg=> .
+
+:Shr31400032FunnelLateralSheet a okh:Part ;
+    rdfs:label "SHR-3 1400.03-2 - Funnel lateral sheet" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :Shr31400032FunnelLateralSheet_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Shr31400032FunnelLateralSheet_source a okh:SourceFile ;
+    rdfs:label "Source File of SHR-3 1400.03-2 - Funnel lateral sheet of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-140003-2-funnel-lateral-sheet.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ5NjY=> .
+
+:Shr32000002FrameAssembly a okh:Part ;
+    rdfs:label "SHR-3 2000.00-2 - Frame assembly" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :Shr32000002FrameAssembly_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Shr32000002FrameAssembly_source a okh:SourceFile ;
+    rdfs:label "Source File of SHR-3 2000.00-2 - Frame assembly of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-200000-2-frame-assembly.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ5NjQ=> .
+
+:Shr32000012Frame a okh:Part ;
+    rdfs:label "SHR-3 2000.01-2 - Frame" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :Shr32000012Frame_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Shr32000012Frame_source a okh:SourceFile ;
+    rdfs:label "Source File of SHR-3 2000.01-2 - Frame of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-200001-2-frame.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ5NjI=> .
+
+:Shr32000022CouplingBottomCover a okh:Part ;
+    rdfs:label "SHR-3 2000.02-2 - Coupling bottom cover" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :Shr32000022CouplingBottomCover_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Shr32000022CouplingBottomCover_source a okh:SourceFile ;
+    rdfs:label "Source File of SHR-3 2000.02-2 - Coupling bottom cover of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-200002-2-coupling-bottom-cover.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ5NjA=> .
+
+:Shr32000032FrameTopCover a okh:Part ;
+    rdfs:label "SHR-3 2000.03-2 - Frame top cover" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :Shr32000032FrameTopCover_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Shr32000032FrameTopCover_source a okh:SourceFile ;
+    rdfs:label "Source File of SHR-3 2000.03-2 - Frame top cover of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-200003-2-frame-top-cover.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ5NTg=> .
+
+:Shr32000042MotorSupport a okh:Part ;
+    rdfs:label "SHR-3 2000.04-2 - Motor support" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :Shr32000042MotorSupport_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Shr32000042MotorSupport_source a okh:SourceFile ;
+    rdfs:label "Source File of SHR-3 2000.04-2 - Motor support of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-200004-2-motor-support.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ5NTY=> .
+
+:Shr32000052FrameRackSheet a okh:Part ;
+    rdfs:label "SHR-3 2000.05-2 - Frame rack sheet" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :Shr32000052FrameRackSheet_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Shr32000052FrameRackSheet_source a okh:SourceFile ;
+    rdfs:label "Source File of SHR-3 2000.05-2 - Frame rack sheet of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-200005-2-frame-rack-sheet.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ5NTQ=> .
+
+:Shr32000062FrameFixingPlate a okh:Part ;
+    rdfs:label "SHR-3 2000.06-2 - Frame fixing plate" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :Shr32000062FrameFixingPlate_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Shr32000062FrameFixingPlate_source a okh:SourceFile ;
+    rdfs:label "Source File of SHR-3 2000.06-2 - Frame fixing plate of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-200006-2-frame-fixing-plate.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ5NTI=> .
+
+:Shr32000072DrillingTemplate a okh:Part ;
+    rdfs:label "SHR-3 2000.07-2 - Drilling template" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :Shr32000072DrillingTemplate_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Shr32000072DrillingTemplate_source a okh:SourceFile ;
+    rdfs:label "Source File of SHR-3 2000.07-2 - Drilling template of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-200007-2-drilling-template.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ5NTA=> .
+
+:Shr32Cabling a okh:Part ;
+    rdfs:label "SHR-3.2 CABLING" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :Shr32Cabling_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Shr32Cabling_source a okh:SourceFile ;
+    rdfs:label "Source File of SHR-3.2 CABLING of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-32-cabling.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ4NjY=> .
+
+:Shr33000002HopperAssembly a okh:Part ;
+    rdfs:label "SHR-3 3000.00-2 - Hopper assembly" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :Shr33000002HopperAssembly_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Shr33000002HopperAssembly_source a okh:SourceFile ;
+    rdfs:label "Source File of SHR-3 3000.00-2 - Hopper assembly of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-300000-2-hopper-assembly.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ5NDg=> .
+
+:Shr33000012HopperFrontSheet a okh:Part ;
+    rdfs:label "SHR-3 3000.01-2 - Hopper front sheet" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :Shr33000012HopperFrontSheet_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Shr33000012HopperFrontSheet_source a okh:SourceFile ;
+    rdfs:label "Source File of SHR-3 3000.01-2 - Hopper front sheet of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-300001-2-hopper-front-sheet.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ5NDY=> .
+
+:Shr33000022HopperBackSheet a okh:Part ;
+    rdfs:label "SHR-3 3000.02-2 - Hopper back sheet" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :Shr33000022HopperBackSheet_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Shr33000022HopperBackSheet_source a okh:SourceFile ;
+    rdfs:label "Source File of SHR-3 3000.02-2 - Hopper back sheet of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-300002-2-hopper-back-sheet.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ5NDQ=> .
+
+:Shr33000032HopperRightSheet a okh:Part ;
+    rdfs:label "SHR-3 3000.03-2 - Hopper right sheet" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :Shr33000032HopperRightSheet_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Shr33000032HopperRightSheet_source a okh:SourceFile ;
+    rdfs:label "Source File of SHR-3 3000.03-2 - Hopper right sheet of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-300003-2-hopper-right-sheet.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ5NDI=> .
+
+:Shr33000042HopperLeftSheet a okh:Part ;
+    rdfs:label "SHR-3 3000.04-2 - Hopper left sheet" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :Shr33000042HopperLeftSheet_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Shr33000042HopperLeftSheet_source a okh:SourceFile ;
+    rdfs:label "Source File of SHR-3 3000.04-2 - Hopper left sheet of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-300004-2-hopper-left-sheet.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ5NDA=> .
+
+:Shr33000052HopperFixingPlate1 a okh:Part ;
+    rdfs:label "SHR-3 3000.05-2 - Hopper fixing plate 1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :Shr33000052HopperFixingPlate1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Shr33000052HopperFixingPlate1_source a okh:SourceFile ;
+    rdfs:label "Source File of SHR-3 3000.05-2 - Hopper fixing plate 1 of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-300005-2-hopper-fixing-plate-1.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ5Mzg=> .
+
+:Shr33000062HopperFixingPlate2 a okh:Part ;
+    rdfs:label "SHR-3 3000.06-2 - Hopper fixing plate 2" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :Shr33000062HopperFixingPlate2_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Shr33000062HopperFixingPlate2_source a okh:SourceFile ;
+    rdfs:label "Source File of SHR-3 3000.06-2 - Hopper fixing plate 2 of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-300006-2-hopper-fixing-plate-2.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ5MzY=> .
+
+:Shr33100002HopperDoor a okh:Part ;
+    rdfs:label "SHR-3 3100.00-2 - Hopper door" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :Shr33100002HopperDoor_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Shr33100002HopperDoor_source a okh:SourceFile ;
+    rdfs:label "Source File of SHR-3 3100.00-2 - Hopper door of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-310000-2-hopper-door.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ5MzQ=> .
+
+:Shr33100012HopperDoorFrame a okh:Part ;
+    rdfs:label "SHR-3 3100.01-2 - Hopper door frame" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :Shr33100012HopperDoorFrame_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Shr33100012HopperDoorFrame_source a okh:SourceFile ;
+    rdfs:label "Source File of SHR-3 3100.01-2 - Hopper door frame of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-310001-2-hopper-door-frame.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ5MzI=> .
+
+:Shr33100022HopperSensorSupport a okh:Part ;
+    rdfs:label "SHR-3 3100.02-2 - Hopper sensor support" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :Shr33100022HopperSensorSupport_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Shr33100022HopperSensorSupport_source a okh:SourceFile ;
+    rdfs:label "Source File of SHR-3 3100.02-2 - Hopper sensor support of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-310002-2-hopper-sensor-support.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ5MzA=> .
+
+:Shr33100032HopperHandgrip a okh:Part ;
+    rdfs:label "SHR-3 3100.03-2 - Hopper handgrip" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :Shr33100032HopperHandgrip_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Shr33100032HopperHandgrip_source a okh:SourceFile ;
+    rdfs:label "Source File of SHR-3 3100.03-2 - Hopper handgrip of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-310003-2-hopper-handgrip.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ5Mjg=> .
+
+:Shr33100042HopperMesh a okh:Part ;
+    rdfs:label "SHR-3 3100.04-2 - Hopper mesh" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :Shr33100042HopperMesh_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Shr33100042HopperMesh_source a okh:SourceFile ;
+    rdfs:label "Source File of SHR-3 3100.04-2 - Hopper mesh of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-310004-2-hopper-mesh.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ5MjY=> .
+
+:Shr34000002CouplingProtectionAssembly a okh:Part ;
+    rdfs:label "SHR-3 4000.00-2 - Coupling protection assembly" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :Shr34000002CouplingProtectionAssembly_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Shr34000002CouplingProtectionAssembly_source a okh:SourceFile ;
+    rdfs:label "Source File of SHR-3 4000.00-2 - Coupling protection assembly of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-400000-2-coupling-protection-assembly.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ5MjQ=> .
+
+:Shr34000012CouplingProtectionFront a okh:Part ;
+    rdfs:label "SHR-3 4000.01-2 - Coupling protection front" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :Shr34000012CouplingProtectionFront_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Shr34000012CouplingProtectionFront_source a okh:SourceFile ;
+    rdfs:label "Source File of SHR-3 4000.01-2 - Coupling protection front of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-400001-2-coupling-protection-front.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ5MjI=> .
+
+:Shr34100002CouplingProtectionRearAssembly a okh:Part ;
+    rdfs:label "SHR-3 4100.00-2 - Coupling protection rear assembly" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :Shr34100002CouplingProtectionRearAssembly_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Shr34100002CouplingProtectionRearAssembly_source a okh:SourceFile ;
+    rdfs:label "Source File of SHR-3 4100.00-2 - Coupling protection rear assembly of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-410000-2-coupling-protection-rear-assembly.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ5MjA=> .
+
+:Shr34100012CouplingProtectionFixingPlate a okh:Part ;
+    rdfs:label "SHR-3 4100.01-2 - Coupling protection fixing plate" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :Shr34100012CouplingProtectionFixingPlate_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Shr34100012CouplingProtectionFixingPlate_source a okh:SourceFile ;
+    rdfs:label "Source File of SHR-3 4100.01-2 - Coupling protection fixing plate of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-410001-2-coupling-protection-fixing-plate.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ5MTg=> .
+
+:Shr34100022CouplingProtectionRear a okh:Part ;
+    rdfs:label "SHR-3 4100.02-2 - Coupling protection rear" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :Shr34100022CouplingProtectionRear_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Shr34100022CouplingProtectionRear_source a okh:SourceFile ;
+    rdfs:label "Source File of SHR-3 4100.02-2 - Coupling protection rear of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-410002-2-coupling-protection-rear.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ5MTc=> .
+
+:ShrV32Boma a okh:Part ;
+    rdfs:label "SHR V3.2 BOM_A" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :ShrV32Boma_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:ShrV32Boma_source a okh:SourceFile ;
+    rdfs:label "Source File of SHR V3.2 BOM_A of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-v32-bom_a.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ4NDM=> .
+
+:Shrb32Box a okh:Part ;
+    rdfs:label "SHRB-3.2 BOX" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :Shrb32Box_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Shrb32Box_source a okh:SourceFile ;
+    rdfs:label "Source File of SHRB-3.2 BOX of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shrb-32-box.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ4NjU=> .
+
+:Shrb32Control a okh:Part ;
+    rdfs:label "SHRB-3.2 CONTROL" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :Shrb32Control_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Shrb32Control_source a okh:SourceFile ;
+    rdfs:label "Source File of SHRB-3.2 CONTROL of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shrb-32-control.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ4NzA=> .
+
+:Shrb32Power a okh:Part ;
+    rdfs:label "SHRB-3.2 POWER" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :Shrb32Power_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Shrb32Power_source a okh:SourceFile ;
+    rdfs:label "Source File of SHRB-3.2 POWER of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shrb-32-power-a9a15.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzUwMjU=> .
+
+:SieveFrontPlate3MmX1 a okh:Part ;
+    rdfs:label "Sieve front plate - 3 mm - x1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :SieveFrontPlate3MmX1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:SieveFrontPlate3MmX1_source a okh:SourceFile ;
+    rdfs:label "Source File of Sieve front plate - 3 mm - x1 of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/sieve-front-plate-3-mm-x1.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ3Nzg=> .
+
+:SieveMesh8mmHole15mmX1 a okh:Part ;
+    rdfs:label "Sieve mesh 8mm hole - 1,5mm - x1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :SieveMesh8mmHole15mmX1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:SieveMesh8mmHole15mmX1_source a okh:SourceFile ;
+    rdfs:label "Source File of Sieve mesh 8mm hole - 1,5mm - x1 of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/sieve-mesh-8mm-hole-15mm-x1.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ3MzA=> .
+
+:SieveMiddlePlate3MmX1 a okh:Part ;
+    rdfs:label "Sieve middle plate - 3 mm - x1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :SieveMiddlePlate3MmX1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:SieveMiddlePlate3MmX1_source a okh:SourceFile ;
+    rdfs:label "Source File of Sieve middle plate - 3 mm - x1 of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/sieve-middle-plate-3-mm-x1.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ3OTM=> .
+
+:SieveRearPlate3MmX1 a okh:Part ;
+    rdfs:label "Sieve rear plate - 3 mm - x1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :SieveRearPlate3MmX1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:SieveRearPlate3MmX1_source a okh:SourceFile ;
+    rdfs:label "Source File of Sieve rear plate - 3 mm - x1 of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/sieve-rear-plate-3-mm-x1.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ3OTI=> .
+
+:SieveSidePlate3MmX2 a okh:Part ;
+    rdfs:label "Sieve side plate - 3 mm - x2" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :SieveSidePlate3MmX2_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:SieveSidePlate3MmX2_source a okh:SourceFile ;
+    rdfs:label "Source File of Sieve side plate - 3 mm - x2 of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/sieve-side-plate-3-mm-x2.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ3OTA=> .
+
+:Spacer105Mm05MmX16 a okh:Part ;
+    rdfs:label "Spacer 10,5 mm - 0,5 mm - x16" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :Spacer105Mm05MmX16_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Spacer105Mm05MmX16_source a okh:SourceFile ;
+    rdfs:label "Source File of Spacer 10,5 mm - 0,5 mm - x16 of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/spacer-105-mm-05-mm-x16.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ2NTE=> .
+
+:Spacer105Mm1MmX16 a okh:Part ;
+    rdfs:label "Spacer 10,5 mm - 1 mm - x16" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :Spacer105Mm1MmX16_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Spacer105Mm1MmX16_source a okh:SourceFile ;
+    rdfs:label "Source File of Spacer 10,5 mm - 1 mm - x16 of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/spacer-105-mm-1-mm-x16.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ2NTA=> .
+
+:Spacer6MmX13 a okh:Part ;
+    rdfs:label "Spacer - 6 mm - x13" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :Spacer6MmX13_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Spacer6MmX13_source a okh:SourceFile ;
+    rdfs:label "Source File of Spacer - 6 mm - x13 of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/spacer-6-mm-x13.dxf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ4Mjg=> .
+
+:Spacer85Mm05MmX16 a okh:Part ;
+    rdfs:label "Spacer 8,5 mm - 0,5 mm - x16" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :Spacer85Mm05MmX16_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Spacer85Mm05MmX16_source a okh:SourceFile ;
+    rdfs:label "Source File of Spacer 8,5 mm - 0,5 mm - x16 of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/spacer-85-mm-1-mm-x16.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ2NDk=> .
+
+:Spacer85Mm1MmX16 a okh:Part ;
+    rdfs:label "Spacer 8,5 mm - 1 mm - x16" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :Spacer85Mm1MmX16_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Spacer85Mm1MmX16_source a okh:SourceFile ;
+    rdfs:label "Source File of Spacer 8,5 mm - 1 mm - x16 of Shredder basic 3.2 78551d7e213e723a839456c1ff838ed174ed2eed" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/spacer-85-mm-1-mm-x16.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ2NDg=> .
+

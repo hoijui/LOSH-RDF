@@ -1,0 +1,25 @@
+@prefix : <https://github.com/apertus-open-source-cinema/beta-hardware/v1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:AxiomBetaHardware a okh:Module ;
+    rdfs:label "AXIOM Beta Hardware" ;
+    okh:cpcPatentClass "H04N G03B" ;
+    okh:dataSource "github.com" ;
+    okh:documentationLanguage "en-GB" ;
+    okh:function "The AXIOM Beta is an open source, open hardware, professional-grade digital film camera made by apertus°. It is designed to be modular e.g. interchangeable sensor front end etc. and supports recording at 4K resolution." ;
+    okh:hasUserManual :UserManual ;
+    okh:licensor "apertus" ;
+    okh:repo <https://github.com/apertus-open-source-cinema/beta-hardware> ;
+    okh:repoHost "github.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
+    okh:tsdc "ASM" ;
+    okh:version "v1.0.0" ;
+    okh:versionOf <https://github.com/apertus-open-source-cinema/beta-hardware> .
+
+:UserManual a okh:UserManual ;
+    rdfs:label "UserManual of AXIOM Beta Hardware v1.0.0" ;
+    okh:fileFormat "" ;
+    okh:fileUrl <https://wiki.apertus.org/index.php/AXIOM_Beta/Manual> ;
+    okh:permaURL <https://wiki.apertus.org/index.php/AXIOM_Beta/Manual> .
+

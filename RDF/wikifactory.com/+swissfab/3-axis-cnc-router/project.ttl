@@ -1,0 +1,157 @@
+@prefix : <https://wikifactory.com/+swissfab/3-axis-cnc-router/c2524bca5a04d8a7c67707062dd4b072ebed7fc6/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:3axisCncRouter a okh:Module ;
+    rdfs:label "3-axis CNC Router" ;
+    okh:documentationLanguage "en" ;
+    okh:function "Based on Mekanika's core philosophy, every tool or machine we develop is released under an open source license (CC BY-NC-SA 4.0). This project showcases our ergonomic CNC router, controlled using a Raspberry Pi and offering all the pro features and security that any good milling machine should have." ;
+    okh:hasComponent :Billofmaterialsmekanikacncrouter1200x800,
+        :CircuitDiagram,
+        :MekanikacncRouterspecificParts,
+        :Mekanikacncrouterassembly,
+        :Planetcncmotordriver60256,
+        :Planetcnctng,
+        :Planetcnctngapi,
+        :Planetcnctnggcode,
+        :Planetcncusbcontrollermk34 ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "James Hart" ;
+    okh:organisation "Atelio" ;
+    okh:release <https://wikifactory.com/+swissfab/3-axis-cnc-router/v/c2524bc> ;
+    okh:repo <https://wikifactory.com/+swissfab/3-axis-cnc-router> ;
+    okh:repoHost "wikifactory.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:version "c2524bca5a04d8a7c67707062dd4b072ebed7fc6" ;
+    okh:versionOf <https://wikifactory.com/+swissfab/3-axis-cnc-router> .
+
+:Billofmaterialsmekanikacncrouter1200x800 a okh:Part ;
+    rdfs:label "Bill_Of_Materials_Mekanika_CNC_Router_1200x800" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Maxime Gravet" ;
+    okh:source :Billofmaterialsmekanikacncrouter1200x800_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Billofmaterialsmekanikacncrouter1200x800_source a okh:SourceFile ;
+    rdfs:label "Source File of Bill_Of_Materials_Mekanika_CNC_Router_1200x800 of 3-axis CNC Router c2524bca5a04d8a7c67707062dd4b072ebed7fc6" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/41540/bill_of_materials_mekanika_cnc_router_1200x800.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzMxMDE=> .
+
+:CircuitDiagram a okh:Part ;
+    rdfs:label "Circuit Diagram" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Maxime Gravet" ;
+    okh:source :CircuitDiagram_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:CircuitDiagram_source a okh:SourceFile ;
+    rdfs:label "Source File of Circuit Diagram of 3-axis CNC Router c2524bca5a04d8a7c67707062dd4b072ebed7fc6" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/41540/circuit_diagram.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzMxNDI=> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of 3-axis CNC Router c2524bca5a04d8a7c67707062dd4b072ebed7fc6" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/41540/82679955_795010104329168_4319256909230912550_n.jpg> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzMwNTY=> .
+
+:MekanikacncRouterspecificParts a okh:Part ;
+    rdfs:label "MEKANIKA_CNC Router_Specific Parts" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Maxime Gravet" ;
+    okh:source :MekanikacncRouterspecificParts_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:MekanikacncRouterspecificParts_source a okh:SourceFile ;
+    rdfs:label "Source File of MEKANIKA_CNC Router_Specific Parts of 3-axis CNC Router c2524bca5a04d8a7c67707062dd4b072ebed7fc6" ;
+    okh:fileFormat "STEP" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/41540/mekanika_cnc_router_specific_parts.step> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzMxMDA=> .
+
+:Mekanikacncrouterassembly a okh:Part ;
+    rdfs:label "MEKANIKA_CNC_Router_Assembly" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Maxime Gravet" ;
+    okh:source :Mekanikacncrouterassembly_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Mekanikacncrouterassembly_source a okh:SourceFile ;
+    rdfs:label "Source File of MEKANIKA_CNC_Router_Assembly of 3-axis CNC Router c2524bca5a04d8a7c67707062dd4b072ebed7fc6" ;
+    okh:fileFormat "STEP" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/41540/mekanika_cnc_router_assembly.step> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzMwOTk=> .
+
+:Planetcncmotordriver60256 a okh:Part ;
+    rdfs:label "Planet_CNC_MotorDriver60-256" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Maxime Gravet" ;
+    okh:source :Planetcncmotordriver60256_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Planetcncmotordriver60256_source a okh:SourceFile ;
+    rdfs:label "Source File of Planet_CNC_MotorDriver60-256 of 3-axis CNC Router c2524bca5a04d8a7c67707062dd4b072ebed7fc6" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/41540/planet_cnc_motordriver60-256.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzMxNDE=> .
+
+:Planetcnctng a okh:Part ;
+    rdfs:label "PlanetCNC_TNG" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Maxime Gravet" ;
+    okh:source :Planetcnctng_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Planetcnctng_source a okh:SourceFile ;
+    rdfs:label "Source File of PlanetCNC_TNG of 3-axis CNC Router c2524bca5a04d8a7c67707062dd4b072ebed7fc6" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/41540/planetcnc_tng.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzMxMTk=> .
+
+:Planetcnctngapi a okh:Part ;
+    rdfs:label "PlanetCNC_TNG_API" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Maxime Gravet" ;
+    okh:source :Planetcnctngapi_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Planetcnctngapi_source a okh:SourceFile ;
+    rdfs:label "Source File of PlanetCNC_TNG_API of 3-axis CNC Router c2524bca5a04d8a7c67707062dd4b072ebed7fc6" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/41540/planetcnc_tng_api.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzMxMzg=> .
+
+:Planetcnctnggcode a okh:Part ;
+    rdfs:label "PlanetCNC_TNG_GCode" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Maxime Gravet" ;
+    okh:source :Planetcnctnggcode_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Planetcnctnggcode_source a okh:SourceFile ;
+    rdfs:label "Source File of PlanetCNC_TNG_GCode of 3-axis CNC Router c2524bca5a04d8a7c67707062dd4b072ebed7fc6" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/41540/planetcnc_tng_gcode-77cff.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzMxMTg=> .
+
+:Planetcncusbcontrollermk34 a okh:Part ;
+    rdfs:label "Planet_CNC_USB_Controller_Mk3-4" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Maxime Gravet" ;
+    okh:source :Planetcncusbcontrollermk34_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Planetcncusbcontrollermk34_source a okh:SourceFile ;
+    rdfs:label "Source File of Planet_CNC_USB_Controller_Mk3-4 of 3-axis CNC Router c2524bca5a04d8a7c67707062dd4b072ebed7fc6" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/41540/planet_cnc_usb_controller_mk3-4.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzMxNDA=> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of 3-axis CNC Router c2524bca5a04d8a7c67707062dd4b072ebed7fc6" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/41540/readme-7c4fb.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzMxMjk=> .
+

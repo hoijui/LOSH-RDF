@@ -1,0 +1,59 @@
+@prefix : <https://wikifactory.com/+OttoDIY/otto-zero/9b781868a81dd2efd57d797dd409c7a88ef1f865/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:OttoZero a okh:Module ;
+    rdfs:label "Otto Zero" ;
+    okh:documentationLanguage "en" ;
+    okh:function "Who is Otto Zero?An interactive robot, a \"simplified\" version of OTTODIY that anyone can make!Otto Zero is your personal companion : it makes sounds play with you and kids love it!" ;
+    okh:hasComponent :Ottozerobody,
+        :Ottozerohead ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "personalrobots" ;
+    okh:organisation "Otto DIY" ;
+    okh:release <https://wikifactory.com/+OttoDIY/otto-zero/v/9b78186> ;
+    okh:repo <https://wikifactory.com/+OttoDIY/otto-zero> ;
+    okh:repoHost "wikifactory.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:version "9b781868a81dd2efd57d797dd409c7a88ef1f865" ;
+    okh:versionOf <https://wikifactory.com/+OttoDIY/otto-zero> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Otto Zero 9b781868a81dd2efd57d797dd409c7a88ef1f865" ;
+    okh:fileFormat "PNG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/16176/ottozero2-0df10.png> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyMDY4NTc=> .
+
+:Ottozerobody a okh:Part ;
+    rdfs:label "Otto_Zero_Body" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "personalrobots" ;
+    okh:source :Ottozerobody_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Ottozerobody_source a okh:SourceFile ;
+    rdfs:label "Source File of Otto_Zero_Body of Otto Zero 9b781868a81dd2efd57d797dd409c7a88ef1f865" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/16176/ottozerobody.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyMDY4Mzc=> .
+
+:Ottozerohead a okh:Part ;
+    rdfs:label "Otto_Zero_Head_" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "personalrobots" ;
+    okh:source :Ottozerohead_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Ottozerohead_source a okh:SourceFile ;
+    rdfs:label "Source File of Otto_Zero_Head_ of Otto Zero 9b781868a81dd2efd57d797dd409c7a88ef1f865" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/16176/ottozerohead.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyMDY4MzY=> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of Otto Zero 9b781868a81dd2efd57d797dd409c7a88ef1f865" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/16176/readme-6ac72.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyNzgxMjI=> .
+

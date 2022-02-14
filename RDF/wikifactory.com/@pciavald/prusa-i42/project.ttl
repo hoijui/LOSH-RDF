@@ -1,0 +1,891 @@
+@prefix : <https://wikifactory.com/@pciavald/prusa-i42/71dca0bde4d05ac4a41e42ef6eb582035699fd1c/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:PrusaI42 a okh:Module ;
+    rdfs:label "Prusa i4.2" ;
+    okh:documentationLanguage "pt" ;
+    okh:function "Prusa i3 enhanced" ;
+    okh:hasComponent :Attachebearing,
+        :Attachefemelle,
+        :Attachemale,
+        :Bearinglm8uu,
+        :Cablehole,
+        :Coupling,
+        :Extruder,
+        :Extruderassy,
+        :Extruderbiggear,
+        :Extruderbowden,
+        :Extruderbowdenass,
+        :Extruderholder,
+        :Extruderscrew,
+        :Extrudersmallgear,
+        :Extruderspool,
+        :Extruderspoolholder,
+        :Extrudertensionner,
+        :Frame,
+        :Framebed,
+        :Framebottom,
+        :Frameface,
+        :Framemiddle,
+        :Frameplate,
+        :Frameplatecarriage,
+        :Frameside,
+        :Frametop,
+        :Framezmotor,
+        :Framezmotorholder,
+        :Nema17,
+        :Nut,
+        :Nutfastener,
+        :Prusai42,
+        :Screen,
+        :Screenfront,
+        :Screensupport,
+        :Xcarriage,
+        :Xendstop,
+        :Xidler,
+        :Xidlerbody,
+        :Xidlerpulley,
+        :Xidlertensionner,
+        :Xmotor,
+        :Xmotorbody,
+        :Xnema17attach,
+        :Xsmoothrod,
+        :Ycarriage,
+        :Yendstop,
+        :Yendstopbody,
+        :Yidler,
+        :Yidlerbody,
+        :Ymotor,
+        :Ymotorbody,
+        :Ysmoothrod,
+        :Zendstop,
+        :Zendstopangle,
+        :Zendstopcarriage,
+        :Zendstoprod,
+        :Zendstopspring,
+        :Zendstopwheel,
+        :Zmotor,
+        :Zrodsmooth,
+        :Zrodthreaded ;
+    okh:licensor "Pierre-Alexis Ciavaldini" ;
+    okh:release <https://wikifactory.com/@pciavald/prusa-i42/v/71dca0b> ;
+    okh:repo <https://wikifactory.com/@pciavald/prusa-i42> ;
+    okh:repoHost "wikifactory.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:version "71dca0bde4d05ac4a41e42ef6eb582035699fd1c" ;
+    okh:versionOf <https://wikifactory.com/@pciavald/prusa-i42> .
+
+:Attachebearing a okh:Part ;
+    rdfs:label "attache_bearing" ;
+    okh:documentationLanguage "pt" ;
+    okh:licensor "Pierre-Alexis Ciavaldini" ;
+    okh:source :Attachebearing_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Attachebearing_source a okh:SourceFile ;
+    rdfs:label "Source File of attache_bearing of Prusa i4.2 71dca0bde4d05ac4a41e42ef6eb582035699fd1c" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1122/attachebearing.SLDPRT> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjQ4MQ==> .
+
+:Attachefemelle a okh:Part ;
+    rdfs:label "attache_femelle" ;
+    okh:documentationLanguage "pt" ;
+    okh:licensor "Pierre-Alexis Ciavaldini" ;
+    okh:source :Attachefemelle_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Attachefemelle_source a okh:SourceFile ;
+    rdfs:label "Source File of attache_femelle of Prusa i4.2 71dca0bde4d05ac4a41e42ef6eb582035699fd1c" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1122/attachefemelle.SLDPRT> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjQ3OQ==> .
+
+:Attachemale a okh:Part ;
+    rdfs:label "attache_male" ;
+    okh:documentationLanguage "pt" ;
+    okh:licensor "Pierre-Alexis Ciavaldini" ;
+    okh:source :Attachemale_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Attachemale_source a okh:SourceFile ;
+    rdfs:label "Source File of attache_male of Prusa i4.2 71dca0bde4d05ac4a41e42ef6eb582035699fd1c" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1122/attachemale.SLDPRT> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjQ4Mw==> .
+
+:Bearinglm8uu a okh:Part ;
+    rdfs:label "bearing_lm8uu" ;
+    okh:documentationLanguage "pt" ;
+    okh:licensor "Pierre-Alexis Ciavaldini" ;
+    okh:source :Bearinglm8uu_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Bearinglm8uu_source a okh:SourceFile ;
+    rdfs:label "Source File of bearing_lm8uu of Prusa i4.2 71dca0bde4d05ac4a41e42ef6eb582035699fd1c" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1122/bearinglm8uu.SLDPRT> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjQ4NA==> .
+
+:Cablehole a okh:Part ;
+    rdfs:label "cable_hole" ;
+    okh:documentationLanguage "pt" ;
+    okh:licensor "Pierre-Alexis Ciavaldini" ;
+    okh:source :Cablehole_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Cablehole_source a okh:SourceFile ;
+    rdfs:label "Source File of cable_hole of Prusa i4.2 71dca0bde4d05ac4a41e42ef6eb582035699fd1c" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1122/cablehole.SLDPRT> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjQ4Ng==> .
+
+:Coupling a okh:Part ;
+    rdfs:label "coupling" ;
+    okh:documentationLanguage "pt" ;
+    okh:licensor "Pierre-Alexis Ciavaldini" ;
+    okh:source :Coupling_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Coupling_source a okh:SourceFile ;
+    rdfs:label "Source File of coupling of Prusa i4.2 71dca0bde4d05ac4a41e42ef6eb582035699fd1c" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1122/coupling.SLDPRT> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjQ4Nw==> .
+
+:Extruder a okh:Part ;
+    rdfs:label "extruder" ;
+    okh:documentationLanguage "pt" ;
+    okh:licensor "Pierre-Alexis Ciavaldini" ;
+    okh:source :Extruder_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Extruder_source a okh:SourceFile ;
+    rdfs:label "Source File of extruder of Prusa i4.2 71dca0bde4d05ac4a41e42ef6eb582035699fd1c" ;
+    okh:fileFormat "SLDASM" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1122/extruder.SLDASM> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjQ5OA==> .
+
+:Extruderassy a okh:Part ;
+    rdfs:label "extruder_assy" ;
+    okh:documentationLanguage "pt" ;
+    okh:licensor "Pierre-Alexis Ciavaldini" ;
+    okh:source :Extruderassy_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Extruderassy_source a okh:SourceFile ;
+    rdfs:label "Source File of extruder_assy of Prusa i4.2 71dca0bde4d05ac4a41e42ef6eb582035699fd1c" ;
+    okh:fileFormat "SLDASM" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1122/extruderassy.SLDASM> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjQ4OA==> .
+
+:Extruderbiggear a okh:Part ;
+    rdfs:label "extruder_big_gear" ;
+    okh:documentationLanguage "pt" ;
+    okh:licensor "Pierre-Alexis Ciavaldini" ;
+    okh:source :Extruderbiggear_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Extruderbiggear_source a okh:SourceFile ;
+    rdfs:label "Source File of extruder_big_gear of Prusa i4.2 71dca0bde4d05ac4a41e42ef6eb582035699fd1c" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1122/extruderbiggear.SLDPRT> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjQ4OQ==> .
+
+:Extruderbowden a okh:Part ;
+    rdfs:label "extruder_bowden" ;
+    okh:documentationLanguage "pt" ;
+    okh:licensor "Pierre-Alexis Ciavaldini" ;
+    okh:source :Extruderbowden_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Extruderbowden_source a okh:SourceFile ;
+    rdfs:label "Source File of extruder_bowden of Prusa i4.2 71dca0bde4d05ac4a41e42ef6eb582035699fd1c" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1122/extruderbowden.SLDPRT> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjQ5Mg==> .
+
+:Extruderbowdenass a okh:Part ;
+    rdfs:label "extruder_bowden_ass" ;
+    okh:documentationLanguage "pt" ;
+    okh:licensor "Pierre-Alexis Ciavaldini" ;
+    okh:source :Extruderbowdenass_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Extruderbowdenass_source a okh:SourceFile ;
+    rdfs:label "Source File of extruder_bowden_ass of Prusa i4.2 71dca0bde4d05ac4a41e42ef6eb582035699fd1c" ;
+    okh:fileFormat "SLDASM" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1122/extruderbowdenass.SLDASM> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjQ5MA==> .
+
+:Extruderholder a okh:Part ;
+    rdfs:label "extruder_holder" ;
+    okh:documentationLanguage "pt" ;
+    okh:licensor "Pierre-Alexis Ciavaldini" ;
+    okh:source :Extruderholder_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Extruderholder_source a okh:SourceFile ;
+    rdfs:label "Source File of extruder_holder of Prusa i4.2 71dca0bde4d05ac4a41e42ef6eb582035699fd1c" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1122/extruderholder.SLDPRT> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjQ5MQ==> .
+
+:Extruderscrew a okh:Part ;
+    rdfs:label "extruder_screw" ;
+    okh:documentationLanguage "pt" ;
+    okh:licensor "Pierre-Alexis Ciavaldini" ;
+    okh:source :Extruderscrew_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Extruderscrew_source a okh:SourceFile ;
+    rdfs:label "Source File of extruder_screw of Prusa i4.2 71dca0bde4d05ac4a41e42ef6eb582035699fd1c" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1122/extruderscrew.SLDPRT> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjQ5Mw==> .
+
+:Extrudersmallgear a okh:Part ;
+    rdfs:label "extruder_small_gear" ;
+    okh:documentationLanguage "pt" ;
+    okh:licensor "Pierre-Alexis Ciavaldini" ;
+    okh:source :Extrudersmallgear_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Extrudersmallgear_source a okh:SourceFile ;
+    rdfs:label "Source File of extruder_small_gear of Prusa i4.2 71dca0bde4d05ac4a41e42ef6eb582035699fd1c" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1122/extrudersmallgear.SLDPRT> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjQ5NA==> .
+
+:Extruderspool a okh:Part ;
+    rdfs:label "extruder_spool" ;
+    okh:documentationLanguage "pt" ;
+    okh:licensor "Pierre-Alexis Ciavaldini" ;
+    okh:source :Extruderspool_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Extruderspool_source a okh:SourceFile ;
+    rdfs:label "Source File of extruder_spool of Prusa i4.2 71dca0bde4d05ac4a41e42ef6eb582035699fd1c" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1122/extruderspool.SLDPRT> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjQ5NQ==> .
+
+:Extruderspoolholder a okh:Part ;
+    rdfs:label "extruder_spool_holder" ;
+    okh:documentationLanguage "pt" ;
+    okh:licensor "Pierre-Alexis Ciavaldini" ;
+    okh:source :Extruderspoolholder_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Extruderspoolholder_source a okh:SourceFile ;
+    rdfs:label "Source File of extruder_spool_holder of Prusa i4.2 71dca0bde4d05ac4a41e42ef6eb582035699fd1c" ;
+    okh:fileFormat "SLDASM" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1122/extruderspoolholder.SLDASM> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjQ5Nw==> .
+
+:Extrudertensionner a okh:Part ;
+    rdfs:label "extruder_tensionner" ;
+    okh:documentationLanguage "pt" ;
+    okh:licensor "Pierre-Alexis Ciavaldini" ;
+    okh:source :Extrudertensionner_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Extrudertensionner_source a okh:SourceFile ;
+    rdfs:label "Source File of extruder_tensionner of Prusa i4.2 71dca0bde4d05ac4a41e42ef6eb582035699fd1c" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1122/extrudertensionner.SLDPRT> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjQ5Ng==> .
+
+:Frame a okh:Part ;
+    rdfs:label "frame" ;
+    okh:documentationLanguage "pt" ;
+    okh:licensor "Pierre-Alexis Ciavaldini" ;
+    okh:source :Frame_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Frame_source a okh:SourceFile ;
+    rdfs:label "Source File of frame of Prusa i4.2 71dca0bde4d05ac4a41e42ef6eb582035699fd1c" ;
+    okh:fileFormat "SLDASM" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1122/frame.sldasm> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjUwOQ==> .
+
+:Framebed a okh:Part ;
+    rdfs:label "frame_bed" ;
+    okh:documentationLanguage "pt" ;
+    okh:licensor "Pierre-Alexis Ciavaldini" ;
+    okh:source :Framebed_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Framebed_source a okh:SourceFile ;
+    rdfs:label "Source File of frame_bed of Prusa i4.2 71dca0bde4d05ac4a41e42ef6eb582035699fd1c" ;
+    okh:fileFormat "SLDASM" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1122/framebed.SLDASM> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjQ5OQ==> .
+
+:Framebottom a okh:Part ;
+    rdfs:label "frame_bottom" ;
+    okh:documentationLanguage "pt" ;
+    okh:licensor "Pierre-Alexis Ciavaldini" ;
+    okh:source :Framebottom_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Framebottom_source a okh:SourceFile ;
+    rdfs:label "Source File of frame_bottom of Prusa i4.2 71dca0bde4d05ac4a41e42ef6eb582035699fd1c" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1122/framebottom.SLDPRT> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjUwMg==> .
+
+:Frameface a okh:Part ;
+    rdfs:label "frame_face" ;
+    okh:documentationLanguage "pt" ;
+    okh:licensor "Pierre-Alexis Ciavaldini" ;
+    okh:source :Frameface_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Frameface_source a okh:SourceFile ;
+    rdfs:label "Source File of frame_face of Prusa i4.2 71dca0bde4d05ac4a41e42ef6eb582035699fd1c" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1122/frameface.SLDPRT> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjUwMA==> .
+
+:Framemiddle a okh:Part ;
+    rdfs:label "frame_middle" ;
+    okh:documentationLanguage "pt" ;
+    okh:licensor "Pierre-Alexis Ciavaldini" ;
+    okh:source :Framemiddle_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Framemiddle_source a okh:SourceFile ;
+    rdfs:label "Source File of frame_middle of Prusa i4.2 71dca0bde4d05ac4a41e42ef6eb582035699fd1c" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1122/framemiddle.SLDPRT> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjUwMQ==> .
+
+:Frameplate a okh:Part ;
+    rdfs:label "frame_plate" ;
+    okh:documentationLanguage "pt" ;
+    okh:licensor "Pierre-Alexis Ciavaldini" ;
+    okh:source :Frameplate_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Frameplate_source a okh:SourceFile ;
+    rdfs:label "Source File of frame_plate of Prusa i4.2 71dca0bde4d05ac4a41e42ef6eb582035699fd1c" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1122/frameplate.SLDPRT> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjUwNA==> .
+
+:Frameplatecarriage a okh:Part ;
+    rdfs:label "frame_plate_carriage" ;
+    okh:documentationLanguage "pt" ;
+    okh:licensor "Pierre-Alexis Ciavaldini" ;
+    okh:source :Frameplatecarriage_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Frameplatecarriage_source a okh:SourceFile ;
+    rdfs:label "Source File of frame_plate_carriage of Prusa i4.2 71dca0bde4d05ac4a41e42ef6eb582035699fd1c" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1122/frameplatecarriage.SLDPRT> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjUwMw==> .
+
+:Frameside a okh:Part ;
+    rdfs:label "frame_side" ;
+    okh:documentationLanguage "pt" ;
+    okh:licensor "Pierre-Alexis Ciavaldini" ;
+    okh:source :Frameside_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Frameside_source a okh:SourceFile ;
+    rdfs:label "Source File of frame_side of Prusa i4.2 71dca0bde4d05ac4a41e42ef6eb582035699fd1c" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1122/frameside.SLDPRT> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjUwNQ==> .
+
+:Frametop a okh:Part ;
+    rdfs:label "frame_top" ;
+    okh:documentationLanguage "pt" ;
+    okh:licensor "Pierre-Alexis Ciavaldini" ;
+    okh:source :Frametop_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Frametop_source a okh:SourceFile ;
+    rdfs:label "Source File of frame_top of Prusa i4.2 71dca0bde4d05ac4a41e42ef6eb582035699fd1c" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1122/frametop.SLDPRT> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjUwNg==> .
+
+:Framezmotor a okh:Part ;
+    rdfs:label "frame_z_motor" ;
+    okh:documentationLanguage "pt" ;
+    okh:licensor "Pierre-Alexis Ciavaldini" ;
+    okh:source :Framezmotor_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Framezmotor_source a okh:SourceFile ;
+    rdfs:label "Source File of frame_z_motor of Prusa i4.2 71dca0bde4d05ac4a41e42ef6eb582035699fd1c" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1122/framezmotor.SLDPRT> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjUwOA==> .
+
+:Framezmotorholder a okh:Part ;
+    rdfs:label "frame_z_motor_holder" ;
+    okh:documentationLanguage "pt" ;
+    okh:licensor "Pierre-Alexis Ciavaldini" ;
+    okh:source :Framezmotorholder_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Framezmotorholder_source a okh:SourceFile ;
+    rdfs:label "Source File of frame_z_motor_holder of Prusa i4.2 71dca0bde4d05ac4a41e42ef6eb582035699fd1c" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1122/framezmotorholder.SLDPRT> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjUwNw==> .
+
+:Nema17 a okh:Part ;
+    rdfs:label "nema17" ;
+    okh:documentationLanguage "pt" ;
+    okh:licensor "Pierre-Alexis Ciavaldini" ;
+    okh:source :Nema17_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Nema17_source a okh:SourceFile ;
+    rdfs:label "Source File of nema17 of Prusa i4.2 71dca0bde4d05ac4a41e42ef6eb582035699fd1c" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1122/nema17.SLDPRT> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjUxMA==> .
+
+:Nut a okh:Part ;
+    rdfs:label "nut" ;
+    okh:documentationLanguage "pt" ;
+    okh:licensor "Pierre-Alexis Ciavaldini" ;
+    okh:source :Nut_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Nut_source a okh:SourceFile ;
+    rdfs:label "Source File of nut of Prusa i4.2 71dca0bde4d05ac4a41e42ef6eb582035699fd1c" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1122/nut.SLDPRT> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjUxMg==> .
+
+:Nutfastener a okh:Part ;
+    rdfs:label "nut_fastener" ;
+    okh:documentationLanguage "pt" ;
+    okh:licensor "Pierre-Alexis Ciavaldini" ;
+    okh:source :Nutfastener_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Nutfastener_source a okh:SourceFile ;
+    rdfs:label "Source File of nut_fastener of Prusa i4.2 71dca0bde4d05ac4a41e42ef6eb582035699fd1c" ;
+    okh:fileFormat "SLDASM" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1122/nutfastener.sldasm> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjUxMQ==> .
+
+:Prusai42 a okh:Part ;
+    rdfs:label "Prusa_i4.2" ;
+    okh:documentationLanguage "pt" ;
+    okh:licensor "Pierre-Alexis Ciavaldini" ;
+    okh:source :Prusai42_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Prusai42_source a okh:SourceFile ;
+    rdfs:label "Source File of Prusa_i4.2 of Prusa i4.2 71dca0bde4d05ac4a41e42ef6eb582035699fd1c" ;
+    okh:fileFormat "SLDASM" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1122/prusa-i42.SLDASM> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjUxMw==> .
+
+:Screen a okh:Part ;
+    rdfs:label "screen" ;
+    okh:documentationLanguage "pt" ;
+    okh:licensor "Pierre-Alexis Ciavaldini" ;
+    okh:source :Screen_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Screen_source a okh:SourceFile ;
+    rdfs:label "Source File of screen of Prusa i4.2 71dca0bde4d05ac4a41e42ef6eb582035699fd1c" ;
+    okh:fileFormat "SLDASM" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1122/screen.SLDASM> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjUxNg==> .
+
+:Screenfront a okh:Part ;
+    rdfs:label "screen_front" ;
+    okh:documentationLanguage "pt" ;
+    okh:licensor "Pierre-Alexis Ciavaldini" ;
+    okh:source :Screenfront_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Screenfront_source a okh:SourceFile ;
+    rdfs:label "Source File of screen_front of Prusa i4.2 71dca0bde4d05ac4a41e42ef6eb582035699fd1c" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1122/screenfront.SLDPRT> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjUxNA==> .
+
+:Screensupport a okh:Part ;
+    rdfs:label "screen_support" ;
+    okh:documentationLanguage "pt" ;
+    okh:licensor "Pierre-Alexis Ciavaldini" ;
+    okh:source :Screensupport_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Screensupport_source a okh:SourceFile ;
+    rdfs:label "Source File of screen_support of Prusa i4.2 71dca0bde4d05ac4a41e42ef6eb582035699fd1c" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1122/screensupport.SLDPRT> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjUxNQ==> .
+
+:Xcarriage a okh:Part ;
+    rdfs:label "x_carriage" ;
+    okh:documentationLanguage "pt" ;
+    okh:licensor "Pierre-Alexis Ciavaldini" ;
+    okh:source :Xcarriage_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Xcarriage_source a okh:SourceFile ;
+    rdfs:label "Source File of x_carriage of Prusa i4.2 71dca0bde4d05ac4a41e42ef6eb582035699fd1c" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1122/xcarriage.SLDPRT> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjUxNw==> .
+
+:Xendstop a okh:Part ;
+    rdfs:label "x_endstop" ;
+    okh:documentationLanguage "pt" ;
+    okh:export :Xendstop_export1 ;
+    okh:licensor "Pierre-Alexis Ciavaldini" ;
+    okh:source :Xendstop_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Xendstop_export1 a okh:ExportFile ;
+    rdfs:label "Export File of x_endstop of Prusa i4.2 71dca0bde4d05ac4a41e42ef6eb582035699fd1c" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1122/xendstop.SLDPRT> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjUxOQ==> .
+
+:Xendstop_source a okh:SourceFile ;
+    rdfs:label "Source File of x_endstop of Prusa i4.2 71dca0bde4d05ac4a41e42ef6eb582035699fd1c" ;
+    okh:fileFormat "SLDASM" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1122/xendstop.SLDASM> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjUxOA==> .
+
+:Xidler a okh:Part ;
+    rdfs:label "x_idler" ;
+    okh:documentationLanguage "pt" ;
+    okh:licensor "Pierre-Alexis Ciavaldini" ;
+    okh:source :Xidler_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Xidler_source a okh:SourceFile ;
+    rdfs:label "Source File of x_idler of Prusa i4.2 71dca0bde4d05ac4a41e42ef6eb582035699fd1c" ;
+    okh:fileFormat "SLDASM" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1122/xidler.SLDASM> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjUyMw==> .
+
+:Xidlerbody a okh:Part ;
+    rdfs:label "x_idler_body" ;
+    okh:documentationLanguage "pt" ;
+    okh:licensor "Pierre-Alexis Ciavaldini" ;
+    okh:source :Xidlerbody_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Xidlerbody_source a okh:SourceFile ;
+    rdfs:label "Source File of x_idler_body of Prusa i4.2 71dca0bde4d05ac4a41e42ef6eb582035699fd1c" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1122/xidlerbody.SLDPRT> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjUyMA==> .
+
+:Xidlerpulley a okh:Part ;
+    rdfs:label "x_idler_pulley" ;
+    okh:documentationLanguage "pt" ;
+    okh:licensor "Pierre-Alexis Ciavaldini" ;
+    okh:source :Xidlerpulley_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Xidlerpulley_source a okh:SourceFile ;
+    rdfs:label "Source File of x_idler_pulley of Prusa i4.2 71dca0bde4d05ac4a41e42ef6eb582035699fd1c" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1122/xidlerpulley.SLDPRT> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjUyMQ==> .
+
+:Xidlertensionner a okh:Part ;
+    rdfs:label "x_idler_tensionner" ;
+    okh:documentationLanguage "pt" ;
+    okh:licensor "Pierre-Alexis Ciavaldini" ;
+    okh:source :Xidlertensionner_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Xidlertensionner_source a okh:SourceFile ;
+    rdfs:label "Source File of x_idler_tensionner of Prusa i4.2 71dca0bde4d05ac4a41e42ef6eb582035699fd1c" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1122/xidlertensionner.SLDPRT> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjUyMg==> .
+
+:Xmotor a okh:Part ;
+    rdfs:label "x_motor" ;
+    okh:documentationLanguage "pt" ;
+    okh:licensor "Pierre-Alexis Ciavaldini" ;
+    okh:source :Xmotor_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Xmotor_source a okh:SourceFile ;
+    rdfs:label "Source File of x_motor of Prusa i4.2 71dca0bde4d05ac4a41e42ef6eb582035699fd1c" ;
+    okh:fileFormat "SLDASM" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1122/xmotor.SLDASM> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjUyNQ==> .
+
+:Xmotorbody a okh:Part ;
+    rdfs:label "x_motor_body" ;
+    okh:documentationLanguage "pt" ;
+    okh:licensor "Pierre-Alexis Ciavaldini" ;
+    okh:source :Xmotorbody_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Xmotorbody_source a okh:SourceFile ;
+    rdfs:label "Source File of x_motor_body of Prusa i4.2 71dca0bde4d05ac4a41e42ef6eb582035699fd1c" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1122/xmotorbody.SLDPRT> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjUyNA==> .
+
+:Xnema17attach a okh:Part ;
+    rdfs:label "x_nema17_attach" ;
+    okh:documentationLanguage "pt" ;
+    okh:licensor "Pierre-Alexis Ciavaldini" ;
+    okh:source :Xnema17attach_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Xnema17attach_source a okh:SourceFile ;
+    rdfs:label "Source File of x_nema17_attach of Prusa i4.2 71dca0bde4d05ac4a41e42ef6eb582035699fd1c" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1122/xnema17attach.SLDPRT> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjUyNg==> .
+
+:Xsmoothrod a okh:Part ;
+    rdfs:label "x_smooth_rod" ;
+    okh:documentationLanguage "pt" ;
+    okh:licensor "Pierre-Alexis Ciavaldini" ;
+    okh:source :Xsmoothrod_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Xsmoothrod_source a okh:SourceFile ;
+    rdfs:label "Source File of x_smooth_rod of Prusa i4.2 71dca0bde4d05ac4a41e42ef6eb582035699fd1c" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1122/xsmoothrod.SLDPRT> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjUyOA==> .
+
+:Ycarriage a okh:Part ;
+    rdfs:label "y_carriage" ;
+    okh:documentationLanguage "pt" ;
+    okh:licensor "Pierre-Alexis Ciavaldini" ;
+    okh:source :Ycarriage_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Ycarriage_source a okh:SourceFile ;
+    rdfs:label "Source File of y_carriage of Prusa i4.2 71dca0bde4d05ac4a41e42ef6eb582035699fd1c" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1122/ycarriage.SLDPRT> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjUyNw==> .
+
+:Yendstop a okh:Part ;
+    rdfs:label "y_endstop" ;
+    okh:documentationLanguage "pt" ;
+    okh:licensor "Pierre-Alexis Ciavaldini" ;
+    okh:source :Yendstop_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Yendstop_source a okh:SourceFile ;
+    rdfs:label "Source File of y_endstop of Prusa i4.2 71dca0bde4d05ac4a41e42ef6eb582035699fd1c" ;
+    okh:fileFormat "SLDASM" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1122/yendstop.sldasm> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjUzMA==> .
+
+:Yendstopbody a okh:Part ;
+    rdfs:label "y_endstop_body" ;
+    okh:documentationLanguage "pt" ;
+    okh:licensor "Pierre-Alexis Ciavaldini" ;
+    okh:source :Yendstopbody_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Yendstopbody_source a okh:SourceFile ;
+    rdfs:label "Source File of y_endstop_body of Prusa i4.2 71dca0bde4d05ac4a41e42ef6eb582035699fd1c" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1122/yendstopbody.SLDPRT> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjUyOQ==> .
+
+:Yidler a okh:Part ;
+    rdfs:label "y_idler" ;
+    okh:documentationLanguage "pt" ;
+    okh:licensor "Pierre-Alexis Ciavaldini" ;
+    okh:source :Yidler_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Yidler_source a okh:SourceFile ;
+    rdfs:label "Source File of y_idler of Prusa i4.2 71dca0bde4d05ac4a41e42ef6eb582035699fd1c" ;
+    okh:fileFormat "SLDASM" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1122/yidler.sldasm> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjUzMw==> .
+
+:Yidlerbody a okh:Part ;
+    rdfs:label "y_idler_body" ;
+    okh:documentationLanguage "pt" ;
+    okh:licensor "Pierre-Alexis Ciavaldini" ;
+    okh:source :Yidlerbody_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Yidlerbody_source a okh:SourceFile ;
+    rdfs:label "Source File of y_idler_body of Prusa i4.2 71dca0bde4d05ac4a41e42ef6eb582035699fd1c" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1122/yidlerbody.SLDPRT> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjUzMQ==> .
+
+:Ymotor a okh:Part ;
+    rdfs:label "y_motor" ;
+    okh:documentationLanguage "pt" ;
+    okh:licensor "Pierre-Alexis Ciavaldini" ;
+    okh:source :Ymotor_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Ymotor_source a okh:SourceFile ;
+    rdfs:label "Source File of y_motor of Prusa i4.2 71dca0bde4d05ac4a41e42ef6eb582035699fd1c" ;
+    okh:fileFormat "SLDASM" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1122/ymotor.sldasm> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjUzNA==> .
+
+:Ymotorbody a okh:Part ;
+    rdfs:label "y_motor_body" ;
+    okh:documentationLanguage "pt" ;
+    okh:licensor "Pierre-Alexis Ciavaldini" ;
+    okh:source :Ymotorbody_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Ymotorbody_source a okh:SourceFile ;
+    rdfs:label "Source File of y_motor_body of Prusa i4.2 71dca0bde4d05ac4a41e42ef6eb582035699fd1c" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1122/ymotorbody.SLDPRT> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjUzMg==> .
+
+:Ysmoothrod a okh:Part ;
+    rdfs:label "y_smooth_rod" ;
+    okh:documentationLanguage "pt" ;
+    okh:licensor "Pierre-Alexis Ciavaldini" ;
+    okh:source :Ysmoothrod_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Ysmoothrod_source a okh:SourceFile ;
+    rdfs:label "Source File of y_smooth_rod of Prusa i4.2 71dca0bde4d05ac4a41e42ef6eb582035699fd1c" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1122/ysmoothrod.SLDPRT> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjUzNg==> .
+
+:Zendstop a okh:Part ;
+    rdfs:label "z_endstop" ;
+    okh:documentationLanguage "pt" ;
+    okh:licensor "Pierre-Alexis Ciavaldini" ;
+    okh:source :Zendstop_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Zendstop_source a okh:SourceFile ;
+    rdfs:label "Source File of z_endstop of Prusa i4.2 71dca0bde4d05ac4a41e42ef6eb582035699fd1c" ;
+    okh:fileFormat "SLDASM" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1122/zendstop.SLDASM> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjU0MQ==> .
+
+:Zendstopangle a okh:Part ;
+    rdfs:label "z_endstop_angle" ;
+    okh:documentationLanguage "pt" ;
+    okh:licensor "Pierre-Alexis Ciavaldini" ;
+    okh:source :Zendstopangle_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Zendstopangle_source a okh:SourceFile ;
+    rdfs:label "Source File of z_endstop_angle of Prusa i4.2 71dca0bde4d05ac4a41e42ef6eb582035699fd1c" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1122/zendstopangle.SLDPRT> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjUzNQ==> .
+
+:Zendstopcarriage a okh:Part ;
+    rdfs:label "z_endstop_carriage" ;
+    okh:documentationLanguage "pt" ;
+    okh:licensor "Pierre-Alexis Ciavaldini" ;
+    okh:source :Zendstopcarriage_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Zendstopcarriage_source a okh:SourceFile ;
+    rdfs:label "Source File of z_endstop_carriage of Prusa i4.2 71dca0bde4d05ac4a41e42ef6eb582035699fd1c" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1122/zendstopcarriage.SLDPRT> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjUzNw==> .
+
+:Zendstoprod a okh:Part ;
+    rdfs:label "z_endstop_rod" ;
+    okh:documentationLanguage "pt" ;
+    okh:licensor "Pierre-Alexis Ciavaldini" ;
+    okh:source :Zendstoprod_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Zendstoprod_source a okh:SourceFile ;
+    rdfs:label "Source File of z_endstop_rod of Prusa i4.2 71dca0bde4d05ac4a41e42ef6eb582035699fd1c" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1122/zendstoprod.SLDPRT> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjUzOA==> .
+
+:Zendstopspring a okh:Part ;
+    rdfs:label "z_endstop_spring" ;
+    okh:documentationLanguage "pt" ;
+    okh:licensor "Pierre-Alexis Ciavaldini" ;
+    okh:source :Zendstopspring_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Zendstopspring_source a okh:SourceFile ;
+    rdfs:label "Source File of z_endstop_spring of Prusa i4.2 71dca0bde4d05ac4a41e42ef6eb582035699fd1c" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1122/zendstopspring.SLDPRT> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjU0MA==> .
+
+:Zendstopwheel a okh:Part ;
+    rdfs:label "z_endstop_wheel" ;
+    okh:documentationLanguage "pt" ;
+    okh:licensor "Pierre-Alexis Ciavaldini" ;
+    okh:source :Zendstopwheel_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Zendstopwheel_source a okh:SourceFile ;
+    rdfs:label "Source File of z_endstop_wheel of Prusa i4.2 71dca0bde4d05ac4a41e42ef6eb582035699fd1c" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1122/zendstopwheel.SLDPRT> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjUzOQ==> .
+
+:Zmotor a okh:Part ;
+    rdfs:label "z_motor" ;
+    okh:documentationLanguage "pt" ;
+    okh:licensor "Pierre-Alexis Ciavaldini" ;
+    okh:source :Zmotor_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Zmotor_source a okh:SourceFile ;
+    rdfs:label "Source File of z_motor of Prusa i4.2 71dca0bde4d05ac4a41e42ef6eb582035699fd1c" ;
+    okh:fileFormat "SLDASM" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1122/zmotor.sldasm> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjU0Mg==> .
+
+:Zrodsmooth a okh:Part ;
+    rdfs:label "z_rod_smooth" ;
+    okh:documentationLanguage "pt" ;
+    okh:licensor "Pierre-Alexis Ciavaldini" ;
+    okh:source :Zrodsmooth_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Zrodsmooth_source a okh:SourceFile ;
+    rdfs:label "Source File of z_rod_smooth of Prusa i4.2 71dca0bde4d05ac4a41e42ef6eb582035699fd1c" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1122/zrodsmooth.SLDPRT> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjU0Mw==> .
+
+:Zrodthreaded a okh:Part ;
+    rdfs:label "z_rod_threaded" ;
+    okh:documentationLanguage "pt" ;
+    okh:licensor "Pierre-Alexis Ciavaldini" ;
+    okh:source :Zrodthreaded_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Zrodthreaded_source a okh:SourceFile ;
+    rdfs:label "Source File of z_rod_threaded of Prusa i4.2 71dca0bde4d05ac4a41e42ef6eb582035699fd1c" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1122/zrodthreaded.SLDPRT> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjU0NA==> .
+

@@ -1,0 +1,72 @@
+@prefix : <https://wikifactory.com/@botler/flex-neck-lamp/cd61d878571caa4872111487d326b66181264613/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:FlexneckLamp a okh:Module ;
+    rdfs:label "Flex-Neck Lamp" ;
+    okh:documentationLanguage "en" ;
+    okh:function "Lamp3D is a small, repositionable, gooseneck-style LED lamp. It’s a fun and easy introductory project for those just starting out with 3D printing, electronics, and soldering.Owner: Mr. Caleb Cotter (https://makezine.com/author/caleb-cotter/" ;
+    okh:hasComponent :Base,
+        :LampShade,
+        :Vertabrae ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "James Botler" ;
+    okh:release <https://wikifactory.com/@botler/flex-neck-lamp/v/cd61d87> ;
+    okh:repo <https://wikifactory.com/@botler/flex-neck-lamp> ;
+    okh:repoHost "wikifactory.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:version "cd61d878571caa4872111487d326b66181264613" ;
+    okh:versionOf <https://wikifactory.com/@botler/flex-neck-lamp> .
+
+:Base a okh:Part ;
+    rdfs:label "Base" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :Base_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Base_source a okh:SourceFile ;
+    rdfs:label "Source File of Base of Flex-Neck Lamp cd61d878571caa4872111487d326b66181264613" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/22734/base.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyMTE2NzY=> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Flex-Neck Lamp cd61d878571caa4872111487d326b66181264613" ;
+    okh:fileFormat "PNG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/22734/fnl.png> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyMTE2NTc=> .
+
+:LampShade a okh:Part ;
+    rdfs:label "Lamp Shade" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :LampShade_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:LampShade_source a okh:SourceFile ;
+    rdfs:label "Source File of Lamp Shade of Flex-Neck Lamp cd61d878571caa4872111487d326b66181264613" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/22734/lampshade.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyMTE2Nzc=> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of Flex-Neck Lamp cd61d878571caa4872111487d326b66181264613" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/22734/readme-8d9f0.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyMTE2OTY=> .
+
+:Vertabrae a okh:Part ;
+    rdfs:label "Vertabrae" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :Vertabrae_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Vertabrae_source a okh:SourceFile ;
+    rdfs:label "Source File of Vertabrae of Flex-Neck Lamp cd61d878571caa4872111487d326b66181264613" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/22734/vertabrae.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyMTE2Nzg=> .
+

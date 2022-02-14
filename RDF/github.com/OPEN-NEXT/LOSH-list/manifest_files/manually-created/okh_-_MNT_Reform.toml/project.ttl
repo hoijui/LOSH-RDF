@@ -1,0 +1,35 @@
+@prefix : <https://source.mnt.re/reform/reform/2.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:MntReform a okh:Module ;
+    rdfs:label "MNT Reform" ;
+    okh:cpcPatentClass "H05K" ;
+    okh:dataSource "github.com" ;
+    okh:documentationLanguage "en-GB" ;
+    okh:function "MNT Reform is the radical, ultimate open hardware laptop, designed and assembled in Berlin." ;
+    okh:hasBoM :BillOfMaterials ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "Lukas F. Hartmann" ;
+    okh:repo <https://source.mnt.re/reform/reform> ;
+    okh:repoHost "source.mnt.re" ;
+    okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-S-2.0> ;
+    okh:tsdc "ASM" ;
+    okh:version "2.0.0" ;
+    okh:versionOf <https://source.mnt.re/reform/reform> .
+
+:BillOfMaterials a okh:BoM ;
+    rdfs:label "BillOfMaterials of MNT Reform 2.0.0" ;
+    okh:fileFormat "" .
+
+:Image a okh:Image ;
+    rdfs:label "Image of MNT Reform 2.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://mntre.com/media/reform_v2_images/reform_v2_prototype_top.jpg> ;
+    okh:permaURL <https://mntre.com/media/reform_v2_images/reform_v2_prototype_top.jpg> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of MNT Reform 2.0.0" ;
+    okh:fileFormat "MD" .
+

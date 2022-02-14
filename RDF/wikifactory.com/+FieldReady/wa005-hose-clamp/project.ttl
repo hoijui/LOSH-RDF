@@ -1,0 +1,59 @@
+@prefix : <https://wikifactory.com/+FieldReady/wa005-hose-clamp/59c9ae60675040f1afafecc803f68128057318d4/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Wa005HoseClamp a okh:Module ;
+    rdfs:label "WA005 - Hose Clamp" ;
+    okh:documentationLanguage "en" ;
+    okh:function "A hose clamp that is 3D printed that connects two hoses together." ;
+    okh:hasComponent :Wa005cad,
+        :Wa005engdwg ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "James Botler" ;
+    okh:organisation "Field Ready" ;
+    okh:release <https://wikifactory.com/+FieldReady/wa005-hose-clamp/v/59c9ae6> ;
+    okh:repo <https://wikifactory.com/+FieldReady/wa005-hose-clamp> ;
+    okh:repoHost "wikifactory.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:version "59c9ae60675040f1afafecc803f68128057318d4" ;
+    okh:versionOf <https://wikifactory.com/+FieldReady/wa005-hose-clamp> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of WA005 - Hose Clamp 59c9ae60675040f1afafecc803f68128057318d4" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/15924/wa005image-b201e.jpg> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxOTQ5NDU=> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of WA005 - Hose Clamp 59c9ae60675040f1afafecc803f68128057318d4" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/15924/readme-e1e25.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyMDczNTM=> .
+
+:Wa005cad a okh:Part ;
+    rdfs:label "WA005_CAD" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Brynmor John" ;
+    okh:source :Wa005cad_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Wa005cad_source a okh:SourceFile ;
+    rdfs:label "Source File of WA005_CAD of WA005 - Hose Clamp 59c9ae60675040f1afafecc803f68128057318d4" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/15924/wa005cad.STL> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxOTMyNTY=> .
+
+:Wa005engdwg a okh:Part ;
+    rdfs:label "WA005_Eng_Dwg" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Brynmor John" ;
+    okh:source :Wa005engdwg_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Wa005engdwg_source a okh:SourceFile ;
+    rdfs:label "Source File of WA005_Eng_Dwg of WA005 - Hose Clamp 59c9ae60675040f1afafecc803f68128057318d4" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/15924/wa005engdwg.PDF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxOTMyNTc=> .
+

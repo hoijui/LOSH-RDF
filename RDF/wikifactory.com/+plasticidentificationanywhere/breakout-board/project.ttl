@@ -1,0 +1,73 @@
+@prefix : <https://wikifactory.com/+plasticidentificationanywhere/breakout-board/a567e75ca3885e0b87b54110753c654ff29e0b0c/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:BreakoutBoard a okh:Module ;
+    rdfs:label "Breakout board" ;
+    okh:documentationLanguage "en" ;
+    okh:function "sensor board to detect common plastics" ;
+    okh:hasComponent :Breakoutboardv10,
+        :Mechanicaldrawing,
+        :Schematic ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "Jerry" ;
+    okh:organisation "Plastic Scanner" ;
+    okh:release <https://wikifactory.com/+plasticidentificationanywhere/breakout-board/v/a567e75> ;
+    okh:repo <https://wikifactory.com/+plasticidentificationanywhere/breakout-board> ;
+    okh:repoHost "wikifactory.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> ;
+    okh:version "a567e75ca3885e0b87b54110753c654ff29e0b0c" ;
+    okh:versionOf <https://wikifactory.com/+plasticidentificationanywhere/breakout-board> .
+
+:Breakoutboardv10 a okh:Part ;
+    rdfs:label "Breakout_board_v10" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Jerry" ;
+    okh:source :Breakoutboardv10_source ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> .
+
+:Breakoutboardv10_source a okh:SourceFile ;
+    rdfs:label "Source File of Breakout_board_v10 of Breakout board a567e75ca3885e0b87b54110753c654ff29e0b0c" ;
+    okh:fileFormat "STEP" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/125918/breakout_board_v10.step> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NTYyNTc=> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Breakout board a567e75ca3885e0b87b54110753c654ff29e0b0c" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/125918/currentpcb-5e8d4.jpg> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NTYyNzY=> .
+
+:Mechanicaldrawing a okh:Part ;
+    rdfs:label "Mechanical_drawing" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Jerry" ;
+    okh:source :Mechanicaldrawing_source ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> .
+
+:Mechanicaldrawing_source a okh:SourceFile ;
+    rdfs:label "Source File of Mechanical_drawing of Breakout board a567e75ca3885e0b87b54110753c654ff29e0b0c" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/125918/mechanical_drawing.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NTYyNTU=> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of Breakout board a567e75ca3885e0b87b54110753c654ff29e0b0c" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/125918/readme.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NTYyNTQ=> .
+
+:Schematic a okh:Part ;
+    rdfs:label "Schematic" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Jerry" ;
+    okh:source :Schematic_source ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> .
+
+:Schematic_source a okh:SourceFile ;
+    rdfs:label "Source File of Schematic of Breakout board a567e75ca3885e0b87b54110753c654ff29e0b0c" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/125918/schematic.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NTYyNTM=> .
+

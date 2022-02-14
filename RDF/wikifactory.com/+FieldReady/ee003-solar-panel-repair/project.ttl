@@ -1,0 +1,45 @@
+@prefix : <https://wikifactory.com/+FieldReady/ee003-solar-panel-repair/bd12dfa48496fe8a1514a9e048cd18db2e887ba1/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Ee003solarPanelRepair a okh:Module ;
+    rdfs:label "EE003-Solar Panel Repair" ;
+    okh:documentationLanguage "en" ;
+    okh:function "To repair damaged solar panels (Caribbean hurricane response)" ;
+    okh:hasComponent :Ee003makermanual ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "Patrick Flaherty" ;
+    okh:organisation "Field Ready" ;
+    okh:release <https://wikifactory.com/+FieldReady/ee003-solar-panel-repair/v/bd12dfa> ;
+    okh:repo <https://wikifactory.com/+FieldReady/ee003-solar-panel-repair> ;
+    okh:repoHost "wikifactory.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:version "bd12dfa48496fe8a1514a9e048cd18db2e887ba1" ;
+    okh:versionOf <https://wikifactory.com/+FieldReady/ee003-solar-panel-repair> .
+
+:Ee003makermanual a okh:Part ;
+    rdfs:label "EE003-MakerManual" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Patrick Flaherty" ;
+    okh:source :Ee003makermanual_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Ee003makermanual_source a okh:SourceFile ;
+    rdfs:label "Source File of EE003-MakerManual of EE003-Solar Panel Repair bd12dfa48496fe8a1514a9e048cd18db2e887ba1" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/49253/ee003-makermanual.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozNDcyOTE=> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of EE003-Solar Panel Repair bd12dfa48496fe8a1514a9e048cd18db2e887ba1" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/49253/ee003_image_catalogue-afcee.jpg> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozNDcyODY=> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of EE003-Solar Panel Repair bd12dfa48496fe8a1514a9e048cd18db2e887ba1" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/49253/readme-26ca4.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozNDcyOTU=> .
+

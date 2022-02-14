@@ -1,0 +1,156 @@
+@prefix : <https://wikifactory.com/@juan/p3steel-printer/8f2b70db76758d86e17069556213eb4af88b057c/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:P3steelPrusaI3 a okh:Module ;
+    rdfs:label "P3Steel & Prusa i3" ;
+    okh:documentationLanguage "en" ;
+    okh:function "Prusa i3 is an open-source FDM 3D printer. There are more than 48 versions of the machine. This project is intended as a guide to understand and build one of its versions: the P3Steel." ;
+    okh:hasComponent :Cadenetasxzv11,
+        :Cadenetasxzv20stl,
+        :Carriage3b,
+        :P3steelframe20,
+        :P3steelframe25,
+        :Sujetacadenetaz,
+        :Xidler,
+        :Xmotor,
+        :Xtensor ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "Juan Mazzuchelli" ;
+    okh:release <https://wikifactory.com/@juan/p3steel-printer/v/8f2b70d> ;
+    okh:repo <https://wikifactory.com/@juan/p3steel-printer> ;
+    okh:repoHost "wikifactory.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> ;
+    okh:version "8f2b70db76758d86e17069556213eb4af88b057c" ;
+    okh:versionOf <https://wikifactory.com/@juan/p3steel-printer> .
+
+:Cadenetasxzv11 a okh:Part ;
+    rdfs:label "Cadenetas_XZ_v1.1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Juan Mazzuchelli" ;
+    okh:source :Cadenetasxzv11_source ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> .
+
+:Cadenetasxzv11_source a okh:SourceFile ;
+    rdfs:label "Source File of Cadenetas_XZ_v1.1 of P3Steel & Prusa i3 8f2b70db76758d86e17069556213eb4af88b057c" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/665/cadenetasxzv11.STL> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NTA2> .
+
+:Cadenetasxzv20stl a okh:Part ;
+    rdfs:label "Cadenetas_XZ_v2.0STL" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Juan Mazzuchelli" ;
+    okh:source :Cadenetasxzv20stl_source ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> .
+
+:Cadenetasxzv20stl_source a okh:SourceFile ;
+    rdfs:label "Source File of Cadenetas_XZ_v2.0STL of P3Steel & Prusa i3 8f2b70db76758d86e17069556213eb4af88b057c" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/665/cadenetasxzv20stl.STL> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NTA1> .
+
+:Carriage3b a okh:Part ;
+    rdfs:label "Carriage3b" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Juan Mazzuchelli" ;
+    okh:source :Carriage3b_source ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> .
+
+:Carriage3b_source a okh:SourceFile ;
+    rdfs:label "Source File of Carriage3b of P3Steel & Prusa i3 8f2b70db76758d86e17069556213eb4af88b057c" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/665/carriage3b.STL> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NTA4> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of P3Steel & Prusa i3 8f2b70db76758d86e17069556213eb4af88b057c" ;
+    okh:fileFormat "PNG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/665/screen-shot-2018-06-26-at-131045.png> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NDU0> .
+
+:P3steelframe20 a okh:Part ;
+    rdfs:label "P3STEEL_FRAME_2.0" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Juan Mazzuchelli" ;
+    okh:source :P3steelframe20_source ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> .
+
+:P3steelframe20_source a okh:SourceFile ;
+    rdfs:label "Source File of P3STEEL_FRAME_2.0 of P3Steel & Prusa i3 8f2b70db76758d86e17069556213eb4af88b057c" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/665/p3steelframe20.dxf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NTAy> .
+
+:P3steelframe25 a okh:Part ;
+    rdfs:label "P3STEEL_FRAME_2.5" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Juan Mazzuchelli" ;
+    okh:source :P3steelframe25_source ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> .
+
+:P3steelframe25_source a okh:SourceFile ;
+    rdfs:label "Source File of P3STEEL_FRAME_2.5 of P3Steel & Prusa i3 8f2b70db76758d86e17069556213eb4af88b057c" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/665/p3steelframe25.dxf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NTAz> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of P3Steel & Prusa i3 8f2b70db76758d86e17069556213eb4af88b057c" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/665/readme-11.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NDUx> .
+
+:Sujetacadenetaz a okh:Part ;
+    rdfs:label "Sujeta-cadeneta-Z" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Juan Mazzuchelli" ;
+    okh:source :Sujetacadenetaz_source ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> .
+
+:Sujetacadenetaz_source a okh:SourceFile ;
+    rdfs:label "Source File of Sujeta-cadeneta-Z of P3Steel & Prusa i3 8f2b70db76758d86e17069556213eb4af88b057c" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/665/sujeta-cadeneta-z.STL> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NTA3> .
+
+:Xidler a okh:Part ;
+    rdfs:label "X-idler" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Juan Mazzuchelli" ;
+    okh:source :Xidler_source ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> .
+
+:Xidler_source a okh:SourceFile ;
+    rdfs:label "Source File of X-idler of P3Steel & Prusa i3 8f2b70db76758d86e17069556213eb4af88b057c" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/665/x-idler.STL> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NTA5> .
+
+:Xmotor a okh:Part ;
+    rdfs:label "X-motor" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Juan Mazzuchelli" ;
+    okh:source :Xmotor_source ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> .
+
+:Xmotor_source a okh:SourceFile ;
+    rdfs:label "Source File of X-motor of P3Steel & Prusa i3 8f2b70db76758d86e17069556213eb4af88b057c" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/665/x-motor.STL> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NTEw> .
+
+:Xtensor a okh:Part ;
+    rdfs:label "X-Tensor" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Juan Mazzuchelli" ;
+    okh:source :Xtensor_source ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> .
+
+:Xtensor_source a okh:SourceFile ;
+    rdfs:label "Source File of X-Tensor of P3Steel & Prusa i3 8f2b70db76758d86e17069556213eb4af88b057c" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/665/x-tensor.STL> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NTEx> .
+

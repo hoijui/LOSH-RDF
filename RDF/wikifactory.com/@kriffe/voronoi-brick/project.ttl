@@ -1,0 +1,51 @@
+@prefix : <https://wikifactory.com/@kriffe/voronoi-brick/59ea8480365647dded262aa4ea4fc55f0b785f49/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:VoronoiBrick a okh:Module ;
+    rdfs:label "Voronoi Brick" ;
+    okh:documentationLanguage "en" ;
+    okh:function "Variation of the continous brick project" ;
+    okh:hasComponent :Flowingbricksv21voro ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "Kristofer Skyttner" ;
+    okh:release <https://wikifactory.com/@kriffe/voronoi-brick/v/59ea848> ;
+    okh:repo <https://wikifactory.com/@kriffe/voronoi-brick> ;
+    okh:repoHost "wikifactory.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:version "59ea8480365647dded262aa4ea4fc55f0b785f49" ;
+    okh:versionOf <https://wikifactory.com/@kriffe/voronoi-brick> .
+
+:Flowingbricksv21voro a okh:Part ;
+    rdfs:label "Flowing_bricks_v2_1_voro" ;
+    okh:documentationLanguage "en" ;
+    okh:export :Flowingbricksv21voro_export1 ;
+    okh:licensor "Kristofer Skyttner" ;
+    okh:source :Flowingbricksv21voro_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Flowingbricksv21voro_export1 a okh:ExportFile ;
+    rdfs:label "Export File of Flowing_bricks_v2_1_voro of Voronoi Brick 59ea8480365647dded262aa4ea4fc55f0b785f49" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/23666/flowingbricksv21voro.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyMTcwNzg=> .
+
+:Flowingbricksv21voro_source a okh:SourceFile ;
+    rdfs:label "Source File of Flowing_bricks_v2_1_voro of Voronoi Brick 59ea8480365647dded262aa4ea4fc55f0b785f49" ;
+    okh:fileFormat "PLY" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/23666/flowingbricksv21voro.ply> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyMTcwNzU=> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Voronoi Brick 59ea8480365647dded262aa4ea4fc55f0b785f49" ;
+    okh:fileFormat "PNG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/23666/voronatedflowingbrick.PNG> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyMTcwNzQ=> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of Voronoi Brick 59ea8480365647dded262aa4ea4fc55f0b785f49" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/23666/readme.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyMTcwODA=> .
+

@@ -1,0 +1,44 @@
+@prefix : <https://wikifactory.com/@maria-ines/dispensador-de/47f3195ffa36b4eea9676a9af8c9bd6a1356a2c3/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:DispensaPensosETampões a okh:Module ;
+    rdfs:label "Dispensa Pensos e Tampões" ;
+    okh:documentationLanguage "pt" ;
+    okh:function "Pensos e Tampões são indispensáveis e muito importantes para a higiene intima e tendo este projeto tem por base a criação de um dispensador,  optámos por criar um dispensador de pensos e tampões, destinado a casas de banho públicas, gratuito, que funciona com sensor de gestos e é acessível a todxs." ;
+    okh:hasComponent :DispensadorDeTampoes ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "Maria Inês Pimenta" ;
+    okh:release <https://wikifactory.com/@maria-ines/dispensador-de/v/47f3195> ;
+    okh:repo <https://wikifactory.com/@maria-ines/dispensador-de> ;
+    okh:repoHost "wikifactory.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:version "47f3195ffa36b4eea9676a9af8c9bd6a1356a2c3" ;
+    okh:versionOf <https://wikifactory.com/@maria-ines/dispensador-de> .
+
+:DispensadorDeTampoes a okh:Part ;
+    rdfs:label "DISPENSADOR DE TAMPÕES" ;
+    okh:documentationLanguage "pt" ;
+    okh:licensor "Mariana Gavela" ;
+    okh:source :DispensadorDeTampoes_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:DispensadorDeTampoes_source a okh:SourceFile ;
+    rdfs:label "Source File of DISPENSADOR DE TAMPÕES of Dispensa Pensos e Tampões 47f3195ffa36b4eea9676a9af8c9bd6a1356a2c3" ;
+    okh:fileFormat "STEP" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/88603/dispensador_de_tampoes.step> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1Mzg0NTY=> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Dispensa Pensos e Tampões 47f3195ffa36b4eea9676a9af8c9bd6a1356a2c3" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/88603/prancheta_final_dispensador-47d69.jpg> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1MzQ4MDU=> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of Dispensa Pensos e Tampões 47f3195ffa36b4eea9676a9af8c9bd6a1356a2c3" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/88603/readme-75dc9.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1Mzg0NjE=> .
+

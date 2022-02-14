@@ -1,0 +1,44 @@
+@prefix : <https://wikifactory.com/@martijnvanhoorn/sion-ambient-led-lighting/cd9c7eac841a25ee4fed43cb42f57fd670b4ea69/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:SionAmbientLedLighting a okh:Module ;
+    rdfs:label "SION Ambient LED Lighting" ;
+    okh:documentationLanguage "en" ;
+    okh:function "The idea of this project is to improve the atmosphere in the SION, using LED ambient lighting. The project is designed for anyone driving, camping or even sleeping in the SION." ;
+    okh:hasComponent :AmbientLedLightingProjectDocumentation ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "Martijn van Hoorn" ;
+    okh:release <https://wikifactory.com/@martijnvanhoorn/sion-ambient-led-lighting/v/cd9c7ea> ;
+    okh:repo <https://wikifactory.com/@martijnvanhoorn/sion-ambient-led-lighting> ;
+    okh:repoHost "wikifactory.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:version "cd9c7eac841a25ee4fed43cb42f57fd670b4ea69" ;
+    okh:versionOf <https://wikifactory.com/@martijnvanhoorn/sion-ambient-led-lighting> .
+
+:AmbientLedLightingProjectDocumentation a okh:Part ;
+    rdfs:label "Ambient LED Lighting project documentation" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Martijn van Hoorn" ;
+    okh:source :AmbientLedLightingProjectDocumentation_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:AmbientLedLightingProjectDocumentation_source a okh:SourceFile ;
+    rdfs:label "Source File of Ambient LED Lighting project documentation of SION Ambient LED Lighting cd9c7eac841a25ee4fed43cb42f57fd670b4ea69" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/135975/ambient-led-lighting-project-documentation.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1OTUwNTE=> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of SION Ambient LED Lighting cd9c7eac841a25ee4fed43cb42f57fd670b4ea69" ;
+    okh:fileFormat "PNG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/135975/capture1.PNG> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1OTgxMDQ=> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of SION Ambient LED Lighting cd9c7eac841a25ee4fed43cb42f57fd670b4ea69" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/135975/readme-f59d6.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1OTk0NjI=> .
+

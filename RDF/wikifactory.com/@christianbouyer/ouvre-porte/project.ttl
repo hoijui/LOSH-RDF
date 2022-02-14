@@ -1,0 +1,37 @@
+@prefix : <https://wikifactory.com/@christianbouyer/ouvre-porte/3abb55b0046a1b169a40f3574dd1b125c12db4df/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:OuvrePorte a okh:Module ;
+    rdfs:label "Ouvre porte" ;
+    okh:documentationLanguage "fr" ;
+    okh:function "Ouvre porte pour limiter les contacts (Covid 19) Découpe laser" ;
+    okh:hasComponent :Ouvreporte ;
+    okh:hasImage :Image ;
+    okh:licensor "christianbouyer" ;
+    okh:release <https://wikifactory.com/@christianbouyer/ouvre-porte/v/3abb55b> ;
+    okh:repo <https://wikifactory.com/@christianbouyer/ouvre-porte> ;
+    okh:repoHost "wikifactory.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:version "3abb55b0046a1b169a40f3574dd1b125c12db4df" ;
+    okh:versionOf <https://wikifactory.com/@christianbouyer/ouvre-porte> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Ouvre porte 3abb55b0046a1b169a40f3574dd1b125c12db4df" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/86548/img_20200930_154221.jpg> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NDQzMjQ=> .
+
+:Ouvreporte a okh:Part ;
+    rdfs:label "ouvre-porte" ;
+    okh:documentationLanguage "fr" ;
+    okh:licensor "christianbouyer" ;
+    okh:source :Ouvreporte_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Ouvreporte_source a okh:SourceFile ;
+    rdfs:label "Source File of ouvre-porte of Ouvre porte 3abb55b0046a1b169a40f3574dd1b125c12db4df" ;
+    okh:fileFormat "SVG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/86548/ouvre-porte.svg> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NDQzMjc=> .
+

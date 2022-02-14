@@ -1,0 +1,101 @@
+@prefix : <https://wikifactory.com/+fablabbratislava/smart-lamp/77fe404cdc7327e4ff055ba96b1246a05e08e9b6/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:SmartLamp a okh:Module ;
+    rdfs:label "Smart lamp" ;
+    okh:documentationLanguage "en" ;
+    okh:function "Smart home lamp for everyday use." ;
+    okh:hasComponent :Flexiblearmmodulelampstandconnector,
+        :Flexiblearmmodulev21blender,
+        :Lampcasingroundbottom,
+        :Lampcasingroundmiddle,
+        :Lampcasingroundtop ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "Michal Mihálik" ;
+    okh:organisation "Fablab Bratislava at Slovak Centre of Scientific and Technical Information (SCSTI)" ;
+    okh:release <https://wikifactory.com/+fablabbratislava/smart-lamp/v/77fe404> ;
+    okh:repo <https://wikifactory.com/+fablabbratislava/smart-lamp> ;
+    okh:repoHost "wikifactory.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:version "77fe404cdc7327e4ff055ba96b1246a05e08e9b6" ;
+    okh:versionOf <https://wikifactory.com/+fablabbratislava/smart-lamp> .
+
+:Flexiblearmmodulelampstandconnector a okh:Part ;
+    rdfs:label "flexible_arm_module_lamp_stand_connector" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Michal Mihálik" ;
+    okh:source :Flexiblearmmodulelampstandconnector_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Flexiblearmmodulelampstandconnector_source a okh:SourceFile ;
+    rdfs:label "Source File of flexible_arm_module_lamp_stand_connector of Smart lamp 77fe404cdc7327e4ff055ba96b1246a05e08e9b6" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/146038/flexible_arm_module_lamp_stand_connector.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjYwNDE=> .
+
+:Flexiblearmmodulev21blender a okh:Part ;
+    rdfs:label "flexible_arm_module_v2.1_blender" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Michal Mihálik" ;
+    okh:source :Flexiblearmmodulev21blender_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Flexiblearmmodulev21blender_source a okh:SourceFile ;
+    rdfs:label "Source File of flexible_arm_module_v2.1_blender of Smart lamp 77fe404cdc7327e4ff055ba96b1246a05e08e9b6" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/146038/flexible_arm_module_v21_blender-410ad.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjYwNDA=> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Smart lamp 77fe404cdc7327e4ff055ba96b1246a05e08e9b6" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/146038/img20210624142455_00.jpg> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjYwNTg=> .
+
+:Lampcasingroundbottom a okh:Part ;
+    rdfs:label "lamp_casing_round_bottom" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Michal Mihálik" ;
+    okh:source :Lampcasingroundbottom_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Lampcasingroundbottom_source a okh:SourceFile ;
+    rdfs:label "Source File of lamp_casing_round_bottom of Smart lamp 77fe404cdc7327e4ff055ba96b1246a05e08e9b6" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/146038/lamp_casing_round_bottom.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjYwMzk=> .
+
+:Lampcasingroundmiddle a okh:Part ;
+    rdfs:label "lamp_casing_round_middle" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Michal Mihálik" ;
+    okh:source :Lampcasingroundmiddle_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Lampcasingroundmiddle_source a okh:SourceFile ;
+    rdfs:label "Source File of lamp_casing_round_middle of Smart lamp 77fe404cdc7327e4ff055ba96b1246a05e08e9b6" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/146038/lamp_casing_round_middle.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjYwMzg=> .
+
+:Lampcasingroundtop a okh:Part ;
+    rdfs:label "lamp_casing_round_top" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Michal Mihálik" ;
+    okh:source :Lampcasingroundtop_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Lampcasingroundtop_source a okh:SourceFile ;
+    rdfs:label "Source File of lamp_casing_round_top of Smart lamp 77fe404cdc7327e4ff055ba96b1246a05e08e9b6" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/146038/lamp_casing_round_top.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjYwMzc=> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of Smart lamp 77fe404cdc7327e4ff055ba96b1246a05e08e9b6" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/146038/readme-6ffbe.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjYwNjc=> .
+

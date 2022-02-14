@@ -1,0 +1,53 @@
+@prefix : <https://github.com/LibreSolar/mppt-1210-hus/tree/v0.7.1/0.7.1/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Mppt1210Hus a okh:Module ;
+    rdfs:label "MPPT 1210 HUS" ;
+    okh:cpcPatentClass "H02J 1/00" ;
+    okh:dataSource "github.com" ;
+    okh:documentationLanguage "en-GB" ;
+    okh:function "This charge controller is a so-called maximum power point tracker (MPPT), which automatically adapts its input voltage to the connected solar panel to extracts as much power as possible. The MPPT function can only be achieved using a DC/DC converter, which is the core part of the charge controller PCB. It can be recognized by the large inductor and the large electrolytic input and output filter capacitors." ;
+    okh:hasBoM :BillOfMaterials ;
+    okh:hasImage :Image ;
+    okh:hasManufacturingInstructions :ManufacturingInstructions ;
+    okh:hasReadme :Readme ;
+    okh:hasUserManual :UserManual ;
+    okh:licensor "LibreSolar" ;
+    okh:repo <https://github.com/LibreSolar/mppt-1210-hus/tree/v0.7.1> ;
+    okh:repoHost "github.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:tsdc "PCB" ;
+    okh:version "0.7.1" ;
+    okh:versionOf <https://github.com/LibreSolar/mppt-1210-hus/tree/v0.7.1> .
+
+:BillOfMaterials a okh:BoM ;
+    rdfs:label "BillOfMaterials of MPPT 1210 HUS 0.7.1" ;
+    okh:fileFormat "HTML" ;
+    okh:fileUrl <https://libre.solar/mppt-1210-hus/bom.html> ;
+    okh:permaURL <https://libre.solar/mppt-1210-hus/bom.html> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of MPPT 1210 HUS 0.7.1" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://raw.githubusercontent.com/LibreSolar/mppt-1210-hus/v0.7.1/manifest_files/manually-created/mppt-1210-hus.jpg> ;
+    okh:permaURL <https://raw.githubusercontent.com/LibreSolar/mppt-1210-hus/v0.7.1/manifest_files/manually-created/mppt-1210-hus.jpg> .
+
+:ManufacturingInstructions a okh:ManufacturingInstructions ;
+    rdfs:label "ManufacturingInstructions of MPPT 1210 HUS 0.7.1" ;
+    okh:fileFormat "" ;
+    okh:fileUrl <https://raw.githubusercontent.com/LibreSolar/mppt-1210-hus/v0.7.1/manual> ;
+    okh:permaURL <https://raw.githubusercontent.com/LibreSolar/mppt-1210-hus/v0.7.1/manual> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of MPPT 1210 HUS 0.7.1" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://raw.githubusercontent.com/LibreSolar/mppt-1210-hus/v0.7.1/manifest_files/manually-created/README.md> ;
+    okh:permaURL <https://raw.githubusercontent.com/LibreSolar/mppt-1210-hus/v0.7.1/manifest_files/manually-created/README.md> .
+
+:UserManual a okh:UserManual ;
+    rdfs:label "UserManual of MPPT 1210 HUS 0.7.1" ;
+    okh:fileFormat "" ;
+    okh:fileUrl <https://raw.githubusercontent.com/LibreSolar/mppt-1210-hus/v0.7.1/manual> ;
+    okh:permaURL <https://raw.githubusercontent.com/LibreSolar/mppt-1210-hus/v0.7.1/manual> .
+

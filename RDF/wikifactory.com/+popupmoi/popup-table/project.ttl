@@ -1,0 +1,59 @@
+@prefix : <https://wikifactory.com/+popupmoi/popup-table/a7f0231217a54c78c4db0173eabd8c13c5a08ef4/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Modulack a okh:Module ;
+    rdfs:label "ModuLack" ;
+    okh:documentationLanguage "en" ;
+    okh:function "Small footprint popup table that transform from coffee table to desk or dining table !" ;
+    okh:hasComponent :Preview,
+        :Table ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "Quentin Perchais" ;
+    okh:organisation "Popup Moi" ;
+    okh:release <https://wikifactory.com/+popupmoi/popup-table/v/a7f0231> ;
+    okh:repo <https://wikifactory.com/+popupmoi/popup-table> ;
+    okh:repoHost "wikifactory.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> ;
+    okh:version "a7f0231217a54c78c4db0173eabd8c13c5a08ef4" ;
+    okh:versionOf <https://wikifactory.com/+popupmoi/popup-table> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of ModuLack a7f0231217a54c78c4db0173eabd8c13c5a08ef4" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/15731/14-popupmoi-ensembledeployepopupmoi.JPG> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyMDg2OTM=> .
+
+:Preview a okh:Part ;
+    rdfs:label "preview" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Quentin Perchais" ;
+    okh:source :Preview_source ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> .
+
+:Preview_source a okh:SourceFile ;
+    rdfs:label "Source File of preview of ModuLack a7f0231217a54c78c4db0173eabd8c13c5a08ef4" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/15731/preview.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyMDg2OTA=> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of ModuLack a7f0231217a54c78c4db0173eabd8c13c5a08ef4" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/15731/readme.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyMDg2ODk=> .
+
+:Table a okh:Part ;
+    rdfs:label "TABLE" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Quentin Perchais" ;
+    okh:source :Table_source ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> .
+
+:Table_source a okh:SourceFile ;
+    rdfs:label "Source File of TABLE of ModuLack a7f0231217a54c78c4db0173eabd8c13c5a08ef4" ;
+    okh:fileFormat "3DM" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/15731/table.3dm> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyMDg2ODg=> .
+

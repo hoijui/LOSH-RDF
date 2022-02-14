@@ -1,0 +1,86 @@
+@prefix : <https://wikifactory.com/@jetclay/jetclay-clay-extruder/80d74c774e0425262454c0f31e45c248aac0573a/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:JetclayClayExtruder a okh:Module ;
+    rdfs:label "JetClay - Clay Extruder" ;
+    okh:documentationLanguage "en" ;
+    okh:function "JetClay develops a dry clay extruder to 3Dprint large pieces of ceramics (up to 1 meter) using less than 20% of humidity. Ceramics are completely recyclable and have valuable properties in relation to thermal insulation, resistance to chemicals and high temperatures, low conductivity, among others." ;
+    okh:hasComponent :Jetclayextruderdesign,
+        :Jetclaytankdesign ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "JetClay" ;
+    okh:release <https://wikifactory.com/@jetclay/jetclay-clay-extruder/v/80d74c7> ;
+    okh:repo <https://wikifactory.com/@jetclay/jetclay-clay-extruder> ;
+    okh:repoHost "wikifactory.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:version "80d74c774e0425262454c0f31e45c248aac0573a" ;
+    okh:versionOf <https://wikifactory.com/@jetclay/jetclay-clay-extruder> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of JetClay - Clay Extruder 80d74c774e0425262454c0f31e45c248aac0573a" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1570/foto-guapa.jpg> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxNDk5MQ==> .
+
+:Jetclayextruderdesign a okh:Part ;
+    rdfs:label "JetClay_-_Extruder_design" ;
+    okh:documentationLanguage "en" ;
+    okh:export :Jetclayextruderdesign_export1,
+        :Jetclayextruderdesign_export2 ;
+    okh:licensor "JetClay" ;
+    okh:source :Jetclayextruderdesign_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Jetclayextruderdesign_export1 a okh:ExportFile ;
+    rdfs:label "Export File of JetClay_-_Extruder_design of JetClay - Clay Extruder 80d74c774e0425262454c0f31e45c248aac0573a" ;
+    okh:fileFormat "IGS" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1570/jetclay-extruder-design-0.igs> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxNTEwNA==> .
+
+:Jetclayextruderdesign_export2 a okh:ExportFile ;
+    rdfs:label "Export File of JetClay_-_Extruder_design of JetClay - Clay Extruder 80d74c774e0425262454c0f31e45c248aac0573a" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1570/jetclay-extruder-design-0.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxNTEwMQ==> .
+
+:Jetclayextruderdesign_source a okh:SourceFile ;
+    rdfs:label "Source File of JetClay_-_Extruder_design of JetClay - Clay Extruder 80d74c774e0425262454c0f31e45c248aac0573a" ;
+    okh:fileFormat "3DM" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1570/jetclay-extruder-design-0.3dm> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxNTEwNQ==> .
+
+:Jetclaytankdesign a okh:Part ;
+    rdfs:label "Jet_Clay_-_Tank_design" ;
+    okh:documentationLanguage "en" ;
+    okh:export :Jetclaytankdesign_export1,
+        :Jetclaytankdesign_export2 ;
+    okh:licensor "JetClay" ;
+    okh:source :Jetclaytankdesign_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Jetclaytankdesign_export1 a okh:ExportFile ;
+    rdfs:label "Export File of Jet_Clay_-_Tank_design of JetClay - Clay Extruder 80d74c774e0425262454c0f31e45c248aac0573a" ;
+    okh:fileFormat "IGS" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1570/jet-clay-tank-design-0.igs> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxNTEwMg==> .
+
+:Jetclaytankdesign_export2 a okh:ExportFile ;
+    rdfs:label "Export File of Jet_Clay_-_Tank_design of JetClay - Clay Extruder 80d74c774e0425262454c0f31e45c248aac0573a" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1570/jet-clay-tank-design-0.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxNTEwMw==> .
+
+:Jetclaytankdesign_source a okh:SourceFile ;
+    rdfs:label "Source File of Jet_Clay_-_Tank_design of JetClay - Clay Extruder 80d74c774e0425262454c0f31e45c248aac0573a" ;
+    okh:fileFormat "3DM" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1570/jet-clay-tank-design-0.3dm> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxNTEwMA==> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of JetClay - Clay Extruder 80d74c774e0425262454c0f31e45c248aac0573a" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1570/readme-14.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyMzQ4NA==> .
+

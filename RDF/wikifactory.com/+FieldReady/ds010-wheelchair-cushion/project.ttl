@@ -1,0 +1,59 @@
+@prefix : <https://wikifactory.com/+FieldReady/ds010-wheelchair-cushion/a40e54081c40c91fc008177b4728c8353fe2e237/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Ds010WheelchairCushion a okh:Module ;
+    rdfs:label "DS010 Wheelchair Cushion " ;
+    okh:documentationLanguage "en" ;
+    okh:function "Provided additional storage and comfort" ;
+    okh:hasComponent :Ds010cad,
+        :Ds010engdwg ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "Maya Roman" ;
+    okh:organisation "Field Ready" ;
+    okh:release <https://wikifactory.com/+FieldReady/ds010-wheelchair-cushion/v/a40e540> ;
+    okh:repo <https://wikifactory.com/+FieldReady/ds010-wheelchair-cushion> ;
+    okh:repoHost "wikifactory.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
+    okh:version "a40e54081c40c91fc008177b4728c8353fe2e237" ;
+    okh:versionOf <https://wikifactory.com/+FieldReady/ds010-wheelchair-cushion> .
+
+:Ds010cad a okh:Part ;
+    rdfs:label "DS010_CAD" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Maya Roman" ;
+    okh:source :Ds010cad_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> .
+
+:Ds010cad_source a okh:SourceFile ;
+    rdfs:label "Source File of DS010_CAD of DS010 Wheelchair Cushion  a40e54081c40c91fc008177b4728c8353fe2e237" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/49243/ds010_cad.SLDPRT> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozNDcxNTA=> .
+
+:Ds010engdwg a okh:Part ;
+    rdfs:label "DS010_Eng_Dwg" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Maya Roman" ;
+    okh:source :Ds010engdwg_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> .
+
+:Ds010engdwg_source a okh:SourceFile ;
+    rdfs:label "Source File of DS010_Eng_Dwg of DS010 Wheelchair Cushion  a40e54081c40c91fc008177b4728c8353fe2e237" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/49243/ds010_eng_dwg.PDF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozNDcxNTM=> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of DS010 Wheelchair Cushion  a40e54081c40c91fc008177b4728c8353fe2e237" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/49243/ds010_image_use.jpg> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozNDcxNjA=> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of DS010 Wheelchair Cushion  a40e54081c40c91fc008177b4728c8353fe2e237" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/49243/readme-5d519.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozNDcxNzc=> .
+

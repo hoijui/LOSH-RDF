@@ -1,0 +1,73 @@
+@prefix : <https://wikifactory.com/+FieldReady/ds009-wheelchair-umbrella/e94560c0ddf3d4961b19e64e37f78221d46c9181/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Ds009wheelchairUmbrella a okh:Module ;
+    rdfs:label "DS009-Wheelchair Umbrella" ;
+    okh:documentationLanguage "en" ;
+    okh:function "Protects Occupant from sunlight and rain" ;
+    okh:hasComponent :Ds009cad,
+        :Ds009engdwgcover,
+        :Ds009engdwgframe ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "Patrick Flaherty" ;
+    okh:organisation "Field Ready" ;
+    okh:release <https://wikifactory.com/+FieldReady/ds009-wheelchair-umbrella/v/e94560c> ;
+    okh:repo <https://wikifactory.com/+FieldReady/ds009-wheelchair-umbrella> ;
+    okh:repoHost "wikifactory.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:version "e94560c0ddf3d4961b19e64e37f78221d46c9181" ;
+    okh:versionOf <https://wikifactory.com/+FieldReady/ds009-wheelchair-umbrella> .
+
+:Ds009cad a okh:Part ;
+    rdfs:label "DS009_CAD" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Patrick Flaherty" ;
+    okh:source :Ds009cad_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Ds009cad_source a okh:SourceFile ;
+    rdfs:label "Source File of DS009_CAD of DS009-Wheelchair Umbrella e94560c0ddf3d4961b19e64e37f78221d46c9181" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/49246/ds009_cad.SLDPRT> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozNDcxOTM=> .
+
+:Ds009engdwgcover a okh:Part ;
+    rdfs:label "DS009_Eng_Dwg_Cover" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Patrick Flaherty" ;
+    okh:source :Ds009engdwgcover_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Ds009engdwgcover_source a okh:SourceFile ;
+    rdfs:label "Source File of DS009_Eng_Dwg_Cover of DS009-Wheelchair Umbrella e94560c0ddf3d4961b19e64e37f78221d46c9181" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/49246/ds009_eng_dwg_cover.PDF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozNDcxOTA=> .
+
+:Ds009engdwgframe a okh:Part ;
+    rdfs:label "DS009_Eng_Dwg_Frame" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Patrick Flaherty" ;
+    okh:source :Ds009engdwgframe_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Ds009engdwgframe_source a okh:SourceFile ;
+    rdfs:label "Source File of DS009_Eng_Dwg_Frame of DS009-Wheelchair Umbrella e94560c0ddf3d4961b19e64e37f78221d46c9181" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/49246/ds009_eng_dwg_frame.PDF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozNDcxODM=> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of DS009-Wheelchair Umbrella e94560c0ddf3d4961b19e64e37f78221d46c9181" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/49246/ds009_image_use-23576.jpg> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozNDcyMTU=> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of DS009-Wheelchair Umbrella e94560c0ddf3d4961b19e64e37f78221d46c9181" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/49246/readme-50b99.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozNDcyNDU=> .
+

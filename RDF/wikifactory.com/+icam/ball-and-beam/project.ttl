@@ -1,0 +1,101 @@
+@prefix : <https://wikifactory.com/+icam/ball-and-beam/2e9492ac65d758b512027a4ed8911b2f149654f9/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:BallAndBeam a okh:Module ;
+    rdfs:label "Ball and Beam" ;
+    okh:documentationLanguage "en" ;
+    okh:function "A pedagogical tool to learn how to control an output device using a sensor" ;
+    okh:hasComponent :Ballandbeam,
+        :Base,
+        :ServoCap,
+        :Slider,
+        :SliderCap ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "Remy Ducros" ;
+    okh:organisation "Fablab_Icam" ;
+    okh:release <https://wikifactory.com/+icam/ball-and-beam/v/2e9492a> ;
+    okh:repo <https://wikifactory.com/+icam/ball-and-beam> ;
+    okh:repoHost "wikifactory.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:version "2e9492ac65d758b512027a4ed8911b2f149654f9" ;
+    okh:versionOf <https://wikifactory.com/+icam/ball-and-beam> .
+
+:Ballandbeam a okh:Part ;
+    rdfs:label "Ball_and_Beam" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Remy Ducros" ;
+    okh:source :Ballandbeam_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Ballandbeam_source a okh:SourceFile ;
+    rdfs:label "Source File of Ball_and_Beam of Ball and Beam 2e9492ac65d758b512027a4ed8911b2f149654f9" ;
+    okh:fileFormat "STEP" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/117660/ball_and_beam.step> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1Mjg3MDQ=> .
+
+:Base a okh:Part ;
+    rdfs:label "Base" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Remy Ducros" ;
+    okh:source :Base_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Base_source a okh:SourceFile ;
+    rdfs:label "Source File of Base of Ball and Beam 2e9492ac65d758b512027a4ed8911b2f149654f9" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/117660/base.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1Mjc1NzE=> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Ball and Beam 2e9492ac65d758b512027a4ed8911b2f149654f9" ;
+    okh:fileFormat "PNG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/117660/unnamed.png> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1Mjc1MjE=> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of Ball and Beam 2e9492ac65d758b512027a4ed8911b2f149654f9" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/117660/readme-6a53e.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NjE3MjE=> .
+
+:ServoCap a okh:Part ;
+    rdfs:label "Servo cap" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Remy Ducros" ;
+    okh:source :ServoCap_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:ServoCap_source a okh:SourceFile ;
+    rdfs:label "Source File of Servo cap of Ball and Beam 2e9492ac65d758b512027a4ed8911b2f149654f9" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/117660/servo_cap.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1Mjc1NzA=> .
+
+:Slider a okh:Part ;
+    rdfs:label "Slider" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Remy Ducros" ;
+    okh:source :Slider_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:SliderCap a okh:Part ;
+    rdfs:label "Slider cap" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Remy Ducros" ;
+    okh:source :SliderCap_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:SliderCap_source a okh:SourceFile ;
+    rdfs:label "Source File of Slider cap of Ball and Beam 2e9492ac65d758b512027a4ed8911b2f149654f9" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/117660/slider_cap.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1Mjc1Njk=> .
+
+:Slider_source a okh:SourceFile ;
+    rdfs:label "Source File of Slider of Ball and Beam 2e9492ac65d758b512027a4ed8911b2f149654f9" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/117660/slider.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1Mjc1Njg=> .
+

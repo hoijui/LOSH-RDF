@@ -1,0 +1,44 @@
+@prefix : <https://wikifactory.com/@jaysonolaguera/book-lamp/6fc08631a50f6c76548fd10fc94b4a68ce64c280/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:BookLamp a okh:Module ;
+    rdfs:label "book lamp" ;
+    okh:documentationLanguage "en" ;
+    okh:function "My first attempt making a flexible PCB using the vinyl cutter." ;
+    okh:hasComponent :Flexilamp ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "jaysonolaguera" ;
+    okh:release <https://wikifactory.com/@jaysonolaguera/book-lamp/v/6fc0863> ;
+    okh:repo <https://wikifactory.com/@jaysonolaguera/book-lamp> ;
+    okh:repoHost "wikifactory.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:version "6fc08631a50f6c76548fd10fc94b4a68ce64c280" ;
+    okh:versionOf <https://wikifactory.com/@jaysonolaguera/book-lamp> .
+
+:Flexilamp a okh:Part ;
+    rdfs:label "FlexiLamp" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Remy Ducros" ;
+    okh:source :Flexilamp_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Flexilamp_source a okh:SourceFile ;
+    rdfs:label "Source File of FlexiLamp of book lamp 6fc08631a50f6c76548fd10fc94b4a68ce64c280" ;
+    okh:fileFormat "SVG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/130319/flexilamp.svg> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NzIwOTk=> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of book lamp 6fc08631a50f6c76548fd10fc94b4a68ce64c280" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/130319/img_20210313_155114.jpg> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NzIwOTA=> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of book lamp 6fc08631a50f6c76548fd10fc94b4a68ce64c280" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/130319/readme-3eeed.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NzIxMDE=> .
+

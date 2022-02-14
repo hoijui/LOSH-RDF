@@ -1,0 +1,45 @@
+@prefix : <https://wikifactory.com/+ucpd/sandia-test-chamber/27776e601d3dcd1e0bbd1fd13d3f3de61a8613ec/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:SandiaTestChamber a okh:Module ;
+    rdfs:label "Sandia Test Chamber" ;
+    okh:documentationLanguage "en" ;
+    okh:function "Test chamber used in the Sandia Laboratories Trials.Made to run at 30 lpm and deliver approximately 10 mJ/cm2 of UV energy to all the flow.Can be used as the basis for a UV sterilisation device requiring 30 lpm of air flow and approximately 3 log expected reduction in Sars-COV2" ;
+    okh:hasComponent :Stadiauvchamberstanleyv1 ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "Chris Jones" ;
+    okh:organisation "Helpful Devices" ;
+    okh:release <https://wikifactory.com/+ucpd/sandia-test-chamber/v/27776e6> ;
+    okh:repo <https://wikifactory.com/+ucpd/sandia-test-chamber> ;
+    okh:repoHost "wikifactory.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
+    okh:version "27776e601d3dcd1e0bbd1fd13d3f3de61a8613ec" ;
+    okh:versionOf <https://wikifactory.com/+ucpd/sandia-test-chamber> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Sandia Test Chamber 27776e601d3dcd1e0bbd1fd13d3f3de61a8613ec" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/90119/image_from_ios_6.jpg> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NTgxMzY=> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of Sandia Test Chamber 27776e601d3dcd1e0bbd1fd13d3f3de61a8613ec" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/90119/readme.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NTgxMjQ=> .
+
+:Stadiauvchamberstanleyv1 a okh:Part ;
+    rdfs:label "Stadia_UVChamber_Stanley_V1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Chris Jones" ;
+    okh:source :Stadiauvchamberstanleyv1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> .
+
+:Stadiauvchamberstanleyv1_source a okh:SourceFile ;
+    rdfs:label "Source File of Stadia_UVChamber_Stanley_V1 of Sandia Test Chamber 27776e601d3dcd1e0bbd1fd13d3f3de61a8613ec" ;
+    okh:fileFormat "STEP" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/90119/stadia_uvchamber_stanley_v1.STEP> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NTgxMTY=> .
+

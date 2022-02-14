@@ -1,0 +1,79 @@
+@prefix : <https://wikifactory.com/@carolportugal/paper-airplane-launcher/2c7a3f20ec0fbfe78d63f2ec9d5d3d6054976494/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:PaperAirplaneLauncher a okh:Module ;
+    rdfs:label "Paper airplane launcher" ;
+    okh:documentationLanguage "en" ;
+    okh:function "This was my FabAcademy final project. It is a paper airplane launcher to use in a education field." ;
+    okh:hasComponent :3d,
+        :Laser,
+        :Mainboard ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "Carolina Alves Portugal" ;
+    okh:release <https://wikifactory.com/@carolportugal/paper-airplane-launcher/v/2c7a3f2> ;
+    okh:repo <https://wikifactory.com/@carolportugal/paper-airplane-launcher> ;
+    okh:repoHost "wikifactory.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/MIT> ;
+    okh:version "2c7a3f20ec0fbfe78d63f2ec9d5d3d6054976494" ;
+    okh:versionOf <https://wikifactory.com/@carolportugal/paper-airplane-launcher> .
+
+:3d a okh:Part ;
+    rdfs:label "3D" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Carolina Alves Portugal" ;
+    okh:source :3d_source ;
+    okh:spdxLicense <https://spdx.org/licenses/MIT> .
+
+:3d_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D of Paper airplane launcher 2c7a3f20ec0fbfe78d63f2ec9d5d3d6054976494" ;
+    okh:fileFormat "3DM" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/814/3d.3dm> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo3MjYx> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Paper airplane launcher 2c7a3f20ec0fbfe78d63f2ec9d5d3d6054976494" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/814/cropped-940bd.jpg> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMzk5MjY=> .
+
+:Laser a okh:Part ;
+    rdfs:label "Laser" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Carolina Alves Portugal" ;
+    okh:source :Laser_source ;
+    okh:spdxLicense <https://spdx.org/licenses/MIT> .
+
+:Laser_source a okh:SourceFile ;
+    rdfs:label "Source File of Laser of Paper airplane launcher 2c7a3f20ec0fbfe78d63f2ec9d5d3d6054976494" ;
+    okh:fileFormat "3DM" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/814/laser.3dm> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo3MjYy> .
+
+:Mainboard a okh:Part ;
+    rdfs:label "MAINBOARD" ;
+    okh:documentationLanguage "en" ;
+    okh:export :Mainboard_export1 ;
+    okh:licensor "Carolina Alves Portugal" ;
+    okh:source :Mainboard_source ;
+    okh:spdxLicense <https://spdx.org/licenses/MIT> .
+
+:Mainboard_export1 a okh:ExportFile ;
+    rdfs:label "Export File of MAINBOARD of Paper airplane launcher 2c7a3f20ec0fbfe78d63f2ec9d5d3d6054976494" ;
+    okh:fileFormat "SCH" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/814/mainboard.sch> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo3MjU3> .
+
+:Mainboard_source a okh:SourceFile ;
+    rdfs:label "Source File of MAINBOARD of Paper airplane launcher 2c7a3f20ec0fbfe78d63f2ec9d5d3d6054976494" ;
+    okh:fileFormat "BRD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/814/mainboard.brd> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo3MjU2> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of Paper airplane launcher 2c7a3f20ec0fbfe78d63f2ec9d5d3d6054976494" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/814/readme-13.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo3MzY5> .
+

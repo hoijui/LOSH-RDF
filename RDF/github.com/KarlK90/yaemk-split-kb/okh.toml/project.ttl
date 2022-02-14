@@ -1,0 +1,45 @@
+@prefix : <https://github.com/KarlK90/yaemk-split-kb/1.2.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:YaemkYetAnotherErgonomicMechanicalKeyboard a okh:Module ;
+    rdfs:label "YAEMK - Yet Another Ergonomic Mechanical Keyboard" ;
+    okh:dataSource "github.com" ;
+    okh:documentationLanguage "en-US" ;
+    okh:function "YEAMK is a 5x8 split keyboard with configurable thumb-clusters, rotary encoders and oleds. It runs on ARM and RISC-V microcontrollers." ;
+    okh:hasBoM :BillOfMaterials ;
+    okh:hasImage :Image ;
+    okh:hasManufacturingInstructions :ManufacturingInstructions ;
+    okh:hasReadme :Readme ;
+    okh:licensor "Stefan Kerkmann" ;
+    okh:release <https://github.com/KarlK90/yaemk-split-kb> ;
+    okh:repo <https://github.com/KarlK90/yaemk-split-kb> ;
+    okh:repoHost "github.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> ;
+    okh:version "1.2.0" ;
+    okh:versionOf <https://github.com/KarlK90/yaemk-split-kb> .
+
+:BillOfMaterials a okh:BoM ;
+    rdfs:label "BillOfMaterials of YAEMK - Yet Another Ergonomic Mechanical Keyboard 1.2.0" ;
+    okh:fileFormat "CSV" ;
+    okh:fileUrl <https://raw.githubusercontent.com/KarlK90/yaemk-split-kb/v1.2.0/PCB/assembly/YAEMK_bom.csv> ;
+    okh:permaURL <https://raw.githubusercontent.com/KarlK90/yaemk-split-kb/v1.2.0/PCB/assembly/YAEMK_bom.csv> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of YAEMK - Yet Another Ergonomic Mechanical Keyboard 1.2.0" ;
+    okh:fileFormat "WEBP" ;
+    okh:fileUrl <https://raw.githubusercontent.com/KarlK90/yaemk-split-kb/v1.2.0/docs/images/2_yaemk_close_up_rgb_front.webp> ;
+    okh:permaURL <https://raw.githubusercontent.com/KarlK90/yaemk-split-kb/v1.2.0/docs/images/2_yaemk_close_up_rgb_front.webp> .
+
+:ManufacturingInstructions a okh:ManufacturingInstructions ;
+    rdfs:label "ManufacturingInstructions of YAEMK - Yet Another Ergonomic Mechanical Keyboard 1.2.0" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://raw.githubusercontent.com/KarlK90/yaemk-split-kb/v1.2.0/docs/index.md> ;
+    okh:permaURL <https://raw.githubusercontent.com/KarlK90/yaemk-split-kb/v1.2.0/docs/index.md> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of YAEMK - Yet Another Ergonomic Mechanical Keyboard 1.2.0" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://raw.githubusercontent.com/KarlK90/yaemk-split-kb/v1.2.0/readme.md> ;
+    okh:permaURL <https://raw.githubusercontent.com/KarlK90/yaemk-split-kb/v1.2.0/readme.md> .
+

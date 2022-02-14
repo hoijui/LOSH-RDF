@@ -1,0 +1,128 @@
+@prefix : <https://wikifactory.com/@flowalistik/lazer-chazer/76315478f4dd2df92caaed90c984d966d6687335/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:LazerChazer a okh:Module ;
+    rdfs:label "Lazer Chazer" ;
+    okh:documentationLanguage "en" ;
+    okh:function "Collaborative and open-source cat toy powered by Arduino. It includes lasers and it's (almost) cat-proof." ;
+    okh:hasComponent :Lazerchazercase,
+        :Lazerchazerconnectorservolaser,
+        :Lazerchazerconnectorservoservo,
+        :Lazerchazercover,
+        :Lazerchazersourcefile,
+        :Lazerchazertraybreadboard,
+        :Lazerchazertrayservo ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "Agustín \"Flowalistik\" Arroyo" ;
+    okh:release <https://wikifactory.com/@flowalistik/lazer-chazer/v/7631547> ;
+    okh:repo <https://wikifactory.com/@flowalistik/lazer-chazer> ;
+    okh:repoHost "wikifactory.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:version "76315478f4dd2df92caaed90c984d966d6687335" ;
+    okh:versionOf <https://wikifactory.com/@flowalistik/lazer-chazer> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Lazer Chazer 76315478f4dd2df92caaed90c984d966d6687335" ;
+    okh:fileFormat "PNG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/50768/lazer_chazer_2.png?response-content-type=image%2Fpng&response-content-disposition=attachment%3B%20filename%3D%22lazer_chazer_2.png%22&AWSAccessKeyId=LTAI4GK1mTcvu7wXYTXXtiy6&Signature=pIuc3UORGw0hDUCHMBFy4QIgU1s%3D&Expires=1639968208> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0Mjk5ODM=> .
+
+:Lazerchazercase a okh:Part ;
+    rdfs:label "lazerchazer_case" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Agustín \"Flowalistik\" Arroyo" ;
+    okh:source :Lazerchazercase_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Lazerchazercase_source a okh:SourceFile ;
+    rdfs:label "Source File of lazerchazer_case of Lazer Chazer 76315478f4dd2df92caaed90c984d966d6687335" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/50768/lazerchazer_case.stl?response-content-type=application%2Fsla&response-content-disposition=attachment%3B%20filename%3D%22lazerchazer_case.stl%22&AWSAccessKeyId=LTAI4GK1mTcvu7wXYTXXtiy6&Signature=ZaCSSjBwEfceWb2Yml83%2BShxx94%3D&Expires=1639968209> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0Mjk5MTA=> .
+
+:Lazerchazerconnectorservolaser a okh:Part ;
+    rdfs:label "lazerchazer_connector_servo-laser" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Agustín \"Flowalistik\" Arroyo" ;
+    okh:source :Lazerchazerconnectorservolaser_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Lazerchazerconnectorservolaser_source a okh:SourceFile ;
+    rdfs:label "Source File of lazerchazer_connector_servo-laser of Lazer Chazer 76315478f4dd2df92caaed90c984d966d6687335" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/50768/lazerchazer_connector_servo-laser.stl?response-content-type=application%2Fsla&response-content-disposition=attachment%3B%20filename%3D%22lazerchazer_connector_servo-laser.stl%22&AWSAccessKeyId=LTAI4GK1mTcvu7wXYTXXtiy6&Signature=je9zwVzTx8A1%2BNqqHFnoK17kgCE%3D&Expires=1639968209> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0Mjk5MDk=> .
+
+:Lazerchazerconnectorservoservo a okh:Part ;
+    rdfs:label "lazerchazer_connector_servo-servo" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Agustín \"Flowalistik\" Arroyo" ;
+    okh:source :Lazerchazerconnectorservoservo_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Lazerchazerconnectorservoservo_source a okh:SourceFile ;
+    rdfs:label "Source File of lazerchazer_connector_servo-servo of Lazer Chazer 76315478f4dd2df92caaed90c984d966d6687335" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/50768/lazerchazer_connector_servo-servo.stl?response-content-type=application%2Fsla&response-content-disposition=attachment%3B%20filename%3D%22lazerchazer_connector_servo-servo.stl%22&AWSAccessKeyId=LTAI4GK1mTcvu7wXYTXXtiy6&Signature=cSOmooXXgbTPc7GttmrXQIOopGY%3D&Expires=1639968209> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0Mjk5MDg=> .
+
+:Lazerchazercover a okh:Part ;
+    rdfs:label "lazerchazer_cover" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Agustín \"Flowalistik\" Arroyo" ;
+    okh:source :Lazerchazercover_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Lazerchazercover_source a okh:SourceFile ;
+    rdfs:label "Source File of lazerchazer_cover of Lazer Chazer 76315478f4dd2df92caaed90c984d966d6687335" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/50768/lazerchazer_cover.stl?response-content-type=application%2Fsla&response-content-disposition=attachment%3B%20filename%3D%22lazerchazer_cover.stl%22&AWSAccessKeyId=LTAI4GK1mTcvu7wXYTXXtiy6&Signature=i0k%2FbTUKt9nS1s9hvlUCo9YMCyI%3D&Expires=1639968209> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0Mjk5MDc=> .
+
+:Lazerchazersourcefile a okh:Part ;
+    rdfs:label "lazer_chazer_source_file" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Agustín \"Flowalistik\" Arroyo" ;
+    okh:source :Lazerchazersourcefile_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Lazerchazersourcefile_source a okh:SourceFile ;
+    rdfs:label "Source File of lazer_chazer_source_file of Lazer Chazer 76315478f4dd2df92caaed90c984d966d6687335" ;
+    okh:fileFormat "STEP" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/50768/lazer_chazer_source_file.step?response-content-type=text%2Fplain&response-content-disposition=attachment%3B%20filename%3D%22lazer_chazer_source_file.step%22&AWSAccessKeyId=LTAI4GK1mTcvu7wXYTXXtiy6&Signature=ZuX%2BnxW7RGWfbBN7uOSL2cmdW6o%3D&Expires=1639968209> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0Mjk5NTM=> .
+
+:Lazerchazertraybreadboard a okh:Part ;
+    rdfs:label "lazerchazer_tray_breadboard" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Agustín \"Flowalistik\" Arroyo" ;
+    okh:source :Lazerchazertraybreadboard_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Lazerchazertraybreadboard_source a okh:SourceFile ;
+    rdfs:label "Source File of lazerchazer_tray_breadboard of Lazer Chazer 76315478f4dd2df92caaed90c984d966d6687335" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/50768/lazerchazer_tray_breadboard.stl?response-content-type=application%2Fsla&response-content-disposition=attachment%3B%20filename%3D%22lazerchazer_tray_breadboard.stl%22&AWSAccessKeyId=LTAI4GK1mTcvu7wXYTXXtiy6&Signature=ON7k8Xv5ltCYJJIDUtL2XVLalws%3D&Expires=1639968209> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0Mjk5MDY=> .
+
+:Lazerchazertrayservo a okh:Part ;
+    rdfs:label "lazerchazer_tray_servo" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Agustín \"Flowalistik\" Arroyo" ;
+    okh:source :Lazerchazertrayservo_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Lazerchazertrayservo_source a okh:SourceFile ;
+    rdfs:label "Source File of lazerchazer_tray_servo of Lazer Chazer 76315478f4dd2df92caaed90c984d966d6687335" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/50768/lazerchazer_tray_servo.stl?response-content-type=application%2Fsla&response-content-disposition=attachment%3B%20filename%3D%22lazerchazer_tray_servo.stl%22&AWSAccessKeyId=LTAI4GK1mTcvu7wXYTXXtiy6&Signature=7NAMy2ot6COJSQ8QMeeY9cN8ET4%3D&Expires=1639968209> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0Mjk5MDU=> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of Lazer Chazer 76315478f4dd2df92caaed90c984d966d6687335" ;
+    okh:fileFormat "TXT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/50768/readme.txt?response-content-type=text%2Fplain&response-content-disposition=attachment%3B%20filename%3D%22readme.txt%22&AWSAccessKeyId=LTAI4GK1mTcvu7wXYTXXtiy6&Signature=PZ%2B4N0XANMdkjoYTgBqyQTvnVvw%3D&Expires=1639968209> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0Mjk4OTA=> .
+

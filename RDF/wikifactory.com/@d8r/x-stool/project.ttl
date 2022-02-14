@@ -1,0 +1,44 @@
+@prefix : <https://wikifactory.com/@d8r/x-stool/c5a759369f5ca07d260e99216a4b41a855075c4a/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Xstool a okh:Module ;
+    rdfs:label "x-stool" ;
+    okh:documentationLanguage "en" ;
+    okh:function "The x-stool" ;
+    okh:hasComponent :Xstool1 ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "jeroen dijkmeijer" ;
+    okh:release <https://wikifactory.com/@d8r/x-stool/v/c5a7593> ;
+    okh:repo <https://wikifactory.com/@d8r/x-stool> ;
+    okh:repoHost "wikifactory.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/MIT> ;
+    okh:version "c5a759369f5ca07d260e99216a4b41a855075c4a" ;
+    okh:versionOf <https://wikifactory.com/@d8r/x-stool> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of x-stool c5a759369f5ca07d260e99216a4b41a855075c4a" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/24242/krux_small-d6af4.jpg> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyMjcxNzk=> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of x-stool c5a759369f5ca07d260e99216a4b41a855075c4a" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/24242/readme-8828c.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyMjY3ODQ=> .
+
+:Xstool1 a okh:Part ;
+    rdfs:label "xstool_1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "jeroen dijkmeijer" ;
+    okh:source :Xstool1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/MIT> .
+
+:Xstool1_source a okh:SourceFile ;
+    rdfs:label "Source File of xstool_1 of x-stool c5a759369f5ca07d260e99216a4b41a855075c4a" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/24242/xstool_1.dxf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyMjY3ODU=> .
+

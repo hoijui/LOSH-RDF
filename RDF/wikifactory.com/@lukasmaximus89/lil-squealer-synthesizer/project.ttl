@@ -1,0 +1,44 @@
+@prefix : <https://wikifactory.com/@lukasmaximus89/lil-squealer-synthesizer/b205748cb8d0b27b4170846070184708dc904cdc/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:LilSquealerSynthesizer a okh:Module ;
+    rdfs:label "Lil Squealer Synthesizer" ;
+    okh:documentationLanguage "en" ;
+    okh:function "This is a very simple synthesiser I designed as a project to teach soldering and basic electronics to kids." ;
+    okh:hasComponent :Synthbox ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "Luke Henderson" ;
+    okh:release <https://wikifactory.com/@lukasmaximus89/lil-squealer-synthesizer/v/b205748> ;
+    okh:repo <https://wikifactory.com/@lukasmaximus89/lil-squealer-synthesizer> ;
+    okh:repoHost "wikifactory.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:version "b205748cb8d0b27b4170846070184708dc904cdc" ;
+    okh:versionOf <https://wikifactory.com/@lukasmaximus89/lil-squealer-synthesizer> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Lil Squealer Synthesizer b205748cb8d0b27b4170846070184708dc904cdc" ;
+    okh:fileFormat "JPEG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/373/lil-squealer.jpeg> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMTMz> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of Lil Squealer Synthesizer b205748cb8d0b27b4170846070184708dc904cdc" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/373/readme-7.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozMTU4> .
+
+:Synthbox a okh:Part ;
+    rdfs:label "synthbox" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Luke Henderson" ;
+    okh:source :Synthbox_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Synthbox_source a okh:SourceFile ;
+    rdfs:label "Source File of synthbox of Lil Squealer Synthesizer b205748cb8d0b27b4170846070184708dc904cdc" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/373/synthbox.dxf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMTM0> .
+

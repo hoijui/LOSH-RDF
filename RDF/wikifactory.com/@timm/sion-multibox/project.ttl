@@ -1,0 +1,58 @@
+@prefix : <https://wikifactory.com/@timm/sion-multibox/0a2cb14f86c03889666b573522d18311cfd1a0d7/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:SionMultibox a okh:Module ;
+    rdfs:label "Sion Multibox" ;
+    okh:documentationLanguage "en" ;
+    okh:function "A storage system for sharing and camping, made for the Sion. Formerly know as \"Lockable trunk box\"." ;
+    okh:hasComponent :FranticKrunk,
+        :SionMultiboxReadmePdf ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "Timm Wille" ;
+    okh:release <https://wikifactory.com/@timm/sion-multibox/v/0a2cb14> ;
+    okh:repo <https://wikifactory.com/@timm/sion-multibox> ;
+    okh:repoHost "wikifactory.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:version "0a2cb14f86c03889666b573522d18311cfd1a0d7" ;
+    okh:versionOf <https://wikifactory.com/@timm/sion-multibox> .
+
+:FranticKrunk a okh:Part ;
+    rdfs:label "Frantic Krunk" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "fgrossedunker" ;
+    okh:source :FranticKrunk_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:FranticKrunk_source a okh:SourceFile ;
+    rdfs:label "Source File of Frantic Krunk of Sion Multibox 0a2cb14f86c03889666b573522d18311cfd1a0d7" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/140309/frantic-krunk.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjU2ODg=> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Sion Multibox 0a2cb14f86c03889666b573522d18311cfd1a0d7" ;
+    okh:fileFormat "PNG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/140309/bildschirmfoto-2021-05-02-um-234515.png> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjU2NzM=> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of Sion Multibox 0a2cb14f86c03889666b573522d18311cfd1a0d7" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/140309/readme-24e56.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjU2ODk=> .
+
+:SionMultiboxReadmePdf a okh:Part ;
+    rdfs:label "Sion Multibox - Readme pdf" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "fgrossedunker" ;
+    okh:source :SionMultiboxReadmePdf_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:SionMultiboxReadmePdf_source a okh:SourceFile ;
+    rdfs:label "Source File of Sion Multibox - Readme pdf of Sion Multibox 0a2cb14f86c03889666b573522d18311cfd1a0d7" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/140309/sion-multibox-readme-pdf.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjU2OTQ=> .
+

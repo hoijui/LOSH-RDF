@@ -1,0 +1,54 @@
+@prefix : <https://github.com/poppy-project/poppy-humanoid/3.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:PoppyHumanoid a okh:Module ;
+    rdfs:label "Poppy Humanoid" ;
+    okh:cpcPatentClass "B25J" ;
+    okh:dataSource "github.com" ;
+    okh:documentationLanguage "en-GB" ;
+    okh:function "Poppy Humanoid is an open-source and 3D printed humanoid robot. Optimized for research and education purposes, its modularity allows for a wide range of applications and experimentations." ;
+    okh:hasBoM :BillOfMaterials ;
+    okh:hasImage :Image ;
+    okh:hasManufacturingInstructions :ManufacturingInstructions ;
+    okh:hasReadme :Readme ;
+    okh:hasUserManual :UserManual ;
+    okh:licensor "Matthieu Lapeyre, Pierre Rouanet, Pierre Yves Oudeyer, Jonathan Grizou, Nicolas Rabault, Theo Segonds, Damien Caselli" ;
+    okh:release <https://github.com/poppy-project/poppy-humanoid/releases> ;
+    okh:repo <https://github.com/poppy-project/poppy-humanoid> ;
+    okh:repoHost "github.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-1.0> ;
+    okh:tsdc "3DP" ;
+    okh:version "3.0.0" ;
+    okh:versionOf <https://github.com/poppy-project/poppy-humanoid> .
+
+:BillOfMaterials a okh:BoM ;
+    rdfs:label "BillOfMaterials of Poppy Humanoid 3.0.0" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://github.com/poppy-project/poppy-humanoid/blob/master/hardware/doc/BOM.md> ;
+    okh:permaURL <https://github.com/poppy-project/poppy-humanoid/blob/master/hardware/doc/BOM.md> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Poppy Humanoid 3.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://github.com/poppy-project/poppy-humanoid/blob/master/doc/img/poppy-humanoid-github.jpg> ;
+    okh:permaURL <https://github.com/poppy-project/poppy-humanoid/blob/master/doc/img/poppy-humanoid-github.jpg> .
+
+:ManufacturingInstructions a okh:ManufacturingInstructions ;
+    rdfs:label "ManufacturingInstructions of Poppy Humanoid 3.0.0" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://github.com/poppy-project/poppy-humanoid/blob/master/hardware/doc/en/assemblyGuide.md> ;
+    okh:permaURL <https://github.com/poppy-project/poppy-humanoid/blob/master/hardware/doc/en/assemblyGuide.md> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of Poppy Humanoid 3.0.0" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://raw.githubusercontent.com/poppy-project/poppy-humanoid/v3.0.0/manifest_files/manually-created/GSCOP_documentation_projects/README.md> ;
+    okh:permaURL <https://raw.githubusercontent.com/poppy-project/poppy-humanoid/v3.0.0/manifest_files/manually-created/GSCOP_documentation_projects/README.md> .
+
+:UserManual a okh:UserManual ;
+    rdfs:label "UserManual of Poppy Humanoid 3.0.0" ;
+    okh:fileFormat "HTML" ;
+    okh:fileUrl <https://docs.poppy-project.org/en/installation/install-a-poppy-board.html> ;
+    okh:permaURL <https://docs.poppy-project.org/en/installation/install-a-poppy-board.html> .
+

@@ -1,0 +1,86 @@
+@prefix : <https://wikifactory.com/@elgranpri/smart-citizen-kit/252f98283e35d21753ea2c09daca444280990d37/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:SmartCitizenKit a okh:Module ;
+    rdfs:label "Smart Citizen Kit" ;
+    okh:documentationLanguage "en" ;
+    okh:function "An Open-Source Environmental Monitoring Platform consisting of arduino-compatible hardware, data visualization web API, and mobile app." ;
+    okh:hasComponent :Sckdataboard21rev05,
+        :Sckurbanshield21rev04 ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "Franco Sorbera" ;
+    okh:release <https://wikifactory.com/@elgranpri/smart-citizen-kit/v/252f982> ;
+    okh:repo <https://wikifactory.com/@elgranpri/smart-citizen-kit> ;
+    okh:repoHost "wikifactory.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> ;
+    okh:version "252f98283e35d21753ea2c09daca444280990d37" ;
+    okh:versionOf <https://wikifactory.com/@elgranpri/smart-citizen-kit> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Smart Citizen Kit 252f98283e35d21753ea2c09daca444280990d37" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/3062/sck-0.jpg> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzczNTk=> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of Smart Citizen Kit 252f98283e35d21753ea2c09daca444280990d37" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/3062/readme-2.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzczODk=> .
+
+:Sckdataboard21rev05 a okh:Part ;
+    rdfs:label "SCK_DATA_BOARD_2.1_REV_05" ;
+    okh:documentationLanguage "en" ;
+    okh:export :Sckdataboard21rev05_export1,
+        :Sckdataboard21rev05_export2 ;
+    okh:licensor "James Botler" ;
+    okh:source :Sckdataboard21rev05_source ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> .
+
+:Sckdataboard21rev05_export1 a okh:ExportFile ;
+    rdfs:label "Export File of SCK_DATA_BOARD_2.1_REV_05 of Smart Citizen Kit 252f98283e35d21753ea2c09daca444280990d37" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/3062/sckdataboard21rev05.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzczOTg=> .
+
+:Sckdataboard21rev05_export2 a okh:ExportFile ;
+    rdfs:label "Export File of SCK_DATA_BOARD_2.1_REV_05 of Smart Citizen Kit 252f98283e35d21753ea2c09daca444280990d37" ;
+    okh:fileFormat "SCH" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/3062/sckdataboard21rev05.sch> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzczOTk=> .
+
+:Sckdataboard21rev05_source a okh:SourceFile ;
+    rdfs:label "Source File of SCK_DATA_BOARD_2.1_REV_05 of Smart Citizen Kit 252f98283e35d21753ea2c09daca444280990d37" ;
+    okh:fileFormat "BRD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/3062/sckdataboard21rev05.brd> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzczOTc=> .
+
+:Sckurbanshield21rev04 a okh:Part ;
+    rdfs:label "SCK_URBAN_SHIELD_2.1_REV_04" ;
+    okh:documentationLanguage "en" ;
+    okh:export :Sckurbanshield21rev04_export1,
+        :Sckurbanshield21rev04_export2 ;
+    okh:licensor "James Botler" ;
+    okh:source :Sckurbanshield21rev04_source ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> .
+
+:Sckurbanshield21rev04_export1 a okh:ExportFile ;
+    rdfs:label "Export File of SCK_URBAN_SHIELD_2.1_REV_04 of Smart Citizen Kit 252f98283e35d21753ea2c09daca444280990d37" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/3062/sckurbanshield21rev04.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzczODg=> .
+
+:Sckurbanshield21rev04_export2 a okh:ExportFile ;
+    rdfs:label "Export File of SCK_URBAN_SHIELD_2.1_REV_04 of Smart Citizen Kit 252f98283e35d21753ea2c09daca444280990d37" ;
+    okh:fileFormat "SCH" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/3062/sckurbanshield21rev04.sch> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzczODc=> .
+
+:Sckurbanshield21rev04_source a okh:SourceFile ;
+    rdfs:label "Source File of SCK_URBAN_SHIELD_2.1_REV_04 of Smart Citizen Kit 252f98283e35d21753ea2c09daca444280990d37" ;
+    okh:fileFormat "BRD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/3062/sckurbanshield21rev04.brd> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzczODU=> .
+

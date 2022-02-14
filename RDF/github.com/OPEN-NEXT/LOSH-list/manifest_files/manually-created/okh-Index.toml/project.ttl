@@ -1,0 +1,45 @@
+@prefix : <https://github.com/index-machines/index/1.2.2/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Index a okh:Module ;
+    rdfs:label "Index" ;
+    okh:cpcPatentClass "B65G1/00" ;
+    okh:dataSource "github.com" ;
+    okh:documentationLanguage "en-GB" ;
+    okh:function "The Index Pick and Place is an open source pick and place machine to aid in Mid-Scale Manufacturing." ;
+    okh:hasBoM :BillOfMaterials,
+        :ManufacturingInstructions,
+        :UserManual ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "Stephen Hawes" ;
+    okh:organisation "Index Machines" ;
+    okh:release <https://github.com/index-machines/index/releases/tag/v1.2.2> ;
+    okh:repo <https://github.com/index-machines/index/> ;
+    okh:repoHost "github.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> ;
+    okh:tsdc "['MEC', 'STD', 'ASM']" ;
+    okh:version "1.2.2" ;
+    okh:versionOf <https://github.com/index-machines/index/> .
+
+:BillOfMaterials a okh:BoM ;
+    rdfs:label "BillOfMaterials of Index 1.2.2" ;
+    okh:fileFormat "CSV" .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Index 1.2.2" ;
+    okh:fileFormat "JPG" .
+
+:ManufacturingInstructions a okh:ManufacturingInstructions ;
+    rdfs:label "ManufacturingInstructions of Index 1.2.2" ;
+    okh:fileFormat "" .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of Index 1.2.2" ;
+    okh:fileFormat "" .
+
+:UserManual a okh:UserManual ;
+    rdfs:label "UserManual of Index 1.2.2" ;
+    okh:fileFormat "" .
+

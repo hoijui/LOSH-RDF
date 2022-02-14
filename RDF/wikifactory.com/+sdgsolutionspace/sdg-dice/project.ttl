@@ -1,0 +1,73 @@
+@prefix : <https://wikifactory.com/+sdgsolutionspace/sdg-dice/a6c46970fb172c3719e94ddb8e534ce831901124/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:SdgDice a okh:Module ;
+    rdfs:label "SDG Dice" ;
+    okh:documentationLanguage "en" ;
+    okh:function "SDG Dice 17SDG --> 20 sided dice. Laser cut Paper/Cardboard ICOSAHEDRON" ;
+    okh:hasComponent :Icosahedron,
+        :Icosahedron17sdg ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "DURNEY Jean-Marie" ;
+    okh:organisation "SDG Solution Space" ;
+    okh:release <https://wikifactory.com/+sdgsolutionspace/sdg-dice/v/a6c4697> ;
+    okh:repo <https://wikifactory.com/+sdgsolutionspace/sdg-dice> ;
+    okh:repoHost "wikifactory.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:version "a6c46970fb172c3719e94ddb8e534ce831901124" ;
+    okh:versionOf <https://wikifactory.com/+sdgsolutionspace/sdg-dice> .
+
+:Icosahedron a okh:Part ;
+    rdfs:label "ICOSAHEDRON" ;
+    okh:documentationLanguage "en" ;
+    okh:image :Icosahedron_image ;
+    okh:licensor "DURNEY Jean-Marie" ;
+    okh:source :Icosahedron_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Icosahedron17sdg a okh:Part ;
+    rdfs:label "ICOSAHEDRON_17SDG" ;
+    okh:documentationLanguage "en" ;
+    okh:image :Icosahedron17sdg_image ;
+    okh:licensor "DURNEY Jean-Marie" ;
+    okh:source :Icosahedron17sdg_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Icosahedron17sdg_image a okh:Image ;
+    rdfs:label "Image of ICOSAHEDRON_17SDG of SDG Dice a6c46970fb172c3719e94ddb8e534ce831901124" ;
+    okh:fileFormat "AI" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64957/icosahedron_17sdg.ai> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTc5MzY=> .
+
+:Icosahedron17sdg_source a okh:SourceFile ;
+    rdfs:label "Source File of ICOSAHEDRON_17SDG of SDG Dice a6c46970fb172c3719e94ddb8e534ce831901124" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64957/icosahedron_17sdg.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTc5Mzc=> .
+
+:Icosahedron_image a okh:Image ;
+    rdfs:label "Image of ICOSAHEDRON of SDG Dice a6c46970fb172c3719e94ddb8e534ce831901124" ;
+    okh:fileFormat "AI" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64957/icosahedron.ai> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTc5MzU=> .
+
+:Icosahedron_source a okh:SourceFile ;
+    rdfs:label "Source File of ICOSAHEDRON of SDG Dice a6c46970fb172c3719e94ddb8e534ce831901124" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64957/icosahedron.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTc5MzE=> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of SDG Dice a6c46970fb172c3719e94ddb8e534ce831901124" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64957/sdgdice-1269d.jpg> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTc4ODA=> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of SDG Dice a6c46970fb172c3719e94ddb8e534ce831901124" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64957/readme-1ff6e.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTc5NDA=> .
+

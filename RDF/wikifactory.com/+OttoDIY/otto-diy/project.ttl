@@ -1,0 +1,213 @@
+@prefix : <https://wikifactory.com/+OttoDIY/otto-diy/7f61ee112d12121f9a1dd655ee1755c8ab02c853/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:OttoDiy a okh:Module ;
+    rdfs:label "Otto DIY" ;
+    okh:documentationLanguage "en" ;
+    okh:function "An interactive robot that anyone can make! Otto can walk, dance, make sounds and avoid obstacles. Easy to assemble with our builder kit or 3D print then build with our maker kit" ;
+    okh:hasComponent :3dprintottodiybodyv12swbutton,
+        :3dprintottodiybodyv12swtoggle,
+        :3dprintottodiyfootlv12,
+        :3dprintottodiyfootrv12,
+        :3dprintottodiyheadv12,
+        :3dprintottodiylegv12,
+        :Cadottodiy,
+        :Cadottodiycustom,
+        :Cadottodiyfreecad,
+        :InstructionManualottodiyrobotmanualv12,
+        :Papercraftottodiycardboardhead,
+        :Papercraftottodiypapercrafta4,
+        :Papercraftottodiyprintpainta4 ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:organisation "Otto DIY" ;
+    okh:release <https://wikifactory.com/+OttoDIY/otto-diy/v/7f61ee1> ;
+    okh:repo <https://wikifactory.com/+OttoDIY/otto-diy> ;
+    okh:repoHost "wikifactory.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:version "7f61ee112d12121f9a1dd655ee1755c8ab02c853" ;
+    okh:versionOf <https://wikifactory.com/+OttoDIY/otto-diy> .
+
+:3dprintottodiybodyv12swbutton a okh:Part ;
+    rdfs:label "3Dprint/OttoDIY_body_V12_SWbutton" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dprintottodiybodyv12swbutton_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dprintottodiybodyv12swbutton_source a okh:SourceFile ;
+    rdfs:label "Source File of 3Dprint/OttoDIY_body_V12_SWbutton of Otto DIY 7f61ee112d12121f9a1dd655ee1755c8ab02c853" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/655/ottodiy_body_v11.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjY1MDY=> .
+
+:3dprintottodiybodyv12swtoggle a okh:Part ;
+    rdfs:label "3Dprint/OttoDIY_body_V12_SWtoggle" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dprintottodiybodyv12swtoggle_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dprintottodiybodyv12swtoggle_source a okh:SourceFile ;
+    rdfs:label "Source File of 3Dprint/OttoDIY_body_V12_SWtoggle of Otto DIY 7f61ee112d12121f9a1dd655ee1755c8ab02c853" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/655/ottodiy_body_v12_swtoggle.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjY1MDU=> .
+
+:3dprintottodiyfootlv12 a okh:Part ;
+    rdfs:label "3Dprint/OttoDIY_footL_V12" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dprintottodiyfootlv12_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dprintottodiyfootlv12_source a okh:SourceFile ;
+    rdfs:label "Source File of 3Dprint/OttoDIY_footL_V12 of Otto DIY 7f61ee112d12121f9a1dd655ee1755c8ab02c853" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/655/ottodiy_footl_v12.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjY1MDQ=> .
+
+:3dprintottodiyfootrv12 a okh:Part ;
+    rdfs:label "3Dprint/OttoDIY_footR_V12" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dprintottodiyfootrv12_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dprintottodiyfootrv12_source a okh:SourceFile ;
+    rdfs:label "Source File of 3Dprint/OttoDIY_footR_V12 of Otto DIY 7f61ee112d12121f9a1dd655ee1755c8ab02c853" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/655/ottodiy_footr_v12.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjY1MDM=> .
+
+:3dprintottodiyheadv12 a okh:Part ;
+    rdfs:label "3Dprint/OttoDIY_head_V12" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dprintottodiyheadv12_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dprintottodiyheadv12_source a okh:SourceFile ;
+    rdfs:label "Source File of 3Dprint/OttoDIY_head_V12 of Otto DIY 7f61ee112d12121f9a1dd655ee1755c8ab02c853" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/655/ottodiy_head_v12.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjY1MDI=> .
+
+:3dprintottodiylegv12 a okh:Part ;
+    rdfs:label "3Dprint/OttoDIY_leg_V12" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dprintottodiylegv12_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dprintottodiylegv12_source a okh:SourceFile ;
+    rdfs:label "Source File of 3Dprint/OttoDIY_leg_V12 of Otto DIY 7f61ee112d12121f9a1dd655ee1755c8ab02c853" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/655/ottodiy_leg_v12.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjY1MDc=> .
+
+:Cadottodiy a okh:Part ;
+    rdfs:label "CAD/OttoDIY" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :Cadottodiy_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Cadottodiy_source a okh:SourceFile ;
+    rdfs:label "Source File of CAD/OttoDIY of Otto DIY 7f61ee112d12121f9a1dd655ee1755c8ab02c853" ;
+    okh:fileFormat "STEP" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/655/ottodiy.step> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NTkzNDc=> .
+
+:Cadottodiycustom a okh:Part ;
+    rdfs:label "CAD/OttoDIY_CUSTOM" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :Cadottodiycustom_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Cadottodiycustom_source a okh:SourceFile ;
+    rdfs:label "Source File of CAD/OttoDIY_CUSTOM of Otto DIY 7f61ee112d12121f9a1dd655ee1755c8ab02c853" ;
+    okh:fileFormat "SCAD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/655/ottodiy_custom.scad> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyNDA4MTY=> .
+
+:Cadottodiyfreecad a okh:Part ;
+    rdfs:label "CAD/OttoDIY_FreeCad" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :Cadottodiyfreecad_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Cadottodiyfreecad_source a okh:SourceFile ;
+    rdfs:label "Source File of CAD/OttoDIY_FreeCad of Otto DIY 7f61ee112d12121f9a1dd655ee1755c8ab02c853" ;
+    okh:fileFormat "FCSTD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/655/ottodiyfreecad.fcstd> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyMzQxODk=> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Otto DIY 7f61ee112d12121f9a1dd655ee1755c8ab02c853" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/655/ottodiy_xinchejian_hackerspace.jpg> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozMTc5MjM=> .
+
+:InstructionManualottodiyrobotmanualv12 a okh:Part ;
+    rdfs:label "Instruction manual/OttoDIYrobotmanualV12" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :InstructionManualottodiyrobotmanualv12_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:InstructionManualottodiyrobotmanualv12_source a okh:SourceFile ;
+    rdfs:label "Source File of Instruction manual/OttoDIYrobotmanualV12 of Otto DIY 7f61ee112d12121f9a1dd655ee1755c8ab02c853" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/655/ottodiyrobotmanualv12.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjY0OTM=> .
+
+:Papercraftottodiycardboardhead a okh:Part ;
+    rdfs:label "Papercraft/OttoDIY_cardboard_head" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :Papercraftottodiycardboardhead_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Papercraftottodiycardboardhead_source a okh:SourceFile ;
+    rdfs:label "Source File of Papercraft/OttoDIY_cardboard_head of Otto DIY 7f61ee112d12121f9a1dd655ee1755c8ab02c853" ;
+    okh:fileFormat "SVG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/655/ottodiy_cardboard_head.svg> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozNzYyOTE=> .
+
+:Papercraftottodiypapercrafta4 a okh:Part ;
+    rdfs:label "Papercraft/OttoDIY_papercraft_A4" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :Papercraftottodiypapercrafta4_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Papercraftottodiypapercrafta4_source a okh:SourceFile ;
+    rdfs:label "Source File of Papercraft/OttoDIY_papercraft_A4 of Otto DIY 7f61ee112d12121f9a1dd655ee1755c8ab02c853" ;
+    okh:fileFormat "SVG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/655/ottodiy_papercraft_a4.svg> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozNzYyOTA=> .
+
+:Papercraftottodiyprintpainta4 a okh:Part ;
+    rdfs:label "Papercraft/OttoDIY_printpaint_A4" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :Papercraftottodiyprintpainta4_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Papercraftottodiyprintpainta4_source a okh:SourceFile ;
+    rdfs:label "Source File of Papercraft/OttoDIY_printpaint_A4 of Otto DIY 7f61ee112d12121f9a1dd655ee1755c8ab02c853" ;
+    okh:fileFormat "SVG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/655/ottodiy_printpaint_a4.svg> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozNzYyODk=> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of Otto DIY 7f61ee112d12121f9a1dd655ee1755c8ab02c853" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/655/readme-b1053.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjY1ODk=> .
+

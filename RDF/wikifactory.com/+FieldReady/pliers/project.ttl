@@ -1,0 +1,122 @@
+@prefix : <https://wikifactory.com/+FieldReady/pliers/4551254087c806300aa95933023553c04e896836/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Pliers a okh:Module ;
+    rdfs:label "Pliers" ;
+    okh:documentationLanguage "en" ;
+    okh:function "3D printed hand tool used to hold objects firmly" ;
+    okh:hasComponent :Gn008cad,
+        :Gn008engdwg,
+        :Gn008lower,
+        :Gn008pin,
+        :Gn008upper ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "Maya Roman" ;
+    okh:organisation "Field Ready" ;
+    okh:release <https://wikifactory.com/+FieldReady/pliers/v/4551254> ;
+    okh:repo <https://wikifactory.com/+FieldReady/pliers> ;
+    okh:repoHost "wikifactory.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
+    okh:version "4551254087c806300aa95933023553c04e896836" ;
+    okh:versionOf <https://wikifactory.com/+FieldReady/pliers> .
+
+:Gn008cad a okh:Part ;
+    rdfs:label "GN008_CAD" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Maya Roman" ;
+    okh:source :Gn008cad_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> .
+
+:Gn008cad_source a okh:SourceFile ;
+    rdfs:label "Source File of GN008_CAD of Pliers 4551254087c806300aa95933023553c04e896836" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/49402/gn008_cad.SLDPRT> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozNDc4NzE=> .
+
+:Gn008engdwg a okh:Part ;
+    rdfs:label "GN008_Eng_Dwg" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Maya Roman" ;
+    okh:source :Gn008engdwg_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> .
+
+:Gn008engdwg_source a okh:SourceFile ;
+    rdfs:label "Source File of GN008_Eng_Dwg of Pliers 4551254087c806300aa95933023553c04e896836" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/49402/gn008_eng_dwg.PDF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozNDc4ODY=> .
+
+:Gn008lower a okh:Part ;
+    rdfs:label "GN008_Lower" ;
+    okh:documentationLanguage "en" ;
+    okh:export :Gn008lower_export1 ;
+    okh:licensor "Maya Roman" ;
+    okh:source :Gn008lower_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> .
+
+:Gn008lower_export1 a okh:ExportFile ;
+    rdfs:label "Export File of GN008_Lower of Pliers 4551254087c806300aa95933023553c04e896836" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/49402/gn008_lower.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozNDc4NjQ=> .
+
+:Gn008lower_source a okh:SourceFile ;
+    rdfs:label "Source File of GN008_Lower of Pliers 4551254087c806300aa95933023553c04e896836" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/49402/gn008_lower.SLDPRT> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozNDc4Nzk=> .
+
+:Gn008pin a okh:Part ;
+    rdfs:label "GN008_Pin" ;
+    okh:documentationLanguage "en" ;
+    okh:export :Gn008pin_export1 ;
+    okh:licensor "Maya Roman" ;
+    okh:source :Gn008pin_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> .
+
+:Gn008pin_export1 a okh:ExportFile ;
+    rdfs:label "Export File of GN008_Pin of Pliers 4551254087c806300aa95933023553c04e896836" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/49402/gn008_pin.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozNDc4NjI=> .
+
+:Gn008pin_source a okh:SourceFile ;
+    rdfs:label "Source File of GN008_Pin of Pliers 4551254087c806300aa95933023553c04e896836" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/49402/gn008_pin.SLDPRT> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozNDc4ODQ=> .
+
+:Gn008upper a okh:Part ;
+    rdfs:label "GN008_Upper" ;
+    okh:documentationLanguage "en" ;
+    okh:export :Gn008upper_export1 ;
+    okh:licensor "Maya Roman" ;
+    okh:source :Gn008upper_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> .
+
+:Gn008upper_export1 a okh:ExportFile ;
+    rdfs:label "Export File of GN008_Upper of Pliers 4551254087c806300aa95933023553c04e896836" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/49402/gn008_upper.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozNDc4NjU=> .
+
+:Gn008upper_source a okh:SourceFile ;
+    rdfs:label "Source File of GN008_Upper of Pliers 4551254087c806300aa95933023553c04e896836" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/49402/gn008_upper.SLDPRT> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozNDc4ODA=> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Pliers 4551254087c806300aa95933023553c04e896836" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/49402/gn008_image_catalogue.JPG> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozNDc4OTM=> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of Pliers 4551254087c806300aa95933023553c04e896836" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/49402/readme-4c3e8.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozNDc4OTc=> .
+

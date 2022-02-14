@@ -1,0 +1,58 @@
+@prefix : <https://wikifactory.com/@wardhollowaype/hydroponic-station/b94474b2ea264e272ae51296f0550595393be492/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:HydroponicStation a okh:Module ;
+    rdfs:label "Hydroponic Station" ;
+    okh:documentationLanguage "en" ;
+    okh:function "Hydroponic system. Setup to be laser cut from 1/2\" plywood." ;
+    okh:hasComponent :5gallonbucket,
+        :Hydropassy ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "Ward Holloway PE" ;
+    okh:release <https://wikifactory.com/@wardhollowaype/hydroponic-station/v/b94474b> ;
+    okh:repo <https://wikifactory.com/@wardhollowaype/hydroponic-station> ;
+    okh:repoHost "wikifactory.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:version "b94474b2ea264e272ae51296f0550595393be492" ;
+    okh:versionOf <https://wikifactory.com/@wardhollowaype/hydroponic-station> .
+
+:5gallonbucket a okh:Part ;
+    rdfs:label "5_gallon_bucket" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Ward Holloway PE" ;
+    okh:source :5gallonbucket_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:5gallonbucket_source a okh:SourceFile ;
+    rdfs:label "Source File of 5_gallon_bucket of Hydroponic Station b94474b2ea264e272ae51296f0550595393be492" ;
+    okh:fileFormat "STEP" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/127854/5_gallon_bucket.STEP> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NjAxNjA=> .
+
+:Hydropassy a okh:Part ;
+    rdfs:label "HYDROP_ASSY" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Ward Holloway PE" ;
+    okh:source :Hydropassy_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Hydropassy_source a okh:SourceFile ;
+    rdfs:label "Source File of HYDROP_ASSY of Hydroponic Station b94474b2ea264e272ae51296f0550595393be492" ;
+    okh:fileFormat "STP" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/127854/hydrop_assy.stp> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NjAxNjg=> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Hydroponic Station b94474b2ea264e272ae51296f0550595393be492" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/127854/hydrop_assy-c883c.jpg> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NjExOTA=> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of Hydroponic Station b94474b2ea264e272ae51296f0550595393be492" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/127854/readme.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NjA5Nzc=> .
+

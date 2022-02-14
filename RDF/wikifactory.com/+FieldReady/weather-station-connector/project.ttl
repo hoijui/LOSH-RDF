@@ -1,0 +1,66 @@
+@prefix : <https://wikifactory.com/+FieldReady/weather-station-connector/2c57dbc046c870a565cc7b79eb5b6ed530c57980/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:WeatherStationConnector a okh:Module ;
+    rdfs:label "Weather station connector" ;
+    okh:documentationLanguage "en" ;
+    okh:function "Spare connector for a weather station" ;
+    okh:hasComponent :Ee005cad,
+        :Ee005engdwg ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "Maya Roman" ;
+    okh:organisation "Field Ready" ;
+    okh:release <https://wikifactory.com/+FieldReady/weather-station-connector/v/2c57dbc> ;
+    okh:repo <https://wikifactory.com/+FieldReady/weather-station-connector> ;
+    okh:repoHost "wikifactory.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
+    okh:version "2c57dbc046c870a565cc7b79eb5b6ed530c57980" ;
+    okh:versionOf <https://wikifactory.com/+FieldReady/weather-station-connector> .
+
+:Ee005cad a okh:Part ;
+    rdfs:label "EE005_CAD" ;
+    okh:documentationLanguage "en" ;
+    okh:export :Ee005cad_export1 ;
+    okh:licensor "Maya Roman" ;
+    okh:source :Ee005cad_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> .
+
+:Ee005cad_export1 a okh:ExportFile ;
+    rdfs:label "Export File of EE005_CAD of Weather station connector 2c57dbc046c870a565cc7b79eb5b6ed530c57980" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/49376/ee005_cad.STL> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozNDc2NDU=> .
+
+:Ee005cad_source a okh:SourceFile ;
+    rdfs:label "Source File of EE005_CAD of Weather station connector 2c57dbc046c870a565cc7b79eb5b6ed530c57980" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/49376/ee005_cad.SLDPRT> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozNDc2NDQ=> .
+
+:Ee005engdwg a okh:Part ;
+    rdfs:label "EE005_Eng_Dwg" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Maya Roman" ;
+    okh:source :Ee005engdwg_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> .
+
+:Ee005engdwg_source a okh:SourceFile ;
+    rdfs:label "Source File of EE005_Eng_Dwg of Weather station connector 2c57dbc046c870a565cc7b79eb5b6ed530c57980" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/49376/ee005_eng_dwg.PDF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozNDc2NDk=> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Weather station connector 2c57dbc046c870a565cc7b79eb5b6ed530c57980" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/49376/ee005_image_catalogue.JPG> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozNDc2Mzg=> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of Weather station connector 2c57dbc046c870a565cc7b79eb5b6ed530c57980" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/49376/readme-933b6.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozNDc2NjY=> .
+

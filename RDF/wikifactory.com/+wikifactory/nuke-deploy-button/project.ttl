@@ -1,0 +1,62 @@
+@prefix : <https://wikifactory.com/+wikifactory/nuke-deploy-button/cda1c93669737c715d56cd51fb43bdbbe2eb44c7/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:NukeDeployButton a okh:Module ;
+    rdfs:label "Nuke Deploy Button" ;
+    okh:documentationLanguage "en" ;
+    okh:function "A physical button for making deployments to production servers extra fun!" ;
+    okh:hasComponent :Px4visionasm1,
+        :Px4visionv2 ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "Maximilian Kampik" ;
+    okh:organisation "Wikifactory" ;
+    okh:release <https://wikifactory.com/+wikifactory/nuke-deploy-button/v/cda1c93> ;
+    okh:repo <https://wikifactory.com/+wikifactory/nuke-deploy-button> ;
+    okh:repoHost "wikifactory.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:version "cda1c93669737c715d56cd51fb43bdbbe2eb44c7" ;
+    okh:versionOf <https://wikifactory.com/+wikifactory/nuke-deploy-button> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Nuke Deploy Button cda1c93669737c715d56cd51fb43bdbbe2eb44c7" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/689/cropped.jpg> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo3NDYx> .
+
+:Px4visionasm1 a okh:Part ;
+    rdfs:label "px4-vision_asm (1)",
+        "px4-vision_asm_1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Maximilian Kampik" ;
+    okh:source :Px4visionasm1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Px4visionasm1_source a okh:SourceFile ;
+    rdfs:label "Source File of px4-vision_asm (1) of Nuke Deploy Button cda1c93669737c715d56cd51fb43bdbbe2eb44c7",
+        "Source File of px4-vision_asm_1 of Nuke Deploy Button cda1c93669737c715d56cd51fb43bdbbe2eb44c7" ;
+    okh:fileFormat "STP" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/689/px4-vision_asm_1.stp> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0ODY5MjY=>,
+        <https://wikifactory.com/files/RmlsZTo0ODYxNDk=> .
+
+:Px4visionv2 a okh:Part ;
+    rdfs:label "px4-vision_v2" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Maximilian Kampik" ;
+    okh:source :Px4visionv2_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Px4visionv2_source a okh:SourceFile ;
+    rdfs:label "Source File of px4-vision_v2 of Nuke Deploy Button cda1c93669737c715d56cd51fb43bdbbe2eb44c7" ;
+    okh:fileFormat "STP" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/689/px4-vision_asm_1.stp> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0OTQ1NTQ=> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of Nuke Deploy Button cda1c93669737c715d56cd51fb43bdbbe2eb44c7" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/689/readme-1.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NDAz> .
+

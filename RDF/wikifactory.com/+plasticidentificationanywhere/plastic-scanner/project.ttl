@@ -1,0 +1,101 @@
+@prefix : <https://wikifactory.com/+plasticidentificationanywhere/plastic-scanner/07ba00a79776d40e9a55553bd5c8a105fb185cc4/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:HandheldScanner a okh:Module ;
+    rdfs:label "Handheld Scanner." ;
+    okh:documentationLanguage "en" ;
+    okh:function "A handheldscanner that incorporates the breakout board together with a Raspberry Pi Zero W, all in a handheld package!" ;
+    okh:hasComponent :Bottom,
+        :Button,
+        :HandheldScannerV22,
+        :Middle,
+        :Top ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "Jerry" ;
+    okh:organisation "Plastic Scanner" ;
+    okh:release <https://wikifactory.com/+plasticidentificationanywhere/plastic-scanner/v/07ba00a> ;
+    okh:repo <https://wikifactory.com/+plasticidentificationanywhere/plastic-scanner> ;
+    okh:repoHost "wikifactory.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> ;
+    okh:version "07ba00a79776d40e9a55553bd5c8a105fb185cc4" ;
+    okh:versionOf <https://wikifactory.com/+plasticidentificationanywhere/plastic-scanner> .
+
+:Bottom a okh:Part ;
+    rdfs:label "bottom" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Jerry" ;
+    okh:source :Bottom_source ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> .
+
+:Bottom_source a okh:SourceFile ;
+    rdfs:label "Source File of bottom of Handheld Scanner. 07ba00a79776d40e9a55553bd5c8a105fb185cc4" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/117317/bottom.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NTYyMDA=> .
+
+:Button a okh:Part ;
+    rdfs:label "button" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Jerry" ;
+    okh:source :Button_source ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> .
+
+:Button_source a okh:SourceFile ;
+    rdfs:label "Source File of button of Handheld Scanner. 07ba00a79776d40e9a55553bd5c8a105fb185cc4" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/117317/button.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NTYxOTk=> .
+
+:HandheldScannerV22 a okh:Part ;
+    rdfs:label "Handheld scanner v22" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Jerry" ;
+    okh:source :HandheldScannerV22_source ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> .
+
+:HandheldScannerV22_source a okh:SourceFile ;
+    rdfs:label "Source File of Handheld scanner v22 of Handheld Scanner. 07ba00a79776d40e9a55553bd5c8a105fb185cc4" ;
+    okh:fileFormat "STEP" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/117317/handheld_scanner_v22.step> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NTYxOTU=> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Handheld Scanner. 07ba00a79776d40e9a55553bd5c8a105fb185cc4" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/117317/plastic-scanner.jpg> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MTY1Nzk=> .
+
+:Middle a okh:Part ;
+    rdfs:label "middle" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Jerry" ;
+    okh:source :Middle_source ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> .
+
+:Middle_source a okh:SourceFile ;
+    rdfs:label "Source File of middle of Handheld Scanner. 07ba00a79776d40e9a55553bd5c8a105fb185cc4" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/117317/middle-1845c.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NTYxOTg=> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of Handheld Scanner. 07ba00a79776d40e9a55553bd5c8a105fb185cc4" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/117317/readme-c42ce.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NTgxODE=> .
+
+:Top a okh:Part ;
+    rdfs:label "TOP" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Jerry" ;
+    okh:source :Top_source ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> .
+
+:Top_source a okh:SourceFile ;
+    rdfs:label "Source File of TOP of Handheld Scanner. 07ba00a79776d40e9a55553bd5c8a105fb185cc4" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/117317/top.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NTYxOTc=> .
+

@@ -1,0 +1,282 @@
+@prefix : <https://wikifactory.com/@willemluijkx/mojo-dojo/aa98ad3415a8cd7f02c1316eff23f11e1561d60a/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:MojoDojo a okh:Module ;
+    rdfs:label "Mojo Dojo" ;
+    okh:documentationLanguage "en" ;
+    okh:function "Mojo is an open source robot with a mission! He means to get children from 7 to 77 into the new ways of making. You can make Mojo yourself, program him yourself, 3d print him yourself and expand upon him yourself real easy!" ;
+    okh:hasComponent :BodyTop,
+        :Bodybottom,
+        :Bracket,
+        :MojoPennenhouder,
+        :Mojobeugelmetopening,
+        :Mojobeugelstandaard,
+        :Mojobovenkant,
+        :Mojoinstructies,
+        :Mojoinstructiesvoorcoaches,
+        :Mojoinstructionsen,
+        :Mojolantaarn,
+        :Mojoonderkant,
+        :Mojoschuiver,
+        :Mojouitbreidingservo,
+        :Mojowiel,
+        :Slider,
+        :Wheel ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "Willem Luijkx" ;
+    okh:release <https://wikifactory.com/@willemluijkx/mojo-dojo/v/aa98ad3> ;
+    okh:repo <https://wikifactory.com/@willemluijkx/mojo-dojo> ;
+    okh:repoHost "wikifactory.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> ;
+    okh:version "aa98ad3415a8cd7f02c1316eff23f11e1561d60a" ;
+    okh:versionOf <https://wikifactory.com/@willemluijkx/mojo-dojo> .
+
+:BodyTop a okh:Part ;
+    rdfs:label "Body top" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Willem Luijkx" ;
+    okh:source :BodyTop_source ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> .
+
+:BodyTop_source a okh:SourceFile ;
+    rdfs:label "Source File of Body top of Mojo Dojo aa98ad3415a8cd7f02c1316eff23f11e1561d60a" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/22996/body_top.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozMTQ0OTQ=> .
+
+:Bodybottom a okh:Part ;
+    rdfs:label "Body_bottom" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Willem Luijkx" ;
+    okh:source :Bodybottom_source ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> .
+
+:Bodybottom_source a okh:SourceFile ;
+    rdfs:label "Source File of Body_bottom of Mojo Dojo aa98ad3415a8cd7f02c1316eff23f11e1561d60a" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/22996/body_bottom.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozMTQ0OTE=> .
+
+:Bracket a okh:Part ;
+    rdfs:label "Bracket" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Willem Luijkx" ;
+    okh:source :Bracket_source ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> .
+
+:Bracket_source a okh:SourceFile ;
+    rdfs:label "Source File of Bracket of Mojo Dojo aa98ad3415a8cd7f02c1316eff23f11e1561d60a" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/22996/bracket.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozMTQ1MDA=> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Mojo Dojo aa98ad3415a8cd7f02c1316eff23f11e1561d60a" ;
+    okh:fileFormat "PNG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/22996/6258215517010670401999981347561579851284480o.png> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyMTMwNjA=> .
+
+:MojoPennenhouder a okh:Part ;
+    rdfs:label "Mojo Pennenhouder" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Willem Luijkx" ;
+    okh:source :MojoPennenhouder_source ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> .
+
+:MojoPennenhouder_source a okh:SourceFile ;
+    rdfs:label "Source File of Mojo Pennenhouder of Mojo Dojo aa98ad3415a8cd7f02c1316eff23f11e1561d60a" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/22996/mojopennenhouder1.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyMTM0NTA=> .
+
+:Mojobeugelmetopening a okh:Part ;
+    rdfs:label "Mojo_beugel_met_opening" ;
+    okh:documentationLanguage "en" ;
+    okh:export :Mojobeugelmetopening_export1 ;
+    okh:licensor "Willem Luijkx" ;
+    okh:source :Mojobeugelmetopening_source ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> .
+
+:Mojobeugelmetopening_export1 a okh:ExportFile ;
+    rdfs:label "Export File of Mojo_beugel_met_opening of Mojo Dojo aa98ad3415a8cd7f02c1316eff23f11e1561d60a" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/22996/mojo_beugel_met_opening.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozMTQ1MTk=> .
+
+:Mojobeugelmetopening_source a okh:SourceFile ;
+    rdfs:label "Source File of Mojo_beugel_met_opening of Mojo Dojo aa98ad3415a8cd7f02c1316eff23f11e1561d60a" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/22996/mojo_beugel_met_opening.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyMjc4NjI=> .
+
+:Mojobeugelstandaard a okh:Part ;
+    rdfs:label "Mojo_beugel_standaard" ;
+    okh:documentationLanguage "en" ;
+    okh:export :Mojobeugelstandaard_export1 ;
+    okh:licensor "Willem Luijkx" ;
+    okh:source :Mojobeugelstandaard_source ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> .
+
+:Mojobeugelstandaard_export1 a okh:ExportFile ;
+    rdfs:label "Export File of Mojo_beugel_standaard of Mojo Dojo aa98ad3415a8cd7f02c1316eff23f11e1561d60a" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/22996/mojo_beugel_standaard.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyMjc4NjE=> .
+
+:Mojobeugelstandaard_source a okh:SourceFile ;
+    rdfs:label "Source File of Mojo_beugel_standaard of Mojo Dojo aa98ad3415a8cd7f02c1316eff23f11e1561d60a" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/22996/mojobeugelstandaard.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyMTM0NTU=> .
+
+:Mojobovenkant a okh:Part ;
+    rdfs:label "Mojo_bovenkant" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Willem Luijkx" ;
+    okh:source :Mojobovenkant_source ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> .
+
+:Mojobovenkant_source a okh:SourceFile ;
+    rdfs:label "Source File of Mojo_bovenkant of Mojo Dojo aa98ad3415a8cd7f02c1316eff23f11e1561d60a" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/22996/mojo_bovenkant.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyMjc4NjA=> .
+
+:Mojoinstructies a okh:Part ;
+    rdfs:label "Mojo_instructies" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Willem Luijkx" ;
+    okh:source :Mojoinstructies_source ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> .
+
+:Mojoinstructies_source a okh:SourceFile ;
+    rdfs:label "Source File of Mojo_instructies of Mojo Dojo aa98ad3415a8cd7f02c1316eff23f11e1561d60a" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/22996/mojo_instructies-00306.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozNzg0ODA=> .
+
+:Mojoinstructiesvoorcoaches a okh:Part ;
+    rdfs:label "Mojo_instructies_voor_coaches" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Willem Luijkx" ;
+    okh:source :Mojoinstructiesvoorcoaches_source ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> .
+
+:Mojoinstructiesvoorcoaches_source a okh:SourceFile ;
+    rdfs:label "Source File of Mojo_instructies_voor_coaches of Mojo Dojo aa98ad3415a8cd7f02c1316eff23f11e1561d60a" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/22996/mojo_instructies_voor_coaches.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyNDEwMjM=> .
+
+:Mojoinstructionsen a okh:Part ;
+    rdfs:label "Mojo_instructions_EN" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Willem Luijkx" ;
+    okh:source :Mojoinstructionsen_source ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> .
+
+:Mojoinstructionsen_source a okh:SourceFile ;
+    rdfs:label "Source File of Mojo_instructions_EN of Mojo Dojo aa98ad3415a8cd7f02c1316eff23f11e1561d60a" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/22996/mojo_instructions_en-89d35.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTQ0MTk=> .
+
+:Mojolantaarn a okh:Part ;
+    rdfs:label "Mojo_Lantaarn" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Willem Luijkx" ;
+    okh:source :Mojolantaarn_source ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> .
+
+:Mojolantaarn_source a okh:SourceFile ;
+    rdfs:label "Source File of Mojo_Lantaarn of Mojo Dojo aa98ad3415a8cd7f02c1316eff23f11e1561d60a" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/22996/mojolantaarn.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyMTM0NTM=> .
+
+:Mojoonderkant a okh:Part ;
+    rdfs:label "Mojo_onderkant" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Willem Luijkx" ;
+    okh:source :Mojoonderkant_source ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> .
+
+:Mojoonderkant_source a okh:SourceFile ;
+    rdfs:label "Source File of Mojo_onderkant of Mojo Dojo aa98ad3415a8cd7f02c1316eff23f11e1561d60a" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/22996/mojo_onderkant.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyMjc4NTk=> .
+
+:Mojoschuiver a okh:Part ;
+    rdfs:label "Mojo_schuiver" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Willem Luijkx" ;
+    okh:source :Mojoschuiver_source ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> .
+
+:Mojoschuiver_source a okh:SourceFile ;
+    rdfs:label "Source File of Mojo_schuiver of Mojo Dojo aa98ad3415a8cd7f02c1316eff23f11e1561d60a" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/22996/mojo_schuiver-65f80.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyNDExNzM=> .
+
+:Mojouitbreidingservo a okh:Part ;
+    rdfs:label "Mojo_uitbreiding_servo" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Willem Luijkx" ;
+    okh:source :Mojouitbreidingservo_source ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> .
+
+:Mojouitbreidingservo_source a okh:SourceFile ;
+    rdfs:label "Source File of Mojo_uitbreiding_servo of Mojo Dojo aa98ad3415a8cd7f02c1316eff23f11e1561d60a" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/22996/mojo_uitbreiding_servo.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyMjc4NTc=> .
+
+:Mojowiel a okh:Part ;
+    rdfs:label "Mojo_wiel" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Willem Luijkx" ;
+    okh:source :Mojowiel_source ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> .
+
+:Mojowiel_source a okh:SourceFile ;
+    rdfs:label "Source File of Mojo_wiel of Mojo Dojo aa98ad3415a8cd7f02c1316eff23f11e1561d60a" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/22996/mojo_wiel.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyMjc4NTY=> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of Mojo Dojo aa98ad3415a8cd7f02c1316eff23f11e1561d60a" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/22996/readme-fde01.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozMTQ0ODI=> .
+
+:Slider a okh:Part ;
+    rdfs:label "Slider" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Willem Luijkx" ;
+    okh:source :Slider_source ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> .
+
+:Slider_source a okh:SourceFile ;
+    rdfs:label "Source File of Slider of Mojo Dojo aa98ad3415a8cd7f02c1316eff23f11e1561d60a" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/22996/slider.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozMTQ0OTU=> .
+
+:Wheel a okh:Part ;
+    rdfs:label "Wheel" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Willem Luijkx" ;
+    okh:source :Wheel_source ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> .
+
+:Wheel_source a okh:SourceFile ;
+    rdfs:label "Source File of Wheel of Mojo Dojo aa98ad3415a8cd7f02c1316eff23f11e1561d60a" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/22996/wheel.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozMTQ0ODg=> .
+

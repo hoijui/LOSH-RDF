@@ -1,0 +1,87 @@
+@prefix : <https://wikifactory.com/+OttoDIY/wombatics-otto/cc6f871ea25753247aefd555d19db52f5a0b2427/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:WombaticsOtto a okh:Module ;
+    rdfs:label "Wombatics Otto" ;
+    okh:documentationLanguage "en" ;
+    okh:function "We have designed a Robotic Mainboard for Otto. It is based on Arduino Nano with BLE, Motion Sensor and Lithium battery charger. The 3D print design of the new body and head is for easy access to the board." ;
+    okh:hasComponent :OttoDiyBodyWithUltrasonicHolderV2,
+        :OttoDiyHeadHelmetV2,
+        :Ottodiyfootv08,
+        :Ottodiylegv08 ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "Thomas Chan" ;
+    okh:organisation "Otto DIY" ;
+    okh:release <https://wikifactory.com/+OttoDIY/wombatics-otto/v/cc6f871> ;
+    okh:repo <https://wikifactory.com/+OttoDIY/wombatics-otto> ;
+    okh:repoHost "wikifactory.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:version "cc6f871ea25753247aefd555d19db52f5a0b2427" ;
+    okh:versionOf <https://wikifactory.com/+OttoDIY/wombatics-otto> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Wombatics Otto cc6f871ea25753247aefd555d19db52f5a0b2427" ;
+    okh:fileFormat "JPEG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/28728/img_e0793.jpeg> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyNzgwMDQ=> .
+
+:OttoDiyBodyWithUltrasonicHolderV2 a okh:Part ;
+    rdfs:label "Otto DIY Body with Ultrasonic Holder V2" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Thomas Chan" ;
+    okh:source :OttoDiyBodyWithUltrasonicHolderV2_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:OttoDiyBodyWithUltrasonicHolderV2_source a okh:SourceFile ;
+    rdfs:label "Source File of Otto DIY Body with Ultrasonic Holder V2 of Wombatics Otto cc6f871ea25753247aefd555d19db52f5a0b2427" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/28728/otto_diy_body_with_ultrasonic_holder_v2.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyNzgwMzc=> .
+
+:OttoDiyHeadHelmetV2 a okh:Part ;
+    rdfs:label "Otto DIY Head Helmet V2" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Thomas Chan" ;
+    okh:source :OttoDiyHeadHelmetV2_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:OttoDiyHeadHelmetV2_source a okh:SourceFile ;
+    rdfs:label "Source File of Otto DIY Head Helmet V2 of Wombatics Otto cc6f871ea25753247aefd555d19db52f5a0b2427" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/28728/otto_diy_head_helmet_v2.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyNzgwMzY=> .
+
+:Ottodiyfootv08 a okh:Part ;
+    rdfs:label "OttoDIY_foot_v08" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Thomas Chan" ;
+    okh:source :Ottodiyfootv08_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Ottodiyfootv08_source a okh:SourceFile ;
+    rdfs:label "Source File of OttoDIY_foot_v08 of Wombatics Otto cc6f871ea25753247aefd555d19db52f5a0b2427" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/28728/ottodiy_foot_v08.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyNzgwMzg=> .
+
+:Ottodiylegv08 a okh:Part ;
+    rdfs:label "OttoDIY_Leg_v08" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Thomas Chan" ;
+    okh:source :Ottodiylegv08_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Ottodiylegv08_source a okh:SourceFile ;
+    rdfs:label "Source File of OttoDIY_Leg_v08 of Wombatics Otto cc6f871ea25753247aefd555d19db52f5a0b2427" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/28728/ottodiy_leg_v08.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyNzgwMzk=> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of Wombatics Otto cc6f871ea25753247aefd555d19db52f5a0b2427" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/28728/readme-67e09.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyNzgwNzY=> .
+

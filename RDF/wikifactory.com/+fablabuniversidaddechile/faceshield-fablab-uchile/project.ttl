@@ -1,0 +1,136 @@
+@prefix : <https://wikifactory.com/+fablabuniversidaddechile/faceshield-fablab-uchile/89410409c4a2f35a69bb4b6db04afd2a358651a3/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:FaceshieldFablabUchile a okh:Module ;
+    rdfs:label "FaceShield FabLab UChile" ;
+    okh:documentationLanguage "en" ;
+    okh:function "Based on the Prusa Face Shield initiative, we design our own faceshield in order to eliminate any further work on the comercial parts, decreasing the chance of contamination during the fabrication stage and for direct assembly. The face shield is meant to be used complementary with a N95 mask." ;
+    okh:hasComponent :Faceshieldfablabuch,
+        :Faceshieldfablabuchilev6,
+        :Faceshieldfablabuchv2,
+        :Faceshieldfabuchilev3,
+        :Faceshieldfabuchilev4,
+        :Faceshieldfabuchilev5,
+        :Faceshieldfabuchilev54stacked ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "Gonzalo Olave Wolff" ;
+    okh:organisation "FabLab U. de Chile" ;
+    okh:release <https://wikifactory.com/+fablabuniversidaddechile/faceshield-fablab-uchile/v/8941040> ;
+    okh:repo <https://wikifactory.com/+fablabuniversidaddechile/faceshield-fablab-uchile> ;
+    okh:repoHost "wikifactory.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:version "89410409c4a2f35a69bb4b6db04afd2a358651a3" ;
+    okh:versionOf <https://wikifactory.com/+fablabuniversidaddechile/faceshield-fablab-uchile> .
+
+:Faceshieldfablabuch a okh:Part ;
+    rdfs:label "FaceShield_FabLab_UCH" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Gonzalo Olave Wolff" ;
+    okh:source :Faceshieldfablabuch_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Faceshieldfablabuch_source a okh:SourceFile ;
+    rdfs:label "Source File of FaceShield_FabLab_UCH of FaceShield FabLab UChile 89410409c4a2f35a69bb4b6db04afd2a358651a3" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/73525/faceshield_fablab_uch.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0MjE3OTU=> .
+
+:Faceshieldfablabuchilev6 a okh:Part ;
+    rdfs:label "faceshield_fablab_uchile_v6" ;
+    okh:documentationLanguage "en" ;
+    okh:export :Faceshieldfablabuchilev6_export1 ;
+    okh:licensor "Gonzalo Olave Wolff" ;
+    okh:source :Faceshieldfablabuchilev6_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Faceshieldfablabuchilev6_export1 a okh:ExportFile ;
+    rdfs:label "Export File of faceshield_fablab_uchile_v6 of FaceShield FabLab UChile 89410409c4a2f35a69bb4b6db04afd2a358651a3" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/73525/faceshield_fablab_uchile_v6.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0MTkxMzg=> .
+
+:Faceshieldfablabuchilev6_source a okh:SourceFile ;
+    rdfs:label "Source File of faceshield_fablab_uchile_v6 of FaceShield FabLab UChile 89410409c4a2f35a69bb4b6db04afd2a358651a3" ;
+    okh:fileFormat "STEP" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/73525/faceshield_fablab_uchile_v6.step> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0MTkxMzk=> .
+
+:Faceshieldfablabuchv2 a okh:Part ;
+    rdfs:label "faceshield_fablab_uch_v2" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Gonzalo Olave Wolff" ;
+    okh:source :Faceshieldfablabuchv2_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Faceshieldfablabuchv2_source a okh:SourceFile ;
+    rdfs:label "Source File of faceshield_fablab_uch_v2 of FaceShield FabLab UChile 89410409c4a2f35a69bb4b6db04afd2a358651a3" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/73525/faceshield_fablab_uch_v2.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0MjE3OTY=> .
+
+:Faceshieldfabuchilev3 a okh:Part ;
+    rdfs:label "face_shield_fabuchile_v3" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Gonzalo Olave Wolff" ;
+    okh:source :Faceshieldfabuchilev3_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Faceshieldfabuchilev3_source a okh:SourceFile ;
+    rdfs:label "Source File of face_shield_fabuchile_v3 of FaceShield FabLab UChile 89410409c4a2f35a69bb4b6db04afd2a358651a3" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/73525/face_shield_fabuchile_v3.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0MjE3OTg=> .
+
+:Faceshieldfabuchilev4 a okh:Part ;
+    rdfs:label "face_shield_fabuchile_v4" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Gonzalo Olave Wolff" ;
+    okh:source :Faceshieldfabuchilev4_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Faceshieldfabuchilev4_source a okh:SourceFile ;
+    rdfs:label "Source File of face_shield_fabuchile_v4 of FaceShield FabLab UChile 89410409c4a2f35a69bb4b6db04afd2a358651a3" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/73525/face_shield_fabuchile_v4.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0MjE3OTk=> .
+
+:Faceshieldfabuchilev5 a okh:Part ;
+    rdfs:label "face_shield_fabuchile_v5" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Gonzalo Olave Wolff" ;
+    okh:source :Faceshieldfabuchilev5_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Faceshieldfabuchilev54stacked a okh:Part ;
+    rdfs:label "face_shield_fabuchile_v5_4stacked" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Gonzalo Olave Wolff" ;
+    okh:source :Faceshieldfabuchilev54stacked_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Faceshieldfabuchilev54stacked_source a okh:SourceFile ;
+    rdfs:label "Source File of face_shield_fabuchile_v5_4stacked of FaceShield FabLab UChile 89410409c4a2f35a69bb4b6db04afd2a358651a3" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/73525/face_shield_fabuchile_v5_4stacked.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0MjE4MDQ=> .
+
+:Faceshieldfabuchilev5_source a okh:SourceFile ;
+    rdfs:label "Source File of face_shield_fabuchile_v5 of FaceShield FabLab UChile 89410409c4a2f35a69bb4b6db04afd2a358651a3" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/73525/face_shield_fabuchile_v5.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0MjE4MDY=> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of FaceShield FabLab UChile 89410409c4a2f35a69bb4b6db04afd2a358651a3" ;
+    okh:fileFormat "PNG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/73525/v6_4.png> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0MTkxNTI=> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of FaceShield FabLab UChile 89410409c4a2f35a69bb4b6db04afd2a358651a3" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/73525/readme-a1b4f.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0MjIyNjM=> .
+

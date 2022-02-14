@@ -1,0 +1,72 @@
+@prefix : <https://wikifactory.com/@jaysonolaguera/locker/6d7587141f318ee3122a9e8a073e01b626f1db2f/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Locker a okh:Module ;
+    rdfs:label "Locker" ;
+    okh:documentationLanguage "fr" ;
+    okh:function "Réalisation d'un loquet en 3D pour gérer la fermeture de panneaux d'affichage du jardin partagé \"Le Jardin d'Heol\" à Concarneau" ;
+    okh:hasComponent :Loquetfemellea,
+        :Loquetfemelleb,
+        :Loquetmale ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "jaysonolaguera" ;
+    okh:release <https://wikifactory.com/@jaysonolaguera/locker/v/6d75871> ;
+    okh:repo <https://wikifactory.com/@jaysonolaguera/locker> ;
+    okh:repoHost "wikifactory.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:version "6d7587141f318ee3122a9e8a073e01b626f1db2f" ;
+    okh:versionOf <https://wikifactory.com/@jaysonolaguera/locker> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Locker 6d7587141f318ee3122a9e8a073e01b626f1db2f" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/131577/1240576.jpg> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NzIwNzA=> .
+
+:Loquetfemellea a okh:Part ;
+    rdfs:label "Loquet_femelle_a" ;
+    okh:documentationLanguage "fr" ;
+    okh:licensor "Paul Bridier" ;
+    okh:source :Loquetfemellea_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Loquetfemellea_source a okh:SourceFile ;
+    rdfs:label "Source File of Loquet_femelle_a of Locker 6d7587141f318ee3122a9e8a073e01b626f1db2f" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/131577/loquet_femelle_a.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NzIwODI=> .
+
+:Loquetfemelleb a okh:Part ;
+    rdfs:label "Loquet_femelle_b" ;
+    okh:documentationLanguage "fr" ;
+    okh:licensor "Paul Bridier" ;
+    okh:source :Loquetfemelleb_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Loquetfemelleb_source a okh:SourceFile ;
+    rdfs:label "Source File of Loquet_femelle_b of Locker 6d7587141f318ee3122a9e8a073e01b626f1db2f" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/131577/loquet_femelle_b.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NzIwODA=> .
+
+:Loquetmale a okh:Part ;
+    rdfs:label "Loquet_male" ;
+    okh:documentationLanguage "fr" ;
+    okh:licensor "Paul Bridier" ;
+    okh:source :Loquetmale_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Loquetmale_source a okh:SourceFile ;
+    rdfs:label "Source File of Loquet_male of Locker 6d7587141f318ee3122a9e8a073e01b626f1db2f" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/131577/loquet_male.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NzIwNzg=> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of Locker 6d7587141f318ee3122a9e8a073e01b626f1db2f" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/131577/readme-6b42d.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NzIwODE=> .
+

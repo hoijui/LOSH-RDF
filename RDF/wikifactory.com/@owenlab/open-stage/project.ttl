@@ -1,0 +1,44 @@
+@prefix : <https://wikifactory.com/@owenlab/open-stage/fce2fd9cae0cbd4736d1c1efe30f33316523b4f9/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Openstage a okh:Module ;
+    rdfs:label "OPEN-STAGE" ;
+    okh:documentationLanguage "en" ;
+    okh:function "A modular open source frame, developed during FabAcademy. Built like a tray and based on a 2axis Cartesian movement, it allows you to mill, laser-cut or paint in different places." ;
+    okh:hasComponent :Bomopenstage ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "Gianluca Pugliese" ;
+    okh:release <https://wikifactory.com/@owenlab/open-stage/v/fce2fd9> ;
+    okh:repo <https://wikifactory.com/@owenlab/open-stage> ;
+    okh:repoHost "wikifactory.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:version "fce2fd9cae0cbd4736d1c1efe30f33316523b4f9" ;
+    okh:versionOf <https://wikifactory.com/@owenlab/open-stage> .
+
+:Bomopenstage a okh:Part ;
+    rdfs:label "BOM_OpenStage" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :Bomopenstage_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Bomopenstage_source a okh:SourceFile ;
+    rdfs:label "Source File of BOM_OpenStage of OPEN-STAGE fce2fd9cae0cbd4736d1c1efe30f33316523b4f9" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/191/bomopenstage.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1MzE=> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of OPEN-STAGE fce2fd9cae0cbd4736d1c1efe30f33316523b4f9" ;
+    okh:fileFormat "PNG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/191/screen-shot-2018-01-22-at-173759.png> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NDY=> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of OPEN-STAGE fce2fd9cae0cbd4736d1c1efe30f33316523b4f9" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/191/readme-18.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozMTE2> .
+

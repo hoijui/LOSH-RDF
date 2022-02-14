@@ -1,0 +1,40 @@
+@prefix : <https://github.com/GliaX/faceshield/3.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Gliaxfaceshield a okh:Module ;
+    rdfs:label "GliaX-Faceshield" ;
+    okh:cpcPatentClass "A41G" ;
+    okh:dataSource "github.com" ;
+    okh:documentationLanguage "en-GB" ;
+    okh:function "The goal of GliaX-Faceshield is to create a low cost, high quality, reusable face shield that can be quickly deployed." ;
+    okh:hasManufacturingInstructions :ManufacturingInstructions ;
+    okh:hasReadme :Readme ;
+    okh:hasUserManual :UserManual ;
+    okh:licensor "Jake Bender, Mike Doell" ;
+    okh:release <https://github.com/GliaX/faceshield> ;
+    okh:repo <https://github.com/GliaX/faceshield> ;
+    okh:repoHost "github.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> ;
+    okh:tsdc "3DP" ;
+    okh:version "3.0.0" ;
+    okh:versionOf <https://github.com/GliaX/faceshield> .
+
+:ManufacturingInstructions a okh:ManufacturingInstructions ;
+    rdfs:label "ManufacturingInstructions of GliaX-Faceshield 3.0.0" ;
+    okh:fileFormat "PNG" ;
+    okh:fileUrl <https://raw.githubusercontent.com/GliaX/faceshield/v3.0.0/blob/master/instructions_bilingual.png> ;
+    okh:permaURL <https://raw.githubusercontent.com/GliaX/faceshield/v3.0.0/blob/master/instructions_bilingual.png> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of GliaX-Faceshield 3.0.0" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://raw.githubusercontent.com/GliaX/faceshield/v3.0.0/manifest_files/manually-created/README.md> ;
+    okh:permaURL <https://raw.githubusercontent.com/GliaX/faceshield/v3.0.0/manifest_files/manually-created/README.md> .
+
+:UserManual a okh:UserManual ;
+    rdfs:label "UserManual of GliaX-Faceshield 3.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://raw.githubusercontent.com/GliaX/faceshield/v3.0.0/blob/master/instructions.jpg> ;
+    okh:permaURL <https://raw.githubusercontent.com/GliaX/faceshield/v3.0.0/blob/master/instructions.jpg> .
+

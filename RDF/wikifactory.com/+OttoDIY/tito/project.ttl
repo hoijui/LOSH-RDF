@@ -1,0 +1,115 @@
+@prefix : <https://wikifactory.com/+OttoDIY/tito/c3e4a51e8e24675d8749faffb37a4b53223e8b82/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Tito a okh:Module ;
+    rdfs:label "Tito" ;
+    okh:documentationLanguage "en" ;
+    okh:function "Arduino UNO 3D Printable biped robot, Tito is a Biped dancing DIY robot, has been adapted to an standard Arduino UNO board with easier connections and supports. It was the first design iteration for +OttoDIY." ;
+    okh:hasComponent :Titobase,
+        :Titofootl,
+        :Titofootr,
+        :Titohead,
+        :Titoleg,
+        :Titov01 ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:organisation "Otto DIY" ;
+    okh:release <https://wikifactory.com/+OttoDIY/tito/v/c3e4a51> ;
+    okh:repo <https://wikifactory.com/+OttoDIY/tito> ;
+    okh:repoHost "wikifactory.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:version "c3e4a51e8e24675d8749faffb37a4b53223e8b82" ;
+    okh:versionOf <https://wikifactory.com/+OttoDIY/tito> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Tito c3e4a51e8e24675d8749faffb37a4b53223e8b82" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1341/fp3r7ggivo3xlyilarge-0.jpg> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMzQxMg==> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of Tito c3e4a51e8e24675d8749faffb37a4b53223e8b82" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1341/readme-db0ce.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozNTAyODE=> .
+
+:Titobase a okh:Part ;
+    rdfs:label "Tito_base" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :Titobase_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Titobase_source a okh:SourceFile ;
+    rdfs:label "Source File of Tito_base of Tito c3e4a51e8e24675d8749faffb37a4b53223e8b82" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1341/titobase.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMzQxNw==> .
+
+:Titofootl a okh:Part ;
+    rdfs:label "Tito_footL" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :Titofootl_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Titofootl_source a okh:SourceFile ;
+    rdfs:label "Source File of Tito_footL of Tito c3e4a51e8e24675d8749faffb37a4b53223e8b82" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1341/titofootl.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMzQyMA==> .
+
+:Titofootr a okh:Part ;
+    rdfs:label "Tito_footR" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :Titofootr_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Titofootr_source a okh:SourceFile ;
+    rdfs:label "Source File of Tito_footR of Tito c3e4a51e8e24675d8749faffb37a4b53223e8b82" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1341/titofootr.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMzQxOQ==> .
+
+:Titohead a okh:Part ;
+    rdfs:label "Tito_head" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :Titohead_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Titohead_source a okh:SourceFile ;
+    rdfs:label "Source File of Tito_head of Tito c3e4a51e8e24675d8749faffb37a4b53223e8b82" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1341/titohead.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMzQyMQ==> .
+
+:Titoleg a okh:Part ;
+    rdfs:label "Tito_leg" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :Titoleg_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Titoleg_source a okh:SourceFile ;
+    rdfs:label "Source File of Tito_leg of Tito c3e4a51e8e24675d8749faffb37a4b53223e8b82" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1341/titoleg.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMzQxOA==> .
+
+:Titov01 a okh:Part ;
+    rdfs:label "TITO_v01" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :Titov01_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Titov01_source a okh:SourceFile ;
+    rdfs:label "Source File of TITO_v01 of Tito c3e4a51e8e24675d8749faffb37a4b53223e8b82" ;
+    okh:fileFormat "STP" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1341/titov01.stp> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyNzY4NTc=> .
+

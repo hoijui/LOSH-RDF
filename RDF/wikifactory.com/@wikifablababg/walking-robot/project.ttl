@@ -1,0 +1,100 @@
+@prefix : <https://wikifactory.com/@wikifablababg/walking-robot/b2a7ff56adab24985aee6b4ec0f3877f0f515c41/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:WalkingRobot a okh:Module ;
+    rdfs:label "Walking Robot" ;
+    okh:documentationLanguage "es" ;
+    okh:function "Siempre se pueden hacer cosas interesantes con pocos materiales. Apoyemos el reciclaje y juntemos trozos de cartón, que ahora crearemos un divertido robot que camina utilizando materiales reutilizables, un motor y unas baterías." ;
+    okh:hasComponent :DimensionesWalkingRobot,
+        :EjeSuperior,
+        :MotorWeel,
+        :SoporteEjeSuperior,
+        :WalkingRobotInstrucciones ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "FABLAB ABG" ;
+    okh:release <https://wikifactory.com/@wikifablababg/walking-robot/v/b2a7ff5> ;
+    okh:repo <https://wikifactory.com/@wikifablababg/walking-robot> ;
+    okh:repoHost "wikifactory.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:version "b2a7ff56adab24985aee6b4ec0f3877f0f515c41" ;
+    okh:versionOf <https://wikifactory.com/@wikifablababg/walking-robot> .
+
+:DimensionesWalkingRobot a okh:Part ;
+    rdfs:label "Dimensiones Walking Robot" ;
+    okh:documentationLanguage "es" ;
+    okh:licensor "FABLAB ABG" ;
+    okh:source :DimensionesWalkingRobot_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:DimensionesWalkingRobot_source a okh:SourceFile ;
+    rdfs:label "Source File of Dimensiones Walking Robot of Walking Robot b2a7ff56adab24985aee6b4ec0f3877f0f515c41" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143942/dimensiones-walking-robot.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NjU5OTA=> .
+
+:EjeSuperior a okh:Part ;
+    rdfs:label "Eje Superior" ;
+    okh:documentationLanguage "es" ;
+    okh:licensor "FABLAB ABG" ;
+    okh:source :EjeSuperior_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:EjeSuperior_source a okh:SourceFile ;
+    rdfs:label "Source File of Eje Superior of Walking Robot b2a7ff56adab24985aee6b4ec0f3877f0f515c41" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143942/eje-superior.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NjU5Njk=> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Walking Robot b2a7ff56adab24985aee6b4ec0f3877f0f515c41" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143942/img_20211129_114259.jpg> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NjU2NDY=> .
+
+:MotorWeel a okh:Part ;
+    rdfs:label "Motor Weel" ;
+    okh:documentationLanguage "es" ;
+    okh:licensor "FABLAB ABG" ;
+    okh:source :MotorWeel_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:MotorWeel_source a okh:SourceFile ;
+    rdfs:label "Source File of Motor Weel of Walking Robot b2a7ff56adab24985aee6b4ec0f3877f0f515c41" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143942/motor-weel.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NjU5Njg=> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of Walking Robot b2a7ff56adab24985aee6b4ec0f3877f0f515c41" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143942/readme-9fe2b.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NjQ5ODM=> .
+
+:SoporteEjeSuperior a okh:Part ;
+    rdfs:label "Soporte Eje Superior" ;
+    okh:documentationLanguage "es" ;
+    okh:licensor "FABLAB ABG" ;
+    okh:source :SoporteEjeSuperior_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:SoporteEjeSuperior_source a okh:SourceFile ;
+    rdfs:label "Source File of Soporte Eje Superior of Walking Robot b2a7ff56adab24985aee6b4ec0f3877f0f515c41" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143942/soporte-eje-superior.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NjU5Njc=> .
+
+:WalkingRobotInstrucciones a okh:Part ;
+    rdfs:label "Walking Robot Instrucciones" ;
+    okh:documentationLanguage "es" ;
+    okh:licensor "FABLAB ABG" ;
+    okh:source :WalkingRobotInstrucciones_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:WalkingRobotInstrucciones_source a okh:SourceFile ;
+    rdfs:label "Source File of Walking Robot Instrucciones of Walking Robot b2a7ff56adab24985aee6b4ec0f3877f0f515c41" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143942/walking-robot-instrucciones.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NjU2NDI=> .
+

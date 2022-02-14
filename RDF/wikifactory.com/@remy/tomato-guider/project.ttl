@@ -1,0 +1,44 @@
+@prefix : <https://wikifactory.com/@remy/tomato-guider/a385037451efc845765a55689c8b921a88479ce4/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ParametricTomatoGuider a okh:Module ;
+    rdfs:label "Parametric tomato guider" ;
+    okh:documentationLanguage "en" ;
+    okh:function "How to use parametric design in Fusion 360 to make a 3D printed tomato plant guider." ;
+    okh:hasComponent :Tomatoguider ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "Remy Ducros" ;
+    okh:release <https://wikifactory.com/@remy/tomato-guider/v/a385037> ;
+    okh:repo <https://wikifactory.com/@remy/tomato-guider> ;
+    okh:repoHost "wikifactory.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:version "a385037451efc845765a55689c8b921a88479ce4" ;
+    okh:versionOf <https://wikifactory.com/@remy/tomato-guider> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Parametric tomato guider a385037451efc845765a55689c8b921a88479ce4" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64385/img_20200629_151907.jpg> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTQ2Mzg=> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of Parametric tomato guider a385037451efc845765a55689c8b921a88479ce4" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64385/readme-ab041.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTY2NTE=> .
+
+:Tomatoguider a okh:Part ;
+    rdfs:label "TomatoGuider" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Remy Ducros" ;
+    okh:source :Tomatoguider_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Tomatoguider_source a okh:SourceFile ;
+    rdfs:label "Source File of TomatoGuider of Parametric tomato guider a385037451efc845765a55689c8b921a88479ce4" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64385/tomatoguider.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTQ2Njc=> .
+

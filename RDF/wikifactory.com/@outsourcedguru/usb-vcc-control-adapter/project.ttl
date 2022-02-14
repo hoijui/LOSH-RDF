@@ -1,0 +1,58 @@
+@prefix : <https://wikifactory.com/@outsourcedguru/usb-vcc-control-adapter/03900978894431012b841a05808db92c3f8f686b/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:UsbVccControlAdapter a okh:Module ;
+    rdfs:label "USB VCC Control Adapter" ;
+    okh:documentationLanguage "en" ;
+    okh:function "A controllable USB (Type-A) adapter which allows the 5V VCC line to be toggled ON/OFF programmatically." ;
+    okh:hasComponent :Usbcablebottom,
+        :Usbcabletop ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "Outsourced Guru" ;
+    okh:release <https://wikifactory.com/@outsourcedguru/usb-vcc-control-adapter/v/0390097> ;
+    okh:repo <https://wikifactory.com/@outsourcedguru/usb-vcc-control-adapter> ;
+    okh:repoHost "wikifactory.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/MIT> ;
+    okh:version "03900978894431012b841a05808db92c3f8f686b" ;
+    okh:versionOf <https://wikifactory.com/@outsourcedguru/usb-vcc-control-adapter> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of USB VCC Control Adapter 03900978894431012b841a05808db92c3f8f686b" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/32506/img_0112.JPG> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyOTU3ODY=> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of USB VCC Control Adapter 03900978894431012b841a05808db92c3f8f686b" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/32506/readme-152bc.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozMTIwODA=> .
+
+:Usbcablebottom a okh:Part ;
+    rdfs:label "USBCableBottom" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Outsourced Guru" ;
+    okh:source :Usbcablebottom_source ;
+    okh:spdxLicense <https://spdx.org/licenses/MIT> .
+
+:Usbcablebottom_source a okh:SourceFile ;
+    rdfs:label "Source File of USBCableBottom of USB VCC Control Adapter 03900978894431012b841a05808db92c3f8f686b" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/32506/usbcablebottom.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyOTU3OTY=> .
+
+:Usbcabletop a okh:Part ;
+    rdfs:label "USBCableTop" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Outsourced Guru" ;
+    okh:source :Usbcabletop_source ;
+    okh:spdxLicense <https://spdx.org/licenses/MIT> .
+
+:Usbcabletop_source a okh:SourceFile ;
+    rdfs:label "Source File of USBCableTop of USB VCC Control Adapter 03900978894431012b841a05808db92c3f8f686b" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/32506/usbcabletop.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyOTU3OTU=> .
+

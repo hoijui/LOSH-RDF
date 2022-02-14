@@ -1,0 +1,128 @@
+@prefix : <https://wikifactory.com/@mrpotato/armário-fablab/08d38ee2274456d2a649ad4685b320b507dcd6e6/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ArmárioFablab a okh:Module ;
+    rdfs:label "Armário FabLab" ;
+    okh:documentationLanguage "pt" ;
+    okh:function "O objetivo do projeto visa solucionar um problema encontrado no FabLab, não ter um local adequado para por as mochilas. A partir desse problema, pensamos em produzir um armário onde possamos guardar as mochilas com segurança." ;
+    okh:hasComponent :LateralDireita,
+        :LateralEsquerda,
+        :Porta,
+        :Prateleira,
+        :Trava3,
+        :TravaComDogbone,
+        :TravaSemDogbone ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "Gustavo Rodrigues Souza" ;
+    okh:release <https://wikifactory.com/@mrpotato/armário-fablab/v/08d38ee> ;
+    okh:repo <https://wikifactory.com/@mrpotato/armário-fablab> ;
+    okh:repoHost "wikifactory.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:version "08d38ee2274456d2a649ad4685b320b507dcd6e6" ;
+    okh:versionOf <https://wikifactory.com/@mrpotato/armário-fablab> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Armário FabLab 08d38ee2274456d2a649ad4685b320b507dcd6e6" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151315/img_20211101_162527353-7732d.jpg> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTc5MzU=> .
+
+:LateralDireita a okh:Part ;
+    rdfs:label "lateral direita" ;
+    okh:documentationLanguage "pt" ;
+    okh:licensor "Gustavo Rodrigues Souza" ;
+    okh:source :LateralDireita_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:LateralDireita_source a okh:SourceFile ;
+    rdfs:label "Source File of lateral direita of Armário FabLab 08d38ee2274456d2a649ad4685b320b507dcd6e6" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151315/lateral-direita-fa23d.dxf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTM1MjE=> .
+
+:LateralEsquerda a okh:Part ;
+    rdfs:label "lateral esquerda" ;
+    okh:documentationLanguage "pt" ;
+    okh:licensor "Gustavo Rodrigues Souza" ;
+    okh:source :LateralEsquerda_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:LateralEsquerda_source a okh:SourceFile ;
+    rdfs:label "Source File of lateral esquerda of Armário FabLab 08d38ee2274456d2a649ad4685b320b507dcd6e6" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151315/lateral-esquerda.dxf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTM1MjA=> .
+
+:Porta a okh:Part ;
+    rdfs:label "porta" ;
+    okh:documentationLanguage "pt" ;
+    okh:licensor "Gustavo Rodrigues Souza" ;
+    okh:source :Porta_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Porta_source a okh:SourceFile ;
+    rdfs:label "Source File of porta of Armário FabLab 08d38ee2274456d2a649ad4685b320b507dcd6e6" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151315/porta.dxf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTM1MTk=> .
+
+:Prateleira a okh:Part ;
+    rdfs:label "prateleira" ;
+    okh:documentationLanguage "pt" ;
+    okh:licensor "Gustavo Rodrigues Souza" ;
+    okh:source :Prateleira_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Prateleira_source a okh:SourceFile ;
+    rdfs:label "Source File of prateleira of Armário FabLab 08d38ee2274456d2a649ad4685b320b507dcd6e6" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151315/prateleira.dxf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTM1MTg=> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of Armário FabLab 08d38ee2274456d2a649ad4685b320b507dcd6e6" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151315/readme-d7439.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTc5MjA=> .
+
+:Trava3 a okh:Part ;
+    rdfs:label "trava 3" ;
+    okh:documentationLanguage "pt" ;
+    okh:licensor "Gustavo Rodrigues Souza" ;
+    okh:source :Trava3_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Trava3_source a okh:SourceFile ;
+    rdfs:label "Source File of trava 3 of Armário FabLab 08d38ee2274456d2a649ad4685b320b507dcd6e6" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151315/trava-3.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTM1MTc=> .
+
+:TravaComDogbone a okh:Part ;
+    rdfs:label "trava com dogbone" ;
+    okh:documentationLanguage "pt" ;
+    okh:licensor "Gustavo Rodrigues Souza" ;
+    okh:source :TravaComDogbone_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:TravaComDogbone_source a okh:SourceFile ;
+    rdfs:label "Source File of trava com dogbone of Armário FabLab 08d38ee2274456d2a649ad4685b320b507dcd6e6" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151315/trava-com-dogbone.dxf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTM1MTY=> .
+
+:TravaSemDogbone a okh:Part ;
+    rdfs:label "trava sem dogbone" ;
+    okh:documentationLanguage "pt" ;
+    okh:licensor "Gustavo Rodrigues Souza" ;
+    okh:source :TravaSemDogbone_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:TravaSemDogbone_source a okh:SourceFile ;
+    rdfs:label "Source File of trava sem dogbone of Armário FabLab 08d38ee2274456d2a649ad4685b320b507dcd6e6" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151315/trava-sem-dogbone.dxf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTM1MTU=> .
+

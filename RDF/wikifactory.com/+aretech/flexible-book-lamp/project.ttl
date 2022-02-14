@@ -1,0 +1,45 @@
+@prefix : <https://wikifactory.com/+aretech/flexible-book-lamp/650d5cc11a1e2775f3fcb19bb633b356d7b779a7/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:FlexibleBookLamp a okh:Module ;
+    rdfs:label "Flexible book lamp" ;
+    okh:documentationLanguage "en" ;
+    okh:function "My first attempt making a flexible PCB using the vinyl cutter." ;
+    okh:hasComponent :Flexilamp ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "Remy Ducros" ;
+    okh:organisation "Aretech" ;
+    okh:release <https://wikifactory.com/+aretech/flexible-book-lamp/v/650d5cc> ;
+    okh:repo <https://wikifactory.com/+aretech/flexible-book-lamp> ;
+    okh:repoHost "wikifactory.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:version "650d5cc11a1e2775f3fcb19bb633b356d7b779a7" ;
+    okh:versionOf <https://wikifactory.com/+aretech/flexible-book-lamp> .
+
+:Flexilamp a okh:Part ;
+    rdfs:label "FlexiLamp" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Remy Ducros" ;
+    okh:source :Flexilamp_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Flexilamp_source a okh:SourceFile ;
+    rdfs:label "Source File of FlexiLamp of Flexible book lamp 650d5cc11a1e2775f3fcb19bb633b356d7b779a7" ;
+    okh:fileFormat "SVG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/130319/flexilamp.svg> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NjU3NDA=> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Flexible book lamp 650d5cc11a1e2775f3fcb19bb633b356d7b779a7" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/130319/img_20210313_155114.jpg> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NjU3MDM=> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of Flexible book lamp 650d5cc11a1e2775f3fcb19bb633b356d7b779a7" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/130319/readme-4ff8a.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2Mjc3MTM=> .
+

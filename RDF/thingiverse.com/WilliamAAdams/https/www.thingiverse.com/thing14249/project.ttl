@@ -1,0 +1,32 @@
+@prefix : <https://www.thingiverse.com/thing%3A14249/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:MetaPeanut a okh:Module ;
+    rdfs:label "Meta Peanut" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """I was hungry, so I thought I'd model up some peanuts.\r
+\r
+This thing is actually formed out of metaballs.  \r
+\r
+It's just a blob, with a displacement map on the vertices, and the same texture as a color map on top of that.\r
+\r
+The technique is similar to how the Earth Shot thing was created, but it uses the metaballs to calculate vertices.\r
+\r
+The texture map file was downloaded from the internet, so it has a water mark.  You can make a 2-nut peanut, or a 3-nut, or whatever.  Just use more balls.  Choosing a better texture/height map will make it look better.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "WilliamAAdams" ;
+    okh:repo <https://www.thingiverse.com/thing:14249> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:14249> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Meta Peanut 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/56/90/d5/a2/b8/Peanut_2_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/56/90/d5/a2/b8/Peanut_2_display_large_display_large.jpg> .
+

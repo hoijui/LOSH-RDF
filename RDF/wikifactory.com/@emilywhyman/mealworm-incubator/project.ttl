@@ -1,14 +1,15 @@
-@prefix : <https://wikifactory.com/@emilywhyman/mealworm-incubator/e8f9c9a7cb92064399c32cafff557fdd9fb5d714/> .
+@prefix : <https://wikifactory.com/%40emilywhyman/mealworm-incubator/e8f9c9a7cb92064399c32cafff557fdd9fb5d714/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 :MealwormIncubator a okh:Module ;
     rdfs:label "Mealworm Incubator" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "Open-source mealworm incubator. A downloadable self-construct and home-grow kit for any bidding future urban farmer-dwellers.*PLEASE NOTE: This mealworm incubator is Edition # 1 - futures versions are being developed!" ;
-    okh:hasComponent :ClassFilesfabduinoecostudio,
-        :Mealwormincubatorv2,
-        :Model ;
+    okh:hasComponent :ElectronicshomemadePcbclassFilesfabduinoecostudio,
+        :Modelmealwormincubatorv2,
+        :Modelmodel ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "emilywhyman" ;
@@ -16,25 +17,26 @@
     okh:repo <https://wikifactory.com/@emilywhyman/mealworm-incubator> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
     okh:version "e8f9c9a7cb92064399c32cafff557fdd9fb5d714" ;
     okh:versionOf <https://wikifactory.com/@emilywhyman/mealworm-incubator> .
 
-:ClassFilesfabduinoecostudio a okh:Part ;
-    rdfs:label "class files_fabduino-ecostudio" ;
+:ElectronicshomemadePcbclassFilesfabduinoecostudio a okh:Part ;
+    rdfs:label "electronics/homemade PCB/class files_fabduino-ecostudio" ;
     okh:documentationLanguage "en" ;
-    okh:export :ClassFilesfabduinoecostudio_export1 ;
+    okh:export :ElectronicshomemadePcbclassFilesfabduinoecostudio_export1 ;
     okh:licensor "emilywhyman" ;
-    okh:source :ClassFilesfabduinoecostudio_source ;
+    okh:source :ElectronicshomemadePcbclassFilesfabduinoecostudio_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:ClassFilesfabduinoecostudio_export1 a okh:ExportFile ;
-    rdfs:label "Export File of class files_fabduino-ecostudio of Mealworm Incubator e8f9c9a7cb92064399c32cafff557fdd9fb5d714" ;
+:ElectronicshomemadePcbclassFilesfabduinoecostudio_export1 a okh:ExportFile ;
+    rdfs:label "Export File of electronics/homemade PCB/class files_fabduino-ecostudio of Mealworm Incubator e8f9c9a7cb92064399c32cafff557fdd9fb5d714" ;
     okh:fileFormat "SCH" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/23918/class_files_w8_temperature.txt> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToyMjYxOTQ=> .
 
-:ClassFilesfabduinoecostudio_source a okh:SourceFile ;
-    rdfs:label "Source File of class files_fabduino-ecostudio of Mealworm Incubator e8f9c9a7cb92064399c32cafff557fdd9fb5d714" ;
+:ElectronicshomemadePcbclassFilesfabduinoecostudio_source a okh:SourceFile ;
+    rdfs:label "Source File of electronics/homemade PCB/class files_fabduino-ecostudio of Mealworm Incubator e8f9c9a7cb92064399c32cafff557fdd9fb5d714" ;
     okh:fileFormat "BRD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/23918/class_files_w8_temperature.txt> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToyMjYxOTY=> .
@@ -45,35 +47,35 @@
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/23918/render-2.jpg> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToyMjYyMDg=> .
 
-:Mealwormincubatorv2 a okh:Part ;
-    rdfs:label "mealworm-incubator-v2" ;
+:Modelmealwormincubatorv2 a okh:Part ;
+    rdfs:label "model/mealworm-incubator-v2" ;
     okh:documentationLanguage "en" ;
     okh:licensor "emilywhyman" ;
-    okh:source :Mealwormincubatorv2_source ;
+    okh:source :Modelmealwormincubatorv2_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Mealwormincubatorv2_source a okh:SourceFile ;
-    rdfs:label "Source File of mealworm-incubator-v2 of Mealworm Incubator e8f9c9a7cb92064399c32cafff557fdd9fb5d714" ;
+:Modelmealwormincubatorv2_source a okh:SourceFile ;
+    rdfs:label "Source File of model/mealworm-incubator-v2 of Mealworm Incubator e8f9c9a7cb92064399c32cafff557fdd9fb5d714" ;
     okh:fileFormat "3DM" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/23918/mealworm-incubator-v2.3dm> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToyMjYxNzk=> .
 
-:Model a okh:Part ;
-    rdfs:label "model" ;
+:Modelmodel a okh:Part ;
+    rdfs:label "model/model" ;
     okh:documentationLanguage "en" ;
-    okh:export :Model_export1 ;
+    okh:export :Modelmodel_export1 ;
     okh:licensor "emilywhyman" ;
-    okh:source :Model_source ;
+    okh:source :Modelmodel_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Model_export1 a okh:ExportFile ;
-    rdfs:label "Export File of model of Mealworm Incubator e8f9c9a7cb92064399c32cafff557fdd9fb5d714" ;
+:Modelmodel_export1 a okh:ExportFile ;
+    rdfs:label "Export File of model/model of Mealworm Incubator e8f9c9a7cb92064399c32cafff557fdd9fb5d714" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/23918/model.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToyMjYxNzc=> .
 
-:Model_source a okh:SourceFile ;
-    rdfs:label "Source File of model of Mealworm Incubator e8f9c9a7cb92064399c32cafff557fdd9fb5d714" ;
+:Modelmodel_source a okh:SourceFile ;
+    rdfs:label "Source File of model/model of Mealworm Incubator e8f9c9a7cb92064399c32cafff557fdd9fb5d714" ;
     okh:fileFormat "OBJ" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/23918/model.obj> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToyMjYxNzg=> .

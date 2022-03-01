@@ -1,0 +1,38 @@
+@prefix : <https://www.thingiverse.com/thing%3A15442/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:DoombotOfDoom a okh:Module ;
+    rdfs:label "Doombot of DOOM!" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is very much in progress of being built and designed ad-hoc, But I've started on a Ultimaker style bot that is a meter cubed in volume. So that I can print a Chair!\r
+\r
+Each corner is printed on my Makerbot, and then standard 4x2 steel tubing can be inserted to make the frame.\r
+\r
+Each side is cross braced with threaded rod to make it true and the 16mm ground shafts are used as guides for the head.\r
+\r
+The head is on a 10mm shaft and houses two LLU10's for smooth running.\r
+\r
+The head is designed to accept up to 4 heads but I will need to figure out a way to keep the weight down, because even with 10mm shafting there is some flexing.\r
+\r
+The platform when build will have two ball screw on opposite corners with two linear bearings on the other corners.\r
+\r
+Each axis will be powered by Nema23's at 48v going through some Gecko Drivers, but I intend to rig up my Makerbot Mother board to control this, so that I can re use the Extruder controller for the head.\r
+\r
+Anyway, I will start posting files when they are ready.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "johnnyfp" ;
+    okh:repo <https://www.thingiverse.com/thing:15442> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:15442> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Doombot of DOOM! 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/db/22/cb/41/a2/IMG_20120105_082600_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/db/22/cb/41/a2/IMG_20120105_082600_display_large_display_large.jpg> .
+

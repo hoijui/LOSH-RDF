@@ -1,0 +1,31 @@
+@prefix : <https://www.thingiverse.com/thing%3A3934/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ParametricComputerCaseScriptV01 a okh:Module ;
+    rdfs:label "Parametric Computer Case Script v0.1" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This script will generate a computer case based on a handful of input parameters.\r
+Included (and default in the script) is a Mini-ITX case.\r
+TODO(and will be done soon): \r
+     -Make the script cut the case into bite-size printable chunks\r
+     -Add parameters for PSU, HDD\r
+     -Add place for power button/status LEDs\r
+     -Add card slot parameters\r
+     -Add fan spot parameters""" ;
+    okh:hasImage :Image ;
+    okh:licensor "feilen" ;
+    okh:repo <https://www.thingiverse.com/thing:3934> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:3934> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Parametric Computer Case Script v0.1 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/23/50/00/77/b8/box_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/23/50/00/77/b8/box_display_large_display_large.jpg> .
+

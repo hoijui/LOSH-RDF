@@ -1,0 +1,38 @@
+@prefix : <https://www.thingiverse.com/thing%3A5048/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:IntegratedParametricReprapPrerelease2 a okh:Module ;
+    rdfs:label "Integrated Parametric RepRap Pre-Release 2" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is a second pre-release of the core files for the my development of an Integrated Parametric RepRap in OpenSCAD. These files contain the following:\r
+IPR_DNA: All constants and calculations, the constants define all the possible things that make a specific robot unique. (ranging from desired build space to fastener and bearing sizes)\r
+IPR_func: All "standard" modules, such as motor mounts, bearing mounts, hardware models, etc... currently this file "builds" the main frame out of the hardware specified in the IPR_DNA file (as seen in the attached pictures).\r
+IPR_parts: All the actual parts you would print.\r
+\r
+Currently there are some printable parts (although still untested):\r
+z-axis bases\r
+guide rod clamps (based on thing:3437)\r
+z-axis lifters (inspired by thing:4428)\r
+\r
+And some unprintable:\r
+Vertexes (with no holes)\r
+\r
+For more information visit the main documentation at:\r
+reprap.org/wiki/Integrated_Parametric_RepRap""" ;
+    okh:hasImage :Image ;
+    okh:licensor "nicholasclewis" ;
+    okh:repo <https://www.thingiverse.com/thing:5048> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:5048> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Integrated Parametric RepRap Pre-Release 2 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/17/ad/04/af/7a/Pre2_a_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/17/ad/04/af/7a/Pre2_a_display_large_display_large.jpg> .
+

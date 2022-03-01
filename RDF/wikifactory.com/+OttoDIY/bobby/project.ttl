@@ -1,15 +1,16 @@
-@prefix : <https://wikifactory.com/+OttoDIY/bobby/2cef5f678c89aed2908ca9963b3d5acfe0eca0f8/> .
+@prefix : <https://wikifactory.com/%2BOttoDIY/bobby/2cef5f678c89aed2908ca9963b3d5acfe0eca0f8/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 :Bobby a okh:Module ;
     rdfs:label "Bobby" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "A remix of OTTO diy biped robot Bob, which is fun learning robot for education." ;
-    okh:hasComponent :Bobbottom6aug,
-        :Bobcap12aug,
-        :Leg14aug,
-        :Ottodiyfootv09a ;
+    okh:hasComponent :Filesbobbottom6aug,
+        :Filesbobcap12aug,
+        :Filesleg14aug,
+        :Filesottodiyfootv09a ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "Satyajit Jagtap" ;
@@ -18,34 +19,61 @@
     okh:repo <https://wikifactory.com/+OttoDIY/bobby> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
     okh:version "2cef5f678c89aed2908ca9963b3d5acfe0eca0f8" ;
     okh:versionOf <https://wikifactory.com/+OttoDIY/bobby> .
 
-:Bobbottom6aug a okh:Part ;
-    rdfs:label "BobBottom_6Aug" ;
+:Filesbobbottom6aug a okh:Part ;
+    rdfs:label "Files/BobBottom_6Aug" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Satyajit Jagtap" ;
-    okh:source :Bobbottom6aug_source ;
+    okh:source :Filesbobbottom6aug_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Bobbottom6aug_source a okh:SourceFile ;
-    rdfs:label "Source File of BobBottom_6Aug of Bobby 2cef5f678c89aed2908ca9963b3d5acfe0eca0f8" ;
+:Filesbobbottom6aug_source a okh:SourceFile ;
+    rdfs:label "Source File of Files/BobBottom_6Aug of Bobby 2cef5f678c89aed2908ca9963b3d5acfe0eca0f8" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/26130/bobbottom_6aug.STL> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToyNDM5OTI=> .
 
-:Bobcap12aug a okh:Part ;
-    rdfs:label "BobCap_12Aug" ;
+:Filesbobcap12aug a okh:Part ;
+    rdfs:label "Files/BobCap_12Aug" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Satyajit Jagtap" ;
-    okh:source :Bobcap12aug_source ;
+    okh:source :Filesbobcap12aug_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Bobcap12aug_source a okh:SourceFile ;
-    rdfs:label "Source File of BobCap_12Aug of Bobby 2cef5f678c89aed2908ca9963b3d5acfe0eca0f8" ;
+:Filesbobcap12aug_source a okh:SourceFile ;
+    rdfs:label "Source File of Files/BobCap_12Aug of Bobby 2cef5f678c89aed2908ca9963b3d5acfe0eca0f8" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/26130/bobcap_12aug.STL> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToyNDM5ODk=> .
+
+:Filesleg14aug a okh:Part ;
+    rdfs:label "Files/LEG_14Aug" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Satyajit Jagtap" ;
+    okh:source :Filesleg14aug_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Filesleg14aug_source a okh:SourceFile ;
+    rdfs:label "Source File of Files/LEG_14Aug of Bobby 2cef5f678c89aed2908ca9963b3d5acfe0eca0f8" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/26130/leg_14aug.STL> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyNDM5OTU=> .
+
+:Filesottodiyfootv09a a okh:Part ;
+    rdfs:label "Files/OttoDIY_foot_v09A" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Satyajit Jagtap" ;
+    okh:source :Filesottodiyfootv09a_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Filesottodiyfootv09a_source a okh:SourceFile ;
+    rdfs:label "Source File of Files/OttoDIY_foot_v09A of Bobby 2cef5f678c89aed2908ca9963b3d5acfe0eca0f8" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/26130/ottodiy_foot_v09a.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyNDM5OTc=> .
 
 :Image a okh:Image ;
     rdfs:label "Image of Bobby 2cef5f678c89aed2908ca9963b3d5acfe0eca0f8" ;
@@ -53,35 +81,9 @@
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/26130/2123.png> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToyNDU0OTc=> .
 
-:Leg14aug a okh:Part ;
-    rdfs:label "LEG_14Aug" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Satyajit Jagtap" ;
-    okh:source :Leg14aug_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Leg14aug_source a okh:SourceFile ;
-    rdfs:label "Source File of LEG_14Aug of Bobby 2cef5f678c89aed2908ca9963b3d5acfe0eca0f8" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/26130/leg_14aug.STL> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyNDM5OTU=> .
-
-:Ottodiyfootv09a a okh:Part ;
-    rdfs:label "OttoDIY_foot_v09A" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Satyajit Jagtap" ;
-    okh:source :Ottodiyfootv09a_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Ottodiyfootv09a_source a okh:SourceFile ;
-    rdfs:label "Source File of OttoDIY_foot_v09A of Bobby 2cef5f678c89aed2908ca9963b3d5acfe0eca0f8" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/26130/ottodiy_foot_v09a.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyNDM5OTc=> .
-
 :Readme a okh:Readme ;
     rdfs:label "Readme of Bobby 2cef5f678c89aed2908ca9963b3d5acfe0eca0f8" ;
     okh:fileFormat "MD" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/26130/readme-71c27.md> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyNDQwMDc=> .
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/26130/readme-d8929.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyNDU0OTQ=> .
 

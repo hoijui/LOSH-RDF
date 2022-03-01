@@ -1,0 +1,44 @@
+@prefix : <https://www.thingiverse.com/thing%3A9750/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:SpaceFrameVertexV01 a okh:Module ;
+    rdfs:label "Space Frame Vertex v0.1" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """I am always in search of the perfect space frame vertex.  Some of the qualities I am after are; ease of use, reduction in amount of plastic, strength, small size, easy of printing, flexibility in construction.\r
+\r
+This thing, although not strictly a derivative, meets some of the criteria.\r
+\r
+The benefits of this other vertex: http://www.thingiverse.com/thing:9560  is that you can fairly easily construct any vertex to suit any specified criteria.  The limitation is that you must create a specific vertex for each situation.  So, if you're trying to construct a 2v or 3v geodesic dome, you must create the correct vertex to match that topology, thus increasing your parts count.\r
+\r
+This thing uses a flexible joint, like this other thing: \r
+http://www.thingiverse.com/thing:8985\r
+\r
+and this original thing:\r
+http://www.thingiverse.com/thing:5126\r
+\r
+The difference is that instead of using a ball and socket, it uses a slightly different kind of joint.  There are a couple of challenges with the ball and socket.  Although it provides great degrees of freedom, it actually provides too much freedom.  With space frames, you typically only want the rods to move within a single plane.  The other challenge has to do with the nature of a ball/socket joint.  You have to snap the ball into the socket.  This can be a bit hard with higher counts.  And lastly, to get a really good connection, you need the hub to be quite thick, so that it provides more contact for the friction fit of the ball.\r
+\r
+This thing uses a curved cylinder (torus) as the 'socket'.  By doing so, it allows for a limited freedom (planar), while still providing a nice tight friction fit.  So, when you're building a space frame, you can use a single 'hub' type, and the angles of the rods can be adjusted in realtime.  That alleviates the need to construct vertices with fixed geometries.  You just have to be concerned with the number of connections, but not their angle defects(saves on the math).\r
+\r
+Also, the hub is fairly easy to construct.  It's a single piece, with gentle curves.  It can be printed without any support structure.  I am imagining it would be fairly easy to create a mold for this thing as well, if you wanted to mass produce through injection molding.\r
+\r
+The swing arm is a different story.  The model of the piece is fairly simple, but the actual printing requires some support structure.  I would like to simplify that part.\r
+\r
+The models that I have here 'work' together, but the arm is weak, and will easily break depending on the plastic you are using to print.  I would like to improve that arm, but I think I've proved the concept to myself enough that I will continue the design.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "WilliamAAdams" ;
+    okh:repo <https://www.thingiverse.com/thing:9750> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:9750> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Space Frame Vertex v0.1 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/17/40/08/46/e8/DSC00806_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/17/40/08/46/e8/DSC00806_display_large_display_large.jpg> .
+

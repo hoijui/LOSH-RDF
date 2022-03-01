@@ -1,0 +1,31 @@
+@prefix : <https://www.thingiverse.com/thing%3A1339/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:OpenscadHelicalGears a okh:Module ;
+    rdfs:label "OpenSCAD Helical Gears" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is the second half of my http://openscad.org gear sets.\r
+\r
+I couldn't get the top and bottom parts of the double helical to union properly, so I ended up offsetting the bottom piece by 0.1mm :( It skeins and prints fine though.\r
+\r
+This thing is part of a set:\r
+- spur gears: http://www.thingiverse.com/thing:1336\r
+\r
+UPDATE: I'm printing some gears and noticed a couple mistakes on the openSCAD script: the variable 'orientation' wasn't doing anything and the value 'extrudeInDiam' was in fact being used as radius. They're both fixed now and I uploaded a new version of the script.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "catarina" ;
+    okh:repo <https://www.thingiverse.com/thing:1339> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:1339> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of OpenSCAD Helical Gears 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/5b/12/54/6d/ac/4130791241_3a1132b5aa_o_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/5b/12/54/6d/ac/4130791241_3a1132b5aa_o_display_large_display_large.jpg> .
+

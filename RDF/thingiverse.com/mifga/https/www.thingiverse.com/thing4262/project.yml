@@ -1,0 +1,48 @@
+__meta:
+  branch: null
+  created-at: '2010-09-30T09:23:07+00:00'
+  history: null
+  last-changed: null
+  last-visited: '2022-02-25T11:00:02.616920+00:00'
+  owner: mifga
+  path: null
+  repo: https://www.thingiverse.com/thing:4262
+  score: null
+  source: thingiverse.com
+attestation: null
+bom: null
+contribution-guide: null
+cpc-patent-class: null
+documentation-language: en
+documentation-readiness-level: odrl3
+function: "I battle-tested this script at Maker Faire NYC 2010 -- printing hundreds and hundreds of unicorns to be taken up eagerly by even the least likely candidates for receiving a unicorn drawing -- a real tribute to Will's logo design!\r\n\r\nI have been using and loving the MakerBot Unicorn Pen Plotter for two months now -- am currently using the tool to create what is looking to be a rather involved animation project. One of the first adjustments I made to the python tool \"Scribbles.py\" (based on \"Lunchlines\" from the Frostruder project) was to jump into the included sub-scripts and adjust the pre- and post-print gcode commands in \"context.py\" so that the print cycle included a machine halt in a platform retrieval position before returning the pen to the ready-to-print position. After accomplishing this first step proved easy (\"Scribbles.py\" is quite hackable!), I added a few other neat helper tricks: disengaging the steppers before each dialog box for last minute fine-tune adjustments to position, a pre-print registration test (a dot to show where x0,y0 falls), a post-print musical riff (why not?), and an automatic height increment to drop 0.1 mm for each page peeled away from a sticky note pad. I used these tools together in the gcode included below to create an optimized, low-supervision-required print-to-pad version of the unicorn logo (below) that is an ideal early print for a new MakerBot Unicorn Pen Plotter owner. I'm also including the context.py file for your perusal. NOTE that the secret to this script is that if you agree to \"Print the Next Sheet\" an absolute position adjustment drops the pen tool 0.1mm to the next sheet down ... but while the pen is in the \"up\" position. And then each new page re-declares the current position to be x0, y0, z0 keeping all the math right for the next drawing. So this script takes the endless adjustment and guessing out of preparing to print so that the tool always starts and ends in the best position to print, with the height adjustment to make printing to a new sheet work without adjustment."
+image:
+  created-at: '2010-09-30T09:23:07+00:00'
+  last-changed: '2010-09-30T09:23:07+00:00'
+  last-visited: '2022-02-25T13:33:10.956305+00:00'
+  license: CC-BY-SA-4.0
+  licensor: mifga
+  mime-type: null
+  name: Makerbot-MakerBotUnicornUnicornLogoPrinttoPadDerivative405-989_display_large_display_large
+  path: https:/cdn.thingiverse.com/renders/10/93/40/c6/9f/Makerbot-MakerBotUnicornUnicornLogoPrinttoPadDerivative405-989_display_large_display_large.jpg
+  perma-url: https://cdn.thingiverse.com/renders/10/93/40/c6/9f/Makerbot-MakerBotUnicornUnicornLogoPrinttoPadDerivative405-989_display_large_display_large.jpg
+  url: https://cdn.thingiverse.com/renders/10/93/40/c6/9f/Makerbot-MakerBotUnicornUnicornLogoPrinttoPadDerivative405-989_display_large_display_large.jpg
+license: CC-BY-SA-4.0
+licensor: mifga
+manufacturing-instructions: null
+name: Unicorn Logo -  Print-to-pad 10-unicorn set
+okhv: OKH-LOSHv1.0
+organization: null
+part: []
+publication: null
+readme: null
+release: null
+repo: https://www.thingiverse.com/thing:4262
+software: []
+specific-api-data: {}
+standard-compliance: null
+technology-readiness-level: ortl4
+tsdc: null
+upload-method: auto
+user-manual: null
+version: 1.0.0

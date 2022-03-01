@@ -1,0 +1,49 @@
+@prefix : <https://www.thingiverse.com/thing%3A11907/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Inkshield a okh:Module ;
+    rdfs:label "InkShield" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This shield allows you to connect a HP C6602 inkjet cartridge to your Arduino turning it into a 96dpi print platform.  It only uses 5 pins which can be jumper selected to avoid other shields.  It is designed with a Arduino Mega footprint but fully supports both the Arduino and the Arduino Mega.  It uses all through-hole components to make assembly easy even for beginners.\r
+\r
+Features\r
+Compatible with Arduino and Arduino Mega\r
+Uses only 5 user selectable pins\r
+Stackable (up to 11 Inkshields on Ardunio, 15 on Mega)\r
+On-board 20V boost converter for inkjet head\r
+Accepts 9-12V input via optional power connector or from the Arduino Vin\r
+Auxiliary input header offers support for other microcontrollers \r
+Auxiliary output header supports an extension cable to the inkjet head\r
+Power and Pulse activity LEDs\r
+ISCP header and Reset button\r
+All through-hole components\r
+\r
+This will be the first official release location.  For the most current information visit: \r
+http://nicholasclewis.com/inkshield/\r
+https://github.com/NicholasCLewis/InkShield\r
+\r
+A production run of this project was successfully funded via a Kickstarter here: http://kck.st/oAGeza\r
+\r
+Description of files:\r
+InkShieldLibrary.zip - Regular Arduino Libraries/Examples (You should download the *NEW* version)\r
+InkShieldLibraryNEW.zip - Regular Arduino Libraries/Examples (updated version - found a few bugs when finishing the Mega version)\r
+InkShieldMegaLibrary.zip - Arduino Mega Libraries/Examples\r
+InkShieldLiteLibrary.zip - Minimal Arduino Libraries/Examples\r
+InkShieldPCB.zip - Kicad Schematic and PCB Layout""" ;
+    okh:hasImage :Image ;
+    okh:licensor "nicholasclewis" ;
+    okh:repo <https://www.thingiverse.com/thing:11907> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:11907> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of InkShield 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/2b/23/e1/62/dc/DSCN7348_-_Copy_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/2b/23/e1/62/dc/DSCN7348_-_Copy_display_large_display_large.jpg> .
+

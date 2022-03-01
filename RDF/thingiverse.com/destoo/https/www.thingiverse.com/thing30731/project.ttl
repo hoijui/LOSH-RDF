@@ -1,0 +1,29 @@
+@prefix : <https://www.thingiverse.com/thing%3A30731/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:PanFlute a okh:Module ;
+    rdfs:label "Pan Flute" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is the plan for a set of pan pipes.\r
+The other models found did not take into account that a tube less than 7 times the width of the opening will not make any sound.\r
+\r
+A 2mm thickness of the pipe will prevent any "leaks". \r
+The parametric version allows you to change the notes used.\r
+I cheated a little using numbers in inches converted to 10 milimeters each (where a C pipe should be 6 inches long, it's 60mm on this model)""" ;
+    okh:hasImage :Image ;
+    okh:licensor "destoo" ;
+    okh:repo <https://www.thingiverse.com/thing:30731> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:30731> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Pan Flute 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/0f/0c/a1/57/2e/flute6__display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/0f/0c/a1/57/2e/flute6__display_large.jpg> .
+

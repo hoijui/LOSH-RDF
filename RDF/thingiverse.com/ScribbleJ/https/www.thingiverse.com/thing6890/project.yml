@@ -1,0 +1,48 @@
+__meta:
+  branch: null
+  created-at: '2011-03-06T17:58:26+00:00'
+  history: null
+  last-changed: null
+  last-visited: '2022-02-25T11:00:02.616920+00:00'
+  owner: ScribbleJ
+  path: null
+  repo: https://www.thingiverse.com/thing:6890
+  score: null
+  source: thingiverse.com
+attestation: null
+bom: null
+contribution-guide: null
+cpc-patent-class: null
+documentation-language: en
+documentation-readiness-level: odrl3
+function: "This is the obvious follow-on to my last Thingiverse entry, the LCD Temperature display:  http://www.thingiverse.com/thing:6753\r\n\r\nThis one has a keypad.  Even with that, you can probably squeak in just under $20 for all the parts.\r\n\r\nCURRENTLY DOES:\r\n* Temperature Monitoring Screen\r\n* Scrollable Error/Other Logging Screen\r\n* SD Card File Selection and PRINT QUEUE\r\n* Yes, queued up prints from SD Card files... Almost makes me want to put my ABP back on.  Not even RepG will do this.\r\n* Print Queue Management: delete, add, start, stop, abort current (not even RepG will do that! - it just resets the system).\r\n* Control Menu: Select screens from friendly menu, abort print, reset printer, destroy universe -- Not even RepG can do that!\r\n* Pause/Resume with BYPASS: the print will pause but you can jog the motors, rehome, and such, then resume right where you left off.  Not even RepG will do this.\r\n* Motor controls, move X,Y,Z,A,B -- even while a print is paused!!\r\n\r\nWIP WHY:\r\n* MANY features still to add!\r\n* Brand new, hardly tested!\r\n* Firmware .hex file uploaded below is from my machine, with 2 toolheads.\r\n\r\n\r\n\r\nI'm verbose by nature so I'm sure I'll have more to say, but I'm mostly busy coding on this right now, so I'll get back to you.\r\n\r\nYOUTUBE VIDEOS:  \r\n\r\nInitial test: http://www.youtube.com/watch?v=0prldLWJgzk\r\nQueuing up a (single) file to print: http://www.youtube.com/watch?v=mcbtRGPwFbU\r\nTesting pause + motor override... FAIL!: http://www.youtube.com/watch?v=lebdaPDFlJk\r\n -- It /should/ stay paused on the motor menu and let me do what I want, but instead when I go to the motor menu it resumes printing.  FUnny enough, the command override does work, you'll see me raise Z a couple times and then it immediately goes back to where it was.  :)\r\n\r\n\r\nUPDATE (v2):\r\nAdded queued print functionality, so you can pick a whole bunch of files off the SD card (or the same one a whole bunch of times) and the system will print them one after the other.  Does RepG still want you to do this manually by copypasting gcode?\r\n\r\nUPDATE (v3):\r\nAdded a bunch of features to the print queue, and a menu.  Added abort print, reset printer, and destroy universe commands.\r\n\r\nUPDATE (v4):\r\nAdded motor control menu... needs to be simplified a bit but it all works.  This release changes the semantics of the 'pause' control in RepG and elsewhere; now it pauses as soon as it finishes the current movement, instead of immediately.  Should be a minor difference, I hope.\r\n\r\nUPDATE -- noV:\r\nI think I got myself up and running on github.  Let me know if I'm doin' it right.  Quite a bit different than my SVN!\r\n\r\nhttps://github.com/ScribbleJ"
+image:
+  created-at: '2011-03-06T17:58:26+00:00'
+  last-changed: '2011-03-06T17:58:26+00:00'
+  last-visited: '2022-02-25T15:24:14.625732+00:00'
+  license: 'BSD-4-Clause '
+  licensor: ScribbleJ
+  mime-type: null
+  name: 20110306_008_display_large_display_large
+  path: https:/cdn.thingiverse.com/renders/ec/29/d0/6d/c3/20110306_008_display_large_display_large.jpg
+  perma-url: https://cdn.thingiverse.com/renders/ec/29/d0/6d/c3/20110306_008_display_large_display_large.jpg
+  url: https://cdn.thingiverse.com/renders/ec/29/d0/6d/c3/20110306_008_display_large_display_large.jpg
+license: 'BSD-4-Clause '
+licensor: ScribbleJ
+manufacturing-instructions: null
+name: Thing-O-Matic Control Panel
+okhv: OKH-LOSHv1.0
+organization: null
+part: []
+publication: null
+readme: null
+release: null
+repo: https://www.thingiverse.com/thing:6890
+software: []
+specific-api-data: {}
+standard-compliance: null
+technology-readiness-level: ortl4
+tsdc: null
+upload-method: auto
+user-manual: null
+version: 1.0.0

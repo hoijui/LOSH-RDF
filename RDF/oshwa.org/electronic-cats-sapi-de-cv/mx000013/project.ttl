@@ -1,0 +1,24 @@
+@prefix : <https://certification.oshwa.org/mx000013.html/1.2/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Atecc608acroquette a okh:Module ;
+    rdfs:label "ATECC608A-Croquette" ;
+    okh:additionalType "['IOT', 'Robotics']" ;
+    okh:certificationDate "2020-09-12T00:00:00-04:00" ;
+    okh:country "Mexico" ;
+    okh:dataSource "oshwa.org" ;
+    okh:documentationLanguage "en" ;
+    okh:documentationLicense "CC BY-SA" ;
+    okh:function "The ATECC608 is the latest crypto-auth chip from Microchip, and it uses I2C to send/receive commands. Once you 'lock' the chip with your details, you can use it for ECDH and AES-128 encrypt/decrypt/signing. There's also hardware support for random number generation, and SHA-256/HMAC hash functions to greatly speed up a slower micro's cryptography commands." ;
+    okh:hardwareLicense "CERN" ;
+    okh:licensor "ELECTRONIC CATS SAPI DE CV" ;
+    okh:primaryType "Electronics" ;
+    okh:repo <https://certification.oshwa.org/mx000013.html> ;
+    okh:repoHost "certification.oshwa.org" ;
+    okh:softwareLicense "GPL" ;
+    okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.2" ;
+    okh:versionOf <https://certification.oshwa.org/mx000013.html> .
+

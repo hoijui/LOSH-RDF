@@ -1,0 +1,41 @@
+@prefix : <https://www.thingiverse.com/thing%3A16946/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:PrintedLinearBearingFor10mmRod a okh:Module ;
+    rdfs:label "Printed linear bearing for 10mm rod" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Printed in ABS with 0.2mm layers height.\r
+W/T : 2.5\r
+\r
+\r
+The balls are 1/8" (3.175mm) steel balls I salvaged from old bikes when I was a kid, we can source them in bike parts stores. A complete bearing uses 88 balls.\r
+\r
+The different pieces are drawn in google sketchup but the boolean operations are made with blender after a conversion to .stl\r
+\r
+The "springs" put some pressure on the bearing and compensate an eventual wear.\r
+The spikes in the spring fit inside small holes printed on the bearing.\r
+\r
+It's a part of my current project, a self replicable 3D printer/mill/PCB engraver, each axis will be equipped with 4 of these bearings.\r
+\r
+[edit]\r
+Design update with captive M4 nuts\r
+\r
+[edit]\r
+2nd Design update : track improvement (larger on the outside) must be printed with 0.2mm layer height and W/T=2 because of the thiner outside wall""" ;
+    okh:hasImage :Image ;
+    okh:licensor "Petrus" ;
+    okh:repo <https://www.thingiverse.com/thing:16946> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:16946> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Printed linear bearing for 10mm rod 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/d8/c4/a2/e7/0d/bearing_3_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/d8/c4/a2/e7/0d/bearing_3_display_large_display_large.jpg> .
+

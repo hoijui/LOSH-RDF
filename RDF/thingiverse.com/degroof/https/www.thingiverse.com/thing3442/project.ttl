@@ -1,0 +1,28 @@
+@prefix : <https://www.thingiverse.com/thing%3A3442/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Gyroscope a okh:Module ;
+    rdfs:label "Gyroscope" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """A small, battery-powered gyroscope. \r
+\r
+Update (6/29/10): Here's a video of one in action. Note that I used 4 button cells instead of 2. http://www.youtube.com/watch?v=Ov5WVhhIdWo\r
+\r
+Update (6/30/10): Added a DXF file for lasercutting. If you use 5mm stock, the result should be about the same. You'll need to drill out the pivot holes, though.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "degroof" ;
+    okh:repo <https://www.thingiverse.com/thing:3442> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:3442> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Gyroscope 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/b5/cf/34/55/2c/flywheel_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/b5/cf/34/55/2c/flywheel_display_large_display_large.jpg> .
+

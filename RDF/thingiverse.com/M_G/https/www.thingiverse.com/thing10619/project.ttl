@@ -1,0 +1,41 @@
+@prefix : <https://www.thingiverse.com/thing%3A10619/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:MultiWimuCharger a okh:Module ;
+    rdfs:label "Multi WIMU Charger" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This OpenSCAD script will generate a simple fixture to hold several WIMUv3 units while they charge, featuring internal space for cables and possibly a base station or powered USB hub\r
+\r
+To do\r
+implement cable runs, finger cutouts, uUSB male plug holes\r
+use actual values for wimu dimensions\r
+use rounded corners\r
+add WIMU numbers?\r
+add holes so status LEDs can be seen?\r
+add tyndall logo?\r
+add option to add mouse-ears to prevent curling during printing\r
+\r
+Warning\r
+This is nowhere near complete! but it should still make a nice divided tray or small square object holder\r
+\r
+Note\r
+Changes from previous versions:\r
+0.1\r
+ - 	First attempt""" ;
+    okh:hasImage :Image ;
+    okh:licensor "M_G" ;
+    okh:repo <https://www.thingiverse.com/thing:10619> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:10619> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Multi WIMU Charger 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://thingiverse-rerender-new.s3.amazonaws.com/renders/b5/36/ab/99/f4/2011-08-09_Multi_WIMU_Charger_v0.1_display_large.jpg> ;
+    okh:permaURL <https://thingiverse-rerender-new.s3.amazonaws.com/renders/b5/36/ab/99/f4/2011-08-09_Multi_WIMU_Charger_v0.1_display_large.jpg> .
+

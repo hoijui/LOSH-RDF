@@ -1,0 +1,32 @@
+@prefix : <https://www.thingiverse.com/thing%3A2064/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:MakerbotCalibrationSet a okh:Module ;
+    rdfs:label "Makerbot Calibration set" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is the calibration prints that I always use when I deicde to try out the new version of skeinforge.  I can't find how to make a derivative, so these will be derivative as soon as someone shows me the obvious bright red button I missed.\r
+\r
+The thin walled box is Dmatsumoto's http://www.thingiverse.com/thing:1637. it is unaltered, because it's just perfect.\r
+\r
+The two other blocks are alterations of Bre Pettis's 40mm cube http://www.thingiverse.com/thing:477.\r
+\r
+I learned this technique from several places, but I didn't understand it till I read Makerblock's wonderful blog post at http://makerblock.com/2010/02/makerbot-skeinforge-tuning-and-calibration/, check it out, he makes since (unlike me).\r
+\r
+I can usually dial my skeinforge in almost perfectly just using these 3 items.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "Spacexula" ;
+    okh:repo <https://www.thingiverse.com/thing:2064> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:2064> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Makerbot Calibration set 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://thingiverse-rerender-new.s3.amazonaws.com/renders/e3/45/06/2b/59/20mmbox_display_large.jpg> ;
+    okh:permaURL <https://thingiverse-rerender-new.s3.amazonaws.com/renders/e3/45/06/2b/59/20mmbox_display_large.jpg> .
+

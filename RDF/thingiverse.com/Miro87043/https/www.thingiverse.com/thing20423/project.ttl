@@ -1,0 +1,36 @@
+@prefix : <https://www.thingiverse.com/thing%3A20423/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:AluxlPrinter a okh:Module ;
+    rdfs:label "AluXL printer" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is my printer. Derived/inspired by the Aluminum Mendel. I wanted to make a printer with extrusions that was larger than the normal 8 x 8 platform. I liked the Aluminum Mendel design very much but wanted to scale it and change a few things.\r
+\r
+Here is what I did:\r
+\r
+nearly 12" X 12" X 12" build envelope\r
+10 mm smooth rod on X and Y axis with LM10UU's\r
+NEMA 23 for Y axis\r
+Carriage for Greg's hinged accessible extruder \r
+I disassembled an ATX PSU and mounted it with Gen 7 under the build platform\r
+I plan to redesign the x ends to accommodate springs in case of crash so I can remove the springs from under the build platform to reduce jitter. \r
+and many other parts I redesigned\r
+\r
+I have this up and running and will post more files soon.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "Miro87043" ;
+    okh:repo <https://www.thingiverse.com/thing:20423> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:20423> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of AluXL printer 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/49/af/43/62/d8/photo_2_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/49/af/43/62/d8/photo_2_display_large_display_large.jpg> .
+

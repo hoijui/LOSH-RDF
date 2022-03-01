@@ -1,0 +1,41 @@
+@prefix : <https://www.thingiverse.com/thing%3A24808/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:InkscapeToOpenscadConverter a okh:Module ;
+    rdfs:label "Inkscape to OpenSCAD converter" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """UPDATED - paths2openscad-3.zip  
+UPDATED - paths2openscad-2.zip  
+See Thing 25036 for version 2 and 3  
+http://www.thingiverse.com/thing:25036  
+
+This Thing is an Inkscape extension to export Inkscape paths to OpenSCAD.  There has been at least one prior Thing attempting this, Thing #9376.  However, it only handled a small subset of SVG.  This extension handles SVG arcs, clones, circles, ellipses, groups, lines, paths, polygons, polylines, rects, and splines.  It also follows document transforms as well as viewports. Either an entire document or just the selected portions of a document are processed.  
+
+SVG text must first be converted to a path within Inkscape using Inkscape's "Path > Object to Path" menu item.  
+
+Note that another approach to importing SVG into OpenSCAD is to save the SVG to DXF from within Inkscape.  Then use OpenSCAD's import() function to import the DXF.  [Older versions of OpenSCAD used import_dxf().]  
+
+Much of the core code in this extension is derived from work done by myself and others while developing the Inkscape driver for the Eggbot.  
+
+9 May 2013: Modified the code to remove non alphanumeric characters from the names of the generated OpenSCAD modules.  
+
+15 June 2012: Added support for a single level of polygon nesting.  I.e., subtract from a polygon, the polygons contained within it AND from the same Inkscape path.   This works well for most fonts.  You can tell Inkscape to combine multiple polygons into a single path by selecting the polygons and then using "Path > Combine".  (You do not need to do this for text converted to a path: Inkscape already does the proper combining.)  
+
+15 June 2012: Corrected Windows issue with handling of Unix-style file paths.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "dnewman" ;
+    okh:repo <https://www.thingiverse.com/thing:24808> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:24808> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Inkscape to OpenSCAD converter 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/19/a5/84/13/2d/sample1_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/19/a5/84/13/2d/sample1_display_large_display_large.jpg> .
+

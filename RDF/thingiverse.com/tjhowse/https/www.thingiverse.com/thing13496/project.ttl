@@ -1,0 +1,42 @@
+@prefix : <https://www.thingiverse.com/thing%3A13496/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:StepperdrivenTankPlatformForRemotelyOperatedVehicle a okh:Module ;
+    rdfs:label "Stepper-driven tank platform for remotely operated vehicle" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """First: Some history.\r
+\r
+I found this cheap wifi pan-tilt camera on ebay. It's a Foscam knockoff, and I bought it for about AUD$60 delivered. I strapped it to the top of a cheap RC car chassis, compiled an application for the camera, wrote it into the ROM, banged out some python, stuck on an arduino and had a bit of fun:\r
+\r
+http://www.youtube.com/watch?v=UcSHahwmB0A\r
+http://www.youtube.com/watch?v=1wuCoz7Y2VY\r
+http://www.youtube.com/watch?v=Qv-Fi1xO2k0\r
+http://www.youtube.com/watch?v=6vcNZrvgPe0\r
+http://www.youtube.com/watch?v=ovcEQWTNXWE\r
+http://www.youtube.com/watch?v=nKPFiUtFl9E\r
+\r
+The car was fun, but unusable over high-latency links due to its high speed and fairly unpredictable trajectory. It also had a terrible turning circle.\r
+\r
+I've just finished designing a printable tank chassis for the camera. I re-jigged the control system to be wholly contained within the browser, using poorly-documented cleverness to send data straight to the camera's serial port. The result is a remote-controlled tank that can point a camera around independently of the body, that works anywhere there's wifi reception and behaves well enough to control over a 500ms internet connection:\r
+\r
+http://www.youtube.com/watch?v=Z53KcBvMl48\r
+http://www.youtube.com/watch?v=U-rNHdH7mmU\r
+\r
+I have successfully driven it through medium-length grass, over, under and around my house. It's a bit top-heavy at present, I need to move the battery lower to lower the centre of gravity. I predict about half an hour of usage from a 2200mAh 3 cell lipo battery, but I can't say for sure since I've never flattened one.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "tjhowse" ;
+    okh:repo <https://www.thingiverse.com/thing:13496> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:13496> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Stepper-driven tank platform for remotely operated vehicle 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/cd/d7/d3/64/a9/overall_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/cd/d7/d3/64/a9/overall_display_large_display_large.jpg> .
+

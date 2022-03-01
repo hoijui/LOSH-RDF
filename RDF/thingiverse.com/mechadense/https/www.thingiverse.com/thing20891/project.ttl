@@ -1,0 +1,52 @@
+@prefix : <https://www.thingiverse.com/thing%3A20891/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:UltimakerBowdenDrillHeadmount a okh:Module ;
+    rdfs:label "Ultimaker Bowden Drill HeadMount" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Description:\r
+\r
+A drill holder for the Ultimaker 3D Printer.\r
+It is designed for the "MISTER TOOLÂ® Elektro-Kombi-Werkzeug" Mod. s1j-cs1-10 [1]\r
+More precise it's a holder for the head of the bowden extension.\r
+If you want to change it to hold your specific drill toolhead look for the @@@@@@@@ line in the scad file.\r
+\r
+You will need to print and mount this first:\r
+"Ultimaker Generic HeadMount" http://www.thingiverse.com/thing:20775\r
+\r
+The connection is pretty sturdy.\r
+But be aware that with this setup you won't be able to mill (the drills motor is simply too weak and the axle has too much torsional flex) But drilling PCBs should be perfectly feasable. Engraving might work too, but z must be perfectly level and reproducible then.\r
+\r
+-------------------------------------------\r
+\r
+[1] Some Links to that obscure drill. \r
+("MISTER TOOL Elektro-Kombi-Werkzeug" Mod. s1j-cs1-10)\r
+   that I got from Hofer (Austria)\r
+  \r
+shop:\r
+  http://www.discounter-archiv.de/de/archiv/ALDI-Sued/2003-09-11/Elektro-Kombi-Werkzeug-40-teilig/12147/\r
+  http://www.discounter-archiv.de/de/archiv/ALDI-Sued/2004-09-09/Elektro-Kombi-Werkzeug/15483/\r
+  http://www.discounter-archiv.de/de/archiv/bewertung.php?ID=255060\r
+official producer:\r
+  http://www.walter-service.at/\r
+chinese site:\r
+  http://www.keaku.com/products/80059114363.htm\r
+hobby site:\r
+  http://stuff.twoday.net/stories/1694020/""" ;
+    okh:hasImage :Image ;
+    okh:licensor "mechadense" ;
+    okh:repo <https://www.thingiverse.com/thing:20891> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:20891> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Ultimaker Bowden Drill HeadMount 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/51/2e/93/18/09/P4044775_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/51/2e/93/18/09/P4044775_display_large_display_large.jpg> .
+

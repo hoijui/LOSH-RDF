@@ -1,0 +1,32 @@
+@prefix : <https://www.thingiverse.com/thing%3A7483/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:FastenersPrintedBoltsAndNutsVersion1scad a okh:Module ;
+    rdfs:label "Fasteners printed bolts and nuts version1.scad" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """version 1.5 scad has nut and bolt files included and includes offsets to make print at zero on z. also are included angle change of the threading for nut and bolt. bolt needs different angle than nut to prevent overhangs. there still is a glitch in how open scad combines the triangle mesh, and the only way to fix it causes some issues when viewing the stl file but the errors are too fine to print, so i guess it still comes out ok.\r
+\r
+i also loaded an stl file of the combo nut and bolt. this is still a work in progress until i fix some of the final issues.\r
+\r
+\r
+version1.scad - has ability to scale down to 10mm, and allows many custom settings for various nut and bolt sizes.i will update with more pictures later. here is a video demonstration http://www.youtube.com/watch?v=gnSJUFCxlys\r
+\r
+you may need to modify polygonIntersect=1 to a higher value, if it fails to render for stl file.\r
+I have here a somewhat working open-scad file that allows you to create bolts of various sizes. it works for sizes in inches, it is suppose to work for sizes in mm too, but there are some fixes still to be done to the file before it is not considered a work in progress. this is to be accompanied by a nut open-scad file as well. The hope is that people will experiment with this, and create various bolt sizes, with threads, and eventually create nuts that thread on as well. This is a work in progress. it works good enough to try out and test. mm threading has some issues. i did however resolve the overhangs of the threads, and ensured intersecting of the polygons to allow a stl mesh file.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "jamesvilleneuve" ;
+    okh:repo <https://www.thingiverse.com/thing:7483> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:7483> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Fasteners printed bolts and nuts version1.scad 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/98/43/2e/51/d3/threaded_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/98/43/2e/51/d3/threaded_display_large_display_large.jpg> .
+

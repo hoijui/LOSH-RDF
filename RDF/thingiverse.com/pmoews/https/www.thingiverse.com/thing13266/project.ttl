@@ -1,0 +1,30 @@
+@prefix : <https://www.thingiverse.com/thing%3A13266/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:NanotubesAndNanocups a okh:Module ;
+    rdfs:label "Nanotubes and Nanocups" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """In "Buckyballs" I described a simple openSCAD method for making molecular models and began a search for interesting molecules to print.  I've come across a very nice site for generating the atomic coordinates of carbon nanotubes, TubeASP, by R. G. A. Veiga, Universidade Federal de Uberlandia, Brazil, and David Tomanek, MSU, 2007.  see  http://k.1asphost.com/tubeasp/tubeasp.asp\r
+\r
+Nanotubes are a form of carbon related to Buckyballs.  They have interesting properties and are of great interest to material scientists but they are also very decorative objects.  A few turns of nanotube models make the pretty bracelets shown at the left.  The cups (see picture) are models of nanotubes to which a bottom and rim have been added.  They are about the same size as ornamental pin and hairpin holders.\r
+\r
+Nanotubes can be though of as rolled up sheets of graphite.  Three integers are used to describe them.  Two principal ones, n and m, give information about the diameter of the tube and its twist or "chirality".  The tubes extend indefinitely in both directions so in many cases n and m are a sufficient definition.  While nanotubes extend to infinity they do have a repeating unit.  That is the same pattern occurs over and over again as one procedes along the tube.  The number of repeating units can be used to pick out a short segment of nanotube.  In order to get nanotube-15-15-3, the middle bracelet in the picture, we have to input n=15, m=15, number of units = 3, into TubeASP. The smaller bracelets are from nanotubes 40-0-2 and 36-0-2; they are not complete as a row from each was lost to the raft.  You can learn more at the nanotube site - see http://www.pa.msu.edu/cmp/csc/nanotube.html\r
+\r
+There are a number of things about nanotubes that makes printing easy.  TubeASP by default generates nanotubes aligned along the z axis.  Tubes where the hexagons point along the z axis can be chosen to make printing more certain although tubes where the hexagon points wrap around z seem to print equally well.  Models are sturdy and print quickly as a nanotube is mostly empty space.   A twisted model can be cut at right angles to the z axis and printed on a raft.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "pmoews" ;
+    okh:repo <https://www.thingiverse.com/thing:13266> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:13266> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Nanotubes and Nanocups 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/8c/c0/8d/63/52/cups2_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/8c/c0/8d/63/52/cups2_display_large_display_large.jpg> .
+

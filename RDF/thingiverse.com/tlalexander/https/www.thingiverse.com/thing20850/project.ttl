@@ -1,0 +1,84 @@
+@prefix : <https://www.thingiverse.com/thing%3A20850/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:TaylorsGregsWadesMk6FilamentFeedForUltimaker a okh:Module ;
+    rdfs:label "Taylors Gregs Wades MK6 filament feed for Ultimaker" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """I modified Greg's Hinged Accessible extruder to work with the Ultimaker and a MK5/MK6 drive gear.\r
+\r
+I specifically designed it to use metric parts easily found in US hardware stores, aside from the MK6 drive gear and bearings (both available from Makerbot). You should be able to get all the screws at Lowes, and probably Home Depot as well.\r
+\r
+Modifications include:\r
+Opened hobbed bolt bore to accomodate a MK6 drive gear.\r
+Shrunk hobbed bolt bearing bores for 6mm bearings (606) to go with the 6mm bore from the MK6.\r
+Moved nut trap holes from the top to the side to allow mounting upside-down without losing your nuts.\r
+Moved the filament feed hole over a bit to accommodate the different filament feed offset from the MK6.\r
+Moved the stepper back about 10.6mm to accommodate a larger drive gear.\r
+Mirrored the Greg's so that it fits the Ultimaker better.\r
+Mirrored the Greg's idler so that it fits the mirrored Greg's.\r
+Designed a larger drive gear that meshes with the Ultimaker stock drive gear. This compensates for the larger radius of the MK6 drive gear to eliminate the need for more torque from the stock stepper (keeps final drive ratio closer to stock).\r
+Changed the Greg's to use M4 screws for the springs, as 50mm M3 screws are hard to find and M4 screws fit just fine.\r
+Designed a mount for the Ultimaker that is clean and fits the new feed mechanism perfectly. The mount also holds the bowden nut perfectly.\r
+\r
+All changes to the Greg's are parametric, so the Ultimaker specific changes can be easily reversed if you'd like a MK6 Greg's for your standard reprap. Note that in order to use the SCAD file, you must download the prusa source files from the github repository and place the scad file in the "source" directory.\r
+\r
+This has been working really well for me over the past couple months, including a 42 hour print! You may find with this that instead of stripping filament you end up popping bowden clips, however, so I recommend printing upgrades or investigating the various 7mm threaded PEEK replacements people have suggested in the mailing list. I'm no longer using any bowden clips and its wonderful.\r
+\r
+You'll need two springs. I am using some from this kit: http://www.homedepot.com/h_d1/N-5yc1v/R-202045461/h_d2/ProductDisplay?catalogId=10053\r
+Specifically I am using the ones that are about 11/32" OD x 1" Long (that exact size is not listed on the package so they may be the 1-3/32" ones but a bit short. The wire dimeter is about .047" for anyone looking for a similar spring. However I'd pick something a tad stiffer. They really have to be compressed full to have enough force and I wish I had about 20-50% more. \r
+\r
+Key things you need are:\r
+\r
+(KitBOM in progress here:)\r
+http://kitbom.com/TLAlexander/taylors-gregs-wades-mk6-filament-feed-for-ultimaker\r
+\r
+1 MK6 drive gear from makerbot. (or drill out a MK7 gear to 6mm or 15/64")\r
+http://store.makerbot.com/mk5-drive-gear.html\r
+2 606 bearings (also at makerbot)\r
+http://store.makerbot.com/606-bearing.html\r
+\r
+1 608 bearing (I thought you'd have an extra one from the old stock extruder but I noticed those are smaller. I will look at modifying the idler to use those also to make for fewer extra parts. Makerbot does have them though.)\r
+http://store.makerbot.com/skate-bearing-pack-8.html\r
+\r
+2 60mm (or so) m4 screws. Preferably socket head cap screws for ease of spring tension adjustment, but US hardware stores are more likely to only have them as philips.\r
+\r
+2 20mm M4 screws. Philips are fine.\r
+\r
+4 M4 hex nuts\r
+\r
+1 50mm M6 hex bolt\r
+\r
+2 M6 hex nuts\r
+\r
+1 25mm M3 screw\r
+\r
+3 13-16mm M3 screws for stepper mounting (not totally sure yet)\r
+\r
+4 M4 washers may be needed for the springs.\r
+\r
+Some very stiff springs. Home Depot has a nice assortment box with some decent springs, but I'm still sorting out the exact requirements. However, they should be stiff enough that its very hard to pinch fully between your index finger and thumb. Too stiff though, and you may as well have no springs at all (an option in a pinch).\r
+\r
+You may also want some M3 washers (3 at least) and some M6 washers (just have some on hand - 5 maybe?)\r
+\r
+Idler Scad file coming soon.\r
+\r
+Not all parts shown in the assembly.\r
+\r
+More info to come.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "tlalexander" ;
+    okh:repo <https://www.thingiverse.com/thing:20850> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:20850> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Taylors Gregs Wades MK6 filament feed for Ultimaker 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/6f/5b/2b/37/7e/wades_exploded_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/6f/5b/2b/37/7e/wades_exploded_display_large_display_large.jpg> .
+

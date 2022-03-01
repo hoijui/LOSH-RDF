@@ -1,9 +1,10 @@
-@prefix : <https://wikifactory.com/+OttoDIY/bobotto/afcd69f34d9983496af65252c6df7efc2d967585/> .
+@prefix : <https://wikifactory.com/%2BOttoDIY/bobotto/afcd69f34d9983496af65252c6df7efc2d967585/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 :Bobotto a okh:Module ;
     rdfs:label "BoBotto" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "A remix of the remix, BoB is back!" ;
     okh:hasComponent :Bobottoarm,
@@ -20,6 +21,7 @@
     okh:repo <https://wikifactory.com/+OttoDIY/bobotto> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
     okh:version "afcd69f34d9983496af65252c6df7efc2d967585" ;
     okh:versionOf <https://wikifactory.com/+OttoDIY/bobotto> .
 

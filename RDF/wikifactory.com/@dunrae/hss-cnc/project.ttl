@@ -1,9 +1,10 @@
-@prefix : <https://wikifactory.com/@dunrae/hss-cnc/9cf5e96bac9e6371cb05a8e1914caebe21943ca9/> .
+@prefix : <https://wikifactory.com/%40dunrae/hss-cnc/9cf5e96bac9e6371cb05a8e1914caebe21943ca9/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 :HssCnc a okh:Module ;
     rdfs:label "HSS CNC" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "An open-source CNC machine using widely available, inexpensive off-the-shelf hardware and simple construction techniques. +cnc +fusion360 +3dprinting" ;
     okh:hasComponent :Hsscncroughwork22jan2021,
@@ -15,6 +16,7 @@
     okh:repo <https://wikifactory.com/@dunrae/hss-cnc> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
     okh:version "9cf5e96bac9e6371cb05a8e1914caebe21943ca9" ;
     okh:versionOf <https://wikifactory.com/@dunrae/hss-cnc> .
 

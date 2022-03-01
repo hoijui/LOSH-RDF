@@ -1,0 +1,82 @@
+@prefix : <https://www.thingiverse.com/thing%3A14221/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:InkscapeOpenscadDxfExport a okh:Module ;
+    rdfs:label "Inkscape OpenSCAD DXF Export" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """UPDATE: Posted version 3 which adds "total_minx", "total_maxx", "total_miny" and "total_maxy" as well as similar dims for each layer named "layername_minx" and so on.\r
+\r
+UPDATE: Posted version 2 which works well in both Inkscape version 0.91 and 0.48.  \r
+\r
+Most of us have our favorite tools. One of mine is Inkscape. I'm no pro but I've been able to do what I need with it. Another of my favorites is OpenSCAD. The purpose of this thing is to make it easier to take something from Inkscape and use it in OpenSCAD.  \r
+\r
+\r
+\r
+The current steps you need to take to turn an SVG into an OpenSCAD usable DXF are the following:  \r
+\r
+1. Convert all objects to paths  \r
+\r
+2. Add extra points to paths  \r
+\r
+3. Convert paths to lines  \r
+\r
+4. Export to DXF  \r
+\r
+\r
+\r
+After all that you may use your SVG design in OpenSCAD, but then if you want to edit your design you are faced with two equally unpalatable options: edit the original design and go through the steps again, or edit the DXF directly.  \r
+\r
+\r
+\r
+I had had enough and set out to automate that process. I took all the best parts of at least 3 other DXF output extensions (I lost count!) and added automation for the steps listed above. With this Inkscape extension, you can edit/save your design and simply "Save a Copy As" to DXF whenever you want to try it in OpenSCAD. It is a lot smoother that way.  \r
+\r
+\r
+\r
+Supposedly it exports color to the dxf as well but I don't know if that's supported in openscad.  \r
+\r
+\r
+\r
+NOTE: If you change the size of the document in Inkscape the exported DXF will have misplaced objects. A workaround for this is to recreate all layers after resizing the document. I know, painful, but once you have the size worked out it's not bad.  \r
+\r
+\r
+\r
+BONUS FEATURE:  \r
+\r
+The extension automatically adds dimensions to the DXF: layer_name_width and layer_name_height for each layer and total_width and total_height.  \r
+\r
+The dimensions can be accessed using the built-in dxf_dim command. Ex.:  \r
+\r
+\r
+\r
+total_width = dxf_dim(file = "openscaddxf.dxf", name = "total_width");  \r
+\r
+\r
+\r
+Three fairly small provisos:  \r
+\r
+- It's fairly slow because it has to launch a new inkscape instance to convert the objects to paths. It's not a pretty solution, but I believe it's the only way to do it at the moment.  \r
+\r
+- Doesn't work with groups. You will need to ungroup everything before exporting  \r
+\r
+- Doesn't work with intersecting lines. This will cause either the offending objects to disappear or everything will appear outlined instead of filled in.  \r
+\r
+\r
+\r
+Repo is here: https://github.com/brad/Inkscape-OpenSCAD-DXF-Export""" ;
+    okh:hasImage :Image ;
+    okh:licensor "polymaker" ;
+    okh:repo <https://www.thingiverse.com/thing:14221> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:14221> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Inkscape OpenSCAD DXF Export 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://thingiverse-rerender-new.s3.amazonaws.com/renders/73/3f/5c/99/fb/openscaddxf_display_large.jpg> ;
+    okh:permaURL <https://thingiverse-rerender-new.s3.amazonaws.com/renders/73/3f/5c/99/fb/openscaddxf_display_large.jpg> .
+

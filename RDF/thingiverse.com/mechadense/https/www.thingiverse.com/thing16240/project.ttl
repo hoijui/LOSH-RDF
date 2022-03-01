@@ -1,0 +1,43 @@
+@prefix : <https://www.thingiverse.com/thing%3A16240/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Mazegames a okh:Module ;
+    rdfs:label "Maze-Games" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """**Edit 2016-03:**\r
+3D-Maze game models designed to be capped with transpatent acrylic sheets at top and bottom. \r
+\r
+I finally added the source-code with which I generated those mazes.\r
+This was ~5 years overdue!! Sorry for the "slight" delay.\r
+The code is a rather horrible hack - but I checked and it still works.\r
+(The code is public domain) To use it load the haskell source file in ghci (the interactive haskell interpreter) and type "help". To adjust maze size / labyrinthicality / inhomogenity / ... you need to change the source-code since all that stuff is hard-coded.\r
+\r
+If you want to do elegant idiomatic maze generation in in purely functional programming style (which surprisingly is possible although the problem at first sight seems to require destructive updates) I highly suggest you look at Tikhon Jelvis' work:\r
+http://jelv.is/blog/Generating-Mazes-with-Inductive-Graphs/\r
+https://github.com/TikhonJelvis/inductive-mazes\r
+\r
+Also there's a second haskell based maze generator model on thingiverse:\r
+http://www.thingiverse.com/thing:778556\r
+\r
+**Old text:**\r
+The big and probably very hard one (20x10x3 paths) is inhomogenous!  \r
+One side (longest axis) has long pathways with few forks and almost no four five and six-way forks (labyrinthical) the other side has lots of short paths dead ends and more four five and maybe six-way forks (mazeical). There is no sharp border between those regions.  \r
+The medium sized one (12x12x2 paths) is  \r
+overall more "labyrinthical".""" ;
+    okh:hasImage :Image ;
+    okh:licensor "mechadense" ;
+    okh:repo <https://www.thingiverse.com/thing:16240> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:16240> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Maze-Games 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/5e/a5/a7/f3/ef/maze_inhomogen_20x10x3_screencap1_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/5e/a5/a7/f3/ef/maze_inhomogen_20x10x3_screencap1_display_large_display_large.jpg> .
+

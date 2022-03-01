@@ -1,13 +1,14 @@
-@prefix : <https://wikifactory.com/@yipin/writing-automaton/d33c804a75eee2c51e378f39a99058f8cc3c3f9d/> .
+@prefix : <https://wikifactory.com/%40yipin/writing-automaton/d33c804a75eee2c51e378f39a99058f8cc3c3f9d/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 :TheWritingAutomaton a okh:Module ;
     rdfs:label "The Writing Automaton" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "The Writing Automaton will be your extra arm! Synchronized to your own hand, it will decompose your handwriting into strokes, and recompose them to any word and write them down as a personal assistant!" ;
-    okh:hasComponent :Finalprojecta04,
-        :Finalprojectb01 ;
+    okh:hasComponent :PcbDesignFilesboardAfinalprojecta04,
+        :PcbDesignFilesboardBfinalprojectb01 ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "yipin huang" ;
@@ -15,54 +16,55 @@
     okh:repo <https://wikifactory.com/@yipin/writing-automaton> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
     okh:version "d33c804a75eee2c51e378f39a99058f8cc3c3f9d" ;
     okh:versionOf <https://wikifactory.com/@yipin/writing-automaton> .
-
-:Finalprojecta04 a okh:Part ;
-    rdfs:label "finalProject_A_04" ;
-    okh:documentationLanguage "en" ;
-    okh:export :Finalprojecta04_export1 ;
-    okh:licensor "James Botler" ;
-    okh:source :Finalprojecta04_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Finalprojecta04_export1 a okh:ExportFile ;
-    rdfs:label "Export File of finalProject_A_04 of The Writing Automaton d33c804a75eee2c51e378f39a99058f8cc3c3f9d" ;
-    okh:fileFormat "SCH" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/990/finalprojecta04-0.sch> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMTEzOA==> .
-
-:Finalprojecta04_source a okh:SourceFile ;
-    rdfs:label "Source File of finalProject_A_04 of The Writing Automaton d33c804a75eee2c51e378f39a99058f8cc3c3f9d" ;
-    okh:fileFormat "BRD" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/990/finalprojecta04-0.brd> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMTEzNw==> .
-
-:Finalprojectb01 a okh:Part ;
-    rdfs:label "finalProject_B_01" ;
-    okh:documentationLanguage "en" ;
-    okh:export :Finalprojectb01_export1 ;
-    okh:licensor "James Botler" ;
-    okh:source :Finalprojectb01_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Finalprojectb01_export1 a okh:ExportFile ;
-    rdfs:label "Export File of finalProject_B_01 of The Writing Automaton d33c804a75eee2c51e378f39a99058f8cc3c3f9d" ;
-    okh:fileFormat "SCH" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/990/finalprojectb01.sch> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMTE0MQ==> .
-
-:Finalprojectb01_source a okh:SourceFile ;
-    rdfs:label "Source File of finalProject_B_01 of The Writing Automaton d33c804a75eee2c51e378f39a99058f8cc3c3f9d" ;
-    okh:fileFormat "BRD" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/990/finalprojectb01.brd> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMTE0MA==> .
 
 :Image a okh:Image ;
     rdfs:label "Image of The Writing Automaton d33c804a75eee2c51e378f39a99058f8cc3c3f9d" ;
     okh:fileFormat "JPG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/990/img-1614.jpg> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToxMTAxMA==> .
+
+:PcbDesignFilesboardAfinalprojecta04 a okh:Part ;
+    rdfs:label "PCB Design Files/Board A/finalProject_A_04" ;
+    okh:documentationLanguage "en" ;
+    okh:export :PcbDesignFilesboardAfinalprojecta04_export1 ;
+    okh:licensor "James Botler" ;
+    okh:source :PcbDesignFilesboardAfinalprojecta04_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:PcbDesignFilesboardAfinalprojecta04_export1 a okh:ExportFile ;
+    rdfs:label "Export File of PCB Design Files/Board A/finalProject_A_04 of The Writing Automaton d33c804a75eee2c51e378f39a99058f8cc3c3f9d" ;
+    okh:fileFormat "SCH" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/990/finalprojecta04-0.sch> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMTEzOA==> .
+
+:PcbDesignFilesboardAfinalprojecta04_source a okh:SourceFile ;
+    rdfs:label "Source File of PCB Design Files/Board A/finalProject_A_04 of The Writing Automaton d33c804a75eee2c51e378f39a99058f8cc3c3f9d" ;
+    okh:fileFormat "BRD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/990/finalprojecta04-0.brd> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMTEzNw==> .
+
+:PcbDesignFilesboardBfinalprojectb01 a okh:Part ;
+    rdfs:label "PCB Design Files/Board B/finalProject_B_01" ;
+    okh:documentationLanguage "en" ;
+    okh:export :PcbDesignFilesboardBfinalprojectb01_export1 ;
+    okh:licensor "James Botler" ;
+    okh:source :PcbDesignFilesboardBfinalprojectb01_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:PcbDesignFilesboardBfinalprojectb01_export1 a okh:ExportFile ;
+    rdfs:label "Export File of PCB Design Files/Board B/finalProject_B_01 of The Writing Automaton d33c804a75eee2c51e378f39a99058f8cc3c3f9d" ;
+    okh:fileFormat "SCH" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/990/finalprojectb01.sch> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMTE0MQ==> .
+
+:PcbDesignFilesboardBfinalprojectb01_source a okh:SourceFile ;
+    rdfs:label "Source File of PCB Design Files/Board B/finalProject_B_01 of The Writing Automaton d33c804a75eee2c51e378f39a99058f8cc3c3f9d" ;
+    okh:fileFormat "BRD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/990/finalprojectb01.brd> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMTE0MA==> .
 
 :Readme a okh:Readme ;
     rdfs:label "Readme of The Writing Automaton d33c804a75eee2c51e378f39a99058f8cc3c3f9d" ;

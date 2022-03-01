@@ -1,0 +1,87 @@
+@prefix : <https://www.thingiverse.com/thing%3A7658/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:CustomisableElectronicDevicePackaging a okh:Module ;
+    rdfs:label "Customisable Electronic Device Packaging" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Note: After 2 years of workhorse use, this Thing is no longer being supported or developed! Please try the updated and more feature complete version located here http://www.thingiverse.com/thing:66030\r
+\r
+\r
+This OpenSCAD script will generate a 2 part fit together packaging which connect together using simple lips.\r
+One of the objects will have an internal lip the other one will have an external lip. The ridges left by 3d printing provide grooves which acts as teeth to secure the 2 halves.\r
+It can also create simple square or cylindrical cutouts on any face of the top or bottom half\r
+4 cylindrical support posts can also be added on the bottom or top half to help position a PCB or similar device\r
+You can specify fit and tolerances\r
+All these features can be turned on/off from the control variables section\r
+\r
+With this script you can easily make packaging for almost any electronic device you are working on!\r
+\r
+This looks complicated but it has saved me a huge amount of time making custom packages for people over the past few days. The most recent versions (2012_05_29-Tyndall_Generic_Device_Packaging-v1.6.scad) have options for easily adding mouse ears, support posts, having cutouts not penetrate the outer face for better surface finish, generating only 1 side or both, incorporating other parts and models of internal electronics and showing the device assembled or as side by side parts!\r
+\r
+Changes from previous versions:\r
+v1.6\r
+ - 	Incorporates improvements from brians physiological health board case v2.6\r
+ - - 	better support for adding parts, changing features and changing layout using control variables\r
+ - - 	Can select how tall the 2 halves are relative to each other\r
+ - - 	Added method to choose whether to have fully cut or covered cutouts\r
+ - -	Added optional mouse-ears\r
+ - 	more logical method for creating circular and square cutouts in preparation for array based system\r
+ - 	simplified method for controlling lip tolerance\r
+ - 	abandoned some features from v1.5 such as profiled lips in quest for simplicity\r
+ - 	method optionally adding posts to top and bottom\r
+ - 	variables for controlling support posts on top and bottom separately\r
+ - 	pasted contents of mouse ears and rounded cuboid as modules rather than accessing them as external files so now you only need to download the one file!!!\r
+- 	no conical cutouts for now... sorry!\r
+ v1.5\r
+ - adjusted a few values after receiving SLA proto-types\r
+ - increased height of posts\r
+ - added support structures on top side\r
+ - decrease diameter of support structures on top side sightly to allow for brackets at end of 40 way\r
+ - decreased z clearance\r
+ v1.4\r
+ - added angled lip (Cube_cone_cylinder_minkowski sum) for better mating of top and bottom parts when made via SLA/SLS etc\r
+ - new more simplistic rounded cuboid module\r
+ - moved around the cutout for the uUSB so that there wasn't such a thin piece of plastic above it\r
+ - changed post type to nub as SLA should be able to handle the resolution\r
+ - added easier control of orientation of parts relative to each other using single variable side_by_side\r
+ - added axis labels to most faces and tyndall logo to bottom\r
+ - added new fit type for super accurate manufacturing techniques such as SLA\r
+ v1.3\r
+ - Fix cutout positions for TOP SQUARE East and BOTTOM SQUARE West side\r
+ - Fix position of base of support posts on bottom half\r
+ v1.2\r
+ - Fixed Inner and Outer Lip Clearance implementation\r
+ - Added ability to generate support posts on bottom half of either nub or screw hole type\r
+ v1.1\r
+ - ???This version was lost in a computer crash. GRRRR!\r
+ - ???It implemented the ability to choose the reference point for measurements for each side\r
+ - ???Let this be a lesson!\r
+ - ???Back your stuff up regularly and on separate devices!\r
+ v 1.0\r
+ - Ensure pcb_clearance and fit clearance is taken into account\r
+ - fit type values changed\r
+ - - force_fit from 0.4 to 0.2\r
+ - - hold_fit from 0.6 to 0.3\r
+ - - slide_fit from 0.8 to 0.4\r
+ - - free_fit from 1to 0.5\r
+ - add cylinder & square holes to all faces\r
+ - allowed to stack or see side by side\r
+ - replace 0.1s with a_bit\r
+ - check holes on top & bottom sides meet properly""" ;
+    okh:hasImage :Image ;
+    okh:licensor "M_G" ;
+    okh:repo <https://www.thingiverse.com/thing:7658> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:7658> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Customisable Electronic Device Packaging 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/3b/89/d6/c7/4e/2011-03-28_tyndall_generic_device_packaging_v1.0a_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/3b/89/d6/c7/4e/2011-03-28_tyndall_generic_device_packaging_v1.0a_display_large_display_large.jpg> .
+

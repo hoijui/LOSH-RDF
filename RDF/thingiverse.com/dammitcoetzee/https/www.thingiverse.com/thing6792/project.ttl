@@ -1,0 +1,35 @@
+@prefix : <https://www.thingiverse.com/thing%3A6792/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:RobotSensorHornForSharpIrSensors a okh:Module ;
+    rdfs:label "Robot Sensor Horn for Sharp IR Sensors" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """I designed this sensor horn in order to implement a very simple mapping algorithm on a mobile robot. This allows you to see all 360 with two sensors and a standard micro servo(I got mine in a ten pack off ebay for not much at all) in one 180 degree rotation.\r
+\r
+I had this made out of wood originally. It wasn't very good. Now that I have a ToM, I'm excited to improve upon my design.\r
+\r
+I'll mark this complete when I get it to print without having to use my dremel drill press. I also need to replace the belt on my ABP, I rigged it with a layer of kapton tape for this print, but it still ended up a little warped and weird. Then there's a mountain of things I could do to tune my printer as well. :D\r
+\r
+\r
+As for the algorithm, I got around not having an encoder by timing the amount it took for the horn to make one full revolution*. (the el cheapo servos only move at one speed) I take the total time it rotates and divide that by the amount of samples it took during that time for one sensor. I then multiply that number by 180 degrees to get the increment of the theta component for each sample. The end result is a set of polar coordinates for 360degrees around the robot.\r
+\r
+You could also just take a measurement every (rotation time)/180 for each sensor, which gives you a smaller array, but it's a bit easier to work with. I didn't really see too much difference.\r
+\r
+*the robot still moves the sensor past this time to make sure it reaches the maximum of its travel. The robot just waited a set delay when moving one direction before taking measurements (since only one side traveled too far on the little servos I have). Its a bit inaccurate, but it worked well enough to hug walls, avoid chair legs, and go through doors.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "dammitcoetzee" ;
+    okh:repo <https://www.thingiverse.com/thing:6792> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:6792> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Robot Sensor Horn for Sharp IR Sensors 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/55/18/8f/49/11/DSCF4814_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/55/18/8f/49/11/DSCF4814_display_large_display_large.jpg> .
+

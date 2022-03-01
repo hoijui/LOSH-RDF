@@ -1,0 +1,30 @@
+@prefix : <https://www.thingiverse.com/thing%3A22419/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:CubeshereThingy a okh:Module ;
+    rdfs:label "CubeShere thingy" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is a fun part, inspired by an example image on the K3dsurf page:\r
+http://k3dsurf.sourceforge.net/images/k3d1171.png from\r
+http://k3dsurf.sourceforge.net/\r
+\r
+However, I designed mine in solidworks since I don't like mesh stuff.\r
+\r
+Its pretty basic but its great for testing retract/stringing and jump/lift, and also for illustrating why a minumum layer time setting is critical for a slicer (something NetFabb currently lacks, though I hear the newest beta has it half implemented).""" ;
+    okh:hasImage :Image ;
+    okh:licensor "tlalexander" ;
+    okh:repo <https://www.thingiverse.com/thing:22419> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:22419> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of CubeShere thingy 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://thingiverse-rerender-new.s3.amazonaws.com/renders/01/ea/05/45/3c/cube_sphere_display_large.jpg> ;
+    okh:permaURL <https://thingiverse-rerender-new.s3.amazonaws.com/renders/01/ea/05/45/3c/cube_sphere_display_large.jpg> .
+

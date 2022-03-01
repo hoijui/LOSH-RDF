@@ -1,0 +1,44 @@
+@prefix : <https://www.thingiverse.com/thing%3A23577/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Studiofab a okh:Module ;
+    rdfs:label "studio.FAB" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """multi- digital fabrication machine for the studio(â€¦hence the name: studio.FAB)  \r
+some of the functions Iâ€™m including in the design:\r
+_3D printing\r
+_CNC/milling\r
+_thin material cutting (fabric, vinyl, paper, cardboard, etc)\r
+_plotter for inks, paints, graphite\r
+\r
+\r
+now I know a lot of the all-in-one devices fall victim to the â€œjack-of-all-trades-but-master-of-noneâ€ syndrome (Iâ€™m looking at the bloated printerscannercopier thatâ€™s sitting on Robinâ€™s deskâ€¦).  thatâ€™s why the studio.FAB isnâ€™t exactly an all-in-one machine â€“ instead, itâ€™s more of a modular design that allows you to quickly and easily (â€¦and Iâ€™m emphasizing that quick and easy part) switch the appropriate parts for the kind of making you want the machine to do. for example, if you want to move from 3D printing to CNC milling, it shouldnâ€™t take you more than 10min. to swap out the belts and pulleys for a lead screw.\r
+\r
+the studio.FAB is based on the open source RepRap platform.  Iâ€™m using 25mm extruded aluminum (t-slot) for the structural framework because itâ€™s more stable and rigid than using threaded rod.  also, Iâ€™m designing it with an inverted-T structure (shared by other machines like the Aluminum Mendel, Rook, and Brian Blantonâ€™s unnamed printer) â€“ I think this makes it much easier to upgrade and swap out components when moving from one fabrication method to another (also: easier access to all the parts for repairs.)\r
+one key difference b/w studio.FAB and most of the other machines Iâ€™ve seen is how linear motion is handled.  the majority standard is to use a combination of smooth rods and bearings to get smooth motion, but (esp. on longer rods) smooth rods can flex, bend, and get out of alignment. Iâ€™ve designed the studio.FAB to use the much less flexible t-slot as the linear bearing.  this is less critical when printing plastic, but can be an issue in subtractive processes like milling.\r
+\r
+Iâ€™ve been making steady progress, and right now Iâ€™m close to having all the core structural elements designed and built.  Iâ€™ve had to design all the parts from scratch; even when Iâ€™ve had to reverse-engineer some derivative designs that use a different size t-slot, I found different solutions that seem to work better in this design.\r
+once things are in a publishable state, I plan on writing up a pretty extensive overview of studio.FAB â€“ followed by detailed instructions and a bill of materials so you can build your own.  right now though, I just wanted to make sure you got a small glimpse at whatâ€™s been happening in the studio for the past few months.\r
+\r
+http://www.stardotstudio.com/2012/05/a-small-preview-studio-fab.html\r
+\r
+\r
+definitely more to come, including:\r
+_ linear bearings for t-slots""" ;
+    okh:hasImage :Image ;
+    okh:licensor "christianryan99" ;
+    okh:repo <https://www.thingiverse.com/thing:23577> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:23577> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of studio.FAB 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/95/dd/ee/19/45/studio.FAB_preview_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/95/dd/ee/19/45/studio.FAB_preview_display_large_display_large.jpg> .
+

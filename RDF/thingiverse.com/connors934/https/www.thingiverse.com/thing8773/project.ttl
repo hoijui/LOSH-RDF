@@ -1,0 +1,32 @@
+@prefix : <https://www.thingiverse.com/thing%3A8773/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Propellers a okh:Module ;
+    rdfs:label "Propellers!" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Propellers are neat things that you can attach to motors. When they turn, they create a pressure difference on the front/back of the blade. The front has high pressure, and the back has low pressure. \r
+\r
+These are done in Sketchup using a technique that I am developing. Each blade is 120 degrees from the others. The profile is extruded up 1/16" and then the top edge is rotated on the center point. The new top edge is then extruded again 1/16" and rotated by the same number of degrees. There is a line through the center to help locate the rotation point. This line would also be useful for placing a hole to accomodate a motor or other post. \r
+\r
+This design would be good to print and then make a mold of so you could make lots of propellers for underwater robots or airplanes or similar. \r
+\r
+After printing a few versions, it appears that the props need to have a steeper angle for proper Makerbotting. This will reduce the overhang, but will likely also require a taller blade to get enough surface area on the blades. \r
+\r
+If the profile of the blade is 1/16th of an inch, it seems to print neater and faster with abs. The included g code is based on MK5 with automated build platform. Having the angle too steep also makes for a sloppy print with lots of loops and drips. The three holes will allow the prop to be bolted onto a laser cut acrylic motor adapter.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "connors934" ;
+    okh:repo <https://www.thingiverse.com/thing:8773> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:8773> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Propellers! 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/96/08/84/56/22/3BladeProp10degreepersixteenth_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/96/08/84/56/22/3BladeProp10degreepersixteenth_display_large_display_large.jpg> .
+

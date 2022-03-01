@@ -1,0 +1,34 @@
+@prefix : <https://www.thingiverse.com/thing%3A11643/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:FusorGridWindingJig a okh:Module ;
+    rdfs:label "Fusor Grid Winding Jig" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is a simple experimental jig for winding a 1.5 inch diameter internal grid in a Farnsworth Fusor, a small hobby nuclear fusion device that uses a technique called Inertial Electrostatic Confinement (hence, IEC fusion).  This Thing is just for creating the central electrode in the machine.  For much more in-depth information about fusors, you will find a community of Fusioneers at http://fusor.net\r
+\r
+The internal grid needs to be reasonably spherical, and I found it hard to reliably get that shape without it looking sad.  At first I tried winding the electrode using a golf ball, but once it's formed, you can't get the ball out!\r
+\r
+This jig solved the problem by having 16 pieces that nest together with an internal track into which the wire is laid, and outer pieces that provide the guide walls to keep the wire in place as it's being wound.\r
+\r
+Stainless steel wire can be used, but it's sometimes hard to work with, and it has a lower melting point than tantalum.  Tantalum is also very ductile and easy to wind.\r
+\r
+The jig is designed to form a sphere made of three circles by weaving two wires.\r
+\r
+Note that the two pieces in each print are not the same; one is designed to sit inside the other, so its screw holes are offset.  I thickened it along its vertices so it won't nest inside the other, to prevent some confusion.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "Triggur" ;
+    okh:repo <https://www.thingiverse.com/thing:11643> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:11643> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Fusor Grid Winding Jig 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/4f/24/f3/ba/db/grid_and_jig_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/4f/24/f3/ba/db/grid_and_jig_display_large_display_large.jpg> .
+

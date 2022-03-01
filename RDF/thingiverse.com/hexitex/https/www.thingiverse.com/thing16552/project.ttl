@@ -1,0 +1,30 @@
+@prefix : <https://www.thingiverse.com/thing%3A16552/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ShimToLevelPrintBed a okh:Module ;
+    rdfs:label "Shim to level print bed" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """I saw a video on youtube where a milling machine levelled it's own bed by cutting a tiny layer off the surface and thought this concept may be a good way to level your bed for cold bed printing. It's opposite of the milling concept but it should work. \r
+\r
+The idea being that as you print the shim the height differences would be levelled out by the act of the plastic not being squashed down on the low parts. As more layers are printed the process finds the level by gravity for the low areas and compression for the high areas.\r
+\r
+I think 3 to 5mm high would be enough to level out the low spots, this is just an idea whilst I rebuild my printer. \r
+\r
+A simple structure like the attached stl sized for your bed should not use up much plastic. You may need to run some sandpaper over it to clean up bulge for the high spots.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "hexitex" ;
+    okh:repo <https://www.thingiverse.com/thing:16552> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:16552> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Shim to level print bed 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/a4/98/b7/d1/16/shimlevel1_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/a4/98/b7/d1/16/shimlevel1_display_large_display_large.jpg> .
+

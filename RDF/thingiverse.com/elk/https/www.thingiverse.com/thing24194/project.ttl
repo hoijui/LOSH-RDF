@@ -1,0 +1,38 @@
+@prefix : <https://www.thingiverse.com/thing%3A24194/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ElksSimpleBeltRouteForMendelxaxis a okh:Module ;
+    rdfs:label "Elk's Simple Belt Route for Mendel-X-Axis" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This thing is meant to update your existing reprap mendel and modify the belt route of the X-axis in the most simple and accurate way. \r
+\r
+I made this because I had plenty of backlash and belt wear issues. With the original belt-path I had to replace the belt after a month or so due to steel core breakage. Later (with the first modification of the belt path) I had problems with backlash of the axis. \r
+\r
+I made this X-axis update particularly to easily modify your existing mendel with the least effort of material and best possible results. \r
+\r
+The new axis is inspired by the prusa-mendel style of belt system and by a similar Idea found here: http://www.thingiverse.com/thing:11820\r
+\r
+A really good solution... but I was to lazy to disassemble so much of my mendel and therefore the difference is, that you don't need any additional parts for the X-carryage and you can keep the whole idler side of the x-axis more or less untouched. :)\r
+\r
+Please mind: \r
+One user that made this mod had problems with belt lifetime. The tooth and exterior has been detached from the tension carrier. I suggest to not over tighten the flipped belt. This can cause too much stress to the belt and might destroy it. My machine had no problems with this issue and was running >30 hours since the mod. \r
+\r
+EDIT:\r
+I added another version of the idler guiding roller wheel for the belt. This one is higher and made of two parts. it can be equipped with two bearings instead of just one to minimize wheel-wobble on the axis.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "elk" ;
+    okh:repo <https://www.thingiverse.com/thing:24194> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:24194> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Elk's Simple Belt Route for Mendel-X-Axis 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/4d/ad/80/a0/02/motorbracketidler_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/4d/ad/80/a0/02/motorbracketidler_display_large_display_large.jpg> .
+

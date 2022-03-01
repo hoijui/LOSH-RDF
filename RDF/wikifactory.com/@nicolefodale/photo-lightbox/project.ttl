@@ -1,9 +1,10 @@
-@prefix : <https://wikifactory.com/@nicolefodale/photo-lightbox/9110b62ea71456305babe6209968dac2d136742e/> .
+@prefix : <https://wikifactory.com/%40nicolefodale/photo-lightbox/9110b62ea71456305babe6209968dac2d136742e/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 :PhotoLightbox a okh:Module ;
     rdfs:label "Photo Lightbox" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "Here is a lightbox that allows you to make good quality pictures of different kind of objects. Created mainly for fablabs, this mini photo studio can be used in various work or personal environments." ;
     okh:hasComponent :Informationen,
@@ -22,6 +23,7 @@
     okh:repo <https://wikifactory.com/@nicolefodale/photo-lightbox> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
     okh:version "9110b62ea71456305babe6209968dac2d136742e" ;
     okh:versionOf <https://wikifactory.com/@nicolefodale/photo-lightbox> .
 

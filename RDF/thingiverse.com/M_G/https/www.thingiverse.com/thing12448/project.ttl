@@ -1,0 +1,100 @@
+@prefix : <https://www.thingiverse.com/thing%3A12448/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:RingCreationScript a okh:Module ;
+    rdfs:label "Ring creation script" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This OpenSCAD script will generate a Tiffany Etoile style ring with a tension/Bezel/Partial-Bezel set jewel mount for a brilliant (round) cut diamond or similar shiny thing.\r
+Most parameters are user selectable as are the ring profile shapes.\r
+\r
+Potentially very useful when combined with the following:\r
+Ring metal cost calculator http://www.thingiverse.com/thing:12589\r
+Diamond size shape weight conversion Spreadsheet http://www.thingiverse.com/thing:12586\r
+Ring Size System Coversion http://www.thingiverse.com/thing:12689\r
+for creating and costing a custom engagement ring or other such tomfoolery.\r
+\r
+Todo:\r
+add option to round edges on crown\r
+make gap between 2 sides of crown slightly smaller than required to exert pressure on sides of jewel to hold it in place for proper tension set performance \r
+add complete roman font polygons for engraving\r
+implement hidden compartment\r
+\r
+Warning:\r
+Let the right one in\r
+\r
+Changes from previous versions:\r
+0.14\r
+ - 	Replaced deprecated import_stl with import\r
+ - 	Added control variable "generate_jewel", if 0 import the jewel from "brilliant1.stl", else try to generate it on-the-fly (this may cause errors as pointed out by mrchriseyes)\r
+0.13\r
+ - 	Added Simple internal engraving functionality (you will need to create a custom polygonal script though!)\r
+ - 	Finally got the person's ACTUAL ring size!6 6- USA\r
+ - 	Grooves for diamond were too small Need to scale stone by about 1.07 to acount for diameter loss\r
+0.12\r
+ - 	Added Secondary Crown to make it more similar to Tiffany Etoile Solitaire\r
+ - 	Used Render() and gave option to load the Brilliant cut Diamond shape from external STL file for better previews (the complexity was causing CSG rendering to be disabled)\r
+ - 	Added additional code to ensure the inner surface of the ring is preserved and smooth as crown shapes could poke through, creating sharp edges on inside of ring\r
+ - 	Fixed colours on certain areas\r
+0.11\r
+ - 	Fixed issue whereby rounded rectangle shape CS appeared slightly translated in Y direction (taken from Ring_band_creation_script_v1.1.scad)\r
+ - 	Added extra cross sections (cs_half_pill, cs_reverse_hemi_ellipse, cs_reverse_rounded_hemi_ellipse taken from Ring_band_creation_script_v1.1.scad)\r
+0.10\r
+ - 	Round edges on cylinder unched through centre of crwon to back of ring\r
+ - 	Add option to have side supports on crown\r
+0.9\r
+ - 	Added user variable to control colour and opacity of jewel and metal material\r
+ - 	Can select which type of split you want for the crown (none, rectangular, bowtie, both) by setting with_bowtie_split and with_rectangular_split to 00, 01, 10 or 11 respectively\r
+ - 	Can now choose whether crown is splayed out/tapered or not\r
+ - 	Finally remembered to difference the brilliant cut gem from the ring to make the groove to hold the brilliant cut round jemstone\r
+ - 	Added ability to specify diamond size in Carats to specify girdle diameter, assuming a round cut close to ideal it should be reasonalby accurate (based on data from http://d.neadiamonds.com/diamond-carat). Relationship appears to be close to power or logarithmic curve\r
+ - 	Power Curve size[mm]=6.5065412147(Carat^0.3381325352), confidence value R^2=0.998\r
+ - 	Log Curve size[mm]=1.964367652 Ln(Carat) + 6.6289134546\r
+ - 	Changed most crown variables so that they are influenced by the size of the stone chosen\r
+ - 	De-deprecated some variables\r
+ - 	Added new cross sectional shape cs_rounded_scallopped_rectangle\r
+0.8\r
+ - 	Added outwards splay/taper to jewel setting based on size of crown face and size of ring\r
+ - 	Identified some redundant variables\r
+ - 	Added additional cross sectional shapes (chamfered rectangle)\r
+ - 	Fixed some CS that resulted in internal diamteres less than expected (cs_rounded_hemi_ellipse, cs_rounded_rectangle, cs_chamfered_rectangle)\r
+0.7\r
+ - 	Added ring sizes from 4 systems based on linearisation of data found here http://en.wikipedia.org/wiki/Ring_size\r
+ - 	Added acitional cross sectional shapes (rounded rectangle and chamfered rectangle)\r
+0.6\r
+ - 	Added multiple user selectable cross sections (rect, ellipse, D, chamfered, filleted, scallopped)\r
+0.5\r
+ - 	Added ability to make a bowtie shaped cutout through the jewel mount and ring, 'cause it looks cool!\r
+ - 	Added ability to color the ring & crown part of the eh... ring!?\r
+0.4\r
+ - 	Fixed issue with internal diameter of ring not being that specified by user\r
+ - 	Added ability to control width of rectangular split/cutout on jewel mount\r
+ - 	Added ability to control depth that jewel mount overlaps band of ring\r
+ - 	Changed cylindrical cutout in jewel mount to be conical\r
+ - 	Added an actual scalable brilliant cut diamond shape (with ability to give it a "color") within the jewel mount(pretty!)\r
+0.3\r
+ - 	Changed to pill shaped cross section\r
+ - 	Added rectangular cutout on jewel mount to make split/tension set type fitting, it doesn't line up correctly though :(\r
+ - 	Added commented out/empty calls to functions to enable rest of functionality I desire\r
+0.2\r
+ - 	I don't think I ever got around to changing this version, please ignore this :p\r
+0.1\r
+ - 	First attempt\r
+ - 	Makes rectangular cross section ring with hollow cylindrical shaped mount for jewel\r
+ - 	Allows user to define feature size""" ;
+    okh:hasImage :Image ;
+    okh:licensor "M_G" ;
+    okh:repo <https://www.thingiverse.com/thing:12448> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:12448> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Ring creation script 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/36/32/9d/6d/dc/Ring_creation_script_v0.6_cs_ellipse_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/36/32/9d/6d/dc/Ring_creation_script_v0.6_cs_ellipse_display_large_display_large.jpg> .
+

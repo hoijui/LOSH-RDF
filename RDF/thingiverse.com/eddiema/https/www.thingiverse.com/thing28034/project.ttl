@@ -1,0 +1,34 @@
+@prefix : <https://www.thingiverse.com/thing%3A28034/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:PrintrbotAntiwobble a okh:Module ;
+    rdfs:label "Printrbot anti-wobble." ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """The basic plastic printerbot frequently produces bands on the sides of the prints which match the z-threaded rod pitch. This is most obvious on prints using .2mm or thinner slices.\r
+In order to find the source of the problem I made custom parts to lock the bearings and rods in place. I also made an external bracing.\r
+The source of the banding appears to be a rocking in the z-motors.\r
+This causes uneven z-lift which in turn causes some layers to be squashed and buldge on the sides.\r
+This is easiely fixed with a few wedges but the other parts may be of some use for people wanting a more rigid bot or to re-purpose for something else.\r
+\r
+Also the z-motors are .5mm too far out on my bot. This is an error in the orginal CAD files. \r
+I have a corrected but untest version here. http://www.thingiverse.com/thing:26542\r
+I will be publishing more modified parts when I find time.\r
+I have done the CAD for a modified base with extra motor support but this is overkill for most people.\r
+http://www.thingiverse.com/thing:28557""" ;
+    okh:hasImage :Image ;
+    okh:licensor "eddiema" ;
+    okh:repo <https://www.thingiverse.com/thing:28034> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:28034> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Printrbot anti-wobble. 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/fd/c1/c6/1c/60/wedges_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/fd/c1/c6/1c/60/wedges_display_large.jpg> .
+

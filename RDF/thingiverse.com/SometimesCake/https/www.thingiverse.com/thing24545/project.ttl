@@ -1,0 +1,32 @@
+@prefix : <https://www.thingiverse.com/thing%3A24545/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:PrintrbotLcPartCoolingFanMount a okh:Module ;
+    rdfs:label "Printrbot LC part cooling fan mount" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """After doing a lot of reading and a bit of testing this fan mount was the best solution I have yet found for the Printrbot LC.  \r
+\r
+I tried the http://www.thingiverse.com/thing:21462 fan mount, but it acted as a shim to raise the extruder.  I had to compensate my lowering the z axis so low that it hit the hold downs for the glass.  I ended up losing almost 3 inches on the Y axis.  No good.  I tested the part to see how it did at cooling.  It cooled really well, but noted that I lost almost 15 deg C on the heated platform. :-/  Not wanting to find another solution for my heated platform I kept looking.\r
+\r
+Then I found http://www.thingiverse.com/thing:15899.  So I tested placing the fan on the side where it would still move up and down with the extruder.  The headed platform only lost 3deg C and the parts printed really well.  \r
+\r
+This part completely replaces the wood one the Printrbot came with.  I did this so I could use the same screws.  The hardware store near my house doesn't carry 6-32x1 3/4 screws.  2 inch would hit the drive belt.\r
+\r
+I've attached an image of two gears I printed.  Both at .2mm layer height.  The gear on the left is with the fan on and the gear on the right is with the fan off.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "SometimesCake" ;
+    okh:repo <https://www.thingiverse.com/thing:24545> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:24545> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Printrbot LC part cooling fan mount 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/44/df/b5/33/f9/photo_4_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/44/df/b5/33/f9/photo_4_display_large_display_large.jpg> .
+

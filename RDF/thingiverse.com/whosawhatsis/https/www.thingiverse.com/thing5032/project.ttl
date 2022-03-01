@@ -1,0 +1,36 @@
+@prefix : <https://www.thingiverse.com/thing%3A5032/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:MicroextruderForGearedStepper a okh:Module ;
+    rdfs:label "Microextruder for geared stepper" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is an idea I've been working on in my head for several months and dozens of revisions. I finally decided to get something into the computer and post it, and gave myself 24 hours to do it. This is a very small extruder block (it should be smaller than Brut) that has a spring-tensioned bearing idler like Wade's and a single tightening screw like the Mk5 Plastruder. It is designed to be used with a planetary gear stepper like this one, and Mk5 drive gear with the hole drilled out to 8mm to fit the gearbox shaft. It uses two M3x35mm screws, two M4x50mm screws, one M8 bolt or rod about 35mm long, one 608 bearing, and a couple of nuts and washers to match these. One end is meant to hold a nut screwed onto a PTFE tube (which could be a bowden cable, or if it runs the other direction, it could just be a feed tube) and the other end is meant to accept a groove-mount insulator, so the same block can be used as a bowden or carriage-mounted extruder with no extra mountings.\r
+\r
+In the included picture, the transparent parts are all vitamins. The cylinder at the bottom is the planetary gearbox, with the stepper (not pictured) on the other end. The Mk5 gear rendered yellow for some reason. The wide cylinder in front of it is the 608 idler. The M4 screw with the spring around it is for tensioning, and the other M4 (goes through the hole at the top to hold the other end of the M8 rod and act as a pivot.\r
+\r
+I tried to print one to try it out, but my x-axis is acting up again.\r
+\r
+To do: \r
+*Print one and test it to see what needs to be added to this list.\r
+*Figure out how to lock in the bowden nut and insulator.\r
+*Find some way of mounting it to a carriage The mounting should probably attach to the motor rather than the extruder, as it is pretty far from the motor's center of mass, but the spacer piece could also be redesigned for this function.\r
+*Make it parametric.\r
+*Design a printable gearbox to optionally replace the printed one (one of my first ideas, seeing that beak90 beat me to designing one was one of the things that made me get off my ass and start working on this).\r
+*See if I can make the design work with a DC gearmotor.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "whosawhatsis" ;
+    okh:repo <https://www.thingiverse.com/thing:5032> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:5032> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Microextruder for geared stepper 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/b8/27/2f/ed/76/Screen_shot_2010-12-04_at_2.53.25_PM_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/b8/27/2f/ed/76/Screen_shot_2010-12-04_at_2.53.25_PM_display_large_display_large.jpg> .
+

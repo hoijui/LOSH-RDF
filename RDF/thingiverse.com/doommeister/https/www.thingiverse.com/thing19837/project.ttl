@@ -1,0 +1,37 @@
+@prefix : <https://www.thingiverse.com/thing%3A19837/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:OrcaV03XCarriageLm8uu a okh:Module ;
+    rdfs:label "Orca V0.3,  X Carriage, LM8UU " ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """V3/4 cuts some unneeded material out to save a little weight/plastic/print time, it also addes the option to print a pair of holders so you can use extruders other than the MP V9/10 (Gregs Wade for instance)(note - This will only work with groove mount or other hot ends that don't require the 30mm retaining strap).\r
+\r
+ V2 adds some chamfers and a retained nut for the belt clamp so the pillar does not foul on the Z lead screws\r
+\r
+Yet another X Carriage for the Orca V0.3. This one is fully agnostic as to what type of timing belt you use as the belt is retained by straps.\r
+\r
+This design uses 3 of my LM8UU bearing carries and 2 of the straps from my Y belt tensioner. The extruder base and the bearing carriers are all retained by captured nylock nuts.\r
+\r
+The advantages of this design (I think) are\r
+Use any type of timing belt (small enough)\r
+Belt clamp is a simple design\r
+Belt is attached to the double bearing side\r
+The extruder motor is placed to the back (assuming like me you want all the other motors at the front) \r
+You do not loose any Z height, by adjusting the car_thickness parameter in the SCAD file you can gain Z height""" ;
+    okh:hasImage :Image ;
+    okh:licensor "doommeister" ;
+    okh:repo <https://www.thingiverse.com/thing:19837> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:19837> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Orca V0.3,  X Carriage, LM8UU  1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/e4/70/2e/d0/2f/DoomMeisters_Orca_x_carriage_v1_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/e4/70/2e/d0/2f/DoomMeisters_Orca_x_carriage_v1_display_large_display_large.jpg> .
+

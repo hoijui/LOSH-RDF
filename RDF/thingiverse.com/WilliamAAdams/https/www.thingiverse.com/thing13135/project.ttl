@@ -1,0 +1,38 @@
+@prefix : <https://www.thingiverse.com/thing%3A13135/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:TactileBitsInOpenscad a okh:Module ;
+    rdfs:label "Tactile Bits in OpenScad" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """I've been programming for quite a few years now, and since the beginning of time (programming my Commodore P.E.T.), I could not remember binary bit patterns to save my life!\r
+\r
+This thing gives me the ability to print out binary representations of numbers.  That gives me something nice and tactile that I can look at, pick up, and play around with.\r
+\r
+Perhaps if I had this as a toy when I was younger, I would not have such problems remembering binary encodings because the memories would have been cemented in something physical.\r
+\r
+Within the test_boolean.scad file, you will find the module: display_binary(number, bits, withplate)\r
+\r
+You give it a number, and the number of bits you want to display, and whether you want a base plate attached or not.\r
+\r
+And out comes your binary representation of your number.\r
+\r
+If you care to look deeper, you can take a look at the boolean.scad file.  In there you will find some useful bit banging operators like RSHIFT, LSHIFT, BIT, BTEST, 32BITAND, 32BITNOT, 32BITXOR, 32BITOR, and other boolean algebra thingies.  These might be useful for other things some day.\r
+\r
+In particular, you could perform an operation, and print the result of the operation tactally.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "WilliamAAdams" ;
+    okh:repo <https://www.thingiverse.com/thing:13135> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:13135> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Tactile Bits in OpenScad 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/6f/f4/f1/a3/64/tactile_bits_4_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/6f/f4/f1/a3/64/tactile_bits_4_display_large_display_large.jpg> .
+

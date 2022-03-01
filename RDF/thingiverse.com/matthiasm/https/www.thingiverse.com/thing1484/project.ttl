@@ -1,0 +1,30 @@
+@prefix : <https://www.thingiverse.com/thing%3A1484/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:EndstopTriggersToo a okh:Module ;
+    rdfs:label "Endstop Triggers Too" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Revised design 0006 will no longer put pressure on the X stage.\r
+\r
+End stop triggers are important! They should be fastened securely, no jam the optos, and allow for precise positioning at every new built.\r
+\r
+These stops are designed so that the Z stage can travel below the build platform, calibrating the Makerbot for a repeatable distance between extruder and platform. This is done by setting X to center and Y all the way to the left. The extruder now misses the build platform, finding its calibration. A calibrated Z stage will bring perfect results at every build without manually positioning. Software will follow.\r
+\r
+This is a complete set of six end stops. All six end stops are designed to fit right into their respective places. They are wedged for easy fitting into the existing slots on your MakerBot. All end stops should be a tight fit. They are designed for minimum interference with the system and should not jam the optocouplers once the are bent right.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "matthiasm" ;
+    okh:repo <https://www.thingiverse.com/thing:1484> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/LGPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:1484> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Endstop Triggers Too 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/38/3d/84/e8/9d/DSCN2632_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/38/3d/84/e8/9d/DSCN2632_display_large_display_large.jpg> .
+

@@ -1,14 +1,15 @@
-@prefix : <https://wikifactory.com/+dronecoria/seed-bank/b02c4bcda43cc98da719374a5fd5a06ec01f0164/> .
+@prefix : <https://wikifactory.com/%2Bdronecoria/seed-bank/b02c4bcda43cc98da719374a5fd5a06ec01f0164/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 :SeedBank a okh:Module ;
     rdfs:label "Seed Bank" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "Low-cost system for the storage and treatment of forest seeds." ;
-    okh:hasComponent :Dronecoriav4,
-        :Dronecoriav42,
-        :Dronecoriav4lid ;
+    okh:hasComponent :Sensorboxdronecoriav4,
+        :Sensorboxdronecoriav42,
+        :Sensorboxdronecoriav4lid ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "Lot Amorós" ;
@@ -17,54 +18,9 @@
     okh:repo <https://wikifactory.com/+dronecoria/seed-bank> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
     okh:version "b02c4bcda43cc98da719374a5fd5a06ec01f0164" ;
     okh:versionOf <https://wikifactory.com/+dronecoria/seed-bank> .
-
-:Dronecoriav4 a okh:Part ;
-    rdfs:label "DroneCoria_V4" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Alec Sanchez" ;
-    okh:source :Dronecoriav4_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Dronecoriav42 a okh:Part ;
-    rdfs:label "DroneCoria_V4.2" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Alec Sanchez" ;
-    okh:source :Dronecoriav42_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Dronecoriav42_source a okh:SourceFile ;
-    rdfs:label "Source File of DroneCoria_V4.2 of Seed Bank b02c4bcda43cc98da719374a5fd5a06ec01f0164" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/140859/dronecoria_v42.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzA5MDA=> .
-
-:Dronecoriav4_source a okh:SourceFile ;
-    rdfs:label "Source File of DroneCoria_V4 of Seed Bank b02c4bcda43cc98da719374a5fd5a06ec01f0164" ;
-    okh:fileFormat "IPT" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/140859/dronecoria_v4.ipt> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzA4OTQ=> .
-
-:Dronecoriav4lid a okh:Part ;
-    rdfs:label "DroneCoria_V4_Lid" ;
-    okh:documentationLanguage "en" ;
-    okh:export :Dronecoriav4lid_export1 ;
-    okh:licensor "Alec Sanchez" ;
-    okh:source :Dronecoriav4lid_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Dronecoriav4lid_export1 a okh:ExportFile ;
-    rdfs:label "Export File of DroneCoria_V4_Lid of Seed Bank b02c4bcda43cc98da719374a5fd5a06ec01f0164" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/140859/dronecoria_v4_lid.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzA0NjE=> .
-
-:Dronecoriav4lid_source a okh:SourceFile ;
-    rdfs:label "Source File of DroneCoria_V4_Lid of Seed Bank b02c4bcda43cc98da719374a5fd5a06ec01f0164" ;
-    okh:fileFormat "IPT" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/140859/dronecoria_v4_lid.ipt> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzA0NjI=> .
 
 :Image a okh:Image ;
     rdfs:label "Image of Seed Bank b02c4bcda43cc98da719374a5fd5a06ec01f0164" ;
@@ -77,4 +33,50 @@
     okh:fileFormat "MD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/140859/readme-9b3a4.md> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo2MDQxNTk=> .
+
+:Sensorboxdronecoriav4 a okh:Part ;
+    rdfs:label "SensorBox/DroneCoria_V4" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Alec Sanchez" ;
+    okh:source :Sensorboxdronecoriav4_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Sensorboxdronecoriav42 a okh:Part ;
+    rdfs:label "SensorBox/DroneCoria_V4.2" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Alec Sanchez" ;
+    okh:source :Sensorboxdronecoriav42_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Sensorboxdronecoriav42_source a okh:SourceFile ;
+    rdfs:label "Source File of SensorBox/DroneCoria_V4.2 of Seed Bank b02c4bcda43cc98da719374a5fd5a06ec01f0164" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/140859/dronecoria_v42.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzA5MDA=> .
+
+:Sensorboxdronecoriav4_source a okh:SourceFile ;
+    rdfs:label "Source File of SensorBox/DroneCoria_V4 of Seed Bank b02c4bcda43cc98da719374a5fd5a06ec01f0164" ;
+    okh:fileFormat "IPT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/140859/dronecoria_v4.ipt> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzA4OTQ=> .
+
+:Sensorboxdronecoriav4lid a okh:Part ;
+    rdfs:label "SensorBox/DroneCoria_V4_Lid" ;
+    okh:documentationLanguage "en" ;
+    okh:export :Sensorboxdronecoriav4lid_export1 ;
+    okh:licensor "Alec Sanchez" ;
+    okh:source :Sensorboxdronecoriav4lid_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Sensorboxdronecoriav4lid_export1 a okh:ExportFile ;
+    rdfs:label "Export File of SensorBox/DroneCoria_V4_Lid of Seed Bank b02c4bcda43cc98da719374a5fd5a06ec01f0164" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/140859/dronecoria_v4_lid.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzA0NjE=> .
+
+:Sensorboxdronecoriav4lid_source a okh:SourceFile ;
+    rdfs:label "Source File of SensorBox/DroneCoria_V4_Lid of Seed Bank b02c4bcda43cc98da719374a5fd5a06ec01f0164" ;
+    okh:fileFormat "IPT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/140859/dronecoria_v4_lid.ipt> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzA0NjI=> .
 

@@ -1,0 +1,42 @@
+@prefix : <https://www.thingiverse.com/thing%3A24981/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ArduinoAsIspShieldV10 a okh:Module ;
+    rdfs:label "Arduino as ISP Shield v1.0" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """I was elated when the Arduino as ISP sketch was released. I spent about a year with a breadboarded version using zif socket and a nest of wires, bypassing the Arduino bootloader and burning my sketches straight to the chip. It didn't take long for this breadboard setup to become a cumbersome chore, so I decided to make a dedicated pcb to handle it.  
+
+
+
+The first version had some issues that this one address.   
+
+
+
+Improvements include:  
+
+- Place for a resistor to disable auto-reset  
+
+- Large enough holes to use a ZIF socket  
+
+- Option to use either a ceramic resonator OR a crystal  
+
+
+
+Credit should go to Evil Mad Scientist's ISP Shield Kit for the idea of using a 100Ω resistor to disable auto-reset.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "asp55" ;
+    okh:repo <https://www.thingiverse.com/thing:24981> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:24981> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Arduino as ISP Shield v1.0 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/2b/1b/1d/b6/3d/IMG_2002_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/2b/1b/1d/b6/3d/IMG_2002_display_large_display_large.jpg> .
+

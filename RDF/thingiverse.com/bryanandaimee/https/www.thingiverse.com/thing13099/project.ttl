@@ -1,0 +1,30 @@
+@prefix : <https://www.thingiverse.com/thing%3A13099/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Big4InchSevenSegmentDisplay a okh:Module ;
+    rdfs:label "Big 4 inch Seven Segment Display" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """It's a big seven segment display :) I used three 5mm red/orange LEDs per segment with the intent that they could be wired in series and driven straight from a micro-controller output pin. Connecting my orange LED's wired up that way to a 5V supply gave a reading of 13 mA. A micro-controller should have no trouble driving the three leds without any transistors or resistors or anything. Depending on the voltage drop of your LED's you may need a small current limiting resistor. Other colors like green and blue will likely need to be wired in parallel with current limiting resistors due to the higher voltage drop of those LED's. \r
+\r
+I'd like to do a clock with this sometime soon. So I'll have to add an additional front plate with a clock type display instead of a decimal point. \r
+\r
+Eventually I'll try for an 8 inch display using interlocking segments. Once the prusa is running I could do an 8 inch display all in one print. Of course the ultimate goal is a 12 inch display like evil mad scientist labs has for $50 each. Then world domination. (cue maniacal laughter)\r
+\r
+My blog if you are interested.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "bryanandaimee" ;
+    okh:repo <https://www.thingiverse.com/thing:13099> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:13099> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Big 4 inch Seven Segment Display 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/0e/27/1c/b9/55/7_segment_display_003_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/0e/27/1c/b9/55/7_segment_display_003_display_large_display_large.jpg> .
+

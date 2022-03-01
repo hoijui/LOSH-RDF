@@ -1,0 +1,41 @@
+@prefix : <https://www.thingiverse.com/thing%3A11103/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:FullyParametricMeasuringScoop a okh:Module ;
+    rdfs:label "Fully parametric measuring scoop" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is a fully parametric measuring scoop/cup. Give the desired volume, desired radius, shell thickness, and handle size, and it will generate a fully printable measuring scoop. Originally a request from the wife for a new coffee scoop.\r
+\r
+The bottom is conical to help printing. You can adjust the angle of the cone by altering the ratio of volume in the cylinder section to the volume of the cone.\r
+\r
+Found some scrap filament to print and have uploaded fixes to ensure it is printable.\r
+\r
+Changelog:\r
+ - prints out the cone angle in openscad when you build so you can quickly tell if it will work with your equipment\r
+ - added a parameter to allow you to change the handle support structure size.\r
+ - uploaded a newer one oz scoop that should be printable (waiting on a print now)\r
+\r
+v2:\r
+ - smoother cylinder (takes a bit longer to skein, though)\r
+ - add optional mickey mouse ears for raftless\r
+ - add optional round exterior, but keep conical interior for printability\r
+ - fix stupid maths errors that cause the volume to be off by 1/2. :(\r
+\r
+Print tests of v1 and v2 turned out excellent!""" ;
+    okh:hasImage :Image ;
+    okh:licensor "boyandhisbot" ;
+    okh:repo <https://www.thingiverse.com/thing:11103> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:11103> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Fully parametric measuring scoop 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://thingiverse-rerender-new.s3.amazonaws.com/renders/c8/13/a4/81/93/one-oz-coffee-scoop_display_large.jpg> ;
+    okh:permaURL <https://thingiverse-rerender-new.s3.amazonaws.com/renders/c8/13/a4/81/93/one-oz-coffee-scoop_display_large.jpg> .
+

@@ -1,0 +1,48 @@
+__meta:
+  branch: null
+  created-at: '2011-08-22T23:50:11+00:00'
+  history: null
+  last-changed: null
+  last-visited: '2022-02-25T11:00:02.616920+00:00'
+  owner: nrp
+  path: null
+  repo: https://www.thingiverse.com/thing:10960
+  score: null
+  source: thingiverse.com
+attestation: null
+bom: null
+contribution-guide: null
+cpc-patent-class: null
+documentation-language: en
+documentation-readiness-level: odrl3
+function: "Post with working links on my blog: http://eclecti.cc/bytes/reprap-controlled-time-lapse-photography\r\n\r\nYouTube example videos:\r\nhttp://www.youtube.com/watch?v=T3j5oXpqWCk\r\nhttp://www.youtube.com/watch?v=GFZXgxcfdHQ\r\n\r\nWhile capturing the time-lapse last week, John and I ran into two irritating issues.  The first is that the moving platform causes the object being printed to come in and out of the focal plane of the camera and makes for a jarring video.  The second is that because the interval between photos is constant, some large and slow layers will have multiple shots taken while several consecutive quick layers can be skipped entirely.  The solution to both of these is to dynamically remote trigger the camera from the printer.\r\n\r\nI wrote a Skeinforge photograph plugin that inserts a new G-code command, M240, which tells the printer to trigger a photograph.  The module offers three modes.  End of Layer, as demonstrated by Yoda below, is the simplest.  It takes one picture at the start of the first layer and then another at the end of each layer of the print, resolving only the second of the aforementioned issues.  Corner of Layer takes a picture at the minimum Y,X of each layer.  Least Change between Layers tries to take shots that are as close as possible to each other from layer to layer.  I had the most visually interesting results with the last setting, as shown in the Flower print above.  The module can be downloaded from github, and installation instructions are included within its text.\r\n\r\nThe other half of the control scheme is triggering the camera from the RepRap.  Since I didn\xE2\u20AC\u2122t want to risk coupling my T2i directly to the printer, I went for emulating a Canon RC-1 Remote, which has been thoroughly reverse engineered.  The hardware is simply an 850nm infrared LED in series with a 180 ohm resistor connected to one of the I/O pins on the Arduino Mega.  I chose pin 23 because I could solder to it without pulling my RAMPS board off.  The software side is equally simple.  For this, I forked the excellent Sprinter firmware to respond to M240 and send the correct pulse over the IR LED.  My fork is on github, but the diff that adds M240 support is the interesting bit."
+image:
+  created-at: '2011-08-22T23:50:11+00:00'
+  last-changed: '2011-08-22T23:50:11+00:00'
+  last-visited: '2022-02-25T19:09:02.835168+00:00'
+  license: GPL-3.0-or-later
+  licensor: nrp
+  mime-type: null
+  name: infrared_trigger_display_large_display_large
+  path: https:/cdn.thingiverse.com/renders/b1/09/31/32/f8/infrared_trigger_display_large_display_large.jpg
+  perma-url: https://cdn.thingiverse.com/renders/b1/09/31/32/f8/infrared_trigger_display_large_display_large.jpg
+  url: https://cdn.thingiverse.com/renders/b1/09/31/32/f8/infrared_trigger_display_large_display_large.jpg
+license: GPL-3.0-or-later
+licensor: nrp
+manufacturing-instructions: null
+name: Time-Lapse Photography Skeinforge Plugin
+okhv: OKH-LOSHv1.0
+organization: null
+part: []
+publication: null
+readme: null
+release: null
+repo: https://www.thingiverse.com/thing:10960
+software: []
+specific-api-data: {}
+standard-compliance: null
+technology-readiness-level: ortl4
+tsdc: null
+upload-method: auto
+user-manual: null
+version: 1.0.0

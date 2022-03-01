@@ -1,9 +1,10 @@
-@prefix : <https://wikifactory.com/@rovimartinez/robot-lee/181a708058c7a7f1fa3ee06e6a74d44b556e752e/> .
+@prefix : <https://wikifactory.com/%40rovimartinez/robot-lee/181a708058c7a7f1fa3ee06e6a74d44b556e752e/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 :RobotLee a okh:Module ;
     rdfs:label "Robot Lee" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "es" ;
     okh:function "Es un Robot que saluda, camina, baila, detecta obstáculos y gira su cabeza para inspeccionar su alrededor." ;
     okh:hasImage :Image ;
@@ -12,6 +13,7 @@
     okh:repo <https://wikifactory.com/@rovimartinez/robot-lee> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
     okh:version "181a708058c7a7f1fa3ee06e6a74d44b556e752e" ;
     okh:versionOf <https://wikifactory.com/@rovimartinez/robot-lee> .
 

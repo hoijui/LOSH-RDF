@@ -1,0 +1,37 @@
+@prefix : <https://www.thingiverse.com/thing%3A16383/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:AlteredClampStyleXEndssaeAndKungFuGrip a okh:Module ;
+    rdfs:label "Altered clamp style X ends (SAE and kung fu grip)" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """I think the Aleph objects X ends are wonderful.  That said I had to tweak a few things to make them work well for me.\r
+\r
+I opted not to go with their version 1.1 as a basis because the original seems more than sturdy enough already, and is easier to make work with the larger #6 nuts and uses less plastic.\r
+\r
+Changes:\r
+nuts and bolts.scad values for M3 is changed to fit #6 nuts.\r
+\r
+The clamp part has been altered to grip the smooth rod better - as originally posted, it just slid on my smooth rod.  Without strong clamping, the Z rods get pulled on when the belt gets tightened.\r
+\r
+The motor part had part of the bend impinging on the larger hex hole of the #6 nut - fixed.\r
+\r
+Top of the nut space in the clamp part is now a conventional bridge layer rather than a cone shape, which just caused a huge mess for me when printed.\r
+\r
+NOTE: After using these for a while, I found that this design for X ends tends to telegraph every tiny wobble of the Z threaded rod into the print.  I think it would be a good idea to redesign this to hold the nut loosely and have a millimeter or so play in the shaft as well, to let the threaded rod and nut float a bit and hold tight to the smooth rod instead.  Personally I've switched to thing 25047 as my preferred X end now.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "jridley" ;
+    okh:repo <https://www.thingiverse.com/thing:16383> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:16383> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Altered clamp style X ends (SAE and kung fu grip) 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://thingiverse-rerender-new.s3.amazonaws.com/renders/94/10/23/df/c9/idler-sae_display_large.jpg> ;
+    okh:permaURL <https://thingiverse-rerender-new.s3.amazonaws.com/renders/94/10/23/df/c9/idler-sae_display_large.jpg> .
+

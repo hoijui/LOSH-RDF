@@ -1,0 +1,27 @@
+@prefix : <https://www.thingiverse.com/thing%3A12285/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:DualstrusionBusinessCard a okh:Module ;
+    rdfs:label "Dualstrusion Business Card" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Data Matrix bar code goes to my website tonybuser.com Picture shows top and bottom of single object printed simultaneously with dual extruders, no midprint filament color swapping.  
+Data Matrix created with Data Matrix Dualstrusionator: http://www.thingiverse.com/thing:12104  
+Face and text/logo created in inkscape and converted to dxf using this process: http://tonybuser.com/2d-to-3d  
+Yes, quality is a little rough at the moment with dual extrusion... but it's mostly a software problem to work out how best to keep nozzles from drooling between colors, skeinforge bugs with stl files with shapes inside shapes causing bad perimeter/infill, and there's a bug that causes the top layer not to print... That's why it's experimental - living on the edge!""" ;
+    okh:hasImage :Image ;
+    okh:licensor "tbuser" ;
+    okh:repo <https://www.thingiverse.com/thing:12285> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:12285> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Dualstrusion Business Card 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/19/1b/a7/ec/03/6220314229_1f9cbb0aa7_o_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/19/1b/a7/ec/03/6220314229_1f9cbb0aa7_o_display_large_display_large.jpg> .
+

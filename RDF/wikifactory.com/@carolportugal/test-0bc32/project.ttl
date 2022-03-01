@@ -1,9 +1,10 @@
-@prefix : <https://wikifactory.com/@carolportugal/test-0bc32/3d171f426592db1f2dfc763030d1c93e1f12c3b1/> .
+@prefix : <https://wikifactory.com/%40carolportugal/test-0bc32/3d171f426592db1f2dfc763030d1c93e1f12c3b1/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 :Test a okh:Module ;
     rdfs:label "test" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "An interactive robot that anyone can make! Otto can walk, dance, make sounds and avoid obstacles. Easy to assemble with our builder kit or 3D print then build with our maker kit" ;
     okh:hasReadme :Readme ;
@@ -12,6 +13,7 @@
     okh:repo <https://wikifactory.com/@carolportugal/test-0bc32> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
     okh:version "3d171f426592db1f2dfc763030d1c93e1f12c3b1" ;
     okh:versionOf <https://wikifactory.com/@carolportugal/test-0bc32> .
 

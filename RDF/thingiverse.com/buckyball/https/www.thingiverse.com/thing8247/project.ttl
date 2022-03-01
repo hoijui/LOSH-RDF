@@ -1,0 +1,42 @@
+@prefix : <https://www.thingiverse.com/thing%3A8247/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ParametricSpiceRack a okh:Module ;
+    rdfs:label "Parametric Spice Rack" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """My spice rack couldn't hold all of my spices, so I decided to make my own.\r
+\r
+This file will generate a cut pattern for a laser cutter which will assemble into a spice rack. It was designed with 1/4" material in mind but it will adjust itself reasonably well if you use something else.\r
+\r
+\r
+eps file parameters [at top of file]\r
+-------------------------------------\r
+material_thickness: how thick your input material is [matters for connections]\r
+num_sides: the number of side pieces to render\r
+num_beams: the number of beams to render\r
+num_bottles_per_shelf: the number of bottles to fit on each shelf\r
+num_shelves_high: the number of rows the spice rack will have\r
+\r
+bottle_height: the height of your largest bottle plus a healthy margin\r
+bottle_width: the width of your largest bottle as it faces you plus a margin\r
+bottle_depth: the depth of your largest bottle plus a healthy margin\r
+\r
+rack_beam_width: how wide each beam should be\r
+laser_beam_width: for fine adjustment in the cut holes [affects tightness]""" ;
+    okh:hasImage :Image ;
+    okh:licensor "buckyball" ;
+    okh:repo <https://www.thingiverse.com/thing:8247> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:8247> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Parametric Spice Rack 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/06/f5/ef/37/25/IMG_1358_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/06/f5/ef/37/25/IMG_1358_display_large_display_large.jpg> .
+

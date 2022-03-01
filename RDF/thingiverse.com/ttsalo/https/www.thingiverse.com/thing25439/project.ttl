@@ -1,0 +1,30 @@
+@prefix : <https://www.thingiverse.com/thing%3A25439/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:LeverTumblerLock a okh:Module ;
+    rdfs:label "Lever Tumbler Lock" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """I wanted to implement a lock mechanism which is fully printable and relatively secure. The http://en.wikipedia.org/wiki/Lever_tumbler_lock seemed like the best bet.\r
+\r
+See it in action: http://youtu.be/Fzuhta2IQZ4\r
+\r
+The model has three tumblers with 6 bitting positions for each. It's keyed [0, 3, 5].\r
+\r
+Note! The derived Fully Printable Padlock http://www.thingiverse.com/thing:27205 contains an improved version of this mechanism.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "ttsalo" ;
+    okh:repo <https://www.thingiverse.com/thing:25439> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:25439> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Lever Tumbler Lock 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/e0/23/ae/34/de/7416426268_15537ecf68_k_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/e0/23/ae/34/de/7416426268_15537ecf68_k_display_large_display_large.jpg> .
+

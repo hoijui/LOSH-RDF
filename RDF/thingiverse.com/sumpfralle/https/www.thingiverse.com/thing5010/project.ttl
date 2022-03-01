@@ -1,0 +1,34 @@
+@prefix : <https://www.thingiverse.com/thing%3A5010/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ConfigurableTtrackTable a okh:Module ;
+    rdfs:label "Configurable T-track table" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is the 3D model of a T-track table. This kind of plate is useful for fastening your material on milling machines. Additionally you will probably need T-slot nuts (e.g.: http://www.schrauben-lexikon.de/download/t_1980.pdf - specification) and clamps (e.g. http://www.thingiverse.com/thing:776).\r
+\r
+The model is designed with OpenSCAD (http://openscad.org). You need to download this (GPL) software if you want to modify the parameters of the table. Otherwise you can just use the attached STL model file for a 400x320x18 table suitable for M6/8 nuts.\r
+\r
+The table features an (optional) edge of joints that can be used for connecting two of these tables. Owners of CNC milling machines will probably need to build two plates to cover the whole area of the machine.\r
+\r
+The following properties of the table are configurable in the model file:\r
+ * board dimension (width, length, height)\r
+ * slot dimension (slim/wide width and height) - defaults to a M6/8 nut\r
+ * distance between two slots\r
+ * joints: their number and the relative tolerance (spacing between two plates)""" ;
+    okh:hasImage :Image ;
+    okh:licensor "sumpfralle" ;
+    okh:repo <https://www.thingiverse.com/thing:5010> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:5010> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Configurable T-track table 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/96/37/3b/04/2a/t_track_table_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/96/37/3b/04/2a/t_track_table_display_large_display_large.jpg> .
+

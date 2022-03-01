@@ -1,0 +1,34 @@
+@prefix : <https://www.thingiverse.com/thing%3A29202/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:MakerbotReplicatorQuietFanMod a okh:Module ;
+    rdfs:label "Makerbot Replicator Quiet Fan mod" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """I've only had my Makerbot Replicator for less than a week, and I was already tired of the level of fan noise when the machine is idle. My job requires me to be on the phone when I work from home, and people could hear the fan blasting over the phone. So, I tracked down a larger, lower RPM fan to replace the tiny, angry little fan in the Replicator. \r
+\r
+I tried doing a solid mount with a metal bracket, but too much fan vibration was being transferred to the case. The noise was only moderately better. I then tried suspending the fan between 3 zip ties, and that isolated a majority of the noise. You can watch this vid to see a comparison of the original, the direct mount, and the zip tie mount:\r
+\r
+www.youtube.com/watch?v=0A_AMbNscj8&\r
+\r
+Doing this means that you can't have the bottom cover in place. However, fan airflow is greatly increased with this 80mm fan, so the board should run even cooler.\r
+\r
+The installation of the fan meant that the fan would touch the table surface if the normal rubber legs are installed. I removed the rubber legs on the base and replaced them with Bench Dogs, which are normally used in woodworking as anti-slip mats. The double-neoprene coating isolates a lot of the Replicator's movement during printing, making the unit quieter overall. They also add about an inch to the unit's height, allowing ample clearance for the fan.\r
+\r
+As a side note, the small fan appears to be the same one used on the extruders. So, you'll end up with a spare fan as a bonus.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "delsydsoftware" ;
+    okh:repo <https://www.thingiverse.com/thing:29202> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:29202> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Makerbot Replicator Quiet Fan mod 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/4d/34/d6/7a/bf/IMG_1140_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/4d/34/d6/7a/bf/IMG_1140_display_large.jpg> .
+

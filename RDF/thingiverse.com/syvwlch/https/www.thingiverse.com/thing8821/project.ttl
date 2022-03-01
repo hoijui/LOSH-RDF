@@ -1,0 +1,35 @@
+@prefix : <https://www.thingiverse.com/thing%3A8821/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:WormDriveNonthroated a okh:Module ;
+    rdfs:label "Worm Drive, Non-Throated" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Ok, once you have an involute gear library AND a trapezoid thread library, you can easily make the simplest of worm drives, i.e. the non-throated kind.\r
+\r
+Like all worm drives, the gear advances by one tooth for each revolution of the screw but with non-throated ones, there is only a single point of contact at any one time, and so torque and wear capabilities are limited.\r
+\r
+UPDATE:\r
+As I pointed out in the comments, AFAIK a trapezoidal profile for the worm screw is all you need to match the worm gear's involute.\r
+\r
+To make them mesh, all I did was to make sure that:  \r
+1. the pitch is the same (distance from crest to crest),  \r
+2. the pressure angle of the gear is equal to the angle of the sides of the screw profile,  \r
+3. the distance between screw and gear is equal to the gear's radial pitch plus the screw's mid-profile radius, and  \r
+4. the twist on the gear is equal to the gear's pitch radius divided by the screw's mid profile radius, with a sign depending on the screw's handedness.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "syvwlch" ;
+    okh:repo <https://www.thingiverse.com/thing:8821> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:8821> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Worm Drive, Non-Throated 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/f6/c4/a9/fd/61/WormGear-NoThroat-01_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/f6/c4/a9/fd/61/WormGear-NoThroat-01_display_large_display_large.jpg> .
+

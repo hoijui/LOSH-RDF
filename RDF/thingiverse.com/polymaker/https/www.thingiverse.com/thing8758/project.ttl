@@ -1,0 +1,37 @@
+@prefix : <https://www.thingiverse.com/thing%3A8758/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Image2surface a okh:Module ;
+    rdfs:label "image2surface" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Thundercats! Thundercats! Thundercats! HO!!!\r
+\r
+I wrote this script for the sole purpose of making a thundercats stamp, but my prints always sink in on the top layer so it only stamps a patchy outline. Sigh...\r
+\r
+This is a Python script that takes an image and turns it into something like a relief or a stamp. Sorry, it's not magic; it doesn't just convert any 2d image to 3d. It would have no way of knowing what should be popping up out of the image. That being said, sometimes it does work like that, and sometimes you just need to do a little editing first.\r
+\r
+It treats white as the baseline and any color in between white and black should be raised up a height corresponding to the difference from white. Specifying -i (inverse) will treat black as the baseline instead.\r
+\r
+The latest code will always be here (it will always be a work in progress):\r
+https://github.com/brad/image2surface\r
+\r
+Caveats:\r
+-At the moment, I haven't been able to make anything with an image over 200x200 pixels. Anything larger and OpenSCAD crashes when rendering the STL.\r
+-I don't know if this will work with CMYK images, I have only tested with RGB and RGBA.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "polymaker" ;
+    okh:repo <https://www.thingiverse.com/thing:8758> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:8758> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of image2surface 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/97/4d/56/e5/ee/IMG_20110724_085154_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/97/4d/56/e5/ee/IMG_20110724_085154_display_large_display_large.jpg> .
+

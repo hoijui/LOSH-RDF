@@ -1,0 +1,33 @@
+@prefix : <https://www.thingiverse.com/thing%3A16508/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:JohnsonPolyhedra a okh:Module ;
+    rdfs:label "Johnson Polyhedra" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Johnson polyhedra have faces composed of regular polygons: triangles, squares, pentagons,hexagons, octagons and decagons. There are only 92 such polyhedra. Instructions for making paper models are available, but with stl files one could print more durable examples.  
+I recently came across the netlib library of polyhedra at  
+http://netlib.sandia.gov/polyhedra/  
+which includes the Johnson polyhedra.  I was pleased to see that it would be easy to convert the files to openSCAD polyhedron comands. Polyhedron commands are  
+a compact way of describing a polyhedron and, when executed, output an stl file.  
+I wrote a fortran program to convert the files; however a few files had errors. I had corrected most errors with openSCAD's unusual, but marvelous, "thrown together" mode when I was informed that the errors had already been noticed and corrected by George Hart  
+http://www.georgehart.com/virtual-polyhedra/netlib-info.html  
+There is a link on the George Hart page to a set of VRML files which display the Johnson polyhedra with color coded faces. References are also given.  
+Using the corrected files I was able to finish the conversion.  You will find the 92 scad files in Johnson_Scad_Files.zip and the 92 stl files in Johnson_Stl_Files.zip.  
+To get a large version of the polyhedra it is best to print a hollow structure. Five examples of hollow polyhedra stl files are included here together with a sample openSCAD file, hollow_j03.scad.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "pmoews" ;
+    okh:repo <https://www.thingiverse.com/thing:16508> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:16508> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Johnson Polyhedra 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/85/31/e6/b4/a5/polyhedra_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/85/31/e6/b4/a5/polyhedra_display_large_display_large.jpg> .
+

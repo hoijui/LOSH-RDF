@@ -1,0 +1,37 @@
+@prefix : <https://www.thingiverse.com/thing%3A6820/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:OpenscadLeagueGothicFontModule a okh:Module ;
+    rdfs:label "OpenSCAD League Gothic Font Module" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """A smooth font was necessary for a few future projects I'm working on.  A custom dwf file of the lettering could be generated and extruded, but a more generic, reusable method would be preferable.\r
+\r
+Below is an alternate method of embedding lettering into an OpenSCAD project.  The code is based on the bitmap font module (http://www.thingiverse.com/thing:2054).  The fnt_str function parameters map to the 8bit_str module.  The block-size parameter will have no effect on the generated size of the letters, but the other parameters should work as in the bitmap library.  Make sure the "fnt-LeagueGothic" directory is contained within the directory of the project.\r
+\r
+The font used was League Gothic from the League of Moveable Type \r
+(http://www.theleagueofmoveabletype.com/fonts/7-league-gothic)  This font does have variable width, so some of the letters may look out of place.  Manual adjustments have been made in this library, but OpenSCAD's immutable variables makes calculating the proper spacing difficult.  Perhaps a smarter person has a way of pulling this off.\r
+\r
+Other fonts can be adapted to this module.  The Customize.txt file will contain basic instructions for porting new fonts.  As long as individual letters can be exported to dxf files, they can be easily used.\r
+\r
+This design has not been printed, so there may be problems with some of the finer details in the font.\r
+\r
+Make sure to check out the Numbered OpenSCAD Ruler at http://www.thingiverse.com/thing:6823.  It certainly is my default ruler in OpenSCAD.\r
+\r
+Update:  Version 20110403 of OpenScad is having problems with the blackslash.  The OpenSCADFont-Version20110403.zip contains updated code to remove that character.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "avrgeek" ;
+    okh:repo <https://www.thingiverse.com/thing:6820> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:6820> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of OpenSCAD League Gothic Font Module 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/cc/22/8d/69/6c/OpenScadFont-Example_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/cc/22/8d/69/6c/OpenScadFont-Example_display_large_display_large.jpg> .
+

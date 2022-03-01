@@ -1,0 +1,31 @@
+@prefix : <https://www.thingiverse.com/thing%3A11963/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Rubik5professorCubeSolverRobot a okh:Module ;
+    rdfs:label "Rubik5 (Professor) Cube Solver Robot" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """A while ago I wrote a program to read and solve the Professor version (5x5x5) of the Rubik's cube.\r
+I then decided to build a robot to actually do the reading and the moving...\r
+\r
+My first prototype was built in plywood, but then I decided I wanted to build something that was less prone to defects , so I got my first Makerbot, redesigned most of the components, and started printing!\r
+\r
+This is  an ongoing project, and I still have my plywood components working, waiting to be replaced by their ABS counterparts.\r
+\r
+The electronics is based on an Arduino that reads the input from an external PC where the Solver software runs; it then drives the 12 servos that manipulate the Cube.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "gcaglion" ;
+    okh:repo <https://www.thingiverse.com/thing:11963> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:11963> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Rubik5 (Professor) Cube Solver Robot 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/b8/81/3a/ba/77/Rubik5Solver_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/b8/81/3a/ba/77/Rubik5Solver_display_large_display_large.jpg> .
+

@@ -1,0 +1,53 @@
+@prefix : <https://www.thingiverse.com/thing%3A7656/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Spherebot a okh:Module ;
+    rdfs:label "SphereBot" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Eastern is coming and I'll be visited by dear friends and their children. \r
+So I need some Easter attraction for them :)\r
+\r
+The SphereBot can plot images on spherical objects like table tennis balls, golf balls, eggs etc.\r
+It is inspired by the original EggBot by EvilMadScientist, but built from 2 old stepper motors and some steel rods (all cannibalized from old flatbed scanners), some MDF and plywood and a few 3d printed parts (printed with my MakerBot Cupcake).\r
+\r
+The electronics are simply an Arduino and two Polulu A4983 stepper motor drivers (on the bread board).\r
+\r
+The custom Arduino firmware directly interprets GCode sent over the serial port. So itâ€™s no problem to print GCode from MakerBot Unicorn designs directly on the SphereBot.\r
+Thanks to the excellent Inkscape plugin from Marty McGuire (http://www.thingiverse.com/thing:5986), itâ€™s easily possible to convert all kinds of vector drawings (eps, svg, etc) to printable GCode.\r
+\r
+The firmware is open source and can be found here:\r
+http://pleasantsoftware.com/developer/3d/spherebot/\r
+\r
+A video of the SphereBot in action is available on YouTube:\r
+http://www.youtube.com/watch?v=v8KnW9AQ10E\r
+\r
+[Update 04/09/2011]\r
+Meanwhile I drew plans for the wooden parts (left & right side and the X-axis stepper motor retainer plate). See \r
+SphereBotWoodenParts.pdf below.\r
+\r
+[Update 04/10/2011]\r
+I just uploaded STL and SCad files for the printed parts.\r
+\r
+[Update 04/11/2011]\r
+The SphereBotSender GUI is now also available in a Processing implementation, i.e. it runs on Mac OS X, Windows and Linux.\r
+See 'SphereBotSenderBinaries.zip' below.\r
+\r
+The Sources are available on GitHub, \r
+see http://pleasantsoftware.com/developer/3d/spherebot/ for the links.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "Zaggo" ;
+    okh:repo <https://www.thingiverse.com/thing:7656> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:7656> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of SphereBot 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/5b/0d/b8/78/1e/SphereBot_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/5b/0d/b8/78/1e/SphereBot_display_large_display_large.jpg> .
+

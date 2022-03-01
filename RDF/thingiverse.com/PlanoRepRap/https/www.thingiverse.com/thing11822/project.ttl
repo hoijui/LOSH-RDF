@@ -1,0 +1,30 @@
+@prefix : <https://www.thingiverse.com/thing%3A11822/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:HandCrank a okh:Module ;
+    rdfs:label "Hand Crank" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Replacement Hand Crank for a "B&D Workmate" early model.  \r
+My workmate was bought in the 1980's and is almost 100% metal with a wood top. It is similar to the Black & Decker 21321 model or WM425.  The swivel-clamp-pegs and the hand cranks are plastic.  \r
+One of my hand cranks broke and epoxy didn't fix it so I took the measurements and designed a replacement.\r
+\r
+The replacement I designed now has a double handle but it's easy to delete the second crank from the OpenScad file if you want it more like the original.  I believe the double crank will give better leverage to really tighten the clamp and loosen it again.\r
+\r
+I also thickened up the crank and head quite a bit, and added some reinforcement since a printed part isn't as durable as a molded part.  The critical dimensions should be the same. The angles are changed to make it easier to print but that shouldn't matter much.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "PlanoRepRap" ;
+    okh:repo <https://www.thingiverse.com/thing:11822> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:11822> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Hand Crank 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/b7/38/0b/cb/49/workmate_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/b7/38/0b/cb/49/workmate_display_large_display_large.jpg> .
+

@@ -1,24 +1,25 @@
-@prefix : <https://wikifactory.com/+OttoDIY/bender-arms/45f967dbb1a278c1dafa9f2c1907e679f3163fee/> .
+@prefix : <https://wikifactory.com/%2BOttoDIY/bender-arms/45f967dbb1a278c1dafa9f2c1907e679f3163fee/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 :BenderArms a okh:Module ;
     rdfs:label "Bender ARMS" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "Robot Otto Bender with arms By Oscar Rodriguez aka. RedxvbFunny Robot Bender based on The Open Source Robot +OttoDIY" ;
-    okh:hasComponent :6vdiypowerbank,
-        :Antena,
-        :Boca,
-        :Gafas,
-        :Leftottohand,
-        :Ottoarmsv4,
-        :Ottobodyv4,
-        :Ottobodyv4matrix,
-        :Ottofeet,
-        :Ottoheadbender,
-        :Ottoleg,
-        :Puro,
-        :Rightottohand ;
+    okh:hasComponent :3d6vdiypowerbank,
+        :3dantena,
+        :3dboca,
+        :3dgafas,
+        :3dleftottohand,
+        :3dottoarmsv4,
+        :3dottobodyv4,
+        :3dottobodyv4matrix,
+        :3dottofeet,
+        :3dottoheadbender,
+        :3dottoleg,
+        :3dpuro,
+        :3drightottohand ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "Camilo Parra Palacio" ;
@@ -27,60 +28,178 @@
     okh:repo <https://wikifactory.com/+OttoDIY/bender-arms> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
     okh:version "45f967dbb1a278c1dafa9f2c1907e679f3163fee" ;
     okh:versionOf <https://wikifactory.com/+OttoDIY/bender-arms> .
 
-:6vdiypowerbank a okh:Part ;
-    rdfs:label "6V_DIY_Power_Bank" ;
+:3d6vdiypowerbank a okh:Part ;
+    rdfs:label "3D/6V_DIY_Power_Bank" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Camilo Parra Palacio" ;
-    okh:source :6vdiypowerbank_source ;
+    okh:source :3d6vdiypowerbank_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:6vdiypowerbank_source a okh:SourceFile ;
-    rdfs:label "Source File of 6V_DIY_Power_Bank of Bender ARMS 45f967dbb1a278c1dafa9f2c1907e679f3163fee" ;
+:3d6vdiypowerbank_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D/6V_DIY_Power_Bank of Bender ARMS 45f967dbb1a278c1dafa9f2c1907e679f3163fee" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/16597/6vdiypowerbank.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToxOTYzMjM=> .
 
-:Antena a okh:Part ;
-    rdfs:label "antena" ;
+:3dantena a okh:Part ;
+    rdfs:label "3D/antena" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Antena_source ;
+    okh:source :3dantena_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Antena_source a okh:SourceFile ;
-    rdfs:label "Source File of antena of Bender ARMS 45f967dbb1a278c1dafa9f2c1907e679f3163fee" ;
+:3dantena_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D/antena of Bender ARMS 45f967dbb1a278c1dafa9f2c1907e679f3163fee" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/16597/antena.STL> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToxOTYzMjI=> .
 
-:Boca a okh:Part ;
-    rdfs:label "boca" ;
+:3dboca a okh:Part ;
+    rdfs:label "3D/boca" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Boca_source ;
+    okh:source :3dboca_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Boca_source a okh:SourceFile ;
-    rdfs:label "Source File of boca of Bender ARMS 45f967dbb1a278c1dafa9f2c1907e679f3163fee" ;
+:3dboca_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D/boca of Bender ARMS 45f967dbb1a278c1dafa9f2c1907e679f3163fee" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/16597/boca.STL> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToxOTYzMjE=> .
 
-:Gafas a okh:Part ;
-    rdfs:label "gafas" ;
+:3dgafas a okh:Part ;
+    rdfs:label "3D/gafas" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Gafas_source ;
+    okh:source :3dgafas_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Gafas_source a okh:SourceFile ;
-    rdfs:label "Source File of gafas of Bender ARMS 45f967dbb1a278c1dafa9f2c1907e679f3163fee" ;
+:3dgafas_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D/gafas of Bender ARMS 45f967dbb1a278c1dafa9f2c1907e679f3163fee" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/16597/gafas.STL> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToxOTYzMjA=> .
+
+:3dleftottohand a okh:Part ;
+    rdfs:label "3D/left_Ottohand" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dleftottohand_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dleftottohand_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D/left_Ottohand of Bender ARMS 45f967dbb1a278c1dafa9f2c1907e679f3163fee" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/16597/leftottohand.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxOTYzMTk=> .
+
+:3dottoarmsv4 a okh:Part ;
+    rdfs:label "3D/Otto_arms_v.4" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dottoarmsv4_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dottoarmsv4_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D/Otto_arms_v.4 of Bender ARMS 45f967dbb1a278c1dafa9f2c1907e679f3163fee" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/16597/ottoarmsv4.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxOTYzMTU=> .
+
+:3dottobodyv4 a okh:Part ;
+    rdfs:label "3D/Ottobody_v.4" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dottobodyv4_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dottobodyv4_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D/Ottobody_v.4 of Bender ARMS 45f967dbb1a278c1dafa9f2c1907e679f3163fee" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/16597/ottobodyv4.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxOTYzMTQ=> .
+
+:3dottobodyv4matrix a okh:Part ;
+    rdfs:label "3D/Ottobody_v.4_matrix" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dottobodyv4matrix_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dottobodyv4matrix_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D/Ottobody_v.4_matrix of Bender ARMS 45f967dbb1a278c1dafa9f2c1907e679f3163fee" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/16597/ottobodyv4matrix.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxOTYzMTM=> .
+
+:3dottofeet a okh:Part ;
+    rdfs:label "3D/otto_feet" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dottofeet_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dottofeet_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D/otto_feet of Bender ARMS 45f967dbb1a278c1dafa9f2c1907e679f3163fee" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/16597/ottofeet.STL> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxOTYzMTg=> .
+
+:3dottoheadbender a okh:Part ;
+    rdfs:label "3D/otto_head_bender" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dottoheadbender_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dottoheadbender_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D/otto_head_bender of Bender ARMS 45f967dbb1a278c1dafa9f2c1907e679f3163fee" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/16597/ottoheadbender.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxOTYzMTc=> .
+
+:3dottoleg a okh:Part ;
+    rdfs:label "3D/otto_leg" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dottoleg_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dottoleg_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D/otto_leg of Bender ARMS 45f967dbb1a278c1dafa9f2c1907e679f3163fee" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/16597/ottoleg.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxOTYzMTY=> .
+
+:3dpuro a okh:Part ;
+    rdfs:label "3D/puro" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dpuro_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dpuro_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D/puro of Bender ARMS 45f967dbb1a278c1dafa9f2c1907e679f3163fee" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/16597/puro.STL> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxOTYzMTI=> .
+
+:3drightottohand a okh:Part ;
+    rdfs:label "3D/right_Ottohand" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3drightottohand_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3drightottohand_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D/right_Ottohand of Bender ARMS 45f967dbb1a278c1dafa9f2c1907e679f3163fee" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/16597/rightottohand.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxOTYzMTE=> .
 
 :Image a okh:Image ;
     rdfs:label "Image of Bender ARMS 45f967dbb1a278c1dafa9f2c1907e679f3163fee" ;
@@ -88,126 +207,9 @@
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/16597/23b1981bfaa9cac03d4620df451b28f5previewfeatured.jpg> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToxOTYzMDY=> .
 
-:Leftottohand a okh:Part ;
-    rdfs:label "left_Ottohand" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Leftottohand_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Leftottohand_source a okh:SourceFile ;
-    rdfs:label "Source File of left_Ottohand of Bender ARMS 45f967dbb1a278c1dafa9f2c1907e679f3163fee" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/16597/leftottohand.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxOTYzMTk=> .
-
-:Ottoarmsv4 a okh:Part ;
-    rdfs:label "Otto_arms_v.4" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Ottoarmsv4_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Ottoarmsv4_source a okh:SourceFile ;
-    rdfs:label "Source File of Otto_arms_v.4 of Bender ARMS 45f967dbb1a278c1dafa9f2c1907e679f3163fee" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/16597/ottoarmsv4.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxOTYzMTU=> .
-
-:Ottobodyv4 a okh:Part ;
-    rdfs:label "Ottobody_v.4" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Ottobodyv4_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Ottobodyv4_source a okh:SourceFile ;
-    rdfs:label "Source File of Ottobody_v.4 of Bender ARMS 45f967dbb1a278c1dafa9f2c1907e679f3163fee" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/16597/ottobodyv4.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxOTYzMTQ=> .
-
-:Ottobodyv4matrix a okh:Part ;
-    rdfs:label "Ottobody_v.4_matrix" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Ottobodyv4matrix_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Ottobodyv4matrix_source a okh:SourceFile ;
-    rdfs:label "Source File of Ottobody_v.4_matrix of Bender ARMS 45f967dbb1a278c1dafa9f2c1907e679f3163fee" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/16597/ottobodyv4matrix.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxOTYzMTM=> .
-
-:Ottofeet a okh:Part ;
-    rdfs:label "otto_feet" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Ottofeet_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Ottofeet_source a okh:SourceFile ;
-    rdfs:label "Source File of otto_feet of Bender ARMS 45f967dbb1a278c1dafa9f2c1907e679f3163fee" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/16597/ottofeet.STL> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxOTYzMTg=> .
-
-:Ottoheadbender a okh:Part ;
-    rdfs:label "otto_head_bender" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Ottoheadbender_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Ottoheadbender_source a okh:SourceFile ;
-    rdfs:label "Source File of otto_head_bender of Bender ARMS 45f967dbb1a278c1dafa9f2c1907e679f3163fee" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/16597/ottoheadbender.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxOTYzMTc=> .
-
-:Ottoleg a okh:Part ;
-    rdfs:label "otto_leg" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Ottoleg_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Ottoleg_source a okh:SourceFile ;
-    rdfs:label "Source File of otto_leg of Bender ARMS 45f967dbb1a278c1dafa9f2c1907e679f3163fee" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/16597/ottoleg.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxOTYzMTY=> .
-
-:Puro a okh:Part ;
-    rdfs:label "puro" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Puro_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Puro_source a okh:SourceFile ;
-    rdfs:label "Source File of puro of Bender ARMS 45f967dbb1a278c1dafa9f2c1907e679f3163fee" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/16597/puro.STL> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxOTYzMTI=> .
-
 :Readme a okh:Readme ;
     rdfs:label "Readme of Bender ARMS 45f967dbb1a278c1dafa9f2c1907e679f3163fee" ;
     okh:fileFormat "MD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/16597/readme-5aa3f.md> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToyMTE0NTU=> .
-
-:Rightottohand a okh:Part ;
-    rdfs:label "right_Ottohand" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Rightottohand_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Rightottohand_source a okh:SourceFile ;
-    rdfs:label "Source File of right_Ottohand of Bender ARMS 45f967dbb1a278c1dafa9f2c1907e679f3163fee" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/16597/rightottohand.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxOTYzMTE=> .
 

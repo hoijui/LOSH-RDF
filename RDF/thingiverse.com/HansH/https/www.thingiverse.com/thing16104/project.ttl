@@ -1,0 +1,53 @@
+@prefix : <https://www.thingiverse.com/thing%3A16104/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:RaspberryPiCase a okh:Module ;
+    rdfs:label "Raspberry Pi case" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """The Raspberry  Pi is a creditcard sized computer which you can buy for $25 or $35 (depending which version)\r
+\r
+Never designed a case before, so perhaps things can be better...\r
+\r
+......\r
+\r
+v11 Different splitlevel (more simple) on backside\r
+     keep a little margin on back split, so that top and bottom always fit\r
+     added openlogo option\r
+     added pcbholder option\r
+     changed support studs a bit\r
+     changed dimensions to 85.0 x 56.20\r
+\r
+v12 Different component locations/sizes\r
+     keep a little margin on component holes\r
+     pcbsize to 57.0 x 86.0   (actual it is 56.17 x 85.0)\r
+     made casestuds wider and added 2 minor holes for self tapping screws\r
+\r
+v14 Got a RPI.. so production board measurements...\r
+\r
+v15 moved the rca and snd a bit to get them more centered\r
+     Thanks to lincomatic at Thingiverse\r
+     Added option for GPIO side hole in bottom or top\r
+     Added showing GPIO pins with component drawing\r
+\r
+If it fits or doesn't, please let me know.. \r
+\r
+The bottomholder_frame.stl is a standlone minimal frame for a RPi.\r
+All the other bottom_xxx and top_xxx.stl files can be combined.\r
+If you want something specific just take the openscad file and alter it, or just ask...""" ;
+    okh:hasImage :Image ;
+    okh:licensor "HansH" ;
+    okh:repo <https://www.thingiverse.com/thing:16104> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:16104> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Raspberry Pi case 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/d0/b3/1e/1d/c8/picase_v11_1_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/d0/b3/1e/1d/c8/picase_v11_1_display_large_display_large.jpg> .
+

@@ -1,0 +1,64 @@
+@prefix : <https://www.thingiverse.com/thing%3A12584/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Ramps13Case a okh:Module ;
+    rdfs:label "RAMPS 1.3 case" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Yet another case for the electronics.\r
+\r
+Please note that this is a work in progress.\r
+\r
+My take on this will be a screw-less assembly with optional mount for a fan.\r
+\r
+I will try to make it as parametric as possible.\r
+\r
+2011-10-20:\r
+\r
+I decided to upload the models done so far even though I have not yet verified printing them.\r
+Images of the parts will be uploaded as I have verified prints.\r
+\r
+I have yet to figure out a good way to design the top of the case.\r
+I want it to have openings for the stepper/term/endstop contacts so that they can be connected without opening the case but I'm not sure that will be easy to print as a single part. Suggestions welcome.\r
+\r
+Files intended for printing:\r
+bottom.scad : The bottom part of the case.\r
+sides.scad : The sides of the case.\r
+printer_mount.scad : The MakerGear Prusa Mendel mount.\r
+\r
+Files used by the printable models:\r
+parameters.scad : The parameters for the case. Used by all files.\r
+ramps.scad : Layout of the electronics and used for alignment and cut-outs on the sides. Used in sides.scad\r
+grid.scad : Helper module for creating a grid pattern. Used in bottom.scad and printer_mount.scad.\r
+\r
+Other files:\r
+case.scad : The composite case. Mostly for illustration and alignment verification.\r
+\r
+2011-10-24:\r
+\r
+Uploaded images of my first print and updated models somewhat due to alignment.\r
+Changes to the models include\r
+ * positions and dimensions of the electronics\r
+ * positions of the arduino mount plugs\r
+ * dimension bottom part mount interface\r
+ * corner plug hole height\r
+I had to widen the hole for the arduino USB contact as I was not able to slide the electronics into place.\r
+The cross shaped opening on the bottom part had to be widened as it was not possible to attach the bottom part to the printer mount.\r
+The corner plugs were too high to fit into the corner holes.\r
+The plugs for the arduino board turned out too thin as they broke off - I will probably drill holes for nut-and-bolts.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "tJa" ;
+    okh:repo <https://www.thingiverse.com/thing:12584> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:12584> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of RAMPS 1.3 case 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/65/16/49/38/54/IMG_0946_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/65/16/49/38/54/IMG_0946_display_large_display_large.jpg> .
+

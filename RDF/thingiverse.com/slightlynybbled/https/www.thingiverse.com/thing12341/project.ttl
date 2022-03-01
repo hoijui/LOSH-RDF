@@ -1,0 +1,43 @@
+@prefix : <https://www.thingiverse.com/thing%3A12341/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:StrainReliefHbpCable a okh:Module ;
+    rdfs:label "Strain Relief HBP Cable" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Had an interesting problem.  Details of problem and solution at: http://wiki.makerbot.com/forum/t-398964/hbp-weird-problem\r
+\r
+The Problem: During builds, the individual wires of the HBP cable are flexed at the point of entry into the pin contact.  This causes fatigue and, eventually, failure.\r
+\r
+The Symptoms: Your HBP works erratically or not at all.  Your control panel may report a HBP temperature of 1024 (this is a built-in error code).\r
+\r
+The Fix: Solder your contacts (beyond the scope of this part, may not be necessary if you haven't yet fatigued your wires), install a strain relief (instructions below).  Fast and easy to install, fast and easy to remove!  This part holds your wires very firmly!\r
+\r
+What I Need from You:\r
+- I had started my MkB with the ABP, but quickly moved to HBP as the belt started wearing pretty quickly and I just don't want to deal with that.  I strongly suspect that this part is compatible with the ABP, but I'm not sure.  Could someone check this out?\r
+- I also do not own a CupCake.  If this works with the CupCake, let me know so that I can post it here!\r
+\r
+Additional Notes:\r
+- My HBP is raised slightly to make leveling easier (I just find it easier this way).  The part should fit on most machines, but if there is an issue, feel free to post the fix.\r
+- SolidWorks 2011 file attached.  The zip-tie cutouts can easily be edited by looking in the feature tree.  The cutout features have been named.  Other features can easily be edited as well, but there wasn't any effort to point out the locations within the feature tree.  Feel free to request changes.  I make an effort to make the parts highly modifiable.\r
+\r
+Image descriptions:\r
+- Final part is printed while the first-run prototype is still in place.\r
+- Strain relief installed and functional\r
+- SolidWorks screenshot (it is difficult to see the real form in the actual pictures)""" ;
+    okh:hasImage :Image ;
+    okh:licensor "slightlynybbled" ;
+    okh:repo <https://www.thingiverse.com/thing:12341> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:12341> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Strain Relief HBP Cable 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/1b/ce/83/2b/a0/100_3917_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/1b/ce/83/2b/a0/100_3917_display_large_display_large.jpg> .
+

@@ -1,0 +1,47 @@
+@prefix : <https://github.com/BCN3D/BCN3D-Moveo/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Bcn3dMoveo a okh:Module ;
+    rdfs:label "BCN3D MOVEO" ;
+    okh:cpcPatentClass "G01S" ;
+    okh:dataSource "github.com" ;
+    okh:documentationLanguage "en-GB" ;
+    okh:function "BCN3D Moveo is a robotic arm design from scratch. The structure is fully printed using additive manufacturing technologies and its electronics are controlled by the software Arduino." ;
+    okh:hasBoM :BillOfMaterials ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:hasUserManual :UserManual ;
+    okh:licensor "Marc Cobler" ;
+    okh:repo <https://github.com/BCN3D/BCN3D-Moveo> ;
+    okh:repoHost "github.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/MIT> ;
+    okh:tsdc "ASM" ;
+    okh:uploadMethod "manifest" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://github.com/BCN3D/BCN3D-Moveo> .
+
+:BillOfMaterials a okh:BoM ;
+    rdfs:label "BillOfMaterials of BCN3D MOVEO 1.0.0" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://raw.githubusercontent.com/BCN3D/BCN3D-Moveo/v1.0.0/BOM/BCN3D%20Moveo%20BOM.pdf> ;
+    okh:permaURL <https://raw.githubusercontent.com/BCN3D/BCN3D-Moveo/v1.0.0/BOM/BCN3D%20Moveo%20BOM.pdf> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of BCN3D MOVEO 1.0.0" ;
+    okh:fileFormat "" ;
+    okh:fileUrl <https://hackaday.io/project/3800/gallery#0d60dfdaa7ffd6779c8ee747ad0b1d9b> ;
+    okh:permaURL <https://hackaday.io/project/3800/gallery#0d60dfdaa7ffd6779c8ee747ad0b1d9b> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of BCN3D MOVEO 1.0.0" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://raw.githubusercontent.com/BCN3D/BCN3D-Moveo/v1.0.0/manifest_files/manually-created/GSCOP_documentation_projects/README.md> ;
+    okh:permaURL <https://raw.githubusercontent.com/BCN3D/BCN3D-Moveo/v1.0.0/manifest_files/manually-created/GSCOP_documentation_projects/README.md> .
+
+:UserManual a okh:UserManual ;
+    rdfs:label "UserManual of BCN3D MOVEO 1.0.0" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://raw.githubusercontent.com/BCN3D/BCN3D-Moveo/v1.0.0/USER%20MANUAL/User%20Manual%20BCN3D%20Moveo.pdf> ;
+    okh:permaURL <https://raw.githubusercontent.com/BCN3D/BCN3D-Moveo/v1.0.0/USER%20MANUAL/User%20Manual%20BCN3D%20Moveo.pdf> .
+

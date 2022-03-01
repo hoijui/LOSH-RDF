@@ -1,0 +1,38 @@
+@prefix : <https://www.thingiverse.com/thing%3A7311/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Ad597ThermocoupleAmplifierCarrier a okh:Module ;
+    rdfs:label "AD597 thermocouple amplifier carrier" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is the Ultimaker temperature sensor (version 1) that is based on the AD597. It amplifies the signal from a type K thermocouple and has the same mV/K output as the polular AD595 board that is used in many RepRap projects. It's about the size of a thumbnail (hence the out-of-focus picture). The amp chip is an SOT-8. The screw terminals are extra small (2.54 mm pitch) and holes are M3.\r
+\r
+They were designed in Eagle CAD by Siert Wijnia and myself. \r
+\r
+The files are found here on the RepRap wiki:\r
+http://www.reprap.org/wiki/File:Thermocouple_board_v0.4.sch\r
+http://www.reprap.org/wiki/File:Thermocouple_board_v0.4.brd\r
+\r
+It has a nice bright blue LED, great for long exposure photography of a print (for moving head machines). The picture with the lit LED is a prototype made with the help of Jelle, who's also designer of the UltiRouter: http://www.thingiverse.com/thing:7110\r
+\r
+Separate sensor boards (pre-assembled) will be available within a month or two. On request we can also offer the PCBs in quantities of 20 and more.\r
+\r
+FIXES in the next release:\r
+- A ground plane!\r
+- Pads on the other side so you can decide where to mount the terminals or headers.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "Erik" ;
+    okh:repo <https://www.thingiverse.com/thing:7311> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:7311> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of AD597 thermocouple amplifier carrier 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/7e/10/ce/ee/52/300px-TC1_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/7e/10/ce/ee/52/300px-TC1_display_large_display_large.jpg> .
+

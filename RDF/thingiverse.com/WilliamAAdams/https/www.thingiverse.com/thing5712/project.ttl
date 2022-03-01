@@ -1,0 +1,38 @@
+@prefix : <https://www.thingiverse.com/thing%3A5712/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:YazzoCubot a okh:Module ;
+    rdfs:label "Yazzo Cubot" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Now that I have modeled almost all the little bits and pieces, here is the Yazzo Cubot.  The design goals are; low part count, low number of different types of parts, as printable as possible, materials sourced from local hardware stores, minimal amount of time to assemble.\r
+\r
+This thing is a endoskeletal bot frame.  The OpenScad file would allow you to choose any size for the "control" area and the "hot" area.\r
+\r
+The basic design has a linear slide in the z axis, and in the X-axis.  The z-axis slide can take cantilever arms, or whatever you wantto put there.  The x-axis could carry another slide in the y-axis for a MakerBot style of bot.\r
+\r
+By default, this design uses 5/16" threaded and smooth rods.  But, since those are just parameters in the design, they can be changed to whatever you want.\r
+\r
+Last parts I need to add are the motor mounts that will drive the slides, and the actual carriages that will ride on the slides.\r
+\r
+The control area is meant to house your power supply, motor drivers, and extrusion control, leaving a minimum number of external components.\r
+\r
+Since it is an endoskeleton, it can be skinned.  The easiest way is to take some panels, cut them to size, drill some holes along their edges, and use zip ties to pull them tight to the threaded rods. This will add some structural stiffness, and allow you to decorate your bot in many different ways.\r
+\r
+The OpenScad file may also be an interesting study aid for those who are trying to learn how to use it to form simple objects.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "WilliamAAdams" ;
+    okh:repo <https://www.thingiverse.com/thing:5712> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:5712> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Yazzo Cubot 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/85/48/ac/b7/66/DSC00399_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/85/48/ac/b7/66/DSC00399_display_large_display_large.jpg> .
+

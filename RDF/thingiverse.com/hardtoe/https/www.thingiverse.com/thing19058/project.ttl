@@ -1,0 +1,37 @@
+@prefix : <https://www.thingiverse.com/thing%3A19058/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:HardtoesPrintableMendelFrame a okh:Module ;
+    rdfs:label "Hardtoe's Printable Mendel Frame" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is a modification to the Prusa Mendel that eliminates the following vitamins: 6 threaded rods, 28 M8 nuts, 32 M8 washers, 4 M3 bolts, 4 M3 nuts and 4 M3 washers.\r
+\r
+This reduction is due to the triangles of the Prusa Mendel being fully printed.  Since the build area of a Mendel is 200x200 mm, the frame pieces are friction-fit together, no tools or vitamins are necessary.  \r
+\r
+Since plastic is not as rigid as threaded rod, the z-motor mount has been integrated into the top vertices along with extra support.\r
+\r
+This consumes much more plastic than a regular Prusa.  It should cost less due to less vitamins, but the print time may end up negating the economy.  It's also unclear how well the design will hold up to wobble on the x-axis.\r
+\r
+An entire printer minus the extruder can be printed with four plates.  Not sure what the print time is...but it will be very long.  Each plate uses nearly all of the available 200x200 mm build space of a Mendel.\r
+\r
+The following sources were used for models:\r
+https://github.com/prusajr/PrusaMendel\r
+http://www.thingiverse.com/thing:11838\r
+Parametric frame vertex by Matthew Roberts - vertex.scad""" ;
+    okh:hasImage :Image ;
+    okh:licensor "hardtoe" ;
+    okh:repo <https://www.thingiverse.com/thing:19058> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:19058> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Hardtoe's Printable Mendel Frame 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://thingiverse-rerender-new.s3.amazonaws.com/renders/59/9b/ea/72/6f/topVertexWithBrace_display_large.jpg> ;
+    okh:permaURL <https://thingiverse-rerender-new.s3.amazonaws.com/renders/59/9b/ea/72/6f/topVertexWithBrace_display_large.jpg> .
+

@@ -1,0 +1,42 @@
+@prefix : <https://www.thingiverse.com/thing%3A17772/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:FullyParametricPianoKeys a okh:Module ;
+    rdfs:label "Fully Parametric Piano Keys" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """I have a project for which I wanted some piano keys, so I created this OpenSCAD module to create them.  
+
+There's an option to label the note names on all of the white keys, but I don't have a dual extrusion machine available this weekend.  I'll add a picture of labeled keys when I get a chance to print some.  
+
+piano.scad is the module... it uses bitmap.scad to render the note names, if you so wish.  
+
+piano_keys.scad is an example file, which prints one octave of keys, sized to easily fit just about any 3D printer, with an M3 hole at the top to put a rod through to hold them all together.  
+
+Add hardware to the back of them, and you can make this part of all kinds of awesome musical projects!  
+
+Options:  
+* variable # of octaves  
+* black keys/white keys/both  
+* label notes on white keys  
+* variable sizing and spacing  
+
+I design things in my free time, just for fun.  If you like my stuff, send me some DOGE.  It'll totally make my day!  Thank you.  
+   
+D9hPusbPPdbUXgmsRqRcb7jRisVLnriCuP""" ;
+    okh:hasImage :Image ;
+    okh:licensor "IWorkInPixels" ;
+    okh:repo <https://www.thingiverse.com/thing:17772> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:17772> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Fully Parametric Piano Keys 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/73/44/e3/5f/72/IMAG0057_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/73/44/e3/5f/72/IMAG0057_display_large_display_large.jpg> .
+

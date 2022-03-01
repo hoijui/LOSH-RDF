@@ -1,0 +1,31 @@
+@prefix : <https://certification.oshwa.org/se000004.html/1.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:095OledPmod a okh:Module ;
+    rdfs:label "0.95\" OLED PMOD" ;
+    okh:additionalType "['Electronics']" ;
+    okh:certificationDate "2020-05-04T00:00:00-04:00" ;
+    okh:country "Sweden" ;
+    okh:cpcPatentClass "Electronics" ;
+    okh:dataSource "oshwa.org" ;
+    okh:documentationLanguage "en" ;
+    okh:documentationLicense "CC BY-SA" ;
+    okh:function """A tiny color OLED!
+
+Perfect solution if you need a small display with vivid, high-contrast 16-bit color. PMOD connector can be used with FPGA and MCU dev boards
+
+The display itself is a 0.95" color OLED, the resolution is 96x64 RGB pixels.
+
+The display is driven by the SSD1331 IC, you can control it with a 4-wire write-only SPI. The board only supports 3.3V logic.""" ;
+    okh:hardwareLicense "CERN" ;
+    okh:licensor "arturo182" ;
+    okh:primaryType "Other" ;
+    okh:repo <https://certification.oshwa.org/se000004.html> ;
+    okh:repoHost "certification.oshwa.org" ;
+    okh:softwareLicense "No software" ;
+    okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0" ;
+    okh:versionOf <https://certification.oshwa.org/se000004.html> .
+

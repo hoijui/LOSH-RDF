@@ -1,35 +1,36 @@
-@prefix : <https://wikifactory.com/@tokytome/copper-fields/89493446187d47b824fa7f5a76a3efc69a29ae29/> .
+@prefix : <https://wikifactory.com/%40tokytome/copper-fields/89493446187d47b824fa7f5a76a3efc69a29ae29/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 :CopperFields a okh:Module ;
     rdfs:label "Copper Fields" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "Collaborative movement that seeks to make interactions with everyday objects safer by transforming its surfaces." ;
-    okh:hasComponent :Asiacardsleevestickers,
-        :Bandaidstikers,
-        :Bladeholder,
-        :Body,
-        :Coinv3,
-        :Crownv2,
-        :Dice20v2,
-        :Diceunitv2,
-        :Dicev2,
-        :Dixitcardsleevestickers,
-        :FateDiceV2,
-        :Handsstickers,
-        :Lifecoinv1,
-        :Oceanstdcardsleevestickers,
-        :Roundstikers135in,
-        :Roundstikers135inelevator,
-        :Side,
-        :SnapmakerCutHead,
-        :Spotsstickers,
-        :Squarecardsleevestickers,
-        :Squarestikerselevator,
-        :Tokaidocoinv2,
-        :Usacardsleevestickers,
-        :Wondercardsleevestickers ;
+    okh:hasComponent :CoppersDragonsasiacardsleevestickers,
+        :CoppersDragonscoinv3,
+        :CoppersDragonscrownv2,
+        :CoppersDragonsdice20v2,
+        :CoppersDragonsdiceunitv2,
+        :CoppersDragonsdicev2,
+        :CoppersDragonsdixitcardsleevestickers,
+        :CoppersDragonsfateDiceV2,
+        :CoppersDragonslifecoinv1,
+        :CoppersDragonsoceanstdcardsleevestickers,
+        :CoppersDragonssquarecardsleevestickers,
+        :CoppersDragonstokaidocoinv2,
+        :CoppersDragonsusacardsleevestickers,
+        :CoppersDragonswondercardsleevestickers,
+        :CuttingPlotterToolheadbladeholder,
+        :CuttingPlotterToolheadbody,
+        :CuttingPlotterToolheadside,
+        :CuttingPlotterToolheadsnapmakerCutHead,
+        :StreetsOfCopperbandaidstikers,
+        :StreetsOfCopperhandsstickers,
+        :StreetsOfCopperroundstikers135in,
+        :StreetsOfCopperroundstikers135inelevator,
+        :StreetsOfCopperspotsstickers,
+        :StreetsOfCoppersquarestikerselevator ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "Diana Veiga" ;
@@ -37,164 +38,243 @@
     okh:repo <https://wikifactory.com/@tokytome/copper-fields> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
     okh:version "89493446187d47b824fa7f5a76a3efc69a29ae29" ;
     okh:versionOf <https://wikifactory.com/@tokytome/copper-fields> .
 
-:Asiacardsleevestickers a okh:Part ;
-    rdfs:label "Asia_Card_Sleeve_Stickers" ;
+:CoppersDragonsasiacardsleevestickers a okh:Part ;
+    rdfs:label "Coppers & Dragons/Asia_Card_Sleeve_Stickers" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Diana Veiga" ;
-    okh:source :Asiacardsleevestickers_source ;
+    okh:source :CoppersDragonsasiacardsleevestickers_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Asiacardsleevestickers_source a okh:SourceFile ;
-    rdfs:label "Source File of Asia_Card_Sleeve_Stickers of Copper Fields 89493446187d47b824fa7f5a76a3efc69a29ae29" ;
+:CoppersDragonsasiacardsleevestickers_source a okh:SourceFile ;
+    rdfs:label "Source File of Coppers & Dragons/Asia_Card_Sleeve_Stickers of Copper Fields 89493446187d47b824fa7f5a76a3efc69a29ae29" ;
     okh:fileFormat "DXF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/62939/asia_card_sleeve_stickers.dxf> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTozOTg2MjE=> .
 
-:Bandaidstikers a okh:Part ;
-    rdfs:label "band-aid-stikers" ;
+:CoppersDragonscoinv3 a okh:Part ;
+    rdfs:label "Coppers & Dragons/Coin_v3" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Diana Veiga" ;
-    okh:source :Bandaidstikers_source ;
+    okh:source :CoppersDragonscoinv3_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Bandaidstikers_source a okh:SourceFile ;
-    rdfs:label "Source File of band-aid-stikers of Copper Fields 89493446187d47b824fa7f5a76a3efc69a29ae29" ;
-    okh:fileFormat "DXF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/62939/band-aid-stikers.dxf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTk4NDc=> .
-
-:Bladeholder a okh:Part ;
-    rdfs:label "bladeholder" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Diana Veiga" ;
-    okh:source :Bladeholder_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Bladeholder_source a okh:SourceFile ;
-    rdfs:label "Source File of bladeholder of Copper Fields 89493446187d47b824fa7f5a76a3efc69a29ae29" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/62939/bladeholder.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTY5NTU=> .
-
-:Body a okh:Part ;
-    rdfs:label "body" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Diana Veiga" ;
-    okh:source :Body_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Body_source a okh:SourceFile ;
-    rdfs:label "Source File of body of Copper Fields 89493446187d47b824fa7f5a76a3efc69a29ae29" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/62939/body.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTY5NTM=> .
-
-:Coinv3 a okh:Part ;
-    rdfs:label "Coin_v3" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Diana Veiga" ;
-    okh:source :Coinv3_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Coinv3_source a okh:SourceFile ;
-    rdfs:label "Source File of Coin_v3 of Copper Fields 89493446187d47b824fa7f5a76a3efc69a29ae29" ;
+:CoppersDragonscoinv3_source a okh:SourceFile ;
+    rdfs:label "Source File of Coppers & Dragons/Coin_v3 of Copper Fields 89493446187d47b824fa7f5a76a3efc69a29ae29" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/62939/coin_v3.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTozOTcwNTk=> .
 
-:Crownv2 a okh:Part ;
-    rdfs:label "Crown_v2" ;
+:CoppersDragonscrownv2 a okh:Part ;
+    rdfs:label "Coppers & Dragons/Crown_v2" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Diana Veiga" ;
-    okh:source :Crownv2_source ;
+    okh:source :CoppersDragonscrownv2_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Crownv2_source a okh:SourceFile ;
-    rdfs:label "Source File of Crown_v2 of Copper Fields 89493446187d47b824fa7f5a76a3efc69a29ae29" ;
+:CoppersDragonscrownv2_source a okh:SourceFile ;
+    rdfs:label "Source File of Coppers & Dragons/Crown_v2 of Copper Fields 89493446187d47b824fa7f5a76a3efc69a29ae29" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/62939/crown_v2.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTozOTcwNDI=> .
 
-:Dice20v2 a okh:Part ;
-    rdfs:label "Dice20_v2" ;
+:CoppersDragonsdice20v2 a okh:Part ;
+    rdfs:label "Coppers & Dragons/Dice20_v2" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Diana Veiga" ;
-    okh:source :Dice20v2_source ;
+    okh:source :CoppersDragonsdice20v2_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Dice20v2_source a okh:SourceFile ;
-    rdfs:label "Source File of Dice20_v2 of Copper Fields 89493446187d47b824fa7f5a76a3efc69a29ae29" ;
+:CoppersDragonsdice20v2_source a okh:SourceFile ;
+    rdfs:label "Source File of Coppers & Dragons/Dice20_v2 of Copper Fields 89493446187d47b824fa7f5a76a3efc69a29ae29" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/62939/dice20_v2.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTozOTc5MTk=> .
 
-:Diceunitv2 a okh:Part ;
-    rdfs:label "Dice_unit_v2" ;
+:CoppersDragonsdiceunitv2 a okh:Part ;
+    rdfs:label "Coppers & Dragons/Dice_unit_v2" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Diana Veiga" ;
-    okh:source :Diceunitv2_source ;
+    okh:source :CoppersDragonsdiceunitv2_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Diceunitv2_source a okh:SourceFile ;
-    rdfs:label "Source File of Dice_unit_v2 of Copper Fields 89493446187d47b824fa7f5a76a3efc69a29ae29" ;
+:CoppersDragonsdiceunitv2_source a okh:SourceFile ;
+    rdfs:label "Source File of Coppers & Dragons/Dice_unit_v2 of Copper Fields 89493446187d47b824fa7f5a76a3efc69a29ae29" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/62939/dice_unit_v2.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo0MDQ0Mjg=> .
 
-:Dicev2 a okh:Part ;
-    rdfs:label "Dice_v2" ;
+:CoppersDragonsdicev2 a okh:Part ;
+    rdfs:label "Coppers & Dragons/Dice_v2" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Diana Veiga" ;
-    okh:source :Dicev2_source ;
+    okh:source :CoppersDragonsdicev2_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Dicev2_source a okh:SourceFile ;
-    rdfs:label "Source File of Dice_v2 of Copper Fields 89493446187d47b824fa7f5a76a3efc69a29ae29" ;
+:CoppersDragonsdicev2_source a okh:SourceFile ;
+    rdfs:label "Source File of Coppers & Dragons/Dice_v2 of Copper Fields 89493446187d47b824fa7f5a76a3efc69a29ae29" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/62939/dice_v2.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTozOTcwNzY=> .
 
-:Dixitcardsleevestickers a okh:Part ;
-    rdfs:label "Dixit_Card_Sleeve_Stickers" ;
+:CoppersDragonsdixitcardsleevestickers a okh:Part ;
+    rdfs:label "Coppers & Dragons/Dixit_Card_Sleeve_Stickers" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Diana Veiga" ;
-    okh:source :Dixitcardsleevestickers_source ;
+    okh:source :CoppersDragonsdixitcardsleevestickers_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Dixitcardsleevestickers_source a okh:SourceFile ;
-    rdfs:label "Source File of Dixit_Card_Sleeve_Stickers of Copper Fields 89493446187d47b824fa7f5a76a3efc69a29ae29" ;
+:CoppersDragonsdixitcardsleevestickers_source a okh:SourceFile ;
+    rdfs:label "Source File of Coppers & Dragons/Dixit_Card_Sleeve_Stickers of Copper Fields 89493446187d47b824fa7f5a76a3efc69a29ae29" ;
     okh:fileFormat "DXF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/62939/dixit_card_sleeve_stickers.dxf> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTozOTg2Mjg=> .
 
-:FateDiceV2 a okh:Part ;
-    rdfs:label "Fate Dice v2" ;
+:CoppersDragonsfateDiceV2 a okh:Part ;
+    rdfs:label "Coppers & Dragons/Fate Dice v2" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Diana Veiga" ;
-    okh:source :FateDiceV2_source ;
+    okh:source :CoppersDragonsfateDiceV2_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:FateDiceV2_source a okh:SourceFile ;
-    rdfs:label "Source File of Fate Dice v2 of Copper Fields 89493446187d47b824fa7f5a76a3efc69a29ae29" ;
+:CoppersDragonsfateDiceV2_source a okh:SourceFile ;
+    rdfs:label "Source File of Coppers & Dragons/Fate Dice v2 of Copper Fields 89493446187d47b824fa7f5a76a3efc69a29ae29" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/62939/fate_dice_v2.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo0MDQ0MjI=> .
 
-:Handsstickers a okh:Part ;
-    rdfs:label "hands-stickers" ;
+:CoppersDragonslifecoinv1 a okh:Part ;
+    rdfs:label "Coppers & Dragons/Life_coin_v1" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Diana Veiga" ;
-    okh:source :Handsstickers_source ;
+    okh:source :CoppersDragonslifecoinv1_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Handsstickers_source a okh:SourceFile ;
-    rdfs:label "Source File of hands-stickers of Copper Fields 89493446187d47b824fa7f5a76a3efc69a29ae29" ;
+:CoppersDragonslifecoinv1_source a okh:SourceFile ;
+    rdfs:label "Source File of Coppers & Dragons/Life_coin_v1 of Copper Fields 89493446187d47b824fa7f5a76a3efc69a29ae29" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/62939/life_coin_v1.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTcwNDc=> .
+
+:CoppersDragonsoceanstdcardsleevestickers a okh:Part ;
+    rdfs:label "Coppers & Dragons/Ocean_Std_Card_Sleeve_Stickers" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Diana Veiga" ;
+    okh:source :CoppersDragonsoceanstdcardsleevestickers_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:CoppersDragonsoceanstdcardsleevestickers_source a okh:SourceFile ;
+    rdfs:label "Source File of Coppers & Dragons/Ocean_Std_Card_Sleeve_Stickers of Copper Fields 89493446187d47b824fa7f5a76a3efc69a29ae29" ;
     okh:fileFormat "DXF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/62939/hands-stickers.dxf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTk4NDg=> .
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/62939/ocean_std_card_sleeve_stickers.dxf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTg2Mjk=> .
+
+:CoppersDragonssquarecardsleevestickers a okh:Part ;
+    rdfs:label "Coppers & Dragons/Square_Card_Sleeve_Stickers" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Diana Veiga" ;
+    okh:source :CoppersDragonssquarecardsleevestickers_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:CoppersDragonssquarecardsleevestickers_source a okh:SourceFile ;
+    rdfs:label "Source File of Coppers & Dragons/Square_Card_Sleeve_Stickers of Copper Fields 89493446187d47b824fa7f5a76a3efc69a29ae29" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/62939/square_card_sleeve_stickers.dxf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTg2MzE=> .
+
+:CoppersDragonstokaidocoinv2 a okh:Part ;
+    rdfs:label "Coppers & Dragons/Tokaido_coin_v2" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Diana Veiga" ;
+    okh:source :CoppersDragonstokaidocoinv2_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:CoppersDragonstokaidocoinv2_source a okh:SourceFile ;
+    rdfs:label "Source File of Coppers & Dragons/Tokaido_coin_v2 of Copper Fields 89493446187d47b824fa7f5a76a3efc69a29ae29" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/62939/tokaido_coin_v2.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTcwNjQ=> .
+
+:CoppersDragonsusacardsleevestickers a okh:Part ;
+    rdfs:label "Coppers & Dragons/Usa_Card_Sleeve_Stickers" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Diana Veiga" ;
+    okh:source :CoppersDragonsusacardsleevestickers_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:CoppersDragonsusacardsleevestickers_source a okh:SourceFile ;
+    rdfs:label "Source File of Coppers & Dragons/Usa_Card_Sleeve_Stickers of Copper Fields 89493446187d47b824fa7f5a76a3efc69a29ae29" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/62939/usa_card_sleeve_stickers.dxf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTg2MzI=> .
+
+:CoppersDragonswondercardsleevestickers a okh:Part ;
+    rdfs:label "Coppers & Dragons/Wonder_Card_Sleeve_Stickers" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Diana Veiga" ;
+    okh:source :CoppersDragonswondercardsleevestickers_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:CoppersDragonswondercardsleevestickers_source a okh:SourceFile ;
+    rdfs:label "Source File of Coppers & Dragons/Wonder_Card_Sleeve_Stickers of Copper Fields 89493446187d47b824fa7f5a76a3efc69a29ae29" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/62939/wonder_card_sleeve_stickers.dxf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTg2MzM=> .
+
+:CuttingPlotterToolheadbladeholder a okh:Part ;
+    rdfs:label "Cutting Plotter Toolhead/bladeholder" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Diana Veiga" ;
+    okh:source :CuttingPlotterToolheadbladeholder_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:CuttingPlotterToolheadbladeholder_source a okh:SourceFile ;
+    rdfs:label "Source File of Cutting Plotter Toolhead/bladeholder of Copper Fields 89493446187d47b824fa7f5a76a3efc69a29ae29" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/62939/bladeholder.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTY5NTU=> .
+
+:CuttingPlotterToolheadbody a okh:Part ;
+    rdfs:label "Cutting Plotter Toolhead/body" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Diana Veiga" ;
+    okh:source :CuttingPlotterToolheadbody_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:CuttingPlotterToolheadbody_source a okh:SourceFile ;
+    rdfs:label "Source File of Cutting Plotter Toolhead/body of Copper Fields 89493446187d47b824fa7f5a76a3efc69a29ae29" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/62939/body.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTY5NTM=> .
+
+:CuttingPlotterToolheadside a okh:Part ;
+    rdfs:label "Cutting Plotter Toolhead/side" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Diana Veiga" ;
+    okh:source :CuttingPlotterToolheadside_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:CuttingPlotterToolheadside_source a okh:SourceFile ;
+    rdfs:label "Source File of Cutting Plotter Toolhead/side of Copper Fields 89493446187d47b824fa7f5a76a3efc69a29ae29" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/62939/side.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTY5NTQ=> .
+
+:CuttingPlotterToolheadsnapmakerCutHead a okh:Part ;
+    rdfs:label "Cutting Plotter Toolhead/Snapmaker Cut Head" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Diana Veiga" ;
+    okh:source :CuttingPlotterToolheadsnapmakerCutHead_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:CuttingPlotterToolheadsnapmakerCutHead_source a okh:SourceFile ;
+    rdfs:label "Source File of Cutting Plotter Toolhead/Snapmaker Cut Head of Copper Fields 89493446187d47b824fa7f5a76a3efc69a29ae29" ;
+    okh:fileFormat "STEP" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/62939/snapmaker_cut_head-06ce5.step> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTY5Mjg=> .
 
 :Image a okh:Image ;
     rdfs:label "Image of Copper Fields 89493446187d47b824fa7f5a76a3efc69a29ae29" ;
@@ -202,165 +282,87 @@
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/62939/logo.png> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTozOTA5OTA=> .
 
-:Lifecoinv1 a okh:Part ;
-    rdfs:label "Life_coin_v1" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Diana Veiga" ;
-    okh:source :Lifecoinv1_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Lifecoinv1_source a okh:SourceFile ;
-    rdfs:label "Source File of Life_coin_v1 of Copper Fields 89493446187d47b824fa7f5a76a3efc69a29ae29" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/62939/life_coin_v1.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTcwNDc=> .
-
-:Oceanstdcardsleevestickers a okh:Part ;
-    rdfs:label "Ocean_Std_Card_Sleeve_Stickers" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Diana Veiga" ;
-    okh:source :Oceanstdcardsleevestickers_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Oceanstdcardsleevestickers_source a okh:SourceFile ;
-    rdfs:label "Source File of Ocean_Std_Card_Sleeve_Stickers of Copper Fields 89493446187d47b824fa7f5a76a3efc69a29ae29" ;
-    okh:fileFormat "DXF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/62939/ocean_std_card_sleeve_stickers.dxf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTg2Mjk=> .
-
 :Readme a okh:Readme ;
     rdfs:label "Readme of Copper Fields 89493446187d47b824fa7f5a76a3efc69a29ae29" ;
     okh:fileFormat "MD" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/62939/readme-ee86b.md> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo0MDQxNjg=> .
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/62939/readme-28d9d.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0MDQxODg=> .
 
-:Roundstikers135in a okh:Part ;
-    rdfs:label "round-stikers-135in" ;
+:StreetsOfCopperbandaidstikers a okh:Part ;
+    rdfs:label "Streets of Copper/band-aid-stikers" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Diana Veiga" ;
-    okh:source :Roundstikers135in_source ;
+    okh:source :StreetsOfCopperbandaidstikers_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Roundstikers135in_source a okh:SourceFile ;
-    rdfs:label "Source File of round-stikers-135in of Copper Fields 89493446187d47b824fa7f5a76a3efc69a29ae29" ;
+:StreetsOfCopperbandaidstikers_source a okh:SourceFile ;
+    rdfs:label "Source File of Streets of Copper/band-aid-stikers of Copper Fields 89493446187d47b824fa7f5a76a3efc69a29ae29" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/62939/band-aid-stikers.dxf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTk4NDc=> .
+
+:StreetsOfCopperhandsstickers a okh:Part ;
+    rdfs:label "Streets of Copper/hands-stickers" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Diana Veiga" ;
+    okh:source :StreetsOfCopperhandsstickers_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:StreetsOfCopperhandsstickers_source a okh:SourceFile ;
+    rdfs:label "Source File of Streets of Copper/hands-stickers of Copper Fields 89493446187d47b824fa7f5a76a3efc69a29ae29" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/62939/hands-stickers.dxf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTk4NDg=> .
+
+:StreetsOfCopperroundstikers135in a okh:Part ;
+    rdfs:label "Streets of Copper/round-stikers-135in" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Diana Veiga" ;
+    okh:source :StreetsOfCopperroundstikers135in_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:StreetsOfCopperroundstikers135in_source a okh:SourceFile ;
+    rdfs:label "Source File of Streets of Copper/round-stikers-135in of Copper Fields 89493446187d47b824fa7f5a76a3efc69a29ae29" ;
     okh:fileFormat "DXF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/62939/round-stikers-135in.dxf> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTozOTk4NDk=> .
 
-:Roundstikers135inelevator a okh:Part ;
-    rdfs:label "round-stikers-135in-elevator" ;
+:StreetsOfCopperroundstikers135inelevator a okh:Part ;
+    rdfs:label "Streets of Copper/round-stikers-135in-elevator" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Diana Veiga" ;
-    okh:source :Roundstikers135inelevator_source ;
+    okh:source :StreetsOfCopperroundstikers135inelevator_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Roundstikers135inelevator_source a okh:SourceFile ;
-    rdfs:label "Source File of round-stikers-135in-elevator of Copper Fields 89493446187d47b824fa7f5a76a3efc69a29ae29" ;
+:StreetsOfCopperroundstikers135inelevator_source a okh:SourceFile ;
+    rdfs:label "Source File of Streets of Copper/round-stikers-135in-elevator of Copper Fields 89493446187d47b824fa7f5a76a3efc69a29ae29" ;
     okh:fileFormat "DXF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/62939/round-stikers-135in-elevator.dxf> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTozOTk4NTA=> .
 
-:Side a okh:Part ;
-    rdfs:label "side" ;
+:StreetsOfCopperspotsstickers a okh:Part ;
+    rdfs:label "Streets of Copper/spots-stickers" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Diana Veiga" ;
-    okh:source :Side_source ;
+    okh:source :StreetsOfCopperspotsstickers_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Side_source a okh:SourceFile ;
-    rdfs:label "Source File of side of Copper Fields 89493446187d47b824fa7f5a76a3efc69a29ae29" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/62939/side.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTY5NTQ=> .
-
-:SnapmakerCutHead a okh:Part ;
-    rdfs:label "Snapmaker Cut Head" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Diana Veiga" ;
-    okh:source :SnapmakerCutHead_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:SnapmakerCutHead_source a okh:SourceFile ;
-    rdfs:label "Source File of Snapmaker Cut Head of Copper Fields 89493446187d47b824fa7f5a76a3efc69a29ae29" ;
-    okh:fileFormat "STEP" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/62939/snapmaker_cut_head-06ce5.step> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTY5Mjg=> .
-
-:Spotsstickers a okh:Part ;
-    rdfs:label "spots-stickers" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Diana Veiga" ;
-    okh:source :Spotsstickers_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Spotsstickers_source a okh:SourceFile ;
-    rdfs:label "Source File of spots-stickers of Copper Fields 89493446187d47b824fa7f5a76a3efc69a29ae29" ;
+:StreetsOfCopperspotsstickers_source a okh:SourceFile ;
+    rdfs:label "Source File of Streets of Copper/spots-stickers of Copper Fields 89493446187d47b824fa7f5a76a3efc69a29ae29" ;
     okh:fileFormat "DXF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/62939/spots-stickers.dxf> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTozOTk4NTE=> .
 
-:Squarecardsleevestickers a okh:Part ;
-    rdfs:label "Square_Card_Sleeve_Stickers" ;
+:StreetsOfCoppersquarestikerselevator a okh:Part ;
+    rdfs:label "Streets of Copper/square-stikers-elevator" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Diana Veiga" ;
-    okh:source :Squarecardsleevestickers_source ;
+    okh:source :StreetsOfCoppersquarestikerselevator_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Squarecardsleevestickers_source a okh:SourceFile ;
-    rdfs:label "Source File of Square_Card_Sleeve_Stickers of Copper Fields 89493446187d47b824fa7f5a76a3efc69a29ae29" ;
-    okh:fileFormat "DXF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/62939/square_card_sleeve_stickers.dxf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTg2MzE=> .
-
-:Squarestikerselevator a okh:Part ;
-    rdfs:label "square-stikers-elevator" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Diana Veiga" ;
-    okh:source :Squarestikerselevator_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Squarestikerselevator_source a okh:SourceFile ;
-    rdfs:label "Source File of square-stikers-elevator of Copper Fields 89493446187d47b824fa7f5a76a3efc69a29ae29" ;
+:StreetsOfCoppersquarestikerselevator_source a okh:SourceFile ;
+    rdfs:label "Source File of Streets of Copper/square-stikers-elevator of Copper Fields 89493446187d47b824fa7f5a76a3efc69a29ae29" ;
     okh:fileFormat "DXF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/62939/square-stikers-elevator.dxf> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTozOTk4NTI=> .
-
-:Tokaidocoinv2 a okh:Part ;
-    rdfs:label "Tokaido_coin_v2" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Diana Veiga" ;
-    okh:source :Tokaidocoinv2_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Tokaidocoinv2_source a okh:SourceFile ;
-    rdfs:label "Source File of Tokaido_coin_v2 of Copper Fields 89493446187d47b824fa7f5a76a3efc69a29ae29" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/62939/tokaido_coin_v2.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTcwNjQ=> .
-
-:Usacardsleevestickers a okh:Part ;
-    rdfs:label "Usa_Card_Sleeve_Stickers" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Diana Veiga" ;
-    okh:source :Usacardsleevestickers_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Usacardsleevestickers_source a okh:SourceFile ;
-    rdfs:label "Source File of Usa_Card_Sleeve_Stickers of Copper Fields 89493446187d47b824fa7f5a76a3efc69a29ae29" ;
-    okh:fileFormat "DXF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/62939/usa_card_sleeve_stickers.dxf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTg2MzI=> .
-
-:Wondercardsleevestickers a okh:Part ;
-    rdfs:label "Wonder_Card_Sleeve_Stickers" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Diana Veiga" ;
-    okh:source :Wondercardsleevestickers_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Wondercardsleevestickers_source a okh:SourceFile ;
-    rdfs:label "Source File of Wonder_Card_Sleeve_Stickers of Copper Fields 89493446187d47b824fa7f5a76a3efc69a29ae29" ;
-    okh:fileFormat "DXF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/62939/wonder_card_sleeve_stickers.dxf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTg2MzM=> .
 

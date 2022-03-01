@@ -1,0 +1,89 @@
+@prefix : <https://wikifactory.com/%2Buboopenfactory/tocio-alim-modulaire/9f2ab591b7da262a58d086db2aee84642e3a8a4b/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:AlimChargeur3v3Et5v a okh:Module ;
+    rdfs:label "Alim. Chargeur 3V3 et 5V" ;
+    okh:dataSource "wikifactory.com" ;
+    okh:documentationLanguage "fr" ;
+    okh:function "Carte d'alimentation permettant d'utiliser une batterie Lipo 3,7V pour fournir des tensions de sortie de 5V (1A max.) et de 3,3V (0,25A max.) . Elle comporte un chargeur intégré et, selon la version, une surveillance de décharge de la batterie." ;
+    okh:hasComponent :Eagletocioalimentationtp4056v1037v,
+        :Schemaelectrique,
+        :Tocioalimentationtp4056v1037v ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "MARCHAL Laurent" ;
+    okh:organisation "UBO Open Factory" ;
+    okh:release <https://wikifactory.com/+uboopenfactory/tocio-alim-modulaire/v/9f2ab59> ;
+    okh:repo <https://wikifactory.com/+uboopenfactory/tocio-alim-modulaire> ;
+    okh:repoHost "wikifactory.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "9f2ab591b7da262a58d086db2aee84642e3a8a4b" ;
+    okh:versionOf <https://wikifactory.com/+uboopenfactory/tocio-alim-modulaire> .
+
+:Eagletocioalimentationtp4056v1037v a okh:Part ;
+    rdfs:label "Eagle/TOCIO_Alimentation_TP4056_V1.0_3.7V" ;
+    okh:documentationLanguage "fr" ;
+    okh:export :Eagletocioalimentationtp4056v1037v_export1 ;
+    okh:licensor "MARCHAL Laurent" ;
+    okh:source :Eagletocioalimentationtp4056v1037v_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Eagletocioalimentationtp4056v1037v_export1 a okh:ExportFile ;
+    rdfs:label "Export File of Eagle/TOCIO_Alimentation_TP4056_V1.0_3.7V of Alim. Chargeur 3V3 et 5V 9f2ab591b7da262a58d086db2aee84642e3a8a4b" ;
+    okh:fileFormat "SCH" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/86743/tocio_alimentation_tp4056_v10_37v-f540d.sch> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NDg3ODU=> .
+
+:Eagletocioalimentationtp4056v1037v_source a okh:SourceFile ;
+    rdfs:label "Source File of Eagle/TOCIO_Alimentation_TP4056_V1.0_3.7V of Alim. Chargeur 3V3 et 5V 9f2ab591b7da262a58d086db2aee84642e3a8a4b" ;
+    okh:fileFormat "BRD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/86743/tocio_alimentation_tp4056_v10_37v-391a8.brd> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NDg3ODY=> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Alim. Chargeur 3V3 et 5V 9f2ab591b7da262a58d086db2aee84642e3a8a4b" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/86743/photo_presentation.jpg> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NTQxMTE=> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of Alim. Chargeur 3V3 et 5V 9f2ab591b7da262a58d086db2aee84642e3a8a4b" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/86743/readme-21546.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NTQxNTI=> .
+
+:Schemaelectrique a okh:Part ;
+    rdfs:label "schema_electrique" ;
+    okh:documentationLanguage "fr" ;
+    okh:licensor "MARCHAL Laurent" ;
+    okh:source :Schemaelectrique_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Schemaelectrique_source a okh:SourceFile ;
+    rdfs:label "Source File of schema_electrique of Alim. Chargeur 3V3 et 5V 9f2ab591b7da262a58d086db2aee84642e3a8a4b" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/86743/schema_electrique.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NTEzNTA=> .
+
+:Tocioalimentationtp4056v1037v a okh:Part ;
+    rdfs:label "TOCIO_Alimentation_TP4056_V1.0_3.7V" ;
+    okh:documentationLanguage "fr" ;
+    okh:export :Tocioalimentationtp4056v1037v_export1 ;
+    okh:licensor "MARCHAL Laurent" ;
+    okh:source :Tocioalimentationtp4056v1037v_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Tocioalimentationtp4056v1037v_export1 a okh:ExportFile ;
+    rdfs:label "Export File of TOCIO_Alimentation_TP4056_V1.0_3.7V of Alim. Chargeur 3V3 et 5V 9f2ab591b7da262a58d086db2aee84642e3a8a4b" ;
+    okh:fileFormat "SCH" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/86743/tocio_alimentation_tp4056_v10_37v-5745a.sch> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NTE0MDc=> .
+
+:Tocioalimentationtp4056v1037v_source a okh:SourceFile ;
+    rdfs:label "Source File of TOCIO_Alimentation_TP4056_V1.0_3.7V of Alim. Chargeur 3V3 et 5V 9f2ab591b7da262a58d086db2aee84642e3a8a4b" ;
+    okh:fileFormat "BRD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/86743/tocio_alimentation_tp4056_v10_37v-e1abb.brd> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NTE0MDg=> .
+

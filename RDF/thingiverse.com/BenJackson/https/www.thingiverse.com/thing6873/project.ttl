@@ -1,0 +1,38 @@
+@prefix : <https://www.thingiverse.com/thing%3A6873/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:CncEtchasketch a okh:Module ;
+    rdfs:label "CNC Etch-a-Sketch" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """What can I say?  I've never been able to draw anything with an Etch-a-Sketch.  I won this one in a Christmas gift exchange some years ago and hung onto it with the idea that someday I'd CNC it.\r
+\r
+The stepper motors are 7.5 degree Airpax steppers I got surplus many years ago.  It turns out those mounting ears are actually NEMA 23 compatible so this should work unmodified with "square" steppers as well.  The 7.5 degree steps led me to make the most aggressive gear reduction I could fit in the available space.  They take me to about 0.15mm (6 mil) steps with half-stepping.\r
+\r
+The stepper drivers are L297+L298 almost straight out of the appnote.  They're built on a piece of copper clad with a combination of dead-bug and Manhattan prototyping.  I bought all the parts years ago and never got around to etching PCBs.  Those flyback diodes are ridiculously oversized because I didn't know better.\r
+\r
+I chose http://reprap.org/wiki/Teacup_Firmware because of the builtin gcode interpreter.  That saved me from having to integrate with any desktop software.  I ported it to the AT90USBKEY you see in the picture and added support for LUFA-based serial right in the AVR.  (I already had the AT90USBKEY or I would have just bought an Arduino!)\r
+\r
+It easily goes 8000mm/min (which is how fast the pictured spiral was drawn).  Given the torque and the large step size I suspect it could go fast enough to melt the stylus if you cared to.\r
+\r
+The gears (as printed and uploaded) have slightly too much backlash.  The "exact" fit was too tight so I backed off by 1mm which was way too much.  They're derived from http://www.thingiverse.com/thing:5505 .\r
+\r
+The spiral was drawn in Inkscape and converted to gcode for Unicorn with http://www.thingiverse.com/thing:5986 .  I plan to modify that to make more Etch-a-Sketch friendly output.\r
+\r
+Video: http://www.youtube.com/watch?v=6UV05jmrK7k""" ;
+    okh:hasImage :Image ;
+    okh:licensor "BenJackson" ;
+    okh:repo <https://www.thingiverse.com/thing:6873> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:6873> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of CNC Etch-a-Sketch 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/9b/05/15/f5/33/IMG_0549_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/9b/05/15/f5/33/IMG_0549_display_large_display_large.jpg> .
+

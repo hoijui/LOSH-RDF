@@ -1,0 +1,43 @@
+@prefix : <https://www.thingiverse.com/thing%3A11601/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:LinearBearingYAxisCarriageForTom a okh:Module ;
+    rdfs:label "Linear Bearing Y Axis Carriage for ToM" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """ToM Y Axis Carriage for Linear bearings LMB6UU (3/8")\r
+\r
+This is really just a little project that I've been fiddling with over the last few months when I have a moment to spare. \r
+Purely for my own enjoyment (yes, I know, I should get out more), but you are welcome to try if you wish.\r
+I'm sure there are a whole raft of engineers ready to tell me that this is wrong in so many ways and I look forward to being enlightened by their candid observations and everyone's improvements & modifications.\r
+\r
+For anyone who'd like to try it, it really is a work-in-progress and although it works quite happily at 50mm/s feed rate, it is not yet what I would consider finished.\r
+\r
+This version requires an X carriage of its own because I've centred the X pulley. As it sits lower on the rods, it gives you > 126mm on the Z axis,  so you'll need to place your HBP very high to stop the Z stage falling off the lead screw.  (I'll make it ride higher in the next version which will give the stepper more clearance over the bed as well).\r
+\r
+I should have moved the Y limit switch but to save any hassle I added a long arm to the centre section that operates it in its current position.\r
+\r
+I also think the X limit switch should be moved to the side of the carriage to clear the pulley bolt.\r
+\r
+I ended up using 4 bearings although I started out with 3.  The inertia of the motor side is too great for the bearings on the right to stop the carriage twisting, I think I may try moving the motor to the right and go back to 3 in a later version.\r
+\r
+I also intend to move the bearings closer together and remove more material from the base of the carriage to make it lighter.\r
+\r
+\r
+I'll post some photos of it installed when I get a chance.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "MakeALot" ;
+    okh:repo <https://www.thingiverse.com/thing:11601> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:11601> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Linear Bearing Y Axis Carriage for ToM 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/68/f4/c3/dd/fd/035_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/68/f4/c3/dd/fd/035_display_large_display_large.jpg> .
+

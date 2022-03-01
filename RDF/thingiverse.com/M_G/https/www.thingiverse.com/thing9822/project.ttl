@@ -1,0 +1,53 @@
+@prefix : <https://www.thingiverse.com/thing%3A9822/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:BrilliantCutDiamondScript a okh:Module ;
+    rdfs:label "Brilliant Cut Diamond script" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """An attempt to generate a brilliant cut diamond shape based on info describing an ideal cut from http://www.folds.net/diamond_design/index.html\r
+For something more easy to digest, have a look here https://secure.wikimedia.org/wikipedia/en/wiki/Brilliant_%28diamond_cut%29#Facet_proportions_and_names\r
+\r
+Warning: This is just a simplified approximation of a brilliant cut, I am not a jeweller, but this should give you a good idea of size, shape and proportion. Most likely this shape will not print well without well calibrated support.\r
+\r
+My code numbering scheme is as follows\r
+	Version_number < 1.0 not ready to be used by others\r
+	Version_number ==1.0 ready to be used provided you really know what you're doing\r
+	Version_number > 1.0 generally safe for use\r
+\r
+To do:\r
+ - 	adjust the ratios for the extra 24 facets on top\r
+ - 	add ability to scale or specify a variable e.g. use provides height or diameter or carat weight\r
+ - 	Clean up code!\r
+ - 	Make printable\r
+\r
+Changes:\r
+0.4\r
+ - 	discovered relationship between circumscribed circle radii for 8 & 16 sided polygons needed for creating perfect facets along crown and pavillion is SinA+CosATanA where A=(360/16)/2=11.25\r
+ - 	second attempt to add 16 extra facets to crown and pavillion, using above relationship, more successful than previous attempt\r
+ - 	first attempt to add 8 extra facets to crown successful, using above relationship\r
+\r
+0.3\r
+ - 	first attempt to add 16 extra facets to crown and pavillion, somewhat unsuccessful\r
+\r
+0.2\r
+ - 	attempt to add 8 extra facets to crown and pavillion  \r
+\r
+0.1\r
+ - 	First attempt with 8 (9) faceted crown and pavillion on either side of cylindrical girdle""" ;
+    okh:hasImage :Image ;
+    okh:licensor "M_G" ;
+    okh:repo <https://www.thingiverse.com/thing:9822> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:9822> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Brilliant Cut Diamond script 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/43/c3/20/c8/aa/diamondswillmakeitallbetter_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/43/c3/20/c8/aa/diamondswillmakeitallbetter_display_large_display_large.jpg> .
+

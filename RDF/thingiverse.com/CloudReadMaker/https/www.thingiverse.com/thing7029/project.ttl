@@ -1,0 +1,32 @@
+@prefix : <https://www.thingiverse.com/thing%3A7029/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:LedCube4x4x4Frames a okh:Module ;
+    rdfs:label "LED Cube 4x4x4 Frames" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Had this LED Cube I build some time ago piloted by an Arduino.\r
+\r
+Want to make a clean version, so I started by designing a frame to hold the LED's.\r
+\r
+My first OpenSCAD script, tried to make it as parametric as possible.\r
+\r
+This is far from a finished cube, but the grid already comes out nicely.\r
+\r
+The electronics use a MAX 7219 chip, piloted by Arduino, only uses 3! ports from Arduino.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "CloudReadMaker" ;
+    okh:repo <https://www.thingiverse.com/thing:7029> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:7029> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of LED Cube 4x4x4 Frames 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/ac/73/2a/85/75/photo_1_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/ac/73/2a/85/75/photo_1_display_large_display_large.jpg> .
+

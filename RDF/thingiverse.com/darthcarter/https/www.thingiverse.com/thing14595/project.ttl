@@ -1,0 +1,39 @@
+@prefix : <https://www.thingiverse.com/thing%3A14595/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:UpStepperFanMount a okh:Module ;
+    rdfs:label "Up! stepper fan mount" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """The stepper motor that drives the extruder on my Up! gets hot enough that PLA becomes too soft to feed properly through the stepper. This stops me doing all but very small PLA prints.\r
+\r
+The solution I used was to cover the exposed surfaces with small heat sinks, I used these stick on ones:-\r
+\r
+http://www.jaycar.com.au/productView.asp?ID=HH8580&keywords=heatsink&form=KEYWORD. \r
+\r
+To carry the heat away I designed a modified electronics cover and a snap-in brace to hold these 40mm fans:-\r
+\r
+http://www.jaycar.com.au/productView.asp?ID=XC5054&keywords=40mm+fan&form=KEYWORD  \r
+\r
+This a very much a prototype:-\r
+  * The parts aren't robust and break unless treated carefully\r
+  * The model could be much cleaner\r
+  * There's some unnecessary slots from previous ideas\r
+\r
+However, even if some bits do snap the part still generally works, and I can now print models in PLA without the extruder jamming.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "darthcarter" ;
+    okh:repo <https://www.thingiverse.com/thing:14595> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:14595> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Up! stepper fan mount 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/32/91/fc/2a/b7/IMG_20111215_060601_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/32/91/fc/2a/b7/IMG_20111215_060601_display_large_display_large.jpg> .
+

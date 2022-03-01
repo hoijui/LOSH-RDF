@@ -1,0 +1,46 @@
+@prefix : <https://www.thingiverse.com/thing%3A31927/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:TouchProbeForMeasuringDigitizing a okh:Module ;
+    rdfs:label "Touch probe for measuring / digitizing" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """__I moved! All the files are now here:__  
+
+https://www.youmagine.com/designs/touch-probe-for-measuring-and-digitizing  
+
+_This is a sensor probe inspired by Bertho's work as well as other people's work, old patents and some original ideas._  
+_It is used to measure and digitize / scan objects by detecting when and where the probe touches the object._   
+
+_You will have to print 3 parts (could be made with a cnc mill or a lathe as well) and make 2 pcb plates. (could be done by hand if you are good at it)._  
+_It requires no soldering on the steel balls (it can be difficult)_  
+
+_This one is made to be used in a hobby CNC mill (43mm collet mount) but the concept can easily be adapted to any kind of CNC machine (3d printers, mounted in the spindle, measuring rig...)_  
+_The electrical contact is cut as soon as the probe touches something from any direction._  
+
+_Here is how it works:_  
+-The lower PCB hold the balls in place  
+-The upper PCB presses the balls and makes sure they go nowhere,  
+-The probe holder has 3 steel pins that rests each on a pair of steel balls. That way there is only one position where the 3 pins touches the steel balls.  
+-The balls form a loop that is electrically closed only in the situation above  
+_This means that the circuit is opened as soon as the probe is moved in any direction, even the slightest distance. It also means  that the circuit is closed as soon as the probe is not touching anything._  
+_From what I can see you can reach a precision of 20 microns (0,02mm) which is the most accurate my CNC is. You might get even better accuracy with yours!_  
+
+_I use it with my Profiler CNC and Galaad to run it, Mach3 supports it as well._  
+_It gives quite good results scanning at 0,1mm resolution (plunge probing)._""" ;
+    okh:hasImage :Image ;
+    okh:licensor "mpatoulachik" ;
+    okh:repo <https://www.thingiverse.com/thing:31927> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:31927> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Touch probe for measuring / digitizing 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/fb/51/ed/d2/a7/Inside_view_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/fb/51/ed/d2/a7/Inside_view_display_large.jpg> .
+

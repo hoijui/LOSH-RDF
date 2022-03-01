@@ -1,0 +1,45 @@
+@prefix : <https://www.thingiverse.com/thing%3A1298/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:NiftymitterV022 a okh:Module ;
+    rdfs:label "Niftymitter v0.22" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Niftymitter is an open source short range FM transmitter based on the open source hardware design by Tetsuo Kogawa.\r
+\r
+Version 0.22 is designed to be housed within a ~1mm card body, with a variety of options for hacking. The transmitter is tiny and handy for small scale radio broadcasts, building a distributed PA system for performances, linking your personal audio player to your car radio, or for general audio experimentation.\r
+\r
+The new version solves many of the problems in v0.21 (See project website for v0.21):\r
+    * dimensions of net refined for better fit to battery and pcb, and sleeve.\r
+    * transmission seems to be fine on the whole.\r
+    * spacing and hole sizes fixed for components on PCB\r
+\r
+v0.21 solved many of the issues of v0.1:\r
+    * a lot less bulky, more friendly on the pocket\r
+    * improved component layout, slimmer, more stable\r
+    * no nasty cable ties\r
+    * more accessible for those without laser cutting facilities - can be hand cut, or plotter cut.\r
+    * cardboard more resilient at joints than acrylic.\r
+\r
+KNOWN ISSUES IN v0.22:\r
+    * circuit box part needs to be restrained within sleeve - fiddly when removing battery tray.\r
+    * PP3 power lead needs better access to battery tray.\r
+    * separate, powered, mic design required.\r
+\r
+The project's home is at openthing.org/products/niftymitter""" ;
+    okh:hasImage :Image ;
+    okh:licensor "royshearer" ;
+    okh:repo <https://www.thingiverse.com/thing:1298> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:1298> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Niftymitter v0.22 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/86/82/6a/f2/02/4100327377_ea799fe6eb_b_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/86/82/6a/f2/02/4100327377_ea799fe6eb_b_display_large_display_large.jpg> .
+

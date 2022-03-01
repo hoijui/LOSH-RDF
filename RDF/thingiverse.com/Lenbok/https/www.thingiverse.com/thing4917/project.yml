@@ -1,0 +1,48 @@
+__meta:
+  branch: null
+  created-at: '2010-11-26T00:37:32+00:00'
+  history: null
+  last-changed: null
+  last-visited: '2022-02-25T11:00:02.616920+00:00'
+  owner: Lenbok
+  path: null
+  repo: https://www.thingiverse.com/thing:4917
+  score: null
+  source: thingiverse.com
+attestation: null
+bom: null
+contribution-guide: null
+cpc-patent-class: null
+documentation-language: en
+documentation-readiness-level: odrl3
+function: "When using stepper-based extruders with makerbot firmware as described at http://wiki.makerbot.com/stepper-driven-extruder you need to transform the skeinforge gcode to translate M108 S codes (PWM speed) into M108 R codes (RPM).\r\n\r\nIt is pretty easy to postprocess cgode to make these changes (I did it with sed initially) but it's one more thing that you need to remember to do. This is a wee skeinforge plugin to do this operation - the advantage is that then it can happen automagically when you skeinforge, and you can turn the plugin on and off as part of your usual skeinforge profiles. It can also optionally insert an initial M108 Snnn command to set the desired PWM if you're using the extruder controller rather than a stepper driver board."
+image:
+  created-at: '2010-11-26T00:37:32+00:00'
+  last-changed: '2010-11-26T00:37:32+00:00'
+  last-visited: '2022-02-25T13:58:29.705682+00:00'
+  license: GPL-3.0-or-later
+  licensor: Lenbok
+  mime-type: null
+  name: rpmify_display_large_display_large
+  path: https:/cdn.thingiverse.com/renders/b2/b2/95/15/7a/rpmify_display_large_display_large.jpg
+  perma-url: https://cdn.thingiverse.com/renders/b2/b2/95/15/7a/rpmify_display_large_display_large.jpg
+  url: https://cdn.thingiverse.com/renders/b2/b2/95/15/7a/rpmify_display_large_display_large.jpg
+license: GPL-3.0-or-later
+licensor: Lenbok
+manufacturing-instructions: null
+name: rpmify plugin for skeinforge
+okhv: OKH-LOSHv1.0
+organization: null
+part: []
+publication: null
+readme: null
+release: null
+repo: https://www.thingiverse.com/thing:4917
+software: []
+specific-api-data: {}
+standard-compliance: null
+technology-readiness-level: ortl4
+tsdc: null
+upload-method: auto
+user-manual: null
+version: 1.0.0

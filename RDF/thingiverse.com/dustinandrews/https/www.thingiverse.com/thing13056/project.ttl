@@ -1,0 +1,35 @@
+@prefix : <https://www.thingiverse.com/thing%3A13056/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ThingomaticAccesibleElectronics a okh:Module ;
+    rdfs:label "Thing-o-matic accesible electronics" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Summary\r
+Make the electronics accessible by just turning the TOM on it's side.\r
+\r
+Problems with current Thing-o-matic electronics mount design\r
+1. You can't route all the cables in the build phase.\r
+2. Some of the cables are pretty tight once you get the printer set up all the way.\r
+3. You can't access the electronics without 3 hands.\r
+4. You can't reach anything even if you did have 3 hands.\r
+5. When the dog get tangled in the USB cable and breaks the USB port on the motherboard, you have to tear the whole thing down.\r
+\r
+My solution\r
+Flip the electronics board over with a cutout for the power supply. Then mount it up inside the chassis.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "dustinandrews" ;
+    okh:repo <https://www.thingiverse.com/thing:13056> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:13056> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Thing-o-matic accesible electronics 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/5c/6b/a9/5d/75/P1020821_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/5c/6b/a9/5d/75/P1020821_display_large_display_large.jpg> .
+

@@ -1,0 +1,28 @@
+@prefix : <https://www.thingiverse.com/thing%3A7616/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:RobotArmOrFoot a okh:Module ;
+    rdfs:label "Robot arm or foot" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Servo made in the body of the robot.\r
+Controller of the Arduino Nano.\r
+Servo Pilotage S-101 (http://www.pilotage-rc.com/catalogue/75_/75_20/RC10097/)\r
+Transfer effort - fishing line 0.8 mm.\r
+When rotating hinge 2 is necessary to compensate for the angle of joint 1.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "Alekseev_D" ;
+    okh:repo <https://www.thingiverse.com/thing:7616> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:7616> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Robot arm or foot 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/4b/dc/a0/7f/c1/full_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/4b/dc/a0/7f/c1/full_display_large_display_large.jpg> .
+

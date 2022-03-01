@@ -1,0 +1,48 @@
+__meta:
+  branch: null
+  created-at: '2011-09-01T01:56:39+00:00'
+  history: null
+  last-changed: null
+  last-visited: '2022-02-25T11:00:02.616920+00:00'
+  owner: jbase
+  path: null
+  repo: https://www.thingiverse.com/thing:11166
+  score: null
+  source: thingiverse.com
+attestation: null
+bom: null
+contribution-guide: null
+cpc-patent-class: null
+documentation-language: en
+documentation-readiness-level: odrl3
+function: "This is a small part that you use to fix the Z-Stage on the four threaded rods. Cupcake CNC developers only included 4 of them, fixing the Z-Stage from the top. However, it is useful to fix it also from the bottom to prevent it 'jumping off' the nuts. I found the DXF on thingiverse, however for some reason I failed to convert it to STL miserably. :) \r\n\r\nSo I created this part myself using a real-world ruler and openScad (openScad is a damn cool piece of software that uses simple programming language to create 3D parts). Here is the openScad source if you wanna play with it:\r\n\r\nr=2; // mount hole radius (m3)\r\nt=5; // part thickness\r\n\r\ndifference() {\r\n\r\n\tunion() {\r\n\tcube([30,10,t]);\r\n\ttranslate ([0,10,0]) cube([15,10,t]);\r\n\ttranslate ([0,20,0]) cube([30,10,t]);\r\n\t}\r\n\r\n\tunion() {\r\n\ttranslate([5,5,0]) cylinder(t,r,r); // holes\r\n\ttranslate([25,5,0]) cylinder(t,r,r);\r\n\ttranslate([5,25,0]) cylinder(t,r,r);\r\n\ttranslate([25,25,0]) cylinder(t,r,r);\r\n\r\n\ttranslate([5,5,0]) cylinder(2,3,3); // nut placeholders\r\n\ttranslate([25,5,0]) cylinder(2,3,3); \r\n\ttranslate([5,25,0]) cylinder(2,3,3); \r\n\ttranslate([25,25,0]) cylinder(2,3,3); \r\n\r\n\ttranslate([30,30,0]) cylinder(t,3,3); // side arcs\r\n\ttranslate([0,30,0]) cylinder(t,3,3);\r\n\ttranslate([0,0,0]) cylinder(t,3,3);\r\n\ttranslate([30,0,0]) cylinder(t,3,3);\r\n\r\n\ttranslate([15,15,0]) cylinder(t,5,5); // center arc\r\n\r\n\r\n\t}\r\n\r\n}\r\n\r\nThe part is basically a 30x30mm thing with 10mm whole in the center, 4 holes on the sides (5mm away from part edge), and 4 nut placeholders. I included the placeholders so that we could use the bolts that came in original batch, otherwise you'd need longer bolts.\r\n\r\nEnjoy!"
+image:
+  created-at: '2011-09-01T01:56:39+00:00'
+  last-changed: '2011-09-01T01:56:39+00:00'
+  last-visited: '2022-02-25T19:19:08.973447+00:00'
+  license: CC-BY-SA-4.0
+  licensor: jbase
+  mime-type: null
+  name: Cupcake_Z-Stage_F-01_display_large
+  path: https:/thingiverse-rerender-new.s3.amazonaws.com/renders/5b/c3/1e/c0/66/Cupcake_Z-Stage_F-01_display_large.jpg
+  perma-url: https://thingiverse-rerender-new.s3.amazonaws.com/renders/5b/c3/1e/c0/66/Cupcake_Z-Stage_F-01_display_large.jpg
+  url: https://thingiverse-rerender-new.s3.amazonaws.com/renders/5b/c3/1e/c0/66/Cupcake_Z-Stage_F-01_display_large.jpg
+license: CC-BY-SA-4.0
+licensor: jbase
+manufacturing-instructions: null
+name: Cupcake Z-Stage F-01
+okhv: OKH-LOSHv1.0
+organization: null
+part: []
+publication: null
+readme: null
+release: null
+repo: https://www.thingiverse.com/thing:11166
+software: []
+specific-api-data: {}
+standard-compliance: null
+technology-readiness-level: ortl4
+tsdc: null
+upload-method: auto
+user-manual: null
+version: 1.0.0

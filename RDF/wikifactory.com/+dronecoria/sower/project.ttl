@@ -1,25 +1,26 @@
-@prefix : <https://wikifactory.com/+dronecoria/sower/663ed49e54e5af391a4ac2ba60089798650770df/> .
+@prefix : <https://wikifactory.com/%2Bdronecoria/sower/663ed49e54e5af391a4ac2ba60089798650770df/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 :DronecoriaSeedSower a okh:Module ;
     rdfs:label "Dronecoria Seed Sower" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "A 3D printed atachable payload that can be used on the Dronecoria drone frame or other deposits to control the seed flow and sowing distance. It is composed by a shutter operated wih a servo and a brushless motor that controls the distance." ;
-    okh:hasComponent :Mechanicalseeddisperserv10,
-        :Mechanicalseeddisperserv20wkf,
-        :Physicalseeddisperserv07,
-        :Physicalseeddisperserv08,
-        :Seedshutterv08,
-        :Seedshutterv09,
-        :Seedshutterv10,
-        :V10carcasa1,
-        :V10carcasa2,
-        :V10disco,
-        :V10seedtank,
-        :V10seedtankbase,
-        :V10seedtanklid,
-        :V10seedtankwall ;
+    okh:hasComponent :Seeddispersermechanicalseeddispersermechanicalseeddisperserv10,
+        :Seeddispersermechanicalseeddisperserv10carcasa1,
+        :Seeddispersermechanicalseeddisperserv10carcasa2,
+        :Seeddispersermechanicalseeddisperserv10disco,
+        :Seeddispersermechanicalseeddisperserv20mechanicalseeddisperserv20wkf,
+        :Seeddisperserphysicalseeddisperserphysicalseeddisperserv07,
+        :Seeddisperserphysicalseeddisperserphysicalseeddisperserv08,
+        :Seedshutterseedshutterv08,
+        :Seedshutterseedshutterv09,
+        :Seedshutterseedshutterv10,
+        :Seedtankv10seedtank,
+        :Seedtankv10seedtankbase,
+        :Seedtankv10seedtanklid,
+        :Seedtankv10seedtankwall ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "Lot Amorós" ;
@@ -28,6 +29,7 @@
     okh:repo <https://wikifactory.com/+dronecoria/sower> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
     okh:version "663ed49e54e5af391a4ac2ba60089798650770df" ;
     okh:versionOf <https://wikifactory.com/+dronecoria/sower> .
 
@@ -37,246 +39,246 @@
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/88082/seedsower-web.JPG> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo0Njc2NjU=> .
 
-:Mechanicalseeddisperserv10 a okh:Part ;
-    rdfs:label "MechanicalSeedDisperser_V1.0" ;
-    okh:documentationLanguage "en" ;
-    okh:export :Mechanicalseeddisperserv10_export1 ;
-    okh:licensor "Lot Amorós" ;
-    okh:source :Mechanicalseeddisperserv10_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Mechanicalseeddisperserv10_export1 a okh:ExportFile ;
-    rdfs:label "Export File of MechanicalSeedDisperser_V1.0 of Dronecoria Seed Sower 663ed49e54e5af391a4ac2ba60089798650770df" ;
-    okh:fileFormat "OBJ" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/88082/mechanicalseeddisperser_v10.obj> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ1MjE=> .
-
-:Mechanicalseeddisperserv10_source a okh:SourceFile ;
-    rdfs:label "Source File of MechanicalSeedDisperser_V1.0 of Dronecoria Seed Sower 663ed49e54e5af391a4ac2ba60089798650770df" ;
-    okh:fileFormat "3DM" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/88082/mechanicalseeddisperser_v10.3dm> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NDg0ODk=> .
-
-:Mechanicalseeddisperserv20wkf a okh:Part ;
-    rdfs:label "MechanicalSeedDisperser_V2.0_WkF" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "sergei Prokamo" ;
-    okh:source :Mechanicalseeddisperserv20wkf_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Mechanicalseeddisperserv20wkf_source a okh:SourceFile ;
-    rdfs:label "Source File of MechanicalSeedDisperser_V2.0_WkF of Dronecoria Seed Sower 663ed49e54e5af391a4ac2ba60089798650770df" ;
-    okh:fileFormat "3DM" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/88082/mechanicalseeddisperser_v20_wkf.3dm> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzgyNzk=> .
-
-:Physicalseeddisperserv07 a okh:Part ;
-    rdfs:label "PhysicalSeedDisperser_V0.7" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "sergei Prokamo" ;
-    okh:source :Physicalseeddisperserv07_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Physicalseeddisperserv07_source a okh:SourceFile ;
-    rdfs:label "Source File of PhysicalSeedDisperser_V0.7 of Dronecoria Seed Sower 663ed49e54e5af391a4ac2ba60089798650770df" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/88082/physicalseeddisperser_v07.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NDg0ODM=> .
-
-:Physicalseeddisperserv08 a okh:Part ;
-    rdfs:label "PhysicalSeedDisperser_V0.8" ;
-    okh:documentationLanguage "en" ;
-    okh:export :Physicalseeddisperserv08_export1 ;
-    okh:licensor "Lot Amorós" ;
-    okh:source :Physicalseeddisperserv08_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Physicalseeddisperserv08_export1 a okh:ExportFile ;
-    rdfs:label "Export File of PhysicalSeedDisperser_V0.8 of Dronecoria Seed Sower 663ed49e54e5af391a4ac2ba60089798650770df" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/88082/gravityseeddisperser_v08.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NDg0ODI=> .
-
-:Physicalseeddisperserv08_source a okh:SourceFile ;
-    rdfs:label "Source File of PhysicalSeedDisperser_V0.8 of Dronecoria Seed Sower 663ed49e54e5af391a4ac2ba60089798650770df" ;
-    okh:fileFormat "3DM" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/88082/gravityseeddisperser_v08.3dm> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NDg0ODE=> .
-
 :Readme a okh:Readme ;
     rdfs:label "Readme of Dronecoria Seed Sower 663ed49e54e5af391a4ac2ba60089798650770df" ;
     okh:fileFormat "MD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/88082/readme-fdd62.md> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo1MDM5MTA=> .
 
-:Seedshutterv08 a okh:Part ;
-    rdfs:label "SeedShutter_V0.8" ;
+:Seeddispersermechanicalseeddispersermechanicalseeddisperserv10 a okh:Part ;
+    rdfs:label "SeedDisperser/MechanicalSeedDisperser/MechanicalSeedDisperser_V1.0" ;
     okh:documentationLanguage "en" ;
-    okh:export :Seedshutterv08_export1 ;
-    okh:licensor "sergei Prokamo" ;
-    okh:source :Seedshutterv08_source ;
+    okh:export :Seeddispersermechanicalseeddispersermechanicalseeddisperserv10_export1 ;
+    okh:licensor "Lot Amorós" ;
+    okh:source :Seeddispersermechanicalseeddispersermechanicalseeddisperserv10_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Seedshutterv08_export1 a okh:ExportFile ;
-    rdfs:label "Export File of SeedShutter_V0.8 of Dronecoria Seed Sower 663ed49e54e5af391a4ac2ba60089798650770df" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/88082/seedshutter_v08.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NDgyNDQ=> .
-
-:Seedshutterv08_source a okh:SourceFile ;
-    rdfs:label "Source File of SeedShutter_V0.8 of Dronecoria Seed Sower 663ed49e54e5af391a4ac2ba60089798650770df" ;
-    okh:fileFormat "3DM" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/88082/seedshutter_v08.3dm> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NDgyNDU=> .
-
-:Seedshutterv09 a okh:Part ;
-    rdfs:label "SeedShutter_V0.9" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "sergei Prokamo" ;
-    okh:source :Seedshutterv09_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Seedshutterv09_source a okh:SourceFile ;
-    rdfs:label "Source File of SeedShutter_V0.9 of Dronecoria Seed Sower 663ed49e54e5af391a4ac2ba60089798650770df" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/88082/seedshutter_v09.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NDgyNDA=> .
-
-:Seedshutterv10 a okh:Part ;
-    rdfs:label "SeedShutter_V1.0" ;
-    okh:documentationLanguage "en" ;
-    okh:export :Seedshutterv10_export1,
-        :Seedshutterv10_export2 ;
-    okh:licensor "sergei Prokamo" ;
-    okh:source :Seedshutterv10_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Seedshutterv10_export1 a okh:ExportFile ;
-    rdfs:label "Export File of SeedShutter_V1.0 of Dronecoria Seed Sower 663ed49e54e5af391a4ac2ba60089798650770df" ;
+:Seeddispersermechanicalseeddispersermechanicalseeddisperserv10_export1 a okh:ExportFile ;
+    rdfs:label "Export File of SeedDisperser/MechanicalSeedDisperser/MechanicalSeedDisperser_V1.0 of Dronecoria Seed Sower 663ed49e54e5af391a4ac2ba60089798650770df" ;
     okh:fileFormat "OBJ" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/88082/seedshutter_v10.obj> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ1MjQ=> .
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/88082/mechanicalseeddisperser_v10.obj> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ1MjE=> .
 
-:Seedshutterv10_export2 a okh:ExportFile ;
-    rdfs:label "Export File of SeedShutter_V1.0 of Dronecoria Seed Sower 663ed49e54e5af391a4ac2ba60089798650770df" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/88082/seedshutter_v10.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NDgyMjc=> .
-
-:Seedshutterv10_source a okh:SourceFile ;
-    rdfs:label "Source File of SeedShutter_V1.0 of Dronecoria Seed Sower 663ed49e54e5af391a4ac2ba60089798650770df" ;
+:Seeddispersermechanicalseeddispersermechanicalseeddisperserv10_source a okh:SourceFile ;
+    rdfs:label "Source File of SeedDisperser/MechanicalSeedDisperser/MechanicalSeedDisperser_V1.0 of Dronecoria Seed Sower 663ed49e54e5af391a4ac2ba60089798650770df" ;
     okh:fileFormat "3DM" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/88082/seedshutter_v10.3dm> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NDgyMjY=> .
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/88082/mechanicalseeddisperser_v10.3dm> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NDg0ODk=> .
 
-:V10carcasa1 a okh:Part ;
-    rdfs:label "V1.0_Carcasa1" ;
+:Seeddispersermechanicalseeddisperserv10carcasa1 a okh:Part ;
+    rdfs:label "SeedDisperser/MechanicalSeedDisperser/V1.0_Carcasa1" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Lot Amorós" ;
-    okh:source :V10carcasa1_source ;
+    okh:source :Seeddispersermechanicalseeddisperserv10carcasa1_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:V10carcasa1_source a okh:SourceFile ;
-    rdfs:label "Source File of V1.0_Carcasa1 of Dronecoria Seed Sower 663ed49e54e5af391a4ac2ba60089798650770df" ;
+:Seeddispersermechanicalseeddisperserv10carcasa1_source a okh:SourceFile ;
+    rdfs:label "Source File of SeedDisperser/MechanicalSeedDisperser/V1.0_Carcasa1 of Dronecoria Seed Sower 663ed49e54e5af391a4ac2ba60089798650770df" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/88082/mechanicalseeddisperser_casing1.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo0NDg0ODg=> .
 
-:V10carcasa2 a okh:Part ;
-    rdfs:label "V1.0_Carcasa2" ;
+:Seeddispersermechanicalseeddisperserv10carcasa2 a okh:Part ;
+    rdfs:label "SeedDisperser/MechanicalSeedDisperser/V1.0_Carcasa2" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Lot Amorós" ;
-    okh:source :V10carcasa2_source ;
+    okh:source :Seeddispersermechanicalseeddisperserv10carcasa2_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:V10carcasa2_source a okh:SourceFile ;
-    rdfs:label "Source File of V1.0_Carcasa2 of Dronecoria Seed Sower 663ed49e54e5af391a4ac2ba60089798650770df" ;
+:Seeddispersermechanicalseeddisperserv10carcasa2_source a okh:SourceFile ;
+    rdfs:label "Source File of SeedDisperser/MechanicalSeedDisperser/V1.0_Carcasa2 of Dronecoria Seed Sower 663ed49e54e5af391a4ac2ba60089798650770df" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/88082/mechanicalseeddisperser_casing2.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo0NDg0OTE=> .
 
-:V10disco a okh:Part ;
-    rdfs:label "V1.0_Disco" ;
+:Seeddispersermechanicalseeddisperserv10disco a okh:Part ;
+    rdfs:label "SeedDisperser/MechanicalSeedDisperser/V1.0_Disco" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Lot Amorós" ;
-    okh:source :V10disco_source ;
+    okh:source :Seeddispersermechanicalseeddisperserv10disco_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:V10disco_source a okh:SourceFile ;
-    rdfs:label "Source File of V1.0_Disco of Dronecoria Seed Sower 663ed49e54e5af391a4ac2ba60089798650770df" ;
+:Seeddispersermechanicalseeddisperserv10disco_source a okh:SourceFile ;
+    rdfs:label "Source File of SeedDisperser/MechanicalSeedDisperser/V1.0_Disco of Dronecoria Seed Sower 663ed49e54e5af391a4ac2ba60089798650770df" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/88082/mechanicalseeddisperser_disc.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo0NDg0OTA=> .
 
-:V10seedtank a okh:Part ;
-    rdfs:label "V1.0_SeedTank" ;
+:Seeddispersermechanicalseeddisperserv20mechanicalseeddisperserv20wkf a okh:Part ;
+    rdfs:label "SeedDisperser/MechanicalSeedDisperser/V2.0/MechanicalSeedDisperser_V2.0_WkF" ;
     okh:documentationLanguage "en" ;
     okh:licensor "sergei Prokamo" ;
-    okh:source :V10seedtank_source ;
+    okh:source :Seeddispersermechanicalseeddisperserv20mechanicalseeddisperserv20wkf_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:V10seedtank_source a okh:SourceFile ;
-    rdfs:label "Source File of V1.0_SeedTank of Dronecoria Seed Sower 663ed49e54e5af391a4ac2ba60089798650770df" ;
+:Seeddispersermechanicalseeddisperserv20mechanicalseeddisperserv20wkf_source a okh:SourceFile ;
+    rdfs:label "Source File of SeedDisperser/MechanicalSeedDisperser/V2.0/MechanicalSeedDisperser_V2.0_WkF of Dronecoria Seed Sower 663ed49e54e5af391a4ac2ba60089798650770df" ;
+    okh:fileFormat "3DM" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/88082/mechanicalseeddisperser_v20_wkf.3dm> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzgyNzk=> .
+
+:Seeddisperserphysicalseeddisperserphysicalseeddisperserv07 a okh:Part ;
+    rdfs:label "SeedDisperser/PhysicalSeedDisperser/PhysicalSeedDisperser_V0.7" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "sergei Prokamo" ;
+    okh:source :Seeddisperserphysicalseeddisperserphysicalseeddisperserv07_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Seeddisperserphysicalseeddisperserphysicalseeddisperserv07_source a okh:SourceFile ;
+    rdfs:label "Source File of SeedDisperser/PhysicalSeedDisperser/PhysicalSeedDisperser_V0.7 of Dronecoria Seed Sower 663ed49e54e5af391a4ac2ba60089798650770df" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/88082/physicalseeddisperser_v07.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NDg0ODM=> .
+
+:Seeddisperserphysicalseeddisperserphysicalseeddisperserv08 a okh:Part ;
+    rdfs:label "SeedDisperser/PhysicalSeedDisperser/PhysicalSeedDisperser_V0.8" ;
+    okh:documentationLanguage "en" ;
+    okh:export :Seeddisperserphysicalseeddisperserphysicalseeddisperserv08_export1 ;
+    okh:licensor "Lot Amorós" ;
+    okh:source :Seeddisperserphysicalseeddisperserphysicalseeddisperserv08_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Seeddisperserphysicalseeddisperserphysicalseeddisperserv08_export1 a okh:ExportFile ;
+    rdfs:label "Export File of SeedDisperser/PhysicalSeedDisperser/PhysicalSeedDisperser_V0.8 of Dronecoria Seed Sower 663ed49e54e5af391a4ac2ba60089798650770df" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/88082/gravityseeddisperser_v08.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NDg0ODI=> .
+
+:Seeddisperserphysicalseeddisperserphysicalseeddisperserv08_source a okh:SourceFile ;
+    rdfs:label "Source File of SeedDisperser/PhysicalSeedDisperser/PhysicalSeedDisperser_V0.8 of Dronecoria Seed Sower 663ed49e54e5af391a4ac2ba60089798650770df" ;
+    okh:fileFormat "3DM" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/88082/gravityseeddisperser_v08.3dm> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NDg0ODE=> .
+
+:Seedshutterseedshutterv08 a okh:Part ;
+    rdfs:label "SeedShutter/SeedShutter_V0.8" ;
+    okh:documentationLanguage "en" ;
+    okh:export :Seedshutterseedshutterv08_export1 ;
+    okh:licensor "sergei Prokamo" ;
+    okh:source :Seedshutterseedshutterv08_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Seedshutterseedshutterv08_export1 a okh:ExportFile ;
+    rdfs:label "Export File of SeedShutter/SeedShutter_V0.8 of Dronecoria Seed Sower 663ed49e54e5af391a4ac2ba60089798650770df" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/88082/seedshutter_v08.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NDgyNDQ=> .
+
+:Seedshutterseedshutterv08_source a okh:SourceFile ;
+    rdfs:label "Source File of SeedShutter/SeedShutter_V0.8 of Dronecoria Seed Sower 663ed49e54e5af391a4ac2ba60089798650770df" ;
+    okh:fileFormat "3DM" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/88082/seedshutter_v08.3dm> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NDgyNDU=> .
+
+:Seedshutterseedshutterv09 a okh:Part ;
+    rdfs:label "SeedShutter/SeedShutter_V0.9" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "sergei Prokamo" ;
+    okh:source :Seedshutterseedshutterv09_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Seedshutterseedshutterv09_source a okh:SourceFile ;
+    rdfs:label "Source File of SeedShutter/SeedShutter_V0.9 of Dronecoria Seed Sower 663ed49e54e5af391a4ac2ba60089798650770df" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/88082/seedshutter_v09.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NDgyNDA=> .
+
+:Seedshutterseedshutterv10 a okh:Part ;
+    rdfs:label "SeedShutter/SeedShutter_V1.0" ;
+    okh:documentationLanguage "en" ;
+    okh:export :Seedshutterseedshutterv10_export1,
+        :Seedshutterseedshutterv10_export2 ;
+    okh:licensor "sergei Prokamo" ;
+    okh:source :Seedshutterseedshutterv10_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Seedshutterseedshutterv10_export1 a okh:ExportFile ;
+    rdfs:label "Export File of SeedShutter/SeedShutter_V1.0 of Dronecoria Seed Sower 663ed49e54e5af391a4ac2ba60089798650770df" ;
+    okh:fileFormat "OBJ" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/88082/seedshutter_v10.obj> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzQ1MjQ=> .
+
+:Seedshutterseedshutterv10_export2 a okh:ExportFile ;
+    rdfs:label "Export File of SeedShutter/SeedShutter_V1.0 of Dronecoria Seed Sower 663ed49e54e5af391a4ac2ba60089798650770df" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/88082/seedshutter_v10.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NDgyMjc=> .
+
+:Seedshutterseedshutterv10_source a okh:SourceFile ;
+    rdfs:label "Source File of SeedShutter/SeedShutter_V1.0 of Dronecoria Seed Sower 663ed49e54e5af391a4ac2ba60089798650770df" ;
+    okh:fileFormat "3DM" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/88082/seedshutter_v10.3dm> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NDgyMjY=> .
+
+:Seedtankv10seedtank a okh:Part ;
+    rdfs:label "SeedTank/V1.0_SeedTank" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "sergei Prokamo" ;
+    okh:source :Seedtankv10seedtank_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Seedtankv10seedtank_source a okh:SourceFile ;
+    rdfs:label "Source File of SeedTank/V1.0_SeedTank of Dronecoria Seed Sower 663ed49e54e5af391a4ac2ba60089798650770df" ;
     okh:fileFormat "3DM" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/88082/seedtank.3dm> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo1MDM5MDE=> .
 
-:V10seedtankbase a okh:Part ;
-    rdfs:label "V1.0_SeedTank_Base" ;
+:Seedtankv10seedtankbase a okh:Part ;
+    rdfs:label "SeedTank/V1.0_SeedTank_Base" ;
     okh:documentationLanguage "en" ;
-    okh:export :V10seedtankbase_export1 ;
+    okh:export :Seedtankv10seedtankbase_export1 ;
     okh:licensor "sergei Prokamo" ;
-    okh:source :V10seedtankbase_source ;
+    okh:source :Seedtankv10seedtankbase_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:V10seedtankbase_export1 a okh:ExportFile ;
-    rdfs:label "Export File of V1.0_SeedTank_Base of Dronecoria Seed Sower 663ed49e54e5af391a4ac2ba60089798650770df" ;
+:Seedtankv10seedtankbase_export1 a okh:ExportFile ;
+    rdfs:label "Export File of SeedTank/V1.0_SeedTank_Base of Dronecoria Seed Sower 663ed49e54e5af391a4ac2ba60089798650770df" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/88082/seedtank_base.STL> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo1MDM4OTk=> .
 
-:V10seedtankbase_source a okh:SourceFile ;
-    rdfs:label "Source File of V1.0_SeedTank_Base of Dronecoria Seed Sower 663ed49e54e5af391a4ac2ba60089798650770df" ;
+:Seedtankv10seedtankbase_source a okh:SourceFile ;
+    rdfs:label "Source File of SeedTank/V1.0_SeedTank_Base of Dronecoria Seed Sower 663ed49e54e5af391a4ac2ba60089798650770df" ;
     okh:fileFormat "SLDPRT" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/88082/seedtank_base.SLDPRT> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo1MDM5MDA=> .
 
-:V10seedtanklid a okh:Part ;
-    rdfs:label "V1.0_SeedTank_lid" ;
+:Seedtankv10seedtanklid a okh:Part ;
+    rdfs:label "SeedTank/V1.0_SeedTank_lid" ;
     okh:documentationLanguage "en" ;
-    okh:export :V10seedtanklid_export1 ;
+    okh:export :Seedtankv10seedtanklid_export1 ;
     okh:licensor "sergei Prokamo" ;
-    okh:source :V10seedtanklid_source ;
+    okh:source :Seedtankv10seedtanklid_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:V10seedtanklid_export1 a okh:ExportFile ;
-    rdfs:label "Export File of V1.0_SeedTank_lid of Dronecoria Seed Sower 663ed49e54e5af391a4ac2ba60089798650770df" ;
+:Seedtankv10seedtanklid_export1 a okh:ExportFile ;
+    rdfs:label "Export File of SeedTank/V1.0_SeedTank_lid of Dronecoria Seed Sower 663ed49e54e5af391a4ac2ba60089798650770df" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/88082/seedtank_lid.STL> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo1MDM4OTc=> .
 
-:V10seedtanklid_source a okh:SourceFile ;
-    rdfs:label "Source File of V1.0_SeedTank_lid of Dronecoria Seed Sower 663ed49e54e5af391a4ac2ba60089798650770df" ;
+:Seedtankv10seedtanklid_source a okh:SourceFile ;
+    rdfs:label "Source File of SeedTank/V1.0_SeedTank_lid of Dronecoria Seed Sower 663ed49e54e5af391a4ac2ba60089798650770df" ;
     okh:fileFormat "SLDPRT" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/88082/seedtank_lid.SLDPRT> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo1MDM4OTg=> .
 
-:V10seedtankwall a okh:Part ;
-    rdfs:label "V1.0_SeedTank_wall" ;
+:Seedtankv10seedtankwall a okh:Part ;
+    rdfs:label "SeedTank/V1.0_SeedTank_wall" ;
     okh:documentationLanguage "en" ;
-    okh:export :V10seedtankwall_export1 ;
+    okh:export :Seedtankv10seedtankwall_export1 ;
     okh:licensor "sergei Prokamo" ;
-    okh:source :V10seedtankwall_source ;
+    okh:source :Seedtankv10seedtankwall_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:V10seedtankwall_export1 a okh:ExportFile ;
-    rdfs:label "Export File of V1.0_SeedTank_wall of Dronecoria Seed Sower 663ed49e54e5af391a4ac2ba60089798650770df" ;
+:Seedtankv10seedtankwall_export1 a okh:ExportFile ;
+    rdfs:label "Export File of SeedTank/V1.0_SeedTank_wall of Dronecoria Seed Sower 663ed49e54e5af391a4ac2ba60089798650770df" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/88082/seedtank_wall.STL> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo1MDM4OTU=> .
 
-:V10seedtankwall_source a okh:SourceFile ;
-    rdfs:label "Source File of V1.0_SeedTank_wall of Dronecoria Seed Sower 663ed49e54e5af391a4ac2ba60089798650770df" ;
+:Seedtankv10seedtankwall_source a okh:SourceFile ;
+    rdfs:label "Source File of SeedTank/V1.0_SeedTank_wall of Dronecoria Seed Sower 663ed49e54e5af391a4ac2ba60089798650770df" ;
     okh:fileFormat "SLDPRT" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/88082/seedtank_wall.SLDPRT> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo1MDM4OTY=> .

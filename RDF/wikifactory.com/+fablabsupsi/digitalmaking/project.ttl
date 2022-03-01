@@ -1,26 +1,27 @@
-@prefix : <https://wikifactory.com/+fablabsupsi/digitalmaking/9168596d2a1cbd67564bce2e06af74aa88df8735/> .
+@prefix : <https://wikifactory.com/%2Bfablabsupsi/digitalmaking/9168596d2a1cbd67564bce2e06af74aa88df8735/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 :DigitalMakingWorkshop a okh:Module ;
     rdfs:label "Digital Making++ Workshop" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "A 3 days workshop to experience an open design process aiming at designing, reflecting, documenting tools and resources as kits for learning and teaching of STEAM subjects.Institute Integrative Design, Masterstudio,  FHNW, Basel, 25-27 March 2020Tutors: Serena Cangiano, Alice Mela" ;
-    okh:hasComponent :02finalconcepttreasuresoapgame,
-        :200326pitch01vjg02,
-        :200327brieflehrer011,
-        :200327finalpresentationkombuchaxvirus01,
-        :200327projectdescription011,
-        :Canvas1digitalmakingmaindeck,
-        :Conceptrefinementgroup2,
-        :Couchpotatoesakitforkids,
-        :Digitalmaking1,
-        :Digitalmakingpubliclecture,
-        :Dodopresentationunfinished,
-        :Group2VirusKitForKids,
-        :Rockitdocumentation,
-        :Rockitpresentation,
-        :Tonjiuniversitypublicepidemicpreventionguideagainst ;
+    okh:hasComponent :Courseresourcescanvas1digitalmakingmaindeck,
+        :Courseresourcesdigitalmakingpubliclecture,
+        :Group1dodopresentationunfinished,
+        :Group2conceptrefinementgroup2,
+        :Group2couchpotatoesakitforkids,
+        :Group2group2VirusKitForKids,
+        :Group3200326pitch01vjg02,
+        :Group3200327brieflehrer011,
+        :Group3200327finalpresentationkombuchaxvirus01,
+        :Group3200327projectdescription011,
+        :Group4invisibleRainbowdigitalmaking1,
+        :Group5rockitdocumentation,
+        :Group5rockitpresentation,
+        :Group702finalconcepttreasuresoapgame,
+        :Workshopreadingstonjiuniversitypublicepidemicpreventionguideagainst ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "Serena Cangiano" ;
@@ -29,164 +30,191 @@
     okh:repo <https://wikifactory.com/+fablabsupsi/digitalmaking> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
     okh:version "9168596d2a1cbd67564bce2e06af74aa88df8735" ;
     okh:versionOf <https://wikifactory.com/+fablabsupsi/digitalmaking> .
 
-:02finalconcepttreasuresoapgame a okh:Part ;
-    rdfs:label "02_FinalConceptTreasureSoapGame" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Claudia Epiney " ;
-    okh:source :02finalconcepttreasuresoapgame_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:02finalconcepttreasuresoapgame_source a okh:SourceFile ;
-    rdfs:label "Source File of 02_FinalConceptTreasureSoapGame of Digital Making++ Workshop 9168596d2a1cbd67564bce2e06af74aa88df8735" ;
-    okh:fileFormat "PDF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40413/02_finalconcepttreasuresoapgame.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMjYyOTE=> .
-
-:200326pitch01vjg02 a okh:Part ;
-    rdfs:label "200326_Pitch01vJG_02" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Jonas Emanuel Gschwind" ;
-    okh:source :200326pitch01vjg02_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:200326pitch01vjg02_source a okh:SourceFile ;
-    rdfs:label "Source File of 200326_Pitch01vJG_02 of Digital Making++ Workshop 9168596d2a1cbd67564bce2e06af74aa88df8735" ;
-    okh:fileFormat "PDF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40413/200326_pitch01vjg_02.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMjQ0NDI=> .
-
-:200327brieflehrer011 a okh:Part ;
-    rdfs:label "200327_Brief_Lehrer_011" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Jonas Emanuel Gschwind" ;
-    okh:source :200327brieflehrer011_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:200327brieflehrer011_source a okh:SourceFile ;
-    rdfs:label "Source File of 200327_Brief_Lehrer_011 of Digital Making++ Workshop 9168596d2a1cbd67564bce2e06af74aa88df8735" ;
-    okh:fileFormat "PDF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40413/200327_brief_lehrer_011.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMjQ2OTM=> .
-
-:200327finalpresentationkombuchaxvirus01 a okh:Part ;
-    rdfs:label "200327_Final_Presentation_KombuchaXvirus_01" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Jonas Emanuel Gschwind" ;
-    okh:source :200327finalpresentationkombuchaxvirus01_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:200327finalpresentationkombuchaxvirus01_source a okh:SourceFile ;
-    rdfs:label "Source File of 200327_Final_Presentation_KombuchaXvirus_01 of Digital Making++ Workshop 9168596d2a1cbd67564bce2e06af74aa88df8735" ;
-    okh:fileFormat "PDF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40413/200327_final_presentation_kombuchaxvirus_01-be611.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMjQ3MDA=> .
-
-:200327projectdescription011 a okh:Part ;
-    rdfs:label "200327_Project_Description_011" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Jonas Emanuel Gschwind" ;
-    okh:source :200327projectdescription011_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:200327projectdescription011_source a okh:SourceFile ;
-    rdfs:label "Source File of 200327_Project_Description_011 of Digital Making++ Workshop 9168596d2a1cbd67564bce2e06af74aa88df8735" ;
-    okh:fileFormat "PDF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40413/200327_project_description_011.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMjQ3NDQ=> .
-
-:Canvas1digitalmakingmaindeck a okh:Part ;
-    rdfs:label "Canvas1-DigitalMakingMainDeck" ;
+:Courseresourcescanvas1digitalmakingmaindeck a okh:Part ;
+    rdfs:label "CourseResources/Canvas1-DigitalMakingMainDeck" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Serena Cangiano" ;
-    okh:source :Canvas1digitalmakingmaindeck_source ;
+    okh:source :Courseresourcescanvas1digitalmakingmaindeck_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Canvas1digitalmakingmaindeck_source a okh:SourceFile ;
-    rdfs:label "Source File of Canvas1-DigitalMakingMainDeck of Digital Making++ Workshop 9168596d2a1cbd67564bce2e06af74aa88df8735" ;
+:Courseresourcescanvas1digitalmakingmaindeck_source a okh:SourceFile ;
+    rdfs:label "Source File of CourseResources/Canvas1-DigitalMakingMainDeck of Digital Making++ Workshop 9168596d2a1cbd67564bce2e06af74aa88df8735" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40413/canvas1-digitalmakingmaindeck.pdf> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTozMjQwNTY=> .
 
-:Conceptrefinementgroup2 a okh:Part ;
-    rdfs:label "concept_refinement_group2" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Daniela Vieli" ;
-    okh:source :Conceptrefinementgroup2_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Conceptrefinementgroup2_source a okh:SourceFile ;
-    rdfs:label "Source File of concept_refinement_group2 of Digital Making++ Workshop 9168596d2a1cbd67564bce2e06af74aa88df8735" ;
-    okh:fileFormat "PDF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40413/concept_refinement_group2.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMjQyNDg=> .
-
-:Couchpotatoesakitforkids a okh:Part ;
-    rdfs:label "Couch_Potatoes__A_kit_for_kids" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Daniela Vieli" ;
-    okh:source :Couchpotatoesakitforkids_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Couchpotatoesakitforkids_source a okh:SourceFile ;
-    rdfs:label "Source File of Couch_Potatoes__A_kit_for_kids of Digital Making++ Workshop 9168596d2a1cbd67564bce2e06af74aa88df8735" ;
-    okh:fileFormat "PDF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40413/couch_potatoes__a_kit_for_kids.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMjcxMDA=> .
-
-:Digitalmaking1 a okh:Part ;
-    rdfs:label "Digital_making_1" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "pascal decaillet" ;
-    okh:source :Digitalmaking1_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Digitalmaking1_source a okh:SourceFile ;
-    rdfs:label "Source File of Digital_making_1 of Digital Making++ Workshop 9168596d2a1cbd67564bce2e06af74aa88df8735" ;
-    okh:fileFormat "PDF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40413/digital_making_1.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMjU4MTg=> .
-
-:Digitalmakingpubliclecture a okh:Part ;
-    rdfs:label "DigitalMaking++PublicLecture" ;
+:Courseresourcesdigitalmakingpubliclecture a okh:Part ;
+    rdfs:label "CourseResources/DigitalMaking++PublicLecture" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Serena Cangiano" ;
-    okh:source :Digitalmakingpubliclecture_source ;
+    okh:source :Courseresourcesdigitalmakingpubliclecture_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Digitalmakingpubliclecture_source a okh:SourceFile ;
-    rdfs:label "Source File of DigitalMaking++PublicLecture of Digital Making++ Workshop 9168596d2a1cbd67564bce2e06af74aa88df8735" ;
+:Courseresourcesdigitalmakingpubliclecture_source a okh:SourceFile ;
+    rdfs:label "Source File of CourseResources/DigitalMaking++PublicLecture of Digital Making++ Workshop 9168596d2a1cbd67564bce2e06af74aa88df8735" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40413/digitalmakingpubliclecture.pdf> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTozMjQwNjI=> .
 
-:Dodopresentationunfinished a okh:Part ;
-    rdfs:label "dodo_presentation_UNFINISHED" ;
+:Group1dodopresentationunfinished a okh:Part ;
+    rdfs:label "Group 1/dodo_presentation_UNFINISHED" ;
     okh:documentationLanguage "en" ;
     okh:licensor "oliverklauser" ;
-    okh:source :Dodopresentationunfinished_source ;
+    okh:source :Group1dodopresentationunfinished_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Dodopresentationunfinished_source a okh:SourceFile ;
-    rdfs:label "Source File of dodo_presentation_UNFINISHED of Digital Making++ Workshop 9168596d2a1cbd67564bce2e06af74aa88df8735" ;
+:Group1dodopresentationunfinished_source a okh:SourceFile ;
+    rdfs:label "Source File of Group 1/dodo_presentation_UNFINISHED of Digital Making++ Workshop 9168596d2a1cbd67564bce2e06af74aa88df8735" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40413/dodo_presentation_unfinished.pdf> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTozMjcwNjQ=> .
 
-:Group2VirusKitForKids a okh:Part ;
-    rdfs:label "Group2_ Virus Kit for Kids" ;
+:Group2conceptrefinementgroup2 a okh:Part ;
+    rdfs:label "Group 2/concept_refinement_group2" ;
     okh:documentationLanguage "en" ;
-    okh:licensor "Anne Wallucks" ;
-    okh:source :Group2VirusKitForKids_source ;
+    okh:licensor "Daniela Vieli" ;
+    okh:source :Group2conceptrefinementgroup2_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Group2VirusKitForKids_source a okh:SourceFile ;
-    rdfs:label "Source File of Group2_ Virus Kit for Kids of Digital Making++ Workshop 9168596d2a1cbd67564bce2e06af74aa88df8735" ;
+:Group2conceptrefinementgroup2_source a okh:SourceFile ;
+    rdfs:label "Source File of Group 2/concept_refinement_group2 of Digital Making++ Workshop 9168596d2a1cbd67564bce2e06af74aa88df8735" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40413/concept_refinement_group2.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozMjQyNDg=> .
+
+:Group2couchpotatoesakitforkids a okh:Part ;
+    rdfs:label "Group 2/Couch_Potatoes__A_kit_for_kids" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Daniela Vieli" ;
+    okh:source :Group2couchpotatoesakitforkids_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Group2couchpotatoesakitforkids_source a okh:SourceFile ;
+    rdfs:label "Source File of Group 2/Couch_Potatoes__A_kit_for_kids of Digital Making++ Workshop 9168596d2a1cbd67564bce2e06af74aa88df8735" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40413/couch_potatoes__a_kit_for_kids.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozMjcxMDA=> .
+
+:Group2group2VirusKitForKids a okh:Part ;
+    rdfs:label "Group 2/Group2_ Virus Kit for Kids" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Anne Wallucks" ;
+    okh:source :Group2group2VirusKitForKids_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Group2group2VirusKitForKids_source a okh:SourceFile ;
+    rdfs:label "Source File of Group 2/Group2_ Virus Kit for Kids of Digital Making++ Workshop 9168596d2a1cbd67564bce2e06af74aa88df8735" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40413/group2__virus_kit_for_kids.pdf> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTozMjQyNDU=> .
+
+:Group3200326pitch01vjg02 a okh:Part ;
+    rdfs:label "Group 3/200326_Pitch01vJG_02" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Jonas Emanuel Gschwind" ;
+    okh:source :Group3200326pitch01vjg02_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Group3200326pitch01vjg02_source a okh:SourceFile ;
+    rdfs:label "Source File of Group 3/200326_Pitch01vJG_02 of Digital Making++ Workshop 9168596d2a1cbd67564bce2e06af74aa88df8735" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40413/200326_pitch01vjg_02.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozMjQ0NDI=> .
+
+:Group3200327brieflehrer011 a okh:Part ;
+    rdfs:label "Group 3/200327_Brief_Lehrer_011" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Jonas Emanuel Gschwind" ;
+    okh:source :Group3200327brieflehrer011_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Group3200327brieflehrer011_source a okh:SourceFile ;
+    rdfs:label "Source File of Group 3/200327_Brief_Lehrer_011 of Digital Making++ Workshop 9168596d2a1cbd67564bce2e06af74aa88df8735" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40413/200327_brief_lehrer_011.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozMjQ2OTM=> .
+
+:Group3200327finalpresentationkombuchaxvirus01 a okh:Part ;
+    rdfs:label "Group 3/200327_Final_Presentation_KombuchaXvirus_01" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Jonas Emanuel Gschwind" ;
+    okh:source :Group3200327finalpresentationkombuchaxvirus01_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Group3200327finalpresentationkombuchaxvirus01_source a okh:SourceFile ;
+    rdfs:label "Source File of Group 3/200327_Final_Presentation_KombuchaXvirus_01 of Digital Making++ Workshop 9168596d2a1cbd67564bce2e06af74aa88df8735" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40413/200327_final_presentation_kombuchaxvirus_01-be611.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozMjQ3MDA=> .
+
+:Group3200327projectdescription011 a okh:Part ;
+    rdfs:label "Group 3/200327_Project_Description_011" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Jonas Emanuel Gschwind" ;
+    okh:source :Group3200327projectdescription011_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Group3200327projectdescription011_source a okh:SourceFile ;
+    rdfs:label "Source File of Group 3/200327_Project_Description_011 of Digital Making++ Workshop 9168596d2a1cbd67564bce2e06af74aa88df8735" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40413/200327_project_description_011.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozMjQ3NDQ=> .
+
+:Group4invisibleRainbowdigitalmaking1 a okh:Part ;
+    rdfs:label "Group 4/Invisible Rainbow /Digital_making_1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "pascal decaillet" ;
+    okh:source :Group4invisibleRainbowdigitalmaking1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Group4invisibleRainbowdigitalmaking1_source a okh:SourceFile ;
+    rdfs:label "Source File of Group 4/Invisible Rainbow /Digital_making_1 of Digital Making++ Workshop 9168596d2a1cbd67564bce2e06af74aa88df8735" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40413/digital_making_1.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozMjU4MTg=> .
+
+:Group5rockitdocumentation a okh:Part ;
+    rdfs:label "Group 5/RocKit_Documentation" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "María Ruiz Cozcolluela" ;
+    okh:source :Group5rockitdocumentation_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Group5rockitdocumentation_source a okh:SourceFile ;
+    rdfs:label "Source File of Group 5/RocKit_Documentation of Digital Making++ Workshop 9168596d2a1cbd67564bce2e06af74aa88df8735" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40413/rockit_documentation.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozMjQ3Mzc=> .
+
+:Group5rockitpresentation a okh:Part ;
+    rdfs:label "Group 5/RocKit_Presentation" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "María Ruiz Cozcolluela" ;
+    okh:source :Group5rockitpresentation_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Group5rockitpresentation_source a okh:SourceFile ;
+    rdfs:label "Source File of Group 5/RocKit_Presentation of Digital Making++ Workshop 9168596d2a1cbd67564bce2e06af74aa88df8735" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40413/rockit_presentation.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozMjQ3Mzg=> .
+
+:Group702finalconcepttreasuresoapgame a okh:Part ;
+    rdfs:label "Group 7/02_FinalConceptTreasureSoapGame" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Claudia Epiney " ;
+    okh:source :Group702finalconcepttreasuresoapgame_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Group702finalconcepttreasuresoapgame_source a okh:SourceFile ;
+    rdfs:label "Source File of Group 7/02_FinalConceptTreasureSoapGame of Digital Making++ Workshop 9168596d2a1cbd67564bce2e06af74aa88df8735" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40413/02_finalconcepttreasuresoapgame.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozMjYyOTE=> .
 
 :Image a okh:Image ;
     rdfs:label "Image of Digital Making++ Workshop 9168596d2a1cbd67564bce2e06af74aa88df8735" ;
@@ -197,44 +225,18 @@
 :Readme a okh:Readme ;
     rdfs:label "Readme of Digital Making++ Workshop 9168596d2a1cbd67564bce2e06af74aa88df8735" ;
     okh:fileFormat "MD" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40413/readme-138b6.md> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMjQzODg=> .
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40413/readme-ff00c.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozMjQ2NTU=> .
 
-:Rockitdocumentation a okh:Part ;
-    rdfs:label "RocKit_Documentation" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "María Ruiz Cozcolluela" ;
-    okh:source :Rockitdocumentation_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Rockitdocumentation_source a okh:SourceFile ;
-    rdfs:label "Source File of RocKit_Documentation of Digital Making++ Workshop 9168596d2a1cbd67564bce2e06af74aa88df8735" ;
-    okh:fileFormat "PDF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40413/rockit_documentation.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMjQ3Mzc=> .
-
-:Rockitpresentation a okh:Part ;
-    rdfs:label "RocKit_Presentation" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "María Ruiz Cozcolluela" ;
-    okh:source :Rockitpresentation_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Rockitpresentation_source a okh:SourceFile ;
-    rdfs:label "Source File of RocKit_Presentation of Digital Making++ Workshop 9168596d2a1cbd67564bce2e06af74aa88df8735" ;
-    okh:fileFormat "PDF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40413/rockit_presentation.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMjQ3Mzg=> .
-
-:Tonjiuniversitypublicepidemicpreventionguideagainst a okh:Part ;
-    rdfs:label "TonjiUniversity-Public_Epidemic_Prevention_Guide_Against" ;
+:Workshopreadingstonjiuniversitypublicepidemicpreventionguideagainst a okh:Part ;
+    rdfs:label "WorkshopReadings/TonjiUniversity-Public_Epidemic_Prevention_Guide_Against" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Serena Cangiano" ;
-    okh:source :Tonjiuniversitypublicepidemicpreventionguideagainst_source ;
+    okh:source :Workshopreadingstonjiuniversitypublicepidemicpreventionguideagainst_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Tonjiuniversitypublicepidemicpreventionguideagainst_source a okh:SourceFile ;
-    rdfs:label "Source File of TonjiUniversity-Public_Epidemic_Prevention_Guide_Against of Digital Making++ Workshop 9168596d2a1cbd67564bce2e06af74aa88df8735" ;
+:Workshopreadingstonjiuniversitypublicepidemicpreventionguideagainst_source a okh:SourceFile ;
+    rdfs:label "Source File of WorkshopReadings/TonjiUniversity-Public_Epidemic_Prevention_Guide_Against of Digital Making++ Workshop 9168596d2a1cbd67564bce2e06af74aa88df8735" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40413/tonjiuniversity-public_epidemic_prevention_guide_against.pdf> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTozMTg3OTk=> .

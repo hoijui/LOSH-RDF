@@ -1,0 +1,32 @@
+@prefix : <https://www.thingiverse.com/thing%3A13914/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:PcbSolderingJig a okh:Module ;
+    rdfs:label "PCB Soldering Jig" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """OK, the STL will be useless to anyone not soldering my particular board but the idea might inspire others to make their own.\r
+\r
+I have 10 boards to solder this weekend.  There are various SMD parts and a bunch of through hole parts.  It can be a real pain to solder the through-holes while keeping them straight up and down.  So I created this holder.  I have pockets in the holder that all my through holes parts sit in.  They are positioned exactly for the board both in XY coordinates and the height of each pocket brings the part flush to the board.  Because there isn't any play in the pockets and because the parts sit against the board, all the parts come out perfectly vertical.\r
+\r
+It takes about 5 seconds to populate the holder and put a blank PCB on top of them.  Then it's just a matter of soldering each pin which is a lot faster than the previous way of trying to hold a piece, soldering a single pin, checking to make sure the part is straight and then finishing the rest of the pins, then repeat on another part.\r
+\r
+I also designed my board so that all SMD parts (except one pesky 0402 LED) are on the bottom.  This makes it really easy to solder the board in one go.  My production time has gone down from 10 minutes to about 2 minutes\r
+\r
+I also put a lossely folded up piece of paper in each pocket.  This acts as a sort of spring and helps to push flatten the parts against the PCB.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "brettjones" ;
+    okh:repo <https://www.thingiverse.com/thing:13914> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:13914> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of PCB Soldering Jig 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/96/5b/6d/f8/bd/DSC_8698_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/96/5b/6d/f8/bd/DSC_8698_display_large_display_large.jpg> .
+

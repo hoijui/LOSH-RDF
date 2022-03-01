@@ -1,24 +1,25 @@
-@prefix : <https://wikifactory.com/+uboopenfactory/tri-bras-robot/fcb0458b8822c6c63cc682bd59341979a58ce26a/> .
+@prefix : <https://wikifactory.com/%2Buboopenfactory/tri-bras-robot/fcb0458b8822c6c63cc682bd59341979a58ce26a/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 :TriBrasRobot a okh:Module ;
     rdfs:label "Tri bras robot" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "fr" ;
     okh:function "Réalisation d’un système de tri basé sur une sélection par la couleur. Cette réalisation est conçue autour d’un bras robotique piloté par une carte arduino UNO permettant la sélection selon les couleurs visible rouge, jeune et bleu détectées. Auteur : Ahcène OuachémiLicence : CC-BY-SA" ;
-    okh:hasComponent :001,
-        :002,
-        :003,
-        :004,
-        :005,
-        :006,
-        :007,
-        :008,
-        :009,
-        :011,
-        :012,
-        :013,
-        :10 ;
+    okh:hasComponent :Impression3dArmRobot001,
+        :Impression3dArmRobot002,
+        :Impression3dArmRobot003,
+        :Impression3dArmRobot004,
+        :Impression3dArmRobot005,
+        :Impression3dArmRobot006,
+        :Impression3dArmRobot007,
+        :Impression3dArmRobot008,
+        :Impression3dArmRobot009,
+        :Impression3dArmRobot011,
+        :Impression3dArmRobot012,
+        :Impression3dArmRobot013,
+        :Impression3dArmRobot10 ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "Mathieu Cariou" ;
@@ -27,183 +28,184 @@
     okh:repo <https://wikifactory.com/+uboopenfactory/tri-bras-robot> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
     okh:version "fcb0458b8822c6c63cc682bd59341979a58ce26a" ;
     okh:versionOf <https://wikifactory.com/+uboopenfactory/tri-bras-robot> .
-
-:001 a okh:Part ;
-    rdfs:label "001" ;
-    okh:documentationLanguage "fr" ;
-    okh:licensor "ouachemiahcene09" ;
-    okh:source :001_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:001_source a okh:SourceFile ;
-    rdfs:label "Source File of 001 of Tri bras robot fcb0458b8822c6c63cc682bd59341979a58ce26a" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/152455/001.STL> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NjEwMTQ=> .
-
-:002 a okh:Part ;
-    rdfs:label "002" ;
-    okh:documentationLanguage "fr" ;
-    okh:licensor "ouachemiahcene09" ;
-    okh:source :002_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:002_source a okh:SourceFile ;
-    rdfs:label "Source File of 002 of Tri bras robot fcb0458b8822c6c63cc682bd59341979a58ce26a" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/152455/002.STL> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NjEwMjU=> .
-
-:003 a okh:Part ;
-    rdfs:label "003" ;
-    okh:documentationLanguage "fr" ;
-    okh:licensor "ouachemiahcene09" ;
-    okh:source :003_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:003_source a okh:SourceFile ;
-    rdfs:label "Source File of 003 of Tri bras robot fcb0458b8822c6c63cc682bd59341979a58ce26a" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/152455/003.STL> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NjEwMzI=> .
-
-:004 a okh:Part ;
-    rdfs:label "004" ;
-    okh:documentationLanguage "fr" ;
-    okh:licensor "ouachemiahcene09" ;
-    okh:source :004_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:004_source a okh:SourceFile ;
-    rdfs:label "Source File of 004 of Tri bras robot fcb0458b8822c6c63cc682bd59341979a58ce26a" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/152455/004.STL> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NjEwNDI=> .
-
-:005 a okh:Part ;
-    rdfs:label "005" ;
-    okh:documentationLanguage "fr" ;
-    okh:licensor "ouachemiahcene09" ;
-    okh:source :005_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:005_source a okh:SourceFile ;
-    rdfs:label "Source File of 005 of Tri bras robot fcb0458b8822c6c63cc682bd59341979a58ce26a" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/152455/005.STL> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NjEwNjM=> .
-
-:006 a okh:Part ;
-    rdfs:label "006" ;
-    okh:documentationLanguage "fr" ;
-    okh:licensor "ouachemiahcene09" ;
-    okh:source :006_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:006_source a okh:SourceFile ;
-    rdfs:label "Source File of 006 of Tri bras robot fcb0458b8822c6c63cc682bd59341979a58ce26a" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/152455/006.STL> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NjAxNzI=> .
-
-:007 a okh:Part ;
-    rdfs:label "007" ;
-    okh:documentationLanguage "fr" ;
-    okh:licensor "ouachemiahcene09" ;
-    okh:source :007_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:007_source a okh:SourceFile ;
-    rdfs:label "Source File of 007 of Tri bras robot fcb0458b8822c6c63cc682bd59341979a58ce26a" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/152455/007.STL> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NjEwNzk=> .
-
-:008 a okh:Part ;
-    rdfs:label "008" ;
-    okh:documentationLanguage "fr" ;
-    okh:licensor "ouachemiahcene09" ;
-    okh:source :008_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:008_source a okh:SourceFile ;
-    rdfs:label "Source File of 008 of Tri bras robot fcb0458b8822c6c63cc682bd59341979a58ce26a" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/152455/008.STL> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NjEwODk=> .
-
-:009 a okh:Part ;
-    rdfs:label "009" ;
-    okh:documentationLanguage "fr" ;
-    okh:licensor "ouachemiahcene09" ;
-    okh:source :009_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:009_source a okh:SourceFile ;
-    rdfs:label "Source File of 009 of Tri bras robot fcb0458b8822c6c63cc682bd59341979a58ce26a" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/152455/009.STL> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NjEwOTg=> .
-
-:011 a okh:Part ;
-    rdfs:label "011" ;
-    okh:documentationLanguage "fr" ;
-    okh:licensor "ouachemiahcene09" ;
-    okh:source :011_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:011_source a okh:SourceFile ;
-    rdfs:label "Source File of 011 of Tri bras robot fcb0458b8822c6c63cc682bd59341979a58ce26a" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/152455/011.STL> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NjExMjE=> .
-
-:012 a okh:Part ;
-    rdfs:label "012" ;
-    okh:documentationLanguage "fr" ;
-    okh:licensor "ouachemiahcene09" ;
-    okh:source :012_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:012_source a okh:SourceFile ;
-    rdfs:label "Source File of 012 of Tri bras robot fcb0458b8822c6c63cc682bd59341979a58ce26a" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/152455/012.STL> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NjExMzY=> .
-
-:013 a okh:Part ;
-    rdfs:label "013" ;
-    okh:documentationLanguage "fr" ;
-    okh:licensor "ouachemiahcene09" ;
-    okh:source :013_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:013_source a okh:SourceFile ;
-    rdfs:label "Source File of 013 of Tri bras robot fcb0458b8822c6c63cc682bd59341979a58ce26a" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/152455/013.STL> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NjExNDM=> .
-
-:10 a okh:Part ;
-    rdfs:label "10" ;
-    okh:documentationLanguage "fr" ;
-    okh:licensor "ouachemiahcene09" ;
-    okh:source :10_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:10_source a okh:SourceFile ;
-    rdfs:label "Source File of 10 of Tri bras robot fcb0458b8822c6c63cc682bd59341979a58ce26a" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/152455/10.STL> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NjExMTM=> .
 
 :Image a okh:Image ;
     rdfs:label "Image of Tri bras robot fcb0458b8822c6c63cc682bd59341979a58ce26a" ;
     okh:fileFormat "PNG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/152455/vignette-projet.png> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTkwMDk=> .
+
+:Impression3dArmRobot001 a okh:Part ;
+    rdfs:label "Impression 3D arm robot/001" ;
+    okh:documentationLanguage "fr" ;
+    okh:licensor "ouachemiahcene09" ;
+    okh:source :Impression3dArmRobot001_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Impression3dArmRobot001_source a okh:SourceFile ;
+    rdfs:label "Source File of Impression 3D arm robot/001 of Tri bras robot fcb0458b8822c6c63cc682bd59341979a58ce26a" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/152455/001.STL> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NjEwMTQ=> .
+
+:Impression3dArmRobot002 a okh:Part ;
+    rdfs:label "Impression 3D arm robot/002" ;
+    okh:documentationLanguage "fr" ;
+    okh:licensor "ouachemiahcene09" ;
+    okh:source :Impression3dArmRobot002_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Impression3dArmRobot002_source a okh:SourceFile ;
+    rdfs:label "Source File of Impression 3D arm robot/002 of Tri bras robot fcb0458b8822c6c63cc682bd59341979a58ce26a" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/152455/002.STL> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NjEwMjU=> .
+
+:Impression3dArmRobot003 a okh:Part ;
+    rdfs:label "Impression 3D arm robot/003" ;
+    okh:documentationLanguage "fr" ;
+    okh:licensor "ouachemiahcene09" ;
+    okh:source :Impression3dArmRobot003_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Impression3dArmRobot003_source a okh:SourceFile ;
+    rdfs:label "Source File of Impression 3D arm robot/003 of Tri bras robot fcb0458b8822c6c63cc682bd59341979a58ce26a" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/152455/003.STL> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NjEwMzI=> .
+
+:Impression3dArmRobot004 a okh:Part ;
+    rdfs:label "Impression 3D arm robot/004" ;
+    okh:documentationLanguage "fr" ;
+    okh:licensor "ouachemiahcene09" ;
+    okh:source :Impression3dArmRobot004_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Impression3dArmRobot004_source a okh:SourceFile ;
+    rdfs:label "Source File of Impression 3D arm robot/004 of Tri bras robot fcb0458b8822c6c63cc682bd59341979a58ce26a" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/152455/004.STL> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NjEwNDI=> .
+
+:Impression3dArmRobot005 a okh:Part ;
+    rdfs:label "Impression 3D arm robot/005" ;
+    okh:documentationLanguage "fr" ;
+    okh:licensor "ouachemiahcene09" ;
+    okh:source :Impression3dArmRobot005_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Impression3dArmRobot005_source a okh:SourceFile ;
+    rdfs:label "Source File of Impression 3D arm robot/005 of Tri bras robot fcb0458b8822c6c63cc682bd59341979a58ce26a" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/152455/005.STL> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NjEwNjM=> .
+
+:Impression3dArmRobot006 a okh:Part ;
+    rdfs:label "Impression 3D arm robot/006" ;
+    okh:documentationLanguage "fr" ;
+    okh:licensor "ouachemiahcene09" ;
+    okh:source :Impression3dArmRobot006_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Impression3dArmRobot006_source a okh:SourceFile ;
+    rdfs:label "Source File of Impression 3D arm robot/006 of Tri bras robot fcb0458b8822c6c63cc682bd59341979a58ce26a" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/152455/006.STL> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NjAxNzI=> .
+
+:Impression3dArmRobot007 a okh:Part ;
+    rdfs:label "Impression 3D arm robot/007" ;
+    okh:documentationLanguage "fr" ;
+    okh:licensor "ouachemiahcene09" ;
+    okh:source :Impression3dArmRobot007_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Impression3dArmRobot007_source a okh:SourceFile ;
+    rdfs:label "Source File of Impression 3D arm robot/007 of Tri bras robot fcb0458b8822c6c63cc682bd59341979a58ce26a" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/152455/007.STL> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NjEwNzk=> .
+
+:Impression3dArmRobot008 a okh:Part ;
+    rdfs:label "Impression 3D arm robot/008" ;
+    okh:documentationLanguage "fr" ;
+    okh:licensor "ouachemiahcene09" ;
+    okh:source :Impression3dArmRobot008_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Impression3dArmRobot008_source a okh:SourceFile ;
+    rdfs:label "Source File of Impression 3D arm robot/008 of Tri bras robot fcb0458b8822c6c63cc682bd59341979a58ce26a" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/152455/008.STL> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NjEwODk=> .
+
+:Impression3dArmRobot009 a okh:Part ;
+    rdfs:label "Impression 3D arm robot/009" ;
+    okh:documentationLanguage "fr" ;
+    okh:licensor "ouachemiahcene09" ;
+    okh:source :Impression3dArmRobot009_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Impression3dArmRobot009_source a okh:SourceFile ;
+    rdfs:label "Source File of Impression 3D arm robot/009 of Tri bras robot fcb0458b8822c6c63cc682bd59341979a58ce26a" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/152455/009.STL> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NjEwOTg=> .
+
+:Impression3dArmRobot011 a okh:Part ;
+    rdfs:label "Impression 3D arm robot/011" ;
+    okh:documentationLanguage "fr" ;
+    okh:licensor "ouachemiahcene09" ;
+    okh:source :Impression3dArmRobot011_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Impression3dArmRobot011_source a okh:SourceFile ;
+    rdfs:label "Source File of Impression 3D arm robot/011 of Tri bras robot fcb0458b8822c6c63cc682bd59341979a58ce26a" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/152455/011.STL> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NjExMjE=> .
+
+:Impression3dArmRobot012 a okh:Part ;
+    rdfs:label "Impression 3D arm robot/012" ;
+    okh:documentationLanguage "fr" ;
+    okh:licensor "ouachemiahcene09" ;
+    okh:source :Impression3dArmRobot012_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Impression3dArmRobot012_source a okh:SourceFile ;
+    rdfs:label "Source File of Impression 3D arm robot/012 of Tri bras robot fcb0458b8822c6c63cc682bd59341979a58ce26a" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/152455/012.STL> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NjExMzY=> .
+
+:Impression3dArmRobot013 a okh:Part ;
+    rdfs:label "Impression 3D arm robot/013" ;
+    okh:documentationLanguage "fr" ;
+    okh:licensor "ouachemiahcene09" ;
+    okh:source :Impression3dArmRobot013_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Impression3dArmRobot013_source a okh:SourceFile ;
+    rdfs:label "Source File of Impression 3D arm robot/013 of Tri bras robot fcb0458b8822c6c63cc682bd59341979a58ce26a" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/152455/013.STL> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NjExNDM=> .
+
+:Impression3dArmRobot10 a okh:Part ;
+    rdfs:label "Impression 3D arm robot/10" ;
+    okh:documentationLanguage "fr" ;
+    okh:licensor "ouachemiahcene09" ;
+    okh:source :Impression3dArmRobot10_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Impression3dArmRobot10_source a okh:SourceFile ;
+    rdfs:label "Source File of Impression 3D arm robot/10 of Tri bras robot fcb0458b8822c6c63cc682bd59341979a58ce26a" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/152455/10.STL> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NjExMTM=> .
 
 :Readme a okh:Readme ;
     rdfs:label "Readme of Tri bras robot fcb0458b8822c6c63cc682bd59341979a58ce26a" ;

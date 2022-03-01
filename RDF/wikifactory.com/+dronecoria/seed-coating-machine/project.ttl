@@ -1,19 +1,20 @@
-@prefix : <https://wikifactory.com/+dronecoria/seed-coating-machine/245e6cc7cf1911baca43e1cb09d4dbb6146d728b/> .
+@prefix : <https://wikifactory.com/%2Bdronecoria/seed-coating-machine/245e6cc7cf1911baca43e1cb09d4dbb6146d728b/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 :SeedCoatingMachine a okh:Module ;
     rdfs:label "Seed Coating Machine" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "An automatic and programable machine to perform seed coating to enable low cost and large scale, seed based reforestations." ;
-    okh:hasComponent :Auger,
-        :Engineanchorplate,
-        :Frame,
-        :Hopper,
-        :Powderfeederv10,
-        :Ring,
-        :Rotatytube,
-        :Tubeaugerend ;
+    okh:hasComponent :Powderfeederauger,
+        :Powderfeederengineanchorplate,
+        :Powderfeederframe,
+        :Powderfeederhopper,
+        :Powderfeederpowderfeederv10,
+        :Powderfeederring,
+        :Powderfeederrotatytube,
+        :Powderfeedertubeaugerend ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "Lot Amorós" ;
@@ -22,60 +23,9 @@
     okh:repo <https://wikifactory.com/+dronecoria/seed-coating-machine> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
     okh:version "245e6cc7cf1911baca43e1cb09d4dbb6146d728b" ;
     okh:versionOf <https://wikifactory.com/+dronecoria/seed-coating-machine> .
-
-:Auger a okh:Part ;
-    rdfs:label "Auger" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "sergei Prokamo" ;
-    okh:source :Auger_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Auger_source a okh:SourceFile ;
-    rdfs:label "Source File of Auger of Seed Coating Machine 245e6cc7cf1911baca43e1cb09d4dbb6146d728b" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/88078/auger.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2Mjk0MjI=> .
-
-:Engineanchorplate a okh:Part ;
-    rdfs:label "Engine_anchor_plate" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "sergei Prokamo" ;
-    okh:source :Engineanchorplate_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Engineanchorplate_source a okh:SourceFile ;
-    rdfs:label "Source File of Engine_anchor_plate of Seed Coating Machine 245e6cc7cf1911baca43e1cb09d4dbb6146d728b" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/88078/engine_anchor_plate.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2Mjk0MjE=> .
-
-:Frame a okh:Part ;
-    rdfs:label "frame" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "sergei Prokamo" ;
-    okh:source :Frame_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Frame_source a okh:SourceFile ;
-    rdfs:label "Source File of frame of Seed Coating Machine 245e6cc7cf1911baca43e1cb09d4dbb6146d728b" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/88078/frame.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2Mjk0MTk=> .
-
-:Hopper a okh:Part ;
-    rdfs:label "Hopper" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "sergei Prokamo" ;
-    okh:source :Hopper_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Hopper_source a okh:SourceFile ;
-    rdfs:label "Source File of Hopper of Seed Coating Machine 245e6cc7cf1911baca43e1cb09d4dbb6146d728b" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/88078/hopper.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2Mjk0MTc=> .
 
 :Image a okh:Image ;
     rdfs:label "Image of Seed Coating Machine 245e6cc7cf1911baca43e1cb09d4dbb6146d728b" ;
@@ -83,61 +33,113 @@
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/88078/whatsapp_image_2020-10-12_at_193930-8fcc2.jpeg> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo0OTc2NzA=> .
 
-:Powderfeederv10 a okh:Part ;
-    rdfs:label "PowderFeeder_v1.0" ;
+:Powderfeederauger a okh:Part ;
+    rdfs:label "PowderFeeder/Auger" ;
     okh:documentationLanguage "en" ;
     okh:licensor "sergei Prokamo" ;
-    okh:source :Powderfeederv10_source ;
+    okh:source :Powderfeederauger_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Powderfeederv10_source a okh:SourceFile ;
-    rdfs:label "Source File of PowderFeeder_v1.0 of Seed Coating Machine 245e6cc7cf1911baca43e1cb09d4dbb6146d728b" ;
+:Powderfeederauger_source a okh:SourceFile ;
+    rdfs:label "Source File of PowderFeeder/Auger of Seed Coating Machine 245e6cc7cf1911baca43e1cb09d4dbb6146d728b" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/88078/auger.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2Mjk0MjI=> .
+
+:Powderfeederengineanchorplate a okh:Part ;
+    rdfs:label "PowderFeeder/Engine_anchor_plate" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "sergei Prokamo" ;
+    okh:source :Powderfeederengineanchorplate_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Powderfeederengineanchorplate_source a okh:SourceFile ;
+    rdfs:label "Source File of PowderFeeder/Engine_anchor_plate of Seed Coating Machine 245e6cc7cf1911baca43e1cb09d4dbb6146d728b" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/88078/engine_anchor_plate.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2Mjk0MjE=> .
+
+:Powderfeederframe a okh:Part ;
+    rdfs:label "PowderFeeder/frame" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "sergei Prokamo" ;
+    okh:source :Powderfeederframe_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Powderfeederframe_source a okh:SourceFile ;
+    rdfs:label "Source File of PowderFeeder/frame of Seed Coating Machine 245e6cc7cf1911baca43e1cb09d4dbb6146d728b" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/88078/frame.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2Mjk0MTk=> .
+
+:Powderfeederhopper a okh:Part ;
+    rdfs:label "PowderFeeder/Hopper" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "sergei Prokamo" ;
+    okh:source :Powderfeederhopper_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Powderfeederhopper_source a okh:SourceFile ;
+    rdfs:label "Source File of PowderFeeder/Hopper of Seed Coating Machine 245e6cc7cf1911baca43e1cb09d4dbb6146d728b" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/88078/hopper.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2Mjk0MTc=> .
+
+:Powderfeederpowderfeederv10 a okh:Part ;
+    rdfs:label "PowderFeeder/PowderFeeder_v1.0" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "sergei Prokamo" ;
+    okh:source :Powderfeederpowderfeederv10_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Powderfeederpowderfeederv10_source a okh:SourceFile ;
+    rdfs:label "Source File of PowderFeeder/PowderFeeder_v1.0 of Seed Coating Machine 245e6cc7cf1911baca43e1cb09d4dbb6146d728b" ;
     okh:fileFormat "3DM" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/88078/powderfeeder_v10.3dm> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo2Mjk0NzQ=> .
 
-:Readme a okh:Readme ;
-    rdfs:label "Readme of Seed Coating Machine 245e6cc7cf1911baca43e1cb09d4dbb6146d728b" ;
-    okh:fileFormat "MD" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/88078/readme-0775f.md> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NjI4NzI=> .
-
-:Ring a okh:Part ;
-    rdfs:label "ring" ;
+:Powderfeederring a okh:Part ;
+    rdfs:label "PowderFeeder/ring" ;
     okh:documentationLanguage "en" ;
     okh:licensor "sergei Prokamo" ;
-    okh:source :Ring_source ;
+    okh:source :Powderfeederring_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Ring_source a okh:SourceFile ;
-    rdfs:label "Source File of ring of Seed Coating Machine 245e6cc7cf1911baca43e1cb09d4dbb6146d728b" ;
+:Powderfeederring_source a okh:SourceFile ;
+    rdfs:label "Source File of PowderFeeder/ring of Seed Coating Machine 245e6cc7cf1911baca43e1cb09d4dbb6146d728b" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/88078/ring.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo2Mjk0MTY=> .
 
-:Rotatytube a okh:Part ;
-    rdfs:label "rotaty_tube" ;
+:Powderfeederrotatytube a okh:Part ;
+    rdfs:label "PowderFeeder/rotaty_tube" ;
     okh:documentationLanguage "en" ;
     okh:licensor "sergei Prokamo" ;
-    okh:source :Rotatytube_source ;
+    okh:source :Powderfeederrotatytube_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Rotatytube_source a okh:SourceFile ;
-    rdfs:label "Source File of rotaty_tube of Seed Coating Machine 245e6cc7cf1911baca43e1cb09d4dbb6146d728b" ;
+:Powderfeederrotatytube_source a okh:SourceFile ;
+    rdfs:label "Source File of PowderFeeder/rotaty_tube of Seed Coating Machine 245e6cc7cf1911baca43e1cb09d4dbb6146d728b" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/88078/rotaty_tube.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo2Mjk0MTU=> .
 
-:Tubeaugerend a okh:Part ;
-    rdfs:label "Tube_auger_end" ;
+:Powderfeedertubeaugerend a okh:Part ;
+    rdfs:label "PowderFeeder/Tube_auger_end" ;
     okh:documentationLanguage "en" ;
     okh:licensor "sergei Prokamo" ;
-    okh:source :Tubeaugerend_source ;
+    okh:source :Powderfeedertubeaugerend_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Tubeaugerend_source a okh:SourceFile ;
-    rdfs:label "Source File of Tube_auger_end of Seed Coating Machine 245e6cc7cf1911baca43e1cb09d4dbb6146d728b" ;
+:Powderfeedertubeaugerend_source a okh:SourceFile ;
+    rdfs:label "Source File of PowderFeeder/Tube_auger_end of Seed Coating Machine 245e6cc7cf1911baca43e1cb09d4dbb6146d728b" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/88078/tube_auger_end.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo2Mjk0MjM=> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of Seed Coating Machine 245e6cc7cf1911baca43e1cb09d4dbb6146d728b" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/88078/readme-73ea5.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDQ3NzI=> .
 

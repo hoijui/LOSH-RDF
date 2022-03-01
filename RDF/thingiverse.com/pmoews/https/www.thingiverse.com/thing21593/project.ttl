@@ -1,0 +1,41 @@
+@prefix : <https://www.thingiverse.com/thing%3A21593/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:BoxWithHexagonalHoles a okh:Module ;
+    rdfs:label "Box with Hexagonal Holes" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is a derivative of thing:21358, Parametric Decorated Box. Material has been removed from all six sides leaving holes that form a hexagonal pattern - see image at the left.\r
+\r
+\r
+An interesting fact about the Thingomatic is that plastic is saved if holes are cut in the model; there is no waste, no shavings to throw away.  Netfabb Studio reports that the holed box plus lid has a volume of 16.5 cubic centimeters while the solid box plus lid has a volume of 24.5 cubic centimeters; a saving in material of about 30%. The hexagonal pattern makes the box an attractive and interesting object rather like those pad and pencil holders sold in office supply stores that are made of wire mesh.\r
+\r
+Three stl files are included:\r
+\r
+box_with_holes_05.stl, basic box with holes on all five sides\r
+box_with_holes_04.stl, the box with a solid bottom and holes on four sides\r
+lid_with_holes.stl, the lid with holes\r
+\r
+Two scad files are included\r
+\r
+box_with_holes.scad, the file which made the two boxes\r
+                     see comments in the file\r
+lid_with_holes.scad, the file which makes the lid\r
+\r
+The openSCAD forms used to make the holes were constructed from three dimensional hexagons properly positioned in a larger hexagonal array.  Thus the unsubtracted material forms the desired graphite like structure - see thing:13672.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "pmoews" ;
+    okh:repo <https://www.thingiverse.com/thing:21593> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:21593> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Box with Hexagonal Holes 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/43/05/88/6b/a9/hex_box_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/43/05/88/6b/a9/hex_box_display_large_display_large.jpg> .
+

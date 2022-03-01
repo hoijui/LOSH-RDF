@@ -1,0 +1,41 @@
+@prefix : <https://www.thingiverse.com/thing%3A17581/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:FrcRobotParts a okh:Module ;
+    rdfs:label "FRC Robot Parts" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """I'm working with a FIRST robotics team (FRC 2151) this year, so I am printing parts for the robot to introduce the students to 3d printing and other related engineering principles.\r
+\r
+Here is this year's game animation: http://www.youtube.com/watch?v=nOXsdhZZSdM\r
+\r
+This is a collection of parts that will be used on our robot. \r
+Limit switch mount: This holds the limit switches for the adjustable angle shooter, so it doesn't overtravel. Allows a simple connection between 8020 style extruded framing and a standard microswitch. Video of my makerbot printing this part: http://www.youtube.com/watch?v=njjfYhdcb_8\r
+\r
+LED mount: We are using IR LED pairs to detect the ball in the robot. This is a mount for hold the LED and narrow the beam.\r
+\r
+Pulley: Using the absolutely fantastic Pulley SCAD script ( http://www.thingiverse.com/thing:16627 ) by droftarts, I was able to quickly generate a large bore pulley for the ball movement mechanism. The robot kit comes with Gates HTD 5mm belts, and this profile is included in the scad script by droftarts. the 27mm bore is perfectly sized to fit the Schedule 80 PVC pipe we are using as the core of the ball rollers.\r
+\r
+Sonar Bracket: This is a bracket to hold the ultrasonic rangefinder to 8020 style aluminum extrusion. It has a cutout for the wiring, a hole for a zip tie, and a mounting face that fits in the groove of the extruded aluminum.\r
+\r
+pulleys with Spline: These are from the same pulley module in OpenSCAD, but with an additional step. The spline is designed to fit on the Denso Throttle control motors provided in the KOP. The positive of the spline is also provided. It is oversized by 0.1mm on each face compared to the motor.\r
+\r
+Potentiometer coupling: We needed a coupler to connect the sprocket on the adjustable angle shooter to a 10-turn pot to measure position. This couple does the job.\r
+\r
+Work in progress because there are more parts to print :)""" ;
+    okh:hasImage :Image ;
+    okh:licensor "engunneer" ;
+    okh:repo <https://www.thingiverse.com/thing:17581> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:17581> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of FRC Robot Parts 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://thingiverse-rerender-new.s3.amazonaws.com/renders/4d/db/34/e1/0c/limit_switch_mount_display_large.jpg> ;
+    okh:permaURL <https://thingiverse-rerender-new.s3.amazonaws.com/renders/4d/db/34/e1/0c/limit_switch_mount_display_large.jpg> .
+

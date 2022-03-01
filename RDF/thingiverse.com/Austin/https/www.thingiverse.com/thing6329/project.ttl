@@ -1,0 +1,35 @@
+@prefix : <https://www.thingiverse.com/thing%3A6329/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:EggbotCoordinateDemoUsingHersheyText a okh:Module ;
+    rdfs:label "Eggbot Coordinate Demo Using Hershey Text" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """The original was great to have, but I made these tweaks:\r
+\r
+- The labels have been replaced with larger text generated using the Hershey Text extension. These labels should be now be super-legible, even on objects as small as ping pong balls. :D\r
+\r
+- After looking at Inkscape's y-axis orientation and the eggbot pen-motor orientations, the y-position labels have been vertically swapped.\r
+\r
+- The paths are now organized into layers named "Grid Lines", "Direction Markers", and "Labels". :)\r
+\r
+Future changes: I intend to create some additional variants for heights of 950, 900, and 800. It might also be handy to have some regular-grid designs without labels to make it easier to pencil-sketch on a reusable ball and then transfer that design to Inkscape.\r
+\r
+EDIT: Silly me, I forgot to promote Hershey Text! Download it now!\r
+http://www.evilmadscientist.com/article.php/hershey""" ;
+    okh:hasImage :Image ;
+    okh:licensor "Austin" ;
+    okh:repo <https://www.thingiverse.com/thing:6329> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:6329> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Eggbot Coordinate Demo Using Hershey Text 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/52/58/5c/01/36/Hershey_Coordinates_-_1000_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/52/58/5c/01/36/Hershey_Coordinates_-_1000_display_large_display_large.jpg> .
+

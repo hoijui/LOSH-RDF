@@ -1,0 +1,32 @@
+@prefix : <https://www.thingiverse.com/thing%3A8464/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:BezierRibbons3d a okh:Module ;
+    rdfs:label "Bezier Ribbons 3D" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Heading on the way to doing Bezier surfaces, taking this brief stop to enhance the Bezier ribbon function.\r
+\r
+This thing will generate a 3D Ribbon, where not just the profile, but the height, can also be controlled.  You give it two Bezier curves, and the first curve's 'z' values will be taken as control points for the overall height of the ribbon.\r
+\r
+With a couple of modifications, the second curve could be used to indicate a z-axis offset, which would give you double the pleasure.\r
+\r
+The other thing in this little package is separating out the core Bezier functions from the demo functions that I've been using.  The core functions will likely end up in some library at some point.\r
+\r
+If you really want to get a sense for what's happening here, you might want to play with the model in OpenScad, or spin the .stl around.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "WilliamAAdams" ;
+    okh:repo <https://www.thingiverse.com/thing:8464> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:8464> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Bezier Ribbons 3D 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/8a/ab/74/d1/30/RibbonAlone_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/8a/ab/74/d1/30/RibbonAlone_display_large_display_large.jpg> .
+

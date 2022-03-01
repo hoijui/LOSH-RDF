@@ -1,0 +1,48 @@
+@prefix : <https://www.thingiverse.com/thing%3A15427/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ReplacementHeatedBedForEmakerHuxley a okh:Module ;
+    rdfs:label "Replacement heated bed for Emaker Huxley" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """It's no secret to owners of Emaker Huxleys that the heated bed has a design flaw. Many owners, including myself, have experience multiple failures of the heated bed.\r
+http://www.emakershop.com/forum?vasthtmlaction=viewtopic&t=276\r
+\r
+IMHO, it's not if but when the bed will fail. I decided to design my own replacement bed for the Emaker Huxleys despite already ordering the ReprapPro Huxley's PCB bed.\r
+\r
+Reason being that the PCB bed is not a drop-in replacement for the Emaker Huxleys. Changes to the Y-axis is required and the thermistor tables are different too.\r
+\r
+This bed is designed to be a drop-in replacement and has a larger build area that will allow actual printing of the promised 140mm x 140mm area.\r
+\r
+One of the problem when coming up with the design is determining the resistor to use. Indeed there seems to be no guide to this. For my case, I used my rusty electronics knowledge and some guesswork.\r
+\r
+First, determine the power wattage for the bed. 90-100W seems like a safe bet, and since the Emaker Huxley's power adapter is only rated to 120W (19V). It's best to give some allowance. Obviously, if your bed is huge or uses a thicker aluminum, you have to compensate for that.\r
+\r
+So current, I = 90W / 19V = 4.74A\r
+\r
+Resistance, R = 19V / 4.74A = 4ohms\r
+\r
+I decided to use 6 x 15W resistors to spread the heat more evenly, but I believe 4 x 25W will work too. So roughly 4ohms / 6 = 0.66ohms each.\r
+http://singapore.rs-online.com/web/p/products/107-3560/\r
+\r
+I also got some high-temp hook up wires.\r
+http://singapore.rs-online.com/web/p/products/177-0952/\r
+\r
+You can use back the original thermistors that came with the kit but just for reference, it's this one.\r
+http://singapore.rs-online.com/web/p/products/528-8592/""" ;
+    okh:hasImage :Image ;
+    okh:licensor "teckwee" ;
+    okh:repo <https://www.thingiverse.com/thing:15427> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:15427> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Replacement heated bed for Emaker Huxley 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/78/d3/69/31/f6/Bed1_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/78/d3/69/31/f6/Bed1_display_large_display_large.jpg> .
+

@@ -1,0 +1,48 @@
+@prefix : <https://www.thingiverse.com/thing%3A10190/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Gömböc a okh:Module ;
+    rdfs:label "Gömböc" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """My best attempt at reverse-engineering the Gömböc:  \r
+\r
+http://en.wikipedia.org/wiki/G%C3%B6mb%C3%B6c  \r
+\r
+The process began by using AutoDesk Photo Scene Editor on a series of 360-degree images of the original Gömböc published on the Gömböc website. This software lets you define common reference points on an object between images taken from different angles, and extrapolates the shape of the object using the resulting vector field. It yielded a crude Gömböc model which I then used as the basis for an eyeballed CSG model.  \r
+\r
+It isn't perfect, and it probably won't actually work as a Gömböc either, because the shape is reported to be very sensitive to dimensional tolerances. But I spent quite a bit of time and energy on this and thought somebody might use it as a starting point for improvements. Or better yet, that it would persuade the Gömböc discoverers that it is time to finally publish the details of the commercial Gömböc shape in the open literature.  \r
+  \r
+UPDATE  \r
+  \r
+On 2011-07-22, I received an e-mail from Prof. Gábor Domokos, one of the Gömböc's co-creators.  Prof. Domokos politely took issue with some of the statements I originally made in this space.  My original statement has been modified in response to his comments.  It may change again as our discussion continues.  \r
+\r
+To the best of my ability to research the question and understand what I've read, the Gömböc discoverers, though advancing the claim that the shape popularized and commercialized as the Gömböc is a meaningful scientific discovery, have not actually published that shape for purposes of peer review. Two years ago when I undertook this project, I exhausted the available published resources on the subject, including all the authors' papers on the Gábor and related topics and the Hungarian IP filings that protect the Gömböc shape for commercial purposes in Hungary.  \r
+\r
+Since that time the Gömböc shape has received a U.S. design patent (#D614077):  \r
+\r
+https://patents.google.com/patent/USD614077S1/en\r
+\r
+This document includes line art that constitutes the best and most specific public description of the commercial Gömböc shape that I have seen.  It still does not satisfy the standards of scientific peer review as I understand them.  \r
+\r
+Domokos and Péter Várkonyi claim to have produced a shape that has unique mathematical properties, but they have not told the world exactly what that shape is, so their claim for this particular shape cannot be verified. They will, however, sell you an expensive CNC-machined copy of that shape.  \r
+\r
+I am no mathematician, and though I believe their published works establish to the standards of that community that mono-monostatic bodies exist, I am not satisfied that their claim of that property in the shape publicized and commercialized as the Gömböc is supported by sufficient evidence.  Unless they publish exact parameters of the commercialized Gömböc shape in the open literature, their claim that it is really mono-monostatic cannot be verified by other researchers, and hence must remain open to doubt.  \r
+\r
+Prof. Domokos has politely requested that I remove this file.  I have respectfully declined to do so, as I do not believe it violates any of their established legal rights, and I believe it may have actual value for researchers interested in the Gömböc and mono-monostatic bodies in general.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "seanmichaelragan" ;
+    okh:repo <https://www.thingiverse.com/thing:10190> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:10190> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Gömböc 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/79/13/4c/e4/63/Seans_Gomboc_02_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/79/13/4c/e4/63/Seans_Gomboc_02_display_large_display_large.jpg> .
+

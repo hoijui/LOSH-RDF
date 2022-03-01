@@ -1,0 +1,36 @@
+@prefix : <https://www.thingiverse.com/thing%3A6278/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:OpenxCarriage a okh:Module ;
+    rdfs:label "OpenX Carriage" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is a minimal Mendel X carriage with a large central opening. It is meant to be a drop in replacement for the standard Sells Mendel carriage. With a bit of work I'm sure it could work just fine on a Prusa Mendel.\r
+\r
+Importantly, this design uses bearings, so you either need to salvage them from your current carriage or have 9 extras on hand.\r
+\r
+This design has a number of key advantages: it is quick to print and assemble; it is light; ; it has a huge central opening to accommodate many hot end designs plus insulation and/or fan; No captive nuts; Easy access to extruder mounting points; it can 'clip' on and off of the x axis rails and belt.\r
+\r
+Edit: I should mention that there are only the two compatible mounting holes, and that they are perpendicular to the regular x carriage. This is so you can mount a wades extruder sideways. There are other holes, as you can see in the renders, but they aren't in the same place as the regular carriage (at least i didn't design it to be, maybe i got lucky)\r
+\r
+OpenSCAD versions:\r
+http://www.thingiverse.com/thing:7772 - Carriage body\r
+http://www.thingiverse.com/thing:17971 - Arm\r
+\r
+Also check out the the Y carriage redesign: http://www.thingiverse.com/thing:6641""" ;
+    okh:hasImage :Image ;
+    okh:licensor "Buback" ;
+    okh:repo <https://www.thingiverse.com/thing:6278> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/LGPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:6278> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of OpenX Carriage 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/68/cf/24/ae/fd/OpenX_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/68/cf/24/ae/fd/OpenX_display_large_display_large.jpg> .
+

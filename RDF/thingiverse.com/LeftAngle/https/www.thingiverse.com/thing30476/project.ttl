@@ -1,0 +1,34 @@
+@prefix : <https://www.thingiverse.com/thing%3A30476/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:TamingTheZaxisStop a okh:Module ;
+    rdfs:label "Taming the @#$@  Z-Axis Stop..." ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """A few crashes into the top of the Replicator's Z axis stop started throwing off the build plate's home position.  I discovered the Z axis stop switch was held in place by it's mounting lugs in a sheer position.  Whenever the carriage missed the switch, the motor continued to drive the stage upward, bending the switch up with it.  I needed to repair the stop switch.
+
+ Pulling the stop was easy...
+
+Putting it back wasn't.  The right-most bolt is located directly behind the Z axis drive screw.  My fingers are fat and my eyesight is failing.
+
+2 hours into trying to thread nuts, spacers and circuit boards into place, I gave up short of removing the Z axis motor and took another route to solving my problem.
+
+The trouble is, I didn't make it with my printer (no Z axis stop, remember?).
+
+I'll show you what I did with pictures and throw in a bonus project for the required download:)""" ;
+    okh:hasImage :Image ;
+    okh:licensor "LeftAngle" ;
+    okh:repo <https://www.thingiverse.com/thing:30476> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:30476> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Taming the @#$@  Z-Axis Stop... 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/15/9d/18/9b/1b/Start_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/15/9d/18/9b/1b/Start_display_large.jpg> .
+

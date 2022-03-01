@@ -1,0 +1,31 @@
+@prefix : <https://www.thingiverse.com/thing%3A4801/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ValkyrieSingleSidedSurfaceMountStepperBoard a okh:Module ;
+    rdfs:label "Valkyrie single sided surface mount stepper  board" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Re draw of Tinhead's Valkyrie stepper motor board (V2.7)to use surface mount parts in a single sided board to make it easy to fabricate yourself.\r
+\r
+This uses I2C to communicate with the main board \r
+(see; http://letsmakerobots.com/node/9006)\r
+\r
+Because it is surface mount I added an isp header to allow programing \r
+and just for fun I added a ftdi header.\r
+I also added a second I2C header to allow easy daisy chaining of stepper boards.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "glasshopper" ;
+    okh:repo <https://www.thingiverse.com/thing:4801> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:4801> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Valkyrie single sided surface mount stepper  board 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/ed/cf/7f/22/4e/tiny2313_stepper_2_SMc_glass_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/ed/cf/7f/22/4e/tiny2313_stepper_2_SMc_glass_display_large_display_large.jpg> .
+

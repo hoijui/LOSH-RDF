@@ -1,67 +1,68 @@
-@prefix : <https://wikifactory.com/@botler/littlerp2/6bafbdfaac0fc4b9bb361b61c5f5824258fc5243/> .
+@prefix : <https://wikifactory.com/%40botler/littlerp2/6bafbdfaac0fc4b9bb361b61c5f5824258fc5243/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 :Littlerp2 a okh:Module ;
     rdfs:label "LittleRP2" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "LittleRP2 by Brad Hill is an affordable Open-Source Resin Printer that achieves industrial quality detail for high-precision models up to 25 microns layer resolution" ;
-    okh:hasComponent :Buildplategasketexpanded,
-        :Buildplatetopexpandedrepaired,
-        :Hoodextensioncutouttall,
-        :Hoodextensionlockmirrortallrepaired,
-        :Hoodextensionlocktallrepaired,
-        :Hoodextensionsideclampmirrortallrepaired,
-        :Hoodextensionsideclamptallrepaired,
-        :Hoodextensionsidetall,
-        :Hoodextensiontall,
-        :Hoodfrontglue,
-        :Hoodsideglue,
-        :Hoodtopbrace,
-        :Hoodtopglue,
-        :Hoodvanityexpanded,
-        :Mirrorholderbaseexpanded,
-        :Mirrorholderrepaired,
-        :Mirrorholdersideexpanded,
-        :Optionmgn12adapterrepaired,
-        :Panelbottom,
-        :Panelbottomcutout,
-        :Paneldiscspacer,
-        :Panelmid,
-        :Panelmidexpanded,
-        :Panelprojectorbase,
-        :Panelrear,
-        :Panelreartall,
-        :Panelside,
-        :Panelsidetall,
-        :Paneltop,
-        :Projectorhd37foot,
-        :Projectorspacers,
-        :Shuttermanual,
-        :Shuttermanualexpanded,
-        :Vatfep,
-        :Vatfepexpanded,
-        :Vatfoam,
-        :Vatfoamexpanded,
-        :Vathightensionbottom,
-        :Vathightensionbottomexpanded,
-        :Vathightensionmid,
-        :Vathightensionmidexpanded,
-        :Vathightensiontensionstop,
-        :Vathightensiontensionstopexpanded,
-        :Vathightensionwindowspacer,
-        :Vathightensionwindowspacerexpanded,
-        :Vatholddownspacer,
-        :Vatm4nuttraprepaired,
-        :Vatm4thumbnutrepaired,
-        :Vatm6nuttraprepaired,
-        :Vatm6thumbnutrepaired,
-        :Vattensioner,
-        :Vattensionerexpanded,
-        :Vattopexpandedrepaired,
-        :Vattoprepaired,
-        :Zarmantibacklashrepaired,
-        :Zarmspacerrepaired ;
+    okh:hasComponent :3dPrintedPartsbuildplatetopexpandedrepaired,
+        :3dPrintedPartshoodextensionlockmirrortallrepaired,
+        :3dPrintedPartshoodextensionlocktallrepaired,
+        :3dPrintedPartshoodextensionsideclampmirrortallrepaired,
+        :3dPrintedPartshoodextensionsideclamptallrepaired,
+        :3dPrintedPartsmirrorholderrepaired,
+        :3dPrintedPartsoptionmgn12adapterrepaired,
+        :3dPrintedPartsvatm4nuttraprepaired,
+        :3dPrintedPartsvatm4thumbnutrepaired,
+        :3dPrintedPartsvatm6nuttraprepaired,
+        :3dPrintedPartsvatm6thumbnutrepaired,
+        :3dPrintedPartsvattopexpandedrepaired,
+        :3dPrintedPartsvattoprepaired,
+        :3dPrintedPartszarmantibacklashrepaired,
+        :3dPrintedPartszarmspacerrepaired,
+        :LaserCutPartsbuildplategasketexpanded,
+        :LaserCutPartshoodextensioncutouttall,
+        :LaserCutPartshoodextensionsidetall,
+        :LaserCutPartshoodextensiontall,
+        :LaserCutPartshoodfrontglue,
+        :LaserCutPartshoodsideglue,
+        :LaserCutPartshoodtopbrace,
+        :LaserCutPartshoodtopglue,
+        :LaserCutPartshoodvanityexpanded,
+        :LaserCutPartsmirrorholderbaseexpanded,
+        :LaserCutPartsmirrorholdersideexpanded,
+        :LaserCutPartspanelbottom,
+        :LaserCutPartspanelbottomcutout,
+        :LaserCutPartspaneldiscspacer,
+        :LaserCutPartspanelmid,
+        :LaserCutPartspanelmidexpanded,
+        :LaserCutPartspanelprojectorbase,
+        :LaserCutPartspanelrear,
+        :LaserCutPartspanelreartall,
+        :LaserCutPartspanelside,
+        :LaserCutPartspanelsidetall,
+        :LaserCutPartspaneltop,
+        :LaserCutPartsprojectorhd37foot,
+        :LaserCutPartsprojectorspacers,
+        :LaserCutPartsshuttermanual,
+        :LaserCutPartsshuttermanualexpanded,
+        :LaserCutPartsvatfep,
+        :LaserCutPartsvatfepexpanded,
+        :LaserCutPartsvatfoam,
+        :LaserCutPartsvatfoamexpanded,
+        :LaserCutPartsvathightensionbottom,
+        :LaserCutPartsvathightensionbottomexpanded,
+        :LaserCutPartsvathightensionmid,
+        :LaserCutPartsvathightensionmidexpanded,
+        :LaserCutPartsvathightensiontensionstop,
+        :LaserCutPartsvathightensiontensionstopexpanded,
+        :LaserCutPartsvathightensionwindowspacer,
+        :LaserCutPartsvathightensionwindowspacerexpanded,
+        :LaserCutPartsvatholddownspacer,
+        :LaserCutPartsvattensioner,
+        :LaserCutPartsvattensionerexpanded ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "James Botler" ;
@@ -69,190 +70,204 @@
     okh:repo <https://wikifactory.com/@botler/littlerp2> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
     okh:version "6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
     okh:versionOf <https://wikifactory.com/@botler/littlerp2> .
 
-:Buildplategasketexpanded a okh:Part ;
-    rdfs:label "buildplate_gasket_expanded" ;
+:3dPrintedPartsbuildplatetopexpandedrepaired a okh:Part ;
+    rdfs:label "3D Printed parts/buildplate_top_expanded_repaired" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Buildplategasketexpanded_source ;
+    okh:source :3dPrintedPartsbuildplatetopexpandedrepaired_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Buildplategasketexpanded_source a okh:SourceFile ;
-    rdfs:label "Source File of buildplate_gasket_expanded of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
-    okh:fileFormat "DXF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/buildplategasket-expanded.DXF> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDQ4> .
-
-:Buildplatetopexpandedrepaired a okh:Part ;
-    rdfs:label "buildplate_top_expanded_repaired" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "James Botler" ;
-    okh:source :Buildplatetopexpandedrepaired_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Buildplatetopexpandedrepaired_source a okh:SourceFile ;
-    rdfs:label "Source File of buildplate_top_expanded_repaired of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
+:3dPrintedPartsbuildplatetopexpandedrepaired_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Printed parts/buildplate_top_expanded_repaired of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/buildplatetop-expanded-repaired.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDI5> .
 
-:Hoodextensioncutouttall a okh:Part ;
-    rdfs:label "hood_extension_cutout_tall" ;
+:3dPrintedPartshoodextensionlockmirrortallrepaired a okh:Part ;
+    rdfs:label "3D Printed parts/hood_extension_lock_mirror_tall_repaired" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Hoodextensioncutouttall_source ;
+    okh:source :3dPrintedPartshoodextensionlockmirrortallrepaired_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Hoodextensioncutouttall_source a okh:SourceFile ;
-    rdfs:label "Source File of hood_extension_cutout_tall of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
-    okh:fileFormat "DXF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/hoodextensioncutout-tall.DXF> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDQ1> .
-
-:Hoodextensionlockmirrortallrepaired a okh:Part ;
-    rdfs:label "hood_extension_lock_mirror_tall_repaired" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "James Botler" ;
-    okh:source :Hoodextensionlockmirrortallrepaired_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Hoodextensionlockmirrortallrepaired_source a okh:SourceFile ;
-    rdfs:label "Source File of hood_extension_lock_mirror_tall_repaired of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
+:3dPrintedPartshoodextensionlockmirrortallrepaired_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Printed parts/hood_extension_lock_mirror_tall_repaired of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/hoodextensionlockmirror-tall-repaired.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDMx> .
 
-:Hoodextensionlocktallrepaired a okh:Part ;
-    rdfs:label "hood_extension_lock_tall_repaired" ;
+:3dPrintedPartshoodextensionlocktallrepaired a okh:Part ;
+    rdfs:label "3D Printed parts/hood_extension_lock_tall_repaired" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Hoodextensionlocktallrepaired_source ;
+    okh:source :3dPrintedPartshoodextensionlocktallrepaired_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Hoodextensionlocktallrepaired_source a okh:SourceFile ;
-    rdfs:label "Source File of hood_extension_lock_tall_repaired of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
+:3dPrintedPartshoodextensionlocktallrepaired_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Printed parts/hood_extension_lock_tall_repaired of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/hoodextensionlock-tall-repaired.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDMw> .
 
-:Hoodextensionsideclampmirrortallrepaired a okh:Part ;
-    rdfs:label "hood_extension_side_clamp_mirror_tall_repaired" ;
+:3dPrintedPartshoodextensionsideclampmirrortallrepaired a okh:Part ;
+    rdfs:label "3D Printed parts/hood_extension_side_clamp_mirror_tall_repaired" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Hoodextensionsideclampmirrortallrepaired_source ;
+    okh:source :3dPrintedPartshoodextensionsideclampmirrortallrepaired_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Hoodextensionsideclampmirrortallrepaired_source a okh:SourceFile ;
-    rdfs:label "Source File of hood_extension_side_clamp_mirror_tall_repaired of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
+:3dPrintedPartshoodextensionsideclampmirrortallrepaired_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Printed parts/hood_extension_side_clamp_mirror_tall_repaired of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/hoodextensionsideclampmirror-tall-repaired.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDMz> .
 
-:Hoodextensionsideclamptallrepaired a okh:Part ;
-    rdfs:label "hood_extension_side_clamp_tall_repaired" ;
+:3dPrintedPartshoodextensionsideclamptallrepaired a okh:Part ;
+    rdfs:label "3D Printed parts/hood_extension_side_clamp_tall_repaired" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Hoodextensionsideclamptallrepaired_source ;
+    okh:source :3dPrintedPartshoodextensionsideclamptallrepaired_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Hoodextensionsideclamptallrepaired_source a okh:SourceFile ;
-    rdfs:label "Source File of hood_extension_side_clamp_tall_repaired of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
+:3dPrintedPartshoodextensionsideclamptallrepaired_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Printed parts/hood_extension_side_clamp_tall_repaired of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/hoodextensionsideclamp-tall-repaired.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDMy> .
 
-:Hoodextensionsidetall a okh:Part ;
-    rdfs:label "hood_extension_side_tall" ;
+:3dPrintedPartsmirrorholderrepaired a okh:Part ;
+    rdfs:label "3D Printed parts/mirror_holder_repaired" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Hoodextensionsidetall_source ;
+    okh:source :3dPrintedPartsmirrorholderrepaired_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Hoodextensionsidetall_source a okh:SourceFile ;
-    rdfs:label "Source File of hood_extension_side_tall of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
-    okh:fileFormat "DXF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/hoodextensionside-tall.DXF> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDQ3> .
+:3dPrintedPartsmirrorholderrepaired_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Printed parts/mirror_holder_repaired of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/mirrorholder-repaired.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDM1> .
 
-:Hoodextensiontall a okh:Part ;
-    rdfs:label "hood_extension_tall" ;
+:3dPrintedPartsoptionmgn12adapterrepaired a okh:Part ;
+    rdfs:label "3D Printed parts/option_mgn12adapter_repaired" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Hoodextensiontall_source ;
+    okh:source :3dPrintedPartsoptionmgn12adapterrepaired_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Hoodextensiontall_source a okh:SourceFile ;
-    rdfs:label "Source File of hood_extension_tall of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
-    okh:fileFormat "DXF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/hoodextension-tall.DXF> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDQ2> .
+:3dPrintedPartsoptionmgn12adapterrepaired_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Printed parts/option_mgn12adapter_repaired of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/optionmgn12adapter-repaired.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDM2> .
 
-:Hoodfrontglue a okh:Part ;
-    rdfs:label "hood_front_glue" ;
+:3dPrintedPartsvatm4nuttraprepaired a okh:Part ;
+    rdfs:label "3D Printed parts/vat_m4_nuttrap_repaired" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Hoodfrontglue_source ;
+    okh:source :3dPrintedPartsvatm4nuttraprepaired_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Hoodfrontglue_source a okh:SourceFile ;
-    rdfs:label "Source File of hood_front_glue of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
-    okh:fileFormat "DXF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/hoodfront-glue.DXF> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDQ5> .
+:3dPrintedPartsvatm4nuttraprepaired_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Printed parts/vat_m4_nuttrap_repaired of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/vatm4nuttrap-repaired.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDM0> .
 
-:Hoodsideglue a okh:Part ;
-    rdfs:label "hood_side_glue" ;
+:3dPrintedPartsvatm4thumbnutrepaired a okh:Part ;
+    rdfs:label "3D Printed parts/vat_m4_thumbnut_repaired" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Hoodsideglue_source ;
+    okh:source :3dPrintedPartsvatm4thumbnutrepaired_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Hoodsideglue_source a okh:SourceFile ;
-    rdfs:label "Source File of hood_side_glue of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
-    okh:fileFormat "DXF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/hoodside-glue.DXF> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDQ0> .
+:3dPrintedPartsvatm4thumbnutrepaired_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Printed parts/vat_m4_thumbnut_repaired of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/vatm4thumbnut-repaired.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDM4> .
 
-:Hoodtopbrace a okh:Part ;
-    rdfs:label "hood_top_brace" ;
+:3dPrintedPartsvatm6nuttraprepaired a okh:Part ;
+    rdfs:label "3D Printed parts/vat_m6_nuttrap_repaired" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Hoodtopbrace_source ;
+    okh:source :3dPrintedPartsvatm6nuttraprepaired_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Hoodtopbrace_source a okh:SourceFile ;
-    rdfs:label "Source File of hood_top_brace of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
-    okh:fileFormat "DXF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/hoodtopbrace.DXF> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDUw> .
+:3dPrintedPartsvatm6nuttraprepaired_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Printed parts/vat_m6_nuttrap_repaired of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/vatm6nuttrap-repaired.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDM3> .
 
-:Hoodtopglue a okh:Part ;
-    rdfs:label "hood_top_glue" ;
+:3dPrintedPartsvatm6thumbnutrepaired a okh:Part ;
+    rdfs:label "3D Printed parts/vat_m6_thumbnut_repaired" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Hoodtopglue_source ;
+    okh:source :3dPrintedPartsvatm6thumbnutrepaired_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Hoodtopglue_source a okh:SourceFile ;
-    rdfs:label "Source File of hood_top_glue of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
-    okh:fileFormat "DXF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/hoodtop-glue.DXF> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDUx> .
+:3dPrintedPartsvatm6thumbnutrepaired_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Printed parts/vat_m6_thumbnut_repaired of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/vatm6thumbnut-repaired.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDM5> .
 
-:Hoodvanityexpanded a okh:Part ;
-    rdfs:label "hood_vanity_expanded" ;
+:3dPrintedPartsvattopexpandedrepaired a okh:Part ;
+    rdfs:label "3D Printed parts/vat_top_expanded_repaired" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Hoodvanityexpanded_source ;
+    okh:source :3dPrintedPartsvattopexpandedrepaired_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Hoodvanityexpanded_source a okh:SourceFile ;
-    rdfs:label "Source File of hood_vanity_expanded of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
-    okh:fileFormat "DXF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/hoodvanity-expanded.DXF> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDUy> .
+:3dPrintedPartsvattopexpandedrepaired_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Printed parts/vat_top_expanded_repaired of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/vattop-expanded-repaired.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDQw> .
+
+:3dPrintedPartsvattoprepaired a okh:Part ;
+    rdfs:label "3D Printed parts/vat_top_repaired" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :3dPrintedPartsvattoprepaired_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dPrintedPartsvattoprepaired_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Printed parts/vat_top_repaired of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/vattop-repaired.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDQx> .
+
+:3dPrintedPartszarmantibacklashrepaired a okh:Part ;
+    rdfs:label "3D Printed parts/zarm_antibacklash_repaired" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :3dPrintedPartszarmantibacklashrepaired_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dPrintedPartszarmantibacklashrepaired_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Printed parts/zarm_antibacklash_repaired of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/zarmantibacklash-repaired.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDQy> .
+
+:3dPrintedPartszarmspacerrepaired a okh:Part ;
+    rdfs:label "3D Printed parts/zarm_spacer_repaired" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :3dPrintedPartszarmspacerrepaired_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dPrintedPartszarmspacerrepaired_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Printed parts/zarm_spacer_repaired of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/zarmspacer-repaired.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDQz> .
 
 :Image a okh:Image ;
     rdfs:label "Image of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
@@ -260,555 +275,542 @@
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/cropped-0.jpg> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo4NDIz> .
 
-:Mirrorholderbaseexpanded a okh:Part ;
-    rdfs:label "mirror_holder_base_expanded" ;
+:LaserCutPartsbuildplategasketexpanded a okh:Part ;
+    rdfs:label "Laser Cut parts/buildplate_gasket_expanded" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Mirrorholderbaseexpanded_source ;
+    okh:source :LaserCutPartsbuildplategasketexpanded_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Mirrorholderbaseexpanded_source a okh:SourceFile ;
-    rdfs:label "Source File of mirror_holder_base_expanded of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
+:LaserCutPartsbuildplategasketexpanded_source a okh:SourceFile ;
+    rdfs:label "Source File of Laser Cut parts/buildplate_gasket_expanded of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/buildplategasket-expanded.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDQ4> .
+
+:LaserCutPartshoodextensioncutouttall a okh:Part ;
+    rdfs:label "Laser Cut parts/hood_extension_cutout_tall" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :LaserCutPartshoodextensioncutouttall_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:LaserCutPartshoodextensioncutouttall_source a okh:SourceFile ;
+    rdfs:label "Source File of Laser Cut parts/hood_extension_cutout_tall of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/hoodextensioncutout-tall.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDQ1> .
+
+:LaserCutPartshoodextensionsidetall a okh:Part ;
+    rdfs:label "Laser Cut parts/hood_extension_side_tall" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :LaserCutPartshoodextensionsidetall_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:LaserCutPartshoodextensionsidetall_source a okh:SourceFile ;
+    rdfs:label "Source File of Laser Cut parts/hood_extension_side_tall of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/hoodextensionside-tall.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDQ3> .
+
+:LaserCutPartshoodextensiontall a okh:Part ;
+    rdfs:label "Laser Cut parts/hood_extension_tall" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :LaserCutPartshoodextensiontall_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:LaserCutPartshoodextensiontall_source a okh:SourceFile ;
+    rdfs:label "Source File of Laser Cut parts/hood_extension_tall of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/hoodextension-tall.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDQ2> .
+
+:LaserCutPartshoodfrontglue a okh:Part ;
+    rdfs:label "Laser Cut parts/hood_front_glue" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :LaserCutPartshoodfrontglue_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:LaserCutPartshoodfrontglue_source a okh:SourceFile ;
+    rdfs:label "Source File of Laser Cut parts/hood_front_glue of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/hoodfront-glue.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDQ5> .
+
+:LaserCutPartshoodsideglue a okh:Part ;
+    rdfs:label "Laser Cut parts/hood_side_glue" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :LaserCutPartshoodsideglue_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:LaserCutPartshoodsideglue_source a okh:SourceFile ;
+    rdfs:label "Source File of Laser Cut parts/hood_side_glue of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/hoodside-glue.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDQ0> .
+
+:LaserCutPartshoodtopbrace a okh:Part ;
+    rdfs:label "Laser Cut parts/hood_top_brace" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :LaserCutPartshoodtopbrace_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:LaserCutPartshoodtopbrace_source a okh:SourceFile ;
+    rdfs:label "Source File of Laser Cut parts/hood_top_brace of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/hoodtopbrace.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDUw> .
+
+:LaserCutPartshoodtopglue a okh:Part ;
+    rdfs:label "Laser Cut parts/hood_top_glue" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :LaserCutPartshoodtopglue_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:LaserCutPartshoodtopglue_source a okh:SourceFile ;
+    rdfs:label "Source File of Laser Cut parts/hood_top_glue of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/hoodtop-glue.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDUx> .
+
+:LaserCutPartshoodvanityexpanded a okh:Part ;
+    rdfs:label "Laser Cut parts/hood_vanity_expanded" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :LaserCutPartshoodvanityexpanded_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:LaserCutPartshoodvanityexpanded_source a okh:SourceFile ;
+    rdfs:label "Source File of Laser Cut parts/hood_vanity_expanded of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/hoodvanity-expanded.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDUy> .
+
+:LaserCutPartsmirrorholderbaseexpanded a okh:Part ;
+    rdfs:label "Laser Cut parts/mirror_holder_base_expanded" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :LaserCutPartsmirrorholderbaseexpanded_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:LaserCutPartsmirrorholderbaseexpanded_source a okh:SourceFile ;
+    rdfs:label "Source File of Laser Cut parts/mirror_holder_base_expanded of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
     okh:fileFormat "DXF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/mirrorholderbase-expanded.DXF> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDU1> .
 
-:Mirrorholderrepaired a okh:Part ;
-    rdfs:label "mirror_holder_repaired" ;
+:LaserCutPartsmirrorholdersideexpanded a okh:Part ;
+    rdfs:label "Laser Cut parts/mirror_holder_side_expanded" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Mirrorholderrepaired_source ;
+    okh:source :LaserCutPartsmirrorholdersideexpanded_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Mirrorholderrepaired_source a okh:SourceFile ;
-    rdfs:label "Source File of mirror_holder_repaired of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/mirrorholder-repaired.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDM1> .
-
-:Mirrorholdersideexpanded a okh:Part ;
-    rdfs:label "mirror_holder_side_expanded" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "James Botler" ;
-    okh:source :Mirrorholdersideexpanded_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Mirrorholdersideexpanded_source a okh:SourceFile ;
-    rdfs:label "Source File of mirror_holder_side_expanded of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
+:LaserCutPartsmirrorholdersideexpanded_source a okh:SourceFile ;
+    rdfs:label "Source File of Laser Cut parts/mirror_holder_side_expanded of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
     okh:fileFormat "DXF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/mirrorholderside-expanded.DXF> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDUz> .
 
-:Optionmgn12adapterrepaired a okh:Part ;
-    rdfs:label "option_mgn12adapter_repaired" ;
+:LaserCutPartspanelbottom a okh:Part ;
+    rdfs:label "Laser Cut parts/panel_bottom" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Optionmgn12adapterrepaired_source ;
+    okh:source :LaserCutPartspanelbottom_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Optionmgn12adapterrepaired_source a okh:SourceFile ;
-    rdfs:label "Source File of option_mgn12adapter_repaired of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/optionmgn12adapter-repaired.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDM2> .
-
-:Panelbottom a okh:Part ;
-    rdfs:label "panel_bottom" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "James Botler" ;
-    okh:source :Panelbottom_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Panelbottom_source a okh:SourceFile ;
-    rdfs:label "Source File of panel_bottom of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
+:LaserCutPartspanelbottom_source a okh:SourceFile ;
+    rdfs:label "Source File of Laser Cut parts/panel_bottom of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
     okh:fileFormat "DXF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/panelbottom.DXF> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDU2> .
 
-:Panelbottomcutout a okh:Part ;
-    rdfs:label "panel_bottom_cutout" ;
+:LaserCutPartspanelbottomcutout a okh:Part ;
+    rdfs:label "Laser Cut parts/panel_bottom_cutout" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Panelbottomcutout_source ;
+    okh:source :LaserCutPartspanelbottomcutout_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Panelbottomcutout_source a okh:SourceFile ;
-    rdfs:label "Source File of panel_bottom_cutout of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
+:LaserCutPartspanelbottomcutout_source a okh:SourceFile ;
+    rdfs:label "Source File of Laser Cut parts/panel_bottom_cutout of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
     okh:fileFormat "DXF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/panelbottomcutout.DXF> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDU0> .
 
-:Paneldiscspacer a okh:Part ;
-    rdfs:label "panel_discspacer" ;
+:LaserCutPartspaneldiscspacer a okh:Part ;
+    rdfs:label "Laser Cut parts/panel_discspacer" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Paneldiscspacer_source ;
+    okh:source :LaserCutPartspaneldiscspacer_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Paneldiscspacer_source a okh:SourceFile ;
-    rdfs:label "Source File of panel_discspacer of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
+:LaserCutPartspaneldiscspacer_source a okh:SourceFile ;
+    rdfs:label "Source File of Laser Cut parts/panel_discspacer of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
     okh:fileFormat "DXF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/paneldiscspacer.DXF> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDU3> .
 
-:Panelmid a okh:Part ;
-    rdfs:label "panel_mid" ;
+:LaserCutPartspanelmid a okh:Part ;
+    rdfs:label "Laser Cut parts/panel_mid" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Panelmid_source ;
+    okh:source :LaserCutPartspanelmid_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Panelmid_source a okh:SourceFile ;
-    rdfs:label "Source File of panel_mid of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
+:LaserCutPartspanelmid_source a okh:SourceFile ;
+    rdfs:label "Source File of Laser Cut parts/panel_mid of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
     okh:fileFormat "DXF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/panelmid.DXF> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDU5> .
 
-:Panelmidexpanded a okh:Part ;
-    rdfs:label "panel_mid_expanded" ;
+:LaserCutPartspanelmidexpanded a okh:Part ;
+    rdfs:label "Laser Cut parts/panel_mid_expanded" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Panelmidexpanded_source ;
+    okh:source :LaserCutPartspanelmidexpanded_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Panelmidexpanded_source a okh:SourceFile ;
-    rdfs:label "Source File of panel_mid_expanded of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
+:LaserCutPartspanelmidexpanded_source a okh:SourceFile ;
+    rdfs:label "Source File of Laser Cut parts/panel_mid_expanded of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
     okh:fileFormat "DXF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/panelmid-expanded.DXF> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDU4> .
 
-:Panelprojectorbase a okh:Part ;
-    rdfs:label "panel_projectorbase" ;
+:LaserCutPartspanelprojectorbase a okh:Part ;
+    rdfs:label "Laser Cut parts/panel_projectorbase" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Panelprojectorbase_source ;
+    okh:source :LaserCutPartspanelprojectorbase_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Panelprojectorbase_source a okh:SourceFile ;
-    rdfs:label "Source File of panel_projectorbase of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
+:LaserCutPartspanelprojectorbase_source a okh:SourceFile ;
+    rdfs:label "Source File of Laser Cut parts/panel_projectorbase of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
     okh:fileFormat "DXF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/panelprojectorbase.DXF> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDYw> .
 
-:Panelrear a okh:Part ;
-    rdfs:label "panel_rear" ;
+:LaserCutPartspanelrear a okh:Part ;
+    rdfs:label "Laser Cut parts/panel_rear" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Panelrear_source ;
+    okh:source :LaserCutPartspanelrear_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Panelrear_source a okh:SourceFile ;
-    rdfs:label "Source File of panel_rear of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
+:LaserCutPartspanelrear_source a okh:SourceFile ;
+    rdfs:label "Source File of Laser Cut parts/panel_rear of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
     okh:fileFormat "DXF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/panelrear.DXF> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDYz> .
 
-:Panelreartall a okh:Part ;
-    rdfs:label "panel_rear_tall" ;
+:LaserCutPartspanelreartall a okh:Part ;
+    rdfs:label "Laser Cut parts/panel_rear_tall" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Panelreartall_source ;
+    okh:source :LaserCutPartspanelreartall_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Panelreartall_source a okh:SourceFile ;
-    rdfs:label "Source File of panel_rear_tall of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
+:LaserCutPartspanelreartall_source a okh:SourceFile ;
+    rdfs:label "Source File of Laser Cut parts/panel_rear_tall of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
     okh:fileFormat "DXF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/panelrear-tall.DXF> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDYx> .
 
-:Panelside a okh:Part ;
-    rdfs:label "panel_side" ;
+:LaserCutPartspanelside a okh:Part ;
+    rdfs:label "Laser Cut parts/panel_side" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Panelside_source ;
+    okh:source :LaserCutPartspanelside_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Panelside_source a okh:SourceFile ;
-    rdfs:label "Source File of panel_side of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
+:LaserCutPartspanelside_source a okh:SourceFile ;
+    rdfs:label "Source File of Laser Cut parts/panel_side of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
     okh:fileFormat "DXF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/panelside.DXF> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDY0> .
 
-:Panelsidetall a okh:Part ;
-    rdfs:label "panel_side_tall" ;
+:LaserCutPartspanelsidetall a okh:Part ;
+    rdfs:label "Laser Cut parts/panel_side_tall" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Panelsidetall_source ;
+    okh:source :LaserCutPartspanelsidetall_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Panelsidetall_source a okh:SourceFile ;
-    rdfs:label "Source File of panel_side_tall of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
+:LaserCutPartspanelsidetall_source a okh:SourceFile ;
+    rdfs:label "Source File of Laser Cut parts/panel_side_tall of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
     okh:fileFormat "DXF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/panelside-tall.DXF> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDYy> .
 
-:Paneltop a okh:Part ;
-    rdfs:label "panel_top" ;
+:LaserCutPartspaneltop a okh:Part ;
+    rdfs:label "Laser Cut parts/panel_top" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Paneltop_source ;
+    okh:source :LaserCutPartspaneltop_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Paneltop_source a okh:SourceFile ;
-    rdfs:label "Source File of panel_top of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
+:LaserCutPartspaneltop_source a okh:SourceFile ;
+    rdfs:label "Source File of Laser Cut parts/panel_top of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
     okh:fileFormat "DXF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/paneltop.DXF> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDY1> .
 
-:Projectorhd37foot a okh:Part ;
-    rdfs:label "projector_hd37foot" ;
+:LaserCutPartsprojectorhd37foot a okh:Part ;
+    rdfs:label "Laser Cut parts/projector_hd37foot" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Projectorhd37foot_source ;
+    okh:source :LaserCutPartsprojectorhd37foot_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Projectorhd37foot_source a okh:SourceFile ;
-    rdfs:label "Source File of projector_hd37foot of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
+:LaserCutPartsprojectorhd37foot_source a okh:SourceFile ;
+    rdfs:label "Source File of Laser Cut parts/projector_hd37foot of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
     okh:fileFormat "DXF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/projectorhd37foot.DXF> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDY2> .
 
-:Projectorspacers a okh:Part ;
-    rdfs:label "projector_spacers" ;
+:LaserCutPartsprojectorspacers a okh:Part ;
+    rdfs:label "Laser Cut parts/projector_spacers" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Projectorspacers_source ;
+    okh:source :LaserCutPartsprojectorspacers_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Projectorspacers_source a okh:SourceFile ;
-    rdfs:label "Source File of projector_spacers of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
+:LaserCutPartsprojectorspacers_source a okh:SourceFile ;
+    rdfs:label "Source File of Laser Cut parts/projector_spacers of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
     okh:fileFormat "DXF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/projectorspacers.DXF> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDY3> .
+
+:LaserCutPartsshuttermanual a okh:Part ;
+    rdfs:label "Laser Cut parts/shutter_manual" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :LaserCutPartsshuttermanual_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:LaserCutPartsshuttermanual_source a okh:SourceFile ;
+    rdfs:label "Source File of Laser Cut parts/shutter_manual of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/shuttermanual.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDY5> .
+
+:LaserCutPartsshuttermanualexpanded a okh:Part ;
+    rdfs:label "Laser Cut parts/shutter_manual_expanded" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :LaserCutPartsshuttermanualexpanded_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:LaserCutPartsshuttermanualexpanded_source a okh:SourceFile ;
+    rdfs:label "Source File of Laser Cut parts/shutter_manual_expanded of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/shuttermanual-expanded.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDY4> .
+
+:LaserCutPartsvatfep a okh:Part ;
+    rdfs:label "Laser Cut parts/vat_fep" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :LaserCutPartsvatfep_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:LaserCutPartsvatfep_source a okh:SourceFile ;
+    rdfs:label "Source File of Laser Cut parts/vat_fep of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/vatfep.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDcx> .
+
+:LaserCutPartsvatfepexpanded a okh:Part ;
+    rdfs:label "Laser Cut parts/vat_fep_expanded" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :LaserCutPartsvatfepexpanded_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:LaserCutPartsvatfepexpanded_source a okh:SourceFile ;
+    rdfs:label "Source File of Laser Cut parts/vat_fep_expanded of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/vatfep-expanded.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDcw> .
+
+:LaserCutPartsvatfoam a okh:Part ;
+    rdfs:label "Laser Cut parts/vat_foam" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :LaserCutPartsvatfoam_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:LaserCutPartsvatfoam_source a okh:SourceFile ;
+    rdfs:label "Source File of Laser Cut parts/vat_foam of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/vatfoam.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDcz> .
+
+:LaserCutPartsvatfoamexpanded a okh:Part ;
+    rdfs:label "Laser Cut parts/vat_foam_expanded" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :LaserCutPartsvatfoamexpanded_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:LaserCutPartsvatfoamexpanded_source a okh:SourceFile ;
+    rdfs:label "Source File of Laser Cut parts/vat_foam_expanded of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/vatfoam-expanded.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDcy> .
+
+:LaserCutPartsvathightensionbottom a okh:Part ;
+    rdfs:label "Laser Cut parts/vat_hightension_bottom" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :LaserCutPartsvathightensionbottom_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:LaserCutPartsvathightensionbottom_source a okh:SourceFile ;
+    rdfs:label "Source File of Laser Cut parts/vat_hightension_bottom of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/vathightensionbottom.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDc1> .
+
+:LaserCutPartsvathightensionbottomexpanded a okh:Part ;
+    rdfs:label "Laser Cut parts/vat_hightension_bottom_expanded" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :LaserCutPartsvathightensionbottomexpanded_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:LaserCutPartsvathightensionbottomexpanded_source a okh:SourceFile ;
+    rdfs:label "Source File of Laser Cut parts/vat_hightension_bottom_expanded of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/vathightensionbottom-expanded.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDc0> .
+
+:LaserCutPartsvathightensionmid a okh:Part ;
+    rdfs:label "Laser Cut parts/vat_hightension_mid" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :LaserCutPartsvathightensionmid_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:LaserCutPartsvathightensionmid_source a okh:SourceFile ;
+    rdfs:label "Source File of Laser Cut parts/vat_hightension_mid of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/vathightensionmid.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDc2> .
+
+:LaserCutPartsvathightensionmidexpanded a okh:Part ;
+    rdfs:label "Laser Cut parts/vat_hightension_mid_expanded" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :LaserCutPartsvathightensionmidexpanded_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:LaserCutPartsvathightensionmidexpanded_source a okh:SourceFile ;
+    rdfs:label "Source File of Laser Cut parts/vat_hightension_mid_expanded of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/vathightensionmid-expanded.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDc3> .
+
+:LaserCutPartsvathightensiontensionstop a okh:Part ;
+    rdfs:label "Laser Cut parts/vat_hightension_tensionstop" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :LaserCutPartsvathightensiontensionstop_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:LaserCutPartsvathightensiontensionstop_source a okh:SourceFile ;
+    rdfs:label "Source File of Laser Cut parts/vat_hightension_tensionstop of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/vathightensiontensionstop.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDc5> .
+
+:LaserCutPartsvathightensiontensionstopexpanded a okh:Part ;
+    rdfs:label "Laser Cut parts/vat_hightension_tensionstop_expanded" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :LaserCutPartsvathightensiontensionstopexpanded_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:LaserCutPartsvathightensiontensionstopexpanded_source a okh:SourceFile ;
+    rdfs:label "Source File of Laser Cut parts/vat_hightension_tensionstop_expanded of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/vathightensiontensionstop-expanded.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDc4> .
+
+:LaserCutPartsvathightensionwindowspacer a okh:Part ;
+    rdfs:label "Laser Cut parts/vat_hightension_windowspacer" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :LaserCutPartsvathightensionwindowspacer_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:LaserCutPartsvathightensionwindowspacer_source a okh:SourceFile ;
+    rdfs:label "Source File of Laser Cut parts/vat_hightension_windowspacer of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/vathightensionwindowspacer.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDgx> .
+
+:LaserCutPartsvathightensionwindowspacerexpanded a okh:Part ;
+    rdfs:label "Laser Cut parts/vat_hightension_windowspacer_expanded" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :LaserCutPartsvathightensionwindowspacerexpanded_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:LaserCutPartsvathightensionwindowspacerexpanded_source a okh:SourceFile ;
+    rdfs:label "Source File of Laser Cut parts/vat_hightension_windowspacer_expanded of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/vathightensionwindowspacer-expanded.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDgw> .
+
+:LaserCutPartsvatholddownspacer a okh:Part ;
+    rdfs:label "Laser Cut parts/vat_holddownspacer" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :LaserCutPartsvatholddownspacer_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:LaserCutPartsvatholddownspacer_source a okh:SourceFile ;
+    rdfs:label "Source File of Laser Cut parts/vat_holddownspacer of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/vatholddownspacer.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDgy> .
+
+:LaserCutPartsvattensioner a okh:Part ;
+    rdfs:label "Laser Cut parts/vat_tensioner" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :LaserCutPartsvattensioner_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:LaserCutPartsvattensioner_source a okh:SourceFile ;
+    rdfs:label "Source File of Laser Cut parts/vat_tensioner of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/vattensioner.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDg0> .
+
+:LaserCutPartsvattensionerexpanded a okh:Part ;
+    rdfs:label "Laser Cut parts/vat_tensioner_expanded" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :LaserCutPartsvattensionerexpanded_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:LaserCutPartsvattensionerexpanded_source a okh:SourceFile ;
+    rdfs:label "Source File of Laser Cut parts/vat_tensioner_expanded of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/vattensioner-expanded.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDgz> .
 
 :Readme a okh:Readme ;
     rdfs:label "Readme of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
     okh:fileFormat "MD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/readme-4.md> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo4NDI1> .
-
-:Shuttermanual a okh:Part ;
-    rdfs:label "shutter_manual" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "James Botler" ;
-    okh:source :Shuttermanual_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Shuttermanual_source a okh:SourceFile ;
-    rdfs:label "Source File of shutter_manual of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
-    okh:fileFormat "DXF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/shuttermanual.DXF> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDY5> .
-
-:Shuttermanualexpanded a okh:Part ;
-    rdfs:label "shutter_manual_expanded" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "James Botler" ;
-    okh:source :Shuttermanualexpanded_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Shuttermanualexpanded_source a okh:SourceFile ;
-    rdfs:label "Source File of shutter_manual_expanded of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
-    okh:fileFormat "DXF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/shuttermanual-expanded.DXF> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDY4> .
-
-:Vatfep a okh:Part ;
-    rdfs:label "vat_fep" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "James Botler" ;
-    okh:source :Vatfep_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Vatfep_source a okh:SourceFile ;
-    rdfs:label "Source File of vat_fep of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
-    okh:fileFormat "DXF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/vatfep.DXF> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDcx> .
-
-:Vatfepexpanded a okh:Part ;
-    rdfs:label "vat_fep_expanded" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "James Botler" ;
-    okh:source :Vatfepexpanded_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Vatfepexpanded_source a okh:SourceFile ;
-    rdfs:label "Source File of vat_fep_expanded of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
-    okh:fileFormat "DXF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/vatfep-expanded.DXF> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDcw> .
-
-:Vatfoam a okh:Part ;
-    rdfs:label "vat_foam" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "James Botler" ;
-    okh:source :Vatfoam_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Vatfoam_source a okh:SourceFile ;
-    rdfs:label "Source File of vat_foam of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
-    okh:fileFormat "DXF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/vatfoam.DXF> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDcz> .
-
-:Vatfoamexpanded a okh:Part ;
-    rdfs:label "vat_foam_expanded" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "James Botler" ;
-    okh:source :Vatfoamexpanded_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Vatfoamexpanded_source a okh:SourceFile ;
-    rdfs:label "Source File of vat_foam_expanded of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
-    okh:fileFormat "DXF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/vatfoam-expanded.DXF> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDcy> .
-
-:Vathightensionbottom a okh:Part ;
-    rdfs:label "vat_hightension_bottom" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "James Botler" ;
-    okh:source :Vathightensionbottom_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Vathightensionbottom_source a okh:SourceFile ;
-    rdfs:label "Source File of vat_hightension_bottom of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
-    okh:fileFormat "DXF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/vathightensionbottom.DXF> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDc1> .
-
-:Vathightensionbottomexpanded a okh:Part ;
-    rdfs:label "vat_hightension_bottom_expanded" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "James Botler" ;
-    okh:source :Vathightensionbottomexpanded_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Vathightensionbottomexpanded_source a okh:SourceFile ;
-    rdfs:label "Source File of vat_hightension_bottom_expanded of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
-    okh:fileFormat "DXF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/vathightensionbottom-expanded.DXF> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDc0> .
-
-:Vathightensionmid a okh:Part ;
-    rdfs:label "vat_hightension_mid" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "James Botler" ;
-    okh:source :Vathightensionmid_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Vathightensionmid_source a okh:SourceFile ;
-    rdfs:label "Source File of vat_hightension_mid of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
-    okh:fileFormat "DXF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/vathightensionmid.DXF> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDc2> .
-
-:Vathightensionmidexpanded a okh:Part ;
-    rdfs:label "vat_hightension_mid_expanded" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "James Botler" ;
-    okh:source :Vathightensionmidexpanded_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Vathightensionmidexpanded_source a okh:SourceFile ;
-    rdfs:label "Source File of vat_hightension_mid_expanded of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
-    okh:fileFormat "DXF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/vathightensionmid-expanded.DXF> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDc3> .
-
-:Vathightensiontensionstop a okh:Part ;
-    rdfs:label "vat_hightension_tensionstop" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "James Botler" ;
-    okh:source :Vathightensiontensionstop_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Vathightensiontensionstop_source a okh:SourceFile ;
-    rdfs:label "Source File of vat_hightension_tensionstop of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
-    okh:fileFormat "DXF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/vathightensiontensionstop.DXF> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDc5> .
-
-:Vathightensiontensionstopexpanded a okh:Part ;
-    rdfs:label "vat_hightension_tensionstop_expanded" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "James Botler" ;
-    okh:source :Vathightensiontensionstopexpanded_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Vathightensiontensionstopexpanded_source a okh:SourceFile ;
-    rdfs:label "Source File of vat_hightension_tensionstop_expanded of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
-    okh:fileFormat "DXF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/vathightensiontensionstop-expanded.DXF> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDc4> .
-
-:Vathightensionwindowspacer a okh:Part ;
-    rdfs:label "vat_hightension_windowspacer" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "James Botler" ;
-    okh:source :Vathightensionwindowspacer_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Vathightensionwindowspacer_source a okh:SourceFile ;
-    rdfs:label "Source File of vat_hightension_windowspacer of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
-    okh:fileFormat "DXF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/vathightensionwindowspacer.DXF> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDgx> .
-
-:Vathightensionwindowspacerexpanded a okh:Part ;
-    rdfs:label "vat_hightension_windowspacer_expanded" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "James Botler" ;
-    okh:source :Vathightensionwindowspacerexpanded_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Vathightensionwindowspacerexpanded_source a okh:SourceFile ;
-    rdfs:label "Source File of vat_hightension_windowspacer_expanded of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
-    okh:fileFormat "DXF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/vathightensionwindowspacer-expanded.DXF> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDgw> .
-
-:Vatholddownspacer a okh:Part ;
-    rdfs:label "vat_holddownspacer" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "James Botler" ;
-    okh:source :Vatholddownspacer_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Vatholddownspacer_source a okh:SourceFile ;
-    rdfs:label "Source File of vat_holddownspacer of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
-    okh:fileFormat "DXF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/vatholddownspacer.DXF> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDgy> .
-
-:Vatm4nuttraprepaired a okh:Part ;
-    rdfs:label "vat_m4_nuttrap_repaired" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "James Botler" ;
-    okh:source :Vatm4nuttraprepaired_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Vatm4nuttraprepaired_source a okh:SourceFile ;
-    rdfs:label "Source File of vat_m4_nuttrap_repaired of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/vatm4nuttrap-repaired.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDM0> .
-
-:Vatm4thumbnutrepaired a okh:Part ;
-    rdfs:label "vat_m4_thumbnut_repaired" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "James Botler" ;
-    okh:source :Vatm4thumbnutrepaired_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Vatm4thumbnutrepaired_source a okh:SourceFile ;
-    rdfs:label "Source File of vat_m4_thumbnut_repaired of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/vatm4thumbnut-repaired.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDM4> .
-
-:Vatm6nuttraprepaired a okh:Part ;
-    rdfs:label "vat_m6_nuttrap_repaired" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "James Botler" ;
-    okh:source :Vatm6nuttraprepaired_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Vatm6nuttraprepaired_source a okh:SourceFile ;
-    rdfs:label "Source File of vat_m6_nuttrap_repaired of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/vatm6nuttrap-repaired.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDM3> .
-
-:Vatm6thumbnutrepaired a okh:Part ;
-    rdfs:label "vat_m6_thumbnut_repaired" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "James Botler" ;
-    okh:source :Vatm6thumbnutrepaired_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Vatm6thumbnutrepaired_source a okh:SourceFile ;
-    rdfs:label "Source File of vat_m6_thumbnut_repaired of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/vatm6thumbnut-repaired.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDM5> .
-
-:Vattensioner a okh:Part ;
-    rdfs:label "vat_tensioner" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "James Botler" ;
-    okh:source :Vattensioner_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Vattensioner_source a okh:SourceFile ;
-    rdfs:label "Source File of vat_tensioner of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
-    okh:fileFormat "DXF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/vattensioner.DXF> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDg0> .
-
-:Vattensionerexpanded a okh:Part ;
-    rdfs:label "vat_tensioner_expanded" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "James Botler" ;
-    okh:source :Vattensionerexpanded_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Vattensionerexpanded_source a okh:SourceFile ;
-    rdfs:label "Source File of vat_tensioner_expanded of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
-    okh:fileFormat "DXF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/vattensioner-expanded.DXF> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDgz> .
-
-:Vattopexpandedrepaired a okh:Part ;
-    rdfs:label "vat_top_expanded_repaired" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "James Botler" ;
-    okh:source :Vattopexpandedrepaired_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Vattopexpandedrepaired_source a okh:SourceFile ;
-    rdfs:label "Source File of vat_top_expanded_repaired of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/vattop-expanded-repaired.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDQw> .
-
-:Vattoprepaired a okh:Part ;
-    rdfs:label "vat_top_repaired" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "James Botler" ;
-    okh:source :Vattoprepaired_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Vattoprepaired_source a okh:SourceFile ;
-    rdfs:label "Source File of vat_top_repaired of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/vattop-repaired.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDQx> .
-
-:Zarmantibacklashrepaired a okh:Part ;
-    rdfs:label "zarm_antibacklash_repaired" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "James Botler" ;
-    okh:source :Zarmantibacklashrepaired_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Zarmantibacklashrepaired_source a okh:SourceFile ;
-    rdfs:label "Source File of zarm_antibacklash_repaired of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/zarmantibacklash-repaired.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDQy> .
-
-:Zarmspacerrepaired a okh:Part ;
-    rdfs:label "zarm_spacer_repaired" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "James Botler" ;
-    okh:source :Zarmspacerrepaired_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Zarmspacerrepaired_source a okh:SourceFile ;
-    rdfs:label "Source File of zarm_spacer_repaired of LittleRP2 6bafbdfaac0fc4b9bb361b61c5f5824258fc5243" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/870/zarmspacer-repaired.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDQz> .
 

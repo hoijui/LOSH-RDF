@@ -1,0 +1,32 @@
+@prefix : <https://www.thingiverse.com/thing%3A31889/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:DrewsRostockVariant a okh:Module ;
+    rdfs:label "Drew's Rostock variant" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is a printer I am currently building based on Johann's amazing Rostock printer.\r
+\r
+This design is modified to use Makerslide rail instead of smooth rod and linear bearings.  I chose to use Makerslide partly because I found a pile of V-roller bearings at a junkyard for real cheap, but also because I thought the Makerslide would be more rigid and would allow me to hide wiring inside the channel.\r
+\r
+This printer is also being designed to be a single self-contanied piece of furniture, with all wiring and electronic components hidden inside it as much as is possible.  I intend to eventually equip it with Bluetooth, a SDcard reader, and a full LCD interface so it can print completely stand-alone.\r
+\r
+The original version of thie printer didn't work bery well due to structural issues.  I don't have access to a CNC mill or laser cutter or any other proper machine tools.  I'm basically building this thing by hand with a table saw and power drill.  The wooden structural parts for the original version weren't accurate enough, so I've redesigned it to be possible to build without haveing proper machine tools.\r
+\r
+The revised version uses 3/8 inch threaded rod to make triangular frames at the top and bottom ends of the printer.  The position of the rails can be finely adjusted by turning the nuts on the screws, so you can tweak it until everything is properly lined up after building it.  The wooden frame is now reduncant, although I'm still using it to mount secondary parts.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "Ellindsey" ;
+    okh:repo <https://www.thingiverse.com/thing:31889> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:31889> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Drew's Rostock variant 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/4b/92/2c/46/dc/IMG_1233_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/4b/92/2c/46/dc/IMG_1233_display_large.jpg> .
+

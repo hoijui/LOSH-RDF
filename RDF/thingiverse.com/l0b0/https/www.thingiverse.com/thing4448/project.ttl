@@ -1,0 +1,32 @@
+@prefix : <https://www.thingiverse.com/thing%3A4448/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ParametricBoxWithQrCodeForLink a okh:Module ;
+    rdfs:label "Parametric box with QR code for link" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Print a box to hold a given number of items of a specified size.\r
+\r
+Git repository: http://github.com/l0b0/parametric-box\r
+\r
+Version 2 contains the QR code embedded in the back plate. This is a demo of http://github.com/l0b0/qr2scad, which was slapped together today to enable this sort of thing dynamically.\r
+\r
+If someone sees the QR code on your thing in real life, they can find the design and make their own copies with just a photo of it. Theoretically, you could even assign this job to a machine, looking around the web (or your tool box) for things that can be duplicated.\r
+\r
+Another possibility would be to encode the .scad file in a QR code (after using http://github.com/l0b0/OpenSCAD-Minimizer) and include that on the model. Nicely Von Neumann-friendly :)""" ;
+    okh:hasImage :Image ;
+    okh:licensor "l0b0" ;
+    okh:repo <https://www.thingiverse.com/thing:4448> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:4448> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Parametric box with QR code for link 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/59/e2/0a/85/c9/render_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/59/e2/0a/85/c9/render_display_large_display_large.jpg> .
+

@@ -1,0 +1,52 @@
+@prefix : <https://www.thingiverse.com/thing%3A19941/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:AutoBender a okh:Module ;
+    rdfs:label "Auto Bender" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Juan Miguel GarcÃ­a Haro\r
+Pablo MarÃ­n Plaza p.marin.plaza@gmail.com\r
+--------------------------------\r
+Universidad Carlos III de Madrid\r
+Departamento de sistemas y automÃ¡tica\r
+MÃ¡ster de RobÃ³tica Industrial\r
+---------------------------------\r
+In order to improve the tool OOML (V2.0) http://iearobotics.com/oomlwiki/doku.php\r
+\r
+\r
+This is a derivative from Protobot by Alberto Valero: \r
+http://www.thingiverse.com/thing:18264\r
+\r
+We have used the base structure and the wheels. We have added one plug and play structure to hold the US sensors and we are developing another plug and play to put PCB board with sensors CNY70 in order to detect lines in the ground and make the robot lines follower.\r
+\r
+\r
+In this model, we have used:\r
+\r
+1x ARDUINO UNO\r
+1x BT ARDUINO MODULE\r
+2x FUTABA3003\r
+2x US sonar (http://www.seeedstudio.com/wiki/index.php?title=Ultra_Sonic_range_measurement_module)\r
+1x Connection board\r
+2x 9V power batteries\r
+22x screw (3mm)\r
+\r
+First test: Crowler :D http://youtu.be/NEXOzpVxYNo\r
+Second test: avoid obstacles\r
+http://youtu.be/MmDEe0WNYrA""" ;
+    okh:hasImage :Image ;
+    okh:licensor "pmarinplaza" ;
+    okh:repo <https://www.thingiverse.com/thing:19941> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:19941> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Auto Bender 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/58/1b/7b/fb/b4/Imagen065_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/58/1b/7b/fb/b4/Imagen065_display_large_display_large.jpg> .
+

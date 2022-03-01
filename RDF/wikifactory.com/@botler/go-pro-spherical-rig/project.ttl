@@ -1,19 +1,20 @@
-@prefix : <https://wikifactory.com/@botler/go-pro-spherical-rig/03057ff769ea74df8155ba3e20618b88841e884a/> .
+@prefix : <https://wikifactory.com/%40botler/go-pro-spherical-rig/03057ff769ea74df8155ba3e20618b88841e884a/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 :Gopro360SphericalRig a okh:Module ;
     rdfs:label "GoPro 360 Spherical Rig" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "A spherical rig for the GoPro so you can combine 6 cameras simultaneously and produce 360 degree videos!" ;
-    okh:hasComponent :55anglenut,
-        :Gopro360v4,
-        :Gopro360v4lock,
-        :Gopro360v4locka,
-        :Gopro360v4lockx6,
-        :Gopro360v4tray,
-        :Gopro360v4trayw595x415,
-        :Gopro360v7astand ;
+    okh:hasComponent :3dDesignFiles55anglenut,
+        :3dDesignFilesgopro360v4,
+        :3dDesignFilesgopro360v4lock,
+        :3dDesignFilesgopro360v4locka,
+        :3dDesignFilesgopro360v4lockx6,
+        :3dDesignFilesgopro360v4tray,
+        :3dDesignFilesgopro360v4trayw595x415,
+        :3dDesignFilesgopro360v7astand ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "James Botler" ;
@@ -21,109 +22,110 @@
     okh:repo <https://wikifactory.com/@botler/go-pro-spherical-rig> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
     okh:version "03057ff769ea74df8155ba3e20618b88841e884a" ;
     okh:versionOf <https://wikifactory.com/@botler/go-pro-spherical-rig> .
 
-:55anglenut a okh:Part ;
-    rdfs:label "55angle_nut" ;
+:3dDesignFiles55anglenut a okh:Part ;
+    rdfs:label "3D Design Files/55angle_nut" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :55anglenut_source ;
+    okh:source :3dDesignFiles55anglenut_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:55anglenut_source a okh:SourceFile ;
-    rdfs:label "Source File of 55angle_nut of GoPro 360 Spherical Rig 03057ff769ea74df8155ba3e20618b88841e884a" ;
+:3dDesignFiles55anglenut_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Design Files/55angle_nut of GoPro 360 Spherical Rig 03057ff769ea74df8155ba3e20618b88841e884a" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40/55anglenut.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo3Mzkx> .
 
-:Gopro360v4 a okh:Part ;
-    rdfs:label "Gopro_360_V4" ;
+:3dDesignFilesgopro360v4 a okh:Part ;
+    rdfs:label "3D Design Files/Gopro_360_V4" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Gopro360v4_source ;
+    okh:source :3dDesignFilesgopro360v4_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Gopro360v4_source a okh:SourceFile ;
-    rdfs:label "Source File of Gopro_360_V4 of GoPro 360 Spherical Rig 03057ff769ea74df8155ba3e20618b88841e884a" ;
+:3dDesignFilesgopro360v4_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Design Files/Gopro_360_V4 of GoPro 360 Spherical Rig 03057ff769ea74df8155ba3e20618b88841e884a" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40/gopro360v4.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo3Mzkw> .
 
-:Gopro360v4lock a okh:Part ;
-    rdfs:label "Gopro_360_V4_lock" ;
+:3dDesignFilesgopro360v4lock a okh:Part ;
+    rdfs:label "3D Design Files/Gopro_360_V4_lock" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Gopro360v4lock_source ;
+    okh:source :3dDesignFilesgopro360v4lock_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Gopro360v4lock_source a okh:SourceFile ;
-    rdfs:label "Source File of Gopro_360_V4_lock of GoPro 360 Spherical Rig 03057ff769ea74df8155ba3e20618b88841e884a" ;
+:3dDesignFilesgopro360v4lock_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Design Files/Gopro_360_V4_lock of GoPro 360 Spherical Rig 03057ff769ea74df8155ba3e20618b88841e884a" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40/gopro360v4lock.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo3Mzky> .
 
-:Gopro360v4locka a okh:Part ;
-    rdfs:label "Gopro_360_V4_lock_a" ;
+:3dDesignFilesgopro360v4locka a okh:Part ;
+    rdfs:label "3D Design Files/Gopro_360_V4_lock_a" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Gopro360v4locka_source ;
+    okh:source :3dDesignFilesgopro360v4locka_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Gopro360v4locka_source a okh:SourceFile ;
-    rdfs:label "Source File of Gopro_360_V4_lock_a of GoPro 360 Spherical Rig 03057ff769ea74df8155ba3e20618b88841e884a" ;
+:3dDesignFilesgopro360v4locka_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Design Files/Gopro_360_V4_lock_a of GoPro 360 Spherical Rig 03057ff769ea74df8155ba3e20618b88841e884a" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40/gopro360v4locka.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo3Mzk0> .
 
-:Gopro360v4lockx6 a okh:Part ;
-    rdfs:label "Gopro_360_V4_lock_x_6" ;
+:3dDesignFilesgopro360v4lockx6 a okh:Part ;
+    rdfs:label "3D Design Files/Gopro_360_V4_lock_x_6" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Gopro360v4lockx6_source ;
+    okh:source :3dDesignFilesgopro360v4lockx6_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Gopro360v4lockx6_source a okh:SourceFile ;
-    rdfs:label "Source File of Gopro_360_V4_lock_x_6 of GoPro 360 Spherical Rig 03057ff769ea74df8155ba3e20618b88841e884a" ;
+:3dDesignFilesgopro360v4lockx6_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Design Files/Gopro_360_V4_lock_x_6 of GoPro 360 Spherical Rig 03057ff769ea74df8155ba3e20618b88841e884a" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40/gopro360v4lockx6.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo3Mzk1> .
 
-:Gopro360v4tray a okh:Part ;
-    rdfs:label "Gopro_360_V4_tray" ;
+:3dDesignFilesgopro360v4tray a okh:Part ;
+    rdfs:label "3D Design Files/Gopro_360_V4_tray" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Gopro360v4tray_source ;
+    okh:source :3dDesignFilesgopro360v4tray_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Gopro360v4tray_source a okh:SourceFile ;
-    rdfs:label "Source File of Gopro_360_V4_tray of GoPro 360 Spherical Rig 03057ff769ea74df8155ba3e20618b88841e884a" ;
+:3dDesignFilesgopro360v4tray_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Design Files/Gopro_360_V4_tray of GoPro 360 Spherical Rig 03057ff769ea74df8155ba3e20618b88841e884a" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40/gopro360v4tray.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo3Mzkz> .
 
-:Gopro360v4trayw595x415 a okh:Part ;
-    rdfs:label "Gopro_360_V4_tray_W59.5_x_41.5" ;
+:3dDesignFilesgopro360v4trayw595x415 a okh:Part ;
+    rdfs:label "3D Design Files/Gopro_360_V4_tray_W59.5_x_41.5" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Gopro360v4trayw595x415_source ;
+    okh:source :3dDesignFilesgopro360v4trayw595x415_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Gopro360v4trayw595x415_source a okh:SourceFile ;
-    rdfs:label "Source File of Gopro_360_V4_tray_W59.5_x_41.5 of GoPro 360 Spherical Rig 03057ff769ea74df8155ba3e20618b88841e884a" ;
+:3dDesignFilesgopro360v4trayw595x415_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Design Files/Gopro_360_V4_tray_W59.5_x_41.5 of GoPro 360 Spherical Rig 03057ff769ea74df8155ba3e20618b88841e884a" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40/gopro360v4trayw595x415.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo3Mzk2> .
 
-:Gopro360v7astand a okh:Part ;
-    rdfs:label "Gopro_360_V7a_Stand" ;
+:3dDesignFilesgopro360v7astand a okh:Part ;
+    rdfs:label "3D Design Files/Gopro_360_V7a_Stand" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Gopro360v7astand_source ;
+    okh:source :3dDesignFilesgopro360v7astand_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Gopro360v7astand_source a okh:SourceFile ;
-    rdfs:label "Source File of Gopro_360_V7a_Stand of GoPro 360 Spherical Rig 03057ff769ea74df8155ba3e20618b88841e884a" ;
+:3dDesignFilesgopro360v7astand_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Design Files/Gopro_360_V7a_Stand of GoPro 360 Spherical Rig 03057ff769ea74df8155ba3e20618b88841e884a" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40/gopro360v7astand.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo3Mzk3> .

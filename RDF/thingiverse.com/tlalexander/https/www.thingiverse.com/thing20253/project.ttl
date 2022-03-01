@@ -1,0 +1,36 @@
+@prefix : <https://www.thingiverse.com/thing%3A20253/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:MakerbotReplicatorLiberatedFromSolidworksstepIgesParasolidWithBom a okh:Module ;
+    rdfs:label "MakerBot Replicator liberated from Solidworks (STEP, IGES, Parasolid) with BOM!" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Many people don't have Solidworks. I do!\r
+\r
+I've downloaded the MakerBot Replicator and converted it to formats that are more portable between CAD systems. I think STEP would have been sufficient, but why not throw a few more out there too! If you're not sure, try STEP. But someone specifically asked for Parasolid, and I figured I'd throw in IGES too.\r
+\r
+I also exported a simple Bill of Materials that looks like it will be a good start for people. Hint! if you see a part number like 91290A110 or similar, its a McMaster Carr part number. But you already knew that didn't you?\r
+\r
+Of note - I looked at the export settings in hopes I've done it right, but I never use STEP or Parasolid so I'm not sure. Let me know if I messed it up!\r
+\r
+Also of note, this includes the entire assembly for the dual MK7 extruders, so if you need those parts, they're in here!\r
+\r
+One component is missing though. The file MP138-Type-K_Thermocouple_2.sldprt. You'd have to ask a man named Jack at MBI about that.\r
+\r
+EDIT: Jack has been found! Missing part is here: http://www.thingiverse.com/thing:20348""" ;
+    okh:hasImage :Image ;
+    okh:licensor "tlalexander" ;
+    okh:repo <https://www.thingiverse.com/thing:20253> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:20253> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of MakerBot Replicator liberated from Solidworks (STEP, IGES, Parasolid) with BOM! 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/e8/7a/f0/d6/bb/freedom2_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/e8/7a/f0/d6/bb/freedom2_display_large_display_large.jpg> .
+

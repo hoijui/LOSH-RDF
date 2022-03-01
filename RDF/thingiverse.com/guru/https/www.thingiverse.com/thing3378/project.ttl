@@ -1,0 +1,30 @@
+@prefix : <https://www.thingiverse.com/thing%3A3378/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:AGekko a okh:Module ;
+    rdfs:label "A Gekko" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """I made a gekko for the makerbot. I first took a pencil-drawing I made waiting in \r
+a delayed plane, made a 3D object from it using blender and printed it on the makerbot\r
+\r
+the stl file is far from perfect, and has some holes in it (at the feet), but it prints and the \r
+result looks ok\r
+\r
+http://www.local-guru.net/blog/2010/06/20/gekko-in-3d""" ;
+    okh:hasImage :Image ;
+    okh:licensor "guru" ;
+    okh:repo <https://www.thingiverse.com/thing:3378> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:3378> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of A Gekko 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/d4/bf/fe/a2/cf/gekko_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/d4/bf/fe/a2/cf/gekko_display_large_display_large.jpg> .
+

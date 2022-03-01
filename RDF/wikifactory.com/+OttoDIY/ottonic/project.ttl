@@ -1,9 +1,10 @@
-@prefix : <https://wikifactory.com/+OttoDIY/ottonic/432f7e2df8e7b5c65a3412b3310b170c2eb5a927/> .
+@prefix : <https://wikifactory.com/%2BOttoDIY/ottonic/432f7e2df8e7b5c65a3412b3310b170c2eb5a927/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 :Ottonic a okh:Module ;
     rdfs:label "OttOnic" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "OttOnic is an extension of the Otto bot which let you to see what it can see.You view and control the bot from a standard browser. Bot is connected over wifi to Internet." ;
     okh:hasImage :Image ;
@@ -14,6 +15,7 @@
     okh:repo <https://wikifactory.com/+OttoDIY/ottonic> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
     okh:version "432f7e2df8e7b5c65a3412b3310b170c2eb5a927" ;
     okh:versionOf <https://wikifactory.com/+OttoDIY/ottonic> .
 

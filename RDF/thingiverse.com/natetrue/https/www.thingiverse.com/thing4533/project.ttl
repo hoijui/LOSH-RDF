@@ -1,0 +1,38 @@
+@prefix : <https://www.thingiverse.com/thing%3A4533/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:AbpLowriderMod a okh:Module ;
+    rdfs:label "ABP Lowrider Mod" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Gain 11 milllimeters of your Z travel back! This printable mod lets you alter your Makerbot Automated Build Platform to shrink it vertically by 11 millimeters by moving the motor to the rear.  The parts are also laser cuttable.\r
+\r
+Benefits:\r
+ - Get more height out of your Makerbot builds\r
+ - Uses hardware bundled with the Automated Build Platform - no trips to the hardware store\r
+ - Lighter weight and shorter height improve platform movement performance\r
+\r
+Known issues:\r
+ - The piece that holds the nozzle cleaner will probably not print correctly unless you\\'re blowing on it while it\\'s printing. \r
+ - The nozzle cleaner prints on both front pieces but must be cut off on the inner one (because it interferes with the belt).\r
+ - The gears hit the side of the Makerbot\\'s window at x <= -45 and y >= 40.\r
+ - At high heat levels the printed parts may melt or deform. Shouldn\\'t be a big issue since the hot part is still wood contact only.\r
+ - Due to printing tolerances, the surface may not be perfectly level and may need to be shimmed.\r
+\r
+Note that in the images I have the wood base for the heating PCB flipped around 180 degrees. I had to do this because I had incorrectly positioned it in Blender. The STL files and Blender source are all corrected now though, and you will not have to turn that piece of wood around.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "natetrue" ;
+    okh:repo <https://www.thingiverse.com/thing:4533> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:4533> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of ABP Lowrider Mod 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/fb/33/59/bf/f1/P1020748.JPG_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/fb/33/59/bf/f1/P1020748.JPG_display_large_display_large.jpg> .
+

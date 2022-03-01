@@ -1,0 +1,51 @@
+@prefix : <https://www.thingiverse.com/thing%3A4986/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:RustyHuxley a okh:Module ;
+    rdfs:label "Rusty Huxley" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is a redesigned Huxley inspired by the Prusa simplified Mendel.\r
+http://www.thingiverse.com/thing:4148\r
+\r
+It uses the PLA Bushings like \r
+http://www.thingiverse.com/thing:4434\r
+I modified the scad script to use 6mm rods.\r
+(basically just put in 6mm for rod size and 12mm for width)\r
+\r
+I have also redesigned the X and Y motor brackets to be able to use nema 14 or 17 motors. The Z now takes 2 nema 14 motors.\r
+\r
+I designed it around 1/4" threaded rods and #6-32 bolts. It should work with 6mm rods and M6 bolts, but I'm not sure.\r
+\r
+This should work with the same extruder as the regular Huxley. I believe.\r
+\r
+The image is of the current build status, it needs the Y Stage and some belts on it before it will go, and an extruder. But the Z movement is working well so far.\r
+\r
+Edit: Got the belts in and installed on the X Axis\r
+Test Videos here\r
+http://www.youtube.com/watch?v=rji863B-JnA\r
+http://www.youtube.com/watch?v=pw6CKZPRubw\r
+\r
+\r
+The design files are in SolidWorks\r
+\r
+Edit 12-8-10: Found a problem with the X-axis parts.\r
+the bolts used to tighten the rods in place had a nut bigger than the rod, so I put in a slot on the side. This weakened the structure to the point where tightening the bolts enough to keep tension on the belt, it would break the piece. I redesigned them after finding "Undersized Hex Nuts" (McMaster carr part 90760A007 for 6-32) which allow me to insert them the same as prusajr originally had. I also added more material to the sides to help with this. I am currently printing them out for testing.\r
+\r
+Edit 12-9-10: I added more material to the x-axis parts to make them a bit stiffer again, I didnt get a chance to test the last version, so it may work just fine.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "BLNorris" ;
+    okh:repo <https://www.thingiverse.com/thing:4986> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:4986> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Rusty Huxley 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/4f/26/df/28/35/frame2_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/4f/26/df/28/35/frame2_display_large_display_large.jpg> .
+

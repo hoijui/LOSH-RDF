@@ -1,0 +1,43 @@
+@prefix : <https://www.thingiverse.com/thing%3A5428/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:PerfboardBuildSurface a okh:Module ;
+    rdfs:label "Perfboard Build Surface" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Hate warping and don't have a heated build platformâ€½ No worries, a few coins in perfboard will have you flat in no time.\r
+\r
+These are instructions for an UP!, but most tips should apply to a Cupcake too! YMMV.\r
+\r
+Taken from http://pp3dp.com/forum/viewtopic.php?f=3&t=96&start=10#p1792, here's all you need to know about warp-free printing on the cheap!\r
+\r
+"The perfboard trick is baller! Big UP!s rross!  \r
+\r
+I haven't had any warping since I started printing on it and I'm going deep and wide and tall. Of course I've done the platform leveling and nozzle height adjustments, but until I printed on perfboard, I'd get some warping on wide, long or thick prints. If you can't find copper plated perfboard, no worries; it's the holes, not the copper, that does the trick.\r
+\r
+A few tips if you decide to do this:\r
+\r
+1. READJUST NOZZLE HEIGHT!!! Since you're adding ~1.5mm to the top of the platform, your current height will cause the nozzle to meet the perfboard in an unsightly way.\r
+2. REMOVE! Remove the platform from the printer before attempting to dislodge the print from the perfboard. The print sticks well and you don't want to subject your printer to the forces necessary to to unstick it.\r
+3. BIAS! Cut the board on an angle so that the perfs are not parallel to the printer's X and Y axes. I belatedly noticed that rross cut his on a bias; my utility knife scoring wasn't spot on, so it's all good. Yours will be better if you plan for this.\r
+4. TAPE WELL! Ensure that the tape - blue painter's tape works great - sufficiently wraps around the top and bottom of the platform. On my first print, I wrapped the tape miserly on the perfboard and while printing, one of the strips detached. No prints suffered during this episode.\r
+5. COOL! Definitely allow the platform to cool a few minutes before removing the print. The plastic in the holes contracts and makes removal easier.\r
+6. DON'T PREHEAT! One of the bonuses of printing on perfboard is that the platform doesn't need preheating. This saves time, effort and watts.\r
+7. OVERLAP! When printing multiple models, I overlap the rafts a bit so that all rafts are connected. This ensures that raft areas that fall outside the perfs are still secured by those that do (maybe less of any issue if you cut the board on a bias).\r
+8. LED! Most of the plastic comes out of the holes, but to remove the bits that remain, LED leads work great (we all have the odd LED laying about, yes?)!\"""" ;
+    okh:hasImage :Image ;
+    okh:licensor "TeamTeamUSA" ;
+    okh:repo <https://www.thingiverse.com/thing:5428> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:5428> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Perfboard Build Surface 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/93/c6/fe/8d/bb/L1060321_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/93/c6/fe/8d/bb/L1060321_display_large_display_large.jpg> .
+

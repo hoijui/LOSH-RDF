@@ -1,0 +1,26 @@
+@prefix : <https://www.thingiverse.com/thing%3A17723/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:TexastrimmedCoastline a okh:Module ;
+    rdfs:label "Texas (trimmed coastline)" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """I just trimmed the Texas height map to sea level and exaggerated the elevations a bit so it will show up better in your prints.\r
+\r
+This was done completely in the Netfabb desktop application.  I adjusted the Z axis to remove the ocean water layer and then added a few mm to the Z layer without changing x and y, which stretches out the visible peaks a bit.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "7777773" ;
+    okh:repo <https://www.thingiverse.com/thing:17723> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:17723> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Texas (trimmed coastline) 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://thingiverse-rerender-new.s3.amazonaws.com/renders/df/48/a6/e8/52/Texas_split_fixed_display_large.jpg> ;
+    okh:permaURL <https://thingiverse-rerender-new.s3.amazonaws.com/renders/df/48/a6/e8/52/Texas_split_fixed_display_large.jpg> .
+

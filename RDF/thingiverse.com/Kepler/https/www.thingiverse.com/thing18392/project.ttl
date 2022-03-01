@@ -1,0 +1,35 @@
+@prefix : <https://www.thingiverse.com/thing%3A18392/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:MiniRover a okh:Module ;
+    rdfs:label "Mini Rover" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """I built this small prototype to test several concepts: the tracks made from O-rings, a simple robotic claw, and wireless communications with Arduino.\r
+\r
+This thing uses:\r
+My robotic claw http://www.thingiverse.com/thing:18339\r
+Some parts from my previous designs http://www.thingiverse.com/thing:13298\r
+Obijuan's Skymega board http://www.thingiverse.com/thing:14197 and battery pack http://www.thingiverse.com/thing:5079\r
+\r
+See it move at: http://youtu.be/SQqVQEaMtno\r
+\r
+UPDATE 3/8/2012: The part "front.stl" did not print correctly due to some dangling polygons. I have now replaced it with the correct file!\r
+\r
+UPDATE 3/13/2012: Uploaded a folder with the scad files. Not very tidy though...""" ;
+    okh:hasImage :Image ;
+    okh:licensor "Kepler" ;
+    okh:repo <https://www.thingiverse.com/thing:18392> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:18392> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Mini Rover 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/f4/87/64/23/f3/IMG367_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/f4/87/64/23/f3/IMG367_display_large_display_large.jpg> .
+

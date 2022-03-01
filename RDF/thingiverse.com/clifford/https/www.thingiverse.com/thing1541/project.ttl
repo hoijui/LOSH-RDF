@@ -1,0 +1,30 @@
+@prefix : <https://www.thingiverse.com/thing%3A1541/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ParametricBoxGenerator a okh:Module ;
+    rdfs:label "Parametric Box Generator" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """I wrote a script to generate lasercut boxes. The script reads a config file with the box dimensions and generates a DXF file and an OpenSCAD model. We use the script for all types of cases here at metalab. The example file attached is the case of our electronic door lock system.\r
+\r
+The script can be found here:\r
+http://svn.clifford.at/handicraft/2009/boxgen/\r
+\r
+You might need to install SPL (the scripting language I've used for the script) before you can use the script:\r
+http://www.clifford.at/spl/""" ;
+    okh:hasImage :Image ;
+    okh:licensor "clifford" ;
+    okh:repo <https://www.thingiverse.com/thing:1541> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:1541> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Parametric Box Generator 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/34/38/a1/43/9a/metalockbox_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/34/38/a1/43/9a/metalockbox_display_large_display_large.jpg> .
+

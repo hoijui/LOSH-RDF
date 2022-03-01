@@ -1,20 +1,21 @@
-@prefix : <https://wikifactory.com/+OttoDIY/otto-windows-desktop/a254278e4bff131b0a7be80a801d310d27b739c4/> .
+@prefix : <https://wikifactory.com/%2BOttoDIY/otto-windows-desktop/a254278e4bff131b0a7be80a801d310d27b739c4/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 :OttoWindowsDesktop a okh:Module ;
     rdfs:label "OTTO Windows Desktop" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "Windows Desktop program to control Otto and friends" ;
     okh:hasComponent :Instructions ;
     okh:hasImage :Image ;
-    okh:hasReadme :Readme ;
     okh:licensor "Jason Snow" ;
     okh:organisation "Otto DIY" ;
     okh:release <https://wikifactory.com/+OttoDIY/otto-windows-desktop/v/a254278> ;
     okh:repo <https://wikifactory.com/+OttoDIY/otto-windows-desktop> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/MIT> ;
+    okh:uploadMethod "auto" ;
     okh:version "a254278e4bff131b0a7be80a801d310d27b739c4" ;
     okh:versionOf <https://wikifactory.com/+OttoDIY/otto-windows-desktop> .
 
@@ -36,10 +37,4 @@
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1278/instructions.pdf> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToxMzkzOQ==> .
-
-:Readme a okh:Readme ;
-    rdfs:label "Readme of OTTO Windows Desktop a254278e4bff131b0a7be80a801d310d27b739c4" ;
-    okh:fileFormat "MD" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1278/readme.md> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyOTA0NzA=> .
 

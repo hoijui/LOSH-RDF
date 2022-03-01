@@ -1,0 +1,32 @@
+@prefix : <https://www.thingiverse.com/thing%3A9652/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:DominoCreator a okh:Module ;
+    rdfs:label "Domino Creator!" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """this is an OpenScad script that will create Domino tiles for you!\r
+\r
+you only need to specify the size of each tile, the maximum 'eyes' you want (most common = 6; max. supported by now = 9) and the number of tiles to skip (for bigger sizes that cannot be created in a single run).\r
+\r
+the main goal of this script is the placement of the domino tiles and calculation of the needed eyes-count on each single tile...\r
+the outline of one tile isn't optimal yet - you are very welcome to create better ones (those are the modules one_brick to create the outline and eye to create one single eye at the top of the script).\r
+[btw: the small pieces in the first picture are from an earlier/simpler design; I didn't tried the actual design with the small pieces yet]\r
+\r
+because OpenScad does neither have working variables nor allows recursive module calls, the maximum amount of eyes is '9' (plus: the eye-placement for big counts like 12 or 18 could be messy).""" ;
+    okh:hasImage :Image ;
+    okh:licensor "Joerg" ;
+    okh:repo <https://www.thingiverse.com/thing:9652> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:9652> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Domino Creator! 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/62/d1/14/a2/a4/dominos2_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/62/d1/14/a2/a4/dominos2_display_large_display_large.jpg> .
+

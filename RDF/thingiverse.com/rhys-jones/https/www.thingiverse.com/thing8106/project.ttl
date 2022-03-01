@@ -1,0 +1,34 @@
+@prefix : <https://www.thingiverse.com/thing%3A8106/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:PrintTimeEstimator a okh:Module ;
+    rdfs:label "Print Time Estimator" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Since we've started using acceleration, there hasn't really been an accurate way of calculating how long a print is going to take until you do it.  The RepRap host software averages how long each line of Gcode takes as the build is running, and then extrapolates it over the entire build.  The problem with this is it takes a long time to get an accurate average, and also the top of parts tend to have shorter lines than the bottom - leading to inaccuracies.\r
+\r
+\r
+ This is a simple java program to estimate how long the gcode will take to run, taking into account accelerations.  Thus far it only calculates the time for all G1 and G28 moves, but this is the vast majority.  \r
+The reason for starting this is I've been trying to tune my slicing preferences to optimise build speeds, but its unclear exactly how much I'm gaining without doing the print first. Also often I've found the sacrifice in quality just isn't worth the time benefit.\r
+\r
+Thus far its a little quick and dirty. Its tried and tested with RepRap 5D style acceleration but *should* also be compatible with the new caruKlip accel too; you just need to tell the software which you are using in the parameters section of the code\r
+\r
+I've done a few tests and thus far its always been accurate to within a few minutes\r
+\r
+P.S. Be gentle, I'm not a programmer :D""" ;
+    okh:hasImage :Image ;
+    okh:licensor "rhys-jones" ;
+    okh:repo <https://www.thingiverse.com/thing:8106> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/LGPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:8106> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Print Time Estimator 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/62/71/d6/c7/1a/Screen_shot_2011-04-27_at_19.57.42_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/62/71/d6/c7/1a/Screen_shot_2011-04-27_at_19.57.42_display_large_display_large.jpg> .
+

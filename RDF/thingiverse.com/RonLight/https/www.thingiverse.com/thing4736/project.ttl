@@ -1,0 +1,31 @@
+@prefix : <https://www.thingiverse.com/thing%3A4736/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:3mmVersionOfUpPrinterFilamentFeeder a okh:Module ;
+    rdfs:label "3mm version of UP! printer filament feeder" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """I modifed the design to:\r
+1. Accept 3mm wire.\r
+2. Use this motor\r
+www.edwinscience.com/Items.aspx?Category=Minature+Geared+DC+Motor&ti\r
+(It has a 8mm gear instead of a 6mm gear. You will also need an 8mm bearing.)\r
+3. Reversed arm direction.\r
+4. Added support from the pcb holder to motor holder.\r
+5. Added 'ramps' to additionally hold the motor in place.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "RonLight" ;
+    okh:repo <https://www.thingiverse.com/thing:4736> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:4736> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of 3mm version of UP! printer filament feeder 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/74/c5/3f/fc/64/Filament_Feeder_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/74/c5/3f/fc/64/Filament_Feeder_display_large_display_large.jpg> .
+

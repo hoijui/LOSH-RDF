@@ -1,0 +1,47 @@
+@prefix : <https://www.thingiverse.com/thing%3A10349/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Truckbot a okh:Module ;
+    rdfs:label "Truckbot" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Snap together 3D printable truck-like robot. Unlike the cool-but-ultimately-non-functional Tank designs ( http://www.thingiverse.com/thing:6554 and http://www.thingiverse.com/thing:8080 ), this bot actually works. Sadly the motors could not generate enough torque to actually move the tank robot due to the amount of friction introduced by the worm gear and tank treads. Encouraged by the success of my 27 to 1 Reduction Gearset http://www.thingiverse.com/thing:9414 I designed this bot from the ground up to be low friction, snap-together and almost entirely 3D printable. The only non-printable components are the motors, the motor mounting screws, the batteries, the wire and the nuts that serve as contacts in the battery holders. I hope to upload some PCB mounts soon so you can easily add the electronics necessary to make this bot autonomous, but if you are impatient I recommend looking into NBitWonder's awesome DC Motor Driver http://www.thingiverse.com/thing:7618 which was designed for the tank-bot.\r
+\r
+I used this script to design the gears: http://www.thingiverse.com/thing:3575 (You will need to download the scad to use the attached truck.scad file). I also used this script to generate the battery holders: http://www.thingiverse.com/thing:5079\r
+\r
+VIDEO:\r
+http://www.youtube.com/watch?v=F-qvDO9QZV4\r
+As you can see from the video, the left rear axel isn't spinning freely and needs some sanding/filing.\r
+\r
+UPDATE:\r
+I fixed the drag on the left rear axel by replacing "axelholder.stl" with "wheelholder.stl" in conjunction with "axelend2.stl".\r
+http://www.youtube.com/watch?v=o3SWtk4X-1Q\r
+\r
+UPDATE #2:\r
+I uploaded design files and instructions for the electronics:\r
+http://www.thingiverse.com/thing:11055\r
+http://www.youtube.com/watch?v=ZA7mihbLalw\r
+\r
+UPDATE #3:\r
+Parametric oversized snaptogether 3d-printable wheels:\r
+http://www.thingiverse.com/thing:14347\r
+http://www.youtube.com/watch?v=9cWYPE-cpFg\r
+\r
+NOTE:\r
+This design is based on the tolerances of my cupcake 3D printer. As several folks who printed out the 27 to 1 gearset pointed out, the Thing-O-Matic has much better tolerances, so some of the snap-together parts may need some glue (or openscad tweaking) if your printer is better than mine!""" ;
+    okh:hasImage :Image ;
+    okh:licensor "mraiser" ;
+    okh:repo <https://www.thingiverse.com/thing:10349> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:10349> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Truckbot 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/f7/11/2e/7b/ed/07252011134_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/f7/11/2e/7b/ed/07252011134_display_large_display_large.jpg> .
+

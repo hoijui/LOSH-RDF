@@ -1,0 +1,59 @@
+@prefix : <https://www.thingiverse.com/thing%3A22887/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:LochesZAxisUpgradeForMakergearPrusaMendel a okh:Module ;
+    rdfs:label "Loches Z Axis Upgrade for MakerGear Prusa Mendel" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Update May 20, 2012:\r
+Uploaded a new X-Carriage Endstop holder that is designed to attach and give clearance with the triangle frame at the very top.\r
+\r
+Update May 13, 2012:\r
+Added a new X-Carriage version that requires no support.  It assumes you can bridge well and requires you to cut excess material at the end.  Note:  I have not actually printed it as of yet, so I can't be sure it all works properly.\r
+\r
+Update May 12, 2012:\r
+Here is a video of me printing the Pink Panther Woman http://www.thingiverse.com/thing:1216 at full size (147.535mm tall).\r
+\r
+http://youtu.be/c93jLzPYmBQ\r
+\r
+\r
+Goals:\r
+- Increase the Z Axis Build Range.\r
+- Modify Plastic Parts only and re-use the current Vitamins.\r
+\r
+Comments:\r
+- So many plastic parts have been modified, I'm not sure if I should consider this an upgrade or a full blown new printer version.\r
+- It's possible that this change isn't limited to the MakerGear Prusa, but I will leave that to you.\r
+- I had a few issues with the X and Z endstops and had to jury-rig my own solutions.  Perhaps I will design some new mounts for these.\r
+\r
+Summary:\r
+My original build area was about 80mm, I came across a print that required more height so I decided to try and design my own modification that would give it to me.  Looking at my printer, I noticed a few areas that could possibly be improved, so I went to work!  My new and improved build height is now 150mm!\r
+\r
+Problems and Solutions:\r
+- Problem 01: The rear mounted X axis belt collided with the threaded rod on the triangle frame vertex assembly.  This resulted in a clearance issue when raising the nozzle.\r
+To fix this, I had to consider a new location to mount the belt.  I chose to utilize the space just underneath the X track rods as that space is already used by the extruder nozzle.\r
+\r
+- Problem 02: A good amount of rod space on the Z axis ends up being un-used.  The motor mount blocks the Z axis from going beyond the two threaded rods on the top of the printer.\r
+To fix this, I extended the upper frame vertex piece so that it raised the two top rods a good distance.  This in turn also raised the Z axis rods so I also extended to lower Z bar clamps to compensate.  This worked because the space taken up by the lower clamps was previously un-used rod space anyway.\r
+\r
+- Problem 03: My current extruder mount caused a clearance issue because the side mounted motor would go underneath the upper frame vertex.  Since my new vertex still blocks this, a new extruder mount was required.\r
+To fix this, I designed a derivitive extruder mount that was essentially the same as the one I was using except the motor protrudes from the rear instead.  Since I previously moved the X axis belt, there was no issue with the motor colliding with it.  You can find this derivitive here: http://www.thingiverse.com/thing:22395.\r
+\r
+- Problem 04: I found it difficult to tighten the X track rods in place without causing the X carriage to bind.\r
+To fix this, I changed it from using the tension screws (on the bottom of each X-end) to just having some clamps on the rods themselves.  The clamps prevent the rods from sliding out, but it's still ok if they slide a little bit, they don't need to be tightly locked.  One of the rods is in a hole that does not give it room to 'wiggle', this gives it the stability it needs so the nozzle doesn't move around in the Y direction.  The other rod is in a slightly elongated hole which provides the track with the 'play' needed to keep the carriage from binding.  I've found that this modification works well and causes no noticable change in print quality.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "Lochemage" ;
+    okh:repo <https://www.thingiverse.com/thing:22887> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:22887> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Loches Z Axis Upgrade for MakerGear Prusa Mendel 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/01/29/00/1c/98/00-New-Assembled_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/01/29/00/1c/98/00-New-Assembled_display_large_display_large.jpg> .
+

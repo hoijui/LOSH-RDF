@@ -1,0 +1,26 @@
+@prefix : <https://www.thingiverse.com/thing%3A5111/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:HerringboneGearedExtruder a okh:Module ;
+    rdfs:label "Herringbone Geared Extruder" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is an attempt to combine various aspects of Adrian's and Wade's extruder drivers. Specifically, It keeps Adrian's extruder clamping system, uses a prime number of teeth for good wear characteristics but uses Wade's hobbed bolt to do the driving.\r
+\r
+As the name suggests, the design uses Herringbone gears. This ensures that backlash is substantially reduced, which should result in the extruder requiring slightly less reverse, but more importantly run quieter. The design of the drive gear is somewhat experimental. As with other gears, this uses a grub screw to secure the gear to the motor shaft. However, on this design the hole goes through the root of one of the teeth. This takes up less space, and also lets you adjust the position of the gear without taking the motor off. However, it is quite intricate. Many people have managed it, but your printer needs to be running well to do it.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "rhys-jones" ;
+    okh:repo <https://www.thingiverse.com/thing:5111> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/LGPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:5111> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Herringbone Geared Extruder 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/a4/58/0c/35/0f/My_Photo_2-1_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/a4/58/0c/35/0f/My_Photo_2-1_display_large_display_large.jpg> .
+

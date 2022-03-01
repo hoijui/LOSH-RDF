@@ -1,0 +1,30 @@
+@prefix : <https://www.thingiverse.com/thing%3A8670/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ScalewhileextrudingOpenscadDoodle a okh:Module ;
+    rdfs:label "Scale-While-Extruding OpenSCAD Doodle" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """I was playing with extruding a changing shape, and this happened.\r
+\r
+It's basically just two stacks of thin, skewed squares. It's surprising how much smoother the surface is if you twist the individual squares as you rotate them.\r
+\r
+The layers are half a millimeter thick. The 40mm version is 40mm tall, and the 80mm version is, duh, 80mm tall.\r
+\r
+UPDATE: Ran the 80mm version thru netfabb, which made it more than two thirds smaller.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "syvwlch" ;
+    okh:repo <https://www.thingiverse.com/thing:8670> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:8670> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Scale-While-Extruding OpenSCAD Doodle 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/f0/89/6b/76/00/ScaleExtrudeHorns-02_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/f0/89/6b/76/00/ScaleExtrudeHorns-02_display_large_display_large.jpg> .
+

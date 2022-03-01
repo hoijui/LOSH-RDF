@@ -1,0 +1,43 @@
+@prefix : <https://wikifactory.com/%2Bfablabbratislava/magicbox/f9da96db0f1f78fa7cc25a5b31de2c32c780834e/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of MagicBox f9da96db0f1f78fa7cc25a5b31de2c32c780834e" ;
+    okh:fileFormat "PNG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/155467/obrázok1-edd6c.png> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NzYxNjU=> .
+
+:Magicbox a okh:Module,
+        okh:Part ;
+    rdfs:label "MAGICbox",
+        "MagicBox" ;
+    okh:dataSource "wikifactory.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function "MagicBox as lockable box that can be unlocked by mobile application." ;
+    okh:hasComponent :Magicbox ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "Veronika Rajňáková" ;
+    okh:organisation "Fablab Bratislava at Slovak Centre of Scientific and Technical Information (SCSTI)" ;
+    okh:release <https://wikifactory.com/+fablabbratislava/magicbox/v/f9da96d> ;
+    okh:repo <https://wikifactory.com/+fablabbratislava/magicbox> ;
+    okh:repoHost "wikifactory.com" ;
+    okh:source :Magicbox_source ;
+    okh:spdxLicense <https://spdx.org/licenses/MIT> ;
+    okh:uploadMethod "auto" ;
+    okh:version "f9da96db0f1f78fa7cc25a5b31de2c32c780834e" ;
+    okh:versionOf <https://wikifactory.com/+fablabbratislava/magicbox> .
+
+:Magicbox_source a okh:SourceFile ;
+    rdfs:label "Source File of MAGICbox of MagicBox f9da96db0f1f78fa7cc25a5b31de2c32c780834e" ;
+    okh:fileFormat "SCAD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/155467/magicbox.scad> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NzYwOTk=> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of MagicBox f9da96db0f1f78fa7cc25a5b31de2c32c780834e" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/155467/readme-0e357.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NzYxNjI=> .
+

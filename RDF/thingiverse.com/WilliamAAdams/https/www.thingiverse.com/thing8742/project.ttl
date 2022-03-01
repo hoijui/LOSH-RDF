@@ -1,0 +1,34 @@
+@prefix : <https://www.thingiverse.com/thing%3A8742/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:BezierMeshSurfaceV08 a okh:Module ;
+    rdfs:label "Bezier Mesh Surface V0.8" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """You know in those Japanese anime movies where the character gets question marks above their head, and their cheeks go red when they're embarrassed?  I had a smack your head moment as I realized that OpenScad has a polyhedron object!\r
+\r
+This thing is a very slight modification to the test_bezier.scad file.  It includes a DisplayBezSurface(mesh) routine which will actually draw the surface using polyhedron to place the triangle patches.\r
+\r
+That makes the final stage a whole lot easier.  Now, instead of trying to use the polygon, and project it into position, I can simply use the polyhedron, and construct an appropriately shaped polyhedron to get the patches at the desired thickness!\r
+\r
+So, once I do that, I'll go to version 0.9, and 1.0 will be when it's all nicely packaged up into a couple of clean library files.\r
+\r
+One more step, one more pretty picture.\r
+\r
+With this technique, now any parametric surface is possible, including b-spline and the like.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "WilliamAAdams" ;
+    okh:repo <https://www.thingiverse.com/thing:8742> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:8742> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Bezier Mesh Surface V0.8 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/25/ba/3d/af/bb/BezSurface2_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/25/ba/3d/af/bb/BezSurface2_display_large_display_large.jpg> .
+

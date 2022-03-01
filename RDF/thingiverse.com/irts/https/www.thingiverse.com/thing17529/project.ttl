@@ -1,0 +1,36 @@
+@prefix : <https://www.thingiverse.com/thing%3A17529/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Thingomaticmk7HeatsinkUpgrade a okh:Module ;
+    rdfs:label "Thing-O-Matic/Mk7 Heatsink Upgrade" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """tl;dr - I upgraded the heatsink on my Mk7...\r
+\r
+I was having problems printing with the Safety Orange ABS using my T-o-M/Mk7.\r
+\r
+By the time I got the toolhead up to the temperature I needed to extrude reliably on the hot end (225C) the cold end was getting too hot and the feed wheel was chewing into the filament stopping the extrusion half way through a print. \r
+\r
+I tried upgrading the fan, and the z-axis but without effect. Plain ABS and Red/Blue both worked but I can extrude them at much lower temperatures. \r
+\r
+Luckily I had some left over 2mm copper plate that I used to make the HBP.\r
+\r
+So far, so good.\r
+\r
+Made a sketch in OpenScad because things have to have a file that isn't an image... Perhaps it will be useful if someone makes this on a cnc.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "irts" ;
+    okh:repo <https://www.thingiverse.com/thing:17529> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:17529> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Thing-O-Matic/Mk7 Heatsink Upgrade 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/87/1e/67/e2/5c/heatsink_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/87/1e/67/e2/5c/heatsink_display_large_display_large.jpg> .
+

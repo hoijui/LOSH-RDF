@@ -1,0 +1,30 @@
+@prefix : <https://www.thingiverse.com/thing%3A500/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ManifoldLocktabHexagonalBox a okh:Module ;
+    rdfs:label "Manifold Lock-Tab Hexagonal Box" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Skeinforge wasn\\\\\\'t happy with the last version of the Hexagonal Box, and after some discussion on the Thingiverse Google Group (recommended reading, by the way), Zach pointed out that non-manifold vertices were a possible culprit.\r
+\r
+Well, turns out he was right! I went back to Sketchup, eliminated all the points in the model where two pieces of the model touched along a single edge, ran it thru MeshLab to check for mesh defects and export to STL, scaled the STL in Blender, and then ran SkeinForge on the STL file... getting a beautiful toolpath.\r
+\r
+Thanks to everyone on the Group for the suggestions/tips/tricks!\r
+\r
+http://groups.google.com/group/thingiverse""" ;
+    okh:hasImage :Image ;
+    okh:licensor "syvwlch" ;
+    okh:repo <https://www.thingiverse.com/thing:500> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:500> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Manifold Lock-Tab Hexagonal Box 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/ca/90/0e/a4/1e/3486109601_7c68aec35a_o_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/ca/90/0e/a4/1e/3486109601_7c68aec35a_o_display_large_display_large.jpg> .
+

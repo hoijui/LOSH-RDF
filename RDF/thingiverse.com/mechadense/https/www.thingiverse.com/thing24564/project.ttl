@@ -1,0 +1,52 @@
+@prefix : <https://www.thingiverse.com/thing%3A24564/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:PetMinishredder a okh:Module ;
+    rdfs:label "PET mini-shredder" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Version 2 is here! \r
+(see at the end of the description)\r
+\r
+This is more or less a copy of the "Mini-shredder/Mini-filetador" from Takashi Utsumi\r
+\r
+It is designed for wider blades:\r
+Width: 18mm  -  Thickness: 0.5mm\r
+The cutting edge length: 100mm \r
+(the whole paralellogram is longer)\r
+\r
+Links to the original:\r
+http://www.utsumi.com.br/pet/English/filetador/index.html\r
+http://www.utsumi.com.br/pet/English/dicas/minifiletadores_como_fazer.html\r
+http://www.utsumi.com.br/pet/English/\r
+\r
+Possible uses:\r
+1) Weaving -- Make cool woven objects like those described on Utsumis pages.\r
+2) Directly feed it into a hot end (to be designed) for printing (The melting point of bottle-PET is below 260Â°C edit: I sucessfully printed with 250Â°C)\r
+       http://blog.reprap.org/2009/03/drink-bottle-feedstock.html\r
+3) Feed it into into a re-extruder to make 3mm filament for bowden printers.\r
+\r
+After some testing with version 1 it is clear that PLA is definitely not suitable - the friction heat cuts right through the plastic after just a few 10m of ribbon. ABS might work but I think an incorporated L-Alu-Profie will be better.\r
+\r
+Edit:\r
+Version 2 is aviable !\r
+This one uses an Alu-L-Profile for feasable wear resistance.\r
+You'll either need an aluminum-L-profile of the following dimensions or change the *.scad parameters.\r
+width = 25mm; height = 15mm; (length = 135mm)\r
+To make the production of the alu part easier a drilling & sawing template part is included.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "mechadense" ;
+    okh:repo <https://www.thingiverse.com/thing:24564> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:24564> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of PET mini-shredder 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/8e/ee/dd/c9/92/P1054659-bright-this_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/8e/ee/dd/c9/92/P1054659-bright-this_display_large.jpg> .
+

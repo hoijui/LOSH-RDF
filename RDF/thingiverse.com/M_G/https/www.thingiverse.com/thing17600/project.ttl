@@ -1,0 +1,74 @@
+@prefix : <https://www.thingiverse.com/thing%3A17600/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ParametricClubHolderV2 a okh:Module ;
+    rdfs:label "Parametric Club Holder v2" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This OpenSCAD script prints a A 2-part, hinged, bolt-on holder/fixture for affixing a small packaged sensing device (in this case a custom WIMU) to a round shaft or bar allowing it to be easily attached to golf clubs, tennis racquets, pipes, cylindrical bar stock, walking sticks etc.\r
+\r
+Version:\r
+2.3.2\r
+\r
+Date:\r
+2012-03-02\r
+\r
+To Do:\r
+Nothing\r
+\r
+Note:\r
+you will need the mouse_ears_test.scad file in the same folder asthis file for the mouse ears to compile properly\r
+you will need the pivot_1_0.scad file in the same folder as this file for the hinge and bolt hole to compile properly\r
+you will need the rounded_cuboid_2_5.scad file in the same folder as this file for the object to compile properly\r
+\r
+Changes from previous versions:\r
+v2.3.4\r
+ - 	change shaft diameter to 30mm\r
+\r
+v2.3.4\r
+ - 	fix small elevation error for cap\r
+ - 	added some tolerance to make inserting insert possible!\r
+\r
+v2.3.3\r
+ - 	added nubs to help locate cap onto top\r
+ - 	added extra insert piece to allow device to be inserted from bottom\r
+v2.3.2\r
+ - 	added cap\r
+v2.3.1\r
+ - 	reduced tolerances for better fit (from 0.45 to 0.35)\r
+v2.3\r
+ - 	removed deprecated variables\r
+ - 	new variable "arm_length" determines how much extra space there is for the hinge and bolt hole\r
+- 	new variable "cutout_support_thickness" allows you to specify width of walls left in areas where support are needed such as under the arch for the shaft and the cutouts on the side of the holder\r
+v2.2\r
+ - 	Switched to newer rounded cuboid module (v2.5) which makes positioning easier!\r
+ - 	add cutouts for connections to held object\r
+v2.1\r
+ - 	added pivot_1_0.scad module for hinge\r
+ - 	Can now generate bottom half\r
+ - 	Added control variables to control whether top, bottom or both are generated and whether or not they are stacked or have mouse ears\r
+ - 	Added captive nut on top half\r
+ - 	More parametric!\r
+ - 	Rotated held object 90 degrees so I can make holes for uUSB port which would have been blocked by bolt and hinge otherwise\r
+v2.0\r
+ - 	Completely remade parametric version in openscad based on alex's strap holder\r
+v1.1\r
+ - 	changed some sizes to make it easier to use without rework\r
+v1.0\r
+ - 	Original non-parametric autocad version""" ;
+    okh:hasImage :Image ;
+    okh:licensor "M_G" ;
+    okh:repo <https://www.thingiverse.com/thing:17600> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:17600> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Parametric Club Holder v2 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://thingiverse-rerender-new.s3.amazonaws.com/renders/c1/1d/f1/01/87/2012-02-23_WIMUv3_club_holder_v2.3.3-Kieran-cap_display_large.jpg> ;
+    okh:permaURL <https://thingiverse-rerender-new.s3.amazonaws.com/renders/c1/1d/f1/01/87/2012-02-23_WIMUv3_club_holder_v2.3.3-Kieran-cap_display_large.jpg> .
+

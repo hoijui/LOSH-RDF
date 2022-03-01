@@ -1,0 +1,33 @@
+@prefix : <https://www.thingiverse.com/thing%3A15430/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Mk7ExtruderFanBlockBlower a okh:Module ;
+    rdfs:label "MK7 Extruder Fan Block blower" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """For use with Makerbots Mk7 stepstruder \r
+   though it might work with other setups.\r
+\r
+This thing is designed to "capture" the fans excess blowing to cool the extruded material. The captured air is directed to the extruder tip and the surrounding area. This will "hopefully" allow higher quality prints and/or allow higher extruding temps with reduced sagging/slumping of the extruded material.\r
+\r
+This should also reduce lifting prints as the temperature of the extruded material matches the surrounding parts quicker. This has held true in real life up to date.\r
+\r
+The air flow of the print needs to be improved as it's not optimal yet but it is working and has been used successfully in small and 3+ hour prints without problems.\r
+\r
+If some knows about internal aerodynamics and wants to pass on some tips, it would be greatly appreciated""" ;
+    okh:hasImage :Image ;
+    okh:licensor "timmytool" ;
+    okh:repo <https://www.thingiverse.com/thing:15430> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:15430> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of MK7 Extruder Fan Block blower 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/8d/bc/bb/2f/60/glamshot_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/8d/bc/bb/2f/60/glamshot_display_large_display_large.jpg> .
+

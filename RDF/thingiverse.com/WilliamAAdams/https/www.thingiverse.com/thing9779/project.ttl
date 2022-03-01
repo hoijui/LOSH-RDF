@@ -1,0 +1,36 @@
+@prefix : <https://www.thingiverse.com/thing%3A9779/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:OpenscadRevoloidsVersion08 a okh:Module ;
+    rdfs:label "OpenScad Revoloids version 0.8" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Not being able to leave well enough alone, I found that I needed to have partial surfaces of revolution.\r
+\r
+This thing adds the ability to specify starting and ending angles for the revolution (defaults to 0 to 360).\r
+\r
+That's kind of nice because for the simple cases where you are not intersecting with something at odd angles, you can simply generate the exact surface that you need, and call it a day.\r
+\r
+Included in this revision is an experiment to see if the built-in 'rotate_extrude' could do a better job of things.  Although it does play nicely with the CSG operations while viewing, it does not generate 2-manifold structures (and thus, no .stl files).  I'm thinking maybe I need to overlap surfaces or something, rather than calculating exact vertices.\r
+\r
+At any rate, I thought of adding rotation about an arbitrary line, as a final step, but really, that's easily achieved in OpenScad, so this might be the end of the line for these routines.\r
+\r
+Isn't it amazing what can be done with OpenScad!!\r
+\r
+Blog Entry: http://williamaadams.wordpress.com/2011/07/01/revolutionary-surfaces-with-openscad/""" ;
+    okh:hasImage :Image ;
+    okh:licensor "WilliamAAdams" ;
+    okh:repo <https://www.thingiverse.com/thing:9779> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:9779> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of OpenScad Revoloids version 0.8 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/57/c9/ee/fd/39/revoloid_shell_partial_bezier_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/57/c9/ee/fd/39/revoloid_shell_partial_bezier_display_large_display_large.jpg> .
+

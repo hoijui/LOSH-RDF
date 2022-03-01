@@ -1,17 +1,18 @@
-@prefix : <https://wikifactory.com/+OttoDIY/mojo-otto/8f39e59e0aa83d9333bae4f32efc677b42a690f7/> .
+@prefix : <https://wikifactory.com/%2BOttoDIY/mojo-otto/8f39e59e0aa83d9333bae4f32efc677b42a690f7/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 :MojoOtto a okh:Module ;
     rdfs:label "Mojo Otto" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "This Otto is an abbreviation of the Mojo robot. He is a simple wheeled avoidance robot, but he has a bracket to which all kinds of inventions, from simple to advanced, can be attached to. This stimulates children to discover more advanced programming, 3d design and printing, and electronics." ;
-    okh:hasComponent :Body,
-        :Bracket,
-        :Head,
-        :Mojoinstructionsen,
-        :Slider,
-        :Wheel ;
+    okh:hasComponent :Mojoinstructionsen,
+        :Stlsbody,
+        :Stlsbracket,
+        :Stlshead,
+        :Stlsslider,
+        :Stlswheel ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "Willem Luijkx" ;
@@ -20,47 +21,9 @@
     okh:repo <https://wikifactory.com/+OttoDIY/mojo-otto> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
     okh:version "8f39e59e0aa83d9333bae4f32efc677b42a690f7" ;
     okh:versionOf <https://wikifactory.com/+OttoDIY/mojo-otto> .
-
-:Body a okh:Part ;
-    rdfs:label "Body" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Willem Luijkx" ;
-    okh:source :Body_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Body_source a okh:SourceFile ;
-    rdfs:label "Source File of Body of Mojo Otto 8f39e59e0aa83d9333bae4f32efc677b42a690f7" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/57320/body.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozNzY1NTk=> .
-
-:Bracket a okh:Part ;
-    rdfs:label "Bracket" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Willem Luijkx" ;
-    okh:source :Bracket_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Bracket_source a okh:SourceFile ;
-    rdfs:label "Source File of Bracket of Mojo Otto 8f39e59e0aa83d9333bae4f32efc677b42a690f7" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/57320/bracket.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozNzY1NTg=> .
-
-:Head a okh:Part ;
-    rdfs:label "Head" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Willem Luijkx" ;
-    okh:source :Head_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Head_source a okh:SourceFile ;
-    rdfs:label "Source File of Head of Mojo Otto 8f39e59e0aa83d9333bae4f32efc677b42a690f7" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/57320/head.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozNzY1NjM=> .
 
 :Image a okh:Image ;
     rdfs:label "Image of Mojo Otto 8f39e59e0aa83d9333bae4f32efc677b42a690f7" ;
@@ -87,28 +50,67 @@
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/57320/readme-d5a66.md> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTozNzY1ODU=> .
 
-:Slider a okh:Part ;
-    rdfs:label "Slider" ;
+:Stlsbody a okh:Part ;
+    rdfs:label "STL's/Body" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Willem Luijkx" ;
-    okh:source :Slider_source ;
+    okh:source :Stlsbody_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Slider_source a okh:SourceFile ;
-    rdfs:label "Source File of Slider of Mojo Otto 8f39e59e0aa83d9333bae4f32efc677b42a690f7" ;
+:Stlsbody_source a okh:SourceFile ;
+    rdfs:label "Source File of STL's/Body of Mojo Otto 8f39e59e0aa83d9333bae4f32efc677b42a690f7" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/57320/body.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozNzY1NTk=> .
+
+:Stlsbracket a okh:Part ;
+    rdfs:label "STL's/Bracket" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Willem Luijkx" ;
+    okh:source :Stlsbracket_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Stlsbracket_source a okh:SourceFile ;
+    rdfs:label "Source File of STL's/Bracket of Mojo Otto 8f39e59e0aa83d9333bae4f32efc677b42a690f7" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/57320/bracket.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozNzY1NTg=> .
+
+:Stlshead a okh:Part ;
+    rdfs:label "STL's/Head" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Willem Luijkx" ;
+    okh:source :Stlshead_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Stlshead_source a okh:SourceFile ;
+    rdfs:label "Source File of STL's/Head of Mojo Otto 8f39e59e0aa83d9333bae4f32efc677b42a690f7" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/57320/head.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozNzY1NjM=> .
+
+:Stlsslider a okh:Part ;
+    rdfs:label "STL's/Slider" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Willem Luijkx" ;
+    okh:source :Stlsslider_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Stlsslider_source a okh:SourceFile ;
+    rdfs:label "Source File of STL's/Slider of Mojo Otto 8f39e59e0aa83d9333bae4f32efc677b42a690f7" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/57320/slider.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTozNzY1NTY=> .
 
-:Wheel a okh:Part ;
-    rdfs:label "Wheel" ;
+:Stlswheel a okh:Part ;
+    rdfs:label "STL's/Wheel" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Willem Luijkx" ;
-    okh:source :Wheel_source ;
+    okh:source :Stlswheel_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Wheel_source a okh:SourceFile ;
-    rdfs:label "Source File of Wheel of Mojo Otto 8f39e59e0aa83d9333bae4f32efc677b42a690f7" ;
+:Stlswheel_source a okh:SourceFile ;
+    rdfs:label "Source File of STL's/Wheel of Mojo Otto 8f39e59e0aa83d9333bae4f32efc677b42a690f7" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/57320/wheel.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTozNzY1Njk=> .

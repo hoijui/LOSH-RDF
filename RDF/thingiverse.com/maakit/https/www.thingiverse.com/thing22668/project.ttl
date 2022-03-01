@@ -1,0 +1,39 @@
+@prefix : <https://www.thingiverse.com/thing%3A22668/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ClassicStyleLetterScale a okh:Module ;
+    rdfs:label "Classic style letter scale" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """For those in need of a letter scale.\r
+I really like the real-world-use-things and couldn't find a letter scale on thingiverse.\r
+\r
+Thought about adding a scale, but it will be too dependant on printer settings, material and counter weights, so just use a (semi-) permanent marker for this.\r
+\r
+For the small scale I used mr alligator as a letter holder: http://www.thingiverse.com/thing:13612\r
+Had to "fix" it using Netfabb before I could import it in OpenSCAD.\r
+\r
+I've also uploaded a version2, the largest I can get it with my 180x200mm buildplate. I've made three stl's with all the parts to print.\r
+The black & yellow scale is version 2. I recommend to make the weighing platform a little thinner, so it won't need as much counterweights.\r
+\r
+Made it a work in progress again, I think it's better to shorten the arms holding the letter plate.\r
+I would like the big scale to be good for 250 grams.\r
+Make the scale more stable by moving the foot to the heavy side.\r
+\r
+For the final version 3 I added some stability by moving the legs to the heavy side of the scale and making them bigger. I added another arm to hold counterweights so these are balanced. Smaller connecting arms so it can take more weight, but also makes it much more stable.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "maakit" ;
+    okh:repo <https://www.thingiverse.com/thing:22668> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:22668> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Classic style letter scale 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/8b/a4/7d/8a/db/P1060195_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/8b/a4/7d/8a/db/P1060195_display_large_display_large.jpg> .
+

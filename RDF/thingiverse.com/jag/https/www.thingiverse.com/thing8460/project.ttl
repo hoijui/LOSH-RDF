@@ -1,0 +1,45 @@
+@prefix : <https://www.thingiverse.com/thing%3A8460/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Nema17Stepper51PlanetaryReducer a okh:Module ;
+    rdfs:label "Nema 17 Stepper 5:1 Planetary Reducer" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is still a bit of a work in progress but I think it's mostly workable now.\r
+\r
+Warning!  There be overhangs here!\r
+\r
+I have yet to see what sort of torque this can handle but it seems like it will handle quite a bit.  I'm able to stop it if I grab two of the screws sticking out of the planet carrier.  Hopefully I'll measure the torque soon.\r
+\r
+This is intended to be used with another bearing somewhere on the output shaft.  I can't imagine that it would handle any load with only one bearing on there.  A different cover could easily be made with a spot for another bearing.\r
+\r
+\r
+The current design adds 38.5mm in length to your stepper, it could be less but the makerbot supplied stepper that I have has long shaft so I had to make it longer to stop it from interfering with the bolt for the output.\r
+It could probably be 5mm or so shorter pretty easily with a shorter stepper shaft.\r
+\r
+Change Log\r
+\r
+5/11/2011     Initial Upload\r
+5/12/2011     Switched to 2x 683ZZ bearings for planets, shortened planets a bit, increased backlash and clearance, added list of some possible ratios\r
+5/13/2011     Added addendum/dedendum adjustment to gear library for internal gear.\r
+                         Removed most of the constants at the top and switched to arguments with defaults\r
+                         Added multi-stage capability, now you can stack multiple stages in one case\r
+5/20/2011    Added a way to get a screw in to bolt to the stepper and nuts in so that you can bolt it to something (I didn't think it would be too easy to find screws to go through the whole thing into the stepper)\r
+                        Added a relief on the underside of the cover to clear the screws in the carrier.\r
+5/25/2011   Uploaded separate STLs and modified involute_gears library""" ;
+    okh:hasImage :Image ;
+    okh:licensor "jag" ;
+    okh:repo <https://www.thingiverse.com/thing:8460> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:8460> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Nema 17 Stepper 5:1 Planetary Reducer 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/f5/f5/8e/23/62/5744535143_3a8aafa7ca_o_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/f5/f5/8e/23/62/5744535143_3a8aafa7ca_o_display_large_display_large.jpg> .
+

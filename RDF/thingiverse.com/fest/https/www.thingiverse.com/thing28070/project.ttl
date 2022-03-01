@@ -1,0 +1,31 @@
+@prefix : <https://www.thingiverse.com/thing%3A28070/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:RaspberryPiCase a okh:Module ;
+    rdfs:label "Raspberry Pi case" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Case for Raspberry Pi.\r
+Derived from http://www.thingiverse.com/thing:24945 but with dimensions that fit my Raspbery Pi more accurately.\r
+Wanted to clarify- there were several things I modified:\r
+1) Merged lincomatic's version with latest from Hans.\r
+2) Made the micro USB power connector hole about millimeter taller- otherwise it didn't quite fit.\r
+3) Shaved 0.5mm off from wall which is next to GPIO hole- otherwise it did not fit next to GPIO pins (the pins themselves did fit, but pins have a wider base).\r
+4) also, moved SD card hole a bit. Card reader was in a way of case otherwise.\r
+5) Made the case mating walls longer- otherwise they break too easy.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "fest" ;
+    okh:repo <https://www.thingiverse.com/thing:28070> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:28070> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Raspberry Pi case 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/e5/9c/89/7b/b7/IMG_3316_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/e5/9c/89/7b/b7/IMG_3316_display_large.jpg> .
+

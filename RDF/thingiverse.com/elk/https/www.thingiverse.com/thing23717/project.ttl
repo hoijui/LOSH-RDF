@@ -1,0 +1,35 @@
+@prefix : <https://www.thingiverse.com/thing%3A23717/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:TheLittleBoltHobbit a okh:Module ;
+    rdfs:label "The little bolt hobbit" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """If you use different extruders, is a hassle to recalibrate your reprap each time you change the extruder. Therefore I decided to make my hobbet bolts much more precisely and reproducible.   
+
+To gain better hobbet bolts, you need the little bolt hobbit and a proxxon micromot 50 (with some adjustment you might also be able to use any other kind of dremel-like tool).   
+
+With the bolt hobbit, you can make a hobbet bolt with 32 teeth that are perfectly parallel, sharp and have the same dimensions. Furthermore it is easy to reproduce some identical bolts (that feed the exact same amount of filament per revolution to the hot end) so it is no longer necessary to recalibrate your firmware each time you change the extruder.  
+
+This thing is slightly inspired by the KNRLR found here: http://www.thingiverse.com/thing:21782 but made much more rigid and handyer to rotate the bolt (can probably be used for mass-production of hobbed bolts :) )  
+
+edit 1: Added IGES design file  
+edit 2: I just made the first >6hour print with the new bolt (it was a print with a large number of retractions - the worst situation for the filament feeding system) and it worked absolutely flawless! Printing speed was up to 70mm/s in this print (40mm/s average).  
+edit 3: people who print another machine-holder (as found in derivates for example) can now download the standalone lever-only stl file in order to not have to print the proxxon-holder too.  
+edit 4: I just added a 30tooth gear for those of you who prefer less teeth on the hobbed bolt...""" ;
+    okh:hasImage :Image ;
+    okh:licensor "elk" ;
+    okh:repo <https://www.thingiverse.com/thing:23717> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:23717> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of The little bolt hobbit 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/72/d0/21/6a/1b/_DSC2041_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/72/d0/21/6a/1b/_DSC2041_display_large_display_large.jpg> .
+

@@ -1,0 +1,40 @@
+@prefix : <https://www.thingiverse.com/thing%3A17137/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:HollowPolyhedraCatalanSolids a okh:Module ;
+    rdfs:label "Hollow polyhedra: Catalan Solids" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """In two recent posts, thing:16508 and thing:16968, I provided polyhedron openSCAD commands based on the  polyhedra libary at netlib.\r
+\r
+    http://netlib.sandia.gov/polyhedra/\r
+\r
+The Catalan bodies were the only convex polyhedra that remained undone in the library and I have now converted them to openSCAD polyhedron commands.\r
+\r
+There was one Catalan polyhedron missing from the library, the triakis tetrahedron. To make an openSCAD polyhedron command one needs a set of vertex coordinates and information about how to connect the vertices to make triangles.  By typing "triakis tetrahedron coordinates" in Wolfram/Alpha -\r
+\r
+                      http://www.wolframalpha.com/\r
+\r
+I obtained a set of vertex coordinates. A table of distances showed where the triangles should be placed.\r
+\r
+ All of the Catalan stl files are included in hollow_catalan_stl.zip and the scad files that produced them are in hollow_catalan_scad.zip.  A module containing the polyhedon command that produces the polyhedra is at the end of each scad file and can be extracted and used in other openSCAD programs.  I have printed all of the stl files, some multiple times.\r
+\r
+Stl files of Catalan solids that print particularly well are included below. Two with 12 faces are the triakis tetrahedron and the rhombic dodecahedron.  One with 24 faces that prints well is the  trapezoidal icositetrahedron.  An interesting one with 24 faces is the pentagonal icositetrahedron.  It occurs as enantiomorphs; that is mirror images which do not superimpose.  The picture at the left shows the two forms and the stl files used to print them are included below.\r
+\r
+The Catalan solids are named for a Belgium mathematician, EugÃ¨ne Catalan, who first wrote about them in the mid 19th century.  They are derived from the Archimedian solids.  Much information about them is available on the internet; "Catalan solids" entered in Google usually results in more than one million hits.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "pmoews" ;
+    okh:repo <https://www.thingiverse.com/thing:17137> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:17137> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Hollow polyhedra: Catalan Solids 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/af/53/63/ea/da/catalan_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/af/53/63/ea/da/catalan_display_large_display_large.jpg> .
+

@@ -1,0 +1,34 @@
+@prefix : <https://www.thingiverse.com/thing%3A10667/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:PrintableHexapod a okh:Module ;
+    rdfs:label "Printable Hexapod" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is a printable Hexapod. It is still not very stable and still learning to walk, but it is a good start. It needs some changes in the leg design as sometimes they bend under the weight.\r
+The initial design is based on : \r
+http://robozone.su/forum/textversion.html?t58\r
+\r
+The changes I have done are the additions described below and also decrease the size of the Body plates to fit a standard Mendel.\r
+\r
+And I am currently using this software to control it: \r
+\r
+http://www.hexapodrobot.com/forum/viewtopic.php?f=25&t=160\r
+\r
+Be aware that the hexapod is still not very stable (legs bending) and that is why it is work in progress.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "manchi" ;
+    okh:repo <https://www.thingiverse.com/thing:10667> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/LGPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:10667> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Printable Hexapod 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/b5/de/47/a8/36/IMG_1768_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/b5/de/47/a8/36/IMG_1768_display_large_display_large.jpg> .
+

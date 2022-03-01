@@ -1,0 +1,46 @@
+@prefix : <https://www.thingiverse.com/thing%3A13861/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:MobiusHeart a okh:Module ;
+    rdfs:label "Mobius Heart" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """An EXTREMELY poorly written attempt at making a heart shape out of a mobius strip. Using the following equation x=16sin^3(theta), y=13cos(theta)-5cos(2*theta)-2cos(3*theta)-cos(4*theta) taken from http://mathworld.wolfram.com/HeartCurve.html\r
+\r
+There are 3 cross sectional shapes to choose from: rectangle, ellipse and pill\r
+\r
+Oh, also there is code in here for a standard round mobius shape I used as a sanity check if you want to comment it back in... just added a variable (heart) to let you use a ring or heart shape set it to 1 or 0 respectively\r
+\r
+Rendering this in openscad will take a disgraceful amount of time at present. My old crappy work computer's fan has been screaming for 15 minutes working on this.\r
+\r
+Key Variables:\r
+\r
+angular_resolution=1;//how many degrees per cross sectional shape, smaller implies higher quality, if you see gaps between the segments of your model  decrease this or increase extrude_height\r
+\r
+//shapes, set a single of these items to 1 the rest 0 i.e. for ellipse shape...\r
+cs_pill_shape=0;\r
+cs_ellipse_shape=1;\r
+cs_rectangle_shape=0;\r
+\r
+//\r
+shape_dimension_a=3;//how long your cross sectional shape is\r
+shape_dimension_b=1;//how wide your cross sectional shape is\r
+\r
+//if you see gaps between the segments of your model increase this or decrease angular resolution\r
+extrude_height=0.1;""" ;
+    okh:hasImage :Image ;
+    okh:licensor "M_G" ;
+    okh:repo <https://www.thingiverse.com/thing:13861> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:13861> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Mobius Heart 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/8a/26/b2/2e/b2/mobius_heart_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/8a/26/b2/2e/b2/mobius_heart_display_large_display_large.jpg> .
+

@@ -1,0 +1,30 @@
+@prefix : <https://www.thingiverse.com/thing%3A9832/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Ed209EnforcementDroidFromRobocop a okh:Module ;
+    rdfs:label "ED-209 ENFORCEMENT DROID from Robocop" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """The ED-209 Enforcement Droid.  \r
+Precursor to the Robocop series, these bots were a failed line of police droids released by the Omni Consumer Products corp.\r
+\r
+Adapted from a model found on Google's 3D Warehouse\r
+http://sketchup.google.com/3dwarehouse/details?mid=407f587a61961dee3f217b945a063dd2&prevstart=0\r
+Process: export the STL from Sketchup (it only gives me DAE as a valid filetype, but that works) then convert the DAE to STL in Meshlab, and then fix the file in Netfabb.  \r
+This works for direct conversions; if you want to edit the file in 3DSMAX or Maya, output to Obj in Meshlab and you should be able to open the Obj anywhere.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "7777773" ;
+    okh:repo <https://www.thingiverse.com/thing:9832> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:9832> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of ED-209 ENFORCEMENT DROID from Robocop 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/46/d7/52/b8/77/ED-209_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/46/d7/52/b8/77/ED-209_display_large_display_large.jpg> .
+

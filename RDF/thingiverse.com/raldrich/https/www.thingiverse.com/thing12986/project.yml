@@ -1,0 +1,48 @@
+__meta:
+  branch: null
+  created-at: '2011-10-27T20:39:49+00:00'
+  history: null
+  last-changed: null
+  last-visited: '2022-02-25T11:00:02.616920+00:00'
+  owner: raldrich
+  path: null
+  repo: https://www.thingiverse.com/thing:12986
+  score: null
+  source: thingiverse.com
+attestation: null
+bom: null
+contribution-guide: null
+cpc-patent-class: null
+documentation-language: en
+documentation-readiness-level: odrl3
+function: "This is not the extruder you're looking for. If you're looking for the extruder referenced in Josef Prusa's i3 design, see http://www.thingiverse.com/thing:24219 \r\n\r\nAfter installing http://www.thingiverse.com/thing:12538 , with the extruder tangential to the x-axis, I found that I had caused quite a problem with the Z axis - the drive motor would collide with the printer's frame when Z > 30, and X < 10.\r\n\r\nSo, it was back to the drawing board - same goals as last time:\r\n\r\n1) It had to support LM8UU linear bearings.\r\n\r\n2) It had to allow the extruder to be mounted tangentially to the x-axis, so that I could recover the print area that was currently being taken up by the extruder stepper.\r\n\r\n3) It had to allow easy adjustment of the belt tension.\r\n\r\n4) It had to have a place to mount an optical end-stop flag.\r\n\r\n5) It had to provide good clearance for the hot-end.\r\n\r\n6) It had to be as narrow as possible, so that it wouldn't reduce my print area.\r\n\r\nWith three additional goals.\r\n\r\n7) The hot-end should be easy to remove, without removing other parts from the printer.\r\n\r\n8) The height of the entire assembly (from top of drive gear to nozzle) should be as short as possible.\r\n\r\nI ended up sacrificing a bit on point 5, because this is a combined carriage/extruder design, and because the hot-end is mounted higher inside the extruder body than in other designs.\r\n\r\nI think I succeeded quite well on points 6 and 8 - it's 89mm long, and 95mm high when assembled.\r\n\r\nIf you have trouble getting keeping the carriage stuck to the printbed, you can enable the \"Anchors\" in the .scad.  The anchors end up attached at the ends of the carriage, and help keep it all stuck down.\r\n\r\nNote: This is a bit of a tricky print, because it uses a lot of bridges to avoid having to use supports.  Make sure you have highly calibrated bridge settings, or you'll get a lot of droopy mess\r\n\r\nThanks to Wade Bortz, Josef Prusa, and Greg Frost, who's designs inspired this."
+image:
+  created-at: '2011-10-27T20:39:49+00:00'
+  last-changed: '2011-10-27T20:39:49+00:00'
+  last-visited: '2022-02-25T20:44:34.519710+00:00'
+  license: GPL-3.0-or-later
+  licensor: raldrich
+  mime-type: null
+  name: x-struder_display_large_display_large
+  path: https:/cdn.thingiverse.com/renders/26/78/85/4a/6c/x-struder_display_large_display_large.jpg
+  perma-url: https://cdn.thingiverse.com/renders/26/78/85/4a/6c/x-struder_display_large_display_large.jpg
+  url: https://cdn.thingiverse.com/renders/26/78/85/4a/6c/x-struder_display_large_display_large.jpg
+license: GPL-3.0-or-later
+licensor: raldrich
+manufacturing-instructions: null
+name: Compact Wade's extruder and X Carriage.
+okhv: OKH-LOSHv1.0
+organization: null
+part: []
+publication: null
+readme: null
+release: null
+repo: https://www.thingiverse.com/thing:12986
+software: []
+specific-api-data: {}
+standard-compliance: null
+technology-readiness-level: ortl4
+tsdc: null
+upload-method: auto
+user-manual: null
+version: 1.0.0

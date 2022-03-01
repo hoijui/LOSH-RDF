@@ -1,0 +1,46 @@
+@prefix : <https://www.thingiverse.com/thing%3A8178/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:TwoBladePropeller a okh:Module ;
+    rdfs:label "Two Blade Propeller" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Fitting weather vane:\r
+http://www.thingiverse.com/thing:42049\r
+\r
+----\r
+\r
+This thing is fully parameterizable and meant to be customized before printing.\r
+It is optimized for support-less printing (blades are oriented vertically)\r
+and designed out of two parts so that even on small build-space printers pretty big propellers can be made. The appended *.stl file is only an example. Customize the model to get the biggest propeller you can print (almost twice the diagonal of your build-platform length).\r
+\r
+One could print a lot of them as toy propellers in different colors all with different random parameters in reasonable margins and mount them on a kind of "wind sculpture".\r
+\r
+### Ideas for improvement:\r
+Right now its just a toy but one could:\r
+* add grooves for ball bearings\r
+* twist the blades\r
+* generalize to 3 or more blades (4 non-coplanar should be easy)\r
+* alter the blade shapes to something less classic but more fancy e.g. modify the blade to a more aerodynamic shape (NACA4)\r
+* make the blade-angle adjustable\r
+* make a coupling for a dynamo\r
+\r
+### Going crazy:\r
+* add  button-cell powered laser-pointers to get a free laser-show at squally new moon nights\r
+* mount (suitable!) whistles to the tips (so your child wont be overheard when cycling), but don't forget the (slide-able?) muting plugs then.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "mechadense" ;
+    okh:repo <https://www.thingiverse.com/thing:8178> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:8178> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Two Blade Propeller 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/e5/b2/4b/38/c0/P1134716-this_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/e5/b2/4b/38/c0/P1134716-this_display_large.jpg> .
+

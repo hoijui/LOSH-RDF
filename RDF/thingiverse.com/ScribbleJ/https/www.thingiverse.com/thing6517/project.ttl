@@ -1,0 +1,30 @@
+@prefix : <https://www.thingiverse.com/thing%3A6517/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:OpenscadMk5BaseplateDualMount a okh:Module ;
+    rdfs:label "OpenSCAD MK5 Baseplate & Dual Mount" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """I needed this hole pattern for a dual-extruder mount:  http://www.thingiverse.com/thing:6632 \r
+\r
+I couldn't just extrude the original .DXF in OpenSCAD, so I sat down and took precise measurements and created my own replica instead.\r
+\r
+Completely parametric, if you need to adjust any of the dimensions yourself, but this does include a perfect set of dimensions and boltholes, which I'll be applying to the MK5 Wade's-style tensioner shortly.\r
+\r
+Marked WIP because it's the official home of the Dual-Extruder mount .SCAD.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "ScribbleJ" ;
+    okh:repo <https://www.thingiverse.com/thing:6517> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/BSD-4-Clause> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:6517> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of OpenSCAD MK5 Baseplate & Dual Mount 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://thingiverse-rerender-new.s3.amazonaws.com/renders/b2/05/90/bd/9b/MK5-baseplate_display_large.jpg> ;
+    okh:permaURL <https://thingiverse-rerender-new.s3.amazonaws.com/renders/b2/05/90/bd/9b/MK5-baseplate_display_large.jpg> .
+

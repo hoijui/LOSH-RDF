@@ -1,0 +1,28 @@
+@prefix : <https://www.thingiverse.com/thing%3A28256/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:GaTechLogoSign a okh:Module ;
+    rdfs:label "GA Tech Logo sign" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is the Georgia Institute of Technology (GA Tech) logo that I printed for my favorite EE Professor Dr. John B. Peatman.\r
+\r
+It was created starting with the GaTechYellowJacket.gif file that I downloaded from the Internet (because it was a nice 3 color logo).  From this image I used GIMP http://www.gimp.org to create two black and white images (GaTechYellowJacket-Yellow.jpg and GaTechYellowJacket-Black.jpg) and then I uploaded these to the Shapeways and used their 2D to 3D tool http://www.shapeways.com/creator/2d_to_3d/ to create two STL files (GaTechYellowJacket-Yellow.stl and GaTechYellowJacket-Black.stl).  These I then combined using the OpenSCAD http://www.openscad.org script (GaTechYellowJacket.scad) with a square (or round) backplate, then the yellow layer and finally the black layer on top.\r
+\r
+This is then the different STL files: GaTechYellowJacket-Square-18x18.stl, GaTechYellowJacket-Round-18.stl, GaTechYellowJacket-Square.stl and GaTechYellowJacket-Round.stl. The one I printed for John as a present was the first one (GaTechYellowJacket-Square-18x18.stl).""" ;
+    okh:hasImage :Image ;
+    okh:licensor "rhmorrison" ;
+    okh:repo <https://www.thingiverse.com/thing:28256> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:28256> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of GA Tech Logo sign 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/af/a7/14/3e/d6/GaTechLogo_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/af/a7/14/3e/d6/GaTechLogo_display_large.jpg> .
+

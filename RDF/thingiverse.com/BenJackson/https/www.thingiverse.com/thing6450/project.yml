@@ -1,0 +1,48 @@
+__meta:
+  branch: null
+  created-at: '2011-02-15T23:53:36+00:00'
+  history: null
+  last-changed: null
+  last-visited: '2022-02-25T11:00:02.616920+00:00'
+  owner: BenJackson
+  path: null
+  repo: https://www.thingiverse.com/thing:6450
+  score: null
+  source: thingiverse.com
+attestation: null
+bom: null
+contribution-guide: null
+cpc-patent-class: null
+documentation-language: en
+documentation-readiness-level: odrl3
+function: "This is a semi-automated implementation of http://blog.makerbot.com/2010/12/22/calculating-your-feedrate-to-get-awesome-prints/ .  It homes the machine, centers the nozzle about 100mm over the build platform, warms up the nozzle and extrudes plastic for a while.\r\n\r\nThere are integrated prompts to explain the process.  Due to a bug (or missing feature) in ReplicatorG documented at http://replicatorg.lighthouseapp.com/projects/66325/tickets/11-gcode-m6-pauses-firmware-but-not-replicatorg , the M1 prompts which should help the user along all come out together.  Meanwhile the makerbot keeps running, paused at the M6 T0 (tool warmup).  Since the M1 pause for the user to time the plastic strings does not work, there is a fixed pause (based on my own experience).\r\n\r\nThis script could be further enhanced to extrude (say for 8 seconds), then stop, wipe (on the integrated ABP wiper) reposition and repeat.  However, it's probably best to be measuring steady-state extrusion, so that may be overkill."
+image:
+  created-at: '2011-02-15T23:53:36+00:00'
+  last-changed: '2011-02-15T23:53:36+00:00'
+  last-visited: '2022-02-25T15:06:34.330758+00:00'
+  license: CC-BY-SA-4.0
+  licensor: BenJackson
+  mime-type: null
+  name: ReplicatorG-1_display_large_display_large
+  path: https:/cdn.thingiverse.com/renders/7e/c3/bb/2b/4e/ReplicatorG-1_display_large_display_large.jpg
+  perma-url: https://cdn.thingiverse.com/renders/7e/c3/bb/2b/4e/ReplicatorG-1_display_large_display_large.jpg
+  url: https://cdn.thingiverse.com/renders/7e/c3/bb/2b/4e/ReplicatorG-1_display_large_display_large.jpg
+license: CC-BY-SA-4.0
+licensor: BenJackson
+manufacturing-instructions: null
+name: Plastruder Calibration
+okhv: OKH-LOSHv1.0
+organization: null
+part: []
+publication: null
+readme: null
+release: null
+repo: https://www.thingiverse.com/thing:6450
+software: []
+specific-api-data: {}
+standard-compliance: null
+technology-readiness-level: ortl4
+tsdc: null
+upload-method: auto
+user-manual: null
+version: 1.0.0

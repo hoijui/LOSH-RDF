@@ -1,14 +1,15 @@
-@prefix : <https://wikifactory.com/@botler/project-skinetic/b947d0d3fcf5301467d9161319e228f65c762d20/> .
+@prefix : <https://wikifactory.com/%40botler/project-skinetic/b947d0d3fcf5301467d9161319e228f65c762d20/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 :ProjectSkinetic a okh:Module ;
     rdfs:label "Project Skinetic" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "Skinetic is a wearable navigation tool for the visually impaired. Enabling free motion and interaction one pulse at a time!" ;
-    okh:hasComponent :3dprintcase,
-        :Dccasecap,
-        :Siliconeholdercuts ;
+    okh:hasComponent :CaseDesign3dprintcase,
+        :CaseDesigndccasecap,
+        :CaseDesignsiliconeholdercuts ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "James Botler" ;
@@ -16,34 +17,48 @@
     okh:repo <https://wikifactory.com/@botler/project-skinetic> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
     okh:version "b947d0d3fcf5301467d9161319e228f65c762d20" ;
     okh:versionOf <https://wikifactory.com/@botler/project-skinetic> .
 
-:3dprintcase a okh:Part ;
-    rdfs:label "3dprint-case" ;
+:CaseDesign3dprintcase a okh:Part ;
+    rdfs:label "Case Design/3dprint-case" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :3dprintcase_source ;
+    okh:source :CaseDesign3dprintcase_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dprintcase_source a okh:SourceFile ;
-    rdfs:label "Source File of 3dprint-case of Project Skinetic b947d0d3fcf5301467d9161319e228f65c762d20" ;
+:CaseDesign3dprintcase_source a okh:SourceFile ;
+    rdfs:label "Source File of Case Design/3dprint-case of Project Skinetic b947d0d3fcf5301467d9161319e228f65c762d20" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/773/3dprint-case.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDc1> .
 
-:Dccasecap a okh:Part ;
-    rdfs:label "dc-casecap" ;
+:CaseDesigndccasecap a okh:Part ;
+    rdfs:label "Case Design/dc-casecap" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Dccasecap_source ;
+    okh:source :CaseDesigndccasecap_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Dccasecap_source a okh:SourceFile ;
-    rdfs:label "Source File of dc-casecap of Project Skinetic b947d0d3fcf5301467d9161319e228f65c762d20" ;
+:CaseDesigndccasecap_source a okh:SourceFile ;
+    rdfs:label "Source File of Case Design/dc-casecap of Project Skinetic b947d0d3fcf5301467d9161319e228f65c762d20" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/773/dc-casecap.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDc0> .
+
+:CaseDesignsiliconeholdercuts a okh:Part ;
+    rdfs:label "Case Design/silicone-holder-cuts" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :CaseDesignsiliconeholdercuts_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:CaseDesignsiliconeholdercuts_source a okh:SourceFile ;
+    rdfs:label "Source File of Case Design/silicone-holder-cuts of Project Skinetic b947d0d3fcf5301467d9161319e228f65c762d20" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/773/silicone-holder-cuts.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDc3> .
 
 :Image a okh:Image ;
     rdfs:label "Image of Project Skinetic b947d0d3fcf5301467d9161319e228f65c762d20" ;
@@ -56,17 +71,4 @@
     okh:fileFormat "MD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/773/readme-10.md> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTky> .
-
-:Siliconeholdercuts a okh:Part ;
-    rdfs:label "silicone-holder-cuts" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "James Botler" ;
-    okh:source :Siliconeholdercuts_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Siliconeholdercuts_source a okh:SourceFile ;
-    rdfs:label "Source File of silicone-holder-cuts of Project Skinetic b947d0d3fcf5301467d9161319e228f65c762d20" ;
-    okh:fileFormat "PDF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/773/silicone-holder-cuts.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDc3> .
 

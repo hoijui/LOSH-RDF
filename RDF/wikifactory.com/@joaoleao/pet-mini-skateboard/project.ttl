@@ -1,18 +1,19 @@
-@prefix : <https://wikifactory.com/@joaoleao/pet-mini-skateboard/2efce0966b21af87c5cfb7a51e51dc015faf23bb/> .
+@prefix : <https://wikifactory.com/%40joaoleao/pet-mini-skateboard/2efce0966b21af87c5cfb7a51e51dc015faf23bb/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 :PetMiniSkateboard a okh:Module ;
     rdfs:label "PET MINI Skateboard" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "PET MINI Skateboard is a Open Source, Recycled Electric Skateboard for urban transportation. With the goal to end stressful commutes and boost your door-to-door speed with the perfect last mile recycled vehicle.Developed In collaboration with VIVA Lab and Precious Plastic." ;
-    okh:hasComponent :Armadilhocase,
-        :Cncskate12mmdeck6mmramp10mm,
-        :Leftbracket,
-        :Leftholder,
-        :Orangatang36t,
-        :Orangatangspacer2,
-        :Petminiskate12mmdeck3mmramp ;
+    okh:hasComponent :3dPrintingFilesarmadilhocase,
+        :3dPrintingFilesleftbracket,
+        :3dPrintingFilesleftholder,
+        :3dPrintingFilesorangatang36t,
+        :3dPrintingFilesorangatangspacer2,
+        :CncMillingcncskate12mmdeck6mmramp10mm,
+        :CncMillingpetminiskate12mmdeck3mmramp ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "João Leão" ;
@@ -20,105 +21,106 @@
     okh:repo <https://wikifactory.com/@joaoleao/pet-mini-skateboard> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
     okh:version "2efce0966b21af87c5cfb7a51e51dc015faf23bb" ;
     okh:versionOf <https://wikifactory.com/@joaoleao/pet-mini-skateboard> .
 
-:Armadilhocase a okh:Part ;
-    rdfs:label "Armadilho_Case" ;
+:3dPrintingFilesarmadilhocase a okh:Part ;
+    rdfs:label "3D printing Files/Armadilho_Case" ;
     okh:documentationLanguage "en" ;
     okh:licensor "João Leão" ;
-    okh:source :Armadilhocase_source ;
+    okh:source :3dPrintingFilesarmadilhocase_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Armadilhocase_source a okh:SourceFile ;
-    rdfs:label "Source File of Armadilho_Case of PET MINI Skateboard 2efce0966b21af87c5cfb7a51e51dc015faf23bb" ;
+:3dPrintingFilesarmadilhocase_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D printing Files/Armadilho_Case of PET MINI Skateboard 2efce0966b21af87c5cfb7a51e51dc015faf23bb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/26088/armadilho_case.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTozMTQyNjg=> .
 
-:Cncskate12mmdeck6mmramp10mm a okh:Part ;
-    rdfs:label "CNC_Skate_12mm_Deck_6mm_Ramp_10mm_" ;
+:3dPrintingFilesleftbracket a okh:Part ;
+    rdfs:label "3D printing Files/Left_Bracket" ;
     okh:documentationLanguage "en" ;
     okh:licensor "João Leão" ;
-    okh:source :Cncskate12mmdeck6mmramp10mm_source ;
+    okh:source :3dPrintingFilesleftbracket_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Cncskate12mmdeck6mmramp10mm_source a okh:SourceFile ;
-    rdfs:label "Source File of CNC_Skate_12mm_Deck_6mm_Ramp_10mm_ of PET MINI Skateboard 2efce0966b21af87c5cfb7a51e51dc015faf23bb" ;
+:3dPrintingFilesleftbracket_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D printing Files/Left_Bracket of PET MINI Skateboard 2efce0966b21af87c5cfb7a51e51dc015faf23bb" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/26088/left_bracket.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozMDA3MjU=> .
+
+:3dPrintingFilesleftholder a okh:Part ;
+    rdfs:label "3D printing Files/Left_Holder" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "João Leão" ;
+    okh:source :3dPrintingFilesleftholder_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:3dPrintingFilesleftholder_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D printing Files/Left_Holder of PET MINI Skateboard 2efce0966b21af87c5cfb7a51e51dc015faf23bb" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/26088/left_holder.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozMDA3MjQ=> .
+
+:3dPrintingFilesorangatang36t a okh:Part ;
+    rdfs:label "3D printing Files/orangatang_36t" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "João Leão" ;
+    okh:source :3dPrintingFilesorangatang36t_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:3dPrintingFilesorangatang36t_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D printing Files/orangatang_36t of PET MINI Skateboard 2efce0966b21af87c5cfb7a51e51dc015faf23bb" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/26088/orangatang_36t.STL> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozMDA3MzY=> .
+
+:3dPrintingFilesorangatangspacer2 a okh:Part ;
+    rdfs:label "3D printing Files/orangatangspacer2" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "João Leão" ;
+    okh:source :3dPrintingFilesorangatangspacer2_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:3dPrintingFilesorangatangspacer2_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D printing Files/orangatangspacer2 of PET MINI Skateboard 2efce0966b21af87c5cfb7a51e51dc015faf23bb" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/26088/orangatangspacer2.STL> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozMDA3NDA=> .
+
+:CncMillingcncskate12mmdeck6mmramp10mm a okh:Part ;
+    rdfs:label "CNC Milling/CNC_Skate_12mm_Deck_6mm_Ramp_10mm_" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "João Leão" ;
+    okh:source :CncMillingcncskate12mmdeck6mmramp10mm_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:CncMillingcncskate12mmdeck6mmramp10mm_source a okh:SourceFile ;
+    rdfs:label "Source File of CNC Milling/CNC_Skate_12mm_Deck_6mm_Ramp_10mm_ of PET MINI Skateboard 2efce0966b21af87c5cfb7a51e51dc015faf23bb" ;
     okh:fileFormat "3DM" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/26088/cnc_skate_12mm_deck_6mm_ramp_10mm_.3dm> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTozMDA3NTk=> .
+
+:CncMillingpetminiskate12mmdeck3mmramp a okh:Part ;
+    rdfs:label "CNC Milling/PET_Mini_Skate_12mm_Deck_3mm_Ramp" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "João Leão" ;
+    okh:source :CncMillingpetminiskate12mmdeck3mmramp_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:CncMillingpetminiskate12mmdeck3mmramp_source a okh:SourceFile ;
+    rdfs:label "Source File of CNC Milling/PET_Mini_Skate_12mm_Deck_3mm_Ramp of PET MINI Skateboard 2efce0966b21af87c5cfb7a51e51dc015faf23bb" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/26088/pet_mini_skate_12mm_deck_3mm_ramp.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozMDA3NjQ=> .
 
 :Image a okh:Image ;
     rdfs:label "Image of PET MINI Skateboard 2efce0966b21af87c5cfb7a51e51dc015faf23bb" ;
     okh:fileFormat "JPG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/26088/pet_mini_e-skate_waste_from_the_beache.jpg> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTozMDA3MTA=> .
-
-:Leftbracket a okh:Part ;
-    rdfs:label "Left_Bracket" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "João Leão" ;
-    okh:source :Leftbracket_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Leftbracket_source a okh:SourceFile ;
-    rdfs:label "Source File of Left_Bracket of PET MINI Skateboard 2efce0966b21af87c5cfb7a51e51dc015faf23bb" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/26088/left_bracket.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMDA3MjU=> .
-
-:Leftholder a okh:Part ;
-    rdfs:label "Left_Holder" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "João Leão" ;
-    okh:source :Leftholder_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Leftholder_source a okh:SourceFile ;
-    rdfs:label "Source File of Left_Holder of PET MINI Skateboard 2efce0966b21af87c5cfb7a51e51dc015faf23bb" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/26088/left_holder.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMDA3MjQ=> .
-
-:Orangatang36t a okh:Part ;
-    rdfs:label "orangatang_36t" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "João Leão" ;
-    okh:source :Orangatang36t_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Orangatang36t_source a okh:SourceFile ;
-    rdfs:label "Source File of orangatang_36t of PET MINI Skateboard 2efce0966b21af87c5cfb7a51e51dc015faf23bb" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/26088/orangatang_36t.STL> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMDA3MzY=> .
-
-:Orangatangspacer2 a okh:Part ;
-    rdfs:label "orangatangspacer2" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "João Leão" ;
-    okh:source :Orangatangspacer2_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Orangatangspacer2_source a okh:SourceFile ;
-    rdfs:label "Source File of orangatangspacer2 of PET MINI Skateboard 2efce0966b21af87c5cfb7a51e51dc015faf23bb" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/26088/orangatangspacer2.STL> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMDA3NDA=> .
-
-:Petminiskate12mmdeck3mmramp a okh:Part ;
-    rdfs:label "PET_Mini_Skate_12mm_Deck_3mm_Ramp" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "João Leão" ;
-    okh:source :Petminiskate12mmdeck3mmramp_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Petminiskate12mmdeck3mmramp_source a okh:SourceFile ;
-    rdfs:label "Source File of PET_Mini_Skate_12mm_Deck_3mm_Ramp of PET MINI Skateboard 2efce0966b21af87c5cfb7a51e51dc015faf23bb" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/26088/pet_mini_skate_12mm_deck_3mm_ramp.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMDA3NjQ=> .
 
 :Readme a okh:Readme ;
     rdfs:label "Readme of PET MINI Skateboard 2efce0966b21af87c5cfb7a51e51dc015faf23bb" ;

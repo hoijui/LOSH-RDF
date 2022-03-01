@@ -1,0 +1,52 @@
+@prefix : <https://www.thingiverse.com/thing%3A15066/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ThingomaticFilamentGuideV2 a okh:Module ;
+    rdfs:label "Thing-O-Matic Filament Guide v2" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Since I wasn't entirely happy with my first design (which works to guide my filament, but is not exactly to par) I designed a second version.\r
+\r
+I have printed this "thing" (black ABS w/ raft, no support, 130-degrees on the HBP (my HBP doesn't heat at all if I set it under this temp) 230-degrees on the nozzle), and it works.  Filament slides right through the guide, with little to no effort.  But please check out my filament spool holder in the photos.  This setup may not work for your specific setup.  (The filament spool holder shown in the photo is also my design (not posted on Thingiverse because it truly does need a bearing) and works OK.  It needs a bearing... probably 2 bearings, to be honest.  :(\r
+\r
+Goals of this design (from the start) have been:\r
+\r
+1)  To guide 1.75mm filament from a rear-mounted spool to the Mk7 extruder (my spool is mounted parallel to the rear surface of the body, on the left/rear corner, from my own spool mount design/print).  Although I designed this guide for my ToM (which has an Mk7 extruder) the filament guide openings are approximately 4mm in DIA, and may also work with other filaments.\r
+\r
+2)  No filament binding... provide a smooth filament path (without ball bearings or any other external elements).\r
+\r
+3)  No need to pull the filament all the way through the guide when changing spool colors, etc.  The filament just "snaps" into the guide.\r
+\r
+4)  A small profile, printable in 1 file, all on the ToM's HBP.\r
+\r
+5)  Install on a Thing-O-Matic with absolutely no modification to the machine's body.\r
+\r
+6)  To provide a "no-babysit" solution to my previously unmodified ToM, and eliminate my constant need to run upstairs to my office & check on the machine.  The small spool of filament that came with my ToM made it approximately 1/4 of the way through the spool before it became so tangled that it's virtually unuseable now... too many cuts in the spool after multiple attempts to untangle it during long builds.\r
+\r
+Improvements from my first version include:\r
+\r
+1)  Better filament support arms, relocated/resized for proper guidance of filament.\r
+\r
+2)  Better locking geometry for the Thing-O-Matic.  The first version's locking tabs were not of the right geometry, not to mention the thin features pretty much snapped off while removing the "thing" from the build platform.  ("Learn by making mistakes", "trial by error"... a lot of good phrases for that one!)\r
+\r
+3)  Thicker filament support arms.  The first version's arms were FAR too small, but I'm still using mine and they haven't broken yet!  :)\r
+\r
+Comments on the design, revision ideas, and photos would all be appreciated!\r
+\r
+Have fun!""" ;
+    okh:hasImage :Image ;
+    okh:licensor "clintkc" ;
+    okh:repo <https://www.thingiverse.com/thing:15066> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:15066> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Thing-O-Matic Filament Guide v2 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/ce/37/68/10/8d/DSC01033_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/ce/37/68/10/8d/DSC01033_display_large_display_large.jpg> .
+

@@ -1,0 +1,34 @@
+@prefix : <https://www.thingiverse.com/thing%3A4970/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:StepperMotorDriverV33 a okh:Module ;
+    rdfs:label "Stepper Motor Driver v3.3" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Microstepping for great justice\r
+\r
+These new stepper drivers are capable of doing 1/8 stepping which means that instead of jerking from one position to the next, the stepper motor will gradually move between them.  This results in lower vibrations, lower noise, and better precision.  Your machine will be quieter, print better, and create world peace.\r
+\r
+Highly configurable and tunable\r
+\r
+While this driver works great out of the box, we've added a bunch of configuration options to this board if you want to get into the nitty gritty of stepper driver operation.  There is a dip switch selector to change the stepping mode between full, half, 1/4, and 1/8 step.  The current control is also completely configurable with four potentiometers with large test points so that you can set the current, decay mode, and RC constants.  With this you can tune the stepper driver to perfectly suit your stepper motor.\r
+\r
+High power output\r
+\r
+The chip we're using is capable of handling up to 2.8A per phase, so you can easily control motors up to NEMA23 size.  The provided power connector allows you to easily power it off a standard ATX power supply, but if you're feeling adventurous, the chip can handle up to 35V for the drive voltage.  You'll have to wire up your own connector though.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "MakerBot" ;
+    okh:repo <https://www.thingiverse.com/thing:4970> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:4970> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Stepper Motor Driver v3.3 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/36/08/fe/c9/32/5239143959_ef66843ab7_b_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/36/08/fe/c9/32/5239143959_ef66843ab7_b_display_large_display_large.jpg> .
+

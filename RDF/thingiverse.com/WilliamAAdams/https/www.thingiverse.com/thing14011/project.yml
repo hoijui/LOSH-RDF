@@ -1,0 +1,48 @@
+__meta:
+  branch: null
+  created-at: '2011-11-27T09:42:27+00:00'
+  history: null
+  last-changed: null
+  last-visited: '2022-02-25T11:00:02.616920+00:00'
+  owner: WilliamAAdams
+  path: null
+  repo: https://www.thingiverse.com/thing:14011
+  score: null
+  source: thingiverse.com
+attestation: null
+bom: null
+contribution-guide: null
+cpc-patent-class: null
+documentation-language: en
+documentation-readiness-level: odrl3
+function: "Inspired by Bre's Moon crater, I thought, why not the whole moon?\r\n\r\nThis thing is a bump mapped sphere that uses the planetary map data/images from here: \r\nhttp://www.johnstonsarchive.net/spaceart/cylmaps.html\r\n\r\nSpecifically, I used this one: \r\nhttp://www.johnstonsarchive.net/spaceart/moonbumpmap2.jpg\r\n\r\nI essentially used the same bump mapping technique I used on this bowl: http://www.thingiverse.com/thing:13991\r\n\r\nThat is, use the picture as a height map.  Use that height map to displace the vertices around the sphere.  At the same time, use the image to colorize the thing as well, if you want extra reality.\r\n\r\nNow came the special part.  Since I had the moon in my hands, I wanted to split it open and see what it was made of, answering that age old question once and for all.\r\n\r\nSo, I cracked it open, and found that it was in fact hollow!  No green men, no Amazonian women, no cheese, nothing, just a void.  Unlike answering the Easter Bunny question, this was quite a let down.\r\n\r\nAnd lastly, since I was exploring the surface using MeshLab, I finally found the man in the moon.  You can see him highlighted in red smiling back at us.\r\n\r\nThis has got to be great for science exploration!\r\n\r\nA bit about the .stl files.  I used Banate CAD to generate the models directly.  The full moon has roughly 500,000 vertices, and double that in terms of faces.  The partial moon has double the number of vertices because it has to generate the 'inside' as well as the outside.  Each one took about 40-50 seconds to generate on my standard issue 3 year old Phenom II based machine.  The generation time has more to do with the number of vertices than any other complexities.  The routines create the normals for each face, whether they're needed or not, so this time could probably be cut in half in cases where you don't really need the normals, but it would not look nice when you render.\r\n\r\nTo generate any spherical thing, you would just change one line of code in the .fab file:\r\n\r\n\tlocal heightsampler = ImageSampler.new({\r\n\t\tFilename='moonbumpmap2_720_360.png',\r\n\t\tSize = size,\r\n\t\tResolution = res,\r\n\t\tMaxHeight=16,\r\n\t})\r\n\r\nChange \"Filename = '...'\",\r\nto be whatever file you so happen to want to bump map.\r\n\r\nThis is the quick and dirty form of Bump/Height mapping.  There are two things that should be done to improve the quality of such things.  First, I'm doing a straight translation from the height map to a height value.  What I should really be doing is taking an average, so you don't see such artifacting.  The other thing is, for a sphere, there are better ways to apply a texture than to simply wrap the rectangle.  By wrapping the rectangular image to the sphere, you lose something at the poles.  I need better images which account for the spherical nature.\r\n\r\nBut hay, for changing just a single line of code, this is not a bad technique."
+image:
+  created-at: '2011-11-27T09:42:27+00:00'
+  last-changed: '2011-11-27T09:42:27+00:00'
+  last-visited: '2022-02-25T21:31:14.023809+00:00'
+  license: CC-BY-4.0
+  licensor: WilliamAAdams
+  mime-type: null
+  name: MoonHollow_display_large_display_large
+  path: https:/cdn.thingiverse.com/renders/05/9f/48/87/15/MoonHollow_display_large_display_large.jpg
+  perma-url: https://cdn.thingiverse.com/renders/05/9f/48/87/15/MoonHollow_display_large_display_large.jpg
+  url: https://cdn.thingiverse.com/renders/05/9f/48/87/15/MoonHollow_display_large_display_large.jpg
+license: CC-BY-4.0
+licensor: WilliamAAdams
+manufacturing-instructions: null
+name: Moon Shot
+okhv: OKH-LOSHv1.0
+organization: null
+part: []
+publication: null
+readme: null
+release: null
+repo: https://www.thingiverse.com/thing:14011
+software: []
+specific-api-data: {}
+standard-compliance: null
+technology-readiness-level: ortl4
+tsdc: null
+upload-method: auto
+user-manual: null
+version: 1.0.0

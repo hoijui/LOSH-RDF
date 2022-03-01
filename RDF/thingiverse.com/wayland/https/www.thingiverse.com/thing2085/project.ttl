@@ -1,0 +1,35 @@
+@prefix : <https://www.thingiverse.com/thing%3A2085/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ParametricBevelGears a okh:Module ;
+    rdfs:label "Parametric Bevel Gears" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """I need some bevel gears, so I made an openSCAD script to make them! A lot of the parameters here are inspired by Catarina/'s spur gear script, but it would have been harder to make if I had started with hers, so I made this one from scratch.\r
+\r
+It can do:\r
+- bevel gears\r
+- combination rome/bevel gears\r
+- triangular teeth\r
+- center holes\r
+- plain spur gears, if you really want\r
+\r
+The STLs are just for show; they probably do not work with each other. Use openSCAD to make your own STLs! Thingiverse rendered the first stl weird...  if you were wondering, it is completely solid. there are not actually red and blue lines piercing the gear.\r
+\r
+edited: gear teeth can now be triangular or fractionally triangular""" ;
+    okh:hasImage :Image ;
+    okh:licensor "wayland" ;
+    okh:repo <https://www.thingiverse.com/thing:2085> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:2085> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Parametric Bevel Gears 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/site/img/default/Gears_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/site/img/default/Gears_display_large.jpg> .
+

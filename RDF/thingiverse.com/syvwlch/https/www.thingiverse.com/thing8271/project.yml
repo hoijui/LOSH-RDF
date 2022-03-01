@@ -1,0 +1,48 @@
+__meta:
+  branch: null
+  created-at: '2011-05-05T14:49:39+00:00'
+  history: null
+  last-changed: null
+  last-visited: '2022-02-25T11:00:02.616920+00:00'
+  owner: syvwlch
+  path: null
+  repo: https://www.thingiverse.com/thing:8271
+  score: null
+  source: thingiverse.com
+attestation: null
+bom: null
+contribution-guide: null
+cpc-patent-class: null
+documentation-language: en
+documentation-readiness-level: odrl3
+function: "UPDATES:\r\n\r\nCurrent development version to be found on git hub here:\r\ngithub.com/syvwlch/Printable-Clock-Project\r\n\r\nv2 - 2011 05 08\r\nNow uses a club-tooth escapement rather than a ratchet-wheel Graham.\r\nBackwards compatible with existing clock scripts.\r\n\r\nv3 - 2011 05 13\r\nModified to make use of the new library feature for adding holes to the drum. Backwards compatible with existing clock scripts.\r\nSummary of changes to the code:\r\nhttps://github.com/syvwlch/Printable-Clock-Project/commit/d9a7dec80f6a474103868612170651c668f812d3\r\n\r\nv4 - 2011 05 18\r\nModified to support the ratcheting drum designed by rustedrobot.\r\n____________________________________________________________________\r\n\r\n\r\nThere are things that get re-used by various clocks and test jigs, but don't really merit inclusion in the library itself. I got a little tired of managing multiple clock scripts, and having to make sure the latest improvements made it into the various configurations.\r\n\r\nSo, all this common logic, for placing the gears, making them mesh and rotate, or laying them out to print, etc... that's all now contained in this clock builder script which calls MCAD for the gears and my clockwork library for the clockwork.\r\n\r\nIt, in turn is called by short scripts that contain only the parameter values for a particular clock, and any clock-specific code you might care to add (like a frame design, since I haven't come up with a good generic one yet).\r\n\r\nWhich means that if you want to play with clock configurations with as little as two or as many as nine wheels, with all, any or none of them bearing hands and/or concentric shafts, curled up as loose or as tight as you want, all you need to do is create a copy of a clock-script, and modify parameters to your heart's content. The core code and parameters are unchanged."
+image:
+  created-at: '2011-05-05T14:49:39+00:00'
+  last-changed: '2011-05-05T14:49:39+00:00'
+  last-visited: '2022-02-25T16:43:43.740828+00:00'
+  license: CC-BY-SA-4.0
+  licensor: syvwlch
+  mime-type: null
+  name: ClockBuilderEx01_display_large_display_large
+  path: https:/cdn.thingiverse.com/renders/4e/4e/2a/1f/53/ClockBuilderEx01_display_large_display_large.jpg
+  perma-url: https://cdn.thingiverse.com/renders/4e/4e/2a/1f/53/ClockBuilderEx01_display_large_display_large.jpg
+  url: https://cdn.thingiverse.com/renders/4e/4e/2a/1f/53/ClockBuilderEx01_display_large_display_large.jpg
+license: CC-BY-SA-4.0
+licensor: syvwlch
+manufacturing-instructions: null
+name: Clock Builder Script
+okhv: OKH-LOSHv1.0
+organization: null
+part: []
+publication: null
+readme: null
+release: null
+repo: https://www.thingiverse.com/thing:8271
+software: []
+specific-api-data: {}
+standard-compliance: null
+technology-readiness-level: ortl4
+tsdc: null
+upload-method: auto
+user-manual: null
+version: 1.0.0

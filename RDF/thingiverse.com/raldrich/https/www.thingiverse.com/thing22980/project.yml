@@ -1,0 +1,48 @@
+__meta:
+  branch: null
+  created-at: '2012-05-13T19:34:33+00:00'
+  history: null
+  last-changed: null
+  last-visited: '2022-02-27T11:00:04.378619+00:00'
+  owner: raldrich
+  path: null
+  repo: https://www.thingiverse.com/thing:22980
+  score: null
+  source: thingiverse.com
+attestation: null
+bom: null
+contribution-guide: null
+cpc-patent-class: null
+documentation-language: en
+documentation-readiness-level: odrl3
+function: "This is not the extruder you're looking for. If you're looking for the extruder referenced in Josef Prusa's i3 design, see http://www.thingiverse.com/thing:24219 \r\n\r\nA direct drive extruder designed for use with a Minebea geared stepper motor, a Makerbot drive wheel, and a MakerGear GrooveMount (or similar) hot end.\r\n\r\nAll Electronics is out of the required motor - MPJA has a supply of them at a slightly higher price - http://www.mpja.com/prodinfo.asp?number=18840+MS\r\n\r\nFrom the very beginning with my printer, I've been fighting clearance issues with the extruder, which has prompted me to attempt a long series of different extruder designs.  I tried internal (ring) gears, a printed planetary gearbox, and a Lego\xE2\u201E\xA2 (!!!) worm gear.  None were completely satisfactory.\r\n\r\nI was about to break down and spend $33 apiece (plus shipping) on gearbox motors from robotshop.com, when ezmobius linked a Minebea gearbox stepper in IRC which was selling for $6.50 + shipping (Many thanks, ezmobius).\r\n\r\nSo, here you have my best effort for a compact extruder.\r\n\r\nMy goals for it are (in order):\r\n\r\n1) Torque.  It must be able to drive 3mm filament.\r\n\xC2\_\xC2\_\xC2\_\xC2\_So far, I've only tested it with PLA, but I've had no difficulty\r\n\xC2\_\xC2\_\xC2\_\xC2\_extruding at average speeds.\r\n\r\n2) Reliability. It must never let the filament slip, or lose steps.\r\n\xC2\_\xC2\_\xC2\_\xC2\_Once I figured out that I needed to reduce the retraction\r\n\xC2\_\xC2\_\xC2\_\xC2\_speed to 10mm/s, it became quite reliable.\r\n\r\n3) Size. It must give me use of the full width of my print bed.\r\n\xC2\_\xC2\_\xC2\_\xC2\_On the newer of my printers, which was built with an extra\r\n\xC2\_\xC2\_\xC2\_\xC2\_15mm width in the frame, I've achieved that goal.  On the\r\n\xC2\_\xC2\_\xC2\_\xC2\_older printer, the frame will limit my width at high print\r\n\xC2\_\xC2\_\xC2\_\xC2\_heights by around 10mm.\r\n\r\n4) Ease of setup.  I don't like adjusting bolt tension whenever I\r\n\xC2\_\xC2\_\xC2\_\xC2\_change filament.\r\n\xC2\_\xC2\_\xC2\_\xC2\_The makerbot drive wheel is designed for use with fixed idler\r\n\xC2\_\xC2\_\xC2\_tension, and (when tested with other extruder designs)\r\n\xC2\_\xC2\_\xC2\_\xC2\_allowed me to switch between PLA and ABS filament, with\r\n\xC2\_\xC2\_\xC2\_\xC2\_.1mm difference in diameter, without having to readjust.\r\n\r\n5) Ease of maintenance.  I don't like taking an extruder apart to\r\n\xC2\_\xC2\_\xC2\_\xC2\_clean it.\r\n\xC2\_\xC2\_\xC2\_\xC2\_The back side of the extruder body is open, so that you can\r\n\xC2\_\xC2\_\xC2\_\xC2\_clean the teeth of the drive wheel without even loosening\r\n\xC2\_\xC2\_\xC2\_\xC2\_the idler.\r\n\xC2\_\xC2\_\xC2\_\xC2\_The filament guide runs close between the idler and drive\r\n\xC2\_\xC2\_\xC2\_\xC2\_wheel, to reduce the likelihood of jamming the the\r\n\xC2\_\xC2\_\xC2\_\xC2\_extruder when switching filaments.\r\n\r\nAfter designing it, I found that arcol had started an indiegogo campaign to build drive wheels in various sizes, so I added another goal.\r\n\r\n6) It needs to accommodate either the makerbot MK7 drive\r\n\xC2\_\xC2\_\xC2\_\xC2\_wheel, or the arcol hyena 11x5 drive wheel.\r\n\xC2\_\xC2\_\xC2\_\xC2\_The current version adds a taper to the lower filament guide, which allows it to be used with either drive wheel.\r\n\r\nMotor:\r\n\xC2\_\xC2\_\xC2\_\xC2\_ http://www.eminebea.com/en/product/rotary/steppingmotor/pm/gearbox/pg35l-d48.shtml \r\n\xC2\_\xC2\_\xC2\_\xC2\_(available at http://www.mpja.com/prodinfo.asp?number=18840+MS , but you'll need a small gear puller or faucet puller to remove the vestigial gear).\r\n\r\nDrive wheel:\r\n\xC2\_\xC2\_\xC2\_\xC2\_ http://store.makerbot.com/mk7-drive-gear.html or\r\n\xC2\_\xC2\_\xC2\_\xC2\_ http://www.indiegogo.com/mini-hyena (the 11x5 version).\r\n\r\nTwo variations are provided: One which fits a compact carriage (45mm in in the x-axis), and another which fits the standard Prusa carriage.\r\n\r\nRevisions:\r\n\xC2\_\xC2\_\xC2\_\xC2\_Fixed the bridges in the carriage belt clips.\r\n\xC2\_\xC2\_\xC2\_\xC2\_Increased the thickness of the carriage mount.\r\n\xC2\_\xC2\_\xC2\_\xC2\_Increased the diameter of the igus bushing holes.\r\n\xC2\_\xC2\_\xC2\_\xC2\_Added an (experimental) pocket for an LM8UU bearing to\r\n\xC2\_\xC2\_\xC2\_\xC2\_\xC2\_\xC2\_\xC2\_\xC2\_each of the carriage rails.  I haven't tested this, and I'm\r\n\xC2\_\xC2\_\xC2\_\xC2\_\xC2\_\xC2\_\xC2\_\xC2\_not sure if it will work to use only 2 LM8UU on a\r\n\xC2\_\xC2\_\xC2\_\xC2\_\xC2\_\xC2\_\xC2\_\xC2\_carriage, but it saves plastic - consider yourself\r\n\xC2\_\xC2\_\xC2\_\xC2\_\xC2\_\xC2\_\xC2\_\xC2\_warned.\r\n\xC2\_\xC2\_\xC2\_\xC2\_Added bolt holes for a 40mm fan to the carriage.\r\n\xC2\_\xC2\_\xC2\_\xC2\_Widened the openings in the LM8UU pockets.  Hopefully\r\n\xC2\_\xC2\_\xC2\_\xC2\_\xC2\_\xC2\_\xC2\_\xC2\_it'll now actually be possible to get a bearing into them.\r\n\xC2\_\xC2\_\xC2\_\xC2\_Moved the filament channel a bit closer to the drive wheel, and tapered the lower filament channel, in order to support arcol's \"mini hyena\" drive wheel.\r\n\xC2\_\xC2\_\xC2\_\xC2\_Closed the outside of the extruder body, to prevent it from flexing as the filament is driven."
+image:
+  created-at: '2012-05-13T19:34:33+00:00'
+  last-changed: '2012-05-13T19:34:33+00:00'
+  last-visited: '2022-02-27T11:25:18.959842+00:00'
+  license: CC-BY-4.0
+  licensor: raldrich
+  mime-type: null
+  name: CIMG0161_display_large_display_large
+  path: https:/cdn.thingiverse.com/renders/16/9a/75/14/fb/CIMG0161_display_large_display_large.jpg
+  perma-url: https://cdn.thingiverse.com/renders/16/9a/75/14/fb/CIMG0161_display_large_display_large.jpg
+  url: https://cdn.thingiverse.com/renders/16/9a/75/14/fb/CIMG0161_display_large_display_large.jpg
+license: CC-BY-4.0
+licensor: raldrich
+manufacturing-instructions: null
+name: Ron's Compact Extruder
+okhv: OKH-LOSHv1.0
+organization: null
+part: []
+publication: null
+readme: null
+release: null
+repo: https://www.thingiverse.com/thing:22980
+software: []
+specific-api-data: {}
+standard-compliance: null
+technology-readiness-level: ortl4
+tsdc: null
+upload-method: auto
+user-manual: null
+version: 1.0.0

@@ -1,0 +1,48 @@
+__meta:
+  branch: null
+  created-at: '2011-09-25T23:39:24+00:00'
+  history: null
+  last-changed: null
+  last-visited: '2022-02-25T11:00:02.616920+00:00'
+  owner: WilliamAAdams
+  path: null
+  repo: https://www.thingiverse.com/thing:11914
+  score: null
+  source: thingiverse.com
+attestation: null
+bom: null
+contribution-guide: null
+cpc-patent-class: null
+documentation-language: en
+documentation-readiness-level: odrl3
+function: "I want to do height mapping in OpenScad.  The easiest way to do it is to generate little cubes for each offset.  That's a good start, but I wanted more.  What I really want is the ability to layout a polyhedron mesh use a height map to alter the vertices of that mesh.\r\n\r\nThis thing is just the latest incarnation of the library.  With it, you can do the following:\r\n\r\ndisplay_mesh_height([32,32], [2,2], heightmap=checker_image);\r\n\r\nThat is, specify a size in millimeters for the mesh [32,32], then a resolution [2,2], and the height map, our checker image.\r\n\r\nThe work is actually located in the test_mesh.scad file.  It will do the height, but not do the color.  That will come next.\r\n\r\nAnother thing that I'm doing in this incarnation of the library is separating out this thing called glsl.scad  Basically, recognizing that there's a lot of stuff that I'm doing that mirrors what I would be doing in 3D graphics.  A lot of this stuff is like vertex and shader programming, so I figured I'd model it in the same way.  It also makes it easier to go from here (OpenScad) to rendering in something like the iPad.\r\n\r\nBlog entry: http://williamaadams.wordpress.com/2011/09/25/openscad-texture-mapping-2/\r\n\r\nGitHub: https://github.com/Wiladams/OpenScadModels/tree/master/Libraries\r\n\r\nIt's a paltry entry, but a nice way to do height maps.  It takes up less resources to display the mesh than to display a bunch of cubes.\r\n\r\nUPDATE:\r\nOK, I got unlazy, and actually included the proper mesh renderer, so you can in fact make solid things from your bump maps."
+image:
+  created-at: '2011-09-25T23:39:24+00:00'
+  last-changed: '2011-09-25T23:39:24+00:00'
+  last-visited: '2022-02-25T19:53:27.746743+00:00'
+  license: CC0-1.0
+  licensor: WilliamAAdams
+  mime-type: null
+  name: checkerbump1_display_large_display_large
+  path: https:/cdn.thingiverse.com/renders/35/ad/ed/36/93/checkerbump1_display_large_display_large.jpg
+  perma-url: https://cdn.thingiverse.com/renders/35/ad/ed/36/93/checkerbump1_display_large_display_large.jpg
+  url: https://cdn.thingiverse.com/renders/35/ad/ed/36/93/checkerbump1_display_large_display_large.jpg
+license: CC0-1.0
+licensor: WilliamAAdams
+manufacturing-instructions: null
+name: Height Mapped Polyhedra in OpenScad
+okhv: OKH-LOSHv1.0
+organization: null
+part: []
+publication: null
+readme: null
+release: null
+repo: https://www.thingiverse.com/thing:11914
+software: []
+specific-api-data: {}
+standard-compliance: null
+technology-readiness-level: ortl4
+tsdc: null
+upload-method: auto
+user-manual: null
+version: 1.0.0

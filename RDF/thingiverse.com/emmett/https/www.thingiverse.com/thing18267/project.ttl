@@ -1,0 +1,26 @@
+@prefix : <https://www.thingiverse.com/thing%3A18267/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:TomZminEndstop a okh:Module ;
+    rdfs:label "TOM Z-min Endstop" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """The Thing-O-Matic is a good machine, but it has one quirk that really irks me:  the Z-height calibration never stays quite right.  Since it goes all the way to the top to hit the endstop, then counts down 120 or so mm to find the build platform, if there is any change in temperature or humidity, the wood sides of the bot will expand or contract, easily making the nozzle move +/-0.1mm with respect to the platform.  That may not sound like a lot, but when you're printing raftless, that's the difference between a first layer that doesn't stick down, and one that's so smashed the bottom of the print is wider than the rest.  \r
+\r
+This little block fixes all that.  By making the Z-endstop contact the platform directly, the nozzle will always find the correct height, regardless of whatever thermal expansion the bot may be experiencing.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "emmett" ;
+    okh:repo <https://www.thingiverse.com/thing:18267> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:18267> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of TOM Z-min Endstop 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/b6/b1/c3/ed/54/endstop2_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/b6/b1/c3/ed/54/endstop2_display_large_display_large.jpg> .
+

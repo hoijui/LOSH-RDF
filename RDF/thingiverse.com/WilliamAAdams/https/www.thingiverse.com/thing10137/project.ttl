@@ -1,0 +1,53 @@
+@prefix : <https://www.thingiverse.com/thing%3A10137/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:OpenscadVirtualMachineV02 a okh:Module ;
+    rdfs:label "OpenScad Virtual Machine - v0.2" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Moving right along, adding some more convenience...\r
+\r
+This thing builds on the last version of the OpenScad Virtual machine by adding a few convenience functions:\r
+\r
+CUBE(size, center);\r
+CYLINDER(r1, r2, h, center);\r
+SPHERE(r);\r
+\r
+And a couple for the CSG operations as well:\r
+\r
+UNION(parts);\r
+DIFFERENCE(part1, part2);\r
+\r
+I also changed the 'CSG' module name to 'EXEC' which seems more appropriate.\r
+\r
+So, now you can do this:\r
+\r
+EXEC(UNION([CUBE([10,10,10]), CYLINDER(r1=6, r2=5, h=12)]);\r
+\r
+That pretty much makes it look more like what you'd write in normal OpenScad.  So, why bother?  It's more direct, or 'imperative'.  This style might match some people's style better than the strictly hierarchical way of doing things.\r
+\r
+If you want to get really technical, this style is like functional programming.  Since almost everything, other than EXEC() is a function, without side effects, the 'functions' can be easily passed around as parameters to other functions and modules.\r
+\r
+Still don't have any variables, loops, and the like, but how hard could it be ;-)\r
+\r
+Also, it's fairly easy to build individual parts as simple arrays and just use them.\r
+\r
+At any rate, take a look at the 'test_openscad_vm.scad' file as it shows how to mix and match things.  The 'target()' function uses the all new stuff.  The 'wheel()' function does a mix and match of styles.\r
+\r
+This all might make more obvious sense in a couple more versions.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "WilliamAAdams" ;
+    okh:repo <https://www.thingiverse.com/thing:10137> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:10137> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of OpenScad Virtual Machine - v0.2 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://thingiverse-rerender-new.s3.amazonaws.com/renders/90/47/1d/63/19/wheel_display_large.jpg> ;
+    okh:permaURL <https://thingiverse-rerender-new.s3.amazonaws.com/renders/90/47/1d/63/19/wheel_display_large.jpg> .
+

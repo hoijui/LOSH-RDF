@@ -1,0 +1,42 @@
+@prefix : <https://www.thingiverse.com/thing%3A9227/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:GigapixelImagebot a okh:Module ;
+    rdfs:label "gigapixel imageBot" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This thing is a set of tools to help adapt a makerbot or other 3-axis CNC machine into a gigapixel imageBot. This is an extension of the Explorable Microscopy project. http://www.explorablemicroscopy.org/\r
+\r
+Some example images:\r
+720 megapixel Arduino http://gigapan.org/gigapans/77742/\r
+200 megapixel Crab shell http://gigapan.org/gigapans/78874/\r
+60 megapixel fly http://gigapan.org/gigapans/79492/\r
+\r
+The goal is to make the generation of very very large, explorable images, as simple as possible, bringing this technique to more people. An important aspect of this goal is to make as few modifications to the equipment as possible.\r
+\r
+The idea here is to capture thousands of images of a single subject in a 3D array, then merge these images into a single explorable image which can be viewed online using the free gigapixel image sharing site, http://www.gigapan.org . The process is broken up into four steps:\r
+\r
+ â€¢ Image capture - automatic capture of thousands of images in a 3D array.\r
+ â€¢ Focus stacking - merging images of different focus into a single all in focus image.\r
+ â€¢ Image stitching - merging adjacent images in an xy plane into a single large image.\r
+ â€¢ Upload/sharing - uploading to the gigapan website for sharing and exploring.\r
+\r
+This thing specifically addresses the first of these four steps, image capture. A video of the thing in progress can be found here: http://www.youtube.com/watch?v=jKSs6J-xn18\r
+\r
+This thing was greatly influenced by Rich Gibson who had the initial impetus to work on it, so much so, that he bought a makerbot that he then let me play with.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "ordaos" ;
+    okh:repo <https://www.thingiverse.com/thing:9227> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:9227> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of gigapixel imageBot 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/e0/1e/03/33/10/5826266506_cbc0de6a23_o_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/e0/1e/03/33/10/5826266506_cbc0de6a23_o_display_large_display_large.jpg> .
+

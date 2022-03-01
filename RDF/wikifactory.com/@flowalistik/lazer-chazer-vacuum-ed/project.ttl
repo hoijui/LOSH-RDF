@@ -1,21 +1,22 @@
-@prefix : <https://wikifactory.com/@flowalistik/lazer-chazer-vacuum-ed/c45b698822e162ff1061319b32fcc73015648ec6/> .
+@prefix : <https://wikifactory.com/%40flowalistik/lazer-chazer-vacuum-ed/c45b698822e162ff1061319b32fcc73015648ec6/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 :LazerChazerVacuumEd a okh:Module ;
     rdfs:label "Lazer Chazer - Vacuum Ed." ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "Vacuum forming version of Lazer Chazer, a collaborative and open-source cat toy powered by Arduino." ;
-    okh:hasComponent :CaseFrontCover,
-        :CaseVacuumFormingV4,
-        :Lazerchazercase,
-        :Lazerchazerconnectorservolaser,
-        :Lazerchazerconnectorservoservo,
-        :Lazerchazercover,
-        :Lazerchazertraybreadboard,
-        :Lazerchazertrayservo,
-        :TrayVacuumFormingProtoboardV3,
-        :TrayVacuumFormingServoV3 ;
+    okh:hasComponent :Manufacturing3dPrintedVersionlazerchazercase,
+        :Manufacturing3dPrintedVersionlazerchazerconnectorservolaser,
+        :Manufacturing3dPrintedVersionlazerchazerconnectorservoservo,
+        :Manufacturing3dPrintedVersionlazerchazercover,
+        :Manufacturing3dPrintedVersionlazerchazertraybreadboard,
+        :Manufacturing3dPrintedVersionlazerchazertrayservo,
+        :ManufacturingvacuumFormingVersioncaseFrontCover,
+        :ManufacturingvacuumFormingVersioncaseVacuumFormingV4,
+        :ManufacturingvacuumFormingVersiontrayVacuumFormingProtoboardV3,
+        :ManufacturingvacuumFormingVersiontrayVacuumFormingServoV3 ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "Agustín \"Flowalistik\" Arroyo" ;
@@ -23,34 +24,9 @@
     okh:repo <https://wikifactory.com/@flowalistik/lazer-chazer-vacuum-ed> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
     okh:version "c45b698822e162ff1061319b32fcc73015648ec6" ;
     okh:versionOf <https://wikifactory.com/@flowalistik/lazer-chazer-vacuum-ed> .
-
-:CaseFrontCover a okh:Part ;
-    rdfs:label "Case - front cover" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Agustín \"Flowalistik\" Arroyo" ;
-    okh:source :CaseFrontCover_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:CaseFrontCover_source a okh:SourceFile ;
-    rdfs:label "Source File of Case - front cover of Lazer Chazer - Vacuum Ed. c45b698822e162ff1061319b32fcc73015648ec6" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/135218/case-front-cover.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NzczODM=> .
-
-:CaseVacuumFormingV4 a okh:Part ;
-    rdfs:label "Case - vacuum forming V4" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Agustín \"Flowalistik\" Arroyo" ;
-    okh:source :CaseVacuumFormingV4_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:CaseVacuumFormingV4_source a okh:SourceFile ;
-    rdfs:label "Source File of Case - vacuum forming V4 of Lazer Chazer - Vacuum Ed. c45b698822e162ff1061319b32fcc73015648ec6" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/135218/case-vacuum-forming-v4.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NzczODI=> .
 
 :Image a okh:Image ;
     rdfs:label "Image of Lazer Chazer - Vacuum Ed. c45b698822e162ff1061319b32fcc73015648ec6" ;
@@ -58,113 +34,139 @@
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/135218/mayku-3d-printing-guide.jpg> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo1NzY2ODU=> .
 
-:Lazerchazercase a okh:Part ;
-    rdfs:label "lazerchazer_case" ;
+:Manufacturing3dPrintedVersionlazerchazercase a okh:Part ;
+    rdfs:label "Manufacturing/3D Printed version/lazerchazer_case" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Agustín \"Flowalistik\" Arroyo" ;
-    okh:source :Lazerchazercase_source ;
+    okh:source :Manufacturing3dPrintedVersionlazerchazercase_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Lazerchazercase_source a okh:SourceFile ;
-    rdfs:label "Source File of lazerchazer_case of Lazer Chazer - Vacuum Ed. c45b698822e162ff1061319b32fcc73015648ec6" ;
+:Manufacturing3dPrintedVersionlazerchazercase_source a okh:SourceFile ;
+    rdfs:label "Source File of Manufacturing/3D Printed version/lazerchazer_case of Lazer Chazer - Vacuum Ed. c45b698822e162ff1061319b32fcc73015648ec6" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/135218/lazerchazer_case-8f770.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo1NzczNjk=> .
 
-:Lazerchazerconnectorservolaser a okh:Part ;
-    rdfs:label "lazerchazer_connector_servo-laser" ;
+:Manufacturing3dPrintedVersionlazerchazerconnectorservolaser a okh:Part ;
+    rdfs:label "Manufacturing/3D Printed version/lazerchazer_connector_servo-laser" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Agustín \"Flowalistik\" Arroyo" ;
-    okh:source :Lazerchazerconnectorservolaser_source ;
+    okh:source :Manufacturing3dPrintedVersionlazerchazerconnectorservolaser_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Lazerchazerconnectorservolaser_source a okh:SourceFile ;
-    rdfs:label "Source File of lazerchazer_connector_servo-laser of Lazer Chazer - Vacuum Ed. c45b698822e162ff1061319b32fcc73015648ec6" ;
+:Manufacturing3dPrintedVersionlazerchazerconnectorservolaser_source a okh:SourceFile ;
+    rdfs:label "Source File of Manufacturing/3D Printed version/lazerchazer_connector_servo-laser of Lazer Chazer - Vacuum Ed. c45b698822e162ff1061319b32fcc73015648ec6" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/135218/lazerchazer_connector_servo-laser-239d0.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo1NzczNjg=> .
 
-:Lazerchazerconnectorservoservo a okh:Part ;
-    rdfs:label "lazerchazer_connector_servo-servo" ;
+:Manufacturing3dPrintedVersionlazerchazerconnectorservoservo a okh:Part ;
+    rdfs:label "Manufacturing/3D Printed version/lazerchazer_connector_servo-servo" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Agustín \"Flowalistik\" Arroyo" ;
-    okh:source :Lazerchazerconnectorservoservo_source ;
+    okh:source :Manufacturing3dPrintedVersionlazerchazerconnectorservoservo_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Lazerchazerconnectorservoservo_source a okh:SourceFile ;
-    rdfs:label "Source File of lazerchazer_connector_servo-servo of Lazer Chazer - Vacuum Ed. c45b698822e162ff1061319b32fcc73015648ec6" ;
+:Manufacturing3dPrintedVersionlazerchazerconnectorservoservo_source a okh:SourceFile ;
+    rdfs:label "Source File of Manufacturing/3D Printed version/lazerchazer_connector_servo-servo of Lazer Chazer - Vacuum Ed. c45b698822e162ff1061319b32fcc73015648ec6" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/135218/lazerchazer_connector_servo-servo-c2427.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo1NzczNjc=> .
 
-:Lazerchazercover a okh:Part ;
-    rdfs:label "lazerchazer_cover" ;
+:Manufacturing3dPrintedVersionlazerchazercover a okh:Part ;
+    rdfs:label "Manufacturing/3D Printed version/lazerchazer_cover" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Agustín \"Flowalistik\" Arroyo" ;
-    okh:source :Lazerchazercover_source ;
+    okh:source :Manufacturing3dPrintedVersionlazerchazercover_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Lazerchazercover_source a okh:SourceFile ;
-    rdfs:label "Source File of lazerchazer_cover of Lazer Chazer - Vacuum Ed. c45b698822e162ff1061319b32fcc73015648ec6" ;
+:Manufacturing3dPrintedVersionlazerchazercover_source a okh:SourceFile ;
+    rdfs:label "Source File of Manufacturing/3D Printed version/lazerchazer_cover of Lazer Chazer - Vacuum Ed. c45b698822e162ff1061319b32fcc73015648ec6" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/135218/lazerchazer_cover-22082.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo1NzczNjY=> .
 
-:Lazerchazertraybreadboard a okh:Part ;
-    rdfs:label "lazerchazer_tray_breadboard" ;
+:Manufacturing3dPrintedVersionlazerchazertraybreadboard a okh:Part ;
+    rdfs:label "Manufacturing/3D Printed version/lazerchazer_tray_breadboard" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Agustín \"Flowalistik\" Arroyo" ;
-    okh:source :Lazerchazertraybreadboard_source ;
+    okh:source :Manufacturing3dPrintedVersionlazerchazertraybreadboard_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Lazerchazertraybreadboard_source a okh:SourceFile ;
-    rdfs:label "Source File of lazerchazer_tray_breadboard of Lazer Chazer - Vacuum Ed. c45b698822e162ff1061319b32fcc73015648ec6" ;
+:Manufacturing3dPrintedVersionlazerchazertraybreadboard_source a okh:SourceFile ;
+    rdfs:label "Source File of Manufacturing/3D Printed version/lazerchazer_tray_breadboard of Lazer Chazer - Vacuum Ed. c45b698822e162ff1061319b32fcc73015648ec6" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/135218/lazerchazer_tray_breadboard-9a254.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo1NzczNjU=> .
 
-:Lazerchazertrayservo a okh:Part ;
-    rdfs:label "lazerchazer_tray_servo" ;
+:Manufacturing3dPrintedVersionlazerchazertrayservo a okh:Part ;
+    rdfs:label "Manufacturing/3D Printed version/lazerchazer_tray_servo" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Agustín \"Flowalistik\" Arroyo" ;
-    okh:source :Lazerchazertrayservo_source ;
+    okh:source :Manufacturing3dPrintedVersionlazerchazertrayservo_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Lazerchazertrayservo_source a okh:SourceFile ;
-    rdfs:label "Source File of lazerchazer_tray_servo of Lazer Chazer - Vacuum Ed. c45b698822e162ff1061319b32fcc73015648ec6" ;
+:Manufacturing3dPrintedVersionlazerchazertrayservo_source a okh:SourceFile ;
+    rdfs:label "Source File of Manufacturing/3D Printed version/lazerchazer_tray_servo of Lazer Chazer - Vacuum Ed. c45b698822e162ff1061319b32fcc73015648ec6" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/135218/lazerchazer_tray_servo-41b8e.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo1NzczNjQ=> .
 
-:Readme a okh:Readme ;
-    rdfs:label "Readme of Lazer Chazer - Vacuum Ed. c45b698822e162ff1061319b32fcc73015648ec6" ;
-    okh:fileFormat "TXT" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/50768/readme.txt?response-content-type=text%2Fplain&response-content-disposition=attachment%3B%20filename%3D%22readme.txt%22&AWSAccessKeyId=LTAI4GK1mTcvu7wXYTXXtiy6&Signature=Zr3XKq6GhK2bfKuemFtbKUxGffY%3D&Expires=1639969494> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NzY2NTg=> .
-
-:TrayVacuumFormingProtoboardV3 a okh:Part ;
-    rdfs:label "tray - vacuum forming - protoboard V3" ;
+:ManufacturingvacuumFormingVersioncaseFrontCover a okh:Part ;
+    rdfs:label "Manufacturing/Vacuum Forming version/Case - front cover" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Agustín \"Flowalistik\" Arroyo" ;
-    okh:source :TrayVacuumFormingProtoboardV3_source ;
+    okh:source :ManufacturingvacuumFormingVersioncaseFrontCover_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:TrayVacuumFormingProtoboardV3_source a okh:SourceFile ;
-    rdfs:label "Source File of tray - vacuum forming - protoboard V3 of Lazer Chazer - Vacuum Ed. c45b698822e162ff1061319b32fcc73015648ec6" ;
+:ManufacturingvacuumFormingVersioncaseFrontCover_source a okh:SourceFile ;
+    rdfs:label "Source File of Manufacturing/Vacuum Forming version/Case - front cover of Lazer Chazer - Vacuum Ed. c45b698822e162ff1061319b32fcc73015648ec6" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/135218/case-front-cover.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NzczODM=> .
+
+:ManufacturingvacuumFormingVersioncaseVacuumFormingV4 a okh:Part ;
+    rdfs:label "Manufacturing/Vacuum Forming version/Case - vacuum forming V4" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Agustín \"Flowalistik\" Arroyo" ;
+    okh:source :ManufacturingvacuumFormingVersioncaseVacuumFormingV4_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:ManufacturingvacuumFormingVersioncaseVacuumFormingV4_source a okh:SourceFile ;
+    rdfs:label "Source File of Manufacturing/Vacuum Forming version/Case - vacuum forming V4 of Lazer Chazer - Vacuum Ed. c45b698822e162ff1061319b32fcc73015648ec6" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/135218/case-vacuum-forming-v4.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NzczODI=> .
+
+:ManufacturingvacuumFormingVersiontrayVacuumFormingProtoboardV3 a okh:Part ;
+    rdfs:label "Manufacturing/Vacuum Forming version/tray - vacuum forming - protoboard V3" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Agustín \"Flowalistik\" Arroyo" ;
+    okh:source :ManufacturingvacuumFormingVersiontrayVacuumFormingProtoboardV3_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:ManufacturingvacuumFormingVersiontrayVacuumFormingProtoboardV3_source a okh:SourceFile ;
+    rdfs:label "Source File of Manufacturing/Vacuum Forming version/tray - vacuum forming - protoboard V3 of Lazer Chazer - Vacuum Ed. c45b698822e162ff1061319b32fcc73015648ec6" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/135218/tray-vacuum-forming-protoboard-v3.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo1NzczODE=> .
 
-:TrayVacuumFormingServoV3 a okh:Part ;
-    rdfs:label "tray - vacuum forming - servo V3" ;
+:ManufacturingvacuumFormingVersiontrayVacuumFormingServoV3 a okh:Part ;
+    rdfs:label "Manufacturing/Vacuum Forming version/tray - vacuum forming - servo V3" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Agustín \"Flowalistik\" Arroyo" ;
-    okh:source :TrayVacuumFormingServoV3_source ;
+    okh:source :ManufacturingvacuumFormingVersiontrayVacuumFormingServoV3_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:TrayVacuumFormingServoV3_source a okh:SourceFile ;
-    rdfs:label "Source File of tray - vacuum forming - servo V3 of Lazer Chazer - Vacuum Ed. c45b698822e162ff1061319b32fcc73015648ec6" ;
+:ManufacturingvacuumFormingVersiontrayVacuumFormingServoV3_source a okh:SourceFile ;
+    rdfs:label "Source File of Manufacturing/Vacuum Forming version/tray - vacuum forming - servo V3 of Lazer Chazer - Vacuum Ed. c45b698822e162ff1061319b32fcc73015648ec6" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/135218/tray-vacuum-forming-servo-v3.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo1NzczNzk=> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of Lazer Chazer - Vacuum Ed. c45b698822e162ff1061319b32fcc73015648ec6" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/135218/readme-0000e.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NzczNjM=> .
 

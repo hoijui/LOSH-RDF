@@ -1,0 +1,30 @@
+@prefix : <https://www.thingiverse.com/thing%3A845/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:SvgFromSketchupFaces a okh:Module ;
+    rdfs:label "SVG from SketchUp Faces" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Hi all,\r
+\r
+I thought that SketchUp users may appreciate a plugin that makes the exporting of 3D models to 2D vector graphics a bit easier. The plugin (ruby scripts) allows the user to select SketchUp faces and export the oulines of these faces to a Scalable Vector Graphics (SVG) file.\r
+\r
+The plugin was developed to help with constructing designs for laser cutting, but I know of people who use it for CNC routing as well.\r
+\r
+This latest version of the plugin hasn\\'t been tested with any laser cutting yet (I\\'m working on some designs at the moment), but I know how Thingiverse users like to be on the bleeding edge ;-P""" ;
+    okh:hasImage :Image ;
+    okh:licensor "FlightsOfIdeas" ;
+    okh:repo <https://www.thingiverse.com/thing:845> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:845> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of SVG from SketchUp Faces 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/1b/41/d7/23/dc/2705584309_bfb1e1a019_o_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/1b/41/d7/23/dc/2705584309_bfb1e1a019_o_display_large_display_large.jpg> .
+

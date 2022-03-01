@@ -1,0 +1,85 @@
+@prefix : <https://www.thingiverse.com/thing%3A8155/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ClockworkLibrary a okh:Module ;
+    rdfs:label "Clockwork Library" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is the repository for my clockwork library, which I've been developing for the printable clock project. I will upload future versions here, to keep them separate from the clock scripts.\r
+\r
+Current development version to be found on git hub here:\r
+https://github.com/syvwlch/Printable-Clock-Project\r
+\r
+As code from the clock scripts matures, I will move it into this library to facilitate re-use. So far I have been able to keep the library backwards-compatible, and I will try to continue that way.\r
+\r
+/*\r
+This is an OpenSCAD library to create various pinion wheels, escapements and other pieces of clockwork gearing\r
+Uses the MCAD involute_gears library and will not work without it!\r
+Created by syvwlch and licensed under the Attribution - Share Alike - Creative Commons license.\r
+\r
+v1 - 2011 04 15\r
+First library version of the code\r
+Included escapement(), placeEscapement() and escapementWheel() in particular\r
+\r
+v2 - 2011 04 21\r
+Added spokes() module, and used it in escapement() module\r
+Updated escapement(), ringtooth(), tooth() and ring() modules to render better/faster in openCSG mode\r
+\r
+v3 - 2011 04 22\r
+Renamed to clockworkLibrary\r
+Added hand(), handNotch(), pinionWheel(), pinionEscapementWheel(), pinionDrum()\r
+\r
+v4 - 2011 04 29\r
+Added negative space toggle to the parts, which defaults to false\r
+Strengthened pinion teeth.\r
+\r
+v5 - 2011 05 01 \r
+Added herringbone gear option, with a default value of 0\r
+\r
+v6 - 2011 05 04 \r
+Changed how drum height in pinionDrum() is measured to work like sleeve extension does, to simplify placement math\r
+Corrected error in how sleeve extension is measured in pinionWheel() (wheels are 2*thickness+1*spacer thick)\r
+Changed how drum height in pinionEscapementWheel() is measured, to standardize\r
+Create a drum() module, and implemeted flanges to keep the string from falling off\r
+Retrofitted drum() into pinionDrum(), as well as for the spacer in pinionEscapementWheel() and pinionWheel()\r
+\r
+v7 - 2011 05 04 \r
+Added an assymetric spacer so that the herringbone gears would mesh without running into the drum flanges\r
+Switched to using mirror() to implement the two halves of the herringbone as a result\r
+\r
+v8 - 2011 05 06\r
+Fixed a bug in spokes() which referenced the wrong spoke width parameter (thanks kitlaan!)\r
+\r
+v9 - 2011 05 07\r
+Modified the escapement wheel profile to support club teeth (still defaults to ratchet teeth)\r
+Club tooth parameters accessible in tooth(), ringtooth(), escapementWheel() and pinionEscapementWheel()\r
+Modified escapement to control angle of impulse faces on the pallets, defaults to 45o as per ideal Graham escapement w/o club teeth\r
+Escapement will work if impulse face angles are set to 45o minus tooth lean plus club angle, and drop can be controlled via face angle\r
+\r
+v10 -2011 05 08\r
+Modified the drum() module to add holes to attach a string\r
+Backwards compatible with no holes if the new arguments are not passed\r
+Modified pinionDrum() to make use of this new feature, but backwards compatible with no holes if the new arguments are not passed\r
+Summary of code changes:\r
+https://github.com/syvwlch/Printable-Clock-Project/commit/04b645cd6fdbdcf74b8ed0ee9eb0a2f971e974f5\r
+\r
+v11 - 2011 05 18\r
+Modified to support the ratcheting drum designed by rustedrobot: http://www.thingiverse.com/thing:8555\r
+Backwards compatible, one-piece drum still available as an option\r
+*/""" ;
+    okh:hasImage :Image ;
+    okh:licensor "syvwlch" ;
+    okh:repo <https://www.thingiverse.com/thing:8155> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:8155> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Clockwork Library 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/6f/09/ce/76/d2/NegativeSpace-Clock_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/6f/09/ce/76/d2/NegativeSpace-Clock_display_large_display_large.jpg> .
+

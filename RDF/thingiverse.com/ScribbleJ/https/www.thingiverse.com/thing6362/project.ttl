@@ -1,0 +1,51 @@
+@prefix : <https://www.thingiverse.com/thing%3A6362/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Mk5DualstepperMonsterPower a okh:Module ;
+    rdfs:label "MK5 DUAL-STEPPER MONSTER POWER!" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """I've been running TheRuttmeister's Stepper powered MK5 for a while, and the primary problem I've had is that the steppers I'm using - the stock Makerbot ones, from a cupcake - are a little underpowered for the task.  The stepper misses a lot of steps if I have the tensioner tight enough to consistently grip the filament.\r
+\r
+Well, I had ANOTHER spare stepper from the ol' cupcake box and the controller too, so I wired up two controllers in parallel and two steppers on the extruder.  \r
+\r
+Now I have REAL ULTIMATE POWER!  Don't touch the filament, IT MIGHT PULL YOU IN.!\r
+\r
+\r
+\r
+Things work much better now, but this is still a work in progress because:\r
+\r
+a) To make it perfect, it needs a Wade's-style tensioner.  This delrin plunger with the bolt is a bad concept, a proper tensioner needs to provide a little bit of movement like a Wade's.\r
+\r
+COMPLETE.  And you can use it on ANY MK5, and I recommend you do.  Link here:  http://www.thingiverse.com/thing:6402\r
+\r
+\r
+b) The mount here could use some extra support like TheRuttmeister's had.\r
+\r
+UPDATE:  After several days printing on my mount made of ABS, I'm of two minds about more support.  If it were PLA, the support would probably be necessary.  Since it's ABS, it makes the thing just the tiniest bit bendy, which allows the gears to move if they aren't meshing perfectly... which is a /good/ thing, I think.\r
+\r
+UPDATE:  Well, now I've gone and designed a mount script in OpenSCAD that does supports too:  http://www.thingiverse.com/thing:6549 ... It can mount steppers at angles but it's a little more work for me to make a proper DUAL MOUNT, which I'll get to.\r
+\r
+c) The single-stepper was cooled quite nicely by the case fan but in this configuration I think I'll need to design a fan mount for the steppers specifically.\r
+\r
+UPDATE:  It's actually cooled quite nicely by the case fan still, but I'd like to design a mount when I get time, anyhow.\r
+\r
+\r
+\r
+I'm closing this as a WIP.  It still is kind of a WIP but I marked off all the checkboxes I originally wanted.  When I make new changes I'll post a derivative.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "ScribbleJ" ;
+    okh:repo <https://www.thingiverse.com/thing:6362> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/BSD-4-Clause> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:6362> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of MK5 DUAL-STEPPER MONSTER POWER! 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/24/55/d8/c3/73/20110213_001_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/24/55/d8/c3/73/20110213_001_display_large_display_large.jpg> .
+

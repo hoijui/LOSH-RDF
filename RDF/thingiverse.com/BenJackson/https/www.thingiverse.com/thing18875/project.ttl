@@ -1,0 +1,28 @@
+@prefix : <https://www.thingiverse.com/thing%3A18875/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:IdlerForDirectDriveExtruder a okh:Module ;
+    rdfs:label "Idler for Direct Drive Extruder" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """A spring-loaded bearing idler for 1.75mm filament.  It should be compatible with the Makerbot mk7 and the Makerbot mk7 Drive Gear, but I designed it for a spur gear from SDP-SI: S10T05M020S0505.  It has clearance on the bearing side so you can print a mirrored idler and use it in a dual extrusion setup.\r
+\r
+The overhead lever design was inspired by http://www.thingiverse.com/thing:15718 .  That design has no filament guide which is required with a spur gear.  The idler bearing also seems to contact at slightly the wrong position when I printed it.\r
+\r
+The body was insprired by http://www.thingiverse.com/thing:13727 which I quite like except for the fact that it protrudes on the idler side preventing use with dual extrusion.  I also find that the force required can flex the lower part of the base because of the slight bounciness of the spur gear.  The hinge on that design is also superior to mine but I did not see a good way to incorporate it in my design.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "BenJackson" ;
+    okh:repo <https://www.thingiverse.com/thing:18875> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:18875> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Idler for Direct Drive Extruder 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/f7/d9/95/1a/ba/P1000310_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/f7/d9/95/1a/ba/P1000310_display_large_display_large.jpg> .
+

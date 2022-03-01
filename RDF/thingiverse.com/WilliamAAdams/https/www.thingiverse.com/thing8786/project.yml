@@ -1,0 +1,48 @@
+__meta:
+  branch: null
+  created-at: '2011-05-25T12:24:54+00:00'
+  history: null
+  last-changed: null
+  last-visited: '2022-02-25T11:00:02.616920+00:00'
+  owner: WilliamAAdams
+  path: null
+  repo: https://www.thingiverse.com/thing:8786
+  score: null
+  source: thingiverse.com
+attestation: null
+bom: null
+contribution-guide: null
+cpc-patent-class: null
+documentation-language: en
+documentation-readiness-level: odrl3
+function: "Well, I started out wanting to do some nicer fillets on my OpenScad designs, and suddenly, I have a full blown Bezier surface/solids library!\r\n\r\nThis thing is the Version 1.0 for this stuff.  I think it's actually good enough to produce some nice looking objects. \r\n\r\nThe technique used here is a linear extrusion of a bezier surface.  The surface itself is described by 16 control points in a mesh.  The machinery then takes care of rendering that to the thickness that you want.  \r\n\r\nThe workhorse module can be found in the Renderer.scad file: DisplaySurfaceMesh()\r\n\r\nThis will generate a surface, according to your mesh, and extruded to the thickness that you specify (default 1mm).  It is a solid, so it will play nicely with the other CSG functions in OpenScad.\r\n\r\nThere are a few demo/test/samples provided in the .scad files, so it should be fairly easy to make up your own examples.\r\n\r\nI use colors in the examples because it makes for some pretty pictures.  They don't affect the rendering process at all.  If you don't like the color ramps, you can select your own.\r\n\r\nAlthough this version provides only one mechanism for doing solids from the Bezier surface mesh, it has all the fundamentals for you to do other forms as well.  you don't even have to use the Bezier functions for bezier surfaces, you can use them for anything where you'd like something to vary in a parametric sort of way in your designs.  The color ramps are another example of how the Bezier curves can be used.\r\n\r\nAt any rate, there are other forms of curves, and more rendering methods to be pursued.  RapCAD is doing some interesting work, and hopefully Bezier shows up as a core feature of these various text based tools.\r\n\r\nBut, until that day... enjoy!\r\n\r\nUPDATE: Blog entry to go with it:\r\nhttp://williamaadams.wordpress.com/2011/05/26/linear-extrusion-of-bezier-surfaces/"
+image:
+  created-at: '2011-05-25T12:24:54+00:00'
+  last-changed: '2011-05-25T12:24:54+00:00'
+  last-visited: '2022-02-25T17:12:57.436920+00:00'
+  license: CC-BY-4.0
+  licensor: WilliamAAdams
+  mime-type: null
+  name: Bezier_Surface_v10_1_display_large_display_large
+  path: https:/cdn.thingiverse.com/renders/57/10/47/16/8c/Bezier_Surface_v10_1_display_large_display_large.jpg
+  perma-url: https://cdn.thingiverse.com/renders/57/10/47/16/8c/Bezier_Surface_v10_1_display_large_display_large.jpg
+  url: https://cdn.thingiverse.com/renders/57/10/47/16/8c/Bezier_Surface_v10_1_display_large_display_large.jpg
+license: CC-BY-4.0
+licensor: WilliamAAdams
+manufacturing-instructions: null
+name: Bezier Mesh Surface V1.0
+okhv: OKH-LOSHv1.0
+organization: null
+part: []
+publication: null
+readme: null
+release: null
+repo: https://www.thingiverse.com/thing:8786
+software: []
+specific-api-data: {}
+standard-compliance: null
+technology-readiness-level: ortl4
+tsdc: null
+upload-method: auto
+user-manual: null
+version: 1.0.0

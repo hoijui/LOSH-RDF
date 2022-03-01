@@ -1,0 +1,48 @@
+__meta:
+  branch: null
+  created-at: '2011-05-24T10:20:40+00:00'
+  history: null
+  last-changed: null
+  last-visited: '2022-02-25T11:00:02.616920+00:00'
+  owner: WilliamAAdams
+  path: null
+  repo: https://www.thingiverse.com/thing:8764
+  score: null
+  source: thingiverse.com
+attestation: null
+bom: null
+contribution-guide: null
+cpc-patent-class: null
+documentation-language: en
+documentation-readiness-level: odrl3
+function: "One step closer to the world.  The virtuous cycle of innovation is a very good thing.  I have received much support and ideas from syvwlch http://www.thingiverse.com/syvwlch  I have been inspired by the printable clock, and his recent curvy work.  Doing free form solids in OpenScad has been a challenging endeavor.  There is some math involved, and a lot of head scratching.\r\n\r\nThis thing is one step closer to providing Bezier surfaces that are actually printable.\r\n\r\nIn the last iteration, I had the Bezier surface rendering, but it was a pure graphic construct, which was not printable.  Now that I've discovered fire (polyhedron), I have been able to get one step closer to making the thing actually solid.  In this particular case, you can now specify the thickness of your surface, and the routine will 'do the needful'.\r\n\r\nI haven't done any experimentation with polyhedra and CSG commands in OpenScad, so I don't know what happens when you cut out a cylinder from the thing, for example.  but, again, one step closer.\r\n\r\nThe way this thing is done is to use the normals at each vertex, and project 'inward' in the opposite direction for the length of 'thickness' to get a new set of vertices.  This new set represents a triangle which is inward from the 'outer' surface.  From there, it's a matter of constructing a new surface, and the interjoining quads to seal the edges.\r\n\r\nThe approach is right for a triangle in isolation, but as can be seen from the image, leaves a lot of gaps.  The final solution there is to actually calculate a new surface inward from the original control points, and calculate the appropriate points between the surfaces directly.  But, that will be the final step.\r\n\r\nBlah, blah, blah\r\n\r\nAt any rate, solid Bezier surfaces are one step closer.\r\n\r\nUPDATE: Added a .stl file: bezier_surface_polyhedra1\r\nThis file represents using the polyhedron technique to its fullest.  So, it shows that you can in fact generate manifold solids from closed polyhedra."
+image:
+  created-at: '2011-05-24T10:20:40+00:00'
+  last-changed: '2011-05-24T10:20:40+00:00'
+  last-visited: '2022-02-25T17:11:48.327182+00:00'
+  license: CC-BY-4.0
+  licensor: WilliamAAdams
+  mime-type: null
+  name: thick_curve2_display_large_display_large
+  path: https:/cdn.thingiverse.com/renders/d2/27/4a/17/44/thick_curve2_display_large_display_large.jpg
+  perma-url: https://cdn.thingiverse.com/renders/d2/27/4a/17/44/thick_curve2_display_large_display_large.jpg
+  url: https://cdn.thingiverse.com/renders/d2/27/4a/17/44/thick_curve2_display_large_display_large.jpg
+license: CC-BY-4.0
+licensor: WilliamAAdams
+manufacturing-instructions: null
+name: Bezier Mesh Surface V0.9
+okhv: OKH-LOSHv1.0
+organization: null
+part: []
+publication: null
+readme: null
+release: null
+repo: https://www.thingiverse.com/thing:8764
+software: []
+specific-api-data: {}
+standard-compliance: null
+technology-readiness-level: ortl4
+tsdc: null
+upload-method: auto
+user-manual: null
+version: 1.0.0

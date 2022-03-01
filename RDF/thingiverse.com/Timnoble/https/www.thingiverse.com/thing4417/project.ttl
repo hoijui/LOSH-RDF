@@ -1,0 +1,36 @@
+@prefix : <https://www.thingiverse.com/thing%3A4417/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:LasercutBeam a okh:Module ;
+    rdfs:label "laser(cut) beam" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is a simple, 3-part modular template for making a boxy beam with a 120mm x 120mm cross section.  I'm using it in a robotics project, but I would imagine that it could be repurposed for all sorts of other things.  print as many sections as you need and you can extend your beam as far as you like!  \r
+\r
+Please note that I haven't included any end pieces because I haven't figured out how this part will mate with the others that haven't been designed yet.\r
+\r
+The attached files assume that you're using 5mm plywood in a lasercutter.  I'm using a 30 watt Epilog Zing and have found that an offset of .08mm was necessary to compensate for the laser kerf.  The attached files include that compensatory offset.  If you're working in another material or with a radically different machine, you'll likely need to adjust the files.\r
+\r
+You may notice that the largest modular piece in the photograph which shows the individual parts doesn't have the "thumbhole" as those on the assembled beam do.  it's from an earlier version, made before I realized that I may want to get inside the beam after it's assembled to access the electronics that may run through the center channel.  that's what the circular holes are for, to be able to grab an individual panel and wrest it free of the larger beam.\r
+\r
+Another note:  I did not do any of the usual lasercutting tricks like "nodes" to add friction while allowing compression in slot/tab mating.  My results seem to be fine, yours may require extra tweaking.  As is, the beam is held tightly together by friction alone.\r
+UPDATE:  A thingiverse user asked me to share the "tricks" to which I was referring. So here's what I've come across:\r
+http://blog.ponoko.com/2008/11/03/how-to-create-better-nodes/\r
+http://blog.ponoko.com/2010/06/17/how-to-make-snug-joints-in-acrylic/\r
+http://blog.ponoko.com/2008/09/11/how-much-material-does-the-laser-burn-away/""" ;
+    okh:hasImage :Image ;
+    okh:licensor "Timnoble" ;
+    okh:repo <https://www.thingiverse.com/thing:4417> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:4417> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of laser(cut) beam 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/b5/e3/3c/cd/aa/IMAG0088_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/b5/e3/3c/cd/aa/IMAG0088_display_large_display_large.jpg> .
+

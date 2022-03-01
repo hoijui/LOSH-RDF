@@ -1,0 +1,32 @@
+@prefix : <https://www.thingiverse.com/thing%3A27805/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:FineMeshScreen a okh:Module ;
+    rdfs:label "Fine mesh screen." ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is a printable fine mesh screen, optimized for slicing with skeinforge.\r
+\r
+When trying to print a fine mesh pattern (2-3mm mesh size), I ran into issues. Skeinforge sliced the mesh into tiny squares - as it should i guess. Problem is, this takes ages to print, and the resulting object is far from ideal. Not as nice looking as it could have been and not that strong either. \r
+\r
+This mesh screen solves this by layering the perpendicular threads on top of each other. A tiny tiny gap between them ensures that skeinforge will detect them as 'lines' rather than 'squares. During the slicing process, this tiny gap is discarded and the result is a nice looking mesh pattern. \r
+ \r
+This design worked really well for me printing 1.2 mm mesh screens with 'lines' 2 mm apart and 0.45 mm wide.\r
+\r
+Im printing with a layer height of 0.3 mm and w over h ratio of 1.5.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "Wauter" ;
+    okh:repo <https://www.thingiverse.com/thing:27805> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:27805> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Fine mesh screen. 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/89/45/90/09/6a/meshscreen_round_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/89/45/90/09/6a/meshscreen_round_display_large.jpg> .
+

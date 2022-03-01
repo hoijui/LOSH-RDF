@@ -1,0 +1,33 @@
+@prefix : <https://github.com/AmboVent-1690-108/AmboVent/0.1.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Ambovent1690108 a okh:Module ;
+    rdfs:label "AmboVent 1690.108" ;
+    okh:cpcPatentClass "A61H" ;
+    okh:dataSource "github.com" ;
+    okh:documentationLanguage "en-GB" ;
+    okh:function "Ambovent is Automatic, Controlled Resuscitator Device Emergency ventilation alternative system." ;
+    okh:hasBoM :BillOfMaterials ;
+    okh:hasReadme :Readme ;
+    okh:licensor "nimrod46" ;
+    okh:repo <https://github.com/AmboVent-1690-108/AmboVent> ;
+    okh:repoHost "github.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/Unlicense> ;
+    okh:tsdc "MEC" ;
+    okh:uploadMethod "manifest" ;
+    okh:version "0.1.0" ;
+    okh:versionOf <https://github.com/AmboVent-1690-108/AmboVent> .
+
+:BillOfMaterials a okh:BoM ;
+    rdfs:label "BillOfMaterials of AmboVent 1690.108 0.1.0" ;
+    okh:fileFormat "" ;
+    okh:fileUrl <https://docs.google.com/spreadsheets/d/1yqxRhruZpR-hO4cpbX6UkSeXTlXk1JLd_4aYDwuWj4k/edit#gid=0> ;
+    okh:permaURL <https://docs.google.com/spreadsheets/d/1yqxRhruZpR-hO4cpbX6UkSeXTlXk1JLd_4aYDwuWj4k/edit#gid=0> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of AmboVent 1690.108 0.1.0" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://raw.githubusercontent.com/AmboVent-1690-108/AmboVent/v0.1.0/manifest_files/manually-created/GSCOP_documentation_projects/README.md> ;
+    okh:permaURL <https://raw.githubusercontent.com/AmboVent-1690-108/AmboVent/v0.1.0/manifest_files/manually-created/GSCOP_documentation_projects/README.md> .
+

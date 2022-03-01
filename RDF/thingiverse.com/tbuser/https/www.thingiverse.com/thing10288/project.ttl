@@ -1,0 +1,30 @@
+@prefix : <https://www.thingiverse.com/thing%3A10288/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:PinConnectors a okh:Module ;
+    rdfs:label "Pin Connectors" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """UPDATE: Instead of using this, you might want to check out V2 http://www.thingiverse.com/thing:10541\r
+\r
+When I made the Mars Rover http://www.thingiverse.com/thing:10057 I used very simple pins to bolt the parts together that relied only on a friction fit to hold in place.  That let me make very small connectors, but they're hard to print and hard to assemble and tend to break easily and/or fall apart.\r
+\r
+These types of pins should be more forgiving of printer irregularities and are easier to assemble and to disassemble.  The downside is that you can't make them very small.  The example uses a diameter of 10mm which is nice and strong, but I've gotten them to mostly work down to about 7mm before they get too thin and weak.\r
+\r
+This simple openscad library script is totally parametric so you can play with different dimensions.  It can also make different kinds of holes that are either tight but can still be rotated and repositioned, or loose loops that can spin freely when stacked to make joints or for wheels.  You might be able to use these kinds of connectors to make interesting mechanical structures where you might normally resort to using nuts/bolts or bearings (for non precision things, like toys!) Or to join parts together when you slice up large objects instead of using glue.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "tbuser" ;
+    okh:repo <https://www.thingiverse.com/thing:10288> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:10288> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Pin Connectors 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/c3/1b/ea/f6/32/5969092256_d4ab0cfe3b_o_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/c3/1b/ea/f6/32/5969092256_d4ab0cfe3b_o_display_large_display_large.jpg> .
+

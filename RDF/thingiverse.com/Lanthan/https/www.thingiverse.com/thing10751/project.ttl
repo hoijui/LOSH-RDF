@@ -1,0 +1,30 @@
+@prefix : <https://www.thingiverse.com/thing%3A10751/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:10mmMicroswitchEndstopHolderForMendel a okh:Module ;
+    rdfs:label "10mm microswitch endstop holder for mendel" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Fresh revisions of the firmwares explicitely deal with the Arduino internal 10K pull-ups and allow for dispensing of the external pull-ups, resistors, LEDs and endstop-pcb paraphernalia: a most welcome simplification.\r
+\r
+Many microswitches come with a 10 mm spacing between M2 holes. The Prusa Mendel endstop holders feature a different spacing & hole size. Fear not! editing the parametric file is straightforward, and for expediency here is also the stl file.\r
+\r
+Note: All due credit must be given to Adrian's Prusa Notes http://reprap.org/wiki/Adrians_Prusa_Notes  : he deals with 9.5mm spacing and M2.5 holes. My mod was independent of his.\r
+\r
+I adopted lever-less microswithces, they supposedly allow for better repeatability.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "Lanthan" ;
+    okh:repo <https://www.thingiverse.com/thing:10751> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:10751> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of 10mm microswitch endstop holder for mendel 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/85/fa/f3/f0/1b/microsw_holder_01_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/85/fa/f3/f0/1b/microsw_holder_01_display_large_display_large.jpg> .
+

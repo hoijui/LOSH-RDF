@@ -1,0 +1,77 @@
+@prefix : <https://www.thingiverse.com/thing%3A31412/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:LulzbotTk03dPrinter a okh:Module ;
+    rdfs:label "LulzBot TK-0 3D Printer" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """The TK-0 is LulzBot's new printer that is currently under development. You can find photos, source and print files, BOM, and more information at http://devel.lulzbot.com/TK-0/ .\r
+\r
+-RepRap 3D Printer, under development.\r
+-300mm x 300mm x 225mm build volume.\r
+-250mm/sec printing speed at 100 microns!.\r
+-Authentic Open Hardware and Free Software, not baitware. In general, design files are under the GPLv3, documentation under CC-BY-SA.\r
+-Code has already been released. Note it is a bit disorganized, but we prefer to release it as is instead of sitting on it. See various directories above. "Release Early and Often!"\r
+-All descriptions and files are subject to change. Probably every single part will be tweaked or wholly changed by final release. --This is an alpha release.\r
+-Designed by Vergent Products. Vergent, as far as we can tell, has built more RepRaps than any other organization (except us, in house, at Aleph Objects, Inc!). They have deep experience in building all sorts of hardware and PCBs. The TK-0 is the result of a decade+ running factories and an obsession with RepRap.\r
+-Vergent's Design for Excellence doc is highly educational.\r
+-Low part count, very low SKU count.\r
+-Only uses 3 different sized bolts (!)\r
+-About 20 printed parts. STLs available, as well as original Sketchup files. We are very interested in having these files redrawn in Free Software, so if you are a FreeCAD or OpenSCAD guru, please contact shop@lulzbot.com.\r
+-RAMBo electronics.\r
+-Panucatt Heatbed. 300mm version under design.\r
+-Folds up into a small box, for easier and less expensive shipping.\r
+-Approximately 11kg including power supply.\r
+-Size of unit: 585mm x 525mm x 525mm.\r
+-Size of unit when folded: 585mm x 525mm x 190mm.\r
+-Enclosed UL certified power supply (will be 24V).\r
+-Budaschnozzle 1.2.\r
+-Wade's Reloaded extruder.\r
+-All extrusion lengths the same--very easily scalable up or down.\r
+-All rod lengths the same.\r
+-All belt lengths the same.\r
+-Colored LEDs to indicate heat and cooling.\r
+-Designed for fast assembly. Can be fully assembled and calibrated in 2.5 hours. Design considerations include "assembly ergonomics" to make sure it is easy on the assembler to build!\r
+-May use borosilicate glass bed (expensive), unless alternative is found. Possibly ceramic plate.\r
+-May include thermal fuse for hot end and heatbed safety.\r
+-All parts should be easily available, with alternate vendors for each SKU.\r
+-80/20 and/or Misumi 20mm T-slot.\r
+Fan to cool heatbed when the print is finished.\r
+-Vertical X.\r
+-Extremely robust. This machine has undergone torture tests running for days on end. You can download the torture test gcode, Zipper.gcode.\r
+-Does not skip steps. Major design consideration.\r
+-Hot end cover/shield with integrated fans. Part not done yet.\r
+-LM8EUU bearings.\r
+-Marlin firmware.\r
+-Pronterface printer control.\r
+-Comes with 0.50mm, 0.35mm, 0.25mm nozzles.\r
+-Designed to have easily replaceable toolheads, such as laser, adhesive applications, light CNC, pick & place, solder paste, glue, selective solder.\r
+-At present swapping out the X carriage only requires removing 4 bolts. It may be designed with quick release.\r
+-Will likely include mechanism for changing out print surface.\r
+-Z/X ends are being redesigned to entirely eliminate wobble. This is under active development. Files pushed when available.\r
+-Can print ABS and PLA. We have an experimental option for printing Polycarbonate ("bullet proof glass"): the Polyschnozzle. See this youtube video.\r
+-Will be 100% RoHS compliant.\r
+-Designed for safety.\r
+-Dual extruder capable. See photos here (http://www.alephobjects.com/photos/extruders/dual/whuf/) and here (http://www.alephobjects.com/photos/plastic/random_objects/2012Q3/dual_whuf/) for examples of running dual extruders on our A0-100. We also sponsor dual support in Slic3r.\r
+-The TK-0 name comes from "Tee kay ooooh!". AKA, technical knock out. :)\r
+-Will work out-of-the-box when shipped to end users. No calibration or monkeying around. --Just like the AO-100. :)\r
+-Will come with a very nice manual, like the AO-100 manual.\r
+-This archive is available via rsync at rsync://rsync.lulzbot.com/devel/lulzbot/TK-0/ Currently 460 megs.\r
+-If you have any questions feel free to contact us at shop@lulzbot.com.\r
+-Oh, and buy stuff at our webstore and we will flourish and continue to release great designs to the public under truly free licenses with no catches whatsoever. We will succeed or go broke, but we will not go proprietary!""" ;
+    okh:hasImage :Image ;
+    okh:licensor "LulzBot" ;
+    okh:repo <https://www.thingiverse.com/thing:31412> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:31412> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of LulzBot TK-0 3D Printer 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/21/7a/a4/a2/f9/0_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/21/7a/a4/a2/f9/0_display_large.jpg> .
+

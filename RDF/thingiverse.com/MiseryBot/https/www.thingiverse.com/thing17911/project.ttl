@@ -1,0 +1,42 @@
+@prefix : <https://www.thingiverse.com/thing%3A17911/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Gen4LcdAndButtonsInterfaceDiy a okh:Module ;
+    rdfs:label "Gen4 LCD and Buttons Interface DIY " ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """I wanted to run Jetty's accelerated firmware ( http://www.thingiverse.com/thing:15380 ) but at the time it required the LCD* ( http://www.makerbot.com/docs/makerbot-gen4-interface-kit/ ). So I went to buy one from MakerBot, but it is discontinued.\r
+\r
+Well . . . why not hack** one up?\r
+\r
+All the parts are less than $60.\r
+\r
+Fair warning, I have an interest in Crystalfontz which is why I got the LCD there :) The rest of the parts have Digi-Key links in the BOM.\r
+\r
+The case is printable on a CupCake or TOM, but the slicing I did is horrible. Hopefully someone will care enough to fix the slicing. What I have works, it just looks like a certain Mary Shelley lead character.\r
+\r
+You will need:\r
+) the parts on the BOM\r
+) wire ( you can strip a USB cable like I did)\r
+) soldering iron & solder\r
+) heat shrink\r
+\r
+* No LCD version now available:  http://www.thingiverse.com/thing:17855 )\r
+\r
+** I do mean HACK, this is the sloppiest SCAD + slice + print + glue + wiring ever! Blech!""" ;
+    okh:hasImage :Image ;
+    okh:licensor "MiseryBot" ;
+    okh:repo <https://www.thingiverse.com/thing:17911> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:17911> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Gen4 LCD and Buttons Interface DIY  1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/4f/46/c0/da/4c/Render_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/4f/46/c0/da/4c/Render_display_large_display_large.jpg> .
+

@@ -1,14 +1,15 @@
-@prefix : <https://wikifactory.com/@ssadhitya/hologram/c51d50192fcd342f6f94f2ee8a3d337895016cbb/> .
+@prefix : <https://wikifactory.com/%40ssadhitya/hologram/c51d50192fcd342f6f94f2ee8a3d337895016cbb/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 :Holocomm a okh:Module ;
     rdfs:label "Holo-Comm" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "A Hologram is a three- dimensional image formed by the interference of light beams from a laser or other coherent light source. Holo-Comm uses the principle of Pepper's Ghost to create an illusion of Hologram which can be used in the field of communication." ;
-    okh:hasComponent :Holoforlasercutting,
-        :Index,
-        :Test ;
+    okh:hasComponent :Interfaceindex,
+        :Interfacetest,
+        :LaserCutholoforlasercutting ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "Adhitya SS" ;
@@ -16,21 +17,9 @@
     okh:repo <https://wikifactory.com/@ssadhitya/hologram> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
     okh:version "c51d50192fcd342f6f94f2ee8a3d337895016cbb" ;
     okh:versionOf <https://wikifactory.com/@ssadhitya/hologram> .
-
-:Holoforlasercutting a okh:Part ;
-    rdfs:label "Holo_for_Laser_cutting" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Adhitya SS" ;
-    okh:source :Holoforlasercutting_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Holoforlasercutting_source a okh:SourceFile ;
-    rdfs:label "Source File of Holo_for_Laser_cutting of Holo-Comm c51d50192fcd342f6f94f2ee8a3d337895016cbb" ;
-    okh:fileFormat "DXF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1008/holo-for-laser-cutting.dxf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMzg5NQ==> .
 
 :Image a okh:Image ;
     rdfs:label "Image of Holo-Comm c51d50192fcd342f6f94f2ee8a3d337895016cbb" ;
@@ -38,35 +27,48 @@
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1008/final-slide-1.jpg> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToxMzg4Ng==> .
 
-:Index a okh:Part ;
-    rdfs:label "index" ;
+:Interfaceindex a okh:Part ;
+    rdfs:label "Interface/index" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Adhitya SS" ;
-    okh:source :Index_source ;
+    okh:source :Interfaceindex_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Index_source a okh:SourceFile ;
-    rdfs:label "Source File of index of Holo-Comm c51d50192fcd342f6f94f2ee8a3d337895016cbb" ;
+:Interfaceindex_source a okh:SourceFile ;
+    rdfs:label "Source File of Interface/index of Holo-Comm c51d50192fcd342f6f94f2ee8a3d337895016cbb" ;
     okh:fileFormat "HTML" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1008/index.html> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToxMzkwNg==> .
+
+:Interfacetest a okh:Part ;
+    rdfs:label "Interface/test" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Adhitya SS" ;
+    okh:source :Interfacetest_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Interfacetest_source a okh:SourceFile ;
+    rdfs:label "Source File of Interface/test of Holo-Comm c51d50192fcd342f6f94f2ee8a3d337895016cbb" ;
+    okh:fileFormat "HTML" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1008/test.html> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMzkwNw==> .
+
+:LaserCutholoforlasercutting a okh:Part ;
+    rdfs:label "Laser Cut/Holo_for_Laser_cutting" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Adhitya SS" ;
+    okh:source :LaserCutholoforlasercutting_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:LaserCutholoforlasercutting_source a okh:SourceFile ;
+    rdfs:label "Source File of Laser Cut/Holo_for_Laser_cutting of Holo-Comm c51d50192fcd342f6f94f2ee8a3d337895016cbb" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1008/holo-for-laser-cutting.dxf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMzg5NQ==> .
 
 :Readme a okh:Readme ;
     rdfs:label "Readme of Holo-Comm c51d50192fcd342f6f94f2ee8a3d337895016cbb" ;
     okh:fileFormat "MD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1008/readme-3.md> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToxMzkxNQ==> .
-
-:Test a okh:Part ;
-    rdfs:label "test" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Adhitya SS" ;
-    okh:source :Test_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Test_source a okh:SourceFile ;
-    rdfs:label "Source File of test of Holo-Comm c51d50192fcd342f6f94f2ee8a3d337895016cbb" ;
-    okh:fileFormat "HTML" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1008/test.html> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMzkwNw==> .
 

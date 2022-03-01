@@ -1,0 +1,50 @@
+@prefix : <https://www.thingiverse.com/thing%3A8466/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ShoelacesAttachment a okh:Module ;
+    rdfs:label "Shoelaces Attachment" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This thing provides a way of easily attaching a packaged electronics device to your shoelaces or various other locations. A large rounded rectagular prism cutout holds the packaged device in the centre, at the base of this there are "arms" that spread out from the central part with cutouts to pass laces over and a sharp egded raised lip to keep them there. This relies on a friction fit to keep the packaged device in place so if you find that yours is too loose you may need to pad it out with tape etc.\r
+\r
+In this case it was used with the output of the Customisable Electronic Device Packaging script http://www.thingiverse.com/thing:7658\r
+\r
+Note:\r
+you will need the mouse_ears_test.scad file in the same folder for the mouse ears to compile with this file properly\r
+\r
+Changes from previous versions:\r
+0.6\r
+ - 	reduced tolerance from 0.45-0.3\r
+0.5\r
+ - 	Fixed faulty internal breadth calculation to use held_item_b instead of held_item_h\r
+ - 	New module to handle strange shaped cutouts\r
+ - 	Corrected lack of $fn variable in rounded_cuboid_2_3 module\r
+ - 	Reduced overall height (introducing new variable total_h=15) from 30.6-15\r
+ - 	Cleaned up code\r
+0.4\r
+ - 	reduced tolerance on corners from 0.45-0.1\r
+ - 	increased tolerance from 0.3-0.45\r
+ - 	used newer implementation of rounded cuboid module\r
+0.3\r
+ - 	added mouse ears\r
+ - 	changed held item dimensions to those of mass produced SLA clear resin WIMUv3 Packaging i.e. 30.6 32.5 38.5\r
+0.2\r
+ - 	added cutout_radius variable\r
+0.1\r
+ - 	First attempt""" ;
+    okh:hasImage :Image ;
+    okh:licensor "M_G" ;
+    okh:repo <https://www.thingiverse.com/thing:8466> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:8466> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Shoelaces Attachment 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/d4/54/68/60/5d/WIMUv3_Laces_Holder_v0.1_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/d4/54/68/60/5d/WIMUv3_Laces_Holder_v0.1_display_large_display_large.jpg> .
+

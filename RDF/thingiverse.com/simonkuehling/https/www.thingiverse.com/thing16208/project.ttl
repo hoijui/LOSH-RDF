@@ -1,0 +1,37 @@
+@prefix : <https://www.thingiverse.com/thing%3A16208/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:PrusaXCarriageWithSlimLm8uuHolder a okh:Module ;
+    rdfs:label "Prusa X Carriage with Slim LM8UU Holder" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """*** I highly recommend using the further improved design at http://www.thingiverse.com/thing:18657, that jonaskuehling uploaded recently ***\r
+\r
+Prusa Mendel x carriage using 4 lm8uu linear bearings in screw-fastened holders for easy (dis-)assembly. No zipties, no fragile and imprecise snap-in-brackets.\r
+\r
+I didn't like the snap-fit bearing holders in Greg Frosts's x carriage for the same reason why jonaskuehling made the slim LM8UU holder derivate. So I modified Greg's carriage and integrated the new bearing holders for an easy-to-disassemble x carriage.\r
+\r
+I attached the OpenSCAD files including Greg's configuration for some variables and Jonas' lm8uu-holder. I tidied up the source code a bit, but there are still some unnecessary lines left over from greg's code. The code is not overly clean and parametric due to the lack of time.\r
+\r
+UPDATE 31.01.2012\r
+- Reattached Greg's fan mount to the carriage. I updated the OpenSCAD file and added another STL.\r
+\r
+UPDATE 03.02.2012\r
+- One linear bearing could not slide into its bracket since the fan mount was blocking the path. I cut away a little clearance.\r
+Not the smartest solution, but quick and functional.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "simonkuehling" ;
+    okh:repo <https://www.thingiverse.com/thing:16208> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:16208> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Prusa X Carriage with Slim LM8UU Holder 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/e0/c5/b6/a0/c2/IMG_3243_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/e0/c5/b6/a0/c2/IMG_3243_display_large_display_large.jpg> .
+

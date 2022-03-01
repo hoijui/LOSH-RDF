@@ -1,0 +1,52 @@
+@prefix : <https://www.thingiverse.com/thing%3A8136/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:FrameUpdateFor8gearClockrevisionC a okh:Module ;
+    rdfs:label "Frame Update for 8-Gear Clock (revision C)" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Revision C updates the frame for the 8-Gear clock.\r
+Current repository for the latest version of the clockwork library:\r
+http://www.thingiverse.com/thing:8155\r
+\r
+The original 8-Gear Clock Thing was getting a little crowded, and most of the gears changed in revision B, while most the other parts changed in revision C... so I figured it was time to start a new page.\r
+\r
+(EDIT: Added an ugly, beefy alternative frame that reaches around the clock so the back and front have some solidarity. Thinking about how to encase the whole clock in a big solid cube, for some real rigidity)\r
+\r
+/* The Printable Clock Project by Syvwlch, \r
+with help from MakerBlock, rustedrobot, barrychuck, \r
+and many others at Thingiverse. \r
+\r
+8-Gear Clock\r
+\r
+Revision C\r
+- Extended frame to include escapement\r
+- Retro-fitted code clean-up from other clock designs\r
+\r
+Revision B\r
+- Changed gear ratios to make a 12-hour clock, rather than a 60-hour clock\r
+\r
+Revision A\r
+- Original release\r
+\r
+http://www.thingiverse.com/thing:8136\r
+\r
+CC-A-SA licensed.*/\r
+\r
+This script uses the MCAD involute_gear library and my own clockwork library.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "syvwlch" ;
+    okh:repo <https://www.thingiverse.com/thing:8136> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:8136> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Frame Update for 8-Gear Clock (revision C) 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/51/d8/32/73/cb/AlternativeFrame_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/51/d8/32/73/cb/AlternativeFrame_display_large_display_large.jpg> .
+

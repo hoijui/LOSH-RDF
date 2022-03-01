@@ -1,0 +1,47 @@
+@prefix : <https://wikifactory.com/%2Bfablabbratislava/a-microbit-water-rocket/3ff9a4e2d9442903eb8c77f979e991fa0bc81f60/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:AMicrobitWaterRocket a okh:Module ;
+    rdfs:label "A micro:bit water rocket" ;
+    okh:dataSource "wikifactory.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function "Did you know you can create your own water rocket by using water pipes and a water bottle? You can even add a micro:bit to the rocket and measure flight data, which can be stored and later visualised." ;
+    okh:hasComponent :WaterRocketCone ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "Pavol Krajcik" ;
+    okh:organisation "Fablab Bratislava at Slovak Centre of Scientific and Technical Information (SCSTI)" ;
+    okh:release <https://wikifactory.com/+fablabbratislava/a-microbit-water-rocket/v/3ff9a4e> ;
+    okh:repo <https://wikifactory.com/+fablabbratislava/a-microbit-water-rocket> ;
+    okh:repoHost "wikifactory.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "3ff9a4e2d9442903eb8c77f979e991fa0bc81f60" ;
+    okh:versionOf <https://wikifactory.com/+fablabbratislava/a-microbit-water-rocket> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of A micro:bit water rocket 3ff9a4e2d9442903eb8c77f979e991fa0bc81f60" ;
+    okh:fileFormat "PNG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/155741/17-beffa.png> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2Nzc4NTU=> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of A micro:bit water rocket 3ff9a4e2d9442903eb8c77f979e991fa0bc81f60" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/155741/readme-fa15f.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2Nzc4NjU=> .
+
+:WaterRocketCone a okh:Part ;
+    rdfs:label "Water Rocket Cone" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "marekmansell" ;
+    okh:source :WaterRocketCone_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> .
+
+:WaterRocketCone_source a okh:SourceFile ;
+    rdfs:label "Source File of Water Rocket Cone of A micro:bit water rocket 3ff9a4e2d9442903eb8c77f979e991fa0bc81f60" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/155741/water-rocket-cone.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2Nzc4NzA=> .
+

@@ -1,0 +1,28 @@
+@prefix : <https://www.thingiverse.com/thing%3A2166/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:OpenscadBitmapFontsModule a okh:Module ;
+    rdfs:label "OpenSCAD Bitmap Fonts Module" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """I made a quick feasibility study for 16bit Dings. We probably need about 32 bits to make it smooth, but is there a simple icon editor that could save into 1\\'s and 0\\'s ? (I just used emacs picture mode, but it\\'s a bit of a pain to work with 1\\'s and 0\\'s...)\r
+\r
+I also added an overlap parameter so that OpenScad doesn\\'t complain if 2 cubes just share a single edge. Overlap can be really small. You may pick up this idea and integrate it with the original code in some way :)\r
+\r
+OpenScad code may need to be improved. It\\'s working, but again, it\\'s just a test...""" ;
+    okh:hasImage :Image ;
+    okh:licensor "danielkschneider" ;
+    okh:repo <https://www.thingiverse.com/thing:2166> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:2166> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of OpenSCAD Bitmap Fonts Module 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/0d/4b/84/b2/b5/dings-16bit_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/0d/4b/84/b2/b5/dings-16bit_display_large_display_large.jpg> .
+

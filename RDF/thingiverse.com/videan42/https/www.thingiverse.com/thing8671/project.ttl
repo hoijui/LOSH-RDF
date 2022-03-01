@@ -1,0 +1,30 @@
+@prefix : <https://www.thingiverse.com/thing%3A8671/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:UnicornHorn a okh:Module ;
+    rdfs:label "Unicorn Horn" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """A parametric Unicorn Horn, for attaching to the foreheads of things that need their awesomeness enhanced.\r
+\r
+This is my first experiment with using OpenSCAD.  A friend of mine is making an NES case mod and he needed a unicorn horn (don't ask).  I searched through Thingiverse, but all I could find were prints for the pen plotter.  Clearly, this needed to be fixed.\r
+\r
+The design is just a parametric spiral with a bit of an offset to make it seem twisty and more natural. It's made entirely with blobs, which gives it a really cool texture when it prints.\r
+\r
+I tried to put in pins for alignment, but I could never get them to print cleanly enough.  The spiral was a good enough guide for me, but someone who's better at OpenSCAD might be able to get it to work.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "videan42" ;
+    okh:repo <https://www.thingiverse.com/thing:8671> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:8671> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Unicorn Horn 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://thingiverse-rerender-new.s3.amazonaws.com/renders/51/dd/8e/ab/31/unicorn_horn_display_large.jpg> ;
+    okh:permaURL <https://thingiverse-rerender-new.s3.amazonaws.com/renders/51/dd/8e/ab/31/unicorn_horn_display_large.jpg> .
+

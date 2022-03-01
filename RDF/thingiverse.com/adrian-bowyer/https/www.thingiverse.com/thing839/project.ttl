@@ -1,0 +1,30 @@
+@prefix : <https://www.thingiverse.com/thing%3A839/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:TheReprapClock a okh:Module ;
+    rdfs:label "The RepRap Clock" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """We needed a clock in the RepRap Lab at Bath University.  So, of course, we made one.\r
+\r
+It's shown mounted on the MDF build platform from ARNIE - the very first prototype RepRap that we made.  See RepRap history at:\r
+\r
+http://blog.reprap.org/2007/02/arnie-gives-it-shot.html\r
+\r
+Naturally the hours are in binary...""" ;
+    okh:hasImage :Image ;
+    okh:licensor "adrian-bowyer" ;
+    okh:repo <https://www.thingiverse.com/thing:839> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:839> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of The RepRap Clock 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/b6/18/b0/2c/80/reprap-clock_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/b6/18/b0/2c/80/reprap-clock_display_large_display_large.jpg> .
+

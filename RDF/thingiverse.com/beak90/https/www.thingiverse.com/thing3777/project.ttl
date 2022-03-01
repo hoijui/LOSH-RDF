@@ -1,0 +1,28 @@
+@prefix : <https://www.thingiverse.com/thing%3A3777/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ExtrusionCatcher a okh:Module ;
+    rdfs:label "Extrusion Catcher" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This very simple object aims to help solve the problem so many Makerbots are plagued by each and every day. This problem is that prints are not automated. Most Makerbots start the print by going up a little then heating up, doing a test extrusion, then the operator has to get rid of the extrusion before continuing the print.\r
+\r
+This simple add-on allows your prints to go unattended after you press build. Using this object and some custom start gcode, it will move from the center to over the bucket, do a test extrusion, wipe the nozzle on the side of the platform and start the print. Here is a video of it in action: http://www.flickr.com/photos/49325300@N07/4886162173/\r
+\r
+I have been using this for a couple weeks now and it works really well.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "beak90" ;
+    okh:repo <https://www.thingiverse.com/thing:3777> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:3777> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Extrusion Catcher 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/47/d8/21/39/2d/Extrusion_box_pic_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/47/d8/21/39/2d/Extrusion_box_pic_display_large_display_large.jpg> .
+

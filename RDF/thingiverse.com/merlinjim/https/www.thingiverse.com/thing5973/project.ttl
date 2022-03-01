@@ -1,0 +1,30 @@
+@prefix : <https://www.thingiverse.com/thing%3A5973/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ArduinoUnicornTester a okh:Module ;
+    rdfs:label "Arduino Unicorn tester" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """I finally finished printing the Unicorn.  I really wish I had gone for the two piece derivative, it would've been way easier to finish and attach everything!\r
+\r
+I used the printable linear slide.  It works so-so, but has a good amount of stiction... as do the rotary joints on the servo connectors... so I wrote up this quick sketch to let me run a burn-in test on the unicorn and try to loosen up the joints.\r
+\r
+The goal of this is to allow you to test your unicorn WITHOUT an Extruder Controller.  However, if you're comfortable re-flashing your EC, you can load it with the Arduino Bootloader and use it instead of an Arduino.  I hope the D9 port on the extruder is the same as pin 9 in Arduino - if so, it should work with the EC hooked up according to the usual instructions.  Caveat Emptor; you'll have to re-flash your EC back to the reprap / makerbot software when done, and don't come crying to me if you have to get some funky ISP programmer or it doesn't work for you or you brick your EC and Makerbot has a two month backlog on them... \r
+\r
+The current delay for a pen move is 1 second.  This seems pretty good, with a small pause at the top and bottom of each move.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "merlinjim" ;
+    okh:repo <https://www.thingiverse.com/thing:5973> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:5973> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Arduino Unicorn tester 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/site/img/default/Gears_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/site/img/default/Gears_display_large.jpg> .
+

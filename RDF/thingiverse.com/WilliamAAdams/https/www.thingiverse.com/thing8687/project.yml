@@ -1,0 +1,48 @@
+__meta:
+  branch: null
+  created-at: '2011-05-21T16:34:04+00:00'
+  history: null
+  last-changed: null
+  last-visited: '2022-02-25T11:00:02.616920+00:00'
+  owner: WilliamAAdams
+  path: null
+  repo: https://www.thingiverse.com/thing:8687
+  score: null
+  source: thingiverse.com
+attestation: null
+bom: null
+contribution-guide: null
+cpc-patent-class: null
+documentation-language: en
+documentation-readiness-level: odrl3
+function: "As the Bezier functions are essentially a development tool, I find myself in need of a 'debugger'.\r\n\r\nThis 'thing' is an update of the Bezier library.  The primary additions are a couple of debugging aids.  Specifically, the ability to draw the control points as a wireframe, and the ability to do the same with the quad lines that make up the actual surface.\r\n\r\nI have also refactored the various files.  The maths.scad files contains some additional functions that were useful, including some more matrix routines (determinant).\r\n\r\nThis release does not require the granules functions at all.  So, there is a new file \"Renderer.scad\", which is meant to encapsulate whatever rendering routines you're going to do.\r\n\r\nI've also started moving down a path whereby parameters to functions and modules are provided as arrays, rather than as individual parameters.  I'm doing this because OpenScad reads like a functional language.  As such, I assume that every function returns a meaningful value which can then be used directly by another function.  This makes tying things together very much simpler.\r\n\r\nAnd finally, in the bezier and maths and Renderer files, you will find things like being able to get a quad by simply calling a function and passing in the mesh control points, and your 'u' and 'v' values.\r\n\r\nI still have not solved the normals pointing in the wrong direction for all cases, nor the short leg syndrome on the triangles, but one step closer now."
+image:
+  created-at: '2011-05-21T16:34:04+00:00'
+  last-changed: '2011-05-21T16:34:04+00:00'
+  last-visited: '2022-02-25T17:07:05.544754+00:00'
+  license: CC-BY-4.0
+  licensor: WilliamAAdams
+  mime-type: null
+  name: Bezier_Wireframe_display_large_display_large
+  path: https:/cdn.thingiverse.com/renders/2a/a1/7c/9c/6c/Bezier_Wireframe_display_large_display_large.jpg
+  perma-url: https://cdn.thingiverse.com/renders/2a/a1/7c/9c/6c/Bezier_Wireframe_display_large_display_large.jpg
+  url: https://cdn.thingiverse.com/renders/2a/a1/7c/9c/6c/Bezier_Wireframe_display_large_display_large.jpg
+license: CC-BY-4.0
+licensor: WilliamAAdams
+manufacturing-instructions: null
+name: Bezier Mesh Surface V0.6
+okhv: OKH-LOSHv1.0
+organization: null
+part: []
+publication: null
+readme: null
+release: null
+repo: https://www.thingiverse.com/thing:8687
+software: []
+specific-api-data: {}
+standard-compliance: null
+technology-readiness-level: ortl4
+tsdc: null
+upload-method: auto
+user-manual: null
+version: 1.0.0

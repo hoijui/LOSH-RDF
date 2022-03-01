@@ -1,0 +1,28 @@
+@prefix : <https://www.thingiverse.com/thing%3A563/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Camera a okh:Module ;
+    rdfs:label "Camera" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is an updated version of my previous medium format camera. I wanted to make a simple one that I was sure was going to print. The smaller size also means it'll be in better focus when used with a Holga lens and shutter assembly.\r
+\r
+You can either just attach your own pinhole to the front or you can print out the holga attachment and mount a Holga lens and shutter assembly right on the front giving you a fully functional camera with a proper shutter.\r
+\r
+The size of the images is going to be a little funky (3.6cm wide and 6cm tall) but it works.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "langfordw" ;
+    okh:repo <https://www.thingiverse.com/thing:563> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:563> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Camera 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/f2/4e/66/ec/17/3501777889_3b99dfc71c_o_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/f2/4e/66/ec/17/3501777889_3b99dfc71c_o_display_large_display_large.jpg> .
+

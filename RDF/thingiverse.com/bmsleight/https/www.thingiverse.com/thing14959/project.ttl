@@ -1,0 +1,47 @@
+@prefix : <https://www.thingiverse.com/thing%3A14959/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Signgeneratoropenscad a okh:Module ;
+    rdfs:label "Sign-generator-openscad " ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Sign-generator-openscad \r
+\r
+So I am waiting for a Printrbot.\r
+\r
+I wanted something simple to print out as my first print. I really liked the http://www.thingiverse.com/thing:14728 Printrbot ID with number on thingiverse.com. I downloaded the files and played with it, but I wanted to customise it a little more.\r
+\r
+Have looked around at https://www.google.com/search?q=openscad+3d+text+tutorial openscad 3d text tutorials, I wanted something that was really simple to use, so here it is:-\r
+\r
+http://sign-generator.b9c.org/\r
+\r
+Go to New Sign enter some text, some dimensions, look at the preview - download the files. Viola. \r
+\r
+How it works: Django applcaiton. The text is made in to a SVG graphics file. Using inkscape, the SVG is converted to a eps files - and a PNG used for previewing. The eps is then converted to dxf using pstoedit. The a text files is generated for OpendSCAD which extrudes the dxf file.  Further details can be gained from the sources files - http://code.google.com/p/sign-generator-openscad/\r
+\r
+The server is host a very, very cheap VPS. So sometime the production of file may take up to 1 min.\r
+\r
+Thanks to OpenSCAD\r
+Thanks to MCAD https://github.com/elmom/MCAD\r
+\r
+Brook, is it February yet ?\r
+\r
+Regards,\r
+Brendan M. Sleight\r
+@bmsleight""" ;
+    okh:hasImage :Image ;
+    okh:licensor "bmsleight" ;
+    okh:repo <https://www.thingiverse.com/thing:14959> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/BSD-4-Clause> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:14959> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Sign-generator-openscad  1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/5f/10/3c/ef/c6/logo_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/5f/10/3c/ef/c6/logo_display_large_display_large.jpg> .
+

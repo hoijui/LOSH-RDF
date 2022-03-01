@@ -1,0 +1,48 @@
+__meta:
+  branch: null
+  created-at: '2011-12-30T23:01:14+00:00'
+  history: null
+  last-changed: null
+  last-visited: '2022-02-25T11:00:02.616920+00:00'
+  owner: GregFrost
+  path: null
+  repo: https://www.thingiverse.com/thing:15156
+  score: null
+  source: thingiverse.com
+attestation: null
+bom: null
+contribution-guide: null
+cpc-patent-class: null
+documentation-language: en
+documentation-readiness-level: odrl3
+function: "These X-Ends build on prusajr's and my previous work to add a few neat features.\r\n\r\nI found with the original prusa X-ends that the screws that held the x rods would slip when you tightened the X belt and that would pull the PLA bushings off the Z rods. You get a similar problem with LM8uu X ends but instead of pulling them off the rods, they flex the Z rods and as a result can cause the Z axiz to bind when you raise it closer to where the Z rods are constrained by the frame.\r\n\r\nThe push fit X ends sort of address the issue, but you would need to cut the length of the X rods very precisely.\r\n\r\nThis design has one X end closed and one open (but closeable by the insertion of a screw or piece of 3mm filament). \r\n\r\nThe closed end has a nut trap in the end so that you can install a tensioning screw. That allows you to precisely set the separation of the X ends and have them held rigidly at that distance regardless of the tensioning of the X belt without the need to cut the rods precisely.\r\n\r\nThe open X end allows you to slide the X rods all the way out (once you remove the locking screw/filament) to easily replace or service your X carriage/extruder.\r\n\r\nThe x-end-motor has another new neat feature which is a platform that allows you to screw adjust the height of an endstop landing pad. This should make adjusting the Z endstop (which is the only one that needs adjusting accurately) much simpler. I found that it was very much trial and error adjusting the traditional endstops because not only did they slide up and down the rods, but they would also tilt slightly which also affected their set-point. Getting them adjusted accurately was an exercise in frustration.\r\n\r\nTo use the Z adjustment, you need to remove the support section of the adjustment column, then insert the captive nut and screw and tighten the screw until it flexes the landing pad down slightly. Then set your Z stop a bit low and iterate the process of adjusting the screw and homing the Z until you are happy with the home position. I put a nut in both the top and bottom nut traps, but strictly speaking, only the bottom nut is essential.\r\n\r\nI have also shaved off the bump on the motor mount so that I can use 10 tooth machined T5 pullies instead of printed 8mm pullies without the belt rubbing on the bump.\r\n\r\nThere is also an optional x endstop mount on the x-end-motor that allows you to use an automotive/cherry microswitch (the kind that has 3mm mounting holes) so that you don't need special hardware to mount your endstops, you can just use m3 screws. Incorporating the endstop in the X end also allows you to maximize x travel. This can be good if you print on glass or have a build plate without a purge area to allow the x home to be off the platform so you can wipe the nozzle and do any pre-print priming. Checkout the pic from the top with the X at its home position. There is literally no travel wasted.\r\n\r\nThe model is parametric to allow for you to use 2 lm8uu or 1 lm8luu in each X end. I have uploaded both varieties.\r\n\r\nPlease refer to my github for the OpenSCAD source files: https://github.com/GregFrost/PrusaMendel"
+image:
+  created-at: '2011-12-30T23:01:14+00:00'
+  last-changed: '2011-12-30T23:01:14+00:00'
+  last-visited: '2022-02-25T22:22:10.079311+00:00'
+  license: GPL-3.0-or-later
+  licensor: GregFrost
+  mime-type: null
+  name: IMGP1371_display_large_display_large
+  path: https:/cdn.thingiverse.com/renders/b0/c1/a3/01/49/IMGP1371_display_large_display_large.jpg
+  perma-url: https://cdn.thingiverse.com/renders/b0/c1/a3/01/49/IMGP1371_display_large_display_large.jpg
+  url: https://cdn.thingiverse.com/renders/b0/c1/a3/01/49/IMGP1371_display_large_display_large.jpg
+license: GPL-3.0-or-later
+licensor: GregFrost
+manufacturing-instructions: null
+name: Rigid XEnds w/ Adjustable Endstop
+okhv: OKH-LOSHv1.0
+organization: null
+part: []
+publication: null
+readme: null
+release: null
+repo: https://www.thingiverse.com/thing:15156
+software: []
+specific-api-data: {}
+standard-compliance: null
+technology-readiness-level: ortl4
+tsdc: null
+upload-method: auto
+user-manual: null
+version: 1.0.0

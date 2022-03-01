@@ -1,0 +1,39 @@
+@prefix : <https://www.thingiverse.com/thing%3A2146/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ArduinoMidioutShieldWithFritzing a okh:Module ;
+    rdfs:label "arduino MidiOut Shield with Fritzing" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Buttons\r
+the 8 buttons per Arduinio gave us plenty of digital input pins. we no longer needed shift registers, and could use a simplified button circuit:\r
+http://www.arduino.cc/en/Tutorial/Button\r
+\r
+RGB LEDs\r
+the lighting control came after much experimentation with very bright RGB LEDs. These were broken out to their own board with independent power supply. the Arduino could not drive the high powered LEDs and placement needed to be more flexible. The Arduino controls the RGB values via three PWM pins and a common ground. The values are reversed due to the odd relays we acquired. (ie {R=256,G=256,B=0} is BLUE)\r
+\r
+\r
+Midi-out\r
+midioutThe midi-out circuit is very straight forward with only two connected pins and a dangling ground. These wires are thin and continually come loose and cause trouble.\r
+\r
+\r
+\r
+\r
+PCB\r
+Fritzing.org has wonderful layout software that was used to generate the green image above. Soon they\\'ll support eagle export, which will open up the design to any board shop. AndrÃ© KnÃ¶rig has been an amazing resource by helping with the PCB routing and our submission into the Fritzmas contest.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "mpinner" ;
+    okh:repo <https://www.thingiverse.com/thing:2146> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:2146> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of arduino MidiOut Shield with Fritzing 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/site/img/default/Gears_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/site/img/default/Gears_display_large.jpg> .
+

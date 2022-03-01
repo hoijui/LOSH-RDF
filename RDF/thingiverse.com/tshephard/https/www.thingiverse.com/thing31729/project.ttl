@@ -1,0 +1,30 @@
+@prefix : <https://www.thingiverse.com/thing%3A31729/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:FreeThingiversenotAProtest a okh:Module ;
+    rdfs:label "Free Thingiverse (not a protest)" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Recently, Makerbot closed source their printer much to the dismay of the maker community that helped endorse their brand by spreading the word of their mission to build an open source future based off the designs of reprap.\r
+\r
+Makerbot is still a good company, and we'd like to help them succeed.  To this end, let's ask them to stay true to their roots and open up Thingiverse.  Let's ask them to do a nightly drop onto Bittorrent (or similar) including all CC (or similarly licensed) designs, including images, thumbnails, 3D models, derivatives and like information.  Comments would be great too, even if the TOS needs to be updated a bit.\r
+\r
+This will help the community at large repurpose the data and create other, innovative ways of utilizing / searching / browsing it.   Thingiverse should still and will always remain the central repository for upload and a leader of makers everywhere.  \r
+\r
+Please like this object, print it, build a derivative, and forward it to your friends so we can make sure the future remains free and open.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "tshephard" ;
+    okh:repo <https://www.thingiverse.com/thing:31729> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:31729> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Free Thingiverse (not a protest) 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/dc/cb/2e/b1/92/freethingiverse_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/dc/cb/2e/b1/92/freethingiverse_display_large.jpg> .
+

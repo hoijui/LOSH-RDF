@@ -1,14 +1,15 @@
-@prefix : <https://wikifactory.com/+FieldReady/pahl002/edf53a6007ddaa06c23fab9e95bbedfcc72284f5/> .
+@prefix : <https://wikifactory.com/%2BFieldReady/pahl002/edf53a6007ddaa06c23fab9e95bbedfcc72284f5/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 :Pahl002 a okh:Module ;
     rdfs:label "PA_HL002" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "Face Shield - 4 part (Closed top)" ;
-    okh:hasComponent :Pahl002engdwgassembly,
-        :Pahl002engdwgframe,
-        :Pahl002engdwgshield ;
+    okh:hasComponent :DrawingPackpahl002engdwgassembly,
+        :DrawingPackpahl002engdwgframe,
+        :DrawingPackpahl002engdwgshield ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "Charles Barrete" ;
@@ -17,53 +18,54 @@
     okh:repo <https://wikifactory.com/+FieldReady/pahl002> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
     okh:version "edf53a6007ddaa06c23fab9e95bbedfcc72284f5" ;
     okh:versionOf <https://wikifactory.com/+FieldReady/pahl002> .
+
+:DrawingPackpahl002engdwgassembly a okh:Part ;
+    rdfs:label "Drawing Pack/PA_HL002_Eng_Dwg_Assembly" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Charles Barrete" ;
+    okh:source :DrawingPackpahl002engdwgassembly_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:DrawingPackpahl002engdwgassembly_source a okh:SourceFile ;
+    rdfs:label "Source File of Drawing Pack/PA_HL002_Eng_Dwg_Assembly of PA_HL002 edf53a6007ddaa06c23fab9e95bbedfcc72284f5" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/127067/pa_hl002_eng_dwg_assembly.PDF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NTg0NjI=> .
+
+:DrawingPackpahl002engdwgframe a okh:Part ;
+    rdfs:label "Drawing Pack/PA_HL002_Eng_Dwg_Frame" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Charles Barrete" ;
+    okh:source :DrawingPackpahl002engdwgframe_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:DrawingPackpahl002engdwgframe_source a okh:SourceFile ;
+    rdfs:label "Source File of Drawing Pack/PA_HL002_Eng_Dwg_Frame of PA_HL002 edf53a6007ddaa06c23fab9e95bbedfcc72284f5" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/127067/pa_hl002_eng_dwg_frame.PDF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NTg0NjE=> .
+
+:DrawingPackpahl002engdwgshield a okh:Part ;
+    rdfs:label "Drawing Pack/PA_HL002_Eng_Dwg_Shield" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Charles Barrete" ;
+    okh:source :DrawingPackpahl002engdwgshield_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:DrawingPackpahl002engdwgshield_source a okh:SourceFile ;
+    rdfs:label "Source File of Drawing Pack/PA_HL002_Eng_Dwg_Shield of PA_HL002 edf53a6007ddaa06c23fab9e95bbedfcc72284f5" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/127067/pa_hl002_eng_dwg_shield.PDF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NTg0NjA=> .
 
 :Image a okh:Image ;
     rdfs:label "Image of PA_HL002 edf53a6007ddaa06c23fab9e95bbedfcc72284f5" ;
     okh:fileFormat "JPG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/127067/pa_hl002_image_use-365fa.JPG> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo1NTg0MjU=> .
-
-:Pahl002engdwgassembly a okh:Part ;
-    rdfs:label "PA_HL002_Eng_Dwg_Assembly" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Charles Barrete" ;
-    okh:source :Pahl002engdwgassembly_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Pahl002engdwgassembly_source a okh:SourceFile ;
-    rdfs:label "Source File of PA_HL002_Eng_Dwg_Assembly of PA_HL002 edf53a6007ddaa06c23fab9e95bbedfcc72284f5" ;
-    okh:fileFormat "PDF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/127067/pa_hl002_eng_dwg_assembly.PDF> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NTg0NjI=> .
-
-:Pahl002engdwgframe a okh:Part ;
-    rdfs:label "PA_HL002_Eng_Dwg_Frame" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Charles Barrete" ;
-    okh:source :Pahl002engdwgframe_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Pahl002engdwgframe_source a okh:SourceFile ;
-    rdfs:label "Source File of PA_HL002_Eng_Dwg_Frame of PA_HL002 edf53a6007ddaa06c23fab9e95bbedfcc72284f5" ;
-    okh:fileFormat "PDF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/127067/pa_hl002_eng_dwg_frame.PDF> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NTg0NjE=> .
-
-:Pahl002engdwgshield a okh:Part ;
-    rdfs:label "PA_HL002_Eng_Dwg_Shield" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Charles Barrete" ;
-    okh:source :Pahl002engdwgshield_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Pahl002engdwgshield_source a okh:SourceFile ;
-    rdfs:label "Source File of PA_HL002_Eng_Dwg_Shield of PA_HL002 edf53a6007ddaa06c23fab9e95bbedfcc72284f5" ;
-    okh:fileFormat "PDF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/127067/pa_hl002_eng_dwg_shield.PDF> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NTg0NjA=> .
 
 :Readme a okh:Readme ;
     rdfs:label "Readme of PA_HL002 edf53a6007ddaa06c23fab9e95bbedfcc72284f5" ;

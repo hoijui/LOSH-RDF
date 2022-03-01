@@ -1,0 +1,26 @@
+@prefix : <https://www.thingiverse.com/thing%3A4917/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:RpmifyPluginForSkeinforge a okh:Module ;
+    rdfs:label "rpmify plugin for skeinforge" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """When using stepper-based extruders with makerbot firmware as described at http://wiki.makerbot.com/stepper-driven-extruder you need to transform the skeinforge gcode to translate M108 S codes (PWM speed) into M108 R codes (RPM).\r
+\r
+It is pretty easy to postprocess cgode to make these changes (I did it with sed initially) but it's one more thing that you need to remember to do. This is a wee skeinforge plugin to do this operation - the advantage is that then it can happen automagically when you skeinforge, and you can turn the plugin on and off as part of your usual skeinforge profiles. It can also optionally insert an initial M108 Snnn command to set the desired PWM if you're using the extruder controller rather than a stepper driver board.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "Lenbok" ;
+    okh:repo <https://www.thingiverse.com/thing:4917> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:4917> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of rpmify plugin for skeinforge 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/b2/b2/95/15/7a/rpmify_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/b2/b2/95/15/7a/rpmify_display_large_display_large.jpg> .
+

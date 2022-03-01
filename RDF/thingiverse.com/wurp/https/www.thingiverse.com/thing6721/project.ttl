@@ -1,0 +1,26 @@
+@prefix : <https://www.thingiverse.com/thing%3A6721/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:CoolingDucts a okh:Module ;
+    rdfs:label "Cooling ducts" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Cooling ducts to help with printing thin walls and generally make prints nicer.\r
+\r
+http://www.thingiverse.com/thing:5756 kept curling badly when I tried to print it (I don't yet have a heated build platform), so I sliced it up.  I uploaded a simple OpenSCAD script to slice models in a separate Thing.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "wurp" ;
+    okh:repo <https://www.thingiverse.com/thing:6721> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:6721> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Cooling ducts 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://thingiverse-rerender-new.s3.amazonaws.com/renders/24/3e/07/a2/c3/fan1_display_large.jpg> ;
+    okh:permaURL <https://thingiverse-rerender-new.s3.amazonaws.com/renders/24/3e/07/a2/c3/fan1_display_large.jpg> .
+

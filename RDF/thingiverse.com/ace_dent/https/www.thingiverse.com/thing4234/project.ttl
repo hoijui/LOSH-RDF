@@ -1,0 +1,36 @@
+@prefix : <https://www.thingiverse.com/thing%3A4234/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:MendelFrameVertexAced a okh:Module ;
+    rdfs:label "Mendel Frame Vertex - Aced" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """An optimized key component for RepRap Mendel - the frame corner bracket. This version is less prone to warping, easier to print, uses minimal material while providing excellent mechanical properties. This final version comes after several weeks of testing various different designs, although there are two key designs for comparison:\r
+\r
+[A] 'Low warp, shelled Frame-Vertex' by MarcusWolschon\r
+http://www.thingiverse.com/thing:2413 (frame-vertex 6off.stl)\r
+ +  Elegant design, uses compliance to minimize warping. Very minimal use of materials (~14cc).\r
+ -  Poor mechanical properties. Not sufficiently stiff or strong. Would require infilling with epoxy or resin which is expensive. Difficult to print due to very thin walls.\r
+\r
+[B] 'Mendel frame vertex thin shelled' by camiel\r
+http://www.thingiverse.com/thing:4173 (001010 frame vertex vc2.stl)\r
+ +  Structurally very stable. Fairly minimal use of materials (~19cc).\r
+ -  Excessive warping. Cannot be printed in ABS without a heated bed. Some thin walls tricky to print.\r
+\r
+The volume of the first 2mm of a print, is a good indicator for warp. (See image for comparison of design footprints). Design [A] uses complex geometry to reduce warp, but has a moderate footprint due to the solid base (3.0cc). Design [B] is worse than the original Mendel bracket with the greatest footprint (4.3cc). By eliminating a solid base and using shelled geometry, this design has a reduced footprint (2.5cc) and substantially less warping.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "ace_dent" ;
+    okh:repo <https://www.thingiverse.com/thing:4234> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:4234> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Mendel Frame Vertex - Aced 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/d6/d5/db/0f/54/Render_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/d6/d5/db/0f/54/Render_display_large_display_large.jpg> .
+

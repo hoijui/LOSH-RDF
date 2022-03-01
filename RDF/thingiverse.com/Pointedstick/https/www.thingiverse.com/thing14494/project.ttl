@@ -1,0 +1,43 @@
+@prefix : <https://www.thingiverse.com/thing%3A14494/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ReprapXendsForMisumiLeadscrewsAndIgusBushings a okh:Module ;
+    rdfs:label "RepRap X-ends for Misumi leadscrews and Igus bushings" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Real leadscrews are a great upgrade for RepRap printers because threaded rods can be bent, come with burrs, and really aren't designed for the kind of motion that they're used for. This Thing is a pair of X-ends that hold leadscrew nuts.  I've also redesigned the bearing column to simplify the design and properly support press-fit Igus bushings (which you can get at http://techpaladin.com), since they were really designed to fit into holes. If you find the holes too small to fit your bushings, you may need to ream or dremel them a bit.\r
+\r
+The leadscrews and nuts that these X-ends are designed for can be ordered from Misumi.\r
+\r
+Leadscrew nuts: Misumi part number MTSKR8.\r
+Leadscrews: Misumi part number MTSR8-[length in millimeters]\r
+\r
+Prusa mendels require two units of MTSR8-200.\r
+MendelMax printers require two units of MTSR8-350 (360 if using the optional thrust bearing)\r
+\r
+I've uploaded the .scad files that I modified to make these parts. They may have additional dependencies, but you should be able to grab those from Josef Prusa's github at https://github.com/prusajr/PrusaMendel/tree/master/source\r
+\r
+If you use Igus bushings, you may be interested in my Igus bushing-compatible Y-carriage bushing holders:\r
+thingiverse.com/thing:14593\r
+\r
+â€¦And X-carriage:\r
+http://www.thingiverse.com/thing:14530\r
+\r
+\r
+Update 01/02/12: Re-uploaded files with more correct hole diameters and shallower pressure pads in the X rod tunnels to make push-fit assembly less likely to crack the parts.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "Pointedstick" ;
+    okh:repo <https://www.thingiverse.com/thing:14494> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:14494> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of RepRap X-ends for Misumi leadscrews and Igus bushings 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/16/72/72/a7/ec/X-idler_igus_leadscrew_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/16/72/72/a7/ec/X-idler_igus_leadscrew_display_large_display_large.jpg> .
+

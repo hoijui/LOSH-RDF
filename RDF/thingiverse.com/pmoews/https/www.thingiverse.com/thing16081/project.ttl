@@ -1,0 +1,30 @@
+@prefix : <https://www.thingiverse.com/thing%3A16081/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:MoreFontSamplers a okh:Module ;
+    rdfs:label "More Font Samplers" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """I have spent over a week now examining the fonts supplied by polymaker.  See thing:13677 and thing:15710.  The two openscad programs I used might be of interest to others.  DroidSansMono_Regular_sphere.scad is an example of a program that writes a font on a sphere.  Its a new version of the program described in thing:15710. Symbols were added and the characters moved further apart to take advantage of the large surface area of the sphere.\r
+\r
+A second program, Quick_x2_DroidSansMono_Regular.scad, makes a quickly printed small sample of a font.  Both programs can easily be changed to examine any of the available fonts.\r
+\r
+I've looked at about 10% of the working fonts described by polymaker and have found three which seem complete: ArchitectsDaughter, DroidSansMono_Regular and DroidSerif_Italic.  Their samplers are included below.\r
+\r
+Many of the other fonts have only minor errors. For example DaysOne_Regular and Cabin_Regular have one of the o's in the percent sign filled in; that is a solid circle occurs rather than an open one.  UbuntuBold_Italic and GloriaHallelujah have the capital O filled in while DroidSerif_Bold has filled spaces in the small a and small e. Filled in objects are a common problem; OpenSans Regular, Italic, and Semibold all have  some filled letters.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "pmoews" ;
+    okh:repo <https://www.thingiverse.com/thing:16081> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:16081> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of More Font Samplers 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/c4/2e/37/28/e1/quick_fonts_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/c4/2e/37/28/e1/quick_fonts_display_large_display_large.jpg> .
+

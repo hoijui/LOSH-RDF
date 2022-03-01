@@ -1,0 +1,48 @@
+__meta:
+  branch: null
+  created-at: '2011-05-15T11:16:18+00:00'
+  history: null
+  last-changed: null
+  last-visited: '2022-02-25T11:00:02.616920+00:00'
+  owner: WilliamAAdams
+  path: null
+  repo: https://www.thingiverse.com/thing:8551
+  score: null
+  source: thingiverse.com
+attestation: null
+bom: null
+contribution-guide: null
+cpc-patent-class: null
+documentation-language: en
+documentation-readiness-level: odrl3
+function: "There have been tons of graphics rendering programs developed over the years.  Likewise, there are tons of graphics books out there in the world showing you how to use those systems.  One such system is OpenGL.  As OpenGL is utilized for everything from game development to rendering of body tissue, there are plenty of examples, and models, demonstrating how to do very interesting things.\r\n\r\nThis thing uses the current version of the Granule rendering system being developed in OpenScad, and renders one of the well known samples from OpenGL called \"bezmesh\".\r\n\r\nI found an article here: http://www.opengl.org/resources/code/samples/mjktips/grid/index.html and used the bezier mesh control points, unchanged, to render this thing.\r\n\r\nThe picture includes the entirety of the source code needed to render this thing, of course, not including the libraries files.  The key function is the bezierMeshSurface() module.  It takes 4 bezier control point curves, and does interpolation between them.\r\n\r\nFor the math hearted, the function evaluates along the curves simultaniously (u=0:1), and at each step forms a new curves from the 4 evaluated points, and then renders that curve.\r\n\r\nAlong the way, the bezier.scad library gained a couple more new modules to help render bezier curves using arrays, and honoring all three axis.\r\n\r\nThe other picture, of the arch thing is just another set of control points calling the same Bezier Mesh function.  For creating that one, I was thinking of what kind of curves I would need to make something to fit within the web of my hand.  It's essentially a saddle.  Saddles are good for many things, including joints between bones.  So, this shows how easy they are to create with just a few curves.\r\n\r\nAt the current iteration, the library relies on the granule renderer, which is about the slowest way in the world to do things.  Thus, it creates a bazillion vertices and polygons, which makes it fairly impractical for printing, although it can be done.\r\n\r\nThe next version will use faces, and thus reduce the vertex and polygon count.  Then this tool will be practical.  But for now, you can see pretty pictures.\r\n\r\nUPDATE: Added a couple of pictures of a piece that I actually printed.  The .stl is included.  It is 3Mb!  I don't know how the Thingiverse renderer will handle that.  It's an interesting point to me.  Perhaps for things that are generated, the .scad file is a better transport mechanism than .stl.  Since OpenScad is available everywhere, it's just one step away from 'uncompressing' a design from the .scad to the .stl."
+image:
+  created-at: '2011-05-15T11:16:18+00:00'
+  last-changed: '2011-05-15T11:16:18+00:00'
+  last-visited: '2022-02-25T16:59:46.554480+00:00'
+  license: CC-BY-4.0
+  licensor: WilliamAAdams
+  mime-type: null
+  name: DSC00696_display_large_display_large
+  path: https:/cdn.thingiverse.com/renders/67/cc/c4/46/46/DSC00696_display_large_display_large.jpg
+  perma-url: https://cdn.thingiverse.com/renders/67/cc/c4/46/46/DSC00696_display_large_display_large.jpg
+  url: https://cdn.thingiverse.com/renders/67/cc/c4/46/46/DSC00696_display_large_display_large.jpg
+license: CC-BY-4.0
+licensor: WilliamAAdams
+manufacturing-instructions: null
+name: Granule Bezier Mesh
+okhv: OKH-LOSHv1.0
+organization: null
+part: []
+publication: null
+readme: null
+release: null
+repo: https://www.thingiverse.com/thing:8551
+software: []
+specific-api-data: {}
+standard-compliance: null
+technology-readiness-level: ortl4
+tsdc: null
+upload-method: auto
+user-manual: null
+version: 1.0.0

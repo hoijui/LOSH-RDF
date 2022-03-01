@@ -1,0 +1,73 @@
+@prefix : <https://www.thingiverse.com/thing%3A7129/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:MiserypusherGearedStepperFilamentPusherForMk5Extruder a okh:Module ;
+    rdfs:label "MiseryPusher: Geared Stepper filament pusher for MK5 extruder" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is a retrofit stepper design for anyone wanting to get rid of the DC motor filament pusher. It uses the MK5 hot end.\r
+\r
+Edit: I ended up having to make an aluminum idler pulley. The printed ABS idler pulleys work for a while but eventually get a flat spot and stop working.\r
+\r
+The big benefit of this design is that you can cam it open and have full inspection or cleaning ability in seconds.\r
+\r
+Oh, and it uses a stepper which allows you to use the Skeinforge 35 reversal module, which will allow your prints to not suck.\r
+\r
+The spring tensioner is largely insensitive to variations in filament thickness. One less thing to fiddle with.\r
+\r
+It uses a lever design "NEW! IMPROVED! Now with MECHANICAL ADVANTAGE!" that will push really hard on the filament, but is super easy to open and close.\r
+\r
+This design uses the super cool 13.6:1 geared stepper motor from over at MakerGear:\r
+http://www.makergear.com/products/motors\r
+\r
+In case MakerGear is out of stock, whosawhatsis reports this motor should work:\r
+http://www.phidgets.com/products.php?category=23&product_id=3311\r
+\r
+With the stainelss MK5 drive pulley\r
+http://store.makerbot.com/mk5-drive-gear.html\r
+drilled out to 8mm (get these with a 20% off coupon: http://bit.ly/fUdpE9 ).\r
+\r
+The motor shaft has a support bearing, and all four motor mounting bolts are used.\r
+\r
+It bolts right down to the MK5 plexi bridge, using the original hardware.\r
+\r
+It needs two 6-32 x 4" screws. I found these as part of a toggle bolt at my local TrueValue hardware store.\r
+\r
+It also needs two springs that will fit over the 6-32 bolts. I used Century Spring Company SC-419, also from my local TrueValue hardware store.\r
+\r
+It re-uses the 8x7x22 and 6x6x17 bearings from the old MK4.\r
+\r
+The design is in OpenSCAD, and included in the file. There are some conditionals to create the files to be exported to STL for the builds. There is either an error in the OpenSCAD file or I am pushing OpenSCAD's limits, because it will only preview in "thrown together" mode now. Well, if you put a % on main body it previews OK. Oh, and the Z axis goes through the motor, which was dumb.\r
+\r
+There is a little video of it building here:\r
+http://www.youtube.com/watch?v=nRKHwylv1Ms\r
+\r
+History: This is kind of like a lot of different pushers. I like a grooved rolling idler with a bearing. I do not like the a flat bearing pressing right onto the round filament. I like the MK5 drive wheel. I like the 13.6:1 MakerGear stepper. The MK5 Extruder is working (this particular minute). I like the idea of having all four motor mount bolts used. I like having the end of the motor shaft supported in a bearing. Putting all that together with an over-center lever and spring tensioner gets us here. \r
+\r
+MK5 Wade's-Style Tensioner by ScribbleJ\r
+http://www.thingiverse.com/thing:6402\r
+\r
+MK5-6 STEPSTRUDER NEMA 23 DIRECT DRIVE PIVOTING FILAMENT PUSHER by jstkatz\r
+http://www.thingiverse.com/thing:7037\r
+\r
+Yet another extruder filament pusher by jag\r
+http://www.thingiverse.com/thing:7113\r
+\r
+Accessible Wade's Extruder by GregFrost\r
+http://www.thingiverse.com/thing:6713""" ;
+    okh:hasImage :Image ;
+    okh:licensor "MiseryBot" ;
+    okh:repo <https://www.thingiverse.com/thing:7129> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:7129> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of MiseryPusher: Geared Stepper filament pusher for MK5 extruder 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/5b/e3/42/aa/ad/MiseryPusher_OpenSCAD_ICON_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/5b/e3/42/aa/ad/MiseryPusher_OpenSCAD_ICON_display_large_display_large.jpg> .
+

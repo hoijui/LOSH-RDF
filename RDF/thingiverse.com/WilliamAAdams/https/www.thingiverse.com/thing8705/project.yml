@@ -1,0 +1,48 @@
+__meta:
+  branch: null
+  created-at: '2011-05-22T11:07:24+00:00'
+  history: null
+  last-changed: null
+  last-visited: '2022-02-25T11:00:02.616920+00:00'
+  owner: WilliamAAdams
+  path: null
+  repo: https://www.thingiverse.com/thing:8705
+  score: null
+  source: thingiverse.com
+attestation: null
+bom: null
+contribution-guide: null
+cpc-patent-class: null
+documentation-language: en
+documentation-readiness-level: odrl3
+function: "The best thing about development tools is they usually get better as you discover what's really useful to you.  In the last iteration of this stuff, a 'debugger' showed up, which allowed you to visualize the Bezier mesh.  That thing was a good step forward, but very rudimentary, still relying on 'granules' of a sort to do the drawing.\r\n\r\nThis thing makes the drawing process a bazillion (officially measured scale) times faster.  I finally pulled enough graphics books off the shelf to figure out my vector rotation problem.  It's much easier if you think in terms of polar coordinates. (shy grin)\r\n\r\nAt any rate, the primary changes are in the maths, bezier, and test_maths files, so those are uploaded here.  \r\n\r\nNow the drawing of wireframes comes from placing cylinders in the positions of lines.  The benefit here is that you can dial in both the radius, and the number of faces, to reduce the amount of drawing time. A bonus benefit is that if you make the lines thick enough, and use enough of them, you might actually be able to print a surface directly from the wireframe.\r\n\r\nOn the other hand, what this also does is make things fast enough that you can actually rapidly visualize how your bezier is turning out.  You can see both the control points, and the wireframe of the map in short order, and easily rotate and move it around.  \r\n\r\nI tell you, this is pretty exciting even for me.\r\n\r\nWith figuring out the math for the cylinder placement, I have a new lease on life, and have figured out the placement for the quad patches as well.  So, I'd say one more experimental session away from actually producing the surfaces.\r\n\r\nFinal note.  If you want to play around with the line drawing, it's in the test_bezier.scad file.  It's the 'PlaceLine()' module.  There is also a nifty little thing called a segment parser.  It takes the endpoints for a line, and returns an 'array' which is essentially a data structure, containing, origin, rotations, length.  That's all you need for the line placer to do its thing.\r\n\r\nphew..."
+image:
+  created-at: '2011-05-22T11:07:24+00:00'
+  last-changed: '2011-05-22T11:07:24+00:00'
+  last-visited: '2022-02-25T17:08:02.005414+00:00'
+  license: CC-BY-4.0
+  licensor: WilliamAAdams
+  mime-type: null
+  name: Bezier_Wireframe2_display_large_display_large
+  path: https:/cdn.thingiverse.com/renders/37/95/a2/c5/1e/Bezier_Wireframe2_display_large_display_large.jpg
+  perma-url: https://cdn.thingiverse.com/renders/37/95/a2/c5/1e/Bezier_Wireframe2_display_large_display_large.jpg
+  url: https://cdn.thingiverse.com/renders/37/95/a2/c5/1e/Bezier_Wireframe2_display_large_display_large.jpg
+license: CC-BY-4.0
+licensor: WilliamAAdams
+manufacturing-instructions: null
+name: Bezier Mesh Surface V0.7
+okhv: OKH-LOSHv1.0
+organization: null
+part: []
+publication: null
+readme: null
+release: null
+repo: https://www.thingiverse.com/thing:8705
+software: []
+specific-api-data: {}
+standard-compliance: null
+technology-readiness-level: ortl4
+tsdc: null
+upload-method: auto
+user-manual: null
+version: 1.0.0

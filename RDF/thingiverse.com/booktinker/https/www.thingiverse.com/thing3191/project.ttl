@@ -1,0 +1,40 @@
+@prefix : <https://www.thingiverse.com/thing%3A3191/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ThreadedTubes a okh:Module ;
+    rdfs:label "Threaded Tubes" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """While working on an ambitious but unfinished design, that I decided not to submit for the Makerbot giveaway contest, I came up with a way to pretension tubes based upon the idea that was raised in Forest Higgs' blog entry demonstrating that pretensioned square tubes can take a relatively large sideways load.\r
+\r
+http://technocraticanarchist.blogspot.com/2010/03/some-crude-load-tests.html\r
+\r
+My idea involves internally threading the tubes.  A setscrew with a hole through the center would be used to tension a cable or wire that is fed and tied off through the hole, thereby holding several tube sections together.\r
+\r
+I have provided a square and round tube and two different types of setscrews.   One is just a regular setscrew (tubescrew.scad).  The other variation (capturednut.scad) involves two nested screws where the bottom nut is â€œcapturedâ€ by the top screw when it is screwed upward through the tube.  A gap exists between the screws when it is being advanced up the tube.  When stationary, if tension or twist of the wire causes the top nut to screw back down, it will simply back up against the bottom screw after it rotates a quarter turn.  (That's the theory at least.)  \r
+\r
+Both types of setscrews have a fifteen millimeter hex head to allows a deep throat socket with an extension arm fed down the tube to allow tightening.  To help allow the screw to rotate independently of the wire, I would suggest using two plastic washers (PTFE, delrin?) between the knot of the wire and the setscrew.\r
+\r
+I made my own script to create a screw since linear_extrude didn't yield favorable results for me.  The downside is that rendering the screw takes quite a long time i.e. five minutes for the shorter tubescrew.scad.  \r
+\r
+When they didn't cause openscad to crash, rendering the tube sections took five hours (two hours running in Ubuntu)!  I finally created an stl of a threads (cutthreads.stl) that I could use repeatedly to create the threading in the tubes.  Once the initial three hour render of the plug was completed and exported, I used import_stl to replace the original makescrew module that took so long.  Using difference to subtract the plug from the tube yielded quick results.  The render then only took around a minute.  I would appreciate any insights into optimization of the makescrew script.\r
+\r
+Will the threads print?  Will the nested set screws work?  I am curious to see someone try printing these out.  Whether they print or not is really just a curiosity since my main reason to post this is to try to further the effort of Reprap to print even more of its parts.  \r
+\r
+By the way, I used version 2010.05.10.  There seems to be some difference in how includes are handled between the 2010.02 and this version.  Also, I included Catarina Mota's shapes.scad script just in case you don't already have it.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "booktinker" ;
+    okh:repo <https://www.thingiverse.com/thing:3191> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:3191> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Threaded Tubes 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://thingiverse-rerender-new.s3.amazonaws.com/renders/a0/38/ef/82/b6/tubescrew_display_large.jpg> ;
+    okh:permaURL <https://thingiverse-rerender-new.s3.amazonaws.com/renders/a0/38/ef/82/b6/tubescrew_display_large.jpg> .
+

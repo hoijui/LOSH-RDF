@@ -1,0 +1,34 @@
+@prefix : <https://www.thingiverse.com/thing%3A7097/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:KnotstyleParametricFunctionScriptPython a okh:Module ;
+    rdfs:label "Knot-style Parametric Function Script ( Python )" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """In my ongoing quest to eliminate or supersede all things Matlab, I present a functional solution to the problem of extruding along arbitrary contours, written in python. \r
+\r
+This is a reaction to http://www.thingiverse.com/thing:7080, itself a derivative of http://www.thingiverse.com/thing:6923. Credit to both these authors for the concept and motivation.\r
+\r
+Parameters are specified at the top of the script. A closed curve in 3D is specified as f:tâ†’(x,y,z) a parametric function of t. A closed curve in 2D is specified as f:sâ†’(x,y) and is used as the cross-section to extrude along the 3D curve.\r
+\r
+Bonus : If you manually specify the "crosssection" matrix, which is a lost of [x,y] points around the perimeter, you can extrude arbitrary cross-sections.\r
+\r
+download, cut, edit, steal, modify, repost, use, go. \r
+\r
+update : I added knot.py, which simply explicitly defines the knot equations at the top and adds a couple integer parameters, similar too http://www.thingiverse.com/thing:6923.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "mrule" ;
+    okh:repo <https://www.thingiverse.com/thing:7097> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/LGPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:7097> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Knot-style Parametric Function Script ( Python ) 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/c8/b5/f8/e9/f3/DSCF2870_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/c8/b5/f8/e9/f3/DSCF2870_display_large_display_large.jpg> .
+

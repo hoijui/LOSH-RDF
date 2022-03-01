@@ -1,0 +1,50 @@
+@prefix : <https://www.thingiverse.com/thing%3A4311/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:LinearBearing a okh:Module ;
+    rdfs:label "Linear Bearing" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """***NOTE***\r
+\r
+---------------------------------------------------------------------------------------------------------------------\r
+\r
+So, I see people "Liking" this and adding it to their collections, so I have been meaning to throw this in here for a long time, but finally got around to it today.  I modeled this  7 years ago when I was an engineering student, and after much experience with linear motion mechanisms, I just have to say, this really is not a very good design at all and I would advise against using it.  I am tempted to delete it, but have decided to leave it up.  \r
+\r
+As I look at it now, it is really a poor design, starting with the fact that you are using a "flat" surface (outside edge of 608 bearing) to traverse a curved cylindrical surface (linear rod).  Anyway, I just wanted to throw that thought out there for whatever it is worth.  Thanks.\r
+\r
+---------------------------------------------------------------------------------------------------------------------\r
+\r
+\r
+Linear Bearing designed for 608 (skate) bearings and M8 or 5/16" bolts.  (File is in Inventor 2011 format, as well as STL).  Designed for a 1/2" rod.  Two of the six bearing holes are slightly oval to allow for adjustment via the set screws.\r
+\r
+Based on Dave Kush's Design (http://www.buildyouridea.com/cnc/hblb/hblb.html)\r
+\r
+Update #1 (06-OCT-2010):\r
+  - Fixed scaling issue in STL file.\r
+\r
+\r
+Update #2 (06-OCT-2010):\r
+  - Added mounting holes.\r
+  - Added additional STL file without mounting holes.\r
+\r
+\r
+Update #3 (06-OCT-2010):\r
+  - Modified one set of bearing holes to be slighting oval.\r
+  - Added set screws to allow for bearing adjustment.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "jamesstaylor" ;
+    okh:repo <https://www.thingiverse.com/thing:4311> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:4311> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Linear Bearing 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/99/8a/f6/09/72/AssemblyRender-Orthoganal_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/99/8a/f6/09/72/AssemblyRender-Orthoganal_display_large_display_large.jpg> .
+

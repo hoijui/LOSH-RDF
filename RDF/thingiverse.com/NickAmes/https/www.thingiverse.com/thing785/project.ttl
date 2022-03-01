@@ -1,0 +1,38 @@
+@prefix : <https://www.thingiverse.com/thing%3A785/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:FlowerPot a okh:Module ;
+    rdfs:label "Flower Pot" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """A simple flower pot with a drainage hole.\r
+\r
+The default dimensions are 5.6 cm top diameter and 5 cm tall, but you can scale it to whatever you want.\r
+\r
+The gcode was produced using the default ReplicatorG skeinforge settings.\r
+\r
+Update Aug 28 2009:\r
+Fixed up mesh in blender.\r
+\r
+Update Aug 27 2009:\r
+I've found that Tower seems to cause problems when generating gcode with skeinforge.\r
+If you have problems, try turning Tower off.\r
+\r
+Update July 10 2009:\r
+Increased the wall thickness from 2 mm to 3 mm.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "NickAmes" ;
+    okh:repo <https://www.thingiverse.com/thing:785> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:785> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Flower Pot 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/12/a9/91/d1/e5/render0001_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/12/a9/91/d1/e5/render0001_display_large_display_large.jpg> .
+

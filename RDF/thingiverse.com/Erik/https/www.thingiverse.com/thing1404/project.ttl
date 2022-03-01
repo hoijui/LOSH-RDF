@@ -1,0 +1,35 @@
+@prefix : <https://www.thingiverse.com/thing%3A1404/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:BearingBracketForZposts a okh:Module ;
+    rdfs:label "Bearing bracket for Z-posts" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is a RepRap part for the Darwin design that I couldn't find, so I designed one. It will allow you to use common 608 skate bearings. This obsoletes the Z-Studding tie bracket, which require more material than this object, but needs no bearing (does need an M5 bolt and two nuts).\r
+\r
+For other bearings, simply adjust "bearing_OD" and export the model with OpenSCAD.\r
+\r
+The parametric model also includes a corner bracket based on accurate measurements of the STL file. This might be useful to someone! You can see it when you uncomment the following line:\r
+//translate([-8.8,-8.8,-32-3]) corner_bracket();\r
+\r
+If your Z-platform is not completely accurate, the slotted holes allow you to adjust the precise location of the bearings so that the platform exerts no force perpendicular to the threaded rod, just that it puts a static force on it because of its weight. This is very important to prevent a wobble which you could see across the vertical surfaces of all your prints.\r
+\r
+Because you need 7 of these, or at least 3 of these at the bottom, I tried to minimize the material needed. Of course it can be further reduced, but I didn't want to push it before trying it first.\r
+\r
+At 0.2 fill, the volume extruded is 4.8 cc and takes 25 minutes. At 0.45 fill (more than needed) it's 5.2 cc.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "Erik" ;
+    okh:repo <https://www.thingiverse.com/thing:1404> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:1404> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Bearing bracket for Z-posts 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/d1/91/b3/5c/31/IMG_1958_bearing_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/d1/91/b3/5c/31/IMG_1958_bearing_display_large_display_large.jpg> .
+

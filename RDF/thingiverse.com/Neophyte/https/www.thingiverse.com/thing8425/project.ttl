@@ -1,0 +1,30 @@
+@prefix : <https://www.thingiverse.com/thing%3A8425/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:LanyardClip a okh:Module ;
+    rdfs:label "lanyard clip" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Yeah, I know it's easier and probably cheaper to go out and buy a new lanyard but where's the fun in that?\r
+\r
+This is still a work in progress to get it working consistently.\r
+\r
+I have had trouble printing the female part successfully but due to the small base it had. I have made the base bigger and uploaded the file but haven't yet had chance to see if it prints good.\r
+\r
+I do need to make a slight adjustment to the male part as it doesn't clip into an "original" female consistently.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "Neophyte" ;
+    okh:repo <https://www.thingiverse.com/thing:8425> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:8425> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of lanyard clip 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://thingiverse-rerender-new.s3.amazonaws.com/renders/7d/03/31/e2/f6/lanyard_clip_female_display_large.jpg> ;
+    okh:permaURL <https://thingiverse-rerender-new.s3.amazonaws.com/renders/7d/03/31/e2/f6/lanyard_clip_female_display_large.jpg> .
+

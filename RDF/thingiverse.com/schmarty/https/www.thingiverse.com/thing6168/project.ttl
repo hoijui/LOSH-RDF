@@ -1,0 +1,35 @@
+@prefix : <https://www.thingiverse.com/thing%3A6168/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:HersheyFontsInSvg a okh:Module ;
+    rdfs:label "Hershey Fonts in SVG" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Making text for Unicorn or EggBot plots isn't always a fun process. Most tools require you to convert text into paths, and even then you get the outlines of shapes, which can often turn messy at small sizes.\r
+\r
+mifga pointed me towards the Hershey fonts[1]. They're a set of fonts for vector plotters named after creator Dr. A. V. Hershey who made them for the National Bureau of Standards.\r
+\r
+These files are in a weird, weird, format. But after some normalizing, wailing, and gnashing of teeth, I was able to write some code to parse them and spit them back out as SVG! Now you can use these fonts in your Unicorn drawings.\r
+\r
+Each SVG contains a layout of one of the Hershey fonts. The hershey_svg.zip file below contains all of the SVG files. The hershey.zip file contains the (cleaned up) original .jhf files. math-drawing.svg is just an example of using these glyphs, including scaling and stretching. I think the result is nice!\r
+\r
+To use these in Unicorn plots, you'll want to grab my Unicorn G-Code extension for Inkscape[2].\r
+\r
+[1] Hershey fonts - http://emergent.unpythonic.net/software/hershey\r
+[2] Unicorn output for Inkscape - http://www.thingiverse.com/thing:5986""" ;
+    okh:hasImage :Image ;
+    okh:licensor "schmarty" ;
+    okh:repo <https://www.thingiverse.com/thing:6168> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:6168> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Hershey Fonts in SVG 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/b7/86/90/2a/23/hooray-math_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/b7/86/90/2a/23/hooray-math_display_large_display_large.jpg> .
+

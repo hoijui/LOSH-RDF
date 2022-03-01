@@ -1,20 +1,21 @@
-@prefix : <https://wikifactory.com/+OttoDIY/dizzy/5113b0eaf4ccb0f5b1db11492eb074c8dac6385f/> .
+@prefix : <https://wikifactory.com/%2BOttoDIY/dizzy/5113b0eaf4ccb0f5b1db11492eb074c8dac6385f/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 :Dizzy a okh:Module ;
     rdfs:label "Dizzy" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "I was inspired a long time ago by the BOB Biped robotThe main difference with this Biped is the inclusion of the 5th servo, which allows the head to rotate 360 with the correct servo and detect obstacles.Made by: @Geoffro" ;
-    okh:hasComponent :Dizzybottom,
-        :Dizzyframev2,
-        :Dizzyhead,
-        :Dizzyheadback,
-        :Dizzyleftfoot,
-        :Dizzylegs,
-        :Dizzymidring,
-        :Dizzyrightfoot,
-        :Headwithpanel ;
+    okh:hasComponent :3dPrintingdizzybottom,
+        :3dPrintingdizzyframev2,
+        :3dPrintingdizzyhead,
+        :3dPrintingdizzyheadback,
+        :3dPrintingdizzyleftfoot,
+        :3dPrintingdizzylegs,
+        :3dPrintingdizzymidring,
+        :3dPrintingdizzyrightfoot,
+        :3dPrintingheadwithpanel ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "Camilo Parra Palacio" ;
@@ -23,122 +24,123 @@
     okh:repo <https://wikifactory.com/+OttoDIY/dizzy> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
     okh:version "5113b0eaf4ccb0f5b1db11492eb074c8dac6385f" ;
     okh:versionOf <https://wikifactory.com/+OttoDIY/dizzy> .
 
-:Dizzybottom a okh:Part ;
-    rdfs:label "Dizzy_Bottom" ;
+:3dPrintingdizzybottom a okh:Part ;
+    rdfs:label "3D Printing/Dizzy_Bottom" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Dizzybottom_source ;
+    okh:source :3dPrintingdizzybottom_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Dizzybottom_source a okh:SourceFile ;
-    rdfs:label "Source File of Dizzy_Bottom of Dizzy 5113b0eaf4ccb0f5b1db11492eb074c8dac6385f" ;
+:3dPrintingdizzybottom_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Printing/Dizzy_Bottom of Dizzy 5113b0eaf4ccb0f5b1db11492eb074c8dac6385f" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/16155/dizzybottom.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToxOTQzNDA=> .
 
-:Dizzyframev2 a okh:Part ;
-    rdfs:label "Dizzy_Frame_V2" ;
+:3dPrintingdizzyframev2 a okh:Part ;
+    rdfs:label "3D Printing/Dizzy_Frame_V2" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Dizzyframev2_source ;
+    okh:source :3dPrintingdizzyframev2_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Dizzyframev2_source a okh:SourceFile ;
-    rdfs:label "Source File of Dizzy_Frame_V2 of Dizzy 5113b0eaf4ccb0f5b1db11492eb074c8dac6385f" ;
+:3dPrintingdizzyframev2_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Printing/Dizzy_Frame_V2 of Dizzy 5113b0eaf4ccb0f5b1db11492eb074c8dac6385f" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/16155/dizzyframev2.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToxOTQzMzk=> .
 
-:Dizzyhead a okh:Part ;
-    rdfs:label "Dizzy_Head" ;
+:3dPrintingdizzyhead a okh:Part ;
+    rdfs:label "3D Printing/Dizzy_Head" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Dizzyhead_source ;
+    okh:source :3dPrintingdizzyhead_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Dizzyhead_source a okh:SourceFile ;
-    rdfs:label "Source File of Dizzy_Head of Dizzy 5113b0eaf4ccb0f5b1db11492eb074c8dac6385f" ;
+:3dPrintingdizzyhead_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Printing/Dizzy_Head of Dizzy 5113b0eaf4ccb0f5b1db11492eb074c8dac6385f" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/16155/dizzyhead.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToxOTQzMzg=> .
 
-:Dizzyheadback a okh:Part ;
-    rdfs:label "Dizzy_Head_Back" ;
+:3dPrintingdizzyheadback a okh:Part ;
+    rdfs:label "3D Printing/Dizzy_Head_Back" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Dizzyheadback_source ;
+    okh:source :3dPrintingdizzyheadback_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Dizzyheadback_source a okh:SourceFile ;
-    rdfs:label "Source File of Dizzy_Head_Back of Dizzy 5113b0eaf4ccb0f5b1db11492eb074c8dac6385f" ;
+:3dPrintingdizzyheadback_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Printing/Dizzy_Head_Back of Dizzy 5113b0eaf4ccb0f5b1db11492eb074c8dac6385f" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/16155/dizzyheadback.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToxOTQzMzc=> .
 
-:Dizzyleftfoot a okh:Part ;
-    rdfs:label "Dizzy_Left_Foot" ;
+:3dPrintingdizzyleftfoot a okh:Part ;
+    rdfs:label "3D Printing/Dizzy_Left_Foot" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Dizzyleftfoot_source ;
+    okh:source :3dPrintingdizzyleftfoot_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Dizzyleftfoot_source a okh:SourceFile ;
-    rdfs:label "Source File of Dizzy_Left_Foot of Dizzy 5113b0eaf4ccb0f5b1db11492eb074c8dac6385f" ;
+:3dPrintingdizzyleftfoot_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Printing/Dizzy_Left_Foot of Dizzy 5113b0eaf4ccb0f5b1db11492eb074c8dac6385f" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/16155/dizzyleftfoot.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToxOTQzMzY=> .
 
-:Dizzylegs a okh:Part ;
-    rdfs:label "Dizzy_Legs" ;
+:3dPrintingdizzylegs a okh:Part ;
+    rdfs:label "3D Printing/Dizzy_Legs" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Dizzylegs_source ;
+    okh:source :3dPrintingdizzylegs_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Dizzylegs_source a okh:SourceFile ;
-    rdfs:label "Source File of Dizzy_Legs of Dizzy 5113b0eaf4ccb0f5b1db11492eb074c8dac6385f" ;
+:3dPrintingdizzylegs_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Printing/Dizzy_Legs of Dizzy 5113b0eaf4ccb0f5b1db11492eb074c8dac6385f" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/16155/dizzylegs.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToxOTQzMzU=> .
 
-:Dizzymidring a okh:Part ;
-    rdfs:label "Dizzy_mid_ring" ;
+:3dPrintingdizzymidring a okh:Part ;
+    rdfs:label "3D Printing/Dizzy_mid_ring" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Dizzymidring_source ;
+    okh:source :3dPrintingdizzymidring_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Dizzymidring_source a okh:SourceFile ;
-    rdfs:label "Source File of Dizzy_mid_ring of Dizzy 5113b0eaf4ccb0f5b1db11492eb074c8dac6385f" ;
+:3dPrintingdizzymidring_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Printing/Dizzy_mid_ring of Dizzy 5113b0eaf4ccb0f5b1db11492eb074c8dac6385f" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/16155/dizzymidring.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToxOTQzNDM=> .
 
-:Dizzyrightfoot a okh:Part ;
-    rdfs:label "Dizzy_Right_Foot" ;
+:3dPrintingdizzyrightfoot a okh:Part ;
+    rdfs:label "3D Printing/Dizzy_Right_Foot" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Dizzyrightfoot_source ;
+    okh:source :3dPrintingdizzyrightfoot_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Dizzyrightfoot_source a okh:SourceFile ;
-    rdfs:label "Source File of Dizzy_Right_Foot of Dizzy 5113b0eaf4ccb0f5b1db11492eb074c8dac6385f" ;
+:3dPrintingdizzyrightfoot_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Printing/Dizzy_Right_Foot of Dizzy 5113b0eaf4ccb0f5b1db11492eb074c8dac6385f" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/16155/dizzyrightfoot.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToxOTQzNDI=> .
 
-:Headwithpanel a okh:Part ;
-    rdfs:label "head_with_panel" ;
+:3dPrintingheadwithpanel a okh:Part ;
+    rdfs:label "3D Printing/head_with_panel" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Headwithpanel_source ;
+    okh:source :3dPrintingheadwithpanel_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Headwithpanel_source a okh:SourceFile ;
-    rdfs:label "Source File of head_with_panel of Dizzy 5113b0eaf4ccb0f5b1db11492eb074c8dac6385f" ;
+:3dPrintingheadwithpanel_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Printing/head_with_panel of Dizzy 5113b0eaf4ccb0f5b1db11492eb074c8dac6385f" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/16155/headwithpanel.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToxOTQzNDE=> .

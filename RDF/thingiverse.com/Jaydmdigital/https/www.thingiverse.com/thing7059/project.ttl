@@ -1,0 +1,36 @@
+@prefix : <https://www.thingiverse.com/thing%3A7059/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ZcouplerForPrusaSimplifiedMendel a okh:Module ;
+    rdfs:label "Z-Coupler for Prusa simplified Mendel " ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """12/20/2013: Don't use this thing, use this one http://www.thingiverse.com/thing:22422 I modified the SCAD file to have 0.5 gap sizes and a z_rod_r of 7/2 instead of 6. I also need to enlarge the 3mm nut and screw holes but I really like the design.  
+
+-----------------------------------------------------------  
+Update, the fixed file has been uploaded, sorry for the prior issues.  
+
+Update: Apologies, not sure what happened to the V2 file to make it corrupt, but I will rebuild and re-upload this evening. I have removed it to stop anyone else from wasting their time.  
+
+Update: I added setscrew to the motor shaft end. The vibrations would walk the Z axis down slowly. This stops that. I also make it smoother to take advantage of Sprinter's speed.  
+
+The old version:  
+I edited the coupling.scad file to increase the outer diameter and thus wall thickness of the part. I also added hex recesses to capture the nut for the clamping screws.  
+
+I had issues with the originals splitting. I think it's because I used PLA (I only use PLA) so you may not need this for ABS.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "Jaydmdigital" ;
+    okh:repo <https://www.thingiverse.com/thing:7059> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:7059> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Z-Coupler for Prusa simplified Mendel  1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/39/47/17/2d/e8/5932321379_111cb5b165_b_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/39/47/17/2d/e8/5932321379_111cb5b165_b_display_large_display_large.jpg> .
+

@@ -1,0 +1,48 @@
+__meta:
+  branch: null
+  created-at: '2011-11-24T14:50:04+00:00'
+  history: null
+  last-changed: null
+  last-visited: '2022-02-25T11:00:02.616920+00:00'
+  owner: WilliamAAdams
+  path: null
+  repo: https://www.thingiverse.com/thing:13936
+  score: null
+  source: thingiverse.com
+attestation: null
+bom: null
+contribution-guide: null
+cpc-patent-class: null
+documentation-language: en
+documentation-readiness-level: odrl3
+function: "I need a funky saddle table.\r\n\r\nThis thing is the first 'solid' generated from Banate CAD directly, without the help of any other tools.  I can at least open the .stl in GLCPlayer. \r\n\r\nAt the moment, I don't export normals so if your viewer can't deal with that, it will fail.  Of course, things can only improve from here.\r\n\r\nI generated this using a Bezier surface description:\r\n\r\nlocal lshape3 = shape_bicubicsurface.new({\r\n\t\tM=cubic_bezier_M(),\r\n\t\tUMult=1,\r\n\t\tMesh = mesh,\r\n\t\tThickness = thickness,\r\n\t\tUSteps = 16,\r\n\t\tWSteps = 16,\r\n\t\t})\r\naddshape(lshape3)\r\n\r\nor more simply:\r\n\r\nbicubicsurface{Mesh = mesh, Thickness = -3}\r\n\r\n\r\nYou can specify whatever thickness you want for the sheet.  Using negative values will go 'in' from the normal vectors.\r\n\r\nOf course, while in the renderer, you can texture map the thing just so you see something interesting while you're messing with your geometry.\r\n\r\nUPDATE: Uploaded the .fab file"
+image:
+  created-at: '2011-11-24T14:50:04+00:00'
+  last-changed: '2011-11-24T14:50:04+00:00'
+  last-visited: '2022-02-25T21:27:56.953516+00:00'
+  license: CC-BY-4.0
+  licensor: WilliamAAdams
+  mime-type: null
+  name: bezier_table_display_large_display_large
+  path: https:/cdn.thingiverse.com/renders/91/e6/2a/01/07/bezier_table_display_large_display_large.jpg
+  perma-url: https://cdn.thingiverse.com/renders/91/e6/2a/01/07/bezier_table_display_large_display_large.jpg
+  url: https://cdn.thingiverse.com/renders/91/e6/2a/01/07/bezier_table_display_large_display_large.jpg
+license: CC-BY-4.0
+licensor: WilliamAAdams
+manufacturing-instructions: null
+name: Banate CAD saddle
+okhv: OKH-LOSHv1.0
+organization: null
+part: []
+publication: null
+readme: null
+release: null
+repo: https://www.thingiverse.com/thing:13936
+software: []
+specific-api-data: {}
+standard-compliance: null
+technology-readiness-level: ortl4
+tsdc: null
+upload-method: auto
+user-manual: null
+version: 1.0.0

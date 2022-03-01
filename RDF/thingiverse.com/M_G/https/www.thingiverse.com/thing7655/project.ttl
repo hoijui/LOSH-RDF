@@ -1,0 +1,34 @@
+@prefix : <https://www.thingiverse.com/thing%3A7655/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:MakerbotCoinHolderUpdated a okh:Module ;
+    rdfs:label "MakerBot Coin Holder Updated!" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """A holder for the metal coin that comes with your MakerBot. This allows it to be attached to the spare motor mounting holes on top of your machine using standard M3 bolts. Now with less drilling, sharp corners and rebuilding of your ABP!\r
+\r
+Changes from previous versions:\r
+1.2\r
+	Raised above z=0 plane to prevent damage to ABP/HBP etc. (Sincere apologies to all affected!)\r
+	Fixed naming issue "hole_diameter" vs "hole_diameters" so that bolt holes are correct diameter\r
+	Gave it rounded corners using "rounded_cuboid" module\r
+1.1 (DELETED)\r
+	Increased hole_diameter from 3.1 to 3.2\r
+	Increased coin diamter from 37 to 39\r
+	Replaced hard coded numbers with named variables""" ;
+    okh:hasImage :Image ;
+    okh:licensor "M_G" ;
+    okh:repo <https://www.thingiverse.com/thing:7655> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:7655> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of MakerBot Coin Holder Updated! 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/49/42/93/0c/5e/DSC00111_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/49/42/93/0c/5e/DSC00111_display_large_display_large.jpg> .
+

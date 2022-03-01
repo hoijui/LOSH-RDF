@@ -35,6 +35,7 @@
     okh:repoHost "github.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
     okh:tsdc "MEC" ;
+    okh:uploadMethod "manifest" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://github.com/opensourceimaging/cosi-measure/tree/05c9b61cfbde511fc26578b4dd1ab3c4c9aa9163/> .
 
@@ -43,146 +44,170 @@
     okh:documentationLanguage "en-GB" ;
     okh:export :AluminiumPlate1_export1,
         :AluminiumPlate1_export2 ;
+    okh:hasOuterDimensions :AluminiumPlate1_OuterDimensions ;
     okh:licensor "Lukas Winter" ;
     okh:material "EN AW-2017A" ;
     okh:source :AluminiumPlate1_source ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
     okh:tsdc "CNC" .
 
+:AluminiumPlate1_OuterDimensions a okh:OuterDimensions ;
+    rdfs:label "Outer Dimensions of Aluminium Plate 1" ;
+    okh:openSCAD "cube(size = [1084,140,10])" ;
+    okh:unit "mm" .
+
 :AluminiumPlate1_export1 a okh:ExportFile ;
     rdfs:label "Export File of Aluminium Plate 1 of COSI Measure - Mechanical System 1.0.0" ;
-    okh:fileFormat "PDF" ;
-    okh:fileUrl <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Aluplates/FreeCAD/Technical%20Drawings/2018-08-02_COSImeasure_mechanical_plate1_1of2.pdf> ;
-    okh:permaURL <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Aluplates/FreeCAD/Technical%20Drawings/2018-08-02_COSImeasure_mechanical_plate1_1of2.pdf> .
+    okh:fileFormat "PDF" .
 
 :AluminiumPlate1_export2 a okh:ExportFile ;
     rdfs:label "Export File of Aluminium Plate 1 of COSI Measure - Mechanical System 1.0.0" ;
-    okh:fileFormat "PDF" ;
-    okh:fileUrl <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Aluplates/FreeCAD/Technical%20Drawings/2018-08-02_COSImeasure_mechanical_plate1_2of2.pdf> ;
-    okh:permaURL <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Aluplates/FreeCAD/Technical%20Drawings/2018-08-02_COSImeasure_mechanical_plate1_2of2.pdf> .
+    okh:fileFormat "PDF" .
 
 :AluminiumPlate1_source a okh:SourceFile ;
     rdfs:label "Source File of Aluminium Plate 1 of COSI Measure - Mechanical System 1.0.0" ;
-    okh:fileFormat "FCSTD" ;
-    okh:fileUrl <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Aluplates/FreeCAD/plate1.FCStd> ;
-    okh:permaURL <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Aluplates/FreeCAD/plate1.FCStd> .
+    okh:fileFormat "FCSTD" .
 
 :AluminiumPlate3 a okh:Part ;
     rdfs:label "Aluminium Plate 3" ;
     okh:documentationLanguage "en-GB" ;
+    okh:hasOuterDimensions :AluminiumPlate3_OuterDimensions ;
     okh:licensor "Lukas Winter" ;
     okh:material "EN AW-2017A" ;
     okh:source :AluminiumPlate3_source ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
     okh:tsdc "CNC" .
 
+:AluminiumPlate3_OuterDimensions a okh:OuterDimensions ;
+    rdfs:label "Outer Dimensions of Aluminium Plate 3" ;
+    okh:openSCAD "cube(size = [110,100,10])" ;
+    okh:unit "mm" .
+
 :AluminiumPlate3_source a okh:SourceFile ;
     rdfs:label "Source File of Aluminium Plate 3 of COSI Measure - Mechanical System 1.0.0" ;
-    okh:fileFormat "FCSTD" ;
-    okh:fileUrl <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Aluplates/FreeCAD/plate3.FCStd> ;
-    okh:permaURL <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Aluplates/FreeCAD/plate3.FCStd> .
+    okh:fileFormat "FCSTD" .
 
 :AluminiumPlate4 a okh:Part ;
     rdfs:label "Aluminium Plate 4" ;
     okh:documentationLanguage "en-GB" ;
+    okh:hasOuterDimensions :AluminiumPlate4_OuterDimensions ;
     okh:licensor "Lukas Winter" ;
     okh:material "EN AW-2017A" ;
     okh:source :AluminiumPlate4_source ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
     okh:tsdc "CNC" .
 
+:AluminiumPlate4_OuterDimensions a okh:OuterDimensions ;
+    rdfs:label "Outer Dimensions of Aluminium Plate 4" ;
+    okh:openSCAD "cube(size = [200,110,10])" ;
+    okh:unit "mm" .
+
 :AluminiumPlate4_source a okh:SourceFile ;
     rdfs:label "Source File of Aluminium Plate 4 of COSI Measure - Mechanical System 1.0.0" ;
-    okh:fileFormat "" ;
-    okh:fileUrl <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Aluplates/FreeCAD/plate4FCStd> ;
-    okh:permaURL <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Aluplates/FreeCAD/plate4FCStd> .
+    okh:fileFormat "" .
 
 :AluminiumPlate5 a okh:Part ;
     rdfs:label "Aluminium Plate 5" ;
     okh:documentationLanguage "en-GB" ;
+    okh:hasOuterDimensions :AluminiumPlate5_OuterDimensions ;
     okh:licensor "Lukas Winter" ;
     okh:material "EN AW-2017A" ;
     okh:source :AluminiumPlate5_source ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
     okh:tsdc "CNC" .
 
+:AluminiumPlate5_OuterDimensions a okh:OuterDimensions ;
+    rdfs:label "Outer Dimensions of Aluminium Plate 5" ;
+    okh:openSCAD "cube(size = [190,145,10])" ;
+    okh:unit "mm" .
+
 :AluminiumPlate5_source a okh:SourceFile ;
     rdfs:label "Source File of Aluminium Plate 5 of COSI Measure - Mechanical System 1.0.0" ;
-    okh:fileFormat "FCSTD" ;
-    okh:fileUrl <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Aluplates/FreeCAD/plate5.FCStd> ;
-    okh:permaURL <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Aluplates/FreeCAD/plate5.FCStd> .
+    okh:fileFormat "FCSTD" .
 
 :AluminiumPlate6 a okh:Part ;
     rdfs:label "Aluminium Plate 6" ;
     okh:documentationLanguage "en-GB" ;
+    okh:hasOuterDimensions :AluminiumPlate6_OuterDimensions ;
     okh:licensor "Lukas Winter" ;
     okh:material "EN AW-2017A" ;
     okh:source :AluminiumPlate6_source ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
     okh:tsdc "CNC" .
 
+:AluminiumPlate6_OuterDimensions a okh:OuterDimensions ;
+    rdfs:label "Outer Dimensions of Aluminium Plate 6" ;
+    okh:openSCAD "cube(size = [190,132,10])" ;
+    okh:unit "mm" .
+
 :AluminiumPlate6_source a okh:SourceFile ;
     rdfs:label "Source File of Aluminium Plate 6 of COSI Measure - Mechanical System 1.0.0" ;
-    okh:fileFormat "FCSTD" ;
-    okh:fileUrl <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Aluplates/FreeCAD/plate6.FCStd> ;
-    okh:permaURL <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Aluplates/FreeCAD/plate6.FCStd> .
+    okh:fileFormat "FCSTD" .
 
 :AluminiumPlate7 a okh:Part ;
     rdfs:label "Aluminium Plate 7" ;
     okh:documentationLanguage "en-GB" ;
+    okh:hasOuterDimensions :AluminiumPlate7_OuterDimensions ;
     okh:licensor "Lukas Winter" ;
     okh:material "EN AW-2017A" ;
     okh:source :AluminiumPlate7_source ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
     okh:tsdc "CNC" .
 
+:AluminiumPlate7_OuterDimensions a okh:OuterDimensions ;
+    rdfs:label "Outer Dimensions of Aluminium Plate 7" ;
+    okh:openSCAD "cube(size = [190,75,10])" ;
+    okh:unit "mm" .
+
 :AluminiumPlate7_source a okh:SourceFile ;
     rdfs:label "Source File of Aluminium Plate 7 of COSI Measure - Mechanical System 1.0.0" ;
-    okh:fileFormat "FCSTD" ;
-    okh:fileUrl <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Aluplates/FreeCAD/plate7.FCStd> ;
-    okh:permaURL <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Aluplates/FreeCAD/plate7.FCStd> .
+    okh:fileFormat "FCSTD" .
 
 :AluminiumPlate8 a okh:Part ;
     rdfs:label "Aluminium Plate 8" ;
     okh:documentationLanguage "en-GB" ;
+    okh:hasOuterDimensions :AluminiumPlate8_OuterDimensions ;
     okh:licensor "Lukas Winter" ;
     okh:material "EN AW-2017A" ;
     okh:source :AluminiumPlate8_source ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
     okh:tsdc "CNC" .
 
+:AluminiumPlate8_OuterDimensions a okh:OuterDimensions ;
+    rdfs:label "Outer Dimensions of Aluminium Plate 8" ;
+    okh:openSCAD "cube(size = [190,50,10])" ;
+    okh:unit "mm" .
+
 :AluminiumPlate8_source a okh:SourceFile ;
     rdfs:label "Source File of Aluminium Plate 8 of COSI Measure - Mechanical System 1.0.0" ;
-    okh:fileFormat "FCSTD" ;
-    okh:fileUrl <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Aluplates/FreeCAD/plate8.FCStd> ;
-    okh:permaURL <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Aluplates/FreeCAD/plate8.FCStd> .
+    okh:fileFormat "FCSTD" .
 
 :AluminiumPlate9 a okh:Part ;
     rdfs:label "Aluminium Plate 9" ;
     okh:documentationLanguage "en-GB" ;
+    okh:hasOuterDimensions :AluminiumPlate9_OuterDimensions ;
     okh:licensor "Lukas Winter" ;
     okh:material "EN AW-2017A" ;
     okh:source :AluminiumPlate9_source ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
     okh:tsdc "CNC" .
 
+:AluminiumPlate9_OuterDimensions a okh:OuterDimensions ;
+    rdfs:label "Outer Dimensions of Aluminium Plate 9" ;
+    okh:openSCAD "cube(size = [190,100,10])" ;
+    okh:unit "mm" .
+
 :AluminiumPlate9_source a okh:SourceFile ;
     rdfs:label "Source File of Aluminium Plate 9 of COSI Measure - Mechanical System 1.0.0" ;
-    okh:fileFormat "FCSTD" ;
-    okh:fileUrl <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Aluplates/FreeCAD/plate9.FCStd> ;
-    okh:permaURL <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Aluplates/FreeCAD/plate9.FCStd> .
+    okh:fileFormat "FCSTD" .
 
 :BillOfMaterials a okh:BoM ;
     rdfs:label "BillOfMaterials of COSI Measure - Mechanical System 1.0.0" ;
-    okh:fileFormat "ODS" ;
-    okh:fileUrl <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/2018-08-24_cosi-measure_v1.0_BoM_mechanical.ods> ;
-    okh:permaURL <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/2018-08-24_cosi-measure_v1.0_BoM_mechanical.ods> .
+    okh:fileFormat "ODS" .
 
 :Image a okh:Image ;
     rdfs:label "Image of COSI Measure - Mechanical System 1.0.0" ;
-    okh:fileFormat "PNG" ;
-    okh:fileUrl <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Complete%20System/design_in_png/complete_system_isometric.png> ;
-    okh:permaURL <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Complete%20System/design_in_png/complete_system_isometric.png> .
+    okh:fileFormat "PNG" .
 
 :LimitswitchholderXaxisChainholder a okh:Part ;
     rdfs:label "LimitSwitchHolder x-axis chainholder" ;
@@ -197,21 +222,15 @@
 
 :LimitswitchholderXaxisChainholder_export1 a okh:ExportFile ;
     rdfs:label "Export File of LimitSwitchHolder x-axis chainholder of COSI Measure - Mechanical System 1.0.0" ;
-    okh:fileFormat "STEP" ;
-    okh:fileUrl <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Limit%20Switch%20Holder/STP/LimitSwitchHolder_x-axis_chainholder.step> ;
-    okh:permaURL <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Limit%20Switch%20Holder/STP/LimitSwitchHolder_x-axis_chainholder.step> .
+    okh:fileFormat "STEP" .
 
 :LimitswitchholderXaxisChainholder_export2 a okh:ExportFile ;
     rdfs:label "Export File of LimitSwitchHolder x-axis chainholder of COSI Measure - Mechanical System 1.0.0" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Limit%20Switch%20Holder/STL/LimitSwitchHolder_x-axis_chainholder.stl> ;
-    okh:permaURL <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Limit%20Switch%20Holder/STL/LimitSwitchHolder_x-axis_chainholder.stl> .
+    okh:fileFormat "STL" .
 
 :LimitswitchholderXaxisChainholder_source a okh:SourceFile ;
     rdfs:label "Source File of LimitSwitchHolder x-axis chainholder of COSI Measure - Mechanical System 1.0.0" ;
-    okh:fileFormat "FCSTD" ;
-    okh:fileUrl <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Limit%20Switch%20Holder/FreeCAD/LimitSwitchHolder_x-axis_chainholder.fcstd> ;
-    okh:permaURL <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Limit%20Switch%20Holder/FreeCAD/LimitSwitchHolder_x-axis_chainholder.fcstd> .
+    okh:fileFormat "FCSTD" .
 
 :LimitswitchholderXminus a okh:Part ;
     rdfs:label "LimitSwitchHolder x-minus" ;
@@ -226,21 +245,15 @@
 
 :LimitswitchholderXminus_export1 a okh:ExportFile ;
     rdfs:label "Export File of LimitSwitchHolder x-minus of COSI Measure - Mechanical System 1.0.0" ;
-    okh:fileFormat "STEP" ;
-    okh:fileUrl <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Limit%20Switch%20Holder/STP/LimitSwitchHolder_x-minus.step> ;
-    okh:permaURL <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Limit%20Switch%20Holder/STP/LimitSwitchHolder_x-minus.step> .
+    okh:fileFormat "STEP" .
 
 :LimitswitchholderXminus_export2 a okh:ExportFile ;
     rdfs:label "Export File of LimitSwitchHolder x-minus of COSI Measure - Mechanical System 1.0.0" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Limit%20Switch%20Holder/STL/LimitSwitchHolder_x-minus.stl> ;
-    okh:permaURL <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Limit%20Switch%20Holder/STL/LimitSwitchHolder_x-minus.stl> .
+    okh:fileFormat "STL" .
 
 :LimitswitchholderXminus_source a okh:SourceFile ;
     rdfs:label "Source File of LimitSwitchHolder x-minus of COSI Measure - Mechanical System 1.0.0" ;
-    okh:fileFormat "FCSTD" ;
-    okh:fileUrl <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Limit%20Switch%20Holder/FreeCAD/LimitSwitchHolder_x-minus.fcstd> ;
-    okh:permaURL <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Limit%20Switch%20Holder/FreeCAD/LimitSwitchHolder_x-minus.fcstd> .
+    okh:fileFormat "FCSTD" .
 
 :LimitswitchholderXplus a okh:Part ;
     rdfs:label "LimitSwitchHolder x-plus" ;
@@ -255,21 +268,15 @@
 
 :LimitswitchholderXplus_export1 a okh:ExportFile ;
     rdfs:label "Export File of LimitSwitchHolder x-plus of COSI Measure - Mechanical System 1.0.0" ;
-    okh:fileFormat "STEP" ;
-    okh:fileUrl <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Limit%20Switch%20Holder/STP/LimitSwitchHolder_x-plus.step> ;
-    okh:permaURL <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Limit%20Switch%20Holder/STP/LimitSwitchHolder_x-plus.step> .
+    okh:fileFormat "STEP" .
 
 :LimitswitchholderXplus_export2 a okh:ExportFile ;
     rdfs:label "Export File of LimitSwitchHolder x-plus of COSI Measure - Mechanical System 1.0.0" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Limit%20Switch%20Holder/STL/LimitSwitchHolder_x-plus.stl> ;
-    okh:permaURL <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Limit%20Switch%20Holder/STL/LimitSwitchHolder_x-plus.stl> .
+    okh:fileFormat "STL" .
 
 :LimitswitchholderXplus_source a okh:SourceFile ;
     rdfs:label "Source File of LimitSwitchHolder x-plus of COSI Measure - Mechanical System 1.0.0" ;
-    okh:fileFormat "FCSTD" ;
-    okh:fileUrl <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Limit%20Switch%20Holder/FreeCAD/LimitSwitchHolder_x-plus.fcstd> ;
-    okh:permaURL <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Limit%20Switch%20Holder/FreeCAD/LimitSwitchHolder_x-plus.fcstd> .
+    okh:fileFormat "FCSTD" .
 
 :LimitswitchholderYaxisChainholder a okh:Part ;
     rdfs:label "LimitSwitchHolder y-axis chainholder" ;
@@ -284,21 +291,15 @@
 
 :LimitswitchholderYaxisChainholder_export1 a okh:ExportFile ;
     rdfs:label "Export File of LimitSwitchHolder y-axis chainholder of COSI Measure - Mechanical System 1.0.0" ;
-    okh:fileFormat "STEP" ;
-    okh:fileUrl <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Limit%20Switch%20Holder/STP/LimitSwitchHolder_y-axis_chainholder.step> ;
-    okh:permaURL <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Limit%20Switch%20Holder/STP/LimitSwitchHolder_y-axis_chainholder.step> .
+    okh:fileFormat "STEP" .
 
 :LimitswitchholderYaxisChainholder_export2 a okh:ExportFile ;
     rdfs:label "Export File of LimitSwitchHolder y-axis chainholder of COSI Measure - Mechanical System 1.0.0" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Limit%20Switch%20Holder/STL/LimitSwitchHolder_y-axis_chainholder.stl> ;
-    okh:permaURL <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Limit%20Switch%20Holder/STL/LimitSwitchHolder_y-axis_chainholder.stl> .
+    okh:fileFormat "STL" .
 
 :LimitswitchholderYaxisChainholder_source a okh:SourceFile ;
     rdfs:label "Source File of LimitSwitchHolder y-axis chainholder of COSI Measure - Mechanical System 1.0.0" ;
-    okh:fileFormat "FCSTD" ;
-    okh:fileUrl <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Limit%20Switch%20Holder/FreeCAD/LimitSwitchHolder_y-axis_chainholder.fcstd> ;
-    okh:permaURL <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Limit%20Switch%20Holder/FreeCAD/LimitSwitchHolder_y-axis_chainholder.fcstd> .
+    okh:fileFormat "FCSTD" .
 
 :LimitswitchholderYminus a okh:Part ;
     rdfs:label "LimitSwitchHolder y-minus" ;
@@ -313,21 +314,15 @@
 
 :LimitswitchholderYminus_export1 a okh:ExportFile ;
     rdfs:label "Export File of LimitSwitchHolder y-minus of COSI Measure - Mechanical System 1.0.0" ;
-    okh:fileFormat "STEP" ;
-    okh:fileUrl <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Limit%20Switch%20Holder/STP/LimitSwitchHolder_y-minus.step> ;
-    okh:permaURL <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Limit%20Switch%20Holder/STP/LimitSwitchHolder_y-minus.step> .
+    okh:fileFormat "STEP" .
 
 :LimitswitchholderYminus_export2 a okh:ExportFile ;
     rdfs:label "Export File of LimitSwitchHolder y-minus of COSI Measure - Mechanical System 1.0.0" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Limit%20Switch%20Holder/STL/LimitSwitchHolder_y-minus.stl> ;
-    okh:permaURL <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Limit%20Switch%20Holder/STL/LimitSwitchHolder_y-minus.stl> .
+    okh:fileFormat "STL" .
 
 :LimitswitchholderYminus_source a okh:SourceFile ;
     rdfs:label "Source File of LimitSwitchHolder y-minus of COSI Measure - Mechanical System 1.0.0" ;
-    okh:fileFormat "FCSTD" ;
-    okh:fileUrl <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Limit%20Switch%20Holder/FreeCAD/LimitSwitchHolder_y-minus.fcstd> ;
-    okh:permaURL <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Limit%20Switch%20Holder/FreeCAD/LimitSwitchHolder_y-minus.fcstd> .
+    okh:fileFormat "FCSTD" .
 
 :LimitswitchholderYplus a okh:Part ;
     rdfs:label "LimitSwitchHolder y-plus" ;
@@ -342,21 +337,15 @@
 
 :LimitswitchholderYplus_export1 a okh:ExportFile ;
     rdfs:label "Export File of LimitSwitchHolder y-plus of COSI Measure - Mechanical System 1.0.0" ;
-    okh:fileFormat "STEP" ;
-    okh:fileUrl <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Limit%20Switch%20Holder/STP/LimitSwitchHolder_y-plus.step> ;
-    okh:permaURL <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Limit%20Switch%20Holder/STP/LimitSwitchHolder_y-plus.step> .
+    okh:fileFormat "STEP" .
 
 :LimitswitchholderYplus_export2 a okh:ExportFile ;
     rdfs:label "Export File of LimitSwitchHolder y-plus of COSI Measure - Mechanical System 1.0.0" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Limit%20Switch%20Holder/STL/LimitSwitchHolder_y-plus.stl> ;
-    okh:permaURL <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Limit%20Switch%20Holder/STL/LimitSwitchHolder_y-plus.stl> .
+    okh:fileFormat "STL" .
 
 :LimitswitchholderYplus_source a okh:SourceFile ;
     rdfs:label "Source File of LimitSwitchHolder y-plus of COSI Measure - Mechanical System 1.0.0" ;
-    okh:fileFormat "FCSTD" ;
-    okh:fileUrl <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Limit%20Switch%20Holder/FreeCAD/LimitSwitchHolder_y-plus.fcstd> ;
-    okh:permaURL <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Limit%20Switch%20Holder/FreeCAD/LimitSwitchHolder_y-plus.fcstd> .
+    okh:fileFormat "FCSTD" .
 
 :LimitswitchholderZaxis1of2 a okh:Part ;
     rdfs:label "LimitSwitchHolder z-axis 1of2" ;
@@ -371,21 +360,15 @@
 
 :LimitswitchholderZaxis1of2_export1 a okh:ExportFile ;
     rdfs:label "Export File of LimitSwitchHolder z-axis 1of2 of COSI Measure - Mechanical System 1.0.0" ;
-    okh:fileFormat "STEP" ;
-    okh:fileUrl <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Limit%20Switch%20Holder/STP/LimitSwitchHolder_z-axis_1of2.step> ;
-    okh:permaURL <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Limit%20Switch%20Holder/STP/LimitSwitchHolder_z-axis_1of2.step> .
+    okh:fileFormat "STEP" .
 
 :LimitswitchholderZaxis1of2_export2 a okh:ExportFile ;
     rdfs:label "Export File of LimitSwitchHolder z-axis 1of2 of COSI Measure - Mechanical System 1.0.0" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Limit%20Switch%20Holder/STL/LimitSwitchHolder_z-axis_1of2.stl> ;
-    okh:permaURL <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Limit%20Switch%20Holder/STL/LimitSwitchHolder_z-axis_1of2.stl> .
+    okh:fileFormat "STL" .
 
 :LimitswitchholderZaxis1of2_source a okh:SourceFile ;
     rdfs:label "Source File of LimitSwitchHolder z-axis 1of2 of COSI Measure - Mechanical System 1.0.0" ;
-    okh:fileFormat "FCSTD" ;
-    okh:fileUrl <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Limit%20Switch%20Holder/FreeCAD/LimitSwitchHolder_z-axis_1of2.fcstd> ;
-    okh:permaURL <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Limit%20Switch%20Holder/FreeCAD/LimitSwitchHolder_z-axis_1of2.fcstd> .
+    okh:fileFormat "FCSTD" .
 
 :LimitswitchholderZaxis2of2 a okh:Part ;
     rdfs:label "LimitSwitchHolder z-axis 2of2" ;
@@ -400,21 +383,15 @@
 
 :LimitswitchholderZaxis2of2_export1 a okh:ExportFile ;
     rdfs:label "Export File of LimitSwitchHolder z-axis 2of2 of COSI Measure - Mechanical System 1.0.0" ;
-    okh:fileFormat "STEP" ;
-    okh:fileUrl <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Limit%20Switch%20Holder/STP/LimitSwitchHolder_z-axis_2of2.step> ;
-    okh:permaURL <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Limit%20Switch%20Holder/STP/LimitSwitchHolder_z-axis_2of2.step> .
+    okh:fileFormat "STEP" .
 
 :LimitswitchholderZaxis2of2_export2 a okh:ExportFile ;
     rdfs:label "Export File of LimitSwitchHolder z-axis 2of2 of COSI Measure - Mechanical System 1.0.0" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Limit%20Switch%20Holder/STL/LimitSwitchHolder_z-axis_2of2.stl> ;
-    okh:permaURL <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Limit%20Switch%20Holder/STL/LimitSwitchHolder_z-axis_2of2.stl> .
+    okh:fileFormat "STL" .
 
 :LimitswitchholderZaxis2of2_source a okh:SourceFile ;
     rdfs:label "Source File of LimitSwitchHolder z-axis 2of2 of COSI Measure - Mechanical System 1.0.0" ;
-    okh:fileFormat "FCSTD" ;
-    okh:fileUrl <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Limit%20Switch%20Holder/FreeCAD/LimitSwitchHolder_z-axis_2of2.fcstd> ;
-    okh:permaURL <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Limit%20Switch%20Holder/FreeCAD/LimitSwitchHolder_z-axis_2of2.fcstd> .
+    okh:fileFormat "FCSTD" .
 
 :LimitswitchholderZaxisChainholder a okh:Part ;
     rdfs:label "LimitSwitchHolder z-axis chainholder" ;
@@ -429,31 +406,21 @@
 
 :LimitswitchholderZaxisChainholder_export1 a okh:ExportFile ;
     rdfs:label "Export File of LimitSwitchHolder z-axis chainholder of COSI Measure - Mechanical System 1.0.0" ;
-    okh:fileFormat "STEP" ;
-    okh:fileUrl <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Limit%20Switch%20Holder/STP/LimitSwitchHolder_z-axis_chainholder.step> ;
-    okh:permaURL <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Limit%20Switch%20Holder/STP/LimitSwitchHolder_z-axis_chainholder.step> .
+    okh:fileFormat "STEP" .
 
 :LimitswitchholderZaxisChainholder_export2 a okh:ExportFile ;
     rdfs:label "Export File of LimitSwitchHolder z-axis chainholder of COSI Measure - Mechanical System 1.0.0" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Limit%20Switch%20Holder/STL/LimitSwitchHolder_z-axis_chainholder.stl> ;
-    okh:permaURL <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Limit%20Switch%20Holder/STL/LimitSwitchHolder_z-axis_chainholder.stl> .
+    okh:fileFormat "STL" .
 
 :LimitswitchholderZaxisChainholder_source a okh:SourceFile ;
     rdfs:label "Source File of LimitSwitchHolder z-axis chainholder of COSI Measure - Mechanical System 1.0.0" ;
-    okh:fileFormat "FCSTD" ;
-    okh:fileUrl <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Limit%20Switch%20Holder/FreeCAD/LimitSwitchHolder_z-axis_chainholder.fcstd> ;
-    okh:permaURL <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Limit%20Switch%20Holder/FreeCAD/LimitSwitchHolder_z-axis_chainholder.fcstd> .
+    okh:fileFormat "FCSTD" .
 
 :ManufacturingInstructions a okh:ManufacturingInstructions ;
     rdfs:label "ManufacturingInstructions of COSI Measure - Mechanical System 1.0.0" ;
-    okh:fileFormat "ODT" ;
-    okh:fileUrl <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/2018-09-03_cosi-measure_v1.0_mechanical_assembly_instructions.odt> ;
-    okh:permaURL <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/2018-09-03_cosi-measure_v1.0_mechanical_assembly_instructions.odt> .
+    okh:fileFormat "ODT" .
 
 :Readme a okh:Readme ;
     rdfs:label "Readme of COSI Measure - Mechanical System 1.0.0" ;
-    okh:fileFormat "TXT" ;
-    okh:fileUrl <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Readme.txt> ;
-    okh:permaURL <https://raw.githubusercontent.com/opensourceimaging/cosi-measure/v1.0.0/Mechanical%20System/Readme.txt> .
+    okh:fileFormat "TXT" .
 

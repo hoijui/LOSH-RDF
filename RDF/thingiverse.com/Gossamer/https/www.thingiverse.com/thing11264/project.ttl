@@ -1,0 +1,37 @@
+@prefix : <https://www.thingiverse.com/thing%3A11264/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:TinyBox a okh:Module ;
+    rdfs:label "Tiny Box" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """I decided to make a tiny little box to test out a low layer height setting.  \r
+\r
+\r
+Printed on ToM MK6+, 230c temp otherwise default HBP MK6+ profile.\r
+Print-O-Matic settings:\r
+Infill: 30%\r
+Layer Height: .2\r
+Shells: 0\r
+Feedrate: 40 on unrafted one, 60 on rafted.\r
+Filament: 2.94mm (checked with calipers)\r
+Nozzle: .4\r
+Drive Gear: 10.58\r
+\r
+Not sure why the walls are roughly 9mm square, the whole thing should be 10 like the bottom.  I plan to try some more settings to see how it changes.   Otherwise really happy straightness of the upper walls and how well the .2 Layer Height seemed to come out on the first one, the 60 feedrate seems to be a bit much.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "Gossamer" ;
+    okh:repo <https://www.thingiverse.com/thing:11264> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:11264> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Tiny Box 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/10/c8/be/dc/67/IMG_1067_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/10/c8/be/dc/67/IMG_1067_display_large_display_large.jpg> .
+

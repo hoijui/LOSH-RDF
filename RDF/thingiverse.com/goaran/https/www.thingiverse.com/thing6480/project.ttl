@@ -1,0 +1,59 @@
+@prefix : <https://www.thingiverse.com/thing%3A6480/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:TemperaturControllerExtruderBoardForEmc2ReprapOverRs232 a okh:Module ;
+    rdfs:label "Temperatur controller / Extruder Board for EMC2 Reprap over Rs232 " ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is a Board i designed for my EMC reprap.\r
+I have a cnc mill see here: http://robotik.dyyyh.de/cnc.html which is rather heavy. At the time im driving it with the reprap electronix when printig. The problem is, that the acceleration and speed of the axis is controlled much better by EMC2 then the reprap electronics can do. For a normal mendel which has low mass this might be not as important, but for a heavy machine it makes a differenze. Another anoying thin is, that i have to plug the stepper-drevers to the reprap-electronix when printing, and back to the parallelport when milling.\r
+The board will be connected to the serial port of the PC which is driving the mill and controlled by the EMC2 Axis interface with gcodes as usual.\r
+The difference is, it uses rs232 and not rs485\r
+The controller is an ATMega168 which makes the board compatible with the Arduino stuff.. \r
+Features:\r
+- 3 Temperatur sensor inputs\r
+- 3 FET outputs, for heater, bed or something, (bigger ones with option to mount heatsink) \r
+- serial port for communikation with host pc\r
+- isp pins for programming the uC or flahing bootloader\r
+- uart pins for programming with FT232 usb-seriel translator\r
+- i2c for whatever comunication i dont know jet\r
+- 4 general purpose pins with vcc/gnd for further stuff...\r
+\r
+I took SMD parts only for the resistors and capacitors, because the TQFP parts are hard to solder if somebody wants to built this. \r
+\r
+There is no Stepper controller or any motor driver for the extruder on this board, cause these things can be driven from emc directly by sending step/dir signals over the parallel port (or a mesa card) \r
+\r
+  the firmware for the controller and the plugin for EMC2 will follow...\r
+\r
+If you have any ideas what i could add / change on the board please let me know\r
+\r
+EDIT:\r
+\r
+i uploaded the firmware for the controller, did not really test it, only with the serial terminal, but seems to work\r
+\r
+EDIT:\r
+\r
+New tarball added.\r
+Tarball includes Mcodes for ExtruderTemp and FanSpeed till now,\r
+others will follow, (its almost the same everywhere)\r
+Firmware for the atmega8\r
+eagle files\r
+\r
+I allready connected it sucsessfully to EMC2 and printed some thing see here:\r
+http://www.youtube.com/watch?v=_lRp1l8qiyE""" ;
+    okh:hasImage :Image ;
+    okh:licensor "goaran" ;
+    okh:repo <https://www.thingiverse.com/thing:6480> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:6480> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Temperatur controller / Extruder Board for EMC2 Reprap over Rs232  1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/e7/5e/05/80/f1/Extruder_controller_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/e7/5e/05/80/f1/Extruder_controller_display_large_display_large.jpg> .
+

@@ -1,0 +1,67 @@
+@prefix : <https://www.thingiverse.com/thing%3A6922/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:WirelessChordingKeyboard a okh:Module ;
+    rdfs:label "Wireless Chording Keyboard" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """THE PHOTOS:  Are mostly of the OLD design these STLs are meant to pretty-up, but illustrate how to make one without a 3D printer.\r
+\r
+WHAT IS IT?\r
+A Chording Keyboard is a one-handed (usually) input device, where you type keystrokes by pressing combinations of buttons.  Kind of like playing Guitar Hero.  It's also called a Keyer.  All the commercially available designs are bulky, old, and stupid, but the basic idea of a chording keyboard is a great one for wearable computing.\r
+\r
+http://en.wikipedia.org/wiki/Chording_keyboard\r
+http://en.wikipedia.org/wiki/Keyer\r
+\r
+I've always wanted to produce this design -- poor guy gave up before everyone on the planet had a 3D printer:  http://www.xaphoon.com/dataegg/\r
+\r
+MY DESIGN:\r
+But my design is nothing of the sort.  I put this together a while back, before I had a 3D printer, myself.  If you want to go that route, you can... there's no reason to use my STLs, and they're not even complete.  So this is basically a very old project I am resurrecting now that I have more resources; but this version is basically the old resource-starved version.\r
+\r
+It's based around a Nintendo Wii remote.  These things are amazing devices for hardware hacking; the wiimote unit itself contains:\r
+* Several accessable button/switches\r
+* A speaker\r
+* 3-Axis Accelerometer\r
+* BLUETOOTH\r
+* A point-tracking infrared CAMERA.  Seriously!\r
+* Vibration buzzer\r
+* Expansion port... with Arduino/ATmega library!!\r
+\r
+You can find Wiimotes on sale as low as $15; normally about $30.  There is no other way to get this kind of functionality attached to an ATMega/Arduino for twice the price.  Probably significantly more.\r
+\r
+WHAT YOU NEED:\r
+This little project doesn't even use an ATMega or Arduino (yet) - all you need is a wiimote, some appropriate buttons, and a way to put/hold it all together.\r
+\r
+WHAT YOU GET:\r
+The only software *I* am providing assumes you are running Linux, and will only work there.  But it would be trivial for anyone with knowledge of their operating system to modify for their purposes; the libraries it relies on are available on all platforms.  All you need to do is know how to hook into your OS's input queue so you can imitate a keyboard/mouse.\r
+\r
+WHAT IT CAN DO:\r
+* Use the buttons to emulate a keyboard, obviously.\r
+* Use the accelerometer to emulate a mouse.\r
+* All this over BLUETOOTH!\r
+\r
+WIP WHY:  \r
+* Just until I get some STLs that work for this design.  I have future designs already under way but they will be separate Thingiverse projects.\r
+* I'm not uploading the .scad files until I'm done, since Thingiverse refuses to render STLs anymore in a Thing once I've uploaded something it can't render.\r
+\r
+ABOUT THE STL:\r
+The STL published is a slightly fixed version of the one in the photos, which has too-thin walls and too little space between index finger and thumb buttons.\r
+\r
+WHERE THE SOFTWARE LIVES:\r
+https://github.com/ScribbleJ/WiimoteKeyer""" ;
+    okh:hasImage :Image ;
+    okh:licensor "ScribbleJ" ;
+    okh:repo <https://www.thingiverse.com/thing:6922> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/BSD-4-Clause> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:6922> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Wireless Chording Keyboard 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/b0/52/ca/a4/2e/20110308_009_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/b0/52/ca/a4/2e/20110308_009_display_large_display_large.jpg> .
+

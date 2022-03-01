@@ -1,0 +1,49 @@
+@prefix : <https://www.thingiverse.com/thing%3A7652/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Caruklip184MmsAndBeyond a okh:Module ;
+    rdfs:label "caruKlip - 184 mm/s and beyond" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """caruKlip is a fork of the Klimentkip firmware for RAMPS, which is in turn a fork of Tonokip.\r
+\r
+I rewrote the G1 algorithm and added configurable acceleration and deceleration.\r
+\r
+\r
+You can see my Prusa Mendel printing at 184 mm/s with no loss in quality, no vibrations and no machine stress here: http://www.youtube.com/watch?v=IsGtEQwLLPc\r
+\r
+NEW: you can see the x-axis moving at 400 mm/s in this video: http://www.youtube.com/watch?v=axxVYoQkKD0\r
+\r
+NEW(2): and here's a Huxley with both axis moving at 400 mm/s: http://www.youtube.com/watch?v=gEpq4SxCbuc\r
+\r
+NEW(3): AND HERE THE X AXIS MOVES AT 750 mm/s!!! http://www.youtube.com/watch?v=Au_9ns1-fHU\r
+\r
+NEW(4): This is my best result so far. I called it "crazy prusa". See why: http://www.youtube.com/watch?v=07sBUrnVmuo\r
+\r
+The first image in this page shows a Prusa Mendel frame vertex while being printed at 130 mm/s.\r
+\r
+The image with gears, on the bottom 145 mm/s, then 155, then the top 2 at 165. As you can see, you couldn't tell the difference. The blobs are caused by CPU/serial lags (it was under heavy load for other things). Either leaving the CPU with less work or SD printing totally avoids that.\r
+\r
+The 2 gears printed in the crazy prusa video at 180 mm/s, with 290 mm/s travel speed, are of the same quality.\r
+\r
+\r
+Many people ask what is the difference between caruKlip and Klimentkip. At the time of this writing, there is no difference at all. In the future, caruKlip may contain test features, while Klimentkip would be the stable fork.\r
+\r
+Me and Kliment are the active developers currently. Thanks to Kliment, with this firmware you can preload all the gcode on SD card directly from repsnapper, and then print from SD with no worries for CPU lags.\r
+There are also other developers and some users who contribute in many ways this project. Thank you all!""" ;
+    okh:hasImage :Image ;
+    okh:licensor "caru" ;
+    okh:repo <https://www.thingiverse.com/thing:7652> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:7652> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of caruKlip - 184 mm/s and beyond 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/60/65/e5/e6/6b/DSCN0696_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/60/65/e5/e6/6b/DSCN0696_display_large_display_large.jpg> .
+

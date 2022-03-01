@@ -1,0 +1,63 @@
+@prefix : <https://www.thingiverse.com/thing%3A5590/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:PenstruderFullColorAbsPlsPrintingHeadProject a okh:Module ;
+    rdfs:label "Penstruder Full color ABS, PLS printing head project" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """**Update** Designs for the printable Marker have been successfully printed and are now being fine tuned while I come up with the most economical way of cutting custom felt tips the marker thing can be found at this link http://www.thingiverse.com/thing:5592 .\r
+\r
+This project was inspired by this thing: http://www.thingiverse.com/thing:5570\r
+Which truly proved the concept behind this hopefully soon to be reality full color printer head for any plastic extruder.\r
+\r
+For the moment this is just concept art, but I wanted to share it while all the wheels are still turning. I have several other concepts, but these two are the most refined so far. I will be heading out to get an idea of the most economical way to move forward in just a moment.\r
+\r
+So here is the concept, I will be designing nib heads for either a Four Headed, or a Five Headed coloring mechanism. Right now, I am leaning heavily towards four heads, because it will eliminate some nib proximity issues, and give more room for the drive system I will be designing shortly. (Also the only real reason for a fifth head is either to make one particular color darker, I.E. Black, or to introduce metallic ink which I have never superheated so I don't even know if that is such a good an idea ^-^).\r
+\r
+Any ways what I will be doing is either purchasing empty markers, or printing my own marker heads out and designing them around some cheap nib supplier. Then I will either design ink cartridges, or indicator lines on the markers themselves (along with a port that allows for easy ink refills). After that all you have to do is use a cheap ink cartridge refilling kit and lode each cartridge up with Black, Magenta, Yellow, and Cyan ink (standard ink jet ink should be readily available and work).\r
+\r
+After I have designed the parts mentioned above I will proceed with the design of the drive system. At the moment I plan to design it around micro servos, the goal of the drive system will be to convert as much of the 180 degrees of motion a servo produces into very fine nib pressure control. Once calibrated it should be possible to produce at least 1049760000 colors if you use a servo with at least control to the nearest 1 degree.\r
+\r
+After the drive system is complete I plan on designing an Arduino board that stores the calibration data interfaces with the Makerbot Motherboard (takes g-code commands) and interfaces directly with a computer via USB for calibration, initial versions, and for those who just want to change the color for an entire print, or change colors dynamically as the print proceeds.\r
+\r
+------------------------ The Way Forward -------------------------------\r
+\r
+So to summarize:\r
+\r
+Step one: Design 3D Printable nib head that allows attachment of drive system.\r
+\r
+**in progress** \r
+Step Two: Design printable marker suited for "Penstruder", design in progress see this thing http://www.thingiverse.com/thing:5592\r
+\r
+Step three: Design and build drive system that allows 180 degrees to be converted into very precise nib pressure accurate to 1 degree.\r
+\r
+Step Four: Design board to control drive system.\r
+\r
+Step Five: Design GUI for computer control.\r
+\r
+Step Six: Patch Makerbot Motherboard for full integration.\r
+\r
+Step Seven: Celebrate Great Success!\r
+\r
+\r
+--------------------------------------------------------------------------\r
+\r
+This is a huge project, and I will need as much help as I can get. Just think of the awesomeness if we all come together on this though.\r
+\r
+I am still waiting for my Thing-O-Matic to arrive, but I will be designing parts in the meantime.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "Virtuabotix" ;
+    okh:repo <https://www.thingiverse.com/thing:5590> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:5590> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Penstruder Full color ABS, PLS printing head project 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/cc/97/6f/40/58/60_degree_design_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/cc/97/6f/40/58/60_degree_design_display_large_display_large.jpg> .
+

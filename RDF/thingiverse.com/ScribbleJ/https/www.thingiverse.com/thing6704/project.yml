@@ -1,0 +1,48 @@
+__meta:
+  branch: null
+  created-at: '2011-02-26T04:08:41+00:00'
+  history: null
+  last-changed: null
+  last-visited: '2022-02-25T11:00:02.616920+00:00'
+  owner: ScribbleJ
+  path: null
+  repo: https://www.thingiverse.com/thing:6704
+  score: null
+  source: thingiverse.com
+attestation: null
+bom: null
+contribution-guide: null
+cpc-patent-class: null
+documentation-language: en
+documentation-readiness-level: odrl3
+function: "This thing is meant to protect you from the agony of destroying your Thing O Matic or Cupcake heated build platform PCB by putting your print head through it.  It can happen to the best of us.\r\n\r\nIt is a simple circuit that plugs into the EMERGENCY STOP port on a Thing-O-Matic, although I can easily set it up to work the same way for Cupcake users.  Two wires go to your print head and aluminum heat spreader, and detect when they have collided.\r\n\r\nWhile I have a youtube video of the trial run and it worked quite well, this is a Work-In-Progress for the following reasons:\r\n\r\n* I don't want to be responsible for the $30 for a new platform if you destroy yours, or the new mobo if this fries it, for that matter.  Either know enough to know this works or wait 'till someone who does has a good look at it.\r\n* Needs me to get up the guts to really test it through kapton.  UPDATE:  I got the guts - and springs for safety.  It will not punch kapton when moving only in Z, but it will when moving in X+Y as well which is common during a print, obviously.  Video of punch test fail here (not very interesting): youtube.com/watch?v=7x6tTmTuSH0\r\n* Needs someone who actually knows electronics to audit my work.\r\n* Needs a cupcake version?\r\n* Needs to be tested during an actual print.  Does molten PLA/ABS conduct?\r\n\r\nI /will/ be addressing all of the above, but if anyone can beat me to them, ... thank you!  (Please build your own, do not come to my house to fix things!)  Feedback on how things /should/ be handled is welcome in the comments.\r\n\r\nIt really NEEDED a test, so as the inventor, it's only right I be the one with a broken heater board if it doesn't work...\r\n\r\nWARNING:  THE FOLLOWING YOUTUBE VIDEO CONTAINS GRAPHIC FOOTAGE OF WHAT HAPPENS WHEN YOU LET YOUR PRINT HEAD COLLIDE WITH YOUR PLATFORM BY INTENTIONALLY SETTING Z NEGATIVE IN YOUR GCODE.  IT IS NOT FOR THE SQUEAMISH, YOUNG, OR PEOPLE WITH HEART CONDITIONS.\r\n\r\nYou have been warned.  The gcode that was executed was set to move the head to negative Z, then return to positive 30mm Z.  It never completed its voyage.  I'll tell you now there was no damage and it all worked fine, but it can still be harrowing to watch.  And how do you think *I* felt doing it!\r\n\r\nhttp://www.youtube.com/watch?v=oDzqlONX7w4\r\n\r\n\r\n\r\nUPDATE: (2011-02-27)\r\n\r\nDesigned a case, and added a switch to trigger the emergency stop manually.  The photos here don't show the (10k) resistor I should have put on the switch...  It's not the end of the world; I'm sure the output of the chip is current-limited, but it's not great.\r\n\r\nThe case design is perfect except I made the dimension of my wood a little too large so it is loose; added some bluetape to make it fit.\r\n\r\nUPDATE: (2011-03-08)\r\n\r\nThe latest version of my firmware includes fixes to this that make the estop button work anytime, on all axes.  You get get it at my github!"
+image:
+  created-at: '2011-02-26T04:08:41+00:00'
+  last-changed: '2011-02-26T04:08:41+00:00'
+  last-visited: '2022-02-25T15:16:17.737620+00:00'
+  license: 'BSD-4-Clause '
+  licensor: ScribbleJ
+  mime-type: null
+  name: 20110227_004_display_large_display_large
+  path: https:/cdn.thingiverse.com/renders/63/c9/87/20/ba/20110227_004_display_large_display_large.jpg
+  perma-url: https://cdn.thingiverse.com/renders/63/c9/87/20/ba/20110227_004_display_large_display_large.jpg
+  url: https://cdn.thingiverse.com/renders/63/c9/87/20/ba/20110227_004_display_large_display_large.jpg
+license: 'BSD-4-Clause '
+licensor: ScribbleJ
+manufacturing-instructions: null
+name: Platform Collision Saver and E-STOP
+okhv: OKH-LOSHv1.0
+organization: null
+part: []
+publication: null
+readme: null
+release: null
+repo: https://www.thingiverse.com/thing:6704
+software: []
+specific-api-data: {}
+standard-compliance: null
+technology-readiness-level: ortl4
+tsdc: null
+upload-method: auto
+user-manual: null
+version: 1.0.0

@@ -1,15 +1,18 @@
-@prefix : <https://wikifactory.com/+carola/mask-press/f7fe25e4b4c45fc07d0f6258424a3f5750b1f276/> .
+@prefix : <https://wikifactory.com/%2Bcarola/mask-press/f7fe25e4b4c45fc07d0f6258424a3f5750b1f276/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 :MaskPress a okh:Module ;
     rdfs:label "Mask Press" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "Open source mask-press for adapted FFP2 mass production" ;
-    okh:hasComponent :Pressformaußenv03,
-        :Pressforminnenv03,
-        :Prototype03Ffp2EquivalentSyntheticRespiratorMask2,
-        :Prototype04ffp2equivalentsyntheticrespiratormask ;
+    okh:hasComponent :Version03pressformaußenv03,
+        :Version03pressforminnenv03,
+        :Version03prototype03Ffp2EquivalentSyntheticRespiratorMask2,
+        :Version04pressformaußenv03,
+        :Version04pressforminnenv03,
+        :Version04prototype04ffp2equivalentsyntheticrespiratormask ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "Timm Wille" ;
@@ -18,6 +21,7 @@
     okh:repo <https://wikifactory.com/+carola/mask-press> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
     okh:version "f7fe25e4b4c45fc07d0f6258424a3f5750b1f276" ;
     okh:versionOf <https://wikifactory.com/+carola/mask-press> .
 
@@ -27,75 +31,87 @@
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/42010/photo5193079704335265113.jpg> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTozMjY5OTk=> .
 
-:Pressformaußenv03 a okh:Part ;
-    rdfs:label "Pressform_außen_v0.3" ;
-    okh:documentationLanguage "en" ;
-    okh:export :Pressformaußenv03_export1 ;
-    okh:licensor "Benedikt Seidel" ;
-    okh:source :Pressformaußenv03_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Pressformaußenv03_export1 a okh:ExportFile ;
-    rdfs:label "Export File of Pressform_außen_v0.3 of Mask Press f7fe25e4b4c45fc07d0f6258424a3f5750b1f276" ;
-    okh:fileFormat "STEP" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/42010/pressform_auen_v03.STEP> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMjY1OTE=> .
-
-:Pressformaußenv03_source a okh:SourceFile ;
-    rdfs:label "Source File of Pressform_außen_v0.3 of Mask Press f7fe25e4b4c45fc07d0f6258424a3f5750b1f276" ;
-    okh:fileFormat "STEP" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/42010/pressform_auen_v03.STEP> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMjU3NDg=> .
-
-:Pressforminnenv03 a okh:Part ;
-    rdfs:label "Pressform_innen_v0.3" ;
-    okh:documentationLanguage "en" ;
-    okh:export :Pressforminnenv03_export1 ;
-    okh:licensor "Benedikt Seidel" ;
-    okh:source :Pressforminnenv03_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Pressforminnenv03_export1 a okh:ExportFile ;
-    rdfs:label "Export File of Pressform_innen_v0.3 of Mask Press f7fe25e4b4c45fc07d0f6258424a3f5750b1f276" ;
-    okh:fileFormat "STEP" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/42010/pressform_innen_v03.STEP> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMjY1OTM=> .
-
-:Pressforminnenv03_source a okh:SourceFile ;
-    rdfs:label "Source File of Pressform_innen_v0.3 of Mask Press f7fe25e4b4c45fc07d0f6258424a3f5750b1f276" ;
-    okh:fileFormat "STEP" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/42010/pressform_innen_v03.STEP> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMjU3NDk=> .
-
-:Prototype03Ffp2EquivalentSyntheticRespiratorMask2 a okh:Part ;
-    rdfs:label "Prototype 0.3 FFP-2 Equivalent - Synthetic Respirator Mask(2)" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Benedikt Seidel" ;
-    okh:source :Prototype03Ffp2EquivalentSyntheticRespiratorMask2_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Prototype03Ffp2EquivalentSyntheticRespiratorMask2_source a okh:SourceFile ;
-    rdfs:label "Source File of Prototype 0.3 FFP-2 Equivalent - Synthetic Respirator Mask(2) of Mask Press f7fe25e4b4c45fc07d0f6258424a3f5750b1f276" ;
-    okh:fileFormat "PDF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/42010/prototype_03_ffp-2_equivalent_-_synthetic_respirator_mask2.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMjU4MTI=> .
-
-:Prototype04ffp2equivalentsyntheticrespiratormask a okh:Part ;
-    rdfs:label "Prototype_0.4_FFP-2_Equivalent_-_Synthetic_Respirator_Mask" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Benedikt Seidel" ;
-    okh:source :Prototype04ffp2equivalentsyntheticrespiratormask_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Prototype04ffp2equivalentsyntheticrespiratormask_source a okh:SourceFile ;
-    rdfs:label "Source File of Prototype_0.4_FFP-2_Equivalent_-_Synthetic_Respirator_Mask of Mask Press f7fe25e4b4c45fc07d0f6258424a3f5750b1f276" ;
-    okh:fileFormat "PDF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/42010/prototype_04_ffp-2_equivalent_-_synthetic_respirator_mask.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMjY1ODg=> .
-
 :Readme a okh:Readme ;
     rdfs:label "Readme of Mask Press f7fe25e4b4c45fc07d0f6258424a3f5750b1f276" ;
     okh:fileFormat "MD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/42010/readme-f973e.md> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTozMjY2MDE=> .
+
+:Version03pressformaußenv03 a okh:Part ;
+    rdfs:label "Version 0.3/Pressform_außen_v0.3" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Benedikt Seidel" ;
+    okh:source :Version03pressformaußenv03_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Version03pressformaußenv03_source a okh:SourceFile ;
+    rdfs:label "Source File of Version 0.3/Pressform_außen_v0.3 of Mask Press f7fe25e4b4c45fc07d0f6258424a3f5750b1f276" ;
+    okh:fileFormat "STEP" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/42010/pressform_auen_v03.STEP> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozMjU3NDg=> .
+
+:Version03pressforminnenv03 a okh:Part ;
+    rdfs:label "Version 0.3/Pressform_innen_v0.3" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Benedikt Seidel" ;
+    okh:source :Version03pressforminnenv03_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Version03pressforminnenv03_source a okh:SourceFile ;
+    rdfs:label "Source File of Version 0.3/Pressform_innen_v0.3 of Mask Press f7fe25e4b4c45fc07d0f6258424a3f5750b1f276" ;
+    okh:fileFormat "STEP" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/42010/pressform_innen_v03.STEP> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozMjU3NDk=> .
+
+:Version03prototype03Ffp2EquivalentSyntheticRespiratorMask2 a okh:Part ;
+    rdfs:label "Version 0.3/Prototype 0.3 FFP-2 Equivalent - Synthetic Respirator Mask(2)" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Benedikt Seidel" ;
+    okh:source :Version03prototype03Ffp2EquivalentSyntheticRespiratorMask2_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Version03prototype03Ffp2EquivalentSyntheticRespiratorMask2_source a okh:SourceFile ;
+    rdfs:label "Source File of Version 0.3/Prototype 0.3 FFP-2 Equivalent - Synthetic Respirator Mask(2) of Mask Press f7fe25e4b4c45fc07d0f6258424a3f5750b1f276" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/42010/prototype_03_ffp-2_equivalent_-_synthetic_respirator_mask2.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozMjU4MTI=> .
+
+:Version04pressformaußenv03 a okh:Part ;
+    rdfs:label "Version 0.4/Pressform_außen_v0.3" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Benedikt Seidel" ;
+    okh:source :Version04pressformaußenv03_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Version04pressformaußenv03_source a okh:SourceFile ;
+    rdfs:label "Source File of Version 0.4/Pressform_außen_v0.3 of Mask Press f7fe25e4b4c45fc07d0f6258424a3f5750b1f276" ;
+    okh:fileFormat "STEP" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/42010/pressform_auen_v03.STEP> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozMjY1OTE=> .
+
+:Version04pressforminnenv03 a okh:Part ;
+    rdfs:label "Version 0.4/Pressform_innen_v0.3" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Benedikt Seidel" ;
+    okh:source :Version04pressforminnenv03_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Version04pressforminnenv03_source a okh:SourceFile ;
+    rdfs:label "Source File of Version 0.4/Pressform_innen_v0.3 of Mask Press f7fe25e4b4c45fc07d0f6258424a3f5750b1f276" ;
+    okh:fileFormat "STEP" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/42010/pressform_innen_v03.STEP> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozMjY1OTM=> .
+
+:Version04prototype04ffp2equivalentsyntheticrespiratormask a okh:Part ;
+    rdfs:label "Version 0.4/Prototype_0.4_FFP-2_Equivalent_-_Synthetic_Respirator_Mask" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Benedikt Seidel" ;
+    okh:source :Version04prototype04ffp2equivalentsyntheticrespiratormask_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Version04prototype04ffp2equivalentsyntheticrespiratormask_source a okh:SourceFile ;
+    rdfs:label "Source File of Version 0.4/Prototype_0.4_FFP-2_Equivalent_-_Synthetic_Respirator_Mask of Mask Press f7fe25e4b4c45fc07d0f6258424a3f5750b1f276" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/42010/prototype_04_ffp-2_equivalent_-_synthetic_respirator_mask.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozMjY1ODg=> .
 

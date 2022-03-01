@@ -1,0 +1,37 @@
+@prefix : <https://www.thingiverse.com/thing%3A6846/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Laserunicorn a okh:Module ;
+    rdfs:label "LaserUnicorn" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """A Unicorn-compatible mount for the same laser pointer as in the LAZOR mount thing.\r
+\r
+The LAZOR mount is technically an ancestor of this design, as I used that base as a starting point when designing this.\r
+\r
+Includes a mount for a micro servo and a flag to block the laser beam.  This should be compatible with the unicorn firmware & hookup.  I haven't assembled yet, but I think the pen down angle will be 60 and the pen up angle will be 0.\r
+\r
+Only printable on a MENDEL!!!!  The base is 14+ cm wide!  Also, it'll print much better with the smaller features on a stepstruder!\r
+\r
+UPDATE: we test mounted this at my local makerbot club's meeting this Monday.  The mounting holes are a little too close for the makerbot z-stage, we ended up using some tape to do the test.  Will change and update in the near future, in the meantime I can confirm this works!\r
+\r
+Smoking's bad for you.  And bad for your makerbot.  But it sure did help me get the laser aimed here:\r
+Calibration: http://www.youtube.com/watch?v=ilOzZ1QDx7A\r
+\r
+In action: http://www.youtube.com/watch?v=722YzYM8xuY""" ;
+    okh:hasImage :Image ;
+    okh:licensor "merlinjim" ;
+    okh:repo <https://www.thingiverse.com/thing:6846> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:6846> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of LaserUnicorn 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://thingiverse-rerender-new.s3.amazonaws.com/renders/0f/de/5c/1c/5a/LaserUnicornBase_display_large.jpg> ;
+    okh:permaURL <https://thingiverse-rerender-new.s3.amazonaws.com/renders/0f/de/5c/1c/5a/LaserUnicornBase_display_large.jpg> .
+

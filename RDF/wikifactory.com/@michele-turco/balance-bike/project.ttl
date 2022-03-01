@@ -1,23 +1,24 @@
-@prefix : <https://wikifactory.com/@michele-turco/balance-bike/c575856744c3a910193e312181940f6ac5231a17/> .
+@prefix : <https://wikifactory.com/%40michele-turco/balance-bike/c575856744c3a910193e312181940f6ac5231a17/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 :BalanceBike a okh:Module ;
     rdfs:label "Balance Bike" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "A wooden bike for children aged 2 to 6, which allows them to develop balance and fine motor skills. Objective of the project: to pass on to children the passion for sport and cycling. The project has no commercial purposes and has been developed for scientific / educational purposes." ;
-    okh:hasComponent :Component1,
-        :Component2,
-        :Component3,
-        :Component4,
-        :Connettoreforcella,
-        :Connettoretelaio,
-        :Fermomanubrio,
-        :Manopola,
-        :Tav1,
-        :Tav2,
-        :Tavola1,
-        :Tavola2 ;
+    okh:hasComponent :3dPrintedPartsBbV2component1,
+        :3dPrintedPartsBbV2component2,
+        :3dPrintedPartsBbV2component3,
+        :3dPrintedPartsBbV2component4,
+        :3dPrintedPartsBbV2connettoreforcella,
+        :3dPrintedPartsBbV2connettoretelaio,
+        :3dPrintedPartsBbV2fermomanubrio,
+        :3dPrintedPartsBbV2manopola,
+        :BalanceBikeTavtav1,
+        :BalanceBikeTavtav2,
+        :BalanceBikeTavtavola1,
+        :BalanceBikeTavtavola2 ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "Michele Turco" ;
@@ -25,99 +26,165 @@
     okh:repo <https://wikifactory.com/@michele-turco/balance-bike> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
     okh:version "c575856744c3a910193e312181940f6ac5231a17" ;
     okh:versionOf <https://wikifactory.com/@michele-turco/balance-bike> .
 
-:Component1 a okh:Part ;
-    rdfs:label "Component1" ;
+:3dPrintedPartsBbV2component1 a okh:Part ;
+    rdfs:label "3d Printed parts + BB v2/Component1" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Michele Turco" ;
-    okh:source :Component1_source ;
+    okh:source :3dPrintedPartsBbV2component1_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Component1_source a okh:SourceFile ;
-    rdfs:label "Source File of Component1 of Balance Bike c575856744c3a910193e312181940f6ac5231a17" ;
+:3dPrintedPartsBbV2component1_source a okh:SourceFile ;
+    rdfs:label "Source File of 3d Printed parts + BB v2/Component1 of Balance Bike c575856744c3a910193e312181940f6ac5231a17" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/15410/component1.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo0MDY2NjE=> .
 
-:Component2 a okh:Part ;
-    rdfs:label "Component2" ;
+:3dPrintedPartsBbV2component2 a okh:Part ;
+    rdfs:label "3d Printed parts + BB v2/Component2" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Michele Turco" ;
-    okh:source :Component2_source ;
+    okh:source :3dPrintedPartsBbV2component2_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Component2_source a okh:SourceFile ;
-    rdfs:label "Source File of Component2 of Balance Bike c575856744c3a910193e312181940f6ac5231a17" ;
+:3dPrintedPartsBbV2component2_source a okh:SourceFile ;
+    rdfs:label "Source File of 3d Printed parts + BB v2/Component2 of Balance Bike c575856744c3a910193e312181940f6ac5231a17" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/15410/component2.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo0MDY2NjA=> .
 
-:Component3 a okh:Part ;
-    rdfs:label "Component3" ;
+:3dPrintedPartsBbV2component3 a okh:Part ;
+    rdfs:label "3d Printed parts + BB v2/Component3" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Michele Turco" ;
-    okh:source :Component3_source ;
+    okh:source :3dPrintedPartsBbV2component3_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Component3_source a okh:SourceFile ;
-    rdfs:label "Source File of Component3 of Balance Bike c575856744c3a910193e312181940f6ac5231a17" ;
+:3dPrintedPartsBbV2component3_source a okh:SourceFile ;
+    rdfs:label "Source File of 3d Printed parts + BB v2/Component3 of Balance Bike c575856744c3a910193e312181940f6ac5231a17" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/15410/component3.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo0MDY2NTk=> .
 
-:Component4 a okh:Part ;
-    rdfs:label "Component4" ;
+:3dPrintedPartsBbV2component4 a okh:Part ;
+    rdfs:label "3d Printed parts + BB v2/Component4" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Michele Turco" ;
-    okh:source :Component4_source ;
+    okh:source :3dPrintedPartsBbV2component4_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Component4_source a okh:SourceFile ;
-    rdfs:label "Source File of Component4 of Balance Bike c575856744c3a910193e312181940f6ac5231a17" ;
+:3dPrintedPartsBbV2component4_source a okh:SourceFile ;
+    rdfs:label "Source File of 3d Printed parts + BB v2/Component4 of Balance Bike c575856744c3a910193e312181940f6ac5231a17" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/15410/component4.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo0MDY2NTc=> .
 
-:Connettoreforcella a okh:Part ;
-    rdfs:label "connettore_forcella" ;
+:3dPrintedPartsBbV2connettoreforcella a okh:Part ;
+    rdfs:label "3d Printed parts + BB v2/connettore_forcella" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Michele Turco" ;
-    okh:source :Connettoreforcella_source ;
+    okh:source :3dPrintedPartsBbV2connettoreforcella_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Connettoreforcella_source a okh:SourceFile ;
-    rdfs:label "Source File of connettore_forcella of Balance Bike c575856744c3a910193e312181940f6ac5231a17" ;
+:3dPrintedPartsBbV2connettoreforcella_source a okh:SourceFile ;
+    rdfs:label "Source File of 3d Printed parts + BB v2/connettore_forcella of Balance Bike c575856744c3a910193e312181940f6ac5231a17" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/15410/connettore_forcella.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo0MDY2NTY=> .
 
-:Connettoretelaio a okh:Part ;
-    rdfs:label "connettore_telaio" ;
+:3dPrintedPartsBbV2connettoretelaio a okh:Part ;
+    rdfs:label "3d Printed parts + BB v2/connettore_telaio" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Michele Turco" ;
-    okh:source :Connettoretelaio_source ;
+    okh:source :3dPrintedPartsBbV2connettoretelaio_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Connettoretelaio_source a okh:SourceFile ;
-    rdfs:label "Source File of connettore_telaio of Balance Bike c575856744c3a910193e312181940f6ac5231a17" ;
+:3dPrintedPartsBbV2connettoretelaio_source a okh:SourceFile ;
+    rdfs:label "Source File of 3d Printed parts + BB v2/connettore_telaio of Balance Bike c575856744c3a910193e312181940f6ac5231a17" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/15410/connettore_telaio.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo0MDY3MDA=> .
 
-:Fermomanubrio a okh:Part ;
-    rdfs:label "fermo_manubrio" ;
+:3dPrintedPartsBbV2fermomanubrio a okh:Part ;
+    rdfs:label "3d Printed parts + BB v2/fermo_manubrio" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Michele Turco" ;
-    okh:source :Fermomanubrio_source ;
+    okh:source :3dPrintedPartsBbV2fermomanubrio_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Fermomanubrio_source a okh:SourceFile ;
-    rdfs:label "Source File of fermo_manubrio of Balance Bike c575856744c3a910193e312181940f6ac5231a17" ;
+:3dPrintedPartsBbV2fermomanubrio_source a okh:SourceFile ;
+    rdfs:label "Source File of 3d Printed parts + BB v2/fermo_manubrio of Balance Bike c575856744c3a910193e312181940f6ac5231a17" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/15410/fermo_manubrio.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo0MDY2OTg=> .
+
+:3dPrintedPartsBbV2manopola a okh:Part ;
+    rdfs:label "3d Printed parts + BB v2/manopola" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Michele Turco" ;
+    okh:source :3dPrintedPartsBbV2manopola_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dPrintedPartsBbV2manopola_source a okh:SourceFile ;
+    rdfs:label "Source File of 3d Printed parts + BB v2/manopola of Balance Bike c575856744c3a910193e312181940f6ac5231a17" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/15410/manopola.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0MDY2OTY=> .
+
+:BalanceBikeTavtav1 a okh:Part ;
+    rdfs:label "Balance Bike Tav/tav1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Michele Turco" ;
+    okh:source :BalanceBikeTavtav1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:BalanceBikeTavtav1_source a okh:SourceFile ;
+    rdfs:label "Source File of Balance Bike Tav/tav1 of Balance Bike c575856744c3a910193e312181940f6ac5231a17" ;
+    okh:fileFormat "SVG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/15410/tav1.svg> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0MDY2NTM=> .
+
+:BalanceBikeTavtav2 a okh:Part ;
+    rdfs:label "Balance Bike Tav/tav2" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Michele Turco" ;
+    okh:source :BalanceBikeTavtav2_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:BalanceBikeTavtav2_source a okh:SourceFile ;
+    rdfs:label "Source File of Balance Bike Tav/tav2 of Balance Bike c575856744c3a910193e312181940f6ac5231a17" ;
+    okh:fileFormat "SVG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/15410/tav2.svg> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0MDY2NDE=> .
+
+:BalanceBikeTavtavola1 a okh:Part ;
+    rdfs:label "Balance Bike Tav/tavola1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Michele Turco" ;
+    okh:source :BalanceBikeTavtavola1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:BalanceBikeTavtavola1_source a okh:SourceFile ;
+    rdfs:label "Source File of Balance Bike Tav/tavola1 of Balance Bike c575856744c3a910193e312181940f6ac5231a17" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/15410/tavola1.dxf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0MDY2NDU=> .
+
+:BalanceBikeTavtavola2 a okh:Part ;
+    rdfs:label "Balance Bike Tav/tavola2" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Michele Turco" ;
+    okh:source :BalanceBikeTavtavola2_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:BalanceBikeTavtavola2_source a okh:SourceFile ;
+    rdfs:label "Source File of Balance Bike Tav/tavola2 of Balance Bike c575856744c3a910193e312181940f6ac5231a17" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/15410/tavola2.dxf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0MDY2Mzk=> .
 
 :Image a okh:Image ;
     rdfs:label "Image of Balance Bike c575856744c3a910193e312181940f6ac5231a17" ;
@@ -125,74 +192,9 @@
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/15410/balanceturco4.jpg> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToxNDIwMTg=> .
 
-:Manopola a okh:Part ;
-    rdfs:label "manopola" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Michele Turco" ;
-    okh:source :Manopola_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Manopola_source a okh:SourceFile ;
-    rdfs:label "Source File of manopola of Balance Bike c575856744c3a910193e312181940f6ac5231a17" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/15410/manopola.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo0MDY2OTY=> .
-
 :Readme a okh:Readme ;
     rdfs:label "Readme of Balance Bike c575856744c3a910193e312181940f6ac5231a17" ;
     okh:fileFormat "MD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/15410/readme-d53e8.md> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo0MDY2ODQ=> .
-
-:Tav1 a okh:Part ;
-    rdfs:label "tav1" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Michele Turco" ;
-    okh:source :Tav1_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Tav1_source a okh:SourceFile ;
-    rdfs:label "Source File of tav1 of Balance Bike c575856744c3a910193e312181940f6ac5231a17" ;
-    okh:fileFormat "SVG" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/15410/tav1.svg> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo0MDY2NTM=> .
-
-:Tav2 a okh:Part ;
-    rdfs:label "tav2" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Michele Turco" ;
-    okh:source :Tav2_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Tav2_source a okh:SourceFile ;
-    rdfs:label "Source File of tav2 of Balance Bike c575856744c3a910193e312181940f6ac5231a17" ;
-    okh:fileFormat "SVG" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/15410/tav2.svg> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo0MDY2NDE=> .
-
-:Tavola1 a okh:Part ;
-    rdfs:label "tavola1" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Michele Turco" ;
-    okh:source :Tavola1_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Tavola1_source a okh:SourceFile ;
-    rdfs:label "Source File of tavola1 of Balance Bike c575856744c3a910193e312181940f6ac5231a17" ;
-    okh:fileFormat "DXF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/15410/tavola1.dxf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo0MDY2NDU=> .
-
-:Tavola2 a okh:Part ;
-    rdfs:label "tavola2" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Michele Turco" ;
-    okh:source :Tavola2_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Tavola2_source a okh:SourceFile ;
-    rdfs:label "Source File of tavola2 of Balance Bike c575856744c3a910193e312181940f6ac5231a17" ;
-    okh:fileFormat "DXF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/15410/tavola2.dxf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo0MDY2Mzk=> .
 

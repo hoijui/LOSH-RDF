@@ -1,0 +1,30 @@
+@prefix : <https://www.thingiverse.com/thing%3A14960/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Filament3mmGuideForAccessibleWadesExtruder a okh:Module ;
+    rdfs:label "Filament (3mm) Guide for accessible Wade's Extruder" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Derivative work of laser cut MDF guide for 3mm filament from Sacha Di'Angeli at PS1 (which I could not print) and of thing 13351, which needed a slot for easy access.   \r
+First attempt at openSCAD 2011.12.19\r
+Could not figure out existing part 13351, so mostly started from scratch\r
+\r
+This part is an attachment to accessible Wader's extruder, it is a guide for 3mm filament to prevent filament walking off guide bearing.\r
+The primary difference from thing 13351 is the slot from the PS1 part, which allows flip up for easy access change filament and to clean the hobbed bolt.\r
+The file was intended to controlled completely by the filament diameter parameter; but I quit while ahead after getting 3mm filament to work on my machine.  I did some weird rotation so the loop would not start in an inconvenient location, this may be no longer necessary.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "profbraino" ;
+    okh:repo <https://www.thingiverse.com/thing:14960> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:14960> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Filament (3mm) Guide for accessible Wade's Extruder 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://thingiverse-rerender-new.s3.amazonaws.com/renders/53/bd/b4/f4/88/topguide20111223-1504_display_large.jpg> ;
+    okh:permaURL <https://thingiverse-rerender-new.s3.amazonaws.com/renders/53/bd/b4/f4/88/topguide20111223-1504_display_large.jpg> .
+

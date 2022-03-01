@@ -1,0 +1,37 @@
+@prefix : <https://www.thingiverse.com/thing%3A28951/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Prusa2blender a okh:Module ;
+    rdfs:label "Prusa2-Blender" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """The Prusa iteration 2 modelled in Blender 2.5. All the STLs parts of the official Prusa 2 have been imported into Blender. All the vitamins have been designed in OpenScad, exported to STL and imported into Blender.\r
+\r
+This model is very useful for generating documentation. The users can explore the design to see how the different parts are attached. In addition, animations can be generated in Blender.\r
+\r
+Blender is a multi-platform open-source high-quality application. Although it has not been explicitly designed for Engineering, is rather easy to import STLs parts and create complex 3D models.\r
+\r
+You can see a video here:\r
+http://www.youtube.com/watch?v=7fOu8MF8ZJg\r
+\r
+Github repository:\r
+https://github.com/Obijuan/Prusa2-Blender\r
+\r
+Wiki page (in Spanish):\r
+http://www.iearobotics.com/wiki/index.php?title=Prusa2_Blender""" ;
+    okh:hasImage :Image ;
+    okh:licensor "obijuan" ;
+    okh:repo <https://www.thingiverse.com/thing:28951> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:28951> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Prusa2-Blender 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/1e/92/97/d3/28/Prusa2-Blender-1_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/1e/92/97/d3/28/Prusa2-Blender-1_display_large.jpg> .
+

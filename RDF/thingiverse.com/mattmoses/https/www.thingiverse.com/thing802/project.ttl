@@ -1,0 +1,40 @@
+@prefix : <https://www.thingiverse.com/thing%3A802/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ElectricMotor a okh:Module ;
+    rdfs:label "Electric Motor" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is a possibly-printable electric motor.  The motor can be operated as a DC motor or a stepper motor, depending on how you set it up.  We built the motor by casting plastic and metal parts, but most of the parts can probably be built with a laser cutter or a Reprap/Cupcake/Fab@home type machine.  It runs at about 400rpm at a voltage of 6V and a current draw of 7A (yes, seven amps).  \r
+\r
+You can see a video of the motor in operation at  \r
+http://www.youtube.com/watch?v=XSAof007cS4  \r
+\r
+A video of the first prototype, which is easier to make, is at  \r
+http://www.youtube.com/watch?v=cHML3gVQ-uU  \r
+\r
+For more info, also check out our paper  \r
+Towards cyclic fabrication systems for modular robotics and rapid manufacturing, by M.S. Moses, H. Yamaguchi, and G.S. Chirikjian.  Proceedings of Robotics: Science and Systems, June 2009.  \r
+https://rpk.lcsr.jhu.edu/Publications#Robotic_Self-Replication  \r
+\r
+Before you try to make the motor, you should understand what it is and is not.  \r
+\r
+*It IS* An experimental design that you can build, try out, and hopefully improve so it does something useful for you.  \r
+\r
+*It IS NOT* An inexpensive alternative to an off-the-shelf motor.  If you need a motor you can put in your project, go buy a motor.  This motor is very inefficient, produces low output power, and takes a lot of work to build.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "mattmoses" ;
+    okh:repo <https://www.thingiverse.com/thing:802> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:802> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Electric Motor 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/25/8f/c0/ff/4e/motorpic2_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/25/8f/c0/ff/4e/motorpic2_display_large_display_large.jpg> .
+

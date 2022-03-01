@@ -1,0 +1,54 @@
+@prefix : <https://www.thingiverse.com/thing%3A24643/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ParametricPrintablePowerTie a okh:Module ;
+    rdfs:label "Parametric Printable Power Tie!" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """OpenSCAD parametric script to generate a 3D printable tie. This differs from most others in that it allows you to easily make diagonal stripes in the tie by angling the tie, slicing it into sections and swapping filament colours. It also is assembled using strapping/webbing and a more complex neck piece which should allow it to be worn in a more standard/traditional way!\r
+\r
+I have seen several tie designs on thingiverse recently and I've wanted to make one myself. Specifically I have been mystified as to why I've not seen a wide strapping type material used to hold the pieces together and wrap around the neck comfortably. Equally I am amazed that no-one (as far as I have seen) has made a diagonally striped tie using filament swapping. This design is inspired by the other ties recently on thingiverse but is all original work.\r
+\r
+@version attempt 3\r
+@date 2012-06-09 ISO Standard YYYY_MM_DD format\r
+\r
+@todo\r
+make parametrically positioned mouse ears\r
+\r
+@warning\r
+This is a VERY long print (+5hrs on Thing-o-Matic)\r
+filament changing or multi extruders will be required to get stripes!\r
+I have not assembled one of these yet so am not sure how it will work out\r
+In order to have the bottom part NOT fall off you will need to ensure that the little angled cutout at the end is fully in the bottommost part fo the tie (you may need to manually adjust its position to be so)\r
+\r
+@note\r
+Changes from previous versions:\r
+attempt 3a\r
+ - 	made slightly narrower so that it would fit in a thing-o-matic (expected print time is over 5 hours O_O;\r
+ \r
+attempt 3\r
+ - 	integrated linear_extrude into tie module\r
+ - 	integrated cutout and other 2 components (neck thing and actual tie)\r
+\r
+attempt 2\r
+ - 	made parametric angled sliced tie and neck thingy with attempt at generting cutout for webbing internally\r
+ \r
+@attention\r
+Copy left (I think... basically you can do whatvere you want with this, you don;t have to acknowledge me (although that would be nice!))\r
+Permission to use, copy, modify, and distribute this software and its documentation for any purpose, without fee, and without written agreement is hereby granted""" ;
+    okh:hasImage :Image ;
+    okh:licensor "M_G" ;
+    okh:repo <https://www.thingiverse.com/thing:24643> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:24643> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Parametric Printable Power Tie! 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/97/4a/4d/c6/e4/DSC_8152_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/97/4a/4d/c6/e4/DSC_8152_display_large_display_large.jpg> .
+

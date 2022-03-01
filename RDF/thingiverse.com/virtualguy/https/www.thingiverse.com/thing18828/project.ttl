@@ -1,0 +1,33 @@
+@prefix : <https://www.thingiverse.com/thing%3A18828/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:FilamentPusher a okh:Module ;
+    rdfs:label "Filament pusher" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Simple filament pusher using a dc reduction drive from Jaycar, a couple of microswitches and a skateboard bearing. The drive gear is a brass shaft coupling hobbed with a M4 tap as per: http://reprap.org/wiki/Wade's_Geared_Extruder. Simple design just made to suit what I cound get hold of. BOM and photos to come once I get it off the printer!\r
+\r
+As the printer requires more filament the microswitch is depressed and the motor starts supplying more until it catches up and then turns off. I chose a slightly smaller motor which runs much quieter and runs at 70rpm from 12V.\r
+\r
+Set up with a second microswitch wired to machines E Stop so if you finish the reel or something bad happens things stop!\r
+\r
+Video if it in action:\r
+http://youtu.be/An926fPPbcY\r
+\r
+Please post if you want the Solidworks files""" ;
+    okh:hasImage :Image ;
+    okh:licensor "virtualguy" ;
+    okh:repo <https://www.thingiverse.com/thing:18828> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:18828> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Filament pusher 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://thingiverse-rerender-new.s3.amazonaws.com/renders/44/4d/35/c5/d7/pusher1_display_large.jpg> ;
+    okh:permaURL <https://thingiverse-rerender-new.s3.amazonaws.com/renders/44/4d/35/c5/d7/pusher1_display_large.jpg> .
+

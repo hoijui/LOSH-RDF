@@ -1,0 +1,48 @@
+__meta:
+  branch: null
+  created-at: '2012-01-05T02:20:03+00:00'
+  history: null
+  last-changed: null
+  last-visited: '2022-02-25T11:00:02.616920+00:00'
+  owner: clintkc
+  path: null
+  repo: https://www.thingiverse.com/thing:15465
+  score: null
+  source: thingiverse.com
+attestation: null
+bom: null
+contribution-guide: null
+cpc-patent-class: null
+documentation-language: en
+documentation-readiness-level: odrl3
+function: "I purchased my TOM in order to build 3D objects, of course.  I've designed most of my objects to max-out the X and Y limits of the build platform (I originally had the ABP, but removed it in lieu of the HBP... because it increases your build height and provides a flatter build surface.  I'm interested in build capacity & quality, not printing things as fast as I can).\r\n\r\nI measured my build platform, and found that it is 120mm X by 120mm Y... however, I have the HBP with hex bolts at 4 corners and self-adhesive aluminum tape on the platform.  So my actual \"theoretical\" build area should be approximately 120mm X by 102mm Y (between the hex-bolt heads).  But MANY of my larger prints (although designed to fit in a 120mm x 102mm space) were over-limiting on the X and/or Y axes.  \r\n\r\nMost times, the X axis limited out either by hitting the X- limit switch, or by making horrible noises when it tried to travel past the physical X+ limits of the machine.  My machine has never limited-out on the Y- travel (where the Y- limit switch is, toward the rear of the machine), and has only seldomly maxed-out on Y+, which (again) makes horrible noises.\r\n\r\nSo I've been unable to print a few \"things\" due to unavailable area.  Perhaps there are ways to so-called \"overcome\" this in Skeinforge... but I don't want a solution to the problem that minimizes my print area.  I want a solution that uses the ENTIRE print area (and yes, I do have an aluminum build platform on the way... which will solve SOME of my problems, but not ALL of them).\r\n\r\nI've attached a DXF file showing my HBP movements.  I measured all axes of my printer, based on positions from the limit switches (using 0.01mm increment jog mode on my Gen-4 interface).  I positioned each axis until the red limit switch LED light was off.  Then I jogged every axis (individually) to see what it's maximum amount of travel was (before the horrible sounds at the end of physical travel happened).  I measured everything with digital calipers.\r\n\r\nMy Thing-O-Matic has 116mm of X travel, 123mm of Y travel, and 125mm of Z travel.  So theoretically, my \"HOME\" position for X should be 58mm, and my \"HOME\" position for Y should be 61.5mm.\r\n\r\nBut this is not true on my TOM.  If centered on 58mmX and 61.5mmY, my build platform is not centered on the nozzle.\r\n\r\nAt full X- (RIGHT, with limit switch off), my nozzle is approximately 5.6 mm inside of the left edge of the build platform.\r\n\r\nAt full X+ (LEFT, mechanical limits only), my nozzle is approximately 2.3mm past the right edge of the build platform.\r\n\r\nAt full Y- (REAR, limit switch off), my nozzle is approximately 7.81mm past the front edge of the build platform.\r\n\r\nAt full Y+ (FORWARD, mechanical limits only), my nozzle is approximately 5.75mm in from the rear edge of the build platform.\r\n\r\nIn short, my build area is limited by incorrect geometry.  So I drew a quick 2D CAD file (included with this first post) to show the geometry of my TOM's build platform, in relation to the nozzle.  In short, by nozzle (and probably most of all TOM owner's nozzles, if I'm guessing right) needs to be moved back about 6.78mm, and to the left about 3.95mm.\r\n\r\nPlease... BY ALL MEANS prove me wrong!  ;)\r\n\r\nTo correct this, I either have to build an entirely new build platform (which would be very time-consuming (yet possible with a lot of hours behind my Dremel tools, since I don't own a laser cutter yet)), or to simply reposition the nozzle itself.\r\n\r\nNOTE:  YOU WILL NEED A RELIABLE & ACCURATE SET OF CALIPERS (preferrably digital and able to read in MM) IN ORDER TO ACCOMPLISH THIS TASK.\r\n\r\nThis is BY NO MEANS a complete project... and one I wish I didn't have to do, to be honest.  But all TOM owners should be aware of these things, I think.\r\n\r\nI'll post more info when I have more info.\r\n\r\nThanks, guys...."
+image:
+  created-at: '2012-01-05T02:20:03+00:00'
+  last-changed: '2012-01-05T02:20:03+00:00'
+  last-visited: '2022-02-25T22:36:28.127291+00:00'
+  license: CC0-1.0
+  licensor: clintkc
+  mime-type: null
+  name: Thing-O-Matic_build_surface_travel_geometry_01_display_large_display_large
+  path: https:/cdn.thingiverse.com/renders/5c/52/dc/a0/f1/Thing-O-Matic_build_surface_travel_geometry_01_display_large_display_large.jpg
+  perma-url: https://cdn.thingiverse.com/renders/5c/52/dc/a0/f1/Thing-O-Matic_build_surface_travel_geometry_01_display_large_display_large.jpg
+  url: https://cdn.thingiverse.com/renders/5c/52/dc/a0/f1/Thing-O-Matic_build_surface_travel_geometry_01_display_large_display_large.jpg
+license: CC0-1.0
+licensor: clintkc
+manufacturing-instructions: null
+name: TOM build platform accuracy adjustment
+okhv: OKH-LOSHv1.0
+organization: null
+part: []
+publication: null
+readme: null
+release: null
+repo: https://www.thingiverse.com/thing:15465
+software: []
+specific-api-data: {}
+standard-compliance: null
+technology-readiness-level: ortl4
+tsdc: null
+upload-method: auto
+user-manual: null
+version: 1.0.0

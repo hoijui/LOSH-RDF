@@ -1,0 +1,30 @@
+@prefix : <https://www.thingiverse.com/thing%3A1828/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:PrintedLedHeart a okh:Module ;
+    rdfs:label "Printed LED Heart" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """I saw the pictures of the Valentine's day "sneak peak" on the NYC resistor blog, and knew that I had to make a LED heart out of PLA. (Sort of like the acrylic one here: http://www.nycresistor.com/2010/02/10/a-little-valentines-day-sneak-peek/) Obviously mine has a bit of a different form factor, and the plastic isn't transparent, but I think it's pretty nonetheless. \r
+\r
+The battery compartment is a little large, but whatever. As long as you tape the LED leads to the battery it won't jostle around much. \r
+\r
+Update: I changed the scad and stl files so that both halves of the battery compartment are on the same side when the heart is put together (thanks to owenscenic for pointing this out!) I also decreased the size of the pegs so that hopefully it won't take any drilling and/or filing to get it to fit together. \r
+\r
+Disclaimer: the pictures are photoshopped a smidgen. Because the LED I used is so bright, my camera interpreted the middle of the heart as being yellow, and the picture wasn't as vibrant as I had hoped. So I changed it.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "worldgnat" ;
+    okh:repo <https://www.thingiverse.com/thing:1828> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:1828> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Printed LED Heart 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/fd/f5/4b/86/06/Heart_Darkbg_mod_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/fd/f5/4b/86/06/Heart_Darkbg_mod_display_large_display_large.jpg> .
+

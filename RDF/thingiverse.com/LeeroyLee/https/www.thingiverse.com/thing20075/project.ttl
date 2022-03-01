@@ -1,0 +1,33 @@
+@prefix : <https://www.thingiverse.com/thing%3A20075/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:SquarePegAndHoleFitmentTest a okh:Module ;
+    rdfs:label "Square Peg and Hole Fitment Test" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """A test print to help you figure out how much clearance you need for two printed parts to fit into each other.\r
+\r
+The main peg is a 5mm x 5mm cube. The peg board has holes of the following dimensions:\r
+\r
+4.8mm x 4.8mm\r
+4.9mm x 4.9mm\r
+â€¦\r
+5.8mm x 5.8mm\r
+\r
+In my print, the 5.1mm x 5.1mm slot ( 0.05mm clearance per side) gave a good and very tight fit - perhaps for permanent connections. The 5.2mm x 5.2mm square (0.1mm clearance per side) gave a good generally-useful fit.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "LeeroyLee" ;
+    okh:repo <https://www.thingiverse.com/thing:20075> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:20075> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Square Peg and Hole Fitment Test 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/21/31/3e/da/29/IMG_2342_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/21/31/3e/da/29/IMG_2342_display_large_display_large.jpg> .
+

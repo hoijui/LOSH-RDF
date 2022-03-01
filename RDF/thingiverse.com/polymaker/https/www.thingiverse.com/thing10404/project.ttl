@@ -1,0 +1,33 @@
+@prefix : <https://www.thingiverse.com/thing%3A10404/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Text2surface a okh:Module ;
+    rdfs:label "text2surface" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This script takes text and makes it 3d. I know this has been done before but I thought this was a unique approach, so here it is. The script uses the Cairo and Pango libraries to render with whatever fonts you have installed (should be cross-platform though I have only tested on Linux). The thing that differentiates this approach most from others is that the text is anti-aliased.\r
+\r
+The latest code will always be here:\r
+https://github.com/brad/text2surface\r
+\r
+NOTE: This suffers from the same size limitation as it's predecessor, so if you make the text too large OpenSCAD will crash when rendering it. I've found 70 to be a good font size for a sign that spans the build platform, so that's the default.\r
+\r
+Updates\r
+=======\r
+2011-09-30: Added ability to extrude non anti-aliased text.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "polymaker" ;
+    okh:repo <https://www.thingiverse.com/thing:10404> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:10404> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of text2surface 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/1a/92/1d/69/82/IMG_20110723_111155_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/1a/92/1d/69/82/IMG_20110723_111155_display_large_display_large.jpg> .
+

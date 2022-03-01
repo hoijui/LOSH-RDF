@@ -1,0 +1,52 @@
+@prefix : <https://www.thingiverse.com/thing%3A12770/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:SupershapesInOpenscad a okh:Module ;
+    rdfs:label "SuperShapes in OpenScad" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Continuing the madness...  I was getting laughed at in my Design 101 class, so the only way I thought of to silence the other kids was to come out with my SuperShapes!\r
+\r
+After having done the previous SuperEllipse work, it was just a matter of time before the formulas came knocking at my door wanting to be implemented.\r
+\r
+This thing implements the SuperFormula (muwaaahhhaahaaahaaa)!!\r
+\r
+What the heck is that?  Best thing is to take a look at the pretty pictures at this web site: http://paulbourke.net/geometry/supershape3d/\r
+\r
+If you're really a math nutter, then take a look at the math as well.  It's actually not that complicated.  The complication here is just turning the formula into something that can be dealt with by OpenScad.  In particular, making sure the thing turns out to be 2-manifold, so that you can actually generate .stl files and print the results, therein lies the rub.\r
+\r
+The supershape.scad files contains two rotines of interest:\r
+RenderSuperShape2D() - This takes the definition of a single supershape, and renders the curve of that supershape in 2D, using wireframe.  With this single routine, you can go to the wiki entry for Superfomula (http://en.wikipedia.org/wiki/Superformula) and plug in the various numbers, and see pretty pictures.\r
+\r
+RenderSuperShape() - This takes two supershape definitions (one modulates the other), and renders real pretty pictures.  You can look at the Paul Bourke site to get very interesting parameters to plug into that one.\r
+\r
+Another source of parameters might be POVRay files.\r
+\r
+That's enough for a Friday post I think.\r
+\r
+But wait, there's more...\r
+\r
+You also get the procedural texture mapping checkerboard pattern, thrown in for free.  What is procedural texture mapping?  Well, instead of using a bitmap to represent the different colors (or heights) on an object, you can just call a routine and ask it for the color at a particular position.  No fus, no muss, no arrays to slow you down!  At any rate, it's just a little hidden gem.\r
+\r
+This code is public domain.  I figure having such a nice routine freely available might encourage people to make some very interesting shapes.\r
+\r
+Challenge:  How the heck do you get OpenScad to display in wireframe, and with a fade on the other colors?\r
+\r
+UPDATE: 22102011\r
+Added the tristar.stl file.  This was an experiment in rendering the 2D shapes with faces, and not just wireframes, then using them with CSG operations.  The result is of course a deadly weapon once rendered in hardened steel and sharpened.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "WilliamAAdams" ;
+    okh:repo <https://www.thingiverse.com/thing:12770> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:12770> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of SuperShapes in OpenScad 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/72/40/16/a0/ad/fadedwire_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/72/40/16/a0/ad/fadedwire_display_large_display_large.jpg> .
+

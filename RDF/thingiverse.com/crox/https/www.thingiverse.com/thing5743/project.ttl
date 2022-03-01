@@ -1,0 +1,36 @@
+@prefix : <https://www.thingiverse.com/thing%3A5743/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:GeohashingCookieCutter a okh:Module ;
+    rdfs:label "Geohashing cookie cutter" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is a geohashing cookie cutter, see the official page for details: http://bit.ly/ghcookie\r
+\r
+I have designed the first version (ghcookie.*) with the Custom-Cookie-Cutter-Generator by guru (thing:3433, how can I link to it?).\r
+\r
+Then I've improved the shape a bit, still using the same tool (v2, ghcookie2.*).\r
+\r
+Because I was still not completely satisfied with the result, I used some shell script to convert the CookieCutter custom format to an SVG path and used Inkscape + OpenSCAD to rework it and create v3, which prints much cleaner.\r
+\r
+Finally, after having made the first cookies, I wanted to make an even better v4, with an additional accessory to hold the cookie down while the cutter is lifted. This is now reality and I was really pleased with the result.\r
+\r
+I've left all the older files for your reference, but if you intend to print one I suggest you focus on v4.\r
+\r
+This work is in the public domain, there may or may not be some restrictions on the geohashing logo itself.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "crox" ;
+    okh:repo <https://www.thingiverse.com/thing:5743> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:5743> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Geohashing cookie cutter 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/45/46/12/ed/ce/ghcc_v4-dsc_8497_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/45/46/12/ed/ce/ghcc_v4-dsc_8497_display_large_display_large.jpg> .
+

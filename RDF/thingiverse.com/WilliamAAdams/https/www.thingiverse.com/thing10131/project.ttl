@@ -1,0 +1,44 @@
+@prefix : <https://www.thingiverse.com/thing%3A10131/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:OpenscadVirtualMachineV01 a okh:Module ;
+    rdfs:label "OpenScad Virtual Machine - v0.1" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """After looking at the Mars Exploration Rover: http://www.thingiverse.com/thing:10057  I was inspired to do something in OpenScad that I've wanted to do for a long time.\r
+\r
+This thing is a technique for representing and rendering your models using some arrays and 'recursion'.\r
+\r
+There are just a couple of routines introduced, but with them, you can essentially do something like:\r
+\r
+CSG([OP_UNION, [\r
+		[PRIM_CYLINDER, [2,2, 8+15+3],zero(), zero()],\r
+		[PRIM_CYLINDER, [4,4, 3],zero(),zero()],\r
+	]]);\r
+\r
+or, if you just want to do a simple part;\r
+    place_prim([PRIM_CYLINDER, [2,2, 8+15+3],zero(), zero()]);\r
+\r
+This is not earth shattering, but it's just another tool in the text modeling arsenal.  Since the models, as well as the operations on parts, are simply represented as arrays of numbers, you can use functions to generate these, or concatenations of them.\r
+\r
+It's kind of interesting in that the code begins to look like LISP or other array based variants.\r
+\r
+At any rate, it's another technique.\r
+\r
+The openscad_vm.scad file contains the actual brains.  There is a 'test_openscad_vm.scad' file that shows some test cases of all the routines.  The file "mars_rover_vm.scad" takes some of the interesting parts from the inspiring mars rover project, and turns them into parts appropriate for usage in the openscad VM.  The most complex object 'camera' shows how to nest CSG operations as well as primitive parts.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "WilliamAAdams" ;
+    okh:repo <https://www.thingiverse.com/thing:10131> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:10131> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of OpenScad Virtual Machine - v0.1 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://thingiverse-rerender-new.s3.amazonaws.com/renders/d8/1f/d5/25/2f/camera_display_large.jpg> ;
+    okh:permaURL <https://thingiverse-rerender-new.s3.amazonaws.com/renders/d8/1f/d5/25/2f/camera_display_large.jpg> .
+

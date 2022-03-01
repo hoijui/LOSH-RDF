@@ -1,20 +1,21 @@
-@prefix : <https://wikifactory.com/@saverio/rotocastit/b5e3198958edb87df1039f228cbba47eaf20cab2/> .
+@prefix : <https://wikifactory.com/%40saverio/rotocastit/b5e3198958edb87df1039f228cbba47eaf20cab2/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 :Rotocastit a okh:Module ;
     rdfs:label "ROTOCASTit" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "ROTOCASTit is a rotational casting machine that features an innovative ball-bearing structure. It can be used with any suitable mold and casting material to make hollow copies. It was designed and fabricated as a final project for Fab Academy 2015 and it can be entirely fabricated in any Fablab." ;
-    okh:hasComponent :BevelGear12,
-        :BevelGear34,
-        :Cncmillplan,
-        :Controlpanel,
-        :Couplingring,
-        :M8shaftsupport,
-        :Pinion,
-        :Rotocastitboard,
-        :Rotocastitboardbom ;
+    okh:hasComponent :Electronicsrotocastitboard,
+        :MechanicsbevelGear12,
+        :MechanicsbevelGear34,
+        :Mechanicscouplingring,
+        :Mechanicsm8shaftsupport,
+        :Mechanicspinion,
+        :Rotocastitboardbom,
+        :Structurecncmillplan,
+        :Structurecontrolpanel ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "Saverio Silli" ;
@@ -22,73 +23,36 @@
     okh:repo <https://wikifactory.com/@saverio/rotocastit> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
     okh:version "b5e3198958edb87df1039f228cbba47eaf20cab2" ;
     okh:versionOf <https://wikifactory.com/@saverio/rotocastit> .
 
-:BevelGear12 a okh:Part ;
-    rdfs:label "bevel gear 1 2" ;
+:Electronicsrotocastitboard a okh:Part ;
+    rdfs:label "Electronics/rotocastitboard" ;
     okh:documentationLanguage "en" ;
+    okh:export :Electronicsrotocastitboard_export1,
+        :Electronicsrotocastitboard_export2 ;
     okh:licensor "Saverio Silli" ;
-    okh:source :BevelGear12_source ;
+    okh:source :Electronicsrotocastitboard_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:BevelGear12_source a okh:SourceFile ;
-    rdfs:label "Source File of bevel gear 1 2 of ROTOCASTit b5e3198958edb87df1039f228cbba47eaf20cab2" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/708/bevel-gear-1-2.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NzU1> .
+:Electronicsrotocastitboard_export1 a okh:ExportFile ;
+    rdfs:label "Export File of Electronics/rotocastitboard of ROTOCASTit b5e3198958edb87df1039f228cbba47eaf20cab2" ;
+    okh:fileFormat "SCH" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/708/rotocastitboard-0.sch> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NzUy> .
 
-:BevelGear34 a okh:Part ;
-    rdfs:label "bevel gear 3 4" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Saverio Silli" ;
-    okh:source :BevelGear34_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:BevelGear34_source a okh:SourceFile ;
-    rdfs:label "Source File of bevel gear 3 4 of ROTOCASTit b5e3198958edb87df1039f228cbba47eaf20cab2" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/708/bevel-gear-3-4.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NzU3> .
-
-:Cncmillplan a okh:Part ;
-    rdfs:label "cncmillplan" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Saverio Silli" ;
-    okh:source :Cncmillplan_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Cncmillplan_source a okh:SourceFile ;
-    rdfs:label "Source File of cncmillplan of ROTOCASTit b5e3198958edb87df1039f228cbba47eaf20cab2" ;
-    okh:fileFormat "DXF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/708/cncmillplan.dxf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NzYw> .
-
-:Controlpanel a okh:Part ;
-    rdfs:label "controlpanel" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Saverio Silli" ;
-    okh:source :Controlpanel_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Controlpanel_source a okh:SourceFile ;
-    rdfs:label "Source File of controlpanel of ROTOCASTit b5e3198958edb87df1039f228cbba47eaf20cab2" ;
+:Electronicsrotocastitboard_export2 a okh:ExportFile ;
+    rdfs:label "Export File of Electronics/rotocastitboard of ROTOCASTit b5e3198958edb87df1039f228cbba47eaf20cab2" ;
     okh:fileFormat "SVG" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/708/controlpanel.svg> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NzU5> .
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/708/rotocastitboard-0.svg> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NzUz> .
 
-:Couplingring a okh:Part ;
-    rdfs:label "couplingring" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Saverio Silli" ;
-    okh:source :Couplingring_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Couplingring_source a okh:SourceFile ;
-    rdfs:label "Source File of couplingring of ROTOCASTit b5e3198958edb87df1039f228cbba47eaf20cab2" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/708/couplingring.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NzU0> .
+:Electronicsrotocastitboard_source a okh:SourceFile ;
+    rdfs:label "Source File of Electronics/rotocastitboard of ROTOCASTit b5e3198958edb87df1039f228cbba47eaf20cab2" ;
+    okh:fileFormat "BRD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/708/rotocastitboard-0.brd> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NzUx> .
 
 :Image a okh:Image ;
     rdfs:label "Image of ROTOCASTit b5e3198958edb87df1039f228cbba47eaf20cab2" ;
@@ -96,28 +60,67 @@
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/708/cropped-3.jpg> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo1NzQ3> .
 
-:M8shaftsupport a okh:Part ;
-    rdfs:label "m8shaftsupport" ;
+:MechanicsbevelGear12 a okh:Part ;
+    rdfs:label "Mechanics/bevel gear 1 2" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Saverio Silli" ;
-    okh:source :M8shaftsupport_source ;
+    okh:source :MechanicsbevelGear12_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:M8shaftsupport_source a okh:SourceFile ;
-    rdfs:label "Source File of m8shaftsupport of ROTOCASTit b5e3198958edb87df1039f228cbba47eaf20cab2" ;
+:MechanicsbevelGear12_source a okh:SourceFile ;
+    rdfs:label "Source File of Mechanics/bevel gear 1 2 of ROTOCASTit b5e3198958edb87df1039f228cbba47eaf20cab2" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/708/bevel-gear-1-2.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NzU1> .
+
+:MechanicsbevelGear34 a okh:Part ;
+    rdfs:label "Mechanics/bevel gear 3 4" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Saverio Silli" ;
+    okh:source :MechanicsbevelGear34_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:MechanicsbevelGear34_source a okh:SourceFile ;
+    rdfs:label "Source File of Mechanics/bevel gear 3 4 of ROTOCASTit b5e3198958edb87df1039f228cbba47eaf20cab2" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/708/bevel-gear-3-4.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NzU3> .
+
+:Mechanicscouplingring a okh:Part ;
+    rdfs:label "Mechanics/couplingring" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Saverio Silli" ;
+    okh:source :Mechanicscouplingring_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Mechanicscouplingring_source a okh:SourceFile ;
+    rdfs:label "Source File of Mechanics/couplingring of ROTOCASTit b5e3198958edb87df1039f228cbba47eaf20cab2" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/708/couplingring.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NzU0> .
+
+:Mechanicsm8shaftsupport a okh:Part ;
+    rdfs:label "Mechanics/m8shaftsupport" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Saverio Silli" ;
+    okh:source :Mechanicsm8shaftsupport_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Mechanicsm8shaftsupport_source a okh:SourceFile ;
+    rdfs:label "Source File of Mechanics/m8shaftsupport of ROTOCASTit b5e3198958edb87df1039f228cbba47eaf20cab2" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/708/m8shaftsupport.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo1NzU2> .
 
-:Pinion a okh:Part ;
-    rdfs:label "pinion" ;
+:Mechanicspinion a okh:Part ;
+    rdfs:label "Mechanics/pinion" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Saverio Silli" ;
-    okh:source :Pinion_source ;
+    okh:source :Mechanicspinion_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Pinion_source a okh:SourceFile ;
-    rdfs:label "Source File of pinion of ROTOCASTit b5e3198958edb87df1039f228cbba47eaf20cab2" ;
+:Mechanicspinion_source a okh:SourceFile ;
+    rdfs:label "Source File of Mechanics/pinion of ROTOCASTit b5e3198958edb87df1039f228cbba47eaf20cab2" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/708/pinion.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo1NzU4> .
@@ -125,35 +128,8 @@
 :Readme a okh:Readme ;
     rdfs:label "Readme of ROTOCASTit b5e3198958edb87df1039f228cbba47eaf20cab2" ;
     okh:fileFormat "MD" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/708/readme-0.md> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NzYz> .
-
-:Rotocastitboard a okh:Part ;
-    rdfs:label "rotocastitboard" ;
-    okh:documentationLanguage "en" ;
-    okh:export :Rotocastitboard_export1,
-        :Rotocastitboard_export2 ;
-    okh:licensor "Saverio Silli" ;
-    okh:source :Rotocastitboard_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Rotocastitboard_export1 a okh:ExportFile ;
-    rdfs:label "Export File of rotocastitboard of ROTOCASTit b5e3198958edb87df1039f228cbba47eaf20cab2" ;
-    okh:fileFormat "SCH" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/708/rotocastitboard-0.sch> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NzUy> .
-
-:Rotocastitboard_export2 a okh:ExportFile ;
-    rdfs:label "Export File of rotocastitboard of ROTOCASTit b5e3198958edb87df1039f228cbba47eaf20cab2" ;
-    okh:fileFormat "SVG" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/708/rotocastitboard-0.svg> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NzUz> .
-
-:Rotocastitboard_source a okh:SourceFile ;
-    rdfs:label "Source File of rotocastitboard of ROTOCASTit b5e3198958edb87df1039f228cbba47eaf20cab2" ;
-    okh:fileFormat "BRD" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/708/rotocastitboard-0.brd> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NzUx> .
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/708/readme-d0cf9.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxOTU1NjI=> .
 
 :Rotocastitboardbom a okh:Part ;
     rdfs:label "rotocastitboardBOM" ;
@@ -167,4 +143,30 @@
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/708/rotocastitboardbom.pdf> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo1NzI4> .
+
+:Structurecncmillplan a okh:Part ;
+    rdfs:label "Structure/cncmillplan" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Saverio Silli" ;
+    okh:source :Structurecncmillplan_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Structurecncmillplan_source a okh:SourceFile ;
+    rdfs:label "Source File of Structure/cncmillplan of ROTOCASTit b5e3198958edb87df1039f228cbba47eaf20cab2" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/708/cncmillplan.dxf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NzYw> .
+
+:Structurecontrolpanel a okh:Part ;
+    rdfs:label "Structure/controlpanel" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Saverio Silli" ;
+    okh:source :Structurecontrolpanel_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Structurecontrolpanel_source a okh:SourceFile ;
+    rdfs:label "Source File of Structure/controlpanel of ROTOCASTit b5e3198958edb87df1039f228cbba47eaf20cab2" ;
+    okh:fileFormat "SVG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/708/controlpanel.svg> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NzU5> .
 

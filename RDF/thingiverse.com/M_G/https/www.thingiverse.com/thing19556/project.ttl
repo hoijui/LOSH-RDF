@@ -1,0 +1,43 @@
+@prefix : <https://www.thingiverse.com/thing%3A19556/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:GyroEvalBoardHolder a okh:Module ;
+    rdfs:label "Gyro Eval Board Holder" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This OpenSCAD script creates a holder for an STM Gyro Eval Board that fits onto the moutign holes on a Gyro_Turntable_Mounting_Plate so that it can be tested on a high speed turntable\r
+\r
+Note:\r
+may need to trim some stuff from the top of the cylindrical posts as there are many small components adjacent to the screw holes\r
+\r
+Changes from previous versions:\r
+v0.4\r
+ - 	removed one of the bolt holes under devices\r
+ - 	make it thicker (from 3 to 5 mm) so it prints better\r
+v0.3\r
+ - 	adjusted some values based on callipers based measurements of board\r
+ - 	now it should be realistically sized\r
+v0.2\r
+ - 	removed junk lines\r
+ - 	added cutouts\r
+ - 	repositioned parts\r
+ - 	added minkowski sum to round out corners under PCB\r
+ - 	made it into a printable item\r
+v0.1\r
+ - 	first attempt at laying out parts""" ;
+    okh:hasImage :Image ;
+    okh:licensor "M_G" ;
+    okh:repo <https://www.thingiverse.com/thing:19556> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:19556> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Gyro Eval Board Holder 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://thingiverse-rerender-new.s3.amazonaws.com/renders/c8/c3/6e/6c/5c/2012_03_20-WIMUv4_Gyro_Eval_Board_Holder-v0.4_display_large.jpg> ;
+    okh:permaURL <https://thingiverse-rerender-new.s3.amazonaws.com/renders/c8/c3/6e/6c/5c/2012_03_20-WIMUv4_Gyro_Eval_Board_Holder-v0.4_display_large.jpg> .
+

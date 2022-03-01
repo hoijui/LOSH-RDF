@@ -1,9 +1,10 @@
-@prefix : <https://wikifactory.com/@fibasile/some-project/cd6e3978ad59d8ca539850716a4e2af1161fc3d0/> .
+@prefix : <https://wikifactory.com/%40fibasile/some-project/cd6e3978ad59d8ca539850716a4e2af1161fc3d0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 :SomeProject a okh:Module ;
     rdfs:label "Some project" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "pt" ;
     okh:function "Some descro[topm" ;
     okh:licensor "Fiore Basile" ;
@@ -11,6 +12,7 @@
     okh:repo <https://wikifactory.com/@fibasile/some-project> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
     okh:version "cd6e3978ad59d8ca539850716a4e2af1161fc3d0" ;
     okh:versionOf <https://wikifactory.com/@fibasile/some-project> .
 

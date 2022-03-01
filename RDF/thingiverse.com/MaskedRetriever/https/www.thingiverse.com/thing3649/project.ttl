@@ -1,0 +1,35 @@
+@prefix : <https://www.thingiverse.com/thing%3A3649/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Superskein10 a okh:Module ;
+    rdfs:label "SuperSkein 1.0" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Okay, this really isn't a thing but I think it's worth uploading.\r
+\r
+SuperSkein is a first-order model slicer that runs in Processing.  It's pretty basic still, but since it's object oriented and in Processing (which could be quickly ported to C) it should be easy for the community to hack and improve.\r
+\r
+Right now it slices models in /seconds/ that'd totally bog down Skeinforge and can slice models with non-manifold errors without a problem.  It's missing nearly all of Skeinforge's features, but I've got a MakerBot to print a more-or-less-viable object from it already.\r
+\r
+Happy hacking!\r
+\r
+EDIT: Added 1.1 with some niceties added and one of the big basic bugs fixed.\r
+Also also edit: Now on github!\r
+http://github.com/MaskedRetriever/SuperSkein\r
+If you want collaborator access just message me or comment!""" ;
+    okh:hasImage :Image ;
+    okh:licensor "MaskedRetriever" ;
+    okh:repo <https://www.thingiverse.com/thing:3649> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:3649> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of SuperSkein 1.0 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/b2/e4/29/dd/b7/DSCN0921_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/b2/e4/29/dd/b7/DSCN0921_display_large_display_large.jpg> .
+

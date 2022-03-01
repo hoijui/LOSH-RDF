@@ -1,0 +1,39 @@
+@prefix : <https://www.thingiverse.com/thing%3A4871/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ConfigurableSarrusLinkage a okh:Module ;
+    rdfs:label "configurable sarrus linkage" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """has these options for configuration.\r
+\r
+//controls the sarrus linkage height and width\r
+linkageheight=80;\r
+linkagewidth=50;\r
+\r
+//hole radious in mm\r
+holewidth=4;\r
+outerhole=10;\r
+//Height of the tear triangle\r
+tearangle=90;\r
+\r
+linkageholeangle=90;\r
+baseholeangle=0;\r
+\r
+Please not that this is still fairly early. I haven't added many features. The idea is that you put a screw through the hole and separate the joint with 2mm washers. Hopefully this will put the transverse motion within tolerance needed to build a Cartesian robot.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "Hiroe" ;
+    okh:repo <https://www.thingiverse.com/thing:4871> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:4871> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of configurable sarrus linkage 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://thingiverse-rerender-new.s3.amazonaws.com/renders/cb/73/0d/92/49/linkage_display_large.jpg> ;
+    okh:permaURL <https://thingiverse-rerender-new.s3.amazonaws.com/renders/cb/73/0d/92/49/linkage_display_large.jpg> .
+

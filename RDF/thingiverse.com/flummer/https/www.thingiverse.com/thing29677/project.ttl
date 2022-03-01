@@ -1,0 +1,28 @@
+@prefix : <https://www.thingiverse.com/thing%3A29677/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:DslrShoulderRig a okh:Module ;
+    rdfs:label "DSLR Shoulder Rig" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This thing is a 3D printed shoulder rig for DSLR cameras to help stabilize when shooting video.\r
+\r
+I'm using the industry standard aluminum pipe size and spacing, so it should be possible to combine these printed parts with commercially available parts and/or rigs, though I have only tried that once with a part for a friends rig.\r
+\r
+All the parts are designed in OpenSCAD and those source files are included below, in case you want to modify the parts to work with other pipes, differently sizes screw, etc.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "flummer" ;
+    okh:repo <https://www.thingiverse.com/thing:29677> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:29677> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of DSLR Shoulder Rig 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/48/10/d1/a0/d1/rig_d800_front_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/48/10/d1/a0/d1/rig_d800_front_display_large.jpg> .
+

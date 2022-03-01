@@ -1,23 +1,27 @@
-@prefix : <https://wikifactory.com/+wikifactory/north-star-build/e770164aea683dcbc9a0d525a550dfa032bae63a/> .
+@prefix : <https://wikifactory.com/%2Bwikifactory/north-star-build/e770164aea683dcbc9a0d525a550dfa032bae63a/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 :NorthStarBuild a okh:Module ;
     rdfs:label "North Star Build" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "We're building a Project North Star AR headset, taking Exii's \"Simplified Version\" as a starting point. We'll be contextualising components where necessary, and making improvements where possible. Join us!" ;
-    okh:hasComponent :Lcdholdera,
-        :Lcdholderb,
-        :Leftsliderail,
-        :Lmc,
-        :Lmcholder,
-        :Nextgen,
-        :Reflectorholder,
-        :Reflectorl,
-        :Reflectorr,
-        :Rightsliderail,
-        :Slider,
-        :Topcover ;
+    okh:hasComponent :Assemblylmc,
+        :Assemblynextgen,
+        :LensesSlaanycubicreflectorl,
+        :LensesSlareflectorl,
+        :LensesSlareflectorr,
+        :ManufacturingFileslcdholdera,
+        :ManufacturingFileslcdholderb,
+        :ManufacturingFilesleftsliderail,
+        :ManufacturingFileslmcholder,
+        :ManufacturingFilesreflectorholder,
+        :ManufacturingFilesreflectorl,
+        :ManufacturingFilesreflectorr,
+        :ManufacturingFilesrightsliderail,
+        :ManufacturingFilesslider,
+        :ManufacturingFilestopcover ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "Maximilian Kampik" ;
@@ -26,8 +30,35 @@
     okh:repo <https://wikifactory.com/+wikifactory/north-star-build> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
     okh:version "e770164aea683dcbc9a0d525a550dfa032bae63a" ;
     okh:versionOf <https://wikifactory.com/+wikifactory/north-star-build> .
+
+:Assemblylmc a okh:Part ;
+    rdfs:label "Assembly/LMC" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Maximilian Kampik" ;
+    okh:source :Assemblylmc_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Assemblylmc_source a okh:SourceFile ;
+    rdfs:label "Source File of Assembly/LMC of North Star Build e770164aea683dcbc9a0d525a550dfa032bae63a" ;
+    okh:fileFormat "STEP" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1047/lmc.step> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyNjkwOQ==> .
+
+:Assemblynextgen a okh:Part ;
+    rdfs:label "Assembly/Next-gen" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Maximilian Kampik" ;
+    okh:source :Assemblynextgen_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Assemblynextgen_source a okh:SourceFile ;
+    rdfs:label "Source File of Assembly/Next-gen of North Star Build e770164aea683dcbc9a0d525a550dfa032bae63a" ;
+    okh:fileFormat "STEP" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1047/next-gen.step> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyNjkwOA==> .
 
 :Image a okh:Image ;
     rdfs:label "Image of North Star Build e770164aea683dcbc9a0d525a550dfa032bae63a" ;
@@ -35,200 +66,192 @@
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1047/north-star-e9208.jpg> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToyNjkxNA==> .
 
-:Lcdholdera a okh:Part ;
-    rdfs:label "LCD_Holder_A" ;
+:LensesSlaanycubicreflectorl a okh:Part ;
+    rdfs:label "Lenses SLA/Anycubic/Reflector_L" ;
     okh:documentationLanguage "en" ;
-    okh:licensor "Maximilian Kampik" ;
-    okh:source :Lcdholdera_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Lcdholdera_source a okh:SourceFile ;
-    rdfs:label "Source File of LCD_Holder_A of North Star Build e770164aea683dcbc9a0d525a550dfa032bae63a" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1047/lcd-holder-a.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjA4Mw==> .
-
-:Lcdholderb a okh:Part ;
-    rdfs:label "LCD_Holder_B" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Maximilian Kampik" ;
-    okh:source :Lcdholderb_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Lcdholderb_source a okh:SourceFile ;
-    rdfs:label "Source File of LCD_Holder_B of North Star Build e770164aea683dcbc9a0d525a550dfa032bae63a" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1047/lcd-holder-b.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjA4NA==> .
-
-:Leftsliderail a okh:Part ;
-    rdfs:label "Left_Slide_Rail" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Maximilian Kampik" ;
-    okh:source :Leftsliderail_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Leftsliderail_source a okh:SourceFile ;
-    rdfs:label "Source File of Left_Slide_Rail of North Star Build e770164aea683dcbc9a0d525a550dfa032bae63a" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1047/left-slide-rail.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjA4Ng==> .
-
-:Lmc a okh:Part ;
-    rdfs:label "LMC" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Maximilian Kampik" ;
-    okh:source :Lmc_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Lmc_source a okh:SourceFile ;
-    rdfs:label "Source File of LMC of North Star Build e770164aea683dcbc9a0d525a550dfa032bae63a" ;
-    okh:fileFormat "STEP" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1047/lmc.step> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyNjkwOQ==> .
-
-:Lmcholder a okh:Part ;
-    rdfs:label "LMC_Holder" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Maximilian Kampik" ;
-    okh:source :Lmcholder_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Lmcholder_source a okh:SourceFile ;
-    rdfs:label "Source File of LMC_Holder of North Star Build e770164aea683dcbc9a0d525a550dfa032bae63a" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1047/lmc-holder.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjA4NQ==> .
-
-:Nextgen a okh:Part ;
-    rdfs:label "Next-gen" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Maximilian Kampik" ;
-    okh:source :Nextgen_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Nextgen_source a okh:SourceFile ;
-    rdfs:label "Source File of Next-gen of North Star Build e770164aea683dcbc9a0d525a550dfa032bae63a" ;
-    okh:fileFormat "STEP" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1047/next-gen.step> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyNjkwOA==> .
-
-:Readme a okh:Readme ;
-    rdfs:label "Readme of North Star Build e770164aea683dcbc9a0d525a550dfa032bae63a" ;
-    okh:fileFormat "MD" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1047/readme.md> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjA5NQ==> .
-
-:Reflectorholder a okh:Part ;
-    rdfs:label "Reflector_Holder" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Maximilian Kampik" ;
-    okh:source :Reflectorholder_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Reflectorholder_source a okh:SourceFile ;
-    rdfs:label "Source File of Reflector_Holder of North Star Build e770164aea683dcbc9a0d525a550dfa032bae63a" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1047/reflector-holder.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjA4Nw==> .
-
-:Reflectorl a okh:Part ;
-    rdfs:label "Reflector_L" ;
-    okh:documentationLanguage "en" ;
-    okh:export :Reflectorl_export1,
-        :Reflectorl_export2,
-        :Reflectorl_export3 ;
     okh:licensor "Andreas Raster" ;
-    okh:source :Reflectorl_source ;
+    okh:source :LensesSlaanycubicreflectorl_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Reflectorl_export1 a okh:ExportFile ;
-    rdfs:label "Export File of Reflector_L of North Star Build e770164aea683dcbc9a0d525a550dfa032bae63a" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1047/reflector-l-1.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMzA3NA==> .
-
-:Reflectorl_export2 a okh:ExportFile ;
-    rdfs:label "Export File of Reflector_L of North Star Build e770164aea683dcbc9a0d525a550dfa032bae63a" ;
-    okh:fileFormat "STEP" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1047/reflector-l.step> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjA4OA==> .
-
-:Reflectorl_export3 a okh:ExportFile ;
-    rdfs:label "Export File of Reflector_L of North Star Build e770164aea683dcbc9a0d525a550dfa032bae63a" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1047/reflector-l.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjA4OQ==> .
-
-:Reflectorl_source a okh:SourceFile ;
-    rdfs:label "Source File of Reflector_L of North Star Build e770164aea683dcbc9a0d525a550dfa032bae63a" ;
+:LensesSlaanycubicreflectorl_source a okh:SourceFile ;
+    rdfs:label "Source File of Lenses SLA/Anycubic/Reflector_L of North Star Build e770164aea683dcbc9a0d525a550dfa032bae63a" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1047/reflector-l-2.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToxMzA3OA==> .
 
-:Reflectorr a okh:Part ;
-    rdfs:label "Reflector_R" ;
+:LensesSlareflectorl a okh:Part ;
+    rdfs:label "Lenses SLA/Reflector_L" ;
     okh:documentationLanguage "en" ;
-    okh:export :Reflectorr_export1,
-        :Reflectorr_export2 ;
     okh:licensor "Andreas Raster" ;
-    okh:source :Reflectorr_source ;
+    okh:source :LensesSlareflectorl_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Reflectorr_export1 a okh:ExportFile ;
-    rdfs:label "Export File of Reflector_R of North Star Build e770164aea683dcbc9a0d525a550dfa032bae63a" ;
-    okh:fileFormat "STEP" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1047/reflector-r.step> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjA5MA==> .
-
-:Reflectorr_export2 a okh:ExportFile ;
-    rdfs:label "Export File of Reflector_R of North Star Build e770164aea683dcbc9a0d525a550dfa032bae63a" ;
+:LensesSlareflectorl_source a okh:SourceFile ;
+    rdfs:label "Source File of Lenses SLA/Reflector_L of North Star Build e770164aea683dcbc9a0d525a550dfa032bae63a" ;
     okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1047/reflector-r.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjA5MQ==> .
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1047/reflector-l-1.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMzA3NA==> .
 
-:Reflectorr_source a okh:SourceFile ;
-    rdfs:label "Source File of Reflector_R of North Star Build e770164aea683dcbc9a0d525a550dfa032bae63a" ;
+:LensesSlareflectorr a okh:Part ;
+    rdfs:label "Lenses SLA/Reflector_R" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Andreas Raster" ;
+    okh:source :LensesSlareflectorr_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:LensesSlareflectorr_source a okh:SourceFile ;
+    rdfs:label "Source File of Lenses SLA/Reflector_R of North Star Build e770164aea683dcbc9a0d525a550dfa032bae63a" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1047/reflector-r-1.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToxMzA3NQ==> .
 
-:Rightsliderail a okh:Part ;
-    rdfs:label "Right_Slide_Rail" ;
+:ManufacturingFileslcdholdera a okh:Part ;
+    rdfs:label "Manufacturing files/LCD_Holder_A" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Maximilian Kampik" ;
-    okh:source :Rightsliderail_source ;
+    okh:source :ManufacturingFileslcdholdera_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Rightsliderail_source a okh:SourceFile ;
-    rdfs:label "Source File of Right_Slide_Rail of North Star Build e770164aea683dcbc9a0d525a550dfa032bae63a" ;
+:ManufacturingFileslcdholdera_source a okh:SourceFile ;
+    rdfs:label "Source File of Manufacturing files/LCD_Holder_A of North Star Build e770164aea683dcbc9a0d525a550dfa032bae63a" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1047/lcd-holder-a.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjA4Mw==> .
+
+:ManufacturingFileslcdholderb a okh:Part ;
+    rdfs:label "Manufacturing files/LCD_Holder_B" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Maximilian Kampik" ;
+    okh:source :ManufacturingFileslcdholderb_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:ManufacturingFileslcdholderb_source a okh:SourceFile ;
+    rdfs:label "Source File of Manufacturing files/LCD_Holder_B of North Star Build e770164aea683dcbc9a0d525a550dfa032bae63a" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1047/lcd-holder-b.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjA4NA==> .
+
+:ManufacturingFilesleftsliderail a okh:Part ;
+    rdfs:label "Manufacturing files/Left_Slide_Rail" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Maximilian Kampik" ;
+    okh:source :ManufacturingFilesleftsliderail_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:ManufacturingFilesleftsliderail_source a okh:SourceFile ;
+    rdfs:label "Source File of Manufacturing files/Left_Slide_Rail of North Star Build e770164aea683dcbc9a0d525a550dfa032bae63a" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1047/left-slide-rail.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjA4Ng==> .
+
+:ManufacturingFileslmcholder a okh:Part ;
+    rdfs:label "Manufacturing files/LMC_Holder" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Maximilian Kampik" ;
+    okh:source :ManufacturingFileslmcholder_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:ManufacturingFileslmcholder_source a okh:SourceFile ;
+    rdfs:label "Source File of Manufacturing files/LMC_Holder of North Star Build e770164aea683dcbc9a0d525a550dfa032bae63a" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1047/lmc-holder.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjA4NQ==> .
+
+:ManufacturingFilesreflectorholder a okh:Part ;
+    rdfs:label "Manufacturing files/Reflector_Holder" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Maximilian Kampik" ;
+    okh:source :ManufacturingFilesreflectorholder_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:ManufacturingFilesreflectorholder_source a okh:SourceFile ;
+    rdfs:label "Source File of Manufacturing files/Reflector_Holder of North Star Build e770164aea683dcbc9a0d525a550dfa032bae63a" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1047/reflector-holder.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjA4Nw==> .
+
+:ManufacturingFilesreflectorl a okh:Part ;
+    rdfs:label "Manufacturing files/Reflector_L" ;
+    okh:documentationLanguage "en" ;
+    okh:export :ManufacturingFilesreflectorl_export1 ;
+    okh:licensor "Maximilian Kampik" ;
+    okh:source :ManufacturingFilesreflectorl_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:ManufacturingFilesreflectorl_export1 a okh:ExportFile ;
+    rdfs:label "Export File of Manufacturing files/Reflector_L of North Star Build e770164aea683dcbc9a0d525a550dfa032bae63a" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1047/reflector-l.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjA4OQ==> .
+
+:ManufacturingFilesreflectorl_source a okh:SourceFile ;
+    rdfs:label "Source File of Manufacturing files/Reflector_L of North Star Build e770164aea683dcbc9a0d525a550dfa032bae63a" ;
+    okh:fileFormat "STEP" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1047/reflector-l.step> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjA4OA==> .
+
+:ManufacturingFilesreflectorr a okh:Part ;
+    rdfs:label "Manufacturing files/Reflector_R" ;
+    okh:documentationLanguage "en" ;
+    okh:export :ManufacturingFilesreflectorr_export1 ;
+    okh:licensor "Maximilian Kampik" ;
+    okh:source :ManufacturingFilesreflectorr_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:ManufacturingFilesreflectorr_export1 a okh:ExportFile ;
+    rdfs:label "Export File of Manufacturing files/Reflector_R of North Star Build e770164aea683dcbc9a0d525a550dfa032bae63a" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1047/reflector-r.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjA5MQ==> .
+
+:ManufacturingFilesreflectorr_source a okh:SourceFile ;
+    rdfs:label "Source File of Manufacturing files/Reflector_R of North Star Build e770164aea683dcbc9a0d525a550dfa032bae63a" ;
+    okh:fileFormat "STEP" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1047/reflector-r.step> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjA5MA==> .
+
+:ManufacturingFilesrightsliderail a okh:Part ;
+    rdfs:label "Manufacturing files/Right_Slide_Rail" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Maximilian Kampik" ;
+    okh:source :ManufacturingFilesrightsliderail_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:ManufacturingFilesrightsliderail_source a okh:SourceFile ;
+    rdfs:label "Source File of Manufacturing files/Right_Slide_Rail of North Star Build e770164aea683dcbc9a0d525a550dfa032bae63a" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1047/right-slide-rail.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToxMjA5Mg==> .
 
-:Slider a okh:Part ;
-    rdfs:label "Slider" ;
+:ManufacturingFilesslider a okh:Part ;
+    rdfs:label "Manufacturing files/Slider" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Maximilian Kampik" ;
-    okh:source :Slider_source ;
+    okh:source :ManufacturingFilesslider_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Slider_source a okh:SourceFile ;
-    rdfs:label "Source File of Slider of North Star Build e770164aea683dcbc9a0d525a550dfa032bae63a" ;
+:ManufacturingFilesslider_source a okh:SourceFile ;
+    rdfs:label "Source File of Manufacturing files/Slider of North Star Build e770164aea683dcbc9a0d525a550dfa032bae63a" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1047/slider.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToxMjA5Mw==> .
 
-:Topcover a okh:Part ;
-    rdfs:label "Top_Cover" ;
+:ManufacturingFilestopcover a okh:Part ;
+    rdfs:label "Manufacturing files/Top_Cover" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Maximilian Kampik" ;
-    okh:source :Topcover_source ;
+    okh:source :ManufacturingFilestopcover_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Topcover_source a okh:SourceFile ;
-    rdfs:label "Source File of Top_Cover of North Star Build e770164aea683dcbc9a0d525a550dfa032bae63a" ;
+:ManufacturingFilestopcover_source a okh:SourceFile ;
+    rdfs:label "Source File of Manufacturing files/Top_Cover of North Star Build e770164aea683dcbc9a0d525a550dfa032bae63a" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1047/top-cover.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToxMjA5NA==> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of North Star Build e770164aea683dcbc9a0d525a550dfa032bae63a" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1047/readme-95bce.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyMDgyNzc=> .
 

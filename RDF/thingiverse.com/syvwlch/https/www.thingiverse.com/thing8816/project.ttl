@@ -1,0 +1,32 @@
+@prefix : <https://www.thingiverse.com/thing%3A8816/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:SplitLeadNut a okh:Module ;
+    rdfs:label "Split Lead Nut" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """I added a negative-space module to the Thread Library today. This new module will create a negative space version of a thread, taking care of all the clearance calculations for you. All you need to do is pass it the same parameters as the thread it is meant to screw onto.\r
+\r
+I also added a module to create a hexagonal nut that screws onto any threaded rod with the same parameters, but as a more interesting example, I chose to demo the new capability with a split lead nut.\r
+\r
+Print and clamp the two parts over a lead screw or trapezoidal threaded rod, such as the ones found in many CNC machines, and attach them with two nuts & bolts. \r
+\r
+The lead nut, if it is not allowed to rotate, will be forced in and out by the rotation of the lead screw ... but you all know CNC machines, you understand this already.\r
+\r
+The images show the split lead nut, the negative space with the built-in chamfers, and a cut-away view of a hexagonal nut on a rod, to show the clearances.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "syvwlch" ;
+    okh:repo <https://www.thingiverse.com/thing:8816> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:8816> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Split Lead Nut 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/f9/52/f7/63/15/SplitLeadNut-01_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/f9/52/f7/63/15/SplitLeadNut-01_display_large_display_large.jpg> .
+

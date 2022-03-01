@@ -1,18 +1,20 @@
-@prefix : <https://wikifactory.com/+labdefabudla/pabellón-jatafevacri/25273486bbd173a7204ac801b5e8780ceb1fa114/> .
+@prefix : <https://wikifactory.com/%2Blabdefabudla/pabell%C3%B3n-jatafevacri/25273486bbd173a7204ac801b5e8780ceb1fa114/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 :PabellónJatafevacri a okh:Module ;
     rdfs:label "Pabellón JaTaFeVaCri " ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "es" ;
     okh:function "Pabellon que busca dar a conocer las posibilidades de la pieza de unión desarrollada.Por su versatilidad, permite el armado de estructuras complejas.Navegar el pabellon: https://api2.enscape3d.com/v1/view/790a047b-5017-487b-86b2-3410e94c2624" ;
-    okh:hasComponent :Base,
-        :Esfera,
-        :Pabellon,
-        :PlanimetríaUnión,
-        :Union,
-        :Unioneditable,
-        :ÁngulosYEjes ;
+    okh:hasComponent :Pabellónimagenespabellon,
+        :Pabellónmodelo3dpabellon,
+        :PiezaDeUniónimpresión3dbase,
+        :PiezaDeUniónimpresión3desfera,
+        :PiezaDeUniónimpresión3dunion,
+        :PiezaDeUniónmodelo3dunioneditable,
+        :PiezaDeUniónplanosplanimetríaUnión,
+        :PiezaDeUniónplanosángulosYEjes ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "Tamara Fernandez" ;
@@ -21,34 +23,9 @@
     okh:repo <https://wikifactory.com/+labdefabudla/pabellón-jatafevacri> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
     okh:version "25273486bbd173a7204ac801b5e8780ceb1fa114" ;
     okh:versionOf <https://wikifactory.com/+labdefabudla/pabellón-jatafevacri> .
-
-:Base a okh:Part ;
-    rdfs:label "BASE" ;
-    okh:documentationLanguage "es" ;
-    okh:licensor "Cristian David Diaz Rebolledo" ;
-    okh:source :Base_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Base_source a okh:SourceFile ;
-    rdfs:label "Source File of BASE of Pabellón JaTaFeVaCri  25273486bbd173a7204ac801b5e8780ceb1fa114" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144571/base-9cd8e.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MTIyMzc=> .
-
-:Esfera a okh:Part ;
-    rdfs:label "ESFERA" ;
-    okh:documentationLanguage "es" ;
-    okh:licensor "Cristian David Diaz Rebolledo" ;
-    okh:source :Esfera_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Esfera_source a okh:SourceFile ;
-    rdfs:label "Source File of ESFERA of Pabellón JaTaFeVaCri  25273486bbd173a7204ac801b5e8780ceb1fa114" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144571/esfera-2f21d.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MTIyMzY=> .
 
 :Image a okh:Image ;
     rdfs:label "Image of Pabellón JaTaFeVaCri  25273486bbd173a7204ac801b5e8780ceb1fa114" ;
@@ -56,81 +33,113 @@
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144571/portada.jpg> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo2MTA0OTE=> .
 
-:Pabellon a okh:Part ;
-    rdfs:label "PABELLON" ;
+:Pabellónimagenespabellon a okh:Part ;
+    rdfs:label "Pabellón/Imagenes/PABELLON" ;
     okh:documentationLanguage "es" ;
-    okh:export :Pabellon_export1 ;
     okh:licensor "Cristian David Diaz Rebolledo" ;
-    okh:source :Pabellon_source ;
+    okh:source :Pabellónimagenespabellon_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Pabellon_export1 a okh:ExportFile ;
-    rdfs:label "Export File of PABELLON of Pabellón JaTaFeVaCri  25273486bbd173a7204ac801b5e8780ceb1fa114" ;
+:Pabellónimagenespabellon_source a okh:SourceFile ;
+    rdfs:label "Source File of Pabellón/Imagenes/PABELLON of Pabellón JaTaFeVaCri  25273486bbd173a7204ac801b5e8780ceb1fa114" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144571/pabellon.pdf> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo2MTE4NjA=> .
 
-:Pabellon_source a okh:SourceFile ;
-    rdfs:label "Source File of PABELLON of Pabellón JaTaFeVaCri  25273486bbd173a7204ac801b5e8780ceb1fa114" ;
+:Pabellónmodelo3dpabellon a okh:Part ;
+    rdfs:label "Pabellón/Modelo 3D/PABELLON" ;
+    okh:documentationLanguage "es" ;
+    okh:licensor "Cristian David Diaz Rebolledo" ;
+    okh:source :Pabellónmodelo3dpabellon_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Pabellónmodelo3dpabellon_source a okh:SourceFile ;
+    rdfs:label "Source File of Pabellón/Modelo 3D/PABELLON of Pabellón JaTaFeVaCri  25273486bbd173a7204ac801b5e8780ceb1fa114" ;
     okh:fileFormat "3DM" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144571/pabellon.3dm> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo2MTEzNzA=> .
 
-:PlanimetríaUnión a okh:Part ;
-    rdfs:label "PLANIMETRÍA UNIÓN" ;
+:PiezaDeUniónimpresión3dbase a okh:Part ;
+    rdfs:label "Pieza de unión/Impresión 3D/BASE" ;
     okh:documentationLanguage "es" ;
-    okh:licensor "felipefigueroachan" ;
-    okh:source :PlanimetríaUnión_source ;
+    okh:licensor "Cristian David Diaz Rebolledo" ;
+    okh:source :PiezaDeUniónimpresión3dbase_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:PlanimetríaUnión_source a okh:SourceFile ;
-    rdfs:label "Source File of PLANIMETRÍA UNIÓN of Pabellón JaTaFeVaCri  25273486bbd173a7204ac801b5e8780ceb1fa114" ;
+:PiezaDeUniónimpresión3dbase_source a okh:SourceFile ;
+    rdfs:label "Source File of Pieza de unión/Impresión 3D/BASE of Pabellón JaTaFeVaCri  25273486bbd173a7204ac801b5e8780ceb1fa114" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144571/base-9cd8e.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MTIyMzc=> .
+
+:PiezaDeUniónimpresión3desfera a okh:Part ;
+    rdfs:label "Pieza de unión/Impresión 3D/ESFERA" ;
+    okh:documentationLanguage "es" ;
+    okh:licensor "Cristian David Diaz Rebolledo" ;
+    okh:source :PiezaDeUniónimpresión3desfera_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:PiezaDeUniónimpresión3desfera_source a okh:SourceFile ;
+    rdfs:label "Source File of Pieza de unión/Impresión 3D/ESFERA of Pabellón JaTaFeVaCri  25273486bbd173a7204ac801b5e8780ceb1fa114" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144571/esfera-2f21d.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MTIyMzY=> .
+
+:PiezaDeUniónimpresión3dunion a okh:Part ;
+    rdfs:label "Pieza de unión/Impresión 3D/UNION" ;
+    okh:documentationLanguage "es" ;
+    okh:licensor "Cristian David Diaz Rebolledo" ;
+    okh:source :PiezaDeUniónimpresión3dunion_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:PiezaDeUniónimpresión3dunion_source a okh:SourceFile ;
+    rdfs:label "Source File of Pieza de unión/Impresión 3D/UNION of Pabellón JaTaFeVaCri  25273486bbd173a7204ac801b5e8780ceb1fa114" ;
+    okh:fileFormat "3DM" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144571/union.3dm> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MTE4NDA=> .
+
+:PiezaDeUniónmodelo3dunioneditable a okh:Part ;
+    rdfs:label "Pieza de unión/Modelo 3D/UNION_EDITABLE" ;
+    okh:documentationLanguage "es" ;
+    okh:licensor "Cristian David Diaz Rebolledo" ;
+    okh:source :PiezaDeUniónmodelo3dunioneditable_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:PiezaDeUniónmodelo3dunioneditable_source a okh:SourceFile ;
+    rdfs:label "Source File of Pieza de unión/Modelo 3D/UNION_EDITABLE of Pabellón JaTaFeVaCri  25273486bbd173a7204ac801b5e8780ceb1fa114" ;
+    okh:fileFormat "3DM" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144571/union_editable.3dm> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MTE4NDI=> .
+
+:PiezaDeUniónplanosplanimetríaUnión a okh:Part ;
+    rdfs:label "Pieza de unión/Planos/PLANIMETRÍA UNIÓN" ;
+    okh:documentationLanguage "es" ;
+    okh:licensor "felipefigueroachan" ;
+    okh:source :PiezaDeUniónplanosplanimetríaUnión_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:PiezaDeUniónplanosplanimetríaUnión_source a okh:SourceFile ;
+    rdfs:label "Source File of Pieza de unión/Planos/PLANIMETRÍA UNIÓN of Pabellón JaTaFeVaCri  25273486bbd173a7204ac801b5e8780ceb1fa114" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144571/planimetría-unión-e0d81.pdf> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo2Mjk4OTc=> .
+
+:PiezaDeUniónplanosángulosYEjes a okh:Part ;
+    rdfs:label "Pieza de unión/Planos/ÁNGULOS Y EJES" ;
+    okh:documentationLanguage "es" ;
+    okh:licensor "felipefigueroachan" ;
+    okh:source :PiezaDeUniónplanosángulosYEjes_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:PiezaDeUniónplanosángulosYEjes_source a okh:SourceFile ;
+    rdfs:label "Source File of Pieza de unión/Planos/ÁNGULOS Y EJES of Pabellón JaTaFeVaCri  25273486bbd173a7204ac801b5e8780ceb1fa114" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144571/ángulos-y-ejes.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjkxOTQ=> .
 
 :Readme a okh:Readme ;
     rdfs:label "Readme of Pabellón JaTaFeVaCri  25273486bbd173a7204ac801b5e8780ceb1fa114" ;
     okh:fileFormat "MD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144571/readme-5a580.md> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzAyMTE=> .
-
-:Union a okh:Part ;
-    rdfs:label "UNION" ;
-    okh:documentationLanguage "es" ;
-    okh:licensor "Cristian David Diaz Rebolledo" ;
-    okh:source :Union_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Union_source a okh:SourceFile ;
-    rdfs:label "Source File of UNION of Pabellón JaTaFeVaCri  25273486bbd173a7204ac801b5e8780ceb1fa114" ;
-    okh:fileFormat "3DM" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144571/union.3dm> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MTE4NDA=> .
-
-:Unioneditable a okh:Part ;
-    rdfs:label "UNION_EDITABLE" ;
-    okh:documentationLanguage "es" ;
-    okh:licensor "Cristian David Diaz Rebolledo" ;
-    okh:source :Unioneditable_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Unioneditable_source a okh:SourceFile ;
-    rdfs:label "Source File of UNION_EDITABLE of Pabellón JaTaFeVaCri  25273486bbd173a7204ac801b5e8780ceb1fa114" ;
-    okh:fileFormat "3DM" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144571/union_editable.3dm> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MTE4NDI=> .
-
-:ÁngulosYEjes a okh:Part ;
-    rdfs:label "ÁNGULOS Y EJES" ;
-    okh:documentationLanguage "es" ;
-    okh:licensor "felipefigueroachan" ;
-    okh:source :ÁngulosYEjes_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:ÁngulosYEjes_source a okh:SourceFile ;
-    rdfs:label "Source File of ÁNGULOS Y EJES of Pabellón JaTaFeVaCri  25273486bbd173a7204ac801b5e8780ceb1fa114" ;
-    okh:fileFormat "PDF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144571/ángulos-y-ejes.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjkxOTQ=> .
 

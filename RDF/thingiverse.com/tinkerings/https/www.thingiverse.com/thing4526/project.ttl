@@ -1,0 +1,53 @@
+@prefix : <https://www.thingiverse.com/thing%3A4526/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:PsmdpololuStepperMotorDriverTripleAxisDriver a okh:Module ;
+    rdfs:label "PSMD (Pololu Stepper Motor Driver) Triple Axis Driver" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """A drop-in replacement for the MakerBot stepper drivers that contains all three axes on one board.\r
+\r
+You can order these from my web site: http://www.tinkerin.gs/p/psmd-pololu-stepper-motor-driver-triple.html\r
+Now you can also order these from Seeed Studio!: http://www.seeedstudio.com/depot/psmd-triple-axis-driver-p-1029.html\r
+\r
+Updated: Now smaller (same height as a Gen4 stepper driver and 1/4" wider for 3X the axes), and with dip switches to configure microstepping. Also now has a motor-power-in (or 12V out) screw terminal that can be used to drive the motors on up to 35V. I need to update the files an description.\r
+\r
+See it in action here (with an early prototype): http://www.youtube.com/watch?v=8TEvwzTABEI&hd=1\r
+And it's not mentioned or shown, but you can see it in action in this video: http://www.youtube.com/watch?v=2iGnlqBLn5s&hd=1\r
+\r
+This board makes your steppers run at eight times higher resolution (1/16th steps instead of 1/2 steps), making it run smoother and way quieter.\r
+\r
+I based the design on the MakerBot Stepper Driver v3.0  ( http://www.thingiverse.com/thing:760 ) but with a few notable exceptions:\r
+\r
+â€¢) I used the Pololu A4983/A4988 ( http://j.mp/pololu-smd2 ) stepper motor driver carrier board for each axis, so three of them are required for all three axes to work. (This was originally designed fo the A4983, but the replacement A4988 works great.)\r
+â€¢) Circuitry that is already on the Pololu board has been removed.\r
+â€¢) The CD-ROM-style connectors from the Gen4 electronics are used. I used a horizontal-mount connector instead of a vertical mount for mostly cosmetic reasons on the Cupcake, and that may have to be changed for the Thing-o-magic or a RepRap. I'll have to modify the layout to support vertical connectors if they are needed. \r
+â€¢) This board is etchable and hand-solderable. This means that, with the exception of the thru-hole capacitor leads, none of the lead holes are used as vias. Also, traces are reasonably far apart, all of the wiring of the thru-hole parts (except the caps) is on the back, and vias (and drilling) are avoided as much as possible. I have provided the PDF I used for toner transfer.\r
+\r
+I placed the Pololu boards vertically and with nothing under them to provide a natural flow of hot air past them. This is why the capacitors are mounted on the back. If they still show signs of overheating, there are holes at the bottom to mount a 12v CPU fan to blow air up past them and provide cooling. So far, in my testing, the steppers overheat before the drivers.\r
+\r
+More info about the RepRap testing with Pololu drivers (and my inspiration) here: http://www.reprap.org/wiki/Pololu_Electronics\r
+\r
+Update 1: Oops, I forgot to post my machines.xml. Now it's up.\r
+Update 2: I added a photo of this latest revision with the endstop connectors corrected and soldered in place. I'm working on the mechanical endstops as another thing. All of the other photos are of the previos revision of this board.\r
+Update 3: I updated the eagle files with some minor cosmetic changes, mostly to clean up the silk screen. I didn't change the version because it's all cosmetic.\r
+Update 4: I have partial build instructions up on Flickr. http://www.flickr.com/photos/giseburt/sets/72157625473951054/\r
+Update 5: I have updated the design a little, and bumped the version number to 0.5. (I've left the 0.2 files here.) It now has 6-pin connectors that should be compatible with the Gen4 electronics. It also has a 12V in/out screw terminal, and I've added more silk-screen to help identify parts and pins. The down side is that the -pin connectors made the traces really tight, and it will be more difficult to solder a home-etched version, since some traces to the 6-pin headers are on the top side.\r
+\r
+I'm sorry, I'm currently out of kits. I am in the process of having some professionally made, but I don't currently have an ETA. The good news is that they will be completely assembled, and the only soldering needed will be of the Pololu drivers.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "tinkerings" ;
+    okh:repo <https://www.thingiverse.com/thing:4526> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:4526> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of PSMD (Pololu Stepper Motor Driver) Triple Axis Driver 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/9e/37/6e/27/a5/5586512639_3f882d16b5_b_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/9e/37/6e/27/a5/5586512639_3f882d16b5_b_display_large_display_large.jpg> .
+

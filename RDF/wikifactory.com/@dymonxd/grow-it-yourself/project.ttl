@@ -1,17 +1,18 @@
-@prefix : <https://wikifactory.com/@dymonxd/grow-it-yourself/fd079f50dbe071c35f340ffe259677a56ef802c5/> .
+@prefix : <https://wikifactory.com/%40dymonxd/grow-it-yourself/fd079f50dbe071c35f340ffe259677a56ef802c5/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 :GrowItYourself a okh:Module ;
     rdfs:label "Grow it yourself" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "GIY - an automated, smart, self contained growing system that cultivates plants from seed to maturity! By Abolt Dima" ;
-    okh:hasComponent :Coverfront,
-        :Giyboard,
-        :Lightlasercut,
-        :Toplasercut,
-        :Wallscnc,
-        :Waterproofmould ;
+    okh:hasComponent :Design2dDesigncoverfront,
+        :Design2dDesignlightlasercut,
+        :Design2dDesigntoplasercut,
+        :Design2dDesignwallscnc,
+        :Design2dDesignwaterproofmould,
+        :Electronicsgiyboard ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "Dmitrii ALBOT" ;
@@ -19,38 +20,91 @@
     okh:repo <https://wikifactory.com/@dymonxd/grow-it-yourself> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
     okh:version "fd079f50dbe071c35f340ffe259677a56ef802c5" ;
     okh:versionOf <https://wikifactory.com/@dymonxd/grow-it-yourself> .
 
-:Coverfront a okh:Part ;
-    rdfs:label "cover_front" ;
+:Design2dDesigncoverfront a okh:Part ;
+    rdfs:label "Design/2D Design/cover_front" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Coverfront_source ;
+    okh:source :Design2dDesigncoverfront_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Coverfront_source a okh:SourceFile ;
-    rdfs:label "Source File of cover_front of Grow it yourself fd079f50dbe071c35f340ffe259677a56ef802c5" ;
+:Design2dDesigncoverfront_source a okh:SourceFile ;
+    rdfs:label "Source File of Design/2D Design/cover_front of Grow it yourself fd079f50dbe071c35f340ffe259677a56ef802c5" ;
     okh:fileFormat "DXF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/852/coverfront-0.dxf> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDE3> .
 
-:Giyboard a okh:Part ;
-    rdfs:label "GIY_board" ;
+:Design2dDesignlightlasercut a okh:Part ;
+    rdfs:label "Design/2D Design/light_lasercut" ;
     okh:documentationLanguage "en" ;
-    okh:export :Giyboard_export1 ;
     okh:licensor "James Botler" ;
-    okh:source :Giyboard_source ;
+    okh:source :Design2dDesignlightlasercut_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Giyboard_export1 a okh:ExportFile ;
-    rdfs:label "Export File of GIY_board of Grow it yourself fd079f50dbe071c35f340ffe259677a56ef802c5" ;
+:Design2dDesignlightlasercut_source a okh:SourceFile ;
+    rdfs:label "Source File of Design/2D Design/light_lasercut of Grow it yourself fd079f50dbe071c35f340ffe259677a56ef802c5" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/852/lightlasercut-0.dxf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDE4> .
+
+:Design2dDesigntoplasercut a okh:Part ;
+    rdfs:label "Design/2D Design/top_lasercut" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :Design2dDesigntoplasercut_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Design2dDesigntoplasercut_source a okh:SourceFile ;
+    rdfs:label "Source File of Design/2D Design/top_lasercut of Grow it yourself fd079f50dbe071c35f340ffe259677a56ef802c5" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/852/toplasercut-0.dxf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDE2> .
+
+:Design2dDesignwallscnc a okh:Part ;
+    rdfs:label "Design/2D Design/walls_CNC" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :Design2dDesignwallscnc_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Design2dDesignwallscnc_source a okh:SourceFile ;
+    rdfs:label "Source File of Design/2D Design/walls_CNC of Grow it yourself fd079f50dbe071c35f340ffe259677a56ef802c5" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/852/wallscnc-0.dxf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDE1> .
+
+:Design2dDesignwaterproofmould a okh:Part ;
+    rdfs:label "Design/2D Design/waterproof_mould" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :Design2dDesignwaterproofmould_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Design2dDesignwaterproofmould_source a okh:SourceFile ;
+    rdfs:label "Source File of Design/2D Design/waterproof_mould of Grow it yourself fd079f50dbe071c35f340ffe259677a56ef802c5" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/852/waterproofmould-0.dxf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDE0> .
+
+:Electronicsgiyboard a okh:Part ;
+    rdfs:label "Electronics/GIY_board" ;
+    okh:documentationLanguage "en" ;
+    okh:export :Electronicsgiyboard_export1 ;
+    okh:licensor "James Botler" ;
+    okh:source :Electronicsgiyboard_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Electronicsgiyboard_export1 a okh:ExportFile ;
+    rdfs:label "Export File of Electronics/GIY_board of Grow it yourself fd079f50dbe071c35f340ffe259677a56ef802c5" ;
     okh:fileFormat "SCH" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/852/giyboard-0.sch> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDA0> .
 
-:Giyboard_source a okh:SourceFile ;
-    rdfs:label "Source File of GIY_board of Grow it yourself fd079f50dbe071c35f340ffe259677a56ef802c5" ;
+:Electronicsgiyboard_source a okh:SourceFile ;
+    rdfs:label "Source File of Electronics/GIY_board of Grow it yourself fd079f50dbe071c35f340ffe259677a56ef802c5" ;
     okh:fileFormat "BRD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/852/giyboard-0.brd> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDAz> .
@@ -61,61 +115,9 @@
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/852/cropped.jpg> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo3NjM2> .
 
-:Lightlasercut a okh:Part ;
-    rdfs:label "light_lasercut" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "James Botler" ;
-    okh:source :Lightlasercut_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Lightlasercut_source a okh:SourceFile ;
-    rdfs:label "Source File of light_lasercut of Grow it yourself fd079f50dbe071c35f340ffe259677a56ef802c5" ;
-    okh:fileFormat "DXF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/852/lightlasercut-0.dxf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDE4> .
-
 :Readme a okh:Readme ;
     rdfs:label "Readme of Grow it yourself fd079f50dbe071c35f340ffe259677a56ef802c5" ;
     okh:fileFormat "MD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/852/readme-28.md> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo4MjM5> .
-
-:Toplasercut a okh:Part ;
-    rdfs:label "top_lasercut" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "James Botler" ;
-    okh:source :Toplasercut_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Toplasercut_source a okh:SourceFile ;
-    rdfs:label "Source File of top_lasercut of Grow it yourself fd079f50dbe071c35f340ffe259677a56ef802c5" ;
-    okh:fileFormat "DXF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/852/toplasercut-0.dxf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDE2> .
-
-:Wallscnc a okh:Part ;
-    rdfs:label "walls_CNC" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "James Botler" ;
-    okh:source :Wallscnc_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Wallscnc_source a okh:SourceFile ;
-    rdfs:label "Source File of walls_CNC of Grow it yourself fd079f50dbe071c35f340ffe259677a56ef802c5" ;
-    okh:fileFormat "DXF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/852/wallscnc-0.dxf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDE1> .
-
-:Waterproofmould a okh:Part ;
-    rdfs:label "waterproof_mould" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "James Botler" ;
-    okh:source :Waterproofmould_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Waterproofmould_source a okh:SourceFile ;
-    rdfs:label "Source File of waterproof_mould of Grow it yourself fd079f50dbe071c35f340ffe259677a56ef802c5" ;
-    okh:fileFormat "DXF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/852/waterproofmould-0.dxf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDE0> .
 

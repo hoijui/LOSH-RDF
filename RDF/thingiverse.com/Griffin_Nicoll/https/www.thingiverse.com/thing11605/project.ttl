@@ -1,0 +1,31 @@
+@prefix : <https://www.thingiverse.com/thing%3A11605/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:GemRing a okh:Module ;
+    rdfs:label "Gem Ring" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Edit 2: New version now with text! http://www.thingiverse.com/thing:11629\r
+(It's a new thing because I needed to use a different license)\r
+\r
+A parametric ring with a triangular "gem". Ment to be printed with 2 materials.\r
+After seeing news about makerbot's dual extrusion I decided to design something utilizing it. (even if I can't print it yet T_T )\r
+\r
+Edit: Made this kid friendly by adding an optional safety gap so it does not need to be cut off if it gets stuck.\r
+Edit 3: Made the gem's number of sides customizable, and gave it rotation.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "Griffin_Nicoll" ;
+    okh:repo <https://www.thingiverse.com/thing:11605> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:11605> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Gem Ring 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/9a/80/e7/da/45/ring_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/9a/80/e7/da/45/ring_display_large_display_large.jpg> .
+

@@ -1,0 +1,34 @@
+@prefix : <https://www.thingiverse.com/thing%3A6083/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:MechanicalEndstopV10ThroughholeRemix a okh:Module ;
+    rdfs:label "Mechanical Endstop v1.0 Through-hole remix" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """I took the mechanical endstop and remixed it:\r
+\r
+Through-hole components (which I have on-hand)\r
+New style connector\r
+Single-sided with no airwires\r
+\r
+Hasn't been printed yet.  I plan to print 4 and add auto-homing to the x and y axes.\r
+\r
+UPDATE 2/5: It's getting closer to printing now.  I sized the board properly, took away some extraneous text.  A lot of the obvious clearance issues were cleaned up.  When I print it on paper (which, I know, wicks the ink much more than copper), it still looks like it's too tight and there's a lot of bleed between traces.  \r
+\r
+UPDATE 2/7: I fixed most of the issues and whatnot I was seeing before - got rid of most of the ground plane by setting isolation to 100 mils... made the labels larger and easier to read...  I'm still not sure the vias will print out properly, other than that I think this one is ready to go.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "merlinjim" ;
+    okh:repo <https://www.thingiverse.com/thing:6083> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:6083> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Mechanical Endstop v1.0 Through-hole remix 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/f7/fe/2d/d5/4a/switchs_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/f7/fe/2d/d5/4a/switchs_display_large_display_large.jpg> .
+

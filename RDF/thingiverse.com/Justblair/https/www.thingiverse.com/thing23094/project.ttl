@@ -1,0 +1,41 @@
+@prefix : <https://www.thingiverse.com/thing%3A23094/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:PrusaYaxisTorsionMotorMount a okh:Module ;
+    rdfs:label "Prusa Y-Axis Torsion Motor Mount" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """I recently replaced the 5mm timing cables for the X and Y axis on my Reprap Prusa with SynchroMesh Cable.\r
+(https://sdp-si.com/eStore/PartDetail.asp?Opener=Group&PartID=84751&GroupID=768)\r
+\r
+I used the pulleys (http://www.thingiverse.com/thing:15923) shared by Granz initially with a 15 tooth pulley.  \r
+\r
+Looking at the pulley in situ it was very obvious to me that it is very much more compact than your average 5mm belt pulley.  \r
+\r
+A plan was hatched.  I had planned on producing a torsion box for my Y-Axis motor since seeing Lanthans example(http://www.thingiverse.com/thing:11017).  However I realised that using the much more compact synchromesh cable pulleys left plenty of stepper motor axle.  So I created a torsion box that instead of holding a pulley within a bearing, grips the 5mm axle directly.  As the 5mm axles are machined to very low tolerances, I can achieve very precise constraint on the stepper motor axle.\r
+\r
+The design uses the 695ZZ miniature bearing a readily available item from ebay, but as the scad file is parametric you can of course alter the bearing trap to suit what you have available.  \r
+\r
+This design is a derivative of Spacexula's Y Bracket, which in turn is a derivative of Prusa's I believe.\r
+\r
+If you wish to, you can also print a reverse bearing trap which is designed to constrain the motor axle at the other end for motor designs that allow this.\r
+\r
+I also included options in the scad file to print a calibration piece so that you can fine tune your hole sizes to achieve good tolerances.\r
+\r
+I made a short recording of the mount in action... http://www.youtube.com/watch?v=ZdSNRCEeU64""" ;
+    okh:hasImage :Image ;
+    okh:licensor "Justblair" ;
+    okh:repo <https://www.thingiverse.com/thing:23094> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:23094> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Prusa Y-Axis Torsion Motor Mount 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/86/25/20/ea/bc/DSCN3922_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/86/25/20/ea/bc/DSCN3922_display_large_display_large.jpg> .
+

@@ -1,0 +1,48 @@
+__meta:
+  branch: null
+  created-at: '2012-01-28T10:24:41+00:00'
+  history: null
+  last-changed: null
+  last-visited: '2022-02-25T11:00:02.616920+00:00'
+  owner: droftarts
+  path: null
+  repo: https://www.thingiverse.com/thing:16627
+  score: null
+  source: thingiverse.com
+attestation: null
+bom: null
+contribution-guide: null
+cpc-patent-class: null
+documentation-language: en
+documentation-readiness-level: odrl3
+function: "This thing will create a range of metric and imperial tooth profile pulleys, with any number of teeth, specified in the Openscad file.\r\nTooth profiles currently supported are:\r\nprofile == 1 for MXL\r\nprofile == 2 for 40 D.P.\r\nprofile == 3 for XL \r\nprofile == 4 for L\r\nprofile == 5 for T2.5\r\nprofile == 6 for T5\r\nprofile == 7 for T10\r\nprofile == 8 for AT5\r\nprofile == 9 for HTD 3mm\r\nprofile == 10 for HTD 5mm\r\nprofile == 11 for HTD 8mm\r\nprofile == 12 for GT2 2mm\r\nprofile == 13 for GT2 3mm\r\nprofile == 14 for GT2 5mm\r\n\r\nNOTE: error in script regarding L and H pulleys spotted by OSTycoon (see comments) - the script says H, but actually it is L profile. \r\nThere are a range of editable parameters for editing the fit of the tooth (to account for printer variation), the pulley base, captive nut(s) slot for the set screw, motor shaft diameter, pulley height and belt retainers.\r\nThe attached stls are reference pulleys, mostly around the size used on repraps.\r\n\r\nDetails\r\nAfter creating the parametric pulley http://www.thingiverse.com/thing:11256 I realised this way of modelling them was only going to work for square-toothed pulleys, and a way of producing pulleys for belts with better characteristics for linear motion was required. I found dxf drawings of the relevant tooth profiles here http://oem.cadregister.com/asp/PPOW_Entry.asp?company=915217&elementID=07807803/METRIC/URETH/WV0025/F and modelled pulley diameter from data here http://www.sdp-si.com/D265/HTML/D265T016.html\r\nThere were a couple of possible approaches to importing the data, I chose to simplify the bezier curve dxf data in Inkscape, producing vertices with a resolution of around 0.05-0.1mm for each tooth. Another advantage is the the pulleys have the tooth ramp for smooth entry and exit of the belt tooth into the pulley. I'm not really sure 3D printers can take full advantage of this yet, but quality is improving all the time!\r\nIf other tooth profiles are required, or you model any, please pass them on to me and I will include them.\r\n\r\n22 March 2012 - Updated for issue spotted by mfinn - see comments"
+image:
+  created-at: '2012-01-28T10:24:41+00:00'
+  last-changed: '2012-01-28T10:24:41+00:00'
+  last-visited: '2022-02-25T23:17:58.572730+00:00'
+  license: CC-BY-SA-4.0
+  licensor: droftarts
+  mime-type: null
+  name: Pulleys_display_large_display_large
+  path: https:/cdn.thingiverse.com/renders/a5/4f/4a/1b/a8/Pulleys_display_large_display_large.jpg
+  perma-url: https://cdn.thingiverse.com/renders/a5/4f/4a/1b/a8/Pulleys_display_large_display_large.jpg
+  url: https://cdn.thingiverse.com/renders/a5/4f/4a/1b/a8/Pulleys_display_large_display_large.jpg
+license: CC-BY-SA-4.0
+licensor: droftarts
+manufacturing-instructions: null
+name: Parametric pulley - lots of tooth profiles
+okhv: OKH-LOSHv1.0
+organization: null
+part: []
+publication: null
+readme: null
+release: null
+repo: https://www.thingiverse.com/thing:16627
+software: []
+specific-api-data: {}
+standard-compliance: null
+technology-readiness-level: ortl4
+tsdc: null
+upload-method: auto
+user-manual: null
+version: 1.0.0

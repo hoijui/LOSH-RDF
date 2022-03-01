@@ -1,0 +1,26 @@
+@prefix : <https://www.thingiverse.com/thing%3A10541/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:PinConnectorsV2 a okh:Module ;
+    rdfs:label "Pin Connectors V2" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """The pins in this version are a little stronger and their slightly different shape makes them easier to insert and less likely to break.  It also lets you make pegs which are printed horizontally so they are much stronger.  Pegs can be used to join two parts that have holes in them.  The pinholes also now have a small bevel in them to help make it easier to insert.\r
+\r
+The syntax is totally different as well.  It was kind of dumb to use global variables in the last version, now you pass the variables to each method so it's easier to have pins of various sizes in one project.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "tbuser" ;
+    okh:repo <https://www.thingiverse.com/thing:10541> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:10541> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Pin Connectors V2 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/33/44/31/7b/ed/6020392865_cff3d5c9b1_o_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/33/44/31/7b/ed/6020392865_cff3d5c9b1_o_display_large_display_large.jpg> .
+

@@ -1,0 +1,43 @@
+@prefix : <https://www.thingiverse.com/thing%3A5830/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:YazzoDoubleSliderBushingBlock a okh:Module ;
+    rdfs:label "Yazzo Double Slider Bushing Block" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Sometimes I want to play with a fast moving tool head, like the Ultimaker machine has.\r
+\r
+This thing is the essential linear slide moving part that allows you to play with a fast light weight tool head that moves in two of the three axes.\r
+\r
+It has a similar "bushing as bearing" design as the Yazzo Bushing Block: http://www.thingiverse.com/thing:5825\r
+\r
+In this case though, it uses two bushings instead of just one.  One for x-axis, one for y-axis.  You basically just print this thing, insert bushing, slip smooth rods inside, and go from there.\r
+\r
+The most obvious improvements to be made on this thing is to put some nice smooth transitions from block to platform, like I did on the bushing block.  This one's a bit more involved for me to think about, so it might take some time.  Perfect for a derivative part!\r
+\r
+UPDATE: 27012010\r
+Biggest change is using linear bearings.\r
+\r
+I've changed the design somewhat.  In the OpenScad file, the tool platform is separated from the simple two way block.  This allows you to print the block on its own.  There is still a routine that prints them together as well.  Having the block alone allows you to drill and tap whatever holes you need to mount it to whatever you're going to mount it to.\r
+\r
+By default, the big holes in the block are sized 5/8", which, depending on your bearings and printer, will fit some linear bearings nicely.\r
+\r
+Linear ball bearings are more forgiving in terms of binding, but the bushings (when everything is aligned) are actually more smooth.\r
+\r
+Since it's parametric, you can go and edit to your heart's content to suit your needs.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "WilliamAAdams" ;
+    okh:repo <https://www.thingiverse.com/thing:5830> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:5830> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Yazzo Double Slider Bushing Block 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/14/62/3a/08/c2/DSC00429_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/14/62/3a/08/c2/DSC00429_display_large_display_large.jpg> .
+

@@ -1,0 +1,54 @@
+@prefix : <https://www.thingiverse.com/thing%3A22302/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:SimplePenHolderBaseForMakerbotPrinters a okh:Module ;
+    rdfs:label "Simple Pen Holder & Base for Makerbot Printers" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This OpenSCAD script will generate an upgrade that allows the makerbot to hold a pen (or cutter or laser or drill or other tool) so it can be used as a plotter, this will hold the pen in place with elastic bands so that you don't need the unicorn upgrade or careful vertical alignment and levelling your build platform. Basically pen plotting will no longer be such a chore!\r
+\r
+Current Version: 0.3\r
+Date: 2012-04-30 ISO Standard YYYY_MM_DD format\r
+\r
+Todo:\r
+add option to add mouse-ears to prevent curling during printing\r
+add option to have triangular supports at side of an addon piece for 3rd rear M5 bolt hole\r
+make rubber band holes bigger!\r
+Increase base thickness at ends or make glue-on covers for holding M5 nuts in place\r
+\r
+Warning:\r
+None \r
+\r
+Changes from previous versions:\r
+0.3\r
+ - 	added triangular support ribs to side of tower\r
+ - 	properly implemented maximum_pen_diameter\r
+ - 	made walls thicker and pen size larger after the printed holder of version 0.2 failed structurally around trapped nuts during assembly\r
+ - 	changed base shape to make more efficient use of material\r
+0.2\r
+ - 	moved bottom of all parts to build platform z=0 level\r
+ - 	rounded ends or main support bar\r
+ - 	fixed one slightly large node\r
+ - 	adjusted m3 nuts to be 2.1*nominal thread diameter\r
+ - 	changed variable names to reduce confusion/ambiguity\r
+ - 	added three square nodes on intelocking cylinders to further constrain motion\r
+ - 	Replaced hard coded numbers with named variables\r
+ - 	rotated hexagonal cutouts on inside of holder to ensure 2-manifoldness and inmprove printability\r
+0.1\r
+ - 	First attempt""" ;
+    okh:hasImage :Image ;
+    okh:licensor "M_G" ;
+    okh:repo <https://www.thingiverse.com/thing:22302> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:22302> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Simple Pen Holder & Base for Makerbot Printers 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://thingiverse-rerender-new.s3.amazonaws.com/renders/29/01/1f/b6/42/2012_04_30-Pen_Holder_Base-v0.3_display_large.jpg> ;
+    okh:permaURL <https://thingiverse-rerender-new.s3.amazonaws.com/renders/29/01/1f/b6/42/2012_04_30-Pen_Holder_Base-v0.3_display_large.jpg> .
+

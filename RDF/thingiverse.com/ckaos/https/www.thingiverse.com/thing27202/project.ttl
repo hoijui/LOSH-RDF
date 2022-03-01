@@ -1,0 +1,56 @@
+@prefix : <https://www.thingiverse.com/thing%3A27202/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Doboz2hbot3dPrinter a okh:Module ;
+    rdfs:label "Doboz 2  (H-Bot 3D printer)" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """UPDATE : 02/05/2017\r
+Switched license from CC NC to public domain !\r
+\r
+UPDATE : 31/08/2012\r
+- Finished basic version of x_carriage\r
+- Finished basic version of Z axis elements\r
+- Added updated main .scad file (doboz_v2 0.1.scad)\r
+- Added pictures and video of Z axis\r
+- Please see the github repository for more up to date information\r
+\r
+Descriptions\r
+This is preliminary work for an h-bot configuration based reprap, with a rather large build volume.\r
+\r
+The main advantage of this kind of setup is its mechanical simplicity, so with that in mind, I plan to make this very easy to build and hopefully just as easy to calibrate etc.\r
+\r
+This is of course fully parametric!\r
+\r
+Dependencies\r
+-Requires the MCad library\r
+\r
+Specifications\r
+- H-bot design\r
+- Maximum build size (not set in stone): 220*350*400 mm\r
+\r
+Media\r
+- first X/Y movement test of prototype (running Marlin firmware with CoreX/Y support enabled)\r
+ http://www.youtube.com/watch?v=a4HLpNbQznU&feature=g-upl\r
+\r
+-first Z platform movement test:\r
+http://www.youtube.com/watch?v=IwWGr_ky8B0\r
+\r
+More info\r
+https://github.com/kaosat-dev/Doboz-2""" ;
+    okh:hasImage :Image ;
+    okh:licensor "ckaos" ;
+    okh:repo <https://www.thingiverse.com/thing:27202> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:27202> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Doboz 2  (H-Bot 3D printer) 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/2a/fa/05/26/bb/SAM_0341_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/2a/fa/05/26/bb/SAM_0341_display_large.jpg> .
+

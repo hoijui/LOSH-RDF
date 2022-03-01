@@ -1,0 +1,34 @@
+@prefix : <https://www.thingiverse.com/thing%3A28764/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:YundercarriageWithBeltSpacingMod a okh:Module ;
+    rdfs:label "Y-Undercarriage with belt spacing mod" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """SGK did a great job of integrating several good ideas into another good idea.\r
+\r
+Using this instead of separate bearing holders and belt clamps turns a lot of fiddly alignment and measurements into a trivial 5 minute install with perfect results every time with no measurements, and also fewer holes to drill.\r
+\r
+I've added a few more tweaks to his design.  The previous design had the belt entering flush with the print bed which isn't quite right.  This one has a parameter for space from the bed to the belt so the belt doesn't travel at an angle.\r
+\r
+Also, there's no need for two belt tighteners, so one of those is removed.  The SCAD code has been cleaned up and commented a bit.  The belt clamp module has been unified so that the one module can make any of the required shapes by providing the proper parameters (and global variables).  A bridging layer has been added in the belt clamp nut traps for cleaner printing.\r
+\r
+The STL provided is an SAE model for #6 screws and GT2 belts.  Modify the SCAD for other screw or belt sizes.  The belt-to-bed spacing should only be different if you're using different bar clamps or bearings than the standard Iteration 2 Prusa parts.\r
+\r
+NOTE that the linear bearing holder SCAD file does not use configuration.scad so the screw dimensions need to be changed there as well.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "jridley" ;
+    okh:repo <https://www.thingiverse.com/thing:28764> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:28764> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Y-Undercarriage with belt spacing mod 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/ce/b6/27/43/6e/20120818-101749_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/ce/b6/27/43/6e/20120818-101749_display_large.jpg> .
+

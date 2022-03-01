@@ -1,0 +1,30 @@
+@prefix : <https://www.thingiverse.com/thing%3A30721/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:AdjustableBlowerfanMountbrixBased a okh:Module ;
+    rdfs:label "Adjustable Blower-Fan Mount (Brix based)" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """A Brix's-based blower-style adjustable extruder fan mount (40mm) for Prusa v1.\r
+\r
+I was having problems with parts delaminating badly on the side with Brix's fan funnel, and realized that it was being caused by too much air hitting the build surface (because the cut-out area is hollow).\r
+\r
+I hacked up the source and closed off the cut-out, along with extending the funnel an extra 20mm to reduce the tip size and push even more air towards the extruder. It's not real pretty, but it gets the job done. (I also made a few other changes in order to get it to print and work properly for me. Hopefully these changes don't cause any major problems for other people.)\r
+\r
+After installing this, not only has the delamination issue been considerably reduced, but the bed heats up faster because it doesn't have so much air blowing over it (my fan is always on). It should also improve bridging, but I haven't stress-tested that yet.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "jdrgoldeneagle" ;
+    okh:repo <https://www.thingiverse.com/thing:30721> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:30721> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Adjustable Blower-Fan Mount (Brix based) 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/c4/88/42/74/60/IMG_0288_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/c4/88/42/74/60/IMG_0288_display_large.jpg> .
+

@@ -1,0 +1,37 @@
+@prefix : <https://www.thingiverse.com/thing%3A7674/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:QuintupleStepperDriver a okh:Module ;
+    rdfs:label "Quintuple Stepper Driver" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Bold Note: I have not assembled or built one of these and only used the original PSMD board as reference to try and make things fit.  The capacitor  and jumper switches under the Polulu may or may not fit.  Also, i changed the connector for the stepper to a standard 0.1" header.\r
+\r
+This is simply a manipulation of the PSMD Triple Axis Driver by 'tinkerings'.  \r
+The idea is that it replaces the need for 5 stepper boards using the Gen 4 Makerbot electronics and replaces it with only one board. (Not counting the 5 pololu boards).\r
+\r
+\r
+The first step for me was to recreate the previous version with an additional 2 stepper drivers.  Next step is to make the connector a 30-pin ribbon so i can create custom boards for various controllers. :P\r
+\r
+Note: Some Pololu drivers can operate at 3.3V and 5V...just saying. :)  The end stop connectors on A and B is for experimental purposes.  I know it consumes unnecessary pinnage, but you never know what it may be used for...encoder? :)\r
+\r
+UPDATE #1: Thanks for the tips Protonite!  I've added some changes that some people may like, and some may find it really annoying. :)  I changed the 10 pin connector to a 6 pin connector, like on the Makerbot boards.  I've axed the Max Endstop for good measure.  The Makerbot motherboard has 2 pins unused.  I added VCC and Minumum Endstop signal to these pins.  It should not affect the Makerbot Motherboards compatibility.  Ive added both the PC Power Supply plug, and a screw terminal connection.  There is also a switch added so you can turn off the Voltage to the motors without powering down the supply completely.  Useful for servicing the stepper boards.  I appreciate the input advice!  I think the new layout looks pretty sick, and i cant wait to get a working version made. :)\r
+\r
+Compatibility:\r
+  Makerbot Motherboard;  Stepper Motors require standard 0.1" header""" ;
+    okh:hasImage :Image ;
+    okh:licensor "CidVilas" ;
+    okh:repo <https://www.thingiverse.com/thing:7674> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:7674> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Quintuple Stepper Driver 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/4e/e1/39/19/29/StepperExtensionBoard_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/4e/e1/39/19/29/StepperExtensionBoard_display_large_display_large.jpg> .
+

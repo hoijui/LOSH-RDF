@@ -1,9 +1,10 @@
-@prefix : <https://wikifactory.com/@martijnvanhoorn/sion-ambient-led-lighting/cd9c7eac841a25ee4fed43cb42f57fd670b4ea69/> .
+@prefix : <https://wikifactory.com/%40martijnvanhoorn/sion-ambient-led-lighting/cd9c7eac841a25ee4fed43cb42f57fd670b4ea69/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 :SionAmbientLedLighting a okh:Module ;
     rdfs:label "SION Ambient LED Lighting" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "The idea of this project is to improve the atmosphere in the SION, using LED ambient lighting. The project is designed for anyone driving, camping or even sleeping in the SION." ;
     okh:hasComponent :AmbientLedLightingProjectDocumentation ;
@@ -14,6 +15,7 @@
     okh:repo <https://wikifactory.com/@martijnvanhoorn/sion-ambient-led-lighting> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
     okh:version "cd9c7eac841a25ee4fed43cb42f57fd670b4ea69" ;
     okh:versionOf <https://wikifactory.com/@martijnvanhoorn/sion-ambient-led-lighting> .
 

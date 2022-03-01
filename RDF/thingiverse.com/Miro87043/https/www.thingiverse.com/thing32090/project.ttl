@@ -1,0 +1,37 @@
+@prefix : <https://www.thingiverse.com/thing%3A32090/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:PrusaAir2Xl a okh:Module ;
+    rdfs:label "Prusa Air 2 XL" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """I built the great Prusa Air 2 by Mecano and was thrilled with its performance. Especially the increased lateral stability added by the acrylic frame. However I like to use my dual fan mount x carriage and I lost over 25 mm of x travel. I also found it difficult to squeeze 100 mm of z travel out of it.\r
+\r
+I made a few simple changes to allow full use of a 200 x 200 mm build platform and increased z travel to 150 mm. I also slightly increased the size of cross brace at the bottom to ensure no rigidity was lost.\r
+\r
+Other subtle changes:\r
+Changed the electronics holes to accommodate an Arduino Mega 2560 and Ramps 1.4. I also relocated the electronics up higher and depending on which side you put the pertaining panel the electronics can be mounted on the inside.\r
+\r
+I took scotty1024's advice and made a laser cut y motor mount. I doubled the acrylic so its solid and slotted the holes to allow for tensioning and easy removal.\r
+\r
+The slots are adjusted for acrylic that is 0.22" (5.6 mm) as that is what's available to me.\r
+\r
+Also included is a acrylic base plate for use with Prusa 2 linear bearing mounts and 4 spacers for mounting electronics.\r
+ \r
+Update: I added spars to the sides that make the frame rock solid. I used acrylic weld to secure them.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "Miro87043" ;
+    okh:repo <https://www.thingiverse.com/thing:32090> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:32090> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Prusa Air 2 XL 1.0.0" ;
+    okh:fileFormat "COM" ;
+    okh:fileUrl <https://cdn.thingiverse.com/> ;
+    okh:permaURL <https://cdn.thingiverse.com/> .
+

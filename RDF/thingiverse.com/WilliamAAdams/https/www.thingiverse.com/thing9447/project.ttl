@@ -1,0 +1,51 @@
+@prefix : <https://www.thingiverse.com/thing%3A9447/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:SomeMatrixMathsForOpenscad a okh:Module ;
+    rdfs:label "Some Matrix Maths for OpenScad" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Sometimes I find myself getting lost in the declarative transform world of OpenScad...\r
+\r
+translate()\r
+  rotate()\r
+    scale()\r
+      rotate()\r
+.\r
+.\r
+.\r
+\r
+Then I smacked my head and discovered 'multmatrix()'\r
+\r
+I know you, as I, have often wondered, 'what is the multmatrix?'\r
+\r
+This thing is the answer.  Basically a bunch more matrix routines to make life in OpenScad easier.  Really I'm releasing this particular bit of work because I want to write an expose on declarative vs imperative programming and how to mix the two for 3D design goodness.\r
+\r
+What you'll find in this package are functions such as:\r
+vec4_mult_mat4(v,m)\r
+mat4_mult_mat4(m1,m2)\r
+mat4_transpose(m)\r
+transform_scale(xyz)\r
+etc.\r
+\r
+The devotees of OpenScad might find the gem known as 'ccerp' and begin to wonder what kind of crack I've been smokin on this father's day.  But, that's for another post.\r
+\r
+The bottom line with this is, you can do your own fancy matrix transforms, and apply them wherever and whenever you like using the 'multmatrix()' module.\r
+\r
+Most people will scratch their heads in wonderment.  Some might start bouncing down the halls with glee.  The rest will just click on the next Colbert mash up.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "WilliamAAdams" ;
+    okh:repo <https://www.thingiverse.com/thing:9447> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:9447> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Some Matrix Maths for OpenScad 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/18/5f/75/b5/c2/test_matrices_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/18/5f/75/b5/c2/test_matrices_display_large_display_large.jpg> .
+

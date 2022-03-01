@@ -1,0 +1,28 @@
+@prefix : <https://www.thingiverse.com/thing%3A5764/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:HbpCableClip a okh:Module ;
+    rdfs:label "HBP Cable clip" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is for clipping your HBP cables to the platform to prevent the wires from shifting and shorting.  I had an error where my bot would stop a few layers into a print.  While the layer was always random, the hot end was in roughly the same position each time - I finally (with some help from the makerbot google group) figured out it might be the HBP cables shorting when its in that particular position.\r
+\r
+I kind of mashed up my idea with the self-leveling HBP idea someone else posted about a month ago...\r
+\r
+I haven't mounted the HBP and printed with it yet after making this modification - so YMMV.  I anticipate there might be issues with it smacking into the bot housing at the Y- / Y+ extreme.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "merlinjim" ;
+    okh:repo <https://www.thingiverse.com/thing:5764> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:5764> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of HBP Cable clip 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://thingiverse-rerender-new.s3.amazonaws.com/renders/aa/e6/d2/eb/4d/hbpclip_display_large.jpg> ;
+    okh:permaURL <https://thingiverse-rerender-new.s3.amazonaws.com/renders/aa/e6/d2/eb/4d/hbpclip_display_large.jpg> .
+

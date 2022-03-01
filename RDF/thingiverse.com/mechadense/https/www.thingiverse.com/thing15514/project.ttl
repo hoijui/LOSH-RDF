@@ -1,0 +1,176 @@
+@prefix : <https://www.thingiverse.com/thing%3A15514/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:CentiPetReextruderHeatingchamber a okh:Module ;
+    rdfs:label "Centi PET Re-Extruder: Heating-Chamber" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """The goal is to make 3mm filament from PET drinking Bottles.  \r
+\r
+\r
+\r
+NOTE: This needs serious redesign!  \r
+\r
+\r
+\r
+\r
+\r
+(To this melting chamber any kind of drive can be mounted and any kind of plastic can bee fed but a PET-band stepper-feed is planned edit: is considered)  \r
+\r
+\r
+\r
+The he Centi PET Re-Extruder shall be easier to build and cheaper than exiting re-extruder projects. This shall be reached by making it smaller (20cm desktop size instead of 1m workbench size) and requiring its maximum output speed not to be very high (>= one printer input speed).  \r
+\r
+\r
+\r
+For a fully functional system additionally to this melting chamber there will be needed:  \r
+\r
+PET Cutter (A); PET Band Feeder & Guider (B); Filament cooler & catcher (C)  \r
+\r
+Those are not yet constructed.  \r
+\r
+\r
+\r
+\r
+\r
+This Melting chamber is Heavily influenced by the existing projects:  \r
+\r
+http://reprap.org/wiki/Web4Deb_extruder  \r
+\r
+http://www.appropedia.org/Waste_plastic_extruder  \r
+\r
+http://www.thingiverse.com/thing:12948  \r
+\r
+http://recyclebot.tumblr.com/  \r
+\r
+http://www.kickstarter.com/projects/rocknail/filabot-plastic-filament-maker  \r
+\r
+\r
+\r
+The only differences are that it is smaller (thumb sized melting chamber) and it has some additional features which are only possible since it's a 3d printed design. Those features will be more thorougly discussed in the following design decisions section:  \r
+\r
+\r
+\r
+\r
+\r
+\r
+\r
+DESIGN DECISIONS:  \r
+\r
+\r
+\r
+Since its smaller size it has much more surface area per volume and thus huge-er thermal losses. So a bit more care must be taken for thermal isolation.  \r
+\r
+SEE: [INSTRUCTIONS -> Assembly] for application of thermal isolation.  \r
+\r
+\r
+\r
+The chamber is open on both ends => easy cleaning easy nozzlechange and nice thermal isolation with fibreglas-PCB endplates.  \r
+\r
+The chamber is symmetrical => no wrong assembly possible.  \r
+\r
+Lots of spikes (16) and wedgecuts (2) provide air pockets under the isolation to give additional thermal isolation.  \r
+\r
+The screw aligners are open and sharp pointed for minimized thermal contact to the screws.  \r
+\r
+Wall thicknesses are kept minimal for lower material volume and thus price.   \r
+\r
+\r
+\r
+Lamellas:  \r
+\r
+PET has a very high thermal resistance [0.28W / (m*K)].   \r
+\r
+The steel lamellas [shapeways infused steel: 22.6 W/(m*K)] decrease the termal equilibration time quite a lot.  \r
+\r
+The gap between lamellas should be choosen as a tradeof. With smaller gap size the maximum feed speed for reasonable thermal exchange rises but if the gaps become too narrow viscous friction will kick in (laminar flow). An optimal geometry would require numerical simulations and narrowing gaps (this is overkill).   \r
+\r
+The minimum lamella thickness is given by the printing process and should be around 1.5mm for steel prints.  \r
+\r
+The outer isolation (thermal resistance similar to PET) should be thicker than the distance between lamellas. I hope the airpockets are ganna help here. As of now I've choosen the gap size as small as possible so that it remains reasonably cleanable but it wouldn't hurt to do some conservative estimative calculations. (TODO)  \r
+\r
+\r
+\r
+-----------------------------------  \r
+\r
+\r
+\r
+I chose PET as primary feeding material out of following reasons:  \r
+\r
+1) Drinking Bottle PET has a reasonable low melting point ( 230Â°C ) (due to some additives ?) SEE:   \r
+\r
+   http://blog.reprap.org/2009/03/drink-bottle-feedstock.html  \r
+\r
+   I tested melting it with my soldering iron set to 220Â°C and it melted easily!  \r
+\r
+2) It can be cut to very slim long stripes which lend themselve for feeding into a small melting chamber entrance with an hobbed bolt drive (no auger drill drive intended)  \r
+\r
+   For cutting devices I found this nice website:  \r
+\r
+   http://www.utsumi.com.br/pet/English/filetador/index.html  \r
+\r
+   ## The first two steps in PET bottle processing must be treated with different parts that are yet to be constructed  \r
+\r
+   >> Centi PET Cutter -- see (A) below  \r
+\r
+   >> Centi PET Band Feeder & Guider -- see (B) below  \r
+\r
+3) Very good mechanical properties prints similar to PLA (diff temp) but is not brittle at all.  \r
+\r
+   Though hygroscopicness & re-crystallisation may degrade it a bit.  \r
+\r
+4) IMO it smells less obnoxious than HDPE fumes  \r
+\r
+\r
+\r
+\r
+\r
+################################### TODO  \r
+\r
+(A) Petcutter  \r
+\r
+  Is it possible to construct a small one that is easy to handle?  \r
+\r
+\r
+\r
+(B) Feeder & Guider  \r
+\r
+  the drive mechanism must solve   \r
+\r
+  * backlog   \r
+\r
+  * PET band creasing avoidance or control over it ("snakelooping")  \r
+\r
+    "channel to be the thickness of the folded strip"   \r
+\r
+    => maybe too thinn to print.  \r
+\r
+    directly feeding the pet band to a printer?   \r
+\r
+    => probably not for an bowden tube printer.  \r
+\r
+\r
+\r
+(C) Filament Cooler & Catcher  \r
+\r
+  important for constant diameter  \r
+\r
+  design so that it can be directly fed into a bowden tube  \r
+\r
+####################################""" ;
+    okh:hasImage :Image ;
+    okh:licensor "mechadense" ;
+    okh:repo <https://www.thingiverse.com/thing:15514> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:15514> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Centi PET Re-Extruder: Heating-Chamber 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/08/d0/c8/0f/e4/PET-Re-Extruder-Heating-Chamber_2_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/08/d0/c8/0f/e4/PET-Re-Extruder-Heating-Chamber_2_display_large_display_large.jpg> .
+

@@ -1,9 +1,10 @@
-@prefix : <https://wikifactory.com/+chaihuo/rm-racer无人机/a02954ba73bb8cbf41be010f79f58af6126a8c15/> .
+@prefix : <https://wikifactory.com/%2Bchaihuo/rm-racer%E6%97%A0%E4%BA%BA%E6%9C%BA/a02954ba73bb8cbf41be010f79f58af6126a8c15/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 :Rmracerdiydrone a okh:Module ;
     rdfs:label "RM-Racer➕DIY-Drone" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "使用无人机悬停在RM-Racer赛道上记录追踪RM-Racer小车轨迹，同时将小车运行视频图像回传到RM-Racer车载Jetson Nano。Tracking RM-Racer laps around RM-Racer track from bird view by streaming video from a drone to the RM-Racer on board Jetson Nano SBC." ;
     okh:hasImage :Image ;
@@ -14,6 +15,7 @@
     okh:repo <https://wikifactory.com/+chaihuo/rm-racer无人机> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/MIT> ;
+    okh:uploadMethod "auto" ;
     okh:version "a02954ba73bb8cbf41be010f79f58af6126a8c15" ;
     okh:versionOf <https://wikifactory.com/+chaihuo/rm-racer无人机> .
 

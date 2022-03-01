@@ -1,0 +1,48 @@
+__meta:
+  branch: null
+  created-at: '2011-07-22T00:06:35+00:00'
+  history: null
+  last-changed: null
+  last-visited: '2022-02-25T11:00:02.616920+00:00'
+  owner: WilliamAAdams
+  path: null
+  repo: https://www.thingiverse.com/thing:10249
+  score: null
+  source: thingiverse.com
+attestation: null
+bom: null
+contribution-guide: null
+cpc-patent-class: null
+documentation-language: en
+documentation-readiness-level: odrl3
+function: "Having some basic Matrix math operations available in OpenScad has been a wonderful thing.  I found my life to be somewhat lacking though because rotations are a royal pain in the...\r\n\r\nThis thing adds Quaternion support to OpenScad\r\n\r\nBesides sounding like a cool name for an 80s rock band, or a futuristic diabolical planetary leader, quaternions are a math construct that make doing rotations a fairly painless task.\r\n\r\nbasically:  myquat = quat(axis, angle);\r\n\r\nSo, to do a 30 degree rotation around the z-axis for example, would look like this:\r\n\r\nrotz = quat([0,0,1], 30);\r\n\r\nNow, that's not going to do you much good in OpenScad by itself, so you need to turn it into a matrix that OpenScad can easily consume and apply as a transform, so you do this:\r\n\r\nrotzmatrix = quat_to_mat4(rotz);\r\n\r\nOnce you have this, you can use it with multmatrix()\r\n\r\nmultmatrix(rotzmatrix);\r\n\r\nor\r\n\r\nmultmatrix(quat_to_mat4(quat([0,0,1],30)));\r\n\r\nOk, so wow, big deal!!\r\n\r\nOK.  So, combinations can be done like this:\r\n\r\nq1 = quat([0,0,1],30);\r\nq2 = quat([0,1,0], 15);\r\ncombo = quat_mult(q1, q2);\r\n\r\nmultmatrix(quat_to_mat4(combo));\r\n\r\nThis will combine the 30 degree rotation around the z-axis, followed by the 15 degree rotation about the y-axis, or visa versa.\r\n\r\nThis is nice, because you can apply this transform anywhere you like, without having to go through gyrations such as:\r\n\r\nrotate()\r\n{\r\n    rotate()\r\n}\r\n\r\nIf you've used an instance of this math library in the past, I've made a couple of changes.  I've added more vecxxx calls, to support vec2, and vec3 more explicitly.  The biggest change is to the mat4 (matrix4x4) routines.  Basically, I was storing the data in 'row order' previously, which required a transpose of the matrix before using it with the multmatrix() module.  So, I changed the ordering to be column major ordering (for those in the know).  That aligns better with what OpenScad expects, so life gets easier as you don't need the transpose in the end.\r\n\r\nAt any rate, another batch of goodness for OpenScad.\r\n\r\nNOTE: the 'quat_to_mat4()' function is an interesting piece of work.  The equivalent 'C' code utilizes a lot of variables, which are not a part of OpenScad functions (as opposed to modules).  This poses quite a challenge.  So, how it's broken down into a cascade of functions demonstrates a general methodology for dealing with 'variables' in functions.  Just turn each 'variable' into a function.\r\n\r\nUPDATE: 22072011\r\nI left a few routines out from the first release of this thing, so I've added them in:\r\nquat_conj(q) - conjugate of the quaternion\r\nquat_distance(q1, q2) - distance between two quaternions\r\nquat_norm(q) - the 'length' if you will.\r\nquat_normalize(q) - normalize the quaternion\r\n\r\nThere is one more monster function to add: quat_slerp (spherical interpolation).  As this one is more complex than the 'to_mat4', I'm having to think about it for a while.  Not too bad, and it will come.  Perhaps this will warrant a new version."
+image:
+  created-at: '2011-07-22T00:06:35+00:00'
+  last-changed: '2011-07-22T00:06:35+00:00'
+  last-visited: '2022-02-25T18:33:08.835805+00:00'
+  license: CC0-1.0
+  licensor: WilliamAAdams
+  mime-type: null
+  name: quaternion_display_large_display_large
+  path: https:/cdn.thingiverse.com/renders/ba/3b/e5/8f/12/quaternion_display_large_display_large.jpg
+  perma-url: https://cdn.thingiverse.com/renders/ba/3b/e5/8f/12/quaternion_display_large_display_large.jpg
+  url: https://cdn.thingiverse.com/renders/ba/3b/e5/8f/12/quaternion_display_large_display_large.jpg
+license: CC0-1.0
+licensor: WilliamAAdams
+manufacturing-instructions: null
+name: Quaternions for OpenScad
+okhv: OKH-LOSHv1.0
+organization: null
+part: []
+publication: null
+readme: null
+release: null
+repo: https://www.thingiverse.com/thing:10249
+software: []
+specific-api-data: {}
+standard-compliance: null
+technology-readiness-level: ortl4
+tsdc: null
+upload-method: auto
+user-manual: null
+version: 1.0.0

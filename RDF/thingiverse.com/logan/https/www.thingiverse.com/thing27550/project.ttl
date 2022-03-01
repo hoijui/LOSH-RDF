@@ -1,0 +1,32 @@
+@prefix : <https://www.thingiverse.com/thing%3A27550/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:12v3wHighPowerLedAssembly a okh:Module ;
+    rdfs:label "12V, 3W High Power LED Assembly" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """NOTE: I updated some errors in the original design, including: incorrectly low resistor values (LEDs are 1W, not 1A) and reversed wiring on the 4-pin headers. Also, I moved the control header to a place where it is less likely to cast a shadow. \r
+\r
+This is a design for a 12V LED board that hold 3 high power (1W) white LEDs. The board is sized to be fabricated by iTead studios for ~$13 for a lot of 10. Fully populated, the BOM is < $3/board with the power LEDs being the most expensive part ($0.30/ea for me on ebay). \r
+\r
+WIth the specified resistor sizes, the board will consume about 4W of power. I intend to use it to illuminate my Printrbot, and as such the 4-pin molex connector (KK) is pinned out to connect to a Floppy Power connector on a standard ATX power supply. Two power connectors are included so that multiple modules may be chained. \r
+\r
+There is an optional power transistor and control header that you can connect to spare 3.3/5V I/O lines to make the board controllable. \r
+\r
+If there's interest, I can upload CAM files for easy submission to iTead.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "logan" ;
+    okh:repo <https://www.thingiverse.com/thing:27550> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:27550> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of 12V, 3W High Power LED Assembly 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/71/d9/c7/47/d6/IMG_0586_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/71/d9/c7/47/d6/IMG_0586_display_large.jpg> .
+

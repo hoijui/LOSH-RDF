@@ -1,13 +1,14 @@
-@prefix : <https://wikifactory.com/@botler/secret-self/bce6b2552ffd0afd819313c73f21e3c53027b0f5/> .
+@prefix : <https://wikifactory.com/%40botler/secret-self/bce6b2552ffd0afd819313c73f21e3c53027b0f5/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 :SecretSelf a okh:Module ;
     rdfs:label "Secret Self" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "Secret Self 3D printed.By Tosh" ;
-    okh:hasComponent :Shelfinside,
-        :Shelfoutside ;
+    okh:hasComponent :Stlsshelfinside,
+        :Stlsshelfoutside ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "James Botler" ;
@@ -15,6 +16,7 @@
     okh:repo <https://wikifactory.com/@botler/secret-self> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
     okh:version "bce6b2552ffd0afd819313c73f21e3c53027b0f5" ;
     okh:versionOf <https://wikifactory.com/@botler/secret-self> .
 
@@ -30,28 +32,28 @@
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/3183/readme.md> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToyNjU5Nw==> .
 
-:Shelfinside a okh:Part ;
-    rdfs:label "shelf_inside" ;
+:Stlsshelfinside a okh:Part ;
+    rdfs:label "STL´S/shelf_inside" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Shelfinside_source ;
+    okh:source :Stlsshelfinside_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Shelfinside_source a okh:SourceFile ;
-    rdfs:label "Source File of shelf_inside of Secret Self bce6b2552ffd0afd819313c73f21e3c53027b0f5" ;
+:Stlsshelfinside_source a okh:SourceFile ;
+    rdfs:label "Source File of STL´S/shelf_inside of Secret Self bce6b2552ffd0afd819313c73f21e3c53027b0f5" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/3183/shelfinside.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToyNjU5OQ==> .
 
-:Shelfoutside a okh:Part ;
-    rdfs:label "shelf_outside" ;
+:Stlsshelfoutside a okh:Part ;
+    rdfs:label "STL´S/shelf_outside" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Shelfoutside_source ;
+    okh:source :Stlsshelfoutside_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Shelfoutside_source a okh:SourceFile ;
-    rdfs:label "Source File of shelf_outside of Secret Self bce6b2552ffd0afd819313c73f21e3c53027b0f5" ;
+:Stlsshelfoutside_source a okh:SourceFile ;
+    rdfs:label "Source File of STL´S/shelf_outside of Secret Self bce6b2552ffd0afd819313c73f21e3c53027b0f5" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/3183/shelfoutside.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToyNjU5OA==> .

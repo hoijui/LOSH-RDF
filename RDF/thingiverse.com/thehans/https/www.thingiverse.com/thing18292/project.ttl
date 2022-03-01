@@ -1,0 +1,30 @@
+@prefix : <https://www.thingiverse.com/thing%3A18292/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:StarshipFanDuctForPrusaReprap a okh:Module ;
+    rdfs:label "Starship Fan Duct for Prusa RepRap" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """These are the voyages of the Starship Fan Duct.  It's continuing mission: to explore strange new 3d models. To seek out new prints and cool them.  To boldly go where no RepRap has gone before.\r
+\r
+Before designing this part, I had used simple angled bracket to hold my fan (no ducting) and found that the side of my prints which faced away from the fan would not cool as well as the sides which faced it(duh!).  This design is an attempt to cool more evenly from all sides.\r
+\r
+The provided STL has only been used and tested on my own reprap with prusa2 x-carriage, and j-head hotend.  I can't really guarantee it will fit anything else.  However, the design is a fully parametric FreeCAD python script which can be tweaked to hopefully fit other configurations.\r
+\r
+EDIT: I've marked this as work in progress, due to issues I just realized with the duct melting/warping near the nozzle.  It doesn't touch the nozzle, but it's close enough that it causes problems.  I printed this in PLA.  ABS would have probably been better, but I'm not sure if that would still melt when using printing more ABS.  I'll have to do more testing, possible tweak the design more so that there is more space between the hotend nozzle/j-head and duct nozzle.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "thehans" ;
+    okh:repo <https://www.thingiverse.com/thing:18292> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:18292> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Starship Fan Duct for Prusa RepRap 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/7d/1b/ae/26/c6/StarshipFanDuct_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/7d/1b/ae/26/c6/StarshipFanDuct_display_large_display_large.jpg> .
+

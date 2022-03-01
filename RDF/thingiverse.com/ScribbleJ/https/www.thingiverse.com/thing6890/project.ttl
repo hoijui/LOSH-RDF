@@ -1,0 +1,67 @@
+@prefix : <https://www.thingiverse.com/thing%3A6890/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ThingomaticControlPanel a okh:Module ;
+    rdfs:label "Thing-O-Matic Control Panel" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is the obvious follow-on to my last Thingiverse entry, the LCD Temperature display:  http://www.thingiverse.com/thing:6753\r
+\r
+This one has a keypad.  Even with that, you can probably squeak in just under $20 for all the parts.\r
+\r
+CURRENTLY DOES:\r
+* Temperature Monitoring Screen\r
+* Scrollable Error/Other Logging Screen\r
+* SD Card File Selection and PRINT QUEUE\r
+* Yes, queued up prints from SD Card files... Almost makes me want to put my ABP back on.  Not even RepG will do this.\r
+* Print Queue Management: delete, add, start, stop, abort current (not even RepG will do that! - it just resets the system).\r
+* Control Menu: Select screens from friendly menu, abort print, reset printer, destroy universe -- Not even RepG can do that!\r
+* Pause/Resume with BYPASS: the print will pause but you can jog the motors, rehome, and such, then resume right where you left off.  Not even RepG will do this.\r
+* Motor controls, move X,Y,Z,A,B -- even while a print is paused!!\r
+\r
+WIP WHY:\r
+* MANY features still to add!\r
+* Brand new, hardly tested!\r
+* Firmware .hex file uploaded below is from my machine, with 2 toolheads.\r
+\r
+\r
+\r
+I'm verbose by nature so I'm sure I'll have more to say, but I'm mostly busy coding on this right now, so I'll get back to you.\r
+\r
+YOUTUBE VIDEOS:  \r
+\r
+Initial test: http://www.youtube.com/watch?v=0prldLWJgzk\r
+Queuing up a (single) file to print: http://www.youtube.com/watch?v=mcbtRGPwFbU\r
+Testing pause + motor override... FAIL!: http://www.youtube.com/watch?v=lebdaPDFlJk\r
+ -- It /should/ stay paused on the motor menu and let me do what I want, but instead when I go to the motor menu it resumes printing.  FUnny enough, the command override does work, you'll see me raise Z a couple times and then it immediately goes back to where it was.  :)\r
+\r
+\r
+UPDATE (v2):\r
+Added queued print functionality, so you can pick a whole bunch of files off the SD card (or the same one a whole bunch of times) and the system will print them one after the other.  Does RepG still want you to do this manually by copypasting gcode?\r
+\r
+UPDATE (v3):\r
+Added a bunch of features to the print queue, and a menu.  Added abort print, reset printer, and destroy universe commands.\r
+\r
+UPDATE (v4):\r
+Added motor control menu... needs to be simplified a bit but it all works.  This release changes the semantics of the 'pause' control in RepG and elsewhere; now it pauses as soon as it finishes the current movement, instead of immediately.  Should be a minor difference, I hope.\r
+\r
+UPDATE -- noV:\r
+I think I got myself up and running on github.  Let me know if I'm doin' it right.  Quite a bit different than my SVN!\r
+\r
+https://github.com/ScribbleJ""" ;
+    okh:hasImage :Image ;
+    okh:licensor "ScribbleJ" ;
+    okh:repo <https://www.thingiverse.com/thing:6890> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/BSD-4-Clause> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:6890> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Thing-O-Matic Control Panel 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/ec/29/d0/6d/c3/20110306_008_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/ec/29/d0/6d/c3/20110306_008_display_large_display_large.jpg> .
+

@@ -1,0 +1,30 @@
+@prefix : <https://www.thingiverse.com/thing%3A31214/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:RaspberryPiTablet a okh:Module ;
+    rdfs:label "Raspberry Pi tablet" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Heading towards a Raspberry Pi tablet, this is a case for a touchscreen LCD display that connects nicely to the Raspberry Pi.\r
+\r
+Right now this case fits around the display as a separate unit from the Raspberry Pi, which you can put in any of the available Raspberry Pi cases on Thingiverse. My next step will be to fit the Pi into the same case. Oddly the thing preventing it is that HDM cables are so thick. Does anyone know where I could get (or parts to make) a flexible HDMI cable that's only a few inches long?\r
+\r
+The design has been printed and iterated a few times, with the updates uploaded. Added a slot into which the power jack slides (bottom right side of the monitor), to better align the access hole on the back to the HDMI connector, and to enlarge the access slot for using the controls (bottom front). And added 'tabs' to hold the corners down. They eliminated curling when printing PLA (for me), but you'll have to break/cut them off unless you really like Mickey Mouse.\r
+\r
+Still looking for an HDMI cable that's short and flexible, so that I can pack the Raspberry Pi into the display.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "laird" ;
+    okh:repo <https://www.thingiverse.com/thing:31214> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:31214> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Raspberry Pi tablet 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/9c/d4/62/94/21/rasplet_bottom_v6_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/9c/d4/62/94/21/rasplet_bottom_v6_display_large.jpg> .
+

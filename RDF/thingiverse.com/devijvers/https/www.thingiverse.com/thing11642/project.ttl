@@ -1,0 +1,41 @@
+@prefix : <https://www.thingiverse.com/thing%3A11642/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:SpurParametricGearRackexperimental a okh:Module ;
+    rdfs:label "Spur parametric gear rack (experimental)" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Warning: not yet printed (and I don't have a printer yet!)\r
+\r
+OpenScad script to generate parametric gear racks. Only one important parameter.\r
+\r
+There are 4 required parameters:\r
+\r
+* module: the most import parameter of any gear. Two gears (or a gear and a rack) of the same module will mesh. Determines the tooth height and this value is the pitch circle diameter in mm. Common gear modules: http://www.beltingonline.com/gears-366/spur-gears-367/metric-0-5-to-8-mod-375/\r
+* number of teeth: this parameter together with module determines the length of your rack.\r
+* width: the width of the rack in mm.\r
+* rack bottom height: the height of the rack below the teeth in mm.\r
+\r
+The pressure angle is 20 degrees. This is not configurable since normally all MOD gears have a pressure angle of 20 degrees.\r
+\r
+When you print this thing please give me feedback.\r
+\r
+Change log\r
+\r
+2011-09-18: Cleanup unused code + echo length of gear rack + center object + appropriate rotation for printing + added bevel to top of teeth""" ;
+    okh:hasImage :Image ;
+    okh:licensor "devijvers" ;
+    okh:repo <https://www.thingiverse.com/thing:11642> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:11642> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Spur parametric gear rack (experimental) 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/92/e4/4a/fa/48/gear_rack_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/92/e4/4a/fa/48/gear_rack_display_large_display_large.jpg> .
+

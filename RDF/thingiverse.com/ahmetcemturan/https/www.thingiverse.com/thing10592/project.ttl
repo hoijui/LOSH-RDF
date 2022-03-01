@@ -1,0 +1,84 @@
+@prefix : <https://www.thingiverse.com/thing%3A10592/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:SfactTheNewSkeinforgeforStepperExtrudersOnly a okh:Module ;
+    rdfs:label "SFACT the new Skeinforge (for Stepper Extruders only)" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Please download the latest version from: https://github.com/ahmetcemturan/SFACT/archive/master.zip  
+or the pypy version (much faster):  
+https://github.com/ahmetcemturan/SFACT-PyPy/archive/master.zip  
+
+I have modified Skeinforge to be more practical and easier to tune.  features include:  
+-Will not mess up your old Skeinforge settings as it will use its own sfact_profiles directory inside its own folder.  
+-Deleted unused plugins and unused settings. (IMHO)  
+-Namings of variables changed to be more understandable.  
+-Important settings moved to top of Plugin Tab.  
+-Default values give good prints rightaway.  
+-Internally used Gcode files use extension .gmc now.  
+-Most Feedrates are now entered as values (mm/s) and their respective flowrates are 1 so you dont have to enter everything twice.  
+(exception bridge feed and flow is relative to main feed)  
+-First Layer Travel Feedrate can be specified in mm/s so it doesnt tear off your print.  
+CARVE:  
+-Extrusion width is now entered in mm instead of a ratio to layer height.  
+CHAMBER:  
+-Moved Turn Extruder off at shutdown to Chamber.  
+-Added Turn PrintBed off at shutdown.  
+CLIP:  
+Clip over Perimeter width is now calculated automatically.  The default is 1 and can be tuned from there.  
+DIMENSION:  
+-Added feature for calibration.  
+-Retract can be set conditionally depending on extrusion amount before retract and the travel move in retracted state (SF Beanshell).  Also retract can be forced to happen if moving over loops.  
+EXPORT:  
+Replaced Export plugin with Gary Hodgson's plugin.  
+-Option to export settings as Zip file or a single CSV file for sharing.  
+-Option to individually name the exported gcode files with description, timestamp and profile used.  
+FILL:  
+-Infill width over layerthickness setting is replaced by Extrusion Lines Extra spacing.  
+-Extrusion Lines Extra spacing is calculated automatically and defaults to 1 for tuning.  
+-Infill Overlap over Perimeter is also calculated internally and defaults to 1 so it can be easily tweaked.  
+INSET:  
+The ÃÂÃÂ±nset value is now Overlap Removal and is also calculated internally with default 1 for tweaking.  
+PREFACE:  
+-Added the option to send Extruder reset (G92 E0) command before print so that the extruder does not spool back after priming. (Even without start.gmc file)  
+RAFT:  
+-Ordering, grouping and namings changed to reflect the use of interface settings for the support structures.  
+-Support feedrate and support flowrate can be set seperately.  
+-Support extension(s) are now more understandable.  
+-First Layer feedrates are given in mm/s instead of a ratio to the main feedrate.  
+SPEED:  
+-Feedrates are entered as values with respective flowrates as 1, instead of entering sam value again. (except for Bridge Feedrate).  
+-Nozzle Lift setting has been changed to Extra nozzle Lift over object and defaults to 0.  
+-Wipe is on by default and is around the 0 point  
+
+Known Bugs:  
+-Only Line infill works reliably  
+The latest release is : See Below..  
+
+Please Comment about your experience, positive or negative.  
+
+
+SOON TO COME  
+-Skin plugin with better working calculation,  
+-Leadin Plugin to get rid off the "SEAM" that is created during Layer change..  
+-First Layer Travel moves are all now limited to "acceptable" speeds  
+-Retraction control is more sophisticated.  
+-Extrusion calculation is even better.  
+-and a lot of small things...  
+-more to it later on reprapfordummies.net  keep tuned..""" ;
+    okh:hasImage :Image ;
+    okh:licensor "ahmetcemturan" ;
+    okh:repo <https://www.thingiverse.com/thing:10592> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:10592> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of SFACT the new Skeinforge (for Stepper Extruders only) 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/a0/a7/dd/aa/1b/2011-07-04_23-28-31_-_P7046413_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/a0/a7/dd/aa/1b/2011-07-04_23-28-31_-_P7046413_display_large_display_large.jpg> .
+

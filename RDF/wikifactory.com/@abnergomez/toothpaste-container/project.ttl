@@ -1,27 +1,28 @@
-@prefix : <https://wikifactory.com/@abnergomez/toothpaste-container/9f3237c942a85547c96dae05d19f468d1f7d94f1/> .
+@prefix : <https://wikifactory.com/%40abnergomez/toothpaste-container/9f3237c942a85547c96dae05d19f468d1f7d94f1/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 :ToothpasteContainer a okh:Module ;
     rdfs:label "Toothpaste Container" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "A cleaner way to brush your teeth!" ;
-    okh:hasComponent :Assembly,
+    okh:hasComponent :BlueprintstoothpasteContainerIsometricExplodedView,
+        :Blueprintstoothpastecontainer,
         :Bom,
         :Bookletmdflex2,
-        :Safetoplaydesignchallengemethodology,
-        :Tc001,
-        :Tc002,
-        :Tc003,
-        :Tc004,
-        :Tc005,
-        :Tc006,
-        :Tc007,
-        :Tc008,
-        :Tc009,
-        :ToothpasteContainerIsometricExplodedView,
-        :Toothpastecontainer,
-        :Toothpastemodel ;
+        :Partsassembly,
+        :Partstc001,
+        :Partstc002,
+        :Partstc003,
+        :Partstc004,
+        :Partstc005,
+        :Partstc006,
+        :Partstc007,
+        :Partstc008,
+        :Partstc009,
+        :Partstoothpastemodel,
+        :Safetoplaydesignchallengemethodology ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "Abner Gómez" ;
@@ -29,21 +30,35 @@
     okh:repo <https://wikifactory.com/@abnergomez/toothpaste-container> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
     okh:version "9f3237c942a85547c96dae05d19f468d1f7d94f1" ;
     okh:versionOf <https://wikifactory.com/@abnergomez/toothpaste-container> .
 
-:Assembly a okh:Part ;
-    rdfs:label "Assembly" ;
+:BlueprintstoothpasteContainerIsometricExplodedView a okh:Part ;
+    rdfs:label "Blueprints/Toothpaste Container Isometric Exploded View" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Abner Gómez" ;
-    okh:source :Assembly_source ;
+    okh:source :BlueprintstoothpasteContainerIsometricExplodedView_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Assembly_source a okh:SourceFile ;
-    rdfs:label "Source File of Assembly of Toothpaste Container 9f3237c942a85547c96dae05d19f468d1f7d94f1" ;
-    okh:fileFormat "SLDASM" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64036/assembly-67873.SLDASM> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTg5NDQ=> .
+:BlueprintstoothpasteContainerIsometricExplodedView_source a okh:SourceFile ;
+    rdfs:label "Source File of Blueprints/Toothpaste Container Isometric Exploded View of Toothpaste Container 9f3237c942a85547c96dae05d19f468d1f7d94f1" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64036/toothpaste_container_isometric_exploded_view.PDF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTQwMDU=> .
+
+:Blueprintstoothpastecontainer a okh:Part ;
+    rdfs:label "Blueprints/Toothpaste_Container" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Abner Gómez" ;
+    okh:source :Blueprintstoothpastecontainer_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Blueprintstoothpastecontainer_source a okh:SourceFile ;
+    rdfs:label "Source File of Blueprints/Toothpaste_Container of Toothpaste Container 9f3237c942a85547c96dae05d19f468d1f7d94f1" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64036/toothpaste_container.PDF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTQwMDI=> .
 
 :Bom a okh:Part ;
     rdfs:label "BOM" ;
@@ -77,6 +92,149 @@
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64036/untitled_9-eef9a.png> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTozOTQxNTE=> .
 
+:Partsassembly a okh:Part ;
+    rdfs:label "Parts/Assembly" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Abner Gómez" ;
+    okh:source :Partsassembly_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Partsassembly_source a okh:SourceFile ;
+    rdfs:label "Source File of Parts/Assembly of Toothpaste Container 9f3237c942a85547c96dae05d19f468d1f7d94f1" ;
+    okh:fileFormat "SLDASM" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64036/assembly-67873.SLDASM> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTg5NDQ=> .
+
+:Partstc001 a okh:Part ;
+    rdfs:label "Parts/TC001" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Abner Gómez" ;
+    okh:source :Partstc001_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Partstc001_source a okh:SourceFile ;
+    rdfs:label "Source File of Parts/TC001 of Toothpaste Container 9f3237c942a85547c96dae05d19f468d1f7d94f1" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64036/tc001.SLDPRT> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTg5MzU=> .
+
+:Partstc002 a okh:Part ;
+    rdfs:label "Parts/TC002" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Abner Gómez" ;
+    okh:source :Partstc002_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Partstc002_source a okh:SourceFile ;
+    rdfs:label "Source File of Parts/TC002 of Toothpaste Container 9f3237c942a85547c96dae05d19f468d1f7d94f1" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64036/cover.SLDPRT> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTg5MzQ=> .
+
+:Partstc003 a okh:Part ;
+    rdfs:label "Parts/TC003" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Abner Gómez" ;
+    okh:source :Partstc003_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Partstc003_source a okh:SourceFile ;
+    rdfs:label "Source File of Parts/TC003 of Toothpaste Container 9f3237c942a85547c96dae05d19f468d1f7d94f1" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64036/tc003.SLDPRT> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTg5Mjk=> .
+
+:Partstc004 a okh:Part ;
+    rdfs:label "Parts/TC004" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Abner Gómez" ;
+    okh:source :Partstc004_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Partstc004_source a okh:SourceFile ;
+    rdfs:label "Source File of Parts/TC004 of Toothpaste Container 9f3237c942a85547c96dae05d19f468d1f7d94f1" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64036/tc004.SLDPRT> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTg5Mjg=> .
+
+:Partstc005 a okh:Part ;
+    rdfs:label "Parts/TC005" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Abner Gómez" ;
+    okh:source :Partstc005_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Partstc005_source a okh:SourceFile ;
+    rdfs:label "Source File of Parts/TC005 of Toothpaste Container 9f3237c942a85547c96dae05d19f468d1f7d94f1" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64036/tc005.SLDPRT> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTg5Mjc=> .
+
+:Partstc006 a okh:Part ;
+    rdfs:label "Parts/TC006" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Abner Gómez" ;
+    okh:source :Partstc006_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Partstc006_source a okh:SourceFile ;
+    rdfs:label "Source File of Parts/TC006 of Toothpaste Container 9f3237c942a85547c96dae05d19f468d1f7d94f1" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64036/tc006.SLDPRT> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTg5MjM=> .
+
+:Partstc007 a okh:Part ;
+    rdfs:label "Parts/TC007" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Abner Gómez" ;
+    okh:source :Partstc007_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Partstc007_source a okh:SourceFile ;
+    rdfs:label "Source File of Parts/TC007 of Toothpaste Container 9f3237c942a85547c96dae05d19f468d1f7d94f1" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64036/tc007.SLDPRT> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTg5MjE=> .
+
+:Partstc008 a okh:Part ;
+    rdfs:label "Parts/TC008" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Abner Gómez" ;
+    okh:source :Partstc008_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Partstc008_source a okh:SourceFile ;
+    rdfs:label "Source File of Parts/TC008 of Toothpaste Container 9f3237c942a85547c96dae05d19f468d1f7d94f1" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64036/tc008.SLDPRT> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTg5MjA=> .
+
+:Partstc009 a okh:Part ;
+    rdfs:label "Parts/TC009" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Abner Gómez" ;
+    okh:source :Partstc009_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Partstc009_source a okh:SourceFile ;
+    rdfs:label "Source File of Parts/TC009 of Toothpaste Container 9f3237c942a85547c96dae05d19f468d1f7d94f1" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64036/tc009.SLDPRT> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTg5MTg=> .
+
+:Partstoothpastemodel a okh:Part ;
+    rdfs:label "Parts/ToothPasteModel" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Abner Gómez" ;
+    okh:source :Partstoothpastemodel_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Partstoothpastemodel_source a okh:SourceFile ;
+    rdfs:label "Source File of Parts/ToothPasteModel of Toothpaste Container 9f3237c942a85547c96dae05d19f468d1f7d94f1" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64036/toothpastemodel.SLDPRT> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTg5MTc=> .
+
 :Readme a okh:Readme ;
     rdfs:label "Readme of Toothpaste Container 9f3237c942a85547c96dae05d19f468d1f7d94f1" ;
     okh:fileFormat "MD" ;
@@ -95,160 +253,4 @@
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64036/safetoplay_design_challenge_methodology.pdf> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo0MDI2NTk=> .
-
-:Tc001 a okh:Part ;
-    rdfs:label "TC001" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Abner Gómez" ;
-    okh:source :Tc001_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Tc001_source a okh:SourceFile ;
-    rdfs:label "Source File of TC001 of Toothpaste Container 9f3237c942a85547c96dae05d19f468d1f7d94f1" ;
-    okh:fileFormat "SLDPRT" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64036/tc001.SLDPRT> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTg5MzU=> .
-
-:Tc002 a okh:Part ;
-    rdfs:label "TC002" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Abner Gómez" ;
-    okh:source :Tc002_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Tc002_source a okh:SourceFile ;
-    rdfs:label "Source File of TC002 of Toothpaste Container 9f3237c942a85547c96dae05d19f468d1f7d94f1" ;
-    okh:fileFormat "SLDPRT" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64036/cover.SLDPRT> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTg5MzQ=> .
-
-:Tc003 a okh:Part ;
-    rdfs:label "TC003" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Abner Gómez" ;
-    okh:source :Tc003_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Tc003_source a okh:SourceFile ;
-    rdfs:label "Source File of TC003 of Toothpaste Container 9f3237c942a85547c96dae05d19f468d1f7d94f1" ;
-    okh:fileFormat "SLDPRT" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64036/tc003.SLDPRT> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTg5Mjk=> .
-
-:Tc004 a okh:Part ;
-    rdfs:label "TC004" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Abner Gómez" ;
-    okh:source :Tc004_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Tc004_source a okh:SourceFile ;
-    rdfs:label "Source File of TC004 of Toothpaste Container 9f3237c942a85547c96dae05d19f468d1f7d94f1" ;
-    okh:fileFormat "SLDPRT" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64036/tc004.SLDPRT> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTg5Mjg=> .
-
-:Tc005 a okh:Part ;
-    rdfs:label "TC005" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Abner Gómez" ;
-    okh:source :Tc005_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Tc005_source a okh:SourceFile ;
-    rdfs:label "Source File of TC005 of Toothpaste Container 9f3237c942a85547c96dae05d19f468d1f7d94f1" ;
-    okh:fileFormat "SLDPRT" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64036/tc005.SLDPRT> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTg5Mjc=> .
-
-:Tc006 a okh:Part ;
-    rdfs:label "TC006" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Abner Gómez" ;
-    okh:source :Tc006_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Tc006_source a okh:SourceFile ;
-    rdfs:label "Source File of TC006 of Toothpaste Container 9f3237c942a85547c96dae05d19f468d1f7d94f1" ;
-    okh:fileFormat "SLDPRT" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64036/tc006.SLDPRT> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTg5MjM=> .
-
-:Tc007 a okh:Part ;
-    rdfs:label "TC007" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Abner Gómez" ;
-    okh:source :Tc007_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Tc007_source a okh:SourceFile ;
-    rdfs:label "Source File of TC007 of Toothpaste Container 9f3237c942a85547c96dae05d19f468d1f7d94f1" ;
-    okh:fileFormat "SLDPRT" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64036/tc007.SLDPRT> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTg5MjE=> .
-
-:Tc008 a okh:Part ;
-    rdfs:label "TC008" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Abner Gómez" ;
-    okh:source :Tc008_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Tc008_source a okh:SourceFile ;
-    rdfs:label "Source File of TC008 of Toothpaste Container 9f3237c942a85547c96dae05d19f468d1f7d94f1" ;
-    okh:fileFormat "SLDPRT" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64036/tc008.SLDPRT> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTg5MjA=> .
-
-:Tc009 a okh:Part ;
-    rdfs:label "TC009" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Abner Gómez" ;
-    okh:source :Tc009_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Tc009_source a okh:SourceFile ;
-    rdfs:label "Source File of TC009 of Toothpaste Container 9f3237c942a85547c96dae05d19f468d1f7d94f1" ;
-    okh:fileFormat "SLDPRT" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64036/tc009.SLDPRT> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTg5MTg=> .
-
-:ToothpasteContainerIsometricExplodedView a okh:Part ;
-    rdfs:label "Toothpaste Container Isometric Exploded View" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Abner Gómez" ;
-    okh:source :ToothpasteContainerIsometricExplodedView_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:ToothpasteContainerIsometricExplodedView_source a okh:SourceFile ;
-    rdfs:label "Source File of Toothpaste Container Isometric Exploded View of Toothpaste Container 9f3237c942a85547c96dae05d19f468d1f7d94f1" ;
-    okh:fileFormat "PDF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64036/toothpaste_container_isometric_exploded_view.PDF> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTQwMDU=> .
-
-:Toothpastecontainer a okh:Part ;
-    rdfs:label "Toothpaste_Container" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Abner Gómez" ;
-    okh:source :Toothpastecontainer_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Toothpastecontainer_source a okh:SourceFile ;
-    rdfs:label "Source File of Toothpaste_Container of Toothpaste Container 9f3237c942a85547c96dae05d19f468d1f7d94f1" ;
-    okh:fileFormat "PDF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64036/toothpaste_container.PDF> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTQwMDI=> .
-
-:Toothpastemodel a okh:Part ;
-    rdfs:label "ToothPasteModel" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Abner Gómez" ;
-    okh:source :Toothpastemodel_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Toothpastemodel_source a okh:SourceFile ;
-    rdfs:label "Source File of ToothPasteModel of Toothpaste Container 9f3237c942a85547c96dae05d19f468d1f7d94f1" ;
-    okh:fileFormat "SLDPRT" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64036/toothpastemodel.SLDPRT> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTg5MTc=> .
 

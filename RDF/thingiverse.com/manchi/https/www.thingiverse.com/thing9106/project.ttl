@@ -1,0 +1,48 @@
+@prefix : <https://www.thingiverse.com/thing%3A9106/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:HowmeTheRobot a okh:Module ;
+    rdfs:label "Howme the robot" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is a work in progress. All files will be uploaded later. The robot is a design of my own any ideas on how to make it look better are welcome :)\r
+ \r
+The parts are designed and exported to stl using SolidWorks.\r
+\r
+The robot has its own website http://howme.net , but it is still under major changes.\r
+\r
+These are the printable parts (at their current state) of my robot. This is its third version. All parts are designed to fit with a cheap MG995 servos. They are standard servo sizes so most servo machines may match (if the design works as I expect I am planing to supply it with better servos). The whole robot is powered by 15 servo machines.\r
+\r
+The head is equipped with a wireless pinhole camera, laser, Sharp infrared sensor, two microphones in its ears (there is a room for pre-amp), a place for a RGB diode as a nose,  at the top there is a place for a motion sensor.\r
+(*The Bill of materials with links will be updated later.)\r
+\r
+I was running all servos using Arduino Mega, but I am switching to FEZ Panda II. The board should be placed at the back.\r
+\r
+The body is shallow and may contain small electronics or something else.\r
+\r
+The arms are designed to fit solar panels from a solar phone charger or similar.\r
+The Front is designed to hold a 16x2 display (to be designed with a holder).\r
+There should be a room for a speaker as I have added text to speech board to the system.\r
+\r
+The robot is designed to be a Johnnie 5 type so I am planning to add caterpillar tracks found here on thingiverse, but yet have to design the body that will hold the batteries and the tracks. The robot is equipped with double reduction gear (each for every track) and being controlled by a motor driver.\r
+\r
+The software can be tracked here (it is also under progress) : http://code.google.com/p/howme/\r
+\r
+Update \r
+There is a base with tracked links. Checkout the last image, but the problem is the body can be optimized because it takes too much material and I had to print it more then 12 hours. It should hold the reduction gear for the tracks and two packs of batteries. I hope the batteries are heavy enough to make it stable when moving around.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "manchi" ;
+    okh:repo <https://www.thingiverse.com/thing:9106> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:9106> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Howme the robot 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/81/12/c2/c7/a7/IMG_1738_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/81/12/c2/c7/a7/IMG_1738_display_large_display_large.jpg> .
+

@@ -1,0 +1,30 @@
+@prefix : <https://www.thingiverse.com/thing%3A8195/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ThingitagJr a okh:Module ;
+    rdfs:label "Thingitag Jr." ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """I was showing off some of my designs at a recent Makerbot user group meeting, and I wished I had tags for them with QR codes and some other relevant data. This bookmarklet will generate such tags.\r
+\r
+This is a smaller version, with the QR code on one side and the human-readable information on the other.\r
+\r
+Note: I initially set the license to CC-BY for the example picture because the CC licenses look a little nicer on the tags, but I've changed the license to PD, so feel free to use it however you want.\r
+\r
+Update: Some errors were reported with the DOM walking, so I rewrote those portions to use Regex instead. This should improve compatibility.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "whosawhatsis" ;
+    okh:repo <https://www.thingiverse.com/thing:8195> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:8195> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Thingitag Jr. 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/70/34/88/5f/40/IMG_0699_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/70/34/88/5f/40/IMG_0699_display_large_display_large.jpg> .
+

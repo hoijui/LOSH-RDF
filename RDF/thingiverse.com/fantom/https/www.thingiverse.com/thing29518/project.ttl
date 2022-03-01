@@ -1,0 +1,41 @@
+@prefix : <https://www.thingiverse.com/thing%3A29518/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:MinecraftCreeper a okh:Module ;
+    rdfs:label "Minecraft Creeper" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Find me now at  http://goo.gl/qfeRmZ  
+
+This is scale model of the Minecraft Creeper, made of a few parts for easy and reliable printing.  
+
+Under the covers it's a relatively minor rework of the creeper found here: http://www.thingiverse.com/thing:8346   
+
+Changes are:  
+ - Increased the depth of the toes, making their size a parameter  
+ - Deepened the holes for the face, made the depth a parameter  
+ - Parameterised the creation of the connecting holes for the legs.  It's possible to print the body & legs as a single piece.  
+ - Flipped the Z axis, so that it's up the right way in the scad file  
+ - Cleaned the scad file a bit for readability, reused code for legs/toes  
+
+The Steve in the photo is thing http://www.thingiverse.com/thing:29570  
+
+Design removed and replaced with the flat disk you see, feel free to email for the original if you want it.  See following link for details http://traverseda.wordpress.com/2014/05/23/makerbot-blatently-steals-and-patents-a-community-design/   
+
+For alternatives to thingiverse see http://www.reddit.com/r/3Dprinting/comments/26do2z/alternative_repositories_to_thingiverse/""" ;
+    okh:hasImage :Image ;
+    okh:licensor "fantom" ;
+    okh:repo <https://www.thingiverse.com/thing:29518> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:29518> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Minecraft Creeper 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/1f/03/91/dc/d5/7899503482_778b802d75_c_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/1f/03/91/dc/d5/7899503482_778b802d75_c_display_large.jpg> .
+

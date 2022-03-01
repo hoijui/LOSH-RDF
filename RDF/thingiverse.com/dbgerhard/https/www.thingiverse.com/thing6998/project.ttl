@@ -1,0 +1,35 @@
+@prefix : <https://www.thingiverse.com/thing%3A6998/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:AlphabetCookieCutters a okh:Module ;
+    rdfs:label "Alphabet Cookie Cutters" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """After literally tens of minutes of of development, I think I have a good process for making alphabet shaped cookie cutters (or any shape cookie cutters for that matter)\r
+\r
+To build one of these in sketchup:\r
+ - Make a shape and extrude it to about 1.5 or 2 cm (3/4")\r
+ - Use the offset tool to make 2mm (1/8") line around the perimeter of the shape.  Holes in letters are problematic, you may have to draw by hand.\r
+ - push the new smaller shape back to 1/8" less than your original extrusion.  this makes a "floor" and "walls"\r
+ - sharpen the walls\r
+ - push "holes" in the base so you can get the material out after you cut\r
+ \r
+Note, this is an upgrade from my previous cutters, thing 6979\r
+\r
+http://www.thingiverse.com/thing:6979""" ;
+    okh:hasImage :Image ;
+    okh:licensor "dbgerhard" ;
+    okh:repo <https://www.thingiverse.com/thing:6998> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:6998> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Alphabet Cookie Cutters 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/77/be/6e/16/64/IMG_1747_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/77/be/6e/16/64/IMG_1747_display_large_display_large.jpg> .
+

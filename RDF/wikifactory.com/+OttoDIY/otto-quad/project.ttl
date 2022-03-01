@@ -1,24 +1,25 @@
-@prefix : <https://wikifactory.com/+OttoDIY/otto-quad/c421fb0bd0e736408aa3736c41f27b6d18f45826/> .
+@prefix : <https://wikifactory.com/%2BOttoDIY/otto-quad/c421fb0bd0e736408aa3736c41f27b6d18f45826/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 :Quad a okh:Module ;
     rdfs:label "Quad" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "An amazing great mix 2 great opensource robots #ottodiy and mini kame, giving the ability to move around in a more dynamic way. Created by @s4snow" ;
-    okh:hasComponent :Body7a,
-        :Head,
-        :Headnanoshield,
-        :Mbodyshafts,
-        :Mhips,
-        :Mhipsshafts,
-        :Singlefoottypea,
-        :Singlefoottypeb,
-        :Spiderbody01,
-        :Spiderhead,
-        :Spiderlegs01,
-        :Spiderlegs02,
-        :Tcad2ottoquad ;
+    okh:hasComponent :AssemblyInfotcad2ottoquad,
+        :StlFilesbody7a,
+        :StlFileshead,
+        :StlFilesheadnanoshield,
+        :StlFilesmbodyshafts,
+        :StlFilesmhips,
+        :StlFilesmhipsshafts,
+        :StlFilessinglefoottypea,
+        :StlFilessinglefoottypeb,
+        :StlFilesspiderbody01,
+        :StlFilesspiderhead,
+        :StlFilesspiderlegs01,
+        :StlFilesspiderlegs02 ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "Jason Snow" ;
@@ -27,47 +28,29 @@
     okh:repo <https://wikifactory.com/+OttoDIY/otto-quad> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
     okh:version "c421fb0bd0e736408aa3736c41f27b6d18f45826" ;
     okh:versionOf <https://wikifactory.com/+OttoDIY/otto-quad> .
 
-:Body7a a okh:Part ;
-    rdfs:label "Body_7A" ;
+:AssemblyInfotcad2ottoquad a okh:Part ;
+    rdfs:label "Assembly info/tCad2_OTTO_QUAD" ;
     okh:documentationLanguage "en" ;
+    okh:image :AssemblyInfotcad2ottoquad_image ;
     okh:licensor "Jason Snow" ;
-    okh:source :Body7a_source ;
+    okh:source :AssemblyInfotcad2ottoquad_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Body7a_source a okh:SourceFile ;
-    rdfs:label "Source File of Body_7A of Quad c421fb0bd0e736408aa3736c41f27b6d18f45826" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/2912/body7a.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyNDUxMw==> .
+:AssemblyInfotcad2ottoquad_image a okh:Image ;
+    rdfs:label "Image of Assembly info/tCad2_OTTO_QUAD of Quad c421fb0bd0e736408aa3736c41f27b6d18f45826" ;
+    okh:fileFormat "PNG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/2912/tcad2-otto-quad.png> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyNDUwNA==> .
 
-:Head a okh:Part ;
-    rdfs:label "Head" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Jason Snow" ;
-    okh:source :Head_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Head_source a okh:SourceFile ;
-    rdfs:label "Source File of Head of Quad c421fb0bd0e736408aa3736c41f27b6d18f45826" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/2912/head.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyNDUxNA==> .
-
-:Headnanoshield a okh:Part ;
-    rdfs:label "Head_NANO_SHIELD" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Jason Snow" ;
-    okh:source :Headnanoshield_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Headnanoshield_source a okh:SourceFile ;
-    rdfs:label "Source File of Head_NANO_SHIELD of Quad c421fb0bd0e736408aa3736c41f27b6d18f45826" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/2912/headnanoshield.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyNDYxMA==> .
+:AssemblyInfotcad2ottoquad_source a okh:SourceFile ;
+    rdfs:label "Source File of Assembly info/tCad2_OTTO_QUAD of Quad c421fb0bd0e736408aa3736c41f27b6d18f45826" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/2912/tcad2-otto-quad.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyNDUwMw==> .
 
 :Image a okh:Image ;
     rdfs:label "Image of Quad c421fb0bd0e736408aa3736c41f27b6d18f45826" ;
@@ -75,146 +58,165 @@
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/2912/img20190207202704-1.jpg> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToyNDUxMg==> .
 
-:Mbodyshafts a okh:Part ;
-    rdfs:label "m-body-shafts" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Jason Snow" ;
-    okh:source :Mbodyshafts_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Mbodyshafts_source a okh:SourceFile ;
-    rdfs:label "Source File of m-body-shafts of Quad c421fb0bd0e736408aa3736c41f27b6d18f45826" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/2912/m-body-shafts.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyNDUxNQ==> .
-
-:Mhips a okh:Part ;
-    rdfs:label "m-hips" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Jason Snow" ;
-    okh:source :Mhips_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Mhips_source a okh:SourceFile ;
-    rdfs:label "Source File of m-hips of Quad c421fb0bd0e736408aa3736c41f27b6d18f45826" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/2912/m-hips.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyNDUxNg==> .
-
-:Mhipsshafts a okh:Part ;
-    rdfs:label "m-hips_SHAFTS" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Jason Snow" ;
-    okh:source :Mhipsshafts_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Mhipsshafts_source a okh:SourceFile ;
-    rdfs:label "Source File of m-hips_SHAFTS of Quad c421fb0bd0e736408aa3736c41f27b6d18f45826" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/2912/m-hipsshafts.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyNDUxNw==> .
-
 :Readme a okh:Readme ;
     rdfs:label "Readme of Quad c421fb0bd0e736408aa3736c41f27b6d18f45826" ;
     okh:fileFormat "MD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/2912/readme-a8a43.md> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTozNTAyNTI=> .
 
-:Singlefoottypea a okh:Part ;
-    rdfs:label "Single_foot__typeA" ;
+:StlFilesbody7a a okh:Part ;
+    rdfs:label "STL files/Body_7A" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Jason Snow" ;
-    okh:source :Singlefoottypea_source ;
+    okh:source :StlFilesbody7a_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Singlefoottypea_source a okh:SourceFile ;
-    rdfs:label "Source File of Single_foot__typeA of Quad c421fb0bd0e736408aa3736c41f27b6d18f45826" ;
+:StlFilesbody7a_source a okh:SourceFile ;
+    rdfs:label "Source File of STL files/Body_7A of Quad c421fb0bd0e736408aa3736c41f27b6d18f45826" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/2912/body7a.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyNDUxMw==> .
+
+:StlFileshead a okh:Part ;
+    rdfs:label "STL files/Head" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Jason Snow" ;
+    okh:source :StlFileshead_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:StlFileshead_source a okh:SourceFile ;
+    rdfs:label "Source File of STL files/Head of Quad c421fb0bd0e736408aa3736c41f27b6d18f45826" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/2912/head.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyNDUxNA==> .
+
+:StlFilesheadnanoshield a okh:Part ;
+    rdfs:label "STL files/Head_NANO_SHIELD" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Jason Snow" ;
+    okh:source :StlFilesheadnanoshield_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:StlFilesheadnanoshield_source a okh:SourceFile ;
+    rdfs:label "Source File of STL files/Head_NANO_SHIELD of Quad c421fb0bd0e736408aa3736c41f27b6d18f45826" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/2912/headnanoshield.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyNDYxMA==> .
+
+:StlFilesmbodyshafts a okh:Part ;
+    rdfs:label "STL files/m-body-shafts" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Jason Snow" ;
+    okh:source :StlFilesmbodyshafts_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:StlFilesmbodyshafts_source a okh:SourceFile ;
+    rdfs:label "Source File of STL files/m-body-shafts of Quad c421fb0bd0e736408aa3736c41f27b6d18f45826" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/2912/m-body-shafts.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyNDUxNQ==> .
+
+:StlFilesmhips a okh:Part ;
+    rdfs:label "STL files/m-hips" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Jason Snow" ;
+    okh:source :StlFilesmhips_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:StlFilesmhips_source a okh:SourceFile ;
+    rdfs:label "Source File of STL files/m-hips of Quad c421fb0bd0e736408aa3736c41f27b6d18f45826" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/2912/m-hips.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyNDUxNg==> .
+
+:StlFilesmhipsshafts a okh:Part ;
+    rdfs:label "STL files/m-hips_SHAFTS" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Jason Snow" ;
+    okh:source :StlFilesmhipsshafts_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:StlFilesmhipsshafts_source a okh:SourceFile ;
+    rdfs:label "Source File of STL files/m-hips_SHAFTS of Quad c421fb0bd0e736408aa3736c41f27b6d18f45826" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/2912/m-hipsshafts.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyNDUxNw==> .
+
+:StlFilessinglefoottypea a okh:Part ;
+    rdfs:label "STL files/Single_foot__typeA" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Jason Snow" ;
+    okh:source :StlFilessinglefoottypea_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:StlFilessinglefoottypea_source a okh:SourceFile ;
+    rdfs:label "Source File of STL files/Single_foot__typeA of Quad c421fb0bd0e736408aa3736c41f27b6d18f45826" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/2912/singlefoot-typea.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToyNDYxNA==> .
 
-:Singlefoottypeb a okh:Part ;
-    rdfs:label "Single_foot__typeB" ;
+:StlFilessinglefoottypeb a okh:Part ;
+    rdfs:label "STL files/Single_foot__typeB" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Jason Snow" ;
-    okh:source :Singlefoottypeb_source ;
+    okh:source :StlFilessinglefoottypeb_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Singlefoottypeb_source a okh:SourceFile ;
-    rdfs:label "Source File of Single_foot__typeB of Quad c421fb0bd0e736408aa3736c41f27b6d18f45826" ;
+:StlFilessinglefoottypeb_source a okh:SourceFile ;
+    rdfs:label "Source File of STL files/Single_foot__typeB of Quad c421fb0bd0e736408aa3736c41f27b6d18f45826" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/2912/singlefoot-typeb.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToyNDYxNQ==> .
 
-:Spiderbody01 a okh:Part ;
-    rdfs:label "Spider_body_01" ;
+:StlFilesspiderbody01 a okh:Part ;
+    rdfs:label "STL files/Spider_body_01" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Spiderbody01_source ;
+    okh:source :StlFilesspiderbody01_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Spiderbody01_source a okh:SourceFile ;
-    rdfs:label "Source File of Spider_body_01 of Quad c421fb0bd0e736408aa3736c41f27b6d18f45826" ;
+:StlFilesspiderbody01_source a okh:SourceFile ;
+    rdfs:label "Source File of STL files/Spider_body_01 of Quad c421fb0bd0e736408aa3736c41f27b6d18f45826" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/2912/spiderbody01.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToyMDYzOTA=> .
 
-:Spiderhead a okh:Part ;
-    rdfs:label "Spider_head" ;
+:StlFilesspiderhead a okh:Part ;
+    rdfs:label "STL files/Spider_head" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Spiderhead_source ;
+    okh:source :StlFilesspiderhead_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Spiderhead_source a okh:SourceFile ;
-    rdfs:label "Source File of Spider_head of Quad c421fb0bd0e736408aa3736c41f27b6d18f45826" ;
+:StlFilesspiderhead_source a okh:SourceFile ;
+    rdfs:label "Source File of STL files/Spider_head of Quad c421fb0bd0e736408aa3736c41f27b6d18f45826" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/2912/spiderhead.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToyMDYzODk=> .
 
-:Spiderlegs01 a okh:Part ;
-    rdfs:label "Spider_legs_01" ;
+:StlFilesspiderlegs01 a okh:Part ;
+    rdfs:label "STL files/Spider_legs_01" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Spiderlegs01_source ;
+    okh:source :StlFilesspiderlegs01_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Spiderlegs01_source a okh:SourceFile ;
-    rdfs:label "Source File of Spider_legs_01 of Quad c421fb0bd0e736408aa3736c41f27b6d18f45826" ;
+:StlFilesspiderlegs01_source a okh:SourceFile ;
+    rdfs:label "Source File of STL files/Spider_legs_01 of Quad c421fb0bd0e736408aa3736c41f27b6d18f45826" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/2912/spiderlegs01.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToyMDYzODg=> .
 
-:Spiderlegs02 a okh:Part ;
-    rdfs:label "Spider_legs_02" ;
+:StlFilesspiderlegs02 a okh:Part ;
+    rdfs:label "STL files/Spider_legs_02" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Spiderlegs02_source ;
+    okh:source :StlFilesspiderlegs02_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Spiderlegs02_source a okh:SourceFile ;
-    rdfs:label "Source File of Spider_legs_02 of Quad c421fb0bd0e736408aa3736c41f27b6d18f45826" ;
+:StlFilesspiderlegs02_source a okh:SourceFile ;
+    rdfs:label "Source File of STL files/Spider_legs_02 of Quad c421fb0bd0e736408aa3736c41f27b6d18f45826" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/2912/spiderlegs02.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToyMDYzODc=> .
-
-:Tcad2ottoquad a okh:Part ;
-    rdfs:label "tCad2_OTTO_QUAD" ;
-    okh:documentationLanguage "en" ;
-    okh:image :Tcad2ottoquad_image ;
-    okh:licensor "Jason Snow" ;
-    okh:source :Tcad2ottoquad_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Tcad2ottoquad_image a okh:Image ;
-    rdfs:label "Image of tCad2_OTTO_QUAD of Quad c421fb0bd0e736408aa3736c41f27b6d18f45826" ;
-    okh:fileFormat "PNG" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/2912/tcad2-otto-quad.png> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyNDUwNA==> .
-
-:Tcad2ottoquad_source a okh:SourceFile ;
-    rdfs:label "Source File of tCad2_OTTO_QUAD of Quad c421fb0bd0e736408aa3736c41f27b6d18f45826" ;
-    okh:fileFormat "PDF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/2912/tcad2-otto-quad.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyNDUwMw==> .
 

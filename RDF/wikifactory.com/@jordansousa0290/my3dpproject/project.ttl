@@ -1,38 +1,27 @@
-@prefix : <https://wikifactory.com/@jordansousa0290/my3dpproject/d7d5816519f57255f712fb689bd2f137c4f9ede1/> .
+@prefix : <https://wikifactory.com/%40jordansousa0290/my3dpproject/d7d5816519f57255f712fb689bd2f137c4f9ede1/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 :My3dpproject a okh:Module ;
     rdfs:label "my3DPproject" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "3D printing aprts" ;
-    okh:hasComponent :22lr8,
-        :3dbenchy,
-        :Cylinder,
-        :Firingbrade,
-        :Loadinggatelidwasher,
-        :Rearsite ;
+    okh:hasComponent :3dbenchy,
+        :Folder1firingbrade,
+        :Folder1loadinggatelidwasher,
+        :Folder2cylinder,
+        :Folder2rearsite,
+        :MyFiles22lr8 ;
     okh:hasReadme :Readme ;
     okh:licensor "jordansousa0290" ;
     okh:release <https://wikifactory.com/@jordansousa0290/my3dpproject/v/d7d5816> ;
     okh:repo <https://wikifactory.com/@jordansousa0290/my3dpproject> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
     okh:version "d7d5816519f57255f712fb689bd2f137c4f9ede1" ;
     okh:versionOf <https://wikifactory.com/@jordansousa0290/my3dpproject> .
-
-:22lr8 a okh:Part ;
-    rdfs:label "22_LR_8" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "jordansousa0290" ;
-    okh:source :22lr8_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:22lr8_source a okh:SourceFile ;
-    rdfs:label "Source File of 22_LR_8 of my3DPproject d7d5816519f57255f712fb689bd2f137c4f9ede1" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/21431/22lr8.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyMDY3OTU=> .
 
 :3dbenchy a okh:Part ;
     rdfs:label "3DBenchy" ;
@@ -47,61 +36,74 @@
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/21431/3dbenchy.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToyMDc4NjI=> .
 
-:Cylinder a okh:Part ;
-    rdfs:label "Cylinder" ;
+:Folder1firingbrade a okh:Part ;
+    rdfs:label "folder 1/Firing_Brade" ;
     okh:documentationLanguage "en" ;
     okh:licensor "jordansousa0290" ;
-    okh:source :Cylinder_source ;
+    okh:source :Folder1firingbrade_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Cylinder_source a okh:SourceFile ;
-    rdfs:label "Source File of Cylinder of my3DPproject d7d5816519f57255f712fb689bd2f137c4f9ede1" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/21431/cylinder.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyMDY3OTg=> .
-
-:Firingbrade a okh:Part ;
-    rdfs:label "Firing_Brade" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "jordansousa0290" ;
-    okh:source :Firingbrade_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Firingbrade_source a okh:SourceFile ;
-    rdfs:label "Source File of Firing_Brade of my3DPproject d7d5816519f57255f712fb689bd2f137c4f9ede1" ;
+:Folder1firingbrade_source a okh:SourceFile ;
+    rdfs:label "Source File of folder 1/Firing_Brade of my3DPproject d7d5816519f57255f712fb689bd2f137c4f9ede1" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/21431/firingbrade.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToyMDY3OTk=> .
 
-:Loadinggatelidwasher a okh:Part ;
-    rdfs:label "Loading_Gate_Lid_Washer" ;
+:Folder1loadinggatelidwasher a okh:Part ;
+    rdfs:label "folder 1/Loading_Gate_Lid_Washer" ;
     okh:documentationLanguage "en" ;
     okh:licensor "jordansousa0290" ;
-    okh:source :Loadinggatelidwasher_source ;
+    okh:source :Folder1loadinggatelidwasher_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Loadinggatelidwasher_source a okh:SourceFile ;
-    rdfs:label "Source File of Loading_Gate_Lid_Washer of my3DPproject d7d5816519f57255f712fb689bd2f137c4f9ede1" ;
+:Folder1loadinggatelidwasher_source a okh:SourceFile ;
+    rdfs:label "Source File of folder 1/Loading_Gate_Lid_Washer of my3DPproject d7d5816519f57255f712fb689bd2f137c4f9ede1" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/21431/loadinggatelidwasher.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToyMDY4MDE=> .
+
+:Folder2cylinder a okh:Part ;
+    rdfs:label "folder 2/Cylinder" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "jordansousa0290" ;
+    okh:source :Folder2cylinder_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Folder2cylinder_source a okh:SourceFile ;
+    rdfs:label "Source File of folder 2/Cylinder of my3DPproject d7d5816519f57255f712fb689bd2f137c4f9ede1" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/21431/cylinder.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyMDY3OTg=> .
+
+:Folder2rearsite a okh:Part ;
+    rdfs:label "folder 2/Rear_Site" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "jordansousa0290" ;
+    okh:source :Folder2rearsite_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Folder2rearsite_source a okh:SourceFile ;
+    rdfs:label "Source File of folder 2/Rear_Site of my3DPproject d7d5816519f57255f712fb689bd2f137c4f9ede1" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/21431/rearsite.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyMDY4MDI=> .
+
+:MyFiles22lr8 a okh:Part ;
+    rdfs:label "my files/22_LR_8" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "jordansousa0290" ;
+    okh:source :MyFiles22lr8_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:MyFiles22lr8_source a okh:SourceFile ;
+    rdfs:label "Source File of my files/22_LR_8 of my3DPproject d7d5816519f57255f712fb689bd2f137c4f9ede1" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/21431/22lr8.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyMDY3OTU=> .
 
 :Readme a okh:Readme ;
     rdfs:label "Readme of my3DPproject d7d5816519f57255f712fb689bd2f137c4f9ede1" ;
     okh:fileFormat "MD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/21431/readme.md> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToyMDY3OTI=> .
-
-:Rearsite a okh:Part ;
-    rdfs:label "Rear_Site" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "jordansousa0290" ;
-    okh:source :Rearsite_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Rearsite_source a okh:SourceFile ;
-    rdfs:label "Source File of Rear_Site of my3DPproject d7d5816519f57255f712fb689bd2f137c4f9ede1" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/21431/rearsite.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyMDY4MDI=> .
 

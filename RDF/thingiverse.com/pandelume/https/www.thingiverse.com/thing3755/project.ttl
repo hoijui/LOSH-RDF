@@ -1,0 +1,35 @@
+@prefix : <https://www.thingiverse.com/thing%3A3755/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:IntegratedCupcakeZrod a okh:Module ;
+    rdfs:label "Integrated Cupcake Z-Rod" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is a spin-off of the Wobble Arrester by twotimes:\r
+http://www.thingiverse.com/thing:2151\r
+I love his idea, but I had a hard time getting the offset linear guides to work properly - my prints always had a sort of blobby section right at the top, which took my bushings out of alignment and caused binding.  No doubt I still need to work on my skeinforge skills.\r
+\r
+Anyway, I figured that ideally the Z-rods should be somewhere in the middle of the Z-stage - in other words, between the drive screws.  This should reduce binding and in the event of a crash won't load the Z-rods and bushing clamps as badly.  It also turns out that there's space enough to add the standard makerbot rod mounting scheme: through holes with external covers, although the covers are a little different due to space constraints.  I have uploaded DXFs that can be used as templates for modifying your top, middle, and Z-stage; if you have access to a lasercutter you could use them to cut drop-in replacements to the standard makerbot parts.\r
+\r
+I certainly don't want to step on any toes, but I'd like to see Z-rods as a standard option, so I tried to make this mounting arrangement easy to implement on the production side.  Unfortunately I couldn\\'t find a stock part for the bearing mount, but it should be easy to machine in quantity if it comes to that.\r
+\r
+The bearing retainer comes in 3 flavors: 3/8" through hole for use with bearing inserts, 1/4" through hole for use without bearings, and 3/8" without counterbore for printing.  (Note that if you intend on printing you'll have to use a non-headed bushing or relieve the underside of the Z-stage to accommodate the bushing head.)  Just choose your poison.\r
+\r
+EDITED TO ADD:\r
+I noticed an error in the modified Z-stage DXF, so I have removed the old file and uploaded a corrected one.  The first version would still work fine as a template to modify an existing stage, but not for cutting a new one.  Please download the updated version.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "pandelume" ;
+    okh:repo <https://www.thingiverse.com/thing:3755> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:3755> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Integrated Cupcake Z-Rod 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/47/f8/b6/3e/ab/z-rod01_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/47/f8/b6/3e/ab/z-rod01_display_large_display_large.jpg> .
+

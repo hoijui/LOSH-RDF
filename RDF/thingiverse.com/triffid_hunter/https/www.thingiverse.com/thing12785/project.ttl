@@ -1,0 +1,35 @@
+@prefix : <https://www.thingiverse.com/thing%3A12785/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ParametricZBasePrintedClampspacer a okh:Module ;
+    rdfs:label "Parametric Z base printed clamp/spacer" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Prusa's rod clamps are all well and fine, but I don't actually want to adjust the spacing from Z smooth rod to frame.\r
+\r
+Here's a one-piece connector with optional bearing holder.\r
+\r
+Fully parametric, including rod spacing. Match with blddk's derivative of my Integrated Z motor mount+frame vertex+rod clamp - http://www.thingiverse.com/thing:12215\r
+\r
+Overall size of the part comes mostly from washer_diameter and the spacing distances.\r
+\r
+horiz_distance is the distance between the center of the smooth rod clamp and the threaded rod that goes under the middle of your printer. This can be made smaller (minimum smooth_rod_diameter/2+threaded_rod_diameter/2) if you omit the bearing mount.\r
+\r
+***UPDATED 9 November***\r
+uploaded new files with proper distances, preset to the standard, and M8 holes""" ;
+    okh:hasImage :Image ;
+    okh:licensor "triffid_hunter" ;
+    okh:repo <https://www.thingiverse.com/thing:12785> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:12785> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Parametric Z base printed clamp/spacer 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/e4/ab/29/39/23/100_1947_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/e4/ab/29/39/23/100_1947_display_large_display_large.jpg> .
+

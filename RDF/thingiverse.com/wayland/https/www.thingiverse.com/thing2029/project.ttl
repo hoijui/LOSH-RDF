@@ -1,0 +1,40 @@
+@prefix : <https://www.thingiverse.com/thing%3A2029/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Spirograph a okh:Module ;
+    rdfs:label "Spirograph! " ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """A spirograph! for a 3D printer.\r
+\r
+I used Catarina's Spur Gear Script for a lot of this, then tore out the most interesting parts and put in my own. Thanks/sorry!\r
+\r
+Included are OpenSCAD files so you can change pretty much anything. OpenSCAD is so cool.\r
+\r
+If you make one I would love to see it! My 3D printer is unfortunately not done yet. \r
+\r
+I couldn't make the holes on the gear evenly spaced; they get farther and farther apart from each other, like a curve. It would be great if someone could show me how to fix this. Also, I'm not entirely sure the holes are big enough, but they should be pretty roomy. If not, tell me and edit the OpenSCAD file!\r
+\r
+Oh, I also put an .stl of a weird little gear that I made with Catarina's script in. It'll make a design though!\r
+\r
+added: option to make the stator a ring instead of a square, but don't use it yet. There's a weird half solid thing filling a couple of the teeth that i figured was rendering weirdness, but thingiverse is rendering it like that too. Any ideas? edit - it appears that the rendering weirdness is a thin sheet - you might be able to cut it off. Still, I don't know if it will work. caveat maker.\r
+\r
+added: aron says the fit is too tight, so I edited the defaults on the .scad and changed the .stl. Also, before, the number of teeth on the spirograph was twice the number of teeth on the gear, so it made an oval. Fixed that too. Thanks aron!\r
+\r
+added: changed the addenda and dedenda for a (hopefully) better fit. No big deal, though.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "wayland" ;
+    okh:repo <https://www.thingiverse.com/thing:2029> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:2029> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Spirograph!  1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/site/img/default/Gears_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/site/img/default/Gears_display_large.jpg> .
+

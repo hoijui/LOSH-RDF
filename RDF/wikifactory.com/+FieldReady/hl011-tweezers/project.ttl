@@ -1,13 +1,14 @@
-@prefix : <https://wikifactory.com/+FieldReady/hl011-tweezers/decc18b8d2df4b83cd9f58a2e0e6dcb0c3312b12/> .
+@prefix : <https://wikifactory.com/%2BFieldReady/hl011-tweezers/decc18b8d2df4b83cd9f58a2e0e6dcb0c3312b12/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 :Hl011Tweezers a okh:Module ;
     rdfs:label "HL011 - Tweezers" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "For handling sterile bandages/foreign object(s) removal at health posts." ;
-    okh:hasComponent :Hl011cad,
-        :Hl011engdwg ;
+    okh:hasComponent :CadDatahl011cad,
+        :DrawingPackhl011engdwg ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "Patrick Flaherty" ;
@@ -16,38 +17,39 @@
     okh:repo <https://wikifactory.com/+FieldReady/hl011-tweezers> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
     okh:version "decc18b8d2df4b83cd9f58a2e0e6dcb0c3312b12" ;
     okh:versionOf <https://wikifactory.com/+FieldReady/hl011-tweezers> .
 
-:Hl011cad a okh:Part ;
-    rdfs:label "HL011_CAD" ;
+:CadDatahl011cad a okh:Part ;
+    rdfs:label "CAD Data/HL011_CAD" ;
     okh:documentationLanguage "en" ;
-    okh:export :Hl011cad_export1 ;
+    okh:export :CadDatahl011cad_export1 ;
     okh:licensor "Patrick Flaherty" ;
-    okh:source :Hl011cad_source ;
+    okh:source :CadDatahl011cad_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Hl011cad_export1 a okh:ExportFile ;
-    rdfs:label "Export File of HL011_CAD of HL011 - Tweezers decc18b8d2df4b83cd9f58a2e0e6dcb0c3312b12" ;
+:CadDatahl011cad_export1 a okh:ExportFile ;
+    rdfs:label "Export File of CAD Data/HL011_CAD of HL011 - Tweezers decc18b8d2df4b83cd9f58a2e0e6dcb0c3312b12" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/53337/hl011_cad.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTozNTg0Mjg=> .
 
-:Hl011cad_source a okh:SourceFile ;
-    rdfs:label "Source File of HL011_CAD of HL011 - Tweezers decc18b8d2df4b83cd9f58a2e0e6dcb0c3312b12" ;
+:CadDatahl011cad_source a okh:SourceFile ;
+    rdfs:label "Source File of CAD Data/HL011_CAD of HL011 - Tweezers decc18b8d2df4b83cd9f58a2e0e6dcb0c3312b12" ;
     okh:fileFormat "SLDPRT" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/53337/hl011_cad.sldprt> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTozNTg0Mjc=> .
 
-:Hl011engdwg a okh:Part ;
-    rdfs:label "HL011_Eng_Dwg" ;
+:DrawingPackhl011engdwg a okh:Part ;
+    rdfs:label "Drawing Pack/HL011_Eng_Dwg" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Patrick Flaherty" ;
-    okh:source :Hl011engdwg_source ;
+    okh:source :DrawingPackhl011engdwg_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Hl011engdwg_source a okh:SourceFile ;
-    rdfs:label "Source File of HL011_Eng_Dwg of HL011 - Tweezers decc18b8d2df4b83cd9f58a2e0e6dcb0c3312b12" ;
+:DrawingPackhl011engdwg_source a okh:SourceFile ;
+    rdfs:label "Source File of Drawing Pack/HL011_Eng_Dwg of HL011 - Tweezers decc18b8d2df4b83cd9f58a2e0e6dcb0c3312b12" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/53337/hl011_eng_dwg.PDF> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTozNTg0MjI=> .

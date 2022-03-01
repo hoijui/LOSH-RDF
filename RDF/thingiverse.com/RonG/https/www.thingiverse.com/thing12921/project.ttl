@@ -1,0 +1,28 @@
+@prefix : <https://www.thingiverse.com/thing%3A12921/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ThingomaticZaxisRodStabilizers a okh:Module ;
+    rdfs:label "Thing-O-Matic Z-axis rod stabilizers" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """When I built my TOM I included barrychuck's Z-stage mode http://www.thingiverse.com/thing:6184 The Z-axis platform was incredibly stable, but when I first started testing the stepper couldn't bring the platform all the way to the stop because the rods were binding. It runed out that the holes needed to be expanded on one side to allow the rods to sit where they needed to (the old over-constrained problem). Unfortunately the Z-axis was now able to move backwards and forward by over half a mm, more than the printer resolution. They were also audibly noisy as them moved back and forth due to platform shake.\r
+\r
+Installing these brackets on the inside at each end solved the problem. After putting them on the enlarged holes I found that the laser cut holes on the other side were also a little large, so I printed a second set for the other side.\r
+\r
+These fit just fine with the 135mm tubes on each side, but you may need to adjust the tube location to get maximum travel.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "RonG" ;
+    okh:repo <https://www.thingiverse.com/thing:12921> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:12921> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Thing-O-Matic Z-axis rod stabilizers 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://thingiverse-rerender-new.s3.amazonaws.com/renders/80/ec/16/4a/e6/Z-axis_rod_holder_v1_display_large.jpg> ;
+    okh:permaURL <https://thingiverse-rerender-new.s3.amazonaws.com/renders/80/ec/16/4a/e6/Z-axis_rod_holder_v1_display_large.jpg> .
+

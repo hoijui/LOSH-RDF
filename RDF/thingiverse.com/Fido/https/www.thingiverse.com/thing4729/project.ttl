@@ -1,0 +1,30 @@
+@prefix : <https://www.thingiverse.com/thing%3A4729/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ZAxisUnskipper a okh:Module ;
+    rdfs:label "Z Axis UnSkipper" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """When printing very high prints, sometimes the "not-so-often-used" parts of z axis rods get dusty and cause skipping. \r
+This is designed to increase the belt-pulley contact and thus increase the friction -> less skipping.\r
+\r
+Designed to use the 623 bearings (the same as mendel inspired lowrider by twotimes.) \r
+\r
+\r
+Even when this is in place I recommend to oil the rods regularly with some gun/sewing machine oil. This too helps reduce skipping.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "Fido" ;
+    okh:repo <https://www.thingiverse.com/thing:4729> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:4729> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Z Axis UnSkipper 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/21/0d/22/87/53/Assembled_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/21/0d/22/87/53/Assembled_display_large_display_large.jpg> .
+

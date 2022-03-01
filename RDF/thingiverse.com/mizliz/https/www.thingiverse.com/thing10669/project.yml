@@ -1,0 +1,48 @@
+__meta:
+  branch: null
+  created-at: '2011-08-11T05:18:38+00:00'
+  history: null
+  last-changed: null
+  last-visited: '2022-02-25T11:00:02.616920+00:00'
+  owner: mizliz
+  path: null
+  repo: https://www.thingiverse.com/thing:10669
+  score: null
+  source: thingiverse.com
+attestation: null
+bom: null
+contribution-guide: null
+cpc-patent-class: null
+documentation-language: en
+documentation-readiness-level: odrl3
+function: "This example is based on the following resources:\r\nhttp://blog.makezine.com/archive/2010/06/make-your-own-gears.htmlhttp://repraprip.blogspot.com/2011/05/inkscape-to-openscad-dxf-tutorial.htmlhttp://www.iheartrobotics.com/search/label/OpenSCAD\r\n\r\nGear basics\r\nIf you know any two things about  gears\xE2\u20AC\u201Douter diameter and number of teeth\xE2\u20AC\u201Dyou can use some simple equations to find everything else you need to know, including the correct center distance between them.\r\n\r\n\r\n  Number of Teeth (N)\r\n    How many teeth are there in the gear\r\n    Pitch Diameter (D):\r\n     The circle on which two gears effectively mesh, about halfway through the tooth. The pitch diameters of two gears will be tangent when the centers are spaced correctly.\r\n    Diametral Pitch (P):\r\n     The number of teeth per inch of the circumference of the pitch diameter. Think of it as the density of teeth\xE2\u20AC\u201Dthe higher the number, the smaller and more closely spaced the teeth on a gear. Common diametral pitches for hobby-size projects are 24, 32, and 48. The diametral pitch of all meshing gears must be the same.\r\n    Circular Pitch (p) = pi / P:\r\n     \r\n    The length of the arc between the center of one tooth and the center of a tooth next to it. This is just pi (\xC3\xAF\xE2\u201A\xAC = 3.14) divided by the diametral pitch (P). Although rarely used to identify off the shelf gears, you may need this parameter when modeling gears in 2D and 3D software like we're doing here. As with diametral pitch, the circular pitch of all meshing gears must be the same.\r\n  \r\n     Outside Diameter (Do):\r\n    The biggest circle that touches the edges of the gear teeth. You can measure this using a caliper like Sparkfun.com's # TOL-00067.\r\nNote: Gears with an even number of teeth are easiest to measure, since each tooth has another tooth directly across the gear. On a gear with an odd number of teeth, if you draw a line from the center of one tooth straight through the center across the gear, the line will fall between two teeth. So, just be careful using outside diameter in your calculations if you estimated it from a gear with an odd number of teeth.\r\n     Center Distance (C):\r\n     Half the pitch diameter of the first gear plus half the pitch diameter of the second gear will equal the correct center distance. This spacing is critical for creating smooth running gears.\r\n     Pressure Angle:\r\n    The angle between the line of action (how the contact point between gear teeth travels as they rotate) and the line tangent to the pitch circle. Standard pressure angles are, for some reason, 14.5&Acir;\xC2\xB0 and 20\xC3\u201A\xC2\xB0. A pressure angle of 20\xC3\u201A\xC2\xB0 is better for small gears, but it doesn't make much difference. It's not important to understand this parameter, just to know that the pressure angle of all meshing gears must be the same.\r\n     Addendum:\r\n     how much the tooth protudes beyond the pitch radius\r\n     \r\nDedendum:\r\n      how deep goes the tooth before any fillet take place\r\n     \r\n\r\nPressure angle: \r\n     The angle between the radial direction and the tangent to the tooth at the pitch circle. 20 is a good value.\r\n\r\n\r\nSome Rules\r\n The value of the base circle is based on pressure angle.\r\n 1.The smaller the pressure angle, the smaller the base radius \r\n 2. The addendum must be less than the dedendum \r\n 3. The dedendum must be more than the difference between the pitch and the base radius.\r\n \r\n \r\nAll of these gear parameters relate to each other with simple equations.\r\n \r\n\t\r\n\t\tTo Get\r\n\t\tYou Have\r\n\t\tEquation\r\n\t\r\n\t\r\n\t\tDiametrical Pitch(P)\r\n\t\tNumber of teeth per unit length\r\n\t\tCircular Pitch(p)\r\n\t\t\r\n\t\tNumber of Teeth(N) & Pitch Diameter(D)\r\n\t\t\r\n\t\tNumber of Teeth(N) & Outside Diameter (Do)\r\n\t\tP=\xCF\u20AC/p\r\n\t\tP=N/D\r\n\t\tP=(N+2)/Do(approx)\r\n\t\t\r\n\t\r\n\t\r\n\t\tCircular Pitch(p)Length of the arc from one tooth to the next\r\n\t\tDiametrical Pitch (P)\r\n\t\tp=\xCF\u20AC/P\r\n\t\r\n\t\r\n\t\tPitch Diameter(D)\r\n\t\tNumber of Teeth(N) & Diametrical Pitch(P)\r\n\t\t Outside Diameter (Do) \r\n\t\t&Diametrical Pitch(P)\r\n\t\t\r\n\t\tD=N/P\r\n\t\tD=Do-2/P\r\n\t\r\n\t\r\n\t\tNumber of Teeth(N)\r\n\t\tDiametrical Pitch(P) & Pitch Diameter(D)\r\n\t\tN=P*D\r\n\t\r\n\t\r\n\t\tCenter Distance(CD)\r\n\t\tPitch Diameter(D)\r\n\t\tNumber of Teeth(N) & Diametrical Pitch(P)\r\n\t\t\r\n\t\t\r\n\t\tCD=(D1+D2)/2CD=(N1+N2)/2P"
+image:
+  created-at: '2011-08-11T05:18:38+00:00'
+  last-changed: '2011-08-11T05:18:38+00:00'
+  last-visited: '2022-02-25T18:55:01.444526+00:00'
+  license: CC-BY-SA-4.0
+  licensor: mizliz
+  mime-type: null
+  name: gear_example_display_large
+  path: https:/thingiverse-rerender-new.s3.amazonaws.com/renders/37/37/1c/40/db/gear_example_display_large.jpg
+  perma-url: https://thingiverse-rerender-new.s3.amazonaws.com/renders/37/37/1c/40/db/gear_example_display_large.jpg
+  url: https://thingiverse-rerender-new.s3.amazonaws.com/renders/37/37/1c/40/db/gear_example_display_large.jpg
+license: CC-BY-SA-4.0
+licensor: mizliz
+manufacturing-instructions: null
+name: Simple Gear Example-Inkscape to Openscad
+okhv: OKH-LOSHv1.0
+organization: null
+part: []
+publication: null
+readme: null
+release: null
+repo: https://www.thingiverse.com/thing:10669
+software: []
+specific-api-data: {}
+standard-compliance: null
+technology-readiness-level: ortl4
+tsdc: null
+upload-method: auto
+user-manual: null
+version: 1.0.0

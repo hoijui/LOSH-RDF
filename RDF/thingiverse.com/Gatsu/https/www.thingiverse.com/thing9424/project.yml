@@ -1,0 +1,48 @@
+__meta:
+  branch: null
+  created-at: '2011-06-18T01:26:59+00:00'
+  history: null
+  last-changed: null
+  last-visited: '2022-02-25T11:00:02.616920+00:00'
+  owner: Gatsu
+  path: null
+  repo: https://www.thingiverse.com/thing:9424
+  score: null
+  source: thingiverse.com
+attestation: null
+bom: null
+contribution-guide: null
+cpc-patent-class: null
+documentation-language: en
+documentation-readiness-level: odrl3
+function: "A Thing Rube Goldberg would probably be proud of.\r\n\r\nThis originally started out as just a camera to be able to watch my Cupcake while it printed from another room and grew from there.  After getting an automated build platform I got an idea..\r\n\r\nAdding an Arduino Mega with and an ethernet shield, the webcam gained pan/tilt and the Cupcake got the ability to be turned on/off/reset remotely.\r\n\r\nRevar's keypad, 16 optocouplers, a second display for the keypad and another arduino later and I got even more control over the bot.\r\n\r\nThen I included a Mac Mini.  A webserver, Applescript and RepG later and I was able to upload STL's and automatically convert them to s3g for the bot.\r\n\r\nThen I thought to myself why not automatically move the s3g file directly to the Cupcakes SD card?  Electrically switching the contacts didn't work as the wires were too long.  Then a wise guy at work joked about using a robot arm to move the card from one slot to the other...\r\n\r\nThe end result is an over the top system that allows me to print completely remotely.\r\n\r\nThe MacMini hosts the web pages through which all remote control is done.  When an STL file is uploaded, it is picked up by OSX folder actions and passed to the Applescript to start the conversion.  This is also the trigger for the robot arm to pickup the SD card from the Makerbot motherboard and move it to the MacMini's SD card reader.  Once the STL is converted to a s3g and saved on the SD card the arm is then triggered again and the card moved back to the Makerbot motherboard.\r\n\r\nThe print can then be started using the virtual version of Revar's keypad.\r\n\r\nVideo of the arm moving the SD card:\r\nhttp://www.youtube.com/watch?v=MKgSLGnK1Ls"
+image:
+  created-at: '2011-06-18T01:26:59+00:00'
+  last-changed: '2011-06-18T01:26:59+00:00'
+  last-visited: '2022-02-25T17:45:47.167505+00:00'
+  license: CC0-1.0
+  licensor: Gatsu
+  mime-type: null
+  name: IMGP2446_1_display_large_display_large
+  path: https:/cdn.thingiverse.com/renders/b1/ac/79/c6/17/IMGP2446_1_display_large_display_large.jpg
+  perma-url: https://cdn.thingiverse.com/renders/b1/ac/79/c6/17/IMGP2446_1_display_large_display_large.jpg
+  url: https://cdn.thingiverse.com/renders/b1/ac/79/c6/17/IMGP2446_1_display_large_display_large.jpg
+license: CC0-1.0
+licensor: Gatsu
+manufacturing-instructions: null
+name: Remote Control Makerbot
+okhv: OKH-LOSHv1.0
+organization: null
+part: []
+publication: null
+readme: null
+release: null
+repo: https://www.thingiverse.com/thing:9424
+software: []
+specific-api-data: {}
+standard-compliance: null
+technology-readiness-level: ortl4
+tsdc: null
+upload-method: auto
+user-manual: null
+version: 1.0.0

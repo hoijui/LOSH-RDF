@@ -1,0 +1,36 @@
+@prefix : <https://www.thingiverse.com/thing%3A668/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:PlastruderMk4Prototype a okh:Module ;
+    rdfs:label "Plastruder MK4 Prototype" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is a derivative of the Plastruder MK3 design I've been working on.  The goal is to make the plastruder into a printable design that can be made on a MakerBot.  I also wanted to take on an ambitious project to put the new AOI plugin, MetaCAD through its paces.  Learn about metacad at http://www.metacad.org\r
+\r
+This extruder design uses 5 printed pieces:  two halves that bolt together for the housing, 2 dinos to put it at the right height for printing, and a simple insulator retainer to keep the PTFE in the right spot.  The rest of the design is mostly the motor, heater barrel assembly, electronics, and a 625 bearing to provide the pinching force.  It has yet to be tested, but ideally it will be simpler to put together, as well as a sturdier design with no squeaks!  I've printed all the parts on my travel bot, and as soon as I get home, I'll be assembling them and testing them out.\r
+\r
+A few design notes:\r
+\r
+* no more layered construction!  that was a hack to make it laser-cuttable.  new design is two halves bolted together.  one half holds the motor + filament, the other half holds the idler wheel.\r
+* idler wheel switched from acrylic + 608 bearing to a single 625 bearing.  smaller, more compact, and nothing but a nearly indestructible bearing to break.  should be quite a bit more consistant\r
+* 4 adjustable screws with captive nuts for setting the pinch wheel tension.  you'll be able to adjust it on the fly, without any sort of dis-assembly.  hopefully the abs will act as a sort of spring as well\r
+\r
+a few things i'd like to change yet:\r
+* rotate the captive nut slot on the right-housing to be in-line with print direction for a better finish.\r
+* switch the captive nut / bolt head holes between right and left housings to improve print quality for both  (adjust on right side instead of left side)""" ;
+    okh:hasImage :Image ;
+    okh:licensor "hoeken" ;
+    okh:repo <https://www.thingiverse.com/thing:668> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:668> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Plastruder MK4 Prototype 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/72/ec/dd/af/f7/3601054101_8269b07675_o_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/72/ec/dd/af/f7/3601054101_8269b07675_o_display_large_display_large.jpg> .
+

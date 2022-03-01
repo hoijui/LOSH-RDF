@@ -1,0 +1,26 @@
+@prefix : <https://www.thingiverse.com/thing%3A11372/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:PlanetaryGearMechanismfixedMesh a okh:Module ;
+    rdfs:label "Planetary Gear Mechanism (fixed mesh)" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """I really wanted to print garyhodgson's planetary gears, but I ran into the same problem sehugg did. It looks like there is a problem with the sun gear's model so it would slice wrong, giving you space where there should be plastic and vice-versa. So I spent about an hour messing around with and learning Netfabb and Meshlab and managed to clean the model up to the point that it slices well. Netfabb is still unhappy with it, but Skeinforge 35 didn't complain.\r
+\r
+While I was at it, I made an STL file with 4 planet gears, just for easier printing. I also made the planet gears 5% bigger on the X and Y axises because I found the original planets a little too loose.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "MBCook" ;
+    okh:repo <https://www.thingiverse.com/thing:11372> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:11372> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Planetary Gear Mechanism (fixed mesh) 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://thingiverse-rerender-new.s3.amazonaws.com/renders/95/da/eb/89/13/sun_gear_display_large.jpg> ;
+    okh:permaURL <https://thingiverse-rerender-new.s3.amazonaws.com/renders/95/da/eb/89/13/sun_gear_display_large.jpg> .
+

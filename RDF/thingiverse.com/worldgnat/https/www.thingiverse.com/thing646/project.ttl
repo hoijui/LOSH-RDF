@@ -1,0 +1,30 @@
+@prefix : <https://www.thingiverse.com/thing%3A646/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:BrushlessDcMotorPartsV01 a okh:Module ;
+    rdfs:label "Brushless DC Motor Parts v0.1" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """It bothers me when ubiquitous parts, such as motors, must be bought. Hobbyists make tiny motors for RC planes etc, but they require fairly specific custom parts. I tried to design similar parts so that they are more easily available.\r
+\r
+I decided on a brushless design because it seemed like it would be easier to print, and because after some research it seemed that it is harder to design a reliable brush motor than a reliable brushless one. A lot of my inspiration/information came from this page: http://www.flyelectric.ukgateway.net/cdrom.htm, and it would probably be helpful for assembling the printed parts as well. \r
+\r
+I'm a little out of my league here so I have no idea if this will work, but it's worth a shot. I don't know how many people want to actually print a motor and spend the time winding and preparing it rather than just going out and buying it, but maybe it could be useful.\r
+\r
+For some bizarre reason the entire center has a bunch of non-manifold holes, which I really don't understand (I selected the vertices one at a time and created the faces individually). I suspect this has something to do with the fact that I created the stator by connecting multiple objects together, but I don't know how to fix it. I'd really appreciate if someone could help me out here. I'll post the .blend file as well in case that helps.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "worldgnat" ;
+    okh:repo <https://www.thingiverse.com/thing:646> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:646> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Brushless DC Motor Parts v0.1 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://thingiverse-rerender-new.s3.amazonaws.com/renders/ae/3c/c2/ef/08/rotor_display_large.jpg> ;
+    okh:permaURL <https://thingiverse-rerender-new.s3.amazonaws.com/renders/ae/3c/c2/ef/08/rotor_display_large.jpg> .
+

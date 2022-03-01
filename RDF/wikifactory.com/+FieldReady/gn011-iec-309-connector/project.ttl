@@ -1,13 +1,14 @@
-@prefix : <https://wikifactory.com/+FieldReady/gn011-iec-309-connector/2513d21d3a245de51b0f37b0ba888c373bad71a3/> .
+@prefix : <https://wikifactory.com/%2BFieldReady/gn011-iec-309-connector/2513d21d3a245de51b0f37b0ba888c373bad71a3/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 :Gn011Iec309Connector a okh:Module ;
     rdfs:label "GN011 - IEC 309 Connector" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "90 Degree connector to hold IEC 309 plug socket" ;
-    okh:hasComponent :Gn011cad,
-        :Gn011engdwg ;
+    okh:hasComponent :CadDatagn011cad,
+        :Drawingpackgn011engdwg ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "Patrick Flaherty" ;
@@ -16,31 +17,32 @@
     okh:repo <https://wikifactory.com/+FieldReady/gn011-iec-309-connector> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
     okh:version "2513d21d3a245de51b0f37b0ba888c373bad71a3" ;
     okh:versionOf <https://wikifactory.com/+FieldReady/gn011-iec-309-connector> .
 
-:Gn011cad a okh:Part ;
-    rdfs:label "GN011_CAD" ;
+:CadDatagn011cad a okh:Part ;
+    rdfs:label "CAD Data/GN011_CAD" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Patrick Flaherty" ;
-    okh:source :Gn011cad_source ;
+    okh:source :CadDatagn011cad_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Gn011cad_source a okh:SourceFile ;
-    rdfs:label "Source File of GN011_CAD of GN011 - IEC 309 Connector 2513d21d3a245de51b0f37b0ba888c373bad71a3" ;
+:CadDatagn011cad_source a okh:SourceFile ;
+    rdfs:label "Source File of CAD Data/GN011_CAD of GN011 - IEC 309 Connector 2513d21d3a245de51b0f37b0ba888c373bad71a3" ;
     okh:fileFormat "SLDPRT" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/53294/gn011_cad.sldprt> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTozNTgyODQ=> .
 
-:Gn011engdwg a okh:Part ;
-    rdfs:label "GN011_Eng_Dwg" ;
+:Drawingpackgn011engdwg a okh:Part ;
+    rdfs:label "Drawingpack/GN011_Eng_Dwg" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Patrick Flaherty" ;
-    okh:source :Gn011engdwg_source ;
+    okh:source :Drawingpackgn011engdwg_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Gn011engdwg_source a okh:SourceFile ;
-    rdfs:label "Source File of GN011_Eng_Dwg of GN011 - IEC 309 Connector 2513d21d3a245de51b0f37b0ba888c373bad71a3" ;
+:Drawingpackgn011engdwg_source a okh:SourceFile ;
+    rdfs:label "Source File of Drawingpack/GN011_Eng_Dwg of GN011 - IEC 309 Connector 2513d21d3a245de51b0f37b0ba888c373bad71a3" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/53294/gn011_eng_dwg.PDF> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTozNTgyOTc=> .

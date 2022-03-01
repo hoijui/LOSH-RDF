@@ -1,0 +1,48 @@
+__meta:
+  branch: null
+  created-at: '2011-03-18T09:41:09+00:00'
+  history: null
+  last-changed: null
+  last-visited: '2022-02-25T11:00:02.616920+00:00'
+  owner: ScribbleJ
+  path: null
+  repo: https://www.thingiverse.com/thing:7101
+  score: null
+  source: thingiverse.com
+attestation: null
+bom: null
+contribution-guide: null
+cpc-patent-class: null
+documentation-language: en
+documentation-readiness-level: odrl3
+function: "My fellow Thingicans and Thingocrats; thanks to your help, this project is well under way!\r\n\r\nBACKGROUND (robot):\r\n\r\nThe Wowwee Rovio ( http://www.wowwee.com/en/products/tech/telepresence/rovio/rovio ) is a IP-based Wifi Mobile Webcam, sometimes marketed as a simple telepresence robot.  At a price point of about $200, it's money well spent; the system is very well designed both in hardware and software, and you'd have a /very difficult/ time duplicating the ability of this robot for twice the price.\r\n\r\nThe robot itself is rather hackable, with a well-documented and full-featured web API.  The source code to the mainboard was grudgingly released a while back, too, but I've not examined it and I'm told it's useless.\r\n\r\nBACKGROUND (tracking):\r\n\r\nThe robot uses a system from Evolution Robotics called \"Northstar\" for indoor spatial positioning.  The system is very simple at it's most basic concept; the robot has a tiny pinhole camera mounted on it's top.  The camera looks at the ceiling for two infrared dots that are projected by a 'Truetrack Beacon.'  You could think of it as working very much like a Wiimote.\r\n\r\nEvolution Robotics makes sales-level information available here, for an overview of the system:  http://www.evolution.com/products/northstar/\r\n\r\nThe system uses an 'encoding' to allow the Rovio to uniquely identify up to 10 different tracking beacons; the base station it comes with (beacon #0) and up to 9 additional beacon units, which WERE sold separately for a very short time (advertised here: http://www.wowwee.com/en/products/tech/telepresence/rovio/truetrack-room-beacon ).  The additional beacon units have a simple switch to select the ID.\r\n\r\nMOTIVATION:\r\n\r\nSadly, the Rovio is a dead-end product; the manufacturer (Wowwee) never supported it very well and now has confirmed that they have stopped production and don't intend to ever bring it back.  \r\n\r\nNew tracking beacons cannot be gotten for love or money, and despite the popularity of this product among hackers at one point, there is no data on the actual signaling protocol used by the Northstar system.\r\n\r\nUnfortunately, they won't talk to me, and they want /thousands/ for the development kits for the Northstar product, so following legitimate channels is out.  In addition, if they /were/ to fork over the details, I'd bet it would put my under an NDA that would prevent publication.\r\n\r\nAs I don't have /ANY/ tracking beacons (except the one built into the base station), my Rovio is somewhat limited in it's automatic positioning abilities.\r\n\r\nWHAT WAS PREVIOUSLY KNOWN:\r\n\r\nAll the gritty information on the Rovio seems to be concentrated on one site; robocommunity.com.  \r\n\r\nHere's a thread where some folks dissect the robot and tracking station:\r\nhttp://www.robocommunity.com/forum/thread/14360/Inside-Rovio/\r\n\r\nThe board we're interested in here is the round one, which is the Northstar beacon projector PCB.  There's a lot of great info on it specifically on this thread and the comments:\r\n\r\nhttp://www.robocommunity.com/article/15353/Inside-the-WowWee-Rovio-TrueTrack-Beacon/\r\n\r\nUnfortunately, no information on how it actually signals.\r\n\r\nWHAT I'VE LEARNED SO FAR:\r\n\r\nFrom looking at the photos in the above thread before I got my robot (I've only had it for one day!) I'd guessed that the signaling protocol was as simple as flashing the two IR lights at different rates.  That seems like the simple and obvious method to tell both one light in a beacon from the other, and to tell one set of lights for a beacon from the other.  \r\n\r\nSo I opened up my beacon in the base station (instructions in the linked thread), and put a scope on the transistors that drive the LEDs.  From my photos, you will see my conjecture seemed to be correct; the LEDs were being blinked at very specific and different rates.\r\n\r\nWiring up a quick circuit with an Arduino to blink a couple of LEDs at the same rate, I took the Rovio and exposed it to my LEDs.\r\n\r\nSURE ENOUGH, it immediately recognized it as Tracking Beacon #0, the home station.  SUCCESS!\r\n\r\nThe MAJOR problem is - I only know the signaling speed to reproduce beacon #0, and you can't have two #0s in a network, so what I have so far is only good for people whos base station is destroyed.  With the signaling rates here, you can easily build a charging/dock/beacon0 unit from scratch.\r\n\r\nIf you want the actual rates, they're in my o-scope photo(s).  :)\r\n\r\nUPDATE (2011-03-18):\r\n\r\nI built an automated scanner, which I'll leave to run all night, but it's already produced results!  I have a workable ID for NAV BEACON #1.  That's one down, 8 to go!  \r\n\r\nEven if I find them all, though, I could STILL use someone with a scope and real beacon to double-check my work...\r\n\r\nI'll be posting some pretty graphs and photos and probably the fuzzing circuit and software shortly.\r\n\r\nUPDATE: 2011-03-20\r\n\r\nI've been running my scanner for the last day and I'm posting some quick charts as well as the data I've gotten so far.  I'm not going to make any claims the data is good, but it has yielded some interesting points!\r\n\r\nI also uploaded the latest copies of the scanner software but I'm not sure I've made any noteworthy changes.\r\n\r\nUPDATE2: 2011-03-20\r\n\r\nI've built a simple tracking station and placed it in my home, and begun testing.  Two things I can report immediately:  \r\n\r\n1) Getting proper coverage from an LED is not easy, and I'll either have to use an array of LEDs, or a lens, or try the wide angle LEDs I have on order, or some combination of the above.\r\n\r\n2) The actual frequencies for room ID #1 reported by botman work better than my 1/3rd frequency in practice.\r\n\r\nUPDATES (2011-04-10):\r\nThis is mostly a summary of what's in the comments below.\r\n\r\nI've decided to move forward using stations based around a pair of transistors (I'll likely use some FETs since we're going to push > 100ma - maybe much > and also because they reduce component count) driving current into a pair of TSAL7200 LEDs (sourced here: http://www.rentron.com/remote_control/IRLED.htm) with the gates switched by a Atmega8, which can be programmed to a given station ID through SPI.\r\n\r\nI'll post the circuit the way I have it laid out so far; if anyone can come up with a good single-sided layout for printing and etching at home you'll be doing better than I am; I keep ending up with a few jumper wires required.  Keep in mind this circuit hasn't actually been built or tested as posted.\r\n\r\nHere's a quick reference of the known station ID frequencies:\r\n\r\n3030 and 2010 = Room 0\r\n3150 and 2070 = Room 1\r\n4170 and 3210 = Room 2\r\n4290 and 3330 = Room 3\r\n4410 and 3450 = Room 4\r\n4530 and 3570 = Room 5\r\n4650 and 3690 = Room 6\r\n4770 and 3810 = Room 7\r\n4890 and 3930 = Room 8\r\n5010 and 4050 = Room 9"
+image:
+  created-at: '2011-03-18T09:41:09+00:00'
+  last-changed: '2011-03-18T09:41:09+00:00'
+  last-visited: '2022-02-25T15:32:26.591784+00:00'
+  license: 'BSD-4-Clause '
+  licensor: ScribbleJ
+  mime-type: null
+  name: 20110318_014_display_large_display_large
+  path: https:/cdn.thingiverse.com/renders/16/e0/23/25/b0/20110318_014_display_large_display_large.jpg
+  perma-url: https://cdn.thingiverse.com/renders/16/e0/23/25/b0/20110318_014_display_large_display_large.jpg
+  url: https://cdn.thingiverse.com/renders/16/e0/23/25/b0/20110318_014_display_large_display_large.jpg
+license: 'BSD-4-Clause '
+licensor: ScribbleJ
+manufacturing-instructions: null
+name: DIY Rovio Northstar Truetrack Beacon
+okhv: OKH-LOSHv1.0
+organization: null
+part: []
+publication: null
+readme: null
+release: null
+repo: https://www.thingiverse.com/thing:7101
+software: []
+specific-api-data: {}
+standard-compliance: null
+technology-readiness-level: ortl4
+tsdc: null
+upload-method: auto
+user-manual: null
+version: 1.0.0

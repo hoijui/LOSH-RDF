@@ -1,0 +1,39 @@
+@prefix : <https://www.thingiverse.com/thing%3A4263/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:MostMinimalisticZprobe a okh:Module ;
+    rdfs:label "Most Minimalistic Z-Probe" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Ok, so I was inspired by Zaggoâ€™s two excellent probe designs:\r
+http://www.thingiverse.com/thing:4226\r
+\r
+And had started making both of them at various times. Iâ€™d finished making his minimalist probe and realised that iâ€™d have trouble mounting it on my bot. (Iâ€™ve got bot number 3, and it doesnâ€™t have that nifty â€˜Uâ€™ cutout from the acrylic that the newer ones do.) There was no way to mount them that close to my extruder without running the risk of melting or fouling against it.\r
+\r
+Then i got to thinking, the reason (I presume) the probes were put on a servo is that you want to be able to get them out of the way of the object being printed.\r
+            \r
+But as long as the lowest thing on the Z axis is the nozzle (by at least a few mill) youâ€™re set, right?\r
+\r
+With that in mind I decided to try mounting a little microswitch to the underside of the Z-plate, and have it home when the platformâ€™s at the most Y+ end. The extruder tip clears the side of the platform with room to spare, and the switch touches nicely agains the platform. (See pic)\r
+\r
+So far it's behaved extremely repeatably, and I'm now running prints from a single button click. (High fives everyone in the room!)\r
+\r
+Considering this uses a switch and some hot melt glue, I'm guessing this is the most minimalistic Z-probe you can get. :-D\r
+\r
+Another advantage of this design is that you don't need to use custom firmware. Everything is taken care of by the G-code""" ;
+    okh:hasImage :Image ;
+    okh:licensor "Gav" ;
+    okh:repo <https://www.thingiverse.com/thing:4263> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:4263> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Most Minimalistic Z-Probe 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/66/ad/8e/46/e4/Close_up_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/66/ad/8e/46/e4/Close_up_display_large_display_large.jpg> .
+

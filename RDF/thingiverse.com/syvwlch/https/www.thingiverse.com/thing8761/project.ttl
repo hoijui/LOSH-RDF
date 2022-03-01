@@ -1,0 +1,32 @@
+@prefix : <https://www.thingiverse.com/thing%3A8761/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:TrapezoidScrewThreadModuleExtrudetransformPolygons a okh:Module ;
+    rdfs:label "Trapezoid Screw Thread Module: Extrude-Transform Polygons" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """JelleAtProtospace pointed out that trapezoid screw thread are useful as well, e.g. to make a drivenut for the leadscrew threaded rods used in many CNC machines.\r
+\r
+http://en.wikipedia.org/wiki/Trapezoidal_thread_forms\r
+\r
+That sounded like a valuable and fairly simple modification, but I wasn't looking forward to modifying the polyhedron command at the heart of the module (adding each new vertex means adding several triangles and making sure they have the right winding order), but like anything else, you get used to it with practice and it really wasn't that bad.\r
+\r
+It allows you to generate trapezoid screw threads that follow any set of equations you care to provide them, some of which will have more practical application that others. Some of these even look like they might make serviceable springs.\r
+\r
+Again, because it generates the triangles directly via the polyhedron command, it's fast and lightweight.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "syvwlch" ;
+    okh:repo <https://www.thingiverse.com/thing:8761> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:8761> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Trapezoid Screw Thread Module: Extrude-Transform Polygons 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/19/50/9b/61/f3/Spring-Anaglyph_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/19/50/9b/61/f3/Spring-Anaglyph_display_large_display_large.jpg> .
+

@@ -1,0 +1,30 @@
+@prefix : <https://www.thingiverse.com/thing%3A760/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:StepperMotorDriverV30 a okh:Module ;
+    rdfs:label "Stepper Motor Driver v3.0" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is the latest incremental improvement to the RepRap Stepper Motor Driver board.  This revision brings some polish and a few new features that are really awesome.\r
+\r
+1. For the endstop connectors, we've switched to a smaller footprint 4-pin Molex connector typically used as the audio connector on CDROMs.  This brings a few nice features: smaller connector footprint (both connector and cable), cheaper connector cables (by a whole $0.15!) and much less confusing to newbies who may confuse the stepper driver with an ethernet card.\r
+\r
+2. We've switched back to the A3977 chip which was originally discarded as too hard to solder (before we knew of solder paste, sadly)  This chip is awesome!  It offers from full to 1/8 step functionality, 2.5A per phase, and no heatsinking required.  Its pretty awesome.\r
+\r
+Thats about it.  Same footprint as the SMD v2.3, with the same NEMA23 bolt spacings for those crazy enough to bolt it to a motor directly, heh.  I'm pretty excited about this board.  Early tests have shown it to be much quieter than the v2.3 driver.  Yay!""" ;
+    okh:hasImage :Image ;
+    okh:licensor "MakerBot" ;
+    okh:repo <https://www.thingiverse.com/thing:760> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:760> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Stepper Motor Driver v3.0 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/site/img/default/Gears_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/site/img/default/Gears_display_large.jpg> .
+

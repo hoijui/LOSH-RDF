@@ -1,0 +1,54 @@
+@prefix : <https://www.thingiverse.com/thing%3A14300/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:MaevesPlasticFilamentSpoolHolder a okh:Module ;
+    rdfs:label "Maeve's Plastic Filament Spool Holder" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This OpenSCAD script will generate a 2 part fitting for making a large structure using wooden dowels and screws or bolts\r
+This can be used to create a simple printing plastic spool holder\r
+\r
+To Do:\r
+add option for connecting struts between top and bottom in side by side mode\r
+\r
+Changes from previous versions:\r
+\r
+v1.3 2011-12-05\r
+ - 	allow user to make a simple pass through type version that can be used as a support for heavy loads of plastic\r
+ - 	allow user to choose if rounded or square corners\r
+ - 	allow user to choose if 4th screw hole included or not\r
+ - 	allow user to choose if it is a "top" type i.e. cylindrical holes for rods/dowels centre aligned along diagonal\r
+ - 	removed and fixed up the hardcoded translates and variables to make it more parametric\r
+v1.2 2011-11-14\r
+ - 	reoriented and aligned shape\r
+ - 	Added option to choose individual hole countersinks\r
+ - 	added option to use mouse ears\r
+ - 	rounded corners of cube shape\r
+v1.1 2011-11-14\r
+Mark modified Maeve's Code\r
+ - 	added countersink, counterbore and captive nut ability and variable to module call\r
+ - 	added ability to easily make mirrored version\r
+ - 	cleaned up some of the code\r
+ - 	added some comments\r
+ - 	moved (centred) the screw hole for the on end dowel\r
+ - 	Added radius fudge factor to increase diameter to reduce need for post processing\r
+\r
+v1.0 2011-11-10\r
+ - 	First attempt\r
+ - 	This was the first thing Maeve ever designed/programmed, pretty much all her own work too. Go you!""" ;
+    okh:hasImage :Image ;
+    okh:licensor "M_G" ;
+    okh:repo <https://www.thingiverse.com/thing:14300> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:14300> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Maeve's Plastic Filament Spool Holder 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/94/70/fb/cf/cc/DSC00312_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/94/70/fb/cf/cc/DSC00312_display_large_display_large.jpg> .
+

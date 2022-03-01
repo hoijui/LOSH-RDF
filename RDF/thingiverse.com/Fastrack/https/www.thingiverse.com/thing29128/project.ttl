@@ -1,0 +1,30 @@
+@prefix : <https://www.thingiverse.com/thing%3A29128/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ReplicatorDualNozzleCentringScriptthatActuallyWorks a okh:Module ;
+    rdfs:label "Replicator Dual - Nozzle Centring Script (That actually works)" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """The script included with ReplicatorG is either designed for a Single or a Dual Replicator I can not tell, but it doesn't with a Dual!  It also has the potential to crash the nozzles into the HBP.\r
+\r
+This new script homes all axis', moves Z down .5mm, moves the carriage/right nozzle to "stored centre" and allows you to adjust it if required.  I've also adjusted the Z speed as suggested on Google Groups by someone (I don't remember who).\r
+\r
+I've read many posts on this issue, it's been suggested to position the carriage centre (ie between the dual nozzles), but that doesn't work either.\r
+\r
+This script may work with a Replicator Single as well, but I can not verify that.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "Fastrack" ;
+    okh:repo <https://www.thingiverse.com/thing:29128> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:29128> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Replicator Dual - Nozzle Centring Script (That actually works) 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/95/9d/6a/17/b1/IMG_5348_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/95/9d/6a/17/b1/IMG_5348_display_large.jpg> .
+

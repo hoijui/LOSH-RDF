@@ -1,0 +1,36 @@
+@prefix : <https://www.thingiverse.com/thing%3A30950/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:UseMakerwareWithThingomatic a okh:Module ;
+    rdfs:label "Use MakerWare with Thing-o-Matic" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Watch the video here http://www.youtube.com/watch?v=fcWjpMpV9rA\r
+\r
+Well, new MakerWare by Makerbot does not support old Makerbots (Thing-o-Matic and Cupcake), even tho the sw is ready and adding them would take seconds. Unfortunately it is closed source (Makerbot had to pay for Qt license to be able to close the source) Fortunately it is easy to bluff it and still use it with older machines!\r
+\r
+(Update: Sorry, official support should come "soon" http://www.makerbot.com/docs/makerware/use/ You have atleast inside look under the hood)\r
+\r
+I hope it helps you guys!\r
+\r
+As I follow deeper and deeper I find more and more interesting stuff. I did another update to my post here http://josefprusa.cz/open-hardware-meaning/#update\r
+\r
+Nice chronology is kept in this post http://marcuswolschon.blogspot.cz/2012/09/occupy-thingiverse.html\r
+\r
+Support Open Hardware here http://news.ycombinator.com/news""" ;
+    okh:hasImage :Image ;
+    okh:licensor "josefprusa" ;
+    okh:repo <https://www.thingiverse.com/thing:30950> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:30950> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Use MakerWare with Thing-o-Matic 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/86/c1/c8/0c/68/makerware-1_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/86/c1/c8/0c/68/makerware-1_display_large.jpg> .
+

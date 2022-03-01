@@ -1,0 +1,28 @@
+@prefix : <https://www.thingiverse.com/thing%3A11376/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:StarsTracker a okh:Module ;
+    rdfs:label "Stars tracker" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """To take pictures of the night sky you need to shoot long exposures in order to grab as much light as possible. The problem is that, because of the rotation of the earth, the stars are constantly moving in the sky. This mechanism allows you to cancel the apparent movement of stars while taking long exposures of the night sky.\r
+\r
+The way this version has been designed, you need to turn the threaded rod once every minute. Using a 50mm lens, the stars movement will start to be visible on your picture after 20 to 30 seconds. I recommend turning the handle once every 15 seconds.\r
+\r
+I uploaded a pictures of all the FAIL parts I printed for this project. I love development by prototyping!""" ;
+    okh:hasImage :Image ;
+    okh:licensor "pchretien" ;
+    okh:repo <https://www.thingiverse.com/thing:11376> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:11376> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Stars tracker 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/05/a2/16/ba/d5/IMG_20110909_224934_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/05/a2/16/ba/d5/IMG_20110909_224934_display_large_display_large.jpg> .
+

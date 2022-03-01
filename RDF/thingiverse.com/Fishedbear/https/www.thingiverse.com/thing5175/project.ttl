@@ -1,0 +1,36 @@
+@prefix : <https://www.thingiverse.com/thing%3A5175/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ParametrizedXrodMount a okh:Module ;
+    rdfs:label "Parametrized X-rod mount" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Title shows what this is.\r
+Just an OpenSCAD Script based on Twotimes' X-Rod Mount.\r
+\r
+Some codes was borrowed from Giles Bathgate( http://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Libraries ) and whosawhatsis( http://www.thingiverse.com/thing:3457 ).  Thanks. I really appreciate it.\r
+\r
+I don't know which licence is suitable, because I borrowed some code and don't know how to inherit their licenses.\r
+Except it, you can copy and modify this script. \r
+\r
+Update:\r
+v01 - changed cylinder function to 200_gon_prizm, so bolt holes turn to smoother.\r
+V02 - applied "Incomplete Polygons" design ( http://blog.makerbot.com/2010/12/13/design-tip-incomplete-polygons/ ) and ( http://blog.makerbot.com/2010/12/13/incomplete-polygons-â€“-a-dramatization/ ). Four holes has 0.1mm slices to avoid blobs. Rounded corners. Holes were enlarged by 5%, reflected a sugestion by kitsu. So no need to drill out holes.\r
+V03 - changed licence to Creative Commons - GPL license.\r
+V04 - modified teardrop function for smoothness. added STL file.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "Fishedbear" ;
+    okh:repo <https://www.thingiverse.com/thing:5175> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:5175> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Parametrized X-rod mount 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/60/c3/5c/e5/ef/02_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/60/c3/5c/e5/ef/02_display_large_display_large.jpg> .
+

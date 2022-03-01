@@ -1,0 +1,34 @@
+@prefix : <https://www.thingiverse.com/thing%3A21986/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:PlainBusinessCardExample a okh:Module ;
+    rdfs:label "Plain Business card example" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """I was considering creating a business card with scad and my 3d printer.  I wanted to have text "differenced" from the stock card (basically thru-hole text.)\r
+\r
+However, initial attempts using the write.scad module have resulted in only the ability to have text emboss.\r
+\r
+So, here is an example of the product of my first trial.\r
+\r
+It lacks a lot of elegance like auto placement, adjusting for text length, and definitely no kerning.  But it was interesting as a learning effort.  \r
+\r
+I cannot get the smaller text to actually print using SFACT. A multitude of setting changes have resulted in sparse fill/outline.  \r
+\r
+Suggestions are desired for resolving the problems or improvements.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "fmotta" ;
+    okh:repo <https://www.thingiverse.com/thing:21986> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:21986> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Plain Business card example 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/d5/c6/9d/cf/1d/wakka_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/d5/c6/9d/cf/1d/wakka_display_large_display_large.jpg> .
+

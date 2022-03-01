@@ -1,0 +1,32 @@
+@prefix : <https://www.thingiverse.com/thing%3A6690/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:BushingModForTheruttmeistersTypeaZrider a okh:Module ;
+    rdfs:label "Bushing mod for TheRuttmeister's Type-A Z-Rider" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is an alternate part for http://www.thingiverse.com/thing:5586, TheRuttmeister's z-rider design.\r
+\r
+The original design calls for ten small bearings to ride the burnished guide rods.  Based on Prusa's work with PLA bushings, I got to wondering if the bearings were truly necessary.  After messing with several sizes of bushing on my Cupcake's M8 rods, I'm pretty confident that this can be made to work without the bearings.\r
+\r
+I didn't include the M3 bolt hole from the original.  Cleaning the strings out of those tiny holes was enough trouble the first time I did it -- this time I'll just drill the durn hole.\r
+\r
+I've printed some rough prototypes and it looks like it may work.  I've included two versions: raw-bushing is designed to slide on the rod directly, and should be printed using PLA.  sleeve-bushing is customized for a bronze sleeve bearing I found.  You may have to adjust the SCAD file for what you can find.\r
+\r
+I'm still not certain that this will take the torque load from the extruder.  Might be an excuse to convert my MK5 to a Bowden extruder.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "cbiffle" ;
+    okh:repo <https://www.thingiverse.com/thing:6690> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:6690> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Bushing mod for TheRuttmeister's Type-A Z-Rider 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/5b/11/87/a7/50/zrider-bushing_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/5b/11/87/a7/50/zrider-bushing_display_large_display_large.jpg> .
+

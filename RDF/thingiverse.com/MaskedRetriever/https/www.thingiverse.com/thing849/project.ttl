@@ -1,0 +1,33 @@
+@prefix : <https://www.thingiverse.com/thing%3A849/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:GcodeScriptPack3 a okh:Module ;
+    rdfs:label "Gcode Script Pack 3" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Stars, Fractals, and Gears, this update's all about manipulating groups of GCodes to produce complex geometry!\r
+\r
+This is probably about as spaghettified as I'm willing to let the code get-- next script update will finally be modularized into tidy packages.  Scripts in the next pack will also be able to take command-line arguments.\r
+\r
+para_07: Star.  Demonstrates a list of GCodes, which can then be manipulated together.\r
+\r
+para_08: The Koch Snowflake.  Demonstrates a recursive function which draws a Koch Snowflake.  This could be modified to construct a wide variety of 2D fractals.  My algorithm isn't the cleanest version of this, however; a better one is on Wikipedia here:\r
+http://en.wikipedia.org/wiki/Koch_snowflake\r
+\r
+para_09: Simple Gears.  The gear script's a little beta-y right now but I decided to just post it as-is rather than let it hold up the script packs.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "MaskedRetriever" ;
+    okh:repo <https://www.thingiverse.com/thing:849> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:849> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Gcode Script Pack 3 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/c9/01/da/3d/15/3716189036_ab0321fb4f_b_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/c9/01/da/3d/15/3716189036_ab0321fb4f_b_display_large_display_large.jpg> .
+

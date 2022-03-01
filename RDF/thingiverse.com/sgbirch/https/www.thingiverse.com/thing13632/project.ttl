@@ -1,0 +1,30 @@
+@prefix : <https://www.thingiverse.com/thing%3A13632/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:PlasticPipeEndStop22mmPipe a okh:Module ;
+    rdfs:label "Plastic pipe end stop, 22mm pipe" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Loose fitting end stop for 22mm plastic water pipe.  If you want a tight fit modify the following and use OpenSCAD to generate a new STL:\r
+\r
+cylinder(h=25,r=11);\r
+difference() {\r
+  cylinder(h=15,r=20);\r
+  translate([0,0,5]) cylinder(h=20,r=16);\r
+}""" ;
+    okh:hasImage :Image ;
+    okh:licensor "sgbirch" ;
+    okh:repo <https://www.thingiverse.com/thing:13632> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:13632> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Plastic pipe end stop, 22mm pipe 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://thingiverse-rerender-new.s3.amazonaws.com/renders/5b/c1/c9/b1/95/plug_display_large.jpg> ;
+    okh:permaURL <https://thingiverse-rerender-new.s3.amazonaws.com/renders/5b/c1/c9/b1/95/plug_display_large.jpg> .
+

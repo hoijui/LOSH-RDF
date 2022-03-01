@@ -1,0 +1,30 @@
+@prefix : <https://www.thingiverse.com/thing%3A8321/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ClubtoothEscapement a okh:Module ;
+    rdfs:label "Club-Tooth Escapement" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """So far, I have been using an ideal Graham escapement with a ratchet wheel. They are simple to tune and to draw, and still in use in grandfather clocks today.\r
+\r
+The issue is that with those sharp teeth, they are not that easy to print, and since proper function depends on the radius including tooth length... they are not the best choice for a printable clock.\r
+\r
+The club-tooth escapement does not have this problem, and while it is harder to tune, it also offers more flexibility because the escapement and the wheel interact at multiple points, not just at the sharp end of a ratchet tooth.\r
+\r
+Example of tuning difficulties: this escapement as drawn is not quite symmetric in its operation, and the impulse provided to the pendulum on one swing is a little larger than on the other. I need to tweak the pallet face sizes to adjust for that. :-)""" ;
+    okh:hasImage :Image ;
+    okh:licensor "syvwlch" ;
+    okh:repo <https://www.thingiverse.com/thing:8321> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:8321> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Club-Tooth Escapement 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/71/d1/e2/06/79/ClubToothEscapementWheel_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/71/d1/e2/06/79/ClubToothEscapementWheel_display_large_display_large.jpg> .
+

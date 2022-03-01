@@ -1,0 +1,30 @@
+@prefix : <https://www.thingiverse.com/thing%3A12410/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:CountingCoinTrays a okh:Module ;
+    rdfs:label "Counting Coin Trays" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is just a quick coin tray that I made.  I started with a minimal one, but it didn't print well, I then moved on to a printable straight tray designed for one roll of coins.  Then I created this offset one.  Each of the three designs are in the scad, and each one corresponds to one roll of coins.\r
+\r
+The STL files are for 2â‚¬, 1â‚¬, 0.50â‚¬, 0.20â‚¬ and 0.10â‚¬ coins respectively.  They are also adjusted to the tolerances of my Thingomatic Mk6.  The scad has a parametric cointray() module, that can easily be adjusted to any size coin, as well as any number of coins per counting offset, or to a different printing tolerance.\r
+\r
+The counting tray is easy to load and unload, and should be useful to anyone who needs to count small amounts of change.\r
+\r
+I had originally planned on printing them all on one tray, but that is larger than will fit in my printing bed.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "SuperAmi" ;
+    okh:repo <https://www.thingiverse.com/thing:12410> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:12410> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Counting Coin Trays 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/67/de/29/12/dc/coin_trays_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/67/de/29/12/dc/coin_trays_display_large_display_large.jpg> .
+

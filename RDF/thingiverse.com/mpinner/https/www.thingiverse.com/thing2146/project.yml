@@ -1,0 +1,48 @@
+__meta:
+  branch: null
+  created-at: '2010-04-07T03:57:24+00:00'
+  history: null
+  last-changed: null
+  last-visited: '2022-02-25T11:00:02.616920+00:00'
+  owner: mpinner
+  path: null
+  repo: https://www.thingiverse.com/thing:2146
+  score: null
+  source: thingiverse.com
+attestation: null
+bom: null
+contribution-guide: null
+cpc-patent-class: null
+documentation-language: en
+documentation-readiness-level: odrl3
+function: "Buttons\r\nthe 8 buttons per Arduinio gave us plenty of digital input pins. we no longer needed shift registers, and could use a simplified button circuit:\r\nhttp://www.arduino.cc/en/Tutorial/Button\r\n\r\nRGB LEDs\r\nthe lighting control came after much experimentation with very bright RGB LEDs. These were broken out to their own board with independent power supply. the Arduino could not drive the high powered LEDs and placement needed to be more flexible. The Arduino controls the RGB values via three PWM pins and a common ground. The values are reversed due to the odd relays we acquired. (ie {R=256,G=256,B=0} is BLUE)\r\n\r\n\r\nMidi-out\r\nmidioutThe midi-out circuit is very straight forward with only two connected pins and a dangling ground. These wires are thin and continually come loose and cause trouble.\r\n\r\n\r\n\r\n\r\nPCB\r\nFritzing.org has wonderful layout software that was used to generate the green image above. Soon they\\'ll support eagle export, which will open up the design to any board shop. Andr\xC3\xA9 Kn\xC3\xB6rig has been an amazing resource by helping with the PCB routing and our submission into the Fritzmas contest."
+image:
+  created-at: '2010-04-07T03:57:24+00:00'
+  last-changed: '2010-04-07T03:57:24+00:00'
+  last-visited: '2022-02-25T12:19:50.201472+00:00'
+  license: CC-BY-SA-4.0
+  licensor: mpinner
+  mime-type: null
+  name: Gears_display_large
+  path: https:/cdn.thingiverse.com/site/img/default/Gears_display_large.jpg
+  perma-url: https://cdn.thingiverse.com/site/img/default/Gears_display_large.jpg
+  url: https://cdn.thingiverse.com/site/img/default/Gears_display_large.jpg
+license: CC-BY-SA-4.0
+licensor: mpinner
+manufacturing-instructions: null
+name: arduino MidiOut Shield with Fritzing
+okhv: OKH-LOSHv1.0
+organization: null
+part: []
+publication: null
+readme: null
+release: null
+repo: https://www.thingiverse.com/thing:2146
+software: []
+specific-api-data: {}
+standard-compliance: null
+technology-readiness-level: ortl4
+tsdc: null
+upload-method: auto
+user-manual: null
+version: 1.0.0

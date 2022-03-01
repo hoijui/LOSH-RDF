@@ -1,0 +1,36 @@
+@prefix : <https://www.thingiverse.com/thing%3A12991/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Vigil a okh:Module ;
+    rdfs:label "Vigil" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """A bit of background on this piece:  the model itself is my first ever attempt at 3d printing.  The assembly of the original was done by hand, but that is the only step that resembled traditional not-printing.  I wrote a rudementry model slicing tool in college one afternoon;  and then realized that I could put that to work in a sculpture class I was taking at the time.  The assignment was basically "here's two big sheets of polystyrene;  go nuts."  I finished the project in a few days, where two weeks were alloted for the assignment.\r
+\r
+For your enjoyment, I've included a picture of my two original prints.\r
+\r
+I'm going to decline to release my code right now, as "rudementry" is an overstatement on the quality of the code and my poor understanding of best practice at the time.\r
+\r
+Yeah, I know, everyone uses "but my code is ugly" as an excuse, but believe me, using a shell script to generate a c++ header from an .obj file (for obscure performance reasons, and didn't know of a good library to use for what I wanted, and didn't want to spend the rest of the afternoon researching one) and re-adapting a program you wrote to demonstrate shader programs (for an independant study) to facilitate the slicing stuff... oh and don't forget, the gui for operating the slicer (adapted from the demo program) is a python program.  More embarassing than the run-on sentance I just wrote.  Trust me, the code is fugly.  Time constraints and using what I knew at the time won over researching best practice.\r
+\r
+I do have plans to remake the slicing tool now that I'm older and wiser, since it enabled something that resembles 3d printing to persons with no budget.  It also enables working in pretty much any scale you like without concern for overhangs.  Such a remake I would opensource or make public domain for sure.\r
+\r
+\r
+\r
+Oh, almost forgot; this piece is an abstraction of an aligator vertebra.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "Aeva" ;
+    okh:repo <https://www.thingiverse.com/thing:12991> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:12991> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Vigil 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/5e/f4/80/6f/72/verta_alpha_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/5e/f4/80/6f/72/verta_alpha_display_large_display_large.jpg> .
+

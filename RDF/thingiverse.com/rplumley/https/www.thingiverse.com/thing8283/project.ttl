@@ -1,0 +1,27 @@
+@prefix : <https://www.thingiverse.com/thing%3A8283/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:MakenbreakpyStackYourSkeinforgedParts a okh:Module ;
+    rdfs:label "MakeNBreak.py -- Stack your skeinforged parts" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is the python version of my MakeNBreak script. (See old perl script here:  http://wiki.makerbot.com/makenbreak)  This program takes a commented skeinforge file and stacks the gcode on top of itself, including a layer floating inbetween to make the parts easy to separate with a razor blade.  \r
+  Many improvements have been done such that you no longer need a file with layer in between.  Simply use a commented skeinforge file.  I've been experimenting with version 36 so hopefully it works with the up-to-date files as well.\r
+  Hopefully this helps folks that are printing lots of parts.  I had good luck using it on a footed vertex. This is great for multiple simple parts.  I've printed a few of the Makerbot Prusa files and always had a failure with that method of stacking STLs.\r
+  Also this is my first thing written in Python so be gentle with comments:)""" ;
+    okh:hasImage :Image ;
+    okh:licensor "rplumley" ;
+    okh:repo <https://www.thingiverse.com/thing:8283> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:8283> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of MakeNBreak.py -- Stack your skeinforged parts 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/fe/bc/98/dc/eb/photo_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/fe/bc/98/dc/eb/photo_display_large_display_large.jpg> .
+

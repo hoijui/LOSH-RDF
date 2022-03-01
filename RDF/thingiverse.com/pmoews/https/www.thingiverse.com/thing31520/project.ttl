@@ -1,0 +1,40 @@
+@prefix : <https://www.thingiverse.com/thing%3A31520/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:FourCompoundsOfCubes a okh:Module ;
+    rdfs:label "Four Compounds of Cubes        " ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Here are stl files of compounds of 3, 4, 5, and 6 cubes and the openSCAD files that produced them.\r
+\r
+George Hart's Virtual Polyhedra site has a section on compounds of cubes. Its a good place to start a study of compound polyhedra.  These four compounds and others are described.   See:\r
+\r
+http://www.georgehart.com/virtual-polyhedra/compound-cubes-info.html\r
+\r
+The cube has 13 rotation axes - three four fold axes, four three fold axes, and 6 two fold axes.  Three of the compounds use these axes for construction.\r
+\r
+The compound of three cubes takes three overlapping cubes and rotates each in turn 45 degrees about one of the three four fold axis.  The polyhedron produced is a well known one and is shown in M. C. Esher's lithograph, Waterfall.\r
+\r
+The compound of four cubes takes four overlapping cubes and rotates each in turn 60 degrees about one of the four three fold axis.  It is often called Bakos' compound after T. Bakos.\r
+\r
+The compound of 6 cubes takes six overlapping cubes and rotates each in turn 90 degrees about a 2 fold axis.\r
+\r
+The compound of 5 cubes places the overlapping cubes inside an imaginary dodecahedron. The dodecahedron is placed so that three of its two fold axes are aligned with the three four fold axes of the cubes.  The cubes are then rotated, each in turn, by n*360/5 degrees, n taking the values 0, 1, 2, 3, and 4, around a 5 fold axis of the imaginary dodecahedron.  The resultant compound has icosahedral symmetry.\r
+\r
+A cube with holes corresponding to its 13 rotation axes is provided: axes_cube.stl.  Pieces of 1.8 mm rod can be inserted in the holes to make an aid to understanding how the compounds are constructed.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "pmoews" ;
+    okh:repo <https://www.thingiverse.com/thing:31520> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:31520> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Four Compounds of Cubes         1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/1d/12/01/e6/bc/4_cubes_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/1d/12/01/e6/bc/4_cubes_display_large.jpg> .
+

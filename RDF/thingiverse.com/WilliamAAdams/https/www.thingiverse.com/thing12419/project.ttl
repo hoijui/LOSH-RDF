@@ -1,0 +1,40 @@
+@prefix : <https://www.thingiverse.com/thing%3A12419/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:SuperellipseInOpenscad a okh:Module ;
+    rdfs:label "SuperEllipse in OpenScad" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """donb (http://www.thingiverse.com/donb) sent me a message recently about the SuperFormula (en.wikipedia.org/wiki/Superformula) as it reminded him of my other surface/solids work.\r
+\r
+Recognizing the fun challenge, I thought I'd code it up.  But, instead of starting right away with the SuperFormula, I thought I'd start with the SuperEllipse, which is very close, and a step along the way anyway.\r
+\r
+This thing is an implementation of the SuperEllipse formula in OpenScad.\r
+\r
+What good is a SuperEllipse?  Well, it's actually a surface of revolution.  With it you can define the ellipsoid, sphere, cylinder, cube/rectangle, and myriad other funky looking shapes that are somehwere in between these.  It's great because from one formula you get all sorts of things.  Just imagine if this were a primitive in OpenScad, as it is in things like PovRAY.\r
+\r
+At any rate, the basic formulas are there.  The fun thing is, you can render a point cloud if you want.  That is, only the vertices, represented as tiny little spheres.  You can also render as a wireframe.  That's nice because you can see the structure, on the outside and the inside as well.  Lastly, you can render as a polyhedron.  Perhaps the most cool of all is that you could render as all three, at the same time, by just changing the values of some parameters.\r
+\r
+The important file is superellipse.scad.  With this one comes the 'superellipse()' module.  This has parameters you can change to get the different shapes.  Within the code, there is a reference to a page that gives examples with different parameters.  By default, it renders with a radius of [1,1,1].  You can easily use the 'scale()' module to get a different size.\r
+\r
+Although the thing will generate 2-manifold objects, it seems to be extremely expensive to do CSG operations on them.\r
+\r
+\r
+\r
+UPDATE: I added another picture that shows a checkerboard pattern on it.  That's a little bit of "precedural texture", which I haven't actually released as yet, but I thought it looked cool.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "WilliamAAdams" ;
+    okh:repo <https://www.thingiverse.com/thing:12419> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:12419> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of SuperEllipse in OpenScad 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/b5/5c/82/38/9c/superellipse_all_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/b5/5c/82/38/9c/superellipse_all_display_large_display_large.jpg> .
+

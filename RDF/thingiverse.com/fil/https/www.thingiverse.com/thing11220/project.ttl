@@ -1,0 +1,28 @@
+@prefix : <https://www.thingiverse.com/thing%3A11220/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:SymmetricPrusiaZcoupling a okh:Module ;
+    rdfs:label "Symmetric Prusia Z-coupling" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Couples a 5mm motor shaft to an 8mm threaded rod, ensuring they are coaxial, but allowing some angular movement if the rod is not straight.  This version has the advantage of using two identical parts, rather than having a captive-nut side, and a smooth side.  This means that one needs one fewer part type, which seems like a good idea, but it also ensures that the bolts balance one another.\r
+\r
+As mentioned here:  http://things.hands.com/thing/pla_coupling/  this version avoids the use of center=true, which seems to have been causing printing difficulties for some reason (as yet undetermined).\r
+\r
+Oh, and it has round corners (it's mostly an intersection of a 'cube' and a cylinder)""" ;
+    okh:hasImage :Image ;
+    okh:licensor "fil" ;
+    okh:repo <https://www.thingiverse.com/thing:11220> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:11220> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Symmetric Prusia Z-coupling 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/02/47/65/fe/76/pla_coupling_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/02/47/65/fe/76/pla_coupling_display_large_display_large.jpg> .
+

@@ -1,0 +1,62 @@
+@prefix : <https://www.thingiverse.com/thing%3A13506/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:AndroidBluetoothReprapApp a okh:Module ;
+    rdfs:label "Android Bluetooth Reprap App" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """An early development version of the Bluetooth RepRap control app. Interfaces with a Bluetooth serial module that is connected to the RepRap's rx/tx lines.\r
+\r
+If you want to use it with an alt serial port, You'll need to use my sprinter fork that has alt serial support.  As a bonus, this version of sprinter also supports the high(er) speed file transfer that is built in to the app.\r
+\r
+This SHOULD also be compatible with makerbots as long as you're willing to mod the electronics.\r
+\r
+Bluetooth module i used: sparkfun.com/products/10269\r
+Custom Sprinter Firmware: https://github.com/pipakin/Sprinter\r
+Code is available here: github.com/pipakin/Android-Bluetooth-Reprap\r
+Market Link: https://market.android.com/details?id=com.hermit.btreprap\r
+Market Link (free): https://market.android.com/details?id=com.hermit.btreprap.free\r
+\r
+Supports:\r
+Axis movement and homing\r
+Temperature control (temperature status NYI)\r
+SD card listing\r
+Printing from SD Card\r
+Pushing files to the RepRap SD card\r
+Printing directly from the android phone\r
+High(er) speed file transfer with custom Sprinter firmware\r
+\r
+TODO:\r
+Installation manual for Bluetooth module\r
+Inquiry scan to show unpaired devices\r
+\r
+Known Issues:\r
+If Bluetooth isn't enabled, it can sometimes cause a force close.\r
+If the Bluetooth signal isn't good enough the app might get stuck on initialization.\r
+If the phone goes to sleep the Bluetooth connection doesn't re-initialize properly (for now the program won't let the phone sleep)\r
+You need to pair with your bluetooth device BEFORE running the program.  The program only queries for already bonded devices.\r
+\r
+UPDATE:\r
+After a conversation with Kliment, I think it should be fine to attach it to the primary serial port, as long as both the bluetooth module and the usb aren't trying to send at the same time.\r
+\r
+CHANGELOG:\r
+\r
+0.2.0\r
+* Added upload option to send files to the RepRap\r
+* Added bed temperature support""" ;
+    okh:hasImage :Image ;
+    okh:licensor "pipakin" ;
+    okh:repo <https://www.thingiverse.com/thing:13506> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:13506> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Android Bluetooth Reprap App 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/fa/7b/a4/31/a6/shot_000006_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/fa/7b/a4/31/a6/shot_000006_display_large_display_large.jpg> .
+

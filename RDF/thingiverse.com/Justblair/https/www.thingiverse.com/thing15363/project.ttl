@@ -1,0 +1,45 @@
+@prefix : <https://www.thingiverse.com/thing%3A15363/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:OpenscadnotepadLanguageFileincludingUseageGuide a okh:Module ;
+    rdfs:label "OpenSCAD/Notepad++ Language File (including useage guide)" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This guide is for Windows Users.\r
+\r
+I am growing to love OpenSCAD as a creative tool for 3D design but I do find that it's text editor lacks many of the basic features that I appreciate when writing code... Namely:\r
+\r
+Auto-Completion\r
+Syntax Highlighting\r
+Collapsible Outline levels\r
+Line Numbering\r
+Automatic Tabbing\r
+Search and Replace\r
+Block Tabbing using the tab key.\r
+\r
+I was pleased to discover however that you don't need to put up with the standard text editor.  There is a feature that allows you to conveniently use the text editor of your choice with OpenSCAD.  My editor of choice is Notepad++ a fast well featured open source text editor.  You can download it from http://notepad-plus-plus.org/ \r
+\r
+Notepad++ supports many different programming languages but not unfortunately OpenSCAD.  It does however have the facility that allows you to create your own language file which I have included here.\r
+\r
+This is definitely a work in progress as I have had to make a few compromises due to the limitations of Notepad++'s language editor.  I dare say other more experienced coders opinions will differ as to how best to syntax code the OpenSCAD language.\r
+\r
+I am currently working on adding auto-complete functionality to notepad++ as we speak.  I have included a working though not complete file called openscad_removethisbitandcopy.xml.  Currently most if not all functions will auto-complete, what is going to take me longer is adding call-tips to all the functions which would be nice though is not critical.\r
+\r
+**** Edits *****\r
+13/5/2012  Added extension type to openscad.xml so that Notepad++ will now automatically detect language when .scad files are opened.  Thankyou CrazyJaw, saved me some time there.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "Justblair" ;
+    okh:repo <https://www.thingiverse.com/thing:15363> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:15363> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of OpenSCAD/Notepad++ Language File (including useage guide) 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/77/61/80/6a/9f/editor_in_use_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/77/61/80/6a/9f/editor_in_use_display_large_display_large.jpg> .
+

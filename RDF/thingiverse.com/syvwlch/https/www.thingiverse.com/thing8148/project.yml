@@ -1,0 +1,48 @@
+__meta:
+  branch: null
+  created-at: '2011-04-29T08:02:51+00:00'
+  history: null
+  last-changed: null
+  last-visited: '2022-02-25T11:00:02.616920+00:00'
+  owner: syvwlch
+  path: null
+  repo: https://www.thingiverse.com/thing:8148
+  score: null
+  source: thingiverse.com
+attestation: null
+bom: null
+contribution-guide: null
+cpc-patent-class: null
+documentation-language: en
+documentation-readiness-level: odrl3
+function: "Just a quick and dirty hack on MakerBlock's chattering teeth gears. I did switch to the MCAD version of the involute_gear library since I had it installed already.\r\n\r\nThere is now a module called gear_box() which takes an positive integer as input (I called it 'stages') and replicates a pair of those same gears between the gear holding the spring, and the gear holding the cam.\r\n\r\nI also changed the gear ratios slightly to get an even 2 rather than 1.57 and change.\r\n\r\nBy my math, each gear-to-gear contact adds another factor of 2 to the total gear ratio of the gear train. You get one for free between the spring and the cam gears, and you get another two per stage... so unless I'm shaming my math teachers here are some values you can get:\r\n\r\nstages=1 total ratio=2x2x2=8\r\nstages=2 total ratio=2x2x2x2x2=32\r\nstages=3 total ratio=pow(2,1+2x3)=128\r\n\r\nAnd so on, each successive value of stages gets you an additional factor of 4.\r\n\r\nThe generalized formula, using the parameter names from the script is:\r\ntotal ratio = pow(n1/n2,1+2*stages)"
+image:
+  created-at: '2011-04-29T08:02:51+00:00'
+  last-changed: '2011-04-29T08:02:51+00:00'
+  last-visited: '2022-02-25T16:33:50.800076+00:00'
+  license: CC-BY-SA-4.0
+  licensor: syvwlch
+  mime-type: null
+  name: Chatter-Gearbox-3_display_large_display_large
+  path: https:/cdn.thingiverse.com/renders/f7/24/29/3a/a3/Chatter-Gearbox-3_display_large_display_large.jpg
+  perma-url: https://cdn.thingiverse.com/renders/f7/24/29/3a/a3/Chatter-Gearbox-3_display_large_display_large.jpg
+  url: https://cdn.thingiverse.com/renders/f7/24/29/3a/a3/Chatter-Gearbox-3_display_large_display_large.jpg
+license: CC-BY-SA-4.0
+licensor: syvwlch
+manufacturing-instructions: null
+name: Chatter Gear Box
+okhv: OKH-LOSHv1.0
+organization: null
+part: []
+publication: null
+readme: null
+release: null
+repo: https://www.thingiverse.com/thing:8148
+software: []
+specific-api-data: {}
+standard-compliance: null
+technology-readiness-level: ortl4
+tsdc: null
+upload-method: auto
+user-manual: null
+version: 1.0.0

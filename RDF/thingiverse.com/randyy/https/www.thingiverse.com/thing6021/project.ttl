@@ -1,0 +1,60 @@
+@prefix : <https://www.thingiverse.com/thing%3A6021/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:OpenscadPartsLibrary a okh:Module ;
+    rdfs:label "OpenSCAD Parts Library" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """I've been using these OpenSCAD modules in my models, developing new parts for my different projects.  I decided to compile the parts into one library and release it into the Thingiverse wild.  Several people have been looking for printable washers and nyloc nuts recently, and have released them as individual things.  Also, someone just asked me for specs on the dovetail I used on my makerbottable filament spool.  All of these things are in my library, including:\r
+\r
+Shape primitives\r
+Hexagrams,\r
+Equilateral triangles (prisms), \r
+3 sided pyramids and tetrahedrons, \r
+4 sided pyramids including a Johnson's Solid square pyramid (a cube cut along its diagonal),\r
+tubes (hollow cylinders with variable wall thicknesses),\r
+slots with selectable round or square end(s),\r
+teardrop (as designed by whosawhatsis, www.thingiverse.com/thing:3457)\r
+dovetail pins and slots to attach parts without connectors,\r
+rounded corner rectangles, and\r
+keyhole slots.\r
+The rounded rectangles and keyholes can be seen my quick release x-Rod caps, http://www.thingiverse.com/thing:4765\r
+The dovetails can be seen on my Makerbottable filament Spool, http://www.thingiverse.com/thing:4337\r
+\r
+ Hardware Parts  \r
+Hex Nuts,\r
+Washers,\r
+Cap Bolts,\r
+Hex Bolts, and\r
+Bearings\r
+\r
+These parts are modeled by the part's name or size for mockups or to difference out voids in a model.  For instance hexNut("M6") will give the appropriate sized hardware.  The sizes are included in an extensible table, so if you have a specific part, you can just add it's dimension, name it, and use it.\r
+\r
+Miscellaneous functions and useful stuff\r
+I included a function that will globally adjust the number of triangles used in rounded objects based upon a single "displayMode" variable.  For screen display, spheres will be facetless, but by changing only one variable, you can reduce the facet count for printing to about 1mm resolution.\r
+\r
+Several functions to rotate and translate objects in only one plane, with names that (to me) are easy to remember.  for instance, rotate(tighten()) will twist an object along the z plane clockwise 90 degrees (like tightening a lid on a jar).  Likewise Push() moves an object away, Slide() to the side, and Lift() up.\r
+\r
+Last, is a rudimentary table module and access functions (alluded to under the hardware section).  You can put any data in the table, with a named header row, add names for the various columns in a column table, and subsequently locate all of the data in that row or any individual entry by using the functions tableRow(rowName) or tableEntry(rowName, columnName).  The library has a selection of bearings, and both metric and US bolts/washers/nuts included, but you can always add more.  The table can be used for just about anything, including positions within your model that you can refer to like this: translate(tableRow("Front Tire Position");\r
+\r
+I hope you like it and if you have upgrade ideas, e-mail me and I'll try to incorporate the changes here. \r
+\r
+If you REALLY like it, feel free to flattr it.  :o)\r
+\r
+UPDATE  New version uploaded on 5/7/11, old version removed.  Fixed bug in bearing() module that doubled the expected size (used diameter as radius).  Added rezPrinter and rezScreen functions for adjusting facet sizes.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "randyy" ;
+    okh:repo <https://www.thingiverse.com/thing:6021> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/LGPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:6021> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of OpenSCAD Parts Library 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://thingiverse-rerender-new.s3.amazonaws.com/renders/f0/57/6d/ca/4a/LibsDemo_display_large.jpg> ;
+    okh:permaURL <https://thingiverse-rerender-new.s3.amazonaws.com/renders/f0/57/6d/ca/4a/LibsDemo_display_large.jpg> .
+

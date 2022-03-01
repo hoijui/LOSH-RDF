@@ -1,0 +1,37 @@
+@prefix : <https://www.thingiverse.com/thing%3A1278/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:OozeTestPiece a okh:Module ;
+    rdfs:label "Ooze test piece" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is a test object for extrusion based systems that is quick to print and will exhibit a lot of ooze unless countermeasures are taken.\r
+\r
+I\\'ve been working on anti-ooze for my Bowden based extrusion system (which has a lot of oozing if you don\\'t do anything against it). Together with Nophead we\\'ve had particularly good results:\r
+http://hydraraptor.blogspot.com/2009/11/hacking-with-erik.html\r
+\r
+The latest version of my 3D-to-5D.php software solution checks whether a pull back is necessary. Segments that are very close to each other will not result in a pull back. If it\\'s further apart, it has time to ooze more. Also, I don\\'t want it to add too much to the build times.\r
+\r
+Other references:\r
+- Adrian\\'s response when also trying pullback (again):\r
+  http://blog.reprap.org/2009/11/end-to-ooze-ii.html\r
+- Nophead\\'s RepRap blog post:\r
+  http://blog.reprap.org/2009/11/end-to-ooze-and-support-material-found.html\r
+- Extruder valve\r
+  http://blog.reprap.org/2008/08/extruder-valve.html""" ;
+    okh:hasImage :Image ;
+    okh:licensor "Erik" ;
+    okh:repo <https://www.thingiverse.com/thing:1278> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:1278> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Ooze test piece 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/86/fe/b6/c4/62/oozetest_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/86/fe/b6/c4/62/oozetest_display_large_display_large.jpg> .
+

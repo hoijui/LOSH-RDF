@@ -1,0 +1,33 @@
+@prefix : <https://www.thingiverse.com/thing%3A8072/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:SimpleSlicedWadesGearedExtruder a okh:Module ;
+    rdfs:label "Simple sliced Wade's Geared Extruder" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Yet another extruder design, but this one is designed to be built with simple tools for tightfisted repstrappers like me, who want to build it themselves, not just buy it. It's about the journey...\r
+\r
+You know how it is; you're building your RepStrap and there's very few ways of building the extruder; you have to buy parts that you can't re-use when you print a Mendel, or use a compromised design in the knowledge a new extruder is about the first thing you're going to have to print before your lash-up breaks - if it works at all! And because the repstrap you're building has limited axes, the chunky thing you've made out of tree trunks limits your build size to 10mm x 10mm x 10mm cubes. Probably. So inspired a bit by seeing BodgeItQuick's version http://www.thingiverse.com/derivative:4878, I designed a simpler version of KurtCircuit's Sliced Wade's Geared Nema 17 Extruder http://www.thingiverse.com/thing:5548, which is itself based on the now legendary Wade's Geared Nema 17 Extruder by Wade http://www.thingiverse.com/thing:1794. KurtCircuit's version was designed to be laser cut, with minimal drilling. Mine is designed so it's ALL pretty much drilling.\r
+\r
+This version is built from 5 layers of 9mm MDF, ply or pretty much anything that you can machine. Depending on the depth of your bearings, you could use thinner wood eg 6mm. I've chosen MDF, and I'm planning on building this thing this week, but thought I'd share it with you lot in case I've overlooked something. It still needs the gears, but I am going to canabalise an old inkjet printer, and hope I can get something resembling the right size cogs out of it. Otherwise it's off to the bay of fleas to, er, "help support the community of independent reprap manufacturers". Or something. I have a set of taps and dies to make the hobbed bolt too.\r
+\r
+I also expect to run this with a Bowden cable http://reprap.org/wiki/Erik%27s_Bowden_Extruder. I know they have their problems, but I'm hoping it's close enough to a Wade's that it will work okay, and built well enough and strong enough that it will survive for a while. It's a bit too chunky and print area limiting to mount on the Z-axis of my developing repstrap, a mrkim's 1X2 http://www.thingiverse.com/thing:5773. Also, it doesn't use springs to apply pressure to the idler, just captive nut/bolt. I'm not sure how well this will work, but didn't want it to be overcomplimicated.\r
+\r
+Update 3rd May 2011\r
+I have built this up now, and have hobbed the bolt etc. Seems to have good torque and grip on 3mm threaded rod. I'll have to wait for my electronics board and some 3mm filament to test it working. On to the hot end...""" ;
+    okh:hasImage :Image ;
+    okh:licensor "droftarts" ;
+    okh:repo <https://www.thingiverse.com/thing:8072> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:8072> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Simple sliced Wade's Geared Extruder 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/0b/6c/bb/d5/cd/P1010624_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/0b/6c/bb/d5/cd/P1010624_display_large_display_large.jpg> .
+

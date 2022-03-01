@@ -1,0 +1,44 @@
+@prefix : <https://www.thingiverse.com/thing%3A15445/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:MeehlDriveExtruder a okh:Module ;
+    rdfs:label "Meehl Drive Extruder" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is an early concept for a belt driven extruder. The extruder motor (E Motor) is moved from the X carriage and mounted at the x end. Force is transferred via a differential.\r
+\r
+One of the goals for this design was to minimize barrier to entry. That is, I wanted to allow anyone to be able to implement this without having to to know how to write software/firmware or redesign the printer in a major way. As such, this design accomplishes the task mechanically. A similar approach could be accomplished via software pretty easily, and it would eliminate the need for the differential. However, with this design, users may be able to come up with the gear models and implement the design without having to wait for someone to work on the appropriate software changes.\r
+\r
+The X assembly has two belts. One connects to the X carriage as a 'normal' X drive would. The second (E belt) connects to the hobbed bolt gear on the extruder. At the end of the X belt, where you'd normally have an idler/bearing, there is a pulley which connects to a differential. \r
+\r
+In the images, orange represents idler/bearings and red represents pulleys/gears. Note that the X carriage is connected to the bottom of the X belt, while the extruder gear is connected to the top of the E belt. The images here are just a representation and are not designed to be functional. As such some things are not to scale and gears do not have teeth. Please take this with a grain of salt. This is being published just as an idea.\r
+\r
+Imagine we want to move the X carriage but we do not want to extrude. The E motor holds stationary while the X motor rotates. This causes the differential's ring gear to be stationary and thus the X motion is transferred via the idler pinion gears into the E belt such that the E belt moves at exactly the same speed and opposite direction as the X belt. Since the X carriage is connected to the bottom of the X belt and the extruder gear is connected at the top of E belt, this means that both move in the same direction and the extruder gear does not rotate.\r
+\r
+Imagine we want to extrude (rotate the extruder gear) but we do not want to move the X carriage. The X motor holds stationary while the E motor rotates. This causes the differential's ring gear to rotate. Since the X drive pinion gear is stationary, the ring gear's idler pinions cause the E belt to rotate.\r
+\r
+Some benefits of the Meehl Drive system over other potential drive systems:\r
+* X carriage is lighter and can be moved faster with less inertia\r
+* No new software or firmware updates are necessary\r
+* X rods can potentially be smaller since there is less weight and therefore less sag\r
+* Less printer vibration and shaking\r
+\r
+The extruder design is from http://www.thingiverse.com/thing:6713\r
+The X carriage design is from http://www.thingiverse.com/thing:14530\r
+Although, in both cases, almost any similar X carriage and gear driven extruder could be used.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "dmeehl" ;
+    okh:repo <https://www.thingiverse.com/thing:15445> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:15445> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Meehl Drive Extruder 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/f4/9d/43/91/a9/meehl-drive4_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/f4/9d/43/91/a9/meehl-drive4_display_large_display_large.jpg> .
+

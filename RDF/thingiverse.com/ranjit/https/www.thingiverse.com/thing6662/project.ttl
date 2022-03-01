@@ -1,0 +1,28 @@
+@prefix : <https://www.thingiverse.com/thing%3A6662/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:MechanicalSynthesizer a okh:Module ;
+    rdfs:label "mechanical synthesizer" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This simple noisy gadget uses a method known since the 19th century to generate the notes of a scale: the number of teeth on each gear corresponds to the frequency of a note, so when you let something buzz against each gear, you'll hear the corresponding note.  Here's a video of the thing in action: http://www.flickr.com/photos/ranjit/5472598312/\r
+\r
+This set of gears creates a just intonation diatonic scale - all the pitch ratios are related by simple fractions.  The gears have 24, 27, 30, 32, 36, 40, 45 and 48 teeth.\r
+\r
+You could use an optical sensor like a photo interrupter to pick up the pitches, or if you cut the gears from steel, you could use magnetic pickups like the Telharmonium did back in 1898!  http://www.synthmuseum.com/magazine/0102jw.html""" ;
+    okh:hasImage :Image ;
+    okh:licensor "ranjit" ;
+    okh:repo <https://www.thingiverse.com/thing:6662> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:6662> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of mechanical synthesizer 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/a0/9b/e2/f2/43/IMG_1241fc_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/a0/9b/e2/f2/43/IMG_1241fc_display_large_display_large.jpg> .
+

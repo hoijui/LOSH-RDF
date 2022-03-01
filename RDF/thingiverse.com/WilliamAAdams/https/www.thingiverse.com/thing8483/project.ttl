@@ -1,0 +1,34 @@
+@prefix : <https://www.thingiverse.com/thing%3A8483/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:BezierHeartInOpenscad a okh:Module ;
+    rdfs:label "Bezier Heart in OpenScad" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """The question is, what good are Bezier curves?\r
+\r
+This thing is constructed from Bezier curves.  It is actually inspired from some Processing code.  It demonstrates how easy it is to translate from some graphics system that has Bezier support, to using the new Bezier functions within OpenScad.\r
+\r
+The Processing code came from here: http://www.local-guru.net/blog/2010/09/19/pulsating-heart-made-from-bezier-curves-in-processing\r
+\r
+There are many heart things on Thingiverse as evidenced by this: http://www.thingiverse.com/tag:Heart\r
+\r
+So, add one more to the list.  Of course, this one is fully parametric, even in a math sense, so you can easily change the size, shape, height, whatever.\r
+\r
+And, on top of that, it's a simple example of how you can use the Bezier function to construct something simple.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "WilliamAAdams" ;
+    okh:repo <https://www.thingiverse.com/thing:8483> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:8483> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Bezier Heart in OpenScad 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/0d/48/4d/5d/9a/HeartColored_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/0d/48/4d/5d/9a/HeartColored_display_large_display_large.jpg> .
+

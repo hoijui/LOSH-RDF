@@ -1,0 +1,27 @@
+@prefix : <https://www.thingiverse.com/thing%3A6181/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:EnclosureForRamps12 a okh:Module ;
+    rdfs:label "Enclosure for Ramps 1.2" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """An Enclosure for RAMPS v1.2, inspired by araspitfires http://www.thingiverse.com/thing:6060\r
+This design uses a 60mm fan, that can be snapped right in. The fan will in my case be powered through the third MOSFET as my RAMPS-board lacks the 12V terminal araspitfire uses in his design. I modified the openings to allow only a single opening in the lid and to leave an opening in the wall where the terminals are to funnel the air over the stepper drivers. The design was created in SALOME http://salome-plattform.org and exported to the attached files.\r
+I have not yet printed this version as I ran out of PLA while printing a earlier version. I will add photos of the print as soon as it is done.\r
+make sure your printer is well callibrated, else the fan will not fit""" ;
+    okh:hasImage :Image ;
+    okh:licensor "rkoeppl" ;
+    okh:repo <https://www.thingiverse.com/thing:6181> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:6181> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Enclosure for Ramps 1.2 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://thingiverse-rerender-new.s3.amazonaws.com/renders/c3/ba/da/98/57/rampsbox_display_large.jpg> ;
+    okh:permaURL <https://thingiverse-rerender-new.s3.amazonaws.com/renders/c3/ba/da/98/57/rampsbox_display_large.jpg> .
+

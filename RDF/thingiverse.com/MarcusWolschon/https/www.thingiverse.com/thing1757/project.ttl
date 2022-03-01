@@ -1,0 +1,39 @@
+@prefix : <https://www.thingiverse.com/thing%3A1757/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Minivice a okh:Module ;
+    rdfs:label "Mini-Vice" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is a small vice to fasten things on your desktop.\r
+\r
+It has been created fully parametric in a trial version of Alibre Design Xpress. (See the thread\\\\\\"cheap cad offer\\\\\\" in the RepRap-forum. http://dev.forums.reprap.org/read.php?80,27084)\r
+\r
+Possible improvements:\r
+* add slits to use as a Miter saw (http://en.wikipedia.org/wiki/Miter_saw) for 90Â° +45Â° and -45Â°\r
+\r
+Challenges:\r
+(Details: http://www.bitsfrombytes.com/wiki/index.php?title=User:MarcusWolschon/Challenges )\r
+The first one to create a printable version of these and does not have a printer, gets  either\r
+* a printed copy of his design or\r
+* 10 of the smaller mendle parts or\r
+* 2 of the larger ones\r
+so here are the challenges:\r
+* create an XY-coordinate table (http://dev.forums.reprap.org/read.php?88%2C35334) you can start with http://www.thingiverse.com/thing:1831\r
+* create a column-drill stand for it compatible with RepMan,Mendel or Makerbot-toolheads or Dremel/Dremel flex shaft""" ;
+    okh:hasImage :Image ;
+    okh:licensor "MarcusWolschon" ;
+    okh:repo <https://www.thingiverse.com/thing:1757> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:1757> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Mini-Vice 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/6a/97/da/ce/61/Technical_Drawing_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/6a/97/da/ce/61/Technical_Drawing_display_large_display_large.jpg> .
+

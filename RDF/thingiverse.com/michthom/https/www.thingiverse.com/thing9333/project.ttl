@@ -1,0 +1,30 @@
+@prefix : <https://www.thingiverse.com/thing%3A9333/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ToroidalToy a okh:Module ;
+    rdfs:label "Toroidal Toy" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """A derivative of MakeALot and chylld's previous work. \r
+I wanted a more tweakable model, and decided to switch to a different coordinate system as my brain doesn't bend around toroids as easily as MakeALot's!\r
+It's classed as a toy because I spend more time finding cool settings than I do compiling and printing variants (which is quite a claim if you increase the number of spheres and decrease the $fa parameter too far!)\r
+Enjoy!\r
+\r
+2011-06-21 Update\r
+I've also implemented the algorithm in Art of Illusion, as it allows much higher resolution STLs to be generated for much lower computational cost.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "michthom" ;
+    okh:repo <https://www.thingiverse.com/thing:9333> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/BSD-4-Clause> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:9333> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Toroidal Toy 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/ff/db/d5/10/3e/Screen_shot_2011-06-21_at_00.31.12_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/ff/db/d5/10/3e/Screen_shot_2011-06-21_at_00.31.12_display_large_display_large.jpg> .
+

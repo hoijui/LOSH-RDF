@@ -1,15 +1,16 @@
-@prefix : <https://wikifactory.com/+OttoDIY/bender/0fe5d3e1af017cd547fc8bb77a7894a0c6bc9172/> .
+@prefix : <https://wikifactory.com/%2BOttoDIY/bender/0fe5d3e1af017cd547fc8bb77a7894a0c6bc9172/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 :Bender a okh:Module ;
     rdfs:label "Bender" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "#OttoDIY Mod to convert it into Bender the robot from Futurama! Just 3D print each piece and glue it to your robot. You can use Super Glue or something similar for plastic.Enjoy and share a picture of your mod! ;)made by Bricogeek" ;
-    okh:hasComponent :Ottodiybenderantenna,
-        :Ottodiybendercigarette,
-        :Ottodiybendergoogles,
-        :Ottodiybendermouth ;
+    okh:hasComponent :3dPrintedFilesottodiybenderantenna,
+        :3dPrintedFilesottodiybendercigarette,
+        :3dPrintedFilesottodiybendergoogles,
+        :3dPrintedFilesottodiybendermouth ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "Camilo Parra Palacio" ;
@@ -18,66 +19,67 @@
     okh:repo <https://wikifactory.com/+OttoDIY/bender> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
     okh:version "0fe5d3e1af017cd547fc8bb77a7894a0c6bc9172" ;
     okh:versionOf <https://wikifactory.com/+OttoDIY/bender> .
+
+:3dPrintedFilesottodiybenderantenna a okh:Part ;
+    rdfs:label "3D Printed Files/OttoDIY_Bender_antenna" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dPrintedFilesottodiybenderantenna_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dPrintedFilesottodiybenderantenna_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Printed Files/OttoDIY_Bender_antenna of Bender 0fe5d3e1af017cd547fc8bb77a7894a0c6bc9172" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1702/ottodiybenderantenna.STL> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxNTY5MA==> .
+
+:3dPrintedFilesottodiybendercigarette a okh:Part ;
+    rdfs:label "3D Printed Files/OttoDIY_Bender_cigarette" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dPrintedFilesottodiybendercigarette_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dPrintedFilesottodiybendercigarette_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Printed Files/OttoDIY_Bender_cigarette of Bender 0fe5d3e1af017cd547fc8bb77a7894a0c6bc9172" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1702/ottodiybendercigarette.STL> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxNTY4OQ==> .
+
+:3dPrintedFilesottodiybendergoogles a okh:Part ;
+    rdfs:label "3D Printed Files/OttoDIY_Bender_googles" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dPrintedFilesottodiybendergoogles_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dPrintedFilesottodiybendergoogles_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Printed Files/OttoDIY_Bender_googles of Bender 0fe5d3e1af017cd547fc8bb77a7894a0c6bc9172" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1702/ottodiybendergoogles.STL> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxNTY5MQ==> .
+
+:3dPrintedFilesottodiybendermouth a okh:Part ;
+    rdfs:label "3D Printed Files/OttoDIY_Bender_mouth" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dPrintedFilesottodiybendermouth_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dPrintedFilesottodiybendermouth_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Printed Files/OttoDIY_Bender_mouth of Bender 0fe5d3e1af017cd547fc8bb77a7894a0c6bc9172" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1702/ottodiybendermouth.STL> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxNTY5Mg==> .
 
 :Image a okh:Image ;
     rdfs:label "Image of Bender 0fe5d3e1af017cd547fc8bb77a7894a0c6bc9172" ;
     okh:fileFormat "JPG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1702/3722176110215639001703465780842942951587840n-2.jpg> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToxNTcwMg==> .
-
-:Ottodiybenderantenna a okh:Part ;
-    rdfs:label "OttoDIY_Bender_antenna" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Ottodiybenderantenna_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Ottodiybenderantenna_source a okh:SourceFile ;
-    rdfs:label "Source File of OttoDIY_Bender_antenna of Bender 0fe5d3e1af017cd547fc8bb77a7894a0c6bc9172" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1702/ottodiybenderantenna.STL> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxNTY5MA==> .
-
-:Ottodiybendercigarette a okh:Part ;
-    rdfs:label "OttoDIY_Bender_cigarette" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Ottodiybendercigarette_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Ottodiybendercigarette_source a okh:SourceFile ;
-    rdfs:label "Source File of OttoDIY_Bender_cigarette of Bender 0fe5d3e1af017cd547fc8bb77a7894a0c6bc9172" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1702/ottodiybendercigarette.STL> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxNTY4OQ==> .
-
-:Ottodiybendergoogles a okh:Part ;
-    rdfs:label "OttoDIY_Bender_googles" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Ottodiybendergoogles_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Ottodiybendergoogles_source a okh:SourceFile ;
-    rdfs:label "Source File of OttoDIY_Bender_googles of Bender 0fe5d3e1af017cd547fc8bb77a7894a0c6bc9172" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1702/ottodiybendergoogles.STL> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxNTY5MQ==> .
-
-:Ottodiybendermouth a okh:Part ;
-    rdfs:label "OttoDIY_Bender_mouth" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Ottodiybendermouth_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Ottodiybendermouth_source a okh:SourceFile ;
-    rdfs:label "Source File of OttoDIY_Bender_mouth of Bender 0fe5d3e1af017cd547fc8bb77a7894a0c6bc9172" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1702/ottodiybendermouth.STL> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxNTY5Mg==> .
 
 :Readme a okh:Readme ;
     rdfs:label "Readme of Bender 0fe5d3e1af017cd547fc8bb77a7894a0c6bc9172" ;

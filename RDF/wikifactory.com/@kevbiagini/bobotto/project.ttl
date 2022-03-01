@@ -1,0 +1,95 @@
+@prefix : <https://wikifactory.com/%40kevbiagini/bobotto/bc472a8587e8e79f194b4f82d81e1b4a01a7e51b/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Bobotto a okh:Module ;
+    rdfs:label "BoBotto" ;
+    okh:dataSource "wikifactory.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function "Hes back and better than ever. i took the otto humanoid idea and tweaked it to look closer to the 2nd gen BoB design. A few improvement were added and some still being worked on. including removable front plates for the head and body that will allow the user change out \"eyes\" and \"mouths\"" ;
+    okh:hasComponent :Bobottoarm,
+        :Bobottobody,
+        :Bobottofootl,
+        :Bobottohead,
+        :Bobottoleg ;
+    okh:hasImage :Image ;
+    okh:licensor "kevbiagini" ;
+    okh:release <https://wikifactory.com/@kevbiagini/bobotto/v/bc472a8> ;
+    okh:repo <https://wikifactory.com/@kevbiagini/bobotto> ;
+    okh:repoHost "wikifactory.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "bc472a8587e8e79f194b4f82d81e1b4a01a7e51b" ;
+    okh:versionOf <https://wikifactory.com/@kevbiagini/bobotto> .
+
+:Bobottoarm a okh:Part ;
+    rdfs:label "bobottoarm" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "kevbiagini" ;
+    okh:source :Bobottoarm_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Bobottoarm_source a okh:SourceFile ;
+    rdfs:label "Source File of bobottoarm of BoBotto bc472a8587e8e79f194b4f82d81e1b4a01a7e51b" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/24744/bobottoarm.STL> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyMjgzNzA=> .
+
+:Bobottobody a okh:Part ;
+    rdfs:label "bobottobody" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "kevbiagini" ;
+    okh:source :Bobottobody_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Bobottobody_source a okh:SourceFile ;
+    rdfs:label "Source File of bobottobody of BoBotto bc472a8587e8e79f194b4f82d81e1b4a01a7e51b" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/24744/bobottobody.STL> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyMjgzNzE=> .
+
+:Bobottofootl a okh:Part ;
+    rdfs:label "bobottoFootL" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "kevbiagini" ;
+    okh:source :Bobottofootl_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Bobottofootl_source a okh:SourceFile ;
+    rdfs:label "Source File of bobottoFootL of BoBotto bc472a8587e8e79f194b4f82d81e1b4a01a7e51b" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/24744/bobottofootl.STL> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyMjgzNzQ=> .
+
+:Bobottohead a okh:Part ;
+    rdfs:label "bobottoHead" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "kevbiagini" ;
+    okh:source :Bobottohead_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Bobottohead_source a okh:SourceFile ;
+    rdfs:label "Source File of bobottoHead of BoBotto bc472a8587e8e79f194b4f82d81e1b4a01a7e51b" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/24744/bobottohead.STL> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyMjgzNzM=> .
+
+:Bobottoleg a okh:Part ;
+    rdfs:label "bobottoleg" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "kevbiagini" ;
+    okh:source :Bobottoleg_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Bobottoleg_source a okh:SourceFile ;
+    rdfs:label "Source File of bobottoleg of BoBotto bc472a8587e8e79f194b4f82d81e1b4a01a7e51b" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/24744/bobottoleg.STL> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyMjgzNzI=> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of BoBotto bc472a8587e8e79f194b4f82d81e1b4a01a7e51b" ;
+    okh:fileFormat "PNG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/24744/2019-07-31_3-27023.png> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyMjgzNjM=> .
+

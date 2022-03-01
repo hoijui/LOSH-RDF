@@ -1,9 +1,10 @@
-@prefix : <https://wikifactory.com/@zoe/z-ring/3e65df136e829e9060ad903b87806a1d9d643e81/> .
+@prefix : <https://wikifactory.com/%40zoe/z-ring/3e65df136e829e9060ad903b87806a1d9d643e81/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 :ZRing a okh:Module ;
     rdfs:label "Z Ring" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "My first ring" ;
     okh:hasComponent :Zring ;
@@ -13,6 +14,7 @@
     okh:repo <https://wikifactory.com/@zoe/z-ring> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
     okh:version "3e65df136e829e9060ad903b87806a1d9d643e81" ;
     okh:versionOf <https://wikifactory.com/@zoe/z-ring> .
 

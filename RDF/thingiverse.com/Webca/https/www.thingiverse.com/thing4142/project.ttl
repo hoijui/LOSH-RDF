@@ -1,0 +1,43 @@
+@prefix : <https://www.thingiverse.com/thing%3A4142/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Makerap a okh:Module ;
+    rdfs:label "MakeRap" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """If Makerbot and Reprap had a demon child-\r
+\r
+This is a beast. Built with both the reprap and makerbot as references.\r
+The biggest concern i had building this, was getting it to work with ball chain instead of belts, and with a lot of back and forth testing this out it finally works like a charm.\r
+\r
+I had a 440x300mm heating element custom made by some "expert", that ended up not to spesifications. The result was only 80Â°C, so i had to figure something out so that the ABS wouldnt end up curling, \r
+and wet sanding sheet was the answer. Now the object sticks to the platform like tongues to metal during wintertime.\r
+\r
+I got it up and running with just prints from a makerbot, but now some of the pieces are remade on itself.\r
+\r
+This is still just a prototype and a work in progress.\r
+\r
+\r
+Specs:\r
+\r
+Size:           800 mm (W) x 800 mm (D) x 600 mm (H)\r
+Build Envelope:	500 mm (W) x 300 mm (D) x 250 mm (H)\r
+Platform:       Heated to 80Â°C\r
+Surface:        Wet sanding sheet 600 grits\r
+Drive system:   Ball chain (3.5mm)""" ;
+    okh:hasImage :Image ;
+    okh:licensor "Webca" ;
+    okh:repo <https://www.thingiverse.com/thing:4142> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:4142> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of MakeRap 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/1c/b7/55/c4/92/2_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/1c/b7/55/c4/92/2_display_large_display_large.jpg> .
+

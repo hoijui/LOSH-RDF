@@ -1,0 +1,32 @@
+@prefix : <https://www.thingiverse.com/thing%3A9656/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:StlViewerForAndroid a okh:Module ;
+    rdfs:label "STL Viewer for Android" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This android application can view the STL files.\r
+I'm the beginner for OpenGL programming, it's not comfortable to view the model.\r
+If you have any idea for improving this application, comment to this article please.\r
+\r
+Known problem: It doesn't work with some complex STL file. Maybe out of memory error.\r
+\r
+Updated 2013 Feb. 6:\r
+Now, I published this project as open source. The source code is available at github repository.\r
+https://github.com/kshoji/STLViewer""" ;
+    okh:hasImage :Image ;
+    okh:licensor "kshoji" ;
+    okh:repo <https://www.thingiverse.com/thing:9656> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:9656> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of STL Viewer for Android 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/77/a9/38/61/e5/ss01_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/77/a9/38/61/e5/ss01_display_large_display_large.jpg> .
+

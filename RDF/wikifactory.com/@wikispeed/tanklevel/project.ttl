@@ -1,9 +1,10 @@
-@prefix : <https://wikifactory.com/@wikispeed/tanklevel/66654d82e4f84a9edbe550be6aaab2eb0f1bb622/> .
+@prefix : <https://wikifactory.com/%40wikispeed/tanklevel/66654d82e4f84a9edbe550be6aaab2eb0f1bb622/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 :Tanklevel a okh:Module ;
     rdfs:label "TankLevel" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "A generic tank level sensor that reports to your device - cell phone, tablet, etc - by emulating a bluetooth keyboard.  It runs on a USB Battery pack  The basics are working but the software needs a lot of work on user interface to make it easy for others to useThere is a Repeater module as well" ;
     okh:hasReadme :Readme ;
@@ -12,6 +13,7 @@
     okh:repo <https://wikifactory.com/@wikispeed/tanklevel> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
     okh:version "66654d82e4f84a9edbe550be6aaab2eb0f1bb622" ;
     okh:versionOf <https://wikifactory.com/@wikispeed/tanklevel> .
 

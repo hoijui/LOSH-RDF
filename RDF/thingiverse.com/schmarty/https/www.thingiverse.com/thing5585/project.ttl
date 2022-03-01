@@ -1,0 +1,36 @@
+@prefix : <https://www.thingiverse.com/thing%3A5585/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:BaltimoreNodeLogounicorn a okh:Module ;
+    rdfs:label "Baltimore Node logo (Unicorn)" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """I felt that it was about time Baltimore Node had a Unicorn-plottable logo! You can learn more about this awesome hackerspace at baltimorenode.org.\r
+\r
+I've attached all the files I used to create the G-Code for this thing, which tells the story of how you can make your own:\r
+\r
+* node_logo.svg - Start with the SVG logo available from the Node wiki.\r
+* node_logo.eps - Use Inkscape to export an EPS file, making sure to convert text to paths.\r
+* node_logo.dxf - Use pstoedit as described on Tony's 2D-to-3D post - tonybuser.com/2d-to-3d - to create a DXF, with simple line approximations of curves. I also ended up using some scaling:\r
+\r
+  pstoedit -xscale 18 -yscale 18 -dt -f dxf:-polyaslines node_logo.eps node_logo.dxf\r
+\r
+* node_logo.gcode - Use scribbles.py from GitHub to convert the DXF into Unicorn G-Code. github.com/makerbot/Makerbot\r
+\r
+I used Pleasant3D for its excellent G-Code preview capabilities to check that everything looked reasonable, find a good scaling, etc.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "schmarty" ;
+    okh:repo <https://www.thingiverse.com/thing:5585> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:5585> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Baltimore Node logo (Unicorn) 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/a5/0d/67/f3/e0/node_logo_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/a5/0d/67/f3/e0/node_logo_display_large_display_large.jpg> .
+

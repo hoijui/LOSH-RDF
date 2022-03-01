@@ -1,0 +1,48 @@
+__meta:
+  branch: null
+  created-at: '2011-11-03T10:56:46+00:00'
+  history: null
+  last-changed: null
+  last-visited: '2022-02-25T11:00:02.616920+00:00'
+  owner: evanevery
+  path: null
+  repo: https://www.thingiverse.com/thing:13261
+  score: null
+  source: thingiverse.com
+attestation: null
+bom: null
+contribution-guide: null
+cpc-patent-class: null
+documentation-language: en
+documentation-readiness-level: odrl3
+function: "I'm not a big fan of the wood case for the TOM and I wanted to make one out of Acrylic.  I found the very nice case that BuiltToSpec did ( http://www.thingiverse.com/thing:11641 ) but I wanted a case built on the latest case design.  BuiltToSpec's was based on the older case which had the side mounted fan, I wasn't sure what other changes had been implemented in the latest design, and I was pretty sure I would have to make a good deal of adjustments to support my actual Acrylic thickness.  So I just started with the latest official TOM case drawings.  I did use BuiltToSpec's idea to stress relieve the corners of the nut slots though - kudo's for that thought!\r\n\r\nAnyway, the attached drawings were modified to work with the 1/4 Inch Acrylic I could source.  I waited until the Acrylic actually arrived and then measured its thickness.  As others will attest, the thickness of 1/4 inch Acrylic can vary a lot between manufacturers and I even saw a pretty good variation in one corner of the single 4x8 sheet I had cut down to use!  If you want to do an Acrlic case, I suggest you get the Acrylic first and measure its thickness precisely before you start cutting stuff!\r\n\r\nThe 1/4\" Acrylic I used had a nominal thickness of about .225 inch (5.73mm).  I did have one corner of the sheet exceed 6mm though so a couple of parts had to be re-cut from a different sub-panel.\r\n\r\nAll three of the original drawings (Makerbot, Gen4 Interface, and Mk6 Extruder) were modified as follows:\r\n\r\n1.  Tabs/Slots:  Modified to accommodate 5.7mm Acrylic.  All Tabs were lengthened (from 5.5 to 5.9 mm), All Slots were widened (from 5.5 to 5.9mm), All screw holes re-centered to the new slot centerlines, and stress relief was added to the bottom corners of all the nut slots to help prevent cracking under stress.\r\n\r\n2.  Dimensions were adjusted were necessary to accommodate the increased thickness of the Acrylic where appropriate.  (i.e. In order to maintain proper fitment of the steel X/Y/Z axis rods  the outside dimension of case and axis platforms had to be maintained)\r\n\r\n3.  I'm using a different power supply than the one provided with the original unit.  (The original one died and I wanted to use one with a bit more power).  Unfortunately MOST power supplies DO NOT pull air through the cable side of the power supply - they pull air from the bottom of the power supply.  This therefore requires a large hole on the underside of the TOM to provide airflow through the P/S, and it also is a good idea to provide some other means to ventilate the electronics bay.  I added a large hole to the electronics panel to line up with the air intake on my new P/S.  I also added mounting points for 40mm fans on both sides of the P/S to help ventilate the bay (since the P/S wouldn't be doing that).  If you don't need/want these mods, just delete the associated entities!\r\n\r\n4.  I added a several slots up the back side of the case to allow threading zip ties to secure wires as they go up the back corners.  I used the existing \"notches\" in the design, and mirrored them as needed to maximize symmetry.  (I have no idea why there were notches in the original design)\r\n\r\nI also wanted to accommodate a couple of other public mods at the same time:  \r\n\r\n5.  I modified the X-Axis drive support to optionally allow use of the X-Axis Follower Mod ( http://www.thingiverse.com/thing:8163 ).  I added two holes to the support and one to each of the clamping pieces.  The change works equally well with the original design as well as the follower mod.\r\n\r\n6.  I modified the Z axis arms to allow use of my modular extruder connector brackets.  This allows electrical connectors to be implemented for quick change of the extruder (1.75 -> 3mm -> PLA -> Mk6 -> Mk7, etc) without having to get into the electronics bay ( http://www.thingiverse.com/thing:13260 ).  I also modified the Z-Axis arms so that the design would allow the attachment of the emergency thermal cutoff board without any drilling.  There were a couple of holes already in place on the existing arm drawing but I'm not sure what they were supposed to fit (maybe a different thermal cutoff board), so I left them in place and added another hole so the board I have would also fit.  I then added two holes in the arm for my connector bracket.  I updated the one arm already in the design to allow connection of the thermal cutoff board, and then added a completely new optional arm to the drawing if you want to use the connector bracket.  The Z-Axis arms are completely interchangeable so you can choose any two you want and cut them - they can be used on either side...\r\n\r\n7. I provided a couple of optional Y-Axis parts to allow use of the X Stage Idler Tension Mod ( http://www.thingiverse.com/thing:8189 ).  The use of this mod will require a different Y-Axis TOP (with slot cut so the idler axle screw head can slide back and forth under the tensioner), a hole for the tensioner screw to run through the right side panel, and the tabs on the top of the right side panel to be removed.  The original parts (modified for 5.7mm) are in the drawing, but I've also included the two parts updated with the additional necessary modifications if you want to use this really nice mod. (Be aware that the 0.4 mm increased thickness of each acrylic side made the Y-Axis interior distance a little bit narrower so you will either want to decrease the design width of the tensioner by about .5mm on each side or just sand each tensioner side a bit to narrow it up - about until you reach the steel rod holes - as I did).\r\n\r\nI added some LED strip lighting to the top of my case, but that is nothing that needed any mods to the design."
+image:
+  created-at: '2011-11-03T10:56:46+00:00'
+  last-changed: '2011-11-03T10:56:46+00:00'
+  last-visited: '2022-02-25T20:57:16.148390+00:00'
+  license: CC-BY-SA-4.0
+  licensor: evanevery
+  mime-type: null
+  name: ALL_display_large_display_large
+  path: https:/cdn.thingiverse.com/renders/58/39/58/b2/bc/ALL_display_large_display_large.jpg
+  perma-url: https://cdn.thingiverse.com/renders/58/39/58/b2/bc/ALL_display_large_display_large.jpg
+  url: https://cdn.thingiverse.com/renders/58/39/58/b2/bc/ALL_display_large_display_large.jpg
+license: CC-BY-SA-4.0
+licensor: evanevery
+manufacturing-instructions: null
+name: Acrylic Case for ThingOMatic (TOM)
+okhv: OKH-LOSHv1.0
+organization: null
+part: []
+publication: null
+readme: null
+release: null
+repo: https://www.thingiverse.com/thing:13261
+software: []
+specific-api-data: {}
+standard-compliance: null
+technology-readiness-level: ortl4
+tsdc: null
+upload-method: auto
+user-manual: null
+version: 1.0.0

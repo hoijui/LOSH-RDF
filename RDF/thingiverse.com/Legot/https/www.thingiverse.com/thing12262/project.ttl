@@ -1,0 +1,28 @@
+@prefix : <https://www.thingiverse.com/thing%3A12262/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:QuiltedHeatbed a okh:Module ;
+    rdfs:label "Quilted Heatbed" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is a heated bed for a repstrap that is intended to be an alternative to a proffessionaly fabbed board.\r
+\r
+I made this board because it is often hard to get large sheets of copper clad, and if it is, they are often more than one repstrapper may be willing to pay, especialy on a first machine.\r
+\r
+Currently, the design below gets between 70C and 90C (under glass) when pulling ~5.79A @12v when etched onto 2oz/in copper clad.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "Legot" ;
+    okh:repo <https://www.thingiverse.com/thing:12262> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:12262> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Quilted Heatbed 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/24/14/14/e8/3b/DSC04925_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/24/14/14/e8/3b/DSC04925_display_large_display_large.jpg> .
+

@@ -1,0 +1,37 @@
+@prefix : <https://www.thingiverse.com/thing%3A3155/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:GreenComputerSwitch a okh:Module ;
+    rdfs:label "Green Computer Switch" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Motivation\r
+This thing goes between your power outlet and the extension cord to which all your computer gear is connected. The ecological dilemma is that you want to be able to switch on your computer conveniently by one switch, but most devices draw a standby power that can be between 1 and 10 W/device. This adds to your monthly bill.\r
+\r
+Master/Slave extension cords or ones with switches are an alternative. However, after shutting down the PC is quite easy to forget to turn the switch, or there is still the standby current of the computer.\r
+\r
+Function\r
+Hence, this thing is a (partial) remedy. It basically disconnects all the devices from power. By pressing the big push-button, the computer/devices get connected to power. Most PCs have a BIOS setting "Automatic start on power loss". If this is enabled, the computer will boot up while the button is pressed. Of course also the 12V bus in the computer will be powered, and this voltage is connected to my device again, basically holding the button automatically. So after there is power in the PC, the push-button can be released  and will be "pressed" automatically.\r
+Of course, until the PC shuts down. Then, the computer and all other stuff will be disconnected again from all power.\r
+\r
+Approximate building costs: 12â‚¬. \r
+Approximate cost of all PC devices' standby power:8-15â‚¬ per year.\r
+Build time: 2:30h \r
+ \r
+The only drawback is that you cannot use the standby mode any more, as the 12V power will be cut to stop the hard drives. One would need to draw a voltage from the big ATX motherboard connector for that...""" ;
+    okh:hasImage :Image ;
+    okh:licensor "bkubicek" ;
+    okh:repo <https://www.thingiverse.com/thing:3155> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:3155> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Green Computer Switch 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/ac/88/45/2f/e3/IMG_5445_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/ac/88/45/2f/e3/IMG_5445_display_large_display_large.jpg> .
+

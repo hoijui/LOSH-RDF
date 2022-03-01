@@ -1,14 +1,15 @@
-@prefix : <https://wikifactory.com/@annaf/colabyrinth/f5196e83904ac71bbfd5a8725fee5c084c2392c8/> .
+@prefix : <https://wikifactory.com/%40annaf/colabyrinth/f5196e83904ac71bbfd5a8725fee5c084c2392c8/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 :Colabyrinth a okh:Module ;
     rdfs:label "CoLabyrinth" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "A kids game that teaches collaborative problem solving." ;
-    okh:hasComponent :Electronicsbabeduinobabeduine31,
-        :Electronicsledws2812boardfp,
-        :TableDesigncolabyrinth ;
+    okh:hasComponent :Fileselectronicsbabeduinobabeduine31,
+        :Fileselectronicsledws2812boardfp,
+        :FilestableDesigncolabyrinth ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "Anna Aflalo" ;
@@ -16,48 +17,69 @@
     okh:repo <https://wikifactory.com/@annaf/colabyrinth> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
     okh:version "f5196e83904ac71bbfd5a8725fee5c084c2392c8" ;
     okh:versionOf <https://wikifactory.com/@annaf/colabyrinth> .
 
-:Electronicsbabeduinobabeduine31 a okh:Part ;
-    rdfs:label "Electronics/Babeduino/Babeduine3.1" ;
+:Fileselectronicsbabeduinobabeduine31 a okh:Part ;
+    rdfs:label "Files/Electronics/Babeduino/Babeduine3.1" ;
     okh:documentationLanguage "en" ;
-    okh:export :Electronicsbabeduinobabeduine31_export1 ;
+    okh:export :Fileselectronicsbabeduinobabeduine31_export1 ;
     okh:licensor "James Botler" ;
-    okh:source :Electronicsbabeduinobabeduine31_source ;
+    okh:source :Fileselectronicsbabeduinobabeduine31_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Electronicsbabeduinobabeduine31_export1 a okh:ExportFile ;
-    rdfs:label "Export File of Electronics/Babeduino/Babeduine3.1 of CoLabyrinth f5196e83904ac71bbfd5a8725fee5c084c2392c8" ;
+:Fileselectronicsbabeduinobabeduine31_export1 a okh:ExportFile ;
+    rdfs:label "Export File of Files/Electronics/Babeduino/Babeduine3.1 of CoLabyrinth f5196e83904ac71bbfd5a8725fee5c084c2392c8" ;
     okh:fileFormat "SCH" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1077/babeduine31.sch> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToxMjkzMQ==> .
 
-:Electronicsbabeduinobabeduine31_source a okh:SourceFile ;
-    rdfs:label "Source File of Electronics/Babeduino/Babeduine3.1 of CoLabyrinth f5196e83904ac71bbfd5a8725fee5c084c2392c8" ;
+:Fileselectronicsbabeduinobabeduine31_source a okh:SourceFile ;
+    rdfs:label "Source File of Files/Electronics/Babeduino/Babeduine3.1 of CoLabyrinth f5196e83904ac71bbfd5a8725fee5c084c2392c8" ;
     okh:fileFormat "BRD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1077/babeduine31.brd> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToxMjkyOA==> .
 
-:Electronicsledws2812boardfp a okh:Part ;
-    rdfs:label "Electronics/LEDWS2812BoardFP" ;
+:Fileselectronicsledws2812boardfp a okh:Part ;
+    rdfs:label "Files/Electronics/LEDWS2812BoardFP" ;
     okh:documentationLanguage "en" ;
-    okh:export :Electronicsledws2812boardfp_export1 ;
+    okh:export :Fileselectronicsledws2812boardfp_export1 ;
     okh:licensor "James Botler" ;
-    okh:source :Electronicsledws2812boardfp_source ;
+    okh:source :Fileselectronicsledws2812boardfp_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Electronicsledws2812boardfp_export1 a okh:ExportFile ;
-    rdfs:label "Export File of Electronics/LEDWS2812BoardFP of CoLabyrinth f5196e83904ac71bbfd5a8725fee5c084c2392c8" ;
+:Fileselectronicsledws2812boardfp_export1 a okh:ExportFile ;
+    rdfs:label "Export File of Files/Electronics/LEDWS2812BoardFP of CoLabyrinth f5196e83904ac71bbfd5a8725fee5c084c2392c8" ;
     okh:fileFormat "SCH" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1077/ledws2812boardfp-0.sch> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToxMjA0NA==> .
 
-:Electronicsledws2812boardfp_source a okh:SourceFile ;
-    rdfs:label "Source File of Electronics/LEDWS2812BoardFP of CoLabyrinth f5196e83904ac71bbfd5a8725fee5c084c2392c8" ;
+:Fileselectronicsledws2812boardfp_source a okh:SourceFile ;
+    rdfs:label "Source File of Files/Electronics/LEDWS2812BoardFP of CoLabyrinth f5196e83904ac71bbfd5a8725fee5c084c2392c8" ;
     okh:fileFormat "BRD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1077/ledws2812boardfp-0.brd> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToxMjA0Mw==> .
+
+:FilestableDesigncolabyrinth a okh:Part ;
+    rdfs:label "Files/Table Design/CoLabyrinth" ;
+    okh:documentationLanguage "en" ;
+    okh:image :FilestableDesigncolabyrinth_image ;
+    okh:licensor "James Botler" ;
+    okh:source :FilestableDesigncolabyrinth_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:FilestableDesigncolabyrinth_image a okh:Image ;
+    rdfs:label "Image of Files/Table Design/CoLabyrinth of CoLabyrinth f5196e83904ac71bbfd5a8725fee5c084c2392c8" ;
+    okh:fileFormat "AI" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1077/colabyrinth.ai> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjA1Mg==> .
+
+:FilestableDesigncolabyrinth_source a okh:SourceFile ;
+    rdfs:label "Source File of Files/Table Design/CoLabyrinth of CoLabyrinth f5196e83904ac71bbfd5a8725fee5c084c2392c8" ;
+    okh:fileFormat "DWG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1077/colabyrinth-0.dwg> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjA1NA==> .
 
 :Image a okh:Image ;
     rdfs:label "Image of CoLabyrinth f5196e83904ac71bbfd5a8725fee5c084c2392c8" ;
@@ -70,24 +92,4 @@
     okh:fileFormat "MD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1077/readme-21.md> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToxMjkzOQ==> .
-
-:TableDesigncolabyrinth a okh:Part ;
-    rdfs:label "Table Design/CoLabyrinth" ;
-    okh:documentationLanguage "en" ;
-    okh:image :TableDesigncolabyrinth_image ;
-    okh:licensor "James Botler" ;
-    okh:source :TableDesigncolabyrinth_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:TableDesigncolabyrinth_image a okh:Image ;
-    rdfs:label "Image of Table Design/CoLabyrinth of CoLabyrinth f5196e83904ac71bbfd5a8725fee5c084c2392c8" ;
-    okh:fileFormat "AI" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1077/colabyrinth.ai> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjA1Mg==> .
-
-:TableDesigncolabyrinth_source a okh:SourceFile ;
-    rdfs:label "Source File of Table Design/CoLabyrinth of CoLabyrinth f5196e83904ac71bbfd5a8725fee5c084c2392c8" ;
-    okh:fileFormat "DWG" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1077/colabyrinth-0.dwg> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMjA1NA==> .
 

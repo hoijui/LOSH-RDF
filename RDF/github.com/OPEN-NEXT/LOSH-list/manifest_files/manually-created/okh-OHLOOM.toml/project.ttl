@@ -1,0 +1,897 @@
+@prefix : <https://gitlab.com/OSEGermany/ohloom/0.10.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:Ohloom a okh:Module ;
+    rdfs:label "OHLOOM" ;
+    okh:cpcPatentClass "D03D 35/00" ;
+    okh:dataSource "github.com" ;
+    okh:documentationLanguage "en-GB" ;
+    okh:function "The Open Hardware Loom is a simple, hand-operated weaving loom made of wood, screws and 3D printed plastic pieces for the most part. It is simple to make and operate." ;
+    okh:hasBoM :BillOfMaterials ;
+    okh:hasComponent :ClampRing,
+        :Combholder,
+        :Combmodul,
+        :Crossbeam,
+        :Polebase,
+        :RatchetWheel,
+        :Ratchetpawl,
+        :Screwsockets,
+        :ScrewsocketsForScrewhead,
+        :Shuttle,
+        :Sideframe,
+        :Slotbeam,
+        :Stringstick,
+        :Warpclothbeam,
+        :Warpclothbeam1,
+        :Warpclothbeam2,
+        :Warpclothbeam3,
+        :Warpclothbeam4 ;
+    okh:hasImage :Image ;
+    okh:hasManufacturingInstructions :ManufacturingInstructions ;
+    okh:hasReadme :Readme ;
+    okh:hasUserManual :UserManual ;
+    okh:licensor "Jens Meisner" ;
+    okh:organisation "OSE Germany e.V." ;
+    okh:release <https://gitlab.com/OSEGermany/ohloom/-/tags/ohloom-0.10.0> ;
+    okh:repo <https://gitlab.com/OSEGermany/ohloom> ;
+    okh:repoHost "gitlab.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:tsdc "MEC" ;
+    okh:uploadMethod "manifest" ;
+    okh:version "0.10.0" ;
+    okh:versionOf <https://gitlab.com/OSEGermany/ohloom> .
+
+:BillOfMaterials a okh:BoM ;
+    rdfs:label "BillOfMaterials of OHLOOM 0.10.0" ;
+    okh:fileFormat "CSV" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/manifest_files/manually-created/sBoM.csv> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/manifest_files/manually-created/sBoM.csv> .
+
+:ClampRing a okh:Part ;
+    rdfs:label "Clamp Ring" ;
+    okh:documentationLanguage "en-GB" ;
+    okh:export :ClampRing_export1,
+        :ClampRing_export2 ;
+    okh:hasMass :ClampRing_Mass ;
+    okh:hasOuterDimensions :ClampRing_OuterDimensions ;
+    okh:image :ClampRing_image ;
+    okh:licensor "Jens Meisner" ;
+    okh:material "ABS" ;
+    okh:source :ClampRing_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:tsdc "3DP" .
+
+:ClampRing_Mass a okh:Mass ;
+    rdfs:label "Mass of Clamp Ring" ;
+    okh:unit "g" ;
+    okh:value 3e+01 .
+
+:ClampRing_OuterDimensions a okh:OuterDimensions ;
+    rdfs:label "Outer Dimensions of Clamp Ring" ;
+    okh:openSCAD "cylinder(h=30, r=28)" ;
+    okh:unit "mm" .
+
+:ClampRing_export1 a okh:ExportFile ;
+    rdfs:label "Export File of Clamp Ring of OHLOOM 0.10.0" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/ClampRing/ClampRing.pdf> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/ClampRing/ClampRing.pdf> .
+
+:ClampRing_export2 a okh:ExportFile ;
+    rdfs:label "Export File of Clamp Ring of OHLOOM 0.10.0" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/ClampRing/ClampRing.stl> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/ClampRing/ClampRing.stl> .
+
+:ClampRing_image a okh:Image ;
+    rdfs:label "Image of Clamp Ring of OHLOOM 0.10.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/Documentation/Assembly_Guide/Parts_Print_2.jpg> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/Documentation/Assembly_Guide/Parts_Print_2.jpg> .
+
+:ClampRing_source a okh:SourceFile ;
+    rdfs:label "Source File of Clamp Ring of OHLOOM 0.10.0" ;
+    okh:fileFormat "SCAD" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/ClampRing/ClampRing.scad> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/ClampRing/ClampRing.scad> .
+
+:Combholder a okh:Part ;
+    rdfs:label "CombHolder" ;
+    okh:documentationLanguage "en-GB" ;
+    okh:export :Combholder_export1,
+        :Combholder_export2 ;
+    okh:hasMass :Combholder_Mass ;
+    okh:hasOuterDimensions :Combholder_OuterDimensions ;
+    okh:image :Combholder_image ;
+    okh:licensor "Jens Meisner" ;
+    okh:material "wood" ;
+    okh:source :Combholder_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Combholder_Mass a okh:Mass ;
+    rdfs:label "Mass of CombHolder" ;
+    okh:unit "g" ;
+    okh:value 1.6e+02 .
+
+:Combholder_OuterDimensions a okh:OuterDimensions ;
+    rdfs:label "Outer Dimensions of CombHolder" ;
+    okh:openSCAD "cube(size = [118,60,18]" ;
+    okh:unit "mm" .
+
+:Combholder_export1 a okh:ExportFile ;
+    rdfs:label "Export File of CombHolder of OHLOOM 0.10.0" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/WoodParts/CombHolder/CombHolder.pdf> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/WoodParts/CombHolder/CombHolder.pdf> .
+
+:Combholder_export2 a okh:ExportFile ;
+    rdfs:label "Export File of CombHolder of OHLOOM 0.10.0" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/WoodParts/CombHolder/CombHolder.stl> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/WoodParts/CombHolder/CombHolder.stl> .
+
+:Combholder_image a okh:Image ;
+    rdfs:label "Image of CombHolder of OHLOOM 0.10.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/Documentation/Assembly_Guide/Parts_CNC_1.jpg> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/Documentation/Assembly_Guide/Parts_CNC_1.jpg> .
+
+:Combholder_source a okh:SourceFile ;
+    rdfs:label "Source File of CombHolder of OHLOOM 0.10.0" ;
+    okh:fileFormat "SCAD" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/WoodParts/CombHolder/CombHolder.scad> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/WoodParts/CombHolder/CombHolder.scad> .
+
+:Combmodul a okh:Part ;
+    rdfs:label "CombModul" ;
+    okh:documentationLanguage "en-GB" ;
+    okh:export :Combmodul_export1,
+        :Combmodul_export2 ;
+    okh:hasMass :Combmodul_Mass ;
+    okh:hasOuterDimensions :Combmodul_OuterDimensions ;
+    okh:image :Combmodul_image ;
+    okh:licensor "Jens Meisner" ;
+    okh:material "PLA" ;
+    okh:source :Combmodul_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:tsdc "3DP" .
+
+:Combmodul_Mass a okh:Mass ;
+    rdfs:label "Mass of CombModul" ;
+    okh:unit "g" ;
+    okh:value 3e+01 .
+
+:Combmodul_OuterDimensions a okh:OuterDimensions ;
+    rdfs:label "Outer Dimensions of CombModul" ;
+    okh:openSCAD "cube(size = [120,100,5]" ;
+    okh:unit "mm" .
+
+:Combmodul_export1 a okh:ExportFile ;
+    rdfs:label "Export File of CombModul of OHLOOM 0.10.0" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/CombModul/CombModul.pdf> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/CombModul/CombModul.pdf> .
+
+:Combmodul_export2 a okh:ExportFile ;
+    rdfs:label "Export File of CombModul of OHLOOM 0.10.0" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/CombModul/CombModul.stl> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/CombModul/CombModul.stl> .
+
+:Combmodul_image a okh:Image ;
+    rdfs:label "Image of CombModul of OHLOOM 0.10.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/manifest_files/manually-created/Documentation/Assembly_Guide/Parts_Print_3.jpg> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/manifest_files/manually-created/Documentation/Assembly_Guide/Parts_Print_3.jpg> .
+
+:Combmodul_source a okh:SourceFile ;
+    rdfs:label "Source File of CombModul of OHLOOM 0.10.0" ;
+    okh:fileFormat "SCAD" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/CombModul/CombModul.scad> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/CombModul/CombModul.scad> .
+
+:Crossbeam a okh:Part ;
+    rdfs:label "CrossBeam" ;
+    okh:documentationLanguage "en-GB" ;
+    okh:export :Crossbeam_export1,
+        :Crossbeam_export2 ;
+    okh:hasMass :Crossbeam_Mass ;
+    okh:hasOuterDimensions :Crossbeam_OuterDimensions ;
+    okh:image :Crossbeam_image ;
+    okh:licensor "Jens Meisner" ;
+    okh:material "wood" ;
+    okh:source :Crossbeam_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Crossbeam_Mass a okh:Mass ;
+    rdfs:label "Mass of CrossBeam" ;
+    okh:unit "g" ;
+    okh:value 5.5e+02 .
+
+:Crossbeam_OuterDimensions a okh:OuterDimensions ;
+    rdfs:label "Outer Dimensions of CrossBeam" ;
+    okh:openSCAD "cube(size = [572,100,20]" ;
+    okh:unit "mm" .
+
+:Crossbeam_export1 a okh:ExportFile ;
+    rdfs:label "Export File of CrossBeam of OHLOOM 0.10.0" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/WoodParts/CrossBeam/CrossBeam.pdf> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/WoodParts/CrossBeam/CrossBeam.pdf> .
+
+:Crossbeam_export2 a okh:ExportFile ;
+    rdfs:label "Export File of CrossBeam of OHLOOM 0.10.0" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/WoodParts/CrossBeam/CrossBeam.stl> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/WoodParts/CrossBeam/CrossBeam.stl> .
+
+:Crossbeam_image a okh:Image ;
+    rdfs:label "Image of CrossBeam of OHLOOM 0.10.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/Documentation/Assembly_Guide/Parts_CNC_3.jpg> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/Documentation/Assembly_Guide/Parts_CNC_3.jpg> .
+
+:Crossbeam_source a okh:SourceFile ;
+    rdfs:label "Source File of CrossBeam of OHLOOM 0.10.0" ;
+    okh:fileFormat "SCAD" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/WoodParts/CrossBeam/CrossBeam.scad> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/WoodParts/CrossBeam/CrossBeam.scad> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of OHLOOM 0.10.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/Documentation/User_Guide/User_Guide.jpg> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/Documentation/User_Guide/User_Guide.jpg> .
+
+:ManufacturingInstructions a okh:ManufacturingInstructions ;
+    rdfs:label "ManufacturingInstructions of OHLOOM 0.10.0" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/Documentation/Assembly_Guide/AssemblyGuide.md> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/Documentation/Assembly_Guide/AssemblyGuide.md> .
+
+:Polebase a okh:Part ;
+    rdfs:label "PoleBase" ;
+    okh:documentationLanguage "en-GB" ;
+    okh:hasMass :Polebase_Mass ;
+    okh:hasOuterDimensions :Polebase_OuterDimensions ;
+    okh:licensor "Jens Meisner" ;
+    okh:material "PLA" ;
+    okh:source :Polebase_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:tsdc "3DP" .
+
+:Polebase_Mass a okh:Mass ;
+    rdfs:label "Mass of PoleBase" ;
+    okh:unit "g" ;
+    okh:value 8.5e+01 .
+
+:Polebase_OuterDimensions a okh:OuterDimensions ;
+    rdfs:label "Outer Dimensions of PoleBase" ;
+    okh:openSCAD "cube(size = [130,115,100]" ;
+    okh:unit "mm" .
+
+:Polebase_source a okh:SourceFile ;
+    rdfs:label "Source File of PoleBase of OHLOOM 0.10.0" ;
+    okh:fileFormat "SCAD" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/PoleBase/PoleBase.scad> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/PoleBase/PoleBase.scad> .
+
+:RatchetWheel a okh:Part ;
+    rdfs:label "Ratchet Wheel" ;
+    okh:documentationLanguage "en-GB" ;
+    okh:export :RatchetWheel_export1,
+        :RatchetWheel_export2 ;
+    okh:hasMass :RatchetWheel_Mass ;
+    okh:hasOuterDimensions :RatchetWheel_OuterDimensions ;
+    okh:image :RatchetWheel_image ;
+    okh:licensor "Jens Meisner" ;
+    okh:material "PLA" ;
+    okh:source :RatchetWheel_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:tsdc "3DP" .
+
+:RatchetWheel_Mass a okh:Mass ;
+    rdfs:label "Mass of Ratchet Wheel" ;
+    okh:unit "g" ;
+    okh:value 6.5e+01 .
+
+:RatchetWheel_OuterDimensions a okh:OuterDimensions ;
+    rdfs:label "Outer Dimensions of Ratchet Wheel" ;
+    okh:openSCAD "cylinder(h=45, r=45)" ;
+    okh:unit "mm" .
+
+:RatchetWheel_export1 a okh:ExportFile ;
+    rdfs:label "Export File of Ratchet Wheel of OHLOOM 0.10.0" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/RatchetWheel/RatchetWheel.pdf> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/RatchetWheel/RatchetWheel.pdf> .
+
+:RatchetWheel_export2 a okh:ExportFile ;
+    rdfs:label "Export File of Ratchet Wheel of OHLOOM 0.10.0" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/RatchetWheel/RatchetWheel.stl> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/RatchetWheel/RatchetWheel.stl> .
+
+:RatchetWheel_image a okh:Image ;
+    rdfs:label "Image of Ratchet Wheel of OHLOOM 0.10.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/manifest_files/manually-created/Documentation/Assembly_Guide/Parts_Print_1.jpg> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/manifest_files/manually-created/Documentation/Assembly_Guide/Parts_Print_1.jpg> .
+
+:RatchetWheel_source a okh:SourceFile ;
+    rdfs:label "Source File of Ratchet Wheel of OHLOOM 0.10.0" ;
+    okh:fileFormat "SCAD" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/RatchetWheel/RatchetWheel.scad> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/RatchetWheel/RatchetWheel.scad> .
+
+:Ratchetpawl a okh:Part ;
+    rdfs:label "RatchetPawl" ;
+    okh:documentationLanguage "en-GB" ;
+    okh:export :Ratchetpawl_export1,
+        :Ratchetpawl_export2 ;
+    okh:hasMass :Ratchetpawl_Mass ;
+    okh:hasOuterDimensions :Ratchetpawl_OuterDimensions ;
+    okh:image :Ratchetpawl_image ;
+    okh:licensor "Jens Meisner" ;
+    okh:material "PLA" ;
+    okh:source :Ratchetpawl_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:tsdc "3DP" .
+
+:Ratchetpawl_Mass a okh:Mass ;
+    rdfs:label "Mass of RatchetPawl" ;
+    okh:unit "g" ;
+    okh:value 3e+01 .
+
+:Ratchetpawl_OuterDimensions a okh:OuterDimensions ;
+    rdfs:label "Outer Dimensions of RatchetPawl" ;
+    okh:openSCAD "cube(size = [130,20,20]" ;
+    okh:unit "mm" .
+
+:Ratchetpawl_export1 a okh:ExportFile ;
+    rdfs:label "Export File of RatchetPawl of OHLOOM 0.10.0" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/RatchetPawl/RatchetPawl.pdf> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/RatchetPawl/RatchetPawl.pdf> .
+
+:Ratchetpawl_export2 a okh:ExportFile ;
+    rdfs:label "Export File of RatchetPawl of OHLOOM 0.10.0" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/RatchetPawl/RatchetPawl.stl> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/RatchetPawl/RatchetPawl.stl> .
+
+:Ratchetpawl_image a okh:Image ;
+    rdfs:label "Image of RatchetPawl of OHLOOM 0.10.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/manifest_files/manually-created/Documentation/Assembly_Guide/Parts_Print_4.jpg> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/manifest_files/manually-created/Documentation/Assembly_Guide/Parts_Print_4.jpg> .
+
+:Ratchetpawl_source a okh:SourceFile ;
+    rdfs:label "Source File of RatchetPawl of OHLOOM 0.10.0" ;
+    okh:fileFormat "SCAD" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/RatchetPawl/RatchetPawl.scad> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/RatchetPawl/RatchetPawl.scad> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of OHLOOM 0.10.0" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/manifest_files/manually-created/README.md> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/manifest_files/manually-created/README.md> .
+
+:Screwsockets a okh:Part ;
+    rdfs:label "ScrewSockets" ;
+    okh:documentationLanguage "en-GB" ;
+    okh:export :Screwsockets_export1,
+        :Screwsockets_export2 ;
+    okh:hasMass :Screwsockets_Mass ;
+    okh:hasOuterDimensions :Screwsockets_OuterDimensions ;
+    okh:image :Screwsockets_image ;
+    okh:licensor "Jens Meisner" ;
+    okh:material "PLA" ;
+    okh:source :Screwsockets_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:tsdc "3DP" .
+
+:ScrewsocketsForScrewhead a okh:Part ;
+    rdfs:label "ScrewSockets for ScrewHead" ;
+    okh:documentationLanguage "en-GB" ;
+    okh:hasMass :ScrewsocketsForScrewhead_Mass ;
+    okh:hasOuterDimensions :ScrewsocketsForScrewhead_OuterDimensions ;
+    okh:image :ScrewsocketsForScrewhead_image ;
+    okh:licensor "Jens Meisner" ;
+    okh:material "PLA" ;
+    okh:source :ScrewsocketsForScrewhead_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:tsdc "3DP" .
+
+:ScrewsocketsForScrewhead_Mass a okh:Mass ;
+    rdfs:label "Mass of ScrewSockets for ScrewHead" ;
+    okh:unit "g" ;
+    okh:value 5e+00 .
+
+:ScrewsocketsForScrewhead_OuterDimensions a okh:OuterDimensions ;
+    rdfs:label "Outer Dimensions of ScrewSockets for ScrewHead" ;
+    okh:openSCAD "cylinder(h=12, r=7)" ;
+    okh:unit "mm" .
+
+:ScrewsocketsForScrewhead_image a okh:Image ;
+    rdfs:label "Image of ScrewSockets for ScrewHead of OHLOOM 0.10.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/Documentation/Assembly_Guide/Parts_Print_5.jpg> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/Documentation/Assembly_Guide/Parts_Print_5.jpg> .
+
+:ScrewsocketsForScrewhead_source a okh:SourceFile ;
+    rdfs:label "Source File of ScrewSockets for ScrewHead of OHLOOM 0.10.0" ;
+    okh:fileFormat "SCAD" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/ScrewSockets/ScrewSockets.scad> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/ScrewSockets/ScrewSockets.scad> .
+
+:Screwsockets_Mass a okh:Mass ;
+    rdfs:label "Mass of ScrewSockets" ;
+    okh:unit "g" ;
+    okh:value 5e+00 .
+
+:Screwsockets_OuterDimensions a okh:OuterDimensions ;
+    rdfs:label "Outer Dimensions of ScrewSockets" ;
+    okh:openSCAD "cylinder(h=12, r=7)" ;
+    okh:unit "mm" .
+
+:Screwsockets_export1 a okh:ExportFile ;
+    rdfs:label "Export File of ScrewSockets of OHLOOM 0.10.0" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/ScrewSockets/ScrewSockets.pdf> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/ScrewSockets/ScrewSockets.pdf> .
+
+:Screwsockets_export2 a okh:ExportFile ;
+    rdfs:label "Export File of ScrewSockets of OHLOOM 0.10.0" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/ScrewSockets/ScrewSockets.stl> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/ScrewSockets/ScrewSockets.stl> .
+
+:Screwsockets_image a okh:Image ;
+    rdfs:label "Image of ScrewSockets of OHLOOM 0.10.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/Documentation/Assembly_Guide/Parts_Print_6.jpg> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/Documentation/Assembly_Guide/Parts_Print_6.jpg> .
+
+:Screwsockets_source a okh:SourceFile ;
+    rdfs:label "Source File of ScrewSockets of OHLOOM 0.10.0" ;
+    okh:fileFormat "SCAD" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/ScrewSockets/ScrewSockets.scad> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/ScrewSockets/ScrewSockets.scad> .
+
+:Shuttle a okh:Part ;
+    rdfs:label "Shuttle" ;
+    okh:documentationLanguage "en-GB" ;
+    okh:export :Shuttle_export1,
+        :Shuttle_export2 ;
+    okh:hasMass :Shuttle_Mass ;
+    okh:hasOuterDimensions :Shuttle_OuterDimensions ;
+    okh:image :Shuttle_image ;
+    okh:licensor "Jens Meisner" ;
+    okh:material "wood" ;
+    okh:source :Shuttle_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Shuttle_Mass a okh:Mass ;
+    rdfs:label "Mass of Shuttle" ;
+    okh:unit "g" ;
+    okh:value 6.5e+01 .
+
+:Shuttle_OuterDimensions a okh:OuterDimensions ;
+    rdfs:label "Outer Dimensions of Shuttle" ;
+    okh:openSCAD "cube(size = [497,45,6]" ;
+    okh:unit "mm" .
+
+:Shuttle_export1 a okh:ExportFile ;
+    rdfs:label "Export File of Shuttle of OHLOOM 0.10.0" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/WoodParts/Shuttle/Shuttle.pdf> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/WoodParts/Shuttle/Shuttle.pdf> .
+
+:Shuttle_export2 a okh:ExportFile ;
+    rdfs:label "Export File of Shuttle of OHLOOM 0.10.0" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/WoodParts/Shuttle/Shuttle.stl> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/WoodParts/Shuttle/Shuttle.stl> .
+
+:Shuttle_image a okh:Image ;
+    rdfs:label "Image of Shuttle of OHLOOM 0.10.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/Documentation/Assembly_Guide/Parts_CNC_6.jpg> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/Documentation/Assembly_Guide/Parts_CNC_6.jpg> .
+
+:Shuttle_source a okh:SourceFile ;
+    rdfs:label "Source File of Shuttle of OHLOOM 0.10.0" ;
+    okh:fileFormat "SCAD" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/WoodParts/Shuttle/Shuttle.scad> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/WoodParts/Shuttle/Shuttle.scad> .
+
+:Sideframe a okh:Part ;
+    rdfs:label "SideFrame" ;
+    okh:documentationLanguage "en-GB" ;
+    okh:export :Sideframe_export1,
+        :Sideframe_export2 ;
+    okh:hasMass :Sideframe_Mass ;
+    okh:hasOuterDimensions :Sideframe_OuterDimensions ;
+    okh:image :Sideframe_image ;
+    okh:licensor "Jens Meisner" ;
+    okh:material "wood" ;
+    okh:source :Sideframe_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Sideframe_Mass a okh:Mass ;
+    rdfs:label "Mass of SideFrame" ;
+    okh:unit "g" ;
+    okh:value 7e+02 .
+
+:Sideframe_OuterDimensions a okh:OuterDimensions ;
+    rdfs:label "Outer Dimensions of SideFrame" ;
+    okh:openSCAD "cube(size = [580,140,18]" ;
+    okh:unit "mm" .
+
+:Sideframe_export1 a okh:ExportFile ;
+    rdfs:label "Export File of SideFrame of OHLOOM 0.10.0" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/WoodParts/SideFrame/SideFrame.pdf> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/WoodParts/SideFrame/SideFrame.pdf> .
+
+:Sideframe_export2 a okh:ExportFile ;
+    rdfs:label "Export File of SideFrame of OHLOOM 0.10.0" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/WoodParts/SideFrame/SideFrame.stl> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/WoodParts/SideFrame/SideFrame.stl> .
+
+:Sideframe_image a okh:Image ;
+    rdfs:label "Image of SideFrame of OHLOOM 0.10.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/Documentation/Assembly_Guide/Parts_CNC_2.jpg> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/Documentation/Assembly_Guide/Parts_CNC_2.jpg> .
+
+:Sideframe_source a okh:SourceFile ;
+    rdfs:label "Source File of SideFrame of OHLOOM 0.10.0" ;
+    okh:fileFormat "SCAD" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/WoodParts/SideFrame/SideFrame.scad> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/WoodParts/SideFrame/SideFrame.scad> .
+
+:Slotbeam a okh:Part ;
+    rdfs:label "SlotBeam" ;
+    okh:documentationLanguage "en-GB" ;
+    okh:export :Slotbeam_export1,
+        :Slotbeam_export2 ;
+    okh:hasMass :Slotbeam_Mass ;
+    okh:hasOuterDimensions :Slotbeam_OuterDimensions ;
+    okh:image :Slotbeam_image ;
+    okh:licensor "Jens Meisner" ;
+    okh:material "wood" ;
+    okh:source :Slotbeam_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Slotbeam_Mass a okh:Mass ;
+    rdfs:label "Mass of SlotBeam" ;
+    okh:unit "g" ;
+    okh:value 1.5e+01 .
+
+:Slotbeam_OuterDimensions a okh:OuterDimensions ;
+    rdfs:label "Outer Dimensions of SlotBeam" ;
+    okh:openSCAD "cube(size = [566,24,22]" ;
+    okh:unit "mm" .
+
+:Slotbeam_export1 a okh:ExportFile ;
+    rdfs:label "Export File of SlotBeam of OHLOOM 0.10.0" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/WoodParts/SlotBeam/SlotBeam.pdf> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/WoodParts/SlotBeam/SlotBeam.pdf> .
+
+:Slotbeam_export2 a okh:ExportFile ;
+    rdfs:label "Export File of SlotBeam of OHLOOM 0.10.0" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/WoodParts/SlotBeam/SlotBeam.stl> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/WoodParts/SlotBeam/SlotBeam.stl> .
+
+:Slotbeam_image a okh:Image ;
+    rdfs:label "Image of SlotBeam of OHLOOM 0.10.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/Documentation/Assembly_Guide/Parts_CNC_4.jpg> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/Documentation/Assembly_Guide/Parts_CNC_4.jpg> .
+
+:Slotbeam_source a okh:SourceFile ;
+    rdfs:label "Source File of SlotBeam of OHLOOM 0.10.0" ;
+    okh:fileFormat "SCAD" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/WoodParts/SlotBeam/SlotBeam.scad> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/WoodParts/SlotBeam/SlotBeam.scad> .
+
+:Stringstick a okh:Part ;
+    rdfs:label "StringStick" ;
+    okh:documentationLanguage "en-GB" ;
+    okh:export :Stringstick_export1,
+        :Stringstick_export2 ;
+    okh:hasMass :Stringstick_Mass ;
+    okh:hasOuterDimensions :Stringstick_OuterDimensions ;
+    okh:image :Stringstick_image ;
+    okh:licensor "Jens Meisner" ;
+    okh:material "wood" ;
+    okh:source :Stringstick_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Stringstick_Mass a okh:Mass ;
+    rdfs:label "Mass of StringStick" ;
+    okh:unit "g" ;
+    okh:value 3.5e+01 .
+
+:Stringstick_OuterDimensions a okh:OuterDimensions ;
+    rdfs:label "Outer Dimensions of StringStick" ;
+    okh:openSCAD "cube(size = [560,22,6]" ;
+    okh:unit "mm" .
+
+:Stringstick_export1 a okh:ExportFile ;
+    rdfs:label "Export File of StringStick of OHLOOM 0.10.0" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/WoodParts/StringStick/StringStick.pdf> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/WoodParts/StringStick/StringStick.pdf> .
+
+:Stringstick_export2 a okh:ExportFile ;
+    rdfs:label "Export File of StringStick of OHLOOM 0.10.0" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/WoodParts/StringStick/StringStick.stl> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/WoodParts/StringStick/StringStick.stl> .
+
+:Stringstick_image a okh:Image ;
+    rdfs:label "Image of StringStick of OHLOOM 0.10.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/Documentation/Assembly_Guide/Parts_CNC_5.jpg> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/Documentation/Assembly_Guide/Parts_CNC_5.jpg> .
+
+:Stringstick_source a okh:SourceFile ;
+    rdfs:label "Source File of StringStick of OHLOOM 0.10.0" ;
+    okh:fileFormat "SCAD" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/WoodParts/StringStick/StringStick.scad> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/WoodParts/StringStick/StringStick.scad> .
+
+:UserManual a okh:UserManual ;
+    rdfs:label "UserManual of OHLOOM 0.10.0" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/Documentation/User_Guide/UserGuide.md> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/Documentation/User_Guide/UserGuide.md> .
+
+:Warpclothbeam a okh:Part ;
+    rdfs:label "WarpClothBeam" ;
+    okh:documentationLanguage "en-GB" ;
+    okh:export :Warpclothbeam_export1,
+        :Warpclothbeam_export2 ;
+    okh:hasMass :Warpclothbeam_Mass ;
+    okh:hasOuterDimensions :Warpclothbeam_OuterDimensions ;
+    okh:image :Warpclothbeam_image ;
+    okh:licensor "Jens Meisner" ;
+    okh:material "wood" ;
+    okh:source :Warpclothbeam_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Warpclothbeam1 a okh:Part ;
+    rdfs:label "Warpclothbeam 1" ;
+    okh:documentationLanguage "en-GB" ;
+    okh:export :Warpclothbeam1_export1,
+        :Warpclothbeam1_export2 ;
+    okh:hasMass :Warpclothbeam1_Mass ;
+    okh:hasOuterDimensions :Warpclothbeam1_OuterDimensions ;
+    okh:image :Warpclothbeam1_image ;
+    okh:licensor "Jens Meisner" ;
+    okh:material "PLA" ;
+    okh:source :Warpclothbeam1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:tsdc "3DP" .
+
+:Warpclothbeam1_Mass a okh:Mass ;
+    rdfs:label "Mass of Warpclothbeam 1" ;
+    okh:unit "g" ;
+    okh:value 6.5e+01 .
+
+:Warpclothbeam1_OuterDimensions a okh:OuterDimensions ;
+    rdfs:label "Outer Dimensions of Warpclothbeam 1" ;
+    okh:openSCAD "cylinder(h=163, r=22.5)" ;
+    okh:unit "mm" .
+
+:Warpclothbeam1_export1 a okh:ExportFile ;
+    rdfs:label "Export File of Warpclothbeam 1 of OHLOOM 0.10.0" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/WarpClothBeam/Warpclothbeam_P1.pdf> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/WarpClothBeam/Warpclothbeam_P1.pdf> .
+
+:Warpclothbeam1_export2 a okh:ExportFile ;
+    rdfs:label "Export File of Warpclothbeam 1 of OHLOOM 0.10.0" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/WarpClothBeam/Warpclothbeam_1.stl> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/WarpClothBeam/Warpclothbeam_1.stl> .
+
+:Warpclothbeam1_image a okh:Image ;
+    rdfs:label "Image of Warpclothbeam 1 of OHLOOM 0.10.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/manifest_files/manually-created/Documentation/Assembly_Guide/Parts_Print_7.jpg> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/manifest_files/manually-created/Documentation/Assembly_Guide/Parts_Print_7.jpg> .
+
+:Warpclothbeam1_source a okh:SourceFile ;
+    rdfs:label "Source File of Warpclothbeam 1 of OHLOOM 0.10.0" ;
+    okh:fileFormat "SCAD" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/WarpClothBeam/Warpclothbeam_P1.scad> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/WarpClothBeam/Warpclothbeam_P1.scad> .
+
+:Warpclothbeam2 a okh:Part ;
+    rdfs:label "Warpclothbeam 2" ;
+    okh:documentationLanguage "en-GB" ;
+    okh:export :Warpclothbeam2_export1,
+        :Warpclothbeam2_export2 ;
+    okh:hasMass :Warpclothbeam2_Mass ;
+    okh:hasOuterDimensions :Warpclothbeam2_OuterDimensions ;
+    okh:image :Warpclothbeam2_image ;
+    okh:licensor "Jens Meisner" ;
+    okh:material "PLA" ;
+    okh:source :Warpclothbeam2_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:tsdc "3DP" .
+
+:Warpclothbeam2_Mass a okh:Mass ;
+    rdfs:label "Mass of Warpclothbeam 2" ;
+    okh:unit "g" ;
+    okh:value 6.5e+01 .
+
+:Warpclothbeam2_OuterDimensions a okh:OuterDimensions ;
+    rdfs:label "Outer Dimensions of Warpclothbeam 2" ;
+    okh:openSCAD "cylinder(h=162, r=22.5)" ;
+    okh:unit "mm" .
+
+:Warpclothbeam2_export1 a okh:ExportFile ;
+    rdfs:label "Export File of Warpclothbeam 2 of OHLOOM 0.10.0" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/WarpClothBeam/Warpclothbeam_P2.pdf> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/WarpClothBeam/Warpclothbeam_P2.pdf> .
+
+:Warpclothbeam2_export2 a okh:ExportFile ;
+    rdfs:label "Export File of Warpclothbeam 2 of OHLOOM 0.10.0" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/WarpClothBeam/Warpclothbeam_2.stl> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/WarpClothBeam/Warpclothbeam_2.stl> .
+
+:Warpclothbeam2_image a okh:Image ;
+    rdfs:label "Image of Warpclothbeam 2 of OHLOOM 0.10.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/manifest_files/manually-created/Documentation/Assembly_Guide/Parts_Print_7.jpg> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/manifest_files/manually-created/Documentation/Assembly_Guide/Parts_Print_7.jpg> .
+
+:Warpclothbeam2_source a okh:SourceFile ;
+    rdfs:label "Source File of Warpclothbeam 2 of OHLOOM 0.10.0" ;
+    okh:fileFormat "SCAD" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/WarpClothBeam/Warpclothbeam_P2.scad> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/WarpClothBeam/Warpclothbeam_P2.scad> .
+
+:Warpclothbeam3 a okh:Part ;
+    rdfs:label "Warpclothbeam 3" ;
+    okh:documentationLanguage "en-GB" ;
+    okh:export :Warpclothbeam3_export1,
+        :Warpclothbeam3_export2 ;
+    okh:hasMass :Warpclothbeam3_Mass ;
+    okh:hasOuterDimensions :Warpclothbeam3_OuterDimensions ;
+    okh:image :Warpclothbeam3_image ;
+    okh:licensor "Jens Meisner" ;
+    okh:material "PLA" ;
+    okh:source :Warpclothbeam3_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:tsdc "3DP" .
+
+:Warpclothbeam3_Mass a okh:Mass ;
+    rdfs:label "Mass of Warpclothbeam 3" ;
+    okh:unit "g" ;
+    okh:value 6.5e+01 .
+
+:Warpclothbeam3_OuterDimensions a okh:OuterDimensions ;
+    rdfs:label "Outer Dimensions of Warpclothbeam 3" ;
+    okh:openSCAD "cylinder(h=163, r=22.5)" ;
+    okh:unit "mm" .
+
+:Warpclothbeam3_export1 a okh:ExportFile ;
+    rdfs:label "Export File of Warpclothbeam 3 of OHLOOM 0.10.0" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/WarpClothBeam/Warpclothbeam_P3.pdf> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/WarpClothBeam/Warpclothbeam_P3.pdf> .
+
+:Warpclothbeam3_export2 a okh:ExportFile ;
+    rdfs:label "Export File of Warpclothbeam 3 of OHLOOM 0.10.0" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/WarpClothBeam/Warpclothbeam_3.stl> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/WarpClothBeam/Warpclothbeam_3.stl> .
+
+:Warpclothbeam3_image a okh:Image ;
+    rdfs:label "Image of Warpclothbeam 3 of OHLOOM 0.10.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/manifest_files/manually-created/Documentation/Assembly_Guide/Parts_Print_7.jpg> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/manifest_files/manually-created/Documentation/Assembly_Guide/Parts_Print_7.jpg> .
+
+:Warpclothbeam3_source a okh:SourceFile ;
+    rdfs:label "Source File of Warpclothbeam 3 of OHLOOM 0.10.0" ;
+    okh:fileFormat "SCAD" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/WarpClothBeam/Warpclothbeam_P3.scad> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/WarpClothBeam/Warpclothbeam_P3.scad> .
+
+:Warpclothbeam4 a okh:Part ;
+    rdfs:label "Warpclothbeam 4" ;
+    okh:documentationLanguage "en-GB" ;
+    okh:export :Warpclothbeam4_export1,
+        :Warpclothbeam4_export2 ;
+    okh:hasMass :Warpclothbeam4_Mass ;
+    okh:hasOuterDimensions :Warpclothbeam4_OuterDimensions ;
+    okh:image :Warpclothbeam4_image ;
+    okh:licensor "Jens Meisner" ;
+    okh:material "PLA" ;
+    okh:source :Warpclothbeam4_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:tsdc "3DP" .
+
+:Warpclothbeam4_Mass a okh:Mass ;
+    rdfs:label "Mass of Warpclothbeam 4" ;
+    okh:unit "g" ;
+    okh:value 6e+01 .
+
+:Warpclothbeam4_OuterDimensions a okh:OuterDimensions ;
+    rdfs:label "Outer Dimensions of Warpclothbeam 4" ;
+    okh:openSCAD "cylinder(h=140, r=22)" ;
+    okh:unit "mm" .
+
+:Warpclothbeam4_export1 a okh:ExportFile ;
+    rdfs:label "Export File of Warpclothbeam 4 of OHLOOM 0.10.0" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/WarpClothBeam/Warpclothbeam_P4.pdf> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/WarpClothBeam/Warpclothbeam_P4.pdf> .
+
+:Warpclothbeam4_export2 a okh:ExportFile ;
+    rdfs:label "Export File of Warpclothbeam 4 of OHLOOM 0.10.0" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/WarpClothBeam/Warpclothbeam_4.stl> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/WarpClothBeam/Warpclothbeam_4.stl> .
+
+:Warpclothbeam4_image a okh:Image ;
+    rdfs:label "Image of Warpclothbeam 4 of OHLOOM 0.10.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/manifest_files/manually-created/Documentation/Assembly_Guide/Parts_Print_7.jpg> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/manifest_files/manually-created/Documentation/Assembly_Guide/Parts_Print_7.jpg> .
+
+:Warpclothbeam4_source a okh:SourceFile ;
+    rdfs:label "Source File of Warpclothbeam 4 of OHLOOM 0.10.0" ;
+    okh:fileFormat "SCAD" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/WarpClothBeam/Warpclothbeam_P4.scad> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/WarpClothBeam/Warpclothbeam_P4.scad> .
+
+:Warpclothbeam_Mass a okh:Mass ;
+    rdfs:label "Mass of WarpClothBeam" ;
+    okh:unit "g" ;
+    okh:value 3.3e+02 .
+
+:Warpclothbeam_OuterDimensions a okh:OuterDimensions ;
+    rdfs:label "Outer Dimensions of WarpClothBeam" ;
+    okh:openSCAD "cylinder(h=710, r=17.5)" ;
+    okh:unit "mm" .
+
+:Warpclothbeam_export1 a okh:ExportFile ;
+    rdfs:label "Export File of WarpClothBeam of OHLOOM 0.10.0" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/WoodParts/WarpClothBeam_NoCNC/WarpClothBeam_Shaft.pdf> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/WoodParts/WarpClothBeam_NoCNC/WarpClothBeam_Shaft.pdf> .
+
+:Warpclothbeam_export2 a okh:ExportFile ;
+    rdfs:label "Export File of WarpClothBeam of OHLOOM 0.10.0" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/WoodParts/WarpClothBeam_NoCNC/WarpClothBeam_Wood_NoCNC.stl> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/WoodParts/WarpClothBeam_NoCNC/WarpClothBeam_Wood_NoCNC.stl> .
+
+:Warpclothbeam_image a okh:Image ;
+    rdfs:label "Image of WarpClothBeam of OHLOOM 0.10.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/Documentation/Assembly_Guide/Parts_Other_1.jpg> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/Documentation/Assembly_Guide/Parts_Other_1.jpg> .
+
+:Warpclothbeam_source a okh:SourceFile ;
+    rdfs:label "Source File of WarpClothBeam of OHLOOM 0.10.0" ;
+    okh:fileFormat "SCAD" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/WoodParts/WarpClothBeam_NoCNC/WarpClothBeam_Wood_NoCNC.scad> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/WoodParts/WarpClothBeam_NoCNC/WarpClothBeam_Wood_NoCNC.scad> .
+

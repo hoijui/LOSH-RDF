@@ -1,0 +1,28 @@
+@prefix : <https://www.thingiverse.com/thing%3A10010/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:StarShapedCookieCutterGenerator a okh:Module ;
+    rdfs:label "Star Shaped Cookie Cutter Generator" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Yes, another cookie cutter. One of my first experiments with openscad. This script takes a shape like a thumbtack and moves it along a generated 2d star shaped pattern, thus creating a cookie cutter. \r
+\r
+Number of points, inner diameter, and outer diameter are adjustable.\r
+\r
+Possibly a good example of moving a shape along a path (via the minkowski command).""" ;
+    okh:hasImage :Image ;
+    okh:licensor "MattChapman" ;
+    okh:repo <https://www.thingiverse.com/thing:10010> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:10010> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Star Shaped Cookie Cutter Generator 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://thingiverse-rerender-new.s3.amazonaws.com/renders/ba/25/f6/ef/de/octo-cookie-20x15_display_large.jpg> ;
+    okh:permaURL <https://thingiverse-rerender-new.s3.amazonaws.com/renders/ba/25/f6/ef/de/octo-cookie-20x15_display_large.jpg> .
+

@@ -1,0 +1,34 @@
+@prefix : <https://www.thingiverse.com/thing%3A12249/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:IRoll20sEasierToPrint a okh:Module ;
+    rdfs:label "I Roll 20's - easier to print" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """As you may already know, I wanted a D20 that had "20" on each side.  Shamelessly abusing my power as a blogger for MakerBot, I asked the citizens of Thingiverse to create one for me. ( http://www.makerbot.com/blog/2011/09/29/openscad-challenge-regular-icosahedron/ )  Polymaker was the first to post a solution and win the prize.  ( http://www.makerbot.com/blog/2011/09/30/polymaker-dont-mess-with-him-that-dude-rolls-20s/ )  (Though, really prize might be overstating the value...)\r
+\r
+I tried printing several icosahedrons at different sizes and resolutions, but none of them seemed to come out very well.  Most of the time the extruder would snag the die and pull it off the build platform.  Finally I adjusted the design a little in OpenSCAD and printed the D20.\r
+\r
+Here's what I did:\r
+1. I used OpenSCAD to scale the D20 down to about 30mm in diameter.\r
+2. I added a thin, 1mm circular disc, 30mm in diameter, underneath the D20.\r
+3. I positioned the die so that it was hovering 0.25mm above the surface of the disc.\r
+4. I printed with support structures on.  (But this may not have been necessary)\r
+\r
+The big flat disc allowed the die to maintain contact with the build surface and it never came off.  And, being placed 0.25mm above the disc allowed the die to pop right off very easily without any sanding or stray threads.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "MakerBlock" ;
+    okh:repo <https://www.thingiverse.com/thing:12249> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:12249> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of I Roll 20's - easier to print 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://thingiverse-rerender-new.s3.amazonaws.com/renders/26/16/06/5a/1a/d20plate0_display_large.jpg> ;
+    okh:permaURL <https://thingiverse-rerender-new.s3.amazonaws.com/renders/26/16/06/5a/1a/d20plate0_display_large.jpg> .
+

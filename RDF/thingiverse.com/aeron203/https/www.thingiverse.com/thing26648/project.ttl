@@ -1,0 +1,34 @@
+@prefix : <https://www.thingiverse.com/thing%3A26648/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:FractalVase a okh:Module ;
+    rdfs:label "Fractal Vase" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """A fractal-based volumetric object. It is hollow in the top, and so it could be used as a bowl or vase. As with most fractals though, it has some thin interconnecting pieces, so if you want to make use of it you may want to either add some support or use the trimmed version (bottom portion removed, flat base).\r
+\r
+RAW data 400x400x400 8-bit zipped\r
+\r
+PNG codec AVI 400x400x400\r
+\r
+PLY isosurface mesh 1.5M polygons\r
+\r
+STL isosurface mesh (reduced) 990K polygons \r
+\r
+STL isosurface mesh (reduced, trimmed) 800K polygons""" ;
+    okh:hasImage :Image ;
+    okh:licensor "aeron203" ;
+    okh:repo <https://www.thingiverse.com/thing:26648> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:26648> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Fractal Vase 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/c5/a8/7c/b8/1a/Sjul_03_vaseSnap00b_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/c5/a8/7c/b8/1a/Sjul_03_vaseSnap00b_display_large_display_large.jpg> .
+

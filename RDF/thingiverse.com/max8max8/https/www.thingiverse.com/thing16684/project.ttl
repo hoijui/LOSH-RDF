@@ -1,0 +1,31 @@
+@prefix : <https://www.thingiverse.com/thing%3A16684/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:StackablePolygonsNowMoreParametric a okh:Module ;
+    rdfs:label "Stackable Polygons - now more parametric" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Tweaked meirm's Stackable Polygons to:\r
+\r
+1) Make the OpenSCAD code more parametric and commented (i.e. replaced numbers with variables and equations).\r
+2) Made the ends of the 'bones' rounded, to make them easier to slide onto the 'polygons'.\r
+\r
+Meirm did the hard math, and the polygons were already parametric (number of slots).\r
+\r
+Attached are STL files for polygons with 6 and 8 slots, and 'bones' length 20 mm and 40 mm.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "max8max8" ;
+    okh:repo <https://www.thingiverse.com/thing:16684> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:16684> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Stackable Polygons - now more parametric 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://thingiverse-rerender-new.s3.amazonaws.com/renders/d4/54/25/35/9a/stackapoligon-parametric-poligon_display_large.jpg> ;
+    okh:permaURL <https://thingiverse-rerender-new.s3.amazonaws.com/renders/d4/54/25/35/9a/stackapoligon-parametric-poligon_display_large.jpg> .
+

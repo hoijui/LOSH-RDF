@@ -1,0 +1,32 @@
+@prefix : <https://www.thingiverse.com/thing%3A15232/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:GodelEscherBachQrCodeShadowCube a okh:Module ;
+    rdfs:label "Godel Escher Bach QR Code shadow cube" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """The shadow of this cube in different directions gives QR codes pointing to the Wikipedia articles for Kurt Godel, M.C. Escher, and J.S. Bach respectively. Also a pretty challenging print test. Note that QR codes cannot be read in mirror image, so only 3 of the 6 possible cube orientations cast a readable shadow.\r
+\r
+Notes. This was generated using a reduced-url QR code generator, a paint program to connect disconnected sections, Inkscape to convert to dxf, and OpenScad to extrude, rotate, and intersect the 3 images. OpenScad rendering took almost 30 minutes on a fast computer. \r
+\r
+QR codes are fortunately very forgiving of fairly large modifications due to their built-in parity and redundancy schemes, and I verified readability of the images up through the dxf stage. (Although I got pretty close to the limit on one image, and my camera QR scanner had to rescan a few times to get a read.)\r
+\r
+This is a complex image. To get a readable shadow your light source will need to be pretty far away to get a flat pass through. Perhaps someday I'll do a version with transformed geometry, matching specific close-up point sources.\r
+\r
+If you can't get it to print cleanly enough to read, hey, claim it's a Borg Cube and gift it to your Trekkie friends.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "SashimiTabernacleChoir" ;
+    okh:repo <https://www.thingiverse.com/thing:15232> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:15232> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Godel Escher Bach QR Code shadow cube 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://thingiverse-rerender-new.s3.amazonaws.com/renders/a1/e9/bc/7b/51/GEB_QR_display_large.jpg> ;
+    okh:permaURL <https://thingiverse-rerender-new.s3.amazonaws.com/renders/a1/e9/bc/7b/51/GEB_QR_display_large.jpg> .
+

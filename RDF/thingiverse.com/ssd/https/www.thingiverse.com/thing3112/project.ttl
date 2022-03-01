@@ -1,0 +1,31 @@
+@prefix : <https://www.thingiverse.com/thing%3A3112/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:CandyDispenser a okh:Module ;
+    rdfs:label "candy dispenser" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is a small candy dispenser for small disc shaped candies.  \r
+It has a carrying capacity equal to a small vending bag, and has been tested against at least one particular brand.  The scad file is near fully parametric, so it can be adjusted for small variations in candy size with other similar shaped candies.  \r
+I'd like to thank http://www.thingiverse.com/thing:2909 for inspiration.  \r
+Update: Tested successfully with M&M's and Reeses Pieces.  Skittles are taller, and won't fit with the default numbers in candy.gcode and the first set of parts.  \r
+   \r
+Update:  I've added room for a spring!  \r
+I've uploaded a revised version (candy2.scad) with added code to put holes in the base and slide to house the spring from a pen.  I've also more fully commented the parameters that can be adjusted in the file.  \r
+I've uploaded the revised stl parts (sp-candyslide and sp-candybot), with increased height to fit skittles.  (It still works for the other candies of course.)  The same top part fits with these bottom parts.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "ssd" ;
+    okh:repo <https://www.thingiverse.com/thing:3112> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:3112> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of candy dispenser 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/e4/a4/bd/85/fb/P1010524_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/e4/a4/bd/85/fb/P1010524_display_large_display_large.jpg> .
+

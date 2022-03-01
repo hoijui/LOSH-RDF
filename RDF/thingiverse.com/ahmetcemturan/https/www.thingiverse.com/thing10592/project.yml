@@ -1,0 +1,48 @@
+__meta:
+  branch: null
+  created-at: '2011-08-08T08:14:00+00:00'
+  history: null
+  last-changed: null
+  last-visited: '2022-02-25T11:00:02.616920+00:00'
+  owner: ahmetcemturan
+  path: null
+  repo: https://www.thingiverse.com/thing:10592
+  score: null
+  source: thingiverse.com
+attestation: null
+bom: null
+contribution-guide: null
+cpc-patent-class: null
+documentation-language: en
+documentation-readiness-level: odrl3
+function: "Please download the latest version from: https://github.com/ahmetcemturan/SFACT/archive/master.zip  \nor the pypy version (much faster):  \nhttps://github.com/ahmetcemturan/SFACT-PyPy/archive/master.zip  \n\nI have modified Skeinforge to be more practical and easier to tune.  features include:  \n-Will not mess up your old Skeinforge settings as it will use its own sfact_profiles directory inside its own folder.  \n-Deleted unused plugins and unused settings. (IMHO)  \n-Namings of variables changed to be more understandable.  \n-Important settings moved to top of Plugin Tab.  \n-Default values give good prints rightaway.  \n-Internally used Gcode files use extension .gmc now.  \n-Most Feedrates are now entered as values (mm/s) and their respective flowrates are 1 so you dont have to enter everything twice.  \n(exception bridge feed and flow is relative to main feed)  \n-First Layer Travel Feedrate can be specified in mm/s so it doesnt tear off your print.  \nCARVE:  \n-Extrusion width is now entered in mm instead of a ratio to layer height.  \nCHAMBER:  \n-Moved Turn Extruder off at shutdown to Chamber.  \n-Added Turn PrintBed off at shutdown.  \nCLIP:  \nClip over Perimeter width is now calculated automatically.  The default is 1 and can be tuned from there.  \nDIMENSION:  \n-Added feature for calibration.  \n-Retract can be set conditionally depending on extrusion amount before retract and the travel move in retracted state (SF Beanshell).  Also retract can be forced to happen if moving over loops.  \nEXPORT:  \nReplaced Export plugin with Gary Hodgson's plugin.  \n-Option to export settings as Zip file or a single CSV file for sharing.  \n-Option to individually name the exported gcode files with description, timestamp and profile used.  \nFILL:  \n-Infill width over layerthickness setting is replaced by Extrusion Lines Extra spacing.  \n-Extrusion Lines Extra spacing is calculated automatically and defaults to 1 for tuning.  \n-Infill Overlap over Perimeter is also calculated internally and defaults to 1 so it can be easily tweaked.  \nINSET:  \nThe \xC3\x83\xC2\x84\xC3\x82\xC2\xB1nset value is now Overlap Removal and is also calculated internally with default 1 for tweaking.  \nPREFACE:  \n-Added the option to send Extruder reset (G92 E0) command before print so that the extruder does not spool back after priming. (Even without start.gmc file)  \nRAFT:  \n-Ordering, grouping and namings changed to reflect the use of interface settings for the support structures.  \n-Support feedrate and support flowrate can be set seperately.  \n-Support extension(s) are now more understandable.  \n-First Layer feedrates are given in mm/s instead of a ratio to the main feedrate.  \nSPEED:  \n-Feedrates are entered as values with respective flowrates as 1, instead of entering sam value again. (except for Bridge Feedrate).  \n-Nozzle Lift setting has been changed to Extra nozzle Lift over object and defaults to 0.  \n-Wipe is on by default and is around the 0 point  \n\nKnown Bugs:  \n-Only Line infill works reliably  \nThe latest release is : See Below..  \n\nPlease Comment about your experience, positive or negative.  \n\n\nSOON TO COME  \n-Skin plugin with better working calculation,  \n-Leadin Plugin to get rid off the \"SEAM\" that is created during Layer change..  \n-First Layer Travel moves are all now limited to \"acceptable\" speeds  \n-Retraction control is more sophisticated.  \n-Extrusion calculation is even better.  \n-and a lot of small things...  \n-more to it later on reprapfordummies.net  keep tuned.."
+image:
+  created-at: '2011-08-08T08:14:00+00:00'
+  last-changed: '2011-08-08T08:14:00+00:00'
+  last-visited: '2022-02-25T18:50:36.782949+00:00'
+  license: GPL-3.0-or-later
+  licensor: ahmetcemturan
+  mime-type: null
+  name: 2011-07-04_23-28-31_-_P7046413_display_large_display_large
+  path: https:/cdn.thingiverse.com/renders/a0/a7/dd/aa/1b/2011-07-04_23-28-31_-_P7046413_display_large_display_large.jpg
+  perma-url: https://cdn.thingiverse.com/renders/a0/a7/dd/aa/1b/2011-07-04_23-28-31_-_P7046413_display_large_display_large.jpg
+  url: https://cdn.thingiverse.com/renders/a0/a7/dd/aa/1b/2011-07-04_23-28-31_-_P7046413_display_large_display_large.jpg
+license: GPL-3.0-or-later
+licensor: ahmetcemturan
+manufacturing-instructions: null
+name: SFACT the new Skeinforge (for Stepper Extruders only)
+okhv: OKH-LOSHv1.0
+organization: null
+part: []
+publication: null
+readme: null
+release: null
+repo: https://www.thingiverse.com/thing:10592
+software: []
+specific-api-data: {}
+standard-compliance: null
+technology-readiness-level: ortl4
+tsdc: null
+upload-method: auto
+user-manual: null
+version: 1.0.0

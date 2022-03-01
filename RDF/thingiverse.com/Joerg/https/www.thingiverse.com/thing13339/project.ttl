@@ -1,0 +1,29 @@
+@prefix : <https://www.thingiverse.com/thing%3A13339/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:EatThis a okh:Module ;
+    rdfs:label "Eat this!" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """this is fully automatic, heavy duty, filament feeder!\r
+it uses the motor from the automated build-platform to turn the spindle.\r
+when the extruder has extruded enough filament and thus shortened the distance between the extruder and the spindle, a little switch is activated that gives a short impuls to a motor-control circuitry (also designed and prototyped by myself) which lets the motor run for about 1 second - enough for some minutes of printing...\r
+(this motor-control also has a two-way switch for manual control of the motor and two indicator LEDs - green: forward, red: backward)\r
+--- I did this because of problems with a very heavy spindle that I have where the extruder constantly has its problems turning the spindle on its own;\r
+now I can do unattended prints of even the highest, biggest objects!""" ;
+    okh:hasImage :Image ;
+    okh:licensor "Joerg" ;
+    okh:repo <https://www.thingiverse.com/thing:13339> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:13339> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Eat this! 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/32/46/2d/ef/96/IMAG0277_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/32/46/2d/ef/96/IMAG0277_display_large_display_large.jpg> .
+

@@ -1,9 +1,10 @@
-@prefix : <https://wikifactory.com/@d8r/x-stool/c5a759369f5ca07d260e99216a4b41a855075c4a/> .
+@prefix : <https://wikifactory.com/%40d8r/x-stool/c5a759369f5ca07d260e99216a4b41a855075c4a/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 :Xstool a okh:Module ;
     rdfs:label "x-stool" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "The x-stool" ;
     okh:hasComponent :Xstool1 ;
@@ -14,6 +15,7 @@
     okh:repo <https://wikifactory.com/@d8r/x-stool> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/MIT> ;
+    okh:uploadMethod "auto" ;
     okh:version "c5a759369f5ca07d260e99216a4b41a855075c4a" ;
     okh:versionOf <https://wikifactory.com/@d8r/x-stool> .
 

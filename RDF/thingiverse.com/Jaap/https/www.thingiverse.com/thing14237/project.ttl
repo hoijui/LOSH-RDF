@@ -1,0 +1,28 @@
+@prefix : <https://www.thingiverse.com/thing%3A14237/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:I2cSerialLcdDisplayWithJoystickAndButtons a okh:Module ;
+    rdfs:label "I2C / Serial LCD Display with joystick and buttons" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is a console for our open source laser cutter software. It has a 2x16 LCD Display, 4 buttons and a joystick. We use I2C to connect the display with our motherboard.\r
+\r
+The console has is quite universal, so it can probably also be used for other projects. Console for your 3D printer, maybe? In addition to I2C, it can also communicate through USB/Serial.\r
+\r
+The console is powered by an ATMEGA 168 (Arduino), so it can easily be reprogrammed. The board contains a standard 6-pin connection for a USB -> TTL Cable.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "Jaap" ;
+    okh:repo <https://www.thingiverse.com/thing:14237> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:14237> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of I2C / Serial LCD Display with joystick and buttons 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/45/35/47/66/e6/panel-rev0.3_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/45/35/47/66/e6/panel-rev0.3_display_large_display_large.jpg> .
+

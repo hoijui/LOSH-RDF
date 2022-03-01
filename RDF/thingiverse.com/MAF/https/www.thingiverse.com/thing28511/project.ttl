@@ -1,0 +1,33 @@
+@prefix : <https://www.thingiverse.com/thing%3A28511/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Wateroscillator a okh:Module ;
+    rdfs:label "WaterOscillator" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Based on "ArduSnake library: Locomotion of modular snake robots" by ObiJuan. (http://www.thingiverse.com/thing:21401)\r
+\r
+By means of Bluetooth communication, the 4 characteristic parameters of the 2 oscillators, can be modified: amplitude, frequency, phase and offset.\r
+\r
+With the sign of the phase value, you can change the movement direction: forward or backward. If the oscillators have the same value of phase, movement is not achieved.\r
+By varying the offset value (midpoint of the oscillations) the device can move in different directions.\r
+\r
+A video can be found here: http://youtu.be/MMdTZWX3w0k\r
+\r
+More info in my Blog: http://madebyfrutos.wordpress.com/2012/08/14/water-oscillators/""" ;
+    okh:hasImage :Image ;
+    okh:licensor "MAF" ;
+    okh:repo <https://www.thingiverse.com/thing:28511> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:28511> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of WaterOscillator 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/b2/9e/ed/35/e7/IMG_0411_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/b2/9e/ed/35/e7/IMG_0411_display_large.jpg> .
+

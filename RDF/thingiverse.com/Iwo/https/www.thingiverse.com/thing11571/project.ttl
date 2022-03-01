@@ -1,0 +1,41 @@
+@prefix : <https://www.thingiverse.com/thing%3A11571/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ElectronicZcrank a okh:Module ;
+    rdfs:label "Electronic Z-Crank" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """After using my new Z-stage ( http://www.thingiverse.com/thing:10478 ) for a while, I found one annoying problem: there is no easy way to adjust the position manually. With the original Cupcake stage, you just pull on the timing belt. Or install a crank on one of the threaded rods. With 10478, the only way is to turn the threaded rod directly, getting oily fingers in the process.\r
+\r
+This thing is an auxiliary stepper controller, which can be inserted between the printer's motherboard and stepper drivers. It's based on an ATTYNY44 processor and very few additional parts.\r
+\r
+Of course you can use this device for any other axis as well, including extruder. Or simply use it as a stepper tester - the input can be left open.\r
+\r
+There are two buttons, 'up' and 'down'. If you leave them alone, the device passes the motherboard signals through. That is, you can print as normal.\r
+\r
+When you press either of the buttons, the device takes over and controls the stepper directly. This way, you can make adjustments even during a print.\r
+\r
+- 'up' moves the stepper one way, 'down' the other.\r
+- After holding a button for 2 seconds the speed is doubled.\r
+- Pushing and holding both buttons for 2 seconds enters setup mode (LED flashes).\r
+-- Repeatedly pushing 'up' increases speed\r
+-- Repeatedly pushing 'down' decreases speed\r
+-- Pushing both buttons saves new speed setting\r
+\r
+The source code is in zcrank.c - It uses just under 2K of flash memory.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "Iwo" ;
+    okh:repo <https://www.thingiverse.com/thing:11571> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:11571> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Electronic Z-Crank 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/6b/ba/be/a4/c0/IMG_2620_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/6b/ba/be/a4/c0/IMG_2620_display_large_display_large.jpg> .
+

@@ -1,0 +1,32 @@
+@prefix : <https://www.thingiverse.com/thing%3A8282/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:MountableYaxisPlaBushings a okh:Module ;
+    rdfs:label "Mountable Y-axis PLA bushings" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """**Update**\r
+After testing, I found that the longer bushing created too much friction on the rod so I changed the mountable bushing back to 11mm length. Also, these are a bit more work to install than just gluing them. There is a higher chance of putting the bushings on out of square if you do not take your time and get good measurements. Granted, it will be faster if I ever need replace the bushings.\r
+**\r
+\r
+I wanted to make bushings for the y axis that were more easily changed out than the given instructions on the Prusa build (gluing). The mounting holes are set to fit m3 screws.\r
+\r
+The scad file is the original pla-bushing.scad file from the Prusa git with the added mounting arms. If you drop the .scad file in the folder with the configuration.scad your Prusa scad settings will work on this file. For example, I print my bushing with the rod size a little larger so I don't have to ream the bushing as much. So, in the configuration.scad file I change the bush_rod from 8 to 8.2.\r
+\r
+The stl file I have given has the larger bush_rod size, so if it seems too big you may need to change the unit back to 8.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "reprapperMC" ;
+    okh:repo <https://www.thingiverse.com/thing:8282> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:8282> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Mountable Y-axis PLA bushings 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://thingiverse-rerender-new.s3.amazonaws.com/renders/58/e3/1d/30/38/pla-bushing-mountable-y-axis_display_large.jpg> ;
+    okh:permaURL <https://thingiverse-rerender-new.s3.amazonaws.com/renders/58/e3/1d/30/38/pla-bushing-mountable-y-axis_display_large.jpg> .
+

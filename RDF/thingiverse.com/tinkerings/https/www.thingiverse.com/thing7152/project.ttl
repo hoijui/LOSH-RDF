@@ -1,0 +1,43 @@
+@prefix : <https://www.thingiverse.com/thing%3A7152/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:FumeFilter a okh:Module ;
+    rdfs:label "Fume Filter" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is to eliminate the ABS fumes from a MakerBot or RepRap.\r
+\r
+I was tired of getting a (literal) headache from the ABS fumes off of Wintermute (my Cupcake CNC) and decided to make a filter. There are several other filters on Thingiverse, but they all seemed to be more concerned with removing the smell and less concerned with actually removing the VOCs that are along with the smell.\r
+\r
+I started with a PC-case fan and a HEPA filter with the carbon prefilter, but the fan just didn't have enough power. I tried the most powerful PC-case fan I could find.\r
+\r
+I ended up using a 12V DC bilge pump:\r
+http://www.amazon.com/gp/product/B001O0DE9E\r
+\r
+I'm using this HEPA filter from a vacuum cleaner:\r
+http://store.electroluxusa.com/el029.html\r
+\r
+It's about 50% more expensive than the other HEPA filters, but it's washable, which makes it worth it to me. It's also square, so it's easy to make a mount and seal for.\r
+\r
+Here is a video where I am testing it. (My wife says it looks like I'm sucking ghosts up into it. :)\r
+\r
+http://youtu.be/SN6HTDGGLfs?hd=1\r
+\r
+The result of this experiment is intended to go with the fume hood by Built-to-Spec progress seen in this blog post:\r
+http://www.built-to-spec.com/blog/2011/03/08/progress-update-3810/""" ;
+    okh:hasImage :Image ;
+    okh:licensor "tinkerings" ;
+    okh:repo <https://www.thingiverse.com/thing:7152> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:7152> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Fume Filter 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/ef/2d/c5/37/0f/5539839939_58e4b39ed2_b_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/ef/2d/c5/37/0f/5539839939_58e4b39ed2_b_display_large_display_large.jpg> .
+

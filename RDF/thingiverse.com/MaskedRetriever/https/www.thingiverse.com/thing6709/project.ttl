@@ -1,0 +1,31 @@
+@prefix : <https://www.thingiverse.com/thing%3A6709/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:3dPrintableSpeaker a okh:Module ;
+    rdfs:label "3D Printable Speaker" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """I got inspired by the Kit of No Parts:\r
+http://web.media.mit.edu/~plusea/\r
+\r
+And decided it was high time to make a 3D printable speaker prototype.  I turned the basic design of a speaker upside down and put the coil on the bottom to simplify construction.  (With magnets being as strong as they are lately this is probably fine.)\r
+\r
+You'll need a strong, light magnet (the little cube ones from makerbot are probably ideal) paper, and magnet wire.\r
+\r
+Once my ToM is constructed, I'll edit in my experimental results, patterns for paper, updates, etc.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "MaskedRetriever" ;
+    okh:repo <https://www.thingiverse.com/thing:6709> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:6709> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of 3D Printable Speaker 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://thingiverse-rerender-new.s3.amazonaws.com/renders/e7/08/ea/06/1b/speaker_display_large.jpg> ;
+    okh:permaURL <https://thingiverse-rerender-new.s3.amazonaws.com/renders/e7/08/ea/06/1b/speaker_display_large.jpg> .
+

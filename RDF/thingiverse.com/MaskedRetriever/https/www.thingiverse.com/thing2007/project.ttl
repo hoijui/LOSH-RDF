@@ -1,0 +1,28 @@
+@prefix : <https://www.thingiverse.com/thing%3A2007/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:MakerbotMeritBadge a okh:Module ;
+    rdfs:label "Makerbot Merit Badge" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """I put four sewing loops on it for easy stitching.\r
+\r
+Earning the Badge: If you've built a MakerBot and are able to print it, you've earned it!\r
+\r
+Optional Criterion: If you meet the first criteria but don't feel you've really /earned/ it yet, then... ~you will know when you have~.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "MaskedRetriever" ;
+    okh:repo <https://www.thingiverse.com/thing:2007> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:2007> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Makerbot Merit Badge 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://thingiverse-rerender-new.s3.amazonaws.com/renders/4d/b1/f1/03/0c/makerbot_meritbadge_display_large.jpg> ;
+    okh:permaURL <https://thingiverse-rerender-new.s3.amazonaws.com/renders/4d/b1/f1/03/0c/makerbot_meritbadge_display_large.jpg> .
+

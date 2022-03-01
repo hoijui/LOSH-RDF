@@ -1,0 +1,32 @@
+@prefix : <https://www.thingiverse.com/thing%3A1399/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:90DegreeAngleRodConnector a okh:Module ;
+    rdfs:label "90 degree angle rod connector" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is a pretty generic part that allows you to connects two shafts/rods perpendicular to each other! The 8-8mm version is used in the RepRap for the diagonal tie brackets, to connect the 8mm threaded rod to the 8mm diameter studs.\r
+\r
+You can specify the diameters of each of the holes.\r
+\r
+In version two you have more control over the sizes of the exterior of the shafts. One of the shafts needs more material, because in the Z-direction the part will be weaker. Shaft 2 can be very thin, configure this with a higher negative value of \\"shaft_2_exterior_difference\\".\r
+\r
+Note: It requires my teardrop.scad module to be present in the same directory, but you can uncomment my module at the bottom of the script.\r
+\r
+Tip for RepRap Darwin users:  I designed this part to have thinner rods as diagonals. This reduces the weight of your machine. M3 rods are more than strong enough! This will save the weight difference for each of the 10 diagonal rods! You can probably save about 1 kg.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "Erik" ;
+    okh:repo <https://www.thingiverse.com/thing:1399> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:1399> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of 90 degree angle rod connector 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/f2/79/df/ae/2b/tie-bracket-8-8_chamfered_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/f2/79/df/ae/2b/tie-bracket-8-8_chamfered_display_large_display_large.jpg> .
+

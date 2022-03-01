@@ -1,31 +1,32 @@
-@prefix : <https://wikifactory.com/+FieldReady/cp002-baby-crib/1c7dca655db77c11159bff475e4dcaf5981a3833/> .
+@prefix : <https://wikifactory.com/%2BFieldReady/cp002-baby-crib/1c7dca655db77c11159bff475e4dcaf5981a3833/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 :Cp002BabyCrib a okh:Module ;
     rdfs:label "CP002 - Baby Crib" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "Provides a safe area for a baby to sleep in. This is an open source design and manufacturing instructions to create a crib for a baby." ;
-    okh:hasComponent :Cp002cadassy,
-        :Cp002cadboard,
-        :Cp002cadcap,
-        :Cp002cadelbow,
-        :Cp002cadfoam,
-        :Cp002cadleg,
-        :Cp002cadm5nuts,
-        :Cp002cadm5x35,
-        :Cp002cadmeshback,
-        :Cp002cadmeshsides,
-        :Cp002cadmeshtubes,
-        :Cp002cadmeshtubes1,
-        :Cp002cadtee,
-        :Cp002cadteehole,
-        :Cp002cadtube125mm,
-        :Cp002cadtube125mm1,
-        :Cp002cadtube280mm,
-        :Cp002cadtube280mm1,
-        :Cp002cadtubecross,
-        :Cp002engdwg ;
+    okh:hasComponent :CadDatacp002cadassy,
+        :CadDatacp002cadboard,
+        :CadDatacp002cadcap,
+        :CadDatacp002cadelbow,
+        :CadDatacp002cadfoam,
+        :CadDatacp002cadleg,
+        :CadDatacp002cadm5nuts,
+        :CadDatacp002cadm5x35,
+        :CadDatacp002cadmeshback,
+        :CadDatacp002cadmeshsides,
+        :CadDatacp002cadmeshtubes,
+        :CadDatacp002cadmeshtubes1,
+        :CadDatacp002cadtee,
+        :CadDatacp002cadteehole,
+        :CadDatacp002cadtube125mm,
+        :CadDatacp002cadtube125mm1,
+        :CadDatacp002cadtube280mm,
+        :CadDatacp002cadtube280mm1,
+        :CadDatacp002cadtubecross,
+        :DrawingPackcp002engdwg ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "Patrick Flaherty" ;
@@ -34,265 +35,266 @@
     okh:repo <https://wikifactory.com/+FieldReady/cp002-baby-crib> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
     okh:version "1c7dca655db77c11159bff475e4dcaf5981a3833" ;
     okh:versionOf <https://wikifactory.com/+FieldReady/cp002-baby-crib> .
 
-:Cp002cadassy a okh:Part ;
-    rdfs:label "CP002_CAD_Assy" ;
+:CadDatacp002cadassy a okh:Part ;
+    rdfs:label "CAD Data/CP002_CAD_Assy" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Patrick Flaherty" ;
-    okh:source :Cp002cadassy_source ;
+    okh:source :CadDatacp002cadassy_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Cp002cadassy_source a okh:SourceFile ;
-    rdfs:label "Source File of CP002_CAD_Assy of CP002 - Baby Crib 1c7dca655db77c11159bff475e4dcaf5981a3833" ;
+:CadDatacp002cadassy_source a okh:SourceFile ;
+    rdfs:label "Source File of CAD Data/CP002_CAD_Assy of CP002 - Baby Crib 1c7dca655db77c11159bff475e4dcaf5981a3833" ;
     okh:fileFormat "SLDASM" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/44069/cp002_cad_assy.SLDASM> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTozMzIyOTQ=> .
 
-:Cp002cadboard a okh:Part ;
-    rdfs:label "CP002_CAD_Board" ;
+:CadDatacp002cadboard a okh:Part ;
+    rdfs:label "CAD Data/CP002_CAD_Board" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Patrick Flaherty" ;
-    okh:source :Cp002cadboard_source ;
+    okh:source :CadDatacp002cadboard_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Cp002cadboard_source a okh:SourceFile ;
-    rdfs:label "Source File of CP002_CAD_Board of CP002 - Baby Crib 1c7dca655db77c11159bff475e4dcaf5981a3833" ;
+:CadDatacp002cadboard_source a okh:SourceFile ;
+    rdfs:label "Source File of CAD Data/CP002_CAD_Board of CP002 - Baby Crib 1c7dca655db77c11159bff475e4dcaf5981a3833" ;
     okh:fileFormat "SLDPRT" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/44069/cp002_cad_board.SLDPRT> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTozMzIyOTA=> .
 
-:Cp002cadcap a okh:Part ;
-    rdfs:label "CP002_CAD_Cap" ;
+:CadDatacp002cadcap a okh:Part ;
+    rdfs:label "CAD Data/CP002_CAD_Cap" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Patrick Flaherty" ;
-    okh:source :Cp002cadcap_source ;
+    okh:source :CadDatacp002cadcap_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Cp002cadcap_source a okh:SourceFile ;
-    rdfs:label "Source File of CP002_CAD_Cap of CP002 - Baby Crib 1c7dca655db77c11159bff475e4dcaf5981a3833" ;
+:CadDatacp002cadcap_source a okh:SourceFile ;
+    rdfs:label "Source File of CAD Data/CP002_CAD_Cap of CP002 - Baby Crib 1c7dca655db77c11159bff475e4dcaf5981a3833" ;
     okh:fileFormat "SLDPRT" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/44069/cp002_cad_cap.SLDPRT> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTozMzIyOTg=> .
 
-:Cp002cadelbow a okh:Part ;
-    rdfs:label "CP002_CAD_Elbow" ;
+:CadDatacp002cadelbow a okh:Part ;
+    rdfs:label "CAD Data/CP002_CAD_Elbow" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Patrick Flaherty" ;
-    okh:source :Cp002cadelbow_source ;
+    okh:source :CadDatacp002cadelbow_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Cp002cadelbow_source a okh:SourceFile ;
-    rdfs:label "Source File of CP002_CAD_Elbow of CP002 - Baby Crib 1c7dca655db77c11159bff475e4dcaf5981a3833" ;
+:CadDatacp002cadelbow_source a okh:SourceFile ;
+    rdfs:label "Source File of CAD Data/CP002_CAD_Elbow of CP002 - Baby Crib 1c7dca655db77c11159bff475e4dcaf5981a3833" ;
     okh:fileFormat "SLDPRT" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/44069/cp002_cad_elbow.SLDPRT> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTozMzIyODg=> .
 
-:Cp002cadfoam a okh:Part ;
-    rdfs:label "CP002_CAD_Foam" ;
+:CadDatacp002cadfoam a okh:Part ;
+    rdfs:label "CAD Data/CP002_CAD_Foam" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Patrick Flaherty" ;
-    okh:source :Cp002cadfoam_source ;
+    okh:source :CadDatacp002cadfoam_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Cp002cadfoam_source a okh:SourceFile ;
-    rdfs:label "Source File of CP002_CAD_Foam of CP002 - Baby Crib 1c7dca655db77c11159bff475e4dcaf5981a3833" ;
+:CadDatacp002cadfoam_source a okh:SourceFile ;
+    rdfs:label "Source File of CAD Data/CP002_CAD_Foam of CP002 - Baby Crib 1c7dca655db77c11159bff475e4dcaf5981a3833" ;
     okh:fileFormat "SLDPRT" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/44069/cp002_cad_foam.SLDPRT> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTozMzIzMDA=> .
 
-:Cp002cadleg a okh:Part ;
-    rdfs:label "CP002_CAD_Leg" ;
+:CadDatacp002cadleg a okh:Part ;
+    rdfs:label "CAD Data/CP002_CAD_Leg" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Patrick Flaherty" ;
-    okh:source :Cp002cadleg_source ;
+    okh:source :CadDatacp002cadleg_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Cp002cadleg_source a okh:SourceFile ;
-    rdfs:label "Source File of CP002_CAD_Leg of CP002 - Baby Crib 1c7dca655db77c11159bff475e4dcaf5981a3833" ;
+:CadDatacp002cadleg_source a okh:SourceFile ;
+    rdfs:label "Source File of CAD Data/CP002_CAD_Leg of CP002 - Baby Crib 1c7dca655db77c11159bff475e4dcaf5981a3833" ;
     okh:fileFormat "SLDPRT" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/44069/cp002_cad_leg.SLDPRT> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTozMzIzMDQ=> .
 
-:Cp002cadm5nuts a okh:Part ;
-    rdfs:label "CP002_CAD_M5_Nuts" ;
+:CadDatacp002cadm5nuts a okh:Part ;
+    rdfs:label "CAD Data/CP002_CAD_M5_Nuts" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Patrick Flaherty" ;
-    okh:source :Cp002cadm5nuts_source ;
+    okh:source :CadDatacp002cadm5nuts_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Cp002cadm5nuts_source a okh:SourceFile ;
-    rdfs:label "Source File of CP002_CAD_M5_Nuts of CP002 - Baby Crib 1c7dca655db77c11159bff475e4dcaf5981a3833" ;
+:CadDatacp002cadm5nuts_source a okh:SourceFile ;
+    rdfs:label "Source File of CAD Data/CP002_CAD_M5_Nuts of CP002 - Baby Crib 1c7dca655db77c11159bff475e4dcaf5981a3833" ;
     okh:fileFormat "SLDPRT" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/44069/cp002_cad_m5_nuts.SLDPRT> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTozMzIzMDY=> .
 
-:Cp002cadm5x35 a okh:Part ;
-    rdfs:label "CP002_CAD_M5x35" ;
+:CadDatacp002cadm5x35 a okh:Part ;
+    rdfs:label "CAD Data/CP002_CAD_M5x35" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Patrick Flaherty" ;
-    okh:source :Cp002cadm5x35_source ;
+    okh:source :CadDatacp002cadm5x35_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Cp002cadm5x35_source a okh:SourceFile ;
-    rdfs:label "Source File of CP002_CAD_M5x35 of CP002 - Baby Crib 1c7dca655db77c11159bff475e4dcaf5981a3833" ;
+:CadDatacp002cadm5x35_source a okh:SourceFile ;
+    rdfs:label "Source File of CAD Data/CP002_CAD_M5x35 of CP002 - Baby Crib 1c7dca655db77c11159bff475e4dcaf5981a3833" ;
     okh:fileFormat "SLDPRT" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/44069/cp002_cad_m5x35.SLDPRT> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTozMzIyODQ=> .
 
-:Cp002cadmeshback a okh:Part ;
-    rdfs:label "CP002_CAD_Mesh_Back" ;
+:CadDatacp002cadmeshback a okh:Part ;
+    rdfs:label "CAD Data/CP002_CAD_Mesh_Back" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Patrick Flaherty" ;
-    okh:source :Cp002cadmeshback_source ;
+    okh:source :CadDatacp002cadmeshback_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Cp002cadmeshback_source a okh:SourceFile ;
-    rdfs:label "Source File of CP002_CAD_Mesh_Back of CP002 - Baby Crib 1c7dca655db77c11159bff475e4dcaf5981a3833" ;
+:CadDatacp002cadmeshback_source a okh:SourceFile ;
+    rdfs:label "Source File of CAD Data/CP002_CAD_Mesh_Back of CP002 - Baby Crib 1c7dca655db77c11159bff475e4dcaf5981a3833" ;
     okh:fileFormat "SLDPRT" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/44069/cp002_cad_mesh_back.SLDPRT> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTozMzIyODM=> .
 
-:Cp002cadmeshsides a okh:Part ;
-    rdfs:label "CP002_CAD_Mesh_Sides" ;
+:CadDatacp002cadmeshsides a okh:Part ;
+    rdfs:label "CAD Data/CP002_CAD_Mesh_Sides" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Patrick Flaherty" ;
-    okh:source :Cp002cadmeshsides_source ;
+    okh:source :CadDatacp002cadmeshsides_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Cp002cadmeshsides_source a okh:SourceFile ;
-    rdfs:label "Source File of CP002_CAD_Mesh_Sides of CP002 - Baby Crib 1c7dca655db77c11159bff475e4dcaf5981a3833" ;
+:CadDatacp002cadmeshsides_source a okh:SourceFile ;
+    rdfs:label "Source File of CAD Data/CP002_CAD_Mesh_Sides of CP002 - Baby Crib 1c7dca655db77c11159bff475e4dcaf5981a3833" ;
     okh:fileFormat "SLDPRT" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/44069/cp002_cad_mesh_sides.SLDPRT> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTozMzIzMTE=> .
 
-:Cp002cadmeshtubes a okh:Part ;
-    rdfs:label "CP002_CAD_Mesh_Tubes" ;
+:CadDatacp002cadmeshtubes a okh:Part ;
+    rdfs:label "CAD Data/CP002_CAD_Mesh_Tubes" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Patrick Flaherty" ;
-    okh:source :Cp002cadmeshtubes_source ;
+    okh:source :CadDatacp002cadmeshtubes_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Cp002cadmeshtubes1 a okh:Part ;
-    rdfs:label "CP002_CAD_Mesh_Tubes1" ;
+:CadDatacp002cadmeshtubes1 a okh:Part ;
+    rdfs:label "CAD Data/CP002_CAD_Mesh_Tubes1" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Patrick Flaherty" ;
-    okh:source :Cp002cadmeshtubes1_source ;
+    okh:source :CadDatacp002cadmeshtubes1_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Cp002cadmeshtubes1_source a okh:SourceFile ;
-    rdfs:label "Source File of CP002_CAD_Mesh_Tubes1 of CP002 - Baby Crib 1c7dca655db77c11159bff475e4dcaf5981a3833" ;
+:CadDatacp002cadmeshtubes1_source a okh:SourceFile ;
+    rdfs:label "Source File of CAD Data/CP002_CAD_Mesh_Tubes1 of CP002 - Baby Crib 1c7dca655db77c11159bff475e4dcaf5981a3833" ;
     okh:fileFormat "SLDPRT" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/44069/cp002_cad_mesh_tubes1.SLDPRT> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTozMzIyODA=> .
 
-:Cp002cadmeshtubes_source a okh:SourceFile ;
-    rdfs:label "Source File of CP002_CAD_Mesh_Tubes of CP002 - Baby Crib 1c7dca655db77c11159bff475e4dcaf5981a3833" ;
+:CadDatacp002cadmeshtubes_source a okh:SourceFile ;
+    rdfs:label "Source File of CAD Data/CP002_CAD_Mesh_Tubes of CP002 - Baby Crib 1c7dca655db77c11159bff475e4dcaf5981a3833" ;
     okh:fileFormat "SLDPRT" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/44069/cp002_cad_mesh_tubes.SLDPRT> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTozMzIyODE=> .
 
-:Cp002cadtee a okh:Part ;
-    rdfs:label "CP002_CAD_Tee" ;
+:CadDatacp002cadtee a okh:Part ;
+    rdfs:label "CAD Data/CP002_CAD_Tee" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Patrick Flaherty" ;
-    okh:source :Cp002cadtee_source ;
+    okh:source :CadDatacp002cadtee_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Cp002cadtee_source a okh:SourceFile ;
-    rdfs:label "Source File of CP002_CAD_Tee of CP002 - Baby Crib 1c7dca655db77c11159bff475e4dcaf5981a3833" ;
+:CadDatacp002cadtee_source a okh:SourceFile ;
+    rdfs:label "Source File of CAD Data/CP002_CAD_Tee of CP002 - Baby Crib 1c7dca655db77c11159bff475e4dcaf5981a3833" ;
     okh:fileFormat "SLDPRT" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/44069/cp002_cad_tee.SLDPRT> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTozMzIyNzk=> .
 
-:Cp002cadteehole a okh:Part ;
-    rdfs:label "CP002_CAD_Tee_Hole" ;
+:CadDatacp002cadteehole a okh:Part ;
+    rdfs:label "CAD Data/CP002_CAD_Tee_Hole" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Patrick Flaherty" ;
-    okh:source :Cp002cadteehole_source ;
+    okh:source :CadDatacp002cadteehole_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Cp002cadteehole_source a okh:SourceFile ;
-    rdfs:label "Source File of CP002_CAD_Tee_Hole of CP002 - Baby Crib 1c7dca655db77c11159bff475e4dcaf5981a3833" ;
+:CadDatacp002cadteehole_source a okh:SourceFile ;
+    rdfs:label "Source File of CAD Data/CP002_CAD_Tee_Hole of CP002 - Baby Crib 1c7dca655db77c11159bff475e4dcaf5981a3833" ;
     okh:fileFormat "SLDPRT" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/44069/cp002_cad_tee_hole.SLDPRT> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTozMzIzMTg=> .
 
-:Cp002cadtube125mm a okh:Part ;
-    rdfs:label "CP002_CAD_Tube125mm" ;
+:CadDatacp002cadtube125mm a okh:Part ;
+    rdfs:label "CAD Data/CP002_CAD_Tube125mm" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Patrick Flaherty" ;
-    okh:source :Cp002cadtube125mm_source ;
+    okh:source :CadDatacp002cadtube125mm_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Cp002cadtube125mm1 a okh:Part ;
-    rdfs:label "CP002_CAD_Tube125mm1" ;
+:CadDatacp002cadtube125mm1 a okh:Part ;
+    rdfs:label "CAD Data/CP002_CAD_Tube125mm1" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Patrick Flaherty" ;
-    okh:source :Cp002cadtube125mm1_source ;
+    okh:source :CadDatacp002cadtube125mm1_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Cp002cadtube125mm1_source a okh:SourceFile ;
-    rdfs:label "Source File of CP002_CAD_Tube125mm1 of CP002 - Baby Crib 1c7dca655db77c11159bff475e4dcaf5981a3833" ;
+:CadDatacp002cadtube125mm1_source a okh:SourceFile ;
+    rdfs:label "Source File of CAD Data/CP002_CAD_Tube125mm1 of CP002 - Baby Crib 1c7dca655db77c11159bff475e4dcaf5981a3833" ;
     okh:fileFormat "SLDPRT" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/44069/cp002_cad_tube125mm1.SLDPRT> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTozMzIyNzU=> .
 
-:Cp002cadtube125mm_source a okh:SourceFile ;
-    rdfs:label "Source File of CP002_CAD_Tube125mm of CP002 - Baby Crib 1c7dca655db77c11159bff475e4dcaf5981a3833" ;
+:CadDatacp002cadtube125mm_source a okh:SourceFile ;
+    rdfs:label "Source File of CAD Data/CP002_CAD_Tube125mm of CP002 - Baby Crib 1c7dca655db77c11159bff475e4dcaf5981a3833" ;
     okh:fileFormat "SLDPRT" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/44069/cp002_cad_tube125mm.SLDPRT> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTozMzIzMjM=> .
 
-:Cp002cadtube280mm a okh:Part ;
-    rdfs:label "CP002_CAD_Tube280mm" ;
+:CadDatacp002cadtube280mm a okh:Part ;
+    rdfs:label "CAD Data/CP002_CAD_Tube280mm" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Patrick Flaherty" ;
-    okh:source :Cp002cadtube280mm_source ;
+    okh:source :CadDatacp002cadtube280mm_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Cp002cadtube280mm1 a okh:Part ;
-    rdfs:label "CP002_CAD_Tube280mm1" ;
+:CadDatacp002cadtube280mm1 a okh:Part ;
+    rdfs:label "CAD Data/CP002_CAD_Tube280mm1" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Patrick Flaherty" ;
-    okh:source :Cp002cadtube280mm1_source ;
+    okh:source :CadDatacp002cadtube280mm1_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Cp002cadtube280mm1_source a okh:SourceFile ;
-    rdfs:label "Source File of CP002_CAD_Tube280mm1 of CP002 - Baby Crib 1c7dca655db77c11159bff475e4dcaf5981a3833" ;
+:CadDatacp002cadtube280mm1_source a okh:SourceFile ;
+    rdfs:label "Source File of CAD Data/CP002_CAD_Tube280mm1 of CP002 - Baby Crib 1c7dca655db77c11159bff475e4dcaf5981a3833" ;
     okh:fileFormat "SLDPRT" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/44069/cp002_cad_tube280mm1.SLDPRT> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTozMzIyNzM=> .
 
-:Cp002cadtube280mm_source a okh:SourceFile ;
-    rdfs:label "Source File of CP002_CAD_Tube280mm of CP002 - Baby Crib 1c7dca655db77c11159bff475e4dcaf5981a3833" ;
+:CadDatacp002cadtube280mm_source a okh:SourceFile ;
+    rdfs:label "Source File of CAD Data/CP002_CAD_Tube280mm of CP002 - Baby Crib 1c7dca655db77c11159bff475e4dcaf5981a3833" ;
     okh:fileFormat "SLDPRT" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/44069/cp002_cad_tube280mm.SLDPRT> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTozMzIyNzQ=> .
 
-:Cp002cadtubecross a okh:Part ;
-    rdfs:label "CP002_CAD_Tube_Cross" ;
+:CadDatacp002cadtubecross a okh:Part ;
+    rdfs:label "CAD Data/CP002_CAD_Tube_Cross" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Patrick Flaherty" ;
-    okh:source :Cp002cadtubecross_source ;
+    okh:source :CadDatacp002cadtubecross_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Cp002cadtubecross_source a okh:SourceFile ;
-    rdfs:label "Source File of CP002_CAD_Tube_Cross of CP002 - Baby Crib 1c7dca655db77c11159bff475e4dcaf5981a3833" ;
+:CadDatacp002cadtubecross_source a okh:SourceFile ;
+    rdfs:label "Source File of CAD Data/CP002_CAD_Tube_Cross of CP002 - Baby Crib 1c7dca655db77c11159bff475e4dcaf5981a3833" ;
     okh:fileFormat "SLDPRT" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/44069/cp002_cad_tube_cross.SLDPRT> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTozMzIyNzc=> .
 
-:Cp002engdwg a okh:Part ;
-    rdfs:label "CP002_Eng_Dwg" ;
+:DrawingPackcp002engdwg a okh:Part ;
+    rdfs:label "Drawing Pack/CP002_Eng_Dwg" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Patrick Flaherty" ;
-    okh:source :Cp002engdwg_source ;
+    okh:source :DrawingPackcp002engdwg_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Cp002engdwg_source a okh:SourceFile ;
-    rdfs:label "Source File of CP002_Eng_Dwg of CP002 - Baby Crib 1c7dca655db77c11159bff475e4dcaf5981a3833" ;
+:DrawingPackcp002engdwg_source a okh:SourceFile ;
+    rdfs:label "Source File of Drawing Pack/CP002_Eng_Dwg of CP002 - Baby Crib 1c7dca655db77c11159bff475e4dcaf5981a3833" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/44069/cp002_eng_dwg.PDF> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTozMzIyNzE=> .

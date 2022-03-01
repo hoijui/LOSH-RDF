@@ -1,0 +1,48 @@
+__meta:
+  branch: null
+  created-at: '2011-08-05T09:41:36+00:00'
+  history: null
+  last-changed: null
+  last-visited: '2022-02-25T11:00:02.616920+00:00'
+  owner: WilliamAAdams
+  path: null
+  repo: https://www.thingiverse.com/thing:10540
+  score: null
+  source: thingiverse.com
+attestation: null
+bom: null
+contribution-guide: null
+cpc-patent-class: null
+documentation-language: en
+documentation-readiness-level: odrl3
+function: "A funny thing happened on my recent holiday.  I built a nice 3V geodesic dome and covered it with a parachute, so me and the family could sleep mosquito free.  Of course I used the Desert Domes calculator: http://www.desertdomes.com/ in order to calculate my chord factors so I could cut my wood dowels.  But then I got to thinking...\r\n\r\nThe geodesic form of tesselation is certainly good for dome building, but it's probably also good for other modeling purposes as well.\r\n\r\nThis thing is a library of functions that will do geodesic calculations, written in OpenScad.\r\n\r\nThere's no pretty object to go with it.  I'll have to use my handy dandy renderer and generate some domes.  For now, it's the the raw routines.\r\n\r\nFirst, there's some simple useful nuggets related to spherical coordinates:\r\nsph(long, lat, radius)\r\nsph_to_cart(s) - convert to cartesian\r\nsph_from_cart(s) - create spherical from cartesian\r\nsph_dist(c1, c2) - Calculate the chord distance of two points on a sphere\r\n\r\nthat right there is enough to do some fun geometry and GIS sorts of stuff.  but wait, there's more!!\r\n\r\nPulling this book off the shelf: Geodesic Math and How to Use It\r\n\r\nI went and created the following:\r\n\r\ngeo_freq()\r\ngeo_tri2_tri3()\r\nocta_class1()\r\nocta_class2()\r\nicosa_class1()\r\nicosa_class2()\r\ntetra_class1()\r\nclass1_icosa_chord_factor()\r\n\r\nThese are the basics.  The last one is what you really actually use to figure out chord factors, then you use those factors, multiply for your radius, and you're done.  For those in the know of geodesics, it's relatively easy going from there.  If you're not so familiar, a much more handy geodesic() module will be forthcoming in a subsequent release.\r\n\r\nAs usual, why bother with all this nonsense?  The web based calculator at Desert Domes is perfectly usable after all...  Well, that calculator generates domes based on the Icosahedron, Class 1, Method 1 style.  That's not the only form in which a dome can be constructed.  There are the octahedron, and tetrahedron base forms, and what about elliptical shapes, and who can forget triacons!!?\r\n\r\nAt any rate, I figure if there's a ready made public domain library to start from, people can make more interesting dome construction models, so here it is!  I think it would be rather nifty if OpenScad had native support for geodesics...\r\n\r\nFuture additions will include more interesting methods/classes and things such as elliptical and 'free form' sorts of things.  Then it will get really interesting.\r\n\r\nUPDATE: 08082011\r\nAdded a blog entry to go with this:\r\nhttp://williamaadams.wordpress.com/2011/08/08/geodesic-math-in-openscad-part-1-of-some/\r\n\r\nUPDATE: 12082011\r\nThere is a bug in the 'clean()' function.  So, if you're using the sph_to_cart() function, you'll get invalid numbers when you rotate past 90 degrees for your longitude.  I'll update in a bit, but there's some other new functions coming as well."
+image:
+  created-at: '2011-08-05T09:41:36+00:00'
+  last-changed: '2011-08-05T09:41:36+00:00'
+  last-visited: '2022-02-25T18:47:19.542834+00:00'
+  license: CC0-1.0
+  licensor: WilliamAAdams
+  mime-type: null
+  name: geodesicmaths_display_large_display_large
+  path: https:/cdn.thingiverse.com/renders/12/b9/ed/f3/34/geodesicmaths_display_large_display_large.jpg
+  perma-url: https://cdn.thingiverse.com/renders/12/b9/ed/f3/34/geodesicmaths_display_large_display_large.jpg
+  url: https://cdn.thingiverse.com/renders/12/b9/ed/f3/34/geodesicmaths_display_large_display_large.jpg
+license: CC0-1.0
+licensor: WilliamAAdams
+manufacturing-instructions: null
+name: Geodesic Maths for OpenScad - v0.1
+okhv: OKH-LOSHv1.0
+organization: null
+part: []
+publication: null
+readme: null
+release: null
+repo: https://www.thingiverse.com/thing:10540
+software: []
+specific-api-data: {}
+standard-compliance: null
+technology-readiness-level: ortl4
+tsdc: null
+upload-method: auto
+user-manual: null
+version: 1.0.0

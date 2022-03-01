@@ -1,0 +1,66 @@
+@prefix : <https://www.thingiverse.com/thing%3A404/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Boxotron10 a okh:Module ;
+    rdfs:label "Box-o-tron 1.0" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Box-o-tron 1.0 \r
+\r
+Python box creator\r
+\r
+Now with extra Awesome. boxotron now includes, command line interface and stored config files.\r
+\r
+Does tab and slot and "Cupcake" style T joins\r
+Usage: boxotron.py [options]\r
+\r
+Options:\r
+  -h, --help            show this help message and exit\r
+  -l LENGTH, --length=LENGTH\r
+                        Length of box in mm\r
+  -w WIDTH, --width=WIDTH\r
+                        width of box in mm\r
+  -d DEPTH, --depth=DEPTH\r
+                        depth of box in mm\r
+  -t THICKNESS, --thickness=THICKNESS\r
+                        thickness of material in mm\r
+  -c CLEARANCE, --clearance=CLEARANCE\r
+                        clearance between panels of material in mm\r
+  -i INSET, --inset=INSET\r
+                        inset to middle of slot material in mm\r
+  -s SLOT_LENGTH, --slot_length=SLOT_LENGTH\r
+                        length of slot in mm\r
+  -f FILENAME, --file_name=FILENAME\r
+                        file_name\r
+  -j JOIN_EVERY, --join_every=JOIN_EVERY\r
+                        join every x in mm\r
+  --type=TYPE           box type = slot , bolt\r
+  -b BOLT, --bolt_size=BOLT\r
+                        bolt size in mm\r
+  --bolt_length=BOLT_LENGTH\r
+                        bolt length in mm\r
+  --bolt_clearance=BOLT_TAB_CLEARANCE\r
+                        clearance between bolt and tab , multiple of bolt size\r
+  --nut_multiplier=NUT_MULTIPLIER\r
+                        nut size - multiple of bolt size\r
+  --nut_depth=NUT_DEPTH\r
+                        nut depth - multiple of bolt size\r
+\r
+\r
+(hint , specify a non-existent file name and it will make a default one of that name )""" ;
+    okh:hasImage :Image ;
+    okh:licensor "zignig" ;
+    okh:repo <https://www.thingiverse.com/thing:404> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:404> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Box-o-tron 1.0 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/3f/9d/25/99/ed/cube_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/3f/9d/25/99/ed/cube_display_large_display_large.jpg> .
+

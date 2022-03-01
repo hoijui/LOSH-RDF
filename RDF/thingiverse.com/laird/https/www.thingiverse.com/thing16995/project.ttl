@@ -1,0 +1,37 @@
+@prefix : <https://www.thingiverse.com/thing%3A16995/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:DiceGame2Color a okh:Module ;
+    rdfs:label "Dice Game 2 Color" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """As my family plays this game all the time, I'm excited to be able to print it. Inspired by the (soon to arrive) Replicator dialstruder, I modified the Dice Game to generate either one-color or two-color versions of the game.\r
+\r
+For the two color version, the 'body' and two of the dice (the "ones" and "tens" dice) are black, with white numbers, and the remaining dice are white with black numbers.\r
+\r
+To play the game, see the parent object. But to summarize:\r
+- Randomize the dice.\r
+- Add up the "tens" and "once" dice to a target number (e.g. 42).\r
+- Use the remaining dice, with any mathematical operators you like, to produce the target number.\r
+\r
+My family plays this on long trips with a set of dice in a bag. Putting it all into a single unit, so that the dice can't get lost, is a great idea. I can't wait to print this!\r
+\r
+Note: I have not yet tested this design, as the Replicator hasn't shipped yet. So I will be testing and updating this. Or, if someone with a dualstruder can test this, and let me know if it works, I would be thrilled! One thing to check - the numbers stick out very slightly from the face of the dice (0.1 mm) so that they subtract from the body of the dice cleanly. But I'm not sure how this will affect slicing and printing. I think it'll be fine if printed on a raft.\r
+\r
+All credit goes to jasay for designing the Dice Game in OpenSCAD. And, of course, to ThinkFun for designing Math Dice.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "laird" ;
+    okh:repo <https://www.thingiverse.com/thing:16995> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:16995> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Dice Game 2 Color 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/c8/94/a3/d6/19/DSC_0080_display_small_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/c8/94/a3/d6/19/DSC_0080_display_small_display_large.jpg> .
+

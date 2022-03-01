@@ -1,16 +1,17 @@
-@prefix : <https://wikifactory.com/@filipalaranjeira/comedouro-para-pássaros/1ab9b0a68b9459a8e660459690d13d43be33ef25/> .
+@prefix : <https://wikifactory.com/%40filipalaranjeira/comedouro-para-p%C3%A1ssaros/1ab9b0a68b9459a8e660459690d13d43be33ef25/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 :ComedouroParaPássaros a okh:Module ;
     rdfs:label "Comedouro para Pássaros" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "Our bird feeders objective is to provide a new platform for a community revolved around learning." ;
-    okh:hasComponent :ComedouroParaPassarosV42,
-        :Componentes,
-        :Corpo,
-        :Tampa,
-        :Telhado ;
+    okh:hasComponent :ParametricFilescomedouroParaPassarosV42,
+        :ParametricFilescomponentes,
+        :ParametricFilescorpo,
+        :ParametricFilestampa,
+        :ParametricFilestelhado ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "Filipa Laranjeira" ;
@@ -18,47 +19,9 @@
     okh:repo <https://wikifactory.com/@filipalaranjeira/comedouro-para-pássaros> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
     okh:version "1ab9b0a68b9459a8e660459690d13d43be33ef25" ;
     okh:versionOf <https://wikifactory.com/@filipalaranjeira/comedouro-para-pássaros> .
-
-:ComedouroParaPassarosV42 a okh:Part ;
-    rdfs:label "COMEDOURO PARA PASSAROS v42" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Filipa Laranjeira" ;
-    okh:source :ComedouroParaPassarosV42_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:ComedouroParaPassarosV42_source a okh:SourceFile ;
-    rdfs:label "Source File of COMEDOURO PARA PASSAROS v42 of Comedouro para Pássaros 1ab9b0a68b9459a8e660459690d13d43be33ef25" ;
-    okh:fileFormat "STEP" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/145616/comedouro-para-passaros-v42.step> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjQwMTQ=> .
-
-:Componentes a okh:Part ;
-    rdfs:label "COMPONENTES" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Filipa Laranjeira" ;
-    okh:source :Componentes_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Componentes_source a okh:SourceFile ;
-    rdfs:label "Source File of COMPONENTES of Comedouro para Pássaros 1ab9b0a68b9459a8e660459690d13d43be33ef25" ;
-    okh:fileFormat "STEP" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/145616/componentes.step> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjQwMTM=> .
-
-:Corpo a okh:Part ;
-    rdfs:label "Corpo" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Filipa Laranjeira" ;
-    okh:source :Corpo_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Corpo_source a okh:SourceFile ;
-    rdfs:label "Source File of Corpo of Comedouro para Pássaros 1ab9b0a68b9459a8e660459690d13d43be33ef25" ;
-    okh:fileFormat "STEP" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/145616/corpo.step> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjQwMTI=> .
 
 :Image a okh:Image ;
     rdfs:label "Image of Comedouro para Pássaros 1ab9b0a68b9459a8e660459690d13d43be33ef25" ;
@@ -66,35 +29,74 @@
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/145616/comedouro_para_passaros_7-fb2e4.jpg> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjQxMzk=> .
 
+:ParametricFilescomedouroParaPassarosV42 a okh:Part ;
+    rdfs:label "Parametric Files/COMEDOURO PARA PASSAROS v42" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Filipa Laranjeira" ;
+    okh:source :ParametricFilescomedouroParaPassarosV42_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:ParametricFilescomedouroParaPassarosV42_source a okh:SourceFile ;
+    rdfs:label "Source File of Parametric Files/COMEDOURO PARA PASSAROS v42 of Comedouro para Pássaros 1ab9b0a68b9459a8e660459690d13d43be33ef25" ;
+    okh:fileFormat "STEP" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/145616/comedouro-para-passaros-v42.step> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjQwMTQ=> .
+
+:ParametricFilescomponentes a okh:Part ;
+    rdfs:label "Parametric Files/COMPONENTES" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Filipa Laranjeira" ;
+    okh:source :ParametricFilescomponentes_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:ParametricFilescomponentes_source a okh:SourceFile ;
+    rdfs:label "Source File of Parametric Files/COMPONENTES of Comedouro para Pássaros 1ab9b0a68b9459a8e660459690d13d43be33ef25" ;
+    okh:fileFormat "STEP" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/145616/componentes.step> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjQwMTM=> .
+
+:ParametricFilescorpo a okh:Part ;
+    rdfs:label "Parametric Files/Corpo" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Filipa Laranjeira" ;
+    okh:source :ParametricFilescorpo_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:ParametricFilescorpo_source a okh:SourceFile ;
+    rdfs:label "Source File of Parametric Files/Corpo of Comedouro para Pássaros 1ab9b0a68b9459a8e660459690d13d43be33ef25" ;
+    okh:fileFormat "STEP" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/145616/corpo.step> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjQwMTI=> .
+
+:ParametricFilestampa a okh:Part ;
+    rdfs:label "Parametric Files/Tampa" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Filipa Laranjeira" ;
+    okh:source :ParametricFilestampa_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:ParametricFilestampa_source a okh:SourceFile ;
+    rdfs:label "Source File of Parametric Files/Tampa of Comedouro para Pássaros 1ab9b0a68b9459a8e660459690d13d43be33ef25" ;
+    okh:fileFormat "STEP" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/145616/tampa.step> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjQwMTE=> .
+
+:ParametricFilestelhado a okh:Part ;
+    rdfs:label "Parametric Files/telhado" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Filipa Laranjeira" ;
+    okh:source :ParametricFilestelhado_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:ParametricFilestelhado_source a okh:SourceFile ;
+    rdfs:label "Source File of Parametric Files/telhado of Comedouro para Pássaros 1ab9b0a68b9459a8e660459690d13d43be33ef25" ;
+    okh:fileFormat "STEP" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/145616/telhado.step> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjQwMTA=> .
+
 :Readme a okh:Readme ;
     rdfs:label "Readme of Comedouro para Pássaros 1ab9b0a68b9459a8e660459690d13d43be33ef25" ;
     okh:fileFormat "MD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/145616/readme-2521e.md> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjQxMzY=> .
-
-:Tampa a okh:Part ;
-    rdfs:label "Tampa" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Filipa Laranjeira" ;
-    okh:source :Tampa_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Tampa_source a okh:SourceFile ;
-    rdfs:label "Source File of Tampa of Comedouro para Pássaros 1ab9b0a68b9459a8e660459690d13d43be33ef25" ;
-    okh:fileFormat "STEP" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/145616/tampa.step> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjQwMTE=> .
-
-:Telhado a okh:Part ;
-    rdfs:label "telhado" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Filipa Laranjeira" ;
-    okh:source :Telhado_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Telhado_source a okh:SourceFile ;
-    rdfs:label "Source File of telhado of Comedouro para Pássaros 1ab9b0a68b9459a8e660459690d13d43be33ef25" ;
-    okh:fileFormat "STEP" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/145616/telhado.step> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjQwMTA=> .
 

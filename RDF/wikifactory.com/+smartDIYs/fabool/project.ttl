@@ -1,18 +1,25 @@
-@prefix : <https://wikifactory.com/+smartDIYs/fabool/d8ad0b9e8daa01582037b98268324c2dc926d5ad/> .
+@prefix : <https://wikifactory.com/%2BsmartDIYs/fabool/d8ad0b9e8daa01582037b98268324c2dc926d5ad/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 :FaboolLaserMini a okh:Module ;
     rdfs:label "Fabool Laser Mini" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "An open-source desktop laser cutter and engraver that excels in usability and expandability, enabling it to meet a variety of needs. Developed by smartDIYs, a group of Japanese engineers, and succesfully crowd-funded about $60 million in Japan while the project was getting starting." ;
-    okh:hasComponent :FlmidlerPulleyPlate,
-        :FlmminiVPlatec,
-        :FlmminiVPlatel,
-        :FlmminiVPlater,
-        :FlmmotorMountPlateXaxis,
-        :FlmmotorMountPlateYaxis,
-        :Laserminiboard ;
+    okh:hasComponent :Electronicslaserminiboard,
+        :MechanicalDesigndxfFilesflmidlerPulleyPlate,
+        :MechanicalDesigndxfFilesflmminiVPlatec,
+        :MechanicalDesigndxfFilesflmminiVPlatel,
+        :MechanicalDesigndxfFilesflmminiVPlater,
+        :MechanicalDesigndxfFilesflmmotorMountPlateXaxis,
+        :MechanicalDesigndxfFilesflmmotorMountPlateYaxis,
+        :MechanicalDesignstepFilesflmidlerPulleyPlate,
+        :MechanicalDesignstepFilesflmminiVPlatec,
+        :MechanicalDesignstepFilesflmminiVPlatel,
+        :MechanicalDesignstepFilesflmminiVPlater,
+        :MechanicalDesignstepFilesflmmotorMountPlateXaxis,
+        :MechanicalDesignstepFilesflmmotorMountPlateYaxis ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "James Botler" ;
@@ -21,128 +28,22 @@
     okh:repo <https://wikifactory.com/+smartDIYs/fabool> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
     okh:version "d8ad0b9e8daa01582037b98268324c2dc926d5ad" ;
     okh:versionOf <https://wikifactory.com/+smartDIYs/fabool> .
 
-:FlmidlerPulleyPlate a okh:Part ;
-    rdfs:label "FLM_idler pulley plate" ;
+:Electronicslaserminiboard a okh:Part ;
+    rdfs:label "Electronics/LaserMiniBoard" ;
     okh:documentationLanguage "en" ;
-    okh:export :FlmidlerPulleyPlate_export1 ;
     okh:licensor "James Botler" ;
-    okh:source :FlmidlerPulleyPlate_source ;
+    okh:source :Electronicslaserminiboard_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:FlmidlerPulleyPlate_export1 a okh:ExportFile ;
-    rdfs:label "Export File of FLM_idler pulley plate of Fabool Laser Mini d8ad0b9e8daa01582037b98268324c2dc926d5ad" ;
-    okh:fileFormat "STEP" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/530/flmidler-pulley-plate.step> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyNzgy> .
-
-:FlmidlerPulleyPlate_source a okh:SourceFile ;
-    rdfs:label "Source File of FLM_idler pulley plate of Fabool Laser Mini d8ad0b9e8daa01582037b98268324c2dc926d5ad" ;
-    okh:fileFormat "DXF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/530/flmidler-pulley-plate.dxf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyNzky> .
-
-:FlmminiVPlatec a okh:Part ;
-    rdfs:label "FLM_mini v plate_C" ;
-    okh:documentationLanguage "en" ;
-    okh:export :FlmminiVPlatec_export1 ;
-    okh:licensor "James Botler" ;
-    okh:source :FlmminiVPlatec_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:FlmminiVPlatec_export1 a okh:ExportFile ;
-    rdfs:label "Export File of FLM_mini v plate_C of Fabool Laser Mini d8ad0b9e8daa01582037b98268324c2dc926d5ad" ;
-    okh:fileFormat "STEP" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/530/flmmini-v-platec.step> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyNzgw> .
-
-:FlmminiVPlatec_source a okh:SourceFile ;
-    rdfs:label "Source File of FLM_mini v plate_C of Fabool Laser Mini d8ad0b9e8daa01582037b98268324c2dc926d5ad" ;
-    okh:fileFormat "DXF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/530/flmmini-v-platec.dxf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyNzkx> .
-
-:FlmminiVPlatel a okh:Part ;
-    rdfs:label "FLM_mini v plate_L" ;
-    okh:documentationLanguage "en" ;
-    okh:export :FlmminiVPlatel_export1 ;
-    okh:licensor "James Botler" ;
-    okh:source :FlmminiVPlatel_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:FlmminiVPlatel_export1 a okh:ExportFile ;
-    rdfs:label "Export File of FLM_mini v plate_L of Fabool Laser Mini d8ad0b9e8daa01582037b98268324c2dc926d5ad" ;
-    okh:fileFormat "STEP" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/530/flmmini-v-platel.step> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyNzgx> .
-
-:FlmminiVPlatel_source a okh:SourceFile ;
-    rdfs:label "Source File of FLM_mini v plate_L of Fabool Laser Mini d8ad0b9e8daa01582037b98268324c2dc926d5ad" ;
-    okh:fileFormat "DXF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/530/flmmini-v-platel.dxf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyNzkz> .
-
-:FlmminiVPlater a okh:Part ;
-    rdfs:label "FLM_mini v plate_R" ;
-    okh:documentationLanguage "en" ;
-    okh:export :FlmminiVPlater_export1 ;
-    okh:licensor "James Botler" ;
-    okh:source :FlmminiVPlater_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:FlmminiVPlater_export1 a okh:ExportFile ;
-    rdfs:label "Export File of FLM_mini v plate_R of Fabool Laser Mini d8ad0b9e8daa01582037b98268324c2dc926d5ad" ;
-    okh:fileFormat "STEP" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/530/flmmini-v-plater.step> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyNzgz> .
-
-:FlmminiVPlater_source a okh:SourceFile ;
-    rdfs:label "Source File of FLM_mini v plate_R of Fabool Laser Mini d8ad0b9e8daa01582037b98268324c2dc926d5ad" ;
-    okh:fileFormat "DXF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/530/flmmini-v-plater.dxf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyNzkw> .
-
-:FlmmotorMountPlateXaxis a okh:Part ;
-    rdfs:label "FLM_motor mount plate x-axis" ;
-    okh:documentationLanguage "en" ;
-    okh:export :FlmmotorMountPlateXaxis_export1 ;
-    okh:licensor "James Botler" ;
-    okh:source :FlmmotorMountPlateXaxis_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:FlmmotorMountPlateXaxis_export1 a okh:ExportFile ;
-    rdfs:label "Export File of FLM_motor mount plate x-axis of Fabool Laser Mini d8ad0b9e8daa01582037b98268324c2dc926d5ad" ;
-    okh:fileFormat "STEP" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/530/flmmotor-mount-plate-x-axis.step> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyNzg1> .
-
-:FlmmotorMountPlateXaxis_source a okh:SourceFile ;
-    rdfs:label "Source File of FLM_motor mount plate x-axis of Fabool Laser Mini d8ad0b9e8daa01582037b98268324c2dc926d5ad" ;
-    okh:fileFormat "DXF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/530/flmmotor-mount-plate-x-axis.dxf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyNzk1> .
-
-:FlmmotorMountPlateYaxis a okh:Part ;
-    rdfs:label "FLM_motor mount plate y-axis" ;
-    okh:documentationLanguage "en" ;
-    okh:export :FlmmotorMountPlateYaxis_export1 ;
-    okh:licensor "James Botler" ;
-    okh:source :FlmmotorMountPlateYaxis_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:FlmmotorMountPlateYaxis_export1 a okh:ExportFile ;
-    rdfs:label "Export File of FLM_motor mount plate y-axis of Fabool Laser Mini d8ad0b9e8daa01582037b98268324c2dc926d5ad" ;
-    okh:fileFormat "STEP" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/530/flmmotor-mount-plate-y-axis.step> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyNzg0> .
-
-:FlmmotorMountPlateYaxis_source a okh:SourceFile ;
-    rdfs:label "Source File of FLM_motor mount plate y-axis of Fabool Laser Mini d8ad0b9e8daa01582037b98268324c2dc926d5ad" ;
-    okh:fileFormat "DXF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/530/flmmotor-mount-plate-y-axis.dxf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyNzk0> .
+:Electronicslaserminiboard_source a okh:SourceFile ;
+    rdfs:label "Source File of Electronics/LaserMiniBoard of Fabool Laser Mini d8ad0b9e8daa01582037b98268324c2dc926d5ad" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/530/laserminiboard.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyNzcx> .
 
 :Image a okh:Image ;
     rdfs:label "Image of Fabool Laser Mini d8ad0b9e8daa01582037b98268324c2dc926d5ad" ;
@@ -150,22 +51,165 @@
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/530/fabool.png> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToyMTgy> .
 
-:Laserminiboard a okh:Part ;
-    rdfs:label "LaserMiniBoard" ;
+:MechanicalDesigndxfFilesflmidlerPulleyPlate a okh:Part ;
+    rdfs:label "Mechanical Design/DXF files/FLM_idler pulley plate" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Laserminiboard_source ;
+    okh:source :MechanicalDesigndxfFilesflmidlerPulleyPlate_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Laserminiboard_source a okh:SourceFile ;
-    rdfs:label "Source File of LaserMiniBoard of Fabool Laser Mini d8ad0b9e8daa01582037b98268324c2dc926d5ad" ;
-    okh:fileFormat "PDF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/530/laserminiboard.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyNzcx> .
+:MechanicalDesigndxfFilesflmidlerPulleyPlate_source a okh:SourceFile ;
+    rdfs:label "Source File of Mechanical Design/DXF files/FLM_idler pulley plate of Fabool Laser Mini d8ad0b9e8daa01582037b98268324c2dc926d5ad" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/530/flmidler-pulley-plate.dxf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyNzky> .
+
+:MechanicalDesigndxfFilesflmminiVPlatec a okh:Part ;
+    rdfs:label "Mechanical Design/DXF files/FLM_mini v plate_C" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :MechanicalDesigndxfFilesflmminiVPlatec_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:MechanicalDesigndxfFilesflmminiVPlatec_source a okh:SourceFile ;
+    rdfs:label "Source File of Mechanical Design/DXF files/FLM_mini v plate_C of Fabool Laser Mini d8ad0b9e8daa01582037b98268324c2dc926d5ad" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/530/flmmini-v-platec.dxf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyNzkx> .
+
+:MechanicalDesigndxfFilesflmminiVPlatel a okh:Part ;
+    rdfs:label "Mechanical Design/DXF files/FLM_mini v plate_L" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :MechanicalDesigndxfFilesflmminiVPlatel_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:MechanicalDesigndxfFilesflmminiVPlatel_source a okh:SourceFile ;
+    rdfs:label "Source File of Mechanical Design/DXF files/FLM_mini v plate_L of Fabool Laser Mini d8ad0b9e8daa01582037b98268324c2dc926d5ad" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/530/flmmini-v-platel.dxf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyNzkz> .
+
+:MechanicalDesigndxfFilesflmminiVPlater a okh:Part ;
+    rdfs:label "Mechanical Design/DXF files/FLM_mini v plate_R" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :MechanicalDesigndxfFilesflmminiVPlater_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:MechanicalDesigndxfFilesflmminiVPlater_source a okh:SourceFile ;
+    rdfs:label "Source File of Mechanical Design/DXF files/FLM_mini v plate_R of Fabool Laser Mini d8ad0b9e8daa01582037b98268324c2dc926d5ad" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/530/flmmini-v-plater.dxf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyNzkw> .
+
+:MechanicalDesigndxfFilesflmmotorMountPlateXaxis a okh:Part ;
+    rdfs:label "Mechanical Design/DXF files/FLM_motor mount plate x-axis" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :MechanicalDesigndxfFilesflmmotorMountPlateXaxis_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:MechanicalDesigndxfFilesflmmotorMountPlateXaxis_source a okh:SourceFile ;
+    rdfs:label "Source File of Mechanical Design/DXF files/FLM_motor mount plate x-axis of Fabool Laser Mini d8ad0b9e8daa01582037b98268324c2dc926d5ad" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/530/flmmotor-mount-plate-x-axis.dxf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyNzk1> .
+
+:MechanicalDesigndxfFilesflmmotorMountPlateYaxis a okh:Part ;
+    rdfs:label "Mechanical Design/DXF files/FLM_motor mount plate y-axis" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :MechanicalDesigndxfFilesflmmotorMountPlateYaxis_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:MechanicalDesigndxfFilesflmmotorMountPlateYaxis_source a okh:SourceFile ;
+    rdfs:label "Source File of Mechanical Design/DXF files/FLM_motor mount plate y-axis of Fabool Laser Mini d8ad0b9e8daa01582037b98268324c2dc926d5ad" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/530/flmmotor-mount-plate-y-axis.dxf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyNzk0> .
+
+:MechanicalDesignstepFilesflmidlerPulleyPlate a okh:Part ;
+    rdfs:label "Mechanical Design/STEP files/FLM_idler pulley plate" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :MechanicalDesignstepFilesflmidlerPulleyPlate_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:MechanicalDesignstepFilesflmidlerPulleyPlate_source a okh:SourceFile ;
+    rdfs:label "Source File of Mechanical Design/STEP files/FLM_idler pulley plate of Fabool Laser Mini d8ad0b9e8daa01582037b98268324c2dc926d5ad" ;
+    okh:fileFormat "STEP" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/530/flmidler-pulley-plate.step> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyNzgy> .
+
+:MechanicalDesignstepFilesflmminiVPlatec a okh:Part ;
+    rdfs:label "Mechanical Design/STEP files/FLM_mini v plate_C" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :MechanicalDesignstepFilesflmminiVPlatec_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:MechanicalDesignstepFilesflmminiVPlatec_source a okh:SourceFile ;
+    rdfs:label "Source File of Mechanical Design/STEP files/FLM_mini v plate_C of Fabool Laser Mini d8ad0b9e8daa01582037b98268324c2dc926d5ad" ;
+    okh:fileFormat "STEP" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/530/flmmini-v-platec.step> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyNzgw> .
+
+:MechanicalDesignstepFilesflmminiVPlatel a okh:Part ;
+    rdfs:label "Mechanical Design/STEP files/FLM_mini v plate_L" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :MechanicalDesignstepFilesflmminiVPlatel_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:MechanicalDesignstepFilesflmminiVPlatel_source a okh:SourceFile ;
+    rdfs:label "Source File of Mechanical Design/STEP files/FLM_mini v plate_L of Fabool Laser Mini d8ad0b9e8daa01582037b98268324c2dc926d5ad" ;
+    okh:fileFormat "STEP" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/530/flmmini-v-platel.step> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyNzgx> .
+
+:MechanicalDesignstepFilesflmminiVPlater a okh:Part ;
+    rdfs:label "Mechanical Design/STEP files/FLM_mini v plate_R" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :MechanicalDesignstepFilesflmminiVPlater_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:MechanicalDesignstepFilesflmminiVPlater_source a okh:SourceFile ;
+    rdfs:label "Source File of Mechanical Design/STEP files/FLM_mini v plate_R of Fabool Laser Mini d8ad0b9e8daa01582037b98268324c2dc926d5ad" ;
+    okh:fileFormat "STEP" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/530/flmmini-v-plater.step> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyNzgz> .
+
+:MechanicalDesignstepFilesflmmotorMountPlateXaxis a okh:Part ;
+    rdfs:label "Mechanical Design/STEP files/FLM_motor mount plate x-axis" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :MechanicalDesignstepFilesflmmotorMountPlateXaxis_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:MechanicalDesignstepFilesflmmotorMountPlateXaxis_source a okh:SourceFile ;
+    rdfs:label "Source File of Mechanical Design/STEP files/FLM_motor mount plate x-axis of Fabool Laser Mini d8ad0b9e8daa01582037b98268324c2dc926d5ad" ;
+    okh:fileFormat "STEP" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/530/flmmotor-mount-plate-x-axis.step> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyNzg1> .
+
+:MechanicalDesignstepFilesflmmotorMountPlateYaxis a okh:Part ;
+    rdfs:label "Mechanical Design/STEP files/FLM_motor mount plate y-axis" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :MechanicalDesignstepFilesflmmotorMountPlateYaxis_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:MechanicalDesignstepFilesflmmotorMountPlateYaxis_source a okh:SourceFile ;
+    rdfs:label "Source File of Mechanical Design/STEP files/FLM_motor mount plate y-axis of Fabool Laser Mini d8ad0b9e8daa01582037b98268324c2dc926d5ad" ;
+    okh:fileFormat "STEP" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/530/flmmotor-mount-plate-y-axis.step> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyNzg0> .
 
 :Readme a okh:Readme ;
     rdfs:label "Readme of Fabool Laser Mini d8ad0b9e8daa01582037b98268324c2dc926d5ad" ;
     okh:fileFormat "MD" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/530/readme-8.md> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyOTAy> .
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/530/readme-11.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0Nzgy> .
 

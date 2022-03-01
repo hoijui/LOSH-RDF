@@ -1,0 +1,48 @@
+__meta:
+  branch: null
+  created-at: '2011-05-19T09:21:57+00:00'
+  history: null
+  last-changed: null
+  last-visited: '2022-02-25T11:00:02.616920+00:00'
+  owner: WilliamAAdams
+  path: null
+  repo: https://www.thingiverse.com/thing:8643
+  score: null
+  source: thingiverse.com
+attestation: null
+bom: null
+contribution-guide: null
+cpc-patent-class: null
+documentation-language: en
+documentation-readiness-level: odrl3
+function: "The ultimate in Bezier curviness in OpenScad is to have thickness of surface, without having to use a bazillion granules to render an object.\r\n\r\nThis thing is some updating of the bezier functions to deal with the mesh better.  Specifically, you can hand the BezierMesh() module a set of 4 Bezier curves, and it will do the surface interpolation/tesselation, and generate a mesh of triangle patches that will represent the surface.\r\n\r\nI labelled this as version '0.5' because there are some pretty horrible bugs.  As can be seen in the first picture, those blue dots are the calculated surface normals for each of the quad faces.  There is a flaw in the rotation angle calculations such that there is a bias, which causes the normals to point off axis in the wrong direction depending on this and that.  On more interesting meshes, this will show up even worse.\r\n\r\nAlso, there are still cracks between the 'rows' as I am not properly calculating the lengths of the sides to match up properly.  I know what needs to be done, but I was trying to get the normals right first.\r\n\r\nI'm releasing this now, even though it's not quite functional, because I want other people to take a look and possibly do the math better than I am.  It's all really straight forward actually.  Nothing too harry other than getting some trig right.  The rest is just multiplication and addition.  Easy optimizations abound, particularly in the BezierMesh() module.  The first, to speed up processing, would be to separate the Bezier coefficient calculations from the general 'pointoncurve' calculation.  That would be way efficient.\r\n\r\nThere are some updated functions in the 'maths.scad' file, as well as the 'Render2D.scad' file.\r\n\r\nFor the final, I'll separate out the \"render\" stuff for granules from the core drawing.  The ideal would be that you could drop in your own renderer, and get totally different behavior.  I think that's a fairly easy way to extend OpenScad.\r\n\r\nAt any rate, just a step along the path...\r\n\r\nUPDATE: Here's a blog entry to go with it...\r\nhttp://williamaadams.wordpress.com/2011/05/19/mr-beziers-new-perspective/"
+image:
+  created-at: '2011-05-19T09:21:57+00:00'
+  last-changed: '2011-05-19T09:21:57+00:00'
+  last-visited: '2022-02-25T17:04:55.581259+00:00'
+  license: CC-BY-4.0
+  licensor: WilliamAAdams
+  mime-type: null
+  name: Bezier_Surface_v05_1_display_large_display_large
+  path: https:/cdn.thingiverse.com/renders/c8/e8/ec/8a/44/Bezier_Surface_v05_1_display_large_display_large.jpg
+  perma-url: https://cdn.thingiverse.com/renders/c8/e8/ec/8a/44/Bezier_Surface_v05_1_display_large_display_large.jpg
+  url: https://cdn.thingiverse.com/renders/c8/e8/ec/8a/44/Bezier_Surface_v05_1_display_large_display_large.jpg
+license: CC-BY-4.0
+licensor: WilliamAAdams
+manufacturing-instructions: null
+name: Bezier Mesh Surface V0.5
+okhv: OKH-LOSHv1.0
+organization: null
+part: []
+publication: null
+readme: null
+release: null
+repo: https://www.thingiverse.com/thing:8643
+software: []
+specific-api-data: {}
+standard-compliance: null
+technology-readiness-level: ortl4
+tsdc: null
+upload-method: auto
+user-manual: null
+version: 1.0.0

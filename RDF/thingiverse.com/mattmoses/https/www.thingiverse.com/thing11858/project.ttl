@@ -1,0 +1,42 @@
+@prefix : <https://www.thingiverse.com/thing%3A11858/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ElectromagnetRatchetMotor a okh:Module ;
+    rdfs:label "Electromagnet Ratchet Motor" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This experimental motor is another attempt at building a printable actuator.  The advantage this design might have over a motor like this one http://www.thingiverse.com/thing:11164 is that it does not use magnets.  This is not really a practical motor, but others interested in this topic might be able to build on this design.  \r
+\r
+It was designed for use with this electromagnet http://www.thingiverse.com/thing:9608 and actually operated for a very brief moment before the electromagnet burned out.  The electromagnet is driven by a pulsed DC current (a square wave at 5 to 10 Hz).  With each pulse, the arm is attracted to the electromagnet, and it advances the ratchet wheel by one tooth.  Gravity returns the arm to its rest position.  The motor sits in the funny-looking wheel stand so that different inclinations can be tried.  This is a simple way to adjust the return force on the arm.  \r
+\r
+A video of the motor running with a hand-wound electromagnet can be seen here http://www.youtube.com/watch?v=bqnEIj00C6k\r
+\r
+The electromagnet uses magnet wire and a half-inch steel bolt as a core.  I did not count the turns, but it is just a simple old electromagnet.  It draws a few amps at 6V.  There is a steel washer glued to the moving arm.\r
+\r
+The arrangement of ratchet wheel and pawls was inspired by\r
+http://www.thingiverse.com/thing:329\r
+\r
+There are some other ratchet motor designs like this one\r
+http://www.thingiverse.com/thing:946\r
+\r
+and this one http://vimeo.com/3169018\r
+\r
+There are lots of other actuator ideas listed on the \r
+Reprap Actuator Fabrication Page\r
+http://reprap.org/wiki/Actuator_Fabrication""" ;
+    okh:hasImage :Image ;
+    okh:licensor "mattmoses" ;
+    okh:repo <https://www.thingiverse.com/thing:11858> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:11858> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Electromagnet Ratchet Motor 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/21/f2/d5/21/ac/solenoidMotor3_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/21/f2/d5/21/ac/solenoidMotor3_display_large_display_large.jpg> .
+

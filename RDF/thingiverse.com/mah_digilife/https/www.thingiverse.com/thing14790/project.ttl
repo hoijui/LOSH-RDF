@@ -1,0 +1,41 @@
+@prefix : <https://www.thingiverse.com/thing%3A14790/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:PcbCuttingTestForImodela a okh:Module ;
+    rdfs:label "PCB cutting test for iModela" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is PCB cutting test for iModela.\r
+This is the pattern for the 32pin IC(e.g. ATmega328) to convert from 0.8mm to 25.4mm pitch.\r
+(However, this is not practical.)\r
+\r
+The width of the pattern (on the data) is min 0.3mm.\r
+Between the pattern and the pattern is min 0.5mm.\r
+I used a PCB milling software "WINSTER PCB for iModela"\r
+http://www.a-t.co.jp/winstarpcb_imode.html\r
+\r
+Gerver data were created using PCBE.\r
+http://www.vector.co.jp/soft/winnt/business/se056371.html\r
+\r
+\r
+\r
+"iModela" is the 3D cutting machine manufactured by Roland DG.\r
+This machine can cut the size of 86x55x26mm.\r
+This can move the cutter 0.01mm intervals.\r
+http://icreate.rolanddg.com/iModela/Global/English/index.html/""" ;
+    okh:hasImage :Image ;
+    okh:licensor "mah_digilife" ;
+    okh:repo <https://www.thingiverse.com/thing:14790> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:14790> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of PCB cutting test for iModela 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/6c/a5/2d/bb/bd/01_s_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/6c/a5/2d/bb/bd/01_s_display_large_display_large.jpg> .
+

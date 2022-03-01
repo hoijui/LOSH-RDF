@@ -1,0 +1,26 @@
+@prefix : <https://www.thingiverse.com/thing%3A1491/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:3dPrintedPartsFor3dScanner a okh:Module ;
+    rdfs:label "3d printed parts for 3d scanner" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """We are developing a 3d scanner based on parts printed from a makerbot.  These files show the printed parts, put together with a logitech camera, a laser, and a mirror mounted on a galvanometer.  The basic idea along with our first implementation is described here: http://abarry.org/stereo\r
+\r
+We are developing the software using a microchip PIC to drive the mirror, along with software to obtain point clouds and meshlab to mesh the point cloud.  There is a long way to go with the software, but at least we have some nice printed hardware to get the data.  UPDATE: new scans -- we've added a screenshot of a scanned artichoke!""" ;
+    okh:hasImage :Image ;
+    okh:licensor "SingularityU" ;
+    okh:repo <https://www.thingiverse.com/thing:1491> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:1491> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of 3d printed parts for 3d scanner 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/b3/65/f3/f2/59/3d_scanner_assembled_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/b3/65/f3/f2/59/3d_scanner_assembled_display_large_display_large.jpg> .
+

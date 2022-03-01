@@ -1,0 +1,36 @@
+@prefix : <https://www.thingiverse.com/thing%3A394/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ExtruderControllerV21 a okh:Module ;
+    rdfs:label "Extruder Controller v2.1" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This board is a combination of the PWM Driver Board, DC Motor Driver Board, Temperature Sensor Board, RS485 comms, and an Arduino! All on one board. It has screw terminals for easy hookup, as well as a power jack for power and an IDC header for the rotary encoder. Its an all-in-one solution for controlling an extruder.\r
+\r
+Some highlights:\r
+\r
+    * Onboard atmega168 - program it just like an Arduino because it is an Arduino.\r
+    * 3 x MOSFET drivers for controlling up to 14A @ 12V. Perfect for heaters, fans, solenoids, etc.\r
+    * 2 x H-Bridges capable of up to 2A each. Control 2 motors, or control one stepper motor.\r
+    * A temperature sensor circuit for reading the standard 100K thermistor.\r
+    * RS485 connection for noise-free communications with the motherboard.\r
+    * IDC header for connecting a Magnetic Rotary Encoder.\r
+    * Polarized ICSP header for simple, easy programming.\r
+    * It mounts directly to the Pinch Wheel Extruder!\r
+    * It is plug and play with the RepRap Motherboard.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "MakerBot" ;
+    okh:repo <https://www.thingiverse.com/thing:394> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:394> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Extruder Controller v2.1 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/f6/35/5e/8b/61/extruder-controller-2.1_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/f6/35/5e/8b/61/extruder-controller-2.1_display_large_display_large.jpg> .
+

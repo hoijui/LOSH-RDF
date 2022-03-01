@@ -1,0 +1,40 @@
+@prefix : <https://www.thingiverse.com/thing%3A19102/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Ibreathe a okh:Module ;
+    rdfs:label "iBreathe" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """http://ibreathe.info/\r
+\r
+iBreathe runs off of a stretch sensor, an arduino, and Processing.\r
+\r
+Oftentimes when we sit at our computers, hunched over, distracted, or stressed out - we forget to breathe. Linda Stone refers to this common phenomenon as "email apnea" in this article: http://www.huffingtonpost.com/linda-stone/just-breathe-building-the_b_85651.html\r
+\r
+Shallow, restricted breathing and poor posture can lead to short term feelings of anxiety, and long term health problems! This is where iBreathe comes in.\r
+\r
+Using Processing code, iBreathe helps you calibrate a moderate to deep breath through the dimness function in your (mac only, for now) computer. When your breathing falls out of the calibrated range - i.e. stops or becomes shallow - your computer screen will dim, obscuring your work. Once you are back in range, your computer will brighten again, and you can keep at it - hopefully feeling a bit more serene.\r
+\r
+Also included here is a bracelet that uses an iPhone motor to vibrate as a gentle, tactile reward when you are breathing in range for an extended period of time.\r
+\r
+And last of all - just for fun - is the USB umbilical cord. iBreathe can run wired or wirelessly, but at the ITP Winter Show, where it was shown recently, we kept it wired via a latex covered USB cord made to look like flesh - just to emphasize the biological link you're forging with your computer by being mindful of your breath.\r
+\r
+Have fun! And please email us with your questions, comments, or success! \r
+\r
+hi.ibreathe @ gmail . com""" ;
+    okh:hasImage :Image ;
+    okh:licensor "saraswathi" ;
+    okh:repo <https://www.thingiverse.com/thing:19102> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:19102> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of iBreathe 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/10/2f/4a/65/bf/DSCN3257_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/10/2f/4a/65/bf/DSCN3257_display_large_display_large.jpg> .
+

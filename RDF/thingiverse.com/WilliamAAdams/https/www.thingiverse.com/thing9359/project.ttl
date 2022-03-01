@@ -1,0 +1,38 @@
+@prefix : <https://www.thingiverse.com/thing%3A9359/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:PlatonicSolidVertices a okh:Module ;
+    rdfs:label "Platonic Solid Vertices" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """I always have need for a good/better vertex to construct space frames.\r
+\r
+This derivative thing just makes a few 'improvements' to the original design.\r
+\r
+First of all, I've modularized the code somewhat.  This doesn't make any particular improvement, but it will make it easier to see what's going on, and how to add to it in the future when more vertices are needed.\r
+\r
+Second, being the slave to phi (1.618) that I am, I changed things like the thickness of the connector to be proportional to the radius of the rods that you're using (instead of a fixed value).\r
+\r
+I've also made a change such that the length of the connector is automatically calculated proportional to the length of the rods that you're using.  The base size is 10mm, and it grows by an appropriately 'phi' influenced length.  So, the ones for a 36" rod, for example, are closer to about 20mm, rather than 10mm.\r
+\r
+With these changes, it becomes rather trivial to make good new connectors for any size, by just changing the single diameter value, and the rod length.\r
+\r
+I've played with a lot of vertex designs over the past few months.  This is one of the most compact, and easy to utilize.  I give props to Sjoerd de Jong for the simplicity of the design.\r
+\r
+In the picture, the struts are 36" long.  The overall height of the structure is about 8'.  With this design, the fit is strong enough that you can actually assemble the thing with one person.  If you've ever done dome development, you might recognize this is a 'good thing'.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "WilliamAAdams" ;
+    okh:repo <https://www.thingiverse.com/thing:9359> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:9359> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Platonic Solid Vertices 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/54/a1/d2/fb/38/DSC00797_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/54/a1/d2/fb/38/DSC00797_display_large_display_large.jpg> .
+

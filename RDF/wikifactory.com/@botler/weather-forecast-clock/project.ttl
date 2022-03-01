@@ -1,13 +1,15 @@
-@prefix : <https://wikifactory.com/@botler/weather-forecast-clock/d03d7f0ad1f6a80ed734652772dc1384046e835c/> .
+@prefix : <https://wikifactory.com/%40botler/weather-forecast-clock/d03d7f0ad1f6a80ed734652772dc1384046e835c/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 :WeatherForecastClock a okh:Module ;
     rdfs:label "Weather Forecast Clock" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "Clock and weather forecasting station created from a broken alarm clock and using a Nokia 5110 LCD screen and other components - original project by Lenka Design, featured in Instructables." ;
-    okh:hasComponent :Ds1307,
-        :Lcd5110basic ;
+    okh:hasComponent :SoftwarelcdScreenLibrarylcd5110basic,
+        :Softwarenokia5110Librarylcd5110basic,
+        :Softwareotherds1307 ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "James Botler" ;
@@ -15,21 +17,9 @@
     okh:repo <https://wikifactory.com/@botler/weather-forecast-clock> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
     okh:version "d03d7f0ad1f6a80ed734652772dc1384046e835c" ;
     okh:versionOf <https://wikifactory.com/@botler/weather-forecast-clock> .
-
-:Ds1307 a okh:Part ;
-    rdfs:label "DS1307" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "James Botler" ;
-    okh:source :Ds1307_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Ds1307_source a okh:SourceFile ;
-    rdfs:label "Source File of DS1307 of Weather Forecast Clock d03d7f0ad1f6a80ed734652772dc1384046e835c" ;
-    okh:fileFormat "PDF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/762/ds1307-0.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjI5> .
 
 :Image a okh:Image ;
     rdfs:label "Image of Weather Forecast Clock d03d7f0ad1f6a80ed734652772dc1384046e835c" ;
@@ -37,29 +27,48 @@
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/762/cropped-1.jpg> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo2MTk4> .
 
-:Lcd5110basic a okh:Part ;
-    rdfs:label "LCD5110_Basic" ;
-    okh:documentationLanguage "en" ;
-    okh:export :Lcd5110basic_export1 ;
-    okh:licensor "James Botler" ;
-    okh:source :Lcd5110basic_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Lcd5110basic_export1 a okh:ExportFile ;
-    rdfs:label "Export File of LCD5110_Basic of Weather Forecast Clock d03d7f0ad1f6a80ed734652772dc1384046e835c" ;
-    okh:fileFormat "PDF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/762/lcd5110basic.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjI2> .
-
-:Lcd5110basic_source a okh:SourceFile ;
-    rdfs:label "Source File of LCD5110_Basic of Weather Forecast Clock d03d7f0ad1f6a80ed734652772dc1384046e835c" ;
-    okh:fileFormat "PDF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/762/lcd5110basic-0.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjQ0> .
-
 :Readme a okh:Readme ;
     rdfs:label "Readme of Weather Forecast Clock d03d7f0ad1f6a80ed734652772dc1384046e835c" ;
     okh:fileFormat "MD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/762/readme-6.md> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo2NzQ5> .
+
+:SoftwarelcdScreenLibrarylcd5110basic a okh:Part ;
+    rdfs:label "Software/LCD screen library/LCD5110_Basic" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :SoftwarelcdScreenLibrarylcd5110basic_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:SoftwarelcdScreenLibrarylcd5110basic_source a okh:SourceFile ;
+    rdfs:label "Source File of Software/LCD screen library/LCD5110_Basic of Weather Forecast Clock d03d7f0ad1f6a80ed734652772dc1384046e835c" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/762/lcd5110basic-0.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjQ0> .
+
+:Softwarenokia5110Librarylcd5110basic a okh:Part ;
+    rdfs:label "Software/Nokia 5110 library/LCD5110_Basic" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :Softwarenokia5110Librarylcd5110basic_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Softwarenokia5110Librarylcd5110basic_source a okh:SourceFile ;
+    rdfs:label "Source File of Software/Nokia 5110 library/LCD5110_Basic of Weather Forecast Clock d03d7f0ad1f6a80ed734652772dc1384046e835c" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/762/lcd5110basic.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjI2> .
+
+:Softwareotherds1307 a okh:Part ;
+    rdfs:label "Software/Other/DS1307" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :Softwareotherds1307_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Softwareotherds1307_source a okh:SourceFile ;
+    rdfs:label "Source File of Software/Other/DS1307 of Weather Forecast Clock d03d7f0ad1f6a80ed734652772dc1384046e835c" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/762/ds1307-0.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjI5> .
 

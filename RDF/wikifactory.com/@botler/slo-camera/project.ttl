@@ -1,45 +1,46 @@
-@prefix : <https://wikifactory.com/@botler/slo-camera/f3660aea5749b07e290f0148aaaed20b960647c0/> .
+@prefix : <https://wikifactory.com/%40botler/slo-camera/f3660aea5749b07e290f0148aaaed20b960647c0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 :SloCamera a okh:Module ;
     rdfs:label "SLO Camera" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "SLO is a single lens objective by Amos Dudley. SLO is the mechanical shutter. SLO is the speed of good design, and the feeling of capturing life with a camera you made yourself. The entire camera is 3D printed—from the aperture to the lens." ;
-    okh:hasComponent :Advanceknob,
-        :Apertureleaves,
-        :Bodyleftfrontpanel,
-        :Bodyright,
-        :Bodyrightfrontpanel,
-        :Buttoncap,
-        :Camerabodybottom,
-        :Camerabodyrighttoppanel,
-        :Camerabodytop,
-        :Cameracomplete,
-        :Dialwindow,
-        :Door,
-        :Dooropenbutton,
-        :Doorslider,
-        :Doorslider2,
-        :Gear1,
-        :Gear2,
-        :Gear3,
-        :Gearcontainmentpanel,
-        :Indicatorgear,
-        :Lensbody1,
-        :Lensreceiver,
-        :Ratchelpawl,
-        :Rewindknob,
-        :Shoe,
-        :Shutterbackplate,
-        :Shutterbutton1,
-        :Shutterbutton2,
-        :Shutterbuttonpinionstand,
-        :Shutterfrontplate,
-        :Shutterleaf1,
-        :Shutterleaf2,
-        :Shutterlinkagebar,
-        :Shutterpiniongear ;
+    okh:hasComponent :3dDesignFilescaseDesignFilesadvanceknob,
+        :3dDesignFilescaseDesignFilesapertureleaves,
+        :3dDesignFilescaseDesignFilesbodyleftfrontpanel,
+        :3dDesignFilescaseDesignFilesbodyright,
+        :3dDesignFilescaseDesignFilesbodyrightfrontpanel,
+        :3dDesignFilescaseDesignFilesbuttoncap,
+        :3dDesignFilescaseDesignFilescamerabodybottom,
+        :3dDesignFilescaseDesignFilescamerabodyrighttoppanel,
+        :3dDesignFilescaseDesignFilescamerabodytop,
+        :3dDesignFilescaseDesignFilescameracomplete,
+        :3dDesignFilescaseDesignFilesdialwindow,
+        :3dDesignFilescaseDesignFilesdoor,
+        :3dDesignFilescaseDesignFilesdooropenbutton,
+        :3dDesignFilescaseDesignFilesdoorslider,
+        :3dDesignFilescaseDesignFilesdoorslider2,
+        :3dDesignFilescaseDesignFilesgear1,
+        :3dDesignFilescaseDesignFilesgear2,
+        :3dDesignFilescaseDesignFilesgear3,
+        :3dDesignFilescaseDesignFilesgearcontainmentpanel,
+        :3dDesignFilescaseDesignFilesindicatorgear,
+        :3dDesignFilescaseDesignFilesratchelpawl,
+        :3dDesignFilescaseDesignFilesrewindknob,
+        :3dDesignFilescaseDesignFilesshoe,
+        :3dDesignFileslensDesignFileslensbody1,
+        :3dDesignFileslensDesignFileslensreceiver,
+        :3dDesignFilesshutterDesignFilesshutterbackplate,
+        :3dDesignFilesshutterDesignFilesshutterbutton1,
+        :3dDesignFilesshutterDesignFilesshutterbutton2,
+        :3dDesignFilesshutterDesignFilesshutterbuttonpinionstand,
+        :3dDesignFilesshutterDesignFilesshutterfrontplate,
+        :3dDesignFilesshutterDesignFilesshutterleaf1,
+        :3dDesignFilesshutterDesignFilesshutterleaf2,
+        :3dDesignFilesshutterDesignFilesshutterlinkagebar,
+        :3dDesignFilesshutterDesignFilesshutterpiniongear ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "James Botler" ;
@@ -47,255 +48,451 @@
     okh:repo <https://wikifactory.com/@botler/slo-camera> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
     okh:version "f3660aea5749b07e290f0148aaaed20b960647c0" ;
     okh:versionOf <https://wikifactory.com/@botler/slo-camera> .
 
-:Advanceknob a okh:Part ;
-    rdfs:label "Advance_knob" ;
+:3dDesignFilescaseDesignFilesadvanceknob a okh:Part ;
+    rdfs:label "3D Design Files/Case Design Files/Advance_knob" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Advanceknob_source ;
+    okh:source :3dDesignFilescaseDesignFilesadvanceknob_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Advanceknob_source a okh:SourceFile ;
-    rdfs:label "Source File of Advance_knob of SLO Camera f3660aea5749b07e290f0148aaaed20b960647c0" ;
+:3dDesignFilescaseDesignFilesadvanceknob_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Design Files/Case Design Files/Advance_knob of SLO Camera f3660aea5749b07e290f0148aaaed20b960647c0" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/27/advanceknob.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODMx> .
 
-:Apertureleaves a okh:Part ;
-    rdfs:label "Aperture_leaves" ;
+:3dDesignFilescaseDesignFilesapertureleaves a okh:Part ;
+    rdfs:label "3D Design Files/Case Design Files/Aperture_leaves" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Apertureleaves_source ;
+    okh:source :3dDesignFilescaseDesignFilesapertureleaves_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Apertureleaves_source a okh:SourceFile ;
-    rdfs:label "Source File of Aperture_leaves of SLO Camera f3660aea5749b07e290f0148aaaed20b960647c0" ;
+:3dDesignFilescaseDesignFilesapertureleaves_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Design Files/Case Design Files/Aperture_leaves of SLO Camera f3660aea5749b07e290f0148aaaed20b960647c0" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/27/apertureleaves.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODMy> .
 
-:Bodyleftfrontpanel a okh:Part ;
-    rdfs:label "Body_left_front_panel" ;
+:3dDesignFilescaseDesignFilesbodyleftfrontpanel a okh:Part ;
+    rdfs:label "3D Design Files/Case Design Files/Body_left_front_panel" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Bodyleftfrontpanel_source ;
+    okh:source :3dDesignFilescaseDesignFilesbodyleftfrontpanel_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Bodyleftfrontpanel_source a okh:SourceFile ;
-    rdfs:label "Source File of Body_left_front_panel of SLO Camera f3660aea5749b07e290f0148aaaed20b960647c0" ;
+:3dDesignFilescaseDesignFilesbodyleftfrontpanel_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Design Files/Case Design Files/Body_left_front_panel of SLO Camera f3660aea5749b07e290f0148aaaed20b960647c0" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/27/bodyleftfrontpanel.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODMz> .
 
-:Bodyright a okh:Part ;
-    rdfs:label "Body_right" ;
+:3dDesignFilescaseDesignFilesbodyright a okh:Part ;
+    rdfs:label "3D Design Files/Case Design Files/Body_right" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Bodyright_source ;
+    okh:source :3dDesignFilescaseDesignFilesbodyright_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Bodyright_source a okh:SourceFile ;
-    rdfs:label "Source File of Body_right of SLO Camera f3660aea5749b07e290f0148aaaed20b960647c0" ;
+:3dDesignFilescaseDesignFilesbodyright_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Design Files/Case Design Files/Body_right of SLO Camera f3660aea5749b07e290f0148aaaed20b960647c0" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/27/bodyright.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODM1> .
 
-:Bodyrightfrontpanel a okh:Part ;
-    rdfs:label "Body_right_front_panel" ;
+:3dDesignFilescaseDesignFilesbodyrightfrontpanel a okh:Part ;
+    rdfs:label "3D Design Files/Case Design Files/Body_right_front_panel" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Bodyrightfrontpanel_source ;
+    okh:source :3dDesignFilescaseDesignFilesbodyrightfrontpanel_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Bodyrightfrontpanel_source a okh:SourceFile ;
-    rdfs:label "Source File of Body_right_front_panel of SLO Camera f3660aea5749b07e290f0148aaaed20b960647c0" ;
+:3dDesignFilescaseDesignFilesbodyrightfrontpanel_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Design Files/Case Design Files/Body_right_front_panel of SLO Camera f3660aea5749b07e290f0148aaaed20b960647c0" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/27/bodyrightfrontpanel.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODM2> .
 
-:Buttoncap a okh:Part ;
-    rdfs:label "Button_cap" ;
+:3dDesignFilescaseDesignFilesbuttoncap a okh:Part ;
+    rdfs:label "3D Design Files/Case Design Files/Button_cap" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Buttoncap_source ;
+    okh:source :3dDesignFilescaseDesignFilesbuttoncap_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Buttoncap_source a okh:SourceFile ;
-    rdfs:label "Source File of Button_cap of SLO Camera f3660aea5749b07e290f0148aaaed20b960647c0" ;
+:3dDesignFilescaseDesignFilesbuttoncap_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Design Files/Case Design Files/Button_cap of SLO Camera f3660aea5749b07e290f0148aaaed20b960647c0" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/27/buttoncap.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODM3> .
 
-:Camerabodybottom a okh:Part ;
-    rdfs:label "Camera_body_bottom" ;
+:3dDesignFilescaseDesignFilescamerabodybottom a okh:Part ;
+    rdfs:label "3D Design Files/Case Design Files/Camera_body_bottom" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Camerabodybottom_source ;
+    okh:source :3dDesignFilescaseDesignFilescamerabodybottom_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Camerabodybottom_source a okh:SourceFile ;
-    rdfs:label "Source File of Camera_body_bottom of SLO Camera f3660aea5749b07e290f0148aaaed20b960647c0" ;
+:3dDesignFilescaseDesignFilescamerabodybottom_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Design Files/Case Design Files/Camera_body_bottom of SLO Camera f3660aea5749b07e290f0148aaaed20b960647c0" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/27/camerabodybottom.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODM4> .
 
-:Camerabodyrighttoppanel a okh:Part ;
-    rdfs:label "Camera_body_righttop_panel" ;
+:3dDesignFilescaseDesignFilescamerabodyrighttoppanel a okh:Part ;
+    rdfs:label "3D Design Files/Case Design Files/Camera_body_righttop_panel" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Camerabodyrighttoppanel_source ;
+    okh:source :3dDesignFilescaseDesignFilescamerabodyrighttoppanel_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Camerabodyrighttoppanel_source a okh:SourceFile ;
-    rdfs:label "Source File of Camera_body_righttop_panel of SLO Camera f3660aea5749b07e290f0148aaaed20b960647c0" ;
+:3dDesignFilescaseDesignFilescamerabodyrighttoppanel_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Design Files/Case Design Files/Camera_body_righttop_panel of SLO Camera f3660aea5749b07e290f0148aaaed20b960647c0" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/27/camerabodyrighttoppanel.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODM5> .
 
-:Camerabodytop a okh:Part ;
-    rdfs:label "Camera_body_top" ;
+:3dDesignFilescaseDesignFilescamerabodytop a okh:Part ;
+    rdfs:label "3D Design Files/Case Design Files/Camera_body_top" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Camerabodytop_source ;
+    okh:source :3dDesignFilescaseDesignFilescamerabodytop_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Camerabodytop_source a okh:SourceFile ;
-    rdfs:label "Source File of Camera_body_top of SLO Camera f3660aea5749b07e290f0148aaaed20b960647c0" ;
+:3dDesignFilescaseDesignFilescamerabodytop_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Design Files/Case Design Files/Camera_body_top of SLO Camera f3660aea5749b07e290f0148aaaed20b960647c0" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/27/camerabodytop.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQx> .
 
-:Cameracomplete a okh:Part ;
-    rdfs:label "Camera_complete" ;
+:3dDesignFilescaseDesignFilescameracomplete a okh:Part ;
+    rdfs:label "3D Design Files/Case Design Files/Camera_complete" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Cameracomplete_source ;
+    okh:source :3dDesignFilescaseDesignFilescameracomplete_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Cameracomplete_source a okh:SourceFile ;
-    rdfs:label "Source File of Camera_complete of SLO Camera f3660aea5749b07e290f0148aaaed20b960647c0" ;
+:3dDesignFilescaseDesignFilescameracomplete_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Design Files/Case Design Files/Camera_complete of SLO Camera f3660aea5749b07e290f0148aaaed20b960647c0" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/27/cameracomplete.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQw> .
 
-:Dialwindow a okh:Part ;
-    rdfs:label "Dial_window" ;
+:3dDesignFilescaseDesignFilesdialwindow a okh:Part ;
+    rdfs:label "3D Design Files/Case Design Files/Dial_window" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Dialwindow_source ;
+    okh:source :3dDesignFilescaseDesignFilesdialwindow_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Dialwindow_source a okh:SourceFile ;
-    rdfs:label "Source File of Dial_window of SLO Camera f3660aea5749b07e290f0148aaaed20b960647c0" ;
+:3dDesignFilescaseDesignFilesdialwindow_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Design Files/Case Design Files/Dial_window of SLO Camera f3660aea5749b07e290f0148aaaed20b960647c0" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/27/dialwindow.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQz> .
 
-:Door a okh:Part ;
-    rdfs:label "Door" ;
+:3dDesignFilescaseDesignFilesdoor a okh:Part ;
+    rdfs:label "3D Design Files/Case Design Files/Door" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Door_source ;
+    okh:source :3dDesignFilescaseDesignFilesdoor_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Door_source a okh:SourceFile ;
-    rdfs:label "Source File of Door of SLO Camera f3660aea5749b07e290f0148aaaed20b960647c0" ;
+:3dDesignFilescaseDesignFilesdoor_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Design Files/Case Design Files/Door of SLO Camera f3660aea5749b07e290f0148aaaed20b960647c0" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/27/door.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ1> .
 
-:Dooropenbutton a okh:Part ;
-    rdfs:label "Door_open_button" ;
+:3dDesignFilescaseDesignFilesdooropenbutton a okh:Part ;
+    rdfs:label "3D Design Files/Case Design Files/Door_open_button" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Dooropenbutton_source ;
+    okh:source :3dDesignFilescaseDesignFilesdooropenbutton_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Dooropenbutton_source a okh:SourceFile ;
-    rdfs:label "Source File of Door_open_button of SLO Camera f3660aea5749b07e290f0148aaaed20b960647c0" ;
+:3dDesignFilescaseDesignFilesdooropenbutton_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Design Files/Case Design Files/Door_open_button of SLO Camera f3660aea5749b07e290f0148aaaed20b960647c0" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/27/dooropenbutton.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ3> .
 
-:Doorslider a okh:Part ;
-    rdfs:label "Door_slider" ;
+:3dDesignFilescaseDesignFilesdoorslider a okh:Part ;
+    rdfs:label "3D Design Files/Case Design Files/Door_slider" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Doorslider_source ;
+    okh:source :3dDesignFilescaseDesignFilesdoorslider_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Doorslider2 a okh:Part ;
-    rdfs:label "Door_slider_2" ;
+:3dDesignFilescaseDesignFilesdoorslider2 a okh:Part ;
+    rdfs:label "3D Design Files/Case Design Files/Door_slider_2" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Doorslider2_source ;
+    okh:source :3dDesignFilescaseDesignFilesdoorslider2_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Doorslider2_source a okh:SourceFile ;
-    rdfs:label "Source File of Door_slider_2 of SLO Camera f3660aea5749b07e290f0148aaaed20b960647c0" ;
+:3dDesignFilescaseDesignFilesdoorslider2_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Design Files/Case Design Files/Door_slider_2 of SLO Camera f3660aea5749b07e290f0148aaaed20b960647c0" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/27/doorslider2.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ4> .
 
-:Doorslider_source a okh:SourceFile ;
-    rdfs:label "Source File of Door_slider of SLO Camera f3660aea5749b07e290f0148aaaed20b960647c0" ;
+:3dDesignFilescaseDesignFilesdoorslider_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Design Files/Case Design Files/Door_slider of SLO Camera f3660aea5749b07e290f0148aaaed20b960647c0" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/27/doorslider.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ2> .
 
-:Gear1 a okh:Part ;
-    rdfs:label "Gear1" ;
+:3dDesignFilescaseDesignFilesgear1 a okh:Part ;
+    rdfs:label "3D Design Files/Case Design Files/Gear1" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Gear1_source ;
+    okh:source :3dDesignFilescaseDesignFilesgear1_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Gear1_source a okh:SourceFile ;
-    rdfs:label "Source File of Gear1 of SLO Camera f3660aea5749b07e290f0148aaaed20b960647c0" ;
+:3dDesignFilescaseDesignFilesgear1_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Design Files/Case Design Files/Gear1 of SLO Camera f3660aea5749b07e290f0148aaaed20b960647c0" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/27/gear1.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODUw> .
 
-:Gear2 a okh:Part ;
-    rdfs:label "Gear2" ;
+:3dDesignFilescaseDesignFilesgear2 a okh:Part ;
+    rdfs:label "3D Design Files/Case Design Files/Gear2" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Gear2_source ;
+    okh:source :3dDesignFilescaseDesignFilesgear2_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Gear2_source a okh:SourceFile ;
-    rdfs:label "Source File of Gear2 of SLO Camera f3660aea5749b07e290f0148aaaed20b960647c0" ;
+:3dDesignFilescaseDesignFilesgear2_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Design Files/Case Design Files/Gear2 of SLO Camera f3660aea5749b07e290f0148aaaed20b960647c0" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/27/gear2.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODUx> .
 
-:Gear3 a okh:Part ;
-    rdfs:label "Gear3" ;
+:3dDesignFilescaseDesignFilesgear3 a okh:Part ;
+    rdfs:label "3D Design Files/Case Design Files/Gear3" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Gear3_source ;
+    okh:source :3dDesignFilescaseDesignFilesgear3_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Gear3_source a okh:SourceFile ;
-    rdfs:label "Source File of Gear3 of SLO Camera f3660aea5749b07e290f0148aaaed20b960647c0" ;
+:3dDesignFilescaseDesignFilesgear3_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Design Files/Case Design Files/Gear3 of SLO Camera f3660aea5749b07e290f0148aaaed20b960647c0" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/27/gear3.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODUy> .
 
-:Gearcontainmentpanel a okh:Part ;
-    rdfs:label "Gear_containment_panel" ;
+:3dDesignFilescaseDesignFilesgearcontainmentpanel a okh:Part ;
+    rdfs:label "3D Design Files/Case Design Files/Gear_containment_panel" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Gearcontainmentpanel_source ;
+    okh:source :3dDesignFilescaseDesignFilesgearcontainmentpanel_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Gearcontainmentpanel_source a okh:SourceFile ;
-    rdfs:label "Source File of Gear_containment_panel of SLO Camera f3660aea5749b07e290f0148aaaed20b960647c0" ;
+:3dDesignFilescaseDesignFilesgearcontainmentpanel_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Design Files/Case Design Files/Gear_containment_panel of SLO Camera f3660aea5749b07e290f0148aaaed20b960647c0" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/27/gearcontainmentpanel.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ5> .
+
+:3dDesignFilescaseDesignFilesindicatorgear a okh:Part ;
+    rdfs:label "3D Design Files/Case Design Files/Indicator_gear" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :3dDesignFilescaseDesignFilesindicatorgear_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:3dDesignFilescaseDesignFilesindicatorgear_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Design Files/Case Design Files/Indicator_gear of SLO Camera f3660aea5749b07e290f0148aaaed20b960647c0" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/27/indicatorgear.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODUz> .
+
+:3dDesignFilescaseDesignFilesratchelpawl a okh:Part ;
+    rdfs:label "3D Design Files/Case Design Files/Ratchel_pawl" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :3dDesignFilescaseDesignFilesratchelpawl_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:3dDesignFilescaseDesignFilesratchelpawl_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Design Files/Case Design Files/Ratchel_pawl of SLO Camera f3660aea5749b07e290f0148aaaed20b960647c0" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/27/ratchelpawl.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODU0> .
+
+:3dDesignFilescaseDesignFilesrewindknob a okh:Part ;
+    rdfs:label "3D Design Files/Case Design Files/Rewind_knob" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :3dDesignFilescaseDesignFilesrewindknob_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:3dDesignFilescaseDesignFilesrewindknob_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Design Files/Case Design Files/Rewind_knob of SLO Camera f3660aea5749b07e290f0148aaaed20b960647c0" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/27/rewindknob.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODU1> .
+
+:3dDesignFilescaseDesignFilesshoe a okh:Part ;
+    rdfs:label "3D Design Files/Case Design Files/Shoe" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :3dDesignFilescaseDesignFilesshoe_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:3dDesignFilescaseDesignFilesshoe_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Design Files/Case Design Files/Shoe of SLO Camera f3660aea5749b07e290f0148aaaed20b960647c0" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/27/shoe.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODU3> .
+
+:3dDesignFileslensDesignFileslensbody1 a okh:Part ;
+    rdfs:label "3D Design Files/Lens Design Files/Lens_body_1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :3dDesignFileslensDesignFileslensbody1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:3dDesignFileslensDesignFileslensbody1_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Design Files/Lens Design Files/Lens_body_1 of SLO Camera f3660aea5749b07e290f0148aaaed20b960647c0" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/27/lensbody1.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODE3> .
+
+:3dDesignFileslensDesignFileslensreceiver a okh:Part ;
+    rdfs:label "3D Design Files/Lens Design Files/Lens_receiver" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :3dDesignFileslensDesignFileslensreceiver_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:3dDesignFileslensDesignFileslensreceiver_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Design Files/Lens Design Files/Lens_receiver of SLO Camera f3660aea5749b07e290f0148aaaed20b960647c0" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/27/lensreceiver.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODE2> .
+
+:3dDesignFilesshutterDesignFilesshutterbackplate a okh:Part ;
+    rdfs:label "3D Design Files/Shutter Design Files/Shutter_back_plate" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :3dDesignFilesshutterDesignFilesshutterbackplate_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:3dDesignFilesshutterDesignFilesshutterbackplate_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Design Files/Shutter Design Files/Shutter_back_plate of SLO Camera f3660aea5749b07e290f0148aaaed20b960647c0" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/27/shutterbackplate.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODIy> .
+
+:3dDesignFilesshutterDesignFilesshutterbutton1 a okh:Part ;
+    rdfs:label "3D Design Files/Shutter Design Files/Shutter_button_1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :3dDesignFilesshutterDesignFilesshutterbutton1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:3dDesignFilesshutterDesignFilesshutterbutton1_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Design Files/Shutter Design Files/Shutter_button_1 of SLO Camera f3660aea5749b07e290f0148aaaed20b960647c0" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/27/shutterbutton1.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODIw> .
+
+:3dDesignFilesshutterDesignFilesshutterbutton2 a okh:Part ;
+    rdfs:label "3D Design Files/Shutter Design Files/Shutter_button_2" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :3dDesignFilesshutterDesignFilesshutterbutton2_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:3dDesignFilesshutterDesignFilesshutterbutton2_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Design Files/Shutter Design Files/Shutter_button_2 of SLO Camera f3660aea5749b07e290f0148aaaed20b960647c0" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/27/shutterbutton2.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODIz> .
+
+:3dDesignFilesshutterDesignFilesshutterbuttonpinionstand a okh:Part ;
+    rdfs:label "3D Design Files/Shutter Design Files/Shutter_button_pinion_stand" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :3dDesignFilesshutterDesignFilesshutterbuttonpinionstand_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:3dDesignFilesshutterDesignFilesshutterbuttonpinionstand_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Design Files/Shutter Design Files/Shutter_button_pinion_stand of SLO Camera f3660aea5749b07e290f0148aaaed20b960647c0" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/27/shutterbuttonpinionstand.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODI0> .
+
+:3dDesignFilesshutterDesignFilesshutterfrontplate a okh:Part ;
+    rdfs:label "3D Design Files/Shutter Design Files/Shutter_front_plate" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :3dDesignFilesshutterDesignFilesshutterfrontplate_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:3dDesignFilesshutterDesignFilesshutterfrontplate_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Design Files/Shutter Design Files/Shutter_front_plate of SLO Camera f3660aea5749b07e290f0148aaaed20b960647c0" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/27/shutterfrontplate.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODI1> .
+
+:3dDesignFilesshutterDesignFilesshutterleaf1 a okh:Part ;
+    rdfs:label "3D Design Files/Shutter Design Files/Shutter_leaf_1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :3dDesignFilesshutterDesignFilesshutterleaf1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:3dDesignFilesshutterDesignFilesshutterleaf1_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Design Files/Shutter Design Files/Shutter_leaf_1 of SLO Camera f3660aea5749b07e290f0148aaaed20b960647c0" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/27/shutterleaf1.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODI2> .
+
+:3dDesignFilesshutterDesignFilesshutterleaf2 a okh:Part ;
+    rdfs:label "3D Design Files/Shutter Design Files/Shutter_leaf_2" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :3dDesignFilesshutterDesignFilesshutterleaf2_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:3dDesignFilesshutterDesignFilesshutterleaf2_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Design Files/Shutter Design Files/Shutter_leaf_2 of SLO Camera f3660aea5749b07e290f0148aaaed20b960647c0" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/27/shutterleaf2.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODI3> .
+
+:3dDesignFilesshutterDesignFilesshutterlinkagebar a okh:Part ;
+    rdfs:label "3D Design Files/Shutter Design Files/Shutter_linkage_bar" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :3dDesignFilesshutterDesignFilesshutterlinkagebar_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:3dDesignFilesshutterDesignFilesshutterlinkagebar_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Design Files/Shutter Design Files/Shutter_linkage_bar of SLO Camera f3660aea5749b07e290f0148aaaed20b960647c0" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/27/shutterlinkagebar.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODI4> .
+
+:3dDesignFilesshutterDesignFilesshutterpiniongear a okh:Part ;
+    rdfs:label "3D Design Files/Shutter Design Files/Shutter_pinion_gear" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :3dDesignFilesshutterDesignFilesshutterpiniongear_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:3dDesignFilesshutterDesignFilesshutterpiniongear_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Design Files/Shutter Design Files/Shutter_pinion_gear of SLO Camera f3660aea5749b07e290f0148aaaed20b960647c0" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/27/shutterpiniongear.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODI5> .
 
 :Image a okh:Image ;
     rdfs:label "Image of SLO Camera f3660aea5749b07e290f0148aaaed20b960647c0" ;
@@ -303,204 +500,9 @@
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/27/qwcglgq.jpg> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToxOTU=> .
 
-:Indicatorgear a okh:Part ;
-    rdfs:label "Indicator_gear" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "James Botler" ;
-    okh:source :Indicatorgear_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Indicatorgear_source a okh:SourceFile ;
-    rdfs:label "Source File of Indicator_gear of SLO Camera f3660aea5749b07e290f0148aaaed20b960647c0" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/27/indicatorgear.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODUz> .
-
-:Lensbody1 a okh:Part ;
-    rdfs:label "Lens_body_1" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "James Botler" ;
-    okh:source :Lensbody1_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Lensbody1_source a okh:SourceFile ;
-    rdfs:label "Source File of Lens_body_1 of SLO Camera f3660aea5749b07e290f0148aaaed20b960647c0" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/27/lensbody1.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODE3> .
-
-:Lensreceiver a okh:Part ;
-    rdfs:label "Lens_receiver" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "James Botler" ;
-    okh:source :Lensreceiver_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Lensreceiver_source a okh:SourceFile ;
-    rdfs:label "Source File of Lens_receiver of SLO Camera f3660aea5749b07e290f0148aaaed20b960647c0" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/27/lensreceiver.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODE2> .
-
-:Ratchelpawl a okh:Part ;
-    rdfs:label "Ratchel_pawl" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "James Botler" ;
-    okh:source :Ratchelpawl_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Ratchelpawl_source a okh:SourceFile ;
-    rdfs:label "Source File of Ratchel_pawl of SLO Camera f3660aea5749b07e290f0148aaaed20b960647c0" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/27/ratchelpawl.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODU0> .
-
 :Readme a okh:Readme ;
     rdfs:label "Readme of SLO Camera f3660aea5749b07e290f0148aaaed20b960647c0" ;
     okh:fileFormat "MD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/27/readme-7.md> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODc3> .
-
-:Rewindknob a okh:Part ;
-    rdfs:label "Rewind_knob" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "James Botler" ;
-    okh:source :Rewindknob_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Rewindknob_source a okh:SourceFile ;
-    rdfs:label "Source File of Rewind_knob of SLO Camera f3660aea5749b07e290f0148aaaed20b960647c0" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/27/rewindknob.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODU1> .
-
-:Shoe a okh:Part ;
-    rdfs:label "Shoe" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "James Botler" ;
-    okh:source :Shoe_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Shoe_source a okh:SourceFile ;
-    rdfs:label "Source File of Shoe of SLO Camera f3660aea5749b07e290f0148aaaed20b960647c0" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/27/shoe.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODU3> .
-
-:Shutterbackplate a okh:Part ;
-    rdfs:label "Shutter_back_plate" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "James Botler" ;
-    okh:source :Shutterbackplate_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Shutterbackplate_source a okh:SourceFile ;
-    rdfs:label "Source File of Shutter_back_plate of SLO Camera f3660aea5749b07e290f0148aaaed20b960647c0" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/27/shutterbackplate.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODIy> .
-
-:Shutterbutton1 a okh:Part ;
-    rdfs:label "Shutter_button_1" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "James Botler" ;
-    okh:source :Shutterbutton1_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Shutterbutton1_source a okh:SourceFile ;
-    rdfs:label "Source File of Shutter_button_1 of SLO Camera f3660aea5749b07e290f0148aaaed20b960647c0" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/27/shutterbutton1.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODIw> .
-
-:Shutterbutton2 a okh:Part ;
-    rdfs:label "Shutter_button_2" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "James Botler" ;
-    okh:source :Shutterbutton2_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Shutterbutton2_source a okh:SourceFile ;
-    rdfs:label "Source File of Shutter_button_2 of SLO Camera f3660aea5749b07e290f0148aaaed20b960647c0" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/27/shutterbutton2.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODIz> .
-
-:Shutterbuttonpinionstand a okh:Part ;
-    rdfs:label "Shutter_button_pinion_stand" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "James Botler" ;
-    okh:source :Shutterbuttonpinionstand_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Shutterbuttonpinionstand_source a okh:SourceFile ;
-    rdfs:label "Source File of Shutter_button_pinion_stand of SLO Camera f3660aea5749b07e290f0148aaaed20b960647c0" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/27/shutterbuttonpinionstand.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODI0> .
-
-:Shutterfrontplate a okh:Part ;
-    rdfs:label "Shutter_front_plate" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "James Botler" ;
-    okh:source :Shutterfrontplate_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Shutterfrontplate_source a okh:SourceFile ;
-    rdfs:label "Source File of Shutter_front_plate of SLO Camera f3660aea5749b07e290f0148aaaed20b960647c0" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/27/shutterfrontplate.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODI1> .
-
-:Shutterleaf1 a okh:Part ;
-    rdfs:label "Shutter_leaf_1" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "James Botler" ;
-    okh:source :Shutterleaf1_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Shutterleaf1_source a okh:SourceFile ;
-    rdfs:label "Source File of Shutter_leaf_1 of SLO Camera f3660aea5749b07e290f0148aaaed20b960647c0" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/27/shutterleaf1.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODI2> .
-
-:Shutterleaf2 a okh:Part ;
-    rdfs:label "Shutter_leaf_2" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "James Botler" ;
-    okh:source :Shutterleaf2_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Shutterleaf2_source a okh:SourceFile ;
-    rdfs:label "Source File of Shutter_leaf_2 of SLO Camera f3660aea5749b07e290f0148aaaed20b960647c0" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/27/shutterleaf2.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODI3> .
-
-:Shutterlinkagebar a okh:Part ;
-    rdfs:label "Shutter_linkage_bar" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "James Botler" ;
-    okh:source :Shutterlinkagebar_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Shutterlinkagebar_source a okh:SourceFile ;
-    rdfs:label "Source File of Shutter_linkage_bar of SLO Camera f3660aea5749b07e290f0148aaaed20b960647c0" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/27/shutterlinkagebar.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODI4> .
-
-:Shutterpiniongear a okh:Part ;
-    rdfs:label "Shutter_pinion_gear" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "James Botler" ;
-    okh:source :Shutterpiniongear_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Shutterpiniongear_source a okh:SourceFile ;
-    rdfs:label "Source File of Shutter_pinion_gear of SLO Camera f3660aea5749b07e290f0148aaaed20b960647c0" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/27/shutterpiniongear.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODI5> .
 

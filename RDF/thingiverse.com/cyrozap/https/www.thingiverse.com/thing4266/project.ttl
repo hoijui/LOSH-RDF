@@ -1,0 +1,30 @@
+@prefix : <https://www.thingiverse.com/thing%3A4266/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:MinimalistUnicornController a okh:Module ;
+    rdfs:label "Minimalist Unicorn Controller" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is a work in progress because I have yet to successfully program the ATMega 168.\r
+\r
+This is the RepRap/MakerBot Extruder Controller, but without all the extruder-controlling bits. I would love to have a dedicated Unicorn Plotter controller board, but don't want to shell out $45 for one. The schematic just contains all the necessary parts for an Arduino to be controlled and powered over RS485 with two digital I/O ports.\r
+\r
+The board file is experimental! It should work, but there's no guarantee.\r
+\r
+By the way, this board costs around $20 (including components) to make, but only if it's priced in groups of 10.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "cyrozap" ;
+    okh:repo <https://www.thingiverse.com/thing:4266> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:4266> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Minimalist Unicorn Controller 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/15/ed/f3/a1/04/Unicorn_Plotter_Controller_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/15/ed/f3/a1/04/Unicorn_Plotter_Controller_display_large_display_large.jpg> .
+

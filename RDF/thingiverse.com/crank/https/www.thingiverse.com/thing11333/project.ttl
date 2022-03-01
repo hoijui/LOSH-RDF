@@ -1,0 +1,30 @@
+@prefix : <https://www.thingiverse.com/thing%3A11333/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:RaspberryPiAlphaCase a okh:Module ;
+    rdfs:label "Raspberry Pi Alpha Case" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Well, this is more of a experimental test of the printing time, material consumed, and cost for the current alpha Raspberry Pi. \r
+\r
+http://www.raspberrypi.org/\r
+\r
+I know this is an alpha and will likely change, I believe their goal is around a credit card size. So, that will affect printing time, material consumed, and cost of the released version. I DO NOT HAVE AN ALPHA RASPBERRY PI, so I took some general guesses on the actual size and locations of the USB, power, etc... by measures a computer motherboard's dual USB and scaling that to the known pictures. Side A took 1 hour and 5 mins, while Side B took 34 mins. Total time of 1 hour and 39mins. Total material consumed was 20 grams and at $.05 US dollars it works out to be $1 US dollars total. Now, if the Raspberry Pi team delivers a small version that cost will be reduced.\r
+\r
+I tried to implement a few design features such as the internal retention clip, internal standoffs, internal sliding rails(So, Side B is contained in 5 DOF, leaving 1 DOF free), etc. However, I did not go overboard because I don't have an Alpha Raspberry Pi to fit for form and function. The retention clip needs to be be more aggressive, in addition the standoffs need some work. Plus, the actual walls might need to be a little bit thicker but not much or maybe go with a corrugated design, thinking JU-52. Also, I don't like the fit of the joint between Side A and Side B and might go to an overlapping joint.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "crank" ;
+    okh:repo <https://www.thingiverse.com/thing:11333> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:11333> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Raspberry Pi Alpha Case 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/62/d9/2a/c0/23/IMAG0241_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/62/d9/2a/c0/23/IMAG0241_display_large_display_large.jpg> .
+

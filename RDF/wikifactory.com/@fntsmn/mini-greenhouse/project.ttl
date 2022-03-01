@@ -1,15 +1,16 @@
-@prefix : <https://wikifactory.com/@fntsmn/mini-greenhouse/521a6a8843add9e4b15f50db724ce3de7d4fa75a/> .
+@prefix : <https://wikifactory.com/%40fntsmn/mini-greenhouse/521a6a8843add9e4b15f50db724ce3de7d4fa75a/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 :MiniGreenhouse a okh:Module ;
     rdfs:label "Mini Greenhouse" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "Mini Greenhouse.For this project I will use the strength of 2 techniques 3D printing and Vacuum Forming" ;
-    okh:hasComponent :InsideDomeVacuumForming,
-        :InsideVaseVacuumForming,
-        :RubberGasket,
-        :Vase ;
+    okh:hasComponent :StlFilesinsideDomeVacuumForming,
+        :StlFilesinsideVaseVacuumForming,
+        :StlFilesrubberGasket,
+        :StlFilesvase ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "Simone Fontana" ;
@@ -17,6 +18,7 @@
     okh:repo <https://wikifactory.com/@fntsmn/mini-greenhouse> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
     okh:version "521a6a8843add9e4b15f50db724ce3de7d4fa75a" ;
     okh:versionOf <https://wikifactory.com/@fntsmn/mini-greenhouse> .
 
@@ -26,60 +28,60 @@
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/142693/mini_greenhouse-crop-4985b.jpg> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo2MDI0ODA=> .
 
-:InsideDomeVacuumForming a okh:Part ;
-    rdfs:label "Inside Dome Vacuum Forming" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Simone Fontana" ;
-    okh:source :InsideDomeVacuumForming_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:InsideDomeVacuumForming_source a okh:SourceFile ;
-    rdfs:label "Source File of Inside Dome Vacuum Forming of Mini Greenhouse 521a6a8843add9e4b15f50db724ce3de7d4fa75a" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/142693/inside-dome-vacuum-forming.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MDIzMTA=> .
-
-:InsideVaseVacuumForming a okh:Part ;
-    rdfs:label "Inside Vase Vacuum Forming" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Simone Fontana" ;
-    okh:source :InsideVaseVacuumForming_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:InsideVaseVacuumForming_source a okh:SourceFile ;
-    rdfs:label "Source File of Inside Vase Vacuum Forming of Mini Greenhouse 521a6a8843add9e4b15f50db724ce3de7d4fa75a" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/142693/inside-vase-vacuum-forming.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MDIzMTE=> .
-
 :Readme a okh:Readme ;
     rdfs:label "Readme of Mini Greenhouse 521a6a8843add9e4b15f50db724ce3de7d4fa75a" ;
     okh:fileFormat "MD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/142693/readme-93fef.md> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo2MDI4MzU=> .
 
-:RubberGasket a okh:Part ;
-    rdfs:label "Rubber Gasket" ;
+:StlFilesinsideDomeVacuumForming a okh:Part ;
+    rdfs:label "STL Files/Inside Dome Vacuum Forming" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Simone Fontana" ;
-    okh:source :RubberGasket_source ;
+    okh:source :StlFilesinsideDomeVacuumForming_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:RubberGasket_source a okh:SourceFile ;
-    rdfs:label "Source File of Rubber Gasket of Mini Greenhouse 521a6a8843add9e4b15f50db724ce3de7d4fa75a" ;
+:StlFilesinsideDomeVacuumForming_source a okh:SourceFile ;
+    rdfs:label "Source File of STL Files/Inside Dome Vacuum Forming of Mini Greenhouse 521a6a8843add9e4b15f50db724ce3de7d4fa75a" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/142693/inside-dome-vacuum-forming.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MDIzMTA=> .
+
+:StlFilesinsideVaseVacuumForming a okh:Part ;
+    rdfs:label "STL Files/Inside Vase Vacuum Forming" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Simone Fontana" ;
+    okh:source :StlFilesinsideVaseVacuumForming_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:StlFilesinsideVaseVacuumForming_source a okh:SourceFile ;
+    rdfs:label "Source File of STL Files/Inside Vase Vacuum Forming of Mini Greenhouse 521a6a8843add9e4b15f50db724ce3de7d4fa75a" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/142693/inside-vase-vacuum-forming.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MDIzMTE=> .
+
+:StlFilesrubberGasket a okh:Part ;
+    rdfs:label "STL Files/Rubber Gasket" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Simone Fontana" ;
+    okh:source :StlFilesrubberGasket_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:StlFilesrubberGasket_source a okh:SourceFile ;
+    rdfs:label "Source File of STL Files/Rubber Gasket of Mini Greenhouse 521a6a8843add9e4b15f50db724ce3de7d4fa75a" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/142693/rubber-gasket.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo2MDIzMTI=> .
 
-:Vase a okh:Part ;
-    rdfs:label "Vase" ;
+:StlFilesvase a okh:Part ;
+    rdfs:label "STL Files/Vase" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Simone Fontana" ;
-    okh:source :Vase_source ;
+    okh:source :StlFilesvase_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Vase_source a okh:SourceFile ;
-    rdfs:label "Source File of Vase of Mini Greenhouse 521a6a8843add9e4b15f50db724ce3de7d4fa75a" ;
+:StlFilesvase_source a okh:SourceFile ;
+    rdfs:label "Source File of STL Files/Vase of Mini Greenhouse 521a6a8843add9e4b15f50db724ce3de7d4fa75a" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/142693/vase.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo2MDIzMTM=> .

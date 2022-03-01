@@ -1,32 +1,275 @@
-@prefix : <https://wikifactory.com/@botler/pigrrl-2/ed01aee564ab97e8c46b235ea90618c47f190fde/> .
+@prefix : <https://wikifactory.com/%40botler/pigrrl-2/ed01aee564ab97e8c46b235ea90618c47f190fde/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Actionbtns a okh:Part ;
-    rdfs:label "action-btns" ;
+:Pigrrl2 a okh:Module ;
+    rdfs:label "PiGRRL 2" ;
+    okh:dataSource "wikifactory.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function "A DIY Raspberry Pi Gameboy console by Ruiz Brothers from Adafruit. They have  worked on similar projects, and this version features more buttons and four extra buttons on the PiTFT. It's sporting a small audio amplifier and speaker, so you can enjoy the crispy sounds of 8-bit goodness." ;
+    okh:hasComponent :3dPrintingFilessltFilesactionbtns,
+        :3dPrintingFilessltFilesdpad2,
+        :3dPrintingFilessltFilespausestart,
+        :3dPrintingFilessltFilespigrrl2bot,
+        :3dPrintingFilessltFilespigrrl2botsplita,
+        :3dPrintingFilessltFilespigrrl2botsplitb,
+        :3dPrintingFilessltFilespigrrl2botv11,
+        :3dPrintingFilessltFilespigrrl2botv12,
+        :3dPrintingFilessltFilespigrrl2top,
+        :3dPrintingFilessltFilespigrrl2topsplita,
+        :3dPrintingFilessltFilespigrrl2topsplitb,
+        :3dPrintingFilessltFilespigrrl2topv11,
+        :3dPrintingFilessltFilespigrrl2topv12,
+        :3dPrintingFilessltFilespitftbtns,
+        :3dPrintingFilessltFilesshoulderbtns,
+        :3dPrintingFilessltFilesshouldermount,
+        :3dPrintingFilessltFileswasher,
+        :3dPrintingFilessltFileswasherb,
+        :Otherspigrrl2 ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "James Botler" ;
+    okh:release <https://wikifactory.com/@botler/pigrrl-2/v/ed01aee> ;
+    okh:repo <https://wikifactory.com/@botler/pigrrl-2> ;
+    okh:repoHost "wikifactory.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "ed01aee564ab97e8c46b235ea90618c47f190fde" ;
+    okh:versionOf <https://wikifactory.com/@botler/pigrrl-2> .
+
+:3dPrintingFilessltFilesactionbtns a okh:Part ;
+    rdfs:label "3D printing files/SLT files/action-btns" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Actionbtns_source ;
+    okh:source :3dPrintingFilessltFilesactionbtns_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Actionbtns_source a okh:SourceFile ;
-    rdfs:label "Source File of action-btns of PiGRRL 2 ed01aee564ab97e8c46b235ea90618c47f190fde" ;
+:3dPrintingFilessltFilesactionbtns_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D printing files/SLT files/action-btns of PiGRRL 2 ed01aee564ab97e8c46b235ea90618c47f190fde" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/635/action-btns.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo0NjM3> .
 
-:Dpad2 a okh:Part ;
-    rdfs:label "dpad2" ;
+:3dPrintingFilessltFilesdpad2 a okh:Part ;
+    rdfs:label "3D printing files/SLT files/dpad2" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Dpad2_source ;
+    okh:source :3dPrintingFilessltFilesdpad2_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Dpad2_source a okh:SourceFile ;
-    rdfs:label "Source File of dpad2 of PiGRRL 2 ed01aee564ab97e8c46b235ea90618c47f190fde" ;
+:3dPrintingFilessltFilesdpad2_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D printing files/SLT files/dpad2 of PiGRRL 2 ed01aee564ab97e8c46b235ea90618c47f190fde" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/635/dpad2.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo0NjM4> .
+
+:3dPrintingFilessltFilespausestart a okh:Part ;
+    rdfs:label "3D printing files/SLT files/pause-start" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :3dPrintingFilessltFilespausestart_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:3dPrintingFilessltFilespausestart_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D printing files/SLT files/pause-start of PiGRRL 2 ed01aee564ab97e8c46b235ea90618c47f190fde" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/635/pause-start.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NjQ5> .
+
+:3dPrintingFilessltFilespigrrl2bot a okh:Part ;
+    rdfs:label "3D printing files/SLT files/pigrrl2-bot" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :3dPrintingFilessltFilespigrrl2bot_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:3dPrintingFilessltFilespigrrl2bot_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D printing files/SLT files/pigrrl2-bot of PiGRRL 2 ed01aee564ab97e8c46b235ea90618c47f190fde" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/635/pigrrl2-bot.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NjQz> .
+
+:3dPrintingFilessltFilespigrrl2botsplita a okh:Part ;
+    rdfs:label "3D printing files/SLT files/pigrrl2-bot-splitA" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :3dPrintingFilessltFilespigrrl2botsplita_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:3dPrintingFilessltFilespigrrl2botsplita_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D printing files/SLT files/pigrrl2-bot-splitA of PiGRRL 2 ed01aee564ab97e8c46b235ea90618c47f190fde" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/635/pigrrl2-bot-splita.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NjQ1> .
+
+:3dPrintingFilessltFilespigrrl2botsplitb a okh:Part ;
+    rdfs:label "3D printing files/SLT files/pigrrl2-bot-splitB" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :3dPrintingFilessltFilespigrrl2botsplitb_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:3dPrintingFilessltFilespigrrl2botsplitb_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D printing files/SLT files/pigrrl2-bot-splitB of PiGRRL 2 ed01aee564ab97e8c46b235ea90618c47f190fde" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/635/pigrrl2-bot-splitb.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NjUx> .
+
+:3dPrintingFilessltFilespigrrl2botv11 a okh:Part ;
+    rdfs:label "3D printing files/SLT files/pigrrl2-bot-v1-1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :3dPrintingFilessltFilespigrrl2botv11_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:3dPrintingFilessltFilespigrrl2botv11_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D printing files/SLT files/pigrrl2-bot-v1-1 of PiGRRL 2 ed01aee564ab97e8c46b235ea90618c47f190fde" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/635/pigrrl2-bot-v1-1.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NjUw> .
+
+:3dPrintingFilessltFilespigrrl2botv12 a okh:Part ;
+    rdfs:label "3D printing files/SLT files/pigrrl2-bot-v1-2" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :3dPrintingFilessltFilespigrrl2botv12_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:3dPrintingFilessltFilespigrrl2botv12_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D printing files/SLT files/pigrrl2-bot-v1-2 of PiGRRL 2 ed01aee564ab97e8c46b235ea90618c47f190fde" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/635/pigrrl2-bot-v1-2.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NjM2> .
+
+:3dPrintingFilessltFilespigrrl2top a okh:Part ;
+    rdfs:label "3D printing files/SLT files/pigrrl2-top" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :3dPrintingFilessltFilespigrrl2top_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:3dPrintingFilessltFilespigrrl2top_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D printing files/SLT files/pigrrl2-top of PiGRRL 2 ed01aee564ab97e8c46b235ea90618c47f190fde" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/635/pigrrl2-top.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NjQ2> .
+
+:3dPrintingFilessltFilespigrrl2topsplita a okh:Part ;
+    rdfs:label "3D printing files/SLT files/pigrrl2-top-splitA" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :3dPrintingFilessltFilespigrrl2topsplita_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:3dPrintingFilessltFilespigrrl2topsplita_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D printing files/SLT files/pigrrl2-top-splitA of PiGRRL 2 ed01aee564ab97e8c46b235ea90618c47f190fde" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/635/pigrrl2-top-splita.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NjQw> .
+
+:3dPrintingFilessltFilespigrrl2topsplitb a okh:Part ;
+    rdfs:label "3D printing files/SLT files/pigrrl2-top-splitB" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :3dPrintingFilessltFilespigrrl2topsplitb_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:3dPrintingFilessltFilespigrrl2topsplitb_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D printing files/SLT files/pigrrl2-top-splitB of PiGRRL 2 ed01aee564ab97e8c46b235ea90618c47f190fde" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/635/pigrrl2-top-splitb.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NjQy> .
+
+:3dPrintingFilessltFilespigrrl2topv11 a okh:Part ;
+    rdfs:label "3D printing files/SLT files/pigrrl2-top-v1-1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :3dPrintingFilessltFilespigrrl2topv11_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:3dPrintingFilessltFilespigrrl2topv11_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D printing files/SLT files/pigrrl2-top-v1-1 of PiGRRL 2 ed01aee564ab97e8c46b235ea90618c47f190fde" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/635/pigrrl2-top-v1-1.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NjM5> .
+
+:3dPrintingFilessltFilespigrrl2topv12 a okh:Part ;
+    rdfs:label "3D printing files/SLT files/pigrrl2-top-v1-2" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :3dPrintingFilessltFilespigrrl2topv12_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:3dPrintingFilessltFilespigrrl2topv12_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D printing files/SLT files/pigrrl2-top-v1-2 of PiGRRL 2 ed01aee564ab97e8c46b235ea90618c47f190fde" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/635/pigrrl2-top-v1-2.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NjQ0> .
+
+:3dPrintingFilessltFilespitftbtns a okh:Part ;
+    rdfs:label "3D printing files/SLT files/pitft-btns" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :3dPrintingFilessltFilespitftbtns_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:3dPrintingFilessltFilespitftbtns_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D printing files/SLT files/pitft-btns of PiGRRL 2 ed01aee564ab97e8c46b235ea90618c47f190fde" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/635/pitft-btns.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NjQ4> .
+
+:3dPrintingFilessltFilesshoulderbtns a okh:Part ;
+    rdfs:label "3D printing files/SLT files/shoulder-btns" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :3dPrintingFilessltFilesshoulderbtns_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:3dPrintingFilessltFilesshoulderbtns_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D printing files/SLT files/shoulder-btns of PiGRRL 2 ed01aee564ab97e8c46b235ea90618c47f190fde" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/635/shoulder-btns.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NjUz> .
+
+:3dPrintingFilessltFilesshouldermount a okh:Part ;
+    rdfs:label "3D printing files/SLT files/shoulder-mount" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :3dPrintingFilessltFilesshouldermount_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:3dPrintingFilessltFilesshouldermount_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D printing files/SLT files/shoulder-mount of PiGRRL 2 ed01aee564ab97e8c46b235ea90618c47f190fde" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/635/shoulder-mount.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NjUy> .
+
+:3dPrintingFilessltFileswasher a okh:Part ;
+    rdfs:label "3D printing files/SLT files/washer" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :3dPrintingFilessltFileswasher_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:3dPrintingFilessltFileswasher_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D printing files/SLT files/washer of PiGRRL 2 ed01aee564ab97e8c46b235ea90618c47f190fde" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/635/washer.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NjQ3> .
+
+:3dPrintingFilessltFileswasherb a okh:Part ;
+    rdfs:label "3D printing files/SLT files/washerB" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :3dPrintingFilessltFileswasherb_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:3dPrintingFilessltFileswasherb_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D printing files/SLT files/washerB of PiGRRL 2 ed01aee564ab97e8c46b235ea90618c47f190fde" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/635/washerb.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NjQx> .
 
 :Image a okh:Image ;
     rdfs:label "Image of PiGRRL 2 ed01aee564ab97e8c46b235ea90618c47f190fde" ;
@@ -34,259 +277,22 @@
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/635/pigrrl.jpg> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo0MDA0> .
 
-:Pausestart a okh:Part ;
-    rdfs:label "pause-start" ;
+:Otherspigrrl2 a okh:Part ;
+    rdfs:label "Others/pigrrl-2" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Pausestart_source ;
+    okh:source :Otherspigrrl2_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Pausestart_source a okh:SourceFile ;
-    rdfs:label "Source File of pause-start of PiGRRL 2 ed01aee564ab97e8c46b235ea90618c47f190fde" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/635/pause-start.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NjQ5> .
-
-:Pigrrl2 a okh:Module,
-        okh:Part ;
-    rdfs:label "PiGRRL 2",
-        "pigrrl-2" ;
-    okh:documentationLanguage "en" ;
-    okh:function "A DIY Raspberry Pi Gameboy console by Ruiz Brothers from Adafruit. They have  worked on similar projects, and this version features more buttons and four extra buttons on the PiTFT. It's sporting a small audio amplifier and speaker, so you can enjoy the crispy sounds of 8-bit goodness." ;
-    okh:hasComponent :Actionbtns,
-        :Dpad2,
-        :Pausestart,
-        :Pigrrl2,
-        :Pigrrl2bot,
-        :Pigrrl2botsplita,
-        :Pigrrl2botsplitb,
-        :Pigrrl2botv11,
-        :Pigrrl2botv12,
-        :Pigrrl2top,
-        :Pigrrl2topsplita,
-        :Pigrrl2topsplitb,
-        :Pigrrl2topv11,
-        :Pigrrl2topv12,
-        :Pitftbtns,
-        :Shoulderbtns,
-        :Shouldermount,
-        :Washer,
-        :Washerb ;
-    okh:hasImage :Image ;
-    okh:hasReadme :Readme ;
-    okh:licensor "James Botler" ;
-    okh:release <https://wikifactory.com/@botler/pigrrl-2/v/ed01aee> ;
-    okh:repo <https://wikifactory.com/@botler/pigrrl-2> ;
-    okh:repoHost "wikifactory.com" ;
-    okh:source :Pigrrl2_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
-    okh:version "ed01aee564ab97e8c46b235ea90618c47f190fde" ;
-    okh:versionOf <https://wikifactory.com/@botler/pigrrl-2> .
-
-:Pigrrl2_source a okh:SourceFile ;
-    rdfs:label "Source File of pigrrl-2 of PiGRRL 2 ed01aee564ab97e8c46b235ea90618c47f190fde" ;
+:Otherspigrrl2_source a okh:SourceFile ;
+    rdfs:label "Source File of Others/pigrrl-2 of PiGRRL 2 ed01aee564ab97e8c46b235ea90618c47f190fde" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/635/pigrrl-2.pdf> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo0MTc4> .
 
-:Pigrrl2bot a okh:Part ;
-    rdfs:label "pigrrl2-bot" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "James Botler" ;
-    okh:source :Pigrrl2bot_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Pigrrl2bot_source a okh:SourceFile ;
-    rdfs:label "Source File of pigrrl2-bot of PiGRRL 2 ed01aee564ab97e8c46b235ea90618c47f190fde" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/635/pigrrl2-bot.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NjQz> .
-
-:Pigrrl2botsplita a okh:Part ;
-    rdfs:label "pigrrl2-bot-splitA" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "James Botler" ;
-    okh:source :Pigrrl2botsplita_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Pigrrl2botsplita_source a okh:SourceFile ;
-    rdfs:label "Source File of pigrrl2-bot-splitA of PiGRRL 2 ed01aee564ab97e8c46b235ea90618c47f190fde" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/635/pigrrl2-bot-splita.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NjQ1> .
-
-:Pigrrl2botsplitb a okh:Part ;
-    rdfs:label "pigrrl2-bot-splitB" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "James Botler" ;
-    okh:source :Pigrrl2botsplitb_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Pigrrl2botsplitb_source a okh:SourceFile ;
-    rdfs:label "Source File of pigrrl2-bot-splitB of PiGRRL 2 ed01aee564ab97e8c46b235ea90618c47f190fde" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/635/pigrrl2-bot-splitb.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NjUx> .
-
-:Pigrrl2botv11 a okh:Part ;
-    rdfs:label "pigrrl2-bot-v1-1" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "James Botler" ;
-    okh:source :Pigrrl2botv11_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Pigrrl2botv11_source a okh:SourceFile ;
-    rdfs:label "Source File of pigrrl2-bot-v1-1 of PiGRRL 2 ed01aee564ab97e8c46b235ea90618c47f190fde" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/635/pigrrl2-bot-v1-1.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NjUw> .
-
-:Pigrrl2botv12 a okh:Part ;
-    rdfs:label "pigrrl2-bot-v1-2" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "James Botler" ;
-    okh:source :Pigrrl2botv12_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Pigrrl2botv12_source a okh:SourceFile ;
-    rdfs:label "Source File of pigrrl2-bot-v1-2 of PiGRRL 2 ed01aee564ab97e8c46b235ea90618c47f190fde" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/635/pigrrl2-bot-v1-2.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NjM2> .
-
-:Pigrrl2top a okh:Part ;
-    rdfs:label "pigrrl2-top" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "James Botler" ;
-    okh:source :Pigrrl2top_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Pigrrl2top_source a okh:SourceFile ;
-    rdfs:label "Source File of pigrrl2-top of PiGRRL 2 ed01aee564ab97e8c46b235ea90618c47f190fde" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/635/pigrrl2-top.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NjQ2> .
-
-:Pigrrl2topsplita a okh:Part ;
-    rdfs:label "pigrrl2-top-splitA" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "James Botler" ;
-    okh:source :Pigrrl2topsplita_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Pigrrl2topsplita_source a okh:SourceFile ;
-    rdfs:label "Source File of pigrrl2-top-splitA of PiGRRL 2 ed01aee564ab97e8c46b235ea90618c47f190fde" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/635/pigrrl2-top-splita.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NjQw> .
-
-:Pigrrl2topsplitb a okh:Part ;
-    rdfs:label "pigrrl2-top-splitB" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "James Botler" ;
-    okh:source :Pigrrl2topsplitb_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Pigrrl2topsplitb_source a okh:SourceFile ;
-    rdfs:label "Source File of pigrrl2-top-splitB of PiGRRL 2 ed01aee564ab97e8c46b235ea90618c47f190fde" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/635/pigrrl2-top-splitb.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NjQy> .
-
-:Pigrrl2topv11 a okh:Part ;
-    rdfs:label "pigrrl2-top-v1-1" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "James Botler" ;
-    okh:source :Pigrrl2topv11_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Pigrrl2topv11_source a okh:SourceFile ;
-    rdfs:label "Source File of pigrrl2-top-v1-1 of PiGRRL 2 ed01aee564ab97e8c46b235ea90618c47f190fde" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/635/pigrrl2-top-v1-1.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NjM5> .
-
-:Pigrrl2topv12 a okh:Part ;
-    rdfs:label "pigrrl2-top-v1-2" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "James Botler" ;
-    okh:source :Pigrrl2topv12_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Pigrrl2topv12_source a okh:SourceFile ;
-    rdfs:label "Source File of pigrrl2-top-v1-2 of PiGRRL 2 ed01aee564ab97e8c46b235ea90618c47f190fde" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/635/pigrrl2-top-v1-2.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NjQ0> .
-
-:Pitftbtns a okh:Part ;
-    rdfs:label "pitft-btns" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "James Botler" ;
-    okh:source :Pitftbtns_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Pitftbtns_source a okh:SourceFile ;
-    rdfs:label "Source File of pitft-btns of PiGRRL 2 ed01aee564ab97e8c46b235ea90618c47f190fde" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/635/pitft-btns.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NjQ4> .
-
 :Readme a okh:Readme ;
     rdfs:label "Readme of PiGRRL 2 ed01aee564ab97e8c46b235ea90618c47f190fde" ;
     okh:fileFormat "MD" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/635/readme-28.md> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NTg3> .
-
-:Shoulderbtns a okh:Part ;
-    rdfs:label "shoulder-btns" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "James Botler" ;
-    okh:source :Shoulderbtns_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Shoulderbtns_source a okh:SourceFile ;
-    rdfs:label "Source File of shoulder-btns of PiGRRL 2 ed01aee564ab97e8c46b235ea90618c47f190fde" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/635/shoulder-btns.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NjUz> .
-
-:Shouldermount a okh:Part ;
-    rdfs:label "shoulder-mount" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "James Botler" ;
-    okh:source :Shouldermount_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Shouldermount_source a okh:SourceFile ;
-    rdfs:label "Source File of shoulder-mount of PiGRRL 2 ed01aee564ab97e8c46b235ea90618c47f190fde" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/635/shoulder-mount.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NjUy> .
-
-:Washer a okh:Part ;
-    rdfs:label "washer" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "James Botler" ;
-    okh:source :Washer_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Washer_source a okh:SourceFile ;
-    rdfs:label "Source File of washer of PiGRRL 2 ed01aee564ab97e8c46b235ea90618c47f190fde" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/635/washer.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NjQ3> .
-
-:Washerb a okh:Part ;
-    rdfs:label "washerB" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "James Botler" ;
-    okh:source :Washerb_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Washerb_source a okh:SourceFile ;
-    rdfs:label "Source File of washerB of PiGRRL 2 ed01aee564ab97e8c46b235ea90618c47f190fde" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/635/washerb.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NjQx> .
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/635/readme-d57f3.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyMTEzMDg=> .
 

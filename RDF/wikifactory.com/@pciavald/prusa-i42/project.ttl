@@ -1,10 +1,11 @@
-@prefix : <https://wikifactory.com/@pciavald/prusa-i42/71dca0bde4d05ac4a41e42ef6eb582035699fd1c/> .
+@prefix : <https://wikifactory.com/%40pciavald/prusa-i42/71dca0bde4d05ac4a41e42ef6eb582035699fd1c/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 :PrusaI42 a okh:Module ;
     rdfs:label "Prusa i4.2" ;
-    okh:documentationLanguage "pt" ;
+    okh:dataSource "wikifactory.com" ;
+    okh:documentationLanguage "ca" ;
     okh:function "Prusa i3 enhanced" ;
     okh:hasComponent :Attachebearing,
         :Attachefemelle,
@@ -73,12 +74,13 @@
     okh:repo <https://wikifactory.com/@pciavald/prusa-i42> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
     okh:version "71dca0bde4d05ac4a41e42ef6eb582035699fd1c" ;
     okh:versionOf <https://wikifactory.com/@pciavald/prusa-i42> .
 
 :Attachebearing a okh:Part ;
     rdfs:label "attache_bearing" ;
-    okh:documentationLanguage "pt" ;
+    okh:documentationLanguage "ca" ;
     okh:licensor "Pierre-Alexis Ciavaldini" ;
     okh:source :Attachebearing_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
@@ -91,7 +93,7 @@
 
 :Attachefemelle a okh:Part ;
     rdfs:label "attache_femelle" ;
-    okh:documentationLanguage "pt" ;
+    okh:documentationLanguage "ca" ;
     okh:licensor "Pierre-Alexis Ciavaldini" ;
     okh:source :Attachefemelle_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
@@ -104,7 +106,7 @@
 
 :Attachemale a okh:Part ;
     rdfs:label "attache_male" ;
-    okh:documentationLanguage "pt" ;
+    okh:documentationLanguage "ca" ;
     okh:licensor "Pierre-Alexis Ciavaldini" ;
     okh:source :Attachemale_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
@@ -117,7 +119,7 @@
 
 :Bearinglm8uu a okh:Part ;
     rdfs:label "bearing_lm8uu" ;
-    okh:documentationLanguage "pt" ;
+    okh:documentationLanguage "ca" ;
     okh:licensor "Pierre-Alexis Ciavaldini" ;
     okh:source :Bearinglm8uu_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
@@ -130,7 +132,7 @@
 
 :Cablehole a okh:Part ;
     rdfs:label "cable_hole" ;
-    okh:documentationLanguage "pt" ;
+    okh:documentationLanguage "ca" ;
     okh:licensor "Pierre-Alexis Ciavaldini" ;
     okh:source :Cablehole_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
@@ -143,7 +145,7 @@
 
 :Coupling a okh:Part ;
     rdfs:label "coupling" ;
-    okh:documentationLanguage "pt" ;
+    okh:documentationLanguage "ca" ;
     okh:licensor "Pierre-Alexis Ciavaldini" ;
     okh:source :Coupling_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
@@ -156,7 +158,7 @@
 
 :Extruder a okh:Part ;
     rdfs:label "extruder" ;
-    okh:documentationLanguage "pt" ;
+    okh:documentationLanguage "ca" ;
     okh:licensor "Pierre-Alexis Ciavaldini" ;
     okh:source :Extruder_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
@@ -169,7 +171,7 @@
 
 :Extruderassy a okh:Part ;
     rdfs:label "extruder_assy" ;
-    okh:documentationLanguage "pt" ;
+    okh:documentationLanguage "ca" ;
     okh:licensor "Pierre-Alexis Ciavaldini" ;
     okh:source :Extruderassy_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
@@ -182,7 +184,7 @@
 
 :Extruderbiggear a okh:Part ;
     rdfs:label "extruder_big_gear" ;
-    okh:documentationLanguage "pt" ;
+    okh:documentationLanguage "ca" ;
     okh:licensor "Pierre-Alexis Ciavaldini" ;
     okh:source :Extruderbiggear_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
@@ -195,7 +197,7 @@
 
 :Extruderbowden a okh:Part ;
     rdfs:label "extruder_bowden" ;
-    okh:documentationLanguage "pt" ;
+    okh:documentationLanguage "ca" ;
     okh:licensor "Pierre-Alexis Ciavaldini" ;
     okh:source :Extruderbowden_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
@@ -208,7 +210,7 @@
 
 :Extruderbowdenass a okh:Part ;
     rdfs:label "extruder_bowden_ass" ;
-    okh:documentationLanguage "pt" ;
+    okh:documentationLanguage "ca" ;
     okh:licensor "Pierre-Alexis Ciavaldini" ;
     okh:source :Extruderbowdenass_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
@@ -221,7 +223,7 @@
 
 :Extruderholder a okh:Part ;
     rdfs:label "extruder_holder" ;
-    okh:documentationLanguage "pt" ;
+    okh:documentationLanguage "ca" ;
     okh:licensor "Pierre-Alexis Ciavaldini" ;
     okh:source :Extruderholder_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
@@ -234,7 +236,7 @@
 
 :Extruderscrew a okh:Part ;
     rdfs:label "extruder_screw" ;
-    okh:documentationLanguage "pt" ;
+    okh:documentationLanguage "ca" ;
     okh:licensor "Pierre-Alexis Ciavaldini" ;
     okh:source :Extruderscrew_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
@@ -247,7 +249,7 @@
 
 :Extrudersmallgear a okh:Part ;
     rdfs:label "extruder_small_gear" ;
-    okh:documentationLanguage "pt" ;
+    okh:documentationLanguage "ca" ;
     okh:licensor "Pierre-Alexis Ciavaldini" ;
     okh:source :Extrudersmallgear_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
@@ -260,7 +262,7 @@
 
 :Extruderspool a okh:Part ;
     rdfs:label "extruder_spool" ;
-    okh:documentationLanguage "pt" ;
+    okh:documentationLanguage "ca" ;
     okh:licensor "Pierre-Alexis Ciavaldini" ;
     okh:source :Extruderspool_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
@@ -273,7 +275,7 @@
 
 :Extruderspoolholder a okh:Part ;
     rdfs:label "extruder_spool_holder" ;
-    okh:documentationLanguage "pt" ;
+    okh:documentationLanguage "ca" ;
     okh:licensor "Pierre-Alexis Ciavaldini" ;
     okh:source :Extruderspoolholder_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
@@ -286,7 +288,7 @@
 
 :Extrudertensionner a okh:Part ;
     rdfs:label "extruder_tensionner" ;
-    okh:documentationLanguage "pt" ;
+    okh:documentationLanguage "ca" ;
     okh:licensor "Pierre-Alexis Ciavaldini" ;
     okh:source :Extrudertensionner_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
@@ -299,7 +301,7 @@
 
 :Frame a okh:Part ;
     rdfs:label "frame" ;
-    okh:documentationLanguage "pt" ;
+    okh:documentationLanguage "ca" ;
     okh:licensor "Pierre-Alexis Ciavaldini" ;
     okh:source :Frame_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
@@ -312,7 +314,7 @@
 
 :Framebed a okh:Part ;
     rdfs:label "frame_bed" ;
-    okh:documentationLanguage "pt" ;
+    okh:documentationLanguage "ca" ;
     okh:licensor "Pierre-Alexis Ciavaldini" ;
     okh:source :Framebed_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
@@ -325,7 +327,7 @@
 
 :Framebottom a okh:Part ;
     rdfs:label "frame_bottom" ;
-    okh:documentationLanguage "pt" ;
+    okh:documentationLanguage "ca" ;
     okh:licensor "Pierre-Alexis Ciavaldini" ;
     okh:source :Framebottom_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
@@ -338,7 +340,7 @@
 
 :Frameface a okh:Part ;
     rdfs:label "frame_face" ;
-    okh:documentationLanguage "pt" ;
+    okh:documentationLanguage "ca" ;
     okh:licensor "Pierre-Alexis Ciavaldini" ;
     okh:source :Frameface_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
@@ -351,7 +353,7 @@
 
 :Framemiddle a okh:Part ;
     rdfs:label "frame_middle" ;
-    okh:documentationLanguage "pt" ;
+    okh:documentationLanguage "ca" ;
     okh:licensor "Pierre-Alexis Ciavaldini" ;
     okh:source :Framemiddle_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
@@ -364,7 +366,7 @@
 
 :Frameplate a okh:Part ;
     rdfs:label "frame_plate" ;
-    okh:documentationLanguage "pt" ;
+    okh:documentationLanguage "ca" ;
     okh:licensor "Pierre-Alexis Ciavaldini" ;
     okh:source :Frameplate_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
@@ -377,7 +379,7 @@
 
 :Frameplatecarriage a okh:Part ;
     rdfs:label "frame_plate_carriage" ;
-    okh:documentationLanguage "pt" ;
+    okh:documentationLanguage "ca" ;
     okh:licensor "Pierre-Alexis Ciavaldini" ;
     okh:source :Frameplatecarriage_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
@@ -390,7 +392,7 @@
 
 :Frameside a okh:Part ;
     rdfs:label "frame_side" ;
-    okh:documentationLanguage "pt" ;
+    okh:documentationLanguage "ca" ;
     okh:licensor "Pierre-Alexis Ciavaldini" ;
     okh:source :Frameside_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
@@ -403,7 +405,7 @@
 
 :Frametop a okh:Part ;
     rdfs:label "frame_top" ;
-    okh:documentationLanguage "pt" ;
+    okh:documentationLanguage "ca" ;
     okh:licensor "Pierre-Alexis Ciavaldini" ;
     okh:source :Frametop_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
@@ -416,7 +418,7 @@
 
 :Framezmotor a okh:Part ;
     rdfs:label "frame_z_motor" ;
-    okh:documentationLanguage "pt" ;
+    okh:documentationLanguage "ca" ;
     okh:licensor "Pierre-Alexis Ciavaldini" ;
     okh:source :Framezmotor_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
@@ -429,7 +431,7 @@
 
 :Framezmotorholder a okh:Part ;
     rdfs:label "frame_z_motor_holder" ;
-    okh:documentationLanguage "pt" ;
+    okh:documentationLanguage "ca" ;
     okh:licensor "Pierre-Alexis Ciavaldini" ;
     okh:source :Framezmotorholder_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
@@ -442,7 +444,7 @@
 
 :Nema17 a okh:Part ;
     rdfs:label "nema17" ;
-    okh:documentationLanguage "pt" ;
+    okh:documentationLanguage "ca" ;
     okh:licensor "Pierre-Alexis Ciavaldini" ;
     okh:source :Nema17_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
@@ -455,7 +457,7 @@
 
 :Nut a okh:Part ;
     rdfs:label "nut" ;
-    okh:documentationLanguage "pt" ;
+    okh:documentationLanguage "ca" ;
     okh:licensor "Pierre-Alexis Ciavaldini" ;
     okh:source :Nut_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
@@ -468,7 +470,7 @@
 
 :Nutfastener a okh:Part ;
     rdfs:label "nut_fastener" ;
-    okh:documentationLanguage "pt" ;
+    okh:documentationLanguage "ca" ;
     okh:licensor "Pierre-Alexis Ciavaldini" ;
     okh:source :Nutfastener_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
@@ -481,7 +483,7 @@
 
 :Prusai42 a okh:Part ;
     rdfs:label "Prusa_i4.2" ;
-    okh:documentationLanguage "pt" ;
+    okh:documentationLanguage "ca" ;
     okh:licensor "Pierre-Alexis Ciavaldini" ;
     okh:source :Prusai42_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
@@ -494,7 +496,7 @@
 
 :Screen a okh:Part ;
     rdfs:label "screen" ;
-    okh:documentationLanguage "pt" ;
+    okh:documentationLanguage "ca" ;
     okh:licensor "Pierre-Alexis Ciavaldini" ;
     okh:source :Screen_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
@@ -507,7 +509,7 @@
 
 :Screenfront a okh:Part ;
     rdfs:label "screen_front" ;
-    okh:documentationLanguage "pt" ;
+    okh:documentationLanguage "ca" ;
     okh:licensor "Pierre-Alexis Ciavaldini" ;
     okh:source :Screenfront_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
@@ -520,7 +522,7 @@
 
 :Screensupport a okh:Part ;
     rdfs:label "screen_support" ;
-    okh:documentationLanguage "pt" ;
+    okh:documentationLanguage "ca" ;
     okh:licensor "Pierre-Alexis Ciavaldini" ;
     okh:source :Screensupport_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
@@ -533,7 +535,7 @@
 
 :Xcarriage a okh:Part ;
     rdfs:label "x_carriage" ;
-    okh:documentationLanguage "pt" ;
+    okh:documentationLanguage "ca" ;
     okh:licensor "Pierre-Alexis Ciavaldini" ;
     okh:source :Xcarriage_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
@@ -546,7 +548,7 @@
 
 :Xendstop a okh:Part ;
     rdfs:label "x_endstop" ;
-    okh:documentationLanguage "pt" ;
+    okh:documentationLanguage "ca" ;
     okh:export :Xendstop_export1 ;
     okh:licensor "Pierre-Alexis Ciavaldini" ;
     okh:source :Xendstop_source ;
@@ -566,7 +568,7 @@
 
 :Xidler a okh:Part ;
     rdfs:label "x_idler" ;
-    okh:documentationLanguage "pt" ;
+    okh:documentationLanguage "ca" ;
     okh:licensor "Pierre-Alexis Ciavaldini" ;
     okh:source :Xidler_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
@@ -579,7 +581,7 @@
 
 :Xidlerbody a okh:Part ;
     rdfs:label "x_idler_body" ;
-    okh:documentationLanguage "pt" ;
+    okh:documentationLanguage "ca" ;
     okh:licensor "Pierre-Alexis Ciavaldini" ;
     okh:source :Xidlerbody_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
@@ -592,7 +594,7 @@
 
 :Xidlerpulley a okh:Part ;
     rdfs:label "x_idler_pulley" ;
-    okh:documentationLanguage "pt" ;
+    okh:documentationLanguage "ca" ;
     okh:licensor "Pierre-Alexis Ciavaldini" ;
     okh:source :Xidlerpulley_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
@@ -605,7 +607,7 @@
 
 :Xidlertensionner a okh:Part ;
     rdfs:label "x_idler_tensionner" ;
-    okh:documentationLanguage "pt" ;
+    okh:documentationLanguage "ca" ;
     okh:licensor "Pierre-Alexis Ciavaldini" ;
     okh:source :Xidlertensionner_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
@@ -618,7 +620,7 @@
 
 :Xmotor a okh:Part ;
     rdfs:label "x_motor" ;
-    okh:documentationLanguage "pt" ;
+    okh:documentationLanguage "ca" ;
     okh:licensor "Pierre-Alexis Ciavaldini" ;
     okh:source :Xmotor_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
@@ -631,7 +633,7 @@
 
 :Xmotorbody a okh:Part ;
     rdfs:label "x_motor_body" ;
-    okh:documentationLanguage "pt" ;
+    okh:documentationLanguage "ca" ;
     okh:licensor "Pierre-Alexis Ciavaldini" ;
     okh:source :Xmotorbody_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
@@ -644,7 +646,7 @@
 
 :Xnema17attach a okh:Part ;
     rdfs:label "x_nema17_attach" ;
-    okh:documentationLanguage "pt" ;
+    okh:documentationLanguage "ca" ;
     okh:licensor "Pierre-Alexis Ciavaldini" ;
     okh:source :Xnema17attach_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
@@ -657,7 +659,7 @@
 
 :Xsmoothrod a okh:Part ;
     rdfs:label "x_smooth_rod" ;
-    okh:documentationLanguage "pt" ;
+    okh:documentationLanguage "ca" ;
     okh:licensor "Pierre-Alexis Ciavaldini" ;
     okh:source :Xsmoothrod_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
@@ -670,7 +672,7 @@
 
 :Ycarriage a okh:Part ;
     rdfs:label "y_carriage" ;
-    okh:documentationLanguage "pt" ;
+    okh:documentationLanguage "ca" ;
     okh:licensor "Pierre-Alexis Ciavaldini" ;
     okh:source :Ycarriage_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
@@ -683,7 +685,7 @@
 
 :Yendstop a okh:Part ;
     rdfs:label "y_endstop" ;
-    okh:documentationLanguage "pt" ;
+    okh:documentationLanguage "ca" ;
     okh:licensor "Pierre-Alexis Ciavaldini" ;
     okh:source :Yendstop_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
@@ -696,7 +698,7 @@
 
 :Yendstopbody a okh:Part ;
     rdfs:label "y_endstop_body" ;
-    okh:documentationLanguage "pt" ;
+    okh:documentationLanguage "ca" ;
     okh:licensor "Pierre-Alexis Ciavaldini" ;
     okh:source :Yendstopbody_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
@@ -709,7 +711,7 @@
 
 :Yidler a okh:Part ;
     rdfs:label "y_idler" ;
-    okh:documentationLanguage "pt" ;
+    okh:documentationLanguage "ca" ;
     okh:licensor "Pierre-Alexis Ciavaldini" ;
     okh:source :Yidler_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
@@ -722,7 +724,7 @@
 
 :Yidlerbody a okh:Part ;
     rdfs:label "y_idler_body" ;
-    okh:documentationLanguage "pt" ;
+    okh:documentationLanguage "ca" ;
     okh:licensor "Pierre-Alexis Ciavaldini" ;
     okh:source :Yidlerbody_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
@@ -735,7 +737,7 @@
 
 :Ymotor a okh:Part ;
     rdfs:label "y_motor" ;
-    okh:documentationLanguage "pt" ;
+    okh:documentationLanguage "ca" ;
     okh:licensor "Pierre-Alexis Ciavaldini" ;
     okh:source :Ymotor_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
@@ -748,7 +750,7 @@
 
 :Ymotorbody a okh:Part ;
     rdfs:label "y_motor_body" ;
-    okh:documentationLanguage "pt" ;
+    okh:documentationLanguage "ca" ;
     okh:licensor "Pierre-Alexis Ciavaldini" ;
     okh:source :Ymotorbody_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
@@ -761,7 +763,7 @@
 
 :Ysmoothrod a okh:Part ;
     rdfs:label "y_smooth_rod" ;
-    okh:documentationLanguage "pt" ;
+    okh:documentationLanguage "ca" ;
     okh:licensor "Pierre-Alexis Ciavaldini" ;
     okh:source :Ysmoothrod_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
@@ -774,7 +776,7 @@
 
 :Zendstop a okh:Part ;
     rdfs:label "z_endstop" ;
-    okh:documentationLanguage "pt" ;
+    okh:documentationLanguage "ca" ;
     okh:licensor "Pierre-Alexis Ciavaldini" ;
     okh:source :Zendstop_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
@@ -787,7 +789,7 @@
 
 :Zendstopangle a okh:Part ;
     rdfs:label "z_endstop_angle" ;
-    okh:documentationLanguage "pt" ;
+    okh:documentationLanguage "ca" ;
     okh:licensor "Pierre-Alexis Ciavaldini" ;
     okh:source :Zendstopangle_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
@@ -800,7 +802,7 @@
 
 :Zendstopcarriage a okh:Part ;
     rdfs:label "z_endstop_carriage" ;
-    okh:documentationLanguage "pt" ;
+    okh:documentationLanguage "ca" ;
     okh:licensor "Pierre-Alexis Ciavaldini" ;
     okh:source :Zendstopcarriage_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
@@ -813,7 +815,7 @@
 
 :Zendstoprod a okh:Part ;
     rdfs:label "z_endstop_rod" ;
-    okh:documentationLanguage "pt" ;
+    okh:documentationLanguage "ca" ;
     okh:licensor "Pierre-Alexis Ciavaldini" ;
     okh:source :Zendstoprod_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
@@ -826,7 +828,7 @@
 
 :Zendstopspring a okh:Part ;
     rdfs:label "z_endstop_spring" ;
-    okh:documentationLanguage "pt" ;
+    okh:documentationLanguage "ca" ;
     okh:licensor "Pierre-Alexis Ciavaldini" ;
     okh:source :Zendstopspring_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
@@ -839,7 +841,7 @@
 
 :Zendstopwheel a okh:Part ;
     rdfs:label "z_endstop_wheel" ;
-    okh:documentationLanguage "pt" ;
+    okh:documentationLanguage "ca" ;
     okh:licensor "Pierre-Alexis Ciavaldini" ;
     okh:source :Zendstopwheel_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
@@ -852,7 +854,7 @@
 
 :Zmotor a okh:Part ;
     rdfs:label "z_motor" ;
-    okh:documentationLanguage "pt" ;
+    okh:documentationLanguage "ca" ;
     okh:licensor "Pierre-Alexis Ciavaldini" ;
     okh:source :Zmotor_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
@@ -865,7 +867,7 @@
 
 :Zrodsmooth a okh:Part ;
     rdfs:label "z_rod_smooth" ;
-    okh:documentationLanguage "pt" ;
+    okh:documentationLanguage "ca" ;
     okh:licensor "Pierre-Alexis Ciavaldini" ;
     okh:source :Zrodsmooth_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
@@ -878,7 +880,7 @@
 
 :Zrodthreaded a okh:Part ;
     rdfs:label "z_rod_threaded" ;
-    okh:documentationLanguage "pt" ;
+    okh:documentationLanguage "ca" ;
     okh:licensor "Pierre-Alexis Ciavaldini" ;
     okh:source :Zrodthreaded_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .

@@ -1,0 +1,32 @@
+@prefix : <https://www.thingiverse.com/thing%3A471/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:8X8LedMatrix a okh:Module ;
+    rdfs:label "8 x 8 LED Matrix" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """In honour of Thingiverse Thursday here's a design that has been sitting on our hard drive for a little while.\r
+\r
+Its a simple little box that makes wiring up an 8 x 8 LED Matrix easy. It uses the MAX7219 (or 7221) LED driver chip from Maxim and uses the Matrix library in the Arduino library.\r
+\r
+For Details on how to wire up and program try:\r
+http://www.arduino.cc/playground/Main/MAX72XXHardware\r
+\r
+A small video of it scrolling a Valentines day message:\r
+http://www.flickr.com/photos/snazzyguy/3277618701""" ;
+    okh:hasImage :Image ;
+    okh:licensor "oomlout" ;
+    okh:repo <https://www.thingiverse.com/thing:471> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:471> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of 8 x 8 LED Matrix 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/87/e1/98/32/0c/3467359537_398e8f8335_o_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/87/e1/98/32/0c/3467359537_398e8f8335_o_display_large_display_large.jpg> .
+

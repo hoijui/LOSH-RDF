@@ -1,0 +1,33 @@
+@prefix : <https://www.thingiverse.com/thing%3A11558/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Verbatime a okh:Module ;
+    rdfs:label "Verbatime" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """A sentence clock, full box edition with LED mounting layer. (German words edition)\r
+\r
+Example: ES IST ZEHN NACH HALB DREI UHR\r
+Which means: IT IS TWENTY TO FOUR OCLOCK\r
+\r
+So the LEDs illuminate the words and you see the time as sentence.\r
+\r
+I used 4mm plywood and 3mm LEDs. Holes for mounting and the power cable is included.\r
+\r
+Alex just send me a modification, so I added "v2" to the new files.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "habo" ;
+    okh:repo <https://www.thingiverse.com/thing:11558> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:11558> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Verbatime 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/0f/a4/28/16/bb/verbatime_box_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/0f/a4/28/16/bb/verbatime_box_display_large_display_large.jpg> .
+

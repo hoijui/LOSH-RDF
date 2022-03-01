@@ -1,0 +1,26 @@
+@prefix : <https://www.thingiverse.com/thing%3A4052/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:OverhangTest a okh:Module ;
+    rdfs:label "Overhang Test" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This will test your makerbot (or any 3d printer) for how well it can do overhangs. It tests 30, 40, 50, 60, and 70 degree overhangs. It's not completely manifold, so you may get some extra infill, but it's nowhere near making Skeinforge puke on you.\r
+\r
+(Yeah, keep on staring at those huge angles... and those peices did not have to be cleaned to get those angles. They're just de-rafted.)""" ;
+    okh:hasImage :Image ;
+    okh:licensor "coasterman" ;
+    okh:repo <https://www.thingiverse.com/thing:4052> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:4052> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Overhang Test 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/f6/26/c3/3d/ef/2010-09-09_23-04-08.976_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/f6/26/c3/3d/ef/2010-09-09_23-04-08.976_display_large_display_large.jpg> .
+

@@ -1,0 +1,256 @@
+@prefix : <https://wikifactory.com/%40abnergomez/snakes-ladders/a3e34a2a987ca04d006c1f9c867757c06de604ee/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:SnakesLadders a okh:Module ;
+    rdfs:label "Snakes & Ladders" ;
+    okh:dataSource "wikifactory.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function "The #safetoplay version of this well-known game." ;
+    okh:hasComponent :Blueprintsboard,
+        :Blueprintsdie,
+        :Blueprintsplayer1,
+        :Blueprintsplayer2,
+        :Blueprintsplayer3,
+        :Blueprintsplayer4,
+        :Bom,
+        :Bookletmdflex2,
+        :Partsboard,
+        :Partsdie,
+        :Partsgame,
+        :Partsplayer1,
+        :Partsplayer2,
+        :Partsplayer3,
+        :Partsplayer4,
+        :Safetoplaydesignchallengemethodology ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "Abner Gómez" ;
+    okh:release <https://wikifactory.com/@abnergomez/snakes-ladders/v/a3e34a2> ;
+    okh:repo <https://wikifactory.com/@abnergomez/snakes-ladders> ;
+    okh:repoHost "wikifactory.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "a3e34a2a987ca04d006c1f9c867757c06de604ee" ;
+    okh:versionOf <https://wikifactory.com/@abnergomez/snakes-ladders> .
+
+:Blueprintsboard a okh:Part ;
+    rdfs:label "Blueprints/Board" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Abner Gómez" ;
+    okh:source :Blueprintsboard_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Blueprintsboard_source a okh:SourceFile ;
+    rdfs:label "Source File of Blueprints/Board of Snakes & Ladders a3e34a2a987ca04d006c1f9c867757c06de604ee" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/65053/board.PDF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTgyNjU=> .
+
+:Blueprintsdie a okh:Part ;
+    rdfs:label "Blueprints/Die" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Abner Gómez" ;
+    okh:source :Blueprintsdie_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Blueprintsdie_source a okh:SourceFile ;
+    rdfs:label "Source File of Blueprints/Die of Snakes & Ladders a3e34a2a987ca04d006c1f9c867757c06de604ee" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/65053/die.PDF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTkwNDY=> .
+
+:Blueprintsplayer1 a okh:Part ;
+    rdfs:label "Blueprints/Player1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Abner Gómez" ;
+    okh:source :Blueprintsplayer1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Blueprintsplayer1_source a okh:SourceFile ;
+    rdfs:label "Source File of Blueprints/Player1 of Snakes & Ladders a3e34a2a987ca04d006c1f9c867757c06de604ee" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/65053/player1.PDF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTkwNDQ=> .
+
+:Blueprintsplayer2 a okh:Part ;
+    rdfs:label "Blueprints/Player2" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Abner Gómez" ;
+    okh:source :Blueprintsplayer2_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Blueprintsplayer2_source a okh:SourceFile ;
+    rdfs:label "Source File of Blueprints/Player2 of Snakes & Ladders a3e34a2a987ca04d006c1f9c867757c06de604ee" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/65053/player2.PDF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTkwNDM=> .
+
+:Blueprintsplayer3 a okh:Part ;
+    rdfs:label "Blueprints/Player3" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Abner Gómez" ;
+    okh:source :Blueprintsplayer3_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Blueprintsplayer3_source a okh:SourceFile ;
+    rdfs:label "Source File of Blueprints/Player3 of Snakes & Ladders a3e34a2a987ca04d006c1f9c867757c06de604ee" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/65053/player3.PDF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTkwNDI=> .
+
+:Blueprintsplayer4 a okh:Part ;
+    rdfs:label "Blueprints/Player4" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Abner Gómez" ;
+    okh:source :Blueprintsplayer4_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Blueprintsplayer4_source a okh:SourceFile ;
+    rdfs:label "Source File of Blueprints/Player4 of Snakes & Ladders a3e34a2a987ca04d006c1f9c867757c06de604ee" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/65053/player4.PDF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTkwNDE=> .
+
+:Bom a okh:Part ;
+    rdfs:label "BOM" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Abner Gómez" ;
+    okh:source :Bom_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Bom_source a okh:SourceFile ;
+    rdfs:label "Source File of BOM of Snakes & Ladders a3e34a2a987ca04d006c1f9c867757c06de604ee" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/65053/bom.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTkwNTc=> .
+
+:Bookletmdflex2 a okh:Part ;
+    rdfs:label "booklet__MDflex2" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Abner Gómez" ;
+    okh:source :Bookletmdflex2_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Bookletmdflex2_source a okh:SourceFile ;
+    rdfs:label "Source File of booklet__MDflex2 of Snakes & Ladders a3e34a2a987ca04d006c1f9c867757c06de604ee" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/65053/booklet__mdflex2.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTkwNTM=> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Snakes & Ladders a3e34a2a987ca04d006c1f9c867757c06de604ee" ;
+    okh:fileFormat "PNG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/65053/unnamed.png> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTczMzc=> .
+
+:Partsboard a okh:Part ;
+    rdfs:label "Parts/Board" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Abner Gómez" ;
+    okh:source :Partsboard_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Partsboard_source a okh:SourceFile ;
+    rdfs:label "Source File of Parts/Board of Snakes & Ladders a3e34a2a987ca04d006c1f9c867757c06de604ee" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/65053/board.SLDPRT> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTgyMjI=> .
+
+:Partsdie a okh:Part ;
+    rdfs:label "Parts/Die" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Abner Gómez" ;
+    okh:source :Partsdie_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Partsdie_source a okh:SourceFile ;
+    rdfs:label "Source File of Parts/Die of Snakes & Ladders a3e34a2a987ca04d006c1f9c867757c06de604ee" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/65053/die.SLDPRT> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTgyMjE=> .
+
+:Partsgame a okh:Part ;
+    rdfs:label "Parts/Game" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Abner Gómez" ;
+    okh:source :Partsgame_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Partsgame_source a okh:SourceFile ;
+    rdfs:label "Source File of Parts/Game of Snakes & Ladders a3e34a2a987ca04d006c1f9c867757c06de604ee" ;
+    okh:fileFormat "SLDASM" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/65053/game-386e3.SLDASM> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTgyMTc=> .
+
+:Partsplayer1 a okh:Part ;
+    rdfs:label "Parts/Player1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Abner Gómez" ;
+    okh:source :Partsplayer1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Partsplayer1_source a okh:SourceFile ;
+    rdfs:label "Source File of Parts/Player1 of Snakes & Ladders a3e34a2a987ca04d006c1f9c867757c06de604ee" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/65053/player1.SLDPRT> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTgyMTY=> .
+
+:Partsplayer2 a okh:Part ;
+    rdfs:label "Parts/Player2" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Abner Gómez" ;
+    okh:source :Partsplayer2_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Partsplayer2_source a okh:SourceFile ;
+    rdfs:label "Source File of Parts/Player2 of Snakes & Ladders a3e34a2a987ca04d006c1f9c867757c06de604ee" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/65053/player2.SLDPRT> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTgyMTU=> .
+
+:Partsplayer3 a okh:Part ;
+    rdfs:label "Parts/Player3" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Abner Gómez" ;
+    okh:source :Partsplayer3_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Partsplayer3_source a okh:SourceFile ;
+    rdfs:label "Source File of Parts/Player3 of Snakes & Ladders a3e34a2a987ca04d006c1f9c867757c06de604ee" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/65053/player3.SLDPRT> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTgyMTQ=> .
+
+:Partsplayer4 a okh:Part ;
+    rdfs:label "Parts/Player4" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Abner Gómez" ;
+    okh:source :Partsplayer4_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Partsplayer4_source a okh:SourceFile ;
+    rdfs:label "Source File of Parts/Player4 of Snakes & Ladders a3e34a2a987ca04d006c1f9c867757c06de604ee" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/65053/player4.SLDPRT> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTgyMTM=> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of Snakes & Ladders a3e34a2a987ca04d006c1f9c867757c06de604ee" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/65053/readme-65a1c.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTkwODI=> .
+
+:Safetoplaydesignchallengemethodology a okh:Part ;
+    rdfs:label "SafeToPlay_Design_Challenge_Methodology" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Abner Gómez" ;
+    okh:source :Safetoplaydesignchallengemethodology_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Safetoplaydesignchallengemethodology_source a okh:SourceFile ;
+    rdfs:label "Source File of SafeToPlay_Design_Challenge_Methodology of Snakes & Ladders a3e34a2a987ca04d006c1f9c867757c06de604ee" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/65053/safetoplay_design_challenge_methodology.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0MDI2NjM=> .
+

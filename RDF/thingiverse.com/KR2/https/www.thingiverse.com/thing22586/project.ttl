@@ -1,0 +1,33 @@
+@prefix : <https://www.thingiverse.com/thing%3A22586/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Hugo a okh:Module ;
+    rdfs:label "Hugo" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is Hugo. Named after Hugo de Vries who introduced the term "mutation".\r
+\r
+First of I would like to thank Joachim (jsturm) who started this project in the first place and did almost the entire testing of the parts. The entire design is done in OpenSCAD and all files are hosted on https://github.com/kr2/Hugo.\r
+\r
+At the moment we have two running Hugo Printers. \r
+The red one is an Hugo_standard, which was built by JStrum. Printed mostly in PLA on an old Mendel. He made it on purpose as small as possible to fit on his desk (so it has not the metrics one finds in the corresponding config file).\r
+\r
+The black one is an Hugo+, build by me (KR2) and printed on an Prusa in ABS.\r
+\r
+The Design is a derivative of the original Printrbot by abdrumm, but all parts are redesigned and improved.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "KR2" ;
+    okh:repo <https://www.thingiverse.com/thing:22586> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:22586> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Hugo 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/d0/7c/80/fc/80/main_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/d0/7c/80/fc/80/main_display_large_display_large.jpg> .
+

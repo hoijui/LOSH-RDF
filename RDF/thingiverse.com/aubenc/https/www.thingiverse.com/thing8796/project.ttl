@@ -1,0 +1,42 @@
+@prefix : <https://www.thingiverse.com/thing%3A8796/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:PoorMansOpenscadScrewLibrary a okh:Module ;
+    rdfs:label "Poor man's openscad screw library" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Update:\r
+Due to some bugs in the initial version, a revision of the OpenSCAD library has been uploaded, please use "polyScrewThread_r1.scad". Thanks a lot to mechadense for reporting the bugs!\r
+\r
+This is my humble take on a screw library to be used in your OpenSCAD scripts.\r
+\r
+If you are serious, please be, you'll better use http://www.thingiverse.com/thing:8793 syvwlch.\r
+\r
+Anyway, I had this thing for months in the lost projects folder suffering from some serious issues, well some of them remain (it doesn't render) and once the dust has been shaken it compiles quite nice and printable things.\r
+\r
+Instead of functions, this thing uses loops.\r
+Instead of rotate polyhedrons, this thing draws the polyhedron in a new set of points.\r
+\r
+Just a couple of comments to help using this thing:\r
+\r
+- I've found that a resolution of something like 1.5mm (PI/2 is what I use the most) works very well for threads that will be used with nuts made with a resolution of 0.5mm. \r
+\r
+- I've printed the threads with a very low infill (0.2) but for the nuts, setting up this value (I've used 0.45) helped a lot with the overhang issue.\r
+\r
+More pics @ http://aubenc.imgur.com/screws_threads_an_other_polyhedron_games""" ;
+    okh:hasImage :Image ;
+    okh:licensor "aubenc" ;
+    okh:repo <https://www.thingiverse.com/thing:8796> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:8796> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Poor man's openscad screw library 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/0c/a8/07/72/c6/IMG_0331_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/0c/a8/07/72/c6/IMG_0331_display_large_display_large.jpg> .
+

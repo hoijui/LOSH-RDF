@@ -1,0 +1,26 @@
+@prefix : <https://www.thingiverse.com/thing%3A3392/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Iphone4 a okh:Module ;
+    rdfs:label "iPhone 4" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is a parametric iPhone 4 that I've been working on so that I can design a car mounting kit, but with a little modification, you should be able to use them to print a good-looking dummy iPhone 4 (especially using the black and silver PLA available from ultimachine).\r
+\r
+I made it by taking the photos from the Apple website into photoshop, scaling them to actual size, then taking measurements using the marquee tool and the info pane. Units are in mm, and should be accurate to within 1mm. If I find any problems when I get my real one, I'll update the files.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "whosawhatsis" ;
+    okh:repo <https://www.thingiverse.com/thing:3392> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:3392> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of iPhone 4 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/09/01/b2/52/13/Screen_shot_2010-06-21_at_15.28.00_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/09/01/b2/52/13/Screen_shot_2010-06-21_at_15.28.00_display_large_display_large.jpg> .
+

@@ -1,0 +1,34 @@
+@prefix : <https://www.thingiverse.com/thing%3A1102/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Makerbeam10cmPrototype a okh:Module ;
+    rdfs:label "MakerBeam 10cm prototype" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Here\\'s a peek at what MakerBeam looks like!\r
+\r
+We were hoping to get this printed awhile ago, but people get busy, things happen, and apparently boards fry on neighborhood MakerBots, so here it is: a 10 cm long mockup of MakerBeam.\r
+\r
+We call this a mockup because the beam profile will not be this exactly. This should be easier to print, and we\\'re not quite done revising the tooling documents with our manufacturer. It\\'s got the basics down: a 10x10mm beam with a 3mm slot. It won\\'t hold circuit boards or other thin panels as well as the actual extruded beam.\r
+\r
+Many connectors one might design based on this profile will work no problem; some might have to be modified slightly. Have fun playing around!\r
+\r
+The original file has multiple problems for printing and is included as a reference. The 10mm standing file and the 15x15mm file print fine according to Erik de Bruijn, who made the modifications. I recommend printing the 15x15mm model to end up with something you can play with.\r
+\r
+http://www.kickstarter.com/projects/701662757/makerbeam-an-open-source-building-kit""" ;
+    okh:hasImage :Image ;
+    okh:licensor "makerbeam" ;
+    okh:repo <https://www.thingiverse.com/thing:1102> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:1102> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of MakerBeam 10cm prototype 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/20/25/db/cf/ec/10_cm_beam_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/20/25/db/cf/ec/10_cm_beam_display_large_display_large.jpg> .
+

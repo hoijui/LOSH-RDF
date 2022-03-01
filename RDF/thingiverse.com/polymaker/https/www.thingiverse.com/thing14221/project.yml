@@ -1,0 +1,48 @@
+__meta:
+  branch: null
+  created-at: '2011-12-03T11:39:03+00:00'
+  history: null
+  last-changed: null
+  last-visited: '2022-02-25T11:00:02.616920+00:00'
+  owner: polymaker
+  path: null
+  repo: https://www.thingiverse.com/thing:14221
+  score: null
+  source: thingiverse.com
+attestation: null
+bom: null
+contribution-guide: null
+cpc-patent-class: null
+documentation-language: en
+documentation-readiness-level: odrl3
+function: "UPDATE: Posted version 3 which adds \"total_minx\", \"total_maxx\", \"total_miny\" and \"total_maxy\" as well as similar dims for each layer named \"layername_minx\" and so on.\r\n\r\nUPDATE: Posted version 2 which works well in both Inkscape version 0.91 and 0.48.  \r\n\r\nMost of us have our favorite tools. One of mine is Inkscape. I'm no pro but I've been able to do what I need with it. Another of my favorites is OpenSCAD. The purpose of this thing is to make it easier to take something from Inkscape and use it in OpenSCAD.  \r\n\r\n\r\n\r\nThe current steps you need to take to turn an SVG into an OpenSCAD usable DXF are the following:  \r\n\r\n1. Convert all objects to paths  \r\n\r\n2. Add extra points to paths  \r\n\r\n3. Convert paths to lines  \r\n\r\n4. Export to DXF  \r\n\r\n\r\n\r\nAfter all that you may use your SVG design in OpenSCAD, but then if you want to edit your design you are faced with two equally unpalatable options: edit the original design and go through the steps again, or edit the DXF directly.  \r\n\r\n\r\n\r\nI had had enough and set out to automate that process. I took all the best parts of at least 3 other DXF output extensions (I lost count!) and added automation for the steps listed above. With this Inkscape extension, you can edit/save your design and simply \"Save a Copy As\" to DXF whenever you want to try it in OpenSCAD. It is a lot smoother that way.  \r\n\r\n\r\n\r\nSupposedly it exports color to the dxf as well but I don't know if that's supported in openscad.  \r\n\r\n\r\n\r\nNOTE: If you change the size of the document in Inkscape the exported DXF will have misplaced objects. A workaround for this is to recreate all layers after resizing the document. I know, painful, but once you have the size worked out it's not bad.  \r\n\r\n\r\n\r\nBONUS FEATURE:  \r\n\r\nThe extension automatically adds dimensions to the DXF: layer_name_width and layer_name_height for each layer and total_width and total_height.  \r\n\r\nThe dimensions can be accessed using the built-in dxf_dim command. Ex.:  \r\n\r\n\r\n\r\ntotal_width = dxf_dim(file = \"openscaddxf.dxf\", name = \"total_width\");  \r\n\r\n\r\n\r\nThree fairly small provisos:  \r\n\r\n- It's fairly slow because it has to launch a new inkscape instance to convert the objects to paths. It's not a pretty solution, but I believe it's the only way to do it at the moment.  \r\n\r\n- Doesn't work with groups. You will need to ungroup everything before exporting  \r\n\r\n- Doesn't work with intersecting lines. This will cause either the offending objects to disappear or everything will appear outlined instead of filled in.  \r\n\r\n\r\n\r\nRepo is here: https://github.com/brad/Inkscape-OpenSCAD-DXF-Export"
+image:
+  created-at: '2011-12-03T11:39:03+00:00'
+  last-changed: '2011-12-03T11:39:03+00:00'
+  last-visited: '2022-02-25T21:39:28.578520+00:00'
+  license: GPL-3.0-or-later
+  licensor: polymaker
+  mime-type: null
+  name: openscaddxf_display_large
+  path: https:/thingiverse-rerender-new.s3.amazonaws.com/renders/73/3f/5c/99/fb/openscaddxf_display_large.jpg
+  perma-url: https://thingiverse-rerender-new.s3.amazonaws.com/renders/73/3f/5c/99/fb/openscaddxf_display_large.jpg
+  url: https://thingiverse-rerender-new.s3.amazonaws.com/renders/73/3f/5c/99/fb/openscaddxf_display_large.jpg
+license: GPL-3.0-or-later
+licensor: polymaker
+manufacturing-instructions: null
+name: Inkscape OpenSCAD DXF Export
+okhv: OKH-LOSHv1.0
+organization: null
+part: []
+publication: null
+readme: null
+release: null
+repo: https://www.thingiverse.com/thing:14221
+software: []
+specific-api-data: {}
+standard-compliance: null
+technology-readiness-level: ortl4
+tsdc: null
+upload-method: auto
+user-manual: null
+version: 1.0.0

@@ -1,9 +1,10 @@
-@prefix : <https://wikifactory.com/@botler/bike-alarm/ea955dd4db8401efd94efc17bedd0cc984c91b2a/> .
+@prefix : <https://wikifactory.com/%40botler/bike-alarm/ea955dd4db8401efd94efc17bedd0cc984c91b2a/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 :BikeAlarm a okh:Module ;
     rdfs:label "Bike Alarm" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "The bike alarm is to avoid that someone take your bicycle when you are not around. It can detect movement, so if someone try to take it when the alarm is activated, a very loud buzzer will start play and another device that you carrie with you, wireless connected, will beep. By Gabriel Tanner." ;
     okh:hasImage :Image ;
@@ -13,6 +14,7 @@
     okh:repo <https://wikifactory.com/@botler/bike-alarm> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
     okh:version "ea955dd4db8401efd94efc17bedd0cc984c91b2a" ;
     okh:versionOf <https://wikifactory.com/@botler/bike-alarm> .
 

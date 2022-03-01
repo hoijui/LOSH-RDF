@@ -1,0 +1,28 @@
+@prefix : <https://www.thingiverse.com/thing%3A7772/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:OpenscadeditableOpenxCarriage a okh:Module ;
+    rdfs:label "OpenSCAD-Editable OpenX Carriage" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """It is basically the same design, but I needed some extra edge distance on some features so that it would Skein right for my printer. Since I had to recreate it in OpenSCAD anyway, here it is. Buback did all the hard part, I just copied it into a different format.\r
+\r
+It's not really "parametric" like everyone uses the word, but it is editable in OpenSCAD, which was the point (I couldn't figure out a clean scheme for parameters, so I brute-forced it). If someone else wants to clean it up, go for it.\r
+\r
+I also added Incomplete Polygons for the first 2mm of the holes, as described here: blog.makerbot.com/2010/12/13/design-tip-incomplete-polygons/ I was having trouble getting the little holes to stick on the first layer without this.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "toomanyplugs" ;
+    okh:repo <https://www.thingiverse.com/thing:7772> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/LGPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:7772> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of OpenSCAD-Editable OpenX Carriage 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/7a/e9/f0/f5/e0/openx_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/7a/e9/f0/f5/e0/openx_display_large_display_large.jpg> .
+

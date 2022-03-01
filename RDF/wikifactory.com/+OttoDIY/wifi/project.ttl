@@ -1,19 +1,20 @@
-@prefix : <https://wikifactory.com/+OttoDIY/wifi/6840917a3e3e6d30adc5bb0f65929c94d5afa59e/> .
+@prefix : <https://wikifactory.com/%2BOttoDIY/wifi/6840917a3e3e6d30adc5bb0f65929c94d5afa59e/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 :Wifi a okh:Module ;
     rdfs:label "Wifi" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "Otto97 (for LinkIt 7697) is a derived project from OttoDIY, it is a cute 2-feet robot that can be easily built with LinkIt 7697 + Robot Shieldmade by It can walk, dance, sing, detect obstacle and with mouth emotion animations." ;
-    okh:hasComponent :Iotto20171201,
+    okh:hasComponent :3dPrintedPartsotto97body,
+        :3dPrintedPartsotto97footl,
+        :3dPrintedPartsotto97footr,
+        :3dPrintedPartsotto97head,
+        :3dPrintedPartsotto97leg,
         :Linkit7697introductionpublic170918013119,
-        :Otto97body,
-        :Otto97footl,
-        :Otto97footr,
-        :Otto97head,
-        :Otto97leg,
-        :Otto97v0171003082320 ;
+        :Otto97v0171003082320,
+        :Softwareiotto20171201 ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "Camilo Parra Palacio" ;
@@ -22,27 +23,80 @@
     okh:repo <https://wikifactory.com/+OttoDIY/wifi> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
     okh:version "6840917a3e3e6d30adc5bb0f65929c94d5afa59e" ;
     okh:versionOf <https://wikifactory.com/+OttoDIY/wifi> .
+
+:3dPrintedPartsotto97body a okh:Part ;
+    rdfs:label "3D Printed Parts/OTTO97_BODY" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dPrintedPartsotto97body_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dPrintedPartsotto97body_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Printed Parts/OTTO97_BODY of Wifi 6840917a3e3e6d30adc5bb0f65929c94d5afa59e" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1416/otto97body.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMzgyMQ==> .
+
+:3dPrintedPartsotto97footl a okh:Part ;
+    rdfs:label "3D Printed Parts/OTTO97_FOOTL" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dPrintedPartsotto97footl_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dPrintedPartsotto97footl_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Printed Parts/OTTO97_FOOTL of Wifi 6840917a3e3e6d30adc5bb0f65929c94d5afa59e" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1416/otto97footl.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMzgxOQ==> .
+
+:3dPrintedPartsotto97footr a okh:Part ;
+    rdfs:label "3D Printed Parts/OTTO97_FOOTR" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dPrintedPartsotto97footr_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dPrintedPartsotto97footr_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Printed Parts/OTTO97_FOOTR of Wifi 6840917a3e3e6d30adc5bb0f65929c94d5afa59e" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1416/otto97footr.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMzgyMA==> .
+
+:3dPrintedPartsotto97head a okh:Part ;
+    rdfs:label "3D Printed Parts/OTTO97_HEAD" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dPrintedPartsotto97head_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dPrintedPartsotto97head_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Printed Parts/OTTO97_HEAD of Wifi 6840917a3e3e6d30adc5bb0f65929c94d5afa59e" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1416/otto97head.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMzgyMg==> .
+
+:3dPrintedPartsotto97leg a okh:Part ;
+    rdfs:label "3D Printed Parts/OTTO97_LEG" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dPrintedPartsotto97leg_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dPrintedPartsotto97leg_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Printed Parts/OTTO97_LEG of Wifi 6840917a3e3e6d30adc5bb0f65929c94d5afa59e" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1416/otto97leg.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMzgyMw==> .
 
 :Image a okh:Image ;
     rdfs:label "Image of Wifi 6840917a3e3e6d30adc5bb0f65929c94d5afa59e" ;
     okh:fileFormat "JPG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1416/image2017-10-39_56_19.jpg> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTozMTc5MzM=> .
-
-:Iotto20171201 a okh:Part ;
-    rdfs:label "IoTTo20171201" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Iotto20171201_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Iotto20171201_source a okh:SourceFile ;
-    rdfs:label "Source File of IoTTo20171201 of Wifi 6840917a3e3e6d30adc5bb0f65929c94d5afa59e" ;
-    okh:fileFormat "PDF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1416/iotto20171201.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxNDMxMA==> .
 
 :Linkit7697introductionpublic170918013119 a okh:Part ;
     rdfs:label "linkit7697introductionpublic-170918013119" ;
@@ -56,71 +110,6 @@
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1416/linkit7697introductionpublic-170918013119-0.pdf> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToxMzgyOA==> .
-
-:Otto97body a okh:Part ;
-    rdfs:label "OTTO97_BODY" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Otto97body_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Otto97body_source a okh:SourceFile ;
-    rdfs:label "Source File of OTTO97_BODY of Wifi 6840917a3e3e6d30adc5bb0f65929c94d5afa59e" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1416/otto97body.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMzgyMQ==> .
-
-:Otto97footl a okh:Part ;
-    rdfs:label "OTTO97_FOOTL" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Otto97footl_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Otto97footl_source a okh:SourceFile ;
-    rdfs:label "Source File of OTTO97_FOOTL of Wifi 6840917a3e3e6d30adc5bb0f65929c94d5afa59e" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1416/otto97footl.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMzgxOQ==> .
-
-:Otto97footr a okh:Part ;
-    rdfs:label "OTTO97_FOOTR" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Otto97footr_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Otto97footr_source a okh:SourceFile ;
-    rdfs:label "Source File of OTTO97_FOOTR of Wifi 6840917a3e3e6d30adc5bb0f65929c94d5afa59e" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1416/otto97footr.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMzgyMA==> .
-
-:Otto97head a okh:Part ;
-    rdfs:label "OTTO97_HEAD" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Otto97head_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Otto97head_source a okh:SourceFile ;
-    rdfs:label "Source File of OTTO97_HEAD of Wifi 6840917a3e3e6d30adc5bb0f65929c94d5afa59e" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1416/otto97head.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMzgyMg==> .
-
-:Otto97leg a okh:Part ;
-    rdfs:label "OTTO97_LEG" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Otto97leg_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Otto97leg_source a okh:SourceFile ;
-    rdfs:label "Source File of OTTO97_LEG of Wifi 6840917a3e3e6d30adc5bb0f65929c94d5afa59e" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1416/otto97leg.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMzgyMw==> .
 
 :Otto97v0171003082320 a okh:Part ;
     rdfs:label "otto97v0-171003082320" ;
@@ -140,4 +129,17 @@
     okh:fileFormat "MD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1416/readme-0.md> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToxMzgwOA==> .
+
+:Softwareiotto20171201 a okh:Part ;
+    rdfs:label "Software/IoTTo20171201" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :Softwareiotto20171201_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Softwareiotto20171201_source a okh:SourceFile ;
+    rdfs:label "Source File of Software/IoTTo20171201 of Wifi 6840917a3e3e6d30adc5bb0f65929c94d5afa59e" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1416/iotto20171201.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxNDMxMA==> .
 

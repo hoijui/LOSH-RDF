@@ -1,0 +1,53 @@
+@prefix : <https://www.thingiverse.com/thing%3A30088/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:AtasQuadrupedorHexapodRobot a okh:Module ;
+    rdfs:label "AT-AS quadruped (or hexapod) robot" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """The "AT-AS" (All Terrain - Anita Scout) is a printable quadruped robot. \r
+\r
+The AT-AS is a project of an efficient robot, as it has achieved a useful and complete walking robot base using few technical and economic resources. In addition, it is a flexible robot project since its design is open to many development possibilities in future works such as the transformation of the quadruped model to a hexapod model, easy modification of leg and modular structure design, the possibility of adding sensors to improve control or communication with other robots using wireless networks via Xbee modules. \r
+\r
+\r
+I used two parts of the "Versatile Servo Bracket System" created by bryanandaimee: \r
+http://www.thingiverse.com/thing:5784\r
+But the rest of parts has been designed by my own, using OpenSCAD and C++ OOML (Oriented-Object Mechanical Library): http://iearobotics.com/oomlwiki/doku.php?id=start\r
+\r
+\r
+For the AT-AS implementation, I used:\r
+\r
+- 1x Arduino Mega 2560.\r
+- 8x Servo Futaba S3003.\r
+- 1x Lipo Battery (2S, 7,4V).\r
+- 1x UBEC (5V).\r
+- Remote control through a Gamepad connected to a PC. \r
+- Wireless communication through Bluetooth or XBee modules.\r
+\r
+But this robot accepts others microcontrollers, servos (with similar dimensions) and others components for its control. Use the one you prefer!\r
+\r
+\r
+See a video of AT-AS quadruped in action:\r
+http://www.youtube.com/watch?v=ae2UiOCUZeY&feature=g-upl\r
+\r
+\r
+EVOLUTION: \r
+Quadruped Robot --> Hexapod Robot\r
+----------------------------------\r
+The part called: "hip_evolution_hexapod" is only for the transformation of the quadruped model to a hexapod model. Using this part, just need to print another two legs! :)""" ;
+    okh:hasImage :Image ;
+    okh:licensor "Anandromeda" ;
+    okh:repo <https://www.thingiverse.com/thing:30088> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:30088> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of AT-AS quadruped (or hexapod) robot 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/8b/c2/f4/18/13/DSCF1805_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/8b/c2/f4/18/13/DSCF1805_display_large.jpg> .
+

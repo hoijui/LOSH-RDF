@@ -1,0 +1,43 @@
+@prefix : <https://www.thingiverse.com/thing%3A18468/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:AutoLevelingPlatform a okh:Module ;
+    rdfs:label "Auto Leveling Platform" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Ok so updates, first i have first pcb tests working ! using this method.\r
+\r
+i opened a github project for this here https://github.com/Atntias/probz/commits/master\r
+\r
+i wrote the code as a part of printrun. the code is very messy but its starting to work :).\r
+\r
+im using a dilling head based on the mantis i designed to fit the prusa X carrige, wich i will shortly upload to a thing too.\r
+\r
+This is based on few ideas i saw online to use and automated process in order to measure distances from head to bed on all the working area. \r
+then you can take that data and use it to offset gcode accordingly. \r
+ \r
+this is critical for pcb milling, and nice to have in 3D printing, as the whole leveling process becomes not critical as it is. \r
+ \r
+gcode offset calculation differs from CMC milling to 3D printing, but im planing on developing both. \r
+ \r
+i can probe the surface by replacing the z end stop with 2 wires 1 goes to the aluminum bed and the other to the extruder nozzle/drilling head.\r
+  \r
+video of the probing in action http://youtu.be/tKFhiu2a64I \r
+\r
+the pcb holder you see in the video is another thing il make soon.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "atntias" ;
+    okh:repo <https://www.thingiverse.com/thing:18468> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:18468> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Auto Leveling Platform 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/ac/3b/ac/93/7d/3_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/ac/3b/ac/93/7d/3_display_large_display_large.jpg> .
+

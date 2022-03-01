@@ -1,0 +1,84 @@
+@prefix : <https://www.thingiverse.com/thing%3A10831/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:AlexsWimuHolder a okh:Module ;
+    rdfs:label "Alex's WIMU holder" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This OpenSCAD script prints a WIMU holder for the WIMU defined in 2011-08-16_Alex_WIMUv3_tyndall_generic_device_packaging_v1.3.scad\r
+The file is parametric and allows you to choose all relevant variables:\r
+Length, breadth, corner radius and fit tolerance of device to be held.\r
+Width, thickness and tolerance or belt/strap used. Holder height, thickness, separation between locations & desired loop hole axis/axes.\r
+\r
+Several .stl versions are given below with loops on the short, long and both axes\r
+\r
+Version:\r
+0.8.4\r
+\r
+Date:\r
+2012-02-23\r
+\r
+Note:\r
+you will need the mouse_ears_test.scad file in the same folder for the mouse ears to compile with the version 0.4 and above .scad file properly\r
+You will need "WIMUv3_v1.5_2011-11-28_tyndall_generic_device_packaging_v1.4stacked.st" in the same folder for the ghost of the held WIMU package to appear correctly\r
+Dimensions beyond version 0.4 file have been changed to match the most recent version of the packaging found here http://www.thingiverse.com/thing:14298 i.e. 30.6x32.5x38.5mm\r
+Changes from previous versions:\r
+\r
+v0.8.4\r
+ - 	added locating arms to help attach top and bottom halves\r
+ - 	fixed position of base of cap to allow it to be printed\r
+ - 	left covers over cutouts to help with printability\r
+ - 	reduced print volume of cap using 3d cross shaped difference\r
+ - 	fixed tiny elevation error for cap\r
+v0.8.3\r
+ - 	added cap\r
+v0.8.2\r
+ - 	adjusted tolerances to get better fit\r
+ - 	internal cutout size now correctly defined using twice the tolerance value\r
+v0.8.1\r
+ - 	fixed code so that north and south cutout locations were swapped to make sense\r
+ - 	resized east hole to fit switch and moved south\r
+ - 	variant for Kieran with strap holes on both axes, 28*3mm, holes for USB and switch, total height 16mm\r
+ - 	added WIMU packaging ghost via .stl import to check location of cutouts\r
+v0.8\r
+ - 	added ability to make cutouts in walls around held objects\r
+ - 	Added cutout for access to uUSB port on Tyndall WIMUv3 device\r
+ - 	Cleaned up code a bit\r
+v0.7.1\r
+ - 	Variant made for Damien with loops on both Axes and low profile\r
+v0.7\r
+ - 	reduced tolerance on corners from 0.45-0.1\r
+v0.6\r
+ - 	increased tolerance from 0.3-0.45\r
+v0.5\r
+ - 	changed held item dimensions to take account of manufacturing and assembly tolerance i.e. 31.04 32.7 38.66\r
+ - 	increased tolerance from 0.2 - 0.3\r
+v0.4\r
+ - 	added mouse ears\r
+ - 	changed held item dimensions to those of mass produced SLA clear resin WIMUv3 Packaging i.e. 30.6 32.5 38.5\r
+ - 	Began process of fixing up/replaceing old rounded cuboid method\r
+v0.3\r
+ - 	added ability to turn on or off loops on long or short axis and automatically adjust ext_l_holder & ext_b_holder in response\r
+ - 	removed the long axis loop holes\r
+ - 	decreased loop holes size from 30mm->1" wide belt\r
+v0.2\r
+ - 	changed belt thickness 2->3\r
+ - 	added loop holes on short axis\r
+v 0.1\r
+ - 	First attempt""" ;
+    okh:hasImage :Image ;
+    okh:licensor "M_G" ;
+    okh:repo <https://www.thingiverse.com/thing:10831> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:10831> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Alex's WIMU holder 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/cd/b8/c3/8e/52/2012-02-14_Alex_WIMUv3_belt_loop_v0.8.1-Kieranjpg_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/cd/b8/c3/8e/52/2012-02-14_Alex_WIMUv3_belt_loop_v0.8.1-Kieranjpg_display_large_display_large.jpg> .
+

@@ -1,0 +1,40 @@
+@prefix : <https://www.thingiverse.com/thing%3A8262/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:OsxKinectApplication a okh:Module ;
+    rdfs:label "OSX Kinect Application" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Requires Mac OS 10.6\r
+Will not work in 10.7\r
+This is a Cocoa Kinect application for Mac OSX.  The application does not require any additional files or installation.  Simply plug in a Kinect Sensor into your Mac and run this application.  Once loaded the window will display a Mesh of the data being seen by the Kinect. \r
+\r
+This application was created by fernLightning:\r
+http://fernlightning.com/doku.php?id=randd:kinect\r
+\r
+I've modified their application to add the ability to export the Depth data to a PLY point cloud file.  Enjoy!\r
+\r
+NOTE:  The Source Code is posted!  :)\r
+\r
+The Save STLB button creates the best mesh for printing.  STLB stands for STL Binary.  Make sure you open the mesh in MeshLab and then resave it.  This cleans the file and makes it readable by Skeinforge. \r
+\r
+ UPDATE 5-7-2011:  I've added the ability to export both ASCII STL and Binary STL files with a complete mesh. It turned out to be simpler than i thought.  Also there are sliders to limit the depth values.  You can set minimum and maximum depth values.  The detail can also be limited.  '0' detail is maximum, while '10' will result is a very low resolution mesh.  The best way to figure out the effects is to try it out.  Please post comments about other improvement requests. :)  BUG: The Binary STL export works, but for some reason will crash some applications.  To fix this load into MeshLab, unify duplicate vertices and then resave the STL.\r
+ UPDATE 5-8-2011:  Ive addressed some bugs and improved the Binary STL export.  Should export a much cleaner mesh.  \r
+ UPDATE 5-15-2011:  Fixed export feature some more, and cleaned up the code.\r
+ UPDATE 6-14-2011:  Uploaded Source Code.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "CidVilas" ;
+    okh:repo <https://www.thingiverse.com/thing:8262> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:8262> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of OSX Kinect Application 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/19/a9/b4/e9/62/cocoaKinectSnap_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/19/a9/b4/e9/62/cocoaKinectSnap_display_large_display_large.jpg> .
+

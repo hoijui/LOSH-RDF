@@ -1,0 +1,30 @@
+@prefix : <https://www.thingiverse.com/thing%3A4692/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:OozebaneCalibration a okh:Module ;
+    rdfs:label "Oozebane calibration" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is my first attempt at making a file that will aid in oozebane calibration.\r
+\r
+The goal is to have it print the outline of the object first, and then have it print the connecting lines, one at a time, so that we could measure what the necessary early startup and shutdown distances will be.\r
+\r
+I have yet to achieve this goal, and am asking the thingiverse community for help.\r
+\r
+Included are the original Solid Works file and an stl file.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "fgvalle" ;
+    okh:repo <https://www.thingiverse.com/thing:4692> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:4692> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Oozebane calibration 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://thingiverse-rerender-new.s3.amazonaws.com/renders/0d/50/74/8f/c1/oozebane2_display_large.jpg> ;
+    okh:permaURL <https://thingiverse-rerender-new.s3.amazonaws.com/renders/0d/50/74/8f/c1/oozebane2_display_large.jpg> .
+

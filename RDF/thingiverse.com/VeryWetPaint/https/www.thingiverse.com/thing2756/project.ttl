@@ -1,0 +1,32 @@
+@prefix : <https://www.thingiverse.com/thing%3A2756/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Hemidemisphere a okh:Module ;
+    rdfs:label "Hemi-demi-sphere" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """A quadrisection of a sphere into four identical parts with some novel attributes:\r
+\r
+1. The parts have no overhangs.\r
+2. The flat \\'bottom\\' is completely concealed after assembly; there are no flat spots on the exterior of the sphere.\r
+3. Exterior is made entirely of \\'sidewalls\\' where the resolution of FDM really shines.\r
+\r
+My test samples were built in transparent PVC on a Solido SD300 Pro, but my goal was to design a Makerbot-friendly shape.  Based on feedback from friends, I\\'ve adjusted the contours so the pieces \\'grab\\' onto each other after assembly.\r
+\r
+More pictures and discussion at my SD300 blog entry at http://mysd300.blogspot.com/2010/05/novel-decompositions-of-sphere.html""" ;
+    okh:hasImage :Image ;
+    okh:licensor "VeryWetPaint" ;
+    okh:repo <https://www.thingiverse.com/thing:2756> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:2756> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Hemi-demi-sphere 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/ab/b5/e1/e4/d2/IMG_2660_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/ab/b5/e1/e4/d2/IMG_2660_display_large_display_large.jpg> .
+

@@ -1,0 +1,48 @@
+__meta:
+  branch: null
+  created-at: '2010-03-24T00:18:48+00:00'
+  history: null
+  last-changed: null
+  last-visited: '2022-02-25T11:00:02.616920+00:00'
+  owner: tbuser
+  path: null
+  repo: https://www.thingiverse.com/thing:2054
+  score: null
+  source: thingiverse.com
+attestation: null
+bom: null
+contribution-guide: null
+cpc-patent-class: null
+documentation-language: en
+documentation-readiness-level: odrl3
+function: "Update: Added height map support\r\n\r\nThis is an OpenSCAD module that let's you easily (well kinda) create 3D text.  I've emulated the Atari 8-Bit fonts A-Z, a-z, 0-9, and most punctuation.  You can create them a letter at a time or pass an array of characters. (OpenSCAD doesn't have any real string manipulation)\r\n\r\nIt also has a bitmap module that you can use to define your own fonts.  It's pretty simple, you pass it an array of numbers (the number defines the height modifier, so a height of 5 and a value in array of 2 would make that pixel 10mm high), then tell it how many bits per row and it creates cubes (of configurable width and height) in a grid and combines them into a single shape.\r\n\r\nBe careful when defining your own bitmaps in that you can't have two bits only connected diagonally.  Otherwise OpenSCAD will say it's not manifold.  For instance you can't have:\r\n\r\n\r\n0 0 0\r\n0 1 0\r\n0 0 1\r\n\r\n\r\nBut you can have:\r\n\r\n\r\n0 0 0\r\n0 1 1\r\n0 0 1\r\n\r\n\r\nI'll try to keep this up to date, but you can always find the latest version on github at http://github.com/tbuser/openscad-bitmap"
+image:
+  created-at: '2010-03-24T00:18:48+00:00'
+  last-changed: '2010-03-24T00:18:48+00:00'
+  last-visited: '2022-02-25T12:16:13.490150+00:00'
+  license: CC-BY-SA-4.0
+  licensor: tbuser
+  mime-type: null
+  name: 4455962075_352a547861_o_display_large_display_large
+  path: https:/cdn.thingiverse.com/renders/2c/ea/83/3d/3b/4455962075_352a547861_o_display_large_display_large.jpg
+  perma-url: https://cdn.thingiverse.com/renders/2c/ea/83/3d/3b/4455962075_352a547861_o_display_large_display_large.jpg
+  url: https://cdn.thingiverse.com/renders/2c/ea/83/3d/3b/4455962075_352a547861_o_display_large_display_large.jpg
+license: CC-BY-SA-4.0
+licensor: tbuser
+manufacturing-instructions: null
+name: OpenSCAD Bitmap Fonts Module
+okhv: OKH-LOSHv1.0
+organization: null
+part: []
+publication: null
+readme: null
+release: null
+repo: https://www.thingiverse.com/thing:2054
+software: []
+specific-api-data: {}
+standard-compliance: null
+technology-readiness-level: ortl4
+tsdc: null
+upload-method: auto
+user-manual: null
+version: 1.0.0

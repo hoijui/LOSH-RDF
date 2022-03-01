@@ -1,0 +1,84 @@
+@prefix : <https://www.thingiverse.com/thing%3A8590/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:CalibrationPlate a okh:Module ;
+    rdfs:label "Calibration Plate" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This a a plate that I made up real quick because I was sick of 20mm boxes. 20mm boxes were just too small and cause sagging and all kinds of craziness. This also makes it easier to check if your Makerbot is printing the exact size it should be.\r
+\r
+Also useful for checking if your print bed is level. (I recommend using pencil springs to level it. http://www.thingiverse.com/thing:6558 details this)\r
+\r
+Also useful to see if your belts are properly tightened. It the circles donâ€™t come out as perfect circles, you likely need to tighten your belts. I know I did.\r
+\r
+Also useful to see if youâ€™ve got your w/t, flow rate, feed speed, and layer height are set up right. \r
+MK5 skeinforge instructions:\r
+If itâ€™s printing way blobby, try lowering w/t (in all places in skeinforge - carve and fill I think). Or increasing feed speed. \r
+If itâ€™s printing with gaps in-between lines increase w/t or decrease feed speed.\r
+\r
+\r
+There are some key skeinforge values that I think are very important with a cupcake MK5. Hereâ€™s some of the key values that I use. (Iâ€™ve also included my skeinforge profile)\r
+Carve:\r
+- Layer height .38\r
+- Perimeter w/t 1.6\r
+\r
+Fill:\r
+- w/t 1.7\r
+- Thread sequence - perimeter, loops, infill\r
+Jitter: (activate it!)\r
+- j/w 100\r
+\r
+Preface:\r
+- Edit your start.gcode to look like this *(skip down until you see this line)\r
+                                                                        M6 T0 (Wait for tool to heat up)\r
+                                                                        ;G04 P5000 (Wait 5 seconds)\r
+                                                                        ;M101 (Extruder on, forward)\r
+                                                                        ;G04 P5000 (Wait 5 seconds)\r
+                                                                        ;M103 (Extruder off)\r
+                                                                        G1 X-40.0 Y-40.0 Z0.38 F900.0\r
+                                                                        M101 (Extruder on, forward)\r
+                                                                        G1 X-40.0 Y0.0 Z0.38 F900.0\r
+\r
+Raft:\r
+- I use a heated print bed so I donâ€™t usually mess with this at all\r
+\r
+Speed:\r
+- Feed rate: 32.0\r
+- Flow rate: 255.0\r
+- Travel feed rate: 32.0\r
+\r
+Stretch: (activate it! pretty machine dependent I think but I changed the following. The documentation says that the perimeter inside stretch over perimeter width is the most important value and that a bigger value = bigger holes. It also says that perimeter outside stretch over perimeter width should be â…“ PIS/w)\r
+- PIS/w .42\r
+- POS/w .14\r
+\r
+Temperature:\r
+- 225 across the board\r
+\r
+\r
+Plate dimensions:\r
+3 in x 3 in\r
+\r
+Hole sizes:\r
+25mm\r
+20mm\r
+15mm\r
+10mm\r
+5mm\r
+3mm\r
+1mm""" ;
+    okh:hasImage :Image ;
+    okh:licensor "Mrrocketman" ;
+    okh:repo <https://www.thingiverse.com/thing:8590> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:8590> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Calibration Plate 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/51/43/e0/32/1b/Calibration_Plate_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/51/43/e0/32/1b/Calibration_Plate_display_large_display_large.jpg> .
+

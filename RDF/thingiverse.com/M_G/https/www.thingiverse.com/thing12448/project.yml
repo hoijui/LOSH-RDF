@@ -1,0 +1,48 @@
+__meta:
+  branch: null
+  created-at: '2011-10-12T07:31:18+00:00'
+  history: null
+  last-changed: null
+  last-visited: '2022-02-25T11:00:02.616920+00:00'
+  owner: M_G
+  path: null
+  repo: https://www.thingiverse.com/thing:12448
+  score: null
+  source: thingiverse.com
+attestation: null
+bom: null
+contribution-guide: null
+cpc-patent-class: null
+documentation-language: en
+documentation-readiness-level: odrl3
+function: "This OpenSCAD script will generate a Tiffany Etoile style ring with a tension/Bezel/Partial-Bezel set jewel mount for a brilliant (round) cut diamond or similar shiny thing.\r\nMost parameters are user selectable as are the ring profile shapes.\r\n\r\nPotentially very useful when combined with the following:\r\nRing metal cost calculator http://www.thingiverse.com/thing:12589\r\nDiamond size shape weight conversion Spreadsheet http://www.thingiverse.com/thing:12586\r\nRing Size System Coversion http://www.thingiverse.com/thing:12689\r\nfor creating and costing a custom engagement ring or other such tomfoolery.\r\n\r\nTodo:\r\nadd option to round edges on crown\r\nmake gap between 2 sides of crown slightly smaller than required to exert pressure on sides of jewel to hold it in place for proper tension set performance \r\nadd complete roman font polygons for engraving\r\nimplement hidden compartment\r\n\r\nWarning:\r\nLet the right one in\r\n\r\nChanges from previous versions:\r\n0.14\r\n - \tReplaced deprecated import_stl with import\r\n - \tAdded control variable \"generate_jewel\", if 0 import the jewel from \"brilliant1.stl\", else try to generate it on-the-fly (this may cause errors as pointed out by mrchriseyes)\r\n0.13\r\n - \tAdded Simple internal engraving functionality (you will need to create a custom polygonal script though!)\r\n - \tFinally got the person's ACTUAL ring size!6 6- USA\r\n - \tGrooves for diamond were too small Need to scale stone by about 1.07 to acount for diameter loss\r\n0.12\r\n - \tAdded Secondary Crown to make it more similar to Tiffany Etoile Solitaire\r\n - \tUsed Render() and gave option to load the Brilliant cut Diamond shape from external STL file for better previews (the complexity was causing CSG rendering to be disabled)\r\n - \tAdded additional code to ensure the inner surface of the ring is preserved and smooth as crown shapes could poke through, creating sharp edges on inside of ring\r\n - \tFixed colours on certain areas\r\n0.11\r\n - \tFixed issue whereby rounded rectangle shape CS appeared slightly translated in Y direction (taken from Ring_band_creation_script_v1.1.scad)\r\n - \tAdded extra cross sections (cs_half_pill, cs_reverse_hemi_ellipse, cs_reverse_rounded_hemi_ellipse taken from Ring_band_creation_script_v1.1.scad)\r\n0.10\r\n - \tRound edges on cylinder unched through centre of crwon to back of ring\r\n - \tAdd option to have side supports on crown\r\n0.9\r\n - \tAdded user variable to control colour and opacity of jewel and metal material\r\n - \tCan select which type of split you want for the crown (none, rectangular, bowtie, both) by setting with_bowtie_split and with_rectangular_split to 00, 01, 10 or 11 respectively\r\n - \tCan now choose whether crown is splayed out/tapered or not\r\n - \tFinally remembered to difference the brilliant cut gem from the ring to make the groove to hold the brilliant cut round jemstone\r\n - \tAdded ability to specify diamond size in Carats to specify girdle diameter, assuming a round cut close to ideal it should be reasonalby accurate (based on data from http://d.neadiamonds.com/diamond-carat). Relationship appears to be close to power or logarithmic curve\r\n - \tPower Curve size[mm]=6.5065412147(Carat^0.3381325352), confidence value R^2=0.998\r\n - \tLog Curve size[mm]=1.964367652 Ln(Carat) + 6.6289134546\r\n - \tChanged most crown variables so that they are influenced by the size of the stone chosen\r\n - \tDe-deprecated some variables\r\n - \tAdded new cross sectional shape cs_rounded_scallopped_rectangle\r\n0.8\r\n - \tAdded outwards splay/taper to jewel setting based on size of crown face and size of ring\r\n - \tIdentified some redundant variables\r\n - \tAdded additional cross sectional shapes (chamfered rectangle)\r\n - \tFixed some CS that resulted in internal diamteres less than expected (cs_rounded_hemi_ellipse, cs_rounded_rectangle, cs_chamfered_rectangle)\r\n0.7\r\n - \tAdded ring sizes from 4 systems based on linearisation of data found here http://en.wikipedia.org/wiki/Ring_size\r\n - \tAdded acitional cross sectional shapes (rounded rectangle and chamfered rectangle)\r\n0.6\r\n - \tAdded multiple user selectable cross sections (rect, ellipse, D, chamfered, filleted, scallopped)\r\n0.5\r\n - \tAdded ability to make a bowtie shaped cutout through the jewel mount and ring, 'cause it looks cool!\r\n - \tAdded ability to color the ring & crown part of the eh... ring!?\r\n0.4\r\n - \tFixed issue with internal diameter of ring not being that specified by user\r\n - \tAdded ability to control width of rectangular split/cutout on jewel mount\r\n - \tAdded ability to control depth that jewel mount overlaps band of ring\r\n - \tChanged cylindrical cutout in jewel mount to be conical\r\n - \tAdded an actual scalable brilliant cut diamond shape (with ability to give it a \"color\") within the jewel mount(pretty!)\r\n0.3\r\n - \tChanged to pill shaped cross section\r\n - \tAdded rectangular cutout on jewel mount to make split/tension set type fitting, it doesn't line up correctly though :(\r\n - \tAdded commented out/empty calls to functions to enable rest of functionality I desire\r\n0.2\r\n - \tI don't think I ever got around to changing this version, please ignore this :p\r\n0.1\r\n - \tFirst attempt\r\n - \tMakes rectangular cross section ring with hollow cylindrical shaped mount for jewel\r\n - \tAllows user to define feature size"
+image:
+  created-at: '2011-10-12T07:31:18+00:00'
+  last-changed: '2011-10-12T07:31:18+00:00'
+  last-visited: '2022-02-25T20:18:26.964335+00:00'
+  license: CC-BY-SA-4.0
+  licensor: M_G
+  mime-type: null
+  name: Ring_creation_script_v0.6_cs_ellipse_display_large_display_large
+  path: https:/cdn.thingiverse.com/renders/36/32/9d/6d/dc/Ring_creation_script_v0.6_cs_ellipse_display_large_display_large.jpg
+  perma-url: https://cdn.thingiverse.com/renders/36/32/9d/6d/dc/Ring_creation_script_v0.6_cs_ellipse_display_large_display_large.jpg
+  url: https://cdn.thingiverse.com/renders/36/32/9d/6d/dc/Ring_creation_script_v0.6_cs_ellipse_display_large_display_large.jpg
+license: CC-BY-SA-4.0
+licensor: M_G
+manufacturing-instructions: null
+name: Ring creation script
+okhv: OKH-LOSHv1.0
+organization: null
+part: []
+publication: null
+readme: null
+release: null
+repo: https://www.thingiverse.com/thing:12448
+software: []
+specific-api-data: {}
+standard-compliance: null
+technology-readiness-level: ortl4
+tsdc: null
+upload-method: auto
+user-manual: null
+version: 1.0.0

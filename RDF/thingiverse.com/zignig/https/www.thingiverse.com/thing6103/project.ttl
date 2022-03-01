@@ -1,0 +1,30 @@
+@prefix : <https://www.thingiverse.com/thing%3A6103/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Blender25GcodeReader a okh:Module ;
+    rdfs:label "Blender 2.5 gcode reader" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This has been superseded by http://www.thingiverse.com/thing:6236 \r
+\r
+This is a python3 script for blender 2.5 that reads gcode files and creates polylines for tool head moves. It also animates with 1 frame per layer.\r
+\r
+Put the script up on github for development\r
+\r
+https://github.com/zignig/blender-gcode-reader""" ;
+    okh:hasImage :Image ;
+    okh:licensor "zignig" ;
+    okh:repo <https://www.thingiverse.com/thing:6103> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/LGPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:6103> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Blender 2.5 gcode reader 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/9a/e1/de/5c/d4/visualization_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/9a/e1/de/5c/d4/visualization_display_large_display_large.jpg> .
+

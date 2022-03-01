@@ -1,0 +1,36 @@
+@prefix : <https://www.thingiverse.com/thing%3A11637/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:SkeinforgeSupportTest a okh:Module ;
+    rdfs:label "Skeinforge Support Test" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Overhangs can be a big hassle without a printer with a dedicated support material. Skeinforge has a support material option that many people don't use, but it actually works quite well if used correctly. It isn't perfect, but it can make a big difference in some prints.\r
+\r
+At the bottom of the "Raft" tab, there are a few support options.\r
+\r
+"Support Cross Hatch" - If checked prints support layers in an alternating cross-hatch pattern. Leave it unchecked for much easier removal unless it all sags down during the print.\r
+\r
+"Support Flow Rate over Operating Flow Rate" and "Support Gap over Perimeter Extrusion Width" - I left these at the default value of 1 and it worked perfectly for me.\r
+\r
+"Support Material Choice" - For this print you have to leave it on "everywhere" unless your printer does bridges really well. Basically you are choosing if you want no support, support only on the outside, or support throughout the inside as well.\r
+\r
+"Support Minimum Angle" - This doesn't matter for this print, but for others it really will. My printer doesn't go much more than 45 degrees before it severely sags, probably because I'm lazy when calibrating.\r
+\r
+Credits to http://davedurant.wordpress.com/2010/07/31/skeinforge-support-part-1/ for the idea.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "Rocket828" ;
+    okh:repo <https://www.thingiverse.com/thing:11637> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:11637> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Skeinforge Support Test 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/27/92/df/20/93/SAM_0055_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/27/92/df/20/93/SAM_0055_display_large_display_large.jpg> .
+

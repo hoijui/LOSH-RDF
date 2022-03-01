@@ -1,0 +1,50 @@
+@prefix : <https://www.thingiverse.com/thing%3A15611/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:AluReprap a okh:Module ;
+    rdfs:label "Alu reprap" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is partly a derivative of http://www.thingiverse.com/thing:14208 (which is a variant of the printrbot). I recommend the printrbot variant on Thingiverse (the link above), as it's a nice and compact design. The files required from the above design are slightly modified and are provided here http://www.thingiverse.com/thing:15634 (separately due to GPL licensing of the original parts). The x-carriage can be used straight from the original design, but change the rod size to 8mm. \r
+\r
+On this design, the smooth rod has been changed to be on the outside, and the frame uses an aluminium sheet instead of rods. I'm still calling it a reprap, as it relies on lots of printed parts to be operational. \r
+\r
+The z-belt has been replaced by a printed rack, which partly based on http://www.thingiverse.com/thing:11642 and inspired by http://www.thingiverse.com/thing:6011 and http://www.thingiverse.com/thing:14537. The x-axis still uses a belt, and a printed pulley. I doubt the Y-axis rack is better than a belt, but it remains to be seen. The design supports a printrbot-type Y-belt if you want to use that instead. \r
+\r
+I've tried to make this printer really small, and the print area is too small right now to be usable. I either have to mount the extruder 90 degrees to what it is now (might be the simplest), use a bowden extruder, or use an entirely new not yet invented extruder, I'm aiming for a print area of about 120 mm, which should be possible. This is the main thing I have to fix before this printer is good enough. I haven't printed with it yet, but it feels very stable and I think it'll do well. \r
+\r
+The bot is 250 mm wide, but could of course be made wider. The stepper for the x-axis (printrbot-variant design) goes outside 'the box' (alu sheet). I've been toying with the idea of making a different x-axis end which keeps the extruder inside 'the box', for example by turning it 90 degrees and having it upside down like this: http://www.thingiverse.com/image:96329\r
+\r
+The bars are 8mm. I use NEMA17 for the z-axis and NEMA17 for the extruder, and NEMA14 for the X and Y axis. The printrbot variant files can be edited to use NEMA17 all over instead if you wish. If you use his files, you'll need to fix the distance between the smooth and threaded Z rods also. Mine are 27 mm apart, between the centers. \r
+\r
+It uses LM8UU bearings. The base that holds the bearings for the Y-rods is a bit weak around the bearings and needs a redesign. But I lost the source file and haven't had time to fix it yet. Will do if there is demand. \r
+\r
+The rack-gear made using http://www.thingiverse.com/thing:3575. Note that this library is LGPL, but I have taken the liberty of posting the part here. Consider it distributed under LGPL. \r
+\r
+As a coupling for the z-axis I'm using http://www.thingiverse.com/thing:11220 without any changes. I also use it on my prusa, and it works great, reducing z-wobble.  \r
+\r
+One possible improvement to this design is to not print the full height of plastic for the z-height, allowing the x-end to go a bit further down (it's being stopped when the nut-holder hits the coupling). \r
+\r
+I've made various other test designs, including one without the alu sheet that uses plastic instead: http://www.thingiverse.com/image:95169 . I have also made one with two bars on each side of the z-stepper instead of on the outside, but dropped that idea. http://www.thingiverse.com/image:98180 (I don't really need two bars on each end. One should have been enough.)\r
+\r
+I'm looking at it now and think I could add another 2 cm build area (1 cm each side) by doing this. The reason I didn't was I then had to design the top parts myself instead of using the printrbot variant. \r
+\r
+There is a video of it moving at: http://youtu.be/IaLl8jtqlT8\r
+\r
+You can of course use other things than an aluminium sheet. Other metals, but you can probably use a wooden structure also. The printrbot concept seems ok for making a repstrap without many plastic parts, if you don't have a friend who can help you with printing the plastic.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "larsie" ;
+    okh:repo <https://www.thingiverse.com/thing:15611> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:15611> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Alu reprap 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/4e/9b/d7/66/6e/alu-reprap_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/4e/9b/d7/66/6e/alu-reprap_display_large_display_large.jpg> .
+

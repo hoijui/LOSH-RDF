@@ -1,65 +1,67 @@
-@prefix : <https://wikifactory.com/@wikifactory-pro/ftottodiy/cc57ea21c79f9fd40577285cf8fdea52a766a7dc/> .
+@prefix : <https://wikifactory.com/%40wikifactory-pro/ftottodiy/cc57ea21c79f9fd40577285cf8fdea52a766a7dc/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 :Ftottodiy a okh:Module ;
     rdfs:label "ft.OttoDIY" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "Improved version of the simple Otto DIY robot, now with Bluetooth APP control, metal gear servos, touch sensor & sound sensor. Easy to assemble with our builder kit or 3D print then build with our maker kit" ;
-    okh:hasComponent :Ottodiybeard,
-        :Ottodiybodyv01,
-        :Ottodiybodyv02,
-        :Ottodiybodyv03,
-        :Ottodiybodyv05,
-        :Ottodiybodyv06,
-        :Ottodiybodyv08,
-        :Ottodiybodyv09,
-        :Ottodiybodyv10,
-        :Ottodiybodyv11,
-        :Ottodiyeyebrows,
-        :Ottodiyfeetv05,
-        :Ottodiyfootlv01,
-        :Ottodiyfootlv02,
-        :Ottodiyfootlv03,
-        :Ottodiyfootlv04,
-        :Ottodiyfootlv07,
-        :Ottodiyfootlv11,
-        :Ottodiyfootlv12,
-        :Ottodiyfootrv01,
-        :Ottodiyfootrv02,
-        :Ottodiyfootrv03,
-        :Ottodiyfootrv04,
-        :Ottodiyfootrv07,
-        :Ottodiyfootrv11,
-        :Ottodiyfootrv12,
-        :Ottodiyfootv09,
-        :Ottodiyfootv10,
-        :Ottodiyheadv01,
-        :Ottodiyheadv02,
-        :Ottodiyheadv06,
-        :Ottodiyheadv10,
-        :Ottodiyheadv11,
-        :Ottodiyheadv12,
-        :Ottodiyheagv03,
-        :Ottodiylegsv05,
-        :Ottodiylegv01,
-        :Ottodiylegv02,
-        :Ottodiylegv03,
-        :Ottodiylegv04,
-        :Ottodiylegv07,
-        :Ottodiylegv09,
-        :Ottodiylegv10,
-        :Ottodiylegv11,
-        :Ottodiylegv12,
-        :Ottodiymustache,
-        :Ottodiyrobotmanualv12,
-        :Ottodiysunglasses,
-        :Ottoexpandarmgripv12,
-        :Ottoexpandarmshv12,
-        :Ottoexpandarmsv12,
-        :Ottoexpandgripv12,
-        :Ottoexpandmatrixv12,
-        :Ottoexpandoledv12 ;
+    okh:hasComponent :3dprintottodiybeard,
+        :3dprintottodiybodyv11,
+        :3dprintottodiyeyebrows,
+        :3dprintottodiyfootlv12,
+        :3dprintottodiyfootrv12,
+        :3dprintottodiyheadv12,
+        :3dprintottodiylegv12,
+        :3dprintottodiymustache,
+        :3dprintottodiysunglasses,
+        :3dprintottoexpandarmgripv12,
+        :3dprintottoexpandarmshv12,
+        :3dprintottoexpandarmsv12,
+        :3dprintottoexpandgripv12,
+        :3dprintottoexpandmatrixv12,
+        :3dprintottoexpandoledv12,
+        :3dprintpreviousVersionsottodiybodyv01,
+        :3dprintpreviousVersionsottodiybodyv02,
+        :3dprintpreviousVersionsottodiybodyv03,
+        :3dprintpreviousVersionsottodiybodyv05,
+        :3dprintpreviousVersionsottodiybodyv06,
+        :3dprintpreviousVersionsottodiybodyv08,
+        :3dprintpreviousVersionsottodiybodyv09,
+        :3dprintpreviousVersionsottodiybodyv10,
+        :3dprintpreviousVersionsottodiybodyv11,
+        :3dprintpreviousVersionsottodiyfeetv05,
+        :3dprintpreviousVersionsottodiyfootlv01,
+        :3dprintpreviousVersionsottodiyfootlv02,
+        :3dprintpreviousVersionsottodiyfootlv03,
+        :3dprintpreviousVersionsottodiyfootlv04,
+        :3dprintpreviousVersionsottodiyfootlv07,
+        :3dprintpreviousVersionsottodiyfootlv11,
+        :3dprintpreviousVersionsottodiyfootrv01,
+        :3dprintpreviousVersionsottodiyfootrv02,
+        :3dprintpreviousVersionsottodiyfootrv03,
+        :3dprintpreviousVersionsottodiyfootrv04,
+        :3dprintpreviousVersionsottodiyfootrv07,
+        :3dprintpreviousVersionsottodiyfootrv11,
+        :3dprintpreviousVersionsottodiyfootv09,
+        :3dprintpreviousVersionsottodiyfootv10,
+        :3dprintpreviousVersionsottodiyheadv01,
+        :3dprintpreviousVersionsottodiyheadv02,
+        :3dprintpreviousVersionsottodiyheadv06,
+        :3dprintpreviousVersionsottodiyheadv10,
+        :3dprintpreviousVersionsottodiyheadv11,
+        :3dprintpreviousVersionsottodiyheagv03,
+        :3dprintpreviousVersionsottodiylegsv05,
+        :3dprintpreviousVersionsottodiylegv01,
+        :3dprintpreviousVersionsottodiylegv02,
+        :3dprintpreviousVersionsottodiylegv03,
+        :3dprintpreviousVersionsottodiylegv04,
+        :3dprintpreviousVersionsottodiylegv07,
+        :3dprintpreviousVersionsottodiylegv09,
+        :3dprintpreviousVersionsottodiylegv10,
+        :3dprintpreviousVersionsottodiylegv11,
+        :InstructionManualottodiyrobotmanualv12 ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "Wikifactory Pro" ;
@@ -67,8 +69,711 @@
     okh:repo <https://wikifactory.com/@wikifactory-pro/ftottodiy> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
     okh:version "cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
     okh:versionOf <https://wikifactory.com/@wikifactory-pro/ftottodiy> .
+
+:3dprintottodiybeard a okh:Part ;
+    rdfs:label "3Dprint/OttoDIY_beard" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dprintottodiybeard_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dprintottodiybeard_source a okh:SourceFile ;
+    rdfs:label "Source File of 3Dprint/OttoDIY_beard of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_beard.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA3NjU=> .
+
+:3dprintottodiybodyv11 a okh:Part ;
+    rdfs:label "3Dprint/OttoDIY_body_V11" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dprintottodiybodyv11_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dprintottodiybodyv11_source a okh:SourceFile ;
+    rdfs:label "Source File of 3Dprint/OttoDIY_body_V11 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_body_v11-29a79.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA3NDU=> .
+
+:3dprintottodiyeyebrows a okh:Part ;
+    rdfs:label "3Dprint/OttoDIY_Eyebrows" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dprintottodiyeyebrows_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dprintottodiyeyebrows_source a okh:SourceFile ;
+    rdfs:label "Source File of 3Dprint/OttoDIY_Eyebrows of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_eyebrows.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA3NjM=> .
+
+:3dprintottodiyfootlv12 a okh:Part ;
+    rdfs:label "3Dprint/OttoDIY_footL_V12" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dprintottodiyfootlv12_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dprintottodiyfootlv12_source a okh:SourceFile ;
+    rdfs:label "Source File of 3Dprint/OttoDIY_footL_V12 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_footl_v12.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA3NjI=> .
+
+:3dprintottodiyfootrv12 a okh:Part ;
+    rdfs:label "3Dprint/OttoDIY_footR_V12" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dprintottodiyfootrv12_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dprintottodiyfootrv12_source a okh:SourceFile ;
+    rdfs:label "Source File of 3Dprint/OttoDIY_footR_V12 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_footr_v12.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA3NzY=> .
+
+:3dprintottodiyheadv12 a okh:Part ;
+    rdfs:label "3Dprint/OttoDIY_head_V12" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dprintottodiyheadv12_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dprintottodiyheadv12_source a okh:SourceFile ;
+    rdfs:label "Source File of 3Dprint/OttoDIY_head_V12 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_head_v12.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA3NzU=> .
+
+:3dprintottodiylegv12 a okh:Part ;
+    rdfs:label "3Dprint/OttoDIY_leg_V12" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dprintottodiylegv12_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dprintottodiylegv12_source a okh:SourceFile ;
+    rdfs:label "Source File of 3Dprint/OttoDIY_leg_V12 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_leg_v12.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA3NzQ=> .
+
+:3dprintottodiymustache a okh:Part ;
+    rdfs:label "3Dprint/OttoDIY_mustache" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dprintottodiymustache_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dprintottodiymustache_source a okh:SourceFile ;
+    rdfs:label "Source File of 3Dprint/OttoDIY_mustache of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_mustache.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA3NzM=> .
+
+:3dprintottodiysunglasses a okh:Part ;
+    rdfs:label "3Dprint/OttoDIY_Sunglasses" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dprintottodiysunglasses_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dprintottodiysunglasses_source a okh:SourceFile ;
+    rdfs:label "Source File of 3Dprint/OttoDIY_Sunglasses of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_sunglasses.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA3NzI=> .
+
+:3dprintottoexpandarmgripv12 a okh:Part ;
+    rdfs:label "3Dprint/Ottoexpand_armgrip_V12" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dprintottoexpandarmgripv12_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dprintottoexpandarmgripv12_source a okh:SourceFile ;
+    rdfs:label "Source File of 3Dprint/Ottoexpand_armgrip_V12 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottoexpand_armgrip_v12.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA3NzE=> .
+
+:3dprintottoexpandarmshv12 a okh:Part ;
+    rdfs:label "3Dprint/Ottoexpand_armsH_V12" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dprintottoexpandarmshv12_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dprintottoexpandarmshv12_source a okh:SourceFile ;
+    rdfs:label "Source File of 3Dprint/Ottoexpand_armsH_V12 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottoexpand_armsh_v12.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA3Njk=> .
+
+:3dprintottoexpandarmsv12 a okh:Part ;
+    rdfs:label "3Dprint/Ottoexpand_arms_V12" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dprintottoexpandarmsv12_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dprintottoexpandarmsv12_source a okh:SourceFile ;
+    rdfs:label "Source File of 3Dprint/Ottoexpand_arms_V12 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottoexpand_arms_v12.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA3NzA=> .
+
+:3dprintottoexpandgripv12 a okh:Part ;
+    rdfs:label "3Dprint/Ottoexpand_grip_V12" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dprintottoexpandgripv12_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dprintottoexpandgripv12_source a okh:SourceFile ;
+    rdfs:label "Source File of 3Dprint/Ottoexpand_grip_V12 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottoexpand_grip_v12.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA3Njg=> .
+
+:3dprintottoexpandmatrixv12 a okh:Part ;
+    rdfs:label "3Dprint/Ottoexpand_matrix_V12" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dprintottoexpandmatrixv12_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dprintottoexpandmatrixv12_source a okh:SourceFile ;
+    rdfs:label "Source File of 3Dprint/Ottoexpand_matrix_V12 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottoexpand_matrix_v12.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA3Njc=> .
+
+:3dprintottoexpandoledv12 a okh:Part ;
+    rdfs:label "3Dprint/Ottoexpand_OLED_V12" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dprintottoexpandoledv12_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dprintottoexpandoledv12_source a okh:SourceFile ;
+    rdfs:label "Source File of 3Dprint/Ottoexpand_OLED_V12 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottoexpand_oled_v12.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA3NjY=> .
+
+:3dprintpreviousVersionsottodiybodyv01 a okh:Part ;
+    rdfs:label "3Dprint/previous versions/OttoDIY_body_V01" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dprintpreviousVersionsottodiybodyv01_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dprintpreviousVersionsottodiybodyv01_source a okh:SourceFile ;
+    rdfs:label "Source File of 3Dprint/previous versions/OttoDIY_body_V01 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_body_v01.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA4NjA=> .
+
+:3dprintpreviousVersionsottodiybodyv02 a okh:Part ;
+    rdfs:label "3Dprint/previous versions/OttoDIY_body_V02" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dprintpreviousVersionsottodiybodyv02_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dprintpreviousVersionsottodiybodyv02_source a okh:SourceFile ;
+    rdfs:label "Source File of 3Dprint/previous versions/OttoDIY_body_V02 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_body_v02.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA4NTQ=> .
+
+:3dprintpreviousVersionsottodiybodyv03 a okh:Part ;
+    rdfs:label "3Dprint/previous versions/OttoDIY_body_V03" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dprintpreviousVersionsottodiybodyv03_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dprintpreviousVersionsottodiybodyv03_source a okh:SourceFile ;
+    rdfs:label "Source File of 3Dprint/previous versions/OttoDIY_body_V03 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_body_v03.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA4NDg=> .
+
+:3dprintpreviousVersionsottodiybodyv05 a okh:Part ;
+    rdfs:label "3Dprint/previous versions/OttoDIY_body_V05" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dprintpreviousVersionsottodiybodyv05_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dprintpreviousVersionsottodiybodyv05_source a okh:SourceFile ;
+    rdfs:label "Source File of 3Dprint/previous versions/OttoDIY_body_V05 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_body_v05.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA4NDM=> .
+
+:3dprintpreviousVersionsottodiybodyv06 a okh:Part ;
+    rdfs:label "3Dprint/previous versions/OttoDIY_body_V06" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dprintpreviousVersionsottodiybodyv06_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dprintpreviousVersionsottodiybodyv06_source a okh:SourceFile ;
+    rdfs:label "Source File of 3Dprint/previous versions/OttoDIY_body_V06 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_body_v06.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA4Mzk=> .
+
+:3dprintpreviousVersionsottodiybodyv08 a okh:Part ;
+    rdfs:label "3Dprint/previous versions/OttoDIY_body_V08" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dprintpreviousVersionsottodiybodyv08_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dprintpreviousVersionsottodiybodyv08_source a okh:SourceFile ;
+    rdfs:label "Source File of 3Dprint/previous versions/OttoDIY_body_V08 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_body_v08.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA4MzQ=> .
+
+:3dprintpreviousVersionsottodiybodyv09 a okh:Part ;
+    rdfs:label "3Dprint/previous versions/OttoDIY_body_V09" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dprintpreviousVersionsottodiybodyv09_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dprintpreviousVersionsottodiybodyv09_source a okh:SourceFile ;
+    rdfs:label "Source File of 3Dprint/previous versions/OttoDIY_body_V09 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_body_v9.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA4MzU=> .
+
+:3dprintpreviousVersionsottodiybodyv10 a okh:Part ;
+    rdfs:label "3Dprint/previous versions/OttoDIY_body_V10" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dprintpreviousVersionsottodiybodyv10_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dprintpreviousVersionsottodiybodyv10_source a okh:SourceFile ;
+    rdfs:label "Source File of 3Dprint/previous versions/OttoDIY_body_V10 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_body_v10.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA3MzU=> .
+
+:3dprintpreviousVersionsottodiybodyv11 a okh:Part ;
+    rdfs:label "3Dprint/previous versions/OttoDIY_body_V11" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dprintpreviousVersionsottodiybodyv11_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dprintpreviousVersionsottodiybodyv11_source a okh:SourceFile ;
+    rdfs:label "Source File of 3Dprint/previous versions/OttoDIY_body_V11 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_body_v11-29a79.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDEwMzc=> .
+
+:3dprintpreviousVersionsottodiyfeetv05 a okh:Part ;
+    rdfs:label "3Dprint/previous versions/OttoDIY_feet_V05" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dprintpreviousVersionsottodiyfeetv05_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dprintpreviousVersionsottodiyfeetv05_source a okh:SourceFile ;
+    rdfs:label "Source File of 3Dprint/previous versions/OttoDIY_feet_V05 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_feet_v05.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA4NDE=> .
+
+:3dprintpreviousVersionsottodiyfootlv01 a okh:Part ;
+    rdfs:label "3Dprint/previous versions/OttoDIY_footL_V01" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dprintpreviousVersionsottodiyfootlv01_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dprintpreviousVersionsottodiyfootlv01_source a okh:SourceFile ;
+    rdfs:label "Source File of 3Dprint/previous versions/OttoDIY_footL_V01 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_footl_v01.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA4NjY=> .
+
+:3dprintpreviousVersionsottodiyfootlv02 a okh:Part ;
+    rdfs:label "3Dprint/previous versions/OttoDIY_footL_V02" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dprintpreviousVersionsottodiyfootlv02_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dprintpreviousVersionsottodiyfootlv02_source a okh:SourceFile ;
+    rdfs:label "Source File of 3Dprint/previous versions/OttoDIY_footL_V02 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_footl_v02.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA4NTU=> .
+
+:3dprintpreviousVersionsottodiyfootlv03 a okh:Part ;
+    rdfs:label "3Dprint/previous versions/OttoDIY_footL_V03" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dprintpreviousVersionsottodiyfootlv03_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dprintpreviousVersionsottodiyfootlv03_source a okh:SourceFile ;
+    rdfs:label "Source File of 3Dprint/previous versions/OttoDIY_footL_V03 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_footl_v03.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA4NTI=> .
+
+:3dprintpreviousVersionsottodiyfootlv04 a okh:Part ;
+    rdfs:label "3Dprint/previous versions/OttoDIY_footL_V04" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dprintpreviousVersionsottodiyfootlv04_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dprintpreviousVersionsottodiyfootlv04_source a okh:SourceFile ;
+    rdfs:label "Source File of 3Dprint/previous versions/OttoDIY_footL_V04 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_footl_v04.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA4NDc=> .
+
+:3dprintpreviousVersionsottodiyfootlv07 a okh:Part ;
+    rdfs:label "3Dprint/previous versions/OttoDIY_footL_V07" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dprintpreviousVersionsottodiyfootlv07_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dprintpreviousVersionsottodiyfootlv07_source a okh:SourceFile ;
+    rdfs:label "Source File of 3Dprint/previous versions/OttoDIY_footL_V07 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_footl_v07.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA4Mzg=> .
+
+:3dprintpreviousVersionsottodiyfootlv11 a okh:Part ;
+    rdfs:label "3Dprint/previous versions/OttoDIY_footL_V11" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dprintpreviousVersionsottodiyfootlv11_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dprintpreviousVersionsottodiyfootlv11_source a okh:SourceFile ;
+    rdfs:label "Source File of 3Dprint/previous versions/OttoDIY_footL_V11 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_footl_v11-8fb86.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDEwNDE=> .
+
+:3dprintpreviousVersionsottodiyfootrv01 a okh:Part ;
+    rdfs:label "3Dprint/previous versions/OttoDIY_footR_V01" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dprintpreviousVersionsottodiyfootrv01_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dprintpreviousVersionsottodiyfootrv01_source a okh:SourceFile ;
+    rdfs:label "Source File of 3Dprint/previous versions/OttoDIY_footR_V01 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_footr_v01.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA4Njc=> .
+
+:3dprintpreviousVersionsottodiyfootrv02 a okh:Part ;
+    rdfs:label "3Dprint/previous versions/OttoDIY_footR_V02" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dprintpreviousVersionsottodiyfootrv02_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dprintpreviousVersionsottodiyfootrv02_source a okh:SourceFile ;
+    rdfs:label "Source File of 3Dprint/previous versions/OttoDIY_footR_V02 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_footr_v02.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA4NTY=> .
+
+:3dprintpreviousVersionsottodiyfootrv03 a okh:Part ;
+    rdfs:label "3Dprint/previous versions/OttoDIY_footR_V03" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dprintpreviousVersionsottodiyfootrv03_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dprintpreviousVersionsottodiyfootrv03_source a okh:SourceFile ;
+    rdfs:label "Source File of 3Dprint/previous versions/OttoDIY_footR_V03 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_footr_v03.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA4NTM=> .
+
+:3dprintpreviousVersionsottodiyfootrv04 a okh:Part ;
+    rdfs:label "3Dprint/previous versions/OttoDIY_footR_V04" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dprintpreviousVersionsottodiyfootrv04_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dprintpreviousVersionsottodiyfootrv04_source a okh:SourceFile ;
+    rdfs:label "Source File of 3Dprint/previous versions/OttoDIY_footR_V04 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_footr_v04.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA4NDY=> .
+
+:3dprintpreviousVersionsottodiyfootrv07 a okh:Part ;
+    rdfs:label "3Dprint/previous versions/OttoDIY_footR_V07" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dprintpreviousVersionsottodiyfootrv07_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dprintpreviousVersionsottodiyfootrv07_source a okh:SourceFile ;
+    rdfs:label "Source File of 3Dprint/previous versions/OttoDIY_footR_V07 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_footr_v07.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA4MzY=> .
+
+:3dprintpreviousVersionsottodiyfootrv11 a okh:Part ;
+    rdfs:label "3Dprint/previous versions/OttoDIY_footR_V11" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dprintpreviousVersionsottodiyfootrv11_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dprintpreviousVersionsottodiyfootrv11_source a okh:SourceFile ;
+    rdfs:label "Source File of 3Dprint/previous versions/OttoDIY_footR_V11 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_footr_v11-ca3d5.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDEwNDA=> .
+
+:3dprintpreviousVersionsottodiyfootv09 a okh:Part ;
+    rdfs:label "3Dprint/previous versions/OttoDIY_foot_V09" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dprintpreviousVersionsottodiyfootv09_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dprintpreviousVersionsottodiyfootv09_source a okh:SourceFile ;
+    rdfs:label "Source File of 3Dprint/previous versions/OttoDIY_foot_V09 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_foot_v9.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA4MzI=> .
+
+:3dprintpreviousVersionsottodiyfootv10 a okh:Part ;
+    rdfs:label "3Dprint/previous versions/OttoDIY_foot_V10" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dprintpreviousVersionsottodiyfootv10_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dprintpreviousVersionsottodiyfootv10_source a okh:SourceFile ;
+    rdfs:label "Source File of 3Dprint/previous versions/OttoDIY_foot_V10 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_foot_v10.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA3Mzg=> .
+
+:3dprintpreviousVersionsottodiyheadv01 a okh:Part ;
+    rdfs:label "3Dprint/previous versions/OttoDIY_head_V01" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dprintpreviousVersionsottodiyheadv01_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dprintpreviousVersionsottodiyheadv01_source a okh:SourceFile ;
+    rdfs:label "Source File of 3Dprint/previous versions/OttoDIY_head_V01 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_head_v01.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA4NjU=> .
+
+:3dprintpreviousVersionsottodiyheadv02 a okh:Part ;
+    rdfs:label "3Dprint/previous versions/OttoDIY_head_V02" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dprintpreviousVersionsottodiyheadv02_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dprintpreviousVersionsottodiyheadv02_source a okh:SourceFile ;
+    rdfs:label "Source File of 3Dprint/previous versions/OttoDIY_head_V02 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_head_v02.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA4NTc=> .
+
+:3dprintpreviousVersionsottodiyheadv06 a okh:Part ;
+    rdfs:label "3Dprint/previous versions/OttoDIY_head_V06" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dprintpreviousVersionsottodiyheadv06_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dprintpreviousVersionsottodiyheadv06_source a okh:SourceFile ;
+    rdfs:label "Source File of 3Dprint/previous versions/OttoDIY_head_V06 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_head_v06.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA4NDA=> .
+
+:3dprintpreviousVersionsottodiyheadv10 a okh:Part ;
+    rdfs:label "3Dprint/previous versions/OttoDIY_head_V10" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dprintpreviousVersionsottodiyheadv10_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dprintpreviousVersionsottodiyheadv10_source a okh:SourceFile ;
+    rdfs:label "Source File of 3Dprint/previous versions/OttoDIY_head_V10 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_head_v10-b8ace.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA3Mzc=> .
+
+:3dprintpreviousVersionsottodiyheadv11 a okh:Part ;
+    rdfs:label "3Dprint/previous versions/OttoDIY_head_V11" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dprintpreviousVersionsottodiyheadv11_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dprintpreviousVersionsottodiyheadv11_source a okh:SourceFile ;
+    rdfs:label "Source File of 3Dprint/previous versions/OttoDIY_head_V11 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_head_v11-66bff.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDEwMzk=> .
+
+:3dprintpreviousVersionsottodiyheagv03 a okh:Part ;
+    rdfs:label "3Dprint/previous versions/OttoDIY_heag_V03" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dprintpreviousVersionsottodiyheagv03_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dprintpreviousVersionsottodiyheagv03_source a okh:SourceFile ;
+    rdfs:label "Source File of 3Dprint/previous versions/OttoDIY_heag_V03 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_heag_v03.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA4NDk=> .
+
+:3dprintpreviousVersionsottodiylegsv05 a okh:Part ;
+    rdfs:label "3Dprint/previous versions/OttoDIY_legs_V05" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dprintpreviousVersionsottodiylegsv05_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dprintpreviousVersionsottodiylegsv05_source a okh:SourceFile ;
+    rdfs:label "Source File of 3Dprint/previous versions/OttoDIY_legs_V05 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_legs_v05.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA4NDQ=> .
+
+:3dprintpreviousVersionsottodiylegv01 a okh:Part ;
+    rdfs:label "3Dprint/previous versions/OttoDIY_leg_V01" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dprintpreviousVersionsottodiylegv01_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dprintpreviousVersionsottodiylegv01_source a okh:SourceFile ;
+    rdfs:label "Source File of 3Dprint/previous versions/OttoDIY_leg_V01 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_leg_v01.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA4NTk=> .
+
+:3dprintpreviousVersionsottodiylegv02 a okh:Part ;
+    rdfs:label "3Dprint/previous versions/OttoDIY_leg_V02" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dprintpreviousVersionsottodiylegv02_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dprintpreviousVersionsottodiylegv02_source a okh:SourceFile ;
+    rdfs:label "Source File of 3Dprint/previous versions/OttoDIY_leg_V02 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_leg_v02.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA4NTg=> .
+
+:3dprintpreviousVersionsottodiylegv03 a okh:Part ;
+    rdfs:label "3Dprint/previous versions/OttoDIY_leg_V03" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dprintpreviousVersionsottodiylegv03_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dprintpreviousVersionsottodiylegv03_source a okh:SourceFile ;
+    rdfs:label "Source File of 3Dprint/previous versions/OttoDIY_leg_V03 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_leg_v03.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA4NTA=> .
+
+:3dprintpreviousVersionsottodiylegv04 a okh:Part ;
+    rdfs:label "3Dprint/previous versions/OttoDIY_leg_V04" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dprintpreviousVersionsottodiylegv04_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dprintpreviousVersionsottodiylegv04_source a okh:SourceFile ;
+    rdfs:label "Source File of 3Dprint/previous versions/OttoDIY_leg_V04 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_leg_v04.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA4NDU=> .
+
+:3dprintpreviousVersionsottodiylegv07 a okh:Part ;
+    rdfs:label "3Dprint/previous versions/OttoDIY_leg_V07" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dprintpreviousVersionsottodiylegv07_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dprintpreviousVersionsottodiylegv07_source a okh:SourceFile ;
+    rdfs:label "Source File of 3Dprint/previous versions/OttoDIY_leg_V07 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_leg_v07.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA4Mzc=> .
+
+:3dprintpreviousVersionsottodiylegv09 a okh:Part ;
+    rdfs:label "3Dprint/previous versions/OttoDIY_leg_V09" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dprintpreviousVersionsottodiylegv09_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dprintpreviousVersionsottodiylegv09_source a okh:SourceFile ;
+    rdfs:label "Source File of 3Dprint/previous versions/OttoDIY_leg_V09 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_leg_v9.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA4MzM=> .
+
+:3dprintpreviousVersionsottodiylegv10 a okh:Part ;
+    rdfs:label "3Dprint/previous versions/OttoDIY_leg_V10" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dprintpreviousVersionsottodiylegv10_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dprintpreviousVersionsottodiylegv10_source a okh:SourceFile ;
+    rdfs:label "Source File of 3Dprint/previous versions/OttoDIY_leg_V10 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_leg_v10-ba2a9.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA3MzY=> .
+
+:3dprintpreviousVersionsottodiylegv11 a okh:Part ;
+    rdfs:label "3Dprint/previous versions/OttoDIY_leg_V11" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dprintpreviousVersionsottodiylegv11_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dprintpreviousVersionsottodiylegv11_source a okh:SourceFile ;
+    rdfs:label "Source File of 3Dprint/previous versions/OttoDIY_leg_V11 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_leg_v11-44d48.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDEwMzg=> .
 
 :Image a okh:Image ;
     rdfs:label "Image of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
@@ -76,718 +781,22 @@
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/148865/a07b3568fffe11ebaca80686e2e126f4> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA1NDI=> .
 
-:Ottodiybeard a okh:Part ;
-    rdfs:label "OttoDIY_beard" ;
+:InstructionManualottodiyrobotmanualv12 a okh:Part ;
+    rdfs:label "Instruction Manual/OttoDIYrobotmanualV12" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Ottodiybeard_source ;
+    okh:source :InstructionManualottodiyrobotmanualv12_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Ottodiybeard_source a okh:SourceFile ;
-    rdfs:label "Source File of OttoDIY_beard of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_beard.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA3NjU=> .
-
-:Ottodiybodyv01 a okh:Part ;
-    rdfs:label "OttoDIY_body_V01" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Ottodiybodyv01_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Ottodiybodyv01_source a okh:SourceFile ;
-    rdfs:label "Source File of OttoDIY_body_V01 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_body_v01.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA4NjA=> .
-
-:Ottodiybodyv02 a okh:Part ;
-    rdfs:label "OttoDIY_body_V02" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Ottodiybodyv02_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Ottodiybodyv02_source a okh:SourceFile ;
-    rdfs:label "Source File of OttoDIY_body_V02 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_body_v02.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA4NTQ=> .
-
-:Ottodiybodyv03 a okh:Part ;
-    rdfs:label "OttoDIY_body_V03" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Ottodiybodyv03_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Ottodiybodyv03_source a okh:SourceFile ;
-    rdfs:label "Source File of OttoDIY_body_V03 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_body_v03.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA4NDg=> .
-
-:Ottodiybodyv05 a okh:Part ;
-    rdfs:label "OttoDIY_body_V05" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Ottodiybodyv05_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Ottodiybodyv05_source a okh:SourceFile ;
-    rdfs:label "Source File of OttoDIY_body_V05 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_body_v05.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA4NDM=> .
-
-:Ottodiybodyv06 a okh:Part ;
-    rdfs:label "OttoDIY_body_V06" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Ottodiybodyv06_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Ottodiybodyv06_source a okh:SourceFile ;
-    rdfs:label "Source File of OttoDIY_body_V06 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_body_v06.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA4Mzk=> .
-
-:Ottodiybodyv08 a okh:Part ;
-    rdfs:label "OttoDIY_body_V08" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Ottodiybodyv08_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Ottodiybodyv08_source a okh:SourceFile ;
-    rdfs:label "Source File of OttoDIY_body_V08 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_body_v08.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA4MzQ=> .
-
-:Ottodiybodyv09 a okh:Part ;
-    rdfs:label "OttoDIY_body_V09" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Ottodiybodyv09_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Ottodiybodyv09_source a okh:SourceFile ;
-    rdfs:label "Source File of OttoDIY_body_V09 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_body_v9.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA4MzU=> .
-
-:Ottodiybodyv10 a okh:Part ;
-    rdfs:label "OttoDIY_body_V10" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Ottodiybodyv10_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Ottodiybodyv10_source a okh:SourceFile ;
-    rdfs:label "Source File of OttoDIY_body_V10 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_body_v10.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA3MzU=> .
-
-:Ottodiybodyv11 a okh:Part ;
-    rdfs:label "OttoDIY_body_V11" ;
-    okh:documentationLanguage "en" ;
-    okh:export :Ottodiybodyv11_export1 ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Ottodiybodyv11_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Ottodiybodyv11_export1 a okh:ExportFile ;
-    rdfs:label "Export File of OttoDIY_body_V11 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_body_v11-29a79.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDEwMzc=> .
-
-:Ottodiybodyv11_source a okh:SourceFile ;
-    rdfs:label "Source File of OttoDIY_body_V11 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_body_v11-29a79.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA3NDU=> .
-
-:Ottodiyeyebrows a okh:Part ;
-    rdfs:label "OttoDIY_Eyebrows" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Ottodiyeyebrows_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Ottodiyeyebrows_source a okh:SourceFile ;
-    rdfs:label "Source File of OttoDIY_Eyebrows of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_eyebrows.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA3NjM=> .
-
-:Ottodiyfeetv05 a okh:Part ;
-    rdfs:label "OttoDIY_feet_V05" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Ottodiyfeetv05_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Ottodiyfeetv05_source a okh:SourceFile ;
-    rdfs:label "Source File of OttoDIY_feet_V05 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_feet_v05.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA4NDE=> .
-
-:Ottodiyfootlv01 a okh:Part ;
-    rdfs:label "OttoDIY_footL_V01" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Ottodiyfootlv01_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Ottodiyfootlv01_source a okh:SourceFile ;
-    rdfs:label "Source File of OttoDIY_footL_V01 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_footl_v01.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA4NjY=> .
-
-:Ottodiyfootlv02 a okh:Part ;
-    rdfs:label "OttoDIY_footL_V02" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Ottodiyfootlv02_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Ottodiyfootlv02_source a okh:SourceFile ;
-    rdfs:label "Source File of OttoDIY_footL_V02 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_footl_v02.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA4NTU=> .
-
-:Ottodiyfootlv03 a okh:Part ;
-    rdfs:label "OttoDIY_footL_V03" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Ottodiyfootlv03_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Ottodiyfootlv03_source a okh:SourceFile ;
-    rdfs:label "Source File of OttoDIY_footL_V03 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_footl_v03.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA4NTI=> .
-
-:Ottodiyfootlv04 a okh:Part ;
-    rdfs:label "OttoDIY_footL_V04" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Ottodiyfootlv04_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Ottodiyfootlv04_source a okh:SourceFile ;
-    rdfs:label "Source File of OttoDIY_footL_V04 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_footl_v04.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA4NDc=> .
-
-:Ottodiyfootlv07 a okh:Part ;
-    rdfs:label "OttoDIY_footL_V07" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Ottodiyfootlv07_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Ottodiyfootlv07_source a okh:SourceFile ;
-    rdfs:label "Source File of OttoDIY_footL_V07 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_footl_v07.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA4Mzg=> .
-
-:Ottodiyfootlv11 a okh:Part ;
-    rdfs:label "OttoDIY_footL_V11" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Ottodiyfootlv11_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Ottodiyfootlv11_source a okh:SourceFile ;
-    rdfs:label "Source File of OttoDIY_footL_V11 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_footl_v11-8fb86.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDEwNDE=> .
-
-:Ottodiyfootlv12 a okh:Part ;
-    rdfs:label "OttoDIY_footL_V12" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Ottodiyfootlv12_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Ottodiyfootlv12_source a okh:SourceFile ;
-    rdfs:label "Source File of OttoDIY_footL_V12 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_footl_v12.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA3NjI=> .
-
-:Ottodiyfootrv01 a okh:Part ;
-    rdfs:label "OttoDIY_footR_V01" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Ottodiyfootrv01_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Ottodiyfootrv01_source a okh:SourceFile ;
-    rdfs:label "Source File of OttoDIY_footR_V01 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_footr_v01.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA4Njc=> .
-
-:Ottodiyfootrv02 a okh:Part ;
-    rdfs:label "OttoDIY_footR_V02" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Ottodiyfootrv02_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Ottodiyfootrv02_source a okh:SourceFile ;
-    rdfs:label "Source File of OttoDIY_footR_V02 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_footr_v02.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA4NTY=> .
-
-:Ottodiyfootrv03 a okh:Part ;
-    rdfs:label "OttoDIY_footR_V03" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Ottodiyfootrv03_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Ottodiyfootrv03_source a okh:SourceFile ;
-    rdfs:label "Source File of OttoDIY_footR_V03 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_footr_v03.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA4NTM=> .
-
-:Ottodiyfootrv04 a okh:Part ;
-    rdfs:label "OttoDIY_footR_V04" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Ottodiyfootrv04_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Ottodiyfootrv04_source a okh:SourceFile ;
-    rdfs:label "Source File of OttoDIY_footR_V04 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_footr_v04.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA4NDY=> .
-
-:Ottodiyfootrv07 a okh:Part ;
-    rdfs:label "OttoDIY_footR_V07" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Ottodiyfootrv07_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Ottodiyfootrv07_source a okh:SourceFile ;
-    rdfs:label "Source File of OttoDIY_footR_V07 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_footr_v07.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA4MzY=> .
-
-:Ottodiyfootrv11 a okh:Part ;
-    rdfs:label "OttoDIY_footR_V11" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Ottodiyfootrv11_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Ottodiyfootrv11_source a okh:SourceFile ;
-    rdfs:label "Source File of OttoDIY_footR_V11 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_footr_v11-ca3d5.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDEwNDA=> .
-
-:Ottodiyfootrv12 a okh:Part ;
-    rdfs:label "OttoDIY_footR_V12" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Ottodiyfootrv12_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Ottodiyfootrv12_source a okh:SourceFile ;
-    rdfs:label "Source File of OttoDIY_footR_V12 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_footr_v12.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA3NzY=> .
-
-:Ottodiyfootv09 a okh:Part ;
-    rdfs:label "OttoDIY_foot_V09" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Ottodiyfootv09_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Ottodiyfootv09_source a okh:SourceFile ;
-    rdfs:label "Source File of OttoDIY_foot_V09 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_foot_v9.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA4MzI=> .
-
-:Ottodiyfootv10 a okh:Part ;
-    rdfs:label "OttoDIY_foot_V10" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Ottodiyfootv10_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Ottodiyfootv10_source a okh:SourceFile ;
-    rdfs:label "Source File of OttoDIY_foot_V10 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_foot_v10.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA3Mzg=> .
-
-:Ottodiyheadv01 a okh:Part ;
-    rdfs:label "OttoDIY_head_V01" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Ottodiyheadv01_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Ottodiyheadv01_source a okh:SourceFile ;
-    rdfs:label "Source File of OttoDIY_head_V01 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_head_v01.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA4NjU=> .
-
-:Ottodiyheadv02 a okh:Part ;
-    rdfs:label "OttoDIY_head_V02" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Ottodiyheadv02_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Ottodiyheadv02_source a okh:SourceFile ;
-    rdfs:label "Source File of OttoDIY_head_V02 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_head_v02.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA4NTc=> .
-
-:Ottodiyheadv06 a okh:Part ;
-    rdfs:label "OttoDIY_head_V06" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Ottodiyheadv06_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Ottodiyheadv06_source a okh:SourceFile ;
-    rdfs:label "Source File of OttoDIY_head_V06 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_head_v06.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA4NDA=> .
-
-:Ottodiyheadv10 a okh:Part ;
-    rdfs:label "OttoDIY_head_V10" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Ottodiyheadv10_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Ottodiyheadv10_source a okh:SourceFile ;
-    rdfs:label "Source File of OttoDIY_head_V10 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_head_v10-b8ace.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA3Mzc=> .
-
-:Ottodiyheadv11 a okh:Part ;
-    rdfs:label "OttoDIY_head_V11" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Ottodiyheadv11_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Ottodiyheadv11_source a okh:SourceFile ;
-    rdfs:label "Source File of OttoDIY_head_V11 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_head_v11-66bff.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDEwMzk=> .
-
-:Ottodiyheadv12 a okh:Part ;
-    rdfs:label "OttoDIY_head_V12" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Ottodiyheadv12_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Ottodiyheadv12_source a okh:SourceFile ;
-    rdfs:label "Source File of OttoDIY_head_V12 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_head_v12.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA3NzU=> .
-
-:Ottodiyheagv03 a okh:Part ;
-    rdfs:label "OttoDIY_heag_V03" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Ottodiyheagv03_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Ottodiyheagv03_source a okh:SourceFile ;
-    rdfs:label "Source File of OttoDIY_heag_V03 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_heag_v03.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA4NDk=> .
-
-:Ottodiylegsv05 a okh:Part ;
-    rdfs:label "OttoDIY_legs_V05" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Ottodiylegsv05_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Ottodiylegsv05_source a okh:SourceFile ;
-    rdfs:label "Source File of OttoDIY_legs_V05 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_legs_v05.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA4NDQ=> .
-
-:Ottodiylegv01 a okh:Part ;
-    rdfs:label "OttoDIY_leg_V01" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Ottodiylegv01_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Ottodiylegv01_source a okh:SourceFile ;
-    rdfs:label "Source File of OttoDIY_leg_V01 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_leg_v01.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA4NTk=> .
-
-:Ottodiylegv02 a okh:Part ;
-    rdfs:label "OttoDIY_leg_V02" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Ottodiylegv02_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Ottodiylegv02_source a okh:SourceFile ;
-    rdfs:label "Source File of OttoDIY_leg_V02 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_leg_v02.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA4NTg=> .
-
-:Ottodiylegv03 a okh:Part ;
-    rdfs:label "OttoDIY_leg_V03" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Ottodiylegv03_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Ottodiylegv03_source a okh:SourceFile ;
-    rdfs:label "Source File of OttoDIY_leg_V03 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_leg_v03.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA4NTA=> .
-
-:Ottodiylegv04 a okh:Part ;
-    rdfs:label "OttoDIY_leg_V04" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Ottodiylegv04_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Ottodiylegv04_source a okh:SourceFile ;
-    rdfs:label "Source File of OttoDIY_leg_V04 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_leg_v04.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA4NDU=> .
-
-:Ottodiylegv07 a okh:Part ;
-    rdfs:label "OttoDIY_leg_V07" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Ottodiylegv07_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Ottodiylegv07_source a okh:SourceFile ;
-    rdfs:label "Source File of OttoDIY_leg_V07 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_leg_v07.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA4Mzc=> .
-
-:Ottodiylegv09 a okh:Part ;
-    rdfs:label "OttoDIY_leg_V09" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Ottodiylegv09_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Ottodiylegv09_source a okh:SourceFile ;
-    rdfs:label "Source File of OttoDIY_leg_V09 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_leg_v9.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA4MzM=> .
-
-:Ottodiylegv10 a okh:Part ;
-    rdfs:label "OttoDIY_leg_V10" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Ottodiylegv10_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Ottodiylegv10_source a okh:SourceFile ;
-    rdfs:label "Source File of OttoDIY_leg_V10 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_leg_v10-ba2a9.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA3MzY=> .
-
-:Ottodiylegv11 a okh:Part ;
-    rdfs:label "OttoDIY_leg_V11" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Ottodiylegv11_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Ottodiylegv11_source a okh:SourceFile ;
-    rdfs:label "Source File of OttoDIY_leg_V11 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_leg_v11-44d48.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDEwMzg=> .
-
-:Ottodiylegv12 a okh:Part ;
-    rdfs:label "OttoDIY_leg_V12" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Ottodiylegv12_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Ottodiylegv12_source a okh:SourceFile ;
-    rdfs:label "Source File of OttoDIY_leg_V12 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_leg_v12.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA3NzQ=> .
-
-:Ottodiymustache a okh:Part ;
-    rdfs:label "OttoDIY_mustache" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Ottodiymustache_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Ottodiymustache_source a okh:SourceFile ;
-    rdfs:label "Source File of OttoDIY_mustache of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_mustache.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA3NzM=> .
-
-:Ottodiyrobotmanualv12 a okh:Part ;
-    rdfs:label "OttoDIYrobotmanualV12" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Ottodiyrobotmanualv12_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Ottodiyrobotmanualv12_source a okh:SourceFile ;
-    rdfs:label "Source File of OttoDIYrobotmanualV12 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
+:InstructionManualottodiyrobotmanualv12_source a okh:SourceFile ;
+    rdfs:label "Source File of Instruction Manual/OttoDIYrobotmanualV12 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiyrobotmanualv12.pdf> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDEwNDM=> .
 
-:Ottodiysunglasses a okh:Part ;
-    rdfs:label "OttoDIY_Sunglasses" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Ottodiysunglasses_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Ottodiysunglasses_source a okh:SourceFile ;
-    rdfs:label "Source File of OttoDIY_Sunglasses of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottodiy_sunglasses.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA3NzI=> .
-
-:Ottoexpandarmgripv12 a okh:Part ;
-    rdfs:label "Ottoexpand_armgrip_V12" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Ottoexpandarmgripv12_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Ottoexpandarmgripv12_source a okh:SourceFile ;
-    rdfs:label "Source File of Ottoexpand_armgrip_V12 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottoexpand_armgrip_v12.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA3NzE=> .
-
-:Ottoexpandarmshv12 a okh:Part ;
-    rdfs:label "Ottoexpand_armsH_V12" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Ottoexpandarmshv12_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Ottoexpandarmshv12_source a okh:SourceFile ;
-    rdfs:label "Source File of Ottoexpand_armsH_V12 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottoexpand_armsh_v12.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA3Njk=> .
-
-:Ottoexpandarmsv12 a okh:Part ;
-    rdfs:label "Ottoexpand_arms_V12" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Ottoexpandarmsv12_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Ottoexpandarmsv12_source a okh:SourceFile ;
-    rdfs:label "Source File of Ottoexpand_arms_V12 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottoexpand_arms_v12.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA3NzA=> .
-
-:Ottoexpandgripv12 a okh:Part ;
-    rdfs:label "Ottoexpand_grip_V12" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Ottoexpandgripv12_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Ottoexpandgripv12_source a okh:SourceFile ;
-    rdfs:label "Source File of Ottoexpand_grip_V12 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottoexpand_grip_v12.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA3Njg=> .
-
-:Ottoexpandmatrixv12 a okh:Part ;
-    rdfs:label "Ottoexpand_matrix_V12" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Ottoexpandmatrixv12_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Ottoexpandmatrixv12_source a okh:SourceFile ;
-    rdfs:label "Source File of Ottoexpand_matrix_V12 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottoexpand_matrix_v12.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA3Njc=> .
-
-:Ottoexpandoledv12 a okh:Part ;
-    rdfs:label "Ottoexpand_OLED_V12" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Ottoexpandoledv12_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Ottoexpandoledv12_source a okh:SourceFile ;
-    rdfs:label "Source File of Ottoexpand_OLED_V12 of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/ottoexpand_oled_v12.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA3NjY=> .
-
 :Readme a okh:Readme ;
     rdfs:label "Readme of ft.OttoDIY cc57ea21c79f9fd40577285cf8fdea52a766a7dc" ;
     okh:fileFormat "MD" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/readme-0f784.md> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDA3ODc=> .
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/664/readme-d4928.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDEwNDg=> .
 

@@ -1,0 +1,42 @@
+@prefix : <https://www.thingiverse.com/thing%3A28505/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:TinyfanFanDriver a okh:Module ;
+    rdfs:label "TinyFan Fan Driver" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is the TinyFan a fan (and fun) driver that controls up to 4 12V fans using just an ATTiny45 or ATTiny8, 4 tactile switches and some electronic components (most general use, aka cheap).\r
+\r
+The programming of the ATTiny has the folowing capabilities:\r
++ Can use PWM in 2 of the outputs (labeled 1 and 2)\r
++ The tactlie switches have a secondary (special) function if held during 2 seconds.\r
++ The program can use EEPROM memory to save last state in the chip. Also, if you don't want this feature, you can disable it.\r
+\r
+Also you have available two designs: Prefboard or PCB.\r
+\r
+Watch it in action! http://goo.gl/UIM2Z (G+ album)\r
+\r
+This thing was made by:\r
+Francisco Malpartida\r
+G.W.C.\r
+\r
+Special thanks to Iceflow.\r
+\r
+Update 15 Aug 2012 (00:00)\r
+Improved the programming. Now memory is only rewrited after a state sticks for 2 seconds (saving writes while changing the PWM state), and also the code has been reduced (1.96KB without EEPROM, 2.27KB with EEPROM).""" ;
+    okh:hasImage :Image ;
+    okh:licensor "gwc" ;
+    okh:repo <https://www.thingiverse.com/thing:28505> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:28505> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of TinyFan Fan Driver 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/8c/81/c1/01/a7/IMG_2714_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/8c/81/c1/01/a7/IMG_2714_display_large.jpg> .
+

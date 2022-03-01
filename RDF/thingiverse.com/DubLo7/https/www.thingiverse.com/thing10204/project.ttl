@@ -1,0 +1,34 @@
+@prefix : <https://www.thingiverse.com/thing%3A10204/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ParametricPeasInAPod a okh:Module ;
+    rdfs:label "Parametric Peas in a Pod" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Today (July 20) is Gregor Mendel's birthday.  Since RepRap's are named after biologists and my current RepRap is a of a Mendel it seemed appropriate to print something like this to celebrate the day and my machines namesake.\r
+\r
+I don't know if this is printable or not.  I've never used OpenSCAD before but I've been programming for 20 years and it looks pretty simple.  I used up my lunch hour making this but my 3D printer is still in the construction phase so I can't try it out myself.  I hope people out there can give this a try and let me know how it works.\r
+\r
+You can change the number of peas, the space between the peas, how many twists in the stem and other variables.  I will probably make changes based on feedback from others.  Not all parameter combinations look right, but play around and a lot of them are OK.\r
+\r
+I'm not sure if the stem is going to be attached or printable as is.  You may want to comment out that section if it doesn't work.\r
+\r
+Enjoy.\r
+\r
+August 3, 2011 - Updated the model by adding a small sphere to the end of the pod to hopefully attach the stem better.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "DubLo7" ;
+    okh:repo <https://www.thingiverse.com/thing:10204> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:10204> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Parametric Peas in a Pod 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://thingiverse-rerender-new.s3.amazonaws.com/renders/2b/2e/33/29/d4/MendelPeas_display_large.jpg> ;
+    okh:permaURL <https://thingiverse-rerender-new.s3.amazonaws.com/renders/2b/2e/33/29/d4/MendelPeas_display_large.jpg> .
+

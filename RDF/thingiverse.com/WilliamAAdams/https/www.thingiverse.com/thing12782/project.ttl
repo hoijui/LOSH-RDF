@@ -1,0 +1,41 @@
+@prefix : <https://www.thingiverse.com/thing%3A12782/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:SevenSegmentDigitsInOpenscad a okh:Module ;
+    rdfs:label "Seven Segment Digits in OpenScad" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """A long time back, when I was first learning to code in Windows, I rand the Charles Petzold digital clock application as a sample.\r
+\r
+Since then, I've done everything with that clock from rendering in OpenGL to high resolution timers.\r
+\r
+This thing takes the seven segment digital display and renders it in OpenScad.\r
+\r
+It's pretty straight forward.  There are three routines.\r
+DisplayDigit(number, height) - Will display a single digit, centered at the origin.\r
+\r
+DisplayDigits(numbers, count, height) - Will display a sequence of numbers, separated by a gap of 4mm.\r
+\r
+RenderDigitsPlate(digits, count, thickness, height) - Will display a sequence of numbers, and put a nice rectangle underneath them in case you want to easily CSG the sequence of numbers with something else.\r
+\r
+It's a bit hacky in that the gap between numbers is fixed, and I didn't normalize the polygon data, so it's a fixed size of 38x68.  Of course you can scale it, but...\r
+\r
+Well, there it is.  finally off my chest.  And now I have nice 7-segment numbers in the bag of tricks.\r
+\r
+You can guess at the signifance of the number in the picture.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "WilliamAAdams" ;
+    okh:repo <https://www.thingiverse.com/thing:12782> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:12782> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Seven Segment Digits in OpenScad 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/2a/65/7d/49/66/plate_1879_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/2a/65/7d/49/66/plate_1879_display_large_display_large.jpg> .
+

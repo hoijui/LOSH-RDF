@@ -1,0 +1,40 @@
+@prefix : <https://www.thingiverse.com/thing%3A13314/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:SuperScraper a okh:Module ;
+    rdfs:label "Super Scraper" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """I was fiddling about with the SuperShape thing: http://www.thingiverse.com/thing:12770 and I 'discovered' this thing while playing around with various parameters.\r
+\r
+This thing can be used as a scraper of some sort.  I'm thinking to print one and use it as a pastry scraper, or something else in the kitchen.\r
+\r
+I generated it using these parameters:\r
+\r
+RenderSuperShape(\r
+		supershape(1, 0.3, 0.3, 0.3, 1, 1),\r
+		supershape(5, 15.4425, -0.453763, 87.07, 1, 1),\r
+		48,\r
+		32))\r
+\r
+With those sharp edges, it might be quite challenging to print.  I think it has a modern look to it, and it shows how kitchen items might be able to take on more of a flair, beyond the standard industrial looks.\r
+\r
+I did in fact use OpenScad to generate the .stl, but I actually used Lua to generate the .scad in the first place, and that's not particularly interesting as yet, so the .stl is really no different than the .scad.\r
+\r
+With different scalings, it can become something else like a flipper, rudder, or what have you.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "WilliamAAdams" ;
+    okh:repo <https://www.thingiverse.com/thing:13314> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:13314> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Super Scraper 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://thingiverse-rerender-new.s3.amazonaws.com/renders/c0/04/9e/66/20/superscraper_display_large.jpg> ;
+    okh:permaURL <https://thingiverse-rerender-new.s3.amazonaws.com/renders/c0/04/9e/66/20/superscraper_display_large.jpg> .
+

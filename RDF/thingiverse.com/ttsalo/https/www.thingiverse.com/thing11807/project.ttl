@@ -1,0 +1,30 @@
+@prefix : <https://www.thingiverse.com/thing%3A11807/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:OrcaYBeltTensioningUpgrade a okh:Module ;
+    rdfs:label "Orca Y belt tensioning upgrade" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This design replaces the stock mendel-parts.com Orca v0.20 Y belt end pulleys with pivoting ones which allow the belt tension to be adjusted by tightening a M4 threaded rod running under the ZY structure.\r
+\r
+The advantage is twofold:\r
+- The belt tightness can be easily adjusted by turning the nuts in the M4 rod.\r
+- The rod compensates for the belt tension so that the belt tension no longer acts to bend the left M8 threaded rod. Otherwise tightening the Y belt may result in the Y rails becoming non-parallel and causing problems in levelling the print bed.\r
+\r
+Note: decreases the Z print area by a couple of millimeters, in my machine to 120mm.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "ttsalo" ;
+    okh:repo <https://www.thingiverse.com/thing:11807> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:11807> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Orca Y belt tensioning upgrade 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/31/36/19/2d/c2/6172584687_edd21f954b_b_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/31/36/19/2d/c2/6172584687_edd21f954b_b_display_large_display_large.jpg> .
+

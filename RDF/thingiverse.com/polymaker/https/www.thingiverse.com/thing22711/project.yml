@@ -1,0 +1,48 @@
+__meta:
+  branch: null
+  created-at: '2012-05-11T08:14:52+00:00'
+  history: null
+  last-changed: null
+  last-visited: '2022-02-27T11:00:04.378619+00:00'
+  owner: polymaker
+  path: null
+  repo: https://www.thingiverse.com/thing:22711
+  score: null
+  source: thingiverse.com
+attestation: null
+bom: null
+contribution-guide: null
+cpc-patent-class: null
+documentation-language: en
+documentation-readiness-level: odrl3
+function: "This is a fully scripted/parametric version of the PL2Q Hugin quadcopter. I wanted to make changes, and I'm most comfortable in OpenSCAD, so I ported it.\r\n\r\nTo keep with the mythological creature naming scheme, and because he's a shape shifter I called him Leshy[1]. ;)\r\n\r\nI haven't printed everything yet, but all the STLs slice fine with Slic3r (initially some STLs had problems slicing because of stupid self-intersecting facets!).\r\n\r\nFor this first version, I did my best to replicate the PL2Q Hugin as closely as possible (everything is +-0.1mm) and I only added a couple things.\r\n\r\nFirst, I wasn't getting a strong arm with the splitting approach used for the PL2Q Hugin, so I created a coupler to connect each half. That way the joint is the strongest part of the design rather than the weakest, without much extra weight.\r\n\r\nThe only other modification I made was to stamp the name \"Leshy\" on the canopy using the ArchitectsDaughter font from the More Fontz! project.\r\n\r\nThis is the first project I have done where I did my best to follow the OpenSCAD style guide to the letter. However, when it came to writing comments, there is one thing I did differently: I combined module comments with ThingDoc comments where appropriate. If the module didn't represent a complete \"thing\" I didn't add any ThingDoc parameters.\r\n\r\nIn any parametric project, one has to make the difficult decision of which parameters affect other parameters. By the time I was done with this I realized everything revolves around (hehe) the arms. Because of this, I designed the script in such a way that if you change the radius of the arms (say, to beef them up a bit) the canopy, motor mounts, body will auto resize to match the new dimensions. I think this was the proper way to make it work, but I'm open to suggestions.\r\n\r\n[1] https://en.wikipedia.org/wiki/Leshy"
+image:
+  created-at: '2012-05-11T08:14:52+00:00'
+  last-changed: '2012-05-11T08:14:52+00:00'
+  last-visited: '2022-02-27T11:15:34.335163+00:00'
+  license: CC-BY-4.0
+  licensor: polymaker
+  mime-type: null
+  name: preview_display_large
+  path: https:/thingiverse-rerender-new.s3.amazonaws.com/renders/7e/a6/be/a5/7a/preview_display_large.jpg
+  perma-url: https://thingiverse-rerender-new.s3.amazonaws.com/renders/7e/a6/be/a5/7a/preview_display_large.jpg
+  url: https://thingiverse-rerender-new.s3.amazonaws.com/renders/7e/a6/be/a5/7a/preview_display_large.jpg
+license: CC-BY-4.0
+licensor: polymaker
+manufacturing-instructions: null
+name: PLSQ Leshy
+okhv: OKH-LOSHv1.0
+organization: null
+part: []
+publication: null
+readme: null
+release: null
+repo: https://www.thingiverse.com/thing:22711
+software: []
+specific-api-data: {}
+standard-compliance: null
+technology-readiness-level: ortl4
+tsdc: null
+upload-method: auto
+user-manual: null
+version: 1.0.0

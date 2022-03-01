@@ -1,0 +1,39 @@
+@prefix : <https://www.thingiverse.com/thing%3A4043/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ExtruderExternalMosfetPowerBoard a okh:Module ;
+    rdfs:label "Extruder External Mosfet Power Board" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is a board that allows you to power a Mk4/Mk5 Plastruder, Heated Build Platform, etc. using external mosfets (and an optional relay). It can be directly connected to a stock Extruder Controller without any modifications. The input lines connect to the '-'(GND) terminals on the EC.\r
+\r
+After already burning out one EC mosfet, and hearing that you might need to use a relay board to power the Mk5, I finally decided to design and build this board. The IRF520 mosfets I used in the prototype should be able to power a Mk5 Plastruder without any problems, and do it silently ;). They support PWM heating code as well, for better temperature management. All the outputs are protected with flyback diodes, so they can drive inductive loads as well (motors, other relays, etc). \r
+\r
+Using this board to power the Plastruder/HBP reduces the current going through the mosfets on the Extruder Controller down to ~10ma per mosfet. Your EC mosfets should not heat up or burn out. If you do happen to burn out a mosfet on this board, it is a lot easier to fix/replace than the ones on the Extruder Controller.\r
+\r
+It also reduces the current going through the Cat5 cable going into the EC, which could help reduce communication errors that can occur. \r
+\r
+I've only tested this with my Mk4 Plastruder and HBP, but the current capability should be there to support a Mk5 (IRF520 = 10A). Since it is not part of the extruder controller, it is much easier to add other cooling solutions (i.e. fans), or even use other types of mosfets. I mounted large TO-220 heatsinks to the IRF520's to help keep them cool. \r
+\r
+This is the first 'big' circuit I've designed, so there might be errors in the schematic. If there are errors, or if anyone know of ways to improve the design, please leave a comment.\r
+\r
+Future plans/ideas:\r
+  1. Try using higher pull-up resistors (100K instead of 1.2K)\r
+  2. Add a master/emergency cutoff switch\r
+  3. Design/order/test an actual PCB""" ;
+    okh:hasImage :Image ;
+    okh:licensor "JadeKnight" ;
+    okh:repo <https://www.thingiverse.com/thing:4043> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:4043> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Extruder External Mosfet Power Board 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/52/4b/6a/48/7b/ExternalMosfetBoard_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/52/4b/6a/48/7b/ExternalMosfetBoard_display_large_display_large.jpg> .
+

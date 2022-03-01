@@ -1,0 +1,37 @@
+@prefix : <https://www.thingiverse.com/thing%3A18066/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:JettyFirmwareAccelerationTestScripts a okh:Module ;
+    rdfs:label "Jetty Firmware Acceleration Test Scripts" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This thing consists of some hand (spreadsheet) generated g-code to test acceleration settings of Jetty's firmware:\r
+http://www.thingiverse.com/thing:15380\r
+or\r
+http://www.thingiverse.com/thing:17855\r
+\r
+The g-code does a back-and-forth motion over a range of distances (+-45 for X&Y, +-25 for Z), which will excite the bot at different frequencies, if one of those happens to cause a step to be skipped, theses scripts should find it.\r
+\r
+Here is a video of operation on MiseryBot:\r
+http://www.youtube.com/watch?v=ClZF8-G5ub4\r
+\r
+In the video the acceleration parameters are set to:\r
+X max speed = 200, accel = 2000\r
+Y max speed = 200, accel = 8000 (lighter stage)\r
+Z max speed = 25, accel = 1000""" ;
+    okh:hasImage :Image ;
+    okh:licensor "MiseryBot" ;
+    okh:repo <https://www.thingiverse.com/thing:18066> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:18066> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Jetty Firmware Acceleration Test Scripts 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/de/73/eb/be/ea/Test_Vibration_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/de/73/eb/be/ea/Test_Vibration_display_large_display_large.jpg> .
+

@@ -1,0 +1,34 @@
+@prefix : <https://www.thingiverse.com/thing%3A14354/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:MyVariantPrintrbot a okh:Module ;
+    rdfs:label "My variant printrbot" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """First, many thanks to Mr. Drumm for proving that a two-legged printer could work as well as a triangular prism, giving me inspiration to finally toy with the idea that was in my head. Thank you sir!\r
+\r
+So far, my plan is to fit everything inside a build area of 300mm by 300mm by 200mm. The print area is about 170mm by 210mm, with a (hopeful) height of around 120mm. I also want everything it takes to make this to be able to fit in the print area, one sheet.\r
+\r
+In addition, I want to try and have only 4 motors, 1 for each axis and one for the extruder, not sure yet whether to go with a geared or a bowden setup, will decide that later, or leave it open to decisions. And yes, the z-motor is a flat stepper (I'm hoping the motor I found has enough torque to move the bed, not gotten to test it yet, ripped it out of a scanner. If not, this whole thing is going to get real interesting real quick).\r
+\r
+Oh! A note, the bpholder file, that's the plate that goes under the build plate, I plan on using 1/8" hardboard, feel free to use anything 1/8"/3mm you'd like. The inner rectangle on it is the area that the build plate is, and that is entirely up to you for material, because you may want it heated, you may have other plans, and that's all on you.\r
+\r
+The motor being used in the y-axis mount if most likely going to end up being a TRINAMIC stepper from Newark, part # 24M6626. This will most likely also be the motor used in the x-axis.\r
+\r
+For those who have downloaded the files, if you see any issues, feel free to comment! I love feedback, both good and bad!""" ;
+    okh:hasImage :Image ;
+    okh:licensor "rdhawk" ;
+    okh:repo <https://www.thingiverse.com/thing:14354> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:14354> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of My variant printrbot 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/2a/02/17/3e/e6/382899_10150399345611398_534776397_8568721_709465910_n_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/2a/02/17/3e/e6/382899_10150399345611398_534776397_8568721_709465910_n_display_large_display_large.jpg> .
+

@@ -1,0 +1,30 @@
+@prefix : <https://www.thingiverse.com/thing%3A8160/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ClockframeBySlicingNegativeSpace a okh:Module ;
+    rdfs:label "Clock-Frame, by Slicing Negative Space" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Made a little script that carves slices every 3mm (with a 1/2 mm gap) out of cylinder from which the clock's negative space has been removed via the difference() command.\r
+\r
+The negative space is imported as an STL file, and was made using the new negative space feature of version 4 of the clockwork library.\r
+\r
+Includes pre-visualization via the # debug modifier in OpenCSG mode (see jpg for example).\r
+\r
+If there is some interest, I can clean up the code for the slicer and pack it up into a library?""" ;
+    okh:hasImage :Image ;
+    okh:licensor "syvwlch" ;
+    okh:repo <https://www.thingiverse.com/thing:8160> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:8160> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Clock-Frame, by Slicing Negative Space 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/c2/26/fa/1c/3b/ClockFrame-03_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/c2/26/fa/1c/3b/ClockFrame-03_display_large_display_large.jpg> .
+

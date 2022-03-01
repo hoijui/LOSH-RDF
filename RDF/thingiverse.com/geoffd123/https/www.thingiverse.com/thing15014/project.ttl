@@ -1,0 +1,34 @@
+@prefix : <https://www.thingiverse.com/thing%3A15014/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:MendelPenHolder a okh:Module ;
+    rdfs:label "Mendel Pen Holder" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """I had problems using the original pen holder on my Prusa, see http://apapageek.blogspot.com for details.\r
+\r
+So I used the original STL file as a template for reworking the design in OpenSCAD.  Along the way I made a few changes to make using the pen holder easier.\r
+\r
+a) Redesigned the top bracket so that there are channels to guide the rubber bands and a loop to hold them captive.  Now if there is a balance problem, or when you take the pen out the bracket does not try to orbit the room.\r
+\r
+b) Made the holes for the elastic band capture bolts on the top further away from the body, this made it easier to install the elastic bands.\r
+\r
+c) Made the bottom tube longer, this should solve my problem of the pen tip being too close to the X-carriage.\r
+\r
+d) Turned the top plate to bottom plate mounting holes through 90 degrees and sliced the sides off the circle, this allows me to mount it on my Greg Frost X-Carriage.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "geoffd123" ;
+    okh:repo <https://www.thingiverse.com/thing:15014> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:15014> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Mendel Pen Holder 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/94/30/3f/13/8b/PenHolderV2_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/94/30/3f/13/8b/PenHolderV2_display_large_display_large.jpg> .
+

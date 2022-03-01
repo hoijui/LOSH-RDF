@@ -1,0 +1,35 @@
+@prefix : <https://www.thingiverse.com/thing%3A1992/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ParametricTrumpetMouthpiece a okh:Module ;
+    rdfs:label "Parametric Trumpet Mouthpiece" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is a mouthpiece for a trumpet. I designed it with the idea that mouthpieces are expensive and with a 3D printer you can make any type you want for about a buck.\r
+\r
+I designed the openSCAD file to be easy to modify. It should be pretty self explanatory. It has a list of the points that make up the side view of the mouthpiece. This makes it fairly easy to add in new types of mouthpieces.\r
+\r
+So far I have only made 3 types of mouthpieces, but I plan to make more soon. 2 of the mouthpieces are from Marcinkiewicz (the 4/7c and the 3/5c). The other is from Bach (the 3C). You can see information on the Marcinkiewicz mouthpieces and their other trumpet mouthpieces here: http://www.marcinkiewicz.com/mouthpieces/trumpet/standard.htm\r
+For information on the Bach mouthpiece see the PDF here: http://www.bachbrass.com/mouthpieces/\r
+\r
+Keep in mind that this is still very experimental. It might not work well as a mouthpiece because of certain technical problems with 3D printing.\r
+\r
+* New in v1.1 - Optional Inverting of the mouthpiece for easier printing on a Makerbot or RepRap. Optional Add of support structures to allow small layers to cool enough when printing.\r
+\r
+** I\\'m currently working on instructions for the best way to print this on a Makerbot or a RepRap. Right now just experiment until you get the best results. If you have any tips for good settings for printing, post them here. **""" ;
+    okh:hasImage :Image ;
+    okh:licensor "beak90" ;
+    okh:repo <https://www.thingiverse.com/thing:1992> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:1992> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Parametric Trumpet Mouthpiece 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://thingiverse-rerender-new.s3.amazonaws.com/renders/30/4d/c9/7b/8f/Marcinkiewicz_4_7c_v1-1_display_large.jpg> ;
+    okh:permaURL <https://thingiverse-rerender-new.s3.amazonaws.com/renders/30/4d/c9/7b/8f/Marcinkiewicz_4_7c_v1-1_display_large.jpg> .
+

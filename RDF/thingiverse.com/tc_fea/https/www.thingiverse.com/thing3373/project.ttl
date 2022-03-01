@@ -1,0 +1,30 @@
+@prefix : <https://www.thingiverse.com/thing%3A3373/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:FractalTree a okh:Module ;
+    rdfs:label "Fractal Tree" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This was an experiment to create a simple tree using fractals and printing it on the MakerBot. The same basic unit of three arms is repeated by shrinking it in half and fitting it to the hexagonal top of the branch.\r
+\r
+first layer 3 branches\r
+second layer 9 branches\r
+third layer 27 branches\r
+\r
+.skp is a Google sketchup file""" ;
+    okh:hasImage :Image ;
+    okh:licensor "tc_fea" ;
+    okh:repo <https://www.thingiverse.com/thing:3373> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:3373> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Fractal Tree 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/c8/2c/33/73/ea/p100618_fractal_tree_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/c8/2c/33/73/ea/p100618_fractal_tree_display_large_display_large.jpg> .
+

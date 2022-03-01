@@ -1,0 +1,32 @@
+@prefix : <https://www.thingiverse.com/thing%3A10129/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://www.thingiverse.com/thing%3A10129/1.0.0/RecoszOnïïâ²> a okh:Module ;
+    rdfs:label "Re(cos(z)) on [-Ï„,Ï„]Â²" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """The real component of cosine on the complex rectangle going from -Ï„ (-2Ï€) to Ï„ (2Ï€) on each side.\r
+\r
+Notice that if you take a slice down Im(z) = 0, you get your normal cosine function, and slices Im(z) = Ï„n | n âˆˆ â„• get you cosh.\r
+\r
+(To understand what is going on, recall that cos(x) = Â½(e^(iÎ¸) + e^(-iÎ¸)), because the two exponentials, moving on the unit circle, have their imaginary components cancel but the real combine, giving twice the real component, cos(x). When you give a complex value, the imaginary component increases the radius of the circle one is moving on while decreasing the radius of the other, causing the to stop canceling. Since the radius chances exponentially, you get wider waves in addition to an imaginary component that you can't see here.)\r
+\r
+This model was made with one of the predecessors to surfcad. You can read more here:\r
+\r
+https://christopherolah.wordpress.com/2011/07/16/surface-oriented-cad-math-telescopes/""" ;
+    okh:hasImage :Image ;
+    okh:licensor "colah" ;
+    okh:repo <https://www.thingiverse.com/thing:10129> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:10129> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Re(cos(z)) on [-Ï„,Ï„]Â² 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/1d/13/64/22/0c/cosine_thingiverse_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/1d/13/64/22/0c/cosine_thingiverse_display_large_display_large.jpg> .
+

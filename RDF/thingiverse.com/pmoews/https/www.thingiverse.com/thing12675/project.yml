@@ -1,0 +1,48 @@
+__meta:
+  branch: null
+  created-at: '2011-10-19T15:26:04+00:00'
+  history: null
+  last-changed: null
+  last-visited: '2022-02-25T11:00:02.616920+00:00'
+  owner: pmoews
+  path: null
+  repo: https://www.thingiverse.com/thing:12675
+  score: null
+  source: thingiverse.com
+attestation: null
+bom: null
+contribution-guide: null
+cpc-patent-class: null
+documentation-language: en
+documentation-readiness-level: odrl3
+function: "Here's a simple molecular modeling program written in OPENscad.  It's a derivative of the OPENscad program in \"Protein Models\".  It contains two modules, \"atom\" and \"bond\".  A call to atom makes a sphere and a call to bond makes a cylinder.  Atom requires a radius and a set of atomic coordinates; bond requires two sets of atomic coordinates.  For example to make a water molecule we could write:\r\n\r\natom (.3, 0, 0, 0);  // an Oxygen at the origin, .3 for its radius \r\natom (.25, -.96, 0, 0); // for the first H atom, .25 for its radius\r\natom (.25, .24, .93, 0); // for the second H atom\r\nbond (0,0,0,-.96,0,0);         // for the first O-H bond\r\nbond (0,0,0,.24,.93.0);       // for the second o-H bond\r\n\r\nTo render it all together the above commands are included within a union statement.  More details in makewater.scad.\r\n\r\nOnce I had this program I began looking for coordinates of interesting molecules to print.  I found a collection of fullerenes at   http://www.ccl.net/cca/data/fullerenes/index.shtml  Better known as \"Buckyballs\" you can read about the fullerenes on Wikipedia.  The buckyball most discussed contains 60 carbon atoms but the coordinate collection has a range of sizes, from 20 to 540 atms."
+image:
+  created-at: '2011-10-19T15:26:04+00:00'
+  last-changed: '2011-10-19T15:26:04+00:00'
+  last-visited: '2022-02-25T20:28:55.585008+00:00'
+  license: CC-BY-4.0
+  licensor: pmoews
+  mime-type: null
+  name: IMG_8576_display_large_display_large
+  path: https:/cdn.thingiverse.com/renders/5e/4a/14/d0/41/IMG_8576_display_large_display_large.jpg
+  perma-url: https://cdn.thingiverse.com/renders/5e/4a/14/d0/41/IMG_8576_display_large_display_large.jpg
+  url: https://cdn.thingiverse.com/renders/5e/4a/14/d0/41/IMG_8576_display_large_display_large.jpg
+license: CC-BY-4.0
+licensor: pmoews
+manufacturing-instructions: null
+name: Buckyballs - Molecular Models
+okhv: OKH-LOSHv1.0
+organization: null
+part: []
+publication: null
+readme: null
+release: null
+repo: https://www.thingiverse.com/thing:12675
+software: []
+specific-api-data: {}
+standard-compliance: null
+technology-readiness-level: ortl4
+tsdc: null
+upload-method: auto
+user-manual: null
+version: 1.0.0

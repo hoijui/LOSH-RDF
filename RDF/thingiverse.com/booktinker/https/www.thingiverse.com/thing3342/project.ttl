@@ -1,0 +1,26 @@
+@prefix : <https://www.thingiverse.com/thing%3A3342/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:CoverplateGenerator a okh:Module ;
+    rdfs:label "Coverplate Generator" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is a switch and outlet coverplate generator.  Sorry, North American only.  It will need to be flipped upside down to be printable.  Unfortunately, a typical coverplate is just outside the print volume of a Makerbot.  You may need to double check the measurements before you print.\r
+\r
+It could also be easily adapted to work for ethernet, coax, telephone, etc.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "booktinker" ;
+    okh:repo <https://www.thingiverse.com/thing:3342> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:3342> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Coverplate Generator 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://thingiverse-rerender-new.s3.amazonaws.com/renders/75/f7/81/f1/f3/outlet_display_large.jpg> ;
+    okh:permaURL <https://thingiverse-rerender-new.s3.amazonaws.com/renders/75/f7/81/f1/f3/outlet_display_large.jpg> .
+

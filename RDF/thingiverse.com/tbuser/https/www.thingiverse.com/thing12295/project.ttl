@@ -1,0 +1,30 @@
+@prefix : <https://www.thingiverse.com/thing%3A12295/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:2ColorMixTest a okh:Module ;
+    rdfs:label "2 Color Mix Test" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """By carefully adjusting the geometry in a model so that a darker color is under a lighter color by a certain number of layers, it creates a simple color blending effect.  With black and white ABS plastic, this allows about 3 or 4 shades of gray between all black and all white.  Unfortunately, the effect is minimal on the sides of objects, but on top and bottom it's quite clear.  On the side you get about 1 shade of gray between black and white.\r
+\r
+This openscad script lets you generate test patterns.  By default, it's configured for 0.3 layer height and 1.6 width/thickness.  You'll need to modify it based on your skeinforge settings.  I bet at higher resolutions with smaller layer heights, you could achieve a greater range.\r
+\r
+I bet you could do some really interesting blending if you used translucent PLA!  Unfortunately I don't have any 1.75mm PLA filament to test... also, I've only tried this with black and white ABS, but I'm pretty sure it would work with other colors so long as the lighter color is on top.\r
+\r
+Note: this test object has an extra layer on top because there's currently a bug with repg dualstrusion where it doesn't print the top layer.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "tbuser" ;
+    okh:repo <https://www.thingiverse.com/thing:12295> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:12295> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of 2 Color Mix Test 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/c7/e7/07/9a/5b/6221657858_3029c0bd25_o_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/c7/e7/07/9a/5b/6221657858_3029c0bd25_o_display_large_display_large.jpg> .
+

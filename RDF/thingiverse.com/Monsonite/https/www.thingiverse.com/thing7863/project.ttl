@@ -1,0 +1,38 @@
+@prefix : <https://www.thingiverse.com/thing%3A7863/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:AnArduinoCompatibleWebserverOnABreadboard a okh:Module ;
+    rdfs:label "An Arduino Compatible Webserver on a Breadboard" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This was an early design from August 2010, which builds a $20 web server on a breadboard.  It was done to prove that it could be done - and got working - which it does!\r
+\r
+It uses ATmega328, ENC28J60 ethernet controller and a 74HC125 as glue logic. A Magjack and FTDI serial/USB cable completes the design. This combination was chosen for low cost, Arduino copatability and that all devices are available in conventional DIL packages.\r
+\r
+A schematic and board layout are included as a reference - but are still work in progress and not considered final - more of a starting point.  \r
+\r
+Since drawing the schematic I have subsequently moved to a different make of Magjack - which is not pin-compatible - please check your Magjack connections carefully.\r
+\r
+The Magjack came on a breakout-board available from Cool Components in the UK and SparkFun in the 'States.  Everything else is fairly standard, I didn't bother with 49.9 ohm resistors, 51ohm 1% work perfectly well.\r
+\r
+There are 2 spare buffers available on the 74HC125.  I've used these to make a wired serial network - see my blog \r
+\r
+http://sustburbia.blogspot.com/2010/08/arduino-compatible-web-server.html\r
+\r
+This design is the forerunner of "Nanode" which also features on Thingiverse.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "Monsonite" ;
+    okh:repo <https://www.thingiverse.com/thing:7863> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:7863> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of An Arduino Compatible Webserver on a Breadboard 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/0c/13/52/bd/0f/breadboard_web_server_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/0c/13/52/bd/0f/breadboard_web_server_display_large_display_large.jpg> .
+

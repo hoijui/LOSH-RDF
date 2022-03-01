@@ -1,0 +1,37 @@
+@prefix : <https://www.thingiverse.com/thing%3A4773/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Mv6 a okh:Module ;
+    rdfs:label "MV6" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is just a placeholder for a fully parametric (openscad scripted) Mendel style vertex. You want it skinny? Want to print quick moulds to fill with resin? Want to add a foot? Want to switch to chunky M10 rod, smaller M6 studding or perhaps carbon-fibre rods?...\r
+\r
+This script makes sure the resulting part is a drop in replacement for the Standard Mendel (or Huxley) Vertex by following certain design guides, while allowing maximum versatility.\r
+\r
+I will be cleaning up the code in the next few days and then release as soon as possible. Features include:\r
+\r
+* Define height and width of the vertex\r
+* Separately define shell (/wall) thickness for vertex and rod sections.\r
+* Add a shell base layer within the vertex (useful for mould making)\r
+* Specify dimensions of a foot if required\r
+* Define studded rod dimensions and tolerances\r
+* Ability to include grub (wood/) screws for fixing bamboo / dowel / carbon-fibre rods.\r
+\r
+Let me know what features you'd like...""" ;
+    okh:hasImage :Image ;
+    okh:licensor "ace_dent" ;
+    okh:repo <https://www.thingiverse.com/thing:4773> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:4773> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of MV6 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/8b/bf/15/25/74/MV6_-_Standard_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/8b/bf/15/25/74/MV6_-_Standard_display_large_display_large.jpg> .
+

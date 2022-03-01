@@ -1,16 +1,17 @@
-@prefix : <https://wikifactory.com/+thr34d5/kfc/a273d75c38834b19266a39cb9cd6cf8699c169b4/> .
+@prefix : <https://wikifactory.com/%2Bthr34d5/kfc/a273d75c38834b19266a39cb9cd6cf8699c169b4/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 :Kfc a okh:Module ;
     rdfs:label "kFC" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "fr" ;
     okh:function "kombucha Fab CityUtilisons le kombucha pour définir nos pratiques de design dans la Fab City ! Rejoins nous en envoyant un mèl à bonjour@thr34d5.org." ;
-    okh:hasComponent :Fermentasaurusreplacementpettank35l,
-        :Francaisrecettepourcultiverunepelliculedekombucha,
-        :Machinekombucha,
-        :Prototype1,
-        :françaisRecettePourTraiterUnePelliculeDeKombucha ;
+    okh:hasComponent :RecettesPourKombuchafrancaisrecettepourcultiverunepelliculedekombucha,
+        :RecettesPourKombuchafrançaisRecettePourTraiterUnePelliculeDeKombucha,
+        :RechercheÉquipeMontréalfermentasaurusreplacementpettank35l,
+        :RechercheÉquipeMontréalmachinekombucha,
+        :RechercheÉquipeMontréalprototype1 ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "Adrien Rigobello" ;
@@ -19,34 +20,9 @@
     okh:repo <https://wikifactory.com/+thr34d5/kfc> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
     okh:version "a273d75c38834b19266a39cb9cd6cf8699c169b4" ;
     okh:versionOf <https://wikifactory.com/+thr34d5/kfc> .
-
-:Fermentasaurusreplacementpettank35l a okh:Part ;
-    rdfs:label "Fermentasaurus_Replacement_PET_tank_35L" ;
-    okh:documentationLanguage "fr" ;
-    okh:licensor "Chauvirey Théo" ;
-    okh:source :Fermentasaurusreplacementpettank35l_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Fermentasaurusreplacementpettank35l_source a okh:SourceFile ;
-    rdfs:label "Source File of Fermentasaurus_Replacement_PET_tank_35L of kFC a273d75c38834b19266a39cb9cd6cf8699c169b4" ;
-    okh:fileFormat "PDF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/33841/fermentasaurus_replacement_pet_tank_35l.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMTM0NDc=> .
-
-:Francaisrecettepourcultiverunepelliculedekombucha a okh:Part ;
-    rdfs:label "Francais_Recette_pour_cultiver_une_pellicule_de_kombucha" ;
-    okh:documentationLanguage "fr" ;
-    okh:licensor "Adrien Rigobello" ;
-    okh:source :Francaisrecettepourcultiverunepelliculedekombucha_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Francaisrecettepourcultiverunepelliculedekombucha_source a okh:SourceFile ;
-    rdfs:label "Source File of Francais_Recette_pour_cultiver_une_pellicule_de_kombucha of kFC a273d75c38834b19266a39cb9cd6cf8699c169b4" ;
-    okh:fileFormat "PDF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/33841/francais_recette_pour_cultiver_une_pellicule_de_kombucha.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozNDA2MzU=> .
 
 :Image a okh:Image ;
     rdfs:label "Image of kFC a273d75c38834b19266a39cb9cd6cf8699c169b4" ;
@@ -54,55 +30,81 @@
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/33841/kfc_banner.png> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToyOTk3Njk=> .
 
-:Machinekombucha a okh:Part ;
-    rdfs:label "Machine_Kombucha" ;
+:Readme a okh:Readme ;
+    rdfs:label "Readme of kFC a273d75c38834b19266a39cb9cd6cf8699c169b4" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/33841/readme-b06a2.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozNDAwNDQ=> .
+
+:RecettesPourKombuchafrancaisrecettepourcultiverunepelliculedekombucha a okh:Part ;
+    rdfs:label "Recettes pour kombucha/Francais_Recette_pour_cultiver_une_pellicule_de_kombucha" ;
     okh:documentationLanguage "fr" ;
-    okh:export :Machinekombucha_export1 ;
-    okh:licensor "Chauvirey Théo" ;
-    okh:source :Machinekombucha_source ;
+    okh:licensor "Adrien Rigobello" ;
+    okh:source :RecettesPourKombuchafrancaisrecettepourcultiverunepelliculedekombucha_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Machinekombucha_export1 a okh:ExportFile ;
-    rdfs:label "Export File of Machine_Kombucha of kFC a273d75c38834b19266a39cb9cd6cf8699c169b4" ;
+:RecettesPourKombuchafrancaisrecettepourcultiverunepelliculedekombucha_source a okh:SourceFile ;
+    rdfs:label "Source File of Recettes pour kombucha/Francais_Recette_pour_cultiver_une_pellicule_de_kombucha of kFC a273d75c38834b19266a39cb9cd6cf8699c169b4" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/33841/francais_recette_pour_cultiver_une_pellicule_de_kombucha.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozNDA2MzU=> .
+
+:RecettesPourKombuchafrançaisRecettePourTraiterUnePelliculeDeKombucha a okh:Part ;
+    rdfs:label "Recettes pour kombucha/[Français] Recette pour traiter une pellicule de kombucha" ;
+    okh:documentationLanguage "fr" ;
+    okh:licensor "Adrien Rigobello" ;
+    okh:source :RecettesPourKombuchafrançaisRecettePourTraiterUnePelliculeDeKombucha_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:RecettesPourKombuchafrançaisRecettePourTraiterUnePelliculeDeKombucha_source a okh:SourceFile ;
+    rdfs:label "Source File of Recettes pour kombucha/[Français] Recette pour traiter une pellicule de kombucha of kFC a273d75c38834b19266a39cb9cd6cf8699c169b4" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/33841/francais_recette_pour_traiter_une_pellicule_de_kombucha.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozNDA2MzY=> .
+
+:RechercheÉquipeMontréalfermentasaurusreplacementpettank35l a okh:Part ;
+    rdfs:label "Recherche: équipe Montréal/Fermentasaurus_Replacement_PET_tank_35L" ;
+    okh:documentationLanguage "fr" ;
+    okh:licensor "Chauvirey Théo" ;
+    okh:source :RechercheÉquipeMontréalfermentasaurusreplacementpettank35l_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:RechercheÉquipeMontréalfermentasaurusreplacementpettank35l_source a okh:SourceFile ;
+    rdfs:label "Source File of Recherche: équipe Montréal/Fermentasaurus_Replacement_PET_tank_35L of kFC a273d75c38834b19266a39cb9cd6cf8699c169b4" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/33841/fermentasaurus_replacement_pet_tank_35l.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozMTM0NDc=> .
+
+:RechercheÉquipeMontréalmachinekombucha a okh:Part ;
+    rdfs:label "Recherche: équipe Montréal/Machine_Kombucha" ;
+    okh:documentationLanguage "fr" ;
+    okh:export :RechercheÉquipeMontréalmachinekombucha_export1 ;
+    okh:licensor "Chauvirey Théo" ;
+    okh:source :RechercheÉquipeMontréalmachinekombucha_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:RechercheÉquipeMontréalmachinekombucha_export1 a okh:ExportFile ;
+    rdfs:label "Export File of Recherche: équipe Montréal/Machine_Kombucha of kFC a273d75c38834b19266a39cb9cd6cf8699c169b4" ;
     okh:fileFormat "STP" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/33841/machine_kombucha.stp> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTozMjY2NzM=> .
 
-:Machinekombucha_source a okh:SourceFile ;
-    rdfs:label "Source File of Machine_Kombucha of kFC a273d75c38834b19266a39cb9cd6cf8699c169b4" ;
+:RechercheÉquipeMontréalmachinekombucha_source a okh:SourceFile ;
+    rdfs:label "Source File of Recherche: équipe Montréal/Machine_Kombucha of kFC a273d75c38834b19266a39cb9cd6cf8699c169b4" ;
     okh:fileFormat "CATPART" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/33841/machine_kombucha.CATPart> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTozMjMxMzg=> .
 
-:Prototype1 a okh:Part ;
-    rdfs:label "Prototype1" ;
+:RechercheÉquipeMontréalprototype1 a okh:Part ;
+    rdfs:label "Recherche: équipe Montréal/Prototype1" ;
     okh:documentationLanguage "fr" ;
     okh:licensor "Chauvirey Théo" ;
-    okh:source :Prototype1_source ;
+    okh:source :RechercheÉquipeMontréalprototype1_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Prototype1_source a okh:SourceFile ;
-    rdfs:label "Source File of Prototype1 of kFC a273d75c38834b19266a39cb9cd6cf8699c169b4" ;
+:RechercheÉquipeMontréalprototype1_source a okh:SourceFile ;
+    rdfs:label "Source File of Recherche: équipe Montréal/Prototype1 of kFC a273d75c38834b19266a39cb9cd6cf8699c169b4" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/33841/prototype1.pdf> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTozMjMxNDY=> .
-
-:Readme a okh:Readme ;
-    rdfs:label "Readme of kFC a273d75c38834b19266a39cb9cd6cf8699c169b4" ;
-    okh:fileFormat "MD" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/33841/readme-7aa6e.md> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMTM2Mzk=> .
-
-:françaisRecettePourTraiterUnePelliculeDeKombucha a okh:Part ;
-    rdfs:label "[Français] Recette pour traiter une pellicule de kombucha" ;
-    okh:documentationLanguage "fr" ;
-    okh:licensor "Adrien Rigobello" ;
-    okh:source :françaisRecettePourTraiterUnePelliculeDeKombucha_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:françaisRecettePourTraiterUnePelliculeDeKombucha_source a okh:SourceFile ;
-    rdfs:label "Source File of [Français] Recette pour traiter une pellicule de kombucha of kFC a273d75c38834b19266a39cb9cd6cf8699c169b4" ;
-    okh:fileFormat "PDF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/33841/francais_recette_pour_traiter_une_pellicule_de_kombucha.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozNDA2MzY=> .
 

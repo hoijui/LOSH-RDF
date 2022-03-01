@@ -1,0 +1,30 @@
+@prefix : <https://www.thingiverse.com/thing%3A12447/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:LowPolybutStillKleinBottle a okh:Module ;
+    rdfs:label "Low poly (but still) klein bottle" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Quick, easy and dirty OpenSCAD to make a low poly klein bottle.\r
+\r
+Ehem... \r
+Quick? Not as much as I thought (1h-1h30)\r
+Easy? Easy would have been using cylinders $fn=3 instead of polyhedrons!\r
+Dirty? Yes! It looks like a parametric thing but it's NOT!\r
+Low Poly? Neither, OpenScad reports 40 faces but there's some misalignment that's adding 4 more than needed.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "aubenc" ;
+    okh:repo <https://www.thingiverse.com/thing:12447> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:12447> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Low poly (but still) klein bottle 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/d5/2a/48/33/83/IMG_2742_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/d5/2a/48/33/83/IMG_2742_display_large_display_large.jpg> .
+

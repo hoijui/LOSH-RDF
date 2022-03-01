@@ -1,0 +1,46 @@
+@prefix : <https://www.thingiverse.com/thing%3A17123/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ParametricBracingFrameVertex a okh:Module ;
+    rdfs:label "Parametric bracing frame vertex" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """The inherent floppiness of the Prusa frame annoys everyone. Here's my attempt at fixing it. This thing keeps the same rod spacing, though you will gain a little Z height and Y travel at the expense of some X clearance, if the nuts are right at the end of your rods.\r
+\r
+Also, this thing can produce accurate copies of the Huxley vertex (by editing the scad file), which is not available in openscad format, I believe. Which also inspired me to make this, as I think they look cool.\r
+\r
+Detailed description\r
+I've been wanting to stiffen up the Prusa frame for a while, as my intention is to have a removable carriage for light milling http://www.thingiverse.com/thing:11535 . This thread http://forums.reprap.org/read.php?151,112816 (you'll need to manually copy and paste the whole address, thingiverse's new style can't cope) got me thinking about how to stiffen up the Prusa frame. One thing I never understood is why the triangular section of the frame gets the widest part of the vertex, despite a triangle being inherently strong, leaving the narrow part of the vertex to give strength to the square part of the frame, which has to resist the forces of the X-axis moving around. The Mendel had much wider frame vertices, and it feels like the Prusa's are slimmed down too much. So I have designed these vertices to have the strength the other way around, to hopefully support the weaker square part of the frame.\r
+\r
+And if that doesn't work, there is also a captive nut space in each foot for bracing the frame.\r
+\r
+Bracing can be done in one of two ways:\r
+1. Use a square MDF / Plywood / Alumin(i)um sheet with an appropriate cutout, sort of like one side of a Ultimaker/Makerbot, to make the frame rigid without compromising build volume.\r
+\r
+2. Attach a cross-brace of M8 studding (connector to come). I know, I know, you'll probably scream and shout that this will reduce build volume. And it's true, it will, but not that much. Most things I build seem to be short, so I value stiffness. I also have a long-held ambition to use the frame for milling, so need greater stiffness. But then the bars are easily removable too.\r
+\r
+You can also use captive nuts in the vertices' feet to bolt your Prusa to a board. \r
+\r
+Feel free to edit the openscad script and come up with vertex dimensions that you feel will improve rigidity.\r
+\r
+Build volume of the 1-footed vertex is about the same as the standard Prusa footed vertices. The 2-footed vertex is a bit more.\r
+\r
+I have printed out this thing now, and even without the cross-brace, I would say that the frame was more resilient to flexing and high-speed oscillation. With the cross-brace, which is easily removed, movement is completely eliminated. The heated bed still has full range of movement. The brace is offset away from the build area, but does cut into it, so careful arrangement of tall parts is needed.\r
+\r
+Questions, observations, comments and/or suggestions all gratefully received.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "droftarts" ;
+    okh:repo <https://www.thingiverse.com/thing:17123> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:17123> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Parametric bracing frame vertex 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/75/d1/3f/28/82/P1010844_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/75/d1/3f/28/82/P1010844_display_large.jpg> .
+

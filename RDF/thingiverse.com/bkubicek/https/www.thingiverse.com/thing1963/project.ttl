@@ -1,0 +1,32 @@
+@prefix : <https://www.thingiverse.com/thing%3A1963/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:DxfAndGcodeGeneratorForInvoluteGears a okh:Module ;
+    rdfs:label "DXF and GCode- generator for involute gears" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is adopted version of cliffords gear generator. Some format statements were changed, to run also on old versions of python, also the visual display part was removed.\r
+Make the file executeable, and it should run on the slightly outdated ubuntu hardy, that is necessary to run the free cnc-controller software emc2.\r
+geargen_hardy is just this version\r
+\r
+however, gearsgcode.py is an advanced script, that will also create a ngc gcode file.\r
+it is parameterized.\r
+It has cutter compensation enabled. Therefore, you need to have a valid tooltable in emc2. Also, you need to make the parameter #5 a little bit larger than the tool radius, so the initial move works.\r
+If the tool radius is too large for the dents, emc2 will complain.\r
+Also, it is recommended that the clearance specified via -c is larger then the tool radius, so there is no friction in the groves.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "bkubicek" ;
+    okh:repo <https://www.thingiverse.com/thing:1963> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:1963> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of DXF and GCode- generator for involute gears 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/ca/fe/53/ea/b8/cuttercompensation_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/ca/fe/53/ea/b8/cuttercompensation_display_large_display_large.jpg> .
+

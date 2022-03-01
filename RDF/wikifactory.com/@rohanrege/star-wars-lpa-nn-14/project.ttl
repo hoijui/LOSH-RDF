@@ -1,22 +1,23 @@
-@prefix : <https://wikifactory.com/@rohanrege/star-wars-lpa-nn-14/faaa0acc9b1f4121d99827aafb304b40f28befda/> .
+@prefix : <https://wikifactory.com/%40rohanrege/star-wars-lpa-nn-14/faaa0acc9b1f4121d99827aafb304b40f28befda/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 :StarWarsLpaNn14 a okh:Module ;
     rdfs:label "Star Wars LPA NN-14" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "I wanted to make something fun while learnig fusion 360, So decided to model the NN-14 blaster from Star Wars.Extremely thankful to Bill Doran" ;
-    okh:hasComponent :Aim,
-        :Barrelfrontbottom,
-        :Barrelfronttop,
-        :Barrelmain,
-        :Grip,
-        :Grippanel1,
-        :Grippanel2,
-        :Lpann14,
-        :Muzzle,
-        :Safety,
-        :Trigger ;
+    okh:hasComponent :Lpann14,
+        :Stlsaim,
+        :Stlsbarrelfrontbottom,
+        :Stlsbarrelfronttop,
+        :Stlsbarrelmain,
+        :Stlsgrip,
+        :Stlsgrippanel1,
+        :Stlsgrippanel2,
+        :Stlsmuzzle,
+        :Stlssafety,
+        :Stlstrigger ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "Rohan" ;
@@ -24,99 +25,9 @@
     okh:repo <https://wikifactory.com/@rohanrege/star-wars-lpa-nn-14> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
     okh:version "faaa0acc9b1f4121d99827aafb304b40f28befda" ;
     okh:versionOf <https://wikifactory.com/@rohanrege/star-wars-lpa-nn-14> .
-
-:Aim a okh:Part ;
-    rdfs:label "Aim" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Rohan" ;
-    okh:source :Aim_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Aim_source a okh:SourceFile ;
-    rdfs:label "Source File of Aim of Star Wars LPA NN-14 faaa0acc9b1f4121d99827aafb304b40f28befda" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/72912/aim.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo0MTc5MDQ=> .
-
-:Barrelfrontbottom a okh:Part ;
-    rdfs:label "Barrel_Front_Bottom" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Rohan" ;
-    okh:source :Barrelfrontbottom_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Barrelfrontbottom_source a okh:SourceFile ;
-    rdfs:label "Source File of Barrel_Front_Bottom of Star Wars LPA NN-14 faaa0acc9b1f4121d99827aafb304b40f28befda" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/72912/barrel_front_bottom.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo0MTc5MDM=> .
-
-:Barrelfronttop a okh:Part ;
-    rdfs:label "Barrel_Front_Top" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Rohan" ;
-    okh:source :Barrelfronttop_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Barrelfronttop_source a okh:SourceFile ;
-    rdfs:label "Source File of Barrel_Front_Top of Star Wars LPA NN-14 faaa0acc9b1f4121d99827aafb304b40f28befda" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/72912/barrel_front_top.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo0MTc5MDI=> .
-
-:Barrelmain a okh:Part ;
-    rdfs:label "Barrel_Main" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Rohan" ;
-    okh:source :Barrelmain_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Barrelmain_source a okh:SourceFile ;
-    rdfs:label "Source File of Barrel_Main of Star Wars LPA NN-14 faaa0acc9b1f4121d99827aafb304b40f28befda" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/72912/barrel_main.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo0MTc5MDE=> .
-
-:Grip a okh:Part ;
-    rdfs:label "Grip" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Rohan" ;
-    okh:source :Grip_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Grip_source a okh:SourceFile ;
-    rdfs:label "Source File of Grip of Star Wars LPA NN-14 faaa0acc9b1f4121d99827aafb304b40f28befda" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/72912/grip.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo0MTc4OTg=> .
-
-:Grippanel1 a okh:Part ;
-    rdfs:label "Grip_Panel_1" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Rohan" ;
-    okh:source :Grippanel1_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Grippanel1_source a okh:SourceFile ;
-    rdfs:label "Source File of Grip_Panel_1 of Star Wars LPA NN-14 faaa0acc9b1f4121d99827aafb304b40f28befda" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/72912/grip_panel_1.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo0MTc5MDA=> .
-
-:Grippanel2 a okh:Part ;
-    rdfs:label "Grip_Panel_2" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Rohan" ;
-    okh:source :Grippanel2_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Grippanel2_source a okh:SourceFile ;
-    rdfs:label "Source File of Grip_Panel_2 of Star Wars LPA NN-14 faaa0acc9b1f4121d99827aafb304b40f28befda" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/72912/grip_panel_2.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo0MTc4OTk=> .
 
 :Image a okh:Image ;
     rdfs:label "Image of Star Wars LPA NN-14 faaa0acc9b1f4121d99827aafb304b40f28befda" ;
@@ -137,47 +48,138 @@
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/72912/lpa_nn-14.step> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo0MTc4ODc=> .
 
-:Muzzle a okh:Part ;
-    rdfs:label "Muzzle" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Rohan" ;
-    okh:source :Muzzle_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Muzzle_source a okh:SourceFile ;
-    rdfs:label "Source File of Muzzle of Star Wars LPA NN-14 faaa0acc9b1f4121d99827aafb304b40f28befda" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/72912/muzzle.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo0MTc4OTc=> .
-
 :Readme a okh:Readme ;
     rdfs:label "Readme of Star Wars LPA NN-14 faaa0acc9b1f4121d99827aafb304b40f28befda" ;
     okh:fileFormat "MD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/72912/readme.md> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo0MTc5NjA=> .
 
-:Safety a okh:Part ;
-    rdfs:label "Safety" ;
+:Stlsaim a okh:Part ;
+    rdfs:label "STLS/Aim" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Rohan" ;
-    okh:source :Safety_source ;
+    okh:source :Stlsaim_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Safety_source a okh:SourceFile ;
-    rdfs:label "Source File of Safety of Star Wars LPA NN-14 faaa0acc9b1f4121d99827aafb304b40f28befda" ;
+:Stlsaim_source a okh:SourceFile ;
+    rdfs:label "Source File of STLS/Aim of Star Wars LPA NN-14 faaa0acc9b1f4121d99827aafb304b40f28befda" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/72912/aim.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0MTc5MDQ=> .
+
+:Stlsbarrelfrontbottom a okh:Part ;
+    rdfs:label "STLS/Barrel_Front_Bottom" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Rohan" ;
+    okh:source :Stlsbarrelfrontbottom_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Stlsbarrelfrontbottom_source a okh:SourceFile ;
+    rdfs:label "Source File of STLS/Barrel_Front_Bottom of Star Wars LPA NN-14 faaa0acc9b1f4121d99827aafb304b40f28befda" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/72912/barrel_front_bottom.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0MTc5MDM=> .
+
+:Stlsbarrelfronttop a okh:Part ;
+    rdfs:label "STLS/Barrel_Front_Top" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Rohan" ;
+    okh:source :Stlsbarrelfronttop_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Stlsbarrelfronttop_source a okh:SourceFile ;
+    rdfs:label "Source File of STLS/Barrel_Front_Top of Star Wars LPA NN-14 faaa0acc9b1f4121d99827aafb304b40f28befda" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/72912/barrel_front_top.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0MTc5MDI=> .
+
+:Stlsbarrelmain a okh:Part ;
+    rdfs:label "STLS/Barrel_Main" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Rohan" ;
+    okh:source :Stlsbarrelmain_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Stlsbarrelmain_source a okh:SourceFile ;
+    rdfs:label "Source File of STLS/Barrel_Main of Star Wars LPA NN-14 faaa0acc9b1f4121d99827aafb304b40f28befda" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/72912/barrel_main.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0MTc5MDE=> .
+
+:Stlsgrip a okh:Part ;
+    rdfs:label "STLS/Grip" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Rohan" ;
+    okh:source :Stlsgrip_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Stlsgrip_source a okh:SourceFile ;
+    rdfs:label "Source File of STLS/Grip of Star Wars LPA NN-14 faaa0acc9b1f4121d99827aafb304b40f28befda" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/72912/grip.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0MTc4OTg=> .
+
+:Stlsgrippanel1 a okh:Part ;
+    rdfs:label "STLS/Grip_Panel_1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Rohan" ;
+    okh:source :Stlsgrippanel1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Stlsgrippanel1_source a okh:SourceFile ;
+    rdfs:label "Source File of STLS/Grip_Panel_1 of Star Wars LPA NN-14 faaa0acc9b1f4121d99827aafb304b40f28befda" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/72912/grip_panel_1.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0MTc5MDA=> .
+
+:Stlsgrippanel2 a okh:Part ;
+    rdfs:label "STLS/Grip_Panel_2" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Rohan" ;
+    okh:source :Stlsgrippanel2_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Stlsgrippanel2_source a okh:SourceFile ;
+    rdfs:label "Source File of STLS/Grip_Panel_2 of Star Wars LPA NN-14 faaa0acc9b1f4121d99827aafb304b40f28befda" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/72912/grip_panel_2.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0MTc4OTk=> .
+
+:Stlsmuzzle a okh:Part ;
+    rdfs:label "STLS/Muzzle" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Rohan" ;
+    okh:source :Stlsmuzzle_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Stlsmuzzle_source a okh:SourceFile ;
+    rdfs:label "Source File of STLS/Muzzle of Star Wars LPA NN-14 faaa0acc9b1f4121d99827aafb304b40f28befda" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/72912/muzzle.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0MTc4OTc=> .
+
+:Stlssafety a okh:Part ;
+    rdfs:label "STLS/Safety" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Rohan" ;
+    okh:source :Stlssafety_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Stlssafety_source a okh:SourceFile ;
+    rdfs:label "Source File of STLS/Safety of Star Wars LPA NN-14 faaa0acc9b1f4121d99827aafb304b40f28befda" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/72912/safety.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo0MTc4OTY=> .
 
-:Trigger a okh:Part ;
-    rdfs:label "Trigger" ;
+:Stlstrigger a okh:Part ;
+    rdfs:label "STLS/Trigger" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Rohan" ;
-    okh:source :Trigger_source ;
+    okh:source :Stlstrigger_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Trigger_source a okh:SourceFile ;
-    rdfs:label "Source File of Trigger of Star Wars LPA NN-14 faaa0acc9b1f4121d99827aafb304b40f28befda" ;
+:Stlstrigger_source a okh:SourceFile ;
+    rdfs:label "Source File of STLS/Trigger of Star Wars LPA NN-14 faaa0acc9b1f4121d99827aafb304b40f28befda" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/72912/trigger.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo0MTc4OTU=> .

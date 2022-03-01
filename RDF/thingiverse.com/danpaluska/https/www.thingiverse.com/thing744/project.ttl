@@ -1,0 +1,44 @@
+@prefix : <https://www.thingiverse.com/thing%3A744/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:PlaygoRobot a okh:Module ;
+    rdfs:label "playgo robot" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """here's a flickr set for this bot\r
+http://www.flickr.com/photos/sixmilliondollardan/sets/72157616240288122/\r
+\r
+the zip file is a bunch of solidworks files. SW2006 i think. but i can't remember exactly. i will try to find my parts spreadsheet and toss that up as well. \r
+\r
+Spring 2008.\r
+I designed and built a simple torso for a Go playing(manipulation driven, not strategy) robot for Prof Rod Brooks at MIT CSAIL. Postdoc Eduardo Torres-Jara works on the motor drivers, control, and hand design. Josh Kargas did some of the electronics mounting and routing.\r
+\r
+Robot has 6 Series Elastic Actuator degrees of freedom. But waist is locked out and shoulder joints have the spring shorted out.\r
+\r
+DOFS:\r
+waist yaw\r
+shoulder x 2\r
+elbow x 2\r
+wrist vertical axis x 1\r
+wrist rotation axis x 1\r
+neck pitch x 1\r
+head tilt x 1\r
+head pan x 1\r
+\r
+yes analog sensors. potentiometers are awesome.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "danpaluska" ;
+    okh:repo <https://www.thingiverse.com/thing:744> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:744> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of playgo robot 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/97/24/25/d2/2c/3405052435_b008bdd173_o_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/97/24/25/d2/2c/3405052435_b008bdd173_o_display_large_display_large.jpg> .
+

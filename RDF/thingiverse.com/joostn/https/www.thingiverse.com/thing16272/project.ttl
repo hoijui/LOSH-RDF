@@ -1,0 +1,58 @@
+@prefix : <https://www.thingiverse.com/thing%3A16272/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:OpenjscadLikeOpenscadButUsingJavascript a okh:Module ;
+    rdfs:label "OpenJsCad: like OpenSCAD, but using JavaScript" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Not sure how to announce this other than by uploading a 'thing'. So here is one.  
+
+
+
+Enthousiastic about OpenSCAD but somewhat frustrated by the limitations of its language, I've worked on an alternative using Javascript. It's free, completely open source, still seriously under construction, based on Evan Wallace's CSG.js library and can be used in a web browser,  
+
+
+
+See: http://joostn.github.com/OpenJsCad/  
+
+
+
+The benefits over openSCAD are mainly in the language itself: you can use dynamic arrays for example, and solids can be stored in variables.  
+
+
+
+UPDATE: I've added a parser for local files as well. Create your own .jscad files, go to   
+
+http://joostn.github.com/OpenJsCad/processfile.html to parse them into an STL file.  
+
+
+
+UPDATE 2: Here's my first real thing designed with OpenJsCad:  
+
+http://www.thingiverse.com/thing:16329  
+
+
+
+UPDATE 3: Now with interactive parameter editing! Check out:  
+
+http://joostn.github.com/OpenJsCad/gearsdemo.html  
+
+
+
+Syntax has been changed slightly! Solids must now be constructed in, and returned from, the main() function. Previously this was done in global scope of the script.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "joostn" ;
+    okh:repo <https://www.thingiverse.com/thing:16272> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:16272> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of OpenJsCad: like OpenSCAD, but using JavaScript 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://thingiverse-rerender-new.s3.amazonaws.com/renders/e2/cb/c7/cf/42/1_display_large.jpg> ;
+    okh:permaURL <https://thingiverse-rerender-new.s3.amazonaws.com/renders/e2/cb/c7/cf/42/1_display_large.jpg> .
+

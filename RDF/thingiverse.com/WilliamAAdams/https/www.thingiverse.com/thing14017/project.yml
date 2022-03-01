@@ -1,0 +1,48 @@
+__meta:
+  branch: null
+  created-at: '2011-11-27T13:19:26+00:00'
+  history: null
+  last-changed: null
+  last-visited: '2022-02-25T11:00:02.616920+00:00'
+  owner: WilliamAAdams
+  path: null
+  repo: https://www.thingiverse.com/thing:14017
+  score: null
+  source: thingiverse.com
+attestation: null
+bom: null
+contribution-guide: null
+cpc-patent-class: null
+documentation-language: en
+documentation-readiness-level: odrl3
+function: "Ever since I saw the Mobius Heart earlier this week: \r\nhttp://www.thingiverse.com/thing:13861\r\n\r\nI've been slaving away at the forge trying to replicate that feat in a solid math sort of way.\r\n\r\nThis thing represents a parametric torus, which is NOT the same thing as being able to create a heart shaped Mobius strip, but it is one step closer.\r\n\r\nBasically, you can give the torus a function which determines the profile of the cross section of the torus as it sweeps around.  In this case, I've used the SuperEllipse formula: \r\nhttp://en.wikipedia.org/wiki/Superellipse\r\n\r\nYou could just as easily substitute a 2D superformula and make even more wild Torii.\r\n\r\nThe critical piece of code is right here:\r\n\r\n\tlocal seprofiler = param_superellipse.new({\r\n\t\tXRadius = 3,\r\n\t\tZRadius = 20,\r\n\t\tN = 0.2,\r\n\t\t})\r\n\r\n\tlocal lshape = shape_torus.new({\r\n\t\tHoleRadius = offset,\r\n\t\tProfileSampler = seprofiler,\r\n\t\tUSteps = 90,\r\n\t\tWSteps = 180,\r\n\t\tMinPhi = math.rad(0),\r\n\t\tMaxPhi = math.rad(360),\t-- Great circle\r\n\t\tMinTheta = 0,\r\n\t\tMaxTheta = math.rad(360),\t-- profile\r\n\t\t})\r\n\taddshape(lshape)\r\n\r\nJust change the values on that param_superellipse thing and you'll get different shapes.  If 'N'=1, for example, you'll get more classic Ellipse/Circle behavior.  'N'<1, you get more squarish.  'N' > 1, up to around 5, and you get the pointy thing going on.\r\n\r\nWhile I was out exploring the moon using this model:\r\nhttp://www.thingiverse.com/thing:14011\r\n\r\nI came across a space ship, which you can see modeled here.  There was some sort of inscription, which I interpret to mean:\r\n\"All Your Toroid Are Belong to Us!\"\r\n\r\nI took a scan of the inside, and as you can see, it's empty in there.  Further proof that the aliens have long since left our civilization behind.  And also further proof that the moon, and everything that surrounds it, is nothing more than an inflated toy."
+image:
+  created-at: '2011-11-27T13:19:26+00:00'
+  last-changed: '2011-11-27T13:19:26+00:00'
+  last-visited: '2022-02-25T21:31:28.044571+00:00'
+  license: CC-BY-4.0
+  licensor: WilliamAAdams
+  mime-type: null
+  name: toroid_saucer_display_large_display_large
+  path: https:/cdn.thingiverse.com/renders/ed/2a/2f/47/67/toroid_saucer_display_large_display_large.jpg
+  perma-url: https://cdn.thingiverse.com/renders/ed/2a/2f/47/67/toroid_saucer_display_large_display_large.jpg
+  url: https://cdn.thingiverse.com/renders/ed/2a/2f/47/67/toroid_saucer_display_large_display_large.jpg
+license: CC-BY-4.0
+licensor: WilliamAAdams
+manufacturing-instructions: null
+name: Parametric Torus in Banate CAD
+okhv: OKH-LOSHv1.0
+organization: null
+part: []
+publication: null
+readme: null
+release: null
+repo: https://www.thingiverse.com/thing:14017
+software: []
+specific-api-data: {}
+standard-compliance: null
+technology-readiness-level: ortl4
+tsdc: null
+upload-method: auto
+user-manual: null
+version: 1.0.0

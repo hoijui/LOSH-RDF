@@ -1,0 +1,38 @@
+@prefix : <https://www.thingiverse.com/thing%3A5219/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:YazzoMonkeybot a okh:Module ;
+    rdfs:label "Yazzo MonkeyBot" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """If you put a thousand monkeys in a room with enough plastic...\r
+\r
+This is the culmination of a study in panel connections.  Basically, I took my MakerBot apart and reconstructed it using Yazzo Panel clips: http://www.thingiverse.com/thing:5208\r
+\r
+Once I'm finally done for sure, I'll put the actual inventory in the parts list.\r
+\r
+Now that I know the basic concept can work, I'll make another one starting from basic plywood pieces that I can cut without the use of a laser cutter.\r
+\r
+And after that, perhaps acrylic, or glass, or sheet metal.  Really, the system allows me to quickly throw together any case concept just to experiment.\r
+\r
+UPDATE: 20 Dec 2010\r
+Added LTSlotClip.stl - This will actually fit in the T-Slot where the M3 captured nuts would normally go.  It's not particularly practical to print at the moment though, so it will require some more work to be easily repeatable without any support structure.\r
+\r
+UPDATE: 9 Jan 2011\r
+Updated the part to be used for the clip.  There is a new locking L-Clip""" ;
+    okh:hasImage :Image ;
+    okh:licensor "WilliamAAdams" ;
+    okh:repo <https://www.thingiverse.com/thing:5219> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:5219> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Yazzo MonkeyBot 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/d7/df/8d/a2/52/MonkeyBotClipped_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/d7/df/8d/a2/52/MonkeyBotClipped_display_large_display_large.jpg> .
+

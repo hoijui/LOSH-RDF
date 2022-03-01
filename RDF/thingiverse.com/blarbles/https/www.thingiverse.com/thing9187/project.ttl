@@ -1,0 +1,32 @@
+@prefix : <https://www.thingiverse.com/thing%3A9187/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ZaxisFollowerPrototype a okh:Module ;
+    rdfs:label "Z-Axis Follower Prototype" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """The Z-Axis follower is designed to be inserted into one or both sides of the z-axis ToM where the press-fit bearing would go in-between the top and bottom z-axis pieces.  This is an untested prototype that I thought I would put on thingiverse to see if anyone saw any obvious flaws.  I will be printing this soon to try it out.\r
+\r
+The goal was to make it fit inside the regular z-axis constraints and require minimal modification to the z-axis (4 screw holes currently).\r
+\r
+There are obviously no bearings on one side due to space constraints, but I was hoping having two of these would essentially force the z-axis to push against the inside bearings.\r
+\r
+If this works it would probably wise to add screw holes to secure it to the z-axis side pieces to improve rigidity.\r
+\r
+The design is ugly and boring but it is somewhat easy to modify.  I used Sketchup which I know is disappointing to many, but I am a visual person and struggle with OpenSCAD.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "blarbles" ;
+    okh:repo <https://www.thingiverse.com/thing:9187> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:9187> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Z-Axis Follower Prototype 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/5f/c3/b5/6c/13/zfollower_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/5f/c3/b5/6c/13/zfollower_display_large_display_large.jpg> .
+

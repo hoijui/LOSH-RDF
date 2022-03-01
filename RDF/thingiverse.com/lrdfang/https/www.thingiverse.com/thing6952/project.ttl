@@ -1,0 +1,28 @@
+@prefix : <https://www.thingiverse.com/thing%3A6952/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:SpindleEdgeClips a okh:Module ;
+    rdfs:label "Spindle Edge Clips" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """I recently got my new Thing-O-Matic and matching Mk1 Spindle( http://www.thingiverse.com/thing:3116 ). After a while of using it I found that the filament would become slack and slide off the the spindle with time. This lead to a lot of jams that were ruining prints. So I came up with the idea of using something to keep the filament on the spool base. Sitting down with OpenSCAD and a little experimentation I came up with these. The basic idea is that the pegs work as outside edges for the spindle and keep the filament from falling underneath.\r
+\r
+When I printed them I out I noticed two slight problems. The first being that there is not enough room inside the box to allow these on the outside of the spool. The second I noticed they seem to catch a little on the back side by the feed hole. The first problem was solved by cutting out notches in the bottom of the spool. The second ended up not really being a problem at all. While they catch a little it looks to be a slight thing and my extruder just pulls the filament over the peg with a click and it spins to the next peg.\r
+\r
+I have a stepstuder so I am not sure if this has more pull power than a DC motor powered but from watching the spindle it actually looks like less force needed to get over the pegs than required to pull it out from under the gap next to the spool and the box when it would fall off. Though if someone has problems with it I am sure that it can be adjusted in size to fit their needs. This is why the SCAD file is attached.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "lrdfang" ;
+    okh:repo <https://www.thingiverse.com/thing:6952> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:6952> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Spindle Edge Clips 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/40/50/59/3d/61/2011-03-08_23-46-10_101%5B1_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/40/50/59/3d/61/2011-03-08_23-46-10_101%5B1_display_large_display_large.jpg> .
+

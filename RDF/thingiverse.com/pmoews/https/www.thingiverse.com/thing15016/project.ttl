@@ -1,0 +1,30 @@
+@prefix : <https://www.thingiverse.com/thing%3A15016/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:PillBoxes a okh:Module ;
+    rdfs:label "Pill Boxes" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """OpenSCAD has default values for the number of faces in its representations of spheres.  When the command "sphere(r=2);" is entered a 16 sided polyhedron is formed that looks like two seven sided pill boxes stuck together.  Pill_Box_01.stl is made from a portion of this 16 sided polyhedron.  It has sloping sides, and while attractive, is difficult to print.  Pill_Box_02.stl is a simpler box with seven vertical sides.  It has room for a few more pills and is perhaps easier to print.  Both boxes are labeled with the days of the week.\r
+\r
+Two lids, held in place by a pin, are provided.  One is a simple flat lid with a built in pin.  The second lid has raised edges and uses a separate pin. Images of the lids are shown at the left.  Code for the lid with pill pockets is included in lid_nice.scad.\r
+\r
+The text comes from Inkscape dxf files.  Information as to how this was done is included as comments in the scad files - see the Sunday module.  There should be enough detail in the comments to reproduce the text files.  The most important thing is to make sure that the text is centered.   The rotate and translate commands in the text positioning modules require centered text.  I used polymaker's "Inkscape OpenSCAD DXF Export",(thing:14221), to make the dxf files.\r
+\r
+The openSCAD files that created the boxes and lids are available below.  I've included comments which I hope will be helpful.  It's easy to move the text around, to change from raised to indented text, or to leave the text off altogether.  Changing to indented text, by moving the print statement from inclusion in a union statement to inclusion in a difference statement, might result in files which print more easily.  I've added the dxf files zipped together, week_txt.zip.  They take some time to create and are required if anyone wants to experiment with the openSCAD files.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "pmoews" ;
+    okh:repo <https://www.thingiverse.com/thing:15016> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:15016> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Pill Boxes 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/37/03/5b/c9/08/box_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/37/03/5b/c9/08/box_display_large_display_large.jpg> .
+

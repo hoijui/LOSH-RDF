@@ -1,65 +1,67 @@
-@prefix : <https://wikifactory.com/@paul/sketch-notebook/cf585575b8bae88a9f3f31d97392138d4f878fb8/> .
+@prefix : <https://wikifactory.com/%40paul/sketch-notebook/cf585575b8bae88a9f3f31d97392138d4f878fb8/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 :SketchNotebook a okh:Module ;
     rdfs:label "Sketch Notebook" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "Turn your laptop and smartphone into a smart interactive Sketch Note book." ;
-    okh:hasComponent :Sketchbookholder,
-        :Sketchbookholdercombine3 ;
+    okh:hasComponent :Cadsketchbookholder,
+        :Cadsketchbookholdercombine3 ;
     okh:hasReadme :Readme ;
     okh:licensor "Paul Groneveld" ;
     okh:release <https://wikifactory.com/@paul/sketch-notebook/v/cf58557> ;
     okh:repo <https://wikifactory.com/@paul/sketch-notebook> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
     okh:version "cf585575b8bae88a9f3f31d97392138d4f878fb8" ;
     okh:versionOf <https://wikifactory.com/@paul/sketch-notebook> .
+
+:Cadsketchbookholder a okh:Part ;
+    rdfs:label "cad/Sketchbook_holder" ;
+    okh:documentationLanguage "en" ;
+    okh:export :Cadsketchbookholder_export1 ;
+    okh:licensor "Paul Groneveld" ;
+    okh:source :Cadsketchbookholder_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Cadsketchbookholder_export1 a okh:ExportFile ;
+    rdfs:label "Export File of cad/Sketchbook_holder of Sketch Notebook cf585575b8bae88a9f3f31d97392138d4f878fb8" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/3027/sketchbookholder-0.STL> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyNTQzMw==> .
+
+:Cadsketchbookholder_source a okh:SourceFile ;
+    rdfs:label "Source File of cad/Sketchbook_holder of Sketch Notebook cf585575b8bae88a9f3f31d97392138d4f878fb8" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/3027/sketchbookholder.SLDPRT> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyNTQzMQ==> .
+
+:Cadsketchbookholdercombine3 a okh:Part ;
+    rdfs:label "cad/Sketchbook_holder-Combine3" ;
+    okh:documentationLanguage "en" ;
+    okh:export :Cadsketchbookholdercombine3_export1 ;
+    okh:licensor "Paul Groneveld" ;
+    okh:source :Cadsketchbookholdercombine3_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Cadsketchbookholdercombine3_export1 a okh:ExportFile ;
+    rdfs:label "Export File of cad/Sketchbook_holder-Combine3 of Sketch Notebook cf585575b8bae88a9f3f31d97392138d4f878fb8" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/3027/sketchbookholder-combine3-1.STL> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyNTQzNw==> .
+
+:Cadsketchbookholdercombine3_source a okh:SourceFile ;
+    rdfs:label "Source File of cad/Sketchbook_holder-Combine3 of Sketch Notebook cf585575b8bae88a9f3f31d97392138d4f878fb8" ;
+    okh:fileFormat "SLDPRT" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/3027/sketchbookholder-combine3-1.SLDPRT> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyNTQzNg==> .
 
 :Readme a okh:Readme ;
     rdfs:label "Readme of Sketch Notebook cf585575b8bae88a9f3f31d97392138d4f878fb8" ;
     okh:fileFormat "MD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/3027/readme-14f8e.md> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToyMTE1Mzc=> .
-
-:Sketchbookholder a okh:Part ;
-    rdfs:label "Sketchbook_holder" ;
-    okh:documentationLanguage "en" ;
-    okh:export :Sketchbookholder_export1 ;
-    okh:licensor "Paul Groneveld" ;
-    okh:source :Sketchbookholder_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Sketchbookholder_export1 a okh:ExportFile ;
-    rdfs:label "Export File of Sketchbook_holder of Sketch Notebook cf585575b8bae88a9f3f31d97392138d4f878fb8" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/3027/sketchbookholder-0.STL> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyNTQzMw==> .
-
-:Sketchbookholder_source a okh:SourceFile ;
-    rdfs:label "Source File of Sketchbook_holder of Sketch Notebook cf585575b8bae88a9f3f31d97392138d4f878fb8" ;
-    okh:fileFormat "SLDPRT" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/3027/sketchbookholder.SLDPRT> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyNTQzMQ==> .
-
-:Sketchbookholdercombine3 a okh:Part ;
-    rdfs:label "Sketchbook_holder-Combine3" ;
-    okh:documentationLanguage "en" ;
-    okh:export :Sketchbookholdercombine3_export1 ;
-    okh:licensor "Paul Groneveld" ;
-    okh:source :Sketchbookholdercombine3_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Sketchbookholdercombine3_export1 a okh:ExportFile ;
-    rdfs:label "Export File of Sketchbook_holder-Combine3 of Sketch Notebook cf585575b8bae88a9f3f31d97392138d4f878fb8" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/3027/sketchbookholder-combine3-1.STL> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyNTQzNw==> .
-
-:Sketchbookholdercombine3_source a okh:SourceFile ;
-    rdfs:label "Source File of Sketchbook_holder-Combine3 of Sketch Notebook cf585575b8bae88a9f3f31d97392138d4f878fb8" ;
-    okh:fileFormat "SLDPRT" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/3027/sketchbookholder-combine3-1.SLDPRT> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyNTQzNg==> .
 

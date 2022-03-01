@@ -1,0 +1,30 @@
+@prefix : <https://www.thingiverse.com/thing%3A7350/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ForgeBlower a okh:Module ;
+    rdfs:label "Forge Blower" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is a parametric design for a centrifugal fan. I wanted one that could take a knock or two to blow air into my forge with, so I designed one with parametric wall thickness, fan clearance, diameter, height, output nozzle and inlet hole diameter etc. It can be printed entirely without support material and the two halves are held together with 3xNo.8 screws.\r
+\r
+The sample fan is 70mm in diameter and 45mm high. It uses a small 12V motor I salvaged, but can easily be modified (physically or programmatically) to suit a range of motors.\r
+\r
+The forge now has an RP'd 110mm diameter blower, and that blows plenty of air into the tuyere. The motor I chose does not have a very high RPM. It can only just reach white heat with one fan, but does not melt even in PLA due to the high airflow. A much faster motor on a smaller printed blower produces a higher flow, so I'm sure I can get more out of it later.\r
+\r
+If you want one with a handle on, see http://www.thingiverse.com/thing:8096""" ;
+    okh:hasImage :Image ;
+    okh:licensor "vik" ;
+    okh:repo <https://www.thingiverse.com/thing:7350> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:7350> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Forge Blower 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/ae/bb/e9/7e/d9/20110327_002_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/ae/bb/e9/7e/d9/20110327_002_display_large_display_large.jpg> .
+

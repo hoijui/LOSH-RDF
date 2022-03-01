@@ -1,0 +1,40 @@
+@prefix : <https://www.thingiverse.com/thing%3A12592/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:TheSaturdayKiller a okh:Module ;
+    rdfs:label "The Saturday Killer" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """26 prints. 25 color changes. 10 Zoffset adjustments. 3 hours. And that's not including designing time (which I'm scared to tally.)\r
+\r
+I really, really wanted to see how far I could push multicolor printing, and I think this is it; I'm not sure I can push any farther.\r
+\r
+What we have here is a 5 color bottle opener with text on the 4 edges.  I went with a play on the classic Simpsons line:  "Beer.  Cause of. Solution to. Problems" ( http://www.youtube.com/watch?v=hUVwR0rw5fk )\r
+\r
+As you can imagine, the process was pretty tricky. I needed to make and position an object for each color in OpenSCAD. Then, because this was going to be done as a series of prints, I needed to pre-slice those objects into 2 layer pieces (except for the top and bottom - those were 4 layers)\r
+\r
+The main challenge I had was getting the text to skein faithfully. Rounded edges caused the text hole to sometimes be a different size than the text that was going there.\r
+\r
+So... after 10 hours of trying other fonts... I made my own custom font. sort of. I only made the letters I needed. With layer thickness and path width as variables, I was able to get hole and text to match. But it really only came together once I added a solid bar behind each of the text objects. This caused each layer of the text to be skeined as a nearly-continuous stream, which really improved final quality.\r
+\r
+Anyway. I'm tired. Time to go lay down. \r
+\r
+More info here: http://brettbeauregard.com/blog/2011/10/a-proper-multi-color-print/\r
+\r
+UPDATE: I created the rest of the alphabet and put it into a work-in-progress font here: http://www.thingiverse.com/thing:12618""" ;
+    okh:hasImage :Image ;
+    okh:licensor "br3ttb" ;
+    okh:repo <https://www.thingiverse.com/thing:12592> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:12592> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of The Saturday Killer 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/de/5d/9b/02/3f/goodbye_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/de/5d/9b/02/3f/goodbye_display_large_display_large.jpg> .
+

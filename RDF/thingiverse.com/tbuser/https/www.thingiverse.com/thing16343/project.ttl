@@ -1,0 +1,32 @@
+@prefix : <https://www.thingiverse.com/thing%3A16343/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:HilbertCube a okh:Module ;
+    rdfs:label "Hilbert Cube" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """While looking for new interesting things to print using water soluble PVA support, I decided I want to try to make a Hilbert Cube: http://en.wikipedia.org/wiki/Hilbert_cube\r
+\r
+After trying and failing to do it in openscad, I worked around it's limitations by writing a ruby script that generates openscad code.  This ruby script can create a 1-3 iterations of a hilbert curve in 3d.  I borrowed code from a Processing script by Thomas Diewald at http://www.openprocessing.org/visuals/?visualID=15599\r
+\r
+Unfortunately after doing this, I realized it wasn't really a hilbert cube as the shape is not one continuous curve. :(  Still it looks cool and is pretty much impossible to print without dissolvable support.  It would be awesome if someone smarter than me would make a proper parametric hilbert cube generator, plz!\r
+\r
+I also found a really nice and proper curved hilbert cube by Carlo H. SÃÂ©quin at http://www.cs.berkeley.edu/~sequin/X/Hilbert_Cube/ I resized it and made a support model for it.  I don't know what the license is on it, hopefully he won't mind me reposting it here.  The problem with this model is that it is curved in a way that makes it a more difficult print.\r
+\r
+See also this hilbert cube print from shapeways: http://www.youtube.com/watch?v=9cdWpQ2D-O8""" ;
+    okh:hasImage :Image ;
+    okh:licensor "tbuser" ;
+    okh:repo <https://www.thingiverse.com/thing:16343> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:16343> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Hilbert Cube 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/5d/ae/cd/a5/0f/6744159955_0d301661fb_o_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/5d/ae/cd/a5/0f/6744159955_0d301661fb_o_display_large_display_large.jpg> .
+

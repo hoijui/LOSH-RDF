@@ -1,0 +1,48 @@
+@prefix : <https://www.thingiverse.com/thing%3A15699/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ParametricPcbRackmountSystem a okh:Module ;
+    rdfs:label "Parametric PCB Rackmount system" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This OpenSCAD script will generate a single part rack for mounting multiple double-stacked 25x25mm Radio->USB "base station" PCB units. This allows the units to be easily slid into the enclosure where they will be held securely by friction and locked in place by micro-USB plugs which attach at the side. These racks will be acetone-welded into commercial ABS enclosures for a professional looking, low-cost and secure medium scale technology build.\r
+\r
+This would be of use to someone who wants a modular system for securing multiple stacked PCBs within a larger enclosure in such a way that they can be readily removed.\r
+\r
+Changes from previous versions:\r
+v0.7\r
+ - 	simple single stack versions for pole attached units\r
+ - 	decrease thickness of layer separator or increase width of cutouts on each side by 0.2mm (measured gap after printing probably due to tolerancing etc.)\r
+ - 	add cutouts on bottom to help with sanding runners smooth (sized for standard nail file/emory board width of 12mm\r
+v0.6\r
+ - 	use rounded cuboid for USB plug cutout to attempt to prevent roof from falling in\r
+v0.5\r
+ - 	fixed cutout for USB above thicker shorter section by placing difference operation across entire union operation\r
+v0.4\r
+ - 	added support to thicker section to help it print properly at large z values\r
+ - 	added cap and cutout for USB above thicker shorter section\r
+v0.3\r
+ - 	added support to thin section to help it print properly at large z values\r
+v0.2 2011-12-13\r
+ - 	make base thinner\r
+ - 	make tray walls taller\r
+ - 	remove tray lip\r
+ - 	a 4 base station unit with mouse ears in a hollow cuboid tray\r
+v0.1 2011-12-13\r
+ - 	first attempt a 2 base station unit with mouse ears in a hollow cuboid tray""" ;
+    okh:hasImage :Image ;
+    okh:licensor "M_G" ;
+    okh:repo <https://www.thingiverse.com/thing:15699> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:15699> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Parametric PCB Rackmount system 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/fd/ad/15/76/6f/WIMU_Build_Basestation_v0.2_4_units_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/fd/ad/15/76/6f/WIMU_Build_Basestation_v0.2_4_units_display_large_display_large.jpg> .
+

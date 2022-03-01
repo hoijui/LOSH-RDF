@@ -1,0 +1,35 @@
+@prefix : <https://www.thingiverse.com/thing%3A395/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ReprapMotherboardV11 a okh:Module ;
+    rdfs:label "RepRap Motherboard v1.1" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This board is the brains behind the Generation 3 Electronics. The heart is a Sanguino which is an Arduino-compatible board that is powered by an ATMEGA644P chip. It has connectors to hook up all the various peripherals that you'll need to drive a RepRap machine. It has headers for three stepper drivers, as well as 4 RJ45 connectors for Extruder Controller Boards. Not only that, but it has an SD card and a connector to hook it up to an ATX power supply.\r
+\r
+Some highlights:\r
+\r
+    * Onboard atmega644p - 64K flash space, 4k ram, 32 I/O pins, Arduino compatible.\r
+    * 3 x Stepper driver connectors with min/max inputs.\r
+    * Built-in SD card socket for printing from file and buffering large print jobs.\r
+    * RS485 connection for noise-free communications with extruder / toolhead controllers.\r
+    * ATX power connector for power. It can also turn the power supply on and off.\r
+    * Headers to allow existing Sanguinos to plug straight in.\r
+    * I2C headers for simple hookup of external peripherals.\r
+    * On/Off switch for instant-kill and simple control of the entire system.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "MakerBot" ;
+    okh:repo <https://www.thingiverse.com/thing:395> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:395> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of RepRap Motherboard v1.1 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/a7/b5/2a/52/91/reprap-motherboard-1.1_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/a7/b5/2a/52/91/reprap-motherboard-1.1_display_large_display_large.jpg> .
+

@@ -1,12 +1,13 @@
-@prefix : <https://wikifactory.com/+uboopenfactory/maquethon-2-février-2020/49a858125ed6f4f2d862a03940719215e929f147/> .
+@prefix : <https://wikifactory.com/%2Buboopenfactory/maquethon-2-f%C3%A9vrier-2020/49a858125ed6f4f2d862a03940719215e929f147/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 :Maquethon2Edition a okh:Module ;
     rdfs:label "Maquethon #2 edition" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "fr" ;
     okh:function "Le maquethon est un marathon créatif ayant pour objectif de faire évoluer les techniques de réalisation physiques de maquettes cartographiques. Grâce aux technologies de fabrication numérique 2D et 3D, il est possible de réaliser, à bas coût, des maquettes personnalisées." ;
-    okh:hasComponent :Exposenavisumaquette2019 ;
+    okh:hasComponent :Presentationsexposenavisumaquette2019 ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "Yves QUERE" ;
@@ -15,27 +16,28 @@
     okh:repo <https://wikifactory.com/+uboopenfactory/maquethon-2-février-2020> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
     okh:version "49a858125ed6f4f2d862a03940719215e929f147" ;
     okh:versionOf <https://wikifactory.com/+uboopenfactory/maquethon-2-février-2020> .
-
-:Exposenavisumaquette2019 a okh:Part ;
-    rdfs:label "exposeNaVisuMaquette_2019" ;
-    okh:documentationLanguage "fr" ;
-    okh:licensor "Yves QUERE" ;
-    okh:source :Exposenavisumaquette2019_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Exposenavisumaquette2019_source a okh:SourceFile ;
-    rdfs:label "Source File of exposeNaVisuMaquette_2019 of Maquethon #2 edition 49a858125ed6f4f2d862a03940719215e929f147" ;
-    okh:fileFormat "PDF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/38333/exposenavisumaquette_2019.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMTM1MDA=> .
 
 :Image a okh:Image ;
     rdfs:label "Image of Maquethon #2 edition 49a858125ed6f4f2d862a03940719215e929f147" ;
     okh:fileFormat "PNG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/38333/hackathonvignette-1.png> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTozMTMwODQ=> .
+
+:Presentationsexposenavisumaquette2019 a okh:Part ;
+    rdfs:label "Presentations/exposeNaVisuMaquette_2019" ;
+    okh:documentationLanguage "fr" ;
+    okh:licensor "Yves QUERE" ;
+    okh:source :Presentationsexposenavisumaquette2019_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Presentationsexposenavisumaquette2019_source a okh:SourceFile ;
+    rdfs:label "Source File of Presentations/exposeNaVisuMaquette_2019 of Maquethon #2 edition 49a858125ed6f4f2d862a03940719215e929f147" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/38333/exposenavisumaquette_2019.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozMTM1MDA=> .
 
 :Readme a okh:Readme ;
     rdfs:label "Readme of Maquethon #2 edition 49a858125ed6f4f2d862a03940719215e929f147" ;

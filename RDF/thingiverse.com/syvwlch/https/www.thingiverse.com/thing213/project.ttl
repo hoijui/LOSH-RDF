@@ -1,0 +1,26 @@
+@prefix : <https://www.thingiverse.com/thing%3A213/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:NotchWidthTestPatternFor18 a okh:Module ;
+    rdfs:label "Notch Width Test Pattern for 1/8" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is a notch width test pattern, with notches cut into both sides from 0.100" to 0.150" wide in 0.01" steps. The idea, obviously, is to straddle the 1/8" or 0.125" nominal thickness of the material.\r
+\r
+Since 0.01" should be on the same order of magnitude as the kerf (material lost to the laser's cut), I didn't think we needed more precision.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "syvwlch" ;
+    okh:repo <https://www.thingiverse.com/thing:213> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:213> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Notch Width Test Pattern for 1/8 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/1b/77/39/7c/ae/NotchTemplate-2_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/1b/77/39/7c/ae/NotchTemplate-2_display_large_display_large.jpg> .
+

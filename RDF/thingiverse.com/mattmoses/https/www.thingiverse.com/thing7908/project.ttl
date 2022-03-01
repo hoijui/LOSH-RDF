@@ -1,0 +1,30 @@
+@prefix : <https://www.thingiverse.com/thing%3A7908/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:PistonEngine a okh:Module ;
+    rdfs:label "Piston Engine" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is a parametric toy model of a piston engine, inspired by Neophyte's Air Powered Motor: http://www.thingiverse.com/thing:7792\r
+\r
+It is written in OpenSCAD, so you can change all the parameters and even animate it.  It is kind of fun to animate it and change parameters on the fly.\r
+\r
+All the parts should be easy to print.  Clearance between moving parts can be changed parametrically.\r
+\r
+Does anyone want to add some valves and make a real one that runs off compressed air?""" ;
+    okh:hasImage :Image ;
+    okh:licensor "mattmoses" ;
+    okh:repo <https://www.thingiverse.com/thing:7908> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:7908> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Piston Engine 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/89/e3/d2/23/a0/toyEngine_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/89/e3/d2/23/a0/toyEngine_display_large_display_large.jpg> .
+

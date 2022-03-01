@@ -1,23 +1,24 @@
-@prefix : <https://wikifactory.com/+fablabs-sdgs/fab-labs-and-sdgs/4f35a892da9660dee35b752a3e17082b7f8c97ea/> .
+@prefix : <https://wikifactory.com/%2Bfablabs-sdgs/fab-labs-and-sdgs/4f35a892da9660dee35b752a3e17082b7f8c97ea/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 :FabLabsAndSdgs a okh:Module ;
     rdfs:label "Fab Labs and SDGS" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "Working group \"Fab Labs and Sustainable Development Goals (SDGs)\"; start 2017. xxx" ;
-    okh:hasComponent :Backgrounden,
-        :Backgroundes,
-        :Carddeck85x55mm,
-        :Fab15sdgsattendancesheets,
-        :Fab15sdgsevaluation,
-        :Fab15sdgspresentation,
-        :Fab15sdgsteamwork,
-        :Managermanual,
-        :Overviewofresults,
-        :Planningboard,
-        :Presentation,
-        :Report ;
+    okh:hasComponent :FabConferenceProceedingsfab14ToulouseFrancereport,
+        :FabConferenceProceedingsfab15ElgounaEgyptfab15Kitfab15sdgsattendancesheets,
+        :FabConferenceProceedingsfab15ElgounaEgyptfab15Kitfab15sdgspresentation,
+        :FabConferenceProceedingsfab15ElgounaEgyptfab15Outcomesfab15sdgsevaluation,
+        :FabConferenceProceedingsfab15ElgounaEgyptfab15Outcomesfab15sdgsteamwork,
+        :LocalWorkshopKitbackgrounden,
+        :LocalWorkshopKitbackgroundes,
+        :LocalWorkshopKitcarddeck85x55mm,
+        :LocalWorkshopKitmanagermanual,
+        :LocalWorkshopKitoverviewofresults,
+        :LocalWorkshopKitplanningboard,
+        :LocalWorkshopKitpresentation ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "Pieter van der Hijden" ;
@@ -26,96 +27,71 @@
     okh:repo <https://wikifactory.com/+fablabs-sdgs/fab-labs-and-sdgs> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
     okh:version "4f35a892da9660dee35b752a3e17082b7f8c97ea" ;
     okh:versionOf <https://wikifactory.com/+fablabs-sdgs/fab-labs-and-sdgs> .
 
-:Backgrounden a okh:Part ;
-    rdfs:label "background_EN" ;
+:FabConferenceProceedingsfab14ToulouseFrancereport a okh:Part ;
+    rdfs:label "fab conference proceedings/fab14 toulouse france/report" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Pieter van der Hijden" ;
-    okh:source :Backgrounden_source ;
+    okh:source :FabConferenceProceedingsfab14ToulouseFrancereport_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Backgrounden_source a okh:SourceFile ;
-    rdfs:label "Source File of background_EN of Fab Labs and SDGS 4f35a892da9660dee35b752a3e17082b7f8c97ea" ;
-    okh:fileFormat "HTML" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/25262/background_en.html> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyNDE3NTk=> .
-
-:Backgroundes a okh:Part ;
-    rdfs:label "background_ES" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Pieter van der Hijden" ;
-    okh:source :Backgroundes_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Backgroundes_source a okh:SourceFile ;
-    rdfs:label "Source File of background_ES of Fab Labs and SDGS 4f35a892da9660dee35b752a3e17082b7f8c97ea" ;
-    okh:fileFormat "HTML" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/25262/background_es.html> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyNDE3NTg=> .
-
-:Carddeck85x55mm a okh:Part ;
-    rdfs:label "card_deck_85x55_mm" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Pieter van der Hijden" ;
-    okh:source :Carddeck85x55mm_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Carddeck85x55mm_source a okh:SourceFile ;
-    rdfs:label "Source File of card_deck_85x55_mm of Fab Labs and SDGS 4f35a892da9660dee35b752a3e17082b7f8c97ea" ;
+:FabConferenceProceedingsfab14ToulouseFrancereport_source a okh:SourceFile ;
+    rdfs:label "Source File of fab conference proceedings/fab14 toulouse france/report of Fab Labs and SDGS 4f35a892da9660dee35b752a3e17082b7f8c97ea" ;
     okh:fileFormat "PDF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/25262/card_deck_85x55_mm.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyNDE3NTc=> .
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/25262/report.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyNDE4MTk=> .
 
-:Fab15sdgsattendancesheets a okh:Part ;
-    rdfs:label "fab15_sdgs_attendance_sheets" ;
+:FabConferenceProceedingsfab15ElgounaEgyptfab15Kitfab15sdgsattendancesheets a okh:Part ;
+    rdfs:label "fab conference proceedings/fab15 elgouna egypt/fab15 kit/fab15_sdgs_attendance_sheets" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Pieter van der Hijden" ;
-    okh:source :Fab15sdgsattendancesheets_source ;
+    okh:source :FabConferenceProceedingsfab15ElgounaEgyptfab15Kitfab15sdgsattendancesheets_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Fab15sdgsattendancesheets_source a okh:SourceFile ;
-    rdfs:label "Source File of fab15_sdgs_attendance_sheets of Fab Labs and SDGS 4f35a892da9660dee35b752a3e17082b7f8c97ea" ;
+:FabConferenceProceedingsfab15ElgounaEgyptfab15Kitfab15sdgsattendancesheets_source a okh:SourceFile ;
+    rdfs:label "Source File of fab conference proceedings/fab15 elgouna egypt/fab15 kit/fab15_sdgs_attendance_sheets of Fab Labs and SDGS 4f35a892da9660dee35b752a3e17082b7f8c97ea" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/25262/fab15_sdgs_attendance_sheets.pdf> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToyNDE4NDI=> .
 
-:Fab15sdgsevaluation a okh:Part ;
-    rdfs:label "fab15_sdgs_evaluation" ;
+:FabConferenceProceedingsfab15ElgounaEgyptfab15Kitfab15sdgspresentation a okh:Part ;
+    rdfs:label "fab conference proceedings/fab15 elgouna egypt/fab15 kit/fab15_sdgs_presentation" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Pieter van der Hijden" ;
-    okh:source :Fab15sdgsevaluation_source ;
+    okh:source :FabConferenceProceedingsfab15ElgounaEgyptfab15Kitfab15sdgspresentation_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Fab15sdgsevaluation_source a okh:SourceFile ;
-    rdfs:label "Source File of fab15_sdgs_evaluation of Fab Labs and SDGS 4f35a892da9660dee35b752a3e17082b7f8c97ea" ;
-    okh:fileFormat "PDF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/25262/fab15_sdgs_evaluation.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyNDE4NDk=> .
-
-:Fab15sdgspresentation a okh:Part ;
-    rdfs:label "fab15_sdgs_presentation" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Pieter van der Hijden" ;
-    okh:source :Fab15sdgspresentation_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Fab15sdgspresentation_source a okh:SourceFile ;
-    rdfs:label "Source File of fab15_sdgs_presentation of Fab Labs and SDGS 4f35a892da9660dee35b752a3e17082b7f8c97ea" ;
+:FabConferenceProceedingsfab15ElgounaEgyptfab15Kitfab15sdgspresentation_source a okh:SourceFile ;
+    rdfs:label "Source File of fab conference proceedings/fab15 elgouna egypt/fab15 kit/fab15_sdgs_presentation of Fab Labs and SDGS 4f35a892da9660dee35b752a3e17082b7f8c97ea" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/25262/fab15_sdgs_presentation.pdf> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToyNDE4NDE=> .
 
-:Fab15sdgsteamwork a okh:Part ;
-    rdfs:label "fab15_sdgs_teamwork" ;
+:FabConferenceProceedingsfab15ElgounaEgyptfab15Outcomesfab15sdgsevaluation a okh:Part ;
+    rdfs:label "fab conference proceedings/fab15 elgouna egypt/fab15 outcomes/fab15_sdgs_evaluation" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Pieter van der Hijden" ;
-    okh:source :Fab15sdgsteamwork_source ;
+    okh:source :FabConferenceProceedingsfab15ElgounaEgyptfab15Outcomesfab15sdgsevaluation_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Fab15sdgsteamwork_source a okh:SourceFile ;
-    rdfs:label "Source File of fab15_sdgs_teamwork of Fab Labs and SDGS 4f35a892da9660dee35b752a3e17082b7f8c97ea" ;
+:FabConferenceProceedingsfab15ElgounaEgyptfab15Outcomesfab15sdgsevaluation_source a okh:SourceFile ;
+    rdfs:label "Source File of fab conference proceedings/fab15 elgouna egypt/fab15 outcomes/fab15_sdgs_evaluation of Fab Labs and SDGS 4f35a892da9660dee35b752a3e17082b7f8c97ea" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/25262/fab15_sdgs_evaluation.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyNDE4NDk=> .
+
+:FabConferenceProceedingsfab15ElgounaEgyptfab15Outcomesfab15sdgsteamwork a okh:Part ;
+    rdfs:label "fab conference proceedings/fab15 elgouna egypt/fab15 outcomes/fab15_sdgs_teamwork" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Pieter van der Hijden" ;
+    okh:source :FabConferenceProceedingsfab15ElgounaEgyptfab15Outcomesfab15sdgsteamwork_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:FabConferenceProceedingsfab15ElgounaEgyptfab15Outcomesfab15sdgsteamwork_source a okh:SourceFile ;
+    rdfs:label "Source File of fab conference proceedings/fab15 elgouna egypt/fab15 outcomes/fab15_sdgs_teamwork of Fab Labs and SDGS 4f35a892da9660dee35b752a3e17082b7f8c97ea" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/25262/fab15_sdgs_teamwork.pdf> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToyNDE4NDg=> .
@@ -126,54 +102,93 @@
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/25262/wheel_plus_lab_logo.png> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToyNDE3NDI=> .
 
-:Managermanual a okh:Part ;
-    rdfs:label "manager_manual" ;
+:LocalWorkshopKitbackgrounden a okh:Part ;
+    rdfs:label "local workshop kit/background_EN" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Pieter van der Hijden" ;
-    okh:source :Managermanual_source ;
+    okh:source :LocalWorkshopKitbackgrounden_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Managermanual_source a okh:SourceFile ;
-    rdfs:label "Source File of manager_manual of Fab Labs and SDGS 4f35a892da9660dee35b752a3e17082b7f8c97ea" ;
+:LocalWorkshopKitbackgrounden_source a okh:SourceFile ;
+    rdfs:label "Source File of local workshop kit/background_EN of Fab Labs and SDGS 4f35a892da9660dee35b752a3e17082b7f8c97ea" ;
+    okh:fileFormat "HTML" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/25262/background_en.html> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyNDE3NTk=> .
+
+:LocalWorkshopKitbackgroundes a okh:Part ;
+    rdfs:label "local workshop kit/background_ES" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Pieter van der Hijden" ;
+    okh:source :LocalWorkshopKitbackgroundes_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:LocalWorkshopKitbackgroundes_source a okh:SourceFile ;
+    rdfs:label "Source File of local workshop kit/background_ES of Fab Labs and SDGS 4f35a892da9660dee35b752a3e17082b7f8c97ea" ;
+    okh:fileFormat "HTML" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/25262/background_es.html> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyNDE3NTg=> .
+
+:LocalWorkshopKitcarddeck85x55mm a okh:Part ;
+    rdfs:label "local workshop kit/card_deck_85x55_mm" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Pieter van der Hijden" ;
+    okh:source :LocalWorkshopKitcarddeck85x55mm_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:LocalWorkshopKitcarddeck85x55mm_source a okh:SourceFile ;
+    rdfs:label "Source File of local workshop kit/card_deck_85x55_mm of Fab Labs and SDGS 4f35a892da9660dee35b752a3e17082b7f8c97ea" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/25262/card_deck_85x55_mm.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyNDE3NTc=> .
+
+:LocalWorkshopKitmanagermanual a okh:Part ;
+    rdfs:label "local workshop kit/manager_manual" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Pieter van der Hijden" ;
+    okh:source :LocalWorkshopKitmanagermanual_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:LocalWorkshopKitmanagermanual_source a okh:SourceFile ;
+    rdfs:label "Source File of local workshop kit/manager_manual of Fab Labs and SDGS 4f35a892da9660dee35b752a3e17082b7f8c97ea" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/25262/manager_manual.pdf> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToyNDE3NTU=> .
 
-:Overviewofresults a okh:Part ;
-    rdfs:label "overview_of_results" ;
+:LocalWorkshopKitoverviewofresults a okh:Part ;
+    rdfs:label "local workshop kit/overview_of_results" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Pieter van der Hijden" ;
-    okh:source :Overviewofresults_source ;
+    okh:source :LocalWorkshopKitoverviewofresults_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Overviewofresults_source a okh:SourceFile ;
-    rdfs:label "Source File of overview_of_results of Fab Labs and SDGS 4f35a892da9660dee35b752a3e17082b7f8c97ea" ;
+:LocalWorkshopKitoverviewofresults_source a okh:SourceFile ;
+    rdfs:label "Source File of local workshop kit/overview_of_results of Fab Labs and SDGS 4f35a892da9660dee35b752a3e17082b7f8c97ea" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/25262/overview_of_results.pdf> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToyNDE3NTQ=> .
 
-:Planningboard a okh:Part ;
-    rdfs:label "planning_board" ;
+:LocalWorkshopKitplanningboard a okh:Part ;
+    rdfs:label "local workshop kit/planning_board" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Pieter van der Hijden" ;
-    okh:source :Planningboard_source ;
+    okh:source :LocalWorkshopKitplanningboard_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Planningboard_source a okh:SourceFile ;
-    rdfs:label "Source File of planning_board of Fab Labs and SDGS 4f35a892da9660dee35b752a3e17082b7f8c97ea" ;
+:LocalWorkshopKitplanningboard_source a okh:SourceFile ;
+    rdfs:label "Source File of local workshop kit/planning_board of Fab Labs and SDGS 4f35a892da9660dee35b752a3e17082b7f8c97ea" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/25262/planning_board.pdf> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToyNDE3NTM=> .
 
-:Presentation a okh:Part ;
-    rdfs:label "presentation" ;
+:LocalWorkshopKitpresentation a okh:Part ;
+    rdfs:label "local workshop kit/presentation" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Pieter van der Hijden" ;
-    okh:source :Presentation_source ;
+    okh:source :LocalWorkshopKitpresentation_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Presentation_source a okh:SourceFile ;
-    rdfs:label "Source File of presentation of Fab Labs and SDGS 4f35a892da9660dee35b752a3e17082b7f8c97ea" ;
+:LocalWorkshopKitpresentation_source a okh:SourceFile ;
+    rdfs:label "Source File of local workshop kit/presentation of Fab Labs and SDGS 4f35a892da9660dee35b752a3e17082b7f8c97ea" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/25262/presentation.pdf> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToyNDE3NTI=> .
@@ -181,19 +196,6 @@
 :Readme a okh:Readme ;
     rdfs:label "Readme of Fab Labs and SDGS 4f35a892da9660dee35b752a3e17082b7f8c97ea" ;
     okh:fileFormat "MD" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/25262/readme-9cc4f.md> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyNDE3NTE=> .
-
-:Report a okh:Part ;
-    rdfs:label "report" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Pieter van der Hijden" ;
-    okh:source :Report_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Report_source a okh:SourceFile ;
-    rdfs:label "Source File of report of Fab Labs and SDGS 4f35a892da9660dee35b752a3e17082b7f8c97ea" ;
-    okh:fileFormat "PDF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/25262/report.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyNDE4MTk=> .
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/25262/readme-20666.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyNDIyMzc=> .
 

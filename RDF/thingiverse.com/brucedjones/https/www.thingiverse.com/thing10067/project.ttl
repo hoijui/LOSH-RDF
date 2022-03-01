@@ -1,0 +1,59 @@
+@prefix : <https://www.thingiverse.com/thing%3A10067/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:BodgieTheLittleQuadrocopter a okh:Module ;
+    rdfs:label "Bodgie the Little Quadrocopter" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is a fully parametric, fully printable, quadrocopter frame design done with Inventor. With this design you can print a quadrocopter with a 160-260mm motor to motor distance, giving enough room to accommodate props from 101.6mm (4") to 177.8mm (7").\r
+\r
+Motivation: I wanted to build a quadrocopter which I could use to learn with, a basic requirement of this being that I need to be able to fix it with minimal cost and difficulty. So its a good job I have a 3d printer!\r
+\r
+Draft: I started this design with the intention of squeezing all the electronics into the centre of the hub area, in the same plane as the arms. I completed a draft with this in mind, but I wasn't happy with how much plastic it consumed and I also hadn't given any though to how I would route cables around the frame. In addition to this, I based the design on "guestimate" dimensions, it was always going to need some sort of reworking.\r
+\r
+Revision 1 (Pictured): The draft design gave me some good ideas to move forward with, it also gave me the confidence to buy the parts I'd need to eventually get this thing into the air. For this revision I moved the electronics to a more standard location on top of the hub area. There are fixing holes for the electronics on a square of 45mm about the centre, this can be varied. Another variable dimension is the motor to motor distance, which for this revision is set at 180mm allowing for a 10.16-12.7mm (4-5") prop. \r
+\r
+With this revision I gave a little thought to routing of wires and came up with the "power layer". This component stacks with the hub of the quadrocopter and allows the esc's and battery to plug into the frame. Many quadrocopters suffer from the "flying spaghetti monster" problem, this solution goes some way to alleviate that.\r
+\r
+This is the design I have printed, as it turns out I was being a bit ambitious with the prop size, all things accounted for it weighs about 450g. I calculate about 600g of thrust with this set up meaning its going to have to run at over 3/4 throttle to fly. Whilst not a show stopper its certainly going to strain the motors and esc's, and I doubt its going to be manoeuvrable.\r
+\r
+Landing gear has also been added, not sure how it will perform but it certainly looks the part.\r
+\r
+Revision 2: This design incorporates some lessons I learned from the previous revision. The arms are thinner, making them lighter per unit length, and allowing for greater prop sizes up to 177.8mm (7"). The thinner arms also mean the hub area uses less plastic, more weight saving. The minimum thickness of all components has also been reduced slightly in an attempt to remove some more redundant plastic. Due to the allowance for larger props I hope to achieve over 1kg of thrust with this design, giving much more acceptable performance.\r
+\r
+Major Dimensions:\r
+motor_to_motor = Distance between motor centers, dictates arm length which is limited by build platform size.\r
+arm_width = Self explanatory\r
+arm_height = Self explanatory\r
+mounting_square = The side length of the square who's corners lie at the center of the mounting holes.\r
+hub_square = Width of the hub.\r
+pinch_gap = Width of the gap between the top and bottom hub components.\r
+power_thickness = The max thickness of your power distribution circuit.\r
+battery_width = Self explanatory\r
+battery_thickness = Self explanatory\r
+structural_cover = The minimum thickness of any section.\r
+\r
+Please take note, I havent flown this yet. I ordered a receiver that as incompatible with my transmitter and am waiting for a replacement from chine (boo). I shall update this thing with pictures and hopefully videos when I get the last bits in place.\r
+\r
+I'm open to any suggestions as to how I can improve this design further. Moving forward, I'm going to experiment with different thickness's in an attempt to find a good trade off between weight and strength.\r
+\r
+Electronics Supplemental\r
+Some info on the electronics was requested. There is an awful lot of choice in this respect, you ultimately need to decide on a control unit and a drive system. For my control unit (not pictured) I use an Arduino nano, "All in one" sensor board which can be found on ebay, and a fly sky 6 channel receiver (FS-R6B) to go with my fly sky transmitter (FS-TH9X). Such a control system will work for any quad configuration. The drive system is dependent on the quadrocopter weight and maximum allowable prop diameter, this choice is non trivial and I suggest you visit some quadrocopter forums where you will find a huge amount of sadvice and suggestions.\r
+\r
+There is a wealth of further information at Aeroquad.com and multiwii.com""" ;
+    okh:hasImage :Image ;
+    okh:licensor "brucedjones" ;
+    okh:repo <https://www.thingiverse.com/thing:10067> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:10067> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Bodgie the Little Quadrocopter 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/78/82/6b/5f/29/IMG_20110619_172904_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/78/82/6b/5f/29/IMG_20110619_172904_display_large_display_large.jpg> .
+

@@ -1,0 +1,46 @@
+@prefix : <https://www.thingiverse.com/thing%3A22663/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ThomsonProblemPolyhedra a okh:Module ;
+    rdfs:label "Thomson Problem Polyhedra" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """J.J. Thomson (1904) asked: How do a small number of electrons arrange themselves on the surface of a unit sphere?  Solutions have been proposed for cases where the number of electrons varies from 2 to 400 and beyond.  However few solutions have been proved to be optimal.\r
+\r
+Two types of polyhedra are useful for those working on the problem; the convex hull and its dual.  A nice applet from Syracuse University shows virtual versions of these polyhedra.\r
+\r
+(Run http://thomson.phy.syr.edu/thomsonapplet.php\r
+Type n = 11 into the applet and press start - one can then alternate between the convex hull, "mesh", and its dual, "dual".)\r
+\r
+It would be nice to print physical versions of these polyhedra and it was suggested to me that qhull - http://www.qhull.org/ - outputs these polyhedra in a simple format called OFF. I was able to write a program that coverts OFF format to openSCAD polyhedron commands.\r
+\r
+Coordinates for possible solutions to the Thomson problem are available at The Cambridge Cluster Database  http://www-wales.ch.cam.ac.uk/~wales/CCD/Thomson/table.html Solutions for n=10, 11, 13, and 14 were downloaded and converted to polyhedron commands.\r
+\r
+Additionally an openSCAD program used to make Christmas ornaments, thing:14337, needed little modification to show the positions of the electrons as stars on the surface of a sphere.  Spheres decorated with possible solutions for n = 10, 11, 13 and 14 were calculated.\r
+\r
+The following STL files are provided:\r
+\r
+Solution_Sphere_N11.stl\r
+Convex_Hull_N11.stl\r
+Convex_Hull_Dual_N11.stl\r
+\r
+The image at the left shows printed versions of these files.\r
+\r
+The stl files are in Thomson_polyhedra_stl.zip.\r
+All the SCAD files and the FORTRAN program used to make the polyhedron commands are in Thomson_polyhedra_programs.zip.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "pmoews" ;
+    okh:repo <https://www.thingiverse.com/thing:22663> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:22663> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Thomson Problem Polyhedra 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/52/11/a9/55/d4/n11_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/52/11/a9/55/d4/n11_display_large_display_large.jpg> .
+

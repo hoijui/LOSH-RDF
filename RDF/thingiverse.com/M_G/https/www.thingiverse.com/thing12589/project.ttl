@@ -1,0 +1,62 @@
+@prefix : <https://www.thingiverse.com/thing%3A12589/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:RingMetalCostCalculator a okh:Module ;
+    rdfs:label "Ring metal cost calculator" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This spreadsheet will allow you to do a somewhat more apples-to-apples comparison of the value of metal used in a ring before you of to get it made. It doesn't take into account extra manufacturing costs but should give you a ballpark estimate of the raw material cost so you can make sure you aren't getting ripped off etc.\r
+\r
+Potentially very useful when combined with the following:\r
+Ring Creation Script http://www.thingiverse.com/thing:12448\r
+Diamond size shape weight conversion Spreadsheet http://www.thingiverse.com/thing:12586\r
+Ring Size System Coversion http://www.thingiverse.com/thing:12689\r
+for costing a custom engagement ring or other such tomfoolery.\r
+\r
+Contains data for the following metals with Spot prices as of 2011-October-14\r
+\r
+24kt Pure gold*\r
+950 Palladium\r
+950 Platinum\r
+Fine Silver*\r
+Tungsten\r
+Titanium\r
+Rhodium*\r
+Copper*\r
+Nickel*\r
+Zinc*\r
+18kt Red Gold (75Au 25Cu) Est.\r
+18kt White Gold (75Au 25Pt) Est.\r
+18kt White Gold (75Au 25Pd) Est.\r
+18kt White Gold (75Au 10Pd 10Ni 5Zn) Est.\r
+14kt White Gold (58Au ~42Ar)**\r
+Sterling Silver (92.5Ar 7.5Cu) Est.\r
+\r
+Est. => Estimated minimum cost based constituent metal cost, actual cost is likely to be higher as the metals will have to be processed etc. to create the desired alloy\r
+* Not suitable as a ring material for allergy, strength etc. reasons but may be used as an alloying metal\r
+**Actual 14kt White Gold Ni/Pd free formula is more like (58Au 40Ar 1.5Tin 0.5Ge) but hard to get prices for Germanium so assume it doesn't massively affect material cost due to its low concentration and presence of very low cost Tin\r
+\r
+Sources\r
+http://money.cnn.com/data/commodities/\r
+http://www.coinnews.net/tools/live-silver-gold-platinum-spots/\r
+xe.com\r
+http://www.metalprices.com/\r
+http://www.csgnetwork.com/specificgravmettable.html\r
+http://www.reade.com/Particle_Briefings/spec_gra.html\r
+http://www.clihouston.com/knowledge-base/composition-of-gold-alloys.html""" ;
+    okh:hasImage :Image ;
+    okh:licensor "M_G" ;
+    okh:repo <https://www.thingiverse.com/thing:12589> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:12589> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Ring metal cost calculator 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/21/b4/98/7f/81/Ring_metal_cost_calculator_v1.0_chart_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/21/b4/98/7f/81/Ring_metal_cost_calculator_v1.0_chart_display_large_display_large.jpg> .
+

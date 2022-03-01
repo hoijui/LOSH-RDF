@@ -1,0 +1,30 @@
+@prefix : <https://www.thingiverse.com/thing%3A13899/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:PythonOpenscad3dSplineSurfaceCreator a okh:Module ;
+    rdfs:label "Python OpenSCAD 3D Spline Surface Creator" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Polysurface is designed to augment pyopenscad, which is itself a python\r
+wrapper around the openscad programming language.\r
+\r
+A list of lists of points is given to polysurface, and a 3D double-splined surface\r
+is created from the points.  there is no restriction on the set of points that can be passed in as input.\r
+\r
+The bodywork for the Ultra-efficient Hybrid EV - http://lkcl.net/ev - is entirely made using polysurface and pyopenscad.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "lkcl" ;
+    okh:repo <https://www.thingiverse.com/thing:13899> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:13899> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Python OpenSCAD 3D Spline Surface Creator 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/5c/7c/8f/5e/75/car3d_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/5c/7c/8f/5e/75/car3d_display_large_display_large.jpg> .
+

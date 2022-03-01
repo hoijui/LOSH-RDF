@@ -1,0 +1,46 @@
+@prefix : <https://wikifactory.com/%40shanehooper/workhorse-3d-printer/8c4d6f1ebc9d4ed94bdcef671358635bc81e1d45/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Workhorse3dPrinter a okh:Module ;
+    rdfs:label "WorkHorse 3D Printer " ;
+    okh:dataSource "wikifactory.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function "The Workhorse Printer is a large format 3d printer some friends and I have been working on for the past three years. The large 3d printer is a modular machine platform that uses lead screw driven motion with a fixed bed / moving gantry." ;
+    okh:hasComponent :Workhorseprinterv150 ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "Shane Hooper" ;
+    okh:release <https://wikifactory.com/@shanehooper/workhorse-3d-printer/v/8c4d6f1> ;
+    okh:repo <https://wikifactory.com/@shanehooper/workhorse-3d-printer> ;
+    okh:repoHost "wikifactory.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "8c4d6f1ebc9d4ed94bdcef671358635bc81e1d45" ;
+    okh:versionOf <https://wikifactory.com/@shanehooper/workhorse-3d-printer> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of WorkHorse 3D Printer  8c4d6f1ebc9d4ed94bdcef671358635bc81e1d45" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/129736/3d-printer-large-format-big-3d_printer-printing-custom.jpg> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NzkyODE=> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of WorkHorse 3D Printer  8c4d6f1ebc9d4ed94bdcef671358635bc81e1d45" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/129736/readme-904cd.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1OTc1MzM=> .
+
+:Workhorseprinterv150 a okh:Part ;
+    rdfs:label "Workhorse_Printer_v150" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Shane Hooper" ;
+    okh:source :Workhorseprinterv150_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Workhorseprinterv150_source a okh:SourceFile ;
+    rdfs:label "Source File of Workhorse_Printer_v150 of WorkHorse 3D Printer  8c4d6f1ebc9d4ed94bdcef671358635bc81e1d45" ;
+    okh:fileFormat "STEP" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/129736/workhorse_printer_v150.step> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NjQ2NTA=> .
+

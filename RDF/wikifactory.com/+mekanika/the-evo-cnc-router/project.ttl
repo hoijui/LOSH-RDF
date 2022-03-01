@@ -1,21 +1,22 @@
-@prefix : <https://wikifactory.com/+mekanika/the-evo-cnc-router/6bc038c5c188138b6f9c5f2c1f0fb140e8480cd6/> .
+@prefix : <https://wikifactory.com/%2Bmekanika/the-evo-cnc-router/6bc038c5c188138b6f9c5f2c1f0fb140e8480cd6/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 :MekanikaEvoCncRouter a okh:Module ;
     rdfs:label "Mekanika Evo CNC Router" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "Based on Mekanika's core philosophy, every tool or machine we develop is released under an open source license (CC BY-NC-SA 4.0). This project showcases Evo, an upgradable CNC milling machine, which solves the most common struggles that CNC users encounter when they start from scratch." ;
-    okh:hasComponent :CircuitDiagramEvo,
+    okh:hasComponent :Cadevomainassemblyv3,
+        :Cadevomassemblyv3,
+        :Cadevosassemblyv3,
+        :ElectronicscircuitDiagramEvo,
+        :Electronicsmotordriver25a32,
+        :ElectronicsplanetCncUsbControllerMk34,
         :Evobom,
-        :Evomainassemblyv3,
-        :Evomassemblyv3,
-        :Evosassemblyv3,
-        :Motordriver25a32,
-        :PlanetCncUsbControllerMk34,
-        :Planetcnctng,
-        :Planetcnctngapi,
-        :Planetcnctnggcode ;
+        :Softwareplanetcnctng,
+        :Softwareplanetcnctngapi,
+        :Softwareplanetcnctnggcode ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "Maxime Gravet" ;
@@ -24,21 +25,87 @@
     okh:repo <https://wikifactory.com/+mekanika/the-evo-cnc-router> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
     okh:version "6bc038c5c188138b6f9c5f2c1f0fb140e8480cd6" ;
     okh:versionOf <https://wikifactory.com/+mekanika/the-evo-cnc-router> .
 
-:CircuitDiagramEvo a okh:Part ;
-    rdfs:label "Circuit Diagram Evo" ;
+:Cadevomainassemblyv3 a okh:Part ;
+    rdfs:label "CAD/Evo_Main_Assembly_v3" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Maxime Gravet" ;
-    okh:source :CircuitDiagramEvo_source ;
+    okh:source :Cadevomainassemblyv3_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:CircuitDiagramEvo_source a okh:SourceFile ;
-    rdfs:label "Source File of Circuit Diagram Evo of Mekanika Evo CNC Router 6bc038c5c188138b6f9c5f2c1f0fb140e8480cd6" ;
+:Cadevomainassemblyv3_source a okh:SourceFile ;
+    rdfs:label "Source File of CAD/Evo_Main_Assembly_v3 of Mekanika Evo CNC Router 6bc038c5c188138b6f9c5f2c1f0fb140e8480cd6" ;
+    okh:fileFormat "STEP" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/149686/evo_main_assembly_v3.STEP> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDYwMjY=> .
+
+:Cadevomassemblyv3 a okh:Part ;
+    rdfs:label "CAD/Evo-M_Assembly_v3" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Maxime Gravet" ;
+    okh:source :Cadevomassemblyv3_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Cadevomassemblyv3_source a okh:SourceFile ;
+    rdfs:label "Source File of CAD/Evo-M_Assembly_v3 of Mekanika Evo CNC Router 6bc038c5c188138b6f9c5f2c1f0fb140e8480cd6" ;
+    okh:fileFormat "STEP" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/149686/evo-m_assembly_v3.STEP> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDYwNjQ=> .
+
+:Cadevosassemblyv3 a okh:Part ;
+    rdfs:label "CAD/Evo-S_Assembly_v3" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Maxime Gravet" ;
+    okh:source :Cadevosassemblyv3_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Cadevosassemblyv3_source a okh:SourceFile ;
+    rdfs:label "Source File of CAD/Evo-S_Assembly_v3 of Mekanika Evo CNC Router 6bc038c5c188138b6f9c5f2c1f0fb140e8480cd6" ;
+    okh:fileFormat "STEP" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/149686/evo-s_assembly_v3.STEP> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDYwNjM=> .
+
+:ElectronicscircuitDiagramEvo a okh:Part ;
+    rdfs:label "Electronics/Circuit Diagram Evo" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Maxime Gravet" ;
+    okh:source :ElectronicscircuitDiagramEvo_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:ElectronicscircuitDiagramEvo_source a okh:SourceFile ;
+    rdfs:label "Source File of Electronics/Circuit Diagram Evo of Mekanika Evo CNC Router 6bc038c5c188138b6f9c5f2c1f0fb140e8480cd6" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/149686/circuit-diagram-evo.pdf> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDYwNDY=> .
+
+:Electronicsmotordriver25a32 a okh:Part ;
+    rdfs:label "Electronics/MotorDriver25A-32" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Maxime Gravet" ;
+    okh:source :Electronicsmotordriver25a32_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Electronicsmotordriver25a32_source a okh:SourceFile ;
+    rdfs:label "Source File of Electronics/MotorDriver25A-32 of Mekanika Evo CNC Router 6bc038c5c188138b6f9c5f2c1f0fb140e8480cd6" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/149686/motordriver25a-32.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDYwNDU=> .
+
+:ElectronicsplanetCncUsbControllerMk34 a okh:Part ;
+    rdfs:label "Electronics/Planet CNC USB Controller Mk3-4" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Maxime Gravet" ;
+    okh:source :ElectronicsplanetCncUsbControllerMk34_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:ElectronicsplanetCncUsbControllerMk34_source a okh:SourceFile ;
+    rdfs:label "Source File of Electronics/Planet CNC USB Controller Mk3-4 of Mekanika Evo CNC Router 6bc038c5c188138b6f9c5f2c1f0fb140e8480cd6" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/149686/planet-cnc-usb-controller-mk3-4.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDYwNDQ=> .
 
 :Evobom a okh:Part ;
     rdfs:label "EVO_BOM" ;
@@ -53,119 +120,54 @@
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/149686/evo_bom-63c9c.pdf> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTIxMDA=> .
 
-:Evomainassemblyv3 a okh:Part ;
-    rdfs:label "Evo_Main_Assembly_v3" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Maxime Gravet" ;
-    okh:source :Evomainassemblyv3_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Evomainassemblyv3_source a okh:SourceFile ;
-    rdfs:label "Source File of Evo_Main_Assembly_v3 of Mekanika Evo CNC Router 6bc038c5c188138b6f9c5f2c1f0fb140e8480cd6" ;
-    okh:fileFormat "STEP" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/149686/evo_main_assembly_v3.STEP> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDYwMjY=> .
-
-:Evomassemblyv3 a okh:Part ;
-    rdfs:label "Evo-M_Assembly_v3" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Maxime Gravet" ;
-    okh:source :Evomassemblyv3_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Evomassemblyv3_source a okh:SourceFile ;
-    rdfs:label "Source File of Evo-M_Assembly_v3 of Mekanika Evo CNC Router 6bc038c5c188138b6f9c5f2c1f0fb140e8480cd6" ;
-    okh:fileFormat "STEP" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/149686/evo-m_assembly_v3.STEP> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDYwNjQ=> .
-
-:Evosassemblyv3 a okh:Part ;
-    rdfs:label "Evo-S_Assembly_v3" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Maxime Gravet" ;
-    okh:source :Evosassemblyv3_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Evosassemblyv3_source a okh:SourceFile ;
-    rdfs:label "Source File of Evo-S_Assembly_v3 of Mekanika Evo CNC Router 6bc038c5c188138b6f9c5f2c1f0fb140e8480cd6" ;
-    okh:fileFormat "STEP" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/149686/evo-s_assembly_v3.STEP> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDYwNjM=> .
-
 :Image a okh:Image ;
     rdfs:label "Image of Mekanika Evo CNC Router 6bc038c5c188138b6f9c5f2c1f0fb140e8480cd6" ;
     okh:fileFormat "JPG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/149686/wikifactory_cover.jpg> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDU4NDY=> .
 
-:Motordriver25a32 a okh:Part ;
-    rdfs:label "MotorDriver25A-32" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Maxime Gravet" ;
-    okh:source :Motordriver25a32_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Motordriver25a32_source a okh:SourceFile ;
-    rdfs:label "Source File of MotorDriver25A-32 of Mekanika Evo CNC Router 6bc038c5c188138b6f9c5f2c1f0fb140e8480cd6" ;
-    okh:fileFormat "PDF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/149686/motordriver25a-32.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDYwNDU=> .
-
-:PlanetCncUsbControllerMk34 a okh:Part ;
-    rdfs:label "Planet CNC USB Controller Mk3-4" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Maxime Gravet" ;
-    okh:source :PlanetCncUsbControllerMk34_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:PlanetCncUsbControllerMk34_source a okh:SourceFile ;
-    rdfs:label "Source File of Planet CNC USB Controller Mk3-4 of Mekanika Evo CNC Router 6bc038c5c188138b6f9c5f2c1f0fb140e8480cd6" ;
-    okh:fileFormat "PDF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/149686/planet-cnc-usb-controller-mk3-4.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDYwNDQ=> .
-
-:Planetcnctng a okh:Part ;
-    rdfs:label "PlanetCNC_TNG" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Maxime Gravet" ;
-    okh:source :Planetcnctng_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Planetcnctng_source a okh:SourceFile ;
-    rdfs:label "Source File of PlanetCNC_TNG of Mekanika Evo CNC Router 6bc038c5c188138b6f9c5f2c1f0fb140e8480cd6" ;
-    okh:fileFormat "PDF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/149686/planetcnc_tng.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDYwNTM=> .
-
-:Planetcnctngapi a okh:Part ;
-    rdfs:label "PlanetCNC_TNG_API" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Maxime Gravet" ;
-    okh:source :Planetcnctngapi_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Planetcnctngapi_source a okh:SourceFile ;
-    rdfs:label "Source File of PlanetCNC_TNG_API of Mekanika Evo CNC Router 6bc038c5c188138b6f9c5f2c1f0fb140e8480cd6" ;
-    okh:fileFormat "PDF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/149686/planetcnc_tng_api.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDYwNTE=> .
-
-:Planetcnctnggcode a okh:Part ;
-    rdfs:label "PlanetCNC_TNG_GCode" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Maxime Gravet" ;
-    okh:source :Planetcnctnggcode_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Planetcnctnggcode_source a okh:SourceFile ;
-    rdfs:label "Source File of PlanetCNC_TNG_GCode of Mekanika Evo CNC Router 6bc038c5c188138b6f9c5f2c1f0fb140e8480cd6" ;
-    okh:fileFormat "PDF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/149686/planetcnc_tng_gcode.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDYwNTA=> .
-
 :Readme a okh:Readme ;
     rdfs:label "Readme of Mekanika Evo CNC Router 6bc038c5c188138b6f9c5f2c1f0fb140e8480cd6" ;
     okh:fileFormat "MD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/149686/readme-67ee7.md> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTIxNjg=> .
+
+:Softwareplanetcnctng a okh:Part ;
+    rdfs:label "Software/PlanetCNC_TNG" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Maxime Gravet" ;
+    okh:source :Softwareplanetcnctng_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Softwareplanetcnctng_source a okh:SourceFile ;
+    rdfs:label "Source File of Software/PlanetCNC_TNG of Mekanika Evo CNC Router 6bc038c5c188138b6f9c5f2c1f0fb140e8480cd6" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/149686/planetcnc_tng.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDYwNTM=> .
+
+:Softwareplanetcnctngapi a okh:Part ;
+    rdfs:label "Software/PlanetCNC_TNG_API" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Maxime Gravet" ;
+    okh:source :Softwareplanetcnctngapi_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Softwareplanetcnctngapi_source a okh:SourceFile ;
+    rdfs:label "Source File of Software/PlanetCNC_TNG_API of Mekanika Evo CNC Router 6bc038c5c188138b6f9c5f2c1f0fb140e8480cd6" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/149686/planetcnc_tng_api.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDYwNTE=> .
+
+:Softwareplanetcnctnggcode a okh:Part ;
+    rdfs:label "Software/PlanetCNC_TNG_GCode" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Maxime Gravet" ;
+    okh:source :Softwareplanetcnctnggcode_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Softwareplanetcnctnggcode_source a okh:SourceFile ;
+    rdfs:label "Source File of Software/PlanetCNC_TNG_GCode of Mekanika Evo CNC Router 6bc038c5c188138b6f9c5f2c1f0fb140e8480cd6" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/149686/planetcnc_tng_gcode.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDYwNTA=> .
 

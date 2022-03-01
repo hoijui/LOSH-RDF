@@ -1,0 +1,30 @@
+@prefix : <https://www.thingiverse.com/thing%3A11428/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ClipPlateForCellPhoneMount a okh:Module ;
+    rdfs:label "Clip Plate for Cell Phone Mount" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """I really like imtiaz's Cell Phone Mount but didn't want to have to glue the clip on so I merged it with the top plate to create this part.\r
+\r
+The top plate (01_Top.stl) printed fine for me on its own but OpenSCAD doesn't like its winding order so I had to upload it to http://cloud.netfabb.com before OpenSCAD would render it.  I've included 01_Top_fixed.stl but you'll only need it if you want to modify the .scad file.\r
+\r
+Like tbuser commented I also had to upload 04_Left.stl to http://cloud.netfabb.com to get it to print properly.  I've uploaded the fixed file to save other people the trouble.\r
+\r
+Big thanks go to imtiaz for making this awesome thing.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "grokbeer" ;
+    okh:repo <https://www.thingiverse.com/thing:11428> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:11428> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Clip Plate for Cell Phone Mount 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/be/cb/59/33/2b/DSCF3495_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/be/cb/59/33/2b/DSCF3495_display_large_display_large.jpg> .
+

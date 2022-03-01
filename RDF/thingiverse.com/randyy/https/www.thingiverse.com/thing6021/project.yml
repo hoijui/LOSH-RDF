@@ -1,0 +1,48 @@
+__meta:
+  branch: null
+  created-at: '2011-02-02T17:26:49+00:00'
+  history: null
+  last-changed: null
+  last-visited: '2022-02-25T11:00:02.616920+00:00'
+  owner: randyy
+  path: null
+  repo: https://www.thingiverse.com/thing:6021
+  score: null
+  source: thingiverse.com
+attestation: null
+bom: null
+contribution-guide: null
+cpc-patent-class: null
+documentation-language: en
+documentation-readiness-level: odrl3
+function: "I've been using these OpenSCAD modules in my models, developing new parts for my different projects.  I decided to compile the parts into one library and release it into the Thingiverse wild.  Several people have been looking for printable washers and nyloc nuts recently, and have released them as individual things.  Also, someone just asked me for specs on the dovetail I used on my makerbottable filament spool.  All of these things are in my library, including:\r\n\r\nShape primitives\r\nHexagrams,\r\nEquilateral triangles (prisms), \r\n3 sided pyramids and tetrahedrons, \r\n4 sided pyramids including a Johnson's Solid square pyramid (a cube cut along its diagonal),\r\ntubes (hollow cylinders with variable wall thicknesses),\r\nslots with selectable round or square end(s),\r\nteardrop (as designed by whosawhatsis, www.thingiverse.com/thing:3457)\r\ndovetail pins and slots to attach parts without connectors,\r\nrounded corner rectangles, and\r\nkeyhole slots.\r\nThe rounded rectangles and keyholes can be seen my quick release x-Rod caps, http://www.thingiverse.com/thing:4765\r\nThe dovetails can be seen on my Makerbottable filament Spool, http://www.thingiverse.com/thing:4337\r\n\r\n Hardware Parts  \r\nHex Nuts,\r\nWashers,\r\nCap Bolts,\r\nHex Bolts, and\r\nBearings\r\n\r\nThese parts are modeled by the part's name or size for mockups or to difference out voids in a model.  For instance hexNut(\"M6\") will give the appropriate sized hardware.  The sizes are included in an extensible table, so if you have a specific part, you can just add it's dimension, name it, and use it.\r\n\r\nMiscellaneous functions and useful stuff\r\nI included a function that will globally adjust the number of triangles used in rounded objects based upon a single \"displayMode\" variable.  For screen display, spheres will be facetless, but by changing only one variable, you can reduce the facet count for printing to about 1mm resolution.\r\n\r\nSeveral functions to rotate and translate objects in only one plane, with names that (to me) are easy to remember.  for instance, rotate(tighten()) will twist an object along the z plane clockwise 90 degrees (like tightening a lid on a jar).  Likewise Push() moves an object away, Slide() to the side, and Lift() up.\r\n\r\nLast, is a rudimentary table module and access functions (alluded to under the hardware section).  You can put any data in the table, with a named header row, add names for the various columns in a column table, and subsequently locate all of the data in that row or any individual entry by using the functions tableRow(rowName) or tableEntry(rowName, columnName).  The library has a selection of bearings, and both metric and US bolts/washers/nuts included, but you can always add more.  The table can be used for just about anything, including positions within your model that you can refer to like this: translate(tableRow(\"Front Tire Position\");\r\n\r\nI hope you like it and if you have upgrade ideas, e-mail me and I'll try to incorporate the changes here. \r\n\r\nIf you REALLY like it, feel free to flattr it.  :o)\r\n\r\nUPDATE  New version uploaded on 5/7/11, old version removed.  Fixed bug in bearing() module that doubled the expected size (used diameter as radius).  Added rezPrinter and rezScreen functions for adjusting facet sizes."
+image:
+  created-at: '2011-02-02T17:26:49+00:00'
+  last-changed: '2011-02-02T17:26:49+00:00'
+  last-visited: '2022-02-25T14:45:57.833045+00:00'
+  license: LGPL-3.0-or-later
+  licensor: randyy
+  mime-type: null
+  name: LibsDemo_display_large
+  path: https:/thingiverse-rerender-new.s3.amazonaws.com/renders/f0/57/6d/ca/4a/LibsDemo_display_large.jpg
+  perma-url: https://thingiverse-rerender-new.s3.amazonaws.com/renders/f0/57/6d/ca/4a/LibsDemo_display_large.jpg
+  url: https://thingiverse-rerender-new.s3.amazonaws.com/renders/f0/57/6d/ca/4a/LibsDemo_display_large.jpg
+license: LGPL-3.0-or-later
+licensor: randyy
+manufacturing-instructions: null
+name: OpenSCAD Parts Library
+okhv: OKH-LOSHv1.0
+organization: null
+part: []
+publication: null
+readme: null
+release: null
+repo: https://www.thingiverse.com/thing:6021
+software: []
+specific-api-data: {}
+standard-compliance: null
+technology-readiness-level: ortl4
+tsdc: null
+upload-method: auto
+user-manual: null
+version: 1.0.0

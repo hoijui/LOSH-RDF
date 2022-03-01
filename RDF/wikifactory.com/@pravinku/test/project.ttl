@@ -1,0 +1,46 @@
+@prefix : <https://wikifactory.com/%40pravinku/test/9539485d70ccf88f16fda3bf38eafec0d86d0c98/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:TestCube20x20mm a okh:Module ;
+    rdfs:label "Test Cube - 20x20mm" ;
+    okh:dataSource "wikifactory.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function "Test Cube 20x20 mm for tuning FDM/FFF 3d printers." ;
+    okh:hasComponent :20x20mmCalibrationCube ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "Pravin Upadhyay" ;
+    okh:release <https://wikifactory.com/@pravinku/test/v/9539485> ;
+    okh:repo <https://wikifactory.com/@pravinku/test> ;
+    okh:repoHost "wikifactory.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "9539485d70ccf88f16fda3bf38eafec0d86d0c98" ;
+    okh:versionOf <https://wikifactory.com/@pravinku/test> .
+
+:20x20mmCalibrationCube a okh:Part ;
+    rdfs:label "20x20mm Calibration cube" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Pravin Upadhyay" ;
+    okh:source :20x20mmCalibrationCube_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:20x20mmCalibrationCube_source a okh:SourceFile ;
+    rdfs:label "Source File of 20x20mm Calibration cube of Test Cube - 20x20mm 9539485d70ccf88f16fda3bf38eafec0d86d0c98" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143544/20x20mm-calibration-cube.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MDQ0NjA=> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Test Cube - 20x20mm 9539485d70ccf88f16fda3bf38eafec0d86d0c98" ;
+    okh:fileFormat "PNG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143544/20x20mm-xyz-block-v1-2-2734d.png> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MDQ0ODE=> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of Test Cube - 20x20mm 9539485d70ccf88f16fda3bf38eafec0d86d0c98" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143544/readme.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MDQ0Nzk=> .
+

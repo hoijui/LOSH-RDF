@@ -1,0 +1,51 @@
+@prefix : <https://www.thingiverse.com/thing%3A18264/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Protobot a okh:Module ;
+    rdfs:label "ProtoBot" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """The ProtoBot is a basic prototyping minimum robot developed in OOML (v2.0) (Object Oriented Mechanics Library) http://iearobotics.com/oomlwiki\r
+\r
+The robot was inspired by:\r
+\r
+MiniSkyBot: http://www.thingiverse.com/thing:7989\r
+Scout Robot: http://www.thingiverse.com/thing:13042\r
+\r
+It is designed to mount an Arduino UNO and a protoboard, so the users can add all the electronics and sensors they may want.\r
+\r
+The body takes less than 2 hours to be printed on a MakerBot TOM.\r
+The wheels included in the ProtoBOT are derived from the MiniSkybot wheels (http://www.thingiverse.com/thing:7989) designed by ObiJuan (http://www.thingiverse.com/obijuan)\r
+\r
+A list of other available wheels is:\r
+\r
+http://www.thingiverse.com/thing:9071\r
+http://www.thingiverse.com/thing:9204\r
+http://www.thingiverse.com/thing:18377\r
+\r
+\r
+As a castor wheel it uses a Ball Wheel Holder, inspired by the Scout Robot (http://www.thingiverse.com/thing:13042). The diameter of the wheel is typical in Spain (16mm aprox). For different diameters you can easily change the cpp code of the Part.\r
+\r
+First Motion Test: http://www.youtube.com/watch?v=3n87DS0lhV8\r
+\r
+The ProtoBOT has been designed by:\r
+\r
+Mario Almagro: http://www.thingiverse.com/mario_al\r
+Nieves Cubo: http://www.thingiverse.com/nicuma\r
+Alberto Valero: http://www.thingiverse.com/avalero""" ;
+    okh:hasImage :Image ;
+    okh:licensor "avalero" ;
+    okh:repo <https://www.thingiverse.com/thing:18264> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:18264> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of ProtoBot 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/c8/e7/4a/7b/ba/IMAG0051_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/c8/e7/4a/7b/ba/IMAG0051_display_large_display_large.jpg> .
+

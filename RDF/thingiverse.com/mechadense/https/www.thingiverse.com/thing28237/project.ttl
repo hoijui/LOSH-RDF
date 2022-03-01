@@ -1,0 +1,69 @@
+@prefix : <https://www.thingiverse.com/thing%3A28237/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ProgressingCavityPumpcycloidical a okh:Module ;
+    rdfs:label "Progressing Cavity Pump (cycloidical)" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """**Note: Use of this code is DEPRECATED**  \r
+\r
+Generating this progressing cavity pump thing that is presented here can  \r
+now be done with just a few lines of code by using the new library:  \r
+http://www.thingiverse.com/thing:777936  \r
+https://github.com/lsuess/scad-lib-cyclogearprofiles  \r
+\r
+Here is a similar (followup next version) progressing cavity pump thing where that new library is used.\r
+http://www.thingiverse.com/thing:867401  \r
+\r
+----  \r
+\r
+DESCRIPTION:  \r
+\r
+This is the center part of a progressing-cavity-pump (PCP-pump or moineau-pump)  \r
+\r
+It implements the design approach with alternating epi- and hypocycloids which avoids cusps/kinks (the curve is C1 but not C2 continous)  \r
+\r
+Right now it uses two and threefold symmetry for rotor and stator respectively, but it shouldn't be hard to change it to any N and (N+1) symmetry (it's prepared) like three and four for more sturdiness or one and two for more throughput.  \r
+\r
+It is a positive displacement pump and thus provides (if the clearance would be zero) constant flow with arbitrary pressure. At no time the input and output section is directly connected. It is suitable to pump high viscous liquids possibly mixed with solid particles. You can find more info on wikipedia.  \r
+\r
+IMPORTANT NOTES:  \r
+\r
+Major tweaking points are marked with arrows.  \r
+\r
+Currently wall thicknesses are faked by scaling correctly for the radial component and rotating incorrectly (by eye) for tangential component. An offset in the epi and hypocycloid functions would be better.   \r
+\r
+For the initial print I used a very high clearance of 0.6mm to make sure it will fit.  \r
+\r
+If your printer is tuned well I recommend to reduce it a lot and make a new stator *.stl.  \r
+\r
+sidenote:  \r
+\r
+There are also conical PCPs which by nature cant be completely tight if made out of noncompliable material.  \r
+\r
+MOTIVATION:  \r
+\r
+I am thinking about a steel printed version for re extrusion of PLA and PET plastics. Judging from the PLA melt artworks PLA should flow in by gravity. Sadly I had no success trying to "gravity melt" PET in a steel-can at 230ÃÂ° in 15min. Melting it with an soldering iron at that temperature works like a charm ... why the difference?   \r
+\r
+For now this is a huge one just for fun and maybe for (off printhead?) paste extrusion.  \r
+\r
+SOURCES:  \r
+\r
+http://siag.project.ifi.uio.no/problems/gravesen/  \r
+http://www2.mat.dtu.dk/people/J.Gravesen/MoineauPump/""" ;
+    okh:hasImage :Image ;
+    okh:licensor "mechadense" ;
+    okh:repo <https://www.thingiverse.com/thing:28237> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:28237> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Progressing Cavity Pump (cycloidical) 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/a4/b1/47/31/ab/P8091700-crop_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/a4/b1/47/31/ab/P8091700-crop_display_large.jpg> .
+

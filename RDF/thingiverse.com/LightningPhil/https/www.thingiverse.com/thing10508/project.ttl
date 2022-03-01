@@ -1,0 +1,28 @@
+@prefix : <https://www.thingiverse.com/thing%3A10508/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:VentedExtruder a okh:Module ;
+    rdfs:label "Vented extruder" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Extruder and stepper cooler.  Sends some air through duct to filament drive gear.\r
+\r
+The idea of uber ventilation is to keep the filiment cool and prevent it stripping.  The sides of the cowel allow the air stream to stay near the stepper.\r
+\r
+If this works well then it'll be time to print it in glow-in-the-dark ABS and apply some UV LEDs.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "LightningPhil" ;
+    okh:repo <https://www.thingiverse.com/thing:10508> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:10508> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Vented extruder 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/ed/fe/c9/99/11/Whole_lot_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/ed/fe/c9/99/11/Whole_lot_display_large_display_large.jpg> .
+

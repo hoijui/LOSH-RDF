@@ -1,20 +1,21 @@
-@prefix : <https://wikifactory.com/@tanyaakinora/gluedart-7/a96819ce9d68efebf714f2de18dfb8b69d224221/> .
+@prefix : <https://wikifactory.com/%40tanyaakinora/gluedart-7/a96819ce9d68efebf714f2de18dfb8b69d224221/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 :Gluedart7 a okh:Module ;
     rdfs:label "GlueDart 7" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "Glue gun with an electric motor extruder for a 7 mm glue stick.I created a new design of a glue gun with an electric extruder, an ergonomic design of the case for a glue stick 7 mm.https://youtu.be/2SF8llpYRiA" ;
-    okh:hasComponent :Axialcam,
-        :Baseleft,
-        :Baseright,
-        :Coverleft,
-        :Coverright,
-        :Gluedartdome,
-        :Gluedartframe,
-        :Gluedarttongue,
-        :Stand ;
+    okh:hasComponent :StlFilesaxialcam,
+        :StlFilesbaseleft,
+        :StlFilesbaseright,
+        :StlFilescoverleft,
+        :StlFilescoverright,
+        :StlFilesgluedartdome,
+        :StlFilesgluedartframe,
+        :StlFilesgluedarttongue,
+        :StlFilesstand ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "Tetiana Bulgakova" ;
@@ -22,112 +23,9 @@
     okh:repo <https://wikifactory.com/@tanyaakinora/gluedart-7> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
     okh:version "a96819ce9d68efebf714f2de18dfb8b69d224221" ;
     okh:versionOf <https://wikifactory.com/@tanyaakinora/gluedart-7> .
-
-:Axialcam a okh:Part ;
-    rdfs:label "axial_cam" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Tetiana Bulgakova" ;
-    okh:source :Axialcam_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Axialcam_source a okh:SourceFile ;
-    rdfs:label "Source File of axial_cam of GlueDart 7 a96819ce9d68efebf714f2de18dfb8b69d224221" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/2442/axial-cam-1.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyMTA2Nw==> .
-
-:Baseleft a okh:Part ;
-    rdfs:label "base_left" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Tetiana Bulgakova" ;
-    okh:source :Baseleft_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Baseleft_source a okh:SourceFile ;
-    rdfs:label "Source File of base_left of GlueDart 7 a96819ce9d68efebf714f2de18dfb8b69d224221" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/2442/base-left-1.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyMTA2OA==> .
-
-:Baseright a okh:Part ;
-    rdfs:label "base_right" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Tetiana Bulgakova" ;
-    okh:source :Baseright_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Baseright_source a okh:SourceFile ;
-    rdfs:label "Source File of base_right of GlueDart 7 a96819ce9d68efebf714f2de18dfb8b69d224221" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/2442/base-right-1.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyMTA2OQ==> .
-
-:Coverleft a okh:Part ;
-    rdfs:label "cover_left" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Tetiana Bulgakova" ;
-    okh:source :Coverleft_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Coverleft_source a okh:SourceFile ;
-    rdfs:label "Source File of cover_left of GlueDart 7 a96819ce9d68efebf714f2de18dfb8b69d224221" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/2442/cover-left-1.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyMTA3MA==> .
-
-:Coverright a okh:Part ;
-    rdfs:label "cover_right" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Tetiana Bulgakova" ;
-    okh:source :Coverright_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Coverright_source a okh:SourceFile ;
-    rdfs:label "Source File of cover_right of GlueDart 7 a96819ce9d68efebf714f2de18dfb8b69d224221" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/2442/cover-right-1.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyMTA3MQ==> .
-
-:Gluedartdome a okh:Part ;
-    rdfs:label "Gluedart_dome" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Tetiana Bulgakova" ;
-    okh:source :Gluedartdome_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Gluedartdome_source a okh:SourceFile ;
-    rdfs:label "Source File of Gluedart_dome of GlueDart 7 a96819ce9d68efebf714f2de18dfb8b69d224221" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/2442/gluedartdome-1.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyMTA3Mg==> .
-
-:Gluedartframe a okh:Part ;
-    rdfs:label "Gluedart_frame" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Tetiana Bulgakova" ;
-    okh:source :Gluedartframe_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Gluedartframe_source a okh:SourceFile ;
-    rdfs:label "Source File of Gluedart_frame of GlueDart 7 a96819ce9d68efebf714f2de18dfb8b69d224221" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/2442/gluedartframe-1.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyMTA3Mw==> .
-
-:Gluedarttongue a okh:Part ;
-    rdfs:label "Gluedart_Tongue" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Tetiana Bulgakova" ;
-    okh:source :Gluedarttongue_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Gluedarttongue_source a okh:SourceFile ;
-    rdfs:label "Source File of Gluedart_Tongue of GlueDart 7 a96819ce9d68efebf714f2de18dfb8b69d224221" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/2442/gluedarttongue-1.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyMTA3NA==> .
 
 :Image a okh:Image ;
     rdfs:label "Image of GlueDart 7 a96819ce9d68efebf714f2de18dfb8b69d224221" ;
@@ -141,15 +39,119 @@
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/2442/readme-5.md> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToyMTE5Mg==> .
 
-:Stand a okh:Part ;
-    rdfs:label "stand" ;
+:StlFilesaxialcam a okh:Part ;
+    rdfs:label "STL files/axial_cam" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Tetiana Bulgakova" ;
-    okh:source :Stand_source ;
+    okh:source :StlFilesaxialcam_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Stand_source a okh:SourceFile ;
-    rdfs:label "Source File of stand of GlueDart 7 a96819ce9d68efebf714f2de18dfb8b69d224221" ;
+:StlFilesaxialcam_source a okh:SourceFile ;
+    rdfs:label "Source File of STL files/axial_cam of GlueDart 7 a96819ce9d68efebf714f2de18dfb8b69d224221" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/2442/axial-cam-1.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyMTA2Nw==> .
+
+:StlFilesbaseleft a okh:Part ;
+    rdfs:label "STL files/base_left" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Tetiana Bulgakova" ;
+    okh:source :StlFilesbaseleft_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:StlFilesbaseleft_source a okh:SourceFile ;
+    rdfs:label "Source File of STL files/base_left of GlueDart 7 a96819ce9d68efebf714f2de18dfb8b69d224221" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/2442/base-left-1.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyMTA2OA==> .
+
+:StlFilesbaseright a okh:Part ;
+    rdfs:label "STL files/base_right" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Tetiana Bulgakova" ;
+    okh:source :StlFilesbaseright_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:StlFilesbaseright_source a okh:SourceFile ;
+    rdfs:label "Source File of STL files/base_right of GlueDart 7 a96819ce9d68efebf714f2de18dfb8b69d224221" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/2442/base-right-1.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyMTA2OQ==> .
+
+:StlFilescoverleft a okh:Part ;
+    rdfs:label "STL files/cover_left" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Tetiana Bulgakova" ;
+    okh:source :StlFilescoverleft_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:StlFilescoverleft_source a okh:SourceFile ;
+    rdfs:label "Source File of STL files/cover_left of GlueDart 7 a96819ce9d68efebf714f2de18dfb8b69d224221" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/2442/cover-left-1.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyMTA3MA==> .
+
+:StlFilescoverright a okh:Part ;
+    rdfs:label "STL files/cover_right" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Tetiana Bulgakova" ;
+    okh:source :StlFilescoverright_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:StlFilescoverright_source a okh:SourceFile ;
+    rdfs:label "Source File of STL files/cover_right of GlueDart 7 a96819ce9d68efebf714f2de18dfb8b69d224221" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/2442/cover-right-1.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyMTA3MQ==> .
+
+:StlFilesgluedartdome a okh:Part ;
+    rdfs:label "STL files/Gluedart_dome" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Tetiana Bulgakova" ;
+    okh:source :StlFilesgluedartdome_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:StlFilesgluedartdome_source a okh:SourceFile ;
+    rdfs:label "Source File of STL files/Gluedart_dome of GlueDart 7 a96819ce9d68efebf714f2de18dfb8b69d224221" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/2442/gluedartdome-1.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyMTA3Mg==> .
+
+:StlFilesgluedartframe a okh:Part ;
+    rdfs:label "STL files/Gluedart_frame" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Tetiana Bulgakova" ;
+    okh:source :StlFilesgluedartframe_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:StlFilesgluedartframe_source a okh:SourceFile ;
+    rdfs:label "Source File of STL files/Gluedart_frame of GlueDart 7 a96819ce9d68efebf714f2de18dfb8b69d224221" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/2442/gluedartframe-1.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyMTA3Mw==> .
+
+:StlFilesgluedarttongue a okh:Part ;
+    rdfs:label "STL files/Gluedart_Tongue" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Tetiana Bulgakova" ;
+    okh:source :StlFilesgluedarttongue_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:StlFilesgluedarttongue_source a okh:SourceFile ;
+    rdfs:label "Source File of STL files/Gluedart_Tongue of GlueDart 7 a96819ce9d68efebf714f2de18dfb8b69d224221" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/2442/gluedarttongue-1.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyMTA3NA==> .
+
+:StlFilesstand a okh:Part ;
+    rdfs:label "STL files/stand" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Tetiana Bulgakova" ;
+    okh:source :StlFilesstand_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:StlFilesstand_source a okh:SourceFile ;
+    rdfs:label "Source File of STL files/stand of GlueDart 7 a96819ce9d68efebf714f2de18dfb8b69d224221" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/2442/stand-1.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToyMTA3NQ==> .

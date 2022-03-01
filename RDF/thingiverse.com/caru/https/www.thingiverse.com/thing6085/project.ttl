@@ -1,0 +1,33 @@
+@prefix : <https://www.thingiverse.com/thing%3A6085/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:IceShotGlassMaker a okh:Module ;
+    rdfs:label "Ice Shot Glass Maker" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """With this thing, you can make shot glasses made of ice.\r
+\r
+It is made in OpenSCAD and it's fully parametric.\r
+\r
+Changes in version 1.1:\r
+- added a centralWedgeSpace parameter, default to 1 mm, as per Linkreincarnate's feedback (pot_1.0.stl is not changed, you can print it)\r
+- slightly changed the algorithm that positions the caps near the pot, eg when rendering both together\r
+\r
+Changes in version 1.2:\r
+- fixed a bug: the chosen glass thickness was right only at the top border of the glass (pot_1.0.stl is not changed, you can print it)""" ;
+    okh:hasImage :Image ;
+    okh:licensor "caru" ;
+    okh:repo <https://www.thingiverse.com/thing:6085> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:6085> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Ice Shot Glass Maker 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/02/87/e8/6c/b9/ice_glass_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/02/87/e8/6c/b9/ice_glass_display_large_display_large.jpg> .
+

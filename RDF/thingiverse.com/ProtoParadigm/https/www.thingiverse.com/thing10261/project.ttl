@@ -1,0 +1,57 @@
+@prefix : <https://www.thingiverse.com/thing%3A10261/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:20mmPlasticTslot a okh:Module ;
+    rdfs:label "20mm Plastic T-Slot" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """20mm Plastic T-Slot - Rev 2\r
+Completely redesigned; the new beam prints faster and is stronger both against deflection and torsion.\r
+\r
+UPDATE: Added DXF of Profiles. Naming convention is [dimensions]-[bolt size]-[Wall Thickness]-[Multiplier]. We are starting to prefer 1pt6 (1.6) wall thickness profiles and find printing them No Infill, 1 Extra Loop, No solid Layers, with a trace thickness of .8mm results in a quick and adequetly strong beam.\r
+\r
+These beams are being designed as the main structural component for a 3d printer though arguably they are of more use as a general hobby framing and mounting set. That said they are designed with both printing and commercial extrusion in mind. \r
+\r
+If printed in ABS, they can be solvent welded with the aid of a T-Slot Welding Jig http://www.thingiverse.com/thing:13598 and ABS Glue http://www.thingiverse.com/thing:14490 . A center hole increases the beams second moment of inertia while aiding in fusing beams.\r
+\r
+PLA beams are more rigid though they are not as easy to fuse into various lengths.\r
+\r
+Hardware\r
+An example of Friction Fit hardware is located -\r
+Here - http://www.thingiverse.com/thing:9797\r
+& Here - http://www.thingiverse.com/thing:13599\r
+\r
+The standard beam profile is meant to accommodate both M3 hardware as well as 6-32 nuts and bolts. Both bolt heads or nuts will fit in the slot with an insert provided to help guide and captive M3 nuts. 6-32 Nuts will captive natively.\r
+\r
+Alternative profiles are provided for M4 / 8-32 hardware as well as dedicated M3 and 6-32. All profiles are located in "20mm Profiles - Printing.skp" Use the 'Push/Pull' tool to create a profile of the desired length.\r
+\r
+If the printing instructions are followed, these beams can be printed fast (going at even a moderate pace we're able to produce all the beams needed for a Prusa in under 12 hours). While the beams can technically be printing with any working profile, they will not print as quickly and may not perform as intended structurally.\r
+\r
+Files\r
+100mm Beam.stl - actual height is 101mm to allow for loss during welding \r
+20mm Test Beam.stl - shorter for testing settings\r
+M3 Nut Insert.stl - use with metric hardware\r
+20mm Profile-Printing.skp - profile faces for printing and creating different heights\r
+20mm Profile-True.skp - diagram of a properly printed profile\r
+20mm Profile-Printing-pt4.skp - profiles based on 0.4mm widths, contains a M5 profile \r
+M3 Nut Insert.skp - source file for insert\r
+\r
+Check Back For\r
+T-slot Profiles for Thing-O-Matic, Ultimaker & Mosaic at various resolutions, speeds.\r
+OpenScad version to ease design of compatible hardware and accessories.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "ProtoParadigm" ;
+    okh:repo <https://www.thingiverse.com/thing:10261> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:10261> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of 20mm Plastic T-Slot 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/9f/b5/91/bc/1e/T-slot_Family_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/9f/b5/91/bc/1e/T-slot_Family_display_large_display_large.jpg> .
+

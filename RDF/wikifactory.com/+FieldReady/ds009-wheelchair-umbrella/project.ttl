@@ -1,12 +1,13 @@
-@prefix : <https://wikifactory.com/+FieldReady/ds009-wheelchair-umbrella/e94560c0ddf3d4961b19e64e37f78221d46c9181/> .
+@prefix : <https://wikifactory.com/%2BFieldReady/ds009-wheelchair-umbrella/e94560c0ddf3d4961b19e64e37f78221d46c9181/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 :Ds009wheelchairUmbrella a okh:Module ;
     rdfs:label "DS009-Wheelchair Umbrella" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "Protects Occupant from sunlight and rain" ;
-    okh:hasComponent :Ds009cad,
+    okh:hasComponent :CadDatads009cad,
         :Ds009engdwgcover,
         :Ds009engdwgframe ;
     okh:hasImage :Image ;
@@ -17,18 +18,19 @@
     okh:repo <https://wikifactory.com/+FieldReady/ds009-wheelchair-umbrella> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
     okh:version "e94560c0ddf3d4961b19e64e37f78221d46c9181" ;
     okh:versionOf <https://wikifactory.com/+FieldReady/ds009-wheelchair-umbrella> .
 
-:Ds009cad a okh:Part ;
-    rdfs:label "DS009_CAD" ;
+:CadDatads009cad a okh:Part ;
+    rdfs:label "CAD Data/DS009_CAD" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Patrick Flaherty" ;
-    okh:source :Ds009cad_source ;
+    okh:source :CadDatads009cad_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Ds009cad_source a okh:SourceFile ;
-    rdfs:label "Source File of DS009_CAD of DS009-Wheelchair Umbrella e94560c0ddf3d4961b19e64e37f78221d46c9181" ;
+:CadDatads009cad_source a okh:SourceFile ;
+    rdfs:label "Source File of CAD Data/DS009_CAD of DS009-Wheelchair Umbrella e94560c0ddf3d4961b19e64e37f78221d46c9181" ;
     okh:fileFormat "SLDPRT" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/49246/ds009_cad.SLDPRT> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTozNDcxOTM=> .

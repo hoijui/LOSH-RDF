@@ -1,0 +1,53 @@
+@prefix : <https://www.thingiverse.com/thing%3A10361/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:LaunchVehicleInfographic a okh:Module ;
+    rdfs:label "Launch Vehicle Infographic" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is a 3D printable infographic showing a somewhat random selection of launch vehicles used to get to low Earth orbit. The infographic has three pieces of information: \r
+(1) total cost to the customer of one flight, in US dollars FOR CARGO. Humans are a whole 'nother story. The shuttle is included purely for fun(x axis: $3 million/mm)\r
+(2) amount of mass that can be carried into LEO, in kg (y axis: 500kg/mm) \r
+(3) physical height of the assembled launch stack, in meters (z axis: 1m/mm)\r
+\r
+The values used are in the 'rough-order-of-magnitude' range of accuracy. The lack of public information, coupled with the multiple ways that a rocket can be priced and the varying capabilities depending on the launch site place this project squarely into the 'interesting but useless' category of information. Seriously, if your using these values for anything important you're crazy.\r
+\r
+With that said, the following sites were used to find the information:\r
+Wikipedia (of course)\r
+Marspedia.org\r
+russianspaceweb.com\r
+spaceandtech.com\r
+spacelaunchreport.com\r
+\r
+If I'm feeling very, very motivated I may go and cross check the numbers against whatever is available on ILS',ESA's and ULA's websites, but I haven't gotten around to it yet.\r
+\r
+There is a good case to be made in splitting the rockets into low, medium and heavy lift categories to better accentuate the differences in cost/payload, but I didn't feel that there were enough rockets in each category to make it worth my while. Plus, it's kind of nice to have a unified scale to get an idea of the range of craft available. Who said the space age was dead?\r
+\r
+Currently the following rockets are available for printing:\r
+\r
+Name                   Mass/LEO     Stack Height    Cost\r
+Ariane 5               18,000 kg       52m          $165 million\r
+Atlas 5 HLV            29,420 kg     58.3m          $349.6 million\r
+Delta IV Heavy         22,560 kg       72m          $275.6 million\r
+Falcon 9               10,450 kg     54.3m           $56 million\r
+Proton Breeze M        20,700 kg       53m           $89 million\r
+Zenit-2 (Sea Launch)   13,740 kg     59.6m           $42.5 million\r
+Soyuz                   8,400 kg     49.3m           $44.8 million\r
+Space Shuttle          28,800 kg       56m          $300 million\r
+lv_scale - The map key!""" ;
+    okh:hasImage :Image ;
+    okh:licensor "jahg" ;
+    okh:repo <https://www.thingiverse.com/thing:10361> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:10361> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Launch Vehicle Infographic 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/6f/19/27/57/3f/lv_all_iso_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/6f/19/27/57/3f/lv_all_iso_display_large_display_large.jpg> .
+

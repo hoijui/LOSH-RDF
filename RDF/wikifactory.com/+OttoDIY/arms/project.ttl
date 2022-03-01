@@ -1,18 +1,19 @@
-@prefix : <https://wikifactory.com/+OttoDIY/arms/85ac42568086e27c543f57151cc0a26cbab4c14a/> .
+@prefix : <https://wikifactory.com/%2BOttoDIY/arms/85ac42568086e27c543f57151cc0a26cbab4c14a/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 :Arms a okh:Module ;
     rdfs:label "ARMS" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "Otto DIY robot with fully functioning Arms, LED matrix, Bluetooth APP and new libraries, created by @s4snow" ;
-    okh:hasComponent :Feetmodified,
-        :Headmatrix,
-        :Ottoarms1,
-        :Ottoarmsdsn,
-        :Ottobodyarms,
-        :Ottodiylegsv05,
-        :Visiodrawing1 ;
+    okh:hasComponent :3dPrintedFilesfeetmodified,
+        :3dPrintedFilesheadmatrix,
+        :3dPrintedFilesottoarms1,
+        :3dPrintedFilesottobodyarms,
+        :3dPrintedFilesottodiylegsv05,
+        :InstructionManualottoarmsdsn,
+        :InstructionManualvisiodrawing1 ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "Camilo Parra Palacio" ;
@@ -21,34 +22,74 @@
     okh:repo <https://wikifactory.com/+OttoDIY/arms> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
     okh:version "85ac42568086e27c543f57151cc0a26cbab4c14a" ;
     okh:versionOf <https://wikifactory.com/+OttoDIY/arms> .
 
-:Feetmodified a okh:Part ;
-    rdfs:label "Feet_Modified" ;
+:3dPrintedFilesfeetmodified a okh:Part ;
+    rdfs:label "3D Printed Files/Feet_Modified" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Feetmodified_source ;
+    okh:source :3dPrintedFilesfeetmodified_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Feetmodified_source a okh:SourceFile ;
-    rdfs:label "Source File of Feet_Modified of ARMS 85ac42568086e27c543f57151cc0a26cbab4c14a" ;
+:3dPrintedFilesfeetmodified_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Printed Files/Feet_Modified of ARMS 85ac42568086e27c543f57151cc0a26cbab4c14a" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1030/feetmodified.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToxMTU3NQ==> .
 
-:Headmatrix a okh:Part ;
-    rdfs:label "Head_MATRIX" ;
+:3dPrintedFilesheadmatrix a okh:Part ;
+    rdfs:label "3D Printed Files/Head_MATRIX" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Headmatrix_source ;
+    okh:source :3dPrintedFilesheadmatrix_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Headmatrix_source a okh:SourceFile ;
-    rdfs:label "Source File of Head_MATRIX of ARMS 85ac42568086e27c543f57151cc0a26cbab4c14a" ;
+:3dPrintedFilesheadmatrix_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Printed Files/Head_MATRIX of ARMS 85ac42568086e27c543f57151cc0a26cbab4c14a" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1030/headmatrix.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToxMTU3Ng==> .
+
+:3dPrintedFilesottoarms1 a okh:Part ;
+    rdfs:label "3D Printed Files/Otto_ARMS_1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dPrintedFilesottoarms1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dPrintedFilesottoarms1_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Printed Files/Otto_ARMS_1 of ARMS 85ac42568086e27c543f57151cc0a26cbab4c14a" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1030/ottoarms1.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMTU3Nw==> .
+
+:3dPrintedFilesottobodyarms a okh:Part ;
+    rdfs:label "3D Printed Files/Otto_Body_ARMS" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dPrintedFilesottobodyarms_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dPrintedFilesottobodyarms_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Printed Files/Otto_Body_ARMS of ARMS 85ac42568086e27c543f57151cc0a26cbab4c14a" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1030/ottobodyarms.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMTU3OA==> .
+
+:3dPrintedFilesottodiylegsv05 a okh:Part ;
+    rdfs:label "3D Printed Files/OttoDIY_Legs_v05" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :3dPrintedFilesottodiylegsv05_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dPrintedFilesottodiylegsv05_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Printed Files/OttoDIY_Legs_v05 of ARMS 85ac42568086e27c543f57151cc0a26cbab4c14a" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1030/ottodiylegsv05.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMTU3OQ==> .
 
 :Image a okh:Image ;
     rdfs:label "Image of ARMS 85ac42568086e27c543f57151cc0a26cbab4c14a" ;
@@ -56,74 +97,35 @@
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1030/otto-arms.jpg> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToxMTU3Mw==> .
 
-:Ottoarms1 a okh:Part ;
-    rdfs:label "Otto_ARMS_1" ;
+:InstructionManualottoarmsdsn a okh:Part ;
+    rdfs:label "Instruction Manual/OTTO_ARMS.dsn" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Ottoarms1_source ;
+    okh:source :InstructionManualottoarmsdsn_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Ottoarms1_source a okh:SourceFile ;
-    rdfs:label "Source File of Otto_ARMS_1 of ARMS 85ac42568086e27c543f57151cc0a26cbab4c14a" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1030/ottoarms1.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMTU3Nw==> .
-
-:Ottoarmsdsn a okh:Part ;
-    rdfs:label "OTTO_ARMS.dsn" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Ottoarmsdsn_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Ottoarmsdsn_source a okh:SourceFile ;
-    rdfs:label "Source File of OTTO_ARMS.dsn of ARMS 85ac42568086e27c543f57151cc0a26cbab4c14a" ;
+:InstructionManualottoarmsdsn_source a okh:SourceFile ;
+    rdfs:label "Source File of Instruction Manual/OTTO_ARMS.dsn of ARMS 85ac42568086e27c543f57151cc0a26cbab4c14a" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1030/otto-armsdsn.pdf> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToxMTU5MQ==> .
 
-:Ottobodyarms a okh:Part ;
-    rdfs:label "Otto_Body_ARMS" ;
+:InstructionManualvisiodrawing1 a okh:Part ;
+    rdfs:label "Instruction Manual/Visio-Drawing1" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Ottobodyarms_source ;
+    okh:source :InstructionManualvisiodrawing1_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Ottobodyarms_source a okh:SourceFile ;
-    rdfs:label "Source File of Otto_Body_ARMS of ARMS 85ac42568086e27c543f57151cc0a26cbab4c14a" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1030/ottobodyarms.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMTU3OA==> .
-
-:Ottodiylegsv05 a okh:Part ;
-    rdfs:label "OttoDIY_Legs_v05" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Ottodiylegsv05_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Ottodiylegsv05_source a okh:SourceFile ;
-    rdfs:label "Source File of OttoDIY_Legs_v05 of ARMS 85ac42568086e27c543f57151cc0a26cbab4c14a" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1030/ottodiylegsv05.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMTU3OQ==> .
+:InstructionManualvisiodrawing1_source a okh:SourceFile ;
+    rdfs:label "Source File of Instruction Manual/Visio-Drawing1 of ARMS 85ac42568086e27c543f57151cc0a26cbab4c14a" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1030/visio-drawing1.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToxMTU5Ng==> .
 
 :Readme a okh:Readme ;
     rdfs:label "Readme of ARMS 85ac42568086e27c543f57151cc0a26cbab4c14a" ;
     okh:fileFormat "MD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1030/readme-6f467.md> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTozNDY4ODE=> .
-
-:Visiodrawing1 a okh:Part ;
-    rdfs:label "Visio-Drawing1" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :Visiodrawing1_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Visiodrawing1_source a okh:SourceFile ;
-    rdfs:label "Source File of Visio-Drawing1 of ARMS 85ac42568086e27c543f57151cc0a26cbab4c14a" ;
-    okh:fileFormat "PDF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1030/visio-drawing1.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMTU5Ng==> .
 

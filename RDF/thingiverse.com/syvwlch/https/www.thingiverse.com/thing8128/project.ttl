@@ -1,0 +1,46 @@
+@prefix : <https://www.thingiverse.com/thing%3A8128/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:TestJigClockMinutesAndSecondsOnly a okh:Module ;
+    rdfs:label "Test Jig - Clock - Minutes and Seconds Only" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """SUPERCEDED by http://www.thingiverse.com/thing:8275\r
+\r
+/* The Printable Clock Project by Syvwlch, \r
+with help from MakerBlock, rustedrobot, barrychuck, \r
+and many others at Thingiverse. \r
+\r
+Test Jig - Minutes and Seconds Only\r
+http://www.thingiverse.com/thing:8128\r
+\r
+A minutes & seconds only test jig for the printable clock project.\r
+\r
+This configuration, with only one gear between them, should have little enough friction to drive the escapement wheel from the drum.\r
+The frame sytem has also been improved to include the escapement shaft.\r
+Hopefully, this test jig should allow us to actually test the escapement for the first time!\r
+\r
+CC-A-SA licensed.*/\r
+\r
+I also went ahead and enlarged the diameter for the shafts to 3mm and made the sleeves thinner to compensate. It seemed ok to do so, since rustedrobot mods his parts with a drill to get the same result. ;-)\r
+\r
+This script relies on both the MCAD involute_gear library and on my own clockwork library.\r
+\r
+Current repository for the latest version of the clockwork library:\r
+http://www.thingiverse.com/thing:8155""" ;
+    okh:hasImage :Image ;
+    okh:licensor "syvwlch" ;
+    okh:repo <https://www.thingiverse.com/thing:8128> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:8128> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Test Jig - Clock - Minutes and Seconds Only 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/d2/8e/81/95/e3/TestJig-MinutesSecondsOnly-01_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/d2/8e/81/95/e3/TestJig-MinutesSecondsOnly-01_display_large_display_large.jpg> .
+

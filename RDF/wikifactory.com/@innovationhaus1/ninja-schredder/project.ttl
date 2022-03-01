@@ -1,0 +1,1684 @@
+@prefix : <https://wikifactory.com/%40innovationhaus1/ninja-schredder/c87c442e97d0bfeee1140f769535955c52fdbace/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:NinjaSchredder a okh:Module ;
+    rdfs:label "Ninja Schredder " ;
+    okh:dataSource "wikifactory.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function "Based on shredder basic 3.2 :- change few drawings mistakes- adding dedicated space for electronic box- fixed the hopper flange- add an enclosure on the hopper- get an easier attachment system for the sieve and the funnel" ;
+    okh:hasComponent :13dCadshr30000003ShredderBasic33,
+        :2LaserCutFileshardox5mmblade15MmX5,
+        :2LaserCutFileshardox5mmblade25MmX5,
+        :2LaserCutFileshardox5mmblade35MmX4,
+        :2LaserCutFileshardox6mmfixBlade16MmX14,
+        :2LaserCutFileshardox6mmfixBlade25MmX13,
+        :2LaserCutFilessteels23510mmboxPlate110MmX2,
+        :2LaserCutFilessteels23510mmmotorSupport10MmX1,
+        :2LaserCutFilessteels23515mmbearingProtection15MmX1,
+        :2LaserCutFilessteels23515mmcouplingBottomCover15MmX1,
+        :2LaserCutFilessteels23515mmcouplingProtectionFront15MmX1,
+        :2LaserCutFilessteels23515mmcouplingProtectionRear15MmX1,
+        :2LaserCutFilessteels23515mmframeRackSheet115MmX2,
+        :2LaserCutFilessteels23515mmframeRackSheet215MmX1,
+        :2LaserCutFilessteels23515mmframeTopCover15MmX1,
+        :2LaserCutFilessteels23515mmfunnelBackSheet15MmX1,
+        :2LaserCutFilessteels23515mmfunnelFrontSheet15MmX1,
+        :2LaserCutFilessteels23515mmfunnelLateralSheet15MmX2,
+        :2LaserCutFilessteels23515mmhopperBackSheet15MmX1,
+        :2LaserCutFilessteels23515mmhopperCoverPlate15MmX1,
+        :2LaserCutFilessteels23515mmhopperDoorFrame15MmX1,
+        :2LaserCutFilessteels23515mmhopperFrontSheet15MmX1,
+        :2LaserCutFilessteels23515mmhopperLeftSheet15MmX1,
+        :2LaserCutFilessteels23515mmhopperLockerSupport15MmX1,
+        :2LaserCutFilessteels23515mmhopperRightSheet15MmX1,
+        :2LaserCutFilessteels23515mmhopperSensorSupport15MmX1,
+        :2LaserCutFilessteels23515mmlsheet15mmX1,
+        :2LaserCutFilessteels23515mmsieveMesh8mmHole15mmX1,
+        :2LaserCutFilessteels2353mmcouplingProtectionFixingPlate3MmX1,
+        :2LaserCutFilessteels2353mmfunnelSupportPlate23mmX2,
+        :2LaserCutFilessteels2353mmfunnelSupportPlate3mmX1,
+        :2LaserCutFilessteels2353mmhopperBasePlate3MmX1,
+        :2LaserCutFilessteels2353mmhopperFixingPlate13MmX1,
+        :2LaserCutFilessteels2353mmhopperFixingPlate23MmX1,
+        :2LaserCutFilessteels2353mmsieveFrontPlate3MmX1,
+        :2LaserCutFilessteels2353mmsieveMiddlePlate3MmX1,
+        :2LaserCutFilessteels2353mmsieveRearPlate3MmX1,
+        :2LaserCutFilessteels2353mmsieveSidePlate3MmX2,
+        :2LaserCutFilessteels2353mmsieveSupportPlate13mmX1,
+        :2LaserCutFilessteels2353mmsieveSupportPlate23mmX1,
+        :2LaserCutFilessteels2353mmsieveSupportPlate33mmX2,
+        :2LaserCutFilessteels2355mmboxPlate25MmX2,
+        :2LaserCutFilessteels2355mmboxPlate35MmX1,
+        :2LaserCutFilessteels2355mmboxPlate45MmX1,
+        :2LaserCutFilessteels2355mmframeMountingPlate5MmX4,
+        :2LaserCutFilessteels2355mmhopperHandgrip5MmX1,
+        :2LaserCutFilessteels2356mmspacer6MmX13,
+        :3Blueprintsshr30000003ShredderBasicAssembly,
+        :3Blueprintsshr31000003ShredderBoxAssembly,
+        :3Blueprintsshr31000012FixBlade1,
+        :3Blueprintsshr31000022FixBlade2,
+        :3Blueprintsshr31000032BearingProtection,
+        :3Blueprintsshr31000042ThreadedBarM10,
+        :3Blueprintsshr31000052ThreadedBarM8,
+        :3Blueprintsshr31100003ShredderBox,
+        :3Blueprintsshr31100013BoxPlate1,
+        :3Blueprintsshr31100022BoxPlate2,
+        :3Blueprintsshr31100033BoxPlate3,
+        :3Blueprintsshr31100042BoxPlate4,
+        :3Blueprintsshr31200002ShaftAssembly,
+        :3Blueprintsshr31200012Shaft,
+        :3Blueprintsshr31200022Blade1,
+        :3Blueprintsshr31200032Blade2,
+        :3Blueprintsshr31200042Blade3,
+        :3Blueprintsshr31200052Spacer,
+        :3Blueprintsshr31200062SlottM35X15,
+        :3Blueprintsshr31300003SieveAssembly,
+        :3Blueprintsshr31300012SieveFrontPlate,
+        :3Blueprintsshr31300022SieveRearPlate,
+        :3Blueprintsshr31300032SieveSidePlate,
+        :3Blueprintsshr31300042SieveMidPlate,
+        :3Blueprintsshr31300052SieveMesh8mmHole,
+        :3Blueprintsshr31300063SieveSupportPlate1,
+        :3Blueprintsshr31300073SieveSupportPlate2,
+        :3Blueprintsshr31300083SieveSupportPlate3,
+        :3Blueprintsshr31400003FunnelAssembly,
+        :3Blueprintsshr31400012FunnelFrontSheet,
+        :3Blueprintsshr31400022FunnelBackSheet,
+        :3Blueprintsshr31400032FunnelLateralSheet,
+        :3Blueprintsshr31400043FunnelSupportPlate,
+        :3Blueprintsshr31400053FunnelSupportPlate2,
+        :3Blueprintsshr32000003FrameAssembly,
+        :3Blueprintsshr32000013Frame,
+        :3Blueprintsshr32000022CouplingBottomCover,
+        :3Blueprintsshr32000033FrameTopCover,
+        :3Blueprintsshr32000042MotorSupport,
+        :3Blueprintsshr32000053FrameRackSheet,
+        :3Blueprintsshr32000062FrameFixingPlate,
+        :3Blueprintsshr32000073FrameRackSheet2,
+        :3Blueprintsshr32000083FrameReinforcement,
+        :3Blueprintsshr32000093Lsheet,
+        :3Blueprintsshr33000003HopperAssembly,
+        :3Blueprintsshr33000013HopperFrontSheet,
+        :3Blueprintsshr33000023HopperBackSheet,
+        :3Blueprintsshr33000033HopperRightSheet,
+        :3Blueprintsshr33000043HopperLeftSheet,
+        :3Blueprintsshr33000073HopperBasePlate,
+        :3Blueprintsshr33100003HopperDoor,
+        :3Blueprintsshr33100013HopperDoorFrame,
+        :3Blueprintsshr33100022HopperSensorSupport,
+        :3Blueprintsshr33100032HopperHandgrip,
+        :3Blueprintsshr33100042HopperMesh,
+        :3Blueprintsshr33100053HopperCoverPlate,
+        :3Blueprintsshr33100063HopperLockerSupport,
+        :3Blueprintsshr34000002CouplingProtectionAssembly,
+        :3Blueprintsshr34000012CouplingProtectionFront,
+        :3Blueprintsshr34100002CouplingProtectionRearAssembly,
+        :3Blueprintsshr34100012CouplingProtectionFixingPlate,
+        :3Blueprintsshr34100022CouplingProtectionRear,
+        :4Schematicsshr33Control,
+        :4Schematicsshrb33Cabling,
+        :4Schematicsshrb33Power,
+        :5BomshrV33Boma,
+        :6Otheralignmentspacer105Mm05MmX16,
+        :6Otheralignmentspacer105Mm1MmX16,
+        :6Otheralignmentspacer85Mm05MmX16,
+        :6Otheralignmentspacer85Mm1MmX16,
+        :6OthertemplatedrillingTemplate15mmX1 ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "innovationhaus1" ;
+    okh:release <https://wikifactory.com/@innovationhaus1/ninja-schredder/v/c87c442> ;
+    okh:repo <https://wikifactory.com/@innovationhaus1/ninja-schredder> ;
+    okh:repoHost "wikifactory.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:versionOf <https://wikifactory.com/@innovationhaus1/ninja-schredder> .
+
+:13dCadshr30000003ShredderBasic33 a okh:Part ;
+    rdfs:label "1. 3D CAD/SHR-3 0000.00-3 - Shredder basic 3.3" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :13dCadshr30000003ShredderBasic33_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:13dCadshr30000003ShredderBasic33_source a okh:SourceFile ;
+    rdfs:label "Source File of 1. 3D CAD/SHR-3 0000.00-3 - Shredder basic 3.3 of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "STEP" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147845/shr-3-000000-3-shredder-basic-33.step> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ1NjM=> .
+
+:2LaserCutFileshardox5mmblade15MmX5 a okh:Part ;
+    rdfs:label "2. laser cut files/Hardox_5mm/Blade 1 - 5 mm - x5" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :2LaserCutFileshardox5mmblade15MmX5_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:2LaserCutFileshardox5mmblade15MmX5_source a okh:SourceFile ;
+    rdfs:label "Source File of 2. laser cut files/Hardox_5mm/Blade 1 - 5 mm - x5 of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/blade-1-5-mm-x5.dxf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ0NjQ=> .
+
+:2LaserCutFileshardox5mmblade25MmX5 a okh:Part ;
+    rdfs:label "2. laser cut files/Hardox_5mm/Blade 2 - 5 mm - x5" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :2LaserCutFileshardox5mmblade25MmX5_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:2LaserCutFileshardox5mmblade25MmX5_source a okh:SourceFile ;
+    rdfs:label "Source File of 2. laser cut files/Hardox_5mm/Blade 2 - 5 mm - x5 of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/blade-2-5-mm-x5.dxf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ0NjM=> .
+
+:2LaserCutFileshardox5mmblade35MmX4 a okh:Part ;
+    rdfs:label "2. laser cut files/Hardox_5mm/Blade 3 - 5 mm - x4" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :2LaserCutFileshardox5mmblade35MmX4_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:2LaserCutFileshardox5mmblade35MmX4_source a okh:SourceFile ;
+    rdfs:label "Source File of 2. laser cut files/Hardox_5mm/Blade 3 - 5 mm - x4 of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/blade-3-5-mm-x4.dxf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ0NjU=> .
+
+:2LaserCutFileshardox6mmfixBlade16MmX14 a okh:Part ;
+    rdfs:label "2. laser cut files/Hardox_6mm/Fix blade 1 - 6 mm - x14" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :2LaserCutFileshardox6mmfixBlade16MmX14_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:2LaserCutFileshardox6mmfixBlade16MmX14_source a okh:SourceFile ;
+    rdfs:label "Source File of 2. laser cut files/Hardox_6mm/Fix blade 1 - 6 mm - x14 of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/fix-blade-1-6-mm-x14.dxf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ0NjY=> .
+
+:2LaserCutFileshardox6mmfixBlade25MmX13 a okh:Part ;
+    rdfs:label "2. laser cut files/Hardox_6mm/Fix blade 2 - 5 mm - x13" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :2LaserCutFileshardox6mmfixBlade25MmX13_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:2LaserCutFileshardox6mmfixBlade25MmX13_source a okh:SourceFile ;
+    rdfs:label "Source File of 2. laser cut files/Hardox_6mm/Fix blade 2 - 5 mm - x13 of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/fix-blade-2-5-mm-x13.dxf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ0Njc=> .
+
+:2LaserCutFilessteels23510mmboxPlate110MmX2 a okh:Part ;
+    rdfs:label "2. laser cut files/Steel-S235_10mm/Box plate 1 - 10 mm - x2" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :2LaserCutFilessteels23510mmboxPlate110MmX2_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:2LaserCutFilessteels23510mmboxPlate110MmX2_source a okh:SourceFile ;
+    rdfs:label "Source File of 2. laser cut files/Steel-S235_10mm/Box plate 1 - 10 mm - x2 of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147845/box-plate-1-10-mm-x2-bf873.dxf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ1NjI=> .
+
+:2LaserCutFilessteels23510mmmotorSupport10MmX1 a okh:Part ;
+    rdfs:label "2. laser cut files/Steel-S235_10mm/Motor support - 10 mm - x1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :2LaserCutFilessteels23510mmmotorSupport10MmX1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:2LaserCutFilessteels23510mmmotorSupport10MmX1_source a okh:SourceFile ;
+    rdfs:label "Source File of 2. laser cut files/Steel-S235_10mm/Motor support - 10 mm - x1 of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/motor-support-10-mm-x1.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ0ODY=> .
+
+:2LaserCutFilessteels23515mmbearingProtection15MmX1 a okh:Part ;
+    rdfs:label "2. laser cut files/Steel-S235_1.5mm/Bearing protection - 1,5 mm - x1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :2LaserCutFilessteels23515mmbearingProtection15MmX1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:2LaserCutFilessteels23515mmbearingProtection15MmX1_source a okh:SourceFile ;
+    rdfs:label "Source File of 2. laser cut files/Steel-S235_1.5mm/Bearing protection - 1,5 mm - x1 of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/bearing-protection-15-mm-x1.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ0NzY=> .
+
+:2LaserCutFilessteels23515mmcouplingBottomCover15MmX1 a okh:Part ;
+    rdfs:label "2. laser cut files/Steel-S235_1.5mm/Coupling bottom cover - 1,5 mm - x1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :2LaserCutFilessteels23515mmcouplingBottomCover15MmX1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:2LaserCutFilessteels23515mmcouplingBottomCover15MmX1_source a okh:SourceFile ;
+    rdfs:label "Source File of 2. laser cut files/Steel-S235_1.5mm/Coupling bottom cover - 1,5 mm - x1 of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/coupling-bottom-cover-15-mm-x1.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ0NzU=> .
+
+:2LaserCutFilessteels23515mmcouplingProtectionFront15MmX1 a okh:Part ;
+    rdfs:label "2. laser cut files/Steel-S235_1.5mm/Coupling protection front - 1,5 mm - x1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :2LaserCutFilessteels23515mmcouplingProtectionFront15MmX1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:2LaserCutFilessteels23515mmcouplingProtectionFront15MmX1_source a okh:SourceFile ;
+    rdfs:label "Source File of 2. laser cut files/Steel-S235_1.5mm/Coupling protection front - 1,5 mm - x1 of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/coupling-protection-front-15-mm-x1.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ0NzQ=> .
+
+:2LaserCutFilessteels23515mmcouplingProtectionRear15MmX1 a okh:Part ;
+    rdfs:label "2. laser cut files/Steel-S235_1.5mm/Coupling protection rear - 1,5 mm - x1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :2LaserCutFilessteels23515mmcouplingProtectionRear15MmX1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:2LaserCutFilessteels23515mmcouplingProtectionRear15MmX1_source a okh:SourceFile ;
+    rdfs:label "Source File of 2. laser cut files/Steel-S235_1.5mm/Coupling protection rear - 1,5 mm - x1 of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/coupling-protection-rear-15-mm-x1.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ0NzM=> .
+
+:2LaserCutFilessteels23515mmframeRackSheet115MmX2 a okh:Part ;
+    rdfs:label "2. laser cut files/Steel-S235_1.5mm/Frame rack sheet 1 - 1,5 mm - x2" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :2LaserCutFilessteels23515mmframeRackSheet115MmX2_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:2LaserCutFilessteels23515mmframeRackSheet115MmX2_source a okh:SourceFile ;
+    rdfs:label "Source File of 2. laser cut files/Steel-S235_1.5mm/Frame rack sheet 1 - 1,5 mm - x2 of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147845/frame-rack-sheet-1-15-mm-x2.dxf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ1NTI=> .
+
+:2LaserCutFilessteels23515mmframeRackSheet215MmX1 a okh:Part ;
+    rdfs:label "2. laser cut files/Steel-S235_1.5mm/Frame rack sheet 2 - 1,5 mm - x1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :2LaserCutFilessteels23515mmframeRackSheet215MmX1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:2LaserCutFilessteels23515mmframeRackSheet215MmX1_source a okh:SourceFile ;
+    rdfs:label "Source File of 2. laser cut files/Steel-S235_1.5mm/Frame rack sheet 2 - 1,5 mm - x1 of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147845/frame-rack-sheet-2-15-mm-x1.dxf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ1NTE=> .
+
+:2LaserCutFilessteels23515mmframeTopCover15MmX1 a okh:Part ;
+    rdfs:label "2. laser cut files/Steel-S235_1.5mm/Frame top cover - 1,5 mm - x1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :2LaserCutFilessteels23515mmframeTopCover15MmX1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:2LaserCutFilessteels23515mmframeTopCover15MmX1_source a okh:SourceFile ;
+    rdfs:label "Source File of 2. laser cut files/Steel-S235_1.5mm/Frame top cover - 1,5 mm - x1 of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147845/frame-top-cover-15-mm-x1.dxf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ1NTA=> .
+
+:2LaserCutFilessteels23515mmfunnelBackSheet15MmX1 a okh:Part ;
+    rdfs:label "2. laser cut files/Steel-S235_1.5mm/Funnel back sheet - 1,5 mm - x1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :2LaserCutFilessteels23515mmfunnelBackSheet15MmX1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:2LaserCutFilessteels23515mmfunnelBackSheet15MmX1_source a okh:SourceFile ;
+    rdfs:label "Source File of 2. laser cut files/Steel-S235_1.5mm/Funnel back sheet - 1,5 mm - x1 of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/funnel-back-sheet-15-mm-x1.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ0Njk=> .
+
+:2LaserCutFilessteels23515mmfunnelFrontSheet15MmX1 a okh:Part ;
+    rdfs:label "2. laser cut files/Steel-S235_1.5mm/Funnel front sheet - 1,5 mm - x1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :2LaserCutFilessteels23515mmfunnelFrontSheet15MmX1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:2LaserCutFilessteels23515mmfunnelFrontSheet15MmX1_source a okh:SourceFile ;
+    rdfs:label "Source File of 2. laser cut files/Steel-S235_1.5mm/Funnel front sheet - 1,5 mm - x1 of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/funnel-front-sheet-15-mm-x1.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ0Njg=> .
+
+:2LaserCutFilessteels23515mmfunnelLateralSheet15MmX2 a okh:Part ;
+    rdfs:label "2. laser cut files/Steel-S235_1.5mm/Funnel lateral sheet - 1,5 mm - x2" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :2LaserCutFilessteels23515mmfunnelLateralSheet15MmX2_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:2LaserCutFilessteels23515mmfunnelLateralSheet15MmX2_source a okh:SourceFile ;
+    rdfs:label "Source File of 2. laser cut files/Steel-S235_1.5mm/Funnel lateral sheet - 1,5 mm - x2 of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/funnel-lateral-sheet-15-mm-x2.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ0ODQ=> .
+
+:2LaserCutFilessteels23515mmhopperBackSheet15MmX1 a okh:Part ;
+    rdfs:label "2. laser cut files/Steel-S235_1.5mm/Hopper back sheet - 1,5 mm - x1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :2LaserCutFilessteels23515mmhopperBackSheet15MmX1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:2LaserCutFilessteels23515mmhopperBackSheet15MmX1_source a okh:SourceFile ;
+    rdfs:label "Source File of 2. laser cut files/Steel-S235_1.5mm/Hopper back sheet - 1,5 mm - x1 of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147845/hopper-back-sheet-15-mm-x1.dxf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ1NDk=> .
+
+:2LaserCutFilessteels23515mmhopperCoverPlate15MmX1 a okh:Part ;
+    rdfs:label "2. laser cut files/Steel-S235_1.5mm/Hopper cover plate - 1,5 mm - x1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :2LaserCutFilessteels23515mmhopperCoverPlate15MmX1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:2LaserCutFilessteels23515mmhopperCoverPlate15MmX1_source a okh:SourceFile ;
+    rdfs:label "Source File of 2. laser cut files/Steel-S235_1.5mm/Hopper cover plate - 1,5 mm - x1 of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147845/hopper-cover-plate-15-mm-x1.dxf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ1NDg=> .
+
+:2LaserCutFilessteels23515mmhopperDoorFrame15MmX1 a okh:Part ;
+    rdfs:label "2. laser cut files/Steel-S235_1.5mm/Hopper door frame - 1,5 mm - x1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :2LaserCutFilessteels23515mmhopperDoorFrame15MmX1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:2LaserCutFilessteels23515mmhopperDoorFrame15MmX1_source a okh:SourceFile ;
+    rdfs:label "Source File of 2. laser cut files/Steel-S235_1.5mm/Hopper door frame - 1,5 mm - x1 of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147845/hopper-door-frame-15-mm-x1.dxf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ1NDc=> .
+
+:2LaserCutFilessteels23515mmhopperFrontSheet15MmX1 a okh:Part ;
+    rdfs:label "2. laser cut files/Steel-S235_1.5mm/Hopper front sheet - 1,5 mm - x1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :2LaserCutFilessteels23515mmhopperFrontSheet15MmX1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:2LaserCutFilessteels23515mmhopperFrontSheet15MmX1_source a okh:SourceFile ;
+    rdfs:label "Source File of 2. laser cut files/Steel-S235_1.5mm/Hopper front sheet - 1,5 mm - x1 of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147845/hopper-front-sheet-15-mm-x1.dxf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ1NDY=> .
+
+:2LaserCutFilessteels23515mmhopperLeftSheet15MmX1 a okh:Part ;
+    rdfs:label "2. laser cut files/Steel-S235_1.5mm/Hopper left sheet - 1,5 mm - x1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :2LaserCutFilessteels23515mmhopperLeftSheet15MmX1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:2LaserCutFilessteels23515mmhopperLeftSheet15MmX1_source a okh:SourceFile ;
+    rdfs:label "Source File of 2. laser cut files/Steel-S235_1.5mm/Hopper left sheet - 1,5 mm - x1 of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147845/hopper-left-sheet-15-mm-x1.dxf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ1NDU=> .
+
+:2LaserCutFilessteels23515mmhopperLockerSupport15MmX1 a okh:Part ;
+    rdfs:label "2. laser cut files/Steel-S235_1.5mm/Hopper locker support - 1,5 mm - x1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :2LaserCutFilessteels23515mmhopperLockerSupport15MmX1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:2LaserCutFilessteels23515mmhopperLockerSupport15MmX1_source a okh:SourceFile ;
+    rdfs:label "Source File of 2. laser cut files/Steel-S235_1.5mm/Hopper locker support - 1,5 mm - x1 of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147845/hopper-locker-support-15-mm-x1.dxf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ1NDQ=> .
+
+:2LaserCutFilessteels23515mmhopperRightSheet15MmX1 a okh:Part ;
+    rdfs:label "2. laser cut files/Steel-S235_1.5mm/Hopper right sheet - 1,5 mm - x1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :2LaserCutFilessteels23515mmhopperRightSheet15MmX1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:2LaserCutFilessteels23515mmhopperRightSheet15MmX1_source a okh:SourceFile ;
+    rdfs:label "Source File of 2. laser cut files/Steel-S235_1.5mm/Hopper right sheet - 1,5 mm - x1 of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147845/hopper-right-sheet-15-mm-x1.dxf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ1NDM=> .
+
+:2LaserCutFilessteels23515mmhopperSensorSupport15MmX1 a okh:Part ;
+    rdfs:label "2. laser cut files/Steel-S235_1.5mm/Hopper sensor support - 1,5 mm - x1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :2LaserCutFilessteels23515mmhopperSensorSupport15MmX1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:2LaserCutFilessteels23515mmhopperSensorSupport15MmX1_source a okh:SourceFile ;
+    rdfs:label "Source File of 2. laser cut files/Steel-S235_1.5mm/Hopper sensor support - 1,5 mm - x1 of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147845/hopper-sensor-support-15-mm-x1-88592.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ1NDI=> .
+
+:2LaserCutFilessteels23515mmlsheet15mmX1 a okh:Part ;
+    rdfs:label "2. laser cut files/Steel-S235_1.5mm/L-sheet - 1,5mm - x1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :2LaserCutFilessteels23515mmlsheet15mmX1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:2LaserCutFilessteels23515mmlsheet15mmX1_source a okh:SourceFile ;
+    rdfs:label "Source File of 2. laser cut files/Steel-S235_1.5mm/L-sheet - 1,5mm - x1 of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147845/l-sheet-15mm-x1.dxf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ1NDE=> .
+
+:2LaserCutFilessteels23515mmsieveMesh8mmHole15mmX1 a okh:Part ;
+    rdfs:label "2. laser cut files/Steel-S235_1.5mm/Sieve mesh 8mm hole - 1,5mm - x1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :2LaserCutFilessteels23515mmsieveMesh8mmHole15mmX1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:2LaserCutFilessteels23515mmsieveMesh8mmHole15mmX1_source a okh:SourceFile ;
+    rdfs:label "Source File of 2. laser cut files/Steel-S235_1.5mm/Sieve mesh 8mm hole - 1,5mm - x1 of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/sieve-mesh-8mm-hole-15mm-x1.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ0Nzc=> .
+
+:2LaserCutFilessteels2353mmcouplingProtectionFixingPlate3MmX1 a okh:Part ;
+    rdfs:label "2. laser cut files/Steel-S235_3mm/Coupling protection fixing plate - 3 mm - x1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :2LaserCutFilessteels2353mmcouplingProtectionFixingPlate3MmX1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:2LaserCutFilessteels2353mmcouplingProtectionFixingPlate3MmX1_source a okh:SourceFile ;
+    rdfs:label "Source File of 2. laser cut files/Steel-S235_3mm/Coupling protection fixing plate - 3 mm - x1 of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/coupling-protection-fixing-plate-3-mm-x1.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ0OTA=> .
+
+:2LaserCutFilessteels2353mmfunnelSupportPlate23mmX2 a okh:Part ;
+    rdfs:label "2. laser cut files/Steel-S235_3mm/Funnel support plate 2 - 3mm - x2" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :2LaserCutFilessteels2353mmfunnelSupportPlate23mmX2_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:2LaserCutFilessteels2353mmfunnelSupportPlate23mmX2_source a okh:SourceFile ;
+    rdfs:label "Source File of 2. laser cut files/Steel-S235_3mm/Funnel support plate 2 - 3mm - x2 of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147845/sieve-support-plate-3-3mm-x2.dxf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ1NTk=> .
+
+:2LaserCutFilessteels2353mmfunnelSupportPlate3mmX1 a okh:Part ;
+    rdfs:label "2. laser cut files/Steel-S235_3mm/Funnel support plate - 3mm - x1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :2LaserCutFilessteels2353mmfunnelSupportPlate3mmX1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:2LaserCutFilessteels2353mmfunnelSupportPlate3mmX1_source a okh:SourceFile ;
+    rdfs:label "Source File of 2. laser cut files/Steel-S235_3mm/Funnel support plate - 3mm - x1 of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147845/funnel-support-plate-3mm-x1.dxf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ1NjA=> .
+
+:2LaserCutFilessteels2353mmhopperBasePlate3MmX1 a okh:Part ;
+    rdfs:label "2. laser cut files/Steel-S235_3mm/Hopper base plate - 3 mm - x1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :2LaserCutFilessteels2353mmhopperBasePlate3MmX1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:2LaserCutFilessteels2353mmhopperBasePlate3MmX1_source a okh:SourceFile ;
+    rdfs:label "Source File of 2. laser cut files/Steel-S235_3mm/Hopper base plate - 3 mm - x1 of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147845/hopper-base-plate-3-mm-x1.dxf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ1NTg=> .
+
+:2LaserCutFilessteels2353mmhopperFixingPlate13MmX1 a okh:Part ;
+    rdfs:label "2. laser cut files/Steel-S235_3mm/Hopper fixing plate 1 - 3 mm - x1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :2LaserCutFilessteels2353mmhopperFixingPlate13MmX1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:2LaserCutFilessteels2353mmhopperFixingPlate13MmX1_source a okh:SourceFile ;
+    rdfs:label "Source File of 2. laser cut files/Steel-S235_3mm/Hopper fixing plate 1 - 3 mm - x1 of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147845/hopper-fixing-plate-1-3-mm-x1-5ef11.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ1NTc=> .
+
+:2LaserCutFilessteels2353mmhopperFixingPlate23MmX1 a okh:Part ;
+    rdfs:label "2. laser cut files/Steel-S235_3mm/Hopper fixing plate 2 - 3 mm - x1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :2LaserCutFilessteels2353mmhopperFixingPlate23MmX1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:2LaserCutFilessteels2353mmhopperFixingPlate23MmX1_source a okh:SourceFile ;
+    rdfs:label "Source File of 2. laser cut files/Steel-S235_3mm/Hopper fixing plate 2 - 3 mm - x1 of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147845/hopper-fixing-plate-2-3-mm-x1-835d6.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ1NTY=> .
+
+:2LaserCutFilessteels2353mmsieveFrontPlate3MmX1 a okh:Part ;
+    rdfs:label "2. laser cut files/Steel-S235_3mm/Sieve front plate - 3 mm - x1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :2LaserCutFilessteels2353mmsieveFrontPlate3MmX1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:2LaserCutFilessteels2353mmsieveFrontPlate3MmX1_source a okh:SourceFile ;
+    rdfs:label "Source File of 2. laser cut files/Steel-S235_3mm/Sieve front plate - 3 mm - x1 of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/sieve-front-plate-3-mm-x1.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ0ODc=> .
+
+:2LaserCutFilessteels2353mmsieveMiddlePlate3MmX1 a okh:Part ;
+    rdfs:label "2. laser cut files/Steel-S235_3mm/Sieve middle plate - 3 mm - x1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :2LaserCutFilessteels2353mmsieveMiddlePlate3MmX1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:2LaserCutFilessteels2353mmsieveMiddlePlate3MmX1_source a okh:SourceFile ;
+    rdfs:label "Source File of 2. laser cut files/Steel-S235_3mm/Sieve middle plate - 3 mm - x1 of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/sieve-middle-plate-3-mm-x1.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ0OTM=> .
+
+:2LaserCutFilessteels2353mmsieveRearPlate3MmX1 a okh:Part ;
+    rdfs:label "2. laser cut files/Steel-S235_3mm/Sieve rear plate - 3 mm - x1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :2LaserCutFilessteels2353mmsieveRearPlate3MmX1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:2LaserCutFilessteels2353mmsieveRearPlate3MmX1_source a okh:SourceFile ;
+    rdfs:label "Source File of 2. laser cut files/Steel-S235_3mm/Sieve rear plate - 3 mm - x1 of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/sieve-rear-plate-3-mm-x1.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ0OTI=> .
+
+:2LaserCutFilessteels2353mmsieveSidePlate3MmX2 a okh:Part ;
+    rdfs:label "2. laser cut files/Steel-S235_3mm/Sieve side plate - 3 mm - x2" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :2LaserCutFilessteels2353mmsieveSidePlate3MmX2_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:2LaserCutFilessteels2353mmsieveSidePlate3MmX2_source a okh:SourceFile ;
+    rdfs:label "Source File of 2. laser cut files/Steel-S235_3mm/Sieve side plate - 3 mm - x2 of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/sieve-side-plate-3-mm-x2.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ0OTE=> .
+
+:2LaserCutFilessteels2353mmsieveSupportPlate13mmX1 a okh:Part ;
+    rdfs:label "2. laser cut files/Steel-S235_3mm/Sieve support plate 1 - 3mm - x1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :2LaserCutFilessteels2353mmsieveSupportPlate13mmX1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:2LaserCutFilessteels2353mmsieveSupportPlate13mmX1_source a okh:SourceFile ;
+    rdfs:label "Source File of 2. laser cut files/Steel-S235_3mm/Sieve support plate 1 - 3mm - x1 of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147845/sieve-support-plate-1-3mm-x1.dxf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ1NTU=> .
+
+:2LaserCutFilessteels2353mmsieveSupportPlate23mmX1 a okh:Part ;
+    rdfs:label "2. laser cut files/Steel-S235_3mm/Sieve support plate 2 - 3mm - x1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :2LaserCutFilessteels2353mmsieveSupportPlate23mmX1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:2LaserCutFilessteels2353mmsieveSupportPlate23mmX1_source a okh:SourceFile ;
+    rdfs:label "Source File of 2. laser cut files/Steel-S235_3mm/Sieve support plate 2 - 3mm - x1 of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147845/sieve-support-plate-2-3mm-x1.dxf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ1NTQ=> .
+
+:2LaserCutFilessteels2353mmsieveSupportPlate33mmX2 a okh:Part ;
+    rdfs:label "2. laser cut files/Steel-S235_3mm/Sieve support plate 3 - 3mm - x2" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :2LaserCutFilessteels2353mmsieveSupportPlate33mmX2_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:2LaserCutFilessteels2353mmsieveSupportPlate33mmX2_source a okh:SourceFile ;
+    rdfs:label "Source File of 2. laser cut files/Steel-S235_3mm/Sieve support plate 3 - 3mm - x2 of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147845/sieve-support-plate-3-3mm-x2.dxf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ1NTM=> .
+
+:2LaserCutFilessteels2355mmboxPlate25MmX2 a okh:Part ;
+    rdfs:label "2. laser cut files/Steel-S235_5mm/Box plate 2 - 5 mm - x2" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :2LaserCutFilessteels2355mmboxPlate25MmX2_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:2LaserCutFilessteels2355mmboxPlate25MmX2_source a okh:SourceFile ;
+    rdfs:label "Source File of 2. laser cut files/Steel-S235_5mm/Box plate 2 - 5 mm - x2 of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/box-plate-2-5-mm-x2.dxf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ0OTY=> .
+
+:2LaserCutFilessteels2355mmboxPlate35MmX1 a okh:Part ;
+    rdfs:label "2. laser cut files/Steel-S235_5mm/Box plate 3 - 5 mm - x1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :2LaserCutFilessteels2355mmboxPlate35MmX1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:2LaserCutFilessteels2355mmboxPlate35MmX1_source a okh:SourceFile ;
+    rdfs:label "Source File of 2. laser cut files/Steel-S235_5mm/Box plate 3 - 5 mm - x1 of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147845/box-plate-3-5-mm-x1-b8362.dxf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ1NjE=> .
+
+:2LaserCutFilessteels2355mmboxPlate45MmX1 a okh:Part ;
+    rdfs:label "2. laser cut files/Steel-S235_5mm/Box plate 4 - 5 mm - x1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :2LaserCutFilessteels2355mmboxPlate45MmX1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:2LaserCutFilessteels2355mmboxPlate45MmX1_source a okh:SourceFile ;
+    rdfs:label "Source File of 2. laser cut files/Steel-S235_5mm/Box plate 4 - 5 mm - x1 of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/box-plate-4-5-mm-x1.dxf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ0OTQ=> .
+
+:2LaserCutFilessteels2355mmframeMountingPlate5MmX4 a okh:Part ;
+    rdfs:label "2. laser cut files/Steel-S235_5mm/Frame mounting plate - 5 mm - x4" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :2LaserCutFilessteels2355mmframeMountingPlate5MmX4_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:2LaserCutFilessteels2355mmframeMountingPlate5MmX4_source a okh:SourceFile ;
+    rdfs:label "Source File of 2. laser cut files/Steel-S235_5mm/Frame mounting plate - 5 mm - x4 of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/frame-mounting-plate-5-mm-x4.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ0OTg=> .
+
+:2LaserCutFilessteels2355mmhopperHandgrip5MmX1 a okh:Part ;
+    rdfs:label "2. laser cut files/Steel-S235_5mm/Hopper handgrip - 5 mm - x1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :2LaserCutFilessteels2355mmhopperHandgrip5MmX1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:2LaserCutFilessteels2355mmhopperHandgrip5MmX1_source a okh:SourceFile ;
+    rdfs:label "Source File of 2. laser cut files/Steel-S235_5mm/Hopper handgrip - 5 mm - x1 of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/hopper-handgrip-5-mm-x1.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ0OTc=> .
+
+:2LaserCutFilessteels2356mmspacer6MmX13 a okh:Part ;
+    rdfs:label "2. laser cut files/Steel-S235_6mm/Spacer - 6 mm - x13" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :2LaserCutFilessteels2356mmspacer6MmX13_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:2LaserCutFilessteels2356mmspacer6MmX13_source a okh:SourceFile ;
+    rdfs:label "Source File of 2. laser cut files/Steel-S235_6mm/Spacer - 6 mm - x13 of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/spacer-6-mm-x13.dxf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ0OTk=> .
+
+:3Blueprintsshr30000003ShredderBasicAssembly a okh:Part ;
+    rdfs:label "3. blueprints/SHR-3 0000.00-3 - Shredder basic assembly" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :3Blueprintsshr30000003ShredderBasicAssembly_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3Blueprintsshr30000003ShredderBasicAssembly_source a okh:SourceFile ;
+    rdfs:label "Source File of 3. blueprints/SHR-3 0000.00-3 - Shredder basic assembly of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147845/shr-3-000000-3-shredder-basic-assembly.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ1NDA=> .
+
+:3Blueprintsshr31000003ShredderBoxAssembly a okh:Part ;
+    rdfs:label "3. blueprints/SHR-3 1000.00-3 - Shredder Box assembly" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :3Blueprintsshr31000003ShredderBoxAssembly_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3Blueprintsshr31000003ShredderBoxAssembly_source a okh:SourceFile ;
+    rdfs:label "Source File of 3. blueprints/SHR-3 1000.00-3 - Shredder Box assembly of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147845/shr-3-100000-3-shredder-box-assembly.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ1Mzk=> .
+
+:3Blueprintsshr31000012FixBlade1 a okh:Part ;
+    rdfs:label "3. blueprints/SHR-3 1000.01-2 - Fix blade 1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :3Blueprintsshr31000012FixBlade1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3Blueprintsshr31000012FixBlade1_source a okh:SourceFile ;
+    rdfs:label "Source File of 3. blueprints/SHR-3 1000.01-2 - Fix blade 1 of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-100001-2-fix-blade-1.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ0NTM=> .
+
+:3Blueprintsshr31000022FixBlade2 a okh:Part ;
+    rdfs:label "3. blueprints/SHR-3 1000.02-2 - Fix blade 2" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :3Blueprintsshr31000022FixBlade2_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3Blueprintsshr31000022FixBlade2_source a okh:SourceFile ;
+    rdfs:label "Source File of 3. blueprints/SHR-3 1000.02-2 - Fix blade 2 of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-100002-2-fix-blade-2.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ0NTI=> .
+
+:3Blueprintsshr31000032BearingProtection a okh:Part ;
+    rdfs:label "3. blueprints/SHR-3 1000.03-2 - Bearing protection" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :3Blueprintsshr31000032BearingProtection_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3Blueprintsshr31000032BearingProtection_source a okh:SourceFile ;
+    rdfs:label "Source File of 3. blueprints/SHR-3 1000.03-2 - Bearing protection of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-100003-2-bearing-protection.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ0NTE=> .
+
+:3Blueprintsshr31000042ThreadedBarM10 a okh:Part ;
+    rdfs:label "3. blueprints/SHR-3 1000.04-2 - Threaded bar M10" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :3Blueprintsshr31000042ThreadedBarM10_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3Blueprintsshr31000042ThreadedBarM10_source a okh:SourceFile ;
+    rdfs:label "Source File of 3. blueprints/SHR-3 1000.04-2 - Threaded bar M10 of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-100004-2-threaded-bar-m10.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ0NTA=> .
+
+:3Blueprintsshr31000052ThreadedBarM8 a okh:Part ;
+    rdfs:label "3. blueprints/SHR-3 1000.05-2 - Threaded bar M8" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :3Blueprintsshr31000052ThreadedBarM8_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3Blueprintsshr31000052ThreadedBarM8_source a okh:SourceFile ;
+    rdfs:label "Source File of 3. blueprints/SHR-3 1000.05-2 - Threaded bar M8 of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-100005-2-threaded-bar-m8.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ0NDk=> .
+
+:3Blueprintsshr31100003ShredderBox a okh:Part ;
+    rdfs:label "3. blueprints/SHR-3 1100.00-3 - Shredder Box" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :3Blueprintsshr31100003ShredderBox_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3Blueprintsshr31100003ShredderBox_source a okh:SourceFile ;
+    rdfs:label "Source File of 3. blueprints/SHR-3 1100.00-3 - Shredder Box of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147845/shr-3-110000-3-shredder-box.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ1Mzg=> .
+
+:3Blueprintsshr31100013BoxPlate1 a okh:Part ;
+    rdfs:label "3. blueprints/SHR-3 1100.01-3 - Box plate 1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :3Blueprintsshr31100013BoxPlate1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3Blueprintsshr31100013BoxPlate1_source a okh:SourceFile ;
+    rdfs:label "Source File of 3. blueprints/SHR-3 1100.01-3 - Box plate 1 of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147845/shr-3-110001-3-box-plate-1.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ1Mzc=> .
+
+:3Blueprintsshr31100022BoxPlate2 a okh:Part ;
+    rdfs:label "3. blueprints/SHR-3 1100.02-2 - Box plate 2" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :3Blueprintsshr31100022BoxPlate2_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3Blueprintsshr31100022BoxPlate2_source a okh:SourceFile ;
+    rdfs:label "Source File of 3. blueprints/SHR-3 1100.02-2 - Box plate 2 of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-110002-2-box-plate-2.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ0NDY=> .
+
+:3Blueprintsshr31100033BoxPlate3 a okh:Part ;
+    rdfs:label "3. blueprints/SHR-3 1100.03-3 - Box plate 3" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :3Blueprintsshr31100033BoxPlate3_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3Blueprintsshr31100033BoxPlate3_source a okh:SourceFile ;
+    rdfs:label "Source File of 3. blueprints/SHR-3 1100.03-3 - Box plate 3 of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147845/shr-3-110003-3-box-plate-3.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ1MzY=> .
+
+:3Blueprintsshr31100042BoxPlate4 a okh:Part ;
+    rdfs:label "3. blueprints/SHR-3 1100.04-2 - Box plate 4" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :3Blueprintsshr31100042BoxPlate4_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3Blueprintsshr31100042BoxPlate4_source a okh:SourceFile ;
+    rdfs:label "Source File of 3. blueprints/SHR-3 1100.04-2 - Box plate 4 of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-110004-2-box-plate-4.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ0NDQ=> .
+
+:3Blueprintsshr31200002ShaftAssembly a okh:Part ;
+    rdfs:label "3. blueprints/SHR-3 1200.00-2 - Shaft assembly" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :3Blueprintsshr31200002ShaftAssembly_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3Blueprintsshr31200002ShaftAssembly_source a okh:SourceFile ;
+    rdfs:label "Source File of 3. blueprints/SHR-3 1200.00-2 - Shaft assembly of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-120000-2-shaft-assembly.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ0NDM=> .
+
+:3Blueprintsshr31200012Shaft a okh:Part ;
+    rdfs:label "3. blueprints/SHR-3 1200.01-2 - Shaft" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :3Blueprintsshr31200012Shaft_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3Blueprintsshr31200012Shaft_source a okh:SourceFile ;
+    rdfs:label "Source File of 3. blueprints/SHR-3 1200.01-2 - Shaft of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-120001-2-shaft.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ0NDI=> .
+
+:3Blueprintsshr31200022Blade1 a okh:Part ;
+    rdfs:label "3. blueprints/SHR-3 1200.02-2 - Blade 1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :3Blueprintsshr31200022Blade1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3Blueprintsshr31200022Blade1_source a okh:SourceFile ;
+    rdfs:label "Source File of 3. blueprints/SHR-3 1200.02-2 - Blade 1 of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-120002-2-blade-1.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ0NDE=> .
+
+:3Blueprintsshr31200032Blade2 a okh:Part ;
+    rdfs:label "3. blueprints/SHR-3 1200.03-2 - Blade 2" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :3Blueprintsshr31200032Blade2_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3Blueprintsshr31200032Blade2_source a okh:SourceFile ;
+    rdfs:label "Source File of 3. blueprints/SHR-3 1200.03-2 - Blade 2 of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-120003-2-blade-2.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ0NDA=> .
+
+:3Blueprintsshr31200042Blade3 a okh:Part ;
+    rdfs:label "3. blueprints/SHR-3 1200.04-2 - Blade 3" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :3Blueprintsshr31200042Blade3_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3Blueprintsshr31200042Blade3_source a okh:SourceFile ;
+    rdfs:label "Source File of 3. blueprints/SHR-3 1200.04-2 - Blade 3 of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-120004-2-blade-3.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ0Mzk=> .
+
+:3Blueprintsshr31200052Spacer a okh:Part ;
+    rdfs:label "3. blueprints/SHR-3 1200.05-2 - Spacer" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :3Blueprintsshr31200052Spacer_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3Blueprintsshr31200052Spacer_source a okh:SourceFile ;
+    rdfs:label "Source File of 3. blueprints/SHR-3 1200.05-2 - Spacer of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-120005-2-spacer.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ0Mzg=> .
+
+:3Blueprintsshr31200062SlottM35X15 a okh:Part ;
+    rdfs:label "3. blueprints/SHR-3 1200.06-2 - SLOTT M35 X 1,5" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :3Blueprintsshr31200062SlottM35X15_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3Blueprintsshr31200062SlottM35X15_source a okh:SourceFile ;
+    rdfs:label "Source File of 3. blueprints/SHR-3 1200.06-2 - SLOTT M35 X 1,5 of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-120006-2-slott-m35-x-15.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ0Mzc=> .
+
+:3Blueprintsshr31300003SieveAssembly a okh:Part ;
+    rdfs:label "3. blueprints/SHR-3 1300.00-3 - Sieve assembly" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :3Blueprintsshr31300003SieveAssembly_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3Blueprintsshr31300003SieveAssembly_source a okh:SourceFile ;
+    rdfs:label "Source File of 3. blueprints/SHR-3 1300.00-3 - Sieve assembly of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147845/shr-3-130000-3-sieve-assembly.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ1MzU=> .
+
+:3Blueprintsshr31300012SieveFrontPlate a okh:Part ;
+    rdfs:label "3. blueprints/SHR-3 1300.01-2 - Sieve front plate" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :3Blueprintsshr31300012SieveFrontPlate_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3Blueprintsshr31300012SieveFrontPlate_source a okh:SourceFile ;
+    rdfs:label "Source File of 3. blueprints/SHR-3 1300.01-2 - Sieve front plate of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-130001-2-sieve-front-plate.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ0MzU=> .
+
+:3Blueprintsshr31300022SieveRearPlate a okh:Part ;
+    rdfs:label "3. blueprints/SHR-3 1300.02-2 - Sieve rear plate" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :3Blueprintsshr31300022SieveRearPlate_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3Blueprintsshr31300022SieveRearPlate_source a okh:SourceFile ;
+    rdfs:label "Source File of 3. blueprints/SHR-3 1300.02-2 - Sieve rear plate of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-130002-2-sieve-rear-plate.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ0MzQ=> .
+
+:3Blueprintsshr31300032SieveSidePlate a okh:Part ;
+    rdfs:label "3. blueprints/SHR-3 1300.03-2 - Sieve side plate" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :3Blueprintsshr31300032SieveSidePlate_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3Blueprintsshr31300032SieveSidePlate_source a okh:SourceFile ;
+    rdfs:label "Source File of 3. blueprints/SHR-3 1300.03-2 - Sieve side plate of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-130003-2-sieve-side-plate.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ0MzM=> .
+
+:3Blueprintsshr31300042SieveMidPlate a okh:Part ;
+    rdfs:label "3. blueprints/SHR-3 1300.04-2 - Sieve mid plate" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :3Blueprintsshr31300042SieveMidPlate_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3Blueprintsshr31300042SieveMidPlate_source a okh:SourceFile ;
+    rdfs:label "Source File of 3. blueprints/SHR-3 1300.04-2 - Sieve mid plate of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-130004-2-sieve-mid-plate.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ0MzI=> .
+
+:3Blueprintsshr31300052SieveMesh8mmHole a okh:Part ;
+    rdfs:label "3. blueprints/SHR-3 1300.05-2 - Sieve mesh 8mm hole" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :3Blueprintsshr31300052SieveMesh8mmHole_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3Blueprintsshr31300052SieveMesh8mmHole_source a okh:SourceFile ;
+    rdfs:label "Source File of 3. blueprints/SHR-3 1300.05-2 - Sieve mesh 8mm hole of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-130005-2-sieve-mesh-8mm-hole.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ0MzE=> .
+
+:3Blueprintsshr31300063SieveSupportPlate1 a okh:Part ;
+    rdfs:label "3. blueprints/SHR-3 1300.06-3 - Sieve support plate 1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :3Blueprintsshr31300063SieveSupportPlate1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3Blueprintsshr31300063SieveSupportPlate1_source a okh:SourceFile ;
+    rdfs:label "Source File of 3. blueprints/SHR-3 1300.06-3 - Sieve support plate 1 of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147845/shr-3-130006-3-sieve-support-plate-1.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ1MzQ=> .
+
+:3Blueprintsshr31300073SieveSupportPlate2 a okh:Part ;
+    rdfs:label "3. blueprints/SHR-3 1300.07-3 - Sieve support plate 2" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :3Blueprintsshr31300073SieveSupportPlate2_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3Blueprintsshr31300073SieveSupportPlate2_source a okh:SourceFile ;
+    rdfs:label "Source File of 3. blueprints/SHR-3 1300.07-3 - Sieve support plate 2 of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147845/shr-3-130007-3-sieve-support-plate-2.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ1MzM=> .
+
+:3Blueprintsshr31300083SieveSupportPlate3 a okh:Part ;
+    rdfs:label "3. blueprints/SHR-3 1300.08-3 - Sieve support plate 3" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :3Blueprintsshr31300083SieveSupportPlate3_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3Blueprintsshr31300083SieveSupportPlate3_source a okh:SourceFile ;
+    rdfs:label "Source File of 3. blueprints/SHR-3 1300.08-3 - Sieve support plate 3 of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147845/shr-3-130008-3-sieve-support-plate-3.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ1MzI=> .
+
+:3Blueprintsshr31400003FunnelAssembly a okh:Part ;
+    rdfs:label "3. blueprints/SHR-3 1400.00-3 - Funnel assembly" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :3Blueprintsshr31400003FunnelAssembly_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3Blueprintsshr31400003FunnelAssembly_source a okh:SourceFile ;
+    rdfs:label "Source File of 3. blueprints/SHR-3 1400.00-3 - Funnel assembly of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147845/shr-3-140000-3-funnel-assembly.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ1MzE=> .
+
+:3Blueprintsshr31400012FunnelFrontSheet a okh:Part ;
+    rdfs:label "3. blueprints/SHR-3 1400.01-2 - Funnel front sheet" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :3Blueprintsshr31400012FunnelFrontSheet_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3Blueprintsshr31400012FunnelFrontSheet_source a okh:SourceFile ;
+    rdfs:label "Source File of 3. blueprints/SHR-3 1400.01-2 - Funnel front sheet of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-140001-2-funnel-front-sheet.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ0Mjk=> .
+
+:3Blueprintsshr31400022FunnelBackSheet a okh:Part ;
+    rdfs:label "3. blueprints/SHR-3 1400.02-2 - Funnel back sheet" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :3Blueprintsshr31400022FunnelBackSheet_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3Blueprintsshr31400022FunnelBackSheet_source a okh:SourceFile ;
+    rdfs:label "Source File of 3. blueprints/SHR-3 1400.02-2 - Funnel back sheet of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-140002-2-funnel-back-sheet.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ0Mjg=> .
+
+:3Blueprintsshr31400032FunnelLateralSheet a okh:Part ;
+    rdfs:label "3. blueprints/SHR-3 1400.03-2 - Funnel lateral sheet" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :3Blueprintsshr31400032FunnelLateralSheet_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3Blueprintsshr31400032FunnelLateralSheet_source a okh:SourceFile ;
+    rdfs:label "Source File of 3. blueprints/SHR-3 1400.03-2 - Funnel lateral sheet of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-140003-2-funnel-lateral-sheet.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ0Mjc=> .
+
+:3Blueprintsshr31400043FunnelSupportPlate a okh:Part ;
+    rdfs:label "3. blueprints/SHR-3 1400.04-3 - Funnel support plate" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :3Blueprintsshr31400043FunnelSupportPlate_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3Blueprintsshr31400043FunnelSupportPlate_source a okh:SourceFile ;
+    rdfs:label "Source File of 3. blueprints/SHR-3 1400.04-3 - Funnel support plate of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147845/shr-3-140004-3-funnel-support-plate.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ1MzA=> .
+
+:3Blueprintsshr31400053FunnelSupportPlate2 a okh:Part ;
+    rdfs:label "3. blueprints/SHR-3 1400.05-3 - Funnel support plate 2" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :3Blueprintsshr31400053FunnelSupportPlate2_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3Blueprintsshr31400053FunnelSupportPlate2_source a okh:SourceFile ;
+    rdfs:label "Source File of 3. blueprints/SHR-3 1400.05-3 - Funnel support plate 2 of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147845/shr-3-140005-3-funnel-support-plate-2.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ1Mjk=> .
+
+:3Blueprintsshr32000003FrameAssembly a okh:Part ;
+    rdfs:label "3. blueprints/SHR-3 2000.00-3 - Frame assembly" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :3Blueprintsshr32000003FrameAssembly_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3Blueprintsshr32000003FrameAssembly_source a okh:SourceFile ;
+    rdfs:label "Source File of 3. blueprints/SHR-3 2000.00-3 - Frame assembly of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147845/shr-3-200000-3-frame-assembly.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ1Mjg=> .
+
+:3Blueprintsshr32000013Frame a okh:Part ;
+    rdfs:label "3. blueprints/SHR-3 2000.01-3 - Frame" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :3Blueprintsshr32000013Frame_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3Blueprintsshr32000013Frame_source a okh:SourceFile ;
+    rdfs:label "Source File of 3. blueprints/SHR-3 2000.01-3 - Frame of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147845/shr-3-200001-3-frame.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ1Mjc=> .
+
+:3Blueprintsshr32000022CouplingBottomCover a okh:Part ;
+    rdfs:label "3. blueprints/SHR-3 2000.02-2 - Coupling bottom cover" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :3Blueprintsshr32000022CouplingBottomCover_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3Blueprintsshr32000022CouplingBottomCover_source a okh:SourceFile ;
+    rdfs:label "Source File of 3. blueprints/SHR-3 2000.02-2 - Coupling bottom cover of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-200002-2-coupling-bottom-cover.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ0MjQ=> .
+
+:3Blueprintsshr32000033FrameTopCover a okh:Part ;
+    rdfs:label "3. blueprints/SHR-3 2000.03-3 - Frame top cover" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :3Blueprintsshr32000033FrameTopCover_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3Blueprintsshr32000033FrameTopCover_source a okh:SourceFile ;
+    rdfs:label "Source File of 3. blueprints/SHR-3 2000.03-3 - Frame top cover of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147845/shr-3-200003-3-frame-top-cover.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ1MjY=> .
+
+:3Blueprintsshr32000042MotorSupport a okh:Part ;
+    rdfs:label "3. blueprints/SHR-3 2000.04-2 - Motor support" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :3Blueprintsshr32000042MotorSupport_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3Blueprintsshr32000042MotorSupport_source a okh:SourceFile ;
+    rdfs:label "Source File of 3. blueprints/SHR-3 2000.04-2 - Motor support of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-200004-2-motor-support.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ0MjI=> .
+
+:3Blueprintsshr32000053FrameRackSheet a okh:Part ;
+    rdfs:label "3. blueprints/SHR-3 2000.05-3 - Frame rack sheet" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :3Blueprintsshr32000053FrameRackSheet_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3Blueprintsshr32000053FrameRackSheet_source a okh:SourceFile ;
+    rdfs:label "Source File of 3. blueprints/SHR-3 2000.05-3 - Frame rack sheet of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147845/shr-3-200005-3-frame-rack-sheet.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ1MjU=> .
+
+:3Blueprintsshr32000062FrameFixingPlate a okh:Part ;
+    rdfs:label "3. blueprints/SHR-3 2000.06-2 - Frame fixing plate" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :3Blueprintsshr32000062FrameFixingPlate_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3Blueprintsshr32000062FrameFixingPlate_source a okh:SourceFile ;
+    rdfs:label "Source File of 3. blueprints/SHR-3 2000.06-2 - Frame fixing plate of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-200006-2-frame-fixing-plate.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ0MjA=> .
+
+:3Blueprintsshr32000073FrameRackSheet2 a okh:Part ;
+    rdfs:label "3. blueprints/SHR-3 2000.07-3 - Frame rack sheet 2" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :3Blueprintsshr32000073FrameRackSheet2_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3Blueprintsshr32000073FrameRackSheet2_source a okh:SourceFile ;
+    rdfs:label "Source File of 3. blueprints/SHR-3 2000.07-3 - Frame rack sheet 2 of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147845/shr-3-200007-3-frame-rack-sheet-2.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ1MjQ=> .
+
+:3Blueprintsshr32000083FrameReinforcement a okh:Part ;
+    rdfs:label "3. blueprints/SHR-3 2000.08-3 - Frame reinforcement" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :3Blueprintsshr32000083FrameReinforcement_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3Blueprintsshr32000083FrameReinforcement_source a okh:SourceFile ;
+    rdfs:label "Source File of 3. blueprints/SHR-3 2000.08-3 - Frame reinforcement of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147845/shr-3-200008-3-frame-reinforcement.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ1MjM=> .
+
+:3Blueprintsshr32000093Lsheet a okh:Part ;
+    rdfs:label "3. blueprints/SHR-3 2000.09-3 - L-sheet" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :3Blueprintsshr32000093Lsheet_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3Blueprintsshr32000093Lsheet_source a okh:SourceFile ;
+    rdfs:label "Source File of 3. blueprints/SHR-3 2000.09-3 - L-sheet of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147845/shr-3-200009-3-l-sheet.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ1MjI=> .
+
+:3Blueprintsshr33000003HopperAssembly a okh:Part ;
+    rdfs:label "3. blueprints/SHR-3 3000.00-3 - Hopper assembly" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :3Blueprintsshr33000003HopperAssembly_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3Blueprintsshr33000003HopperAssembly_source a okh:SourceFile ;
+    rdfs:label "Source File of 3. blueprints/SHR-3 3000.00-3 - Hopper assembly of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147845/shr-3-300000-3-hopper-assembly.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ1MjE=> .
+
+:3Blueprintsshr33000013HopperFrontSheet a okh:Part ;
+    rdfs:label "3. blueprints/SHR-3 3000.01-3 - Hopper front sheet" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :3Blueprintsshr33000013HopperFrontSheet_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3Blueprintsshr33000013HopperFrontSheet_source a okh:SourceFile ;
+    rdfs:label "Source File of 3. blueprints/SHR-3 3000.01-3 - Hopper front sheet of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147845/shr-3-300001-3-hopper-front-sheet.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ1MjA=> .
+
+:3Blueprintsshr33000023HopperBackSheet a okh:Part ;
+    rdfs:label "3. blueprints/SHR-3 3000.02-3 - Hopper back sheet" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :3Blueprintsshr33000023HopperBackSheet_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3Blueprintsshr33000023HopperBackSheet_source a okh:SourceFile ;
+    rdfs:label "Source File of 3. blueprints/SHR-3 3000.02-3 - Hopper back sheet of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147845/shr-3-300002-3-hopper-back-sheet.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ1MTk=> .
+
+:3Blueprintsshr33000033HopperRightSheet a okh:Part ;
+    rdfs:label "3. blueprints/SHR-3 3000.03-3 - Hopper right sheet" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :3Blueprintsshr33000033HopperRightSheet_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3Blueprintsshr33000033HopperRightSheet_source a okh:SourceFile ;
+    rdfs:label "Source File of 3. blueprints/SHR-3 3000.03-3 - Hopper right sheet of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147845/shr-3-300003-3-hopper-right-sheet.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ1MTg=> .
+
+:3Blueprintsshr33000043HopperLeftSheet a okh:Part ;
+    rdfs:label "3. blueprints/SHR-3 3000.04-3 - Hopper left sheet" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :3Blueprintsshr33000043HopperLeftSheet_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3Blueprintsshr33000043HopperLeftSheet_source a okh:SourceFile ;
+    rdfs:label "Source File of 3. blueprints/SHR-3 3000.04-3 - Hopper left sheet of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147845/shr-3-300004-3-hopper-left-sheet.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ1MTc=> .
+
+:3Blueprintsshr33000073HopperBasePlate a okh:Part ;
+    rdfs:label "3. blueprints/SHR-3 3000.07-3 - Hopper base plate" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :3Blueprintsshr33000073HopperBasePlate_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3Blueprintsshr33000073HopperBasePlate_source a okh:SourceFile ;
+    rdfs:label "Source File of 3. blueprints/SHR-3 3000.07-3 - Hopper base plate of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147845/shr-3-300007-3-hopper-base-plate.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ1MTY=> .
+
+:3Blueprintsshr33100003HopperDoor a okh:Part ;
+    rdfs:label "3. blueprints/SHR-3 3100.00-3 - Hopper door" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :3Blueprintsshr33100003HopperDoor_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3Blueprintsshr33100003HopperDoor_source a okh:SourceFile ;
+    rdfs:label "Source File of 3. blueprints/SHR-3 3100.00-3 - Hopper door of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147845/shr-3-310000-3-hopper-door.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ1MTU=> .
+
+:3Blueprintsshr33100013HopperDoorFrame a okh:Part ;
+    rdfs:label "3. blueprints/SHR-3 3100.01-3 - Hopper door frame" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :3Blueprintsshr33100013HopperDoorFrame_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3Blueprintsshr33100013HopperDoorFrame_source a okh:SourceFile ;
+    rdfs:label "Source File of 3. blueprints/SHR-3 3100.01-3 - Hopper door frame of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147845/shr-3-310001-3-hopper-door-frame.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ1MTQ=> .
+
+:3Blueprintsshr33100022HopperSensorSupport a okh:Part ;
+    rdfs:label "3. blueprints/SHR-3 3100.02-2 - Hopper sensor support" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :3Blueprintsshr33100022HopperSensorSupport_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3Blueprintsshr33100022HopperSensorSupport_source a okh:SourceFile ;
+    rdfs:label "Source File of 3. blueprints/SHR-3 3100.02-2 - Hopper sensor support of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-310002-2-hopper-sensor-support.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ0MDk=> .
+
+:3Blueprintsshr33100032HopperHandgrip a okh:Part ;
+    rdfs:label "3. blueprints/SHR-3 3100.03-2 - Hopper handgrip" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :3Blueprintsshr33100032HopperHandgrip_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3Blueprintsshr33100032HopperHandgrip_source a okh:SourceFile ;
+    rdfs:label "Source File of 3. blueprints/SHR-3 3100.03-2 - Hopper handgrip of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-310003-2-hopper-handgrip.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ0MDg=> .
+
+:3Blueprintsshr33100042HopperMesh a okh:Part ;
+    rdfs:label "3. blueprints/SHR-3 3100.04-2 - Hopper mesh" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :3Blueprintsshr33100042HopperMesh_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3Blueprintsshr33100042HopperMesh_source a okh:SourceFile ;
+    rdfs:label "Source File of 3. blueprints/SHR-3 3100.04-2 - Hopper mesh of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-310004-2-hopper-mesh.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ0MDc=> .
+
+:3Blueprintsshr33100053HopperCoverPlate a okh:Part ;
+    rdfs:label "3. blueprints/SHR-3 3100.05-3 - Hopper cover plate" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :3Blueprintsshr33100053HopperCoverPlate_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3Blueprintsshr33100053HopperCoverPlate_source a okh:SourceFile ;
+    rdfs:label "Source File of 3. blueprints/SHR-3 3100.05-3 - Hopper cover plate of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147845/shr-3-310005-3-hopper-cover-plate.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ1MTM=> .
+
+:3Blueprintsshr33100063HopperLockerSupport a okh:Part ;
+    rdfs:label "3. blueprints/SHR-3 3100.06-3 - Hopper locker support" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :3Blueprintsshr33100063HopperLockerSupport_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3Blueprintsshr33100063HopperLockerSupport_source a okh:SourceFile ;
+    rdfs:label "Source File of 3. blueprints/SHR-3 3100.06-3 - Hopper locker support of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147845/shr-3-310006-3-hopper-locker-support.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ1MTI=> .
+
+:3Blueprintsshr34000002CouplingProtectionAssembly a okh:Part ;
+    rdfs:label "3. blueprints/SHR-3 4000.00-2 - Coupling protection assembly" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :3Blueprintsshr34000002CouplingProtectionAssembly_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3Blueprintsshr34000002CouplingProtectionAssembly_source a okh:SourceFile ;
+    rdfs:label "Source File of 3. blueprints/SHR-3 4000.00-2 - Coupling protection assembly of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-400000-2-coupling-protection-assembly.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ0MDY=> .
+
+:3Blueprintsshr34000012CouplingProtectionFront a okh:Part ;
+    rdfs:label "3. blueprints/SHR-3 4000.01-2 - Coupling protection front" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :3Blueprintsshr34000012CouplingProtectionFront_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3Blueprintsshr34000012CouplingProtectionFront_source a okh:SourceFile ;
+    rdfs:label "Source File of 3. blueprints/SHR-3 4000.01-2 - Coupling protection front of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-400001-2-coupling-protection-front.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ0MDU=> .
+
+:3Blueprintsshr34100002CouplingProtectionRearAssembly a okh:Part ;
+    rdfs:label "3. blueprints/SHR-3 4100.00-2 - Coupling protection rear assembly" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :3Blueprintsshr34100002CouplingProtectionRearAssembly_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3Blueprintsshr34100002CouplingProtectionRearAssembly_source a okh:SourceFile ;
+    rdfs:label "Source File of 3. blueprints/SHR-3 4100.00-2 - Coupling protection rear assembly of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-410000-2-coupling-protection-rear-assembly.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ0MDQ=> .
+
+:3Blueprintsshr34100012CouplingProtectionFixingPlate a okh:Part ;
+    rdfs:label "3. blueprints/SHR-3 4100.01-2 - Coupling protection fixing plate" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :3Blueprintsshr34100012CouplingProtectionFixingPlate_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3Blueprintsshr34100012CouplingProtectionFixingPlate_source a okh:SourceFile ;
+    rdfs:label "Source File of 3. blueprints/SHR-3 4100.01-2 - Coupling protection fixing plate of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-410001-2-coupling-protection-fixing-plate.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ0MDM=> .
+
+:3Blueprintsshr34100022CouplingProtectionRear a okh:Part ;
+    rdfs:label "3. blueprints/SHR-3 4100.02-2 - Coupling protection rear" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :3Blueprintsshr34100022CouplingProtectionRear_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3Blueprintsshr34100022CouplingProtectionRear_source a okh:SourceFile ;
+    rdfs:label "Source File of 3. blueprints/SHR-3 4100.02-2 - Coupling protection rear of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/shr-3-410002-2-coupling-protection-rear.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ0MDI=> .
+
+:4Schematicsshr33Control a okh:Part ;
+    rdfs:label "4. schematics/SHR-3.3 CONTROL" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :4Schematicsshr33Control_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:4Schematicsshr33Control_source a okh:SourceFile ;
+    rdfs:label "Source File of 4. schematics/SHR-3.3 CONTROL of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147845/shr-33-control.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ1MTA=> .
+
+:4Schematicsshrb33Cabling a okh:Part ;
+    rdfs:label "4. schematics/SHRB-3.3 CABLING" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :4Schematicsshrb33Cabling_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:4Schematicsshrb33Cabling_source a okh:SourceFile ;
+    rdfs:label "Source File of 4. schematics/SHRB-3.3 CABLING of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147845/shrb-33-cabling.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ1MDk=> .
+
+:4Schematicsshrb33Power a okh:Part ;
+    rdfs:label "4. schematics/SHRB-3.3 POWER" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :4Schematicsshrb33Power_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:4Schematicsshrb33Power_source a okh:SourceFile ;
+    rdfs:label "Source File of 4. schematics/SHRB-3.3 POWER of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147845/shrb-33-power.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ1MTE=> .
+
+:5BomshrV33Boma a okh:Part ;
+    rdfs:label "5. BOM/SHR V3.3 BOM_A" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :5BomshrV33Boma_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:5BomshrV33Boma_source a okh:SourceFile ;
+    rdfs:label "Source File of 5. BOM/SHR V3.3 BOM_A of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147845/shr-v33-bom_a.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ1MDc=> .
+
+:6Otheralignmentspacer105Mm05MmX16 a okh:Part ;
+    rdfs:label "6. other/alignment/Spacer 10,5 mm - 0,5 mm - x16" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :6Otheralignmentspacer105Mm05MmX16_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:6Otheralignmentspacer105Mm05MmX16_source a okh:SourceFile ;
+    rdfs:label "Source File of 6. other/alignment/Spacer 10,5 mm - 0,5 mm - x16 of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/spacer-105-mm-05-mm-x16.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ0NjI=> .
+
+:6Otheralignmentspacer105Mm1MmX16 a okh:Part ;
+    rdfs:label "6. other/alignment/Spacer 10,5 mm - 1 mm - x16" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :6Otheralignmentspacer105Mm1MmX16_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:6Otheralignmentspacer105Mm1MmX16_source a okh:SourceFile ;
+    rdfs:label "Source File of 6. other/alignment/Spacer 10,5 mm - 1 mm - x16 of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/spacer-105-mm-1-mm-x16.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ0NjE=> .
+
+:6Otheralignmentspacer85Mm05MmX16 a okh:Part ;
+    rdfs:label "6. other/alignment/Spacer 8,5 mm - 0,5 mm - x16" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :6Otheralignmentspacer85Mm05MmX16_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:6Otheralignmentspacer85Mm05MmX16_source a okh:SourceFile ;
+    rdfs:label "Source File of 6. other/alignment/Spacer 8,5 mm - 0,5 mm - x16 of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/spacer-85-mm-1-mm-x16.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ0NjA=> .
+
+:6Otheralignmentspacer85Mm1MmX16 a okh:Part ;
+    rdfs:label "6. other/alignment/Spacer 8,5 mm - 1 mm - x16" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :6Otheralignmentspacer85Mm1MmX16_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:6Otheralignmentspacer85Mm1MmX16_source a okh:SourceFile ;
+    rdfs:label "Source File of 6. other/alignment/Spacer 8,5 mm - 1 mm - x16 of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/spacer-85-mm-1-mm-x16.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ0NTk=> .
+
+:6OthertemplatedrillingTemplate15mmX1 a okh:Part ;
+    rdfs:label "6. other/template/Drilling template - 1,5mm - x1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Precious Plastic" ;
+    okh:source :6OthertemplatedrillingTemplate15mmX1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:6OthertemplatedrillingTemplate15mmX1_source a okh:SourceFile ;
+    rdfs:label "Source File of 6. other/template/Drilling template - 1,5mm - x1 of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/drilling-template-15mm-x1.DXF> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ0NTg=> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147845/33.jpg> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQzOTI=> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of Ninja Schredder  c87c442e97d0bfeee1140f769535955c52fdbace" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/147833/readme.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODQ0NTc=> .
+

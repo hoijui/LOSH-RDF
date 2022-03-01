@@ -1,0 +1,52 @@
+@prefix : <https://www.thingiverse.com/thing%3A9290/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:OpenscadPolygonGenerator a okh:Module ;
+    rdfs:label "OpenScad Polygon Generator" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Well this is an proof of concept so to speak. Not really a thing ;-). What i do here is generate scad files. I was playing with that thought for a while now. Because its a bit strange. I use one programming language (action-script 3.0 and flex in my case)  to generate the other. \r
+\r
+In this case for the polygon method within openscad witch is powerfull but hard to read. So a made the visual helper for generation polygon call with a bit of extrusion\r
+\r
+Weird but it works what do you think mad or mad science ;)\r
+\r
+The small air app does not have any undo functionality and you can only draw on a grid, it was just to test something maybe i will add stuff to it ? should i ?\r
+\r
+http://www.youtube.com/watch?v=0oSW9zlKsZ8\r
+\r
+Update 14 Jun 2011:\r
+Thanks for the great response but a bit of warning is in place the fxp source code is, well.. how do is say it.... very sloppy ;-) , just so you know build it 2 or 3 hours or so ( hack hack )\r
+\r
+\r
+Update 13 Aug 2011:\r
+Still working on it but not ready for its first release :-(\r
+Some hints\r
+- Layers (one layer is one openscad module) each layer its own color \r
+- Adding and Deleting of Points and of course Moving points  Splitting of segments\r
+- Curves (Maybe)\r
+- Save files (some json or xml) so you can save your work\r
+- Web based and AIR app\r
+- Etc Etc ;-)\r
+\r
+Update 2 Aug 2012 :\r
+New version at\r
+http://www.thingiverse.com/thing:13348\r
+Or\r
+http://www.protorabbit.nl/?p=32""" ;
+    okh:hasImage :Image ;
+    okh:licensor "PieterBos" ;
+    okh:repo <https://www.thingiverse.com/thing:9290> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:9290> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of OpenScad Polygon Generator 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/fa/79/ee/d6/d3/Screen_shot_2011-06-13_at_22.12.30_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/fa/79/ee/d6/d3/Screen_shot_2011-06-13_at_22.12.30_display_large_display_large.jpg> .
+

@@ -1,0 +1,30 @@
+@prefix : <https://www.thingiverse.com/thing%3A5766/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:100PrintableFilamentSpool a okh:Module ;
+    rdfs:label "100% printable filament spool" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """There are many filament spools on Thingiverse already.  But when I didn't find one that was 100% printable, I couldn't resist the urge to design my own.  This is my first design so please be gentle.\r
+\r
+I started with thingiverse.com/thing:4337 but I had trouble getting a good print, and the bearing rollers (from thingiverse.com/thing:4312) popped out.  I decided to experiment with a different kind of roller: instead of a sphere, I would use a cylinder capped by two 45 degree cones.  I figured this would print better on a makerbot; my spherical rollers ended up teardrop-shaped, and when they turned sideways they would get wedged in position.  The inner cavity of this bearing should theoretically prevent that, though in practice the tolerances here are way way too loose.  (As a side bonus, it's much easier to clean.)\r
+\r
+I stole the the extend-o rod idea from  thingiverse.com/thing:5551 .\r
+\r
+Future work: The hub ought to be tightened up and it has lots of excess plastic.  Also skeinforge35 doesn't handle it too well; when I print it the inner hub is hollow and has no bottom.  Luckily there's enough extra string floating around that it still works okay.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "abliss" ;
+    okh:repo <https://www.thingiverse.com/thing:5766> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:5766> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of 100% printable filament spool 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://thingiverse-rerender-new.s3.amazonaws.com/renders/82/6d/c2/43/db/hub016b_display_large.jpg> ;
+    okh:permaURL <https://thingiverse-rerender-new.s3.amazonaws.com/renders/82/6d/c2/43/db/hub016b_display_large.jpg> .
+

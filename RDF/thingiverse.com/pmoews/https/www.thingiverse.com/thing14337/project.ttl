@@ -1,0 +1,36 @@
+@prefix : <https://www.thingiverse.com/thing%3A14337/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ChristmasOrnaments a okh:Module ;
+    rdfs:label "Christmas Ornaments" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """I've grown fond of openSCAD.  It's a very nice package and free.  A single line of code constructs a spherical Christmas ornament.\r
+\r
+Difference() {sphere(r=25,$fn=48); sphere(r=24,$fn=48); }\r
+\r
+The above line makes a hollow sphere about 2 inches across with 1 mm thick walls.  A few additional lines of code builds a connector so that it can be hung on a tree.  The resulting stl file takes about an hour to print and produces a smooth, light, (about 6 grams), ornament.  Unfortunately, while printing, the extruder moves back and forth from the same vertical line leaving a small slit at the midpoint of the sphere.  To get a complete sphere a slightly thicker wall is needed.  The file  "sphere_plus.stl", has a 2 mm wall and takes about two hours to print.  The openSCAD file sphere_plus.scad was used to create it. The image at the upper left shows two complete spheres and the 1 mm sphere with a slit.  I apologise for the colors, I have only yellow and brown plastic left. Silver might be nice. \r
+\r
+ Its easy to go further and construct spheres with patterns of holes and with surface decorations.   The method used here is to draw "rays" that start at the center of the sphere and pass through the surface.  The rays can be cylinders or extruded patterns. If one uses openSCAD's difference command holes are made in the surface of the sphere.  Alternatively if one uses union and intersection commands patterns are left on the sphere's surface. I've done some experiments to try and determine what looks best: how many holes, what shapes, etc so this is work in progress.   Here are the results of two such trials.\r
+\r
+"Sphere_holes.stl", contains star shaped holes and was made using the difference command. \r
+\r
+"Sphere_star.stl" has star shaped images on its surface and was made using union and intersection commands. See images at left.  \r
+\r
+ Both use  essentially the same openSCAD code.  A single command needs to be changed to make either holes or decorations. See the comments in make_ornaments.scad.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "pmoews" ;
+    okh:repo <https://www.thingiverse.com/thing:14337> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:14337> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Christmas Ornaments 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/f9/4e/ec/99/fe/sphere_plus_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/f9/4e/ec/99/fe/sphere_plus_display_large_display_large.jpg> .
+

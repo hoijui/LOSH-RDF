@@ -1,21 +1,22 @@
-@prefix : <https://wikifactory.com/+fablabsantander/corocotta/9cb9ea98106760cec32cab71edbb5a6f16752d66/> .
+@prefix : <https://wikifactory.com/%2Bfablabsantander/corocotta/9cb9ea98106760cec32cab71edbb5a6f16752d66/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 :Corocotta a okh:Module ;
     rdfs:label "Corocotta" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "250mm³ cube like 3D printer, designed and made at FabLabSantander®, coreXY. Try to be as cheap as possible." ;
-    okh:hasComponent :Corocottav2,
-        :Corocottav2bedslider,
-        :Corocottav2cornerbody,
-        :Corocottav2cornertop,
-        :Corocottav2headslider,
-        :Corocottav2pulleyside,
-        :Corocottav2slider,
-        :Corocottav2sliderplate,
-        :Corocottav2zbarholder,
-        :Corocottav2zmotorholder ;
+    okh:hasComponent :Piecescorocottav2,
+        :Piecescorocottav2bedslider,
+        :Piecescorocottav2cornerbody,
+        :Piecescorocottav2cornertop,
+        :Piecescorocottav2headslider,
+        :Piecescorocottav2pulleyside,
+        :Piecescorocottav2slider,
+        :Piecescorocottav2sliderplate,
+        :Piecescorocottav2zbarholder,
+        :Piecescorocottav2zmotorholder ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "Laurent Brunel" ;
@@ -24,144 +25,145 @@
     okh:repo <https://wikifactory.com/+fablabsantander/corocotta> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
     okh:version "9cb9ea98106760cec32cab71edbb5a6f16752d66" ;
     okh:versionOf <https://wikifactory.com/+fablabsantander/corocotta> .
-
-:Corocottav2 a okh:Part ;
-    rdfs:label "corocottaV2" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Laurent Brunel" ;
-    okh:source :Corocottav2_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Corocottav2_source a okh:SourceFile ;
-    rdfs:label "Source File of corocottaV2 of Corocotta 9cb9ea98106760cec32cab71edbb5a6f16752d66" ;
-    okh:fileFormat "FCSTD" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/27247/corocottav2.fcstd> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyNzMxNTM=> .
-
-:Corocottav2bedslider a okh:Part ;
-    rdfs:label "corocottaV2_bed_slider" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Laurent Brunel" ;
-    okh:source :Corocottav2bedslider_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Corocottav2bedslider_source a okh:SourceFile ;
-    rdfs:label "Source File of corocottaV2_bed_slider of Corocotta 9cb9ea98106760cec32cab71edbb5a6f16752d66" ;
-    okh:fileFormat "OBJ" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/27247/corocottav2_bed_slider.obj> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyNzMxNTI=> .
-
-:Corocottav2cornerbody a okh:Part ;
-    rdfs:label "corocottaV2_corner_body" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Laurent Brunel" ;
-    okh:source :Corocottav2cornerbody_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Corocottav2cornerbody_source a okh:SourceFile ;
-    rdfs:label "Source File of corocottaV2_corner_body of Corocotta 9cb9ea98106760cec32cab71edbb5a6f16752d66" ;
-    okh:fileFormat "OBJ" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/27247/corocottav2_corner_body.obj> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyNzMxNTE=> .
-
-:Corocottav2cornertop a okh:Part ;
-    rdfs:label "corocottaV2_corner_top" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Laurent Brunel" ;
-    okh:source :Corocottav2cornertop_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Corocottav2cornertop_source a okh:SourceFile ;
-    rdfs:label "Source File of corocottaV2_corner_top of Corocotta 9cb9ea98106760cec32cab71edbb5a6f16752d66" ;
-    okh:fileFormat "OBJ" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/27247/corocottav2_corner_top.obj> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyNzMxNTA=> .
-
-:Corocottav2headslider a okh:Part ;
-    rdfs:label "corocottaV2_head_slider" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Laurent Brunel" ;
-    okh:source :Corocottav2headslider_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Corocottav2headslider_source a okh:SourceFile ;
-    rdfs:label "Source File of corocottaV2_head_slider of Corocotta 9cb9ea98106760cec32cab71edbb5a6f16752d66" ;
-    okh:fileFormat "OBJ" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/27247/corocottav2_head_slider.obj> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyNzMxNDk=> .
-
-:Corocottav2pulleyside a okh:Part ;
-    rdfs:label "corocottaV2_pulley_side" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Laurent Brunel" ;
-    okh:source :Corocottav2pulleyside_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Corocottav2pulleyside_source a okh:SourceFile ;
-    rdfs:label "Source File of corocottaV2_pulley_side of Corocotta 9cb9ea98106760cec32cab71edbb5a6f16752d66" ;
-    okh:fileFormat "OBJ" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/27247/corocottav2_pulley_side.obj> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyNzMxNDg=> .
-
-:Corocottav2slider a okh:Part ;
-    rdfs:label "corocottaV2_slider" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Laurent Brunel" ;
-    okh:source :Corocottav2slider_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Corocottav2slider_source a okh:SourceFile ;
-    rdfs:label "Source File of corocottaV2_slider of Corocotta 9cb9ea98106760cec32cab71edbb5a6f16752d66" ;
-    okh:fileFormat "OBJ" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/27247/corocottav2_slider.obj> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyNzMxNDc=> .
-
-:Corocottav2sliderplate a okh:Part ;
-    rdfs:label "corocottaV2_slider_plate" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Laurent Brunel" ;
-    okh:source :Corocottav2sliderplate_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Corocottav2sliderplate_source a okh:SourceFile ;
-    rdfs:label "Source File of corocottaV2_slider_plate of Corocotta 9cb9ea98106760cec32cab71edbb5a6f16752d66" ;
-    okh:fileFormat "OBJ" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/27247/corocottav2_slider_plate.obj> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyNzMxNDY=> .
-
-:Corocottav2zbarholder a okh:Part ;
-    rdfs:label "corocottaV2_zbar_holder" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Laurent Brunel" ;
-    okh:source :Corocottav2zbarholder_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Corocottav2zbarholder_source a okh:SourceFile ;
-    rdfs:label "Source File of corocottaV2_zbar_holder of Corocotta 9cb9ea98106760cec32cab71edbb5a6f16752d66" ;
-    okh:fileFormat "OBJ" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/27247/corocottav2_zbar_holder.obj> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyNzMxNDU=> .
-
-:Corocottav2zmotorholder a okh:Part ;
-    rdfs:label "corocottaV2_z_motor_holder" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Laurent Brunel" ;
-    okh:source :Corocottav2zmotorholder_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Corocottav2zmotorholder_source a okh:SourceFile ;
-    rdfs:label "Source File of corocottaV2_z_motor_holder of Corocotta 9cb9ea98106760cec32cab71edbb5a6f16752d66" ;
-    okh:fileFormat "OBJ" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/27247/corocottav2_z_motor_holder.obj> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyNzMxNDQ=> .
 
 :Image a okh:Image ;
     rdfs:label "Image of Corocotta 9cb9ea98106760cec32cab71edbb5a6f16752d66" ;
     okh:fileFormat "JPG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/27247/corocottav2_piece_rouge-1f6ac.jpg> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToyNzMyNzA=> .
+
+:Piecescorocottav2 a okh:Part ;
+    rdfs:label "pieces/corocottaV2" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Laurent Brunel" ;
+    okh:source :Piecescorocottav2_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Piecescorocottav2_source a okh:SourceFile ;
+    rdfs:label "Source File of pieces/corocottaV2 of Corocotta 9cb9ea98106760cec32cab71edbb5a6f16752d66" ;
+    okh:fileFormat "FCSTD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/27247/corocottav2.fcstd> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyNzMxNTM=> .
+
+:Piecescorocottav2bedslider a okh:Part ;
+    rdfs:label "pieces/corocottaV2_bed_slider" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Laurent Brunel" ;
+    okh:source :Piecescorocottav2bedslider_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Piecescorocottav2bedslider_source a okh:SourceFile ;
+    rdfs:label "Source File of pieces/corocottaV2_bed_slider of Corocotta 9cb9ea98106760cec32cab71edbb5a6f16752d66" ;
+    okh:fileFormat "OBJ" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/27247/corocottav2_bed_slider.obj> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyNzMxNTI=> .
+
+:Piecescorocottav2cornerbody a okh:Part ;
+    rdfs:label "pieces/corocottaV2_corner_body" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Laurent Brunel" ;
+    okh:source :Piecescorocottav2cornerbody_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Piecescorocottav2cornerbody_source a okh:SourceFile ;
+    rdfs:label "Source File of pieces/corocottaV2_corner_body of Corocotta 9cb9ea98106760cec32cab71edbb5a6f16752d66" ;
+    okh:fileFormat "OBJ" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/27247/corocottav2_corner_body.obj> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyNzMxNTE=> .
+
+:Piecescorocottav2cornertop a okh:Part ;
+    rdfs:label "pieces/corocottaV2_corner_top" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Laurent Brunel" ;
+    okh:source :Piecescorocottav2cornertop_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Piecescorocottav2cornertop_source a okh:SourceFile ;
+    rdfs:label "Source File of pieces/corocottaV2_corner_top of Corocotta 9cb9ea98106760cec32cab71edbb5a6f16752d66" ;
+    okh:fileFormat "OBJ" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/27247/corocottav2_corner_top.obj> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyNzMxNTA=> .
+
+:Piecescorocottav2headslider a okh:Part ;
+    rdfs:label "pieces/corocottaV2_head_slider" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Laurent Brunel" ;
+    okh:source :Piecescorocottav2headslider_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Piecescorocottav2headslider_source a okh:SourceFile ;
+    rdfs:label "Source File of pieces/corocottaV2_head_slider of Corocotta 9cb9ea98106760cec32cab71edbb5a6f16752d66" ;
+    okh:fileFormat "OBJ" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/27247/corocottav2_head_slider.obj> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyNzMxNDk=> .
+
+:Piecescorocottav2pulleyside a okh:Part ;
+    rdfs:label "pieces/corocottaV2_pulley_side" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Laurent Brunel" ;
+    okh:source :Piecescorocottav2pulleyside_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Piecescorocottav2pulleyside_source a okh:SourceFile ;
+    rdfs:label "Source File of pieces/corocottaV2_pulley_side of Corocotta 9cb9ea98106760cec32cab71edbb5a6f16752d66" ;
+    okh:fileFormat "OBJ" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/27247/corocottav2_pulley_side.obj> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyNzMxNDg=> .
+
+:Piecescorocottav2slider a okh:Part ;
+    rdfs:label "pieces/corocottaV2_slider" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Laurent Brunel" ;
+    okh:source :Piecescorocottav2slider_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Piecescorocottav2slider_source a okh:SourceFile ;
+    rdfs:label "Source File of pieces/corocottaV2_slider of Corocotta 9cb9ea98106760cec32cab71edbb5a6f16752d66" ;
+    okh:fileFormat "OBJ" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/27247/corocottav2_slider.obj> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyNzMxNDc=> .
+
+:Piecescorocottav2sliderplate a okh:Part ;
+    rdfs:label "pieces/corocottaV2_slider_plate" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Laurent Brunel" ;
+    okh:source :Piecescorocottav2sliderplate_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Piecescorocottav2sliderplate_source a okh:SourceFile ;
+    rdfs:label "Source File of pieces/corocottaV2_slider_plate of Corocotta 9cb9ea98106760cec32cab71edbb5a6f16752d66" ;
+    okh:fileFormat "OBJ" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/27247/corocottav2_slider_plate.obj> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyNzMxNDY=> .
+
+:Piecescorocottav2zbarholder a okh:Part ;
+    rdfs:label "pieces/corocottaV2_zbar_holder" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Laurent Brunel" ;
+    okh:source :Piecescorocottav2zbarholder_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Piecescorocottav2zbarholder_source a okh:SourceFile ;
+    rdfs:label "Source File of pieces/corocottaV2_zbar_holder of Corocotta 9cb9ea98106760cec32cab71edbb5a6f16752d66" ;
+    okh:fileFormat "OBJ" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/27247/corocottav2_zbar_holder.obj> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyNzMxNDU=> .
+
+:Piecescorocottav2zmotorholder a okh:Part ;
+    rdfs:label "pieces/corocottaV2_z_motor_holder" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Laurent Brunel" ;
+    okh:source :Piecescorocottav2zmotorholder_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Piecescorocottav2zmotorholder_source a okh:SourceFile ;
+    rdfs:label "Source File of pieces/corocottaV2_z_motor_holder of Corocotta 9cb9ea98106760cec32cab71edbb5a6f16752d66" ;
+    okh:fileFormat "OBJ" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/27247/corocottav2_z_motor_holder.obj> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyNzMxNDQ=> .
 
 :Readme a okh:Readme ;
     rdfs:label "Readme of Corocotta 9cb9ea98106760cec32cab71edbb5a6f16752d66" ;

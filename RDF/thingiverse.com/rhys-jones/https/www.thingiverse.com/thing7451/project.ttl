@@ -1,0 +1,26 @@
+@prefix : <https://www.thingiverse.com/thing%3A7451/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:TensileStressTestastmdiv a okh:Module ;
+    rdfs:label "Tensile stress test (ASTMD-IV)" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is a derivative on moonj's tensile stress test thing.  \r
+\r
+We're currently looking at the material properties of cast PLA and other materials vs 3D printed ones, and the effects of layer height, infill direction etc on the material properties.  However moonj's original STL didn't match a mold we already had, so I've recreated it parametrically in Openscad.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "rhys-jones" ;
+    okh:repo <https://www.thingiverse.com/thing:7451> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:7451> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Tensile stress test (ASTMD-IV) 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://thingiverse-rerender-new.s3.amazonaws.com/renders/1c/08/ad/69/cc/test_piece_display_large.jpg> ;
+    okh:permaURL <https://thingiverse-rerender-new.s3.amazonaws.com/renders/1c/08/ad/69/cc/test_piece_display_large.jpg> .
+

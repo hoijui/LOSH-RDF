@@ -1,0 +1,70 @@
+@prefix : <https://www.thingiverse.com/thing%3A20775/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:UltimakerGenericHeadmount a okh:Module ;
+    rdfs:label "Ultimaker Generic HeadMount" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Version 2 is here!  
+
+
+
+With This single quick release coupling one can attach almost anything to the Ultimakers Printhead.   
+
+I'll soon release compatible toolheads for it (2012-04)  
+
+
+
+Improvements (v2):  
+
+* two templates included (raw & cylinder)  
+
+* improved code quality (split in modules) capital lettered modules are meant to be printed or modified by the user  
+
+* male part redesignd for a better print orientation that yields more stability. Still compatible to (v1)!  
+
+* added option to close the slot and mount it by screwing not ziptieing for even more stability  
+
+* slotdepth is now parametric (by taking two measures of your printhead; look for lxy & lxyspace in the malecoupling file)  
+
+
+
+Features (v1):  
+
+* generic ... mount any tool you like  
+
+* "quick" lock ... change the appandages on the fly  
+
+* ziptie (or threads) only mount & thus non invasive   
+
+    ... the coupling >itself< is removable without disassemblage of the head  
+
+* lightweight & almost no loss of printing space   
+
+    ... the coupling can stay on the printhead all the time   
+
+* does not block the thing:  
+
+    "Bowden Clamp for Ultimaker (Heater End)" by owen  
+
+    http://www.thingiverse.com/thing:11864  
+
+* one part design ... quick print  
+
+* funny red cross shape fitting to a giant syringe appendage (pasteprinting)""" ;
+    okh:hasImage :Image ;
+    okh:licensor "mechadense" ;
+    okh:repo <https://www.thingiverse.com/thing:20775> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:20775> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Ultimaker Generic HeadMount 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/1c/45/8c/09/1f/P4044759--_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/1c/45/8c/09/1f/P4044759--_display_large_display_large.jpg> .
+

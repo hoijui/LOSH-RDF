@@ -1,0 +1,72 @@
+@prefix : <https://www.thingiverse.com/thing%3A10725/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:PlatonicSolidsForOpenscadV02 a okh:Module ;
+    rdfs:label "Platonic Solids for OpenScad - v0.2" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """A funny thing happened on the way to developing geodesic stuff.  I found that I needed to fully develop some Platonic solids.  And since I needed to develop 3 of them, I figured I'd develop them all.\r
+\r
+This thing represents the latest incarnation of the maths_geodesic library, plus extras.\r
+\r
+First of all, the original maths_geodesic.scad library had a small bug in the 'clean' function which prevented it from properly converting spherical coordinates.\r
+\r
+There are a few additions:\r
+DEGREES() - Already exists in other libraries, convert from radians to degrees\r
+RADIANS() - Already exists in other libraries, converst from degrees to radians\r
+\r
+deg(deg,min,sec) - Creates a data structure that holds degrees, minutes, seconds\r
+deg_to_dec(d) - converts from that degrees data structure to decimal form\r
+\r
+These will come in handy some time when more spherical and geographic things start to show up.\r
+\r
+sphu_from_cart(c, rad=1) - Does the same thing as sph_from_cart, but allows you to specify the radius.  This is quite handy when you're converting from some cartesian coordinates, and you want to make something with a fixed radius.\r
+\r
+then there's some things related to polygon math.  Figuring out internal angles, and the like.  Perhaps the most interesting is figuring out the dihedral angle for a platonic.  That comes in handy for some calculations.\r
+\r
+But, the really new stuff is the set of thing related directly to Platonic solids in the file 'platonic.scad'.\r
+\r
+First of all, the 5 platonic solids are represented by functions that represent their geometry/topology, in a form suitable for rendering with the polyhedron() module.\r
+\r
+So:\r
+tetrahedron(rad=1)\r
+octahedron(rad=1)\r
+hexahedron(rad=1)\r
+dodecahedron(rad=1)\r
+icosahedron(rad=1)\r
+\r
+You can use it like this:\r
+\r
+display_polyhedron(icosahedron(20));\r
+\r
+That will render a icosahedron centered at [0,0,0], with a radius of 20.\r
+\r
+Being able to set the radius is really handy as you can do things like nest them, or simply create them to the size you need.  The fact that they're centered on the origin makes it fairly easy to rotate them around, to whatever orientation you like.\r
+\r
+The .stl files here just show some casual renderings that can be generated with the test_platonic.scad file.  Doing truncations and stellations is fairly straight forward. Even doing hollowed out forms, particularly with duals, is fairly straightforward as well.\r
+\r
+The only thing that's not here is using the inradius, circumradius, and midradius for doing proper alignment of duals.  But, how hard could it be?\r
+\r
+At any rate, OpenScad now has a tidy little set of Platonic solids to play with.\r
+\r
+UPDATE: 19082011\r
+I have added some .stl files that are renderings of the various solids.  The Dodecahedron is actually having a problem in OpenScad.  I will debug that one and upload it when it actually works.  A very strange bug.\r
+\r
+UPDATE: 03092011\r
+Replaced the platonics.stl, with platonic_set.stl.  I have a better dodecahedron now.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "WilliamAAdams" ;
+    okh:repo <https://www.thingiverse.com/thing:10725> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:10725> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Platonic Solids for OpenScad - v0.2 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://thingiverse-rerender-new.s3.amazonaws.com/renders/6b/3f/0e/79/8a/dualcube1_display_large.jpg> ;
+    okh:permaURL <https://thingiverse-rerender-new.s3.amazonaws.com/renders/6b/3f/0e/79/8a/dualcube1_display_large.jpg> .
+

@@ -1,0 +1,30 @@
+@prefix : <https://www.thingiverse.com/thing%3A4895/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:BasicFemaleForm a okh:Module ;
+    rdfs:label "Basic Female Form" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """A basic woman made as a test using MakeHuman. http://www.makehuman.org/\r
+\r
+I made this in an effort to explore printing the human form on my printer and to learn how to use MakeHuman.\r
+\r
+The .obj file has the whole body while the .stl files are just torsos.\r
+\r
+If you look at the .obj file it has jaw bones, teeth, eyes, and extra "joints" (little closed polyhedrons floating inside).  I believe I removed all of those extra bits in the "***test2.stl" although they did not cause me problems when printing the "***test1.stl\"""" ;
+    okh:hasImage :Image ;
+    okh:licensor "nicholasclewis" ;
+    okh:repo <https://www.thingiverse.com/thing:4895> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:4895> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Basic Female Form 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/f7/2d/e7/6b/10/5206132986_84f7aa86d4_b_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/f7/2d/e7/6b/10/5206132986_84f7aa86d4_b_display_large_display_large.jpg> .
+

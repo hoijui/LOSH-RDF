@@ -1,0 +1,30 @@
+@prefix : <https://www.thingiverse.com/thing%3A12359/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:BachmannKleinBottle a okh:Module ;
+    rdfs:label "Bachmann Klein Bottle" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """While it's not the usual representation, it's topologically equivalent! (And almost fits on your finger too!)\r
+\r
+Made as a statement to the other Klein Bottles on Thingiverse that there are formulas for these things which aren't quite as rotund. I originally planned to have the Klein Bottle itself on here but realized that \r
+(1) it's a surface, which would require it to be thickened, which is something Mathematica doesn't to on export (plus inside-outside problem)\r
+(2) Skeinforge might throw up on the self-intersections.\r
+\r
+So for now, Thingiverse has to be content with its short Klein bottles and this... bracelet?""" ;
+    okh:hasImage :Image ;
+    okh:licensor "Nbickford" ;
+    okh:repo <https://www.thingiverse.com/thing:12359> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:12359> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Bachmann Klein Bottle 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://thingiverse-rerender-new.s3.amazonaws.com/renders/c1/26/e8/01/f5/bachmann_fixed_display_large.jpg> ;
+    okh:permaURL <https://thingiverse-rerender-new.s3.amazonaws.com/renders/c1/26/e8/01/f5/bachmann_fixed_display_large.jpg> .
+

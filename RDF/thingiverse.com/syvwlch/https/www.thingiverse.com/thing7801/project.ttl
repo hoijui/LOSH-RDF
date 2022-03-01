@@ -1,0 +1,34 @@
+@prefix : <https://www.thingiverse.com/thing%3A7801/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:RubberbandPoweredEscapementWpendulum a okh:Module ;
+    rdfs:label "Rubber-Band Powered Escapement w/Pendulum" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is a test jig for, and a derivative of, the parametric escapement mechanism I posted yesterday: http://www.thingiverse.com/thing:7785 \r
+\r
+The intent is to power the escapement with a rubber band and see:\r
+1. whether the pendulum regulates the unwinding of the elastic and\r
+2. whether the escapement in turn keeps the pendulum moving despite friction\r
+\r
+I suspect it will NOT work as is, but some parametric tweaks might get it going. May need to add some other weigh at the end of the pendulum, the plastic may not be enough. Also not sure if this would work printed... the escapement wheel's teeth are pretty fine at the tips.\r
+\r
+Lastly, the code is less well commented that the parent thing's. I'll fix that later, promise. :-)\r
+\r
+(EDIT: I have cleaned up the code and broken it into a library, and a test script. That is the code I will be maintaining and it can be found as its own thing: http://www.thingiverse.com/thing:7822 )""" ;
+    okh:hasImage :Image ;
+    okh:licensor "syvwlch" ;
+    okh:repo <https://www.thingiverse.com/thing:7801> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:7801> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Rubber-Band Powered Escapement w/Pendulum 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/7c/9a/19/23/a2/ElasticPoweredEscapement_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/7c/9a/19/23/a2/ElasticPoweredEscapement_display_large_display_large.jpg> .
+

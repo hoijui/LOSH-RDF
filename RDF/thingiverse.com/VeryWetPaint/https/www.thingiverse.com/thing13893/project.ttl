@@ -1,0 +1,28 @@
+@prefix : <https://www.thingiverse.com/thing%3A13893/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:MagicScrewForMakerbot a okh:Module ;
+    rdfs:label "Magic Screw for Makerbot" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is a 'kit' for designing or building magic screw threads that will (hopefully) build on a Thing-o-Matic and similar hobby printers.  This should enable you to build a bolt and nuts so that one nut tightens normally while the other seems to turn the wrong way as shown in this video (this is the new model data):\r
+\r
+http://www.youtube.com/watch?v=gx_OKYA3_Iw\r
+\r
+The ancestor model did not build accurately on hobby-type 3D printers because (I think) the geometry had atypical overhangs that could foreseeably flatten out during extrusion.  Instead of fighting those overhangs, this Magic Screw version tries to exploit them by building overhangs in straight lines between supported walls.  It's just a conjecture (I don't know if I'm right) but it's illustrated in my blog at http://mysd300.blogspot.com/2011/12/magic-screw-for-makerbots.html""" ;
+    okh:hasImage :Image ;
+    okh:licensor "VeryWetPaint" ;
+    okh:repo <https://www.thingiverse.com/thing:13893> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:13893> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Magic Screw for Makerbot 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/61/2e/78/0b/84/IMG_5862_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/61/2e/78/0b/84/IMG_5862_display_large_display_large.jpg> .
+

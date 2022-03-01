@@ -1,0 +1,50 @@
+@prefix : <https://www.thingiverse.com/thing%3A9319/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:DontDoItHotEnd a okh:Module ;
+    rdfs:label "Don't do it - Hot end" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is a dangerous thing the following reasons:\r
+\r
+-It's made without any science.\r
+\r
+- Nichrome around steel: many chances for a short sooner or later thus many chances for, at least, extruder controller death.\r
+\r
+- It constantly leaks some baked-rebaked-ultrabaked abs (volume like a drop of water every... +/-10cc of extruded ABS), the fumes are everything BUT healthy.\r
+\r
+The electrical failure plus catastrophe side is reinforced by a low mass design and thermistor most probably not placed in the right place. That leads this thing to the need of 255C degrees as a working temperature.\r
+\r
+I never dared to upload this for all those reasons, however... \r
+...I've noticed an increasing number of visitors in the place where the pictures for this thing are: http://aubenc.imgur.com/hot_end_aka_mk45 and I need to say again:\r
+\r
+Don't do it! \r
+\r
+Run the risk you want for your printer but, at least, think about the fumes of the baked abs!\r
+\r
+I'm expecting this thing to fail... (some 3 months wokrking without the smallest ridiculous failure) and then I'll try to address the issues this thing have. May be nobody will be using an MK4 like hot end anymore :-D\r
+\r
+UPDATE: Nov 27, 2011\r
+This thing died yesterday :-( To be honest, I killed it :-P (set the temp to 2255, RepG, at least v0024, only reports up to 255 and doesn't limit to this value... using just one byte?)\r
+\r
+Bad news is, everything in the hot end melted together and now it's impossible to disassemble and see the origin of that little leak.\r
+\r
+Good news is, nothing else was damaged (I guess I saw the smoke in time).\r
+\r
+Conclusion: bot1334 has been using this thing for almost 8 months with zero maintenance. Before this, she was more time down for repair (one of the 3 MK4 that she used in half a year) than actually working.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "aubenc" ;
+    okh:repo <https://www.thingiverse.com/thing:9319> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:9319> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Don't do it - Hot end 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/8f/c0/46/f9/8a/PR2cB_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/8f/c0/46/f9/8a/PR2cB_display_large_display_large.jpg> .
+

@@ -1,17 +1,18 @@
-@prefix : <https://wikifactory.com/+OttoDIY/dino-otto/3b1a8a4762e50eab520fca50758e0f050376915a/> .
+@prefix : <https://wikifactory.com/%2BOttoDIY/dino-otto/3b1a8a4762e50eab520fca50758e0f050376915a/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 :Dinootto a okh:Module ;
     rdfs:label "Dino-OttO" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "This is the prehistoric version of Otto, based on a tyrannosaurus rex (even with the tiny arms)" ;
-    okh:hasComponent :Body,
-        :Head,
-        :Leg,
-        :Lfeet,
-        :Rfeet,
-        :Tail ;
+    okh:hasComponent :3dFilesbody,
+        :3dFileshead,
+        :3dFilesleg,
+        :3dFileslfeet,
+        :3dFilesrfeet,
+        :3dFilestail ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "TynkoJp" ;
@@ -20,34 +21,87 @@
     okh:repo <https://wikifactory.com/+OttoDIY/dino-otto> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
     okh:version "3b1a8a4762e50eab520fca50758e0f050376915a" ;
     okh:versionOf <https://wikifactory.com/+OttoDIY/dino-otto> .
 
-:Body a okh:Part ;
-    rdfs:label "Body" ;
+:3dFilesbody a okh:Part ;
+    rdfs:label "3D Files/Body" ;
     okh:documentationLanguage "en" ;
     okh:licensor "TynkoJp" ;
-    okh:source :Body_source ;
+    okh:source :3dFilesbody_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Body_source a okh:SourceFile ;
-    rdfs:label "Source File of Body of Dino-OttO 3b1a8a4762e50eab520fca50758e0f050376915a" ;
+:3dFilesbody_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Files/Body of Dino-OttO 3b1a8a4762e50eab520fca50758e0f050376915a" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/30949/body.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToyOTA4MTk=> .
 
-:Head a okh:Part ;
-    rdfs:label "Head" ;
+:3dFileshead a okh:Part ;
+    rdfs:label "3D Files/Head" ;
     okh:documentationLanguage "en" ;
     okh:licensor "TynkoJp" ;
-    okh:source :Head_source ;
+    okh:source :3dFileshead_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Head_source a okh:SourceFile ;
-    rdfs:label "Source File of Head of Dino-OttO 3b1a8a4762e50eab520fca50758e0f050376915a" ;
+:3dFileshead_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Files/Head of Dino-OttO 3b1a8a4762e50eab520fca50758e0f050376915a" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/30949/head.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToyOTA4MTc=> .
+
+:3dFilesleg a okh:Part ;
+    rdfs:label "3D Files/Leg" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "TynkoJp" ;
+    okh:source :3dFilesleg_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dFilesleg_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Files/Leg of Dino-OttO 3b1a8a4762e50eab520fca50758e0f050376915a" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/30949/leg.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyOTA4MjI=> .
+
+:3dFileslfeet a okh:Part ;
+    rdfs:label "3D Files/L_Feet" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "TynkoJp" ;
+    okh:source :3dFileslfeet_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dFileslfeet_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Files/L_Feet of Dino-OttO 3b1a8a4762e50eab520fca50758e0f050376915a" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/30949/l_feet.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyOTA4MTg=> .
+
+:3dFilesrfeet a okh:Part ;
+    rdfs:label "3D Files/R_Feet" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "TynkoJp" ;
+    okh:source :3dFilesrfeet_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dFilesrfeet_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Files/R_Feet of Dino-OttO 3b1a8a4762e50eab520fca50758e0f050376915a" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/30949/r_feet.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyOTA4NDA=> .
+
+:3dFilestail a okh:Part ;
+    rdfs:label "3D Files/Tail" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "TynkoJp" ;
+    okh:source :3dFilestail_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:3dFilestail_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D Files/Tail of Dino-OttO 3b1a8a4762e50eab520fca50758e0f050376915a" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/30949/tail.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyOTA4MjA=> .
 
 :Image a okh:Image ;
     rdfs:label "Image of Dino-OttO 3b1a8a4762e50eab520fca50758e0f050376915a" ;
@@ -55,61 +109,9 @@
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/30949/portada.jpg> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToyOTA4MTY=> .
 
-:Leg a okh:Part ;
-    rdfs:label "Leg" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "TynkoJp" ;
-    okh:source :Leg_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Leg_source a okh:SourceFile ;
-    rdfs:label "Source File of Leg of Dino-OttO 3b1a8a4762e50eab520fca50758e0f050376915a" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/30949/leg.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyOTA4MjI=> .
-
-:Lfeet a okh:Part ;
-    rdfs:label "L_Feet" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "TynkoJp" ;
-    okh:source :Lfeet_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Lfeet_source a okh:SourceFile ;
-    rdfs:label "Source File of L_Feet of Dino-OttO 3b1a8a4762e50eab520fca50758e0f050376915a" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/30949/l_feet.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyOTA4MTg=> .
-
 :Readme a okh:Readme ;
     rdfs:label "Readme of Dino-OttO 3b1a8a4762e50eab520fca50758e0f050376915a" ;
     okh:fileFormat "MD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/30949/readme-33d10.md> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTozMTA1Mjk=> .
-
-:Rfeet a okh:Part ;
-    rdfs:label "R_Feet" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "TynkoJp" ;
-    okh:source :Rfeet_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Rfeet_source a okh:SourceFile ;
-    rdfs:label "Source File of R_Feet of Dino-OttO 3b1a8a4762e50eab520fca50758e0f050376915a" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/30949/r_feet.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyOTA4NDA=> .
-
-:Tail a okh:Part ;
-    rdfs:label "Tail" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "TynkoJp" ;
-    okh:source :Tail_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Tail_source a okh:SourceFile ;
-    rdfs:label "Source File of Tail of Dino-OttO 3b1a8a4762e50eab520fca50758e0f050376915a" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/30949/tail.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyOTA4MjA=> .
 

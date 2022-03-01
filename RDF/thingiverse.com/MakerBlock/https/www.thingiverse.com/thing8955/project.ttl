@@ -1,0 +1,32 @@
+@prefix : <https://www.thingiverse.com/thing%3A8955/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ExtruderBarrelCoolingDuctForMk56V6 a okh:Module ;
+    rdfs:label "Extruder barrel cooling duct for MK5-6 v6" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is a derivative of my own prior extruder barrel cooling duct.  ( http://www.thingiverse.com/thing:8461 )\r
+\r
+It is optimized for a 40mm fan, which won't fit inside the 35mm gap between the two large sides of a standard MK5-6 extruder.  I find that PLA prints much better with active cooling directly on the barrel itself.\r
+\r
+The section STL is for a replacement side to the extruder.  It is functionally identical to the original small acrylic piece that fits there - except that it has a big rectangular hole to allow additional ventilation.\r
+\r
+I've of course included the OpenSCAD design files, but I didn't try to make the fan mount terribly parametric.  There are some variables you could set, like thickness to all parts, but it's not fully parametric.  If you have a different fan from mine (40x40x26mm) then you're going to want to redesign the fan mount anyhow.\r
+\r
+The reason for the DXF of the front acrylic panel was so that I could essentially create a virtual extruder holder for making sure everything aligned.  If you uncomment the section at the top, you can see it too.  ;)""" ;
+    okh:hasImage :Image ;
+    okh:licensor "MakerBlock" ;
+    okh:repo <https://www.thingiverse.com/thing:8955> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:8955> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Extruder barrel cooling duct for MK5-6 v6 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://thingiverse-rerender-new.s3.amazonaws.com/renders/6f/8c/c2/62/2e/fanduct6_display_large.jpg> ;
+    okh:permaURL <https://thingiverse-rerender-new.s3.amazonaws.com/renders/6f/8c/c2/62/2e/fanduct6_display_large.jpg> .
+

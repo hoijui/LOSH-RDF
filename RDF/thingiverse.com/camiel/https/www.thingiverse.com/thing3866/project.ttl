@@ -1,0 +1,62 @@
+@prefix : <https://www.thingiverse.com/thing%3A3866/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:SimpleSpoolSystemForAMendelorOther3dPrinter a okh:Module ;
+    rdfs:label "Simple spool system for a Mendel (or other 3d printer)" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Well i wanted to have a very simple, but bearing based spool system.\r
+\r
+So i came up with this.. its only one new STL file needed twice.\r
+And I used two old z-leadscrew-base_2off parts.\r
+\r
+So here is complete list:\r
+2x z-leadscrew-base_2off STL\r
+2x spool_v2 STL \r
+\r
+6x m4x16 cap screws\r
+12x washers m4\r
+6x m4 nylock nuts\r
+\r
+3x 180mm stud m8\r
+1x 280mm stud m8\r
+4x 250mm studs m8  (depends how high you want your spoolsystem to be)\r
+\r
+28x m8 nuts\r
+24x m8 washers\r
+4x m8 large washers (regular might also work)\r
+\r
+2x bearing 608\r
+2x block of wood, doesnt really care what size etc.\r
+\r
+Its possible to adjust the diameter from 100mm to 180mm, so most spools should fit.\r
+Also its partly shelled out to reduce print time, while not really reducing strength.\r
+\r
+Ow and yes this cannot be printed on a makerbot.\r
+First I wanted to design something smart/smaller that could be assembled.\r
+But i was in a hurry and thought.. well who has a makerbot anyway these days? Better put yours on ebay and build a Mendel ;).\r
+\r
+Update: there is now a v3, it has small marks so you can balance out the studs correctly.\r
+If they are all equal positioned the force required to rotate is least.\r
+also making the spool a bit higher (+ 10-20cm) then in the older pictures here, will reduce force on x-carriage in horizontal direction.\r
+\r
+Update2: I've made a revision of the z-leadscrew-base. Making the part a bit smaller/faster to print. (Because I didnt have any old z-leadscre-base parts left and wanted to make another spool system..)\r
+And I've extended the spool a bit (v4), because i noticed it was a bit on short side with new full rolls.\r
+\r
+(ps. in my opinion: innovation = simplicity / re-use)""" ;
+    okh:hasImage :Image ;
+    okh:licensor "camiel" ;
+    okh:repo <https://www.thingiverse.com/thing:3866> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:3866> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Simple spool system for a Mendel (or other 3d printer) 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/bb/21/65/14/47/IMG_8116_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/bb/21/65/14/47/IMG_8116_display_large_display_large.jpg> .
+

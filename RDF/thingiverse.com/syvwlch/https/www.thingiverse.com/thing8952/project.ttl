@@ -1,0 +1,32 @@
+@prefix : <https://www.thingiverse.com/thing%3A8952/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:PileoPolyhedronsTheImprovedScrew a okh:Module ;
+    rdfs:label "Pile 'o Polyhedrons: the Improved Screw" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """When I tried to make a throated worm screw ( http://www.thingiverse.com/derivative:9733 ), I ran into an issue: the thread profile was being extruded along the right curve in space, but there was no skewing of the profile to fit the curve. \r
+\r
+You can see what I mean by comparing the images for this thing to the images for its parent. The tip of the thread remains vertical, no matter how the thread tapers or widens around the shaft. In the case of a throated worm screw, this meant that the worm gear would hit the parts of the profile that had not tapered out of the way properly.\r
+\r
+Had to redo the polyhedron the whole thing rests on, and I took the opportunity to redo all the math vectorially, cuz it's cleaner that way. Also went ahead and made the shaft follow a curve defined by functions, like the thread does. More versatile, but we're not yet where the shaft could be a torus and the thread winds around it.\r
+\r
+Now that I have this working in this stand-alone script, I need to work it back into the screw library ( http://www.thingiverse.com/thing:8793 ) and the throated worm screw will be a synch.\r
+\r
+As I've just received my Thingomatic, however, (thanks MBI!) this might take a back seat to assembly, calibration, printing, etc... Sorry!""" ;
+    okh:hasImage :Image ;
+    okh:licensor "syvwlch" ;
+    okh:repo <https://www.thingiverse.com/thing:8952> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:8952> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Pile 'o Polyhedrons: the Improved Screw 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/86/1a/2f/7c/0f/ImprovedScrew-01_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/86/1a/2f/7c/0f/ImprovedScrew-01_display_large_display_large.jpg> .
+

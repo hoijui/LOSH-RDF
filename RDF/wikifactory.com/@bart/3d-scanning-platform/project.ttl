@@ -1,12 +1,13 @@
-@prefix : <https://wikifactory.com/@bart/3d-scanning-platform/bcf43dcd5826e2e5053d48cbaeb42f15a0b15614/> .
+@prefix : <https://wikifactory.com/%40bart/3d-scanning-platform/bcf43dcd5826e2e5053d48cbaeb42f15a0b15614/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 :3dScanningPlatform a okh:Module ;
     rdfs:label "3D scanning platform" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "A photogrammetry platform made to allow you to take pictures quickly. The goal is to make the photogrammetry process easier and faster. Reducing the number of unusable pictures by controlling the process.This device is meant to be fast to build, modular and versatile. Please help me and contribute" ;
-    okh:hasComponent :Adapt8mmkodakv6 ;
+    okh:hasComponent :3dAttachmentsadapt8mmkodakv6 ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "Barthélémy Caillard" ;
@@ -14,18 +15,19 @@
     okh:repo <https://wikifactory.com/@bart/3d-scanning-platform> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
     okh:version "bcf43dcd5826e2e5053d48cbaeb42f15a0b15614" ;
     okh:versionOf <https://wikifactory.com/@bart/3d-scanning-platform> .
 
-:Adapt8mmkodakv6 a okh:Part ;
-    rdfs:label "Adapt8mmKodak_v6" ;
+:3dAttachmentsadapt8mmkodakv6 a okh:Part ;
+    rdfs:label "3D attachments/Adapt8mmKodak_v6" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Barthélémy Caillard" ;
-    okh:source :Adapt8mmkodakv6_source ;
+    okh:source :3dAttachmentsadapt8mmkodakv6_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Adapt8mmkodakv6_source a okh:SourceFile ;
-    rdfs:label "Source File of Adapt8mmKodak_v6 of 3D scanning platform bcf43dcd5826e2e5053d48cbaeb42f15a0b15614" ;
+:3dAttachmentsadapt8mmkodakv6_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D attachments/Adapt8mmKodak_v6 of 3D scanning platform bcf43dcd5826e2e5053d48cbaeb42f15a0b15614" ;
     okh:fileFormat "STEP" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/25287/adapt8mmkodak_v6.step> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZToyNzM0MDU=> .

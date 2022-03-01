@@ -1,0 +1,46 @@
+@prefix : <https://www.thingiverse.com/thing%3A24272/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:AnimatedDigitalDiceWprintableEnclosures a okh:Module ;
+    rdfs:label "Animated Digital Dice w/printable enclosures" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """**UPDATED 10 September 2014:** New documentation file `documentation-with-oshpark-links.html` which has OSH Park links for ordering circuit boards.  Removed old batchpcb.com links as batchpcb.com was sold to OSH Park. Use this file in place of the `index.html` file in the `dice.zip` file.  \r
+\r
+This project provides four sets of plans (schematics, board layouts, etc.) for Arduino and AVR based, animated digital dice.  Also included are 3D models for printing enclosures for two of the smaller designs.  \r
+A (very non-exciting) video of the dice in action may be seen at http://youtu.be/Kp_W-V4TNko .  \r
+The files dice.zip and dice.tar.gz provide the full documentation, source code, .hex files, Eagle CAD files, Gerber files for use with a fab, OpenSCAD enclosure models, rendered .stl files, etc. for the projects.  See the index.html file in the distribution for the documentation.  These materials are being distributed under the TAPR Open Hardware License, http://tapr.org/OHL .  \r
+The projects demonstrate using the following AVR and Arduino features  \r
+* button debouncing,  \r
+* sleeping the device using power down mode,  \r
+* awakening the device from sleep with a change to a low voltage state on the INT0 pin,  \r
+* enabling and disabling the watchdog timer interrupt,  \r
+* software PWM using a timer/counter compare interrupt, and  \r
+* implementing simple (i.e., non-precise) timed delay functions.  \r
+The necessary hardware is straightforward, requiring  \r
+* a microcontroller with at least eight digital I/O pins,  \r
+* seven LEDs,  \r
+* seven current limiting resistors for the seven LEDs,  \r
+* a momentary push button switch,  \r
+* a pull-up resistor for use with the push button switch,  \r
+* an optional bypass capacitor for the microcontroller, and  \r
+* a power source such as a 3V coin cell or two AAA batteries for use with an AVR microprocessor.  \r
+C language source code for AVR-GCC is provided which has been tested on an Arduino Duemilanove (ATmega328p), an ATtiny24, and an ATtiny2313. The same source code file works for all three processors and can be used as an Arduino sketch.  \r
+While the projects are intended for an Arduino, ATtiny24/44/84, or ATtiny2313/4313, the sources can be built for other processors (but may need changes).   The documentation also includes links for ordering individual boards from oshpark.com starting at $10.95 for  \r
+three of the small boards (OSH Park sells in units of three just like Ramans, http://en.wikipedia.org/wiki/Rendezvous_with_Rama).""" ;
+    okh:hasImage :Image ;
+    okh:licensor "dnewman" ;
+    okh:repo <https://www.thingiverse.com/thing:24272> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:24272> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Animated Digital Dice w/printable enclosures 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/e8/a3/5f/4c/af/boards_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/e8/a3/5f/4c/af/boards_display_large_display_large.jpg> .
+

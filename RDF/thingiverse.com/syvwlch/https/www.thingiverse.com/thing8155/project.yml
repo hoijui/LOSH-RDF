@@ -1,0 +1,48 @@
+__meta:
+  branch: null
+  created-at: '2011-04-29T14:48:07+00:00'
+  history: null
+  last-changed: null
+  last-visited: '2022-02-25T11:00:02.616920+00:00'
+  owner: syvwlch
+  path: null
+  repo: https://www.thingiverse.com/thing:8155
+  score: null
+  source: thingiverse.com
+attestation: null
+bom: null
+contribution-guide: null
+cpc-patent-class: null
+documentation-language: en
+documentation-readiness-level: odrl3
+function: "This is the repository for my clockwork library, which I've been developing for the printable clock project. I will upload future versions here, to keep them separate from the clock scripts.\r\n\r\nCurrent development version to be found on git hub here:\r\nhttps://github.com/syvwlch/Printable-Clock-Project\r\n\r\nAs code from the clock scripts matures, I will move it into this library to facilitate re-use. So far I have been able to keep the library backwards-compatible, and I will try to continue that way.\r\n\r\n/*\r\nThis is an OpenSCAD library to create various pinion wheels, escapements and other pieces of clockwork gearing\r\nUses the MCAD involute_gears library and will not work without it!\r\nCreated by syvwlch and licensed under the Attribution - Share Alike - Creative Commons license.\r\n\r\nv1 - 2011 04 15\r\nFirst library version of the code\r\nIncluded escapement(), placeEscapement() and escapementWheel() in particular\r\n\r\nv2 - 2011 04 21\r\nAdded spokes() module, and used it in escapement() module\r\nUpdated escapement(), ringtooth(), tooth() and ring() modules to render better/faster in openCSG mode\r\n\r\nv3 - 2011 04 22\r\nRenamed to clockworkLibrary\r\nAdded hand(), handNotch(), pinionWheel(), pinionEscapementWheel(), pinionDrum()\r\n\r\nv4 - 2011 04 29\r\nAdded negative space toggle to the parts, which defaults to false\r\nStrengthened pinion teeth.\r\n\r\nv5 - 2011 05 01 \r\nAdded herringbone gear option, with a default value of 0\r\n\r\nv6 - 2011 05 04 \r\nChanged how drum height in pinionDrum() is measured to work like sleeve extension does, to simplify placement math\r\nCorrected error in how sleeve extension is measured in pinionWheel() (wheels are 2*thickness+1*spacer thick)\r\nChanged how drum height in pinionEscapementWheel() is measured, to standardize\r\nCreate a drum() module, and implemeted flanges to keep the string from falling off\r\nRetrofitted drum() into pinionDrum(), as well as for the spacer in pinionEscapementWheel() and pinionWheel()\r\n\r\nv7 - 2011 05 04 \r\nAdded an assymetric spacer so that the herringbone gears would mesh without running into the drum flanges\r\nSwitched to using mirror() to implement the two halves of the herringbone as a result\r\n\r\nv8 - 2011 05 06\r\nFixed a bug in spokes() which referenced the wrong spoke width parameter (thanks kitlaan!)\r\n\r\nv9 - 2011 05 07\r\nModified the escapement wheel profile to support club teeth (still defaults to ratchet teeth)\r\nClub tooth parameters accessible in tooth(), ringtooth(), escapementWheel() and pinionEscapementWheel()\r\nModified escapement to control angle of impulse faces on the pallets, defaults to 45o as per ideal Graham escapement w/o club teeth\r\nEscapement will work if impulse face angles are set to 45o minus tooth lean plus club angle, and drop can be controlled via face angle\r\n\r\nv10 -2011 05 08\r\nModified the drum() module to add holes to attach a string\r\nBackwards compatible with no holes if the new arguments are not passed\r\nModified pinionDrum() to make use of this new feature, but backwards compatible with no holes if the new arguments are not passed\r\nSummary of code changes:\r\nhttps://github.com/syvwlch/Printable-Clock-Project/commit/04b645cd6fdbdcf74b8ed0ee9eb0a2f971e974f5\r\n\r\nv11 - 2011 05 18\r\nModified to support the ratcheting drum designed by rustedrobot: http://www.thingiverse.com/thing:8555\r\nBackwards compatible, one-piece drum still available as an option\r\n*/"
+image:
+  created-at: '2011-04-29T14:48:07+00:00'
+  last-changed: '2011-04-29T14:48:07+00:00'
+  last-visited: '2022-02-25T16:34:13.246100+00:00'
+  license: CC-BY-SA-4.0
+  licensor: syvwlch
+  mime-type: null
+  name: NegativeSpace-Clock_display_large_display_large
+  path: https:/cdn.thingiverse.com/renders/6f/09/ce/76/d2/NegativeSpace-Clock_display_large_display_large.jpg
+  perma-url: https://cdn.thingiverse.com/renders/6f/09/ce/76/d2/NegativeSpace-Clock_display_large_display_large.jpg
+  url: https://cdn.thingiverse.com/renders/6f/09/ce/76/d2/NegativeSpace-Clock_display_large_display_large.jpg
+license: CC-BY-SA-4.0
+licensor: syvwlch
+manufacturing-instructions: null
+name: Clockwork Library
+okhv: OKH-LOSHv1.0
+organization: null
+part: []
+publication: null
+readme: null
+release: null
+repo: https://www.thingiverse.com/thing:8155
+software: []
+specific-api-data: {}
+standard-compliance: null
+technology-readiness-level: ortl4
+tsdc: null
+upload-method: auto
+user-manual: null
+version: 1.0.0

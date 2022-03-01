@@ -1,0 +1,34 @@
+@prefix : <https://www.thingiverse.com/thing%3A7828/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Parametric601GearTrainWEscapement a okh:Module ;
+    rdfs:label "Parametric 60:1 Gear Train w/ Escapement" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Using the MCAD library, I put together a little parametric script that creates a gear train to take the wheel of an escapement and gear down its rotation by 60:1 via three pinion wheels.\r
+\r
+This is a proof of concept for the printable clock. If the escapement wheel rotated once per minute (i.e. could run the seconds hand), the other end of the gear train would rotate once per hour (i.e. could run the minutes hand).\r
+\r
+I used three pinion wheels rather than the usual two because the smaller gear ratios make for easier printing (larger teeth without using gears that don't fit in the build platform).\r
+\r
+(EDIT: Just realized that if you use an odd number of gears between two hands, they will rotate in opposite directions! Oops...)\r
+\r
+Lastly, the whole gear train can be animated via the rotation_angle parameter. All the gears will rotate at the correct speeds and mesh.\r
+\r
+(EDIT: posted a little animated GIF of the gear train moving in the comments below)""" ;
+    okh:hasImage :Image ;
+    okh:licensor "syvwlch" ;
+    okh:repo <https://www.thingiverse.com/thing:7828> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:7828> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Parametric 60:1 Gear Train w/ Escapement 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/f5/9c/5f/0e/35/ClockGearTrain_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/f5/9c/5f/0e/35/ClockGearTrain_display_large_display_large.jpg> .
+

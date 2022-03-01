@@ -1,23 +1,24 @@
-@prefix : <https://wikifactory.com/@botler/banjolele/a1aca387ccd17c2bea36e49710864751bde30c7d/> .
+@prefix : <https://wikifactory.com/%40botler/banjolele/a1aca387ccd17c2bea36e49710864751bde30c7d/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 :Banjolele a okh:Module ;
     rdfs:label "Banjolele" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "This 3D printed banjo-ukelele project was made out of the curiosity by Andreas Bastian. His goal was to learn more about music by making his very own instrument and sharing it with the world." ;
-    okh:hasComponent :Bodyrev1,
-        :Bodyrev2,
-        :Bodyrev3,
-        :Bodyrev4,
-        :Bodyrev5,
-        :Bridge10mmx50mm,
-        :Headstock,
-        :Neck,
-        :Nut,
-        :Plate1,
-        :Plate2,
-        :Tuningpegrev2 ;
+    okh:hasComponent :3dPrintingFilesbodybodyrev1,
+        :3dPrintingFilesbodybodyrev2,
+        :3dPrintingFilesbodybodyrev3,
+        :3dPrintingFilesbodybodyrev4,
+        :3dPrintingFilesbodybodyrev5,
+        :3dPrintingFilesbridge10mmx50mm,
+        :3dPrintingFilesheadstock,
+        :3dPrintingFilesneck,
+        :3dPrintingFilesnut,
+        :3dPrintingFilesplate1,
+        :3dPrintingFilesplate2,
+        :3dPrintingFilestuningpegrev2 ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "James Botler" ;
@@ -25,99 +26,165 @@
     okh:repo <https://wikifactory.com/@botler/banjolele> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
     okh:version "a1aca387ccd17c2bea36e49710864751bde30c7d" ;
     okh:versionOf <https://wikifactory.com/@botler/banjolele> .
 
-:Bodyrev1 a okh:Part ;
-    rdfs:label "body_rev1" ;
+:3dPrintingFilesbodybodyrev1 a okh:Part ;
+    rdfs:label "3D printing files/Body/body_rev1" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Bodyrev1_source ;
+    okh:source :3dPrintingFilesbodybodyrev1_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Bodyrev1_source a okh:SourceFile ;
-    rdfs:label "Source File of body_rev1 of Banjolele a1aca387ccd17c2bea36e49710864751bde30c7d" ;
+:3dPrintingFilesbodybodyrev1_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D printing files/Body/body_rev1 of Banjolele a1aca387ccd17c2bea36e49710864751bde30c7d" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/676/bodyrev1.STL> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo1MjE2> .
 
-:Bodyrev2 a okh:Part ;
-    rdfs:label "body_rev2" ;
+:3dPrintingFilesbodybodyrev2 a okh:Part ;
+    rdfs:label "3D printing files/Body/body_rev2" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Bodyrev2_source ;
+    okh:source :3dPrintingFilesbodybodyrev2_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Bodyrev2_source a okh:SourceFile ;
-    rdfs:label "Source File of body_rev2 of Banjolele a1aca387ccd17c2bea36e49710864751bde30c7d" ;
+:3dPrintingFilesbodybodyrev2_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D printing files/Body/body_rev2 of Banjolele a1aca387ccd17c2bea36e49710864751bde30c7d" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/676/bodyrev2.STL> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo1MjE1> .
 
-:Bodyrev3 a okh:Part ;
-    rdfs:label "body_rev3" ;
+:3dPrintingFilesbodybodyrev3 a okh:Part ;
+    rdfs:label "3D printing files/Body/body_rev3" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Bodyrev3_source ;
+    okh:source :3dPrintingFilesbodybodyrev3_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Bodyrev3_source a okh:SourceFile ;
-    rdfs:label "Source File of body_rev3 of Banjolele a1aca387ccd17c2bea36e49710864751bde30c7d" ;
+:3dPrintingFilesbodybodyrev3_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D printing files/Body/body_rev3 of Banjolele a1aca387ccd17c2bea36e49710864751bde30c7d" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/676/bodyrev3.STL> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo1MjE3> .
 
-:Bodyrev4 a okh:Part ;
-    rdfs:label "body_rev4" ;
+:3dPrintingFilesbodybodyrev4 a okh:Part ;
+    rdfs:label "3D printing files/Body/body_rev4" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Bodyrev4_source ;
+    okh:source :3dPrintingFilesbodybodyrev4_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Bodyrev4_source a okh:SourceFile ;
-    rdfs:label "Source File of body_rev4 of Banjolele a1aca387ccd17c2bea36e49710864751bde30c7d" ;
+:3dPrintingFilesbodybodyrev4_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D printing files/Body/body_rev4 of Banjolele a1aca387ccd17c2bea36e49710864751bde30c7d" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/676/bodyrev4.STL> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo1MjE5> .
 
-:Bodyrev5 a okh:Part ;
-    rdfs:label "body_rev5" ;
+:3dPrintingFilesbodybodyrev5 a okh:Part ;
+    rdfs:label "3D printing files/Body/body_rev5" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Bodyrev5_source ;
+    okh:source :3dPrintingFilesbodybodyrev5_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Bodyrev5_source a okh:SourceFile ;
-    rdfs:label "Source File of body_rev5 of Banjolele a1aca387ccd17c2bea36e49710864751bde30c7d" ;
+:3dPrintingFilesbodybodyrev5_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D printing files/Body/body_rev5 of Banjolele a1aca387ccd17c2bea36e49710864751bde30c7d" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/676/bodyrev5.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo1MjE4> .
 
-:Bridge10mmx50mm a okh:Part ;
-    rdfs:label "bridge10mmx50mm" ;
+:3dPrintingFilesbridge10mmx50mm a okh:Part ;
+    rdfs:label "3D printing files/bridge10mmx50mm" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Bridge10mmx50mm_source ;
+    okh:source :3dPrintingFilesbridge10mmx50mm_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Bridge10mmx50mm_source a okh:SourceFile ;
-    rdfs:label "Source File of bridge10mmx50mm of Banjolele a1aca387ccd17c2bea36e49710864751bde30c7d" ;
+:3dPrintingFilesbridge10mmx50mm_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D printing files/bridge10mmx50mm of Banjolele a1aca387ccd17c2bea36e49710864751bde30c7d" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/676/bridge10mmx50mm.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo1MjEw> .
 
-:Headstock a okh:Part ;
-    rdfs:label "headstock" ;
+:3dPrintingFilesheadstock a okh:Part ;
+    rdfs:label "3D printing files/headstock" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Headstock_source ;
+    okh:source :3dPrintingFilesheadstock_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Headstock_source a okh:SourceFile ;
-    rdfs:label "Source File of headstock of Banjolele a1aca387ccd17c2bea36e49710864751bde30c7d" ;
+:3dPrintingFilesheadstock_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D printing files/headstock of Banjolele a1aca387ccd17c2bea36e49710864751bde30c7d" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/676/headstock.stl> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo1MjA2> .
+
+:3dPrintingFilesneck a okh:Part ;
+    rdfs:label "3D printing files/neck" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :3dPrintingFilesneck_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:3dPrintingFilesneck_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D printing files/neck of Banjolele a1aca387ccd17c2bea36e49710864751bde30c7d" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/676/neck.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1MjA4> .
+
+:3dPrintingFilesnut a okh:Part ;
+    rdfs:label "3D printing files/nut" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :3dPrintingFilesnut_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:3dPrintingFilesnut_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D printing files/nut of Banjolele a1aca387ccd17c2bea36e49710864751bde30c7d" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/676/nut.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1MjEy> .
+
+:3dPrintingFilesplate1 a okh:Part ;
+    rdfs:label "3D printing files/PLATE_1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :3dPrintingFilesplate1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:3dPrintingFilesplate1_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D printing files/PLATE_1 of Banjolele a1aca387ccd17c2bea36e49710864751bde30c7d" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/676/plate1.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1MjEx> .
+
+:3dPrintingFilesplate2 a okh:Part ;
+    rdfs:label "3D printing files/PLATE_2" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :3dPrintingFilesplate2_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:3dPrintingFilesplate2_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D printing files/PLATE_2 of Banjolele a1aca387ccd17c2bea36e49710864751bde30c7d" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/676/plate2.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1MjA3> .
+
+:3dPrintingFilestuningpegrev2 a okh:Part ;
+    rdfs:label "3D printing files/tuning_peg_rev2" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :3dPrintingFilestuningpegrev2_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:3dPrintingFilestuningpegrev2_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D printing files/tuning_peg_rev2 of Banjolele a1aca387ccd17c2bea36e49710864751bde30c7d" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/676/tuningpegrev2.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1MjA5> .
 
 :Image a okh:Image ;
     rdfs:label "Image of Banjolele a1aca387ccd17c2bea36e49710864751bde30c7d" ;
@@ -125,74 +192,9 @@
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/676/coverpreviewfeatured.jpg> ;
     okh:permaURL <https://wikifactory.com/files/RmlsZTo1MTk4> .
 
-:Neck a okh:Part ;
-    rdfs:label "neck" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "James Botler" ;
-    okh:source :Neck_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Neck_source a okh:SourceFile ;
-    rdfs:label "Source File of neck of Banjolele a1aca387ccd17c2bea36e49710864751bde30c7d" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/676/neck.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo1MjA4> .
-
-:Nut a okh:Part ;
-    rdfs:label "nut" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "James Botler" ;
-    okh:source :Nut_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Nut_source a okh:SourceFile ;
-    rdfs:label "Source File of nut of Banjolele a1aca387ccd17c2bea36e49710864751bde30c7d" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/676/nut.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo1MjEy> .
-
-:Plate1 a okh:Part ;
-    rdfs:label "PLATE_1" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "James Botler" ;
-    okh:source :Plate1_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Plate1_source a okh:SourceFile ;
-    rdfs:label "Source File of PLATE_1 of Banjolele a1aca387ccd17c2bea36e49710864751bde30c7d" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/676/plate1.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo1MjEx> .
-
-:Plate2 a okh:Part ;
-    rdfs:label "PLATE_2" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "James Botler" ;
-    okh:source :Plate2_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Plate2_source a okh:SourceFile ;
-    rdfs:label "Source File of PLATE_2 of Banjolele a1aca387ccd17c2bea36e49710864751bde30c7d" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/676/plate2.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo1MjA3> .
-
 :Readme a okh:Readme ;
     rdfs:label "Readme of Banjolele a1aca387ccd17c2bea36e49710864751bde30c7d" ;
     okh:fileFormat "MD" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/676/readme-1.md> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo1MjE0> .
-
-:Tuningpegrev2 a okh:Part ;
-    rdfs:label "tuning_peg_rev2" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "James Botler" ;
-    okh:source :Tuningpegrev2_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:Tuningpegrev2_source a okh:SourceFile ;
-    rdfs:label "Source File of tuning_peg_rev2 of Banjolele a1aca387ccd17c2bea36e49710864751bde30c7d" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/676/tuningpegrev2.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo1MjA5> .
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/676/readme-5.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NTQ5> .
 

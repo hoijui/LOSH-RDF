@@ -1,0 +1,38 @@
+@prefix : <https://www.thingiverse.com/thing%3A6159/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:LinearBearingForAirsoftBbs a okh:Module ;
+    rdfs:label "Linear Bearing for Airsoft BBs" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """I was working on a derivative of: http://www.thingiverse.com/thing:5830 when I realized I could make a printable linear bearing for it.\r
+\r
+This is that bearing.  It provides three inner racetracks rolling against the inner axle.  The length is adjustable to increase the number of ball bearings in contact with the inner axle.  Longer length will be more stable therefore.\r
+\r
+To approximate the stability of the reprap based xy rider designs, you'd want at least two of these 35mm or greater in length on each axis.\r
+\r
+Fully parametric - I exported samples for axes of 1/4", 3/8", and 1/2".  The included .scad has a lot of sample lines commented out at the end if you want to experiment.\r
+\r
+Currently untested - but I believe this is the design that will work.\r
+\r
+Please note, there are a couple overhang violations.  I believe the bottom of the raceway in the center should be ok with bridging - but might have issues... and the tops of the raceways violate overhang rules like crazy.  I put the fill holes there to get rid of the worst offense, so hopefully it'll come out somewhat-usable.  I do NOT want to try internal support on those raceways! lol... Plan B is to split this thing into two halves and print it that way.\r
+\r
+UPDATE 2/7/11: I fixed some previous axle issues.  The raceways were being positioned completely wrong, forgot to divide by two to account for the difference between diameter and radius.  Also really tightened up the feed tubes to be just a few mm long.\r
+\r
+UPDATE 2/11/11: I tried printing this last night.  No dice, the inner raceways are too small.  Just read nophead's blog post about polygonal holes (http://www.thingiverse.com/thing:6118), back to the drawing board!""" ;
+    okh:hasImage :Image ;
+    okh:licensor "merlinjim" ;
+    okh:repo <https://www.thingiverse.com/thing:6159> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:6159> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Linear Bearing for Airsoft BBs 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/fe/70/bd/dd/c8/LinearBearingOverhead_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/fe/70/bd/dd/c8/LinearBearingOverhead_display_large_display_large.jpg> .
+

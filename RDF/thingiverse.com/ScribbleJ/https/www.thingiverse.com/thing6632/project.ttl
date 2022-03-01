@@ -1,0 +1,140 @@
+@prefix : <https://www.thingiverse.com/thing%3A6632/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:DualExtruderDualMaterialMakerbot a okh:Module ;
+    rdfs:label "Dual Extruder / Dual Material Makerbot" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is going to be a reaaaal long one, folks.  Better buckle up your thingibelts.\r
+\r
+I believe this project is complete.  There are workable, though probably not ideal, solutions to all major problems.  The code and mount are both perfectly usable.\r
+\r
+Youtube videos availabe at: \r
+http://www.youtube.com/watch?v=tSp8FKgoY8k \r
+http://www.youtube.com/watch?v=mv3wxvR8w5A\r
+New! http://www.youtube.com/watch?v=XafKYIxlgBk\r
+\r
+For people who just want the short version to go with the photos:  Of course when I thought about what to print first, I thought the classic 20mm cube, but in a checkerboard pattern.  \r
+\r
+Setting the head offsets in the software exactly is important, and not difficult, but I couldn't dial it in during the course of this project as every time I'd set it I'd change something to unset it again.  That's the only reason many of the prints are overlapping in odd ways.\r
+\r
+Any ooze tends to accumulate at the offset position and eventually get rolled into the model, making a mess.  The final update to the script has solved this with some ooze-controlling reversal, which I didn't bother to get dialed in exactly before closing this file. :)\r
+\r
+\r
+THE STORY:\r
+\r
+On Friday, it struck me I had a MK5 hot end just sitting here in a box, unusued, and I thought -- wouldn't two extruders in one machine be a neat idea?  You could print two colors together, or you could use one to print some kind of support material; who knows what that might be.  I knew you could dissolve PLA with toxic chemicals, but I also knew I'd never be allowed to play with toxic chemicals; I'm not even really allowed to print ABS.\r
+\r
+I decided I would have the entire project complete, from conception to completion, done by the end of the weekend.  You might have noticed my rash of part releases.\r
+\r
+Well, I missed it by /that/ much, but it turns out to be good news.  MBI on Monday announced dissolvable plastic ( http://store.makerbot.com/makerbot-pva.html )... which means now we know what to use as support material.  The timing could not be more perfect.  In addition, this makes the perfect thing to do with your old MK5 once you also have a shiny new MK6... Or maybe you bought a third-party hot end, like one of the excellent ones from Makergear.com, and now you can get your old stock hot end out of its drawer and use it again.\r
+\r
+Now, when I say completion, I don't mean this project is finished, oh no.  There's a very long list of little things to fix or change, and a short list of big things to fix or change.\r
+\r
+CURRENT MAJOR PROBLEMS:\r
+* The bolts on the build platform mean your print area can be greatly reduced -- \r
+-- SOLVED... switching to the ABP cures this problem neatly.  \r
+* Need a brilliant way to assure both heads are on the same Z-plane physically.\r
+-- SOLVED... not exactly brilliant, but the new mount is easily adjustable.\r
+\r
+\r
+CURRENT MINOR PROBLEMS:\r
+* It would be helpful to people who do not have the option of switching to the ABP to have a mount where the heads are aligned 90 degrees offset from this.\r
+* Some kind of quick-release mount for the second extruder would be nice.  Maybe there would be a way to work Z-height adjustment into it. \r
+-- SOLVED:  V2 mount is easy to remove and install separately.\r
+* The closer the two heads together can be brought together, the less loss of build area will happen, bolts or no bolts.\r
+* It should be theoretically possible to drive two heads from one EC; if I blow up my other MOSFET I may have to pursue this possibility myself.  This would require some hacking of RepG at the least and probably the firmware too.\r
+* The software could use many improvements; what I've given here is a workable starting point to build from.\r
+\r
+\r
+TRIALS AND TRIBULATIONS:\r
+\r
+I nearly hit my goal of having it all wrapped up by the weekend.  I missed it because the 608-based Wade's style extruder I built off the STLs I uploaded over the weekend:  http://www.thingiverse.com/thing:6492  did not work.  It wouldn't push plastic.  \r
+\r
+You might think that meant it worked OK, I just couldn't demo it, and you'd be right.  At this point, I had two stepper extruders working in concert but I couldn't make a test print, because one wouldn't push plastic.  I felt like I couldn't put up the thingiverse entry until I could make the thumbnail a two-tone print.\r
+\r
+So, this set me back a whole day.  Well, this, and the fact that I have to work for a living, still...\r
+\r
+I decided the problem was the bolt I hobbed wasn't nearly as good as Makerbot's MK5 drive gear thingy:  http://store.makerbot.com/mk5-drive-gear.html ... while the MBI delrin extruder is of questionable value, this gear is the /bomb/.  I tried hobbing another bolt, but I just couldn't make one that worked.\r
+\r
+An additional problem is that the design STLs I posted have the wrong value for the filament distance from the hobbed bolt, making it add a lot of friction and nearly impossible to get in the hole.\r
+\r
+So I decided that other people would want to use it with the DC motor, and I might as well buckle down and replace my 2nd stepper extruder with a DC extruder, temporarily.  I couldn't find a 606 bearing on such short notice, but I've seen plenty of people run without it, so I made do.\r
+\r
+It turned out this introduced a new problem.  While I was fortunate to find the MBI ReplicatorG and Firmware supported everything I wanted to do /already/, which was REALLY NICE, THANKS GUYS!! ... I found there was a bug or oversight in the drivers for the stepper extruder version; if you use them, they will just delete any commands that drive a DC motor.  So if you have one of each like I do for the moment, it won't run the DC motor.\r
+\r
+Fortunately, this was about a ten minute fix in the RepG code, which I'm getting all too familiar with.  (Patch will be supplied below if it isn't already when I hit PUBLISH).\r
+\r
+Next the DC motor stopped responding (probably just needed a reboot, honestly), and in my naieve efforts to fix it, the mosfet blew up, literally; photo attached.  I couldn't get it to switch to the second mosfet in the legitimate fashion, RepG wouldn't recognize the extruder to set it's eeprom... So I hardcoded the change in a copy of the firmware and uploaded it - finally the DC motor was back online and I had only lost about two hours...\r
+\r
+Once I finally got it all up and running, testing my software proved to have it's own fun points, too.  First I got the offsets and everything all backwards, and nearly drove my print heads into the bolts many times.  Once I finally got it completely sorted, the first test print I discovered a really fun thing -- if your print heads are off in the Z direction by a tiny amount, that's OK.  But if the lower one prints last, it'll rip the tops off the taller one's print.\r
+EDIT:  I actually think the cause of the destroyed print in the photo and the other messy prints are all down to the shadow print/ooze that develops and tends to roll into the model.  The latest version of the script provides ooze-combatance for this reason.\r
+\r
+As you can see, I didn't find a way to measure my Y offset so I guessed 0 on the first print, the one with the missing tops, and I was wrong, so I adjusted it for the second print... in the wrong direction!  Doh!  It'll be fixed for any future photos, I hope.  The X offset is easy enough to measure since that's the way the heads are aligned in my build.  If you have the ABP, having them aligned in X like this is good 'cause then there are no worries about bolts AND you might be able to hack the ABP to get back any lost print area.  It's a win-win.  \r
+\r
+But I'm not running the ABP right now, so I need to watch my bolts like a hawk and it would have been better if my mount has the heads aligned in Y instead of X - rotated 90 degrees.\r
+\r
+UPDATE (2011-02-23):\r
+\r
+I got one print off today before the DC motor stopped running.  The LED on the mosfet comes on when I tell it to run, so I'm not sure what the problem could be.  I still have the relay I built to run it on the Thing O Matic extruder controller, but it's on a cupcake EC and I'm surprised to find it fails there, too - have other people had that problem?\r
+\r
+I also switched out my build platform so the bolts would run the other way.\r
+\r
+I swapped in a different DC motor and it works, but the DC motor overall oozes much more and takes much longer to start again than the stepper motor, so the grey parts in my prints are coming out looking somewhat lousy.\r
+\r
+Otherwise, you can see it's working well and I fixed my Y-offset by just adding 1/2 the difference between the top and bottom parts sizes to it.\r
+\r
+Next I added springs to the front extruder, assuming I only need to be able to adjust one to match the fixed one.  This helped my prints a lot -- part of the problem with the greyparts is they weren't getting good stick on the 1st layer.  Now both materials are getting good stick.  Changing out for the springs changed my X+Y offsets by a very small amount, but that's easy to measure using this test cube.\r
+\r
+The springs seem like a workable solution, -- I'm surprised the thing is not wobbly, but I used very strong springs, so...\r
+\r
+UPDATE (2011-02-24):  Added new mount .STL; this one should be a good way to solve both the quick-remove problem and the z-alignment problem, at the cost of drilling 2-4 new holes into your stock acrylic bridge.  I'm going to have to figure out how to get replacement lasercuts parts after these experiments are finalized, I bet.\r
+\r
+Since the STLs aren't rendering here, you can see the new mount here: http://www.thingiverse.com/thing:6517  until I have a photo of the printed thing.\r
+\r
+While adjusting my printer to print the part (I decided to lower the spring-loaded head down as low as I could to get the other out of the way, and just print in 1 material) I found there's an easy way to adjust the springs tension - while the end is cold and full of filament, simply turn the motor back a few steps (by hand?) and it will raise the end up, allowing you to easily twirl the nuts to your desired location, before lowering it back down.  Youtube video here:  http://www.youtube.com/watch?v=gJStB65cSvA\r
+\r
+I am greatly looking forward to seeing the postman today, as he'll have my order from Makerbot with the dissolvable plastic, as well as the parts I will need to rebuild my stepper extruder properly, and eliminate the DC extruder.\r
+\r
+I finished printing the new mount.  Checking in the control panel after the print revealed to my pleasure that the /other/ extruder, the one I didn't use in the print, was at a nice cool 30degrees still.\r
+\r
+I wonder if I should have designed the mount to use the existing bolts on the front of the bridge.  I guess I'd like 4 bolts for it though, so this is probably OK, even if the other way means less destruction.\r
+\r
+If the big 'shadows' on my dual-color prints didn't make it clear I'm not doing anything to combat ooze presently, the print of this new mount will...\r
+\r
+UPDATE: (2011-02-25)\r
+\r
+My box from Makerbot Industries showed up today.  It had 4lbs of PVA, plus a handful of 606 bearings and those wonderful MK5 drive gears.  So I rebuilt my second stepper extruder, and put on the new mount all at the same time.  \r
+\r
+The new mount works as advertised; it makes leveling much easier, and taking off the whole second extruder when you want to go back to 'normal' a snap.  I recommend it.  It also makes mounting everything a lot easier.\r
+\r
+It does require you to drill 4 holes in your acrylic bridge.  Drilling acrylic is supposed to be very tricky.  I actually used a dremel instead of a drill, with a bit I dunno the name of, but I'll post a photo.  I went slow, it cut like butter; I wasn't worried about cracking it at any point.  My room does still have the faint aroma of my 8th grade shop class, where we all made acrylic salad spoons.  Mom still uses it, 20 years later.\r
+\r
+The only real problem I have remaining is the ooze creating a mess that frequently gets rolled into the model and turns it into a mess.  Since I've got two functioning stepper extruders now, I'm working on additions to my combine script to handle reversing the filament feed in a sensible way when switching off heads.   There will be a new version of the script up soon, and new photos.\r
+\r
+If I solve the ooze issue to my satisfaction, I'll be ready to mark this WIP as done.\r
+\r
+.... and I have now, in the latest version of the script.  I'll write up full documentation under INSTRUCTIONS and call this finished.\r
+\r
+Thanks for reading... and good luck with your dual-extruder printing!!\r
+\r
+\r
+\r
+\r
+Once again, I owe thanks to everyone on IRC Freenode, especially Kliment this time for his encyclopedic knowledge of Gcodes.  And thanks to RepG coders for having done most of the work.  And thanks to my very patient fiance.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "ScribbleJ" ;
+    okh:repo <https://www.thingiverse.com/thing:6632> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/BSD-4-Clause> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:6632> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Dual Extruder / Dual Material Makerbot 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/7d/e3/1d/e8/e6/20110223_020_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/7d/e3/1d/e8/e6/20110223_020_display_large_display_large.jpg> .
+

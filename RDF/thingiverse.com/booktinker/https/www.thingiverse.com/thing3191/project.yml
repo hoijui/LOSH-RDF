@@ -1,0 +1,48 @@
+__meta:
+  branch: null
+  created-at: '2010-05-20T22:52:22+00:00'
+  history: null
+  last-changed: null
+  last-visited: '2022-02-25T11:00:02.616920+00:00'
+  owner: booktinker
+  path: null
+  repo: https://www.thingiverse.com/thing:3191
+  score: null
+  source: thingiverse.com
+attestation: null
+bom: null
+contribution-guide: null
+cpc-patent-class: null
+documentation-language: en
+documentation-readiness-level: odrl3
+function: "While working on an ambitious but unfinished design, that I decided not to submit for the Makerbot giveaway contest, I came up with a way to pretension tubes based upon the idea that was raised in Forest Higgs' blog entry demonstrating that pretensioned square tubes can take a relatively large sideways load.\r\n\r\nhttp://technocraticanarchist.blogspot.com/2010/03/some-crude-load-tests.html\r\n\r\nMy idea involves internally threading the tubes.  A setscrew with a hole through the center would be used to tension a cable or wire that is fed and tied off through the hole, thereby holding several tube sections together.\r\n\r\nI have provided a square and round tube and two different types of setscrews.   One is just a regular setscrew (tubescrew.scad).  The other variation (capturednut.scad) involves two nested screws where the bottom nut is \xE2\u20AC\u0153captured\xE2\u20AC\x9D by the top screw when it is screwed upward through the tube.  A gap exists between the screws when it is being advanced up the tube.  When stationary, if tension or twist of the wire causes the top nut to screw back down, it will simply back up against the bottom screw after it rotates a quarter turn.  (That's the theory at least.)  \r\n\r\nBoth types of setscrews have a fifteen millimeter hex head to allows a deep throat socket with an extension arm fed down the tube to allow tightening.  To help allow the screw to rotate independently of the wire, I would suggest using two plastic washers (PTFE, delrin?) between the knot of the wire and the setscrew.\r\n\r\nI made my own script to create a screw since linear_extrude didn't yield favorable results for me.  The downside is that rendering the screw takes quite a long time i.e. five minutes for the shorter tubescrew.scad.  \r\n\r\nWhen they didn't cause openscad to crash, rendering the tube sections took five hours (two hours running in Ubuntu)!  I finally created an stl of a threads (cutthreads.stl) that I could use repeatedly to create the threading in the tubes.  Once the initial three hour render of the plug was completed and exported, I used import_stl to replace the original makescrew module that took so long.  Using difference to subtract the plug from the tube yielded quick results.  The render then only took around a minute.  I would appreciate any insights into optimization of the makescrew script.\r\n\r\nWill the threads print?  Will the nested set screws work?  I am curious to see someone try printing these out.  Whether they print or not is really just a curiosity since my main reason to post this is to try to further the effort of Reprap to print even more of its parts.  \r\n\r\nBy the way, I used version 2010.05.10.  There seems to be some difference in how includes are handled between the 2010.02 and this version.  Also, I included Catarina Mota's shapes.scad script just in case you don't already have it."
+image:
+  created-at: '2010-05-20T22:52:22+00:00'
+  last-changed: '2010-05-20T22:52:22+00:00'
+  last-visited: '2022-02-25T12:52:53.823165+00:00'
+  license: GPL-3.0-or-later
+  licensor: booktinker
+  mime-type: null
+  name: tubescrew_display_large
+  path: https:/thingiverse-rerender-new.s3.amazonaws.com/renders/a0/38/ef/82/b6/tubescrew_display_large.jpg
+  perma-url: https://thingiverse-rerender-new.s3.amazonaws.com/renders/a0/38/ef/82/b6/tubescrew_display_large.jpg
+  url: https://thingiverse-rerender-new.s3.amazonaws.com/renders/a0/38/ef/82/b6/tubescrew_display_large.jpg
+license: GPL-3.0-or-later
+licensor: booktinker
+manufacturing-instructions: null
+name: Threaded Tubes
+okhv: OKH-LOSHv1.0
+organization: null
+part: []
+publication: null
+readme: null
+release: null
+repo: https://www.thingiverse.com/thing:3191
+software: []
+specific-api-data: {}
+standard-compliance: null
+technology-readiness-level: ortl4
+tsdc: null
+upload-method: auto
+user-manual: null
+version: 1.0.0

@@ -1,0 +1,30 @@
+@prefix : <https://www.thingiverse.com/thing%3A16090/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:PrusaXendIdlerWithSnapFitLm8uuChannel a okh:Module ;
+    rdfs:label "Prusa X-End Idler with snap fit LM8UU channel" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """I printed the original version by DXBLouie but found I couldn't get my LM8UUs into the channel on the idler. I downloaded the SCAD files and *think* the problem was that the original configuration.SCAD file was set to the wrong bushing type.\r
+\r
+In any case, I changed the bushing type in configuration.SCAD and regenerated the STL for the idler and it appears to work now as I was able to snap in the LM8UUs.\r
+\r
+It's worth noting though that the LM8UUs I have  (from Mixshop.ca) are shorter than the normal ones which may or may not make a difference.\r
+\r
+Anyways, I've included the updated SCAD files just in case anyone else runs into a similar issue.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "johnbiehler" ;
+    okh:repo <https://www.thingiverse.com/thing:16090> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:16090> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Prusa X-End Idler with snap fit LM8UU channel 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/9a/2c/7f/f5/ff/6711987445_099a11966b_b_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/9a/2c/7f/f5/ff/6711987445_099a11966b_b_display_large_display_large.jpg> .
+

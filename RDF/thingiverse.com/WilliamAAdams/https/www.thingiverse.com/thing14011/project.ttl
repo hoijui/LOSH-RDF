@@ -1,0 +1,60 @@
+@prefix : <https://www.thingiverse.com/thing%3A14011/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:MoonShot a okh:Module ;
+    rdfs:label "Moon Shot" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Inspired by Bre's Moon crater, I thought, why not the whole moon?\r
+\r
+This thing is a bump mapped sphere that uses the planetary map data/images from here: \r
+http://www.johnstonsarchive.net/spaceart/cylmaps.html\r
+\r
+Specifically, I used this one: \r
+http://www.johnstonsarchive.net/spaceart/moonbumpmap2.jpg\r
+\r
+I essentially used the same bump mapping technique I used on this bowl: http://www.thingiverse.com/thing:13991\r
+\r
+That is, use the picture as a height map.  Use that height map to displace the vertices around the sphere.  At the same time, use the image to colorize the thing as well, if you want extra reality.\r
+\r
+Now came the special part.  Since I had the moon in my hands, I wanted to split it open and see what it was made of, answering that age old question once and for all.\r
+\r
+So, I cracked it open, and found that it was in fact hollow!  No green men, no Amazonian women, no cheese, nothing, just a void.  Unlike answering the Easter Bunny question, this was quite a let down.\r
+\r
+And lastly, since I was exploring the surface using MeshLab, I finally found the man in the moon.  You can see him highlighted in red smiling back at us.\r
+\r
+This has got to be great for science exploration!\r
+\r
+A bit about the .stl files.  I used Banate CAD to generate the models directly.  The full moon has roughly 500,000 vertices, and double that in terms of faces.  The partial moon has double the number of vertices because it has to generate the 'inside' as well as the outside.  Each one took about 40-50 seconds to generate on my standard issue 3 year old Phenom II based machine.  The generation time has more to do with the number of vertices than any other complexities.  The routines create the normals for each face, whether they're needed or not, so this time could probably be cut in half in cases where you don't really need the normals, but it would not look nice when you render.\r
+\r
+To generate any spherical thing, you would just change one line of code in the .fab file:\r
+\r
+	local heightsampler = ImageSampler.new({\r
+		Filename='moonbumpmap2_720_360.png',\r
+		Size = size,\r
+		Resolution = res,\r
+		MaxHeight=16,\r
+	})\r
+\r
+Change "Filename = '...'",\r
+to be whatever file you so happen to want to bump map.\r
+\r
+This is the quick and dirty form of Bump/Height mapping.  There are two things that should be done to improve the quality of such things.  First, I'm doing a straight translation from the height map to a height value.  What I should really be doing is taking an average, so you don't see such artifacting.  The other thing is, for a sphere, there are better ways to apply a texture than to simply wrap the rectangle.  By wrapping the rectangular image to the sphere, you lose something at the poles.  I need better images which account for the spherical nature.\r
+\r
+But hay, for changing just a single line of code, this is not a bad technique.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "WilliamAAdams" ;
+    okh:repo <https://www.thingiverse.com/thing:14011> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:14011> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Moon Shot 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/05/9f/48/87/15/MoonHollow_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/05/9f/48/87/15/MoonHollow_display_large_display_large.jpg> .
+

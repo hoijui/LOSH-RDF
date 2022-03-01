@@ -1,0 +1,28 @@
+@prefix : <https://www.thingiverse.com/thing%3A18623/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:BiohazardSymbol a okh:Module ;
+    rdfs:label "Biohazard Symbol" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """I am working on a container that needs a biohazard symbol.  This one seems to work stand-alone. But it fails to appear on F6 when I have it in an openscad program with the command.\r
+\r
+translate(v=[0,1.5,(ext_h/2)]) import("BioHazard-50-fixed.stl");\r
+\r
+Any ideas?""" ;
+    okh:hasImage :Image ;
+    okh:licensor "fmotta" ;
+    okh:repo <https://www.thingiverse.com/thing:18623> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:18623> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Biohazard Symbol 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://thingiverse-rerender-new.s3.amazonaws.com/renders/45/2e/fb/cb/ec/BioHazard-50-fixed_display_large.jpg> ;
+    okh:permaURL <https://thingiverse-rerender-new.s3.amazonaws.com/renders/45/2e/fb/cb/ec/BioHazard-50-fixed_display_large.jpg> .
+

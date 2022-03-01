@@ -1,0 +1,28 @@
+@prefix : <https://www.thingiverse.com/thing%3A25477/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ModularGyroidPuzzle a okh:Module ;
+    rdfs:label "Modular Gyroid Puzzle" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Can you stack these gyroid modules into a pyramid?  It can be a little tricky to get them to all line up properly, but you'll know you have it because the larger gyroid you create is highly symmetric, as evidenced by the gridwork of holes that run through it in many different directions.  \r
+\r
+Each module is a rhombic dodecahedron intersected with the gyroid, and hence this puzzle involves forming a face-centered cubic packing.  Due to the way the module is oriented, it prints beautifully without support (better than the cubic original). \r
+\r
+You can make this puzzle as large as you like; the more you print, the more you can stack.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "emmett" ;
+    okh:repo <https://www.thingiverse.com/thing:25477> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:25477> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Modular Gyroid Puzzle 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/d3/65/22/de/30/puzzle8_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/d3/65/22/de/30/puzzle8_display_large_display_large.jpg> .
+

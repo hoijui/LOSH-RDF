@@ -1,0 +1,41 @@
+@prefix : <https://www.thingiverse.com/thing%3A8907/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:OpenscadSurfaceSolids a okh:Module ;
+    rdfs:label "OpenScad Surface Solids" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """The 1.0 version of the Bezier library included a simple linear extrusion of the bezier surface.  The things this derives from added a quick and easy 'shell extrusion', which took into account the normals on the quads to create true 'inner' and 'outer' quads.\r
+\r
+This thing makes a few improvements to both the normal calculations, and rearranges the libraries slightly to accomodate for future curved surface/solid things.\r
+\r
+As a bonus, the hermite.scad file is thrown in.  At the moment, it only has basic Hermite calculations.  It even has a surface thing.  So, if you want to play with that, here it is.\r
+\r
+Also, in terms of library function naming, I've switched to being more explicit and rational.\r
+\r
+linear_extrude_bezier - extrusion in the z-axis\r
+shell_extrude_bezier - extrusion along the normals\r
+\r
+So, for Hermite, it would be linear_extrude_hermite, shell_extrude_hermite\r
+\r
+One of the cool features is the ability to show the normals, per vertex.  This is extremely handy for debugging purposes.  This, combined with being able to show the control mesh, makes for some nice visualization.  I was actually able to spot a bug in my derivatives calculations by looking at which way a couple of normals were pointing.\r
+\r
+Also, I've combined the bezier functions into the maths.scad library, so there is just one fewer files to download.\r
+\r
+UPDATE: One more change I forgot to mention.  I introduced the terms 'berp' and 'berpm'.  Bezier Interpolation (berp - formerly PtOnBez).  Bezier Interpolation of Mesh (berpm).  I thought they would be fun names, and in line with the classic Linear Interpolation (lerp).""" ;
+    okh:hasImage :Image ;
+    okh:licensor "WilliamAAdams" ;
+    okh:repo <https://www.thingiverse.com/thing:8907> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:8907> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of OpenScad Surface Solids 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/67/96/c9/e9/d4/surfaceSolids_v1_1_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/67/96/c9/e9/d4/surfaceSolids_v1_1_display_large_display_large.jpg> .
+

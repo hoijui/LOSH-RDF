@@ -1,0 +1,32 @@
+@prefix : <https://www.thingiverse.com/thing%3A13109/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ParametricTardis a okh:Module ;
+    rdfs:label "Parametric Tardis" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """None of the Tardises on here were quite what I was looking for, so i decided to make one myself.  \r
+\r
+I tried to make it as parametric as possible, but you'll still find some things, such as the depth of the face impression, that are static.    \r
+\r
+I'm working on an accompanying insert that will light up the light on top from the inside, I'll add that as a derivative as it develops.  \r
+\r
+Let me know if you find any parameters that aren't scaling/re-sizing properly.\r
+\r
+EDIT:  Per suggestions from Bluemetal and Tbuser I've added leading 0s to my decimal values and added render() to the face module, so it will now compile(F5) properly.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "Gossamer" ;
+    okh:repo <https://www.thingiverse.com/thing:13109> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:13109> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Parametric Tardis 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/27/06/de/b5/97/IMG_1145_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/27/06/de/b5/97/IMG_1145_display_large_display_large.jpg> .
+

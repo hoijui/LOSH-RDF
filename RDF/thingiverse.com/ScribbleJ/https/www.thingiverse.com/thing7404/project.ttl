@@ -1,0 +1,30 @@
+@prefix : <https://www.thingiverse.com/thing%3A7404/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:BiohazardSymbol a okh:Module ;
+    rdfs:label "Biohazard Symbol" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """There's not a whole lot to say about this.  It's a biohazard symbol in OpenSCAD, to the exact government specifications.  I used this as a reference:\r
+\r
+http://www.michigan.gov/documents/CIS_WSH_part476_54539_7.pdf\r
+\r
+It's done in the 2d subsystem, so you can use it in 2d or apply a simple linear_extrude() to convert it to 3d.  \r
+\r
+The example STL and DXF files are 51mm across, which is the diameter you get when you use A=1 according to the spec; the OpenSCAD file allows you to easily specify the diameter you desire, and can optionally join the 'inner circle' to make this a single object for printing instead of being 4 shapes as it actually is properly.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "ScribbleJ" ;
+    okh:repo <https://www.thingiverse.com/thing:7404> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/BSD-4-Clause> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:7404> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Biohazard Symbol 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/ed/7c/59/86/ac/biohazard_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/ed/7c/59/86/ac/biohazard_display_large_display_large.jpg> .
+

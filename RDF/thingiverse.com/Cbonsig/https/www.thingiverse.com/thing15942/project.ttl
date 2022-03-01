@@ -1,0 +1,36 @@
+@prefix : <https://www.thingiverse.com/thing%3A15942/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:AorticBifurcation a okh:Module ;
+    rdfs:label "Aortic Bifurcation" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is a 3D print derived from medical imaging of an aortic bifurcation and iliac arteries. The source data set is publicly available in the OsiriX DICOM library http://pubimage.hcuge.ch:8080/ . It is a CT scan from a patient that appears to have had one or more iliac stents placed in their right iliac artery. The workflow used to create this Thing was (almost) completely open source:\r
+\r
+AMNESIX Data set: http://pubimage.hcuge.ch:8080/DATA/AMNESIX.zip\r
+\r
+OsiriX used for segmentation and rough STL export: http://www.osirix-viewer.com/\r
+\r
+Meshlab used for cleanup: http://www.meshlab.org/\r
+\r
+Final cleanup, slicing, and GCode using Netfabb  (http://netfabb.com), which is a bit faster than the open source alternatives. \r
+\r
+Printed with RepG on an Ultimaker. Using the Netfabb "standard" profile (modified to print at 230 degrees) the full print took 4 hours and 19 minutes.\r
+\r
+More on the story of this model: http://craig.bonsignore.com/2012/01/17/open-source-human-anatomy/""" ;
+    okh:hasImage :Image ;
+    okh:licensor "Cbonsig" ;
+    okh:repo <https://www.thingiverse.com/thing:15942> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:15942> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Aortic Bifurcation 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/98/a3/3d/1e/9e/6699315251_4a08c7e80e_b_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/98/a3/3d/1e/9e/6699315251_4a08c7e80e_b_display_large_display_large.jpg> .
+

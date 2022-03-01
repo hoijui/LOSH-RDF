@@ -1,0 +1,27 @@
+@prefix : <https://www.thingiverse.com/thing%3A11705/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Squirrel a okh:Module ;
+    rdfs:label "Squirrel" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is a 3D model of a squirrel that I found on Aim@Shape [1]. It was uploaded by MPII and is actually under the MPII Institute License, which you can view by clicking on the download link on the things page at Aim@shape.  
+I flattened the base and cleaned up some artifacts on the tail that I'm guessing were the result of scanning.  
+This is the most work I've ever done on a model (I used Netfabb and Blender to clean it), so I learned a lot, and he came out very cute. My print came before I caught an error in the model, which caused the bandana looking line. It slices correctly now.  
+[1] http://shapes.aimatshape.net/view.php?id=105""" ;
+    okh:hasImage :Image ;
+    okh:licensor "MBCook" ;
+    okh:repo <https://www.thingiverse.com/thing:11705> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:11705> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Squirrel 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/12/f0/e3/93/af/squirrel_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/12/f0/e3/93/af/squirrel_display_large_display_large.jpg> .
+

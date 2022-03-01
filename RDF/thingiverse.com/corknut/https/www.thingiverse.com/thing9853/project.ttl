@@ -1,0 +1,42 @@
+@prefix : <https://www.thingiverse.com/thing%3A9853/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ReciprocatingBallReducer a okh:Module ;
+    rdfs:label "Reciprocating ball reducer" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Converts rotation into reciprocating (linear back & forth) motion.\r
+\r
+Functioning parameterized design, so you can make it as big as you want.\r
+\r
+I designed this as a motion study, and to see how well this would work on a 3d-printer.  It works surprisingly well.\r
+\r
+It's currently designed to be hand-operated, but easily modifiable to be motor-driven.  Motor-driving it is on my short-list.\r
+\r
+In the hand-driven configuration, it needs to be held together by hand as you turn it to get the correct motion.  \r
+\r
+I would be very happy to see your application for this!\r
+\r
+The case could use some modifications (e.g. attachment points) depending on your application.\r
+\r
+I recommend a Frequency 3, Radius 1 inch, Height 1 inch as a working starting point.\r
+\r
+Anything below Frequency 3 will bind.  I've tried 1, 2, and 3.  If you modelled in some support tracks for Freq 1 or 2, it could work.\r
+\r
+Anything below about a 1:1 ratio (radius to amplitude) will bind at frequency 3 (I've gotten a 1:2 at frequency 1 almost working, adding extra support track may fix this if you want to try something small with longer travel)""" ;
+    okh:hasImage :Image ;
+    okh:licensor "corknut" ;
+    okh:repo <https://www.thingiverse.com/thing:9853> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:9853> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Reciprocating ball reducer 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/5e/f9/cf/88/5b/rbr_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/5e/f9/cf/88/5b/rbr_display_large_display_large.jpg> .
+

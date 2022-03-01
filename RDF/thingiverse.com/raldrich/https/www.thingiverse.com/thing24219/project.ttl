@@ -1,0 +1,40 @@
+@prefix : <https://www.thingiverse.com/thing%3A24219/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:RonsCompactExtruderMarkIii a okh:Module ;
+    rdfs:label "Ron's Compact Extruder, Mark III" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """A direct drive extruder designed for use with a Minebea geared stepper motor, a Makerbot drive wheel, and a MakerGear GrooveMount (or similar) hot end.\r
+\r
+Version 3 simplifies the design a bit, and tweaks it to make a stronger print.\r
+\r
+I left ulti_rcx_2.stl, along with the old sources here because I broke ultimaker support while redesigning it.\r
+\r
+Version 2 addresses two issues I had with version 1.\r
+\r
+1) Idler pressure was very touchy - as you increased pressure on the idler, it would put axial force on the motor's gearbox, which can't be good.  I added a pocket for a 115ZZ bearing, to buttress the drive shaft.\r
+\r
+2) I found that even with the bearing on the drive shaft, I have to run the motor hotter than I'd like, so I added a bracket for a 40mm fan.\r
+\r
+Also, I split the extruder body into 2 slices, to make it easier to print.\r
+\r
+Finally, thanks to canadaduane, we now have a variant which replaces the ultimaker's bowden extruder with a lightweight carriage mounted extruder.\r
+\r
+P.S. ezmobius (actually, Triffid_Hunter) has designed a fan shroud to go with his extruder body which is better than the bracket I provided, so use the fan shroud from http://www.thingiverse.com/thing:24390""" ;
+    okh:hasImage :Image ;
+    okh:licensor "raldrich" ;
+    okh:repo <https://www.thingiverse.com/thing:24219> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:24219> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Ron's Compact Extruder, Mark III 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/a6/23/5e/16/ae/CIMG0173_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/a6/23/5e/16/ae/CIMG0173_display_large_display_large.jpg> .
+

@@ -1,0 +1,45 @@
+@prefix : <https://www.thingiverse.com/thing%3A3538/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:HeatedBuildPlatformControllerV02 a okh:Module ;
+    rdfs:label "Heated Build Platform Controller V0.2" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """I really wanted a fully integrated solution for controlling a heated build platform, as well as for communicating with the motherboard. I also wanted to be able to use the heated build platform as a controlled hot plate in order to do surface mount reflow. I created this board to have the ability to do both. I started this several months ago, but just now was able to gather all of the parts to build it and test it.\r
+\r
+The board is meant to control mains voltage (i.e. 120/240 VAC), and therefore uses an optically-isolated triac that is protected by a fuse. Temperature feedback is through a Type-K thermocouple being read by a MAX6675. The whole system is controlled by an ATMega328 based Arduino in a TQFP package. Feedback to the user is through a 16x2 LCD and 3 buttons. The control circuitry is powered though the 5V line on a Molex connector off of an ATX power supply.\r
+ \r
+Features:\r
+*Controls up to 1000W of AC mains power\r
+* I2C Communications back to the motherboard\r
+*Measurable temperature range of 0 to 1024 degrees C with 2 degree accuracy\r
+*16x2 character LCD screen\r
+*Up, Down, and Select buttons\r
+*Programmed with USB-TTL cable or ISCP programmer\r
+*Arduino-based for easy coding and compatibility with other boards\r
+*AC Power is optically isolated and fused\r
+*Breakout of extra I/O pin\r
+\r
+So far, Iâ€™ve been able to test the temperature sensor, the LCD, the buttons, and programming, but I have not been able to test the AC power yet. I should be testing that soon, but right now, use at your own risk.\r
+\r
+The ZIP file contains the EAGLE files, Gerber production files, pictures of the board, and a Microsoft Excel file containing all of the parts, suppliers, costs, and board designators.\r
+\r
+I am considering selling this board as a kit if I get enough interest, so please tell me what you think!\r
+\r
+UPDATE: I have been using this design for several months now, and it seems to work fine. In the mean time, this design has won me the PLTW Innova Award for Imagination! http://www.pltw.org/innovaawards""" ;
+    okh:hasImage :Image ;
+    okh:licensor "Jeremydeath" ;
+    okh:repo <https://www.thingiverse.com/thing:3538> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:3538> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Heated Build Platform Controller V0.2 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/76/ca/63/1c/6e/IMG_1968_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/76/ca/63/1c/6e/IMG_1968_display_large_display_large.jpg> .
+

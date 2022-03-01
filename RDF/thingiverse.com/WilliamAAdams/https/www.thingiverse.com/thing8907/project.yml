@@ -1,0 +1,48 @@
+__meta:
+  branch: null
+  created-at: '2011-05-29T11:18:46+00:00'
+  history: null
+  last-changed: null
+  last-visited: '2022-02-25T11:00:02.616920+00:00'
+  owner: WilliamAAdams
+  path: null
+  repo: https://www.thingiverse.com/thing:8907
+  score: null
+  source: thingiverse.com
+attestation: null
+bom: null
+contribution-guide: null
+cpc-patent-class: null
+documentation-language: en
+documentation-readiness-level: odrl3
+function: "The 1.0 version of the Bezier library included a simple linear extrusion of the bezier surface.  The things this derives from added a quick and easy 'shell extrusion', which took into account the normals on the quads to create true 'inner' and 'outer' quads.\r\n\r\nThis thing makes a few improvements to both the normal calculations, and rearranges the libraries slightly to accomodate for future curved surface/solid things.\r\n\r\nAs a bonus, the hermite.scad file is thrown in.  At the moment, it only has basic Hermite calculations.  It even has a surface thing.  So, if you want to play with that, here it is.\r\n\r\nAlso, in terms of library function naming, I've switched to being more explicit and rational.\r\n\r\nlinear_extrude_bezier - extrusion in the z-axis\r\nshell_extrude_bezier - extrusion along the normals\r\n\r\nSo, for Hermite, it would be linear_extrude_hermite, shell_extrude_hermite\r\n\r\nOne of the cool features is the ability to show the normals, per vertex.  This is extremely handy for debugging purposes.  This, combined with being able to show the control mesh, makes for some nice visualization.  I was actually able to spot a bug in my derivatives calculations by looking at which way a couple of normals were pointing.\r\n\r\nAlso, I've combined the bezier functions into the maths.scad library, so there is just one fewer files to download.\r\n\r\nUPDATE: One more change I forgot to mention.  I introduced the terms 'berp' and 'berpm'.  Bezier Interpolation (berp - formerly PtOnBez).  Bezier Interpolation of Mesh (berpm).  I thought they would be fun names, and in line with the classic Linear Interpolation (lerp)."
+image:
+  created-at: '2011-05-29T11:18:46+00:00'
+  last-changed: '2011-05-29T11:18:46+00:00'
+  last-visited: '2022-02-25T17:19:35.078537+00:00'
+  license: CC-BY-4.0
+  licensor: WilliamAAdams
+  mime-type: null
+  name: surfaceSolids_v1_1_display_large_display_large
+  path: https:/cdn.thingiverse.com/renders/67/96/c9/e9/d4/surfaceSolids_v1_1_display_large_display_large.jpg
+  perma-url: https://cdn.thingiverse.com/renders/67/96/c9/e9/d4/surfaceSolids_v1_1_display_large_display_large.jpg
+  url: https://cdn.thingiverse.com/renders/67/96/c9/e9/d4/surfaceSolids_v1_1_display_large_display_large.jpg
+license: CC-BY-4.0
+licensor: WilliamAAdams
+manufacturing-instructions: null
+name: OpenScad Surface Solids
+okhv: OKH-LOSHv1.0
+organization: null
+part: []
+publication: null
+readme: null
+release: null
+repo: https://www.thingiverse.com/thing:8907
+software: []
+specific-api-data: {}
+standard-compliance: null
+technology-readiness-level: ortl4
+tsdc: null
+upload-method: auto
+user-manual: null
+version: 1.0.0

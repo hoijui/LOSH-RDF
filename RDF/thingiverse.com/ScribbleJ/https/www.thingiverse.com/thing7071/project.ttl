@@ -1,0 +1,74 @@
+@prefix : <https://www.thingiverse.com/thing%3A7071/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:TomcatThePenPlotter a okh:Module ;
+    rdfs:label "ToMcat the Pen Plotter" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is (another) printable pen holder for the Thing-O-Matic/Cupcake.  I tried to bring at least something new to the party by stretching my artistic skills to the absolute limit for your enjoyment.\r
+\r
+UPDATE!!! 2011-3-20:\r
+Youtube video of first gcode print...\r
+http://www.youtube.com/watch?v=NR3ZwVLx-xE\r
+...would you say it's as fast as an F-14?\r
+\r
+\r
+Youtube video of (manual) test:\r
+http://www.youtube.com/watch?v=MEXvrOI0ZgY\r
+\r
+\r
+I wanted a pen mount so I could draw etch resist on PCBs.  The existing mounts on Thingiverse are either not for a Makerbot:\r
+\r
+http://www.thingiverse.com/thing:3593 Mendel Pen Holder\r
+http://www.thingiverse.com/thing:3526 Mendel Pen Spring Mount (oooh, springs!)\r
+\r
+Or were using a whole servo motor in the design (for something that's sitting on the Z platform!):\r
+http://www.thingiverse.com/thing:4185 Makerbot's Unicorn Pen\r
+http://www.thingiverse.com/thing:4200 Printable Unicorn Pen\r
+\r
+Or seemed like perfectly sane designs I should probably use but for my love of springs:\r
+http://www.thingiverse.com/thing:790 Updated Pen Plotter\r
+\r
+So with all that considered, I set out to reinvent the wheel.  I'm still at it and what I've got is somewhat roundish, so I'm sharing it now.\r
+\r
+\r
+The "random" cat photo is one of my two cats, taken by a wonderful (and very patient!) photographer friend of mine.  Her site is here:  http://shutterboxing.com/\r
+\r
+\r
+\r
+\r
+WIP WHY:\r
+* Needs redesign; too big - too tall.  \r
+* Leg STL file has two right legs (so do my photos, I was anxious)\r
+* Front paws needed dremeling out to fit pen between.\r
+* Tail was a quick hack; I'd like to redo it completely.\r
+* Needs me to work with some existing pen plotting gcode generators to make them work OK.  Only tests so far have been manual control, not Gcode.\r
+* As will be usual - I'll release the scad files AFTER I'm done with the STLs... I wish it weren't so as I believe strongly in release everything as early as possible, but Thingiverse stops rendering other files in a Thing after I send it an .scad.  I might put it up on my github in the meantime...\r
+\r
+\r
+UPDATE 2011-03-20:\r
+\r
+Added a copy of the Inkscape gcode plugin by Schmarty:  http://www.thingiverse.com/thing:5986\r
+\r
+The copy below in the .tgz is modified to include an option for "USE SERVO" which, if set false, will cause the gcode to use Z axis movements like in my video.\r
+\r
+UPDATE 2011-03-22:\r
+\r
+Added photos of first PCB attempt (it says 2011-02 because I dunno what month it is)!  Needs some work, but it's actually useable, so that's great for a very first try.  Here's a youtube:\r
+http://www.youtube.com/watch?v=rAaGFV45_aM""" ;
+    okh:hasImage :Image ;
+    okh:licensor "ScribbleJ" ;
+    okh:repo <https://www.thingiverse.com/thing:7071> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/BSD-4-Clause> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:7071> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of ToMcat the Pen Plotter 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/f1/9b/5f/f7/7f/20110316_014_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/f1/9b/5f/f7/7f/20110316_014_display_large_display_large.jpg> .
+

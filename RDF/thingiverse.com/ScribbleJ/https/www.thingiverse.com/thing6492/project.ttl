@@ -1,0 +1,42 @@
+@prefix : <https://www.thingiverse.com/thing%3A6492/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:FullyParametricWadesstyleTensioner a okh:Module ;
+    rdfs:label "Fully Parametric Wade's-Style Tensioner" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """A new version of the tensioner, Scribble?  After less than a week?\r
+\r
+Don't panic.  It's not all that new.  I've just been refactoring the OpenSCAD code to make it /fully/ parametric.  This is an early step in some bigger ideas I'm working on.\r
+\r
+What does this mean?\r
+\r
+It means you can tell the OpenSCAD script the size of your bolts and your bearings, as well as some other bits and ends,  and it will design a Wade's-style tensioner exactly to your specifications.  No M3 bolts?  No problem; just change the size.  No 606 bearings?  No problem!  Anything goes!  You like more column supports?  Just change the setting.  None?  OK!  Leave off the DC motor bolt holes?  You can do that!\r
+\r
+I've uploaded a couple photos of the 608 part I printed here compared to the original, but that's not completely fair since it should be photos of two different versions generated from /this/ script...  I'm really just uploading them now so there's more pretty pictures to look at.  \r
+\r
+UPDATED: \r
+\r
+I'm calling this script complete now.  I'm sure there's still a few bugs to work out, but it should be feature complete, as far as what I'd originally intended.  I've got some more things to work on now, related but probably not changing the design of this directly any more.\r
+\r
+Incidentally, I added an option for a cleaning hole.\r
+\r
+UPDATE:\r
+\r
+There will be one more version of this coming - I managed to learn how to get proper measurements out of the original parts and found my holes are off by the tiniest amount.  It shall be fixed; I've already got the changes mostly written.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "ScribbleJ" ;
+    okh:repo <https://www.thingiverse.com/thing:6492> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/BSD-4-Clause> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:6492> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Fully Parametric Wade's-Style Tensioner 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/c5/8f/ea/06/2e/20110218_005_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/c5/8f/ea/06/2e/20110218_005_display_large_display_large.jpg> .
+

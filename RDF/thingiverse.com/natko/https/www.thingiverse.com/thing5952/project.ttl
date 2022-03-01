@@ -1,0 +1,29 @@
+@prefix : <https://www.thingiverse.com/thing%3A5952/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Mk5LedCupcakeLighting a okh:Module ;
+    rdfs:label "Mk5 LED Cupcake lighting" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Since finishing my spool box my desk lamp no longer lights the platform.  
+I looked at lighting in Thingiverse but the solutions required parts I didnt have or the Mk4 Plastruder.  
+So heres my attempt using two led torches from the local store, some 15A fuse wire, and a 9.8 ohm resistor.  
+WARNING DO NOT CONNECT TO YOUR POWER SUPPLY WITHOUT A CURRENT LIMITING RESISTOR, IT WILL RESULT IN AT LEAST 1AMP CURRENT DRAW. (Warm cables to say the least).  
+And for the electrical engineers out there, yes you are not supposed to connect LEDS in parallel without individual resistors.   
+Although you can get away with it if they are the same type of LEDS in my mind (thus I bought 2 off same type torches).""" ;
+    okh:hasImage :Image ;
+    okh:licensor "natko" ;
+    okh:repo <https://www.thingiverse.com/thing:5952> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:5952> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Mk5 LED Cupcake lighting 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/54/84/dc/3b/71/P1010248_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/54/84/dc/3b/71/P1010248_display_large_display_large.jpg> .
+

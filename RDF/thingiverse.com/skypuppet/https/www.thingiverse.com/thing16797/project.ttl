@@ -1,0 +1,31 @@
+@prefix : <https://www.thingiverse.com/thing%3A16797/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ReprapPlussalargeBuildPrusa a okh:Module ;
+    rdfs:label "Reprap, Plus-sa (large build prusa)" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is a moderately larger 3d printer based on the ever popular Mendel, Prusa.\r
+\r
+The build envelope in mm is 300,250,150 (x,y,z respectively).\r
+\r
+There are a lot of subtle differences in this design that I made to suit my own needs. For instance; the \r
+X-ends are interchangable and lock onto the smooth rods from the sides to prevent splitting along layers.\r
+And the A-side threaded diagonal rods are outside of the front and rear cross rods for better clearance \r
+with the extruder at high z-limit. I reconfigured the vertexes to make that possible.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "skypuppet" ;
+    okh:repo <https://www.thingiverse.com/thing:16797> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:16797> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Reprap, Plus-sa (large build prusa) 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/63/cd/f2/a2/da/plus-a_prusa-geisler_rev-1_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/63/cd/f2/a2/da/plus-a_prusa-geisler_rev-1_display_large_display_large.jpg> .
+

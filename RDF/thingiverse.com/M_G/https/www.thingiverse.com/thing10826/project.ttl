@@ -1,0 +1,43 @@
+@prefix : <https://www.thingiverse.com/thing%3A10826/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:CombinedObjectPrintingPlatealexsWimuAndStrapHolder a okh:Module ;
+    rdfs:label "Combined Object Printing Plate (Alex's WIMU and strap holder)" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This OpenSCAD script combines 3 parts ("holder" from 2011-08-16_Alex_WIMUv3_belt_loop_v0.1.scad, and "top" & "bottom" packaging from 2011-08-16_Alex_WIMUv3_tyndall_generic_device_packaging_v1.3.scad) into one makerbot sized printing plate for easier manufacture and version control.\r
+\r
+At the moment this just involves renaming variables and copying and pasting code into another file. In the future it will be a script which will automatically rename identical variables, generate, rotate and space out parts for you from the specified parent .SCAD files to fit a specified build envelope.\r
+\r
+Version\r
+ - 0.2\r
+Date\r
+ - 2011-08-18\r
+\r
+To Do\r
+ - add option to add mouse-ears\r
+ - add option for connecting struts between top and bottom in side by side mode\r
+\r
+Changes from previous versions:\r
+v0.2\r
+ - 	changed to 2011-08-18_Alex_WIMUv3_belt_loop_v0.2.scad\r
+v 0.1\r
+ - 	First attempt combining multiple complete .SCAD files\r
+	2011-08-16_Alex_WIMUv3_belt_loop_v0.1.scad\r
+	2011-08-16_Alex_WIMUv3_tyndall_generic_device_packaging_v1.3.scad""" ;
+    okh:hasImage :Image ;
+    okh:licensor "M_G" ;
+    okh:repo <https://www.thingiverse.com/thing:10826> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:10826> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Combined Object Printing Plate (Alex's WIMU and strap holder) 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://thingiverse-rerender-new.s3.amazonaws.com/renders/98/c5/db/eb/a6/2011-08-17_combined_alex_wimu_and_holder_v0.1_display_large.jpg> ;
+    okh:permaURL <https://thingiverse-rerender-new.s3.amazonaws.com/renders/98/c5/db/eb/a6/2011-08-17_combined_alex_wimu_and_holder_v0.1_display_large.jpg> .
+

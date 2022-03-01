@@ -1,0 +1,28 @@
+@prefix : <https://www.thingiverse.com/thing%3A9005/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:LowFastenerMendel a okh:Module ;
+    rdfs:label "Low Fastener Mendel" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is not completely hashed out, and is slightly smaller than a standard Mendel. But it should allow a frame to be constructed from these vertex modules. I've made special vertices for the top of the frame for the X motor and idler as the carriage http://www.thingiverse.com/thing:9385 can now slide along the top bars.\r
+\r
+The Y axis components (still being worked on but in the SCAD file) slide on the lower two bars, so mechanical requirements are simple. The sockets are parametric and will work with screws, bolts, glue or - my personal favourite - tape and a mallet.\r
+\r
+With a bit of luck, the ARNIE string Z axis revival will allow a RepRap to be made without any threaded or steel rod in it at all.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "vik" ;
+    okh:repo <https://www.thingiverse.com/thing:9005> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:9005> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Low Fastener Mendel 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/02/21/53/74/74/20110603_001_display_large_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/02/21/53/74/74/20110603_001_display_large_display_large.jpg> .
+

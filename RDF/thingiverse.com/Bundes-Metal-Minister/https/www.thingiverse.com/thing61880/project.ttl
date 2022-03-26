@@ -1,0 +1,39 @@
+@prefix : <https://www.thingiverse.com/thing%3A61880/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Gcodeoptimizer a okh:Module ;
+    rdfs:label "G-Code-Optimizer" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Free Software for optimizing g-code-files (i.e. from Axon 2)   
+main features (NEW: Version 1.4 (10/2013)):  
+- Text-view of g-code (with comments for the commands)  
+- 2D-view of g-code (for each layer)  
+- de-raft  
+- cooler always on  
+- additional z-moves (to prevent strings)  
+- check printer area  
+- head-cleaning (with optional brush)  
+and new:  
+- Edit g-code-text  
+- resizeable 2D-View  
+- finally send free info-SMS  
+
+NEW (06/2014):  
+- check extruder control (e.g. does extruder heat up before printing...)""" ;
+    okh:hasImage :Image ;
+    okh:licensor "Bundes-Metal-Minister" ;
+    okh:repo <https://www.thingiverse.com/thing:61880> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:61880> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of G-Code-Optimizer 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/e4/05/9f/d8/72/screen_P1_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/e4/05/9f/d8/72/screen_P1_display_large.jpg> .
+

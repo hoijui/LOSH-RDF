@@ -1,0 +1,76 @@
+@prefix : <https://www.thingiverse.com/thing%3A64101/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:WensiPvLayerHolder a okh:Module ;
+    rdfs:label "Wensi PV layer holder" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This OpenSCAD script will generate a simple one piece fixture to hold Wensi's PV layer's PV cell, PCB and supercap. This is using the slightly newer layout and SCAP propsed on the 17th August 2011\r
+\r
+Author: Mark Gaffney\r
+Version: 2.2\r
+Date: 2011-09-16\r
+\r
+Todo:\r
+add thin infill for hollow sections to improve printability\r
+make slide in PV version\r
+make 2x corner 1 middle tab PV version\r
+make screw post PCB version\r
+make pin post PCB version\r
+make mushroom post PCB version\r
+move holes for SCAP pins (2x dia=0.6+blah separation=~10-blah dist_from_bottom~=2.5-blah dist_from_sides=5-blah) and PV wires to more logcal place, also change to square, triangle or teardrop shape for better printability\r
+remember the SCAP is now a table profile with dia~=10.5\r
+\r
+Warning:\r
+there is no top part for this\r
+\r
+Changes from previous versions:\r
+2.2\r
+ - 	Change cutout for trapezoidal/pyramidal shape\r
+2.1\r
+ - 	Fixed some vlaues to place the support posts in corect location (up +1mm) scap leads Right +2mm\r
+ - 	increased post diameter for the two along one side slightly\r
+2.0\r
+ - 	New layout (PCB rotated 90Degrees) and larger SCAP\r
+ - 	change pcb_l 30->35 pcb_b 35->30\r
+ - 	change scap_l 23->20 scap_b 15->22 scap_h 5->10\r
+\r
+0.8\r
+ -  add thin infill for hollow sections to improve printability\r
+0.7\r
+ -  moved entire structure above z=0 plane (no longer a destroyer of belts)\r
+ - 	added mouse ears\r
+0.6\r
+ - 	made thinner\r
+ - 	fixed incorrect measurements for PV panel\r
+0.5\r
+ - 	Added holes for wires between sections\r
+\r
+0.4\r
+ - 	Removed plastic from centre of pv area to speed up print\r
+\r
+0.3\r
+ - 	Fixed error with cutout translates due to misuse of separation and clearance variables\r
+ - 	Fixed error with second half of calculation of total _b using max() where I forgot to include separation\r
+\r
+0.2\r
+ - 	Added support posts\r
+\r
+0.1\r
+ - 	First attempt""" ;
+    okh:hasImage :Image ;
+    okh:licensor "M_G" ;
+    okh:repo <https://www.thingiverse.com/thing:64101> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:64101> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Wensi PV layer holder 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/a1/1f/8d/1e/a5/DSC00188_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/a1/1f/8d/1e/a5/DSC00188_display_large.jpg> .
+

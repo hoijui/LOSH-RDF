@@ -1,0 +1,38 @@
+@prefix : <https://www.thingiverse.com/thing%3A34682/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:SierpinskiTrianglesAndCarpets a okh:Module ;
+    rdfs:label "Sierpinski Triangles and Carpets " ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Here is openSCAD code to make Sierpinski triangles and carpets.  You can read about Sierpinski's work on Wikipedia or Wolfram Math.  I like the article by Sylvie Champeaux at:\r
+\r
+http://hmf.enseeiht.fr/travaux/CD9900/travaux/optmfn/hi/00pa/mfn03/champeau.htm\r
+\r
+which explains how the Chaos Game leads to a Sierpinski triangle.\r
+\r
+Sierpinski_triangle.stl is an ornament with a hole for hanging.  The openSCAD code produced 81 separate triangles which were subtracted from a single triangle to make the ornament.\r
+\r
+Sierpinski_carpet.stl is a carpet after three cycles of iteration.\r
+\r
+Composite_carpet.stl is a composite of 3 carpets at different stages of iteration.\r
+\r
+Sierpinski_all.stl is a carpet where the central square has been replaced by a triangle.\r
+\r
+The triangles and carpets are limited to 3 or 4 iterations here; attempts to go further ran into openSCAD program limitations.  Note that Polymaker, (thing:8711), has created an attractive three dimensional version of the triangle.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "pmoews" ;
+    okh:repo <https://www.thingiverse.com/thing:34682> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:34682> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Sierpinski Triangles and Carpets  1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/0e/b9/19/ff/42/sierpinski_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/0e/b9/19/ff/42/sierpinski_display_large.jpg> .
+

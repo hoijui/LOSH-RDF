@@ -1,0 +1,48 @@
+__meta:
+  branch: null
+  created-at: '2012-10-24T16:55:33+00:00'
+  history: null
+  last-changed: null
+  last-visited: '2022-03-01T11:00:10.320765+00:00'
+  owner: rlbagulatftn
+  path: null
+  repo: https://www.thingiverse.com/thing:33051
+  score: null
+  source: thingiverse.com
+attestation: null
+bom: null
+contribution-guide: null
+cpc-patent-class: null
+documentation-language: en
+documentation-readiness-level: odrl3
+function: "TubePlotFrenet[curve_List, {var_, min_, max_}, radius_, opts___] := \r\n Module[{tangent, unitTangent, normal, unitNormal, biNormal}, \r\n  tangent = D[curve, t];\r\n  unitTangent = tangent/Sqrt[tangent.tangent];\r\n  normal = D[unitTangent, t];\r\n  unitNormal = normal/Sqrt[normal.normal];\r\n  biNormal = Cross[unitTangent, unitNormal];\r\n  ParametricPlot3D[\r\n   curve + radius Cos[s] unitNormal + radius Sin[s] biNormal // \r\n    Evaluate, {var, min, max}, {s, 0, 2 \\[Pi]}, opts]]\r\n{p0, q0} = {5, 2};\r\n\r\nr = Cos[q0*t] + 2;\r\nx = r* Cos[p0*t];\r\ny = r *Sin[p0*t];\r\nz = Sin[q0*t];\r\nw0 = 8*{x, y, z}\r\nh = TubePlotFrenet[w0, {t, 0, 2 \\[Pi]}, 2, Axes -> None, \r\n  Boxed -> False, PlotPoints -> {64, 16}, \r\n  ColorFunction -> \"CandyColors\", MeshFunctions -> {#3 &}]\r\n{p0, q0} = {2, 5};\r\n\r\nr = Cos[q0*t] + 2;\r\nx = r* Cos[p0*t];\r\ny = r *Sin[p0*t];\r\nz = Sin[q0*t];\r\nw = 8*{x, y, z}\r\nh1 = TubePlotFrenet[w, {t, 0, 2 \\[Pi]}, 2, Axes -> None, \r\n  Boxed -> False, PlotPoints -> {64, 16}, \r\n  ColorFunction -> \"BeachColors\", MeshFunctions -> {#3 &}]\r\nShow[{h, h1}, PlotRange -> All, ViewPoint -> {0, 0, 5}]\r\nga = ParametricPlot3D[p*w + (1 - p)*w0, {t, -Pi, Pi}, {p, 0, 1}, \r\n  Axes -> False, Boxed -> False, PlotRange -> All, \r\n  PlotPoints -> {60, 60}, ColorFunction -> \"Pastel\", \r\n  MeshStyle -> {Tube[0.25*5/4]}, PlotStyle -> {Opacity[0.0]}, \r\n  ViewPoint -> {0, 0, 5}, ImageSize -> {674, 501}, Mesh -> 16]\r\ngw = Show[{h, h1, ga}, PlotRange -> All, ViewPoint -> {0, 0, 5}, \r\n  ImageSize -> 1000]"
+image:
+  created-at: '2012-10-24T16:55:33+00:00'
+  last-changed: '2012-10-24T16:55:33+00:00'
+  last-visited: '2022-03-01T11:26:36.535785+00:00'
+  license: CC-BY-4.0
+  licensor: rlbagulatftn
+  mime-type: null
+  name: 293648838173010753_tA29FxWy_display_large
+  path: https:/cdn.thingiverse.com/renders/88/bc/80/e3/7d/293648838173010753_tA29FxWy_display_large.jpg
+  perma-url: https://cdn.thingiverse.com/renders/88/bc/80/e3/7d/293648838173010753_tA29FxWy_display_large.jpg
+  url: https://cdn.thingiverse.com/renders/88/bc/80/e3/7d/293648838173010753_tA29FxWy_display_large.jpg
+license: CC-BY-4.0
+licensor: rlbagulatftn
+manufacturing-instructions: null
+name: 52 to 25 torus knot bridge surface
+okhv: OKH-LOSHv1.0
+organization: null
+part: []
+publication: null
+readme: null
+release: null
+repo: https://www.thingiverse.com/thing:33051
+software: []
+specific-api-data: {}
+standard-compliance: null
+technology-readiness-level: ortl4
+tsdc: null
+upload-method: auto
+user-manual: null
+version: 1.0.0

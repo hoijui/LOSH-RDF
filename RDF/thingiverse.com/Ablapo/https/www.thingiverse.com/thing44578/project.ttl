@@ -1,0 +1,34 @@
+@prefix : <https://www.thingiverse.com/thing%3A44578/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ModpackForQuadrupedMini a okh:Module ;
+    rdfs:label "Modpack for Quadruped Mini" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Here I share my modifications done to the Mini Quadruped from TheCASE.\r
+\r
+- Changed the backbone to have a 6V battery storage (2x2 AA batterys)\r
+- Added a mounting plate on top of the battery pack\r
+- Changed the leg for more stability (hexagon)\r
+\r
+At the moment the arduino board and the servos are powered by the same power source from the adafruid board. Not sure if that is the best way. Let me know about your ideas. \r
+I am still working on the program code. \r
+\r
+Here a first result: \r
+http://www.youtube.com/watch?v=9_4LRIga8Ag""" ;
+    okh:hasImage :Image ;
+    okh:licensor "Ablapo" ;
+    okh:repo <https://www.thingiverse.com/thing:44578> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:44578> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Modpack for Quadruped Mini 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/6e/1b/5d/ed/0d/qp01_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/6e/1b/5d/ed/0d/qp01_display_large.jpg> .
+

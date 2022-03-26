@@ -1,0 +1,40 @@
+@prefix : <https://www.thingiverse.com/thing%3A41502/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ShylohsExtruder a okh:Module ;
+    rdfs:label "Shyloh's Extruder" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is my take on a No-Hob Extruder. This was loosely derived from profezzorn's extruder: http://www.thingiverse.com/thing:28430\r
+however I only used the concept of using a bit, rather than a hobbed bolt. I basically redesigned each piece to make it more compact allowing a small bit more Y axis clearance. I also provided a lead-in chamfer for the filament on the main extruder body to keep from binding. The mounting pattern is designed with a Budashnozzle in mind. This is designed for 1.75 filament.\r
+\r
+Source files are SolidWorks files. I have included those, along with a STEP file of the full Assembly. STL files of the printed pieces are also included. I will update this a bit later with the full functionality explanation, BOM, and instructions.\r
+\r
+I tried to keep all hardware SAE except for the three screws for the Nema17. The hobbed bolt is replaced with a #115 Dremel bit that can be bought for ~$5 at WalMart. All bearings are standard R2 bearings, that way you don't have two different sizes. And it uses a floating barrel nut to tighten the hinge. This can be bought for cheap at Lowes in their hardware section in a furniture accessory drawer.\r
+\r
+BOM:\r
+Qty:1) 1/4-20 SHCS 5/8" length\r
+Qty:1) 1/4-20 x 3/8" dia x 5/8" length barrel nut (Hillman Group item#137362; purchase at Lowes ~$1.15)\r
+Qty:1) 10-24 FHCS 1-1/8" length\r
+Qty:1) 10-24 Nylon inserted lock nut\r
+Qty:1) #115 Dremel bit (Walmart ~$5)\r
+Qty:3) R2 bearings (1/8"ID x 3/8"OD x 5/32"W)\r
+Qty:1) 1/8" dowel pin x 3/4" long\r
+Qty:3) 8-32 set screws 5/16" long\r
+Qty:3) 8-32 machine screw hex nuts""" ;
+    okh:hasImage :Image ;
+    okh:licensor "quadtard" ;
+    okh:repo <https://www.thingiverse.com/thing:41502> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:41502> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Shyloh's Extruder 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/6d/4e/b9/b2/3b/Extruder1_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/6d/4e/b9/b2/3b/Extruder1_display_large.jpg> .
+

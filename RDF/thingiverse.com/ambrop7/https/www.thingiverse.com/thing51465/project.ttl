@@ -1,0 +1,28 @@
+@prefix : <https://www.thingiverse.com/thing%3A51465/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:SimplePolygonElements a okh:Module ;
+    rdfs:label "Simple Polygon Elements" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Regular polygons with genderless hinges, very simple design. Easy to connect and disconnect. By default the side length is 8cm.\r
+\r
+I made these after I tried mrule's faces ( http://www.thingiverse.com/thing:5961 ), which were too small for my RepRap to print correctly, and they were impossible to assemble when scaled up. The locking mechanism is copied from the "Polydron Frameworks" product. I've only tried printing triangles so far, faces with more sides are probably not very rigid.\r
+\r
+Update: reduced frame and hook width, and added a protrusion on the female hooks so there isn't a hole. The new parts are compatible with the old ones.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "ambrop7" ;
+    okh:repo <https://www.thingiverse.com/thing:51465> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/BSD-4-Clause> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:51465> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Simple Polygon Elements 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/15/02/bc/b1/dc/IMAG0083_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/15/02/bc/b1/dc/IMAG0083_display_large.jpg> .
+

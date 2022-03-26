@@ -1,0 +1,38 @@
+@prefix : <https://www.thingiverse.com/thing%3A39818/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:IcosahedralSymmetryOnASphere a okh:Module ;
+    rdfs:label "Icosahedral Symmetry on a Sphere       " ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Here is openSCAD code which covers a sphere with a pattern displaying icosahedral symmetry.  The code uses the same technique as that described in thing:39424 Octahedral Symmetry on a Sphere.\r
+\r
+The Platonic solids with five fold rotation axes are the icosahedron and the dodecahedron. They share symmetry elements; each has six 5 fold axes, ten 3 fold axes and fifteen 2 fold axes.  We can use their vertices, mapped to\r
+a unit sphere, to locate planar patterns with three or five fold rotation axes and generate a sphere with icosahedral symmetry.\r
+\r
+To illustrate the method rosettes, consisting of a central circle and having three or five equally spaced rays, were used.  See the images at the left.\r
+\r
+The rosettes with 3 rays are centered at the mapped vertices of a dodecahedron and the rosettes with 5 rays are centered at the mapped vertices of an icosahedron.  In both cases the overall pattern has icosahedral symmetry.  For these simple examples the code generates icosahedrons and dodecahedrons mapped to a sphere.  See the image at the upgper left.\r
+\r
+Stl files are:\r
+\r
+dodecahedron_x3_small.stl and dodecahedron_x3_large.stl\r
+icosahedron_x5_small.stl and icosahedron_x5_large.stl\r
+\r
+OpenSCAD code is included.  Gen_rosettes.scad generates the dxf rosette files and gen_icosahedral_sphere.scad makes the stl files.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "pmoews" ;
+    okh:repo <https://www.thingiverse.com/thing:39818> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:39818> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Icosahedral Symmetry on a Sphere        1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/44/4f/b7/f2/8a/spheres_2_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/44/4f/b7/f2/8a/spheres_2_display_large.jpg> .
+

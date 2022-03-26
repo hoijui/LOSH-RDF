@@ -1,0 +1,25 @@
+@prefix : <https://www.thingiverse.com/thing%3A61734/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:InternalCalibration a okh:Module ;
+    rdfs:label "Internal calibration" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """After trying to determine if size problems of inner features on a print were caused by miscalibration of the X or Y axis steps per mm, I came up with this.\r
+It allows the measurement of head move distances by looking at the spacing between voids - that way if there's over or under extrusion, the measurements are of the voids.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "hdonk" ;
+    okh:repo <https://www.thingiverse.com/thing:61734> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:61734> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Internal calibration 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/ab/11/c9/a1/b6/internal_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/ab/11/c9/a1/b6/internal_display_large.jpg> .
+

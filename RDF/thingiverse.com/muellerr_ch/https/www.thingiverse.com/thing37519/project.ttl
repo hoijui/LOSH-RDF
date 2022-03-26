@@ -1,0 +1,26 @@
+@prefix : <https://www.thingiverse.com/thing%3A37519/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:MultiwiiQuadcopter a okh:Module ;
+    rdfs:label "multiwii quadcopter" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """this is my implementation of a multiwii quadcopter. i decided to use a partial aluminum frame with 3d printed mounts for the motors and all the electronics. the reason being the much higher stiffness and therefore a relatively high first eigenfrequency of the whole system. this should help, to a certain extent, in reducing the rolling shutter effect when using a cmos camera.\r
+a video of the quadcopter in flight can be found here:\r
+http://youtu.be/2AZZEHWD84U""" ;
+    okh:hasImage :Image ;
+    okh:licensor "muellerr_ch" ;
+    okh:repo <https://www.thingiverse.com/thing:37519> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:37519> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of multiwii quadcopter 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/8e/94/9b/2a/3d/quad_in_air_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/8e/94/9b/2a/3d/quad_in_air_display_large.jpg> .
+

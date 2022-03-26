@@ -1,0 +1,30 @@
+@prefix : <https://www.thingiverse.com/thing%3A66733/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ThreedDragonCurves a okh:Module ;
+    rdfs:label "Three-D Dragon Curves " ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Here is a collection of 3-D dragon curves.\r
+\r
+The openSCAD code that generates the curves is  partially parametric.  The lines that generate the dragon curves are replaced by rectangular blocks and one can specify the length, width, and height of the blocks.  An additional parameter is the degree of the curve; allowed values are 1 through 10.\r
+\r
+Stl files are provided for  dragon curves of degree 4, 5, 6, 7, 8, 9, and 10.\r
+\r
+The openSCAD code that generated the files is dragon_curves_3d.scad.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "pmoews" ;
+    okh:repo <https://www.thingiverse.com/thing:66733> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:66733> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Three-D Dragon Curves  1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/84/9b/8b/9d/f5/dragon_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/84/9b/8b/9d/f5/dragon_display_large.jpg> .
+

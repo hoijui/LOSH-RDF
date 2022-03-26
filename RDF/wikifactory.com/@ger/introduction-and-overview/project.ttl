@@ -1,0 +1,130 @@
+@prefix : <https://wikifactory.com/%40ger/introduction-and-overview/65e451d15af45288a380729ae81f445eaaf787b5/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:CityEnergyGame a okh:Module ;
+    rdfs:label "City Energy Game" ;
+    okh:dataSource "wikifactory.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function "The \"City Energy\" boardgame is about collective decision-making in the city and the roles that citizens play. Researchers from the University of Limerick, the SAUL IU and the Adaptive Governance Lab developed this game, and ran a number of events for +CityxChange in Limerick, Ireland in Sept. 2019." ;
+    okh:hasComponent :FeedbackSheet,
+        :Leaflet,
+        :Makecegprintv101,
+        :Makecegprintv10101,
+        :Makeprintandlaser,
+        :Releaseform1,
+        :Releaseform2 ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "Gerard Walsh" ;
+    okh:release <https://wikifactory.com/@ger/introduction-and-overview/v/65e451d> ;
+    okh:repo <https://wikifactory.com/@ger/introduction-and-overview> ;
+    okh:repoHost "wikifactory.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "65e451d15af45288a380729ae81f445eaaf787b5" ;
+    okh:versionOf <https://wikifactory.com/@ger/introduction-and-overview> .
+
+:FeedbackSheet a okh:Part ;
+    rdfs:label "Feedback Sheet" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Gerard Walsh" ;
+    okh:source :FeedbackSheet_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:FeedbackSheet_source a okh:SourceFile ;
+    rdfs:label "Source File of Feedback Sheet of City Energy Game 65e451d15af45288a380729ae81f445eaaf787b5" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/28110/feedback_sheet.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyNzU3MTM=> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of City Energy Game 65e451d15af45288a380729ae81f445eaaf787b5" ;
+    okh:fileFormat "PNG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/28110/blockcity.png> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozMDI3Mjk=> .
+
+:Leaflet a okh:Part ;
+    rdfs:label "leaflet" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Gerard Walsh" ;
+    okh:source :Leaflet_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Leaflet_source a okh:SourceFile ;
+    rdfs:label "Source File of leaflet of City Energy Game 65e451d15af45288a380729ae81f445eaaf787b5" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/28110/leaflet.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyNzUxNDg=> .
+
+:Makecegprintv101 a okh:Part ;
+    rdfs:label "MAKE/CEG_print_v1-01" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Gerard Walsh" ;
+    okh:source :Makecegprintv101_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Makecegprintv10101 a okh:Part ;
+    rdfs:label "MAKE/CEG_print_v1-01-01" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Gerard Walsh" ;
+    okh:source :Makecegprintv10101_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Makecegprintv10101_source a okh:SourceFile ;
+    rdfs:label "Source File of MAKE/CEG_print_v1-01-01 of City Energy Game 65e451d15af45288a380729ae81f445eaaf787b5" ;
+    okh:fileFormat "SVG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/28110/ceg_print_v1-01-01.svg> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozMDMzMzc=> .
+
+:Makecegprintv101_source a okh:SourceFile ;
+    rdfs:label "Source File of MAKE/CEG_print_v1-01 of City Energy Game 65e451d15af45288a380729ae81f445eaaf787b5" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/28110/ceg_print_v1-01.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozMDMzMzg=> .
+
+:Makeprintandlaser a okh:Part ;
+    rdfs:label "MAKE/PRINTANDLASER" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Gerard Walsh" ;
+    okh:source :Makeprintandlaser_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Makeprintandlaser_source a okh:SourceFile ;
+    rdfs:label "Source File of MAKE/PRINTANDLASER of City Energy Game 65e451d15af45288a380729ae81f445eaaf787b5" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/28110/printandlaser.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozMDI5MTQ=> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of City Energy Game 65e451d15af45288a380729ae81f445eaaf787b5" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/28110/readme-9fd7d.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozMDI4NjU=> .
+
+:Releaseform1 a okh:Part ;
+    rdfs:label "Release_Form_1" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Gerard Walsh" ;
+    okh:source :Releaseform1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Releaseform1_source a okh:SourceFile ;
+    rdfs:label "Source File of Release_Form_1 of City Energy Game 65e451d15af45288a380729ae81f445eaaf787b5" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/28110/release_form_1.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyNzYxNDk=> .
+
+:Releaseform2 a okh:Part ;
+    rdfs:label "Release_Form_2" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Gerard Walsh" ;
+    okh:source :Releaseform2_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Releaseform2_source a okh:SourceFile ;
+    rdfs:label "Source File of Release_Form_2 of City Energy Game 65e451d15af45288a380729ae81f445eaaf787b5" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/28110/release_form_2.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZToyNzYxNDg=> .
+

@@ -1,0 +1,46 @@
+@prefix : <https://www.thingiverse.com/thing%3A55522/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:PocketVanDeGraaffGenerator a okh:Module ;
+    rdfs:label "Pocket Van De Graaff generator" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """A small Van De Graff generator, probably best not used in your pockets, and probably best not to run it near delicate electrical equipment.  
+
+####### Version 4 #######  
+
+May 2013  
+
+This version uses ABS conductive filament from Rainbot3D.com, which greatly simplifies the top and bottom electrostatic combs.  
+
+The combs are completely printed, so no messing about bending and shaping wires. This also makes the parts much more reproducible and consistent.  
+
+The plastic has a resistivity of about 100 Ohm-cm. As printed, with 10% infill, I was measuring around 150 Kohms for each comb. As we are dealing with very small currents this is acceptable.  
+
+The bottom comb is in two parts, which acts as a clamp for the earth wire.  
+
+The top comb has a "shelf" such that the tin foil wrapped sphere rests on it to provide the electrical contact.  
+
+I had hoped to print the sphere with the conductive filament but I think the resistivity was too high.  
+
+The only wire needed now is the earth wire, I usually hold this while shocking myself.  
+
+Holder for battery pack added to the base.  
+
+All parts printed on my Rep2 in PLA, except the combs which were printed on my thing-o-matic mk6.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "mread" ;
+    okh:repo <https://www.thingiverse.com/thing:55522> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:55522> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Pocket Van De Graaff generator 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/d0/01/44/aa/f0/IMG_0942_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/d0/01/44/aa/f0/IMG_0942_display_large.jpg> .
+

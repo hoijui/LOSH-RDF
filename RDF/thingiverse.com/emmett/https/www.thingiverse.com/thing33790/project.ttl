@@ -1,0 +1,36 @@
+@prefix : <https://www.thingiverse.com/thing%3A33790/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:PinConnectorsV3 a okh:Module ;
+    rdfs:label "Pin Connectors V3" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """UPDATE: I have made an improved and simplified pin connector library that I would recommend instead of this now: http://www.thingiverse.com/thing:213310. This V3 library may still be best for certain situations, but for most, I think you'll like the new one better.   
+***  
+This is an update for tbuser's awesome pin library. I've been making enough use of these that I found a few changes that I think improve them significantly, though this should still function as a drop-in replacement for the V2 library. For all the people who've had trouble cramming the pins into my heart gears, this may help you make easier pins.  
+
+The primary changes are:  
+
+1) Wider gap keeps the pin nubs from getting jammed in a tight hole  
+2) Tolerance parameter on the pin side (instead of the hole side) because it's easier to reprint new pins if the fit is wrong  
+3) Extra tolerance parameter on holes (only for loose fit)  
+4) A fixed hole option that completely prevents rotation  
+5) Pinshaft module for making solid pin sections for longer pinpegs  
+6) Different pin sizes now have a more consistent shape  
+7) Minor changes to hole shape""" ;
+    okh:hasImage :Image ;
+    okh:licensor "emmett" ;
+    okh:repo <https://www.thingiverse.com/thing:33790> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:33790> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Pin Connectors V3 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/f4/15/a2/8c/09/pins1_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/f4/15/a2/8c/09/pins1_display_large.jpg> .
+

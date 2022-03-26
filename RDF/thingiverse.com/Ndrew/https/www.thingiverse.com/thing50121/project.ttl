@@ -1,0 +1,44 @@
+@prefix : <https://www.thingiverse.com/thing%3A50121/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:PiezoelectricPneumaticValve a okh:Module ;
+    rdfs:label "Piezoelectric Pneumatic Valve" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """A prototype electric valve designed for printability. After it has been tested and tuned I'll probably redesign it for better airflow and faster printing.\r
+\r
+Each time the piezo transducer is supplied current it should flex, idealy upward. This should allow a .1 mm gap between the bottom of the transducer and the top of the outlet 'cone', allowing the air to escape through the hole in the middle of the bottom half and out the side.\r
+\r
+If all goes well I would like to use this to power my other thing:\r
+Wobble Ring Stepping Motor.\r
+http://www.thingiverse.com/thing:33853\r
+\r
+Imagine: a steam powered reprap :P\r
+\r
+I designed it around the 20mm wide piezo element sold by sparkfun:\r
+https://www.sparkfun.com/products/10293?\r
+\r
+For better printability, I borrowed whosawhatsis' teardrop hole code.\r
+http://www.thingiverse.com/thing:3457\r
+\r
+I am really wondering what kind of throughput I will get out of this, as the piezo flexes so little. Perhaps I will need a second larger valve that is opened by this one.\r
+\r
+Any ideas on how to better seal the whole thing up so that it doesn't leak out the sides/top would be great.\r
+\r
+This is my second thing, I hope it is at least interesting to look at. All advice welcome.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "Ndrew" ;
+    okh:repo <https://www.thingiverse.com/thing:50121> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:50121> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Piezoelectric Pneumatic Valve 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/4a/ed/76/b3/86/piezovalveShow_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/4a/ed/76/b3/86/piezovalveShow_display_large.jpg> .
+

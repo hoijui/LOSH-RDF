@@ -1,0 +1,26 @@
+@prefix : <https://www.thingiverse.com/thing%3A35719/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:HelloKittyCookieCutter a okh:Module ;
+    rdfs:label "Hello Kitty Cookie Cutter" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """I had to run the original STL through Netfabb to clean up some items, and I needed to flatten the base to make printing it cleaner. I used OpenScad to subtract a thin slice off the base.\r
+\r
+Update, used Autodesk123D to trim a bit off the top and fix the mesh. It will print and slice and a 0.4mm tip is recommended.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "Jaydmdigital" ;
+    okh:repo <https://www.thingiverse.com/thing:35719> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:35719> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Hello Kitty Cookie Cutter 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/86/a3/20/97/64/hk_biscuit_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/86/a3/20/97/64/hk_biscuit_display_large.jpg> .
+

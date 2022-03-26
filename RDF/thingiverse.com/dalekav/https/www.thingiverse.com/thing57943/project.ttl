@@ -1,0 +1,25 @@
+@prefix : <https://www.thingiverse.com/thing%3A57943/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:CustomizableGearThing a okh:Module ;
+    rdfs:label "customizable gear thing" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """my first attempt at a customizable thing\r
+edit: i think ive fixed the problem where the exported stl only contains half of the gear""" ;
+    okh:hasImage :Image ;
+    okh:licensor "dalekav" ;
+    okh:repo <https://www.thingiverse.com/thing:57943> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:57943> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of customizable gear thing 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/site/img/default/Gears_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/site/img/default/Gears_display_large.jpg> .
+

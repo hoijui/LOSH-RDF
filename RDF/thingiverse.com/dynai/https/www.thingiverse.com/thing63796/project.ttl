@@ -1,0 +1,38 @@
+@prefix : <https://www.thingiverse.com/thing%3A63796/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:EasyBedLevelingKitV02 a okh:Module ;
+    rdfs:label "Easy Bed Leveling Kit v02" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Update: \r
+added an explanatory picture as the term "leveling" seems to cause misunderstandings.\r
+\r
+Bed-Leveling allways was a nightmare to me. I payed a lot of attention when I first assembled my printer, i leveled everything, starting with the desk where i built the machine on it.\r
+But i allways had problems once everything was assembled or if everything was fine and i had to move my machine i had to start all over again...\r
+\r
+So while i could bring it down to a point where i could print "smaller" parts i recently printed parts that needed the WHOLE printbed-area.\r
+So i decided to put a finger on my problem which seemed to bee the 2 Y-Axis Guides not beeing 100% parallel and square, and to adjust this i designed these replacement for the fixed Smooth-Rod holder.\r
+\r
+I got feedback on my version 01 and i wanted to address these inputs before i hit the 1'000 downloads mark so here it is.\r
+\r
+Changes:\r
+\r
+- increased width from 2mm to 3mm on the upper part as this could cause problems on machines with calibration problems (and as this part is to solve calibration problems in the first place i can't await a perfect working machine)\r
+-shrinked main part to give more "head-room\"""" ;
+    okh:hasImage :Image ;
+    okh:licensor "dynai" ;
+    okh:repo <https://www.thingiverse.com/thing:63796> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:63796> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Easy Bed Leveling Kit v02 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/54/7b/9b/19/f0/DSC03751_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/54/7b/9b/19/f0/DSC03751_display_large.jpg> .
+

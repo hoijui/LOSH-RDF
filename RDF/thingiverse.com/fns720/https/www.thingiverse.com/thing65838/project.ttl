@@ -1,0 +1,32 @@
+@prefix : <https://www.thingiverse.com/thing%3A65838/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:FeederClampWithConicalFilamentDriver a okh:Module ;
+    rdfs:label "Feeder Clamp with Conical filament driver" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """I printed pit3k's bowden clamp and I experienced some difficulties to pass the filament through the riser. I made a subtle change on the riser hole which guides the filament through on the nut part. Now the nut has a conical hole and just 5 mm before the top it extends to fit the tightening ring into it.\r
+\r
+I also made a countersink on the bottom on the riser after the print by using a countersink tool (I tried to create this countersink directly in the model but it fails to print on a heated bed, even when raft was switched on).\r
+\r
+I also recommend to do another countersink on you bowden tube too.\r
+\r
+Finally, I printed chopmeister's great H3 feeder unit and tried to install this bowden clamp in it.  It was OK, except that the riser was a bit loose so I made a small tightening nut too to fix this.\r
+\r
+Modified OpenSCAD source attached.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "fns720" ;
+    okh:repo <https://www.thingiverse.com/thing:65838> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:65838> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Feeder Clamp with Conical filament driver 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/98/7e/61/cf/6a/Conical_hole_in_Bowden_clamp_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/98/7e/61/cf/6a/Conical_hole_in_Bowden_clamp_display_large.jpg> .
+

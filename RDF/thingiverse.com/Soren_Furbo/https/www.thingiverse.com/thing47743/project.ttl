@@ -1,0 +1,30 @@
+@prefix : <https://www.thingiverse.com/thing%3A47743/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ParametricSupportTree a okh:Module ;
+    rdfs:label "Parametric Support tree" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """A perl script to create a .scad file for a support tree.  
+
+You need to input the spread for X and Y, and a formula for the height at each point.  
+
+The tree build is not optimal in either material or vertical space.  
+
+Known bugs: For large trees, especially if the height of the support points are not the same, it builds several sub trees. I do not have the time to find and correct this bug at the time being, so use with care, and manually add the branches needed.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "Soren_Furbo" ;
+    okh:repo <https://www.thingiverse.com/thing:47743> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:47743> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Parametric Support tree 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/df/e7/9a/7e/e4/tree_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/df/e7/9a/7e/e4/tree_display_large.jpg> .
+

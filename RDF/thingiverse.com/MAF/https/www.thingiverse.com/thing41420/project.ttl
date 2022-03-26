@@ -1,0 +1,31 @@
+@prefix : <https://www.thingiverse.com/thing%3A41420/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:MyrgbLamp a okh:Module ;
+    rdfs:label "MyRGB Lamp" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Shows the manufacturing and operation of an RGB light using a digital LED strip controlled by an application by means of a serial comunication: Bluetooth, Zigbee or USB.\r
+Part list: wooden support (optional), RGB digitally-addressable LED strip (from Adafruit or Pololu...), microcontroller (arduino pro mini, for example), Bluetooth .OR. Xbee .OR. an USB wire. \r
+\r
+Below, you can find a demo video and the link to the git repository with all the code involved: software and firmware. Questions or suggestions are welcome\r
+\r
+More info: http://madebyfrutos.wordpress.com/2013/01/07/my-rgb-lamp/\r
+YouTuve video: http://youtu.be/yhes_WA0_Wo\r
+Code on Git: https://github.com/astromaf/MyRGBLamp""" ;
+    okh:hasImage :Image ;
+    okh:licensor "MAF" ;
+    okh:repo <https://www.thingiverse.com/thing:41420> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:41420> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of MyRGB Lamp 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/6a/ee/b3/23/f2/IMG_0597_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/6a/ee/b3/23/f2/IMG_0597_display_large.jpg> .
+

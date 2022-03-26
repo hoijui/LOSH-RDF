@@ -1,0 +1,30 @@
+@prefix : <https://www.thingiverse.com/thing%3A38281/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:QubdExtruderModifications a okh:Module ;
+    rdfs:label "QU-BD Extruder Modifications" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """My QU-BD extruder was stopping a lot so I made some modifications.  The primary problem was the way they push the filament against the drive gear with a set screw.  I switched to a spring loaded idler pulley.  This will work with the stock QU-BD drive gear, but I switched to an MK7 style drive gear.  The extruder is super reliable now.\r
+\r
+There are two versions of the parts to allow you run the filament through the right side or left side.  You need a 4mm I.D. x 13mm O.D x 5mm thk bearing (624), a button head 4mm x 10 screw, a 4mm washer and a spring.  I used a 3/8" x 1-1/8" x 0.047 spring from a Home Depot assortment pack.  The other parts are available a lot of places, but I bought mine at McMaster Carr.\r
+\r
+It all fits within the width of the motor, so two can be run side by side.\r
+\r
+I have a wiki page of all the things I did to tune up my QU-BD extruder here... http://www.buildlog.net/wiki/doku.php?id=ord_bot:qu-bd_extruder_improvements""" ;
+    okh:hasImage :Image ;
+    okh:licensor "bdring" ;
+    okh:repo <https://www.thingiverse.com/thing:38281> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:38281> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of QU-BD Extruder Modifications 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/7e/9b/e1/a4/c4/qd_fix_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/7e/9b/e1/a4/c4/qd_fix_display_large.jpg> .
+

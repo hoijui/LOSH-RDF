@@ -1,0 +1,33 @@
+@prefix : <https://www.thingiverse.com/thing%3A45207/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Wallacem8Edition a okh:Module ;
+    rdfs:label "Wallace++ (M8 edition)" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """An enhanced version of the Wallace 3D printer.  
+Features a more stable X-carriage construction which balances the extruder body over 2 horizontally mounted rods. It uses less screws & bolts than the original Wallace.  
+Some features :  
+* Y-mount.stl & y-bearing-guide.stl : An enhanced mount for centering the Y-axis belt. Gives you a more stable pull.  
+* X-end2-motor.stl + X-end2-idler.stl : new motor mounts, align the X-axis horizontally  
+* X-carriage.stl : carriage for the horizontal setup. Fits a wade extruder & any type of hotend, even the newer short JHead extruders...  
+* base_end_2off.stl : enhanced base - puts the linear bearings as far apart as possible to enhance the stability of the print bed.  
+* y_bearing_retainer_stopswitch.stl : bearing retainer including a ziptie stopswitch mount, for your Z-stopswitch.  
+Update 20130430 : New Y-mount & bearing-guide uploaded.   
+Update 20140809 : Removed obsolete parts""" ;
+    okh:hasImage :Image ;
+    okh:licensor "sponnet" ;
+    okh:repo <https://www.thingiverse.com/thing:45207> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:45207> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Wallace++ (M8 edition) 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/22/2b/fc/64/1e/IMG_5110_Medium_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/22/2b/fc/64/1e/IMG_5110_Medium_display_large.jpg> .
+

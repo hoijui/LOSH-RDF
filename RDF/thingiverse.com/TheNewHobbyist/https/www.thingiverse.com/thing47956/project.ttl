@@ -1,0 +1,63 @@
+@prefix : <https://www.thingiverse.com/thing%3A47956/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:WallyWallPlateCustomizer a okh:Module ;
+    rdfs:label "WALLY - Wall Plate Customizer" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """CUSTOMIZER CHALLENGE CONTEST WINNER - Useful Category
+
+Update v1.3: Added 3 plate sizes "Standard", "Junior-Jumbo", and "Jumbo". If you've got a larger hole in your wall these may help.
+
+So here it is, my first model designed in OpenSCAD. I found something that would really benefit from being a parametrically designed model: Wall Plates. I've created a OpenSCAD model that allows you to pick from a list of 18 types of connector/outlet style which then generates a 3D model correctly oriented and modeled to be immediately 3D printed.
+
+So what options did I include in this file? Well Iâ€™ve allowed the user to pick any width from 1 to 5 â€œplatesâ€ wide. These were measured off the standard electrical box sizes and should match screw holes in your existing boxes. The list of available plug and outlet styles is listed below:
+
+1. Blank Port
+2. Toggle Switch (Takes up entire plate)
+3. Duplex Outlet (Takes up entire plate)
+4. Rocker/Designer Plate (Takes up entire plate)
+5. Keystone Jack
+6. VGA Port
+7. HDMI Port
+8. DVI-I Port
+9. Displayport
+10. Cat5e/Cat6 Port
+11. USB-A Port
+12. USB-B Port
+13. Firewire IEEE 1394 Port
+14. DB-09 Port
+15. PS2 Port
+16. F-Type/Coaxial Port
+17. S-Video Port
+18. Stereo Headphone Jack
+
+With the exception of #2-4 all of the plug types are modular and be placed on the top, bottom, or centered on a generated wall plate. All of the ports (excluding the outlets and keystone jacks) are designed to accommodate DataPro.netâ€™s panel-mount cables.
+
+I asked a Mathlete friend of mine if he could calculate the possible number of plug and plate combinations and well, the number is big, real big. He estimates that you can generate a total of 850,789,801,599 possible permutations. Making this possibly one the most customizable objects currently on Thingiverse. If you'd like to check his math here's some nerdy details: http://thenewhobbyist.com/wall_plates.txt
+
+Also I've included more details and a few additional pictures in a blog post here: http://thenewhobbyist.com/2013/02/designing-with-parameters/
+
+Change Log:
+
+Update v1.1: Stopped by Home Depot and picked up some wall plates to make a few corrections (thanks 3dsteve). I corrected the screw locations on the "toggle", "outlet", and "designer/rocker" plates. If you've generated one of these you may want to re-generate it.
+
+Update v1.2: Added "Long Toggle Switch" for laird.
+
+Update v1.3: Added 3 plate sizes "Standard", "Junior-Jumbo", and "Jumbo". If you've got a larger hole in your wall these may help.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "TheNewHobbyist" ;
+    okh:repo <https://www.thingiverse.com/thing:47956> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:47956> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of WALLY - Wall Plate Customizer 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/c4/ea/db/3d/a0/wally_border2_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/c4/ea/db/3d/a0/wally_border2_display_large.jpg> .
+

@@ -1,0 +1,61 @@
+@prefix : <https://www.thingiverse.com/thing%3A33051/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:52To25TorusKnotBridgeSurface a okh:Module ;
+    rdfs:label "52 to 25 torus knot bridge surface" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """TubePlotFrenet[curve_List, {var_, min_, max_}, radius_, opts___] := \r
+ Module[{tangent, unitTangent, normal, unitNormal, biNormal}, \r
+  tangent = D[curve, t];\r
+  unitTangent = tangent/Sqrt[tangent.tangent];\r
+  normal = D[unitTangent, t];\r
+  unitNormal = normal/Sqrt[normal.normal];\r
+  biNormal = Cross[unitTangent, unitNormal];\r
+  ParametricPlot3D[\r
+   curve + radius Cos[s] unitNormal + radius Sin[s] biNormal // \r
+    Evaluate, {var, min, max}, {s, 0, 2 \\[Pi]}, opts]]\r
+{p0, q0} = {5, 2};\r
+\r
+r = Cos[q0*t] + 2;\r
+x = r* Cos[p0*t];\r
+y = r *Sin[p0*t];\r
+z = Sin[q0*t];\r
+w0 = 8*{x, y, z}\r
+h = TubePlotFrenet[w0, {t, 0, 2 \\[Pi]}, 2, Axes -> None, \r
+  Boxed -> False, PlotPoints -> {64, 16}, \r
+  ColorFunction -> "CandyColors", MeshFunctions -> {#3 &}]\r
+{p0, q0} = {2, 5};\r
+\r
+r = Cos[q0*t] + 2;\r
+x = r* Cos[p0*t];\r
+y = r *Sin[p0*t];\r
+z = Sin[q0*t];\r
+w = 8*{x, y, z}\r
+h1 = TubePlotFrenet[w, {t, 0, 2 \\[Pi]}, 2, Axes -> None, \r
+  Boxed -> False, PlotPoints -> {64, 16}, \r
+  ColorFunction -> "BeachColors", MeshFunctions -> {#3 &}]\r
+Show[{h, h1}, PlotRange -> All, ViewPoint -> {0, 0, 5}]\r
+ga = ParametricPlot3D[p*w + (1 - p)*w0, {t, -Pi, Pi}, {p, 0, 1}, \r
+  Axes -> False, Boxed -> False, PlotRange -> All, \r
+  PlotPoints -> {60, 60}, ColorFunction -> "Pastel", \r
+  MeshStyle -> {Tube[0.25*5/4]}, PlotStyle -> {Opacity[0.0]}, \r
+  ViewPoint -> {0, 0, 5}, ImageSize -> {674, 501}, Mesh -> 16]\r
+gw = Show[{h, h1, ga}, PlotRange -> All, ViewPoint -> {0, 0, 5}, \r
+  ImageSize -> 1000]""" ;
+    okh:hasImage :Image ;
+    okh:licensor "rlbagulatftn" ;
+    okh:repo <https://www.thingiverse.com/thing:33051> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:33051> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of 52 to 25 torus knot bridge surface 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/88/bc/80/e3/7d/293648838173010753_tA29FxWy_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/88/bc/80/e3/7d/293648838173010753_tA29FxWy_display_large.jpg> .
+

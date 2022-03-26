@@ -1,0 +1,48 @@
+__meta:
+  branch: null
+  created-at: '2013-01-04T01:49:39+00:00'
+  history: null
+  last-changed: null
+  last-visited: '2022-03-01T11:00:10.320765+00:00'
+  owner: mechadense
+  path: null
+  repo: https://www.thingiverse.com/thing:40210
+  score: null
+  source: thingiverse.com
+attestation: null
+bom: null
+contribution-guide: null
+cpc-patent-class: null
+documentation-language: en
+documentation-readiness-level: odrl3
+function: "A tool for Constructive Solid Geometry like OpenSCAD but written in Sage http://www.sagemath.org/\r\n\r\nAn **example output** ca be found here:  \r\nhttps://www.thingiverse.com/thing:41272  \r\n\u2013 (a porous gyroid cylinder )  \r\n\r\nThere is already quite some functionality in very little code.\r\n\r\nYou can (via the Jmole 3D viewer in sage) preview & turn the 3d output before saving to *.stl file. With Sage you have a fully blown computer algebra system CAS at hand. Transfinite unbounded objects can be used for construction.\r\n\r\n\r\nSages implicit_plot3d is not made for this purpouse so I think this is more useful for experimentation with system design than useful construction work. But I might be wrong.\r\n\r\nIn this context I like to mention \r\nImplicitCAD (written by Christopher Olah)\r\nhttp://www.implicitcad.org/\r\nhttps://github.com/colah/ImplicitCAD/blob/master/Graphics/Implicit/Primitives.hs\r\nwhich Is ment to deliver good performance.\r\n\r\nI started to code miniSageCAD because while trying sage it became patently obvious to me how easy It'd be to get a minimal useful CSG system.\r\n\r\nI wanted to preserve symbolic derivability for all csg expressions (to have symbolic access to the surface normals). I found that only lambdas are symbolically derivable but those lambda expressions can not have line breaks. This makes it necessary to break more complex objects down into subfunctions. A good thing for documentation (names) but bad in that it clutteres the global namespace. Also obstucted by this is the idea to e.g. transport the positions of the edges of a cube up the csg graph accessible in e linearly-transformed way.\r\n\r\n edit: \r\nnew in v0.04:\r\n    corrected translate\r\n    arbitrary arity union and intersection\r\n    prism rod, prism\r\n    inshell, onshell, outshell\r\n    zfunction\r\n    pieslicer\r\n    difference2\r\n    gyroid (left & right)"
+image:
+  created-at: '2013-01-04T01:49:39+00:00'
+  last-changed: '2013-01-04T01:49:39+00:00'
+  last-visited: '2022-03-01T14:57:18.428939+00:00'
+  license: CC-BY-4.0
+  licensor: mechadense
+  mime-type: null
+  name: Gears_display_large
+  path: https:/cdn.thingiverse.com/site/img/default/Gears_display_large.jpg
+  perma-url: https://cdn.thingiverse.com/site/img/default/Gears_display_large.jpg
+  url: https://cdn.thingiverse.com/site/img/default/Gears_display_large.jpg
+license: CC-BY-4.0
+licensor: mechadense
+manufacturing-instructions: null
+name: miniSageCAD
+okhv: OKH-LOSHv1.0
+organization: null
+part: []
+publication: null
+readme: null
+release: null
+repo: https://www.thingiverse.com/thing:40210
+software: []
+specific-api-data: {}
+standard-compliance: null
+technology-readiness-level: ortl4
+tsdc: null
+upload-method: auto
+user-manual: null
+version: 1.0.0

@@ -1,0 +1,55 @@
+@prefix : <https://www.thingiverse.com/thing%3A45992/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:WallgridPattern a okh:Module ;
+    rdfs:label "Wall/Grid pattern" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """OpenSCAD module library for a gaming tile system on a square grid. I mostly play Pathfinder and D&D, so I need a 1" grid. Since everyone on Thingiverse seems to be metric, and 1" works out to 25.4mm, the pattern set is intended to produce 26mm grid spaces. Walls themselves are 4mm thick, and set between grid spaces, not within the grid square. This is really the only way to have real physical walls for something like D&D, unless you want walls to consume entire squares.\r
+\r
+Pattern set consists of "walls" and "posts". Posts are designed to sit at the ends of walls and hold them together, giving them some rigidity. I couldn't see how to have walls connect directly with each other and still keep the number of unique parts very low.\r
+\r
+The wall module has recesses intended to receive the post module, and a protrusion on the bottom intended to be receives by a plate module. The pocket on the top is not intended to receive another wall module, but instead a thin protrusion extending from the bottom of the plates; in this way, you can construct a building or dungeon with multiple levels.\r
+\r
+The plate module holds sockets for the wall module's bottom protrusions. They also hold smaller protrusions underneath, allowing them to be set on top of erect walls, as well as easily and loosely stacked upon one another, for storage. Plates do not (and should not) strongly plug into anything they're set upon; this should allow them to be easily lifted off of whatever they're set on without accidentally pulling on or dismantling anything underneath.\r
+\r
+The plates also have round indentations on them. These are intended to allow the placement of furniture-style items.\r
+\r
+There are only a few remaining things to do before I consider this Thing complete:\r
+\r
+* Code cleanup. Walls, posts, plates, examples, etc. should each be in a separate file.\r
+* Plates should have a side-ways interlocking mechanism to allow you to build larger plates out of already-printed smaller plates.\r
+* Walls need to support facades. This will be done with hook-shaped recesses, allowing facade tiles to be easily set and removed.\r
+* There may need to be a "buttress" wall module, for post stability on corners. I'll design it. If it proves to be unnecessary, well, great.\r
+* Plates may get round bumps added to their undersides. These will settle into the round recesses on top, to make plate stack alignment easy.\r
+* After the above are done, play testing is in order, to verify that the interfaces all work together the way I intended, and to find any design weaknesses that need to be corrected.\r
+\r
+After those are done, I think this Thing will be reasonably complete; it will largely be a set of libraries defining basic components. Things like large plates, long walls, windows and roof components can all be designed and uploaded as separate Things; the interfaces will have been designed, and anything that follows them should work fine.\r
+\r
+Future Things will include:\r
+\r
+* Facades that support attaching miniatures to walls, so that climbing miniatures can be placed visually where they're thought to be.\r
+* Rooftop modules.\r
+* Doors\r
+* Windows\r
+* Long walls\r
+* Large plates\r
+* Tall walls.\r
+\r
+(At least some of these will be constructed as parametric libraries. I.e. "make me a wall this many tiles long and this many floors high...")""" ;
+    okh:hasImage :Image ;
+    okh:licensor "mikemol" ;
+    okh:repo <https://www.thingiverse.com/thing:45992> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:45992> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Wall/Grid pattern 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/7c/59/3a/51/13/gridwall_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/7c/59/3a/51/13/gridwall_display_large.jpg> .
+

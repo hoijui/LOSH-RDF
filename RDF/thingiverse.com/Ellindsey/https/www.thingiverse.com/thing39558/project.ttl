@@ -1,0 +1,30 @@
+@prefix : <https://www.thingiverse.com/thing%3A39558/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ExtruderMotorPlanetaryGearbox a okh:Module ;
+    rdfs:label "Extruder motor planetary gearbox" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is a 4.36:1 planetary gearbox intended to be inserted between your NEMA 17 extruder motor and your extruder mechanism.  This allows you to use your existing Airtripper or similar extruder and your MK7 drive gear with a 5mm bore, yet still insert a gear reduction so your motor doesn't overheat.\r
+\r
+This design is based on my custom gearhead extruder, but I have extracted just the gear reduction mechanism and given it a face mounting plate which should allow you to mount it to your existing extruder.  I have also redesigned it to use common metric bearings and bolts in place of the eclectic mix of parts out of my junk bin that the original design used.\r
+\r
+Note - I have not yet actually assembled and tested this design, these files are unproven.  The design it's based on has been running smoothly for hours, but I haven't tested these modifications yet.  \r
+\r
+This design is unproven, use at your own risk.  Feedback is welcome if you do print and build it.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "Ellindsey" ;
+    okh:repo <https://www.thingiverse.com/thing:39558> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:39558> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Extruder motor planetary gearbox 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/ad/86/e3/e9/2b/Planet_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/ad/86/e3/e9/2b/Planet_display_large.jpg> .
+

@@ -1,0 +1,30 @@
+@prefix : <https://www.thingiverse.com/thing%3A65709/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Icosahedron a okh:Module ;
+    rdfs:label "Icosahedron" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """An icosahedron in 238 bytes. This is all of it:  
+
+    r = sqrt(3 / (1 + 2*sqrt(5)/5) - 1);  
+    for (j = [0, 180]) rotate([0, j, 0])  
+      for (i = [0:4]) rotate([0, 0, i * 360 / 5])  
+        for (k = [0, 1]) rotate([0, -atan(r) - 2*k*atan(r/2), 0])  
+          rotate([0, 0, 180*k]) cylinder(1, 0, r, $fn=3);""" ;
+    okh:hasImage :Image ;
+    okh:licensor "thakis" ;
+    okh:repo <https://www.thingiverse.com/thing:65709> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:65709> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Icosahedron 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/f3/61/fc/0f/0f/icosa-min_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/f3/61/fc/0f/0f/icosa-min_display_large.jpg> .
+

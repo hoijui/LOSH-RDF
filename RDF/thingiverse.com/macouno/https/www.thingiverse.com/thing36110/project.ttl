@@ -1,0 +1,38 @@
+@prefix : <https://www.thingiverse.com/thing%3A36110/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:LisaThePrintableSkull a okh:Module ;
+    rdfs:label "Lisa the printable skull" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Lisa is derived from:  
+**Elvis, the Printable(?) Skull** by HPaul  
+which is derived from:  
+**Cleaned Hollow Skull** by ssd  
+which is derived from:  
+**Skull** by bothacker  
+Looking at the skull, I found that the question mark in the title of the model was there for a reason, so I thought I'd take it yet another step further away from the original scan.  
+I then also downloaded the Human Skull scan from mechadense: http://www.thingiverse.com/thing:36140  
+I decimated that one somewhat and placed it over my skull for comparison. Then made a bunch of changes to the face/jaw area.  
+**I updated all the files after looking at the second skull scan!**  
+Lisa is not as much a cleanup of the original as a complete remodel. She is very very basic.. so much so that she really should be considered an "artistic interpretation". But is fully printable!  
+To check for printability I wrote a small Blender addon which I will include as well (the python script). It generated "vertex colours" to show where on your model the polygons have troublesome angles for extrusion printers.  
+This version is exactly 5.3cm tall.  
+I also included the Blender file so it's very easy to make derivatives. I'd love to see where you all will take it next!!!  
+You can support my work by buying something from my Etsy shop: http://www.etsy.com/shop/macouno""" ;
+    okh:hasImage :Image ;
+    okh:licensor "macouno" ;
+    okh:repo <https://www.thingiverse.com/thing:36110> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:36110> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Lisa the printable skull 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/94/84/d2/4e/bc/Lisa-2_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/94/84/d2/4e/bc/Lisa-2_display_large.jpg> .
+

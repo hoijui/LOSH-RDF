@@ -1,0 +1,44 @@
+@prefix : <https://www.thingiverse.com/thing%3A32576/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:BetaProject a okh:Module ;
+    rdfs:label "Beta Project" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """***NEW VERSION*** http://www.thingiverse.com/thing:254244  
+
+This is Beta.  
+
+Beta is a robot controled by Arduino and a L298N. The communication is via Bluetooth as you can see in the video: http://www.youtube.com/watch?v=WrFWBjptyvQ&feature=g-upl  
+
+It has 8 servos: 4 to move the legs, and the other 4 to move the wheels; and 4 motors. To power the robot I have used 4 LiPos I had in my house, they are connected in series so I had to use 3 7805 to regulate voltage.  
+
+The servos I used for wheels are microservos, NO CONTINOUS ROTATION, imposible to control...  
+
+And for the legs, I used a few I already had. This ones I recommend to be more powerful than others.  
+
+The motors are geared and are this: http://dx.com/p/high-torque-80rpm-12v-dc-geared-motor-91628?item=6  
+
+The Bluetooth module: http://dx.com/p/bluetooth-board-module-4-pin-121326?item=2  
+
+And the L298N to control the dc motors: http://dx.com/p/l298n-stepper-motor-driver-controller-board-for-arduino-120542?item=4  
+
+The code for Arduino is the file "Codigo.ino"  
+
+I'm sorry for the lack of documentation I promise it will be more complete in the next version, Gamma Project.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "VeimoX" ;
+    okh:repo <https://www.thingiverse.com/thing:32576> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:32576> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Beta Project 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/01/cb/bb/01/b3/1_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/01/cb/bb/01/b3/1_display_large.jpg> .
+

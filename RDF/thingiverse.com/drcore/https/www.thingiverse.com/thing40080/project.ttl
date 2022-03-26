@@ -1,0 +1,33 @@
+@prefix : <https://www.thingiverse.com/thing%3A40080/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:EnclosureForMendelPrusaPrinter a okh:Module ;
+    rdfs:label "Enclosure for Mendel Prusa printer" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Preliminary design for a standrad Mendel Prusa printer. Design goals:\r
+* Combine printer, PSU, RAMPS controller and LCD+keypad into on box.\r
+* Allow printer to be easily put in and out of box (top bar can be unscrewed to allow printer to be taken out/in).\r
+* High visibility on printing process (plexiglass windows surrounding machine).\r
+* Easy access to print platform and end-stops (hinged flap on front, semi-attached flap on the back.\r
+* As air tight as possible to keep toxic ABS fumes enclosed and stabilize temperature control.\r
+* Don't use toxic air to cool PSU and controller.\r
+* Integrate spindle holder on machine (with multi-extruder/spindles as option.\r
+\r
+Design was done keeping in mind standard wood pieces and plexiglass. FreeCAD is used to make the design.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "drcore" ;
+    okh:repo <https://www.thingiverse.com/thing:40080> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:40080> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Enclosure for Mendel Prusa printer 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/62/b3/0b/07/b1/RepRap_MendelPruse_enclosure_frontside_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/62/b3/0b/07/b1/RepRap_MendelPruse_enclosure_frontside_display_large.jpg> .
+

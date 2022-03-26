@@ -1,0 +1,44 @@
+@prefix : <https://www.thingiverse.com/thing%3A39138/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:DrewsPlanetaryGearedExtruder a okh:Module ;
+    rdfs:label "Drew's Planetary Geared Extruder" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """After running my Rostock printer for a while, I've determined that the extruder motor really needs a geared reduction.  It's not that the motor doesn't have enough torque, but that producing the required torque causes the motor to run hot, which can affect the ability to grip the filament or even deform the motor mount.  It also causes the motor driver board to overheat and cut out.  I'm only running a 0.5mm nozzle, but these problems only get worse with a 0.35mm nozzle.  
+
+Some people have switched to a stepper motor with an integrated planetary reduction.  That works, but the gearbox on that has a shaft which is larger than the 5mm hole in the MK7 drive gear I'm using.  I don't have access to the required machine tools to safely modify my drive gear for a larger shaft.  So instead I decided to make my own gear reducer using stuff from my junkbox.  
+
+The gear assembly itself is based on gear code from Emmett's Automatic Transmission Model: http://www.thingiverse.com/thing:34778  
+
+The extruder is originally based on the Airtripper extruder, but has been changed to the point of unrecognizability.  I changed the design to use bearings and bolts I had on hand, and modified the pinch arm to use a single bolt with a hand-friendly knob to make it easy to adjust the pressure on the bearing.  
+
+I have also changed the design to use the following push-fit connector:  
+
+http://www.amazon.com/gp/product/B004M8T2QE/ref=oh_details_o00_s01_i00  
+
+This holds better than the all-plastic designs I had been using, and also makes it easy to remove the Bowden tube when required.  
+
+All of the gears have prime numbers of teeth, which in theory should cause them to wear more evenly over time.  The final gear reduction is about 4.36:1.  
+
+I'm posting this design as a point of reference for anyone who is designing their own extruder using a printed gearbox.  I don't recommend just printing these parts as-is as this design was specifically based around the bearings and bolts I had on hand.  It's also fairly experimental as I don't know how printed gears will hold up long-term.  I've run it for a few hours and it seems to be working so far.  
+
+Update:  After running for about a year, the gearbox still works smoothly.  Some wear on the gear teeth, but not enough to be a problem.  
+
+Video of the machine running at http://www.youtube.com/watch?v=4j0u2avXHYs""" ;
+    okh:hasImage :Image ;
+    okh:licensor "Ellindsey" ;
+    okh:repo <https://www.thingiverse.com/thing:39138> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:39138> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Drew's Planetary Geared Extruder 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/2f/17/48/70/75/IMG_1405_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/2f/17/48/70/75/IMG_1405_display_large.jpg> .
+

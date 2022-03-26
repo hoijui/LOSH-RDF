@@ -1,0 +1,33 @@
+@prefix : <https://github.com/ermtl/Open-Source-Ventilator/0.3/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Opensourceventilator a okh:Module ;
+    rdfs:label "Open-Source-Ventilator" ;
+    okh:cpcPatentClass "A61H" ;
+    okh:dataSource "github.com" ;
+    okh:documentationLanguage "en-GB" ;
+    okh:function "Open-Source-Ventilator is complete functional ventilator (prototype stage) with both the controller, and the complete mechanical design, all the 3D printed parts (both STL & CAD files) as well as the CNC files for the box." ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "ermtl" ;
+    okh:repo <https://github.com/ermtl/Open-Source-Ventilator> ;
+    okh:repoHost "github.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> ;
+    okh:tsdc "ASM" ;
+    okh:uploadMethod "manifest" ;
+    okh:version "0.3" ;
+    okh:versionOf <https://github.com/ermtl/Open-Source-Ventilator> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Open-Source-Ventilator 0.3" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://raw.githubusercontent.com/ermtl/Open-Source-Ventilator/master/CNC/Ventilator.jpg> ;
+    okh:permaURL <https://raw.githubusercontent.com/ermtl/Open-Source-Ventilator/master/CNC/Ventilator.jpg> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of Open-Source-Ventilator 0.3" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://raw.githubusercontent.com/ermtl/Open-Source-Ventilator/v0.3/manifest_files/manually-created/GSCOP_documentation_projects/README.md> ;
+    okh:permaURL <https://raw.githubusercontent.com/ermtl/Open-Source-Ventilator/v0.3/manifest_files/manually-created/GSCOP_documentation_projects/README.md> .
+

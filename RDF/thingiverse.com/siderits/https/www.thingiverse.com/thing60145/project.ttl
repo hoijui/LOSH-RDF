@@ -1,0 +1,57 @@
+@prefix : <https://www.thingiverse.com/thing%3A60145/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:UsbPoweredRtqpcrModule a okh:Module ;
+    rdfs:label "USB powered RT-qPCR module" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Difficulty level: Advanced (see disclaimer at end).  \r
+\r
+I've listed the parts and approaches that I've used, and my results so far.  I think the project is at the point where others might find it worth considering for more advanced setups.  It grew out of an Instructable: http://www.instructables.com/id/Coffee-Cup-PCR-Thermocycler-costing-under-350/        \r
+You might also look at the BioHacking explanation webpage at http://en.wikipedia.org/wiki/Biohacking and the brilliant work at Open PCR http://openpcr.org/ \r
+\r
+The idea is to explore a 3D printed enclosure for this module.  The possibilities seem almost limitless.  I can print new designs for enclosures as fast as I can CAD them up.  Hope this information helps in your approaches.\r
+---\r
+This project seeks to configure a 3D-printed, USB powered, remotely accessed, disposable, low cost - Real Time Quantitative PCR (qPCR or RTPCR) module.\r
+\r
+Background:\r
+\r
+Polymerase chain reaction (PCR) has revolutionized broad areas of forensics, medicine, biology and field research.  Unfortunately Real Time (RT) PCR platforms which are able to track and display the amplification of DNA samples during a PCR procedure remain prohibitively expensive.  The development of a 3D printed, low cost USB powered remotely accessed system for under 220$ would be a tremendous advantage for research, medicine and education.\r
+\r
+What makes this project interesting?:\r
+ \r
+1.Broad range of applications with significant impact on education and research.\r
+2.Novel 3D printable Design features\r
+3.Combination of low cost technologies\r
+4.Providing access to Research technology\r
+5. Ruggedized system for field research\r
+\r
+A unique aspect of this project is that the development of a low cost portable RT-PCR module would span many levels of many types educational application.  These range from training young scientists in high school programs, through affordable teaching capabilities in molecular and biological science laboratories in graduate school settings, to postgraduate research laboratories and include ruggedized and portable field research applications. \r
+\r
+ The goal is to provide a portable USB powered RT-PCR module at a cost below 220$ and to provide this configuration with educational content, possibly in association with a biopharmaceutical corporation.    \r
+\r
+The objective is to provide this system not only at an affordable cost for academic programs but also to â€œruggedizeâ€ the module for use in biomedical, environmental and field research settings. \r
+\r
+Ideally the unit could be run with a parallax Basic stamp module, an LCD screen and a minty boost power supply.\r
+\r
+Initial tests have demonstrated acceptable thermal cycling (even without styrofoam insulation) and properly timed light level monitoring based on thermal cycling.  \r
+\r
+The Labview graphical software platform makes it easy to tweak the capabilities and develop high end user interfaces.  I'm currently tweaking the Light sensing keyed on Temperature reading in a separate graph.\r
+\r
+Disclaimer:  This is my experience.  I'm not telling you what to do, just what I did.  If you try this and brick your computer, then its on you.  No seriously, I mean that part.  This project is intended to explore the capabilities of low cost RT PCR on a 3D printed platform and is not intended for diagnostic or field research use.  It is only intended for educational, instructive or illustrative uses.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "siderits" ;
+    okh:repo <https://www.thingiverse.com/thing:60145> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:60145> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of USB powered RT-qPCR module 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/a8/db/3c/01/c1/20120417_203051b_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/a8/db/3c/01/c1/20120417_203051b_display_large.jpg> .
+

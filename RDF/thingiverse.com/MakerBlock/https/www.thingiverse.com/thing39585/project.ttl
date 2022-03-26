@@ -1,0 +1,32 @@
+@prefix : <https://www.thingiverse.com/thing%3A39585/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:OpenscadDxfCookieCutterForLlamas a okh:Module ;
+    rdfs:label "OpenSCAD DXF Cookie Cutter - for Llamas" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Thinigiverse user brandonh reminded me of this old cookie cutter design I uploaded more than two years ago.  It was originally designed in Google Sketchup - and it had a lot of problems.  I decided to see what I could do with my newfound OpenSCAD chops.\r
+\r
+I stripped the Sketchup file down to a 2D cross-section of the llama and then exported it to a DXF using a plugin.  Then it was a matter of importing that DXF into OpenSCAD and whipping up a little script to turn it into a decent cookie cutter.\r
+\r
+The script can take a DXF file and turn it into one of two different kinds of cookie cutters.  One is a blocky cookie cutter where the cutting part of the cookie cutter is shaped like the outside edge of the entire cookie cutter (look at the STL render to get a better idea of this).  The slim cookie cutter has the cutting part closely following the shape of the object to be cut out.  \r
+\r
+The second type is more pleasing and probably more useful, but takes longer to render in OpenSCAD.\r
+\r
+AnyHOW... the result is an OpenSCAD script that can help you quickly create nifty cookie cutters from an existing DXF.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "MakerBlock" ;
+    okh:repo <https://www.thingiverse.com/thing:39585> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:39585> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of OpenSCAD DXF Cookie Cutter - for Llamas 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/07/49/f3/30/7e/blocky_llama_cutter_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/07/49/f3/30/7e/blocky_llama_cutter_display_large.jpg> .
+

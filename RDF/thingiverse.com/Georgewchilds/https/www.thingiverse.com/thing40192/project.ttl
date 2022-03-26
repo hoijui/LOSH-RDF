@@ -1,0 +1,33 @@
+@prefix : <https://www.thingiverse.com/thing%3A40192/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:FlipItGood a okh:Module ;
+    rdfs:label "Flip It Good!" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Turn your Prusa Mendel World upside down!\r
+\r
+And increase your Z-axis build space by 40% !!!\r
+\r
+I've been printing this way for over a month now.\r
+\r
+The stl and scad files below are for the 126mm tube that is printed in the picture.\r
+\r
+Here's a YouTube video of the last part of the print:\r
+http://m.youtube.com/watch?v=O6T0TAdobz4""" ;
+    okh:hasImage :Image ;
+    okh:licensor "Georgewchilds" ;
+    okh:repo <https://www.thingiverse.com/thing:40192> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:40192> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Flip It Good! 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/ed/2c/21/bf/4f/Finished_124mm_Tube_Printed_after_Flip_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/ed/2c/21/bf/4f/Finished_124mm_Tube_Printed_after_Flip_display_large.jpg> .
+

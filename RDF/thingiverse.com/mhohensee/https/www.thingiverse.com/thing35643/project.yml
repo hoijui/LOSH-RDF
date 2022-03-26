@@ -1,0 +1,48 @@
+__meta:
+  branch: null
+  created-at: '2012-11-26T06:38:40+00:00'
+  history: null
+  last-changed: null
+  last-visited: '2022-03-01T11:00:10.320765+00:00'
+  owner: mhohensee
+  path: null
+  repo: https://www.thingiverse.com/thing:35643
+  score: null
+  source: thingiverse.com
+attestation: null
+bom: null
+contribution-guide: null
+cpc-patent-class: null
+documentation-language: en
+documentation-readiness-level: odrl3
+function: "The only things you'll need are cable ties, bearings, and maybe some M8 hardware.  Supports 1kg spools with no trouble.\r\n\r\nMy first spool holder was a clip-on 608 bearing based roller-mount (see www.thingiverse.com/thing:16338), which worked great with the solid plastic Ultimachine filament spools.  Since then, I've switched to using PLA filament from printbl.com, which is great stuff, but comes in cardboard-sided spools.  The cardboard tended to get jammed between the roller-bearings and the clip, and to occasionally drop little shreds of itself onto prints in progress.  This made me sad.\r\n\r\nI looked around for a fully printable spool holder, but I couldn't find one that didn't at least use some kind of extrusion or threaded-rod framework.  Rather than waste a couple of days for McMaster to fill an order for threaded rod, I spent a couple of weeks designing what I think is a pretty decent example of a fully printable, parametric spool mount.  Pieces are locked together with cable ties.\r\n\r\nEverything is printable, excepting the two 608 bearings --unless your printer is good enough that its prints self-lubricate.  Clearances are accounted for parametrically, so you should be able to assemble the parts straight from the printer without additional finishing.  To make life easier (as I have), don't print screws and bolts, but just use three M8 bolts, four washers, and five M8 nuts to assemble the spindle.\r\n\r\nThe spindle is optimized for the spools sold by printbl.com.  These spools' inner diameters seem to vary a bit, so I had to make the spindle's size adjustable.  See the instructions for how to do so. Since the design is fully parametric, you can change the spindle diameter, cable-tie dimensions, type of bearing, mounting hardware, and overall size as you like.\r\n\r\nIn the course of making this spool-mount, I also developed a fairly general library for building other kinds of fully printable frames, see cabletie_brackets.scad.  The bracket mounts and rods are very flexible.  You can not only choose the size of the box (bracket-section) that each rod might plug into, but also the angle between successive sections.  The library takes care of adjusting the length of the rods as a function of what kind of bracket they are meant to plug into.  This lets you specify an arbitrary polygon by placing brackets such that their centers of curvature define its vertexes, and the necessary connecting rods in terms of the vertex-to-vertex distance, rather than manually correct for the displacement of the bracket's socket.  When run, openscad scripts will tell you how long your rods will need to be to satisfy your geometric requirements.  I've included some demonstrations of the library in .stl format so you can see what I mean.  The demo files (and assembly.stl, for that matter) are not intended to be sliced and printed --you need to print their parts separately."
+image:
+  created-at: '2012-11-26T06:38:40+00:00'
+  last-changed: '2012-11-26T06:38:40+00:00'
+  last-visited: '2022-03-01T12:48:27.705030+00:00'
+  license: LGPL-3.0-or-later
+  licensor: mhohensee
+  mime-type: null
+  name: 20121124_130023_display_large
+  path: https:/cdn.thingiverse.com/renders/be/66/af/fd/d6/20121124_130023_display_large.jpg
+  perma-url: https://cdn.thingiverse.com/renders/be/66/af/fd/d6/20121124_130023_display_large.jpg
+  url: https://cdn.thingiverse.com/renders/be/66/af/fd/d6/20121124_130023_display_large.jpg
+license: LGPL-3.0-or-later
+licensor: mhohensee
+manufacturing-instructions: null
+name: Fully parametric & fully printable spool spindle and frame.
+okhv: OKH-LOSHv1.0
+organization: null
+part: []
+publication: null
+readme: null
+release: null
+repo: https://www.thingiverse.com/thing:35643
+software: []
+specific-api-data: {}
+standard-compliance: null
+technology-readiness-level: ortl4
+tsdc: null
+upload-method: auto
+user-manual: null
+version: 1.0.0

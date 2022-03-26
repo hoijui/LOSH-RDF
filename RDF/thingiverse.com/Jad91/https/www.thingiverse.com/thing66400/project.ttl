@@ -1,0 +1,33 @@
+@prefix : <https://www.thingiverse.com/thing%3A66400/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:StarWarsInsignias a okh:Module ;
+    rdfs:label "Star Wars Insignias" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """A bunch of different insignias from the star wars universe.  \r
+I was experimenting with making files that I could both laser cut and 3D print.   \r
+Open the SVG file; each insignia has it's own layer and can be easily separated.   \r
+\r
+***Don't mind the apparent scribble in the bottom left corner. As I said, I separated them in to layers, so that I could pick and choose which one to use, and I also tried putting a bunch in the lower left corner so they'd all have the same origin and be easier for manipulating when I imported them into OpenSCAD\r
+\r
+\r
+---------------------------------------\r
+Edit June 13, 2017:\r
+I realized the file format wasn't really user friendly, so I redid it and added a few more symbols.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "Jad91" ;
+    okh:repo <https://www.thingiverse.com/thing:66400> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:66400> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Star Wars Insignias 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/36/08/63/5b/8d/2665ea949f7deced8b631a097b7b0b15_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/36/08/63/5b/8d/2665ea949f7deced8b631a097b7b0b15_display_large.jpg> .
+

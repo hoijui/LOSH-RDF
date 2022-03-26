@@ -1,0 +1,42 @@
+@prefix : <https://www.thingiverse.com/thing%3A35681/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:IotThermalPrinterEnclosureBox a okh:Module ;
+    rdfs:label "IoT Thermal Printer Enclosure Box" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This box is a slightly modified version of Adafruit's IoT Printer Enclosure (http://www.thingiverse.com/thing:18319). I did the following modifications:\r
+\r
+- added 3 holes on the side panel to hold status LEDs. The three LEDs provide feedback about the current status of the IoT printer, i.e. receiving data, printing, connection error. In my IoT printer project, I use the Freerange firmware and hardware setup, check out https://github.com/freerange/printer/wiki/Making-your-own-printer for more details.\r
+- I didn't want to go through the extra wiring for installing an external panel jack, so I moved the hole on the back panel for the power adapter to connect directly into the Arduino jack.\r
+- straightened the saw-toothed front panel\r
+- replaced the @-sign holes in the front with a custom engraving\r
+\r
+\r
+---\r
+This is the enclosure cut out files for the Adafruit IoT Printer\r
+Pick up a printer today!\r
+\r
+-----> adafruit.com/iotp\r
+\r
+Adafruit invests time and resources providing this open source code, please support Adafruit and open-source hardware by purchasing products from Adafruit!\r
+\r
+Designed by Adafruit Industries. \r
+Creative Commons, Attribution & Share-Alike license\r
+All text above must be included in any redistribution""" ;
+    okh:hasImage :Image ;
+    okh:licensor "kavasmlikon" ;
+    okh:repo <https://www.thingiverse.com/thing:35681> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:35681> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of IoT Thermal Printer Enclosure Box 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/be/09/01/7d/b2/IMG_8322_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/be/09/01/7d/b2/IMG_8322_display_large.jpg> .
+

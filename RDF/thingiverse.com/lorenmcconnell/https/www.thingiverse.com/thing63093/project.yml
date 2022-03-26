@@ -1,0 +1,48 @@
+__meta:
+  branch: null
+  created-at: '2013-03-18T00:58:34+00:00'
+  history: null
+  last-changed: null
+  last-visited: '2022-03-07T11:00:04.028160+00:00'
+  owner: lorenmcconnell
+  path: null
+  repo: https://www.thingiverse.com/thing:63093
+  score: null
+  source: thingiverse.com
+attestation: null
+bom: null
+contribution-guide: null
+cpc-patent-class: null
+documentation-language: en
+documentation-readiness-level: odrl3
+function: "I am uploading this design in honor of St. Patrick's Day.  \r\n\r\nI saw the \"Celtic Crosses\" Thing by jpearce (linked), and couldn't resist doing it my own way. \r\n\r\nThis is another product of my Bezier Curves script for Blender.   (http://www.thingiverse.com/thing:56629 )  This is a somewhat more complex application than I have attempted so far, and I am pleased with the result.  Actually, generating the geometry for the braids was the easy part...\r\n\r\nWhat I've struggled with is to \"clean\" the meshes that Blender produces.  The knot meshes are self-intersecting, and Blender tends to produce non-manifold geometry in Bezier curves.  After fixing the manifold issues, Blender still fails in boolean operations with the Bezier curve meshes.\r\n\r\nI have tried to clean the meshes in MeshLab also, but without success.  It can select and delete non-manifold faces, but that leaves holes in the mesh, and the automated hole filling tool has not yielded satisfactory results.  I found a way to remove hidden faces using ambient occlusion, but that leaves behind the self-intersecting faces where the braids overlap.  And I've found no automated way to correct them.  Given the size and complexity of these meshes, I need an automated way to address these issues.\r\n\r\nOn the bright side, Makerbot MakerWare did seem to handle the slicing of this dirty mesh -- it reported no errors.  Of course, the Proof is in the Printing, and since I failed to win the recent MakerBot Challenge, I am as yet still without a printer.  \r\n\r\nI am posting this as a work in progress, pending a successful cleaning of the mesh.  In the meantime, I welcome input on the best known methods for cleaning meshes of internal (hidden, useless) geometry and self-intersecting faces.\r\n\r\nUPDATE 2013 Mar18:  The Netfabb cloud service (http://cloud.netfabb.com/)  did very good work with this mesh.  It took two passes, though.  The first run through Netfabb dropped half of the center knot. So, I took that repaired mesh, added in the second half of that knot and sent it back to Netfabb.  The result still has about 40 non-manifold vertices, but that's MUCH better than it was.  I uploaded the result."
+image:
+  created-at: '2013-03-18T00:58:34+00:00'
+  last-changed: '2013-03-18T00:58:34+00:00'
+  last-visited: '2022-03-07T13:52:59.907772+00:00'
+  license: CC-BY-SA-4.0
+  licensor: lorenmcconnell
+  mime-type: null
+  name: Celtic_Cross_2_display_large
+  path: https:/cdn.thingiverse.com/renders/42/05/2f/3b/b0/Celtic_Cross_2_display_large.jpg
+  perma-url: https://cdn.thingiverse.com/renders/42/05/2f/3b/b0/Celtic_Cross_2_display_large.jpg
+  url: https://cdn.thingiverse.com/renders/42/05/2f/3b/b0/Celtic_Cross_2_display_large.jpg
+license: CC-BY-SA-4.0
+licensor: lorenmcconnell
+manufacturing-instructions: null
+name: Celtic Cross
+okhv: OKH-LOSHv1.0
+organization: null
+part: []
+publication: null
+readme: null
+release: null
+repo: https://www.thingiverse.com/thing:63093
+software: []
+specific-api-data: {}
+standard-compliance: null
+technology-readiness-level: ortl4
+tsdc: null
+upload-method: auto
+user-manual: null
+version: 1.0.0

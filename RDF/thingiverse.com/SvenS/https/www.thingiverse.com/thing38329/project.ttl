@@ -1,0 +1,31 @@
+@prefix : <https://www.thingiverse.com/thing%3A38329/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:RevisedSchwibbogen a okh:Module ;
+    rdfs:label "Revised Schwibbogen" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """I improved on the small version of the Schwibbogen Smithy:\r
+- cleaned up some unnecessary paths\r
+- widened some parts that were too tiny\r
+- added a base ala http://www.thingiverse.com/thing:17240\r
+- removed some parts I didn't know where to put when assembling (may add them in a v2 when I can identify them ;))\r
+\r
+I also changed everything to 3mm plywood and put it on a 400x300 sheet (the material available at my local FabLab).\r
+Paths to cut have a width of 0.01mm, paths to engrave are 0.5mm.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "SvenS" ;
+    okh:repo <https://www.thingiverse.com/thing:38329> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:38329> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Revised Schwibbogen 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/0e/b7/20/e9/04/schmiede_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/0e/b7/20/e9/04/schmiede_display_large.jpg> .
+

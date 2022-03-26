@@ -1,0 +1,28 @@
+@prefix : <https://www.thingiverse.com/thing%3A40534/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ScrewTester2 a okh:Module ;
+    rdfs:label "Screw Tester 2" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is a very basic tool for testing hole sizes for various screws.\r
+\r
+Every printer is slightly different in its specifications and capabilities. I wanted to make sure that the screws I'm using will work effectively on the various projects I'm developing, so I made this tool to ensure the screws will fit correctly.\r
+\r
+This is basically just a set of increasingly larger holes, from 2.0 mm through 6.2 mm, in 0.2 mm increments. I have included a reference image that will enable you to quickly identify the size that fits best.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "inventorjack" ;
+    okh:repo <https://www.thingiverse.com/thing:40534> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:40534> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Screw Tester 2 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/4b/25/fc/fa/e5/Screw_Size_Test_2_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/4b/25/fc/fa/e5/Screw_Size_Test_2_display_large.jpg> .
+

@@ -1,0 +1,41 @@
+@prefix : <https://www.thingiverse.com/thing%3A47531/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Iomeshopenscad a okh:Module ;
+    rdfs:label "io_mesh_openscad" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Blender output module for OpenSCAD  
+
+Trying to make something for Customizer, but need a better way of controlling the geometry you're customizing?  Ever peek the source for an OpenSCAD and see giant strings of values?  
+This is the module for Blender that outputs meshes in OpenSCAD compatible format.  
+
+io_mesh_openscad is https://github.com/graphicsforge/io_mesh_openscad  
+OpenSCAD is http://www.openscad.org/  
+------  
+Version 0.3  
+ - curves now export as polygons instead of polyhedron!  Great for openscad as it's optimized for 2D  
+ - clothbot fixed my fumble of merging the multimatrix function in   
+   
+Version 0.2  
+Due entirely to clothbot and atartanian being awesome, we present the next version of io_mesh_openscad  
+You can now:  
+ - "use " in other openscad files in a meaningful way  
+ - add shapekeys to an object in blender, and export it into a Customizerâ„¢ script  
+ - export more geometries and still have actually-workingâ„¢ openscad code!!""" ;
+    okh:hasImage :Image ;
+    okh:licensor "graphicsforge" ;
+    okh:repo <https://www.thingiverse.com/thing:47531> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:47531> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of io_mesh_openscad 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/d1/5d/45/72/8f/Screenshot_from_2013-02-05_224116_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/d1/5d/45/72/8f/Screenshot_from_2013-02-05_224116_display_large.jpg> .
+

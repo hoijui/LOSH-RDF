@@ -1,0 +1,45 @@
+@prefix : <https://www.thingiverse.com/thing%3A34567/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ModularSnapfitBlocks a okh:Module ;
+    rdfs:label "Modular Snap-fit Blocks" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """I have a two-year old daughter who loves playing with blocks and other construction toys. However, all of the block sets we've gotten her have either been too small for her to manipulate, require too much force to put together/take apart, and/or don't come in sufficient diversity of shapes. \r
+\r
+I've been teaching my daughter about 3d Printing (she loves being able to ask for a toy and watch it print), so I decided to see if we could design a better snap-fit block for toddlers. I'll do the design and she'll be my beta-tester. \r
+\r
+I've build openscad program so that the blocks can be made with any number of rows/columns. \r
+\r
+Version 1:\r
+      5 sided rectangular solid with a raised cylinder to    fit into the open side\r
+      Wall thickness - 2 mm\r
+      Edge - 25.4 mm\r
+      Height - 1.25 * edge\r
+      Cylinder_radius - edge/2-wall-0.1 (exact fit less 0.1 mm)\r
+\r
+       Notes: cylinder is a little loose and walls are stiff. Will try version 2 with a tighter fit, bevel for easier press, and 1 mm walls.\r
+\r
+Version 2:\r
+      5 sided rectangular solid with a raised cylinder to    fit into the open side\r
+      Wall thickness - 1 mm\r
+      Edge - 25.4 mm\r
+      Height - 1.25 * edge\r
+      Cylinder_radius - edge/2-wall-0.1 (exact fit less 0.1 mm)\r
+      Bevel - 0.85 * cylinder_radius""" ;
+    okh:hasImage :Image ;
+    okh:licensor "skaye" ;
+    okh:repo <https://www.thingiverse.com/thing:34567> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:34567> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Modular Snap-fit Blocks 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/43/47/1e/63/19/Modular_block_-_v2_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/43/47/1e/63/19/Modular_block_-_v2_display_large.jpg> .
+

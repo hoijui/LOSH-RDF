@@ -1,0 +1,40 @@
+@prefix : <https://www.thingiverse.com/thing%3A55304/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:SchmidtStyleCouplingparametric a okh:Module ;
+    rdfs:label "Schmidt Style Coupling (parametric)" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is a mechanism to transmit rotation power between two axles that can move relative to one another but stay parallel at all times. It can take higher loads than a doublecardan joint.  \r
+\r
+I need to ad a clearance parameter for the pins. The first test-print was stuck.  \r
+**Generally this design needs a lot of improvement. Expect problems.**\r
+\r
+**Known issues:**  \r
+★ short pins are too stiff  \r
+★ tolerances are too thigh  \r
+★ parts are too thick  \r
+\r
+it was inspired by this:  \r
+  http://www.thingiverse.com/thing:14060\r
+\r
+and it is intended as a drive for my moineau pump model  \r
+  http://www.thingiverse.com/thing:28237\r
+\r
+For the connector pieces the optimal length is chosen automatically.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "mechadense" ;
+    okh:repo <https://www.thingiverse.com/thing:55304> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:55304> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Schmidt Style Coupling (parametric) 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/b0/cb/7a/90/aa/schmidt-coupling_fullassembly-nopins_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/b0/cb/7a/90/aa/schmidt-coupling_fullassembly-nopins_display_large.jpg> .
+

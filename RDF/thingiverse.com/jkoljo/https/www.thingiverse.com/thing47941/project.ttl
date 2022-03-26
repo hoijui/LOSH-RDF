@@ -1,0 +1,28 @@
+@prefix : <https://www.thingiverse.com/thing%3A47941/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Prusa2LaserCutPrintBed a okh:Module ;
+    rdfs:label "Prusa 2 laser cut print bed" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is a thick sheet for Reprap Prusa iteration 2, which is intended to be cut with a laser cutter.\r
+\r
+It has 4 mm holes, 3.2 mm is minimum value for 3 mm bolts, but 4 mm allows for manufacturing tolerances and small room for error.\r
+\r
+It has mount holes for belt holders, LM8UU/LME8UU bearing brackets and PCB heat bed. The Prusa 2 spec. items are supported.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "jkoljo" ;
+    okh:repo <https://www.thingiverse.com/thing:47941> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:47941> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Prusa 2 laser cut print bed 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/05/0c/2c/6b/e5/laserplate_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/05/0c/2c/6b/e5/laserplate_display_large.jpg> .
+

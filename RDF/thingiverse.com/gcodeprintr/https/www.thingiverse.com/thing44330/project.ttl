@@ -1,0 +1,50 @@
+@prefix : <https://www.thingiverse.com/thing%3A44330/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Gcodeinfo a okh:Module ;
+    rdfs:label "GCodeInfo" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is a small command line tool to analyse gcodes. It calculates various print details like  
+-print time  
+-used filament  
+-yx move distance  
+-print object dimension  
+-average print speeds  
+-number of layers   
+-layer details  
+-speed distribution   
+-weight and price of the printed object  
+...  
+**** UPDATE 0.98  Now with edit mode (experimental) ******  
+Change the print speed by percent  
+Change the extrusion rate by percent  
+Change the Layerheight by percent (+increase extrusion)  
+Modify extruder temperatur (only update existing gcodes)  
+Modify bed temperatur  (only update existing gcodes)  
+Add Offset to Z position (requires layer option 'all'  
+Add Offset to X position (requires layer option 'all'  
+Add Offset to Y position (requires layer option 'all'  
+Modify Fan options 0=off, 255=full (only update existing gcodes)  
+Delete the specified layers  
+
+
+
+I used it to optimize my slicer settings and print times for my reprap printer.  
+Tested mostly with slic3r generated gcodes.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "gcodeprintr" ;
+    okh:repo <https://www.thingiverse.com/thing:44330> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:44330> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of GCodeInfo 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/26/64/1a/e7/87/Screenshot_from_2013-01-25_011949_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/26/64/1a/e7/87/Screenshot_from_2013-01-25_011949_display_large.jpg> .
+

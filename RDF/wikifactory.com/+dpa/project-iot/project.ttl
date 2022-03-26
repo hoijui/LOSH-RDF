@@ -1,0 +1,61 @@
+@prefix : <https://wikifactory.com/%2Bdpa/project-iot/b8aefb5a986875f39f4d4f0b6c1a5b38966e79f1/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ProjectIot a okh:Module ;
+    rdfs:label "Project IoT" ;
+    okh:dataSource "wikifactory.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function "The aim is to create a fun little iot project during the DPA session \"Electronics + App Development\"." ;
+    okh:hasComponent :Postanzeigerv6,
+        :PostwifiV2 ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "Philipp Beckers" ;
+    okh:organisation "Digital Prototyping Academy" ;
+    okh:release <https://wikifactory.com/+dpa/project-iot/v/b8aefb5> ;
+    okh:repo <https://wikifactory.com/+dpa/project-iot> ;
+    okh:repoHost "wikifactory.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/MIT> ;
+    okh:uploadMethod "auto" ;
+    okh:version "b8aefb5a986875f39f4d4f0b6c1a5b38966e79f1" ;
+    okh:versionOf <https://wikifactory.com/+dpa/project-iot> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Project IoT b8aefb5a986875f39f4d4f0b6c1a5b38966e79f1" ;
+    okh:fileFormat "JPEG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/79744/5adf3b0d-203d-4629-99c6-668d2687a8cc.jpeg> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0MzI4NzM=> .
+
+:Postanzeigerv6 a okh:Part ;
+    rdfs:label "Postanzeiger_v6" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Engel Thomas" ;
+    okh:source :Postanzeigerv6_source ;
+    okh:spdxLicense <https://spdx.org/licenses/MIT> .
+
+:Postanzeigerv6_source a okh:SourceFile ;
+    rdfs:label "Source File of Postanzeiger_v6 of Project IoT b8aefb5a986875f39f4d4f0b6c1a5b38966e79f1" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/79744/postanzeiger_v6.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0MzI0MDQ=> .
+
+:PostwifiV2 a okh:Part ;
+    rdfs:label "PostWifi v2" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Engel Thomas" ;
+    okh:source :PostwifiV2_source ;
+    okh:spdxLicense <https://spdx.org/licenses/MIT> .
+
+:PostwifiV2_source a okh:SourceFile ;
+    rdfs:label "Source File of PostWifi v2 of Project IoT b8aefb5a986875f39f4d4f0b6c1a5b38966e79f1" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/79744/postwifi_v2.stl> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NTQzMjc=> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of Project IoT b8aefb5a986875f39f4d4f0b6c1a5b38966e79f1" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/79744/readme-21545.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NTQzMzQ=> .
+

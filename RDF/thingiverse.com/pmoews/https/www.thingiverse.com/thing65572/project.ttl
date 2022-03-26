@@ -1,0 +1,42 @@
+@prefix : <https://www.thingiverse.com/thing%3A65572/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:HilbertCurveCoasters a okh:Module ;
+    rdfs:label "Hilbert Curve Coasters  " ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Here are 4 coasters illustrated with images of the Hilbert curve.\r
+\r
+The Hilbert curve is usually generated in stages and the first coaster shows four separate curves of first, second, third and fourth orders.\r
+\r
+The other three coasters display fourth order curves where individual lines are replaced by larger and larger rectangles.  The effect is to create patterns with interesting symmetry.\r
+\r
+The four sets of stl files are:\r
+\r
+ medley_coaster.stl and medley_pattern.stl\r
+ four_30_coaster.stl and four_30_pattern.stl\r
+ four_80_coaster.stl and four_80_pattern.stl\r
+ four_101_coaster.stl and four_101_pattern.stl\r
+\r
+\r
+The openSCAD code that created the patterns is hilbert_patterns.scad and the patterns it created are in h_dxf.zip as dxf files.  The program that created the coasters is hilbert_coasters.scad.\r
+\r
+Jbum, thing:14546, has created an attractive music box with a Hilbert curve on the lid and gadgetguydk's entry, thing:1011, contains an image of a high order Hilbert curve.\r
+\r
+Hilbert curves were discovered by David Hilbert in 1891.  They are an important part of mathematical history and now widely used.  You can read about them on Wikipedia.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "pmoews" ;
+    okh:repo <https://www.thingiverse.com/thing:65572> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:65572> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Hilbert Curve Coasters   1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/27/2f/99/5e/de/hilbert_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/27/2f/99/5e/de/hilbert_display_large.jpg> .
+

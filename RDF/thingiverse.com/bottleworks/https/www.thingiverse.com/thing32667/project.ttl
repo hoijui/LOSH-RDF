@@ -1,0 +1,36 @@
+@prefix : <https://www.thingiverse.com/thing%3A32667/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:MyVersionOfTheLymanFilamentExtruder a okh:Module ;
+    rdfs:label "My version of the LYMAN FILAMENT EXTRUDER" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is my version of the "LYMAN FILAMENT EXTRUDER".  \r
+\r
+This version has a:\r
+1.  Larger Hot end with 350 Watt heater\r
+2.  Automatic timing system\r
+3.  fan ducting\r
+4.  Modified sprokets and hopper\r
+5.  Adjustable motor speed on the control panel.  \r
+\r
+Basics of how it works:\r
+Flip on the main switch.  This turns on the cooling fan.  Then press the red Momentary pushbutton.  This activates a 1 second timer that gets latched on and begins the motor timer set for 20 minutes.  The latched 1 second timer powers the relay that powers the PID.  I used the 1 second timer because I wanted the control mechanics as I made them.  Unnecessarily complex, but it's what I wanted.  \r
+\r
+If you take a look at the parts I used, you might see a lot of dollar signs.  The parts that I used were mostly free.  I endup collecting a lot of stuff that gets deemed "broken" or otherwise would have been thrown away.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "bottleworks" ;
+    okh:repo <https://www.thingiverse.com/thing:32667> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:32667> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of My version of the LYMAN FILAMENT EXTRUDER 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/2a/1e/ed/58/ee/IMG_0916_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/2a/1e/ed/58/ee/IMG_0916_display_large.jpg> .
+

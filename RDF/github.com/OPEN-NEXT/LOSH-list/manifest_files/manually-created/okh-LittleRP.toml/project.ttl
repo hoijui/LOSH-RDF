@@ -1,0 +1,41 @@
+@prefix : <https://github.com/goopyplastic/littlerp2/2.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Littlerp a okh:Module ;
+    rdfs:label "LittleRP" ;
+    okh:cpcPatentClass "A41G" ;
+    okh:dataSource "github.com" ;
+    okh:documentationLanguage "en-GB" ;
+    okh:function "LittleRP is an Open Source Resin 3D Printer" ;
+    okh:hasBoM :BillOfMaterials ;
+    okh:hasManufacturingInstructions :ManufacturingInstructions ;
+    okh:hasReadme :Readme ;
+    okh:licensor "goopyplastic@github.com" ;
+    okh:release <https://github.com/goopyplastic/littlerp2> ;
+    okh:repo <https://github.com/goopyplastic/littlerp2> ;
+    okh:repoHost "github.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-3.0> ;
+    okh:tsdc "ASM" ;
+    okh:uploadMethod "manifest" ;
+    okh:version "2.0.0" ;
+    okh:versionOf <https://github.com/goopyplastic/littlerp2> .
+
+:BillOfMaterials a okh:BoM ;
+    rdfs:label "BillOfMaterials of LittleRP 2.0.0" ;
+    okh:fileFormat "MD#BILL-OF-MATERIALS" ;
+    okh:fileUrl <https://raw.githubusercontent.com/goopyplastic/littlerp2/v2.0.0/manifest_files/manually-created/README.md#bill-of-materials> ;
+    okh:permaURL <https://raw.githubusercontent.com/goopyplastic/littlerp2/v2.0.0/manifest_files/manually-created/README.md#bill-of-materials> .
+
+:ManufacturingInstructions a okh:ManufacturingInstructions ;
+    rdfs:label "ManufacturingInstructions of LittleRP 2.0.0" ;
+    okh:fileFormat "MD#BUILD-GUIDES" ;
+    okh:fileUrl <https://raw.githubusercontent.com/goopyplastic/littlerp2/v2.0.0/manifest_files/manually-created/README.md#build-guides> ;
+    okh:permaURL <https://raw.githubusercontent.com/goopyplastic/littlerp2/v2.0.0/manifest_files/manually-created/README.md#build-guides> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of LittleRP 2.0.0" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://raw.githubusercontent.com/goopyplastic/littlerp2/v2.0.0/manifest_files/manually-created/README.md> ;
+    okh:permaURL <https://raw.githubusercontent.com/goopyplastic/littlerp2/v2.0.0/manifest_files/manually-created/README.md> .
+

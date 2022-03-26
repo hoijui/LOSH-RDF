@@ -1,0 +1,41 @@
+@prefix : <https://www.thingiverse.com/thing%3A38861/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ParametricBottleNameTag a okh:Module ;
+    rdfs:label "Parametric Bottle Name Tag" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """An OpenSCAD script to create clips with your name on it which can be used to mark your bottles. In contrast to the original version by daniel, this derivative is easier adaptable and knows the following parameters:   \r
+\r
+- name\r
+- logo (DXF, should be 50mm*50mm)\r
+- radius at upper and lower side\r
+- height\r
+- font\r
+- gap angle\r
+\r
+The name tag itself resides as a module in `bottle-clip.scad`, and there are some ready-to-use examples in `examples.scad`. Feel free to modify them.  \r
+\r
+Note that the STL provided here ist just for illustration. You can print it though, if you want ;-) There are also some logo samples which you can use.  \r
+\r
+Update 2018-07-29: add gap angle parameter, useful for flexible filament\r
+\r
+Update 2013-03-26: add Club Mate logo. The script needs `Write.scad` and fonts in the `write/` subfolder now.  \r
+\r
+Update 2013-06-06: added Tetris S piece and a glider. This thing is now maintained on GitHub: https://github.com/rohieb/bottle-clip-name-tag""" ;
+    okh:hasImage :Image ;
+    okh:licensor "rohieb" ;
+    okh:repo <https://www.thingiverse.com/thing:38861> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:38861> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Parametric Bottle Name Tag 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/18/7d/e2/73/86/2013-02-15_23.00.57__display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/18/7d/e2/73/86/2013-02-15_23.00.57__display_large.jpg> .
+

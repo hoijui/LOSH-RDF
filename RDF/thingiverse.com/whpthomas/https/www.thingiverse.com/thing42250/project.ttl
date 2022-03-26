@@ -1,0 +1,150 @@
+@prefix : <https://www.thingiverse.com/thing%3A42250/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Replicator2ExtruderUpgrade a okh:Module ;
+    rdfs:label "Replicator 2 Extruder Upgrade" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This extruder upgrade for the Replicator 2 replaces the Delrin plunger with a pinch roller. Using the spring specified in the parts list below, this pinch roller provides about 60N of force on the filament, which provides enough driving pressure on the filament, in combination with the stepper drive gear to prevent stripping.  \r
+\r
+Unlike other designs, this one uses a pin style bush on which the pinch arm rotates. This provides a large lower friction surface for the pinch wheel arm to rotate on, and allows the mounting screw to be fully tightened so there is no chance of it working loose.  \r
+\r
+I have extensively tested this design, which has evolved through numerous iterations, and I have also tested several different springs. With the specified spring I can hold the drive gear with my thumb and pull hard on the filament without it stripping, and its done numerous unattended prints with troublesome clear PLA filament -  so I can confidently say __it works__.  \r
+\r
+### UPDATE (Mar 4th 2013)\r
+\r
+In v7 I have added a filament guide slot to the bottom of the backing plate. I added a spring channel to hold the spring in place and stiffen the backing plate. I redesigned the arm geometry to make it pivot better - compressed and uncompressed. I altered the pin so one side now holds the base plate down against the stepper motor.   \r
+\r
+This extruder upgrade was designed using an ACIS solid in Shark FX/ViaCAD (vc3 file included) so will behave well with Makerware, ReplicatorG and skeinforge. There are also STEP files that can be imported into other CAD programs.  \r
+\r
+Print and source parts, disassemble extruder, upgrade and reassemble, enjoy life 3D printing.  \r
+\r
+### Now that the Replicator 2 ships with an injection moulded version of this extruder upgrade, much of what I have stated below is moot. I hope the current crop of the Replicator 2 owners run into less problems than we early adopters experienced.\r
+\r
+## RATIONALE  \r
+\r
+I have come to the considered view that the design of the Delrin plunger drive arrangement on the MakerBot Replicator 2 is defective. It uses a grub screw seated on a rubber O-ring to provide pressure on the filament to keep it in contact with the drive gear (see picture). The problem with using a rubber elastomer as a spring is that it will tend to seat-in over time, loosing some of its 'springiness' and requiring adjustment. However on the Replicator 2, adjustment of the plunger grub screw also requires the extruder unit to be partially disassembled. Now that the blower fan uses self-tapping screws, it doesn't seem like a good idea to be constantly removing and inserting those screws into plastic threads. More to the point, the amount of spring travel provided by the rubber elastomer is not sufficient to accommodate variations in filament diameter from 1.7mm to 1.8mm and maintain even drive pressure. Unfortunately some rolls of filament contain this degree of variation within the roll. In my experience, clear and white PLA are particularly troublesome. Failure of this plunger mechanism to maintain consistent drive pressure during printing leads to failed prints, wasted filament and printer downtime.  \r
+\r
+The MakerBot website claims that "Replicator 2 has been engineered with the professional designer in mind". I am a professional product designer, and I do not feel that the Replicator 2 Delrin plunger drive arrangement, with these inherent problems, fulfils this usability objective.  \r
+\r
+So I set about to design an upgrade that used parts which were readily available, an upgrade that could be printed reliably, and one that worked as expected.  \r
+\r
+##PRINTED PARTS  \r
+\r
+I printed the Mk8-Upgrade-Base and Mk8-Upgrade-Arm using my 100 micron ReplicatorG profile thingiverse.com/thing:39050 with the following settings:  \r
+\r
+Infill 100%  \r
+Layer Height 0.15mm  \r
+Number of shells 1  \r
+Feedrate 80 mm/s  \r
+Travel Feedrate 150 mm/s  \r
+\r
+Make sure you use a PLA that prints reliably on your machine. However, some more experienced Makerbot operators are recommending printing these parts in Black PLA because black has a higher melting point. Nevertheless, solid parts printed in Black PLA are prone to warping, so I have added ear tabs to hold them down on the build plate better. Seeing these have 100% infill, its not a bad idea to print these bit leaner than you normally would by increasing the filament diameter in Print-O-Matic by +0.03mm.  \r
+\r
+Once printed, ream out the holes on the arm with an M6 and M8 reamer (if you have them) or similarly sized drill bits. This will ensure the parts mate without friction. You can ream out the filament feed hole with the second smallest hex wrench provided with your Replicator 2.   \r
+\r
+There is also a snap-off support on the bottom of the Base that is there to act as a bridge to support the printing of the recessed area. Carefully use a sharp knife to cut this off and use a small flat file to clean the area of any loose strands of filament. There is 0.5mm clearance here so it doesn't need to be perfect.  \r
+\r
+I printed the Mk8-Upgrade-Pin using my 100 micron ReplicatorG profile with the following settings:  \r
+\r
+* Infill 100%  \r
+* Layer Height 0.1mm  \r
+* Number of shells 1  \r
+* Feedrate 80 mm/s  \r
+* Travel Feedrate 150 mm/s  \r
+\r
+If you don't have a set of metric reamers or drill bits I recommend printing two of these Pins and use the first one with a pair of pliers to ream out the holes. Insert it into each hole separately and twist it around, the flat edge on the pin will tend to act like a reamer and clean out the hole for you. I have tested this approach just to make sure it works.  \r
+\r
+## SPRING  \r
+\r
+You will need a 3/8" x 1-1/8" x 0.041" compression spring.  \r
+\r
+This is available from Home Depot (see photo). It is the middle sized one in the pack but check the dimensions on the pack to ensure you buy the right pack. The same spring is also available in the US at True Value hardware stores.  \r
+\r
+It is also made by Century Spring Corp. The model number on a store bought packet is C-624, but on the website a similar spring has model number on 519. Phone 800-237-5225  \r
+http://www.centuryspring.com/Store/item_detail.php?StockNumber=519  \r
+\r
+The C-624 has been spotted on Amazon here  \r
+http://www.amazon.com/gp/product/B000LNXYHC/  \r
+and on eBay  \r
+http://www.ebay.com/sch/i.html?_nkw=C-624+spring  \r
+\r
+If you live in Australia the C-624 has been sited in Bunnings Hardware Stores.  \r
+\r
+Sodemann Industrial Springs has a metric spring that provides a similar 30N of force, its model number is C03600401120S.  \r
+http://www.industrial-springs.com/online-shop/search.aspx?pid=C03600401120S  \r
+\r
+## BEARING  \r
+\r
+623Z - 3mm ID, 10mm OD, 4mm width  \r
+\r
+You can get these on ebay, some hobby shops, and small industrial part suppliers. In the US you can pick up one at your local Fastenal store. In Australia, they are available online from BilbyCNC http://www.bilbycnc.com.au  \r
+\r
+This bearing has also been spotted on Amazon here  \r
+http://www.amazon.com/gp/product/B002BBAYDY  \r
+\r
+## MOUNTING HARDWARE  \r
+\r
+You will need two M3 x 10mm counter sunk hex head screws, just like the ones Makerbot uses to hold the plunger assembly on, only shorter. If you can't get hex head, M3 phillips head countersunk screws will also do. If you can't get 10mm lengths, then an 8mm and a 12mm will suffice.   \r
+\r
+## UPGRADE INSTRUCTIONS  \r
+\r
+1. Unload the filament form your extruder and wait for it to cool down. Wait until the heat-sink fan stops spinning.  \r
+\r
+2. Turn off the power to your Replicator 2.  \r
+\r
+3. Unplug the stepper motor and unscrew the two stainless steel hex head cap screws on the front of the heat-sink fan using the second biggest hex wrench provided. This will allow the extruder stepper motor and plunger assembly to be removed.  \r
+\r
+4. Using the second smalest hex wrench, unscrew the Delrin plunger assembly from the stepper motor. Keep one of the hex head screws for the upgrade, the remaining parts can be placed in a Ziploc bag for safe keeping.  \r
+\r
+5. Make sure the base plate and parts all fit together - sand and file as required. Make sure that the holes in the plate and arm have been reamed so the pin can be inserted with moderate force and has a firm fit (see instructions above for details).   \r
+\r
+6. Use the 10mm (or 8mm) counter sunk hex head screw to mount the Base plate on the stepper motor (see picture). I orientate the wiring block on the left hand side because I think having it on the top is rather unsightly.  \r
+\r
+7. Push the bearing into the slot in the arm and use the 10mm (or 12mm) counter sunk hex head screw hold it in place.  \r
+\r
+8. Push the pin into the pinch wheel arm, and mount it onto the base plate. Now take the long counter sunk hex head screw left over from the Delrin plunger assembly and insert it into the hole in pin and tighten until snug. I recommend that the flat edge of the pin be orientated so its facing away from the drive gear wheel (see photos) that way all of the load is spread evenly against the curved face.  \r
+\r
+9. Compress the spring and insert it into place.  \r
+\r
+10. Position the upgraded assembly on the back of the extruder and mate it with the two stainless steel hex head cap screws, then gradually tighten using finger pressure, making sure not to cross thread. They just need to be snug, so don't over tighten them.  \r
+\r
+If you live in a hot tropical climate, consider making a gasket out of some card to isolate the stepper from the cooling block (see photo).  \r
+\r
+## LOADING AND UNLOADING FILAMENT  \r
+\r
+You can just use the preheat menu now if you like.  \r
+\r
+To load, grab the extruder with your right hand and supporting it underneath with your fingers, press down on the pinch wheel arm with the tip of your thumb. This releases the pinch pressure. You should be able insert the filament right down into the extruder tube, and see it oozing out the tip.  \r
+\r
+To unload, wait for the preheat to reach 230c, then do the same thing as above to release the pinch pressure and pull the filament out.  \r
+\r
+## STILL HEARING CLICKS AND EXPERIENCING STALLS  \r
+\r
+Check your packing density in skeinforge Dimension is 0.97 ~ 1.0 then measure and update your filament diameter in Print-O-Matic, it should be 173 +/- 2. You can also download my 100 and 200 micron skeinforge profiles here: thingiverse.com/thing:39050  \r
+\r
+Finally if you are still struggling with stubborn PLA filament, try a drop of olive or canola oil on your finger, lift up the filament feed tube on your extruder and rub a light film of oil over the first 50mm ~ 100mm of filament. That should do the trick :)  \r
+\r
+I had wondered at first if vegetable oil would effect the print strength, but I see no evidence of this. So I look at it like this, PLA is like high-tech cheese - if you melt cheese in a pan with oil, the oil and cheese separate, and the cheese melts and bonds together - I figure the hot PLA and vegetable oil do a similar thing - the oil ( and it is only a very small amount we are talking about) moves to the outer surface as the filament bonds due to the oils lower viscosity and the changing surface tension.  \r
+\r
+From what I understand these vegetable oils only burn above 246c ~ 266c (See http://en.wikipedia.org/wiki/Smoke_point), so while it may be adding some sort of a patina inside the heating chamber (much like you season a cast iron pan), it shouldn't cause any burnt deposits that might gum up the system - but be cautious, I would apply vegetable oil very very sparingly, and only when you think you need to.  \r
+\r
+## REMEDIAL ACTION  \r
+\r
+If your extruder stepper motor should happen to overheat in 45 degree c summer heat, it may cause the PLA arm to soften and bend out of shape. If this happens to you, don't be alarmed there is a quick remedy. Remove the arm from the stepper motor and holding it by the bearing screw, dip it into a cup of boiling hot water for about a minute (make sure not to wet the bearing). Once soft, bend the arm back to how it should be and allow to cool, then re-install - good as new!""" ;
+    okh:hasImage :Image ;
+    okh:licensor "whpthomas" ;
+    okh:repo <https://www.thingiverse.com/thing:42250> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:42250> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Replicator 2 Extruder Upgrade 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/fe/48/1b/08/29/Replicator_2_Extruder_Upgrade_01_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/fe/48/1b/08/29/Replicator_2_Extruder_Upgrade_01_display_large.jpg> .
+

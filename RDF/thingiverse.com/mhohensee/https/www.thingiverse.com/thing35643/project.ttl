@@ -1,0 +1,34 @@
+@prefix : <https://www.thingiverse.com/thing%3A35643/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:FullyParametricFullyPrintableSpoolSpindleAndFrame a okh:Module ;
+    rdfs:label "Fully parametric & fully printable spool spindle and frame." ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """The only things you'll need are cable ties, bearings, and maybe some M8 hardware.  Supports 1kg spools with no trouble.\r
+\r
+My first spool holder was a clip-on 608 bearing based roller-mount (see www.thingiverse.com/thing:16338), which worked great with the solid plastic Ultimachine filament spools.  Since then, I've switched to using PLA filament from printbl.com, which is great stuff, but comes in cardboard-sided spools.  The cardboard tended to get jammed between the roller-bearings and the clip, and to occasionally drop little shreds of itself onto prints in progress.  This made me sad.\r
+\r
+I looked around for a fully printable spool holder, but I couldn't find one that didn't at least use some kind of extrusion or threaded-rod framework.  Rather than waste a couple of days for McMaster to fill an order for threaded rod, I spent a couple of weeks designing what I think is a pretty decent example of a fully printable, parametric spool mount.  Pieces are locked together with cable ties.\r
+\r
+Everything is printable, excepting the two 608 bearings --unless your printer is good enough that its prints self-lubricate.  Clearances are accounted for parametrically, so you should be able to assemble the parts straight from the printer without additional finishing.  To make life easier (as I have), don't print screws and bolts, but just use three M8 bolts, four washers, and five M8 nuts to assemble the spindle.\r
+\r
+The spindle is optimized for the spools sold by printbl.com.  These spools' inner diameters seem to vary a bit, so I had to make the spindle's size adjustable.  See the instructions for how to do so. Since the design is fully parametric, you can change the spindle diameter, cable-tie dimensions, type of bearing, mounting hardware, and overall size as you like.\r
+\r
+In the course of making this spool-mount, I also developed a fairly general library for building other kinds of fully printable frames, see cabletie_brackets.scad.  The bracket mounts and rods are very flexible.  You can not only choose the size of the box (bracket-section) that each rod might plug into, but also the angle between successive sections.  The library takes care of adjusting the length of the rods as a function of what kind of bracket they are meant to plug into.  This lets you specify an arbitrary polygon by placing brackets such that their centers of curvature define its vertexes, and the necessary connecting rods in terms of the vertex-to-vertex distance, rather than manually correct for the displacement of the bracket's socket.  When run, openscad scripts will tell you how long your rods will need to be to satisfy your geometric requirements.  I've included some demonstrations of the library in .stl format so you can see what I mean.  The demo files (and assembly.stl, for that matter) are not intended to be sliced and printed --you need to print their parts separately.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "mhohensee" ;
+    okh:repo <https://www.thingiverse.com/thing:35643> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/LGPL-3.0-or-later> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:35643> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Fully parametric & fully printable spool spindle and frame. 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/be/66/af/fd/d6/20121124_130023_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/be/66/af/fd/d6/20121124_130023_display_large.jpg> .
+

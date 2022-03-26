@@ -1,0 +1,41 @@
+@prefix : <https://www.thingiverse.com/thing%3A43660/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:TuxTheLinuxPenguinStatue a okh:Module ;
+    rdfs:label "Tux the Linux Penguin statue" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Tux the Linux Penguin !\r
+\r
+Took the model from:\r
+http://reprap.org/wiki/Tux\r
+\r
+Converted it to STL and run that STL through Cloud.NetFabb\r
+\r
+Added a stand\r
+\r
+If you want it without a stand, go to:\r
+http://www.thingiverse.com/thing:6674\r
+\r
+\r
+Note:\r
+reprap.org says:\r
+The 3D version was modelled in Blender by Oliver Baker - this version (specifically for 3D printing rather than animation) was built in November 2006) - this 3D model in all of it's formats has been released under the GFDL license.\r
+\r
+That licence is not available on Thingiverse.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "frankkienl" ;
+    okh:repo <https://www.thingiverse.com/thing:43660> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:43660> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Tux the Linux Penguin statue 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/6f/cb/8a/f6/c4/20130125_102110_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/6f/cb/8a/f6/c4/20130125_102110_display_large.jpg> .
+

@@ -1,0 +1,53 @@
+@prefix : <https://wikifactory.com/%40josezuluaga/self-design/e0d514317398fdc673fcc8f94348262ca47d8ba2/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Selfdesign a okh:Module ;
+    rdfs:label "Self-Design?" ;
+    okh:dataSource "wikifactory.com" ;
+    okh:documentationLanguage "it" ;
+    okh:function "\"Proposta per un´autoprogettazione\" Enzo Mari.La Sedia CNC" ;
+    okh:hasComponent :Lasediacnc ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "Jose  Zuluaga " ;
+    okh:release <https://wikifactory.com/@josezuluaga/self-design/v/e0d5143> ;
+    okh:repo <https://wikifactory.com/@josezuluaga/self-design> ;
+    okh:repoHost "wikifactory.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "e0d514317398fdc673fcc8f94348262ca47d8ba2" ;
+    okh:versionOf <https://wikifactory.com/@josezuluaga/self-design> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Self-Design? e0d514317398fdc673fcc8f94348262ca47d8ba2" ;
+    okh:fileFormat "PNG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/45742/untitled-1.png> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozMzc1NjI=> .
+
+:Lasediacnc a okh:Part ;
+    rdfs:label "La-Sedia-CNC" ;
+    okh:documentationLanguage "it" ;
+    okh:export :Lasediacnc_export1 ;
+    okh:licensor "Jose  Zuluaga " ;
+    okh:source :Lasediacnc_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Lasediacnc_export1 a okh:ExportFile ;
+    rdfs:label "Export File of La-Sedia-CNC of Self-Design? e0d514317398fdc673fcc8f94348262ca47d8ba2" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/45742/la-sedia-cnc.pdf> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozMzc2OTQ=> .
+
+:Lasediacnc_source a okh:SourceFile ;
+    rdfs:label "Source File of La-Sedia-CNC of Self-Design? e0d514317398fdc673fcc8f94348262ca47d8ba2" ;
+    okh:fileFormat "3DM" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/45742/la-sedia-cnc.3dm> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozMzc2OTA=> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of Self-Design? e0d514317398fdc673fcc8f94348262ca47d8ba2" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/45742/readme-9c2d3.md> ;
+    okh:permaURL <https://wikifactory.com/files/RmlsZTozMzc5Mjc=> .
+

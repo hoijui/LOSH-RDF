@@ -1,0 +1,26 @@
+@prefix : <https://www.thingiverse.com/thing%3A38333/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:FumeExtractor a okh:Module ;
+    rdfs:label "Fume Extractor" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """Concept design attempt at removing all those nasty smells from my Prusa-Mendal without having to box the entire thing.  Uses a blower fan to suck fumes directly from the extruder nozzle and then exhausts out the nearest window.  \r
+\r
+Currently I'm having trouble finding thin walled flexible tubing to connect the nozzle to the fan.  The clear vinyl tube that i'm using right now adds a lot of unwanted force onto the x-carriage.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "Stephen" ;
+    okh:repo <https://www.thingiverse.com/thing:38333> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:38333> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Fume Extractor 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/27/6c/65/68/0a/Assembly_Overview_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/27/6c/65/68/0a/Assembly_Overview_display_large.jpg> .
+

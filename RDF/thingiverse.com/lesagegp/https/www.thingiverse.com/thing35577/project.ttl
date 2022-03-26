@@ -1,0 +1,32 @@
+@prefix : <https://www.thingiverse.com/thing%3A35577/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Sculpture a okh:Module ;
+    rdfs:label "Sculpture" ;
+    okh:dataSource "thingiverse.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function """This is a 3D scan of a sculpture converted to STL. I used freeware and a digital camera to make the mesh, decimated using Blender, and exported.  
+
+I used Netfabb to rotate the SLT to align it with a platform, slice off the bottom to make it flat, and repair mesh errors. The "Repaired" version is ready to slice and print.   
+
+I also included a gcode file generated using SLIC3R prepared for a RAMPS 1.4 driven printer.  
+
+The pictures are of the object that I printed on April 30, 2013.  
+
+Also check out http://lesagegp.wordpress.com/2013/05/01/print-of-autodesk-123d-scan/ for a description of printing this model.""" ;
+    okh:hasImage :Image ;
+    okh:licensor "lesagegp" ;
+    okh:repo <https://www.thingiverse.com/thing:35577> ;
+    okh:repoHost "www.thingiverse.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "auto" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://www.thingiverse.com/thing:35577> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Sculpture 1.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://cdn.thingiverse.com/renders/34/e7/5e/df/0a/Sculpture_Cut_Repaired_display_large.jpg> ;
+    okh:permaURL <https://cdn.thingiverse.com/renders/34/e7/5e/df/0a/Sculpture_Cut_Repaired_display_large.jpg> .
+

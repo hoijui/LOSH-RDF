@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A5890/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:YazzoMaleClevisElbow a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Yazzo Male Clevis Elbow" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """The clevis: http://www.thingiverse.com/thing:5889\r
 needs a mate.\r
 \r
@@ -19,6 +21,7 @@ the most ideal situation would be to put tiny little ball bearings in there, and
     okh:repo <https://www.thingiverse.com/thing:5890> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:5890> .

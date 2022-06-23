@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A26274/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:KindleStand a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Kindle Stand" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I have won a kindle and needed a stand for it to sit in on my desk. so I designed one and here it is now on thingiverse. I will be send this off to a 3D Printing company soon to get it printed.\r
 \r
 For use with the latest kindle including kindle touch.""" ;
@@ -14,6 +16,7 @@ For use with the latest kindle including kindle touch.""" ;
     okh:repo <https://www.thingiverse.com/thing:26274> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:26274> .

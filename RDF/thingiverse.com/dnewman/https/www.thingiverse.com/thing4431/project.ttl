@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A4431/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MonaLisa a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Mona Lisa" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "Mona Lisa rendered as TSP art in three \"resolutions\": 6910, 7933, and 12477 \"cities\" in the TSP tour.  (TSP = Travelling Salesman Problem).  The more cities, the more line segments.  Eggbots will probably do best with the 6910 or 7933 versions." ;
     okh:hasImage :Image ;
     okh:licensor "dnewman" ;
     okh:repo <https://www.thingiverse.com/thing:4431> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:4431> .

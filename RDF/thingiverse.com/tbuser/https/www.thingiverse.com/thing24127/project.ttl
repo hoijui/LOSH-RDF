@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A24127/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:GuardianLionMirroredComplete a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Guardian Lion Mirrored Complete" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "Cleaned it up by taking the scan that only covered half the lion and mirrored it to make a complete lion.  Then used meshmixer to smooth out the seam." ;
     okh:hasImage :Image ;
     okh:licensor "tbuser" ;
     okh:repo <https://www.thingiverse.com/thing:24127> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:24127> .

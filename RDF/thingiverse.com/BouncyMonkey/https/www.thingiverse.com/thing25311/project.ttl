@@ -1,21 +1,24 @@
 @prefix : <https://www.thingiverse.com/thing%3A25311/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:DesktopSaver a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Desktop Saver" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a desktop saver for putting on your desk when you are not there.\r
 \r
 This project is inspired by the old 3D Pipes screen saver that was on earlier versions of windows.  The leap of warped logic that led to this project was thinking about the equivalent of a screen saver for people when they are not at their workstation.  So what you do is put the assembled Desktop saver on your desk when you are away from it.  This should help people realise that you are not at your desk and maybe waiting around for you is a waste of time.  It may help stymie anyone who might have their eye on using your desk while you are away.\r
 \r
-While the old Windows Screen Saver was just pipes and bends I could not resist enhancing the idea with the addition of little pipe fittings and flanges etc.  The models in this project include a sign holder.  This is designed for you to write a message onto a piece of paper and then cover with a bit of clear plastic such as that which comes with blister-packs.  The type of message I had in mind was something like; â€œDesktop Saver.  Hamish is not at his desk right now, please call again later or leave a message after the tone.â€ That should keep your visitors entertained for hours if they're a bit slow.""" ;
+While the old Windows Screen Saver was just pipes and bends I could not resist enhancing the idea with the addition of little pipe fittings and flanges etc.  The models in this project include a sign holder.  This is designed for you to write a message onto a piece of paper and then cover with a bit of clear plastic such as that which comes with blister-packs.  The type of message I had in mind was something like; â€œDesktop Saver.  Hamish is not at his desk right now, please call again later or leave a message after the tone.â€x9d That should keep your visitors entertained for hours if they're a bit slow.""" ;
     okh:hasImage :Image ;
     okh:licensor "BouncyMonkey" ;
     okh:repo <https://www.thingiverse.com/thing:25311> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:25311> .

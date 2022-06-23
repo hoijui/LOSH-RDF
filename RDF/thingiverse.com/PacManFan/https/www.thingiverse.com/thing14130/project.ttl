@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A14130/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PrintrbotClone a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "PrintrBot Clone" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Shown here is a study of the basic design for the PrintrBot. After analyzing the PrintrBot flicker stream, it was apparent that several versions were present. I picked and chose several design elements from multiple models and created an amalgamation shown here. Do not expect this to be an exact copy.\r
 \r
 Included is the SCAD file for manipulation. Pay attention to the notes and comments when making changes.\r
@@ -40,6 +42,7 @@ Feel free to provide some constructive criticisms. If you make changes to a part
     okh:repo <https://www.thingiverse.com/thing:14130> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:14130> .

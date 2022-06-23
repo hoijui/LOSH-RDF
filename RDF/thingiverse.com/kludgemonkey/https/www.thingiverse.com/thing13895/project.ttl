@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A13895/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:WaterRocketbottleRocketAdapterWithGiantFins a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Water Rocket (Bottle Rocket) Adapter With Giant Fins" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a derivative of my 2 Liter bottle to 1/4 NPT adapter with giant Tom Swift style fins. The adapter is designed to let you quickly turn an ordinary house hold pop (soda) bottle into a projectile by adding water and air pressure. the 1/4 NPT quick disconnect gives you a simple and easy way to add air pressure and also works as a launch mechanism when you release the collar.\r
 \r
 In all honesty this is a bit impractical as the fins are huge and brittle and the purpose of this object is to be launched sky high and fall back uncontrolled to smash into the ground, but I had to print one up, what's life without whimsy?""" ;
@@ -14,6 +16,7 @@ In all honesty this is a bit impractical as the fins are huge and brittle and th
     okh:repo <https://www.thingiverse.com/thing:13895> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:13895> .

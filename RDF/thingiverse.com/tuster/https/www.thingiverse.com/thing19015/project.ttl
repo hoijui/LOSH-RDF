@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A19015/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:BushingForSpoolfilamentWithoutBearing a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Bushing for Spool (Filament) without Bearing" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This spool bushing is based on Thing #3783.\r
 \r
 I changed it to fit to the spools I got from reprapstore.com (3mm filament); they have a bigger (54mm diameter) hole. The bushing fits a 8mm rod nicely and can be used without any extra bearing. I recommend it without any bearing (for reasons of better friction of the spool). \r
@@ -17,6 +19,7 @@ Check out thingiverse.com/thing:19016 for the 8mm rod rack mounting thing.""" ;
     okh:repo <https://www.thingiverse.com/thing:19015> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:19015> .

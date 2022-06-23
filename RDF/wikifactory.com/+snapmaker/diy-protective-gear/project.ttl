@@ -1,12 +1,13 @@
-@prefix : <https://wikifactory.com/+snapmaker/diy-protective-gear/78447faf40a70e34c154dbf03ca14ea1a09de770/> .
+@prefix : <https://wikifactory.com/%2Bsnapmaker/diy-protective-gear/78447faf40a70e34c154dbf03ca14ea1a09de770/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:DiyProtectiveGear a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "DIY Protective Gear" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "Personal protective equipment against COVID-19 is in short supply. The Snapmaker team in China invite your contributions to our DIY Personal Protective Gear design to make them better together so they can be produced easily and quickly across the world." ;
-    okh:hasComponent :01faceShield,
+    okh:hasComponent :01faceshield,
         :01faceshield2pcs,
         :02evagoggleframe,
         :02evagogglelenscnc,
@@ -23,21 +24,16 @@
     okh:repo <https://wikifactory.com/+snapmaker/diy-protective-gear> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "manifest" ;
     okh:version "78447faf40a70e34c154dbf03ca14ea1a09de770" ;
     okh:versionOf <https://wikifactory.com/+snapmaker/diy-protective-gear> .
 
-:01faceShield a okh:Part ;
+:01faceshield a okh:Part ;
     rdfs:label "01-Face shield" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Snapmaker" ;
-    okh:source :01faceShield_source ;
+    okh:source :01faceshield_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:01faceShield_source a okh:SourceFile ;
-    rdfs:label "Source File of 01-Face shield of DIY Protective Gear 78447faf40a70e34c154dbf03ca14ea1a09de770" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/42589/01-face_shield.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMjc4NDg=> .
 
 :01faceshield2pcs a okh:Part ;
     rdfs:label "01-Face_shield_2pcs" ;
@@ -50,7 +46,13 @@
     rdfs:label "Source File of 01-Face_shield_2pcs of DIY Protective Gear 78447faf40a70e34c154dbf03ca14ea1a09de770" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/42589/01-face_shield_2pcs.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMjc4NDY=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/42589/01-face_shield_2pcs.stl> .
+
+:01faceshield_source a okh:SourceFile ;
+    rdfs:label "Source File of 01-Face shield of DIY Protective Gear 78447faf40a70e34c154dbf03ca14ea1a09de770" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/42589/01-face_shield.stl> ;
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/42589/01-face_shield.stl> .
 
 :02evagoggleframe a okh:Part ;
     rdfs:label "02-eva_goggle_frame" ;
@@ -63,7 +65,7 @@
     rdfs:label "Source File of 02-eva_goggle_frame of DIY Protective Gear 78447faf40a70e34c154dbf03ca14ea1a09de770" ;
     okh:fileFormat "SVG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/42589/02-eva_goggle_frame.svg> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMjc4NTY=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/42589/02-eva_goggle_frame.svg> .
 
 :02evagogglelenscnc a okh:Part ;
     rdfs:label "02-eva_goggle_lens_CNC" ;
@@ -76,7 +78,7 @@
     rdfs:label "Source File of 02-eva_goggle_lens_CNC of DIY Protective Gear 78447faf40a70e34c154dbf03ca14ea1a09de770" ;
     okh:fileFormat "SVG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/42589/02-eva_goggle_lens_cnc.svg> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMjc4NTc=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/42589/02-eva_goggle_lens_cnc.svg> .
 
 :02evagogglestraplaser a okh:Part ;
     rdfs:label "02-eva_goggle_strap_laser" ;
@@ -89,7 +91,7 @@
     rdfs:label "Source File of 02-eva_goggle_strap_laser of DIY Protective Gear 78447faf40a70e34c154dbf03ca14ea1a09de770" ;
     okh:fileFormat "SVG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/42589/02-eva_goggle_strap_laser.svg> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMjc4NTg=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/42589/02-eva_goggle_strap_laser.svg> .
 
 :03evamasksidea a okh:Part ;
     rdfs:label "03-eva_mask_side_a" ;
@@ -102,7 +104,7 @@
     rdfs:label "Source File of 03-eva_mask_side_a of DIY Protective Gear 78447faf40a70e34c154dbf03ca14ea1a09de770" ;
     okh:fileFormat "SVG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/42589/03-eva_mask_side_a.svg> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMjc4NjA=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/42589/03-eva_mask_side_a.svg> .
 
 :03evamasksideb a okh:Part ;
     rdfs:label "03-eva_mask_side_b" ;
@@ -115,7 +117,7 @@
     rdfs:label "Source File of 03-eva_mask_side_b of DIY Protective Gear 78447faf40a70e34c154dbf03ca14ea1a09de770" ;
     okh:fileFormat "SVG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/42589/03-eva_mask_side_b.svg> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMjc4NjE=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/42589/03-eva_mask_side_b.svg> .
 
 :03evamaskvalve a okh:Part ;
     rdfs:label "03-eva_mask_valve" ;
@@ -128,7 +130,7 @@
     rdfs:label "Source File of 03-eva_mask_valve of DIY Protective Gear 78447faf40a70e34c154dbf03ca14ea1a09de770" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/42589/03-eva_mask_valve.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMjc4NjI=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/42589/03-eva_mask_valve.stl> .
 
 :04evamaskbuckle a okh:Part ;
     rdfs:label "04-eva_mask_buckle" ;
@@ -141,17 +143,17 @@
     rdfs:label "Source File of 04-eva_mask_buckle of DIY Protective Gear 78447faf40a70e34c154dbf03ca14ea1a09de770" ;
     okh:fileFormat "SVG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/42589/04-eva_mask_buckle.svg> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMjc4Njc=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/42589/04-eva_mask_buckle.svg> .
 
 :Image a okh:Image ;
     rdfs:label "Image of DIY Protective Gear 78447faf40a70e34c154dbf03ca14ea1a09de770" ;
     okh:fileFormat "JPG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/42589/ci7a4112-0e8d1.JPG> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMzIwNTA=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/42589/ci7a4112-0e8d1.JPG> .
 
 :Readme a okh:Readme ;
     rdfs:label "Readme of DIY Protective Gear 78447faf40a70e34c154dbf03ca14ea1a09de770" ;
     okh:fileFormat "MD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/42589/readme-26f51.md> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMzI4OTU=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/42589/readme-26f51.md> .
 

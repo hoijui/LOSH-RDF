@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A14844/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:CanopyBed a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Canopy Bed" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Canopy bed suitable for Kings and Queens.   ONLY IN MAKERBOT FORMAT.  NO STLs.  SORRY, THIS WAS DONE SPECIFICALLY FOR MAKERBOT YEARS AGO.  I DON'T HAVE THE FILES ANY MORE. \r
 \r
 Please consider tipping the creator (cushwa) if you have enjoyed this model. This will allow me to create more great models for Thingiverse and the 3d printing community.  I do this as a living and rely on people who enjoy my models to compensate me for the time and effort that I put into them to make them a good as possible.  5 dollar tip is not too much for a great print for you printer.  Please click on my name (cushwa) at the top of this page and click on "tip the designer" in my profile page.  Thanks so much.  - Cheers""" ;
@@ -14,6 +16,7 @@ Please consider tipping the creator (cushwa) if you have enjoyed this model. Thi
     okh:repo <https://www.thingiverse.com/thing:14844> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:14844> .

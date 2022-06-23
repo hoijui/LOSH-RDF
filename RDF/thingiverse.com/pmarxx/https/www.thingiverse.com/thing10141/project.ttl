@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A10141/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ForbiddenCity a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Forbidden City " ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is not a photo, it's a snapshot of the 3D model. There is one of 2D photos I used for 3D reconstructions below.\r
 \r
 I was travelling in China and scanned this part of the ancient water drainage with my photo camera. I am still wondering if it was a dragon, an elephant or a crocodile. \r
@@ -22,6 +24,7 @@ I have more 3D scans from China. Let me know if Thingiverse people want more rep
     okh:repo <https://www.thingiverse.com/thing:10141> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:10141> .

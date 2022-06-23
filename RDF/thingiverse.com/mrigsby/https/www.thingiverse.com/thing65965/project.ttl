@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A65965/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:TrainSeesaw a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Train Seesaw" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a seesaw and track (channel) for Brio type trains.\r
 \r
 Video at:\r
@@ -21,6 +23,7 @@ The train will be modified and this will become the "Froggy Express" at Froggy W
     okh:repo <https://www.thingiverse.com/thing:65965> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:65965> .

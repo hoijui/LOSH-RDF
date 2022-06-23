@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A26737/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:VitaminFreeReprapproHuxley120mmFanMounts a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Vitamin Free RepRapPro Huxley 120mm Fan Mounts" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """After seeing MarkBensons amazing design (which should be a standard for printing with PLA!) I decided to remove the requirement for additional vitamins (fixings)!\r
 \r
 Design allows easily removable 120mm fans to be fitted to the RepRapPro Huxley frame. These can then be controlled via your electronics and Slic3r for active cooling whilst printing with PLA. Cooling massively improves print quality whilst printing small parts or bridges.\r
@@ -16,6 +18,7 @@ Simple and minamalistic!""" ;
     okh:repo <https://www.thingiverse.com/thing:26737> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:26737> .

@@ -2,20 +2,15 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:BusPirateV36a a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Bus Pirate - v3.6a" ;
-    okh:certificationDate "2020-12-17T00:00:00-05:00" ;
-    okh:country "United States of America" ;
     okh:dataSource "oshwa.org" ;
     okh:documentationLanguage "en" ;
-    okh:documentationLicense "CC BY-SA" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function "The Bus Pirate v3.6a, created by Ian Lesnet, is a troubleshooting tool that communicates between a PC and any embedded device over 1-wire, 2-wire, 3-wire, UART, I2C, SPI, and HD44780 LCD protocols - all at voltages from 0-5.5VDC. This product eliminates a ton of early prototyping effort when working with new or unknown chips. Working with the Bus Pirate is simple and effective." ;
-    okh:hardwareLicense "CERN" ;
     okh:licensor "SparkFun Electronics" ;
-    okh:primaryType "Electronics" ;
     okh:repo <https://certification.oshwa.org/us000919.html> ;
     okh:repoHost "certification.oshwa.org" ;
-    okh:softwareLicense "MIT" ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
     okh:uploadMethod "auto" ;
     okh:version "v3.6a" ;

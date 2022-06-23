@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A31175/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Iphone5BumperForCustomizationAnd3dPrinting a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "iPhone 5 Bumper for Customization and 3D Printing" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This iPhone 5 case was imported into Tinkercad. Edit it online \r
 and enter it in the contest on Shapeways to win $500 worth of 3D Printing, if you want to?\r
 http://www.shapeways.com/blog/archives/1626-3D-Print-Contest-for-iPhone-5-Accessories.html\r
@@ -16,6 +18,7 @@ https://tinkercad.com/things/d0EKpjzLoaP""" ;
     okh:repo <https://www.thingiverse.com/thing:31175> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:31175> .

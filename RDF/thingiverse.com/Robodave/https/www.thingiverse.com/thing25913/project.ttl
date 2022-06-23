@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A25913/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:RoundDrawerHandle a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Round Drawer Handle" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "A standard pull handle for desk or dresser drawers.  Includes screw hole for mounting." ;
     okh:hasImage :Image ;
     okh:licensor "Robodave" ;
     okh:repo <https://www.thingiverse.com/thing:25913> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:25913> .

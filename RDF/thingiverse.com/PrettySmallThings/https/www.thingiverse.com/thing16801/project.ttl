@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A16801/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:124SpiralStaircaseTreads a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "1:24 Spiral Staircase Treads" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I'm working on a few iterations of spiral staircases in scale, and I created a simple version to test before venturing on to more complicated projects.  \r
 \r
 This version is in 1:24 scale.  Sixteen treads are required to complete a 360 degree revolution.  The rise is 9".  \r
@@ -16,6 +18,7 @@ I have some landing options I plan to upload in the near future.""" ;
     okh:repo <https://www.thingiverse.com/thing:16801> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:16801> .

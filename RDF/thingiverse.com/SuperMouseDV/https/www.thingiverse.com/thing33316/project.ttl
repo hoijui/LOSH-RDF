@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A33316/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:VesaMountAntonBauerBatteryPlateAdapterForIkanV17 a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "VESA Mount Anton Bauer Battery Plate Adapter for IKAN V17" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is the older IKAN monitor not the new V17e\r
 I had the plate held on with 1 screw and it spun (hence the circle marks on the back . ) When I got the VESA Monitor Mount from EZ FX (they make a very nice stable Jib mount here in Florida) I could no longer put the Battery on the monitor .. Since I have an Ultimaker I said YES I CAN . 45 minutes later I had this.. Now is it perfect NO but it gets the job done. Mine is slightly different than the one you see in the STL. I didn't want to wait another 8 hours to print this (I made my printer go slower) I took a Dremel tool to it to clean up a few items I left out . I fixed them on the STL so you wouldn't have to. I made a mistake and put an opening on the wrong side and forgot about the Toggle Switch . Also the opening was slightly too small for the plate but fortunately the Wall was the right thickness and it came out in one move :)  but now there is a Place for the release tab built in . Also the VESA mount went under the Plate so I fixed it in the STL. Will I print this again . Maybe in the future but WHY this works perfectly and will last me years :)""" ;
     okh:hasImage :Image ;
@@ -13,6 +15,7 @@ I had the plate held on with 1 screw and it spun (hence the circle marks on the 
     okh:repo <https://www.thingiverse.com/thing:33316> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:33316> .

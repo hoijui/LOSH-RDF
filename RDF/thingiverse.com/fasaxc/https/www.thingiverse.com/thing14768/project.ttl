@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A14768/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:SetOf8NormalsizedCarcassonneMeeples a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Set of 8 normal-sized Carcassonne meeples" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "A set of 8 plain, unadorned playing pieces for use with Carcassonne.  I also have a version adorned with a little heart on the chest." ;
     okh:hasImage :Image ;
     okh:licensor "fasaxc" ;
     okh:repo <https://www.thingiverse.com/thing:14768> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:14768> .

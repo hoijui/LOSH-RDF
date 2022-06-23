@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A2088/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:XcarriageModificationToAttachMendelExtruderToBfbHotEnd a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Xcarriage modification to attach Mendel extruder to BFB hot end" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """WHY: BFB hot ends are very robust and easily obtainable. BFB even sell them assembled and with various nozzle sizes. They are aluminium+peek+teflon so very strong hence you can use them not only for ABS and PLA but also for HDPE, LDPE, PP, uPVC and some other materials.\r
 \r
 WHAT: x-carriage has to be changed (to accommodate for the size of the bfb hot end) and the adapter has to be installed between extruder and xcarriage""" ;
@@ -14,6 +16,7 @@ WHAT: x-carriage has to be changed (to accommodate for the size of the bfb hot e
     okh:repo <https://www.thingiverse.com/thing:2088> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:2088> .

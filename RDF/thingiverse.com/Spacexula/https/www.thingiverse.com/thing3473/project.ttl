@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A3473/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ReprapYoyo a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "RepRap Yo-Yo" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """60 hours to print a Mendel, or 20 for a Micro Mendel is a Long time.  Eventually you get sick of watching the printer print.  You have 624 bearings, you have M4 socket caps, you have m4 bolts.  Why not build a Yo-Yo?\r
 \r
 Design file in HeeksCAD included, Boolean has not been done in design file so you can easily alter the design.\r
@@ -16,6 +18,7 @@ I have got it to return only once, but I am a dunce with Yo-Yos.  Can you make i
     okh:repo <https://www.thingiverse.com/thing:3473> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:3473> .

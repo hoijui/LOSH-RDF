@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A31889/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:DrewsRostockVariant a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Drew's Rostock variant" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a printer I am currently building based on Johann's amazing Rostock printer.\r
 \r
 This design is modified to use Makerslide rail instead of smooth rod and linear bearings.  I chose to use Makerslide partly because I found a pile of V-roller bearings at a junkyard for real cheap, but also because I thought the Makerslide would be more rigid and would allow me to hide wiring inside the channel.\r
@@ -20,6 +22,7 @@ The revised version uses 3/8 inch threaded rod to make triangular frames at the 
     okh:repo <https://www.thingiverse.com/thing:31889> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:31889> .

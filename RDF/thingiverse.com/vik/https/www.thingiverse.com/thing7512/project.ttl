@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A7512/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:FoamDartPistol a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Foam Dart Pistol" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """A pistol that can shoot NERF(TM) foam darts (amongst other things). Needs nothing other than some filament, 3 printed bits, 2 rubber bands and a foam dart.\r
 \r
 It seems to generate more power than yer average foam dart gun, because I'm not bound by children's toys regulations. So, test it before using it in combat games.\r
@@ -16,6 +18,7 @@ It's parametric so you can change the grip size, dart dimensions and all sorts o
     okh:repo <https://www.thingiverse.com/thing:7512> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:7512> .

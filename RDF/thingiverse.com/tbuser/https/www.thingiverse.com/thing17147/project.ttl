@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A17147/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:CrescentWrenchParts a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Crescent Wrench Parts" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Resized to fit on a Replicator with each part seperated from the original multi-part stl.\r
 \r
 With a few tweaks, I bet this could be printed all in one using water soluble support...""" ;
@@ -14,6 +16,7 @@ With a few tweaks, I bet this could be printed all in one using water soluble su
     okh:repo <https://www.thingiverse.com/thing:17147> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:17147> .

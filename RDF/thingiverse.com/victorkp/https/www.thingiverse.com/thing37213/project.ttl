@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A37213/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Nexus72012WallMount a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Nexus 7 (2012) Wall Mount" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """A simple means to mount a Nexus 7 on something. The screw holes fit quarter inch (6mm)  screws. There is easy access to all the buttons, the USB port, and NFC on the back of the device.\r
 \r
 http://www.youtube.com/watch?v=YudBQnTRdck&feature=youtu.be""" ;
@@ -14,6 +16,7 @@ http://www.youtube.com/watch?v=YudBQnTRdck&feature=youtu.be""" ;
     okh:repo <https://www.thingiverse.com/thing:37213> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:37213> .

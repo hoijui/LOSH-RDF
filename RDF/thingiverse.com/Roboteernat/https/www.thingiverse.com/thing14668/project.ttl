@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A14668/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ModifiedEmakerHuxleyWadeBowdenConnectorPart a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Modified emaker huxley wade bowden connector part" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I wanted a screw fit into a 1/8 BSP push fit for my bowden cable, and this solves it nicey.\r
 \r
 Basically the updated wade for emaker, but the bottom is extended and features a hole for 1/8 bsp screw 4mm push fit pneumatic conector. A slot for a 1/8 nut (5.5mm thickness) is made so that the push fit screws into this.""" ;
@@ -14,6 +16,7 @@ Basically the updated wade for emaker, but the bottom is extended and features a
     okh:repo <https://www.thingiverse.com/thing:14668> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:14668> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A3083/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Bushing a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Bushing" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I noticed as I was building my Makerbot that there are several plastic bushings - that are not printed.  This seemed to be a shame, so I thought I'd make a printable version of them.  ;)  (I suspect there are probably good reasons for not using printed versions at the moment, but there wasn't a good bushing design on Thingiverse that I could find, and it's a basic part...)\r
 \r
 The OpenSCAD file is  what was used to create it.  It is set up so you can enter the sizes needed and get the correct bushing.  (It allows measurements by either radius or diameter.)""" ;
@@ -14,6 +16,7 @@ The OpenSCAD file is  what was used to create it.  It is set up so you can enter
     okh:repo <https://www.thingiverse.com/thing:3083> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:3083> .

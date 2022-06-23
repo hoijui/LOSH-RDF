@@ -2,21 +2,15 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:AdafruitRfm69hcwTransceiverRadioBreakout868Or915Mhz a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Adafruit RFM69HCW Transceiver Radio Breakout - 868 or 915 MHz" ;
-    okh:additionalType "['Electronics']" ;
-    okh:certificationDate "2020-05-09T00:00:00-04:00" ;
-    okh:country "United States of America" ;
     okh:dataSource "oshwa.org" ;
     okh:documentationLanguage "en" ;
-    okh:documentationLicense "CC BY-SA" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function "These packet radios are simpler than WiFi or BLE, you dont have to associate, pair, scan, or worry about connections. All you do is send data whenever you like, and any other modules tuned to that same frequency (and, with the same encryption key) will receive. This is the 900 MHz radio version, which can be used for either 868MHz or 915MHz transmission/reception. Click the link labeled 'Project Website' to find out more." ;
-    okh:hardwareLicense "Other" ;
     okh:licensor "Adafruit Industries, LLC" ;
-    okh:primaryType "Electronics" ;
     okh:repo <https://certification.oshwa.org/us000609.html> ;
     okh:repoHost "certification.oshwa.org" ;
-    okh:softwareLicense "MIT" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
     okh:uploadMethod "auto" ;
     okh:version "Rev B" ;

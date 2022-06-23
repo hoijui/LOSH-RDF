@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A21986/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PlainBusinessCardExample a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Plain Business card example" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I was considering creating a business card with scad and my 3d printer.  I wanted to have text "differenced" from the stock card (basically thru-hole text.)\r
 \r
 However, initial attempts using the write.scad module have resulted in only the ability to have text emboss.\r
@@ -22,6 +24,7 @@ Suggestions are desired for resolving the problems or improvements.""" ;
     okh:repo <https://www.thingiverse.com/thing:21986> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:21986> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A10294/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ThingomaticAcceleratedCustomFirmware a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Thing-O-Matic Accelerated Custom Firmware" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """CRITICAL UPDATES!\r
 \r
 THIS WILL BE THE FINAL UPDATE ON THIS PAGE.  PLEASE SEE THE FOLLOWING URL FOR MORE IN-DEPTH INFORMATION:\r
@@ -52,6 +54,7 @@ Make no mistake about it - this firmware is primarily for me.  But I hope other 
     okh:repo <https://www.thingiverse.com/thing:10294> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/BSD-4-Clause> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:10294> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A5874/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:YazzoTritoolBase a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Yazzo Tri-Tool base" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I am exploring the creation of a delta bot and I need a triangle shaped thing as a base to hold onto tools. \r
 \r
 This thing is a simple triangle base that can hold something.  It has notches in each of the sides which can mate up with the notches on something like these keyed spans: http://www.thingiverse.com/thing:5867\r
@@ -32,6 +34,7 @@ Added OpenScad file, which is nice a clean and instructive""" ;
     okh:repo <https://www.thingiverse.com/thing:5874> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:5874> .

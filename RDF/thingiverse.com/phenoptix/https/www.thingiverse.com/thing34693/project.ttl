@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A34693/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:DangerousPrototypesSickOfBeigeTemplates a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Dangerous Prototypes - Sick of Beige Templates" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Ian at Dangerous Prototypes makes some really amazing products and does so in a standardised footprint size. http://dangerousprototypes.com/docs/Sick_of_Beige_standard_PCB_sizes_v1.0\r
 \r
 The groovy guys at seeed produce the products as well as "Sick of Beige" cases. They're available Seeed http://www.seeedstudio.com/depot/sick-of-beige-basic-case-v1-dp5031-p-1269.html?cPath=178_184\r
@@ -17,6 +19,7 @@ We're looking to cut our own and reproduced the vectors for our laser cutter wit
     okh:repo <https://www.thingiverse.com/thing:34693> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:34693> .

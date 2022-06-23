@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A27738/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MicropulGamePieces a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Micropul Game Pieces" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """(Almost) everything you need to play Micropul (http://neutralbox.com/micropul) with 1 to 3 players!\r
 \r
 "Micropul is an abstract strategy tile-laying game. It is usually played as a 2-player game in which players take turn placing tiles and stones, stocking new tiles and claiming groups. Micropul can also be played as a solitaire puzzle where the goal is to play optimally and beat your previous score."\r
@@ -17,6 +19,7 @@ Update (6/8/2012): The tiles should interlock now. At least, my test prints do. 
     okh:repo <https://www.thingiverse.com/thing:27738> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:27738> .

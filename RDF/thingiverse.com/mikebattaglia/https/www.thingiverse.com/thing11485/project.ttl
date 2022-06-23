@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A11485/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MakerbotAnthem a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "MakerBot anthem" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This track was made using only noises from a MakerBot using samples from sepulchra's MakerBot sound library 002.  
 http://www.thingiverse.com/thing:4196  
 I also used some sample's from MakerBot Sound Library #001 - Pulley Print by mifga  
@@ -16,6 +18,7 @@ I cut out snippets and threw them into a sampler to make cheesy synths.  For the
     okh:repo <https://www.thingiverse.com/thing:11485> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:11485> .

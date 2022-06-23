@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A5997/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:CompactMk5ExtruderHeaterCore a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Compact Mk5 Extruder Heater Core" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This modification is intended to improve heat transfer to the nozzle an allow better heater core insulation for lower power heating and better temperature control.\r
 \r
 I am adapting the extruder head to fit to a CNC mill to increase the accuracy and build envelope available to me, so whilst I've had my extruder running on the bench, I'm still working on adapting the extruder controller to allow it to be driven by the CNC controller (Siemens Sinumerik)\r
@@ -16,6 +18,7 @@ UPDATE:  I've got my TechZone Extruder controller re-coded and running my extrud
     okh:repo <https://www.thingiverse.com/thing:5997> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:5997> .

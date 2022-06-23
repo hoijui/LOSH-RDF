@@ -1,15 +1,17 @@
 @prefix : <https://www.thingiverse.com/thing%3A2736/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ShakerLightTester a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Shaker Light tester" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Inner Case Housing TEST PRINT \r
 \r
 \r
-Used as a test print prior to full customizing features.  See the other designs I upload on this â€œShaker Lightâ€ theme.\r
+Used as a test print prior to full customizing features.  See the other designs I upload on this â€œShaker Lightâ€x9d theme.\r
 \r
 1)Shaker Light Case designed to print on Makerbot: http://www.thingiverse.com/thing:2988\r
 2)Shaker Light Case: http://www.thingiverse.com/thing:2989\r
@@ -24,6 +26,7 @@ http://probersideas.blogspot.com/2010/04/makerbot-giveaway-entry-""" ;
     okh:repo <https://www.thingiverse.com/thing:2736> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:2736> .

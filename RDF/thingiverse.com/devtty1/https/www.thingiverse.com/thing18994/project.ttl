@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A18994/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:SemicompletelyPrintableSpherebot a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "semi-completely printable Spherebot" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """UPDATED 02/09/14 - and now, for something completely different ... http://www.thingiverse.com/thing:245431  
 
 UPDATED 03/07/13 - thank you to all who "liked" my project, but if you are serious about building one, you really should consider building this one: http://www.thingiverse.com/thing:20398  
@@ -27,6 +29,7 @@ I think I can work around the 4th corner missing so I've spent most of my time t
     okh:repo <https://www.thingiverse.com/thing:18994> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:18994> .

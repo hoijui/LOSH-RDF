@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A50433/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:TslotClawfor20mmExtrusion a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "T-Slot Claw (for 20mm extrusion)" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This a simple way to attach something to your extruded aluminium profiles. It comes handy if your extrusions ends are blocked for some reason and you cannot slide a T-Slot Nut inside.\r
 This should work on most of the printing settings. You should adjust the printing settings if you expect a certain resistance for the claws.\r
 It has 3 holes ready for M3 taps. The middle hole locks the claw on the extrusion, the outer holes can be used to attach your object to the claw and to the extrusion.""" ;
@@ -14,6 +16,7 @@ It has 3 holes ready for M3 taps. The middle hole locks the claw on the extrusio
     okh:repo <https://www.thingiverse.com/thing:50433> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:50433> .

@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A59398/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:RightAngleBracketFor2020Extrusion a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Right Angle Bracket for 2020 extrusion" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "This is a right angle bracket that connects to 2020 extrusions using M5 screws and t-nuts." ;
     okh:hasImage :Image ;
     okh:licensor "dcgtek" ;
     okh:repo <https://www.thingiverse.com/thing:59398> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:59398> .

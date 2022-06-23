@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A5781/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:CoffeeChangeTimeIndicator a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "COFFEE CHANGE TIME INDICATOR" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """COFFEE CHANGE TIME INDICATOR-\r
 \r
 Basically it takes the place of you writing the time the coffee was made. it has a dial that you turn to the time you make the coffee. I saw people writing down times last week when coffee was changed, because otherwise we get drinking 2 day old crappy coffee, and when i changed the coffee i had to go look for a pen... Now with this, no more pen and paper, we know what time the coffee was made, so we can assure our picky selves fresh coffee! :) see picture for details!""" ;
@@ -14,6 +16,7 @@ Basically it takes the place of you writing the time the coffee was made. it has
     okh:repo <https://www.thingiverse.com/thing:5781> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:5781> .

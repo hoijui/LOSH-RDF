@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A6098/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ClipForDustPanAndBroomWHandle a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Clip for Dust Pan and Broom w/ Handle" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "This is a Dust Pan handle and Broom clip for one of those meter long dust pans and brooms that don't require bending down. The original clip and handle that came with the dustpan broke. This is the replacement. I figured I would upload, because who knows, maybe someone else has the same dustpan and will need this some day." ;
     okh:hasImage :Image ;
     okh:licensor "Renosis" ;
     okh:repo <https://www.thingiverse.com/thing:6098> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:6098> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A16564/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:3rdgenIpodNanospool a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "3rd-gen iPod NanoSpool" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I wanted a wire manager for my iPod Nano 3G that would: (1) allow the wire to be coiled up for storage; (2) be attached to the iPod; (3) allow full use of the Nano, including access to all controls and ports, without disassembly -- this precluded wrapping the cord around the face of the iPod; (4) allow partial or full uncoiling with lockdown of the cord.\r
 \r
 I didn't care if it bulked up the iPod somewhat. In the end, it's still comfortable in a shirt pocket, either fully coiled or partly uncoiled for listening. However, if the reason you stopped smoking was that the cigarette pack was too uncomfortable in your pocket, you might not like this device.""" ;
@@ -14,6 +16,7 @@ I didn't care if it bulked up the iPod somewhat. In the end, it's still comforta
     okh:repo <https://www.thingiverse.com/thing:16564> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:16564> .

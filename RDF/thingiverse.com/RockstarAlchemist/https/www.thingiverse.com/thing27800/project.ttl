@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A27800/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:TheUltimateXyaxisCalibrationTool120mm a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "The Ultimate X,Y-Axis Calibration Tool @ 120mm" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "I was frustrated with small calibration targets that required measurement of 10-40 mm.  My thought that was stepper error would be compounded over longer lengths.  So I created a 120 mm target.  The minor axis is 15mm.  The thickness is 3mm. Perhaps someone has done this already...and I'm happy to give credit where credit is due." ;
     okh:hasImage :Image ;
     okh:licensor "RockstarAlchemist" ;
     okh:repo <https://www.thingiverse.com/thing:27800> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:27800> .

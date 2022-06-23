@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A7964/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ParametricPlasticDrawerJointsToReplacementBoltFrontOfDrawerIn a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "parametric plastic drawer joints to replacement  + bolt front of drawer in." ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I replaced and repaired my sons drawer with 4 plastic joints that i designed in open scad. these joints are strong enough for any furniture project as well. they hold wooden pieces together at 90deg angles. the joints are re enforced on the outside to increase strength.\r
 \r
 My son likes to pull down on the drawer we have in his room. he broke the old 90deg joints, and this was a perfect opportunity to demonstrate 3d printing to my wife and save a few bucks.\r
@@ -17,6 +19,7 @@ it took all but 5 minutes to create parts in open scad, and 30 minutes after tha
     okh:repo <https://www.thingiverse.com/thing:7964> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:7964> .

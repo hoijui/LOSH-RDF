@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A16986/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Thingaday3Bookmark a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Thing-A-Day #3: Bookmark" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "As the day was winding down I realized that I hadn't created a Thing today yet!  Trying to figure out what I could quickly design that wouldn't be complete junk, I came up with this - a simple bookmark." ;
     okh:hasImage :Image ;
     okh:licensor "MakerBlock" ;
     okh:repo <https://www.thingiverse.com/thing:16986> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:16986> .

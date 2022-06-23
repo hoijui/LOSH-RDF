@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A36888/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PowerSupplyMountForPrusaMendel a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Power supply mount for Prusa Mendel" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """It is a simple mount for attach a Tacens power supply ( http://www.tacens.es/fuentes_de_alimentacion/fuente_de_alimentacion_radixeco400.html ) to your prusa mendel.\r
 It allows to have a more compact and handy printer.\r
 \r
@@ -18,6 +20,7 @@ http://paclema.blogspot.com.es/2012/12/guarda-le-fuente-bajo-tu-prusa.html""" ;
     okh:repo <https://www.thingiverse.com/thing:36888> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:36888> .

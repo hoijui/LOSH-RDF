@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A5710/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Nema17BowdenExtruderDrive a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "NEMA 17 bowden extruder drive" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Based on Wade's extruder, with the X carriage mounting holes removed since this will be mounted on the Huxley frame instead. Also includes some other changes to take the bowden tube (3mm OD) and work with a 1.75mm diameter filament, driven by an M4 toothed brass insert.\r
 \r
 The gears are 9 and 53 tooth gears respectively, giving a ratio of nearly 5.9:1. I might try using a NEMA14 instead in future since the force required to push 1.75mm filament through the nozzle is a lot less than 3mm filament.\r
@@ -18,6 +20,7 @@ I'm not totally happy with how this mounts onto the frame yet, but it's useable 
     okh:repo <https://www.thingiverse.com/thing:5710> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:5710> .

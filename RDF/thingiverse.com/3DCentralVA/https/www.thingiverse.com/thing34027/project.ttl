@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A34027/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PartialRotateExtrudeopenscad a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Partial Rotate Extrude (OpenSCAD)" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """In the process of designing a printable frame for a mini quad copter, I realized I needed a feature of OpenSCAD that I don't think was implemented yet. While I know this is not a perfect solution, it was a good enough hack for my needs. \r
 \r
 Included is the example use case.""" ;
@@ -14,6 +16,7 @@ Included is the example use case.""" ;
     okh:repo <https://www.thingiverse.com/thing:34027> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/LGPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:34027> .

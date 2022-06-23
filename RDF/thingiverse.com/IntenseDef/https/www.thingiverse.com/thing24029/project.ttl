@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A24029/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:GoproHero2GenericMountAndBits a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "GoPro hero 2 generic mount and bits" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """GoPro hero 2 generic mount and bits, ive seen some on here before but i was looking to make a specific mount for my own needs, so a side effect was i had to measure up and draw out the original design and do a couple of test prints to get a good fit, so i thought i would upload them too, its a nice fit on the standard gopro camera mount, no slop and not too tight, i have included the drawing files from autocad 2004 format, i guess i could save out other formats if needed, i included a few images of my special mounts too, its easy to edit the generic dwg file to make one for your own needs, but keeping the typical gopro connection.\r
 \r
 see it in action here \r
@@ -15,6 +17,7 @@ http://youtu.be/omsI9QdFpDc""" ;
     okh:repo <https://www.thingiverse.com/thing:24029> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:24029> .

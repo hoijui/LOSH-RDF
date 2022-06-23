@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A4324/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:FavoriteRobotsEveWalleAndRoomba a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Favorite Robots: EVE & WALL-E and ROOMBA " ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """The latest in a series of g-code releases of plottable/drawable "favorite robots." \r
 \r
 I, for one, believe there should be more "robot" things in the MakerBot community. Why don't you scan and trace your favorite robots (both of fiction and fact) and share them back with us here?\r
@@ -18,6 +20,7 @@ These are more images requested and prepped for MakerFaire NYC 2010. Behind the 
     okh:repo <https://www.thingiverse.com/thing:4324> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:4324> .

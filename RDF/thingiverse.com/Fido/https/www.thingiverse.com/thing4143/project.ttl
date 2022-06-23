@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A4143/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MagneticPoolCueChalkHolder a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Magnetic Pool Cue Chalk Holder" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Magnetic pool cue chalk holder that clips on to your belt. \r
 Once saw someone use similar and thought that would be easy to create Makerbot style. \r
 As for a magnets I had a 20x2mm disk type neodymium magnets at my disposal. Strong enough to clip together thru a shirt. \r
@@ -19,6 +21,7 @@ The chalk cube itself fits snuggly in the box.\r
     okh:repo <https://www.thingiverse.com/thing:4143> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:4143> .

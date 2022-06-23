@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A44366/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:YetAnAnotherZCoupler a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Yet an another Z coupler !" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I was inspired by http://www.thingiverse.com/thing:35564 but i found it a bit ...too big, with useless use of plastic\r
 so I design this one to self centered, with just the amount of plastic to be strong enough to keep the nuts and screws in place\r
 \r
@@ -19,6 +21,7 @@ need 6 3mm 8-10 mm screws and 6 nuts each (on the picture I had only 16 mm screw
     okh:repo <https://www.thingiverse.com/thing:44366> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:44366> .

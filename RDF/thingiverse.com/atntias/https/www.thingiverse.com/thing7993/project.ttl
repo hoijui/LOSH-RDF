@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A7993/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:AccessibleWadesExtruderForV4v6HotEnds a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Accessible Wade's Extruder For V4/V6 hot ends" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a derivative work of http://www.thingiverse.com/thing:6713\r
 \r
 Its just A small change for it to fit my v4 hot end should fit v6 too..\r
@@ -16,6 +18,7 @@ I olso made the ptfe hole little deeper for my bolts to fit.""" ;
     okh:repo <https://www.thingiverse.com/thing:7993> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:7993> .

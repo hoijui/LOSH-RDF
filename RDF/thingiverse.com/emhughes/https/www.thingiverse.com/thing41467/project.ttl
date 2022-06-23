@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A41467/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MakerbotReplicatorCustomSlicingProfile a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Makerbot Replicator Custom Slicing Profile" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I've had some problems getting my prints to stay flat on the build plate and / or stick to the build plate with my Makerbot Replicator 1.  I know that others have to and that solutions have been difficult to find.  My solution is to create a custom slicing profile with these raft settings.  
 
 This method takes longer and uses more plastic for rafts but works consistently.  
@@ -16,6 +18,7 @@ I have an updated version that works better: http://www.thingiverse.com/thing:10
     okh:repo <https://www.thingiverse.com/thing:41467> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:41467> .

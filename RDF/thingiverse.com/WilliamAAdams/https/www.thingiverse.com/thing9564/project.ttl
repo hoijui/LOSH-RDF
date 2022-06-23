@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A9564/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:OpenscadRevoloidsVersion06 a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "OpenScad Revoloids version 0.6" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Well, revoloids (slight change in name) are really nifty cool, easy to generate surfaces in a mathematical sense, but for them to be relevant to 3D printing, they need some volume.\r
 \r
 This thing adds the ability to specify a thickness on your revoloid so that you can actually export as a .stl and print it.\r
@@ -18,6 +20,7 @@ I also want to come up with a nice scheme for printing flats for 'bottoms' and '
     okh:repo <https://www.thingiverse.com/thing:9564> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:9564> .

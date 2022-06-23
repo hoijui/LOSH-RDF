@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A9302/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Mk6RtvInsulation a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "MK6+ RTV insulation" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """*update 2*\r
 I tried again. When the first attempt failed, I peeled off all the RTV and it turned out I had put about 1/16 inch of insulation on it... I redid it, this time making sure I applied it thicker. I also did about 3 passes. I have much closer to a quarter inch of RTV on it, and its printing well. As I type this, I've been printing for 1 hour, 23 minutes without the shutoff kicking in, and the M3s through the acrylic are not too hot to touch. Neither is the RTV.\r
 \r
@@ -21,6 +23,7 @@ Ok, so it doesn't look any better, but its mine, ya know?""" ;
     okh:repo <https://www.thingiverse.com/thing:9302> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:9302> .

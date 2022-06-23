@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A19211/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:SliderFaderSlidePotentiometerKnobs a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "slider / fader / slide potentiometer knobs" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a knob for a slide potentiometer.  If you've ever had to locate a source for these kinds of knobs, you know that your options are limited at best, ridiculously expensive at medium, and totally absent at worst. \r
 \r
 Well, with a 3d printer (and optionally, the awesome Jetty firmware,) you can save $1-4 for each knob you print yourself.\r
@@ -16,6 +18,7 @@ The wiper on my faders measure 4mm by 1.2mm.  My project uses kind of a lot of t
     okh:repo <https://www.thingiverse.com/thing:19211> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:19211> .

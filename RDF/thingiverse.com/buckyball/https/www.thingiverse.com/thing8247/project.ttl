@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A8247/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ParametricSpiceRack a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Parametric Spice Rack" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """My spice rack couldn't hold all of my spices, so I decided to make my own.\r
 \r
 This file will generate a cut pattern for a laser cutter which will assemble into a spice rack. It was designed with 1/4" material in mind but it will adjust itself reasonably well if you use something else.\r
@@ -30,6 +32,7 @@ laser_beam_width: for fine adjustment in the cut holes [affects tightness]""" ;
     okh:repo <https://www.thingiverse.com/thing:8247> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:8247> .

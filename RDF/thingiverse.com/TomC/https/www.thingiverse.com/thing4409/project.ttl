@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A4409/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ZAxisWobbleAdapter a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "z axis wobble adapter" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "I installed twotimes excellent wobble adapter www.thingiverse.com/thing:2151 but had problems with the clamps on the guide not gripping the platform tightly. GregT's adaptation http://www.thingiverse.com/thing:4361 clearly showed the solution but there were some issues with it (the guide was floating not fixed) and I didn't want to take apart my existing print - so I threw together a quick fix that works great and only took a few minutes to create and print even if its not beautiful." ;
     okh:hasImage :Image ;
     okh:licensor "TomC" ;
     okh:repo <https://www.thingiverse.com/thing:4409> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:4409> .

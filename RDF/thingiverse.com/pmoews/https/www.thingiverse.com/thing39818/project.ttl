@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A39818/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:IcosahedralSymmetryOnASphere a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Icosahedral Symmetry on a Sphere       " ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Here is openSCAD code which covers a sphere with a pattern displaying icosahedral symmetry.  The code uses the same technique as that described in thing:39424 Octahedral Symmetry on a Sphere.\r
 \r
 The Platonic solids with five fold rotation axes are the icosahedron and the dodecahedron. They share symmetry elements; each has six 5 fold axes, ten 3 fold axes and fifteen 2 fold axes.  We can use their vertices, mapped to\r
@@ -26,6 +28,7 @@ OpenSCAD code is included.  Gen_rosettes.scad generates the dxf rosette files an
     okh:repo <https://www.thingiverse.com/thing:39818> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:39818> .

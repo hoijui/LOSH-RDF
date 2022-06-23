@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A14126/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:CabinetClip a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Cabinet Clip" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """A little two part snap thing to keep your cabinet securely closed.  I needed one to keep my cabinet closed because my fat cat (who's on a new diet) has resorted to opening it up and chewing through rice and dry pinto bean bags.\r
 It stays closed very securely, but it turns out he can still get in there. So I guess I'll make something like one of those child locks next.\r
 And yes, apparently I wont go to the drug store and buy these things for like 50 cents.""" ;
@@ -14,6 +16,7 @@ And yes, apparently I wont go to the drug store and buy these things for like 50
     okh:repo <https://www.thingiverse.com/thing:14126> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:14126> .

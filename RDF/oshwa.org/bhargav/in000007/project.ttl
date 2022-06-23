@@ -2,21 +2,15 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Audiosensepi a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "audiosense-pi" ;
-    okh:additionalType "['Education', 'Electronics']" ;
-    okh:certificationDate "2019-01-12T00:00:00-05:00" ;
-    okh:country "India" ;
     okh:dataSource "oshwa.org" ;
     okh:documentationLanguage "en" ;
-    okh:documentationLicense "CC 0" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function "I've designed a RPi HAT using TLV320AIC3204 Stereo Audio Codec from TI. It gives multiple audio input (Microphone & Line-In) capabilities to the RPi over the I2S bus and provides multiple high quality (up to 192kHz) audio outputs (Speakers and Headphones)." ;
-    okh:hardwareLicense "CERN" ;
     okh:licensor "Bhargav" ;
-    okh:primaryType "Sound" ;
     okh:repo <https://certification.oshwa.org/in000007.html> ;
     okh:repoHost "certification.oshwa.org" ;
-    okh:softwareLicense "GPL" ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
     okh:uploadMethod "auto" ;
     okh:version "1.0" ;

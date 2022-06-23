@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A46865/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:DogProofDoorLatch a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Dog proof door latch" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Our inside doors (opens inward to the rooms) have the lever style handles and our two standard poodles like to open the doors while we are gone and get into rooms they should not (like to open the laundry room door and eat the cat food). I wanted a simple way to secure the doors while gone so I made this thingy that slides onto the bottom of the door then after closing the door you slide it over and it latches onto the door jam. It stays in place pretty well and even when they jump up and pull the door handles down this is enough to keep the door from opening. May not work with other doors. Our door is 35mm deep and then another 35mm or so to the front side of the jam.\r
 \r
 *Note* this is for an inward swinging door with the knob on the left side. Will have to mirror it to work with right hand side door.""" ;
@@ -14,6 +16,7 @@
     okh:repo <https://www.thingiverse.com/thing:46865> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:46865> .

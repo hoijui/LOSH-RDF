@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A32124/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Nematocyst a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Nematocyst" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """If you have ever been stung by a jellyfish or coral you've already encountered one of these - a nematocyst. It is the stinging capsule found within specialized cells of Cnidaria (http://eol.org/pages/1745/overview). Nematocysts have poison filled harpoons that rapidly fire to attach to and incapacitate prey, or to deter predators.   
 
 
@@ -24,6 +26,7 @@ Visit http://creaturecast.org for more stories about the unexpected world of Bio
     okh:repo <https://www.thingiverse.com/thing:32124> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:32124> .

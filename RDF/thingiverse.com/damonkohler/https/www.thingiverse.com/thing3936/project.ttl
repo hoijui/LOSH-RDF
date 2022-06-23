@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A3936/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ExtrusionCatcher a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Extrusion Catcher" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "This version of the extrusion catcher has a little tab to attach the catcher to the bolt in the bottom left corner of the build platform. Here's a video of it in action: http://www.youtube.com/watch?v=8P1vekuYYgo" ;
     okh:hasImage :Image ;
     okh:licensor "damonkohler" ;
     okh:repo <https://www.thingiverse.com/thing:3936> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/BSD-4-Clause> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:3936> .

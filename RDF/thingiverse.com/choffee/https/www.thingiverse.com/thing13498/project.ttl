@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A13498/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:RightAngleBikeTube a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Right angle bike tube" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is my first real thing so it's pretty basic. It clips onto the upright of my Brompton handle bar so that my light is the right way up. You can change the sizes of various parts in the top of the scad file and it should scale. I had to split it in two so that I could print the arch. Suggestions welcome for how to do it without the split.\r
 \r
 Source files on github: https://github.com/choffee/things/blob/master/right_angle_bike_light.scad""" ;
@@ -14,6 +16,7 @@ Source files on github: https://github.com/choffee/things/blob/master/right_angl
     okh:repo <https://www.thingiverse.com/thing:13498> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:13498> .

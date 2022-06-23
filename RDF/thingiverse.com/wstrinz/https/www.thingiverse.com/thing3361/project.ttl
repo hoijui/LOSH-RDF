@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A3361/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:IcehousePyramids a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Icehouse pyramids" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Icehouse is a board gaming system (like a deck of cards) with a dedicated community of fans. There are 3 types of pyramids: small, medium, and large. a set of 3 pyramids is called a "nest", and a set of 5 nests is called a "stash".\r
 \r
 Icehouse pyramids can be used to play any of the 300+ games found at http://www.icehousegames.org. Many games can be played with only one stash, but with 5 stashes (and a few odds and ends like playing cards and dice) you can play almost every game on the site. The coolest part about Icehouse is the community that has been built around inventing and sharing games. Sadly it seems to be stagnating a bit lately, so maybe the thingiverse community can help revitalize things?\r
@@ -16,6 +18,7 @@ I designed these in sketchup using the official specifications found here: http:
     okh:repo <https://www.thingiverse.com/thing:3361> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:3361> .

@@ -2,22 +2,15 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Escornabotcpu a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Escornabot_CPU" ;
-    okh:additionalType "['Education']" ;
-    okh:certificationDate "2019-08-09T00:00:00-04:00" ;
-    okh:country "Spain" ;
-    okh:cpcPatentClass "Education" ;
     okh:dataSource "oshwa.org" ;
     okh:documentationLanguage "en" ;
-    okh:documentationLicense "CC BY-SA" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function "Escorna CPU is a 50x100mm board to use with Arduino Nano. It integrates keypad on board.  Escornabot is an open source/hardware project that aims to bring robotics and programming to children." ;
-    okh:hardwareLicense "Other" ;
     okh:licensor "XDeSIG" ;
-    okh:primaryType "Education" ;
     okh:repo <https://certification.oshwa.org/es000006.html> ;
     okh:repoHost "certification.oshwa.org" ;
-    okh:softwareLicense "Other" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
     okh:uploadMethod "auto" ;
     okh:version "2.12" ;

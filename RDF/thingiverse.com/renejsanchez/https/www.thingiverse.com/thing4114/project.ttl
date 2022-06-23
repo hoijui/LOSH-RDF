@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A4114/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:EnclosureForAdafruitPowerSupply a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Enclosure for Adafruit Power Supply" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Enclosure for this power supply:\r
 http://www.adafruit.com/index.php?main_page=product_info&cPath=38&products_id=184&zenid=66742cf9e56ba1bb6d072cc8a75a0bc7""" ;
     okh:hasImage :Image ;
@@ -13,6 +15,7 @@ http://www.adafruit.com/index.php?main_page=product_info&cPath=38&products_id=18
     okh:repo <https://www.thingiverse.com/thing:4114> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:4114> .

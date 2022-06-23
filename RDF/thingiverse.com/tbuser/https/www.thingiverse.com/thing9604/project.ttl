@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A9604/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:FilamentGuideStacker a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Filament Guide Stacker" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This accomplishes a number of things...\r
 \r
 Pulls the filament off of the spools at a constant, low resistance around a gentle arc at a fixed position and angle.  Without it, filament pulls off the side of the spool at an extreme tight angle causing the spool to bounce around during reversal and Z movement.\r
@@ -20,6 +22,7 @@ Provides another place to stash your tools!""" ;
     okh:repo <https://www.thingiverse.com/thing:9604> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:9604> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A12755/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:BoxCorner a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Box Corner" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """While building a case for my Orca, I realized, that it would be nice, to cover the corners of the wooden box. So I designed these box corners.\r
 \r
 There are 3 variations, use the one with 0 holes, if you want to glue the corners, or use the versons with the holes, to screw them in place.""" ;
@@ -14,6 +16,7 @@ There are 3 variations, use the one with 0 holes, if you want to glue the corner
     okh:repo <https://www.thingiverse.com/thing:12755> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:12755> .

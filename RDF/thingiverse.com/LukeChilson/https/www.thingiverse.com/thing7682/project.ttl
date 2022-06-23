@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A7682/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:IdleGuardThingomaticYaxis a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Idle Guard, Thingomatic Y-axis" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "This will guard your Thingomatic's Y-axis idle pulley from those pesky cords and cables wanting to slither behind it and wreak various amounts of havoc. I can now trust that long prints won't suffer from slipped steps due to cables from my heated bed getting caught. If you haven't installed a drag chain and/or do a lot of hacking on your bot I highly recommend installing this on your machine." ;
     okh:hasImage :Image ;
     okh:licensor "LukeChilson" ;
     okh:repo <https://www.thingiverse.com/thing:7682> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:7682> .

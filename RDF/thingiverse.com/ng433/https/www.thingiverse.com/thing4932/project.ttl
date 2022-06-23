@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A4932/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:UltrasonicScanningSensorTestPlatform a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Ultrasonic scanning sensor test platform" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "In the process of building robots i wanted to explore the use of Ultrasonic sensors for more than just obstacle avoidance. The goal is to identify door openings. I realized i had no idea how to do this. I also realized I wanted to offload some of the sensor work to another processor. This test bed was created to develop the software for navigation. In its final form I hope to create a more compact package." ;
     okh:hasImage :Image ;
     okh:licensor "ng433" ;
     okh:repo <https://www.thingiverse.com/thing:4932> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:4932> .

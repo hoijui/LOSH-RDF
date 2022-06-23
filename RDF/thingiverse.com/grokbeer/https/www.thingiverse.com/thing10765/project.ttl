@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A10765/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:CupcakeXstageWebcamMountForLogitechC510 a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "CupCake X-Stage Webcam Mount for Logitech C510" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I often stream video of my CupCake in action (especially when I'm printing objects for friends) and wanted a way to mount the webcam so it followed the action.\r
 \r
 I came up with this very simple design in OpenSCAD.  It needs some adjusting as the slot for the cam was a little tight (although it held the cam firmly) and the base was a little thin (so I wrapped it in a layer of duct tape).  All the sizes are set by parameters so it should be easy to tweak.\r
@@ -22,6 +24,7 @@ Another idea would be to mount it on the back of the X-Stage.  That way it could
     okh:repo <https://www.thingiverse.com/thing:10765> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:10765> .

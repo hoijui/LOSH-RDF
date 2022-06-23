@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A24908/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Robots a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Robots" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """These are the parts we used in a childrenâ€™s workshop in Madrid a few weeks ago. The goal was to create a character with some body parts created on a 3D printer and other parts made by cutting foam sheets with a hot wire.  \r
  \r
 We used conductive play-doh (courseweb.stthomas.edu/apthomas/SquishyCircuits/index.htm) to generate simple circuits to power LEDs representing eyes, ears, or noses in the robots heads. The LEDs are powered by coin cell 4.5V batteries that fit in the torso.  \r
@@ -18,7 +20,7 @@ crearchitetturattivamente.blogspot.com.es/2012/05/frankensteint-fomentando-las-r
 \r
 ______\r
 \r
-Estas son las piezas que utilizamos para un taller infantil desarrollado en Madrid hace unas semanas. ConsistÃ­a en montar un personaje con unas partes del cuerpo (cabeza, torso y piernas) fabricadas con impresiÃ³n 3D y otras (brazos) cortadas con hilo caliente de planchas de espuma.\r
+Estas son las piezas que utilizamos para un taller infantil desarrollado en Madrid hace unas semanas. ConsistÃxada en montar un personaje con unas partes del cuerpo (cabeza, torso y piernas) fabricadas con impresiÃ³n 3D y otras (brazos) cortadas con hilo caliente de planchas de espuma.\r
 \r
 Usamos plastilina conductiva ( http://courseweb.stthomas.edu/apthomas/SquishyCircuits/index.htm ) para generar circuitos sencillos que pudieran encender leds simulando ojos, orejas o narices en las cabezas de los robots. Estos leds son alimentados por pilas de petaca de 4,5 V que entran en las piezas del torso (body).\r
 \r
@@ -31,6 +33,7 @@ http://crearchitetturattivamente.blogspot.com.es/2012/05/frankensteint-fomentand
     okh:repo <https://www.thingiverse.com/thing:24908> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:24908> .

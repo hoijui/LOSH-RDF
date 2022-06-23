@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A13343/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ParametricMakergearXcarriage40mmFanMount a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Parametric MakerGear X-carriage 40mm Fan Mount" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "I really liked this original fan mounting design, it is so simple and requires so little hardware. However, I found that the angle of the fan was not easy to adjust, and the default didn't work for me. So, I made the same part in openSCAD and made it possible to change the fan angle. The original part was 0 degrees, and my default version is 45 degrees." ;
     okh:hasImage :Image ;
     okh:licensor "jakepoz" ;
     okh:repo <https://www.thingiverse.com/thing:13343> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:13343> .

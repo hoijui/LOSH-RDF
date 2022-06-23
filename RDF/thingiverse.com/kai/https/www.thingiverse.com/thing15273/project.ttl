@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A15273/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Lm8uuTom8mmRodAdapterKitForMakerbot a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "LM8UU ToM - 8mm Rod Adapter Kit for Makerbot " ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I am building a new ToM and I just have 8mm rod and LM8UU leftover from my Prusa Mendal. So I design an adapter kit to convert Makerbot from using 3/8" rod and bushing to 8mm rod and LM8UU linear bearing.\r
 It will fit on standard wood ToM and work pretty well on my new acrylic tom too.""" ;
     okh:hasImage :Image ;
@@ -13,6 +15,7 @@ It will fit on standard wood ToM and work pretty well on my new acrylic tom too.
     okh:repo <https://www.thingiverse.com/thing:15273> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:15273> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A13874/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MosaicSideMountedCoolingFanWithNozzle a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Mosaic side mounted cooling fan with nozzle" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I really did not like how the extra cooling fan mounted on the Mosaic.   The big thing that I hated was that it blocked the view of the build!   I like to watch!  So here is a design that mounts the secondary fan on the side, and it has a nozzle that moves the air near the extruder.   \r
 \r
 It may be a bit of overkill just because I am still learning up the tool chain, and I may refractor the nozzle/fan air chamber as one part at a later time.  \r
@@ -16,6 +18,7 @@ I will also post just a side mount fan mount without the nozzle on another post(
     okh:repo <https://www.thingiverse.com/thing:13874> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:13874> .

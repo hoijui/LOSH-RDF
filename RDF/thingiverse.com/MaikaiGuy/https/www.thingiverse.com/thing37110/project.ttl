@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A37110/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PuddleJumper a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Puddle Jumper" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Inspired by "Whirly One", created by seedwire (http://www.thingiverse.com/thing:36217), I wanted to make another toy I had as a child.  I looked for some puddle jumpers on Thingiverse, but they were not the same.\r
 \r
 I got my first puddle jumper as a small child when visiting FAO Schwartz, when it was a warm and magical toy store on the Southeast corner of 5th and 58th, not the cold commercialized and corporatized version now situated across 58th street.   \r
@@ -16,6 +18,7 @@ The puddle jumper sparked my first serious interest in aerodynamics..  It is a v
     okh:repo <https://www.thingiverse.com/thing:37110> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:37110> .

@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A51921/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Colosseum a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Colosseum" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "Ever wanted to go to Rome, but weren't able to? Well now you can have all the fun of Ancient Rome on your desk! This model prints in one piece, and has the accurate three stories of windows. Before ignoring it, please look at it in thingiview. The picture doesn't do it justice." ;
     okh:hasImage :Image ;
     okh:licensor "Pink_Iguanas" ;
     okh:repo <https://www.thingiverse.com/thing:51921> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:51921> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A4391/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:GimbalForASteadicam a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Gimbal for a SteadiCam" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a Gimbal designed for a DIY SteadiCam that I made for a colleague at work (See http://www.yb2normal.com/DIYsteadicam.html).\r
 \r
 It makes use of two 624 bearings in addition to the required 608 bearing.\r
@@ -15,6 +17,7 @@ It would also be possible to use four 624 bearings or to use no 624 bearings.  I
     okh:repo <https://www.thingiverse.com/thing:4391> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:4391> .

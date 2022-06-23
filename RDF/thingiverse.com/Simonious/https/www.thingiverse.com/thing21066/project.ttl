@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A21066/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:AnArduinoMountForMendelmaxWith80mmFanMount a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "An Arduino mount for MendelMax with 80mm fan mount" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is similar to one of my old arduino mounts, but it's just a touch nicer.  Warning - I find that when I slice this it sometimes ends up with a layer printed right through the small mount holes - I just poke through this with a screwdriver or needlenose when it happens.\r
 \r
 The second one *should* be a slightly better fit for the arduino - I moved the top hole that mounts to the MM frame up one MM, because I found it impacted with some arduinos.\r
@@ -15,6 +17,7 @@ I also moved the top left arduino mount hole down .5mm, because I found it was p
     okh:repo <https://www.thingiverse.com/thing:21066> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:21066> .

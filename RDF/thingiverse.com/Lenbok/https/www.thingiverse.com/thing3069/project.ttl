@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A3069/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:OpenscadGearedNema17ExtruderBlock a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "OpenSCAD Geared Nema 17 Extruder Block" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Wade's original geared extruder block is too big to print on a makerbot.\r
 \r
 I remade the extruder block in OpenSCAD so that I could then carefully downscale parts of the extruder block to make it manageable.  (I was inspired by the guy who used OpenSCAD to "patch" the original STL to take a BfB hot end, but for what I wanted to do it seemed better to recreate the whole thing).""" ;
@@ -14,6 +16,7 @@ I remade the extruder block in OpenSCAD so that I could then carefully downscale
     okh:repo <https://www.thingiverse.com/thing:3069> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:3069> .

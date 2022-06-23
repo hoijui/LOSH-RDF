@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A9881/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:FestiveLightBrackets a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Festive Light Brackets" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """These are little brackets to make it easier to mount strings of festive lights on your house.  The first one installs in vented soffit panels.  Pinch the two "horns" gently to fit in a couple of the soffit vent holes and let it spring up to mount.  (Some vent patterns are different, your mileage may vary.)  I intentionally designed them without a latch so they're easy to remove & reposition.\r
 \r
 The second bracket can be mounted with a #4 or 3mm flathead wood screw.\r
@@ -18,6 +20,7 @@ I designed them in ViaCAD Pro.""" ;
     okh:repo <https://www.thingiverse.com/thing:9881> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:9881> .

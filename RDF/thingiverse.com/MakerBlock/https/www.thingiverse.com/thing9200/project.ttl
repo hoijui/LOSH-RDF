@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A9200/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PrintableProtractor a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Printable Protractor" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I have a new project I'm working on, but I needed to have an idea of the angles involved.  I couldn't find a protractor, so I made one.  :)\r
 \r
 The protractor has two sets of angle-finders, an inner and an outer ring.  The marks on each ring are 10 degrees apart.  The two rings are set 5 degrees from one another.  \r
@@ -16,6 +18,7 @@ If you require a greater degree of measurement, you could always edit the OpenSC
     okh:repo <https://www.thingiverse.com/thing:9200> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:9200> .

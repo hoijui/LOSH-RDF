@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A15658/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:GiantHollowTwoColorWorld a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Giant Hollow Two Color World" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "Supersized version of the dualstrusion two color world suitable for printing on a MakerBot Replicator.  145mm tall.  The inside is hollow to save plastic because it's so massive.  There's two versions, one totally hollow and one with a support column through the center which it turns out isn't really necessary." ;
     okh:hasImage :Image ;
     okh:licensor "tbuser" ;
     okh:repo <https://www.thingiverse.com/thing:15658> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:15658> .

@@ -2,20 +2,15 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Ads101512bitAdc4ChannelWithProgrammableGainAmplifier a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "ADS1015 12-Bit ADC - 4 Channel with Programmable Gain Amplifier" ;
-    okh:certificationDate "2020-04-29T00:00:00-04:00" ;
-    okh:country "United States of America" ;
     okh:dataSource "oshwa.org" ;
     okh:documentationLanguage "en" ;
-    okh:documentationLicense "CC BY-SA" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function "For microcontrollers without an analog-to-digital converter or when you want a higher-precision ADC, the ADS1015 provides 12-bit precision at 3300 samples/second over I2C. The chip can be configured as 4 single-ended input channels, or two differential channels. As a nice bonus, it even includes a programmable gain amplifier, up to x16, to help boost up smaller single/differential signals to the full range. Click the link labeled 'Project Website' to find out more." ;
-    okh:hardwareLicense "Other" ;
     okh:licensor "Adafruit Industries, LLC" ;
-    okh:primaryType "Electronics" ;
     okh:repo <https://certification.oshwa.org/us000366.html> ;
     okh:repoHost "certification.oshwa.org" ;
-    okh:softwareLicense "MIT" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
     okh:uploadMethod "auto" ;
     okh:version "0.2" ;

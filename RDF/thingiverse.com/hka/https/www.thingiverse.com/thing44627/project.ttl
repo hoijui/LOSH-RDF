@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A44627/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Omniball a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Omniball" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a wheel that is able to drive in all direction in a plane without having to turn (with som limitations). The idea for the design isn't mine, I stumbled across this [ http://www.youtube.com/watch?v=BTp2UAaihaI ] video a couple of years ago and thought, I want one of those!\r
 \r
 And now I have a 3d printer. I've made a model in openscad and printed a version of it that seems to work to some extent. I wanted to make it all printable but was unable to manage the gears (I'll have to spend some more time on them as of now I use some I got of ebay ( http://www.ebay.com/itm/BEVEL-GEARS-PAIR-2mm-BORE-12mm-DIAMETER-BLACK-NYLON-66-/290844724436 )), the bearings was another part I were unable to print. I tried making a bearing using cylinders instead of printed balls but it didn't work well (seen some designs here using BBs I want to try though).\r
@@ -18,6 +20,7 @@ I will update this when I have time to work on it. Hopefully I'll get a working 
     okh:repo <https://www.thingiverse.com/thing:44627> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:44627> .

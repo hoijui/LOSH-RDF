@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A13602/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ServoMountWithServoLinkage a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Servo Mount with Servo Linkage" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I needed a robot arm to try out a couple of the projects in a book I'm editing, Making Things See by Greg Borenstein: http://urbanhonking.com/ideasfordozens/2011/10/08/making-things-see-available-for-early-release. You can see a video of Greg's project here: http://vimeo.com/31698679\r
 \r
 I knew I wasn't going to be happy with popsicle sticks, so I combined two things to make robot arms that can have servos at one end:\r
@@ -18,6 +20,7 @@ http://www.thingiverse.com/thing:8131""" ;
     okh:repo <https://www.thingiverse.com/thing:13602> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:13602> .

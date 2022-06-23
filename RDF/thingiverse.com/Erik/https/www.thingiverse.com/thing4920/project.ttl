@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A4920/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:BasicMaleForm a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Basic Male Form" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """We had been printing the pink panther woman a few times, but sometimes women would ask why we didn't print any male forms. Yesterday nicholasclewis uploaded this wonderful model. The vertices were very much visible, so I subdivided them a few times and performed a smoothing operation in Meshlab (open source!). There are some other files by nicholasclewis that are not in this derivative post, so be sure to check out those, too!\r
 The model is a little 'dirty' because I was still flushing out some black ABS which keeps coming out of the nozzle even after printing hundreds of grams of PLA. Also, this really made the extrusion less smooth than it could be.""" ;
     okh:hasImage :Image ;
@@ -13,6 +15,7 @@ The model is a little 'dirty' because I was still flushing out some black ABS wh
     okh:repo <https://www.thingiverse.com/thing:4920> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:4920> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A28720/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:IphoneDockForSideDisplay a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "iPhone Dock for Side Display" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I was asked to design an iPhone Dock that would allow the phone to be held and charged in either the upright or side positions.\r
 \r
 This thing should allow you to place your iphone on its side, and still be plugged in.\r
@@ -16,6 +18,7 @@ I do not have my own i-device, so I grabbed measurements for the connector base 
     okh:repo <https://www.thingiverse.com/thing:28720> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:28720> .

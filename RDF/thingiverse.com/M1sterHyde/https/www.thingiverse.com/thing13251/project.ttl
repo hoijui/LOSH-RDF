@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A13251/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:LotusFlower a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "LOTUS FLOWER" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "This is a lotus or rose or what ever is most Awesome. I made this as a gift for someone so I went the extra mile and made some brass leafs colored green and Copper wire stems so oxidize them in a brown green tone. I went to TIG the copper to the stainless stalk but It was too small so I just brazed it. I ended up Threading the stem to use a 4/40 nylon acorn nut below the flower and a 4/40 acorn nut at the top to look real." ;
     okh:hasImage :Image ;
     okh:licensor "M1sterHyde" ;
     okh:repo <https://www.thingiverse.com/thing:13251> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:13251> .

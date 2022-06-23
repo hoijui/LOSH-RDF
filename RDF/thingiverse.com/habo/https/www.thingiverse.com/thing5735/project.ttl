@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A5735/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MiniServoGripper a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Mini servo gripper" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This servo gripper is modified for smaller servos than the original edition. Also 4mm plywood is used.\r
 \r
 The work is based on http://www.thingiverse.com/thing:4849 with changes to 4mm plywood, more separators and different gear.""" ;
@@ -14,6 +16,7 @@ The work is based on http://www.thingiverse.com/thing:4849 with changes to 4mm p
     okh:repo <https://www.thingiverse.com/thing:5735> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:5735> .

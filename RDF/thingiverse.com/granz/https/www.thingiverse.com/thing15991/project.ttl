@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A15991/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PrusaYMotorMountNoIdlerNeeded a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Prusa Y Motor Mount - No Idler Needed!" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "I wasn't very happy with the standard Prusa Y motor mount due to it's lack of rigidity (I used a cable tie on the back of the motor for extra support until now.)  Since I am running Synchromesh Cable now and not belts (see http://www.thingiverse.com/thing:15923 ) and the cable is so thin I figured there was no need for an idler pulley above the motor.  This eliminates one bearing and some nuts and washers and also helps your pulley get a better grip on the cable because it wraps 3/4 around rather than about 1/2 with the original motor mount." ;
     okh:hasImage :Image ;
     okh:licensor "granz" ;
     okh:repo <https://www.thingiverse.com/thing:15991> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:15991> .

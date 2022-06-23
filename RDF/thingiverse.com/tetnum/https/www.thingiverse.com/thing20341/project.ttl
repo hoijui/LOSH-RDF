@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A20341/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:EggchessSet a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Egg #chess Set" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This part was made with Tinkercad. Edit the part online at: https://tinkercad.com/things/8jqgnNaVEd5\r
 So I am home for Spring Break and my little brother is blasting away at monsters and crafting mines or something.  Totally annoying.  Rather than deal with him in a way that would upset my mom, I decided to distract him.  Yay Tinkercad.  In short order he had an egg pawn drawn up.  (Donâ€™t ask me about his bizarre fixation with eggs.  I just went with it.)  We worked our way through printing it.  He found some things to fix on his model so we tweaked the printing profiles.  A few minutes later we had our changes ready and it was off to the sweet sound of printing (infinitely preferable to creepers and cows at 11).  It took four or five design iterations to get a base capable of standing up.  From the initial pawn design we scaled, sliced and added to create the remaining five pieces to the set.  We found an OCD problem with Tinkercad whild making the Queenâ€™s crown.  You canâ€™t rotate objects 22.5 degrees.    Now my brother has a chess set he can be proud of and I had a Spring  break at home that I could tolerate.  I just wonder what really BIG design challenge you will come up with so I can survive the Summer.  \r
 \r
@@ -15,6 +17,7 @@ So I am home for Spring Break and my little brother is blasting away at monsters
     okh:repo <https://www.thingiverse.com/thing:20341> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:20341> .

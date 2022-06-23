@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A7678/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:SpiderCouplingWithRubberInsert475mmStepperMotorTo8mmThreadedShaft a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Spider Coupling with rubber insert: 4.75mm stepper motor to 8mm threaded shaft" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This thing is an printable spider coupling designed for a rubber insert. It has robust clamping, and should be well balanced if tightened evenly.\r
 \r
 If the rubber spider is cut cut correctly, there will be axial compression cushioning, angular cushioning, and rotary cushioning without slop.\r
@@ -46,6 +48,7 @@ Hoeken's Coupling by hoeken:\r
     okh:repo <https://www.thingiverse.com/thing:7678> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:7678> .

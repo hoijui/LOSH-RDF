@@ -1,9 +1,10 @@
-@prefix : <https://wikifactory.com/@botler/miniskybot-v2/371ab350b2ba38621d17319cd26ecf30dfd6aeaa/> .
+@prefix : <https://wikifactory.com/%40botler/miniskybot-v2/371ab350b2ba38621d17319cd26ecf30dfd6aeaa/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Miniskybot a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Miniskybot" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "Miniskybot is a mobile robot aimed for educational purposes, 3D-printable on low cost reprap-like machines, fully open source (including mechanics and electronics), and designed exclusively with open source tools. Project developed by Obijuan" ;
     okh:hasComponent :Batteryholder,
@@ -30,6 +31,7 @@
     okh:repo <https://wikifactory.com/@botler/miniskybot-v2> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "manifest" ;
     okh:version "371ab350b2ba38621d17319cd26ecf30dfd6aeaa" ;
     okh:versionOf <https://wikifactory.com/@botler/miniskybot-v2> .
 
@@ -45,13 +47,13 @@
     rdfs:label "Export File of battery_holder of Miniskybot 371ab350b2ba38621d17319cd26ecf30dfd6aeaa" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/623/batteryholder.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozODM2> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/623/batteryholder.stl> .
 
 :Batteryholder_source a okh:SourceFile ;
     rdfs:label "Source File of battery_holder of Miniskybot 371ab350b2ba38621d17319cd26ecf30dfd6aeaa" ;
     okh:fileFormat "SCAD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/623/batteryholder.scad> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozODQy> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/623/batteryholder.scad> .
 
 :Batteryholderdoc a okh:Part ;
     rdfs:label "Battery-holder-doc" ;
@@ -64,7 +66,7 @@
     rdfs:label "Source File of Battery-holder-doc of Miniskybot 371ab350b2ba38621d17319cd26ecf30dfd6aeaa" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/623/battery-holder-doc.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozODMx> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/623/battery-holder-doc.pdf> .
 
 :Chassis a okh:Part ;
     rdfs:label "chassis" ;
@@ -77,7 +79,7 @@
     rdfs:label "Source File of chassis of Miniskybot 371ab350b2ba38621d17319cd26ecf30dfd6aeaa" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/623/chassis.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozODMz> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/623/chassis.stl> .
 
 :Chassisdoc a okh:Part ;
     rdfs:label "chassis-doc" ;
@@ -90,7 +92,7 @@
     rdfs:label "Source File of chassis-doc of Miniskybot 371ab350b2ba38621d17319cd26ecf30dfd6aeaa" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/623/chassis-doc.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozODI5> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/623/chassis-doc.pdf> .
 
 :Configuration a okh:Part ;
     rdfs:label "configuration" ;
@@ -103,7 +105,7 @@
     rdfs:label "Source File of configuration of Miniskybot 371ab350b2ba38621d17319cd26ecf30dfd6aeaa" ;
     okh:fileFormat "SCAD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/623/configuration.scad> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozODQx> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/623/configuration.scad> .
 
 :Fakeultrasound a okh:Part ;
     rdfs:label "fake_ultrasound" ;
@@ -116,7 +118,7 @@
     rdfs:label "Source File of fake_ultrasound of Miniskybot 371ab350b2ba38621d17319cd26ecf30dfd6aeaa" ;
     okh:fileFormat "SCAD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/623/fakeultrasound.scad> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozODM5> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/623/fakeultrasound.scad> .
 
 :Functions a okh:Part ;
     rdfs:label "functions" ;
@@ -129,7 +131,7 @@
     rdfs:label "Source File of functions of Miniskybot 371ab350b2ba38621d17319cd26ecf30dfd6aeaa" ;
     okh:fileFormat "SCAD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/623/functions.scad> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozODM4> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/623/functions.scad> .
 
 :Futabadoc a okh:Part ;
     rdfs:label "Futaba-doc" ;
@@ -142,13 +144,13 @@
     rdfs:label "Source File of Futaba-doc of Miniskybot 371ab350b2ba38621d17319cd26ecf30dfd6aeaa" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/623/futaba-doc.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozODMw> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/623/futaba-doc.pdf> .
 
 :Image a okh:Image ;
     rdfs:label "Image of Miniskybot 371ab350b2ba38621d17319cd26ecf30dfd6aeaa" ;
     okh:fileFormat "JPG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/623/miniskybot.jpg> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozODU0> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/623/miniskybot.jpg> .
 
 :Main a okh:Part ;
     rdfs:label "main" ;
@@ -161,7 +163,7 @@
     rdfs:label "Source File of main of Miniskybot 371ab350b2ba38621d17319cd26ecf30dfd6aeaa" ;
     okh:fileFormat "SCAD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/623/main.scad> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozODQw> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/623/main.scad> .
 
 :Miniskybotv2 a okh:Part ;
     rdfs:label "Mini-skybot-v2" ;
@@ -174,7 +176,7 @@
     rdfs:label "Source File of Mini-skybot-v2 of Miniskybot 371ab350b2ba38621d17319cd26ecf30dfd6aeaa" ;
     okh:fileFormat "FCSTD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/623/mini-skybot-v2.fcstd> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozODI0> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/623/mini-skybot-v2.fcstd> .
 
 :Miniskybotv2explodedviewdrawing a okh:Part ;
     rdfs:label "Mini-skybot-v2-exploded_view_drawing" ;
@@ -187,7 +189,7 @@
     rdfs:label "Source File of Mini-skybot-v2-exploded_view_drawing of Miniskybot 371ab350b2ba38621d17319cd26ecf30dfd6aeaa" ;
     okh:fileFormat "FCSTD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/623/mini-skybot-v2-explodedviewdrawing.fcstd> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozODIz> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/623/mini-skybot-v2-explodedviewdrawing.fcstd> .
 
 :Parameterizedbatteryholder a okh:Part ;
     rdfs:label "Parameterized_battery_holder" ;
@@ -200,13 +202,13 @@
     rdfs:label "Source File of Parameterized_battery_holder of Miniskybot 371ab350b2ba38621d17319cd26ecf30dfd6aeaa" ;
     okh:fileFormat "SCAD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/623/parameterizedbatteryholder.scad> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozODQ0> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/623/parameterizedbatteryholder.scad> .
 
 :Readme a okh:Readme ;
     rdfs:label "Readme of Miniskybot 371ab350b2ba38621d17319cd26ecf30dfd6aeaa" ;
     okh:fileFormat "MD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/623/readme-10.md> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo0Nzg0> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/623/readme-10.md> .
 
 :Servowheel a okh:Part ;
     rdfs:label "Servo-wheel" ;
@@ -226,7 +228,7 @@
     rdfs:label "Source File of Servo-wheel-4-arm-horn of Miniskybot 371ab350b2ba38621d17319cd26ecf30dfd6aeaa" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/623/servo-wheel-4-arm-horn.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozODM3> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/623/servo-wheel-4-arm-horn.stl> .
 
 :Servowheel6armhorn a okh:Part ;
     rdfs:label "Servo-wheel-6-arm-horn" ;
@@ -239,13 +241,13 @@
     rdfs:label "Source File of Servo-wheel-6-arm-horn of Miniskybot 371ab350b2ba38621d17319cd26ecf30dfd6aeaa" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/623/servo-wheel-6-arm-horn.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozODM1> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/623/servo-wheel-6-arm-horn.stl> .
 
 :Servowheel_source a okh:SourceFile ;
     rdfs:label "Source File of Servo-wheel of Miniskybot 371ab350b2ba38621d17319cd26ecf30dfd6aeaa" ;
     okh:fileFormat "SCAD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/623/servo-wheel.scad> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozODQz> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/623/servo-wheel.scad> .
 
 :Servowheelroundedhorn a okh:Part ;
     rdfs:label "Servo-wheel-rounded-horn" ;
@@ -258,7 +260,7 @@
     rdfs:label "Source File of Servo-wheel-rounded-horn of Miniskybot 371ab350b2ba38621d17319cd26ecf30dfd6aeaa" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/623/servo-wheel-rounded-horn.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozODM0> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/623/servo-wheel-rounded-horn.stl> .
 
 :Servowheelsdoc a okh:Part ;
     rdfs:label "servo-wheels-doc" ;
@@ -271,5 +273,5 @@
     rdfs:label "Source File of servo-wheels-doc of Miniskybot 371ab350b2ba38621d17319cd26ecf30dfd6aeaa" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/623/servo-wheels-doc.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozODI4> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/623/servo-wheels-doc.pdf> .
 

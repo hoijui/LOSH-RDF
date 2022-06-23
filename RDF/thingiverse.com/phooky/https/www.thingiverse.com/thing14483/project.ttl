@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A14483/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ConwaysGameOfLifeObjectGenerator a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Conway's Game of Life Object Generator" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a set of scripts that uses Golly (see http://golly.sourceforge.net/), a cross-platform cellular automata engine, to create objects that represent the evolution of a pattern over several generations on the Z axis using the rules of Conway's Game of Life.\r
 \r
 The scripts generate OpenSCAD (see http://www.openscad.org/) programs, which you can use to create STL files for printing.\r
@@ -16,6 +18,7 @@ The demo object represents eight generations of evolution of a glider.""" ;
     okh:repo <https://www.thingiverse.com/thing:14483> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:14483> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A30470/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ClipsendCapsFor1inchAluminumAngle a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "clips/end caps for 1inch aluminum angle" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This kind of aluminum angle is common and avaliable from big home improvement stores.\r
 \r
 These are clips and end caps I built for some under counter lighting using cheap 1w "star" LEDs from ebay. but they might be useful for other things made with aluminum angle extusion.""" ;
@@ -14,6 +16,7 @@ These are clips and end caps I built for some under counter lighting using cheap
     okh:repo <https://www.thingiverse.com/thing:30470> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:30470> .

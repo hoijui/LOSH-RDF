@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A23862/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:WaterBottleCameraStandWithCenteredLug a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Water Bottle Camera Stand, with Centered Lug" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This thing is a simple cap that fits over the cap of a standard water or soda bottle, and holds your small snapshot camera so you can take a picture without having to rest the camera on a stick, railing, etc.\r
 \r
 I saw a soda bottle tripod thing here on ThingiVerse, but it was printed in 3 pieces and had to be glued together.  Plus it was thick and bulky and had a pivot ball that didn't fit into the socket correctly (it broke the socket when I pushed it in).  I designed this camera stand completely from scratch using Autodesk Inventor.  I printed it out using the Thing-O-Matic at TechShop and also on a Replicator.\r
@@ -20,6 +22,7 @@ Enjoy!""" ;
     okh:repo <https://www.thingiverse.com/thing:23862> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:23862> .

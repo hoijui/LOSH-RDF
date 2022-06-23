@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A6095/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Turbineimpeller a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Turbine/Impeller" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """A little parametric turbine.  The openscad program is quite adjustable.\r
 I was not at all scientific about designing this.  I just designed it look somewhat good.  There are probably many ways to make it more efficient.\r
 It spins quite well if you blow into it or hold a balloon to the inlet.\r
@@ -16,6 +18,7 @@ You can see a quick video of it here: http://www.flickr.com/photos/53725866@N07/
     okh:repo <https://www.thingiverse.com/thing:6095> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:6095> .

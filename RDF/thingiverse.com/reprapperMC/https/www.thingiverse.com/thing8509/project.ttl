@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A8509/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PrintableOptoswitchFlagsForPrusaBuild a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Printable opto-switch flags for Prusa build" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """These are printable opto-switch flags for use on the Prusa Mendel. The X and Z flags mount on existing hardware. The Y flag needs holes in the beds bottom plate to be mounted.\r
 \r
 Y and Z flags are set to fit M3 screws and the X flag M4 screws.\r
@@ -16,6 +18,7 @@ I've found that no matter how finely printed ABS nor PLA will block the light fr
     okh:repo <https://www.thingiverse.com/thing:8509> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:8509> .

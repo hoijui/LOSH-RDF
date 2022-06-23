@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A12208/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ScrewlessHeartGears a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Screwless Heart Gears" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """UPDATE: There is a new version of this design which is more reliable to print and easier to assemble. I highly recommend you use it instead: http://www.thingiverse.com/thing:243278  
 ***  
 At last, here is the much-requested 100% printable heart gears.  No more ugly bolt holes!  This was designed along the same lines as the screwless cube gears: http://www.thingiverse.com/thing:10483, and in fact uses the exact same center block (though the pins are slightly shorter).  
@@ -18,6 +20,7 @@ The size has been increased a bit from the previous version to accommodate the p
     okh:repo <https://www.thingiverse.com/thing:12208> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:12208> .

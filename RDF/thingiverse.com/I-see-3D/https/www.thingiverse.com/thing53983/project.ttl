@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A53983/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:HingedDualXCarriageForQubdMbe a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "hinged dual x carriage for qu-bd mbe" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a work in progress, and my first thing. The qu-bd model came from here: http://www.thingiverse.com/thing:51916\r
 \r
 Gonna try to sneak a test print at work tomorrow and check the fit. I need to come up with a way to hold the extruders down when closed.\r
@@ -28,6 +30,7 @@ made lots of little tweaks. tried adding nut traps, but the force was not with m
     okh:repo <https://www.thingiverse.com/thing:53983> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:53983> .

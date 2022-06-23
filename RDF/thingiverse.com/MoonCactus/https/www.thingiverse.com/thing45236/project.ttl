@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A45236/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:TheBananaXyBushingBlockAndBeltTensionerDropInReplacementForTheUltimaker a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "The banana XY bushing block and belt tensioner. Drop in replacement for the ultimaker" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a drop in replacement for the Ultimaker, though it should prove useful on other printers with belts with an X/Y moving head, such as the makerbot (it is all parametric: belt, rods, bushing etc)\r
 \r
 It also embeds a novel and precise belt tensioner thanks to a sliding banana. No? Really!\r
@@ -18,6 +20,7 @@ Nb: these are for the Ultimaker gantry rods, so 6mm for the two central rods, 8 
     okh:repo <https://www.thingiverse.com/thing:45236> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:45236> .

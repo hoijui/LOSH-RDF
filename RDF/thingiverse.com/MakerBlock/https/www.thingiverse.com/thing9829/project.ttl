@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A9829/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:OpenSourceDiscShooter a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Open Source Disc Shooter" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a redesign of my prior attempt at building an open source disc shooter.\r
 \r
 I'm not sure which kind of disc would be best.  So, I've designed 9 different kinds.  There are three with 2 holes, three with 3 holes, and three with 4 holes (plus a center hole for each).  There are three with those holes beveled up to the right, three not beveled at all, and three beveled up to the left.  \r
@@ -32,6 +34,7 @@ Or, better yet, why not make a derivative?!  I think a very similar mechanism co
     okh:repo <https://www.thingiverse.com/thing:9829> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:9829> .

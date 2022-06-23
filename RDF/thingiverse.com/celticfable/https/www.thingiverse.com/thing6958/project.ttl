@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A6958/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ChessSetAndBoard a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Chess set and board" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This package contains the "creative commons" release of these designs (STL's and the original solidworks CAD) for a full-size Staunton-style chess set.\r
 \r
 Let's see some jazzy prints ffolkes!\r
@@ -16,6 +18,7 @@ ps: Added DXF CAD for those of you without Solidworks... enjoy!""" ;
     okh:repo <https://www.thingiverse.com/thing:6958> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:6958> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A41336/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PrusaBowdenMount a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Prusa Bowden Mount" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I tried to modify the sketchup bowden mount by dob71 and gave up after a few nights. I made this one in OpenSCAD. It's a work in progress until I add all the math to make it fully parametric.\r
 \r
 Video: http://www.flickr.com/photos/jaydmdigital/8366929968/""" ;
@@ -14,6 +16,7 @@ Video: http://www.flickr.com/photos/jaydmdigital/8366929968/""" ;
     okh:repo <https://www.thingiverse.com/thing:41336> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:41336> .

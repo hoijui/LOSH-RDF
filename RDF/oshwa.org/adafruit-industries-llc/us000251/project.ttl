@@ -2,21 +2,15 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:AdafruitPyruler a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Adafruit PyRuler" ;
-    okh:additionalType "['Electronics']" ;
-    okh:certificationDate "2020-04-05T00:00:00-04:00" ;
-    okh:country "United States of America" ;
     okh:dataSource "oshwa.org" ;
     okh:documentationLanguage "en" ;
-    okh:documentationLicense "CC BY-SA" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function "CircuitPython rules! The PyRuler is the first ruler to be able to run CircuitPython. It features an embedded Adafruit Trinket M0, which is a tiny microcontroller board, built around the Atmel ATSAMD21E18 powerhouse." ;
-    okh:hardwareLicense "Other" ;
     okh:licensor "Adafruit Industries, LLC" ;
-    okh:primaryType "Electronics" ;
     okh:repo <https://certification.oshwa.org/us000251.html> ;
     okh:repoHost "certification.oshwa.org" ;
-    okh:softwareLicense "MIT" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
     okh:uploadMethod "auto" ;
     okh:version "Rev A" ;

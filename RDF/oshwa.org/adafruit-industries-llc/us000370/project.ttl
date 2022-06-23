@@ -2,20 +2,15 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:AdafruitBmp280I2cOrSpiBarometricPressureAltitudeSensor a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Adafruit BMP280 I2C or SPI Barometric Pressure & Altitude Sensor" ;
-    okh:certificationDate "2020-04-29T00:00:00-04:00" ;
-    okh:country "United States of America" ;
     okh:dataSource "oshwa.org" ;
     okh:documentationLanguage "en" ;
-    okh:documentationLicense "CC BY-SA" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function "This precision sensor from Bosch is the best low-cost, precision sensing solution for measuring barometric pressure with ±1 hPa absolute accuraccy, and temperature with ±1.0°C accuracy. Because pressure changes with altitude, and the pressure measurements are so good, you can also use it as an altimeter with  ±1 meter accuracy. Click the link labeled 'Project Website' to find out more." ;
-    okh:hardwareLicense "Other" ;
     okh:licensor "Adafruit Industries, LLC" ;
-    okh:primaryType "Electronics" ;
     okh:repo <https://certification.oshwa.org/us000370.html> ;
     okh:repoHost "certification.oshwa.org" ;
-    okh:softwareLicense "MIT" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
     okh:uploadMethod "auto" ;
     okh:version "Rev B" ;

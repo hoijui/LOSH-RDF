@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A27322/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:EckstruderForPrusa a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Eckstruder for Prusa" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is the modified Eckstruder to fit the Sells Mendel, original Prusa and Prusa 2  
 
 UPDATE:  Updated the eckstruder block to make it easier to mount different types of hot ends.  Basically just flattened the bottom.""" ;
@@ -14,6 +16,7 @@ UPDATE:  Updated the eckstruder block to make it easier to mount different types
     okh:repo <https://www.thingiverse.com/thing:27322> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:27322> .

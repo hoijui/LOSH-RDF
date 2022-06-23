@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A12097/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PrintableD20 a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Printable D20" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This a regular icosahedron built in one line in OpenSCAD using no libraries, and only the value of phi as an input. I made it into a D20 by generating and placing the numbers on the surface, all in one additional line (with TBuser's bitmap font module as an input: http://www.thingiverse.com/thing:2054 ). I also included a version with all twenties to satisfy Makerblock's challenge ( http://www.makerbot.com/blog/2011/09/29/openscad-challenge-regular-icosahedron/#comment-15998 ) and take home the imaginary prize for the most efficient/elegant solution (I only took on the challenge because I wanted to see how short a script I could write to do it).\r
 \r
 I wanted to generate the numbers numerals myself, and I considered roman numerals, seven-segment numerals, and various binary encodings, but I ended up using the library because I realized that there just isn't (currently?) an elegant way to generate numbers in OpenSCAD (and I'll give my 9000 internet points to anyone who can convince me otherwise).\r
@@ -26,6 +28,7 @@ scale(20) translate([0, 0, cos(atan((phi - 1) / phi)) * phi]) rotate([0, atan((p
     okh:repo <https://www.thingiverse.com/thing:12097> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:12097> .

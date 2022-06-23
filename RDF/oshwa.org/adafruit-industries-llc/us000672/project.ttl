@@ -2,21 +2,15 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:AdafruitTmp235PlugandplayStemmaAnalogTemperatureSensor a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Adafruit TMP235 - Plug-and-Play STEMMA Analog Temperature Sensor" ;
-    okh:additionalType "['Electronics']" ;
-    okh:certificationDate "2020-09-12T00:00:00-04:00" ;
-    okh:country "United States of America" ;
     okh:dataSource "oshwa.org" ;
     okh:documentationLanguage "en" ;
-    okh:documentationLicense "CC BY-SA" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function "Plug this board into any of our 3-pin JST PH cables (we have ones with header ends, alligator clips, etc) Red goes to 3V to 5V DC power, black wire connects to ground, and white wire connects to an analog input. The voltage out is 0V at -50°C and 1.75V at 125°C. You can easily calculate the temperature from the voltage in millivolts: Temp °C = 100*(reading in V) - 50." ;
-    okh:hardwareLicense "Other" ;
     okh:licensor "Adafruit Industries, LLC" ;
-    okh:primaryType "Electronics" ;
     okh:repo <https://certification.oshwa.org/us000672.html> ;
     okh:repoHost "certification.oshwa.org" ;
-    okh:softwareLicense "MIT" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
     okh:uploadMethod "auto" ;
     okh:version "Rev A" ;

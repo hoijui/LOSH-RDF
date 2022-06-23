@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A28137/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Wide10mmMendelmaxYRodHolder a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Wide 10mm MendelMax Y Rod Holder" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "This spaces the 10mm Y-axis rods of a MendelMax further apart. I have a large print bed that rocks in the X direction when printing. By spacing the rods further apart, I hope to stabilize my print surface and possibly create enough space for dual Y-axis motors. From rod center to center is 240mm." ;
     okh:hasImage :Image ;
     okh:licensor "IsaacDW" ;
     okh:repo <https://www.thingiverse.com/thing:28137> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:28137> .

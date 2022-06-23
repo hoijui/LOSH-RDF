@@ -1,23 +1,26 @@
 @prefix : <https://www.thingiverse.com/thing%3A42723/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:YearOfTheSnakeStamp a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Year of The Snake Stamp" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """2013 is the Chinese Year of the Snake!\r
 \r
 The New Year falls on February 10th, 2013, so you've got plenty of time to print this and stamp snakes all over town.\r
 \r
 I designed this for stamping the sealing wax on the invites to the Chinese New Year party at Casa de Zheng, but you could just as easily smoosh Play-Doh with this.\r
 \r
-æ–°å¹´å¿«ä¹ï¼""" ;
+æ–°å¹´å¿«ä¹x90ï¼x81""" ;
     okh:hasImage :Image ;
     okh:licensor "zheng3" ;
     okh:repo <https://www.thingiverse.com/thing:42723> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:42723> .

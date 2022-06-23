@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A14980/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Processinggcodeviewer a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "ProcessingGcodeViewer" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """3/6/2012 Update: I just uploaded a beta of the new version now with centering and initial Slic3r layer support. There still significant issues with this version so I continue to suggest you use v3 unless you need  centering or buggy slic3r support.\r
 \r
 Hey guys! This is a gcode viewer for makerbot (3D) and 5D gcode written in processing. It's open-source and still a work in progress so if you would like to help out feel free to look at the git: https://github.com/nmsl1993/ProcessingGcodeViewer. It supports viewing dualextrusion prints colored correctly. Comment with any feature requests you have.\r
@@ -23,6 +25,7 @@ Makerbot's ToolPathViz https://github.com/makerbot/ToolPathViz""" ;
     okh:repo <https://www.thingiverse.com/thing:14980> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:14980> .

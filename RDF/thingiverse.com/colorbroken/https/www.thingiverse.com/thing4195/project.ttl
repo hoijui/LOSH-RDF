@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A4195/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:AluminumMk4IdlerWheel a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Aluminum Mk4 Idler Wheel" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "I'm embarrased to say I forgot to measure it before I installed it.  Tired of breaking my acrylic idlers, I had my father help me rig this up in his machine shop.  Yes, it's been done before, but it's SUCH a better solution.  I'll upload the measurements at a later point, like the next time I have to rebuild the head.  Which is hopefully never." ;
     okh:hasImage :Image ;
     okh:licensor "colorbroken" ;
     okh:repo <https://www.thingiverse.com/thing:4195> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:4195> .

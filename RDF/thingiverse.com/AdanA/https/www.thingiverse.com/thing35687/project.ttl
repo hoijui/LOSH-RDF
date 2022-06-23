@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A35687/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ReplicatorGlasstohbpClip a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Replicator Glass-to-HBP Clip" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This was the first in what I intended to be a string of iterations. As with many parts that assume that position, it falls short of my hopes. BUT: it works. \r
 \r
 A team of four of these will clip a 3.3mm sheet of glass to the aluminum HBP of a Replicator 1 acceptably well.\r
@@ -18,6 +20,7 @@ Thus it suffers the curse of adequacy: it's not good enough for me to be pleased
     okh:repo <https://www.thingiverse.com/thing:35687> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:35687> .

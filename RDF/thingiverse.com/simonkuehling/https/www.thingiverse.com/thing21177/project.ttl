@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A21177/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:SendGcodeToSpherebotRubyScript a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Send GCODE to SphereBot - ruby script" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a short ruby script to feed a GCODE file to Zaggo's SphereBot. In fact it is nothing more than a direct ruby-translation of the python script by tgfuellner at http://www.thingiverse.com/thing:9941\r
 \r
 Tested on Ubuntu Linux 11.10""" ;
@@ -14,6 +16,7 @@ Tested on Ubuntu Linux 11.10""" ;
     okh:repo <https://www.thingiverse.com/thing:21177> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:21177> .

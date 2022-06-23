@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A33314/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ArduinoFoldingWirelessLab a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Arduino Folding Wireless Lab" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """If you liked my other Arduino Lab this one is designed for xbee technology in mind. Holds a 9 volt battery in place to power the Arduino side.  The breadboard side holds the xbee sled for the USB connection along with any other experiments.\r
 \r
 Has mounting slots for microrax and makerbeam or any m3 mount.\r
@@ -29,6 +31,7 @@ http://www.youtube.com/watch?v=WTnC1bHoaDM&safety_mode=true&persist_safety_mode=
     okh:repo <https://www.thingiverse.com/thing:33314> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:33314> .

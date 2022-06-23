@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A37084/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MiniProgramableCryptex a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Mini Programable Cryptex" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I needed a smaller version of the full Programable Cryptex without loosing the definition of the letters, so I have split the letter ring into 2 (A-M and N-Z). (I was also running out of ABS) This allows any word to be selected by fitting the appropriate ring.\r
 \r
 Sorry, although any word or letter combination can be set once assembled this only has 371293 combinations rather than the full 11,881,376.\r
@@ -16,6 +18,7 @@ Any comments welcome.""" ;
     okh:repo <https://www.thingiverse.com/thing:37084> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:37084> .

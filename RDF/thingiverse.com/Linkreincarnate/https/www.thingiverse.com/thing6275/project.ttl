@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A6275/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:DaftPunkenstein a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Daft Punkenstein" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This design is derivative on an internet meme. Or rather a thingiverse meme.  It challenges the idea of creation for the sake of others and instead is a creation for the sake of self-amusement\r
 \r
 \r
@@ -17,6 +19,7 @@ Uses the gangsta, the octopus, both daft punk heads and the pony!  Guaranteed to
     okh:repo <https://www.thingiverse.com/thing:6275> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:6275> .

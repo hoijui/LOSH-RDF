@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A15398/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:QuadcopterV1 a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "QuadCopter v1" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is my own design quadcopter; 4x4 central station with 4 sections, expandable to fit more sensors, cameras, etc. Has no landing gear for the time being. Can be printed or CNC'd. Makerbots/other desktop printers with either x or y dimensions smaller than 6" in will not be able to make this.\r
 \r
 And also, Solidworks Assemblies translate into a bunch of parts in STL, so I guess you'll just have to wing it if you want to put it together. Shouldn't be hard, though. Tell me if I'm missing anything.""" ;
@@ -14,6 +16,7 @@ And also, Solidworks Assemblies translate into a bunch of parts in STL, so I gue
     okh:repo <https://www.thingiverse.com/thing:15398> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:15398> .

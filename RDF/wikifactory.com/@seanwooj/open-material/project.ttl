@@ -1,9 +1,10 @@
-@prefix : <https://wikifactory.com/@seanwooj/open-material/49c4d80713fc98b04f1a14ed18df59afea642993/> .
+@prefix : <https://wikifactory.com/%40seanwooj/open-material/49c4d80713fc98b04f1a14ed18df59afea642993/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:OpenMaterial a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Open Material " ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "An open source repository of physical materials" ;
     okh:licensor "Sean Kim" ;
@@ -11,6 +12,7 @@
     okh:repo <https://wikifactory.com/@seanwooj/open-material> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "manifest" ;
     okh:version "49c4d80713fc98b04f1a14ed18df59afea642993" ;
     okh:versionOf <https://wikifactory.com/@seanwooj/open-material> .
 

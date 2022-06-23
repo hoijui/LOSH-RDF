@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A27981/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:CorexyScaler a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "CoreXY Scaler" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "The purpose of this OpenSCAD script is to scale the reference implementation of Ilan E. Moyer's CoreXY system to your desired printing or cutting envelope. The reference implementation claims a 6 inch by 4 inch envelope. See http://corexy.com/ and http://www.thingiverse.com/thing:22005" ;
     okh:hasImage :Image ;
     okh:licensor "mesheldrake" ;
     okh:repo <https://www.thingiverse.com/thing:27981> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:27981> .

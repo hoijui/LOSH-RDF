@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A4156/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PlasticWeldingGunplastruderMk4 a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Plastic Welding Gun (Plastruder MK4)" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Is your MK4 sitting unused and lonely since you\\'ve upgraded to the MK5? Give it a new lease on life and turn it into a handheld welding gun! Use it to patch up any holes or loose threads in your prints or to glue broken plastic parts back together. You can see me welding the lid of a very poorly printed and particularly dangerous teapot shut to prevent accidental use.\r
 \r
 The STL files include parts for a hand grip that slips over the DC motor, a finger guard so you don\\'t burn yourself on the retainer washer, and a trigger bracket for a push button. SolidWorks 2010 model files are also included.""" ;
@@ -14,6 +16,7 @@ The STL files include parts for a hand grip that slips over the DC motor, a fing
     okh:repo <https://www.thingiverse.com/thing:4156> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:4156> .

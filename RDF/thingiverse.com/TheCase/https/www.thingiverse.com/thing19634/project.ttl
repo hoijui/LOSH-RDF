@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A19634/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ImprovedXIdlerAndXMotorMountForAluminumMendel a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Improved X idler and X motor mount for Aluminum Mendel" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I didn't like the press-fit X rods (or drilled/tapped holes - not sure what was intended to secure them), so I added M3 trapped nuts to secure them.  Also added another trap for second 8mm nut.  Oh... and a couple spaces to reduce the amount of plastic.\r
 \r
 [UPDATE] V2 has trapped nuts (M3 again) instead of drill dimples for the nut cap.  I just tried drilling my first version and the lamination cracked (BOO wood screws!).""" ;
@@ -14,6 +16,7 @@
     okh:repo <https://www.thingiverse.com/thing:19634> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:19634> .

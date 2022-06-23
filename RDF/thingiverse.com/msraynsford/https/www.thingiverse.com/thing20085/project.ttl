@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A20085/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:SprueTest a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Sprue Test" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This little file helps you figure out how big the sprues should be on a laser cut item for different types of materials\r
 \r
 This and all my items can be found on my blog http://msraynsford.blogspot.co.uk/""" ;
@@ -14,6 +16,7 @@ This and all my items can be found on my blog http://msraynsford.blogspot.co.uk/
     okh:repo <https://www.thingiverse.com/thing:20085> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:20085> .

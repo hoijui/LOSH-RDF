@@ -2,21 +2,15 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Dynossatedu a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "DynOSSAT-EDU" ;
-    okh:additionalType "['Education', 'Space']" ;
-    okh:certificationDate "2020-11-19T00:00:00-05:00" ;
-    okh:country "Spain" ;
     okh:dataSource "oshwa.org" ;
     okh:documentationLanguage "en" ;
-    okh:documentationLicense "CC BY-SA" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function "DynOSSAT-EDU is a CircuitPython compatible, open source nanosatellite development kit designed for makers, students and amateurs. Our aim is to provide the DIY and educational communities with a complete and realistic PocketQube platform (just 5x5 cm!) that includes all the necessary modules for the operation of a real nanosatellite in Low Earth Orbit (LEO) that would serve as a device for teaching, training or just driving curiosity about the philosophy and technology related to NewSpace." ;
-    okh:hardwareLicense "CERN" ;
     okh:licensor "Blackhand Dynamics, SL" ;
-    okh:primaryType "Electronics" ;
     okh:repo <https://certification.oshwa.org/es000014.html> ;
     okh:repoHost "certification.oshwa.org" ;
-    okh:softwareLicense "MIT" ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
     okh:uploadMethod "auto" ;
     okh:version "1.0" ;

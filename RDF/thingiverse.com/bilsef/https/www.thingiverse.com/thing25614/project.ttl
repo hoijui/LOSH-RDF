@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A25614/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:BushingHolder a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Bushing Holder" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This parametric scad file can be customized to create bushing holders for SDP-SI press fit self aligning bushings.  It can also create holders for delrin dowels to make 180 degree bushings.  For my Y-Axis, I use two self aligning bushings on one shaft and two 180 degree bushings on the other shaft.  Delrin (acetal) dowel pins are available from McMaster-Carr http://www.mcmaster.com/#plastic-dowel-pins or you can cut them from delrin rod.  They will wear much better than PLA or ABS.\r
 \r
 For the 180 degree bearings, you might have to print them a couple of times, making adjustments for your printer.  You want them to be matched exactly to your shaft diameter.""" ;
@@ -14,6 +16,7 @@ For the 180 degree bearings, you might have to print them a couple of times, mak
     okh:repo <https://www.thingiverse.com/thing:25614> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:25614> .

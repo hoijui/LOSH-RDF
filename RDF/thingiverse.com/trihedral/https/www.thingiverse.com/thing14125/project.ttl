@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A14125/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ReplacementVideoCardFan a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Replacement Video Card Fan" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """My brother's computer seemed to have a bad video card (failed intermittently), but rather than having to poke around replacing capacitors, it turned out it's cooling fan's plastic blades were cracked, keeping it from rotating. So I printed up a new one. \r
 I really didn't expect that my 3d printer would pay for itself, but between repairing computers, cars, and anything else I can imagine, it's getting there.""" ;
     okh:hasImage :Image ;
@@ -13,6 +15,7 @@ I really didn't expect that my 3d printer would pay for itself, but between repa
     okh:repo <https://www.thingiverse.com/thing:14125> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:14125> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A28451/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:OpenSourceCameraHolderForManfrottoClamp a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Open Source Camera Holder for Manfrotto Clamp" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I needed a clamp for my motion capture camera's and I didnt want to pay 20$ for 20, so I decided to make them, my fist attempt was wooden, they worked for a while but over time I realized that they would warp and the cameras would move - which is not good for calibration.\r
 \r
 Then I decided to learn solidworks and design a new holder and I came up with this new one, it works great and this saved me $400 from having to buy them on eBay!\r
@@ -18,6 +20,7 @@ You need the Final Camera Holder and Post, the Single Camera Holder is for mispr
     okh:repo <https://www.thingiverse.com/thing:28451> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:28451> .

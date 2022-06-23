@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A34677/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MountedRudolphHead a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Mounted Rudolph Head" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Only a slight variation from the Deer / Reindeer head I published a couple of days ago. This has the revised slots so you can mount it easier and also a 10mm hole in the nose piece that allows you to add a red LED throwie to give it a certain Rudolphiness.\r
 \r
 After a number of requests! http://www.phenoptix.com/products/laser-cut-deer-reindeer-rudolph-head""" ;
@@ -14,6 +16,7 @@ After a number of requests! http://www.phenoptix.com/products/laser-cut-deer-rei
     okh:repo <https://www.thingiverse.com/thing:34677> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:34677> .

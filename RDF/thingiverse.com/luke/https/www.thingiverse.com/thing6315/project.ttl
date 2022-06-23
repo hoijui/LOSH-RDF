@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A6315/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:HelloWorld a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Hello World" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is my first Thing ever uploaded to Thingiverse, so it seemed appropriate. Can't wait to see if anyone prints it out. It should be a snug fit on the build platform of the MakerBot if I copied down the specs correctly. Oh and if someone wants to send me a printed copy to show me what a MakerBot can do that would be awesome, too.\r
 \r
 For some reason the coordinate system didn't export properly and it is showing up upside-down.""" ;
@@ -14,6 +16,7 @@ For some reason the coordinate system didn't export properly and it is showing u
     okh:repo <https://www.thingiverse.com/thing:6315> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:6315> .

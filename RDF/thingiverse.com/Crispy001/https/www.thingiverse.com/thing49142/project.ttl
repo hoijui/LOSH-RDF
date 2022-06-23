@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A49142/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Freetrack3PointHatModel a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "FreeTrack 3 Point Hat Model" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """FreeTrack is an open source software application that provides cost effective optical head tracking for applications & games. This software closely emulates its commercial counterpart, TrackIR.\r
 \r
 The headtracking is achieved by attaching infrared LEDs to a hat or clip in a special arrangement and then allowing the software to track these points through almost any webcam. This position data will then be provided to a game in real time such as ARMA II or DCS: World, allowing the user to freely look around their envionment.\r
@@ -21,6 +23,7 @@ ABS Weight: .03 pounds""" ;
     okh:repo <https://www.thingiverse.com/thing:49142> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:49142> .

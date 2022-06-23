@@ -2,12 +2,12 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Breizhfinger a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "BreizhFinger" ;
     okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "fr" ;
     okh:function "Réalisation de 2 prothèses fonctionnelles de la 2ème et 3ème phalanges index et majeur main droite, en partant de 2 prothèses déjà proposées sur Thingiverse.auteur : Bernard Kerivelannée : 2021licence : CC-BYSA" ;
-    okh:hasComponent :CestParti ;
+    okh:hasComponent :Cestparti ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "Mathieu Cariou" ;
@@ -20,28 +20,28 @@
     okh:version "19fd0386de53b0c592b87f38d4c398ef6149942b" ;
     okh:versionOf <https://wikifactory.com/+uboopenfactory/breizhfinger> .
 
-:CestParti a okh:Part ;
+:Cestparti a okh:Part ;
     rdfs:label "C'est Parti !" ;
     okh:documentationLanguage "fr" ;
     okh:licensor "Sarah" ;
-    okh:source :CestParti_source ;
+    okh:source :Cestparti_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:CestParti_source a okh:SourceFile ;
+:Cestparti_source a okh:SourceFile ;
     rdfs:label "Source File of C'est Parti ! of BreizhFinger 19fd0386de53b0c592b87f38d4c398ef6149942b" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/145205/cest-parti.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2Mjg0NjA=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/145205/cest-parti.pdf> .
 
 :Image a okh:Image ;
     rdfs:label "Image of BreizhFinger 19fd0386de53b0c592b87f38d4c398ef6149942b" ;
     okh:fileFormat "JPG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/145205/img_2451-3bb8a.JPG> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjkwNjY=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/145205/img_2451-3bb8a.JPG> .
 
 :Readme a okh:Readme ;
     rdfs:label "Readme of BreizhFinger 19fd0386de53b0c592b87f38d4c398ef6149942b" ;
     okh:fileFormat "MD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/145205/readme-9dbf8.md> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NjEzNTM=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/145205/readme-9dbf8.md> .
 

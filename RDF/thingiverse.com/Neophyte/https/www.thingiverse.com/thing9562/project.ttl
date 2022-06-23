@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A9562/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PaperAirplaneReplica a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Paper airplane replica" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a paper airplane that I was tought to fold when I was a kid of about 12 or 13 years old. It is a design that stuck with me ever since and it's actualy the only design I use when folding a paper airplane as it nearly always flies quite well.\r
 \r
 So, I was wondering how a plastic version would fly. I used a sheet of A4 paper and folded a paper version first and tested it's flight pattern first for a fairly neutral trajectory before slightly stalling and diving just a little. Depending on the wing section widths it could either div too much from te go or stall too easily. The best is normaly to aim for no stall or a very slight stall. A slight stall normally helps a bit when it goes into a slight dive as it usually pulls out of the dive until it stalls again and dive again. Depending on the height it was thrown from it can fly quite far with this stall/dive effect.\r
@@ -18,6 +20,7 @@ I am still waiting for it to finish printing...so I don't yet know if it will fl
     okh:repo <https://www.thingiverse.com/thing:9562> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:9562> .

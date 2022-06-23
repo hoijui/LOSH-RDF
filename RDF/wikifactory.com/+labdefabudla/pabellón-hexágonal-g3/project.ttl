@@ -2,7 +2,7 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PabellónHexagonalG3 a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Pabellón Hexagonal G3" ;
     okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "es" ;
@@ -11,13 +11,13 @@
         :Conectoresg3cn12012editable,
         :Conectoresg3cn1202,
         :Conectoresg3cnejes,
-        :Conectoresg3cnimpresión,
-        :Conectoresg3cnimpresióngeneral,
-        :ModulofichaTécnicapdf31,
-        :PabellónfichaTécnicapdf31,
-        :Pabellóng3pbfichaTecnica,
-        :PrototipoAEscalag3cn1201esc,
-        :PrototipoAEscalag3cn1202esc ;
+        :Conectoresg3cnimpresin,
+        :Conectoresg3cnimpresingeneral,
+        :Modulofichatcnicapdf31,
+        :Pabellnfichatcnicapdf31,
+        :Pabellng3pbfichatecnica,
+        :Prototipoaescalag3cn1201esc,
+        :Prototipoaescalag3cn1202esc ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "Khaterine Poblete Neira" ;
@@ -48,13 +48,13 @@
     rdfs:label "Source File of Conectores/G3_CN_120_1_2_EDITABLE of Pabellón Hexagonal G3 9a7e855d3a171a6fac553fc680b04d3a543bcb18" ;
     okh:fileFormat "3DM" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144483/conectores_1_2_120.3dm> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2Mjc4MzU=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144483/conectores_1_2_120.3dm> .
 
 :Conectoresg3cn1201_source a okh:SourceFile ;
     rdfs:label "Source File of Conectores/G3_CN_120_1 of Pabellón Hexagonal G3 9a7e855d3a171a6fac553fc680b04d3a543bcb18" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144483/conector_1_120.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2Mjc4Mzc=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144483/conector_1_120.stl> .
 
 :Conectoresg3cn1202 a okh:Part ;
     rdfs:label "Conectores/G3_CN_120_2" ;
@@ -67,7 +67,7 @@
     rdfs:label "Source File of Conectores/G3_CN_120_2 of Pabellón Hexagonal G3 9a7e855d3a171a6fac553fc680b04d3a543bcb18" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144483/conector_2_120.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2Mjc4MzY=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144483/conector_2_120.stl> .
 
 :Conectoresg3cnejes a okh:Part ;
     rdfs:label "Conectores/G3_CN_EJES" ;
@@ -80,108 +80,108 @@
     rdfs:label "Source File of Conectores/G3_CN_EJES of Pabellón Hexagonal G3 9a7e855d3a171a6fac553fc680b04d3a543bcb18" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144483/g3_cn_ejes.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjgwMjE=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144483/g3_cn_ejes.pdf> .
 
-:Conectoresg3cnimpresión a okh:Part ;
+:Conectoresg3cnimpresin a okh:Part ;
     rdfs:label "Conectores/G3_CN_IMPRESIÓN" ;
     okh:documentationLanguage "es" ;
     okh:licensor "Estefany Garcés Bastías" ;
-    okh:source :Conectoresg3cnimpresión_source ;
+    okh:source :Conectoresg3cnimpresin_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Conectoresg3cnimpresión_source a okh:SourceFile ;
+:Conectoresg3cnimpresin_source a okh:SourceFile ;
     rdfs:label "Source File of Conectores/G3_CN_IMPRESIÓN of Pabellón Hexagonal G3 9a7e855d3a171a6fac553fc680b04d3a543bcb18" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144483/g3_cn_impresión.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjgwMjg=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144483/g3_cn_impresión.pdf> .
 
-:Conectoresg3cnimpresióngeneral a okh:Part ;
+:Conectoresg3cnimpresingeneral a okh:Part ;
     rdfs:label "Conectores/G3_CN_IMPRESIÓN_GENERAL" ;
     okh:documentationLanguage "es" ;
     okh:licensor "Estefany Garcés Bastías" ;
-    okh:source :Conectoresg3cnimpresióngeneral_source ;
+    okh:source :Conectoresg3cnimpresingeneral_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Conectoresg3cnimpresióngeneral_source a okh:SourceFile ;
+:Conectoresg3cnimpresingeneral_source a okh:SourceFile ;
     rdfs:label "Source File of Conectores/G3_CN_IMPRESIÓN_GENERAL of Pabellón Hexagonal G3 9a7e855d3a171a6fac553fc680b04d3a543bcb18" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144483/g3_cn_impresión_general.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2Mjk2NTY=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144483/g3_cn_impresión_general.pdf> .
 
 :Image a okh:Image ;
     rdfs:label "Image of Pabellón Hexagonal G3 9a7e855d3a171a6fac553fc680b04d3a543bcb18" ;
     okh:fileFormat "PNG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144483/portada.png> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2Mjk1OTM=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144483/portada.png> .
 
-:ModulofichaTécnicapdf31 a okh:Part ;
+:Modulofichatcnicapdf31 a okh:Part ;
     rdfs:label "Modulo/Ficha técnica_pdf3 (1)" ;
     okh:documentationLanguage "es" ;
     okh:licensor "Estefany Garcés Bastías" ;
-    okh:source :ModulofichaTécnicapdf31_source ;
+    okh:source :Modulofichatcnicapdf31_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:ModulofichaTécnicapdf31_source a okh:SourceFile ;
+:Modulofichatcnicapdf31_source a okh:SourceFile ;
     rdfs:label "Source File of Modulo/Ficha técnica_pdf3 (1) of Pabellón Hexagonal G3 9a7e855d3a171a6fac553fc680b04d3a543bcb18" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144483/ficha-técnica_pdf3.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2Mjc2NjU=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144483/ficha-técnica_pdf3.pdf> .
 
-:PabellónfichaTécnicapdf31 a okh:Part ;
+:Pabellnfichatcnicapdf31 a okh:Part ;
     rdfs:label "Pabellón/Ficha técnica_pdf3 (1)" ;
     okh:documentationLanguage "es" ;
     okh:licensor "Estefany Garcés Bastías" ;
-    okh:source :PabellónfichaTécnicapdf31_source ;
+    okh:source :Pabellnfichatcnicapdf31_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:PabellónfichaTécnicapdf31_source a okh:SourceFile ;
+:Pabellnfichatcnicapdf31_source a okh:SourceFile ;
     rdfs:label "Source File of Pabellón/Ficha técnica_pdf3 (1) of Pabellón Hexagonal G3 9a7e855d3a171a6fac553fc680b04d3a543bcb18" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144483/ficha-técnica_pdf3.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2Mjc2NTU=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144483/ficha-técnica_pdf3.pdf> .
 
-:Pabellóng3pbfichaTecnica a okh:Part ;
+:Pabellng3pbfichatecnica a okh:Part ;
     rdfs:label "Pabellón/G3_PB_FICHA TECNICA" ;
     okh:documentationLanguage "es" ;
     okh:licensor "Florencia Maril" ;
-    okh:source :Pabellóng3pbfichaTecnica_source ;
+    okh:source :Pabellng3pbfichatecnica_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Pabellóng3pbfichaTecnica_source a okh:SourceFile ;
+:Pabellng3pbfichatecnica_source a okh:SourceFile ;
     rdfs:label "Source File of Pabellón/G3_PB_FICHA TECNICA of Pabellón Hexagonal G3 9a7e855d3a171a6fac553fc680b04d3a543bcb18" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144483/g3_pb_ficha-tecnica-5058c.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2Mjc4OTA=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144483/g3_pb_ficha-tecnica-5058c.pdf> .
 
-:PrototipoAEscalag3cn1201esc a okh:Part ;
+:Prototipoaescalag3cn1201esc a okh:Part ;
     rdfs:label "Prototipo a escala/G3_CN_120_1_ESC" ;
     okh:documentationLanguage "es" ;
     okh:licensor "Khaterine Poblete Neira" ;
-    okh:source :PrototipoAEscalag3cn1201esc_source ;
+    okh:source :Prototipoaescalag3cn1201esc_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:PrototipoAEscalag3cn1201esc_source a okh:SourceFile ;
+:Prototipoaescalag3cn1201esc_source a okh:SourceFile ;
     rdfs:label "Source File of Prototipo a escala/G3_CN_120_1_ESC of Pabellón Hexagonal G3 9a7e855d3a171a6fac553fc680b04d3a543bcb18" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144483/conector_1_120_escalado.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2Mjc4NDc=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144483/conector_1_120_escalado.stl> .
 
-:PrototipoAEscalag3cn1202esc a okh:Part ;
+:Prototipoaescalag3cn1202esc a okh:Part ;
     rdfs:label "Prototipo a escala/G3_CN_120_2_ESC" ;
     okh:documentationLanguage "es" ;
     okh:licensor "Khaterine Poblete Neira" ;
-    okh:source :PrototipoAEscalag3cn1202esc_source ;
+    okh:source :Prototipoaescalag3cn1202esc_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:PrototipoAEscalag3cn1202esc_source a okh:SourceFile ;
+:Prototipoaescalag3cn1202esc_source a okh:SourceFile ;
     rdfs:label "Source File of Prototipo a escala/G3_CN_120_2_ESC of Pabellón Hexagonal G3 9a7e855d3a171a6fac553fc680b04d3a543bcb18" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144483/conector_2_120_escalado.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2Mjc4NDY=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144483/conector_2_120_escalado.stl> .
 
 :Readme a okh:Readme ;
     rdfs:label "Readme of Pabellón Hexagonal G3 9a7e855d3a171a6fac553fc680b04d3a543bcb18" ;
     okh:fileFormat "MD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144483/readme-be250.md> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2Mjk2NTA=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144483/readme-be250.md> .
 

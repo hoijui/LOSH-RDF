@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A33226/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:FilamentMountPartsForMosaic a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Filament Mount Parts for Mosaic" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """These are some parts for a filament spool system I have been fooling around with for my Mosaic printer.  \r
 \r
 The mount is very solid, and can be bolted on to the Mosaic by using longer screws in existing captured nuts.  \r
@@ -21,6 +23,7 @@ These were designed in OpenSCAD using Libraries http://www.thingiverse.com/thing
     okh:repo <https://www.thingiverse.com/thing:33226> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:33226> .

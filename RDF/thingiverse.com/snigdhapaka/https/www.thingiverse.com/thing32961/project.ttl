@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A32961/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:InspirationalPingPongBalls a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Inspirational Ping Pong balls" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "As you can see, this is a ping pong ball with a quote on it. I wrote on it using and Eggbot and a regular ping pong ball. The quote is from the movie, The Pursuit of Happyness and it reads, \"Hey. Don't ever let somebody tell you... You can't do something. Not even me. All right?\" I figured that it would be pretty encouraging to have quotes like this on a bunch of ping pong balls. That way, if you are losing a ping pong match, you can just take a second to read the ping pong ball and boost your spirit=)" ;
     okh:hasImage :Image ;
     okh:licensor "snigdhapaka" ;
     okh:repo <https://www.thingiverse.com/thing:32961> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:32961> .

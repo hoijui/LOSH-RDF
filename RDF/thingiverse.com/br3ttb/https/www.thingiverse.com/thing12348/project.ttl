@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A12348/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:TaperedPocketCoinop a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Tapered Pocket Coin-Op" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I thought the Pocket Coin-op would look nicer with some tapered edges.  the rounding also makes the opener lighter and speeds up the print a little.\r
 \r
 The thickness, coin-size, and taper are all adjustable in the scad.  I didn't bother to test changing the other variables as I'm pretty happy with that geometry.\r
@@ -16,6 +18,7 @@ Bonus:  Are you full of jealousy seeing all these dualstrusion parts popping up 
     okh:repo <https://www.thingiverse.com/thing:12348> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:12348> .

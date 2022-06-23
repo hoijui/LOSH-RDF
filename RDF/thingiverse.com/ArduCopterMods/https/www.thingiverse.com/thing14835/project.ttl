@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A14835/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:LandingGearForArducopterY6Hexacopter a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Landing Gear for ArduCopter Y6 Hexacopter " ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Quick and dirty mod for my ArduCopter Hexacopter. This is a prototype Y6 Landing Gear Leg derived from http://www.thingiverse.com/thing:9813\r
 \r
 This is currently very flimsy and not sturdy enough for any sort of rough landing. This was literally just enough to keep my Y6 off the ground while I tested the Y6 Motor Mounts I am working on. http://www.thingiverse.com/thing:14831""" ;
@@ -14,6 +16,7 @@ This is currently very flimsy and not sturdy enough for any sort of rough landin
     okh:repo <https://www.thingiverse.com/thing:14835> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:14835> .

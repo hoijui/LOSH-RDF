@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A61601/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:CatCoasters05 a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Cat Coasters 05" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Here is the 17th and final cat coaster.  It is based on the plane group p6m.  The other 16 coasters are described in things 54736, 56813, 58639, and 60958.\r
 \r
 P6m is the plane group with the most symmetry elements.  It has 2 fold, 3 fold and 6 fold rotation axes and numerous lines of reflection and glide reflection.  In order to show all the symmetry elements approximately 96 cat images appear on the coaster.  Individual images are not noticeable from a distance but are apparent on closer study.\r
@@ -20,6 +22,7 @@ Cat_coasters_05 scad created the stl files and various images are in coasters_dx
     okh:repo <https://www.thingiverse.com/thing:61601> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:61601> .

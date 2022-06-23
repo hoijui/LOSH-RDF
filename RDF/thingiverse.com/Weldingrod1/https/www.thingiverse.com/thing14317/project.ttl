@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A14317/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:EmakerHuxleyExtruderDriveWithMarkerHolders a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Emaker Huxley extruder drive with marker holders" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a replacement for the Emaker Huxley extruder drive.  It incorporates two marker holders, shorter filament overhang internally, and clearance for a larger bowden tube fitting, and fits both the stock stepper motor and a NEMA 17 motor.  The bearing clamp fixes the problem with the original where the bearing outer race didn't clear the clamp body and eliminates the cross bar at the hinge end that gets in the way.\r
 \r
 On the subject of alternate Bowden fittings, you might look at these two, as they are easy to get:\r
@@ -21,6 +23,7 @@ The real Cammozi fitting is 6512 3-M5; the link is below.  They cost a couple of
     okh:repo <https://www.thingiverse.com/thing:14317> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:14317> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A3566/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:FilamentGuide a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Filament Guide" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """We have filament snaking from one end of the room to the other, and as such, it's always hitting me in the head as it tightens into the makerbot.  (Ok, so we haven't quite worked out a good spool method yet.)  Whatever your method, this handy little clip attaches well to desk lamps as pictured. (just had to duck some fimanet backlash there!)\r
 \r
 And yes, this is the hanger from my pulley experiment (http://www.thingiverse.com/thing:3563).  It's a useful thing unto itself!""" ;
@@ -14,6 +16,7 @@ And yes, this is the hanger from my pulley experiment (http://www.thingiverse.co
     okh:repo <https://www.thingiverse.com/thing:3566> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:3566> .

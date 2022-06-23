@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A9027/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:BrePettisOpenscadMedal a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Bre Pettis OpenSCAD Medal" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Quick little OpenSCAD scrip to generate a roman emperor style coin or medal from a bust, using Bre's head as an example.  
 
 
@@ -28,6 +30,7 @@ b. Recesses the profile into the coin/medal, with a raised edge all around.""" ;
     okh:repo <https://www.thingiverse.com/thing:9027> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:9027> .

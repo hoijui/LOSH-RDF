@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A20975/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PeterEssersHex5nPuzzle a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Peter Esser's Hex5n Puzzle" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a puzzle designed by Peter Esser, who in turn based it on the design of the "Erbium" puzzle pictured here:  \r
 \r
 http://www.puzzlewood.de/gallery/popup_image.php?pID=75\r
@@ -16,6 +18,7 @@ Peter has graciously allowed his permission to share his design here!  Thanks, P
     okh:repo <https://www.thingiverse.com/thing:20975> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:20975> .

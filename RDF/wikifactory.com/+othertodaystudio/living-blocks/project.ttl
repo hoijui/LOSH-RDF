@@ -1,15 +1,16 @@
-@prefix : <https://wikifactory.com/+othertodaystudio/living-blocks/7d7a1a4ec5f995c2c26103d45c997b3c433d1628/> .
+@prefix : <https://wikifactory.com/%2Bothertodaystudio/living-blocks/7d7a1a4ec5f995c2c26103d45c997b3c433d1628/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:LivingBlocks a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Living Blocks" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "A recipe to make bio-receptive blocks that supports natural colonisation or can be pre-populated with alpine plants.Lawrence ParentStudio: Other Today" ;
     okh:hasComponent :150mmsquaremouldfor12mmsheet,
-        :InstructionsPdf,
+        :Instructionspdf,
         :Livingblocksexample,
-        :ProductBrochure ;
+        :Productbrochure ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "Lawrence Parent" ;
@@ -18,6 +19,7 @@
     okh:repo <https://wikifactory.com/+othertodaystudio/living-blocks> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "manifest" ;
     okh:version "7d7a1a4ec5f995c2c26103d45c997b3c433d1628" ;
     okh:versionOf <https://wikifactory.com/+othertodaystudio/living-blocks> .
 
@@ -32,26 +34,26 @@
     rdfs:label "Source File of 150mm_square_mould_for_12mm_sheet of Living Blocks 7d7a1a4ec5f995c2c26103d45c997b3c433d1628" ;
     okh:fileFormat "DXF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/57895/150mm_square_mould_for_12mm_sheet.dxf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozNzg4MDI=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/57895/150mm_square_mould_for_12mm_sheet.dxf> .
 
 :Image a okh:Image ;
     rdfs:label "Image of Living Blocks 7d7a1a4ec5f995c2c26103d45c997b3c433d1628" ;
     okh:fileFormat "JPG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/57895/degreeshow2.jpg> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo0MDUzMzc=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/57895/degreeshow2.jpg> .
 
-:InstructionsPdf a okh:Part ;
+:Instructionspdf a okh:Part ;
     rdfs:label "Instructions PDF" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Lawrence Parent" ;
-    okh:source :InstructionsPdf_source ;
+    okh:source :Instructionspdf_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:InstructionsPdf_source a okh:SourceFile ;
+:Instructionspdf_source a okh:SourceFile ;
     rdfs:label "Source File of Instructions PDF of Living Blocks 7d7a1a4ec5f995c2c26103d45c997b3c433d1628" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/57895/instructions_pdf-5fb6e.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozODExNzI=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/57895/instructions_pdf-5fb6e.pdf> .
 
 :Livingblocksexample a okh:Part ;
     rdfs:label "LIVINGBLOCKS_example" ;
@@ -64,24 +66,24 @@
     rdfs:label "Source File of LIVINGBLOCKS_example of Living Blocks 7d7a1a4ec5f995c2c26103d45c997b3c433d1628" ;
     okh:fileFormat "STP" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/57895/livingblocks_example.stp> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozNzg4MTg=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/57895/livingblocks_example.stp> .
 
-:ProductBrochure a okh:Part ;
+:Productbrochure a okh:Part ;
     rdfs:label "product brochure" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Lawrence Parent" ;
-    okh:source :ProductBrochure_source ;
+    okh:source :Productbrochure_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:ProductBrochure_source a okh:SourceFile ;
+:Productbrochure_source a okh:SourceFile ;
     rdfs:label "Source File of product brochure of Living Blocks 7d7a1a4ec5f995c2c26103d45c997b3c433d1628" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/57895/product_brochure-b3403.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozODExNzA=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/57895/product_brochure-b3403.pdf> .
 
 :Readme a okh:Readme ;
     rdfs:label "Readme of Living Blocks 7d7a1a4ec5f995c2c26103d45c997b3c433d1628" ;
     okh:fileFormat "MD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/57895/readme-602c9.md> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozODE4ODQ=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/57895/readme-602c9.md> .
 

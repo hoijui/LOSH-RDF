@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A4234/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MendelFrameVertexAced a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Mendel Frame Vertex - Aced" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """An optimized key component for RepRap Mendel - the frame corner bracket. This version is less prone to warping, easier to print, uses minimal material while providing excellent mechanical properties. This final version comes after several weeks of testing various different designs, although there are two key designs for comparison:\r
 \r
 [A] 'Low warp, shelled Frame-Vertex' by MarcusWolschon\r
@@ -24,6 +26,7 @@ The volume of the first 2mm of a print, is a good indicator for warp. (See image
     okh:repo <https://www.thingiverse.com/thing:4234> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:4234> .

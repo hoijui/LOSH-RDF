@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A13600/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ClampForTrampolineFrameorOtherTubes a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Clamp for trampoline frame (or other tubes)" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "This is a replacement for the original misconstructed design - and my debut on thingiverse. The original design and the replacement can both be seen on the first photo. In fact, I am nearly sure no one else needs this. But I post it because my father who does not own a 3d-printer searched a very long time for a part like this and tried several ways to replace it himself. The fact that I needed 15 minutes to model it in sketchup and the print turned out to work ten times as well as the original, convinced him that 3d printers really are not stupid :p" ;
     okh:hasImage :Image ;
     okh:licensor "sloth" ;
     okh:repo <https://www.thingiverse.com/thing:13600> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:13600> .

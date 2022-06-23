@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A10829/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:EfMountModule a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "EF Mount Module" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is an openscad module (also provided as an stl in case it is useful to someone) for a Canon EF bayonet lens mount.  I built this as a part of a project to make a microscope adapter for my camera (which will be published soon).  I hope this can be useful to others for developing pinhole cameras, macro adapters, microscope adapters, telescope adapters, replacement body covers, and other useful things.\r
 \r
 This has been printed and tested and it works very well.  Because of the overhangs of the threads on the bayonet, your print settings will have to be pretty good.  You may get away with mediocre settings if you do a little clean-up work.\r
@@ -16,6 +18,7 @@ In this version, I forgot to include the hole that the lock pin on the camera si
     okh:repo <https://www.thingiverse.com/thing:10829> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:10829> .

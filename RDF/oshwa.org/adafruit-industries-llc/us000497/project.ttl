@@ -2,21 +2,15 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:AdafruitAirliftShieldEsp32WifiCoprocessor a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Adafruit AirLift Shield - ESP32 WiFi Co-Processor" ;
-    okh:additionalType "['Electronics']" ;
-    okh:certificationDate "2020-05-03T00:00:00-04:00" ;
-    okh:country "United States of America" ;
     okh:dataSource "oshwa.org" ;
     okh:documentationLanguage "en" ;
-    okh:documentationLicense "CC BY-SA" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function "Arduino-compatible boards are great for many things. However, they usually don't have build in WiFi. That's where this chip comes in, handling all the heavy lifting of connecting to a WiFi network and transferring data from a site, even if it's using the latest TLS/SSL encryption. Click the link labeled 'Project Website' to find out more." ;
-    okh:hardwareLicense "Other" ;
     okh:licensor "Adafruit Industries, LLC" ;
-    okh:primaryType "Electronics" ;
     okh:repo <https://certification.oshwa.org/us000497.html> ;
     okh:repoHost "certification.oshwa.org" ;
-    okh:softwareLicense "MIT" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
     okh:uploadMethod "auto" ;
     okh:version "Rev B" ;

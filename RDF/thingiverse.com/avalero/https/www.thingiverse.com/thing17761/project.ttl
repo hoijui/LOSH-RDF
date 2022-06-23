@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A17761/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:OomlCObjectOrientedMechanicsLibrary a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "OOML - C++ Object Oriented Mechanics Library" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Have you ever used OpenSCAD, great, isn't it? Now, imagine that you are not anymore limited by the OpenSCAD syntax and libraries. Imagine using recursion to create objects, inheriting some parts from others, having at your disposal hundreds of geometry libraries, and much moreâ€¦ that's the OOML. The OOML is simply a C++ empowered OpenSCAD.\r
 \r
 OOML stands for Object Oriented Mechanics Library. The OOML is a set of tools written in C++ that allow designers to create mechanical parts using the C++ language.\r
@@ -28,6 +30,7 @@ OOML allow designers to create and share their own Parts Libraries, which will c
     okh:repo <https://www.thingiverse.com/thing:17761> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:17761> .

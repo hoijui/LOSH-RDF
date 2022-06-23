@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A3259/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ZenGarden a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Zen Garden" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Edit: It's been 6 years and I'm looking back at my early designs. I never fixed the sketchup model to make it printable, so I cleaned up and reversed the faces so it's now manifold and loads without errors. Uploaded modified Sketchup 2017 file and STL.\r
 \r
 This is my first design so be nice. This is planned to be built in one piece on a Makerbot. I don't have a HBP so I think this print is too big to print without warping. I tried to account for the 100mmx100mm limitations and I don't think the overhangs are severe. Feel free to give me suggestions of changes for printing.""" ;
@@ -14,6 +16,7 @@ This is my first design so be nice. This is planned to be built in one piece on 
     okh:repo <https://www.thingiverse.com/thing:3259> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:3259> .

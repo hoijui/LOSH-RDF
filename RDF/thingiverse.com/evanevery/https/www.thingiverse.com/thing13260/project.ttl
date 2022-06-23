@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A13260/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:TomMk6mk7ExtruderModularConnectorBracket a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "TOM MK6/MK7 Extruder Modular Connector Bracket" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I wanted to be able to quickly switch between extruders on my TOM (without having to open up the electronics bay) so I purchased some connectors from Newark Electronics and designed a bracket which could be bolted onto the Z-Axis to hold the connectors.  The tolerance is close enough that some ABS glue will fuse the connector(s) nicely to the bracket for a solid hold.  (The photos here are as mounted on my Acrylic case mod).  Now all I need to do is unscrew the hold down bolts on the extruder and unplug these connectors.  Then plug in the alternate extruder and away we go!  That way I can choose between 3mm, 1.75mm, and/or PLA extrusion without having to get into the electronics bay or disassemble any extruders...\r
 \r
 The connectors I chose are way oversize (each pin will carry 7 Amps!), and there is nothing particularly brilliant about the design, but I'm uploading this as it fits the mounting holes in my Acrylic Case mod.\r
@@ -18,6 +20,7 @@ The Newark (www.newark.com) part numbers for the connector parts are as follows:
     okh:repo <https://www.thingiverse.com/thing:13260> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:13260> .

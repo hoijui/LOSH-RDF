@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A12825/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:WireCubeStorageCorner a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Wire Cube Storage Corner" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a replacement corner for wire cube storage systems like this one:\r
 http://www.amazon.com/Safco-Model-Wire-Cubes-Black/dp/B000789RSQ/ref=sr_1_2?ie=UTF8&qid=1319357764&sr=8-2\r
 \r
@@ -17,6 +19,7 @@ Sorry for the poor photo, it's late and I got lazy and used a phone camera.""" ;
     okh:repo <https://www.thingiverse.com/thing:12825> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:12825> .

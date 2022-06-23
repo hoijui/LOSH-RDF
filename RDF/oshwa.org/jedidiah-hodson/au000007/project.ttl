@@ -2,21 +2,15 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Dwm1000Breakout a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "DWM1000 Breakout" ;
-    okh:additionalType "['Electronics', 'IOT', 'Other']" ;
-    okh:certificationDate "2020-06-19T00:00:00-04:00" ;
-    okh:country "Australia" ;
     okh:dataSource "oshwa.org" ;
     okh:documentationLanguage "en" ;
-    okh:documentationLicense "CC BY-SA" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function "This breakout is for the Decawave DWM1000 module in a breadboard friendly form factor with onboard logic level converter and status LED's. The DWM1000 is an IEEE802.15.4-2011 UWB compliant wireless module capable of precision indoor positioning and high data rates, making it perfect for projects that require localization where GPS may not be available or suitable." ;
-    okh:hardwareLicense "CERN" ;
     okh:licensor "Jedidiah Hodson" ;
-    okh:primaryType "Electronics" ;
     okh:repo <https://certification.oshwa.org/au000007.html> ;
     okh:repoHost "certification.oshwa.org" ;
-    okh:softwareLicense "No software" ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
     okh:uploadMethod "auto" ;
     okh:version "1.0" ;

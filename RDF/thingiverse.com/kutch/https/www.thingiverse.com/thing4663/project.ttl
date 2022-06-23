@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A4663/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:FermentationCapForBallCanningJars a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Fermentation Cap for Ball Canning Jars" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Am looking at different food/cooking alternatives to improve health.  As such, one of the local live/raw food places held a class last week about fermenting vegetables, and mentioned that canning jars might be ideal for small batches to try things out, hence this thing was created..  As an example of fermentation, look at a random book on amazon about it (http://www.amazon.com/Wild-Fermentation-Flavor-Nutrition-Live-Culture/dp/1931498237/ref=sr_1_1?ie=UTF8&qid=1288841311&sr=8-1).\r
 \r
 When fermenting, it releases carbon dioxide, and the goal of this thing is to keep regular air from getting at the food.  If air does get at it, the food can, and most likely will, spoil and be not so good to eat.  This cap is designed to fit over one of the old style Ball Canning Jars, the ones with the glass top and wire holding it on.  Tried to make it somewhat easy to parameterize...  hopefully....\r
@@ -26,6 +28,7 @@ NOTE:  In the picture with the brownish liquid, that is actually apple cider I u
     okh:repo <https://www.thingiverse.com/thing:4663> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:4663> .

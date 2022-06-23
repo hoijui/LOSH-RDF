@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A5603/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ParametricDrillPressBit a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Parametric Drill Press Bit" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """A friend of mine wants to try printing out a drill bit for what he says is called "Engine-turning, also known as jeweling or damascening."  I dunno if ABS plastic is up to the job, but from what I understand it basically involves gluing a scotch-brite pad onto a flat round drill bit, and then using it to buff a part.  So maybe it'll work fine? \r
 \r
 \r
@@ -15,6 +17,7 @@ Mostly it was an excuse for me to get more OpenSCAD experience.  Simple idea mea
     okh:repo <https://www.thingiverse.com/thing:5603> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/BSD-4-Clause> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:5603> .

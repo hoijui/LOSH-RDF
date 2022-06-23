@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A24764/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:LasercutBirdHouse1v2 a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "LaserCut - Bird House 1v2" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Some time ago I looked for a new design for our bird house for our garden. I found a very nice design and made a new construction by using a CAD program. The bird house is made of 3mm plywood. Now I hope that the birds will love it.\r
 \r
 I have changed some details in the construction. The hole has a diameter of 32mm. This is the optimal diameter for birds like  titmouses.\r
@@ -27,6 +29,7 @@ Thingiverse: https://www.thingiverse.com/jtronics/designs""" ;
     okh:repo <https://www.thingiverse.com/thing:24764> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:24764> .

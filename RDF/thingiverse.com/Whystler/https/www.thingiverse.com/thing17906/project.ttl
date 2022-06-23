@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A17906/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:TeacupDragonPuppet a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Teacup Dragon Puppet" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Meet the Queen of Teacup Dragons!  She knows everything there is to know about the british ritual of high tea.  However, she does tend to overindulge a little, as witnessed by her rotund appearance.\r
 \r
 This piece was made particularly for the "Pet Monster Contest" sponsored by Makerbot and 3D Artist Magazine.  I really wanted to make something that could act like a real pet - hence the puppetry elements in this design.\r
@@ -22,6 +24,7 @@ UPDATE: A couple of pieces of this file have been updated.  There was a "slicing
     okh:repo <https://www.thingiverse.com/thing:17906> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:17906> .

@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A38951/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MicroSpiderhQuadcopter a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Micro Spider-H Quadcopter" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "This is a prototype Micro Spider-H Quad I've been working on.  The design is intended to replace the conventional wood designs that most people use for H-Quads.  The arms are angled outwards at 25 degrees so that any load encountered during a crash will be felt mostly as an axial load rather than a perpendicular load.  The center spine is arched upwards slightly, partially for aesthetics and partially because it helps the arms form a stronger bond with the spine.  I haven't been able to test/weigh this quad yet." ;
     okh:hasImage :Image ;
     okh:licensor "ukarmy04" ;
     okh:repo <https://www.thingiverse.com/thing:38951> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:38951> .

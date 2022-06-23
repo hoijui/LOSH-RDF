@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A17012/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PennyWeightForClock a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Penny Weight for Clock" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I looked into getting lead shot for the weight on a mechanical clock and it turned out to be cheaper to use pennies. This should hold about 2.5 pounds ($4) of pennies with some room to add more if you need to.\r
 \r
 Note: To stay under the 150mm height limit of the Replicator you'll have to use the shorter stl file.""" ;
@@ -14,6 +16,7 @@ Note: To stay under the 150mm height limit of the Replicator you'll have to use 
     okh:repo <https://www.thingiverse.com/thing:17012> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:17012> .

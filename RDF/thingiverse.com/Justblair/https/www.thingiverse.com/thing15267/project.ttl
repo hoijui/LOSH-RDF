@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A15267/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ParametricTorchHolder a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Parametric Torch Holder" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is my torch holder.  I designed it to compliment my Parametric Battery Dispenser (http://www.thingiverse.com/thing:15149) and it mounts to the inside of a cupboard door for convenient access. \r
 \r
 The design is sized to fit a LED Lenser M7 Torch but is highly parametric so can be used with just about any torch.  I am sure that it could be used to hold many other tools as well.\r
@@ -20,6 +22,7 @@ In the pipeline are a host of other door mounting fittings, I intend to organise
     okh:repo <https://www.thingiverse.com/thing:15267> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:15267> .

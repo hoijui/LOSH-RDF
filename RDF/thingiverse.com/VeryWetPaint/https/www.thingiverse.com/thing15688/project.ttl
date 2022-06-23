@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A15688/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:StandForAntichronSculpture a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Stand for Antichron Sculpture" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a simple stand-up support for the Antichron sculpture.\r
 \r
 More pictures of how I built my sculpture (with some unusual difficulty) on my blog at http://mysd300.blogspot.com/2012/01/antichron.html""" ;
@@ -14,6 +16,7 @@ More pictures of how I built my sculpture (with some unusual difficulty) on my b
     okh:repo <https://www.thingiverse.com/thing:15688> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:15688> .

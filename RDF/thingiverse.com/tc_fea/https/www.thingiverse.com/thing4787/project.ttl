@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A4787/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:RootsForFractalTree2 a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Roots For Fractal Tree 2" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Zomboe added roots to his Fractal Tree 2 as shown in the image under "Other People's Copies" for thing:4340.\r
 \r
 I liked it so I decided to modify the orignal tree file and post the .stl file for the roots. The roots and tree together are about 148 mm tall, too tall for a single print on my machine.""" ;
@@ -14,6 +16,7 @@ I liked it so I decided to modify the orignal tree file and post the .stl file f
     okh:repo <https://www.thingiverse.com/thing:4787> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:4787> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A35070/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:CableButton a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Cable Button" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a Button thing that you can clip a headphone cable into to keep it tidy  
 
 One STL file is the button sized at 13mm diameter, 4mm thick and the cable groove at 3mm diameter. The other file is 13mm by 3mm with a 2mm diameter cable groove.""" ;
@@ -14,6 +16,7 @@ One STL file is the button sized at 13mm diameter, 4mm thick and the cable groov
     okh:repo <https://www.thingiverse.com/thing:35070> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:35070> .

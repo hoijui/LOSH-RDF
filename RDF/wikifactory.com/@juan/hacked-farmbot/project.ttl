@@ -2,146 +2,151 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:HackedFarmbot a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Hacked Farmbot" ;
     okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "Farmbot (by Farmbot Inc.) is an open-source CNC farming machine, bringing agricultural innovation closer to everybody.  The project corresponds to Farmbot Genesis 1.0 hacked at @UE Madrid - MDFD." ;
-    okh:hasComponent :3dModelCompletefarmbot3000x1500,
-        :3dModelCompletev3seeder,
-        :3dNonprintableFileselectronicsboard,
-        :3dNonprintableFilesfarmbotGenesis1428UnfToLuerLockAdapter,
-        :3dNonprintableFilesfarmbotGenesis14Barb,
-        :3dNonprintableFilesfarmbotGenesis1WoodScrew,
-        :3dNonprintableFilesfarmbotGenesis20mmX60mmX1500mmExtrusion,
-        :3dNonprintableFilesfarmbotGenesis20mmX60mmX650mmExtrusion,
-        :3dNonprintableFilesfarmbotGenesis20tPulley,
-        :3dNonprintableFilesfarmbotGenesis20x201000mm,
-        :3dNonprintableFilesfarmbotGenesis20x401500mm,
-        :3dNonprintableFilesfarmbotGenesis2mGt2BeltYaxis,
-        :3dNonprintableFilesfarmbotGenesis38Grommet,
-        :3dNonprintableFilesfarmbotGenesis38TubingAir,
-        :3dNonprintableFilesfarmbotGenesis38TubingWater,
-        :3dNonprintableFilesfarmbotGenesis5mGt2BeltXaxis,
-        :3dNonprintableFilesfarmbotGenesis5mmTo8mmFlexCoupling,
-        :3dNonprintableFilesfarmbotGenesisArduinoMega2560,
-        :3dNonprintableFilesfarmbotGenesisBarbedAdapter,
-        :3dNonprintableFilesfarmbotGenesisBearing,
-        :3dNonprintableFilesfarmbotGenesisBeltClip,
-        :3dNonprintableFilesfarmbotGenesisBuckAdapter,
-        :3dNonprintableFilesfarmbotGenesisCableClipbentMetal,
-        :3dNonprintableFilesfarmbotGenesisCameraUsbCable,
-        :3dNonprintableFilesfarmbotGenesisCcEnd1,
-        :3dNonprintableFilesfarmbotGenesisCcEnd2,
-        :3dNonprintableFilesfarmbotGenesisCcLink,
-        :3dNonprintableFilesfarmbotGenesisCcSpacerBlock,
-        :3dNonprintableFilesfarmbotGenesisCrossslidePlate,
-        :3dNonprintableFilesfarmbotGenesisEccentricSpacer,
-        :3dNonprintableFilesfarmbotGenesisElectronicsEnclosureBox,
-        :3dNonprintableFilesfarmbotGenesisElectronicsEnclosureCover,
-        :3dNonprintableFilesfarmbotGenesisElectronicsEnclosureGasket,
-        :3dNonprintableFilesfarmbotGenesisElectronicsMountingPlate,
-        :3dNonprintableFilesfarmbotGenesisEncoderWires,
-        :3dNonprintableFilesfarmbotGenesisFrontBoard,
-        :3dNonprintableFilesfarmbotGenesisGantryWheelPlate,
-        :3dNonprintableFilesfarmbotGenesisGardenHose,
-        :3dNonprintableFilesfarmbotGenesisGardenHoseAdapter,
-        :3dNonprintableFilesfarmbotGenesisHorizontalCcSupportmachined,
-        :3dNonprintableFilesfarmbotGenesisHorizontalMotorHousing,
-        :3dNonprintableFilesfarmbotGenesisJumperLink,
-        :3dNonprintableFilesfarmbotGenesisLeadscrew,
-        :3dNonprintableFilesfarmbotGenesisLeadscrewBlock,
-        :3dNonprintableFilesfarmbotGenesisLeftGantryCornerBracket,
-        :3dNonprintableFilesfarmbotGenesisLeverNut,
-        :3dNonprintableFilesfarmbotGenesisLongBoard,
-        :3dNonprintableFilesfarmbotGenesisLongCableCarrierSupportmachined,
-        :3dNonprintableFilesfarmbotGenesisM25Screw4mm,
-        :3dNonprintableFilesfarmbotGenesisM25Standoff16mm,
-        :3dNonprintableFilesfarmbotGenesisM25Standoff6mm,
-        :3dNonprintableFilesfarmbotGenesisM3Locknut,
-        :3dNonprintableFilesfarmbotGenesisM3Setscrew,
-        :3dNonprintableFilesfarmbotGenesisM3Spring,
-        :3dNonprintableFilesfarmbotGenesisM3X10mmScrew,
-        :3dNonprintableFilesfarmbotGenesisM3X12mmScrew,
-        :3dNonprintableFilesfarmbotGenesisM3X25mmScrew,
-        :3dNonprintableFilesfarmbotGenesisM3X30mmScrew,
-        :3dNonprintableFilesfarmbotGenesisM3X5mmScrew,
-        :3dNonprintableFilesfarmbotGenesisM4X16mmScrew,
-        :3dNonprintableFilesfarmbotGenesisM5Locknut,
-        :3dNonprintableFilesfarmbotGenesisM5Shim,
-        :3dNonprintableFilesfarmbotGenesisM5Spacer,
-        :3dNonprintableFilesfarmbotGenesisM5TeeNut,
-        :3dNonprintableFilesfarmbotGenesisM5Washer,
-        :3dNonprintableFilesfarmbotGenesisM5X10mmScrew,
-        :3dNonprintableFilesfarmbotGenesisM5X16mmScrew,
-        :3dNonprintableFilesfarmbotGenesisM5X30mmScrew,
-        :3dNonprintableFilesfarmbotGenesisM5X45mmScrew,
-        :3dNonprintableFilesfarmbotGenesisMicroSdCard,
-        :3dNonprintableFilesfarmbotGenesisNema17StepperMotorWithRotaryEncoder,
-        :3dNonprintableFilesfarmbotGenesisOring75mmIdModeledAs8mm,
-        :3dNonprintableFilesfarmbotGenesisPowerSupply,
-        :3dNonprintableFilesfarmbotGenesisPressureRegulator,
-        :3dNonprintableFilesfarmbotGenesisRamps14Board,
-        :3dNonprintableFilesfarmbotGenesisRampsBuck,
-        :3dNonprintableFilesfarmbotGenesisRampsDcPowerPlug,
-        :3dNonprintableFilesfarmbotGenesisRampsPowerFromLeverNut,
-        :3dNonprintableFilesfarmbotGenesisRampsPowerInaux,
-        :3dNonprintableFilesfarmbotGenesisRampsPowerToLeverNut,
-        :3dNonprintableFilesfarmbotGenesisRampsPoweraux,
-        :3dNonprintableFilesfarmbotGenesisRampsVacuumPump,
-        :3dNonprintableFilesfarmbotGenesisRampsWaterValve,
-        :3dNonprintableFilesfarmbotGenesisRaspberryPi3,
-        :3dNonprintableFilesfarmbotGenesisRightGantryCornerBracket,
-        :3dNonprintableFilesfarmbotGenesisRingMagnet,
-        :3dNonprintableFilesfarmbotGenesisSeeder,
-        :3dNonprintableFilesfarmbotGenesisSoil,
-        :3dNonprintableFilesfarmbotGenesisSoilSensor,
-        :3dNonprintableFilesfarmbotGenesisSoilSensorColor,
-        :3dNonprintableFilesfarmbotGenesisSoilSensorPcb,
-        :3dNonprintableFilesfarmbotGenesisSolenoidValve,
-        :3dNonprintableFilesfarmbotGenesisSsLuerLockNeedle18Gauge,
-        :3dNonprintableFilesfarmbotGenesisStepperDriver,
-        :3dNonprintableFilesfarmbotGenesisStepperWires,
-        :3dNonprintableFilesfarmbotGenesisToolBay,
-        :3dNonprintableFilesfarmbotGenesisTrackEndPlate,
-        :3dNonprintableFilesfarmbotGenesisTrackJoiningPlate,
-        :3dNonprintableFilesfarmbotGenesisUniversalToolMount,
-        :3dNonprintableFilesfarmbotGenesisUsbAbCord,
-        :3dNonprintableFilesfarmbotGenesisUtmCable,
-        :3dNonprintableFilesfarmbotGenesisUtmCover,
-        :3dNonprintableFilesfarmbotGenesisUtmCoverPlug,
-        :3dNonprintableFilesfarmbotGenesisVacuumPump,
-        :3dNonprintableFilesfarmbotGenesisVerticalCcSupport,
-        :3dNonprintableFilesfarmbotGenesisVwheel,
-        :3dNonprintableFilesfarmbotGenesisWallPowerCord,
-        :3dNonprintableFilesfarmbotGenesisWateringNozzlebottom,
-        :3dNonprintableFilesfarmbotGenesisWateringNozzletop,
-        :3dNonprintableFilesfarmbotGenesisWeeder,
-        :3dNonprintableFilesfarmbotGenesisWeederBlade,
-        :3dNonprintableFilesfarmbotGenesisWeederSpike,
-        :3dNonprintableFilesfarmbotGenesisXaxisMotorCableLong,
-        :3dNonprintableFilesfarmbotGenesisXaxisMotorCableShort,
-        :3dNonprintableFilesfarmbotGenesisYaxisMotorCable,
-        :3dNonprintableFilesfarmbotGenesisZaxisMotorCable,
-        :3dNonprintableFilesfarmbotGenesisZaxisMotorMountmachinedMetal,
-        :3dNonprintableFilesfarmbotGenesisZipTie,
-        :3dPrintableFilesallPlastic3dPrintPartsforStlExportCableGuide3dPrint,
-        :3dPrintableFilesallPlastic3dPrintPartsforStlExportHorizontalCcSupportmachined,
-        :3dPrintableFilesallPlastic3dPrintPartsforStlExportHorizontalMotorHousing3dPrint,
-        :3dPrintableFilesallPlastic3dPrintPartsforStlExportLongCableCarrierSupport3dPrint,
-        :3dPrintableFilesallPlastic3dPrintPartsforStlExportSeedBin,
-        :3dPrintableFilesallPlastic3dPrintPartsforStlExportSeedTray,
-        :3dPrintableFilesallPlastic3dPrintPartsforStlExportSoilSensor,
-        :3dPrintableFilesallPlastic3dPrintPartsforStlExportUniversalToolMount,
-        :3dPrintableFilesallPlastic3dPrintPartsforStlExportUtmCover,
-        :3dPrintableFilesallPlastic3dPrintPartsforStlExportVerticalCcSupport,
-        :3dPrintableFilesallPlastic3dPrintPartsforStlExportVerticalMotorHousing3dPrint,
-        :3dPrintableFilesallPlastic3dPrintPartsforStlExportWateringNozzlebottom,
-        :3dPrintableFilesallPlastic3dPrintPartsforStlExportWateringNozzletop,
-        :3dPrintableFilesallPlastic3dPrintPartsforStlExportWeeder,
-        :3dPrintableFilesallPlastic3dPrintPartsforStlExportWeederBlade,
-        :3dPrintableFilesallPlastic3dPrintPartsforStlExportWeederSpike,
-        :3dPrintableFilesallPlastic3dPrintPartsforStlExportZaxisMotorMount3dPrint,
+    okh:hasComponent :3dmodelcompletefarmbot3000x1500,
+        :3dmodelcompletev3seeder,
+        :3dnonprintablefileselectronicsboard,
+        :3dnonprintablefilesfarmbotgenesis1428unftoluerlockadapter,
+        :3dnonprintablefilesfarmbotgenesis14barb,
+        :3dnonprintablefilesfarmbotgenesis1woodscrew,
+        :3dnonprintablefilesfarmbotgenesis20mmx60mmx1500mmextrusion,
+        :3dnonprintablefilesfarmbotgenesis20mmx60mmx650mmextrusion,
+        :3dnonprintablefilesfarmbotgenesis20tpulley,
+        :3dnonprintablefilesfarmbotgenesis20x201000mm,
+        :3dnonprintablefilesfarmbotgenesis20x401500mm,
+        :3dnonprintablefilesfarmbotgenesis2mgt2beltyaxis,
+        :3dnonprintablefilesfarmbotgenesis38grommet,
+        :3dnonprintablefilesfarmbotgenesis38tubingair,
+        :3dnonprintablefilesfarmbotgenesis38tubingwater,
+        :3dnonprintablefilesfarmbotgenesis5mgt2beltxaxis,
+        :3dnonprintablefilesfarmbotgenesis5mmto8mmflexcoupling,
+        :3dnonprintablefilesfarmbotgenesisarduinomega2560,
+        :3dnonprintablefilesfarmbotgenesisbarbedadapter,
+        :3dnonprintablefilesfarmbotgenesisbearing,
+        :3dnonprintablefilesfarmbotgenesisbeltclip,
+        :3dnonprintablefilesfarmbotgenesisbuckadapter,
+        :3dnonprintablefilesfarmbotgenesiscableclipbentmetal,
+        :3dnonprintablefilesfarmbotgenesiscamerausbcable,
+        :3dnonprintablefilesfarmbotgenesisccend1,
+        :3dnonprintablefilesfarmbotgenesisccend2,
+        :3dnonprintablefilesfarmbotgenesiscclink,
+        :3dnonprintablefilesfarmbotgenesisccspacerblock,
+        :3dnonprintablefilesfarmbotgenesiscrossslideplate,
+        :3dnonprintablefilesfarmbotgenesiseccentricspacer,
+        :3dnonprintablefilesfarmbotgenesiselectronicsenclosurebox,
+        :3dnonprintablefilesfarmbotgenesiselectronicsenclosurecover,
+        :3dnonprintablefilesfarmbotgenesiselectronicsenclosuregasket,
+        :3dnonprintablefilesfarmbotgenesiselectronicsmountingplate,
+        :3dnonprintablefilesfarmbotgenesisencoderwires,
+        :3dnonprintablefilesfarmbotgenesisfrontboard,
+        :3dnonprintablefilesfarmbotgenesisgantrywheelplate,
+        :3dnonprintablefilesfarmbotgenesisgardenhose,
+        :3dnonprintablefilesfarmbotgenesisgardenhoseadapter,
+        :3dnonprintablefilesfarmbotgenesishorizontalccsupportmachined,
+        :3dnonprintablefilesfarmbotgenesishorizontalmotorhousing,
+        :3dnonprintablefilesfarmbotgenesisjumperlink,
+        :3dnonprintablefilesfarmbotgenesisleadscrew,
+        :3dnonprintablefilesfarmbotgenesisleadscrewblock,
+        :3dnonprintablefilesfarmbotgenesisleftgantrycornerbracket,
+        :3dnonprintablefilesfarmbotgenesislevernut,
+        :3dnonprintablefilesfarmbotgenesislongboard,
+        :3dnonprintablefilesfarmbotgenesislongcablecarriersupportmachined,
+        :3dnonprintablefilesfarmbotgenesism25screw4mm,
+        :3dnonprintablefilesfarmbotgenesism25standoff16mm,
+        :3dnonprintablefilesfarmbotgenesism25standoff6mm,
+        :3dnonprintablefilesfarmbotgenesism3locknut,
+        :3dnonprintablefilesfarmbotgenesism3setscrew,
+        :3dnonprintablefilesfarmbotgenesism3spring,
+        :3dnonprintablefilesfarmbotgenesism3x10mmscrew,
+        :3dnonprintablefilesfarmbotgenesism3x12mmscrew,
+        :3dnonprintablefilesfarmbotgenesism3x25mmscrew,
+        :3dnonprintablefilesfarmbotgenesism3x30mmscrew,
+        :3dnonprintablefilesfarmbotgenesism3x5mmscrew,
+        :3dnonprintablefilesfarmbotgenesism4x16mmscrew,
+        :3dnonprintablefilesfarmbotgenesism5locknut,
+        :3dnonprintablefilesfarmbotgenesism5shim,
+        :3dnonprintablefilesfarmbotgenesism5spacer,
+        :3dnonprintablefilesfarmbotgenesism5teenut,
+        :3dnonprintablefilesfarmbotgenesism5washer,
+        :3dnonprintablefilesfarmbotgenesism5x10mmscrew,
+        :3dnonprintablefilesfarmbotgenesism5x16mmscrew,
+        :3dnonprintablefilesfarmbotgenesism5x30mmscrew,
+        :3dnonprintablefilesfarmbotgenesism5x45mmscrew,
+        :3dnonprintablefilesfarmbotgenesismicrosdcard,
+        :3dnonprintablefilesfarmbotgenesisnema17steppermotorwithrotaryencoder,
+        :3dnonprintablefilesfarmbotgenesisoring75mmidmodeledas8mm,
+        :3dnonprintablefilesfarmbotgenesispowersupply,
+        :3dnonprintablefilesfarmbotgenesispressureregulator,
+        :3dnonprintablefilesfarmbotgenesisramps14board,
+        :3dnonprintablefilesfarmbotgenesisrampsbuck,
+        :3dnonprintablefilesfarmbotgenesisrampsbuck1,
+        :3dnonprintablefilesfarmbotgenesisrampsdcpowerplug,
+        :3dnonprintablefilesfarmbotgenesisrampspoweraux,
+        :3dnonprintablefilesfarmbotgenesisrampspowerfromlevernut,
+        :3dnonprintablefilesfarmbotgenesisrampspowerfromlevernut1,
+        :3dnonprintablefilesfarmbotgenesisrampspowerinaux,
+        :3dnonprintablefilesfarmbotgenesisrampspowertolevernut,
+        :3dnonprintablefilesfarmbotgenesisrampspowertolevernut1,
+        :3dnonprintablefilesfarmbotgenesisrampsvacuumpump,
+        :3dnonprintablefilesfarmbotgenesisrampsvacuumpump1,
+        :3dnonprintablefilesfarmbotgenesisrampswatervalve,
+        :3dnonprintablefilesfarmbotgenesisrampswatervalve1,
+        :3dnonprintablefilesfarmbotgenesisraspberrypi3,
+        :3dnonprintablefilesfarmbotgenesisrightgantrycornerbracket,
+        :3dnonprintablefilesfarmbotgenesisringmagnet,
+        :3dnonprintablefilesfarmbotgenesisseeder,
+        :3dnonprintablefilesfarmbotgenesissoil,
+        :3dnonprintablefilesfarmbotgenesissoilsensor,
+        :3dnonprintablefilesfarmbotgenesissoilsensorcolor,
+        :3dnonprintablefilesfarmbotgenesissoilsensorpcb,
+        :3dnonprintablefilesfarmbotgenesissolenoidvalve,
+        :3dnonprintablefilesfarmbotgenesisssluerlockneedle18gauge,
+        :3dnonprintablefilesfarmbotgenesisstepperdriver,
+        :3dnonprintablefilesfarmbotgenesisstepperwires,
+        :3dnonprintablefilesfarmbotgenesistoolbay,
+        :3dnonprintablefilesfarmbotgenesistrackendplate,
+        :3dnonprintablefilesfarmbotgenesistrackjoiningplate,
+        :3dnonprintablefilesfarmbotgenesisuniversaltoolmount,
+        :3dnonprintablefilesfarmbotgenesisusbabcord,
+        :3dnonprintablefilesfarmbotgenesisutmcable,
+        :3dnonprintablefilesfarmbotgenesisutmcover,
+        :3dnonprintablefilesfarmbotgenesisutmcoverplug,
+        :3dnonprintablefilesfarmbotgenesisvacuumpump,
+        :3dnonprintablefilesfarmbotgenesisverticalccsupport,
+        :3dnonprintablefilesfarmbotgenesisvwheel,
+        :3dnonprintablefilesfarmbotgenesiswallpowercord,
+        :3dnonprintablefilesfarmbotgenesiswateringnozzlebottom,
+        :3dnonprintablefilesfarmbotgenesiswateringnozzletop,
+        :3dnonprintablefilesfarmbotgenesisweeder,
+        :3dnonprintablefilesfarmbotgenesisweederblade,
+        :3dnonprintablefilesfarmbotgenesisweederspike,
+        :3dnonprintablefilesfarmbotgenesisxaxismotorcablelong,
+        :3dnonprintablefilesfarmbotgenesisxaxismotorcableshort,
+        :3dnonprintablefilesfarmbotgenesisyaxismotorcable,
+        :3dnonprintablefilesfarmbotgenesiszaxismotorcable,
+        :3dnonprintablefilesfarmbotgenesiszaxismotormountmachinedmetal,
+        :3dnonprintablefilesfarmbotgenesisziptie,
+        :3dprintablefilesallplastic3dprintpartsforstlexportcableguide3dprint,
+        :3dprintablefilesallplastic3dprintpartsforstlexporthorizontalccsupportmachined,
+        :3dprintablefilesallplastic3dprintpartsforstlexporthorizontalmotorhousing3dprint,
+        :3dprintablefilesallplastic3dprintpartsforstlexportlongcablecarriersupport3dprint,
+        :3dprintablefilesallplastic3dprintpartsforstlexportseedbin,
+        :3dprintablefilesallplastic3dprintpartsforstlexportseedtray,
+        :3dprintablefilesallplastic3dprintpartsforstlexportsoilsensor,
+        :3dprintablefilesallplastic3dprintpartsforstlexportuniversaltoolmount,
+        :3dprintablefilesallplastic3dprintpartsforstlexportutmcover,
+        :3dprintablefilesallplastic3dprintpartsforstlexportverticalccsupport,
+        :3dprintablefilesallplastic3dprintpartsforstlexportverticalmotorhousing3dprint,
+        :3dprintablefilesallplastic3dprintpartsforstlexportwateringnozzlebottom,
+        :3dprintablefilesallplastic3dprintpartsforstlexportwateringnozzletop,
+        :3dprintablefilesallplastic3dprintpartsforstlexportweeder,
+        :3dprintablefilesallplastic3dprintpartsforstlexportweederblade,
+        :3dprintablefilesallplastic3dprintpartsforstlexportweederspike,
+        :3dprintablefilesallplastic3dprintpartsforstlexportzaxismotormount3dprint,
         :Antivibrzprusa,
         :Experimentalantivibrzprusa,
         :Experimentalcamaraholderfarmbot,
@@ -166,1780 +171,1825 @@
     okh:version "c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:versionOf <https://wikifactory.com/@juan/hacked-farmbot> .
 
-:3dModelCompletefarmbot3000x1500 a okh:Part ;
+:3dmodelcompletefarmbot3000x1500 a okh:Part ;
     rdfs:label "3D model -  Complete/farmbot3000x1500" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dModelCompletefarmbot3000x1500_source ;
+    okh:source :3dmodelcompletefarmbot3000x1500_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dModelCompletefarmbot3000x1500_source a okh:SourceFile ;
+:3dmodelcompletefarmbot3000x1500_source a okh:SourceFile ;
     rdfs:label "Source File of 3D model -  Complete/farmbot3000x1500 of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot3000x1500.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxNjAx> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot3000x1500.stl> .
 
-:3dModelCompletev3seeder a okh:Part ;
+:3dmodelcompletev3seeder a okh:Part ;
     rdfs:label "3D model -  Complete/v3_seeder" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dModelCompletev3seeder_source ;
+    okh:source :3dmodelcompletev3seeder_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dModelCompletev3seeder_source a okh:SourceFile ;
+:3dmodelcompletev3seeder_source a okh:SourceFile ;
     rdfs:label "Source File of 3D model -  Complete/v3_seeder of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/v3seeder-0.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NTQ=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/v3seeder-0.stl> .
 
-:3dNonprintableFileselectronicsboard a okh:Part ;
+:3dnonprintablefileselectronicsboard a okh:Part ;
     rdfs:label "3D non-printable files/electronics_board" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFileselectronicsboard_source ;
+    okh:source :3dnonprintablefileselectronicsboard_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFileselectronicsboard_source a okh:SourceFile ;
+:3dnonprintablefileselectronicsboard_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/electronics_board of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "DWG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/electronicsboard.dwg> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3MzM=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/electronicsboard.dwg> .
 
-:3dNonprintableFilesfarmbotGenesis1428UnfToLuerLockAdapter a okh:Part ;
+:3dnonprintablefilesfarmbotgenesis1428unftoluerlockadapter a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - 1-4--28 UNF to Luer Lock Adapter" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesis1428UnfToLuerLockAdapter_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesis1428unftoluerlockadapter_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesis1428UnfToLuerLockAdapter_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesis1428unftoluerlockadapter_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - 1-4--28 UNF to Luer Lock Adapter of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-1-4-28-unf-to-luer-lock-adapter.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3MzQ=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-1-4-28-unf-to-luer-lock-adapter.stl> .
 
-:3dNonprintableFilesfarmbotGenesis14Barb a okh:Part ;
+:3dnonprintablefilesfarmbotgenesis14barb a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - 1-4- Barb" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesis14Barb_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesis14barb_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesis14Barb_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesis14barb_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - 1-4- Barb of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-1-4-barb.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3NTI=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-1-4-barb.stl> .
 
-:3dNonprintableFilesfarmbotGenesis1WoodScrew a okh:Part ;
+:3dnonprintablefilesfarmbotgenesis1woodscrew a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - 1- Wood Screw" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesis1WoodScrew_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesis1woodscrew_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesis1WoodScrew_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesis1woodscrew_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - 1- Wood Screw of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-1-wood-screw.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4NDI=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-1-wood-screw.stl> .
 
-:3dNonprintableFilesfarmbotGenesis20mmX60mmX1500mmExtrusion a okh:Part ;
+:3dnonprintablefilesfarmbotgenesis20mmx60mmx1500mmextrusion a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - 20mm x 60mm x 1500mm Extrusion" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesis20mmX60mmX1500mmExtrusion_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesis20mmx60mmx1500mmextrusion_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesis20mmX60mmX1500mmExtrusion_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesis20mmx60mmx1500mmextrusion_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - 20mm x 60mm x 1500mm Extrusion of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-20mm-x-60mm-x-1500mm-extrusion.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3NTY=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-20mm-x-60mm-x-1500mm-extrusion.stl> .
 
-:3dNonprintableFilesfarmbotGenesis20mmX60mmX650mmExtrusion a okh:Part ;
+:3dnonprintablefilesfarmbotgenesis20mmx60mmx650mmextrusion a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - 20mm x 60mm x 650mm Extrusion" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesis20mmX60mmX650mmExtrusion_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesis20mmx60mmx650mmextrusion_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesis20mmX60mmX650mmExtrusion_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesis20mmx60mmx650mmextrusion_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - 20mm x 60mm x 650mm Extrusion of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-20mm-x-60mm-x-650mm-extrusion.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3NTU=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-20mm-x-60mm-x-650mm-extrusion.stl> .
 
-:3dNonprintableFilesfarmbotGenesis20tPulley a okh:Part ;
+:3dnonprintablefilesfarmbotgenesis20tpulley a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - 20T Pulley" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesis20tPulley_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesis20tpulley_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesis20tPulley_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesis20tpulley_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - 20T Pulley of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-20t-pulley.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3OTk=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-20t-pulley.stl> .
 
-:3dNonprintableFilesfarmbotGenesis20x201000mm a okh:Part ;
+:3dnonprintablefilesfarmbotgenesis20x201000mm a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - 20x20 - 1000mm" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesis20x201000mm_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesis20x201000mm_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesis20x201000mm_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesis20x201000mm_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - 20x20 - 1000mm of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-20x20-1000mm.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3MzU=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-20x20-1000mm.stl> .
 
-:3dNonprintableFilesfarmbotGenesis20x401500mm a okh:Part ;
+:3dnonprintablefilesfarmbotgenesis20x401500mm a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - 20x40 - 1500mm" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesis20x401500mm_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesis20x401500mm_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesis20x401500mm_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesis20x401500mm_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - 20x40 - 1500mm of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-20x40-1500mm.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3NTc=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-20x40-1500mm.stl> .
 
-:3dNonprintableFilesfarmbotGenesis2mGt2BeltYaxis a okh:Part ;
+:3dnonprintablefilesfarmbotgenesis2mgt2beltyaxis a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - 2m GT2 Belt- Y-Axis" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesis2mGt2BeltYaxis_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesis2mgt2beltyaxis_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesis2mGt2BeltYaxis_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesis2mgt2beltyaxis_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - 2m GT2 Belt- Y-Axis of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-2m-gt2-belt-y-axis.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4NDM=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-2m-gt2-belt-y-axis.stl> .
 
-:3dNonprintableFilesfarmbotGenesis38Grommet a okh:Part ;
+:3dnonprintablefilesfarmbotgenesis38grommet a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - 3-8 Grommet" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesis38Grommet_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesis38grommet_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesis38Grommet_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesis38grommet_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - 3-8 Grommet of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-3-8-grommet.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3NTM=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-3-8-grommet.stl> .
 
-:3dNonprintableFilesfarmbotGenesis38TubingAir a okh:Part ;
+:3dnonprintablefilesfarmbotgenesis38tubingair a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - 3-8- Tubing - Air" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesis38TubingAir_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesis38tubingair_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesis38TubingAir_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesis38tubingair_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - 3-8- Tubing - Air of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-3-8-tubing-air.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3ODI=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-3-8-tubing-air.stl> .
 
-:3dNonprintableFilesfarmbotGenesis38TubingWater a okh:Part ;
+:3dnonprintablefilesfarmbotgenesis38tubingwater a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - 3-8- Tubing - Water" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesis38TubingWater_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesis38tubingwater_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesis38TubingWater_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesis38tubingwater_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - 3-8- Tubing - Water of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-3-8-tubing-water.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3ODM=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-3-8-tubing-water.stl> .
 
-:3dNonprintableFilesfarmbotGenesis5mGt2BeltXaxis a okh:Part ;
+:3dnonprintablefilesfarmbotgenesis5mgt2beltxaxis a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - 5m GT2 Belt- X-Axis" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesis5mGt2BeltXaxis_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesis5mgt2beltxaxis_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesis5mGt2BeltXaxis_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesis5mgt2beltxaxis_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - 5m GT2 Belt- X-Axis of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-5m-gt2-belt-x-axis.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4NDQ=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-5m-gt2-belt-x-axis.stl> .
 
-:3dNonprintableFilesfarmbotGenesis5mmTo8mmFlexCoupling a okh:Part ;
+:3dnonprintablefilesfarmbotgenesis5mmto8mmflexcoupling a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - 5mm to 8mm flex coupling" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesis5mmTo8mmFlexCoupling_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesis5mmto8mmflexcoupling_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesis5mmTo8mmFlexCoupling_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesis5mmto8mmflexcoupling_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - 5mm to 8mm flex coupling of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-5mm-to-8mm-flex-coupling.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3NTQ=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-5mm-to-8mm-flex-coupling.stl> .
 
-:3dNonprintableFilesfarmbotGenesisArduinoMega2560 a okh:Part ;
+:3dnonprintablefilesfarmbotgenesisarduinomega2560 a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - Arduino MEGA 2560" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisArduinoMega2560_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesisarduinomega2560_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisArduinoMega2560_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesisarduinomega2560_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - Arduino MEGA 2560 of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-arduino-mega-2560.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3OTA=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-arduino-mega-2560.stl> .
 
-:3dNonprintableFilesfarmbotGenesisBarbedAdapter a okh:Part ;
+:3dnonprintablefilesfarmbotgenesisbarbedadapter a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - Barbed Adapter" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisBarbedAdapter_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesisbarbedadapter_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisBarbedAdapter_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesisbarbedadapter_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - Barbed Adapter of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-barbed-adapter.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3NTg=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-barbed-adapter.stl> .
 
-:3dNonprintableFilesfarmbotGenesisBearing a okh:Part ;
+:3dnonprintablefilesfarmbotgenesisbearing a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - Bearing" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisBearing_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesisbearing_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisBearing_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesisbearing_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - Bearing of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-bearing.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4NDU=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-bearing.stl> .
 
-:3dNonprintableFilesfarmbotGenesisBeltClip a okh:Part ;
+:3dnonprintablefilesfarmbotgenesisbeltclip a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - Belt Clip" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisBeltClip_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesisbeltclip_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisBeltClip_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesisbeltclip_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - Belt Clip of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-belt-clip.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3MzY=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-belt-clip.stl> .
 
-:3dNonprintableFilesfarmbotGenesisBuckAdapter a okh:Part ;
+:3dnonprintablefilesfarmbotgenesisbuckadapter a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - Buck Adapter" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisBuckAdapter_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesisbuckadapter_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisBuckAdapter_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesisbuckadapter_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - Buck Adapter of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-buck-adapter.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDA=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-buck-adapter.stl> .
 
-:3dNonprintableFilesfarmbotGenesisCableClipbentMetal a okh:Part ;
+:3dnonprintablefilesfarmbotgenesiscableclipbentmetal a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - Cable Clip [Bent Metal]" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisCableClipbentMetal_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesiscableclipbentmetal_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisCableClipbentMetal_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesiscableclipbentmetal_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - Cable Clip [Bent Metal] of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-cable-clip-bent-metal.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDE=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-cable-clip-bent-metal.stl> .
 
-:3dNonprintableFilesfarmbotGenesisCameraUsbCable a okh:Part ;
+:3dnonprintablefilesfarmbotgenesiscamerausbcable a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - Camera USB Cable" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisCameraUsbCable_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesiscamerausbcable_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisCameraUsbCable_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesiscamerausbcable_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - Camera USB Cable of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-camera-usb-cable.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3OTE=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-camera-usb-cable.stl> .
 
-:3dNonprintableFilesfarmbotGenesisCcEnd1 a okh:Part ;
+:3dnonprintablefilesfarmbotgenesisccend1 a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - CC End 1" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisCcEnd1_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesisccend1_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisCcEnd1_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesisccend1_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - CC End 1 of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-cc-end-1.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDI=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-cc-end-1.stl> .
 
-:3dNonprintableFilesfarmbotGenesisCcEnd2 a okh:Part ;
+:3dnonprintablefilesfarmbotgenesisccend2 a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - CC End 2" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisCcEnd2_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesisccend2_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisCcEnd2_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesisccend2_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - CC End 2 of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-cc-end-2.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDM=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-cc-end-2.stl> .
 
-:3dNonprintableFilesfarmbotGenesisCcLink a okh:Part ;
+:3dnonprintablefilesfarmbotgenesiscclink a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - CC Link" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisCcLink_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesiscclink_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisCcLink_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesiscclink_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - CC Link of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-cc-link.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3ODQ=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-cc-link.stl> .
 
-:3dNonprintableFilesfarmbotGenesisCcSpacerBlock a okh:Part ;
+:3dnonprintablefilesfarmbotgenesisccspacerblock a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - CC Spacer Block" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisCcSpacerBlock_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesisccspacerblock_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisCcSpacerBlock_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesisccspacerblock_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - CC Spacer Block of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-cc-spacer-block.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4NDY=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-cc-spacer-block.stl> .
 
-:3dNonprintableFilesfarmbotGenesisCrossslidePlate a okh:Part ;
+:3dnonprintablefilesfarmbotgenesiscrossslideplate a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - Cross-Slide Plate" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisCrossslidePlate_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesiscrossslideplate_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisCrossslidePlate_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesiscrossslideplate_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - Cross-Slide Plate of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-cross-slide-plate.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3NTk=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-cross-slide-plate.stl> .
 
-:3dNonprintableFilesfarmbotGenesisEccentricSpacer a okh:Part ;
+:3dnonprintablefilesfarmbotgenesiseccentricspacer a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - Eccentric Spacer" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisEccentricSpacer_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesiseccentricspacer_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisEccentricSpacer_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesiseccentricspacer_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - Eccentric Spacer of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-eccentric-spacer.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDQ=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-eccentric-spacer.stl> .
 
-:3dNonprintableFilesfarmbotGenesisElectronicsEnclosureBox a okh:Part ;
+:3dnonprintablefilesfarmbotgenesiselectronicsenclosurebox a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - Electronics Enclosure Box" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisElectronicsEnclosureBox_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesiselectronicsenclosurebox_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisElectronicsEnclosureBox_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesiselectronicsenclosurebox_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - Electronics Enclosure Box of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-electronics-enclosure-box.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDU=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-electronics-enclosure-box.stl> .
 
-:3dNonprintableFilesfarmbotGenesisElectronicsEnclosureCover a okh:Part ;
+:3dnonprintablefilesfarmbotgenesiselectronicsenclosurecover a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - Electronics Enclosure Cover" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisElectronicsEnclosureCover_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesiselectronicsenclosurecover_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisElectronicsEnclosureCover_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesiselectronicsenclosurecover_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - Electronics Enclosure Cover of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-electronics-enclosure-cover.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDY=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-electronics-enclosure-cover.stl> .
 
-:3dNonprintableFilesfarmbotGenesisElectronicsEnclosureGasket a okh:Part ;
+:3dnonprintablefilesfarmbotgenesiselectronicsenclosuregasket a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - Electronics Enclosure Gasket" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisElectronicsEnclosureGasket_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesiselectronicsenclosuregasket_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisElectronicsEnclosureGasket_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesiselectronicsenclosuregasket_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - Electronics Enclosure Gasket of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-electronics-enclosure-gasket.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDc=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-electronics-enclosure-gasket.stl> .
 
-:3dNonprintableFilesfarmbotGenesisElectronicsMountingPlate a okh:Part ;
+:3dnonprintablefilesfarmbotgenesiselectronicsmountingplate a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - Electronics Mounting Plate" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisElectronicsMountingPlate_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesiselectronicsmountingplate_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisElectronicsMountingPlate_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesiselectronicsmountingplate_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - Electronics Mounting Plate of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-electronics-mounting-plate.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDg=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-electronics-mounting-plate.stl> .
 
-:3dNonprintableFilesfarmbotGenesisEncoderWires a okh:Part ;
+:3dnonprintablefilesfarmbotgenesisencoderwires a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - Encoder Wires" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisEncoderWires_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesisencoderwires_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisEncoderWires_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesisencoderwires_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - Encoder Wires of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-encoder-wires.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3OTQ=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-encoder-wires.stl> .
 
-:3dNonprintableFilesfarmbotGenesisFrontBoard a okh:Part ;
+:3dnonprintablefilesfarmbotgenesisfrontboard a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - Front Board" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisFrontBoard_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesisfrontboard_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisFrontBoard_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesisfrontboard_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - Front Board of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-front-board.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MDk=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-front-board.stl> .
 
-:3dNonprintableFilesfarmbotGenesisGantryWheelPlate a okh:Part ;
+:3dnonprintablefilesfarmbotgenesisgantrywheelplate a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - Gantry Wheel Plate" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisGantryWheelPlate_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesisgantrywheelplate_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisGantryWheelPlate_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesisgantrywheelplate_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - Gantry Wheel Plate of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-gantry-wheel-plate.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4NDc=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-gantry-wheel-plate.stl> .
 
-:3dNonprintableFilesfarmbotGenesisGardenHose a okh:Part ;
+:3dnonprintablefilesfarmbotgenesisgardenhose a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - Garden Hose" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisGardenHose_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesisgardenhose_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisGardenHoseAdapter a okh:Part ;
-    rdfs:label "3D non-printable files/FarmBot Genesis - Garden Hose Adapter" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisGardenHoseAdapter_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:3dNonprintableFilesfarmbotGenesisGardenHoseAdapter_source a okh:SourceFile ;
-    rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - Garden Hose Adapter of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-garden-hose-adapter.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3OTU=> .
-
-:3dNonprintableFilesfarmbotGenesisGardenHose_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesisgardenhose_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - Garden Hose of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-garden-hose.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3NjA=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-garden-hose.stl> .
 
-:3dNonprintableFilesfarmbotGenesisHorizontalCcSupportmachined a okh:Part ;
+:3dnonprintablefilesfarmbotgenesisgardenhoseadapter a okh:Part ;
+    rdfs:label "3D non-printable files/FarmBot Genesis - Garden Hose Adapter" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Juan Mazzuchelli" ;
+    okh:source :3dnonprintablefilesfarmbotgenesisgardenhoseadapter_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:3dnonprintablefilesfarmbotgenesisgardenhoseadapter_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - Garden Hose Adapter of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-garden-hose-adapter.stl> ;
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-garden-hose-adapter.stl> .
+
+:3dnonprintablefilesfarmbotgenesishorizontalccsupportmachined a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - Horizontal CC Support [Machined]" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisHorizontalCcSupportmachined_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesishorizontalccsupportmachined_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisHorizontalCcSupportmachined_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesishorizontalccsupportmachined_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - Horizontal CC Support [Machined] of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-horizontal-cc-support-machined.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3Mzc=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-horizontal-cc-support-machined.stl> .
 
-:3dNonprintableFilesfarmbotGenesisHorizontalMotorHousing a okh:Part ;
+:3dnonprintablefilesfarmbotgenesishorizontalmotorhousing a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - Horizontal Motor Housing" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisHorizontalMotorHousing_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesishorizontalmotorhousing_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisHorizontalMotorHousing_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesishorizontalmotorhousing_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - Horizontal Motor Housing of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-horizontal-motor-housing.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3ODU=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-horizontal-motor-housing.stl> .
 
-:3dNonprintableFilesfarmbotGenesisJumperLink a okh:Part ;
+:3dnonprintablefilesfarmbotgenesisjumperlink a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - Jumper Link" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisJumperLink_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesisjumperlink_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisJumperLink_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesisjumperlink_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - Jumper Link of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-jumper-link.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3Mzg=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-jumper-link.stl> .
 
-:3dNonprintableFilesfarmbotGenesisLeadscrew a okh:Part ;
+:3dnonprintablefilesfarmbotgenesisleadscrew a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - Leadscrew" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisLeadscrew_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesisleadscrew_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisLeadscrewBlock a okh:Part ;
-    rdfs:label "3D non-printable files/FarmBot Genesis - Leadscrew Block" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisLeadscrewBlock_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:3dNonprintableFilesfarmbotGenesisLeadscrewBlock_source a okh:SourceFile ;
-    rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - Leadscrew Block of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-leadscrew-block.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3Mzk=> .
-
-:3dNonprintableFilesfarmbotGenesisLeadscrew_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesisleadscrew_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - Leadscrew of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-leadscrew.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3OTY=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-leadscrew.stl> .
 
-:3dNonprintableFilesfarmbotGenesisLeftGantryCornerBracket a okh:Part ;
+:3dnonprintablefilesfarmbotgenesisleadscrewblock a okh:Part ;
+    rdfs:label "3D non-printable files/FarmBot Genesis - Leadscrew Block" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Juan Mazzuchelli" ;
+    okh:source :3dnonprintablefilesfarmbotgenesisleadscrewblock_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:3dnonprintablefilesfarmbotgenesisleadscrewblock_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - Leadscrew Block of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-leadscrew-block.stl> ;
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-leadscrew-block.stl> .
+
+:3dnonprintablefilesfarmbotgenesisleftgantrycornerbracket a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - Left Gantry Corner Bracket" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisLeftGantryCornerBracket_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesisleftgantrycornerbracket_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisLeftGantryCornerBracket_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesisleftgantrycornerbracket_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - Left Gantry Corner Bracket of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-left-gantry-corner-bracket.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3NDA=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-left-gantry-corner-bracket.stl> .
 
-:3dNonprintableFilesfarmbotGenesisLeverNut a okh:Part ;
+:3dnonprintablefilesfarmbotgenesislevernut a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - Lever Nut" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisLeverNut_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesislevernut_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisLeverNut_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesislevernut_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - Lever Nut of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-lever-nut.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MTA=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-lever-nut.stl> .
 
-:3dNonprintableFilesfarmbotGenesisLongBoard a okh:Part ;
+:3dnonprintablefilesfarmbotgenesislongboard a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - Long Board" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisLongBoard_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesislongboard_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisLongBoard_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesislongboard_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - Long Board of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-long-board.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MTE=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-long-board.stl> .
 
-:3dNonprintableFilesfarmbotGenesisLongCableCarrierSupportmachined a okh:Part ;
+:3dnonprintablefilesfarmbotgenesislongcablecarriersupportmachined a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - Long Cable Carrier Support [Machined]" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisLongCableCarrierSupportmachined_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesislongcablecarriersupportmachined_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisLongCableCarrierSupportmachined_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesislongcablecarriersupportmachined_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - Long Cable Carrier Support [Machined] of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-long-cable-carrier-support-machined.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4NDg=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-long-cable-carrier-support-machined.stl> .
 
-:3dNonprintableFilesfarmbotGenesisM25Screw4mm a okh:Part ;
+:3dnonprintablefilesfarmbotgenesism25screw4mm a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - M2.5 Screw 4mm" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisM25Screw4mm_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesism25screw4mm_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisM25Screw4mm_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesism25screw4mm_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - M2.5 Screw 4mm of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-m25-screw-4mm.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3NjE=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-m25-screw-4mm.stl> .
 
-:3dNonprintableFilesfarmbotGenesisM25Standoff16mm a okh:Part ;
+:3dnonprintablefilesfarmbotgenesism25standoff16mm a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - M2.5 Standoff 16mm" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisM25Standoff16mm_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesism25standoff16mm_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisM25Standoff16mm_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesism25standoff16mm_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - M2.5 Standoff 16mm of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-m25-standoff-16mm.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3NjM=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-m25-standoff-16mm.stl> .
 
-:3dNonprintableFilesfarmbotGenesisM25Standoff6mm a okh:Part ;
+:3dnonprintablefilesfarmbotgenesism25standoff6mm a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - M2.5 Standoff 6mm" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisM25Standoff6mm_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesism25standoff6mm_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisM25Standoff6mm_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesism25standoff6mm_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - M2.5 Standoff 6mm of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-m25-standoff-6mm.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3NjI=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-m25-standoff-6mm.stl> .
 
-:3dNonprintableFilesfarmbotGenesisM3Locknut a okh:Part ;
+:3dnonprintablefilesfarmbotgenesism3locknut a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - M3 Locknut" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisM3Locknut_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesism3locknut_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisM3Locknut_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesism3locknut_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - M3 Locknut of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-m3-locknut.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MTI=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-m3-locknut.stl> .
 
-:3dNonprintableFilesfarmbotGenesisM3Setscrew a okh:Part ;
+:3dnonprintablefilesfarmbotgenesism3setscrew a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - M3 Setscrew" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisM3Setscrew_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesism3setscrew_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisM3Setscrew_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesism3setscrew_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - M3 Setscrew of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-m3-setscrew.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3NjQ=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-m3-setscrew.stl> .
 
-:3dNonprintableFilesfarmbotGenesisM3Spring a okh:Part ;
+:3dnonprintablefilesfarmbotgenesism3spring a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - M3 Spring" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisM3Spring_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesism3spring_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisM3Spring_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesism3spring_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - M3 Spring of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-m3-spring.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3NDU=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-m3-spring.stl> .
 
-:3dNonprintableFilesfarmbotGenesisM3X10mmScrew a okh:Part ;
+:3dnonprintablefilesfarmbotgenesism3x10mmscrew a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - M3 x 10mm Screw" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisM3X10mmScrew_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesism3x10mmscrew_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisM3X10mmScrew_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesism3x10mmscrew_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - M3 x 10mm Screw of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-m3-x-10mm-screw.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3NjY=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-m3-x-10mm-screw.stl> .
 
-:3dNonprintableFilesfarmbotGenesisM3X12mmScrew a okh:Part ;
+:3dnonprintablefilesfarmbotgenesism3x12mmscrew a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - M3 x 12mm Screw" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisM3X12mmScrew_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesism3x12mmscrew_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisM3X12mmScrew_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesism3x12mmscrew_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - M3 x 12mm Screw of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-m3-x-12mm-screw.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3Njc=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-m3-x-12mm-screw.stl> .
 
-:3dNonprintableFilesfarmbotGenesisM3X25mmScrew a okh:Part ;
+:3dnonprintablefilesfarmbotgenesism3x25mmscrew a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - M3 x 25mm Screw" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisM3X25mmScrew_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesism3x25mmscrew_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisM3X25mmScrew_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesism3x25mmscrew_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - M3 x 25mm Screw of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-m3-x-25mm-screw.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3Njg=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-m3-x-25mm-screw.stl> .
 
-:3dNonprintableFilesfarmbotGenesisM3X30mmScrew a okh:Part ;
+:3dnonprintablefilesfarmbotgenesism3x30mmscrew a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - M3 x 30mm Screw" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisM3X30mmScrew_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesism3x30mmscrew_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisM3X30mmScrew_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesism3x30mmscrew_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - M3 x 30mm Screw of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-m3-x-30mm-screw.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3Njk=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-m3-x-30mm-screw.stl> .
 
-:3dNonprintableFilesfarmbotGenesisM3X5mmScrew a okh:Part ;
+:3dnonprintablefilesfarmbotgenesism3x5mmscrew a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - M3 x 5mm Screw" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisM3X5mmScrew_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesism3x5mmscrew_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisM3X5mmScrew_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesism3x5mmscrew_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - M3 x 5mm Screw of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-m3-x-5mm-screw.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3NjU=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-m3-x-5mm-screw.stl> .
 
-:3dNonprintableFilesfarmbotGenesisM4X16mmScrew a okh:Part ;
+:3dnonprintablefilesfarmbotgenesism4x16mmscrew a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - M4 x 16mm Screw" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisM4X16mmScrew_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesism4x16mmscrew_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisM4X16mmScrew_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesism4x16mmscrew_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - M4 x 16mm Screw of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-m4-x-16mm-screw.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3NDE=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-m4-x-16mm-screw.stl> .
 
-:3dNonprintableFilesfarmbotGenesisM5Locknut a okh:Part ;
+:3dnonprintablefilesfarmbotgenesism5locknut a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - M5 Locknut" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisM5Locknut_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesism5locknut_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisM5Locknut_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesism5locknut_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - M5 Locknut of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-m5-locknut.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MTM=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-m5-locknut.stl> .
 
-:3dNonprintableFilesfarmbotGenesisM5Shim a okh:Part ;
+:3dnonprintablefilesfarmbotgenesism5shim a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - M5 Shim" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisM5Shim_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesism5shim_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisM5Shim_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesism5shim_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - M5 Shim of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-m5-shim.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3NzA=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-m5-shim.stl> .
 
-:3dNonprintableFilesfarmbotGenesisM5Spacer a okh:Part ;
+:3dnonprintablefilesfarmbotgenesism5spacer a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - M5 Spacer" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisM5Spacer_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesism5spacer_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisM5Spacer_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesism5spacer_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - M5 Spacer of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-m5-spacer.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3NzE=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-m5-spacer.stl> .
 
-:3dNonprintableFilesfarmbotGenesisM5TeeNut a okh:Part ;
+:3dnonprintablefilesfarmbotgenesism5teenut a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - M5 Tee Nut" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisM5TeeNut_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesism5teenut_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisM5TeeNut_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesism5teenut_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - M5 Tee Nut of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-m5-tee-nut.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3NzI=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-m5-tee-nut.stl> .
 
-:3dNonprintableFilesfarmbotGenesisM5Washer a okh:Part ;
+:3dnonprintablefilesfarmbotgenesism5washer a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - M5 Washer" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisM5Washer_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesism5washer_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisM5Washer_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesism5washer_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - M5 Washer of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-m5-washer.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3NDY=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-m5-washer.stl> .
 
-:3dNonprintableFilesfarmbotGenesisM5X10mmScrew a okh:Part ;
+:3dnonprintablefilesfarmbotgenesism5x10mmscrew a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - M5 x 10mm Screw" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisM5X10mmScrew_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesism5x10mmscrew_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisM5X10mmScrew_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesism5x10mmscrew_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - M5 x 10mm Screw of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-m5-x-10mm-screw.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3NzM=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-m5-x-10mm-screw.stl> .
 
-:3dNonprintableFilesfarmbotGenesisM5X16mmScrew a okh:Part ;
+:3dnonprintablefilesfarmbotgenesism5x16mmscrew a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - M5 x 16mm Screw" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisM5X16mmScrew_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesism5x16mmscrew_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisM5X16mmScrew_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesism5x16mmscrew_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - M5 x 16mm Screw of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-m5-x-16mm-screw.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3NzQ=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-m5-x-16mm-screw.stl> .
 
-:3dNonprintableFilesfarmbotGenesisM5X30mmScrew a okh:Part ;
+:3dnonprintablefilesfarmbotgenesism5x30mmscrew a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - M5 x 30mm Screw" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisM5X30mmScrew_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesism5x30mmscrew_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisM5X30mmScrew_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesism5x30mmscrew_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - M5 x 30mm Screw of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-m5-x-30mm-screw.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3NzU=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-m5-x-30mm-screw.stl> .
 
-:3dNonprintableFilesfarmbotGenesisM5X45mmScrew a okh:Part ;
+:3dnonprintablefilesfarmbotgenesism5x45mmscrew a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - M5 x 45mm Screw" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisM5X45mmScrew_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesism5x45mmscrew_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisM5X45mmScrew_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesism5x45mmscrew_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - M5 x 45mm Screw of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-m5-x-45mm-screw.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3NzY=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-m5-x-45mm-screw.stl> .
 
-:3dNonprintableFilesfarmbotGenesisMicroSdCard a okh:Part ;
+:3dnonprintablefilesfarmbotgenesismicrosdcard a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - Micro SD card" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisMicroSdCard_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesismicrosdcard_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisMicroSdCard_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesismicrosdcard_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - Micro SD card of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-micro-sd-card.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MTQ=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-micro-sd-card.stl> .
 
-:3dNonprintableFilesfarmbotGenesisNema17StepperMotorWithRotaryEncoder a okh:Part ;
+:3dnonprintablefilesfarmbotgenesisnema17steppermotorwithrotaryencoder a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - NEMA 17 Stepper Motor with Rotary Encoder" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisNema17StepperMotorWithRotaryEncoder_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesisnema17steppermotorwithrotaryencoder_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisNema17StepperMotorWithRotaryEncoder_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesisnema17steppermotorwithrotaryencoder_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - NEMA 17 Stepper Motor with Rotary Encoder of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-nema-17-stepper-motor-with-rotary-encoder.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MTU=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-nema-17-stepper-motor-with-rotary-encoder.stl> .
 
-:3dNonprintableFilesfarmbotGenesisOring75mmIdModeledAs8mm a okh:Part ;
+:3dnonprintablefilesfarmbotgenesisoring75mmidmodeledas8mm a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - O-Ring (7.5mm ID, modeled as 8mm)" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisOring75mmIdModeledAs8mm_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesisoring75mmidmodeledas8mm_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisOring75mmIdModeledAs8mm_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesisoring75mmidmodeledas8mm_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - O-Ring (7.5mm ID, modeled as 8mm) of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-o-ring-75mm-id-modeled-as-8mm.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3NDI=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-o-ring-75mm-id-modeled-as-8mm.stl> .
 
-:3dNonprintableFilesfarmbotGenesisPowerSupply a okh:Part ;
+:3dnonprintablefilesfarmbotgenesispowersupply a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - Power Supply" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisPowerSupply_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesispowersupply_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisPowerSupply_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesispowersupply_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - Power Supply of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-power-supply.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MTY=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-power-supply.stl> .
 
-:3dNonprintableFilesfarmbotGenesisPressureRegulator a okh:Part ;
+:3dnonprintablefilesfarmbotgenesispressureregulator a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - Pressure Regulator" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisPressureRegulator_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesispressureregulator_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisPressureRegulator_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesispressureregulator_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - Pressure Regulator of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-pressure-regulator.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3Nzc=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-pressure-regulator.stl> .
 
-:3dNonprintableFilesfarmbotGenesisRamps14Board a okh:Part ;
+:3dnonprintablefilesfarmbotgenesisramps14board a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - RAMPS 1.4 Board" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisRamps14Board_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesisramps14board_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisRamps14Board_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesisramps14board_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - RAMPS 1.4 Board of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-ramps-14-board.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3Nzg=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-ramps-14-board.stl> .
 
-:3dNonprintableFilesfarmbotGenesisRampsBuck a okh:Part ;
-    rdfs:label "3D non-printable files/FarmBot Genesis - RAMPS Buck +",
-        "3D non-printable files/FarmBot Genesis - RAMPS Buck -" ;
+:3dnonprintablefilesfarmbotgenesisrampsbuck a okh:Part ;
+    rdfs:label "3D non-printable files/FarmBot Genesis - RAMPS Buck +" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisRampsBuck_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesisrampsbuck_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisRampsBuck_source a okh:SourceFile ;
-    rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - RAMPS Buck + of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb",
-        "Source File of 3D non-printable files/FarmBot Genesis - RAMPS Buck - of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-ramps-buck-0.stl>,
-        <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-ramps-buck.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MTc=>,
-        <https://wikifactory.com/files/RmlsZTo4MTg=> .
+:3dnonprintablefilesfarmbotgenesisrampsbuck1 a okh:Part ;
+    rdfs:label "3D non-printable files/FarmBot Genesis - RAMPS Buck -" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Juan Mazzuchelli" ;
+    okh:source :3dnonprintablefilesfarmbotgenesisrampsbuck1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisRampsDcPowerPlug a okh:Part ;
+:3dnonprintablefilesfarmbotgenesisrampsbuck1_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - RAMPS Buck - of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-ramps-buck.stl> ;
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-ramps-buck.stl> .
+
+:3dnonprintablefilesfarmbotgenesisrampsbuck_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - RAMPS Buck + of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-ramps-buck-0.stl> ;
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-ramps-buck-0.stl> .
+
+:3dnonprintablefilesfarmbotgenesisrampsdcpowerplug a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - RAMPS DC power plug" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisRampsDcPowerPlug_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesisrampsdcpowerplug_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisRampsDcPowerPlug_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesisrampsdcpowerplug_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - RAMPS DC power plug of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-ramps-dc-power-plug.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MTk=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-ramps-dc-power-plug.stl> .
 
-:3dNonprintableFilesfarmbotGenesisRampsPowerFromLeverNut a okh:Part ;
-    rdfs:label "3D non-printable files/FarmBot Genesis - RAMPS power from lever nut  +",
-        "3D non-printable files/FarmBot Genesis - RAMPS power from lever nut -" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisRampsPowerFromLeverNut_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:3dNonprintableFilesfarmbotGenesisRampsPowerFromLeverNut_source a okh:SourceFile ;
-    rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - RAMPS power from lever nut  + of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb",
-        "Source File of 3D non-printable files/FarmBot Genesis - RAMPS power from lever nut - of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-ramps-power-from-lever-nut-0.stl>,
-        <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-ramps-power-from-lever-nut.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MjE=>,
-        <https://wikifactory.com/files/RmlsZTo4MjI=> .
-
-:3dNonprintableFilesfarmbotGenesisRampsPowerInaux a okh:Part ;
-    rdfs:label "3D non-printable files/FarmBot Genesis - RAMPS power in (aux) -" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisRampsPowerInaux_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:3dNonprintableFilesfarmbotGenesisRampsPowerInaux_source a okh:SourceFile ;
-    rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - RAMPS power in (aux) - of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-ramps-power-in-aux.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MjM=> .
-
-:3dNonprintableFilesfarmbotGenesisRampsPowerToLeverNut a okh:Part ;
-    rdfs:label "3D non-printable files/FarmBot Genesis - RAMPS power to lever nut  -",
-        "3D non-printable files/FarmBot Genesis - RAMPS power to lever nut +" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisRampsPowerToLeverNut_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:3dNonprintableFilesfarmbotGenesisRampsPowerToLeverNut_source a okh:SourceFile ;
-    rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - RAMPS power to lever nut  - of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb",
-        "Source File of 3D non-printable files/FarmBot Genesis - RAMPS power to lever nut + of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-ramps-power-to-lever-nut-0.stl>,
-        <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-ramps-power-to-lever-nut.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MjQ=>,
-        <https://wikifactory.com/files/RmlsZTo4MjU=> .
-
-:3dNonprintableFilesfarmbotGenesisRampsPoweraux a okh:Part ;
+:3dnonprintablefilesfarmbotgenesisrampspoweraux a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - RAMPS power (aux) +" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisRampsPoweraux_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesisrampspoweraux_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisRampsPoweraux_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesisrampspoweraux_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - RAMPS power (aux) + of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-ramps-power-aux.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MjA=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-ramps-power-aux.stl> .
 
-:3dNonprintableFilesfarmbotGenesisRampsVacuumPump a okh:Part ;
-    rdfs:label "3D non-printable files/FarmBot Genesis - RAMPS Vacuum Pump +",
-        "3D non-printable files/FarmBot Genesis - RAMPS Vacuum Pump -" ;
+:3dnonprintablefilesfarmbotgenesisrampspowerfromlevernut a okh:Part ;
+    rdfs:label "3D non-printable files/FarmBot Genesis - RAMPS power from lever nut  +" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisRampsVacuumPump_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesisrampspowerfromlevernut_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisRampsVacuumPump_source a okh:SourceFile ;
-    rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - RAMPS Vacuum Pump + of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb",
-        "Source File of 3D non-printable files/FarmBot Genesis - RAMPS Vacuum Pump - of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-ramps-vacuum-pump-0.stl>,
-        <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-ramps-vacuum-pump.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MjY=>,
-        <https://wikifactory.com/files/RmlsZTo4Mjc=> .
-
-:3dNonprintableFilesfarmbotGenesisRampsWaterValve a okh:Part ;
-    rdfs:label "3D non-printable files/FarmBot Genesis - RAMPS Water Valve +",
-        "3D non-printable files/FarmBot Genesis - RAMPS Water Valve -" ;
+:3dnonprintablefilesfarmbotgenesisrampspowerfromlevernut1 a okh:Part ;
+    rdfs:label "3D non-printable files/FarmBot Genesis - RAMPS power from lever nut -" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisRampsWaterValve_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesisrampspowerfromlevernut1_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisRampsWaterValve_source a okh:SourceFile ;
-    rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - RAMPS Water Valve + of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb",
-        "Source File of 3D non-printable files/FarmBot Genesis - RAMPS Water Valve - of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
+:3dnonprintablefilesfarmbotgenesisrampspowerfromlevernut1_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - RAMPS power from lever nut - of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-ramps-water-valve-0.stl>,
-        <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-ramps-water-valve.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4Mjg=>,
-        <https://wikifactory.com/files/RmlsZTo4Mjk=> .
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-ramps-power-from-lever-nut-0.stl> ;
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-ramps-power-from-lever-nut-0.stl> .
 
-:3dNonprintableFilesfarmbotGenesisRaspberryPi3 a okh:Part ;
+:3dnonprintablefilesfarmbotgenesisrampspowerfromlevernut_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - RAMPS power from lever nut  + of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-ramps-power-from-lever-nut.stl> ;
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-ramps-power-from-lever-nut.stl> .
+
+:3dnonprintablefilesfarmbotgenesisrampspowerinaux a okh:Part ;
+    rdfs:label "3D non-printable files/FarmBot Genesis - RAMPS power in (aux) -" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Juan Mazzuchelli" ;
+    okh:source :3dnonprintablefilesfarmbotgenesisrampspowerinaux_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:3dnonprintablefilesfarmbotgenesisrampspowerinaux_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - RAMPS power in (aux) - of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-ramps-power-in-aux.stl> ;
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-ramps-power-in-aux.stl> .
+
+:3dnonprintablefilesfarmbotgenesisrampspowertolevernut a okh:Part ;
+    rdfs:label "3D non-printable files/FarmBot Genesis - RAMPS power to lever nut  -" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Juan Mazzuchelli" ;
+    okh:source :3dnonprintablefilesfarmbotgenesisrampspowertolevernut_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:3dnonprintablefilesfarmbotgenesisrampspowertolevernut1 a okh:Part ;
+    rdfs:label "3D non-printable files/FarmBot Genesis - RAMPS power to lever nut +" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Juan Mazzuchelli" ;
+    okh:source :3dnonprintablefilesfarmbotgenesisrampspowertolevernut1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:3dnonprintablefilesfarmbotgenesisrampspowertolevernut1_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - RAMPS power to lever nut + of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-ramps-power-to-lever-nut-0.stl> ;
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-ramps-power-to-lever-nut-0.stl> .
+
+:3dnonprintablefilesfarmbotgenesisrampspowertolevernut_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - RAMPS power to lever nut  - of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-ramps-power-to-lever-nut.stl> ;
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-ramps-power-to-lever-nut.stl> .
+
+:3dnonprintablefilesfarmbotgenesisrampsvacuumpump a okh:Part ;
+    rdfs:label "3D non-printable files/FarmBot Genesis - RAMPS Vacuum Pump +" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Juan Mazzuchelli" ;
+    okh:source :3dnonprintablefilesfarmbotgenesisrampsvacuumpump_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:3dnonprintablefilesfarmbotgenesisrampsvacuumpump1 a okh:Part ;
+    rdfs:label "3D non-printable files/FarmBot Genesis - RAMPS Vacuum Pump -" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Juan Mazzuchelli" ;
+    okh:source :3dnonprintablefilesfarmbotgenesisrampsvacuumpump1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:3dnonprintablefilesfarmbotgenesisrampsvacuumpump1_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - RAMPS Vacuum Pump - of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-ramps-vacuum-pump.stl> ;
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-ramps-vacuum-pump.stl> .
+
+:3dnonprintablefilesfarmbotgenesisrampsvacuumpump_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - RAMPS Vacuum Pump + of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-ramps-vacuum-pump-0.stl> ;
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-ramps-vacuum-pump-0.stl> .
+
+:3dnonprintablefilesfarmbotgenesisrampswatervalve a okh:Part ;
+    rdfs:label "3D non-printable files/FarmBot Genesis - RAMPS Water Valve +" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Juan Mazzuchelli" ;
+    okh:source :3dnonprintablefilesfarmbotgenesisrampswatervalve_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:3dnonprintablefilesfarmbotgenesisrampswatervalve1 a okh:Part ;
+    rdfs:label "3D non-printable files/FarmBot Genesis - RAMPS Water Valve -" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Juan Mazzuchelli" ;
+    okh:source :3dnonprintablefilesfarmbotgenesisrampswatervalve1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:3dnonprintablefilesfarmbotgenesisrampswatervalve1_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - RAMPS Water Valve - of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-ramps-water-valve.stl> ;
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-ramps-water-valve.stl> .
+
+:3dnonprintablefilesfarmbotgenesisrampswatervalve_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - RAMPS Water Valve + of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-ramps-water-valve-0.stl> ;
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-ramps-water-valve-0.stl> .
+
+:3dnonprintablefilesfarmbotgenesisraspberrypi3 a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - Raspberry Pi 3" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisRaspberryPi3_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesisraspberrypi3_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisRaspberryPi3_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesisraspberrypi3_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - Raspberry Pi 3 of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-raspberry-pi-3.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3NDM=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-raspberry-pi-3.stl> .
 
-:3dNonprintableFilesfarmbotGenesisRightGantryCornerBracket a okh:Part ;
+:3dnonprintablefilesfarmbotgenesisrightgantrycornerbracket a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - Right Gantry Corner Bracket" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisRightGantryCornerBracket_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesisrightgantrycornerbracket_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisRightGantryCornerBracket_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesisrightgantrycornerbracket_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - Right Gantry Corner Bracket of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-right-gantry-corner-bracket.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3NDQ=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-right-gantry-corner-bracket.stl> .
 
-:3dNonprintableFilesfarmbotGenesisRingMagnet a okh:Part ;
+:3dnonprintablefilesfarmbotgenesisringmagnet a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - Ring Magnet" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisRingMagnet_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesisringmagnet_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisRingMagnet_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesisringmagnet_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - Ring Magnet of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-ring-magnet.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MzA=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-ring-magnet.stl> .
 
-:3dNonprintableFilesfarmbotGenesisSeeder a okh:Part ;
+:3dnonprintablefilesfarmbotgenesisseeder a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - Seeder" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisSeeder_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesisseeder_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisSeeder_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesisseeder_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - Seeder of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-seeder.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3OTc=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-seeder.stl> .
 
-:3dNonprintableFilesfarmbotGenesisSoil a okh:Part ;
+:3dnonprintablefilesfarmbotgenesissoil a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - Soil" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisSoil_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesissoil_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisSoilSensor a okh:Part ;
-    rdfs:label "3D non-printable files/FarmBot Genesis - Soil Sensor" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisSoilSensor_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:3dNonprintableFilesfarmbotGenesisSoilSensorColor a okh:Part ;
-    rdfs:label "3D non-printable files/FarmBot Genesis - Soil Sensor Color" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisSoilSensorColor_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:3dNonprintableFilesfarmbotGenesisSoilSensorColor_source a okh:SourceFile ;
-    rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - Soil Sensor Color of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-soil-sensor-color.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4NDk=> .
-
-:3dNonprintableFilesfarmbotGenesisSoilSensorPcb a okh:Part ;
-    rdfs:label "3D non-printable files/FarmBot Genesis - Soil Sensor PCB" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisSoilSensorPcb_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:3dNonprintableFilesfarmbotGenesisSoilSensorPcb_source a okh:SourceFile ;
-    rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - Soil Sensor PCB of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-soil-sensor-pcb.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4NTA=> .
-
-:3dNonprintableFilesfarmbotGenesisSoilSensor_source a okh:SourceFile ;
-    rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - Soil Sensor of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-soil-sensor.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3Nzk=> .
-
-:3dNonprintableFilesfarmbotGenesisSoil_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesissoil_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - Soil of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-soil.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MzE=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-soil.stl> .
 
-:3dNonprintableFilesfarmbotGenesisSolenoidValve a okh:Part ;
+:3dnonprintablefilesfarmbotgenesissoilsensor a okh:Part ;
+    rdfs:label "3D non-printable files/FarmBot Genesis - Soil Sensor" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Juan Mazzuchelli" ;
+    okh:source :3dnonprintablefilesfarmbotgenesissoilsensor_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:3dnonprintablefilesfarmbotgenesissoilsensor_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - Soil Sensor of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-soil-sensor.stl> ;
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-soil-sensor.stl> .
+
+:3dnonprintablefilesfarmbotgenesissoilsensorcolor a okh:Part ;
+    rdfs:label "3D non-printable files/FarmBot Genesis - Soil Sensor Color" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Juan Mazzuchelli" ;
+    okh:source :3dnonprintablefilesfarmbotgenesissoilsensorcolor_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:3dnonprintablefilesfarmbotgenesissoilsensorcolor_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - Soil Sensor Color of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-soil-sensor-color.stl> ;
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-soil-sensor-color.stl> .
+
+:3dnonprintablefilesfarmbotgenesissoilsensorpcb a okh:Part ;
+    rdfs:label "3D non-printable files/FarmBot Genesis - Soil Sensor PCB" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Juan Mazzuchelli" ;
+    okh:source :3dnonprintablefilesfarmbotgenesissoilsensorpcb_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:3dnonprintablefilesfarmbotgenesissoilsensorpcb_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - Soil Sensor PCB of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-soil-sensor-pcb.stl> ;
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-soil-sensor-pcb.stl> .
+
+:3dnonprintablefilesfarmbotgenesissolenoidvalve a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - Solenoid Valve" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisSolenoidValve_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesissolenoidvalve_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisSolenoidValve_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesissolenoidvalve_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - Solenoid Valve of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-solenoid-valve.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3ODY=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-solenoid-valve.stl> .
 
-:3dNonprintableFilesfarmbotGenesisSsLuerLockNeedle18Gauge a okh:Part ;
+:3dnonprintablefilesfarmbotgenesisssluerlockneedle18gauge a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - SS Luer Lock Needle (18 Gauge)" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisSsLuerLockNeedle18Gauge_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesisssluerlockneedle18gauge_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisSsLuerLockNeedle18Gauge_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesisssluerlockneedle18gauge_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - SS Luer Lock Needle (18 Gauge) of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-ss-luer-lock-needle-18-gauge.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MzI=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-ss-luer-lock-needle-18-gauge.stl> .
 
-:3dNonprintableFilesfarmbotGenesisStepperDriver a okh:Part ;
+:3dnonprintablefilesfarmbotgenesisstepperdriver a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - Stepper Driver" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisStepperDriver_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesisstepperdriver_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisStepperDriver_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesisstepperdriver_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - Stepper Driver of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-stepper-driver.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MzM=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-stepper-driver.stl> .
 
-:3dNonprintableFilesfarmbotGenesisStepperWires a okh:Part ;
+:3dnonprintablefilesfarmbotgenesisstepperwires a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - Stepper wires" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisStepperWires_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesisstepperwires_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisStepperWires_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesisstepperwires_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - Stepper wires of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-stepper-wires.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3OTg=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-stepper-wires.stl> .
 
-:3dNonprintableFilesfarmbotGenesisToolBay a okh:Part ;
+:3dnonprintablefilesfarmbotgenesistoolbay a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - Tool Bay" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisToolBay_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesistoolbay_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisToolBay_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesistoolbay_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - Tool Bay of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-tool-bay.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3ODA=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-tool-bay.stl> .
 
-:3dNonprintableFilesfarmbotGenesisTrackEndPlate a okh:Part ;
+:3dnonprintablefilesfarmbotgenesistrackendplate a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - Track End Plate" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisTrackEndPlate_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesistrackendplate_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisTrackEndPlate_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesistrackendplate_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - Track End Plate of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-track-end-plate.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MzQ=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-track-end-plate.stl> .
 
-:3dNonprintableFilesfarmbotGenesisTrackJoiningPlate a okh:Part ;
+:3dnonprintablefilesfarmbotgenesistrackjoiningplate a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - Track Joining Plate" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisTrackJoiningPlate_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesistrackjoiningplate_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisTrackJoiningPlate_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesistrackjoiningplate_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - Track Joining Plate of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-track-joining-plate.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MzU=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-track-joining-plate.stl> .
 
-:3dNonprintableFilesfarmbotGenesisUniversalToolMount a okh:Part ;
+:3dnonprintablefilesfarmbotgenesisuniversaltoolmount a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - Universal Tool Mount" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisUniversalToolMount_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesisuniversaltoolmount_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisUniversalToolMount_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesisuniversaltoolmount_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - Universal Tool Mount of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-universal-tool-mount.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3OTI=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-universal-tool-mount.stl> .
 
-:3dNonprintableFilesfarmbotGenesisUsbAbCord a okh:Part ;
+:3dnonprintablefilesfarmbotgenesisusbabcord a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - USB A-B Cord" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisUsbAbCord_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesisusbabcord_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisUsbAbCord_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesisusbabcord_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - USB A-B Cord of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-usb-a-b-cord.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3ODc=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-usb-a-b-cord.stl> .
 
-:3dNonprintableFilesfarmbotGenesisUtmCable a okh:Part ;
+:3dnonprintablefilesfarmbotgenesisutmcable a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - UTM Cable" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisUtmCable_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesisutmcable_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisUtmCable_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesisutmcable_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - UTM Cable of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-utm-cable.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4MzY=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-utm-cable.stl> .
 
-:3dNonprintableFilesfarmbotGenesisUtmCover a okh:Part ;
+:3dnonprintablefilesfarmbotgenesisutmcover a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - UTM Cover" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisUtmCover_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesisutmcover_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisUtmCoverPlug a okh:Part ;
-    rdfs:label "3D non-printable files/FarmBot Genesis - UTM Cover Plug" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisUtmCoverPlug_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:3dNonprintableFilesfarmbotGenesisUtmCoverPlug_source a okh:SourceFile ;
-    rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - UTM Cover Plug of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-utm-cover-plug.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3OTM=> .
-
-:3dNonprintableFilesfarmbotGenesisUtmCover_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesisutmcover_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - UTM Cover of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-utm-cover.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3NDc=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-utm-cover.stl> .
 
-:3dNonprintableFilesfarmbotGenesisVacuumPump a okh:Part ;
+:3dnonprintablefilesfarmbotgenesisutmcoverplug a okh:Part ;
+    rdfs:label "3D non-printable files/FarmBot Genesis - UTM Cover Plug" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Juan Mazzuchelli" ;
+    okh:source :3dnonprintablefilesfarmbotgenesisutmcoverplug_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:3dnonprintablefilesfarmbotgenesisutmcoverplug_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - UTM Cover Plug of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-utm-cover-plug.stl> ;
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-utm-cover-plug.stl> .
+
+:3dnonprintablefilesfarmbotgenesisvacuumpump a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - Vacuum Pump" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisVacuumPump_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesisvacuumpump_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisVacuumPump_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesisvacuumpump_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - Vacuum Pump of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-vacuum-pump.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3ODg=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-vacuum-pump.stl> .
 
-:3dNonprintableFilesfarmbotGenesisVerticalCcSupport a okh:Part ;
+:3dnonprintablefilesfarmbotgenesisverticalccsupport a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - Vertical CC Support" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisVerticalCcSupport_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesisverticalccsupport_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisVerticalCcSupport_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesisverticalccsupport_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - Vertical CC Support of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-vertical-cc-support.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4Mzc=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-vertical-cc-support.stl> .
 
-:3dNonprintableFilesfarmbotGenesisVwheel a okh:Part ;
+:3dnonprintablefilesfarmbotgenesisvwheel a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - V-Wheel" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisVwheel_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesisvwheel_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisVwheel_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesisvwheel_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - V-Wheel of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-v-wheel.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4NTE=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-v-wheel.stl> .
 
-:3dNonprintableFilesfarmbotGenesisWallPowerCord a okh:Part ;
+:3dnonprintablefilesfarmbotgenesiswallpowercord a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - Wall Power Cord" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisWallPowerCord_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesiswallpowercord_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisWallPowerCord_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesiswallpowercord_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - Wall Power Cord of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-wall-power-cord.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3ODk=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-wall-power-cord.stl> .
 
-:3dNonprintableFilesfarmbotGenesisWateringNozzlebottom a okh:Part ;
+:3dnonprintablefilesfarmbotgenesiswateringnozzlebottom a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - Watering Nozzle [bottom]" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisWateringNozzlebottom_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesiswateringnozzlebottom_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisWateringNozzlebottom_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesiswateringnozzlebottom_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - Watering Nozzle [bottom] of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-watering-nozzle-bottom.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4Mzg=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-watering-nozzle-bottom.stl> .
 
-:3dNonprintableFilesfarmbotGenesisWateringNozzletop a okh:Part ;
+:3dnonprintablefilesfarmbotgenesiswateringnozzletop a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - Watering Nozzle [top]" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisWateringNozzletop_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesiswateringnozzletop_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisWateringNozzletop_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesiswateringnozzletop_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - Watering Nozzle [top] of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-watering-nozzle-top.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4NTI=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-watering-nozzle-top.stl> .
 
-:3dNonprintableFilesfarmbotGenesisWeeder a okh:Part ;
+:3dnonprintablefilesfarmbotgenesisweeder a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - Weeder" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisWeeder_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesisweeder_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisWeederBlade a okh:Part ;
-    rdfs:label "3D non-printable files/FarmBot Genesis - Weeder Blade" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisWeederBlade_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:3dNonprintableFilesfarmbotGenesisWeederBlade_source a okh:SourceFile ;
-    rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - Weeder Blade of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-weeder-blade.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4Mzk=> .
-
-:3dNonprintableFilesfarmbotGenesisWeederSpike a okh:Part ;
-    rdfs:label "3D non-printable files/FarmBot Genesis - Weeder Spike" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisWeederSpike_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:3dNonprintableFilesfarmbotGenesisWeederSpike_source a okh:SourceFile ;
-    rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - Weeder Spike of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-weeder-spike.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4NDA=> .
-
-:3dNonprintableFilesfarmbotGenesisWeeder_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesisweeder_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - Weeder of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-weeder.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4NDE=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-weeder.stl> .
 
-:3dNonprintableFilesfarmbotGenesisXaxisMotorCableLong a okh:Part ;
+:3dnonprintablefilesfarmbotgenesisweederblade a okh:Part ;
+    rdfs:label "3D non-printable files/FarmBot Genesis - Weeder Blade" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Juan Mazzuchelli" ;
+    okh:source :3dnonprintablefilesfarmbotgenesisweederblade_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:3dnonprintablefilesfarmbotgenesisweederblade_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - Weeder Blade of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-weeder-blade.stl> ;
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-weeder-blade.stl> .
+
+:3dnonprintablefilesfarmbotgenesisweederspike a okh:Part ;
+    rdfs:label "3D non-printable files/FarmBot Genesis - Weeder Spike" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Juan Mazzuchelli" ;
+    okh:source :3dnonprintablefilesfarmbotgenesisweederspike_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:3dnonprintablefilesfarmbotgenesisweederspike_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - Weeder Spike of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-weeder-spike.stl> ;
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-weeder-spike.stl> .
+
+:3dnonprintablefilesfarmbotgenesisxaxismotorcablelong a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - X-Axis Motor Cable, Long" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisXaxisMotorCableLong_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesisxaxismotorcablelong_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisXaxisMotorCableLong_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesisxaxismotorcablelong_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - X-Axis Motor Cable, Long of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-x-axis-motor-cable-long.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3NDg=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-x-axis-motor-cable-long.stl> .
 
-:3dNonprintableFilesfarmbotGenesisXaxisMotorCableShort a okh:Part ;
+:3dnonprintablefilesfarmbotgenesisxaxismotorcableshort a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - X-Axis Motor Cable, Short" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisXaxisMotorCableShort_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesisxaxismotorcableshort_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisXaxisMotorCableShort_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesisxaxismotorcableshort_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - X-Axis Motor Cable, Short of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-x-axis-motor-cable-short.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3NDk=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-x-axis-motor-cable-short.stl> .
 
-:3dNonprintableFilesfarmbotGenesisYaxisMotorCable a okh:Part ;
+:3dnonprintablefilesfarmbotgenesisyaxismotorcable a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - Y-Axis Motor Cable" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisYaxisMotorCable_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesisyaxismotorcable_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisYaxisMotorCable_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesisyaxismotorcable_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - Y-Axis Motor Cable of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-y-axis-motor-cable.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3NTA=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-y-axis-motor-cable.stl> .
 
-:3dNonprintableFilesfarmbotGenesisZaxisMotorCable a okh:Part ;
+:3dnonprintablefilesfarmbotgenesiszaxismotorcable a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - Z-Axis Motor Cable" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisZaxisMotorCable_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesiszaxismotorcable_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisZaxisMotorCable_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesiszaxismotorcable_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - Z-Axis Motor Cable of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-z-axis-motor-cable.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3NTE=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-z-axis-motor-cable.stl> .
 
-:3dNonprintableFilesfarmbotGenesisZaxisMotorMountmachinedMetal a okh:Part ;
+:3dnonprintablefilesfarmbotgenesiszaxismotormountmachinedmetal a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - Z-Axis Motor Mount [Machined Metal]" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisZaxisMotorMountmachinedMetal_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesiszaxismotormountmachinedmetal_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisZaxisMotorMountmachinedMetal_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesiszaxismotormountmachinedmetal_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - Z-Axis Motor Mount [Machined Metal] of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-z-axis-motor-mount-machined-metal.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3ODE=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-z-axis-motor-mount-machined-metal.stl> .
 
-:3dNonprintableFilesfarmbotGenesisZipTie a okh:Part ;
+:3dnonprintablefilesfarmbotgenesisziptie a okh:Part ;
     rdfs:label "3D non-printable files/FarmBot Genesis - Zip Tie" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dNonprintableFilesfarmbotGenesisZipTie_source ;
+    okh:source :3dnonprintablefilesfarmbotgenesisziptie_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dNonprintableFilesfarmbotGenesisZipTie_source a okh:SourceFile ;
+:3dnonprintablefilesfarmbotgenesisziptie_source a okh:SourceFile ;
     rdfs:label "Source File of 3D non-printable files/FarmBot Genesis - Zip Tie of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-zip-tie.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4NTM=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbot-genesis-zip-tie.stl> .
 
-:3dPrintableFilesallPlastic3dPrintPartsforStlExportCableGuide3dPrint a okh:Part ;
+:3dprintablefilesallplastic3dprintpartsforstlexportcableguide3dprint a okh:Part ;
     rdfs:label "3D printable files/All Plastic 3D Print Parts (for STL export) - Cable Guide [3D Print]" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dPrintableFilesallPlastic3dPrintPartsforStlExportCableGuide3dPrint_source ;
+    okh:source :3dprintablefilesallplastic3dprintpartsforstlexportcableguide3dprint_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dPrintableFilesallPlastic3dPrintPartsforStlExportCableGuide3dPrint_source a okh:SourceFile ;
+:3dprintablefilesallplastic3dprintpartsforstlexportcableguide3dprint_source a okh:SourceFile ;
     rdfs:label "Source File of 3D printable files/All Plastic 3D Print Parts (for STL export) - Cable Guide [3D Print] of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/all-plastic-3d-print-parts-for-stl-export-cable-guide-3d-print.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2OTE=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/all-plastic-3d-print-parts-for-stl-export-cable-guide-3d-print.stl> .
 
-:3dPrintableFilesallPlastic3dPrintPartsforStlExportHorizontalCcSupportmachined a okh:Part ;
+:3dprintablefilesallplastic3dprintpartsforstlexporthorizontalccsupportmachined a okh:Part ;
     rdfs:label "3D printable files/All Plastic 3D Print Parts (for STL export) - Horizontal CC Support [Machined]" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dPrintableFilesallPlastic3dPrintPartsforStlExportHorizontalCcSupportmachined_source ;
+    okh:source :3dprintablefilesallplastic3dprintpartsforstlexporthorizontalccsupportmachined_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dPrintableFilesallPlastic3dPrintPartsforStlExportHorizontalCcSupportmachined_source a okh:SourceFile ;
+:3dprintablefilesallplastic3dprintpartsforstlexporthorizontalccsupportmachined_source a okh:SourceFile ;
     rdfs:label "Source File of 3D printable files/All Plastic 3D Print Parts (for STL export) - Horizontal CC Support [Machined] of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/all-plastic-3d-print-parts-for-stl-export-horizontal-cc-support-machined.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2OTI=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/all-plastic-3d-print-parts-for-stl-export-horizontal-cc-support-machined.stl> .
 
-:3dPrintableFilesallPlastic3dPrintPartsforStlExportHorizontalMotorHousing3dPrint a okh:Part ;
+:3dprintablefilesallplastic3dprintpartsforstlexporthorizontalmotorhousing3dprint a okh:Part ;
     rdfs:label "3D printable files/All Plastic 3D Print Parts (for STL export) - Horizontal Motor Housing [3D Print]" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dPrintableFilesallPlastic3dPrintPartsforStlExportHorizontalMotorHousing3dPrint_source ;
+    okh:source :3dprintablefilesallplastic3dprintpartsforstlexporthorizontalmotorhousing3dprint_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dPrintableFilesallPlastic3dPrintPartsforStlExportHorizontalMotorHousing3dPrint_source a okh:SourceFile ;
+:3dprintablefilesallplastic3dprintpartsforstlexporthorizontalmotorhousing3dprint_source a okh:SourceFile ;
     rdfs:label "Source File of 3D printable files/All Plastic 3D Print Parts (for STL export) - Horizontal Motor Housing [3D Print] of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/all-plastic-3d-print-parts-for-stl-export-horizontal-motor-housing-3d-print.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2OTM=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/all-plastic-3d-print-parts-for-stl-export-horizontal-motor-housing-3d-print.stl> .
 
-:3dPrintableFilesallPlastic3dPrintPartsforStlExportLongCableCarrierSupport3dPrint a okh:Part ;
+:3dprintablefilesallplastic3dprintpartsforstlexportlongcablecarriersupport3dprint a okh:Part ;
     rdfs:label "3D printable files/All Plastic 3D Print Parts (for STL export) - Long Cable Carrier Support [3D Print]" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dPrintableFilesallPlastic3dPrintPartsforStlExportLongCableCarrierSupport3dPrint_source ;
+    okh:source :3dprintablefilesallplastic3dprintpartsforstlexportlongcablecarriersupport3dprint_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dPrintableFilesallPlastic3dPrintPartsforStlExportLongCableCarrierSupport3dPrint_source a okh:SourceFile ;
+:3dprintablefilesallplastic3dprintpartsforstlexportlongcablecarriersupport3dprint_source a okh:SourceFile ;
     rdfs:label "Source File of 3D printable files/All Plastic 3D Print Parts (for STL export) - Long Cable Carrier Support [3D Print] of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/all-plastic-3d-print-parts-for-stl-export-long-cable-carrier-support-3d-print.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2OTQ=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/all-plastic-3d-print-parts-for-stl-export-long-cable-carrier-support-3d-print.stl> .
 
-:3dPrintableFilesallPlastic3dPrintPartsforStlExportSeedBin a okh:Part ;
+:3dprintablefilesallplastic3dprintpartsforstlexportseedbin a okh:Part ;
     rdfs:label "3D printable files/All Plastic 3D Print Parts (for STL export) - Seed Bin" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dPrintableFilesallPlastic3dPrintPartsforStlExportSeedBin_source ;
+    okh:source :3dprintablefilesallplastic3dprintpartsforstlexportseedbin_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dPrintableFilesallPlastic3dPrintPartsforStlExportSeedBin_source a okh:SourceFile ;
+:3dprintablefilesallplastic3dprintpartsforstlexportseedbin_source a okh:SourceFile ;
     rdfs:label "Source File of 3D printable files/All Plastic 3D Print Parts (for STL export) - Seed Bin of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/all-plastic-3d-print-parts-for-stl-export-seed-bin.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2OTU=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/all-plastic-3d-print-parts-for-stl-export-seed-bin.stl> .
 
-:3dPrintableFilesallPlastic3dPrintPartsforStlExportSeedTray a okh:Part ;
+:3dprintablefilesallplastic3dprintpartsforstlexportseedtray a okh:Part ;
     rdfs:label "3D printable files/All Plastic 3D Print Parts (for STL export) - Seed Tray" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dPrintableFilesallPlastic3dPrintPartsforStlExportSeedTray_source ;
+    okh:source :3dprintablefilesallplastic3dprintpartsforstlexportseedtray_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dPrintableFilesallPlastic3dPrintPartsforStlExportSeedTray_source a okh:SourceFile ;
+:3dprintablefilesallplastic3dprintpartsforstlexportseedtray_source a okh:SourceFile ;
     rdfs:label "Source File of 3D printable files/All Plastic 3D Print Parts (for STL export) - Seed Tray of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/all-plastic-3d-print-parts-for-stl-export-seed-tray.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2OTY=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/all-plastic-3d-print-parts-for-stl-export-seed-tray.stl> .
 
-:3dPrintableFilesallPlastic3dPrintPartsforStlExportSoilSensor a okh:Part ;
+:3dprintablefilesallplastic3dprintpartsforstlexportsoilsensor a okh:Part ;
     rdfs:label "3D printable files/All Plastic 3D Print Parts (for STL export) - Soil Sensor" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dPrintableFilesallPlastic3dPrintPartsforStlExportSoilSensor_source ;
+    okh:source :3dprintablefilesallplastic3dprintpartsforstlexportsoilsensor_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dPrintableFilesallPlastic3dPrintPartsforStlExportSoilSensor_source a okh:SourceFile ;
+:3dprintablefilesallplastic3dprintpartsforstlexportsoilsensor_source a okh:SourceFile ;
     rdfs:label "Source File of 3D printable files/All Plastic 3D Print Parts (for STL export) - Soil Sensor of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/all-plastic-3d-print-parts-for-stl-export-soil-sensor.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2OTg=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/all-plastic-3d-print-parts-for-stl-export-soil-sensor.stl> .
 
-:3dPrintableFilesallPlastic3dPrintPartsforStlExportUniversalToolMount a okh:Part ;
+:3dprintablefilesallplastic3dprintpartsforstlexportuniversaltoolmount a okh:Part ;
     rdfs:label "3D printable files/All Plastic 3D Print Parts (for STL export) - Universal Tool Mount" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dPrintableFilesallPlastic3dPrintPartsforStlExportUniversalToolMount_source ;
+    okh:source :3dprintablefilesallplastic3dprintpartsforstlexportuniversaltoolmount_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dPrintableFilesallPlastic3dPrintPartsforStlExportUniversalToolMount_source a okh:SourceFile ;
+:3dprintablefilesallplastic3dprintpartsforstlexportuniversaltoolmount_source a okh:SourceFile ;
     rdfs:label "Source File of 3D printable files/All Plastic 3D Print Parts (for STL export) - Universal Tool Mount of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/all-plastic-3d-print-parts-for-stl-export-universal-tool-mount.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2OTk=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/all-plastic-3d-print-parts-for-stl-export-universal-tool-mount.stl> .
 
-:3dPrintableFilesallPlastic3dPrintPartsforStlExportUtmCover a okh:Part ;
+:3dprintablefilesallplastic3dprintpartsforstlexportutmcover a okh:Part ;
     rdfs:label "3D printable files/All Plastic 3D Print Parts (for STL export) - UTM Cover" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dPrintableFilesallPlastic3dPrintPartsforStlExportUtmCover_source ;
+    okh:source :3dprintablefilesallplastic3dprintpartsforstlexportutmcover_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dPrintableFilesallPlastic3dPrintPartsforStlExportUtmCover_source a okh:SourceFile ;
+:3dprintablefilesallplastic3dprintpartsforstlexportutmcover_source a okh:SourceFile ;
     rdfs:label "Source File of 3D printable files/All Plastic 3D Print Parts (for STL export) - UTM Cover of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/all-plastic-3d-print-parts-for-stl-export-utm-cover.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3MDA=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/all-plastic-3d-print-parts-for-stl-export-utm-cover.stl> .
 
-:3dPrintableFilesallPlastic3dPrintPartsforStlExportVerticalCcSupport a okh:Part ;
+:3dprintablefilesallplastic3dprintpartsforstlexportverticalccsupport a okh:Part ;
     rdfs:label "3D printable files/All Plastic 3D Print Parts (for STL export) - Vertical CC Support" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dPrintableFilesallPlastic3dPrintPartsforStlExportVerticalCcSupport_source ;
+    okh:source :3dprintablefilesallplastic3dprintpartsforstlexportverticalccsupport_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dPrintableFilesallPlastic3dPrintPartsforStlExportVerticalCcSupport_source a okh:SourceFile ;
+:3dprintablefilesallplastic3dprintpartsforstlexportverticalccsupport_source a okh:SourceFile ;
     rdfs:label "Source File of 3D printable files/All Plastic 3D Print Parts (for STL export) - Vertical CC Support of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/all-plastic-3d-print-parts-for-stl-export-vertical-cc-support.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3MDE=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/all-plastic-3d-print-parts-for-stl-export-vertical-cc-support.stl> .
 
-:3dPrintableFilesallPlastic3dPrintPartsforStlExportVerticalMotorHousing3dPrint a okh:Part ;
+:3dprintablefilesallplastic3dprintpartsforstlexportverticalmotorhousing3dprint a okh:Part ;
     rdfs:label "3D printable files/All Plastic 3D Print Parts (for STL export) - Vertical Motor Housing [3D Print]" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dPrintableFilesallPlastic3dPrintPartsforStlExportVerticalMotorHousing3dPrint_source ;
+    okh:source :3dprintablefilesallplastic3dprintpartsforstlexportverticalmotorhousing3dprint_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dPrintableFilesallPlastic3dPrintPartsforStlExportVerticalMotorHousing3dPrint_source a okh:SourceFile ;
+:3dprintablefilesallplastic3dprintpartsforstlexportverticalmotorhousing3dprint_source a okh:SourceFile ;
     rdfs:label "Source File of 3D printable files/All Plastic 3D Print Parts (for STL export) - Vertical Motor Housing [3D Print] of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/all-plastic-3d-print-parts-for-stl-export-vertical-motor-housing-3d-print.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3MDI=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/all-plastic-3d-print-parts-for-stl-export-vertical-motor-housing-3d-print.stl> .
 
-:3dPrintableFilesallPlastic3dPrintPartsforStlExportWateringNozzlebottom a okh:Part ;
+:3dprintablefilesallplastic3dprintpartsforstlexportwateringnozzlebottom a okh:Part ;
     rdfs:label "3D printable files/All Plastic 3D Print Parts (for STL export) - Watering Nozzle [bottom]" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dPrintableFilesallPlastic3dPrintPartsforStlExportWateringNozzlebottom_source ;
+    okh:source :3dprintablefilesallplastic3dprintpartsforstlexportwateringnozzlebottom_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dPrintableFilesallPlastic3dPrintPartsforStlExportWateringNozzlebottom_source a okh:SourceFile ;
+:3dprintablefilesallplastic3dprintpartsforstlexportwateringnozzlebottom_source a okh:SourceFile ;
     rdfs:label "Source File of 3D printable files/All Plastic 3D Print Parts (for STL export) - Watering Nozzle [bottom] of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/all-plastic-3d-print-parts-for-stl-export-watering-nozzle-bottom.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3MDM=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/all-plastic-3d-print-parts-for-stl-export-watering-nozzle-bottom.stl> .
 
-:3dPrintableFilesallPlastic3dPrintPartsforStlExportWateringNozzletop a okh:Part ;
+:3dprintablefilesallplastic3dprintpartsforstlexportwateringnozzletop a okh:Part ;
     rdfs:label "3D printable files/All Plastic 3D Print Parts (for STL export) - Watering Nozzle [top]" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dPrintableFilesallPlastic3dPrintPartsforStlExportWateringNozzletop_source ;
+    okh:source :3dprintablefilesallplastic3dprintpartsforstlexportwateringnozzletop_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dPrintableFilesallPlastic3dPrintPartsforStlExportWateringNozzletop_source a okh:SourceFile ;
+:3dprintablefilesallplastic3dprintpartsforstlexportwateringnozzletop_source a okh:SourceFile ;
     rdfs:label "Source File of 3D printable files/All Plastic 3D Print Parts (for STL export) - Watering Nozzle [top] of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/all-plastic-3d-print-parts-for-stl-export-watering-nozzle-top.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3MDQ=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/all-plastic-3d-print-parts-for-stl-export-watering-nozzle-top.stl> .
 
-:3dPrintableFilesallPlastic3dPrintPartsforStlExportWeeder a okh:Part ;
+:3dprintablefilesallplastic3dprintpartsforstlexportweeder a okh:Part ;
     rdfs:label "3D printable files/All Plastic 3D Print Parts (for STL export) - Weeder" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dPrintableFilesallPlastic3dPrintPartsforStlExportWeeder_source ;
+    okh:source :3dprintablefilesallplastic3dprintpartsforstlexportweeder_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dPrintableFilesallPlastic3dPrintPartsforStlExportWeederBlade a okh:Part ;
-    rdfs:label "3D printable files/All Plastic 3D Print Parts (for STL export) - Weeder Blade" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dPrintableFilesallPlastic3dPrintPartsforStlExportWeederBlade_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:3dPrintableFilesallPlastic3dPrintPartsforStlExportWeederBlade_source a okh:SourceFile ;
-    rdfs:label "Source File of 3D printable files/All Plastic 3D Print Parts (for STL export) - Weeder Blade of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/all-plastic-3d-print-parts-for-stl-export-weeder-blade.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3MDU=> .
-
-:3dPrintableFilesallPlastic3dPrintPartsforStlExportWeederSpike a okh:Part ;
-    rdfs:label "3D printable files/All Plastic 3D Print Parts (for STL export) - Weeder Spike" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dPrintableFilesallPlastic3dPrintPartsforStlExportWeederSpike_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:3dPrintableFilesallPlastic3dPrintPartsforStlExportWeederSpike_source a okh:SourceFile ;
-    rdfs:label "Source File of 3D printable files/All Plastic 3D Print Parts (for STL export) - Weeder Spike of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/all-plastic-3d-print-parts-for-stl-export-weeder-spike.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3MDY=> .
-
-:3dPrintableFilesallPlastic3dPrintPartsforStlExportWeeder_source a okh:SourceFile ;
+:3dprintablefilesallplastic3dprintpartsforstlexportweeder_source a okh:SourceFile ;
     rdfs:label "Source File of 3D printable files/All Plastic 3D Print Parts (for STL export) - Weeder of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/all-plastic-3d-print-parts-for-stl-export-weeder.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3MDc=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/all-plastic-3d-print-parts-for-stl-export-weeder.stl> .
 
-:3dPrintableFilesallPlastic3dPrintPartsforStlExportZaxisMotorMount3dPrint a okh:Part ;
+:3dprintablefilesallplastic3dprintpartsforstlexportweederblade a okh:Part ;
+    rdfs:label "3D printable files/All Plastic 3D Print Parts (for STL export) - Weeder Blade" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Juan Mazzuchelli" ;
+    okh:source :3dprintablefilesallplastic3dprintpartsforstlexportweederblade_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:3dprintablefilesallplastic3dprintpartsforstlexportweederblade_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D printable files/All Plastic 3D Print Parts (for STL export) - Weeder Blade of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/all-plastic-3d-print-parts-for-stl-export-weeder-blade.stl> ;
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/all-plastic-3d-print-parts-for-stl-export-weeder-blade.stl> .
+
+:3dprintablefilesallplastic3dprintpartsforstlexportweederspike a okh:Part ;
+    rdfs:label "3D printable files/All Plastic 3D Print Parts (for STL export) - Weeder Spike" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Juan Mazzuchelli" ;
+    okh:source :3dprintablefilesallplastic3dprintpartsforstlexportweederspike_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:3dprintablefilesallplastic3dprintpartsforstlexportweederspike_source a okh:SourceFile ;
+    rdfs:label "Source File of 3D printable files/All Plastic 3D Print Parts (for STL export) - Weeder Spike of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/all-plastic-3d-print-parts-for-stl-export-weeder-spike.stl> ;
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/all-plastic-3d-print-parts-for-stl-export-weeder-spike.stl> .
+
+:3dprintablefilesallplastic3dprintpartsforstlexportzaxismotormount3dprint a okh:Part ;
     rdfs:label "3D printable files/All Plastic 3D Print Parts (for STL export) - Z-Axis Motor Mount [3D Print]" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Juan Mazzuchelli" ;
-    okh:source :3dPrintableFilesallPlastic3dPrintPartsforStlExportZaxisMotorMount3dPrint_source ;
+    okh:source :3dprintablefilesallplastic3dprintpartsforstlexportzaxismotormount3dprint_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dPrintableFilesallPlastic3dPrintPartsforStlExportZaxisMotorMount3dPrint_source a okh:SourceFile ;
+:3dprintablefilesallplastic3dprintpartsforstlexportzaxismotormount3dprint_source a okh:SourceFile ;
     rdfs:label "Source File of 3D printable files/All Plastic 3D Print Parts (for STL export) - Z-Axis Motor Mount [3D Print] of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/all-plastic-3d-print-parts-for-stl-export-z-axis-motor-mount-3d-print.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3MDg=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/all-plastic-3d-print-parts-for-stl-export-z-axis-motor-mount-3d-print.stl> .
 
 :Antivibrzprusa a okh:Part ;
     rdfs:label "Antivibr_Z_Prusa" ;
@@ -1952,7 +2002,7 @@
     rdfs:label "Source File of Antivibr_Z_Prusa of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/antivibrzprusa.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NDc=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/antivibrzprusa.stl> .
 
 :Experimentalantivibrzprusa a okh:Part ;
     rdfs:label "Experimental/Antivibr_Z_Prusa" ;
@@ -1965,7 +2015,7 @@
     rdfs:label "Source File of Experimental/Antivibr_Z_Prusa of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/antivibrzprusa-0.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4NTY=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/antivibrzprusa-0.stl> .
 
 :Experimentalcamaraholderfarmbot a okh:Part ;
     rdfs:label "Experimental/CamaraHolderFarmbot" ;
@@ -1978,7 +2028,7 @@
     rdfs:label "Source File of Experimental/CamaraHolderFarmbot of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "3DM" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/camaraholderfarmbot-0.3dm> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4NjE=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/camaraholderfarmbot-0.3dm> .
 
 :Experimentalcameraholderfrmb a okh:Part ;
     rdfs:label "Experimental/cameraHolderFrmb" ;
@@ -1991,7 +2041,7 @@
     rdfs:label "Source File of Experimental/cameraHolderFrmb of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/cameraholderfrmb.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4NjI=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/cameraholderfrmb.stl> .
 
 :Experimentalextramotorhousing a okh:Part ;
     rdfs:label "Experimental/extra_motor_housing" ;
@@ -2004,7 +2054,7 @@
     rdfs:label "Source File of Experimental/extra_motor_housing of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "3DM" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/extramotorhousing-0.3dm> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4NTk=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/extramotorhousing-0.3dm> .
 
 :Experimentalfarmbotantivibration a okh:Part ;
     rdfs:label "Experimental/farmbot_anti_vibration" ;
@@ -2017,7 +2067,7 @@
     rdfs:label "Source File of Experimental/farmbot_anti_vibration of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "3DM" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbotantivibration-2.3dm> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4NTU=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbotantivibration-2.3dm> .
 
 :Experimentalmotorhousingextra a okh:Part ;
     rdfs:label "Experimental/motor_housing_extra" ;
@@ -2030,7 +2080,7 @@
     rdfs:label "Source File of Experimental/motor_housing_extra of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/motorhousingextra.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4NjA=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/motorhousingextra.stl> .
 
 :Experimentalv3seeder a okh:Part ;
     rdfs:label "Experimental/v3_seeder" ;
@@ -2043,7 +2093,7 @@
     rdfs:label "Source File of Experimental/v3_seeder of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/v3seeder-1.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4NTg=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/v3seeder-1.stl> .
 
 :Experimentalv3seedercomplete a okh:Part ;
     rdfs:label "Experimental/v3_seeder_complete" ;
@@ -2056,7 +2106,7 @@
     rdfs:label "Source File of Experimental/v3_seeder_complete of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "3DM" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/v3seedercomplete-1.3dm> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo4NTc=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/v3seedercomplete-1.3dm> .
 
 :Farmbotantivibration a okh:Part ;
     rdfs:label "farmbot_anti_vibration" ;
@@ -2069,19 +2119,19 @@
     rdfs:label "Source File of farmbot_anti_vibration of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "3DM" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbotantivibration-1.3dm> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NDY=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/farmbotantivibration-1.3dm> .
 
 :Image a okh:Image ;
     rdfs:label "Image of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "JPG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/brotesverdes.JPG> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMDM4> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/brotesverdes.JPG> .
 
 :Readme a okh:Readme ;
     rdfs:label "Readme of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "MD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/readme-30.md> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2Nzg2> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/readme-30.md> .
 
 :V1seedinghead a okh:Part ;
     rdfs:label "v1_seeding_head" ;
@@ -2094,7 +2144,7 @@
     rdfs:label "Source File of v1_seeding_head of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/v1seedinghead.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NTA=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/v1seedinghead.stl> .
 
 :V3seeder a okh:Part ;
     rdfs:label "v3_seeder" ;
@@ -2107,7 +2157,7 @@
     rdfs:label "Source File of v3_seeder of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/v3seeder.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NTM=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/v3seeder.stl> .
 
 :V3seedercomplete a okh:Part ;
     rdfs:label "v3_seeder_complete" ;
@@ -2120,5 +2170,5 @@
     rdfs:label "Source File of v3_seeder_complete of Hacked Farmbot c9c4bf8293bd74f3f1edc2f44068e7c20b97cddb" ;
     okh:fileFormat "3DM" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/v3seedercomplete-0.3dm> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NDk=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/143/v3seedercomplete-0.3dm> .
 

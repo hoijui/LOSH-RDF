@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A29136/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:CompleteMendel90PartsSet a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Complete Mendel90 parts set" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is (what I think to be) a complete set of all the printed parts you'll need to assemble your own Mendel90 Reprap variant.\r
 The parts are all laid out to fit on a MakerBot Replicator build plate and have been cleaned up by cloud.netfabb.com, so they should be good to run through your favorite slicer and print.\r
 To learn more about the awesome Mendel90 see nophead's page here: http://hydraraptor.blogspot.com/2011/12/mendel90.html""" ;
@@ -14,6 +16,7 @@ To learn more about the awesome Mendel90 see nophead's page here: http://hydrara
     okh:repo <https://www.thingiverse.com/thing:29136> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:29136> .

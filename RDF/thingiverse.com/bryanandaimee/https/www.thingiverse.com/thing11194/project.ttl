@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A11194/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:TrampClamp a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Tramp Clamp" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """A shim or clamp or something for my trampoline to allow the safety net pipe to bolt to the frame pipe. One broke and so I needed another. This should really be a parametric design with configurable radius on both sides, etc. It may be my first project on openscad whenever I get around to installing and fiddling with it. Currently one side is for a 1+1/4 inch pipe and the other side is for a 1+1/2 inch pipe.\r
 \r
 It doesn't have a hole for the bolt because sketchup is terrible at doing holes through curved surfaces. It's quick and dirty. 1/2 hour from concept to installation, and the thingiverse entry was done while the part was printing. :) \r
@@ -18,6 +20,7 @@ I think it would have taken more time to find an online retailer willing to sell
     okh:repo <https://www.thingiverse.com/thing:11194> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:11194> .

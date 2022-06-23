@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A22804/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Ao1003dPrinter a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "AO-100 3D Printer" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """The AO-100 is a MendelMax variant printer that has been slimmed down for a smaller foot print that matches the print size of the Prusa Mendel.\r
 \r
 With an aluminum extrusion frame the AO-100 is an extremely sturdy printer capable of printing quality parts at high speeds. The design is made to be used with Igus pillow block bushings that allow for precise movement with a high performace bushing. The reliable MK1 PCB heat bed is used to heat the borosilicate glass print surface. Although other electronics can be used, the included electronics mount is for the tested and true RAMPS 1.4/Arduino RepRap electronics.\r
@@ -22,6 +24,7 @@ Licensing\r
     okh:repo <https://www.thingiverse.com/thing:22804> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:22804> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A12074/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:334InchActionFigureStand a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "3 3/4 inch Action Figure Stand" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I made this with Micronauts in mind, but it could be used for Joes or Star Wars figures as well as a whole host of other 1/18th scale figures.\r
 \r
 This part was made with Tinkercad. Edit the part online at: https://tinkercad.com/p/acc0761039ad42ab/72\r
@@ -16,6 +18,7 @@ Share and Enjoy!""" ;
     okh:repo <https://www.thingiverse.com/thing:12074> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:12074> .

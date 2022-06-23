@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A14418/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Iphone4Iphone4sHolder a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "iPhone 4 / iPhone 4S holder" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is an iphone 4/4s holder designed to fit most standard cases. Specifically designed around the SPECK PIXEL HD case. there is  pass through allowing the Apple 30 pin connector to be threaded through.\r
 \r
 Ultimately, I would love to design something similar based around a 90 degree 30 pin passthrough connector.""" ;
@@ -14,6 +16,7 @@ Ultimately, I would love to design something similar based around a 90 degree 30
     okh:repo <https://www.thingiverse.com/thing:14418> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:14418> .

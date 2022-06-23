@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A37153/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PythagoreanCup a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Pythagorean cup" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """"Tradition says Pythagoras, during water supply works in Samos around 530 BC moderated the workers' wine drinking by inventing the 'fair cup'. When the wine surpasses the line, the cup totally empties, so the greedy one is punished."\r
 \r
 Now you don't have to go to the island of Samos to get one! Print one now!""" ;
@@ -14,6 +16,7 @@ Now you don't have to go to the island of Samos to get one! Print one now!""" ;
     okh:repo <https://www.thingiverse.com/thing:37153> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:37153> .

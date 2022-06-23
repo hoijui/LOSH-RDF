@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A57888/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PoolCueBridge a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Pool Cue Bridge" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Designed this for our  company pool league teams.   You can never find a bridge at the bar when you need one and when you do they are crappy.   This is designed to go on the end of any standard cue.\r
 \r
 (Ok - I am doing this here because I can not find a way to just comment on a thing - am I just being dense?)\r
@@ -19,6 +21,7 @@ Be on the look out for a pool cue holder in the next couple of days.  I have a c
     okh:repo <https://www.thingiverse.com/thing:57888> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:57888> .

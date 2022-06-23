@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A12012/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:DishwasherWheelClip a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Dishwasher Wheel Clip" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """While I was unpacking the dishwasher my wife overheard me complaining about the little wheels that are constantly falling off the bottom rack.  She commented sourly that it served me right since I had made rude remarks many times about how she must be doing something wrong to cause the wheels to fall off.\r
 \r
 Sensing I was now close to being in the dog-box I thought about my options for rebuttal. It was clear that I couldn't win the argument or claim I never said those things so my only option was to apologise. If only I could find a way to redeem myself instead...\r
@@ -20,6 +22,7 @@ The replacement clips are working perfectly so far and have survived their first
     okh:repo <https://www.thingiverse.com/thing:12012> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:12012> .

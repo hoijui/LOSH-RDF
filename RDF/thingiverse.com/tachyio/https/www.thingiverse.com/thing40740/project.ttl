@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A40740/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:DrunkDomoBeerBottleOpener a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Drunk Domo Beer Bottle Opener" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I printed a few domos based on racing4micro's Domo Keychain, and a friend of mine suggested it would make a perfectly sized beer bottle opener!\r
 \r
 There are 2 versions: One with a 6mm dia keychain hole and one without. Happy printing!""" ;
@@ -14,6 +16,7 @@ There are 2 versions: One with a 6mm dia keychain hole and one without. Happy pr
     okh:repo <https://www.thingiverse.com/thing:40740> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:40740> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A31613/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PfluteSopranoTaperedBore a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Pflute, soprano¸, tapered bore" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a soprano sized flute with a recorder-like fingering system. Like a recorder, much of the chromatic scale is available by cross-fingering. Consists of three sections, which slide together.\r
 \r
 The bore shape and hole parameters have been designed using Python package "demakein" so that the flute is in tune over two octaves. The holes are angled to provide a comfortable spacing.\r
@@ -18,6 +20,7 @@ Thanks to John Boshua for the excellent print in ABS plastic. I added some decor
     okh:repo <https://www.thingiverse.com/thing:31613> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:31613> .

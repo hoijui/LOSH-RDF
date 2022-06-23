@@ -1,29 +1,32 @@
 @prefix : <https://www.thingiverse.com/thing%3A558/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:DalãWatch a okh:Module ;
-    rdfs:label "DalÃ­ Watch" ;
+:Project a okh:Module ;
+    rdfs:label "DalÃxad Watch" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
-    okh:function """This is still very much a work in progress but I thought I\\'d just get it out there.\r
-\r
-Continuing on Bre\\'s idea of printing a watch... I made a DalÃ­ inspired melting watch. Of course it\\'s not functional (at least not yet). I\\'m working on a way to attach it to your wrist. Maybe I can have it be more like a bracelet and have the \\"melted-ness\\" wrap almost all the way around the wrist.\r
-\r
-I also need to add hands. I guess I\\'ll have to make those separately because I can\\'t figure out a way to make it printable if I integrate them into this piece.\r
-\r
-The letters are about 1mm wide at their thinnest point so it shouldn\\'t turn out too bad. Still, I\\'m a little worried about the general print-ability but I oriented it the way I think might have the most success.""" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
+    okh:function """This is still very much a work in progress but I thought I'd just get it out there.
+
+Continuing on Bre's idea of printing a watch... I made a DalÃxad inspired melting watch. Of course it's not functional (at least not yet). I'm working on a way to attach it to your wrist. Maybe I can have it be more like a bracelet and have the "melted-ness" wrap almost all the way around the wrist.
+
+I also need to add hands. I guess I'll have to make those separately because I can't figure out a way to make it printable if I integrate them into this piece.
+
+The letters are about 1mm wide at their thinnest point so it shouldn't turn out too bad. Still, I'm a little worried about the general print-ability but I oriented it the way I think might have the most success.""" ;
     okh:hasImage :Image ;
     okh:licensor "langfordw" ;
     okh:repo <https://www.thingiverse.com/thing:558> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:558> .
 
 :Image a okh:Image ;
-    rdfs:label "Image of DalÃ­ Watch 1.0.0" ;
+    rdfs:label "Image of DalÃxad Watch 1.0.0" ;
     okh:fileFormat "JPG" ;
     okh:fileUrl <https://cdn.thingiverse.com/renders/4b/6e/a4/0c/d2/3500816271_2dfd204a35_o_display_large_display_large.jpg> ;
     okh:permaURL <https://cdn.thingiverse.com/renders/4b/6e/a4/0c/d2/3500816271_2dfd204a35_o_display_large_display_large.jpg> .

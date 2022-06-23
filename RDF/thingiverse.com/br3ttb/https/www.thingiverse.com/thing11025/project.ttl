@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A11025/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PocketCoinopBottleOpener a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Pocket Coin-Op Bottle Opener" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """(Note:  There's now a better, tapered version.  I recommend that you print this instead: http://www.thingiverse.com/thing:12348)\r
 \r
 I was ashamed Thingiverse. So ashamed.  I presented the Mighty Bottle Opener as the pocket equivalent to Starno's Coin-Op.  It wasn't.  It isn't.  I just wasn't able to find a reliable way to protect the plastic.\r
@@ -31,6 +33,7 @@ UPDATE #2:  These things make great gifts.  With a little tweaking you can print
     okh:repo <https://www.thingiverse.com/thing:11025> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:11025> .

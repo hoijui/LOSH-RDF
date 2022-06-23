@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A32654/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:YAxisRedesign a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Y Axis Redesign" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """The MendelMax Y-axis was in need of a redesign. The original design with two plates of aluminum was too unstable and difficult to level. So I came up with a new set of rod holders and a bushing holder / belt clamp combo piece.\r
 \r
 The rod holders are split and rest wider than standard. The bushing holders allow the Y-axis motor to be moved to one side. The power supply and electronics can then be arranged underneath the bed without needing feet to extend the height of the MendelMax.\r
@@ -18,6 +20,7 @@ Thanks to Spacexula for testing out everything and for all his feedback.""" ;
     okh:repo <https://www.thingiverse.com/thing:32654> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:32654> .

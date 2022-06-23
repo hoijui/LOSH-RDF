@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A47563/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:TheFinger a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "The Finger" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This model was created by scanning my hand / finger with an Xbox Kinect and ReconstructMeQT software. It is a little bit juvenile, but I have had this printed in laser sintered plastic and use the model as a card protector when playing Texas Hold'em Poker with friends - who got a good laugh out of it. I've included solid and hollow versions, and also versions with crude text on the back too. \r
 \r
 The pixelated nature of the model is due to the poor resolution of the Kinect sensor. \r
@@ -16,6 +18,7 @@ I don't personally find an object like this offensive, its more so a silly joke,
     okh:repo <https://www.thingiverse.com/thing:47563> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:47563> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A4249/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:10mmHollowCalibrationCube a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "10mm Hollow Calibration Cube" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I was calibrating my RepRap Mendel and wanted to go small! :D\r
 It's been done before but I couldn't find a model so here it is (:\r
 Picture is from first time at quite fast settings so could be better quality  (;\r
@@ -17,6 +19,7 @@ I might try a 5mm ;)""" ;
     okh:repo <https://www.thingiverse.com/thing:4249> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:4249> .

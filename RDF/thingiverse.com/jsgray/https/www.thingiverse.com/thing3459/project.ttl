@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A3459/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Level3MengerSponge a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Level 3 Menger Sponge" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """While visiting the Autodesk Innovations Lab at Singularity University in Mountain View, CA, I designed this in a few hours in a first session with Autodesk Inventor Simulation 2011.  It was printed to about 5 cm on a side on a Dimension Printing uPrint printer.  The print took about 14 hours.\r
 \r
 I am told this design should also print on a Makerbot in about an hour, and they will try that experiment later this week.""" ;
@@ -14,6 +16,7 @@ I am told this design should also print on a Makerbot in about an hour, and they
     okh:repo <https://www.thingiverse.com/thing:3459> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:3459> .

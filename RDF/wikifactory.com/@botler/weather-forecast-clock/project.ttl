@@ -2,13 +2,13 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:WeatherForecastClock a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Weather Forecast Clock" ;
     okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "Clock and weather forecasting station created from a broken alarm clock and using a Nokia 5110 LCD screen and other components - original project by Lenka Design, featured in Instructables." ;
-    okh:hasComponent :SoftwarelcdScreenLibrarylcd5110basic,
-        :Softwarenokia5110Librarylcd5110basic,
+    okh:hasComponent :Softwarelcdscreenlibrarylcd5110basic,
+        :Softwarenokia5110librarylcd5110basic,
         :Softwareotherds1307 ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
@@ -25,39 +25,39 @@
     rdfs:label "Image of Weather Forecast Clock d03d7f0ad1f6a80ed734652772dc1384046e835c" ;
     okh:fileFormat "JPG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/762/cropped-1.jpg> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MTk4> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/762/cropped-1.jpg> .
 
 :Readme a okh:Readme ;
     rdfs:label "Readme of Weather Forecast Clock d03d7f0ad1f6a80ed734652772dc1384046e835c" ;
     okh:fileFormat "MD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/762/readme-6.md> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NzQ5> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/762/readme-6.md> .
 
-:SoftwarelcdScreenLibrarylcd5110basic a okh:Part ;
+:Softwarelcdscreenlibrarylcd5110basic a okh:Part ;
     rdfs:label "Software/LCD screen library/LCD5110_Basic" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :SoftwarelcdScreenLibrarylcd5110basic_source ;
+    okh:source :Softwarelcdscreenlibrarylcd5110basic_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:SoftwarelcdScreenLibrarylcd5110basic_source a okh:SourceFile ;
+:Softwarelcdscreenlibrarylcd5110basic_source a okh:SourceFile ;
     rdfs:label "Source File of Software/LCD screen library/LCD5110_Basic of Weather Forecast Clock d03d7f0ad1f6a80ed734652772dc1384046e835c" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/762/lcd5110basic-0.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjQ0> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/762/lcd5110basic-0.pdf> .
 
-:Softwarenokia5110Librarylcd5110basic a okh:Part ;
+:Softwarenokia5110librarylcd5110basic a okh:Part ;
     rdfs:label "Software/Nokia 5110 library/LCD5110_Basic" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Softwarenokia5110Librarylcd5110basic_source ;
+    okh:source :Softwarenokia5110librarylcd5110basic_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Softwarenokia5110Librarylcd5110basic_source a okh:SourceFile ;
+:Softwarenokia5110librarylcd5110basic_source a okh:SourceFile ;
     rdfs:label "Source File of Software/Nokia 5110 library/LCD5110_Basic of Weather Forecast Clock d03d7f0ad1f6a80ed734652772dc1384046e835c" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/762/lcd5110basic.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjI2> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/762/lcd5110basic.pdf> .
 
 :Softwareotherds1307 a okh:Part ;
     rdfs:label "Software/Other/DS1307" ;
@@ -70,5 +70,5 @@
     rdfs:label "Source File of Software/Other/DS1307 of Weather Forecast Clock d03d7f0ad1f6a80ed734652772dc1384046e835c" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/762/ds1307-0.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjI5> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/762/ds1307-0.pdf> .
 

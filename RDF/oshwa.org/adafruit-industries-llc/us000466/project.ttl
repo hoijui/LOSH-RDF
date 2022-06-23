@@ -2,21 +2,15 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ContactlessInfraredThermopileSensorBreakoutTmp006 a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Contact-less Infrared Thermopile Sensor Breakout - TMP006" ;
-    okh:additionalType "['Electronics']" ;
-    okh:certificationDate "2020-04-30T00:00:00-04:00" ;
-    okh:country "United States of America" ;
     okh:dataSource "oshwa.org" ;
     okh:documentationLanguage "en" ;
-    okh:documentationLicense "CC BY-SA" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function "This breakout has a really cool IR sensor from TI that can measure the temperature of an object without touching it! Simply point the sensor towards what you want to measure and it will detect the temperature by absorbing IR waves emitted. The embedded thermopile sensor generates a very very small voltage depending on how much IR there is, and using some math, that micro voltage can be used to calculate the temperature. Click the link labeled 'Project Website' to find out more." ;
-    okh:hardwareLicense "Other" ;
     okh:licensor "Adafruit Industries, LLC" ;
-    okh:primaryType "Electronics" ;
     okh:repo <https://certification.oshwa.org/us000466.html> ;
     okh:repoHost "certification.oshwa.org" ;
-    okh:softwareLicense "MIT" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
     okh:uploadMethod "auto" ;
     okh:version "0.1" ;

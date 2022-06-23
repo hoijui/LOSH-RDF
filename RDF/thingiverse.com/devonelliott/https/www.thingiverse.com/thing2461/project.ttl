@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A2461/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:CnTower a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "CN Tower" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Scaled down a model of the CN Tower found on Google's 3D Warehouse.\r
 \r
 The tower is pretty thin and wobbled a lot while printing. I also did a quick-fix to the model of the top tower in order to get it to print.""" ;
@@ -14,6 +16,7 @@ The tower is pretty thin and wobbled a lot while printing. I also did a quick-fi
     okh:repo <https://www.thingiverse.com/thing:2461> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:2461> .

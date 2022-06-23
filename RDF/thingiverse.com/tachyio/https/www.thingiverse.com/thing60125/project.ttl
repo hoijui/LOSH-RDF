@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A60125/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MicroscopicMartianMollusc a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Microscopic Martian Mollusc" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """The Microscopic Martian Mollusc is a muscular creatureâ€¦if you can call a microscopic animal muscular.\r
 \r
 This little guy used to roam the seas of mars, when the planet was still youngâ€¦and global warming had not set in yet. \r
@@ -20,6 +22,7 @@ There are 6 flagella on its bottom which help in locomotion. If one is bitten of
     okh:repo <https://www.thingiverse.com/thing:60125> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:60125> .

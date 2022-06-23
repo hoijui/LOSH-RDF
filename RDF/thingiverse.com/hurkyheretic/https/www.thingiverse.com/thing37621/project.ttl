@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A37621/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:HaloRing a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "halo ring" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This was suppose to be a halo ring but when I sent it through net fab it closed the ring part of it. If anyone knows how to fix this I would love to learn how so Im uploading the sketch up file.\r
 The way I ended up printing it is with 100% infill and drilling out the ring.the center of the ring is around 21 mm\r
  I got the halo mask from the sketch up warehouse thanks Grave Heart. \r
@@ -15,6 +17,7 @@ Update: Thanks to AMS3000 we now have our ring so make sure to use hurky heretic
     okh:repo <https://www.thingiverse.com/thing:37621> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:37621> .

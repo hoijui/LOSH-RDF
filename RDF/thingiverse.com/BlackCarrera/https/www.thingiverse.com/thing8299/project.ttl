@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A8299/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:AnotherSuperMeatBoy a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Another Super Meat Boy" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Well this is my first thing, and first off I wanted to say this is a derivative of hugepedlar's Meat Boy at http://www.thingiverse.com/thing:7702 & Voxelous' version voxelo.us/products.html . I liked their versions but I wasn't a fan of the serious fan that Volexous and he used.  That being said I made a slightly different one, from pictures on google.  \r
 \r
 I built off of hugepedlars stls, but made some modifications to the pieces such as:\r
@@ -23,6 +25,7 @@ Voxelous' version is superior due to the method of printing that they use, so if
     okh:repo <https://www.thingiverse.com/thing:8299> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:8299> .

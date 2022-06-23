@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A21363/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PrusaZNutSpacer a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Prusa Z nut spacer" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "Instead of using tape on your z nut to reduce z backlash due to the loose 14 mm cavity in the Prusa 2 x ends, you can print two of this and slide it between the nuts and the x ends. I was using masking tape which lead to banding in the prints. It went away when I changed to these." ;
     okh:hasImage :Image ;
     okh:licensor "brnrd" ;
     okh:repo <https://www.thingiverse.com/thing:21363> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:21363> .

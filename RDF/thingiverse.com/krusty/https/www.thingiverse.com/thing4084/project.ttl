@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A4084/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:RocketBusinessCard a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Rocket Business Card" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I wanted to promote my rocketry website ( http://www.ibuildrockets.com ) in a creative way - so I selected a V2 rocket and created a 2-part stand-up model with my URL along the edge.\r
 \r
 The rocket is about 80mm high and 2.8mm thick. The two pieces fit onto a business-card size piece of Acrylic.""" ;
@@ -14,6 +16,7 @@ The rocket is about 80mm high and 2.8mm thick. The two pieces fit onto a busines
     okh:repo <https://www.thingiverse.com/thing:4084> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:4084> .

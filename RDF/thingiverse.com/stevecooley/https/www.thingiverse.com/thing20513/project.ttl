@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A20513/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ParametricPotentiometerKnobWithOpenscad a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Parametric Potentiometer Knob with OpenSCAD" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This script has a *lot* of variables you can tweak.  Research continues, but there's a lot to work with now.\r
 \r
 Version 1.1 now lets you adjust the arrow indicator with more parameters.\r
@@ -26,6 +28,7 @@ A different strategy is to print them yourself as you need them.  No shipping, n
     okh:repo <https://www.thingiverse.com/thing:20513> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:20513> .

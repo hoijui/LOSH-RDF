@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A12809/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:SixSidedDie a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Six Sided Die" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Set with the Akzidenz Grotesk font, which Adobe claims a copyright upon - and probably some design patents - so I'll likely make another version with a free font later.  I just picked something that looks nice for now.\r
 \r
 If you're interested as to how I made it, I pretty much used some basic shapes and Blender's boolean modifier: http://wiki.blender.org/index.php/Doc:2.5/Manual/Modifiers/Mesh/Booleans\r
@@ -17,6 +19,7 @@ Updated the source files so that the six isn't backwards.""" ;
     okh:repo <https://www.thingiverse.com/thing:12809> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:12809> .

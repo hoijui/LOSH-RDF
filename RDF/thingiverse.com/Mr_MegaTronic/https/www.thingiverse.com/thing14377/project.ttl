@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A14377/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:35InchIoCoverPlate a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "3.5 inch I/O Cover Plate" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """My new YouTube Channel: https://www.youtube.com/channel/UCnnw56J_TeOsF4M_F5pPPJQ\r
 \r
 So I got this problem...  Ya see, I moved the guts of my computer from its cheap, cramped chassis to an older but more spacious 4U rack-mount enclosure.  My computer is happy but I'm not.  WHY!?!  Because it has no front panel for USB!!!  Not a problem.  I'll just take one of my extra headers and bring it up front through the 3.5" bay that I don't use.  WAIT!!!  Now it's ugly.\r
@@ -24,6 +26,7 @@ Print Time ~26 Minutes""" ;
     okh:repo <https://www.thingiverse.com/thing:14377> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:14377> .

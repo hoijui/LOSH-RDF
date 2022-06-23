@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A11907/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Inkshield a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "InkShield" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This shield allows you to connect a HP C6602 inkjet cartridge to your Arduino turning it into a 96dpi print platform.  It only uses 5 pins which can be jumper selected to avoid other shields.  It is designed with a Arduino Mega footprint but fully supports both the Arduino and the Arduino Mega.  It uses all through-hole components to make assembly easy even for beginners.\r
 \r
 Features\r
@@ -37,6 +39,7 @@ InkShieldPCB.zip - Kicad Schematic and PCB Layout""" ;
     okh:repo <https://www.thingiverse.com/thing:11907> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:11907> .

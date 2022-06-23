@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A21718/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:RaspberryPiPrintablePcb a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Raspberry Pi printable PCB" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """A very simple STL that is actually a simplification of the STEP-file by Marco Alici (http://marcoalici.wordpress.com/2012/01/28/me-and-the-raspberrypi/#)\r
 \r
 I simplified it so RepRaps/Skeinforge etc don't choke on it. Please don't use this as a reference to make cases. I didn't double check the geometry. Don't come crying if your injection moulding-mould doesn't fit the Pi we're all waiting for.""" ;
@@ -14,6 +16,7 @@ I simplified it so RepRaps/Skeinforge etc don't choke on it. Please don't use th
     okh:repo <https://www.thingiverse.com/thing:21718> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:21718> .

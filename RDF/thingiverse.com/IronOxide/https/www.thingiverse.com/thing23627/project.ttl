@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A23627/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:StackableBbWaterfall a okh:Module ;
+:Project a okh:Module ;
     rdfs:label " Stackable BB Waterfall" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """A stackable BB waterfall/fountain/marble run with limitless potential. Center piece is designed to stack on top of itself for unlimited height. Unique top spiral and bottom piece with cup for collecting the BBs. This design opens many doors for expansion, such as new center pieces where BBs flow inside and out or even branch off into adjacent columns. The sky is the limit.\r
 \r
 Originally set out to make a marble run but settled on BBs for a number of reasons. BBs are much cheaper - 6000 for around 10 bucks. BBs are much smaller - you can hold hundreds of them in the palm of your hand. This allows much more design flexibility with a limited print volume and hundreds of BBs whirling around creates a unique relaxing sound.\r
@@ -16,6 +18,7 @@ Now you can make it rain and the wife won't mind.""" ;
     okh:repo <https://www.thingiverse.com/thing:23627> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:23627> .

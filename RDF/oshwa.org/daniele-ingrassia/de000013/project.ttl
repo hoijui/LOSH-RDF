@@ -2,21 +2,15 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Bigfdm a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "BigFDM" ;
-    okh:additionalType "['3D Printing', 'Education', 'Manufacturing', 'Tool']" ;
-    okh:certificationDate "2019-07-14T00:00:00-04:00" ;
-    okh:country "Germany" ;
     okh:dataSource "oshwa.org" ;
     okh:documentationLanguage "en" ;
-    okh:documentationLicense "CC BY-SA" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function "BigFDM is an open source large scale 3D printer. Taking advantage of what we have learned in Fab Academy, BigFDM has been developed using standard Fab Lab equipment and techniques. Having a printing area of 900x800x800mm and Bill of Materials cost of less than 3000$, BigFDM represents a low-cost high-knowledge for anybody to access large scale 3D printing technology." ;
-    okh:hardwareLicense "Other" ;
     okh:licensor "Daniele Ingrassia" ;
-    okh:primaryType "3D Printing" ;
     okh:repo <https://certification.oshwa.org/de000013.html> ;
     okh:repoHost "certification.oshwa.org" ;
-    okh:softwareLicense "No software" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
     okh:uploadMethod "auto" ;
     okh:version "1" ;

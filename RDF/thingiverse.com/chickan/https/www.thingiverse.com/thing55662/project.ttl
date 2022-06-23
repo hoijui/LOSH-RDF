@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A55662/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ASimpleFilamentHolderFor48mmSpools a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "A Simple Filament Holder for 48mm Spools" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I used the legs from mscourch's version, but remade the spool ends for a 48mm ID spool.  I also increased the leg area on the ground for better support.  
 
 Update: Added a spoolend for 38mm ID spools for Signstek filament that I picked up recently.  
@@ -16,6 +18,7 @@ Update2: Added 71mm spoolend for new Sainsmart filament, they changed their spoo
     okh:repo <https://www.thingiverse.com/thing:55662> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:55662> .

@@ -2,26 +2,26 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MicrobitBiped a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Microbit biped" ;
     okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "Use Micro:bit to make Otto robot. would be able yo code your robot micro:bit using Blocks, JavaScript, and Python." ;
-    okh:hasComponent :3dPrintedFilesbodyrobotbitv20,
-        :3dPrintedFileshead,
-        :3dPrintedFileslfoot,
-        :3dPrintedFileslhand,
-        :3dPrintedFileslleg,
-        :3dPrintedFileslshoulder,
-        :3dPrintedFileslsoles,
-        :3dPrintedFilesrfoot,
-        :3dPrintedFilesrhand,
-        :3dPrintedFilesrleg,
-        :3dPrintedFilesrobotbitv13,
-        :3dPrintedFilesrshoulder,
-        :3dPrintedFilesrsoles,
-        :InstructionManualottoRobotInstructionManual,
-        :InstructionManualottoassemblyinstructions ;
+    okh:hasComponent :3dprintedfilesbodyrobotbitv20,
+        :3dprintedfileshead,
+        :3dprintedfileslfoot,
+        :3dprintedfileslhand,
+        :3dprintedfileslleg,
+        :3dprintedfileslshoulder,
+        :3dprintedfileslsoles,
+        :3dprintedfilesrfoot,
+        :3dprintedfilesrhand,
+        :3dprintedfilesrleg,
+        :3dprintedfilesrobotbitv13,
+        :3dprintedfilesrshoulder,
+        :3dprintedfilesrsoles,
+        :Instructionmanualottoassemblyinstructions,
+        :Instructionmanualottorobotinstructionmanual ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "Camilo Parra Palacio" ;
@@ -34,210 +34,210 @@
     okh:version "8fde5b0c176fd6af10b52921764b1b66db5cb3e0" ;
     okh:versionOf <https://wikifactory.com/+OttoDIY/microbit-biped> .
 
-:3dPrintedFilesbodyrobotbitv20 a okh:Part ;
+:3dprintedfilesbodyrobotbitv20 a okh:Part ;
     rdfs:label "3D Printed Files/body_RobotbitV2.0" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Camilo Parra Palacio" ;
-    okh:source :3dPrintedFilesbodyrobotbitv20_source ;
+    okh:source :3dprintedfilesbodyrobotbitv20_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:3dPrintedFilesbodyrobotbitv20_source a okh:SourceFile ;
+:3dprintedfilesbodyrobotbitv20_source a okh:SourceFile ;
     rdfs:label "Source File of 3D Printed Files/body_RobotbitV2.0 of Microbit biped 8fde5b0c176fd6af10b52921764b1b66db5cb3e0" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1029/bodyrobotbitv20.STL> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMTU0Nw==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1029/bodyrobotbitv20.STL> .
 
-:3dPrintedFileshead a okh:Part ;
+:3dprintedfileshead a okh:Part ;
     rdfs:label "3D Printed Files/head" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Camilo Parra Palacio" ;
-    okh:source :3dPrintedFileshead_source ;
+    okh:source :3dprintedfileshead_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:3dPrintedFileshead_source a okh:SourceFile ;
+:3dprintedfileshead_source a okh:SourceFile ;
     rdfs:label "Source File of 3D Printed Files/head of Microbit biped 8fde5b0c176fd6af10b52921764b1b66db5cb3e0" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1029/head.STL> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMTU0OA==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1029/head.STL> .
 
-:3dPrintedFileslfoot a okh:Part ;
+:3dprintedfileslfoot a okh:Part ;
     rdfs:label "3D Printed Files/L_foot" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Camilo Parra Palacio" ;
-    okh:source :3dPrintedFileslfoot_source ;
+    okh:source :3dprintedfileslfoot_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:3dPrintedFileslfoot_source a okh:SourceFile ;
+:3dprintedfileslfoot_source a okh:SourceFile ;
     rdfs:label "Source File of 3D Printed Files/L_foot of Microbit biped 8fde5b0c176fd6af10b52921764b1b66db5cb3e0" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1029/lfoot.STL> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMTU0OQ==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1029/lfoot.STL> .
 
-:3dPrintedFileslhand a okh:Part ;
+:3dprintedfileslhand a okh:Part ;
     rdfs:label "3D Printed Files/L_hand" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Camilo Parra Palacio" ;
-    okh:source :3dPrintedFileslhand_source ;
+    okh:source :3dprintedfileslhand_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:3dPrintedFileslhand_source a okh:SourceFile ;
+:3dprintedfileslhand_source a okh:SourceFile ;
     rdfs:label "Source File of 3D Printed Files/L_hand of Microbit biped 8fde5b0c176fd6af10b52921764b1b66db5cb3e0" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1029/lhand.STL> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMTU1MA==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1029/lhand.STL> .
 
-:3dPrintedFileslleg a okh:Part ;
+:3dprintedfileslleg a okh:Part ;
     rdfs:label "3D Printed Files/L_leg" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Camilo Parra Palacio" ;
-    okh:source :3dPrintedFileslleg_source ;
+    okh:source :3dprintedfileslleg_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:3dPrintedFileslleg_source a okh:SourceFile ;
+:3dprintedfileslleg_source a okh:SourceFile ;
     rdfs:label "Source File of 3D Printed Files/L_leg of Microbit biped 8fde5b0c176fd6af10b52921764b1b66db5cb3e0" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1029/lleg.STL> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMTU1MQ==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1029/lleg.STL> .
 
-:3dPrintedFileslshoulder a okh:Part ;
+:3dprintedfileslshoulder a okh:Part ;
     rdfs:label "3D Printed Files/L_shoulder" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Camilo Parra Palacio" ;
-    okh:source :3dPrintedFileslshoulder_source ;
+    okh:source :3dprintedfileslshoulder_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:3dPrintedFileslshoulder_source a okh:SourceFile ;
+:3dprintedfileslshoulder_source a okh:SourceFile ;
     rdfs:label "Source File of 3D Printed Files/L_shoulder of Microbit biped 8fde5b0c176fd6af10b52921764b1b66db5cb3e0" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1029/lshoulder.STL> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMTU1Mw==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1029/lshoulder.STL> .
 
-:3dPrintedFileslsoles a okh:Part ;
+:3dprintedfileslsoles a okh:Part ;
     rdfs:label "3D Printed Files/L_soles" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Camilo Parra Palacio" ;
-    okh:source :3dPrintedFileslsoles_source ;
+    okh:source :3dprintedfileslsoles_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:3dPrintedFileslsoles_source a okh:SourceFile ;
+:3dprintedfileslsoles_source a okh:SourceFile ;
     rdfs:label "Source File of 3D Printed Files/L_soles of Microbit biped 8fde5b0c176fd6af10b52921764b1b66db5cb3e0" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1029/lsoles.STL> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMTU1Mg==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1029/lsoles.STL> .
 
-:3dPrintedFilesrfoot a okh:Part ;
+:3dprintedfilesrfoot a okh:Part ;
     rdfs:label "3D Printed Files/R_foot" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Camilo Parra Palacio" ;
-    okh:source :3dPrintedFilesrfoot_source ;
+    okh:source :3dprintedfilesrfoot_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:3dPrintedFilesrfoot_source a okh:SourceFile ;
+:3dprintedfilesrfoot_source a okh:SourceFile ;
     rdfs:label "Source File of 3D Printed Files/R_foot of Microbit biped 8fde5b0c176fd6af10b52921764b1b66db5cb3e0" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1029/rfoot.STL> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMTU1NA==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1029/rfoot.STL> .
 
-:3dPrintedFilesrhand a okh:Part ;
+:3dprintedfilesrhand a okh:Part ;
     rdfs:label "3D Printed Files/R_hand" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Camilo Parra Palacio" ;
-    okh:source :3dPrintedFilesrhand_source ;
+    okh:source :3dprintedfilesrhand_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:3dPrintedFilesrhand_source a okh:SourceFile ;
+:3dprintedfilesrhand_source a okh:SourceFile ;
     rdfs:label "Source File of 3D Printed Files/R_hand of Microbit biped 8fde5b0c176fd6af10b52921764b1b66db5cb3e0" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1029/rhand.STL> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMTU1NQ==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1029/rhand.STL> .
 
-:3dPrintedFilesrleg a okh:Part ;
+:3dprintedfilesrleg a okh:Part ;
     rdfs:label "3D Printed Files/R_leg" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Camilo Parra Palacio" ;
-    okh:source :3dPrintedFilesrleg_source ;
+    okh:source :3dprintedfilesrleg_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:3dPrintedFilesrleg_source a okh:SourceFile ;
+:3dprintedfilesrleg_source a okh:SourceFile ;
     rdfs:label "Source File of 3D Printed Files/R_leg of Microbit biped 8fde5b0c176fd6af10b52921764b1b66db5cb3e0" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1029/rleg.STL> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMTU1Ng==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1029/rleg.STL> .
 
-:3dPrintedFilesrobotbitv13 a okh:Part ;
+:3dprintedfilesrobotbitv13 a okh:Part ;
     rdfs:label "3D Printed Files/RobotbitV1.3" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Camilo Parra Palacio" ;
-    okh:source :3dPrintedFilesrobotbitv13_source ;
+    okh:source :3dprintedfilesrobotbitv13_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:3dPrintedFilesrobotbitv13_source a okh:SourceFile ;
+:3dprintedfilesrobotbitv13_source a okh:SourceFile ;
     rdfs:label "Source File of 3D Printed Files/RobotbitV1.3 of Microbit biped 8fde5b0c176fd6af10b52921764b1b66db5cb3e0" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1029/robotbitv13.STL> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMTU1OQ==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1029/robotbitv13.STL> .
 
-:3dPrintedFilesrshoulder a okh:Part ;
+:3dprintedfilesrshoulder a okh:Part ;
     rdfs:label "3D Printed Files/R_shoulder" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Camilo Parra Palacio" ;
-    okh:source :3dPrintedFilesrshoulder_source ;
+    okh:source :3dprintedfilesrshoulder_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:3dPrintedFilesrshoulder_source a okh:SourceFile ;
+:3dprintedfilesrshoulder_source a okh:SourceFile ;
     rdfs:label "Source File of 3D Printed Files/R_shoulder of Microbit biped 8fde5b0c176fd6af10b52921764b1b66db5cb3e0" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1029/rshoulder.STL> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMTU1Nw==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1029/rshoulder.STL> .
 
-:3dPrintedFilesrsoles a okh:Part ;
+:3dprintedfilesrsoles a okh:Part ;
     rdfs:label "3D Printed Files/R_soles" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Camilo Parra Palacio" ;
-    okh:source :3dPrintedFilesrsoles_source ;
+    okh:source :3dprintedfilesrsoles_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:3dPrintedFilesrsoles_source a okh:SourceFile ;
+:3dprintedfilesrsoles_source a okh:SourceFile ;
     rdfs:label "Source File of 3D Printed Files/R_soles of Microbit biped 8fde5b0c176fd6af10b52921764b1b66db5cb3e0" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1029/rsoles.STL> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMTU1OA==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1029/rsoles.STL> .
 
 :Image a okh:Image ;
     rdfs:label "Image of Microbit biped 8fde5b0c176fd6af10b52921764b1b66db5cb3e0" ;
     okh:fileFormat "JPG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1029/tb2hguworsrbknjszfpxxcxhfxa_2830157417.jpg> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyNDg3MTM=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1029/tb2hguworsrbknjszfpxxcxhfxa_2830157417.jpg> .
 
-:InstructionManualottoRobotInstructionManual a okh:Part ;
-    rdfs:label "Instruction Manual/OTTO Robot Instruction Manual" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Camilo Parra Palacio" ;
-    okh:source :InstructionManualottoRobotInstructionManual_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:InstructionManualottoRobotInstructionManual_source a okh:SourceFile ;
-    rdfs:label "Source File of Instruction Manual/OTTO Robot Instruction Manual of Microbit biped 8fde5b0c176fd6af10b52921764b1b66db5cb3e0" ;
-    okh:fileFormat "PDF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1029/otto-robot-instruction-manual.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MDM5MzQ=> .
-
-:InstructionManualottoassemblyinstructions a okh:Part ;
+:Instructionmanualottoassemblyinstructions a okh:Part ;
     rdfs:label "Instruction Manual/otto_Assembly_instructions" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Camilo Parra Palacio" ;
-    okh:source :InstructionManualottoassemblyinstructions_source ;
+    okh:source :Instructionmanualottoassemblyinstructions_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:InstructionManualottoassemblyinstructions_source a okh:SourceFile ;
+:Instructionmanualottoassemblyinstructions_source a okh:SourceFile ;
     rdfs:label "Source File of Instruction Manual/otto_Assembly_instructions of Microbit biped 8fde5b0c176fd6af10b52921764b1b66db5cb3e0" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1029/ottoassemblyinstructions.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMTU2Mg==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1029/ottoassemblyinstructions.pdf> .
+
+:Instructionmanualottorobotinstructionmanual a okh:Part ;
+    rdfs:label "Instruction Manual/OTTO Robot Instruction Manual" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Camilo Parra Palacio" ;
+    okh:source :Instructionmanualottorobotinstructionmanual_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Instructionmanualottorobotinstructionmanual_source a okh:SourceFile ;
+    rdfs:label "Source File of Instruction Manual/OTTO Robot Instruction Manual of Microbit biped 8fde5b0c176fd6af10b52921764b1b66db5cb3e0" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1029/otto-robot-instruction-manual.pdf> ;
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1029/otto-robot-instruction-manual.pdf> .
 
 :Readme a okh:Readme ;
     rdfs:label "Readme of Microbit biped 8fde5b0c176fd6af10b52921764b1b66db5cb3e0" ;
     okh:fileFormat "MD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1029/readme-43cf0.md> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MDQwNzQ=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1029/readme-43cf0.md> .
 

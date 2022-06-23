@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A46461/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MendelMountingCradleForRamps14PlusArduino a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Mendel Mounting cradle for Ramps1.4 plus Arduino" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "This is my solution for mounting an Arduino Mega2560 with a Ramps 1.4, inside a mount cradle - to an Alloy Mendel,or others with alloy extrusion with 8mm slots." ;
     okh:hasImage :Image ;
     okh:licensor "maza250" ;
     okh:repo <https://www.thingiverse.com/thing:46461> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:46461> .

@@ -2,15 +2,15 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Ftmekanikacnc a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "ft-mekanika-CNC" ;
     okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "Based on Mekanika's core philosophy, every tool or machine we develop is released under an open source license (CC BY-NC-SA 4.0). This project showcases our ergonomic CNC router, controlled using a Raspberry Pi and offering all the pro features and security that any good milling machine should have." ;
     okh:hasComponent :Billofmaterialsmekanikacncrouter1200x800,
-        :CadmekanikacncRouterspecificParts,
         :Cadmekanikacncrouterassembly,
-        :ElectronicscircuitDiagram,
+        :Cadmekanikacncrouterspecificparts,
+        :Electronicscircuitdiagram,
         :Electronicsplanetcncmotordriver60256,
         :Electronicsplanetcncusbcontrollermk34,
         :Softwareplanetcnctng,
@@ -38,20 +38,7 @@
     rdfs:label "Source File of Bill_Of_Materials_Mekanika_CNC_Router_1200x800 of ft-mekanika-CNC c2524bca5a04d8a7c67707062dd4b072ebed7fc6" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/41540/bill_of_materials_mekanika_cnc_router_1200x800.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDMyOTQ=> .
-
-:CadmekanikacncRouterspecificParts a okh:Part ;
-    rdfs:label "CAD/MEKANIKA_CNC Router_Specific Parts" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Maxime Gravet" ;
-    okh:source :CadmekanikacncRouterspecificParts_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:CadmekanikacncRouterspecificParts_source a okh:SourceFile ;
-    rdfs:label "Source File of CAD/MEKANIKA_CNC Router_Specific Parts of ft-mekanika-CNC c2524bca5a04d8a7c67707062dd4b072ebed7fc6" ;
-    okh:fileFormat "STEP" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/41540/mekanika_cnc_router_specific_parts.step> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDMyOTM=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/41540/bill_of_materials_mekanika_cnc_router_1200x800.pdf> .
 
 :Cadmekanikacncrouterassembly a okh:Part ;
     rdfs:label "CAD/MEKANIKA_CNC_Router_Assembly" ;
@@ -64,20 +51,33 @@
     rdfs:label "Source File of CAD/MEKANIKA_CNC_Router_Assembly of ft-mekanika-CNC c2524bca5a04d8a7c67707062dd4b072ebed7fc6" ;
     okh:fileFormat "STEP" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/41540/mekanika_cnc_router_assembly.step> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDMyOTI=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/41540/mekanika_cnc_router_assembly.step> .
 
-:ElectronicscircuitDiagram a okh:Part ;
+:Cadmekanikacncrouterspecificparts a okh:Part ;
+    rdfs:label "CAD/MEKANIKA_CNC Router_Specific Parts" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Maxime Gravet" ;
+    okh:source :Cadmekanikacncrouterspecificparts_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Cadmekanikacncrouterspecificparts_source a okh:SourceFile ;
+    rdfs:label "Source File of CAD/MEKANIKA_CNC Router_Specific Parts of ft-mekanika-CNC c2524bca5a04d8a7c67707062dd4b072ebed7fc6" ;
+    okh:fileFormat "STEP" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/41540/mekanika_cnc_router_specific_parts.step> ;
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/41540/mekanika_cnc_router_specific_parts.step> .
+
+:Electronicscircuitdiagram a okh:Part ;
     rdfs:label "Electronics/Circuit Diagram" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Maxime Gravet" ;
-    okh:source :ElectronicscircuitDiagram_source ;
+    okh:source :Electronicscircuitdiagram_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:ElectronicscircuitDiagram_source a okh:SourceFile ;
+:Electronicscircuitdiagram_source a okh:SourceFile ;
     rdfs:label "Source File of Electronics/Circuit Diagram of ft-mekanika-CNC c2524bca5a04d8a7c67707062dd4b072ebed7fc6" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/41540/circuit_diagram.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDMzMzU=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/41540/circuit_diagram.pdf> .
 
 :Electronicsplanetcncmotordriver60256 a okh:Part ;
     rdfs:label "Electronics/Planet_CNC_MotorDriver60-256" ;
@@ -90,7 +90,7 @@
     rdfs:label "Source File of Electronics/Planet_CNC_MotorDriver60-256 of ft-mekanika-CNC c2524bca5a04d8a7c67707062dd4b072ebed7fc6" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/41540/planet_cnc_motordriver60-256.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDMzMzQ=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/41540/planet_cnc_motordriver60-256.pdf> .
 
 :Electronicsplanetcncusbcontrollermk34 a okh:Part ;
     rdfs:label "Electronics/Planet_CNC_USB_Controller_Mk3-4" ;
@@ -103,19 +103,19 @@
     rdfs:label "Source File of Electronics/Planet_CNC_USB_Controller_Mk3-4 of ft-mekanika-CNC c2524bca5a04d8a7c67707062dd4b072ebed7fc6" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/41540/planet_cnc_usb_controller_mk3-4.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDMzMzM=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/41540/planet_cnc_usb_controller_mk3-4.pdf> .
 
 :Image a okh:Image ;
     rdfs:label "Image of ft-mekanika-CNC c2524bca5a04d8a7c67707062dd4b072ebed7fc6" ;
     okh:fileFormat "JPG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/41540/82679955_795010104329168_4319256909230912550_n.jpg> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDMyNDk=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/41540/82679955_795010104329168_4319256909230912550_n.jpg> .
 
 :Readme a okh:Readme ;
     rdfs:label "Readme of ft-mekanika-CNC c2524bca5a04d8a7c67707062dd4b072ebed7fc6" ;
     okh:fileFormat "MD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/41540/readme-7c4fb.md> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDMzMjI=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/41540/readme-7c4fb.md> .
 
 :Softwareplanetcnctng a okh:Part ;
     rdfs:label "Software/PlanetCNC_TNG" ;
@@ -128,7 +128,7 @@
     rdfs:label "Source File of Software/PlanetCNC_TNG of ft-mekanika-CNC c2524bca5a04d8a7c67707062dd4b072ebed7fc6" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/41540/planetcnc_tng.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDMzMTI=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/41540/planetcnc_tng.pdf> .
 
 :Softwareplanetcnctngapi a okh:Part ;
     rdfs:label "Software/PlanetCNC_TNG_API" ;
@@ -141,7 +141,7 @@
     rdfs:label "Source File of Software/PlanetCNC_TNG_API of ft-mekanika-CNC c2524bca5a04d8a7c67707062dd4b072ebed7fc6" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/41540/planetcnc_tng_api.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDMzMzE=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/41540/planetcnc_tng_api.pdf> .
 
 :Softwareplanetcnctnggcode a okh:Part ;
     rdfs:label "Software/PlanetCNC_TNG_GCode" ;
@@ -154,5 +154,5 @@
     rdfs:label "Source File of Software/PlanetCNC_TNG_GCode of ft-mekanika-CNC c2524bca5a04d8a7c67707062dd4b072ebed7fc6" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/41540/planetcnc_tng_gcode-77cff.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDMzMTE=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/41540/planetcnc_tng_gcode-77cff.pdf> .
 

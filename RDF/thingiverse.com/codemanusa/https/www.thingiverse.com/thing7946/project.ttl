@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A7946/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MainBearingCap a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Main Bearing Cap" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "Just a slightly modified main bearing cap for a V8 engine. I don't yet own a 3d printer such as the AMAZING makerbot. Would love to see what parts like these will look like." ;
     okh:hasImage :Image ;
     okh:licensor "codemanusa" ;
     okh:repo <https://www.thingiverse.com/thing:7946> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:7946> .

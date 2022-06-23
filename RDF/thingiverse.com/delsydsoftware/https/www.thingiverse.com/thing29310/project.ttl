@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A29310/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:3dPrinterCalculator a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "3D Printer Calculator" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a simple Windows-based application that estimates the weight and price of objects you print on your 3D printer. You supply it with the quantity of filament used (from gCode, etc), the type of material, the material diameter, and the price per kilogram. The application will then estimate the weight and cost of the print. If you want to estimate the cost of multiple prints, just put in a quantity and the application will give you the bulk printing information as well.\r
 \r
 The application has support for ABS, PLA, PVA, and HDPE at the moment. Due to slight variations in material density, conditions,etc. the calculation is not 100% accurate. In my tests, it has been accurate to within about 2-3 grams.\r
@@ -16,6 +18,7 @@ I have provided the source below if anyone wants to port it to another platform.
     okh:repo <https://www.thingiverse.com/thing:29310> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:29310> .

@@ -2,21 +2,15 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:AdafruitNeopxl8FeatherwingForFeatherM4 a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Adafruit NeoPXL8 FeatherWing for Feather M4" ;
-    okh:additionalType "['Electronics']" ;
-    okh:certificationDate "2020-04-28T00:00:00-04:00" ;
-    okh:country "United States of America" ;
     okh:dataSource "oshwa.org" ;
     okh:documentationLanguage "en" ;
-    okh:documentationLicense "CC BY-SA" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function "The library for this brekaout runs on our Feather M4 and handles all the NeoPixeling for you, up to 8 strands of concurrent DMA output each one can be 1750 RGB pixels long for a total of 8 x 1750 = 14000 pixels. Even though you could connect that many pixels, what we think this 'Wing does best is take advantage of DMA + the SAMD51's blazingly-fast 120MHz processor to manage animations for hundreds of pixels with ease Click the link labeled 'Project Website' to find out more." ;
-    okh:hardwareLicense "Other" ;
     okh:licensor "Adafruit Industries, LLC" ;
-    okh:primaryType "Electronics" ;
     okh:repo <https://certification.oshwa.org/us000340.html> ;
     okh:repoHost "certification.oshwa.org" ;
-    okh:softwareLicense "MIT" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
     okh:uploadMethod "auto" ;
     okh:version "Rev B" ;

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A5578/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:BallAndSocketChainLinksWithHoleThrough a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "ball and socket chain links with hole through" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Printable Ball-and-Socket parts suitable for all kinds of applications. Hello helping hands, gorilla pods, coolant hoses. There is a hole in the middle to accomodate cables. Mine will become a small worklight to be screwed inside my printer. \r
 I think i will add some parts over time, like a housing for some leds. \r
 There is also a flange that i didn't print yet. Who is first on this?""" ;
@@ -14,6 +16,7 @@ There is also a flange that i didn't print yet. Who is first on this?""" ;
     okh:repo <https://www.thingiverse.com/thing:5578> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:5578> .

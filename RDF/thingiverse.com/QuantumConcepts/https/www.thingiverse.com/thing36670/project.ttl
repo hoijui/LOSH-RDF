@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A36670/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PrusaDualExtruderDualFrontmountFanXcarriageV2 a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Prusa Dual Extruder, Dual Front-Mount Fan X-Carriage v2" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is an updated version which is more printable. The previous version had some small pointy parts that were too small to print. The parts have been cleaned up and I've printed and assembled them - it works pretty good!\r
 \r
 The benefit to having your fans on the front instead of the side should be obvious. Side fans take up X-space and make your build area smaller. Moving the fans to the front frees up X-space. This is important if you use a 30mm deep fan, which I do.\r
@@ -16,6 +18,7 @@ This is designed to sit on four bearings. I've used 3x metal bearings and 1x pri
     okh:repo <https://www.thingiverse.com/thing:36670> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:36670> .

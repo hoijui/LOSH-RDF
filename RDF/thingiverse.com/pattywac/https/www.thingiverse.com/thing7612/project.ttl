@@ -1,12 +1,14 @@
 @prefix : <https://www.thingiverse.com/thing%3A7612/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:160DesignChallengeUnitedWeMakerbot a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "$160 Design Challenge: United We Makerbot" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
-    okh:function """I purchased Makerbot #182 and for a long time just made improvements based on forum and thingiverse postsâ€¦.. until I started meeting with other Makerbotters in the Madison area (thanks to MBI for the push on this one).  I was inspired by how much better my Makerbot prints are turning out since discussing it with others face to face and so I thoughtâ€¦. What better way to make designs better than to get people working on them together in the â€œUnited We Makerbotâ€ Design Challenge.\r
+    okh:documentationReadinessLevel otrl:Odrl3 ;
+    okh:function """I purchased Makerbot #182 and for a long time just made improvements based on forum and thingiverse postsâ€¦.. until I started meeting with other Makerbotters in the Madison area (thanks to MBI for the push on this one).  I was inspired by how much better my Makerbot prints are turning out since discussing it with others face to face and so I thoughtâ€¦. What better way to make designs better than to get people working on them together in the â€œUnited We Makerbotâ€x9d Design Challenge.\r
 \r
 The prize will be $60 cash (xferd via paypal from me) split between the team members and $100 in Makerbot store credit also split between the team members.\r
 \r
@@ -18,7 +20,7 @@ Here are the rules :\r
 2. Each design needs to be the combined work of two or more people (one person will submit the design and anyone that helped will post a comment on that thing)\r
 3. Post submissions on Thingiverse by 8pm CST on May 1, 2011.\r
 4. Multiple entries are allowed, but they must be distinct from one another.\r
-5. To enter be sure and tag your Thing with the word â€œMakerbotUnitedâ€\r
+5. To enter be sure and tag your Thing with the word â€œMakerbotUnitedâ€x9d\r
 \r
 \r
 The entries will be judged using the following criteria (each category is weighted):\r
@@ -38,6 +40,7 @@ The entries will be judged using the following criteria (each category is weight
     okh:repo <https://www.thingiverse.com/thing:7612> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:7612> .

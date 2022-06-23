@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A23222/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:SdHolderRingForStubbyRingathing a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "SD Holder Ring for Stubby Ring-a-thing" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """If you like my work I hope you'll consider supporting me on Pateron: https://www.patreon.com/3DPrintingProfessor\r
 \r
 Subscribe to me on YouTube: https://www.youtube.com/user/mrjoesays\r
@@ -20,6 +22,7 @@ Yes, I actually use this thing. Every day.""" ;
     okh:repo <https://www.thingiverse.com/thing:23222> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:23222> .

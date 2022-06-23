@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A30643/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:GoproNakedTripodMount a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "GoPro Naked Tripod Mount" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This will hold a "naked" GoPro securely to a tripod. It allows for better sound, clearer picture and connect a USB while recording.\r
 \r
 While it does not hold it tight enough to take a hard hit it is tight enough to keep it from moving around.""" ;
@@ -14,6 +16,7 @@ While it does not hold it tight enough to take a hard hit it is tight enough to 
     okh:repo <https://www.thingiverse.com/thing:30643> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:30643> .

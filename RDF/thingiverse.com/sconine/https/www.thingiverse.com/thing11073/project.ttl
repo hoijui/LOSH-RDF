@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A11073/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ToyTrainTracks a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Toy Train Tracks" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """These are a section of straight train track.  They click together quite nicely, my kids have gotten a kick out of them.  I am working on train wheels and cars that can go on them (early prototype of this in photo).  Certainly not as robust as the keyhole style wooden trains they usually play with, but quite unique and fun none the less.  I've been amazed at how well/fast these print out on my Makerbot Thing-o-matic, even on a very bumpy automated build platform they come out well, the ones in the photos are straight off the printer, no cleanup needed, some tips on that below.\r
 \r
 Hope to make some curved sections in the future.  I drew this stuff in Sketchup and then exported to the stl file.  Just did a full train set, you should check it out here if you like these tracks: http://www.thingiverse.com/thing:11101""" ;
@@ -14,6 +16,7 @@ Hope to make some curved sections in the future.  I drew this stuff in Sketchup 
     okh:repo <https://www.thingiverse.com/thing:11073> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:11073> .

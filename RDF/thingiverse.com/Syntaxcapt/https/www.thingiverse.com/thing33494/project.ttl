@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A33494/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:3dTouchFanDuctThing a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "3d Touch fan duct thing" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a fan duct that can be attached over top of a fan to force air more towards the extruder tip.   Potentially giving better PLA prints.\r
 I always found that printing certain parts in PLA on the 3d touch can be messy (especially small, high res parts with large over hangs).\r
 \r
@@ -16,6 +18,7 @@ Even large flat PLA parts came out really well!""" ;
     okh:repo <https://www.thingiverse.com/thing:33494> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:33494> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A13061/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:AntPoisonWellWithLid a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Ant Poison Well With Lid" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This prints as a set of two parts: A well shaped a bit like a volcano with a filling crater at the top, little tunnels to let ants into the crater, and a lid with a centring stem to keep the rain out. The aim was to have something stable I can put ant poison out in without worrying about what our stupid cats will do.\r
 \r
 The shape I settled on is a broad, flat cone for stability and to lower aerodynamic drag - it's vaguely reminiscent of the tornado ground cameras. The central well is a 45 degree cone to discourage sloshing and to make it more likely that your RepRap will produce a watertight object!""" ;
@@ -14,6 +16,7 @@ The shape I settled on is a broad, flat cone for stability and to lower aerodyna
     okh:repo <https://www.thingiverse.com/thing:13061> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:13061> .

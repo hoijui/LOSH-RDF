@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A4770/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:BuyersGuideAndTestCoupon1 a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Buyer's Guide and Test Coupon 1" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """The PDF file http://www.thingiverse.com/download:14377 below is a free Buyer's Guide for low cost 3D printers, and presents our performance testing results for several systems. It's a document, not an image, so the rendering doesn't seem to be working - anyone have some advice on this?\r
 \r
 The STL file describes an additive manufacturing (3D printing) performance test coupon comprising a pair of 25mm x 25mm x 10mm blocks with hole, pillar, corner, and shelf features. The features are designed to be easily measured and to reveal the performance and limitations of the additive manufacturing system used to build the coupon.  This coupon was employed in the comparison tests of low-cost additive manufacturing systems published in our 3D Printer Buyer's Guide.""" ;
@@ -14,6 +16,7 @@ The STL file describes an additive manufacturing (3D printing) performance test 
     okh:repo <https://www.thingiverse.com/thing:4770> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/BSD-4-Clause> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:4770> .

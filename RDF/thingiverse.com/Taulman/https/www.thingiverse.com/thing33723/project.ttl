@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A33723/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:FlexibleKeypadButtonsInNylon a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Flexible Keypad Button/s in Nylon" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Some systems I design are large and may have multiple keypads.  Usually a main interface, then other small units for minor mech adjustments or mech calibration.\r
 As keypads are usually tooled and die cut, even prototypes are very expensive.  Having the ability to quickly 3D Print a flexible keypad can make prototyping faster, less costly and allow for a true Form-Fit-Function evaluation.""" ;
     okh:hasImage :Image ;
@@ -13,6 +15,7 @@ As keypads are usually tooled and die cut, even prototypes are very expensive.  
     okh:repo <https://www.thingiverse.com/thing:33723> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:33723> .

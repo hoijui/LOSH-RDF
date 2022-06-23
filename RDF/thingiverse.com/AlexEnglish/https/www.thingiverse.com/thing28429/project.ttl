@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A28429/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:CanningJarSproutingLid a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Canning Jar Sprouting Lid" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Use this to make radish, clover, bean, and other healthy, tasty sprouts.\r
 \r
 While I had the idea back when I made my original canning jar lid and started working on accessories, the Germinator Cover by konato is what motivated me to find a good way to print it without relying on infill settings.\r
@@ -16,6 +18,7 @@ I had shelved the project for a while because I hadn't had time to implement a s
     okh:repo <https://www.thingiverse.com/thing:28429> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:28429> .

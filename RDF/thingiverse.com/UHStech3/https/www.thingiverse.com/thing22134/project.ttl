@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A22134/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Series1LandRover a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Series 1 Land Rover" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """First attempt at this model. I have included the body file and back file so you can customise your own Landy or just print out the assembly file.\r
 \r
 Note. The tolerance on the hole in the wheel in not quite right. Run a 2mm drill through them before assembly.\r
@@ -16,6 +18,7 @@ Apologies to any Landy fans out there who may spot some inaccuracies, sure you w
     okh:repo <https://www.thingiverse.com/thing:22134> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:22134> .

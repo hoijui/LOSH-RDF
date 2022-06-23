@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A9699/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PaperPrintableBevelGears a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Paper printable bevel gears" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This was a project I worked on years ago, before Bre and co brought 3d printing to the masses. The idea was to create a number of parts that could be printed on cardstock using a typical inkjet printer and assembled into working mechanical systems. I created the models in 3d Studio and used Tenkai (which is now Pepakura) to generate the printable patterns. Cardstock is remarkably strong at small scales, and the results are pretty durable for being paper. \r
 \r
 This particular item is a set of 45 degree bevel gears that can be used to change the direction of rotation of a shaft by 90 degrees.""" ;
@@ -14,6 +16,7 @@ This particular item is a set of 45 degree bevel gears that can be used to chang
     okh:repo <https://www.thingiverse.com/thing:9699> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:9699> .

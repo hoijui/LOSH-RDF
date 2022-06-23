@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A18291/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ExplodedPlanetaryGearSet a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Exploded Planetary Gear Set" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """A working model of a planetary gear set.  This model also allows the gear set to be exploded which gives a better view of the internals.  This is accomplished by pulling the ring and sun apart.  In its compressed or exploded form, the gear set is functional.\r
 \r
 The ratios are as follows:\r
@@ -19,6 +21,7 @@ http://auto.howstuffworks.com/automatic-transmission3.htm""" ;
     okh:repo <https://www.thingiverse.com/thing:18291> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:18291> .

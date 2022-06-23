@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A12303/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PrintbedLedLighting a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Printbed LED Lighting" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """A LED lighting solution for the print bed / print head.\r
 This uses an adhesive strip of LED's which run at 12Vdc so you can connect them to a cooling fan supply etc.\r
 \r
@@ -20,6 +22,7 @@ Also comes with free printable trolley coin for pupping in the grocery trolley a
     okh:repo <https://www.thingiverse.com/thing:12303> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:12303> .

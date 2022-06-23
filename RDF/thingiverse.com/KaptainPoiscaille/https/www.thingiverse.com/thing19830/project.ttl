@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A19830/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:TestTubeRackForAntRearing a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Test tube rack for ant rearing" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """The test tube rack is an accessory for ant rearing. Test tubes are used by entomologists for catching and rearing ants. This tube rack is designed to hold tubes horizontally and prevent them from rolling. Test tubes are tilted from  1 degree, helping tubes to stay in place and preventing flood.\r
 Designed for 16,3mmx160mm test tubes.\r
 Made with the help of FabLab Lille http://www.fablablille.fr""" ;
@@ -14,6 +16,7 @@ Made with the help of FabLab Lille http://www.fablablille.fr""" ;
     okh:repo <https://www.thingiverse.com/thing:19830> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:19830> .

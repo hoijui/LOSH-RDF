@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A17209/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:HexagonalGameTileBasesAndCutters a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Hexagonal game tile bases and cutters" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Someone I know is hand-making a game that uses hexagonal pieces. They are using epoxy modelling clay and other miniature figure making materials. When I saw they were cutting the bases by hand I offered to print simple plastic bases for them or make a convenient hexagon "cookie-cutter" so that they would line up with each other better. These pieces are 33mm along a side or 66mm from two opposite points... so they are smaller than Catan pieces (which are 45mm on a side and 90mm across BTW), however as the script is parametric it could be modified to make compatible tiles.\r
 \r
 Changes from previous versions:\r
@@ -21,6 +23,7 @@ Changes from previous versions:\r
     okh:repo <https://www.thingiverse.com/thing:17209> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:17209> .

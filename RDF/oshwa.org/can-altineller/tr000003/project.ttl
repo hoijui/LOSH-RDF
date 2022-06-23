@@ -2,14 +2,11 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Fximu a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "FXIMU" ;
-    okh:additionalType "['Education', 'Electronics', 'Robotics', 'Science', 'Tool']" ;
-    okh:certificationDate "2021-03-16T00:00:00-04:00" ;
-    okh:country "Turkey" ;
     okh:dataSource "oshwa.org" ;
     okh:documentationLanguage "en" ;
-    okh:documentationLicense "CC BY-SA" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function """Plug and play IMU sensor for ROS.
 
 FXIMU utilizes a port of ROS's complementary filter on the TM4C123 MCU using the NXP semiconductor FXOS8700 accelerometer magnetometer and FXAS21002 gyro sensor.
@@ -17,12 +14,9 @@ FXIMU utilizes a port of ROS's complementary filter on the TM4C123 MCU using the
 It works with ROS without any problems, does not require drivers, uses standard message types, and is open source.
 
 You can modify the firmware for your application. Notice, this is a hardware and software project, source code for the firmware is open source, and well documented.""" ;
-    okh:hardwareLicense "CERN" ;
     okh:licensor "Can Altineller" ;
-    okh:primaryType "Robotics" ;
     okh:repo <https://certification.oshwa.org/tr000003.html> ;
     okh:repoHost "certification.oshwa.org" ;
-    okh:softwareLicense "GPL" ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
     okh:uploadMethod "auto" ;
     okh:version "3" ;

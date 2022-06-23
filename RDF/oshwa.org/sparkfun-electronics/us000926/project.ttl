@@ -2,20 +2,15 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:FemtobuckLedDriver a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "FemtoBuck LED Driver" ;
-    okh:certificationDate "2020-12-18T00:00:00-05:00" ;
-    okh:country "United States of America" ;
     okh:dataSource "oshwa.org" ;
     okh:documentationLanguage "en" ;
-    okh:documentationLicense "CC BY-SA" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function "This is the FemtoBuck, a small-size single-output constant current LED driver. Each FemtoBuck has the capability to dim a single high-power channel of LEDs from 0-350mA at up to 36V while the dimming control can be either accessed via PWM or analog signal from 0-2.5V. This board is based off of the PicoBuck LED Driver, developed in collaboration with Ethan Zonca, except instead of blending three different LEDs on three different channels the FemtoBuck controls just one." ;
-    okh:hardwareLicense "CERN" ;
     okh:licensor "SparkFun Electronics" ;
-    okh:primaryType "Electronics" ;
     okh:repo <https://certification.oshwa.org/us000926.html> ;
     okh:repoHost "certification.oshwa.org" ;
-    okh:softwareLicense "MIT" ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
     okh:uploadMethod "auto" ;
     okh:version "v12" ;

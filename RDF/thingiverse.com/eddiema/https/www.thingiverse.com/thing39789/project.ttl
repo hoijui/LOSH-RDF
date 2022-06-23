@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A39789/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PrintrbotCableChainStepperMount a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "printrbot cable chain stepper mount." ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """A cable chain bottom link which screws onto the printrbot  left Z motor mount.\r
 This is for the basic plastic version with my improved stepper mounts/bases.\r
 I've made many variations and left them in the SU file. \r
@@ -17,6 +19,7 @@ The chain is now in use but having used it I think an open (non-enclosed) system
     okh:repo <https://www.thingiverse.com/thing:39789> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:39789> .

@@ -2,13 +2,13 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ScreenPrintingPress a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Screen Printing Press" ;
     okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "Based on Mekanika's core philosophy, every tool or machine we develop is released under an open source license (CC BY-NC-SA 4.0). This project showcases an affordable one-colour press. It is the ideal tool to start learning screen printing, but also to start a small business or an artistic project." ;
-    okh:hasComponent :CadFilesmekanikaScreenPrintingPressV2millingAssembly,
-        :CadFilesscreenprintingpressv2assembly,
+    okh:hasComponent :Cadfilesmekanikascreenprintingpressv2millingassembly,
+        :Cadfilesscreenprintingpressv2assembly,
         :Screenprintingpressv2mountingguideen ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
@@ -22,43 +22,43 @@
     okh:version "a64d0405858ecfbb8e0506fdfb34eacad2b4a943" ;
     okh:versionOf <https://wikifactory.com/+mekanika/screen-printing-press> .
 
-:CadFilesmekanikaScreenPrintingPressV2millingAssembly a okh:Part ;
+:Cadfilesmekanikascreenprintingpressv2millingassembly a okh:Part ;
     rdfs:label "CAD Files/Mekanika Screen Printing Press V2_Milling Assembly" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Maxime Gravet" ;
-    okh:source :CadFilesmekanikaScreenPrintingPressV2millingAssembly_source ;
+    okh:source :Cadfilesmekanikascreenprintingpressv2millingassembly_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:CadFilesmekanikaScreenPrintingPressV2millingAssembly_source a okh:SourceFile ;
+:Cadfilesmekanikascreenprintingpressv2millingassembly_source a okh:SourceFile ;
     rdfs:label "Source File of CAD Files/Mekanika Screen Printing Press V2_Milling Assembly of Screen Printing Press a64d0405858ecfbb8e0506fdfb34eacad2b4a943" ;
     okh:fileFormat "STEP" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/50951/mekanika_screen_printing_press_v2_milling_assembly.STEP> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozNTcwNTk=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/50951/mekanika_screen_printing_press_v2_milling_assembly.STEP> .
 
-:CadFilesscreenprintingpressv2assembly a okh:Part ;
+:Cadfilesscreenprintingpressv2assembly a okh:Part ;
     rdfs:label "CAD Files/Screen_Printing_Press_V2_Assembly" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Maxime Gravet" ;
-    okh:source :CadFilesscreenprintingpressv2assembly_source ;
+    okh:source :Cadfilesscreenprintingpressv2assembly_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:CadFilesscreenprintingpressv2assembly_source a okh:SourceFile ;
+:Cadfilesscreenprintingpressv2assembly_source a okh:SourceFile ;
     rdfs:label "Source File of CAD Files/Screen_Printing_Press_V2_Assembly of Screen Printing Press a64d0405858ecfbb8e0506fdfb34eacad2b4a943" ;
     okh:fileFormat "STEP" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/50951/screen_printing_press_v2_assembly.STEP> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozNTcwNTc=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/50951/screen_printing_press_v2_assembly.STEP> .
 
 :Image a okh:Image ;
     rdfs:label "Image of Screen Printing Press a64d0405858ecfbb8e0506fdfb34eacad2b4a943" ;
     okh:fileFormat "JPG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/50951/how_to_prepare_a_screen.jpg> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozNTIwMjg=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/50951/how_to_prepare_a_screen.jpg> .
 
 :Readme a okh:Readme ;
     rdfs:label "Readme of Screen Printing Press a64d0405858ecfbb8e0506fdfb34eacad2b4a943" ;
     okh:fileFormat "MD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/50951/readme-7951d.md> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozNjA0NDE=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/50951/readme-7951d.md> .
 
 :Screenprintingpressv2mountingguideen a okh:Part ;
     rdfs:label "Screen_Printing_Press_V2_Mounting_Guide_EN" ;
@@ -71,5 +71,5 @@
     rdfs:label "Source File of Screen_Printing_Press_V2_Mounting_Guide_EN of Screen Printing Press a64d0405858ecfbb8e0506fdfb34eacad2b4a943" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/50951/screen_printing_press_v2_mounting_guide_en.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozNTcwNTM=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/50951/screen_printing_press_v2_mounting_guide_en.pdf> .
 

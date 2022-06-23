@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A33779/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ReplicatorMightyboardAirflowRework a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Replicator MightyBoard Airflow Rework" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """The standard fan positioned to cool the MightyBoard can be reworked to greatly improve the cooling.  Maybe we can avoid a few popped voltage regulators.  Very little here is original; I've simply appropriated and combined several fine things.\r
 \r
 As it originally sits, the fan is positioned to draw air mostly from the heated build chamber.  What's more, free standing as it is, it also largely just recirculates the warm air under the base plate; there is little cooling airflow.\r
@@ -18,6 +20,7 @@ UPDATED 12/03/2012""" ;
     okh:repo <https://www.thingiverse.com/thing:33779> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:33779> .

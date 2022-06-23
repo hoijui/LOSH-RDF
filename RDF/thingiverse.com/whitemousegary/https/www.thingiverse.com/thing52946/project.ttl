@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A52946/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:CalibrateYour3dPrinterToPrintPartsToFit a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Calibrate your 3D printer to print parts to fit" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """( Just in case the text formatting were jerked up, the article in PDF format is available at http://www.thingiverse.com/download:2091544 )\r
 \r
 I have my Thing-O-Matic for a year now.  From time to time, I tried to calibrate it to print parts to fit.  Finally, I got it done (See http://youtube.com/watch?v=lQbvfiZAm-c).  It turns out I just had the edge width and the scaling wrong. If you also have the problem to print parts to fit, read this article.  It might work for you too. Here are the symptoms of the problem I'm trying to fix.  \r
@@ -104,6 +106,7 @@ Will this method work with older versions of Skeinforge?\r
     okh:repo <https://www.thingiverse.com/thing:52946> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:52946> .

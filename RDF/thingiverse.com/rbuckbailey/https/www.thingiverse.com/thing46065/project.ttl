@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A46065/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:SettlersOfCatanRoundPlayerPieces a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Settlers of Catan Round Player Pieces" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I built these pieces to use with JAWong's 3D Catan Pieces ( http://www.thingiverse.com/thing:26979 ). They're scaled to fit in the holes and tracks inset in those pieces. Set is ready to print, once per player, in color or all in white/natural then paint or dye.\r
 \r
 2016/2/4 Edit: thanks Kris Vanocker for the Resource Card art!""" ;
@@ -14,6 +16,7 @@
     okh:repo <https://www.thingiverse.com/thing:46065> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:46065> .

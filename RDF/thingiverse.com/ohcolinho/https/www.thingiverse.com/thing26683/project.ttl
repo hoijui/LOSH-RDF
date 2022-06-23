@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A26683/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:WatchBand a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Watch Band" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Why would you just tell the time, when you could tell the time from a watch on a 3D printed watch band!\r
 \r
 This is a 3D printable one-piece watch band that is strong, functional and light. It fits watches that have a 22mm lug width, and a lug to lug distance of 46.2mm (I designed it to fit a Seiko SNDA65 watch).\r
@@ -17,6 +19,7 @@ I posted the design process for this watch band on my blog: http://colin-ho.com/
     okh:repo <https://www.thingiverse.com/thing:26683> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:26683> .

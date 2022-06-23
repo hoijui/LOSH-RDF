@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A2479/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:HeloModelRocketLaunchPadestesStyle a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Helo model Rocket & Launch Pad (Estes Style)" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This Item is still a work in progress. Need to figure out how to add hinges to make the rocket lets flip out. Help requested!  
 
 
@@ -15,6 +17,7 @@ How many times did you lose that model rocket you spent hours on as a kid? Stuck
     okh:repo <https://www.thingiverse.com/thing:2479> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:2479> .

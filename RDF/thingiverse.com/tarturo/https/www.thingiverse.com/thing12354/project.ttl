@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A12354/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:3dInitialsLogoMakeYourOwn a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "3D Initials Logo - Make your own" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I saw this http://www.thingiverse.com/thing:3252 and a year later i had the idea to make my own with the initials of my family members as a gift.\r
 Here are the files for the main design and then the printing plates.\r
 I did this with tinkercad so it's mostly a guide to make your own... (i don't think anyone would print mines)\r
@@ -26,6 +28,7 @@ SMA https://tinkercad.com/p/acc0694dc9cbceef/20""" ;
     okh:repo <https://www.thingiverse.com/thing:12354> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:12354> .

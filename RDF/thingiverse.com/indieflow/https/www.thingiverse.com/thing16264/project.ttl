@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A16264/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MountsForGeneration7Electronics a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Mounts for Generation 7 Electronics" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """After recently completing my first 3D printer (Prusa), along with Generation 7 Electronics and opto endstops, I struggled to find some decent mounts to suit my needs.\r
 \r
 These are based on the recent Prusa Iteration 2 release with integrated m3 nut catchers.\r
@@ -16,6 +18,7 @@ Simple, minamalistic and can be mounted anywhere around your frame!""" ;
     okh:repo <https://www.thingiverse.com/thing:16264> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:16264> .

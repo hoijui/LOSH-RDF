@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A55808/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PrintrbotGlassClipsForWindowGlass a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Printrbot + glass clips for window glass" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a newly made glass clip to hold 8" by 8" regular window glass you can buy at the hardware store to the bed of a Printrbot +.  For some reason the clip this is descended from didn't clip it tightly enough.  This is made from scratch but I got the idea from the other glass clip.  
 
 Edit: This was designed to work on a Printrbot + V1 with the bed leveling springs addon.  I don't know if it'll work with the V2 or without the springs as the size of the clips might interfere with other screws.""" ;
@@ -14,6 +16,7 @@ Edit: This was designed to work on a Printrbot + V1 with the bed leveling spring
     okh:repo <https://www.thingiverse.com/thing:55808> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:55808> .

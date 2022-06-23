@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A31664/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:yetAnotherTwistedLampVase a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "(Yet Another) Twisted Lamp / Vase" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Sexy little lamp/vase if I do say so myself.  Pics taken with a little LED tea light inside.\r
 \r
 1/26/13 - Currently available for sale at the 3DEA/Openhouse Gallery in NYC along with several of my other designs (and more awesome objects by others)! If you want one, don't have a printer, and are in New York, now's your chance. The store will be open through February 17. :D\r
@@ -15,6 +17,7 @@ http://3dea.openhouse.me/3dea/""" ;
     okh:repo <https://www.thingiverse.com/thing:31664> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:31664> .

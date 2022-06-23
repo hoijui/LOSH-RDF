@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A39020/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:GingerzombiesTheWalkingBread a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Gingerzombies: The Walking Bread" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """All they want for Christmas is your brains. This set of cookie cutters includes one walker and one running victim.\r
 \r
 Making gingerzombie cookie cutters ain't like dustin' crops, boy. Read all the gory details at the blog:\r
@@ -16,6 +18,7 @@ http://zheng3.wordpress.com/2012/12/23/a-cookie-cutter-blog-post/""" ;
     okh:repo <https://www.thingiverse.com/thing:39020> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:39020> .

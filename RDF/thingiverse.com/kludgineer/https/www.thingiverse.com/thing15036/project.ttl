@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A15036/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:9mmBeltSplittingJig a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "9mm Belt Splitting Jig" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Save money on your belts by splitting a 9mm belt into two 4.5mm belts. They work fine with 6mm pulleys, and 4.5mm is plenty strong for the loads we typically use.\r
 \r
 For help choosing the best belts and pulleys for a RepRap, see http://mendelmax.com/tikiwiki/tiki-index.php?page=Choosing+Belts+and+Pulleys""" ;
@@ -14,6 +16,7 @@ For help choosing the best belts and pulleys for a RepRap, see http://mendelmax.
     okh:repo <https://www.thingiverse.com/thing:15036> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:15036> .

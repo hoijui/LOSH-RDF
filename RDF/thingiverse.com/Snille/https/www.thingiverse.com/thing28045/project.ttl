@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A28045/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:EmakerHuxleyExtendedVertexParts a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "eMaker Huxley Extended Vertex Parts" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I made these extended vertex parts to solve the problem with the blue fan hitting the threaded rod when printing tall objects. This parts replace the old once but you can still use your old threaded rods. Basically it is an in place replacement for your current vertex parts.\r
 In the pictures, you see the original ones in the middle.""" ;
     okh:hasImage :Image ;
@@ -13,6 +15,7 @@ In the pictures, you see the original ones in the middle.""" ;
     okh:repo <https://www.thingiverse.com/thing:28045> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:28045> .

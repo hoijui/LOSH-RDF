@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A57277/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:BottomplatecornerLr3dplexiprinter a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Bottomplate_corner L&R 3d-plexi-printer" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a piece to hold a led strip (3mm) and mount at the back side of the printer body on the bottom plate.\r
 \r
 Since I will make my printer from plexi glass the light from the leds will illuminate the bottom plate (hopefully). I will show you the result if my new 3d-plexi-printer is ready.""" ;
@@ -14,6 +16,7 @@ Since I will make my printer from plexi glass the light from the leds will illum
     okh:repo <https://www.thingiverse.com/thing:57277> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:57277> .

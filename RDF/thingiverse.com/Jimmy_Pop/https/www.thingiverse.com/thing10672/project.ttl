@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A10672/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:SamsungGalaxySPhoneSkateboardMount a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Samsung Galaxy S phone skateboard mount" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a simple mount to attach a mobile phone to a skateboard to record movies. It is made to match the shape of a Samsung Galaxy S but may be modified to fit other phones easily. The mount is split in two pieces which makes it easy to print and also allows to easily detach the phone from the skateboard when not in use without having to unscrew anything. The bottom piece is meant to be screwed to the board. The holes are made to match the existing holes in the board used to hold the wheels, some boards (specially longboards) have spare holes so you can change the distance between the wheels. These spare holes can be used to hold the bottom piece. If you don't have spare holes you might need to make them :-(.\r
 \r
 The union between the two pieces is based on friction and there's 1mm of gap between the hole and the peg, depending on your printing results you may need to adjust this so that they hold tightly.\r
@@ -20,6 +22,7 @@ UPDATE #2: Here comes a lame video I recorded using this: http://www.youtube.com
     okh:repo <https://www.thingiverse.com/thing:10672> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:10672> .

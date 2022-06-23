@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A20032/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:608BearingGuideForPrusaMendel a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "608 Bearing Guide for Prusa Mendel" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "I modified the bearing guides from Prusa Iteration 2 (https://github.com/prusajr/PrusaMendel/blob/master/source/bearing-guide.scad) that was designed by Greg Frost. The original has the outer race on one half and the inner race on the other half. There was also a 0.3 mm allowance between the two so that when put together, it's hard to make them concentric. My modification puts the inner and outer races on the same half and removes the clearance. On a properly tuned 3D printer, the two parts snap easily together. If the printer is not quite tuned right, the printed parts are more likey to be usable than the old design." ;
     okh:hasImage :Image ;
     okh:licensor "brnrd" ;
     okh:repo <https://www.thingiverse.com/thing:20032> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:20032> .

@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A6829/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MemoryCoverForSonyVaio a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Memory cover for Sony Vaio" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "I picked up an older Sony Vaio at the thrift store, but it was missing the memory and the memory cover.  The previous user thought they had removed the hard drive, lol!  This fits the PCQ-6Q1L" ;
     okh:hasImage :Image ;
     okh:licensor "naldarn" ;
     okh:repo <https://www.thingiverse.com/thing:6829> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:6829> .

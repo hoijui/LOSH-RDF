@@ -2,14 +2,14 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:RainwaterFilter a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Rainwater filter" ;
     okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "This is a very efficient, 3D printed, self-cleaning rainwater filter to collect rainwater for watering plants." ;
-    okh:hasComponent :BottomFilter,
-        :StructureBody,
-        :TopFilter ;
+    okh:hasComponent :Bottomfilter,
+        :Structurebody,
+        :Topfilter ;
     okh:licensor "Enrico Bassi" ;
     okh:release <https://wikifactory.com/@eb/rainwater-filter/v/ae11955> ;
     okh:repo <https://wikifactory.com/@eb/rainwater-filter> ;
@@ -19,42 +19,42 @@
     okh:version "ae1195502b836a730ce8920ca08866718556d0ef" ;
     okh:versionOf <https://wikifactory.com/@eb/rainwater-filter> .
 
-:BottomFilter a okh:Part ;
+:Bottomfilter a okh:Part ;
     rdfs:label "bottom filter" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Enrico Bassi" ;
-    okh:source :BottomFilter_source ;
+    okh:source :Bottomfilter_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> .
 
-:BottomFilter_source a okh:SourceFile ;
+:Bottomfilter_source a okh:SourceFile ;
     rdfs:label "Source File of bottom filter of Rainwater filter ae1195502b836a730ce8920ca08866718556d0ef" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/155723/bottom-filter.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2Nzc3MTE=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/155723/bottom-filter.stl> .
 
-:StructureBody a okh:Part ;
+:Structurebody a okh:Part ;
     rdfs:label "structure body" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Enrico Bassi" ;
-    okh:source :StructureBody_source ;
+    okh:source :Structurebody_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> .
 
-:StructureBody_source a okh:SourceFile ;
+:Structurebody_source a okh:SourceFile ;
     rdfs:label "Source File of structure body of Rainwater filter ae1195502b836a730ce8920ca08866718556d0ef" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/155723/structure-body.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2Nzc3MTA=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/155723/structure-body.stl> .
 
-:TopFilter a okh:Part ;
+:Topfilter a okh:Part ;
     rdfs:label "top filter" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Enrico Bassi" ;
-    okh:source :TopFilter_source ;
+    okh:source :Topfilter_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> .
 
-:TopFilter_source a okh:SourceFile ;
+:Topfilter_source a okh:SourceFile ;
     rdfs:label "Source File of top filter of Rainwater filter ae1195502b836a730ce8920ca08866718556d0ef" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/155723/top-filter.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2Nzc3MTI=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/155723/top-filter.stl> .
 

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A29308/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PicavetFor2LiterBottleAerialPhotography a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Picavet for 2 liter bottle aerial photography" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """A design for adding a picavet (suspension system/gimble) to the pop bottle camera mounts at http://www.publiclaboratory.org/wiki/pet-bottle-rubber-band-rig\r
 \r
 The design uses bicycle chain links as low-friction pulleys. You can use a M3 or 4/40 eye bolt instead \r
@@ -16,6 +18,7 @@ Weight with zip ties & 4 pulleys is 34grams (mark 5 design)""" ;
     okh:repo <https://www.thingiverse.com/thing:29308> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:29308> .

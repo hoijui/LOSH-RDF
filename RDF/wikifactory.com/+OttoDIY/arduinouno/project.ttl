@@ -2,18 +2,18 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Arduinouno a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "ArduinoUNO" ;
     okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "Biped robot now can be made usin the Arduino UNO board" ;
-    okh:hasComponent :3dPrintedPartsheadottobigunomatrix,
-        :3dPrintedPartsottodiyarduinounoall,
-        :3dPrintedPartsottodiyarduinounobody,
-        :3dPrintedPartsottodiyarduinounofootleft,
-        :3dPrintedPartsottodiyarduinounofootright,
-        :3dPrintedPartsottodiyarduinounohead,
-        :3dPrintedPartsottodiyarduinounoleg ;
+    okh:hasComponent :3dprintedpartsheadottobigunomatrix,
+        :3dprintedpartsottodiyarduinounoall,
+        :3dprintedpartsottodiyarduinounobody,
+        :3dprintedpartsottodiyarduinounofootleft,
+        :3dprintedpartsottodiyarduinounofootright,
+        :3dprintedpartsottodiyarduinounohead,
+        :3dprintedpartsottodiyarduinounoleg ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "Camilo Parra Palacio" ;
@@ -26,106 +26,106 @@
     okh:version "fe4349ad7dbdbce734b6cfa243c6bbe517517082" ;
     okh:versionOf <https://wikifactory.com/+OttoDIY/arduinouno> .
 
-:3dPrintedPartsheadottobigunomatrix a okh:Part ;
+:3dprintedpartsheadottobigunomatrix a okh:Part ;
     rdfs:label "3D Printed Parts/Head_Otto_Big_Uno__matrix" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Camilo Parra Palacio" ;
-    okh:source :3dPrintedPartsheadottobigunomatrix_source ;
+    okh:source :3dprintedpartsheadottobigunomatrix_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:3dPrintedPartsheadottobigunomatrix_source a okh:SourceFile ;
+:3dprintedpartsheadottobigunomatrix_source a okh:SourceFile ;
     rdfs:label "Source File of 3D Printed Parts/Head_Otto_Big_Uno__matrix of ArduinoUNO fe4349ad7dbdbce734b6cfa243c6bbe517517082" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1428/headottobigunomatrix.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxOTYzMjU=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1428/headottobigunomatrix.stl> .
 
-:3dPrintedPartsottodiyarduinounoall a okh:Part ;
+:3dprintedpartsottodiyarduinounoall a okh:Part ;
     rdfs:label "3D Printed Parts/OttoDIY_ArduinoUNO_ALL" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Camilo Parra Palacio" ;
-    okh:source :3dPrintedPartsottodiyarduinounoall_source ;
+    okh:source :3dprintedpartsottodiyarduinounoall_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:3dPrintedPartsottodiyarduinounoall_source a okh:SourceFile ;
+:3dprintedpartsottodiyarduinounoall_source a okh:SourceFile ;
     rdfs:label "Source File of 3D Printed Parts/OttoDIY_ArduinoUNO_ALL of ArduinoUNO fe4349ad7dbdbce734b6cfa243c6bbe517517082" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1428/ottodiyarduinounoall.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxNDAwMA==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1428/ottodiyarduinounoall.stl> .
 
-:3dPrintedPartsottodiyarduinounobody a okh:Part ;
+:3dprintedpartsottodiyarduinounobody a okh:Part ;
     rdfs:label "3D Printed Parts/OttoDIY_ArduinoUNO_body" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Camilo Parra Palacio" ;
-    okh:source :3dPrintedPartsottodiyarduinounobody_source ;
+    okh:source :3dprintedpartsottodiyarduinounobody_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:3dPrintedPartsottodiyarduinounobody_source a okh:SourceFile ;
+:3dprintedpartsottodiyarduinounobody_source a okh:SourceFile ;
     rdfs:label "Source File of 3D Printed Parts/OttoDIY_ArduinoUNO_body of ArduinoUNO fe4349ad7dbdbce734b6cfa243c6bbe517517082" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1428/ottodiyarduinounobody.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMzk5OQ==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1428/ottodiyarduinounobody.stl> .
 
-:3dPrintedPartsottodiyarduinounofootleft a okh:Part ;
+:3dprintedpartsottodiyarduinounofootleft a okh:Part ;
     rdfs:label "3D Printed Parts/OttoDIY_ArduinoUNO_footleft" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Camilo Parra Palacio" ;
-    okh:source :3dPrintedPartsottodiyarduinounofootleft_source ;
+    okh:source :3dprintedpartsottodiyarduinounofootleft_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:3dPrintedPartsottodiyarduinounofootleft_source a okh:SourceFile ;
+:3dprintedpartsottodiyarduinounofootleft_source a okh:SourceFile ;
     rdfs:label "Source File of 3D Printed Parts/OttoDIY_ArduinoUNO_footleft of ArduinoUNO fe4349ad7dbdbce734b6cfa243c6bbe517517082" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1428/ottodiyarduinounofootleft.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxNDAwMQ==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1428/ottodiyarduinounofootleft.stl> .
 
-:3dPrintedPartsottodiyarduinounofootright a okh:Part ;
+:3dprintedpartsottodiyarduinounofootright a okh:Part ;
     rdfs:label "3D Printed Parts/OttoDIY_ArduinoUNO_footright" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Camilo Parra Palacio" ;
-    okh:source :3dPrintedPartsottodiyarduinounofootright_source ;
+    okh:source :3dprintedpartsottodiyarduinounofootright_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:3dPrintedPartsottodiyarduinounofootright_source a okh:SourceFile ;
+:3dprintedpartsottodiyarduinounofootright_source a okh:SourceFile ;
     rdfs:label "Source File of 3D Printed Parts/OttoDIY_ArduinoUNO_footright of ArduinoUNO fe4349ad7dbdbce734b6cfa243c6bbe517517082" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1428/ottodiyarduinounofootright.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxNDAwMg==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1428/ottodiyarduinounofootright.stl> .
 
-:3dPrintedPartsottodiyarduinounohead a okh:Part ;
+:3dprintedpartsottodiyarduinounohead a okh:Part ;
     rdfs:label "3D Printed Parts/OttoDIY_ArduinoUNO_head" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Camilo Parra Palacio" ;
-    okh:source :3dPrintedPartsottodiyarduinounohead_source ;
+    okh:source :3dprintedpartsottodiyarduinounohead_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:3dPrintedPartsottodiyarduinounohead_source a okh:SourceFile ;
+:3dprintedpartsottodiyarduinounohead_source a okh:SourceFile ;
     rdfs:label "Source File of 3D Printed Parts/OttoDIY_ArduinoUNO_head of ArduinoUNO fe4349ad7dbdbce734b6cfa243c6bbe517517082" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1428/ottodiyarduinounohead.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxNDAwMw==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1428/ottodiyarduinounohead.stl> .
 
-:3dPrintedPartsottodiyarduinounoleg a okh:Part ;
+:3dprintedpartsottodiyarduinounoleg a okh:Part ;
     rdfs:label "3D Printed Parts/OttoDIY_ArduinoUNO_leg" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Camilo Parra Palacio" ;
-    okh:source :3dPrintedPartsottodiyarduinounoleg_source ;
+    okh:source :3dprintedpartsottodiyarduinounoleg_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:3dPrintedPartsottodiyarduinounoleg_source a okh:SourceFile ;
+:3dprintedpartsottodiyarduinounoleg_source a okh:SourceFile ;
     rdfs:label "Source File of 3D Printed Parts/OttoDIY_ArduinoUNO_leg of ArduinoUNO fe4349ad7dbdbce734b6cfa243c6bbe517517082" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1428/ottodiyarduinounoleg.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxNDAwNA==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1428/ottodiyarduinounoleg.stl> .
 
 :Image a okh:Image ;
     rdfs:label "Image of ArduinoUNO fe4349ad7dbdbce734b6cfa243c6bbe517517082" ;
     okh:fileFormat "JPG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1428/ottodiyarduinouno-0.jpg> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMzk5Nw==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1428/ottodiyarduinouno-0.jpg> .
 
 :Readme a okh:Readme ;
     rdfs:label "Readme of ArduinoUNO fe4349ad7dbdbce734b6cfa243c6bbe517517082" ;
     okh:fileFormat "MD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1428/readme-69570.md> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyMDc3OTE=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1428/readme-69570.md> .
 

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A15197/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Mk6ExtruderDriveUsing1275mmDriveGear a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "MK6 Extruder Drive using 12.75mm Drive Gear" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Same as my previous version except using the larger drive wheel from McMaster Carr Part Number 6867K557.  
 
 Also added the Quick Release design and ancestry for convenience.  
@@ -22,6 +24,7 @@ My setup here was modified slightly to gain 100% reliable performance.  My longe
     okh:repo <https://www.thingiverse.com/thing:15197> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:15197> .

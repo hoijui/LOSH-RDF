@@ -2,21 +2,15 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:FloraAccelerometercompassSensorLsm303 a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "FLORA Accelerometer/Compass Sensor - LSM303" ;
-    okh:additionalType "['Electronics']" ;
-    okh:certificationDate "2020-04-30T00:00:00-04:00" ;
-    okh:country "United States of America" ;
     okh:dataSource "oshwa.org" ;
     okh:documentationLanguage "en" ;
-    okh:documentationLicense "CC BY-SA" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function "Inside are two sensors, one is a classic 3-axis accelerometer, which can tell you which direction is down towards the Earth or how fast the board is accelerating in 3D space. The other is a magnetometer that can sense where the strongest magnetic force is coming from, generally used to detect magnetic north. This accelerometer is part of the Adafruit Flora series of wearable electronics. Click the link labeled 'Project Website' to find out more." ;
-    okh:hardwareLicense "Other" ;
     okh:licensor "Adafruit Industries, LLC" ;
-    okh:primaryType "Electronics" ;
     okh:repo <https://certification.oshwa.org/us000446.html> ;
     okh:repoHost "certification.oshwa.org" ;
-    okh:softwareLicense "MIT" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
     okh:uploadMethod "auto" ;
     okh:version "0.2" ;

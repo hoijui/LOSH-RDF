@@ -2,23 +2,17 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:AParametricOpenSourceHardwareGeologicalSimulator a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "A parametric open source hardware geological simulator" ;
-    okh:additionalType "['3D Printing', 'Education', 'Electronics']" ;
-    okh:certificationDate "2021-06-07T00:00:00-04:00" ;
-    okh:country "Spain" ;
-    okh:cpcPatentClass "3D Printing" ;
+    okh:cpcPatentClass "B33Y" ;
     okh:dataSource "oshwa.org" ;
     okh:documentationLanguage "en" ;
-    okh:documentationLicense "CC BY" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function """This project is an automatic geological simulator, with readily available and low-cost parts. The parts that don't comply with this, have been designed in Python for FreeCAD, which implies that this model's CAD design making it a parameterizable model, so that it is easy to modify its dimensions.
 This simulator reproduces faults and tectonic processes on a small scale. For this reason the model moves at very slow speeds, between 1 mm/h and 100 mm/h.""" ;
-    okh:hardwareLicense "CERN" ;
     okh:licensor "Universidad Rey Juan Carlos" ;
-    okh:primaryType "Science" ;
     okh:repo <https://certification.oshwa.org/es000021.html> ;
     okh:repoHost "certification.oshwa.org" ;
-    okh:softwareLicense "LGPL" ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
     okh:uploadMethod "auto" ;
     okh:version "1.0" ;

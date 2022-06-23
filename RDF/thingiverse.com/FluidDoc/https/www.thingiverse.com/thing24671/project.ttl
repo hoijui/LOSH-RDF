@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A24671/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:LampFinial a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Lamp Finial" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I'm still waiting for delivery of my first printer, so I thought I'd pass the time by trying to figuring out the process.  I modeled this off of one of the lamps in my living room to see if I could get something from Rhino, to an stl, then sliced into some gcode.\r
 \r
 There is a 5.7mm hole that goes about half way through. That was the inner thread diameter I measured.  It might need to be a little larger to screw on nicely.  I'm curious to see how the printed hole diameter compares to the one I measured.\r
@@ -16,6 +18,7 @@ Edit:  Well I finally got the printer.  I attached a photo of the printed versio
     okh:repo <https://www.thingiverse.com/thing:24671> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:24671> .

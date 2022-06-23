@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A35418/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:UpminiFilementHolderForTheNewSpools a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "UpMini Filement Holder for the new Spools" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """The new spools from 3dSystems NZ come in a 1kg format with a wider load and different hole size that does not fit the supplied holder.\r
 \r
 So I made this one with libraries taken from Thingiverse http://www.thingiverse.com/thing:27748 and http://www.thingiverse.com/thing:6021 to complete it.""" ;
@@ -14,6 +16,7 @@ So I made this one with libraries taken from Thingiverse http://www.thingiverse.
     okh:repo <https://www.thingiverse.com/thing:35418> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:35418> .

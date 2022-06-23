@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A33111/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:CopyOfAdafruitsIotPrinterBox a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Copy of Adafruit's IOT Printer Box" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Cutting this as a special request and produced a couple of files that I found easier to work with, so thought I'd share them for the greater good!\r
 \r
 This is the enclosure cut out files for the Adafruit IoT Printer\r
@@ -22,6 +24,7 @@ Creative Commons, Attribution & Share-Alike license""" ;
     okh:repo <https://www.thingiverse.com/thing:33111> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:33111> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A27321/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:TripodMountLugWasherBolt a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Tripod Mount Lug Washer & Bolt" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """OpenSCAD script will generate the bolt, washer and lug used for tripod mounts as supplied with the makerbot cyclops 3D scanner kit, the lug can be made hollow or solid by setting tripod_is_hollow variable to true/false respectively, making it solid is ueful when this shape is being subtracted from something else.\r
 \r
 This may be useful for those looking to make an accessory or attachment for a camera or photography tripod.\r
@@ -34,6 +36,7 @@ TYNDALL NATIONAL INSTITUTE SPECIFICALLY DISCLAIMS ANY WARRANTIES, INCLUDING, BUT
     okh:repo <https://www.thingiverse.com/thing:27321> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:27321> .

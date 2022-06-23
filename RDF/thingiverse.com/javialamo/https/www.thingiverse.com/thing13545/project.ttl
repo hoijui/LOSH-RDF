@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A13545/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:TriviallikeGamePiece a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Trivial-like game piece" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a printable version of a Trivial-like game I made this summer, but... Have you ever lost pieces of your Trivial game? You can use it as a replacement for trivial pieces. I hope you find it usefull :)\r
 \r
 IMPORTANT: ItÂ´s marked as Work in Progress because I havenÂ´t printed it yet.\r
@@ -16,6 +18,7 @@ UPDATE: Redesigned to center the axis perfectly ^^""" ;
     okh:repo <https://www.thingiverse.com/thing:13545> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:13545> .

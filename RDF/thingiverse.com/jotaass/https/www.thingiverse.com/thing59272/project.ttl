@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A59272/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:CustomizableBinaryNametag a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Customizable Binary Nametag" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Celebrate your inner geek with a 3d binary representation of your initials. Carry it around in a necklace, a keychain, your bag or shirt or in your pocket in a creepy Bilbo Baggins way.\r
 \r
 ASCII characters 32 to 126 are supported, so just plain english with common symbols. Each character in the input text will generate a line of bits, so it looks better for short words of 2 or 3 characters,  like your initials, a smilie face or 42.\r
@@ -16,6 +18,7 @@ Bits are printed from left to right, top to bottom, when viewing from the "home"
     okh:repo <https://www.thingiverse.com/thing:59272> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:59272> .

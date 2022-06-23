@@ -1,9 +1,10 @@
-@prefix : <https://wikifactory.com/+ucpd/sandia-test-chamber/27776e601d3dcd1e0bbd1fd13d3f3de61a8613ec/> .
+@prefix : <https://wikifactory.com/%2Bucpd/sandia-test-chamber/27776e601d3dcd1e0bbd1fd13d3f3de61a8613ec/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:SandiaTestChamber a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Sandia Test Chamber" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "Test chamber used in the Sandia Laboratories Trials.Made to run at 30 lpm and deliver approximately 10 mJ/cm2 of UV energy to all the flow.Can be used as the basis for a UV sterilisation device requiring 30 lpm of air flow and approximately 3 log expected reduction in Sars-COV2" ;
     okh:hasComponent :Stadiauvchamberstanleyv1 ;
@@ -15,6 +16,7 @@
     okh:repo <https://wikifactory.com/+ucpd/sandia-test-chamber> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
+    okh:uploadMethod "manifest" ;
     okh:version "27776e601d3dcd1e0bbd1fd13d3f3de61a8613ec" ;
     okh:versionOf <https://wikifactory.com/+ucpd/sandia-test-chamber> .
 
@@ -22,13 +24,13 @@
     rdfs:label "Image of Sandia Test Chamber 27776e601d3dcd1e0bbd1fd13d3f3de61a8613ec" ;
     okh:fileFormat "JPG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/90119/image_from_ios_6.jpg> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NTgxMzY=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/90119/image_from_ios_6.jpg> .
 
 :Readme a okh:Readme ;
     rdfs:label "Readme of Sandia Test Chamber 27776e601d3dcd1e0bbd1fd13d3f3de61a8613ec" ;
     okh:fileFormat "MD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/90119/readme.md> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NTgxMjQ=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/90119/readme.md> .
 
 :Stadiauvchamberstanleyv1 a okh:Part ;
     rdfs:label "Stadia_UVChamber_Stanley_V1" ;
@@ -41,5 +43,5 @@
     rdfs:label "Source File of Stadia_UVChamber_Stanley_V1 of Sandia Test Chamber 27776e601d3dcd1e0bbd1fd13d3f3de61a8613ec" ;
     okh:fileFormat "STEP" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/90119/stadia_uvchamber_stanley_v1.STEP> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NTgxMTY=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/90119/stadia_uvchamber_stanley_v1.STEP> .
 

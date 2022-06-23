@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A11507/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:HighQualityNosePlierspinzasDePunta a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "High quality nose pliers (Pinzas de punta)" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "es" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """(Español)  
 Bueno damas y caballeros, como ven esto es un alicate de punta, la idea es ser útil para trabajos de precisión, que no requiere mucha fuerza.  
 
@@ -16,6 +18,7 @@ Well ladies and gentlemen, like you see this are a nose pliers, the idea is to b
     okh:repo <https://www.thingiverse.com/thing:11507> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:11507> .

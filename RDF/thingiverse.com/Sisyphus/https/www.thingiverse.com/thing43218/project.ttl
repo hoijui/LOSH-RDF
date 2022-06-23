@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A43218/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PhotoFrame a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Photo Frame" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is an art nouveau design picture frame.Made for a 6" x 4" photo. Design from the web. Made in 3dsMax. The back piece just clips in.\r
 It should be a little bit bigger because you have to cut the corners of your photo to fit.""" ;
     okh:hasImage :Image ;
@@ -13,6 +15,7 @@ It should be a little bit bigger because you have to cut the corners of your pho
     okh:repo <https://www.thingiverse.com/thing:43218> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:43218> .

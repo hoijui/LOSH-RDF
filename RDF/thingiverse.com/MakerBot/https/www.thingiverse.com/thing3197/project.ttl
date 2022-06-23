@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A3197/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Mk5DriveGear a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "MK5 Drive Gear" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a new and improved drive gear for the upcoming Plastruder MK5.  It is backwards compatible with the MK3/MK4 plastruder designs and provides 200% increased push force.\r
 \r
 For more information, see the blog post: http://blog.makerbot.com/2010/05/21/mk5-drive-gear-now-with-science\r
@@ -16,6 +18,7 @@ To purchase one for yourself, visit the MakerBot Store: http://store.makerbot.co
     okh:repo <https://www.thingiverse.com/thing:3197> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:3197> .

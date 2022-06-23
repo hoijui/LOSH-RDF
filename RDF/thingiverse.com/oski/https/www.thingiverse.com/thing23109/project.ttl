@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A23109/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:FlyzoneFw190StrutCouplerReplacement a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Flyzone FW190 Strut Coupler Replacement " ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is an outline for an aluminum sheet strut coupling replacement for the Flyzone FW190 RC airplane.  Cut the outline as modeled and drill the two holes.  Bend the flat sheet around the strut and drill the last hole thru where it lines up with the first hole.  \r
 \r
 Recommended material: 1mm or 0.032" thick aluminum sheet\r
@@ -16,6 +18,7 @@ Tools: sheet metal snips, small files""" ;
     okh:repo <https://www.thingiverse.com/thing:23109> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:23109> .

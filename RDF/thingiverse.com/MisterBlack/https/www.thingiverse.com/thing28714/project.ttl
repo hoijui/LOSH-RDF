@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A28714/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:LuckyDice a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Lucky Dice" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Do you like boardgames or any other games in which luck with the dice is a key factor? Then you probably, at least sometimes, have the same problem I have: You roll the dice and it seems that there are only 1's on it.\r
 \r
 Well, here's the solution: \r
@@ -21,6 +23,7 @@ Desinged with TinkerCAD""" ;
     okh:repo <https://www.thingiverse.com/thing:28714> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:28714> .

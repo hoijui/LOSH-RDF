@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A3923/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:CableClamp a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Cable Clamp" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a 3D printed version of a similar cable clamp that you can get at the local box store. It can be printed without using supports. I printed it with 0.1mm layer height. I tried printing with resolution greater than 0.1mm and the parts wont come apart as easy. It comes off the printer ready to use!\r
 \r
 Added the fusion 360 file so you can modify it your liking!""" ;
@@ -14,6 +16,7 @@ Added the fusion 360 file so you can modify it your liking!""" ;
     okh:repo <https://www.thingiverse.com/thing:3923> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:3923> .

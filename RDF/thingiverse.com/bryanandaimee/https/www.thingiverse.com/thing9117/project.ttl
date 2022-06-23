@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A9117/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:TestTubeMendel a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Test Tube Mendel" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """A bare bones mendel using the vinyl tubing vertex as described by mrkim http://www.thingiverse.com/thing:8313. So far I have the frame and a Z motor mount. I'm thinking the X motor mount and idler will be similar to Prusa's but backwards and possibly upside down since my smooth rod is inside of my threaded rod rather than vice versa as in the Prusa Mendel. I'll try to keep this page and the reprap wiki page http://reprap.org/wiki/Test_Tube_Mendel as up to date as possible as I make progress. \r
 \r
 update: 6-20-2011 got the X end idler done. Files are posted. \r
@@ -32,6 +34,7 @@ Test Tube -> 1 Idler + 2 idler clamp -> about 1 hour printing""" ;
     okh:repo <https://www.thingiverse.com/thing:9117> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:9117> .

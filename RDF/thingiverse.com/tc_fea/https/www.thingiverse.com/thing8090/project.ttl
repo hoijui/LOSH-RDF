@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A8090/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:CubeFarmStuff a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Cube Farm - Stuff" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Here are more parts for the cube farm playset:\r
 - side chair\r
 - keyboard\r
@@ -20,6 +22,7 @@ this is an add-on to thing:8012, see hintss's raised computer floor (thing:8070)
     okh:repo <https://www.thingiverse.com/thing:8090> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:8090> .

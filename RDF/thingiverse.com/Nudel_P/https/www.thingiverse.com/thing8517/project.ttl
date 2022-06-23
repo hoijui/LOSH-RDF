@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A8517/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ThermometerHolderForMendelParametrized a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Thermometer holder for Mendel - Parametrized." ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """A simple holder for a simple thermometer from dealextreme. It's parametrized in OpenSCAD, so you can easily adapt it for other similar equipment.\r
 \r
 I use mine to read the temperature of my manually controlled heated bed, and you can't have anything like that attached with strips when you have a 3d-printer.\r
@@ -18,6 +20,7 @@ As you see in the picture I printed it a little on the small side, so it bulges 
     okh:repo <https://www.thingiverse.com/thing:8517> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:8517> .

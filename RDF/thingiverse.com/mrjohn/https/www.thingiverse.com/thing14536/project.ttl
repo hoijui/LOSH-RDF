@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A14536/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:SquareKnownDistanceCalibrationTool a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Square, Known Distance Calibration tool" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """One of my other things, the nickel calibration, only measured internal holes. This one plays off the idea that two separate known distances are better for measuring and calibration.\r
 \r
 The small parts are 20mm and the longer ones are 40mm. The corners are all 90 degrees and will show you if you axes are square. (Use a real construction square)\r
@@ -28,6 +30,7 @@ Current steps 40*0.9259259259259259= new steps 37.03703703703704""" ;
     okh:repo <https://www.thingiverse.com/thing:14536> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:14536> .

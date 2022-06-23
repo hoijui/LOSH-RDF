@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A1765/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:RoofDrainScreen a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Roof drain screen" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a roof drain screen to keep large debris out of downspouts.\r
 \r
 Our flat roof has several 1.5 inch openings around the edge which let rainwater drain off the roof.  If these openings get clogged with leaves or other large debris, we end up with a miniature lake above our heads.  None of the commercial drain screens fit or work well, so I designed this to protect our roof.\r
@@ -18,6 +20,7 @@ More details at http://makerbot216.blogspot.com/2010/02/making-practical-things.
     okh:repo <https://www.thingiverse.com/thing:1765> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:1765> .

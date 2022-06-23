@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A29482/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:XendsForHolding20x20ExtrusionBushingsnuts a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "X-ends for holding 20x20 extrusion bushings/nuts" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """As seen here: (well almost, this version takes bushings instead of lm8uus)\r
 https://www.youtube.com/watch?v=7Cn1s9_PII0\r
 \r
@@ -21,6 +23,7 @@ By the way these are intended to use a pair of 605zz bearings for the idler.  Yo
     okh:repo <https://www.thingiverse.com/thing:29482> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:29482> .

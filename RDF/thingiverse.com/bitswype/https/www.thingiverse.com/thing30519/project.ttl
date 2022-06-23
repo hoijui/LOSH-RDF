@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A30519/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:HomeMadeColorSensor a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "home made color sensor" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Using an RGB LED and a CDS photocell, I created a color sensor for use in a robotics competition.  The sensor holds both the LED and the phtocell and provides a baffle between them so the CDS cell only sees the reflected light.  By observing the amount of red, green and blue reflected, you can determine the color.\r
 \r
 Videos:\r
@@ -19,6 +21,7 @@ Part 5: http://www.youtube.com/watch?v=mTKlPUFRejY""" ;
     okh:repo <https://www.thingiverse.com/thing:30519> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:30519> .

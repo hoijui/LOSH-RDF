@@ -1,6 +1,31 @@
-@prefix : <https://wikifactory.com/@marialuce/shybo/343ae3c8c6d4a47afb7163a963116b533e3384f9/> .
+@prefix : <https://wikifactory.com/%40marialuce/shybo/343ae3c8c6d4a47afb7163a963116b533e3384f9/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Project a okh:Module ;
+    rdfs:label "SHYBO" ;
+    okh:dataSource "wikifactory.com" ;
+    okh:documentationLanguage "en" ;
+    okh:function "Novel low-anthropomorphic robot for children. Combining open source hardware and software, you can teach Shybo how to play and react to sounds by changing its colour and by the movement of its hat!" ;
+    okh:hasComponent :Axis1,
+        :Axis2,
+        :Backshell,
+        :Base,
+        :Frontshell,
+        :Hat,
+        :Ledstructure,
+        :Servodocking,
+        :Shybo ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "Maria Luce Lupetti" ;
+    okh:release <https://wikifactory.com/@marialuce/shybo/v/343ae3c> ;
+    okh:repo <https://wikifactory.com/@marialuce/shybo> ;
+    okh:repoHost "wikifactory.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> ;
+    okh:uploadMethod "manifest" ;
+    okh:version "343ae3c8c6d4a47afb7163a963116b533e3384f9" ;
+    okh:versionOf <https://wikifactory.com/@marialuce/shybo> .
 
 :Axis1 a okh:Part ;
     rdfs:label "Axis 1" ;
@@ -13,7 +38,7 @@
     rdfs:label "Source File of Axis 1 of SHYBO 343ae3c8c6d4a47afb7163a963116b533e3384f9" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/552/axis-1-0.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozNzYx> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/552/axis-1-0.stl> .
 
 :Axis2 a okh:Part ;
     rdfs:label "Axis 2" ;
@@ -26,20 +51,20 @@
     rdfs:label "Source File of Axis 2 of SHYBO 343ae3c8c6d4a47afb7163a963116b533e3384f9" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/552/axis-2-0.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozNzYw> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/552/axis-2-0.stl> .
 
-:BackShell a okh:Part ;
+:Backshell a okh:Part ;
     rdfs:label "Back shell" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :BackShell_source ;
+    okh:source :Backshell_source ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> .
 
-:BackShell_source a okh:SourceFile ;
+:Backshell_source a okh:SourceFile ;
     rdfs:label "Source File of Back shell of SHYBO 343ae3c8c6d4a47afb7163a963116b533e3384f9" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/552/back-shell-0.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozNzU5> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/552/back-shell-0.stl> .
 
 :Base a okh:Part ;
     rdfs:label "Base" ;
@@ -52,20 +77,20 @@
     rdfs:label "Source File of Base of SHYBO 343ae3c8c6d4a47afb7163a963116b533e3384f9" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/552/base-0.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozNzU4> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/552/base-0.stl> .
 
-:FrontShell a okh:Part ;
+:Frontshell a okh:Part ;
     rdfs:label "Front shell" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :FrontShell_source ;
+    okh:source :Frontshell_source ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> .
 
-:FrontShell_source a okh:SourceFile ;
+:Frontshell_source a okh:SourceFile ;
     rdfs:label "Source File of Front shell of SHYBO 343ae3c8c6d4a47afb7163a963116b533e3384f9" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/552/front-shell-0.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozNzU3> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/552/front-shell-0.stl> .
 
 :Hat a okh:Part ;
     rdfs:label "Hat" ;
@@ -78,76 +103,56 @@
     rdfs:label "Source File of Hat of SHYBO 343ae3c8c6d4a47afb7163a963116b533e3384f9" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/552/hat-0.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozNzY0> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/552/hat-0.stl> .
 
 :Image a okh:Image ;
     rdfs:label "Image of SHYBO 343ae3c8c6d4a47afb7163a963116b533e3384f9" ;
     okh:fileFormat "JPG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/552/shybo-2.jpg> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyNzM5> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/552/shybo-2.jpg> .
 
-:LedStructure a okh:Part ;
+:Ledstructure a okh:Part ;
     rdfs:label "LED Structure" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :LedStructure_source ;
+    okh:source :Ledstructure_source ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> .
 
-:LedStructure_source a okh:SourceFile ;
+:Ledstructure_source a okh:SourceFile ;
     rdfs:label "Source File of LED Structure of SHYBO 343ae3c8c6d4a47afb7163a963116b533e3384f9" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/552/led-structure-0.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozNzYz> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/552/led-structure-0.stl> .
 
 :Readme a okh:Readme ;
     rdfs:label "Readme of SHYBO 343ae3c8c6d4a47afb7163a963116b533e3384f9" ;
     okh:fileFormat "MD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/552/readme-20.md> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozNzY2> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/552/readme-20.md> .
 
-:ServoDocking a okh:Part ;
+:Servodocking a okh:Part ;
     rdfs:label "Servo Docking" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :ServoDocking_source ;
+    okh:source :Servodocking_source ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> .
 
-:ServoDocking_source a okh:SourceFile ;
+:Servodocking_source a okh:SourceFile ;
     rdfs:label "Source File of Servo Docking of SHYBO 343ae3c8c6d4a47afb7163a963116b533e3384f9" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/552/servo-docking-0.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozNzYy> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/552/servo-docking-0.stl> .
 
-:Shybo a okh:Module,
-        okh:Part ;
-    rdfs:label "SHYBO",
-        "shybo" ;
+:Shybo a okh:Part ;
+    rdfs:label "shybo" ;
     okh:documentationLanguage "en" ;
-    okh:function "Novel low-anthropomorphic robot for children. Combining open source hardware and software, you can teach Shybo how to play and react to sounds by changing its colour and by the movement of its hat!" ;
-    okh:hasComponent :Axis1,
-        :Axis2,
-        :BackShell,
-        :Base,
-        :FrontShell,
-        :Hat,
-        :LedStructure,
-        :ServoDocking,
-        :Shybo ;
-    okh:hasImage :Image ;
-    okh:hasReadme :Readme ;
-    okh:licensor "James Botler",
-        "Maria Luce Lupetti" ;
-    okh:release <https://wikifactory.com/@marialuce/shybo/v/343ae3c> ;
-    okh:repo <https://wikifactory.com/@marialuce/shybo> ;
-    okh:repoHost "wikifactory.com" ;
+    okh:licensor "James Botler" ;
     okh:source :Shybo_source ;
-    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> ;
-    okh:version "343ae3c8c6d4a47afb7163a963116b533e3384f9" ;
-    okh:versionOf <https://wikifactory.com/@marialuce/shybo> .
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> .
 
 :Shybo_source a okh:SourceFile ;
     rdfs:label "Source File of shybo of SHYBO 343ae3c8c6d4a47afb7163a963116b533e3384f9" ;
     okh:fileFormat "3DM" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/552/shybo.3dm> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMjc3> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/552/shybo.3dm> .
 

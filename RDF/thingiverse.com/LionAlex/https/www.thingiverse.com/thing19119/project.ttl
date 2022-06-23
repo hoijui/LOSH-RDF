@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A19119/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:BalloonFlightCaseForIphone a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Balloon Flight Case for iPhone" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This case for iPhone for is designed to be suspended by strings to a set of balloons (not sure how many - yet) so your iPhone can take aerial videos (not sure if there are also apps that can take automatic snapshots without requiring the press of the "shutter button").  It is  intended to be tied to another similar case for use as tethered remote control with four strings to adjust the orientation.\r
 \r
 I NEED TO WIN A MAKERBOT!  So I can be inspired to make more "thingis".\r
@@ -19,6 +21,7 @@ This is an experimental case and have not yet been printed or tested.""" ;
     okh:repo <https://www.thingiverse.com/thing:19119> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:19119> .

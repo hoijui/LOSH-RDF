@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A26193/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PrintrbotLcSwitchMount a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Printrbot LC Switch Mount" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a switch mount for the power supply for the Printrbot, its to make it easier to switch your bot on and off. It mounts on either side of the printrbot using the same hole that you put in a screw to attach the top of the base to the side of the base. (You just need a bit of a longer screw)\r
 \r
 EDIT: Thinking of it now, you could also actually attach it on the side of the bridge. Don't know if that's handy, but the size of it fits perfectly in alignment (for good looks)""" ;
@@ -14,6 +16,7 @@ EDIT: Thinking of it now, you could also actually attach it on the side of the b
     okh:repo <https://www.thingiverse.com/thing:26193> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:26193> .

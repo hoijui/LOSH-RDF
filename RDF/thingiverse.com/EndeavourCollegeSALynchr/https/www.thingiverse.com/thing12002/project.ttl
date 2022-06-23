@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A12002/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MakerbotRobotMascotCompetition a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "MakerBot Robot Mascot Competition" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """MakerBot Robot Competition\r
 \r
 This is Frank, he is a MakerBot Robot V1.7_13. Frank is a robot designed to bridge the language gap between Humans and any possible Extraterrestrial life that tries to communicate with us.\r
@@ -16,6 +18,7 @@ Since Frank toddled off the production line late 2011, he has been pondering a q
     okh:repo <https://www.thingiverse.com/thing:12002> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:12002> .

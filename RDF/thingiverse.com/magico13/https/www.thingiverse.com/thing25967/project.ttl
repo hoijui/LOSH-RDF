@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A25967/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:EarthKingdomIcon a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Earth Kingdom Icon" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is an icon of the Earth Kingdom from Avatar the Last Airbender to be printed on a 3d printer. It could be used for a necklace, or a keychain. Whatever you like. The whole thing is 30mmx30mm with 3 mm high edges and the design is raised 1mm. If this is too low, let me know and I'll make one with larger raises.\r
 \r
 UPDATE: The first version didn't print at all so I'm uploading a revised version which I can confirm prints. It's a bit small, so you may want to scale it. I'm also including the sketchup file for anyone who wants it.""" ;
@@ -14,6 +16,7 @@ UPDATE: The first version didn't print at all so I'm uploading a revised version
     okh:repo <https://www.thingiverse.com/thing:25967> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:25967> .

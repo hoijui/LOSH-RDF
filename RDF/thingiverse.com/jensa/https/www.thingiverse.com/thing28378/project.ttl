@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A28378/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Gemstones a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Gemstones" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This thing has moved to Youmagine https://www.youmagine.com/users/jensa so I don't also get sued by Stratasys...  
 
 Various gem stone shapes. Makes for a great pirate treasure!""" ;
@@ -14,6 +16,7 @@ Various gem stone shapes. Makes for a great pirate treasure!""" ;
     okh:repo <https://www.thingiverse.com/thing:28378> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:28378> .

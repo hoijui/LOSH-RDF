@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A34515/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Minithwack a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Mini-THWACK!" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "A keychain sized THWACK!  When I attempted to print it after making it smaller, the ball end of the hammer wasn't sticking well to the build platform, so I imported THWACK into Blender and booleaned out a cube from the top and the bottom to create more of a flat spot.  If you have had the same problem with a regular sized THWACK, just go ahead and embiggen this one." ;
     okh:hasImage :Image ;
     okh:licensor "IWorkInPixels" ;
     okh:repo <https://www.thingiverse.com/thing:34515> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:34515> .

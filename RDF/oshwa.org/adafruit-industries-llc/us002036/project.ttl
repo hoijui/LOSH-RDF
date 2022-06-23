@@ -2,21 +2,15 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:AdafruitFeatherRp2040 a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Adafruit Feather RP2040" ;
-    okh:additionalType "['Electronics']" ;
-    okh:certificationDate "2021-08-19T00:00:00-04:00" ;
-    okh:country "United States of America" ;
     okh:dataSource "oshwa.org" ;
     okh:documentationLanguage "en" ;
-    okh:documentationLicense "CC BY-SA" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function "A new chip means a new Feather, and the Raspberry Pi RP2040 is no exception. When we saw this chip we thought \"this chip is going to be awesome when we give it the Feather Treatment\" and so we did! This Feather features the RP2040, and all niceties you know and love about Feather. This board has a 4-pin Sparkfun Qwiic-compatible connector called STEMMA QT, which allows you to easily add loads of sensors and other devices without soldering. Click the link labeled 'Project Website' to find out more." ;
-    okh:hardwareLicense "Other" ;
     okh:licensor "Adafruit Industries, LLC" ;
-    okh:primaryType "Electronics" ;
     okh:repo <https://certification.oshwa.org/us002036.html> ;
     okh:repoHost "certification.oshwa.org" ;
-    okh:softwareLicense "MIT" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
     okh:uploadMethod "auto" ;
     okh:version "Rev B" ;

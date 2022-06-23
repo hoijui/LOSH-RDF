@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A1626/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:FrameVertexeasy a okh:Module ;
+:Project a okh:Module ;
     rdfs:label " frame vertex -easy" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "this is stl file for half thickness  frame vertex. it is machinable since the side holes are exposed, and it is easier to print as you are only printing about 10mm at a time. 2 frame vertex half's make  frame vertex. i have included an stl in mm and one in inches." ;
     okh:hasImage :Image ;
     okh:licensor "jamesvilleneuve" ;
     okh:repo <https://www.thingiverse.com/thing:1626> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:1626> .

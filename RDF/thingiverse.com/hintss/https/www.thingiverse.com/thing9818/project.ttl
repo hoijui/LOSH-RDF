@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A9818/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:OpenscadForLayingOutGridForMinecraft a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "openscad for laying out grid for minecraft" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "finds the intersection of a 2-dimensional grid consisting of (xmax-xmin)*(ymax-ymin)*gridsizemultiplier 0.9x0.9x1 unit rectangular prisms, separated by 0.1 unit of space, and an stl. It shows this grid 1 layer at a time, to allow the user to better create minecraft sculptures from STLs. This is the entire purpose." ;
     okh:hasImage :Image ;
     okh:licensor "hintss" ;
     okh:repo <https://www.thingiverse.com/thing:9818> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:9818> .

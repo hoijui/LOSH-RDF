@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A33765/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ZipTopBag a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Zip Top Bag" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Another design in my pursuit of 3d printed purses - though this one serves equally well as a pencil case.\r
 \r
 It's a quick print, a sleek design, and functional to boot.  The zip top closure makes a satisfying zippy noise, and holds everything closed nicely.  Kudos to gabielfp's awesome roll top box and emmett's bracelet that served as my inspiration.  \r
@@ -21,6 +23,7 @@ There are lots of options for other sizes, orientations, or the addition of a ch
     okh:repo <https://www.thingiverse.com/thing:33765> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:33765> .

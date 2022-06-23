@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A22940/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:SimpleFilamentSpoolHolderFor608Bearings a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Simple Filament Spool Holder for 608 Bearings" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """608 bearings are really cheap by bearing standards. For instance, you can get a pack of 30 608ZZ bearings on ebay for only $15 shipped (from China, of course). That's only $0.50 per bearing!\r
 \r
 The spool holders I've seen so far either don't have a foot I like, don't use the type of rod I want, or don't use the size of bearing I have on hand. This thing fixes these things for me and if it does so for you, too, great!\r
@@ -16,6 +18,7 @@ I've included the OpenSCAD source and the compiled STL file.""" ;
     okh:repo <https://www.thingiverse.com/thing:22940> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:22940> .

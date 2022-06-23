@@ -2,15 +2,15 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:SionPartsForFuture a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Sion Parts for Future" ;
     okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "At Sono Motors, we are challenging conventional automotive aftersales by giving customers the chance to put their individual needs first. Become a creator and design user-centered vehicle add-ons that could change the daily lives of people all over the world." ;
     okh:hasComponent :Informationsheetsion,
         :Votingresults,
-        :VptcsopenCallsionPartsForFuturev2,
-        :Vptcsopencallsionpartsforfuture ;
+        :Vptcsopencallsionpartsforfuture,
+        :Vptcsopencallsionpartsforfuturev2 ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "Sono Motors GmbH" ;
@@ -27,7 +27,7 @@
     rdfs:label "Image of Sion Parts for Future c9c6cbbdef344368778cdd83230ade9daf390ba0" ;
     okh:fileFormat "JPG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/119648/sono-motors-sion-studio-front-close-up-c759d.jpg> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NTkxODM=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/119648/sono-motors-sion-studio-front-close-up-c759d.jpg> .
 
 :Informationsheetsion a okh:Part ;
     rdfs:label "Informationsheet_SION" ;
@@ -40,13 +40,13 @@
     rdfs:label "Source File of Informationsheet_SION of Sion Parts for Future c9c6cbbdef344368778cdd83230ade9daf390ba0" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/119648/informationsheet_sion.pdf?response-content-type=application%2Fpdf&response-content-disposition=attachment%3B%20filename%3D%22Informationsheet_SION.pdf%22&AWSAccessKeyId=LTAI4GK1mTcvu7wXYTXXtiy6&Signature=HzcnOAYiA4epmGWMtGje7a2YQOA%3D&Expires=1645921723> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo1MzMxMjk=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/119648/informationsheet_sion.pdf?response-content-type=application%2Fpdf&response-content-disposition=attachment%3B%20filename%3D%22Informationsheet_SION.pdf%22&AWSAccessKeyId=LTAI4GK1mTcvu7wXYTXXtiy6&Signature=HzcnOAYiA4epmGWMtGje7a2YQOA%3D&Expires=1645921723> .
 
 :Readme a okh:Readme ;
     rdfs:label "Readme of Sion Parts for Future c9c6cbbdef344368778cdd83230ade9daf390ba0" ;
     okh:fileFormat "MD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/119648/readme-7f64f.md> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MDgyNjA=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/119648/readme-7f64f.md> .
 
 :Votingresults a okh:Part ;
     rdfs:label "Voting_Results" ;
@@ -59,20 +59,7 @@
     rdfs:label "Source File of Voting_Results of Sion Parts for Future c9c6cbbdef344368778cdd83230ade9daf390ba0" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/119648/voting_results.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NTkxMzU=> .
-
-:VptcsopenCallsionPartsForFuturev2 a okh:Part ;
-    rdfs:label "VP_T&Cs_Open Call_Sion Parts for Future_v2" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Sono Motors GmbH" ;
-    okh:source :VptcsopenCallsionPartsForFuturev2_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:VptcsopenCallsionPartsForFuturev2_source a okh:SourceFile ;
-    rdfs:label "Source File of VP_T&Cs_Open Call_Sion Parts for Future_v2 of Sion Parts for Future c9c6cbbdef344368778cdd83230ade9daf390ba0" ;
-    okh:fileFormat "PDF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/119648/vp_tcs_open-call_sion-parts-for-future_v2.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo1OTgxMzQ=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/119648/voting_results.pdf> .
 
 :Vptcsopencallsionpartsforfuture a okh:Part ;
     rdfs:label "VP_TCs_Open_Call_Sion_Parts_for_Future" ;
@@ -85,5 +72,18 @@
     rdfs:label "Source File of VP_TCs_Open_Call_Sion_Parts_for_Future of Sion Parts for Future c9c6cbbdef344368778cdd83230ade9daf390ba0" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/119648/vp_tcs_open_call_sion_parts_for_future.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NTQ2MTc=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/119648/vp_tcs_open_call_sion_parts_for_future.pdf> .
+
+:Vptcsopencallsionpartsforfuturev2 a okh:Part ;
+    rdfs:label "VP_T&Cs_Open Call_Sion Parts for Future_v2" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Sono Motors GmbH" ;
+    okh:source :Vptcsopencallsionpartsforfuturev2_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Vptcsopencallsionpartsforfuturev2_source a okh:SourceFile ;
+    rdfs:label "Source File of VP_T&Cs_Open Call_Sion Parts for Future_v2 of Sion Parts for Future c9c6cbbdef344368778cdd83230ade9daf390ba0" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/119648/vp_tcs_open-call_sion-parts-for-future_v2.pdf> ;
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/119648/vp_tcs_open-call_sion-parts-for-future_v2.pdf> .
 

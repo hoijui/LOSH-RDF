@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A31465/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:HoleThruAHoleInAHole a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Hole Thru a Hole in a Hole" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """An interpretation of the drawing by the same name published in the 1940 book "Mathematics and the Imagination."\r
 \r
 Also available on Shapeways if you want to purchase one already made: http://www.shapeways.com/model/723930""" ;
@@ -14,6 +16,7 @@ Also available on Shapeways if you want to purchase one already made: http://www
     okh:repo <https://www.thingiverse.com/thing:31465> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:31465> .

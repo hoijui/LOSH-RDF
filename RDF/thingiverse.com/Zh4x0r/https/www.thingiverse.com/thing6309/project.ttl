@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A6309/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:LittleBottleCap a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Little bottle cap" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a little bottle cap for a bottle a friend found at a local surplus store. More details on my blog!!\r
 \r
 http://blog.zinventions.com/2011/02/little-bottle-cap.html""" ;
@@ -14,6 +16,7 @@ http://blog.zinventions.com/2011/02/little-bottle-cap.html""" ;
     okh:repo <https://www.thingiverse.com/thing:6309> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:6309> .

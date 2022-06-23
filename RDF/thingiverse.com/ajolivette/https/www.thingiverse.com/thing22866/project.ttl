@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A22866/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:BikeAttachmentForIphone54And4s a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Bike Attachment for iPhone 5, 4 and 4S" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I added the model for the iPhone 5 now. So you only need to change the top part, and it works the same. So, you upgrade your phone, just print the top part, and you're good to go.\r
 \r
 This is a bike attachment you can use with your bike to hold your iPhone 4 and 4S. I derived it from my iPhone 4 case.""" ;
@@ -14,6 +16,7 @@ This is a bike attachment you can use with your bike to hold your iPhone 4 and 4
     okh:repo <https://www.thingiverse.com/thing:22866> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:22866> .

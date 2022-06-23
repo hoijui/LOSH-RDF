@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A4893/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:SnaptogetherPolyhedronVerticies a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Snap-together polyhedron verticies" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """update : a revised script and set which includes 4,5 and 6-fold vertices ( slash facets, not sure which to call these ) can be found at http://www.thingiverse.com/thing:4934 and http://www.thingiverse.com/thing:5028.\r
 \r
 These two triangular pieces can be assembled into any polyhedron based on equilateral triangles. This includes tetrahedra, octahedra, icosahedra, and many others.\r
@@ -16,6 +18,7 @@ The structure of the pieces is such that they resemble both faces and vertices, 
     okh:repo <https://www.thingiverse.com/thing:4893> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:4893> .

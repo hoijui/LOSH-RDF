@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A11101/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ToyTrainSet a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Toy Train Set" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """What started off as a section of straight train track has turned into a large train set.  To be honest this was a great project during Hurricane Irene weekend.  Was also my birthday when I did this, so something fun to do on my birthday.  My kids have gotten a kick out of them.  The ones in the photos are straight off the printer, no cleanup needed, some tips on that below.  This stuff all pretty much snaps together, so not much in the way of post printing work required.  These train works great without tracks.  I was excited that the body design worked as well as it did and suprised that the Makerbot did so well printing the tall axle towers.  Would be fun to modify the wheels for more of a monster truck look.  Maybe during the next hurricane...  
 
 
@@ -20,6 +22,7 @@ Update 9/24/2011:I just replaced a large number of the stl files with new versio
     okh:repo <https://www.thingiverse.com/thing:11101> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:11101> .

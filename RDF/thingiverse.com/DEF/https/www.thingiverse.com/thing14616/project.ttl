@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A14616/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:RepyV11ReinforcedHead a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "REPY v1.1 - Reinforced head" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "I also have some issues printing Obijuan's REPY head, so as the design had some spare space, I added extra thickness to one 'ear' of the module, and now it is safer to print it." ;
     okh:hasImage :Image ;
     okh:licensor "DEF" ;
     okh:repo <https://www.thingiverse.com/thing:14616> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:14616> .

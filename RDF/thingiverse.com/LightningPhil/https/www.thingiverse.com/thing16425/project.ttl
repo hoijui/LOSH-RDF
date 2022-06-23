@@ -1,18 +1,21 @@
 @prefix : <https://www.thingiverse.com/thing%3A16425/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ArduinoUnoLaptopClip a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Arduino Uno Laptop Clip" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Wanted something to hold a Uno on the laptop while in the hackspace.\r
-Idea occurred after losing all the bits between the cushions of the sofa and getting tangled in wires attempting to eat pizza.  Lost original files, so re drew it.  This â€œshouldâ€ fit the Uno...""" ;
+Idea occurred after losing all the bits between the cushions of the sofa and getting tangled in wires attempting to eat pizza.  Lost original files, so re drew it.  This â€œshouldâ€x9d fit the Uno...""" ;
     okh:hasImage :Image ;
     okh:licensor "LightningPhil" ;
     okh:repo <https://www.thingiverse.com/thing:16425> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:16425> .

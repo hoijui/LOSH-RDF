@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A61416/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:EurekaGenesisVacuumRollerBrushBearingHolder a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Eureka Genesis Vacuum Roller Brush Bearing Holder" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Eureka Genesis / UNO Upright 5892 & 5893 Vacuum.  May fit others.\r
 This thing upgrades your existing melted bearing holder,  it overlaps the brush to keep crud out of the bearing.  Seems to work fine...Testing in progress.""" ;
     okh:hasImage :Image ;
@@ -13,6 +15,7 @@ This thing upgrades your existing melted bearing holder,  it overlaps the brush 
     okh:repo <https://www.thingiverse.com/thing:61416> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:61416> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A10209/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ParametricMendelInspiredYstageForTom a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Parametric Mendel Inspired Y-Stage for TOM" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """DON'T PRINT THIS - at the moment. The rod-distance is wrong and too short. I need further investigation but don't have time to adjust the files at the moment.\r
 ----------------------------------------------------------\r
 \r
@@ -23,6 +25,7 @@ Update 21.07.2011: This thing is supposed to be used for a ToM of the latest des
     okh:repo <https://www.thingiverse.com/thing:10209> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:10209> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A11243/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:2dGraphingLibrary a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "2D Graphing Library" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is an openscad library to create 2d representations of equations (cartesian, polar, or parametric). You can export the graph to dxf or extrude it directly to make interesting objects like an ellipsoid. It's incredibly ineffecient and slow (can't really be helped, it is due to openscad limitations) and a little buggy still (probably my fault), but it mostly works. Enjoy!  
 
 Maybe if I can wrap my head around polyhedrons in openscad I will extend this to 3d functions. :)""" ;
@@ -14,6 +16,7 @@ Maybe if I can wrap my head around polyhedrons in openscad I will extend this to
     okh:repo <https://www.thingiverse.com/thing:11243> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:11243> .

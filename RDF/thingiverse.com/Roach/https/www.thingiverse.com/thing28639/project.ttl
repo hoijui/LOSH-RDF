@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A28639/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:VerticalMountLampBase a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Vertical Mount Lamp Base" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """My first real print, and my first design on thingiverse!\r
 \r
 This is a wall (Or whatever surface you want) mount lamp base for standard drafting lamps with an ~15mm base post.  \r
@@ -18,6 +20,7 @@ I saw countless things that were table mounts for the same thing (27123, 25423, 
     okh:repo <https://www.thingiverse.com/thing:28639> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:28639> .

@@ -2,15 +2,15 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Photobooth a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Photobooth" ;
     okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "We made a photobooth for our open days" ;
-    okh:hasComponent :3dFilesphotoboothIcamV12,
-        :3dPrintedFilesscreenmounth12,
-        :3dPrintedFilesscreenmounth22,
-        :LaserCutFilesphotoboothlasercut ;
+    okh:hasComponent :3dfilesphotoboothicamv12,
+        :3dprintedfilesscreenmounth12,
+        :3dprintedfilesscreenmounth22,
+        :Lasercutfilesphotoboothlasercut ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "Remy Ducros" ;
@@ -23,67 +23,67 @@
     okh:version "4d76b98847b7d2354d3d07feda9295fabd669fbc" ;
     okh:versionOf <https://wikifactory.com/+icam/photobooth> .
 
-:3dFilesphotoboothIcamV12 a okh:Part ;
+:3dfilesphotoboothicamv12 a okh:Part ;
     rdfs:label "3D files/Photobooth ICAM v12" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Remy Ducros" ;
-    okh:source :3dFilesphotoboothIcamV12_source ;
+    okh:source :3dfilesphotoboothicamv12_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dFilesphotoboothIcamV12_source a okh:SourceFile ;
+:3dfilesphotoboothicamv12_source a okh:SourceFile ;
     rdfs:label "Source File of 3D files/Photobooth ICAM v12 of Photobooth 4d76b98847b7d2354d3d07feda9295fabd669fbc" ;
     okh:fileFormat "STEP" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/111441/photobooth_icam_v12.step> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo1MTQxNzU=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/111441/photobooth_icam_v12.step> .
 
-:3dPrintedFilesscreenmounth12 a okh:Part ;
+:3dprintedfilesscreenmounth12 a okh:Part ;
     rdfs:label "3D printed files/Screen_mounth_1.2" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Remy Ducros" ;
-    okh:source :3dPrintedFilesscreenmounth12_source ;
+    okh:source :3dprintedfilesscreenmounth12_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dPrintedFilesscreenmounth12_source a okh:SourceFile ;
+:3dprintedfilesscreenmounth12_source a okh:SourceFile ;
     rdfs:label "Source File of 3D printed files/Screen_mounth_1.2 of Photobooth 4d76b98847b7d2354d3d07feda9295fabd669fbc" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/111441/screen_mounth_12.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo1MTQxNTE=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/111441/screen_mounth_12.stl> .
 
-:3dPrintedFilesscreenmounth22 a okh:Part ;
+:3dprintedfilesscreenmounth22 a okh:Part ;
     rdfs:label "3D printed files/Screen_mounth_2.2" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Remy Ducros" ;
-    okh:source :3dPrintedFilesscreenmounth22_source ;
+    okh:source :3dprintedfilesscreenmounth22_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dPrintedFilesscreenmounth22_source a okh:SourceFile ;
+:3dprintedfilesscreenmounth22_source a okh:SourceFile ;
     rdfs:label "Source File of 3D printed files/Screen_mounth_2.2 of Photobooth 4d76b98847b7d2354d3d07feda9295fabd669fbc" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/111441/screen_mounth_22.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo1MTQxNTA=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/111441/screen_mounth_22.stl> .
 
 :Image a okh:Image ;
     rdfs:label "Image of Photobooth 4d76b98847b7d2354d3d07feda9295fabd669fbc" ;
     okh:fileFormat "PNG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/111441/sans_titrees.png> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo1MTQzMzE=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/111441/sans_titrees.png> .
 
-:LaserCutFilesphotoboothlasercut a okh:Part ;
+:Lasercutfilesphotoboothlasercut a okh:Part ;
     rdfs:label "Laser cut files/Photobooth_lasercut" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Remy Ducros" ;
-    okh:source :LaserCutFilesphotoboothlasercut_source ;
+    okh:source :Lasercutfilesphotoboothlasercut_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:LaserCutFilesphotoboothlasercut_source a okh:SourceFile ;
+:Lasercutfilesphotoboothlasercut_source a okh:SourceFile ;
     rdfs:label "Source File of Laser cut files/Photobooth_lasercut of Photobooth 4d76b98847b7d2354d3d07feda9295fabd669fbc" ;
     okh:fileFormat "DXF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/111441/photobooth_lasercut.dxf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo1MTQxNTM=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/111441/photobooth_lasercut.dxf> .
 
 :Readme a okh:Readme ;
     rdfs:label "Readme of Photobooth 4d76b98847b7d2354d3d07feda9295fabd669fbc" ;
     okh:fileFormat "MD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/111441/readme-17404.md> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo1MTQzMjU=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/111441/readme-17404.md> .
 

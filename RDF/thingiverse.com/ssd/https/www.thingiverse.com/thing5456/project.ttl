@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A5456/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ReuleauxTriangleForFdm a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Reuleaux Triangle for FDM" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a derivative of both thing:1088 and thing:1082, with inspiration from the improved snap from thing:5322.  However the pattern was totally redrawn from basic principles to make it fully parametric, rather than relying on the original dxf outlines.\r
 \r
 The point of this design is to take full advantages of the abilities of a 3d printer, rather than just converting a laser cut design into a 3d part with difficult overhangs.  The triangle should end up fully trapped inside the case.\r
@@ -18,6 +20,7 @@ UPDATE:  Modern machines are able to print with tighter tolerances than what was
     okh:repo <https://www.thingiverse.com/thing:5456> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:5456> .

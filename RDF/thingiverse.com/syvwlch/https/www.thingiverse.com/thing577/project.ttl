@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A577/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:RussianRouletteDie a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Russian Roulette Die" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """All the randomness of a Russian Roulette game, without the drama.\r
 \r
 I was thinking that putting numbers on dice when we can put pretty much anything we want was... a little square. Since a cube is simple to design, I figure I'd start with a d6 die. Die... hey, Russian Roulette!\r
@@ -16,6 +18,7 @@ Tasteless, and easy to express with simple emoticons, so no need to draw or anyt
     okh:repo <https://www.thingiverse.com/thing:577> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:577> .

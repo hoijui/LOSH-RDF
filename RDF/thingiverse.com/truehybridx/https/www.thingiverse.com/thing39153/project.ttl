@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A39153/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:TinkeyStruderForShorterShaft a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Tinkey Struder for shorter shaft" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I bought a couple geared steppers from Trinity Labs which ended up being the shorter shafts.\r
 \r
 Like a normal hacker I took a design I liked and worked it into fitting what I have on hand.\r
@@ -21,6 +23,7 @@ I really needed the V2 only but figured I'd release them both.""" ;
     okh:repo <https://www.thingiverse.com/thing:39153> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:39153> .

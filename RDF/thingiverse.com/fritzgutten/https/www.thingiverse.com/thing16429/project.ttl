@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A16429/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MultipleFilamentBowdenExtruderDrive a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "multiple filament bowden extruder drive" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """this is a proof of concept in the use of driving more than 2 filaments (3 here) using 2 motors. one motor drives the filament while the other drives a cam that pushes the filament into the drive shaft. \r
 i am currently preparing to test this, but wanted to get it out there. current issues are that is does not have good access to the drive mechanism for cleaning or feeding filament and that much of it was designed to be machined instead of printed. the side plates are to big for a cupcake, but i ws able to print a few of the pieces on one. it may also not be compatible with other motors until there is a redesign, as the motors are integral to its strength.\r
 if anyone has improvements, let me know.\r
@@ -23,6 +25,7 @@ http://youtu.be/-X-azhcsqdM""" ;
     okh:repo <https://www.thingiverse.com/thing:16429> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:16429> .

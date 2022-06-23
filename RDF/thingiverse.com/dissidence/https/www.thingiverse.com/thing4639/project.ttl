@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A4639/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Nema17MotorMount a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "nema 17 motor mount" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """this is a nema 17 motor mount with tensioner slots, it is pretty basic so let me know what ya think\r
 \r
 here is a link to my blog post on it http://mike-mack.blogspot.com/2010/10/motor-mount.html""" ;
@@ -14,6 +16,7 @@ here is a link to my blog post on it http://mike-mack.blogspot.com/2010/10/motor
     okh:repo <https://www.thingiverse.com/thing:4639> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:4639> .

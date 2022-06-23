@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A14516/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:RollerBlindBracket a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Roller Blind Bracket" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a bracket to hold the spring clutch side of a standard roller blind. This was the first useful object I designed and printed on my Thing-O-Matic.\r
 \r
 We wanted our blinds mounted inside the frame of the windows, but that meant we had to mount them "backwards" with the material rolling out on the room side of the roller. The brackets that came with the blinds were designed for mounting with the blind material rolling in against the window. We reversed the brackets left-to-right and made do, but the spring clutch had a nasty habit of coming unsprung. There are "reverse roll" brackets available, but why buy when you can build?\r
@@ -18,6 +20,7 @@ I've included two versions which differ only in the distance that the support pa
     okh:repo <https://www.thingiverse.com/thing:14516> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:14516> .

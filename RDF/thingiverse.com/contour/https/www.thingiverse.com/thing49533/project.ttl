@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A49533/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:CustomizableKitchenLightBulbGlobeForLedLightBulbs a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Customizable Kitchen Light Bulb Globe for LED light bulbs" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a spherical light bulb enclosure that has a flanged base.  I designed it to fit into the light fixture in my kitchen.  Normally, kitchen light bulb globes are completely sealed, and have no ventilation.  LED bulbs, however, are very sensitive to heat buildup, and must be adequately ventilated -- they cannot be totally enclosed.  To solve that problem, the light bulb globe I designed has a circular hole in the bottom and six rectangular holes around the top, to allow air to circulate through the globe.\r
 \r
 The diameter of the sphere, the diameter, height and angle of the flange, the thickness of the globe, and the number and size of  the holes can all be customized.""" ;
@@ -14,6 +16,7 @@ The diameter of the sphere, the diameter, height and angle of the flange, the th
     okh:repo <https://www.thingiverse.com/thing:49533> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:49533> .

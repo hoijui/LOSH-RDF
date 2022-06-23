@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A22592/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Tresnak003 a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "tresnak003" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Estas uniones fueron diseÃ±adas, impresas y utilizadas durante el taller. En ellas convergen varillas de fibra de vidrio de 2mm.\r
 \r
 This joints were designed, printed and used during the workshop. They are used to join 2mm fiberglass filament in place.""" ;
@@ -14,6 +16,7 @@ This joints were designed, printed and used during the workshop. They are used t
     okh:repo <https://www.thingiverse.com/thing:22592> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:22592> .

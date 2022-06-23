@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A8240/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:SensorPlatformHub a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Sensor Platform Hub" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "This board holds a couple of RJ45 jacks and connects the pins to carry power and i2c signals between the ports.  This is for the Sensing Platform located at http://sensingplatform.org/.  The layout was designed to minimize vias, and so that the traces for the RJ45 jacks are located on the bottom of the board so that through plating isn't necessary." ;
     okh:hasImage :Image ;
     okh:licensor "f00bard" ;
     okh:repo <https://www.thingiverse.com/thing:8240> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:8240> .

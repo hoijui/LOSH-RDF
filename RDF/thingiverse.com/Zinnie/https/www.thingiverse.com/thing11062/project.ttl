@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A11062/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:TheDeathlyHallows a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "The Deathly Hallows" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """"There were once three brothers who were travelling along a lonely, winding road at twilight. In time, the brothers reached a river too deep to wade through and too dangerous to swim across. However, these brothers were learned in the magical arts, and so they simply waved their wands and made a bridge appear across the treacherous water. They were halfway across when they found their path blocked by a hooded figure..." http://harrypotter.wikia.com/wiki/The_Tale_of_the_Three_Brothers\r
 \r
 If you don't know what this is, it's probably worth nothing. But if you're a Harry Potter nerd (like I am, and everybody of my generation), welcome to the Potterverse. I made this model while playing around with SketchUp 8 and I'm hoping to make plenty more 'things'!""" ;
@@ -14,6 +16,7 @@ If you don't know what this is, it's probably worth nothing. But if you're a Har
     okh:repo <https://www.thingiverse.com/thing:11062> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:11062> .

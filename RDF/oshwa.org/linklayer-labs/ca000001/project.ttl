@@ -2,22 +2,16 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Cantact a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "CANtact" ;
-    okh:additionalType "['Electronics', 'Tool']" ;
-    okh:certificationDate "2016-12-19T00:00:00-04:00" ;
-    okh:country "Canada" ;
-    okh:cpcPatentClass "Electronics" ;
+    okh:cpcPatentClass "H" ;
     okh:dataSource "oshwa.org" ;
     okh:documentationLanguage "en" ;
-    okh:documentationLicense "CC BY-SA" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function "Open Source CAN Bus Interface" ;
-    okh:hardwareLicense "Other" ;
     okh:licensor "Linklayer Labs" ;
-    okh:primaryType "Tool" ;
     okh:repo <https://certification.oshwa.org/ca000001.html> ;
     okh:repoHost "certification.oshwa.org" ;
-    okh:softwareLicense "No software" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
     okh:uploadMethod "auto" ;
     okh:version "v1" ;

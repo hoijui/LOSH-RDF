@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A43879/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:HadronordBotXmotorBracket a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Hadron (ORD Bot) X-Motor Bracket" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """The collection of the Motor- and Idler Pulley -Brackets is completed. This is the last piece of the puzzle. The goal of the X-Motor Bracket is to reduce the X-Wobble.\r
 \r
 Update 22 Jan, 2013:\r
@@ -21,6 +23,7 @@ An alternative solution as fma proposed.""" ;
     okh:repo <https://www.thingiverse.com/thing:43879> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:43879> .

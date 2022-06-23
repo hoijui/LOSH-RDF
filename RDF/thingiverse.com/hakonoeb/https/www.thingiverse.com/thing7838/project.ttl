@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A7838/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MicroSimCardToMiniSimCardAdapter a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Micro sim card to Mini sim card adapter" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is adapter to turn your micro sim card into a standard mini sim card.\r
 This is relevant if you buy a apple iPhone 4 or iPad2, which require the new micro sim. If you for some reson should want to plug your sim card into another unit that requires mini sim card, you can print this adapter and there you go.""" ;
     okh:hasImage :Image ;
@@ -13,6 +15,7 @@ This is relevant if you buy a apple iPhone 4 or iPad2, which require the new mic
     okh:repo <https://www.thingiverse.com/thing:7838> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:7838> .

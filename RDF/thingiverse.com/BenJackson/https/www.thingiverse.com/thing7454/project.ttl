@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A7454/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:10tXlPulleyForSaePrusaMendel a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "10t XL Pulley for SAE Prusa Mendel" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """The Prusa git repository does not convert T5 belt (5mm) to XL belt (0.20") when generating STL for the SAE version.  The pitches are so close that the pulley appears to work, but the ratio of tooth to space is different so there is backlash when the pulley reverses as the small teeth slide in the large gap.\r
 \r
 This is a variation of a 10t XL gear that Rick at MakerGear sells with his kit.  His STL didn't print well for me due to slight printing inaccuracy causing the grooves in the pulley to fill up with material.  This one is derived from an SCAD source here on Thingiverse.  The grooves for the belt teeth are 25% deeper than nominal.\r
@@ -16,6 +18,7 @@ Rick's STL is on github: https://github.com/MakerGear/MakerGear-Prusa-Mendel""" 
     okh:repo <https://www.thingiverse.com/thing:7454> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:7454> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A3424/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:RenoirsReprapSinglesidedStepperDriverBoardV23 a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Renoir's RepRap Single-Sided Stepper Driver board v2.3" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a single-sided version of the makerbot stepper driver board v2.3\r
 http://www.thingiverse.com/thing:393\r
 \r
@@ -16,6 +18,7 @@ It can still be improved.""" ;
     okh:repo <https://www.thingiverse.com/thing:3424> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:3424> .

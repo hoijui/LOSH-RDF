@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A17276/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:LaserFocusJig a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Laser Focus Jig" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """It's a little focus jig used to set up the distance between the lens and the material to cut.\r
 \r
 Made from a similar jig observed in use with a Trotec Laser.\r
@@ -16,6 +18,7 @@ Actually used with an HPC Laserscript 6040.""" ;
     okh:repo <https://www.thingiverse.com/thing:17276> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:17276> .

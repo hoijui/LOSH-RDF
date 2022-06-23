@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A10082/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:BeltTensioner a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Belt tensioner" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """After seeing the Ultimaker Belt Tensioner by psync (http://www.thingiverse.com/thing:10034), I decided to model my own that didn't need a screw. But of course there's also Roboteer's Paperclip belt tensioner (http://www.thingiverse.com/thing:4535)\r
 \r
 Note: It's been mentioned in the comments that there isn't enough space between the new style Ultimaker slider blocks and the belts. Which causes the tensioner to hit the blocks.""" ;
@@ -14,6 +16,7 @@ Note: It's been mentioned in the comments that there isn't enough space between 
     okh:repo <https://www.thingiverse.com/thing:10082> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:10082> .

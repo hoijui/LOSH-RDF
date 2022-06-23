@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A20253/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MakerbotReplicatorLiberatedFromSolidworksstepIgesParasolidWithBom a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "MakerBot Replicator liberated from Solidworks (STEP, IGES, Parasolid) with BOM!" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Many people don't have Solidworks. I do!\r
 \r
 I've downloaded the MakerBot Replicator and converted it to formats that are more portable between CAD systems. I think STEP would have been sufficient, but why not throw a few more out there too! If you're not sure, try STEP. But someone specifically asked for Parasolid, and I figured I'd throw in IGES too.\r
@@ -24,6 +26,7 @@ EDIT: Jack has been found! Missing part is here: http://www.thingiverse.com/thin
     okh:repo <https://www.thingiverse.com/thing:20253> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:20253> .

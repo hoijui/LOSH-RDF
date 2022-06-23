@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A1235/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:TwitCoin a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "TWIT Coin" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a coin with the TWIT logo on based on the original MakerBot Coin.\r
 \r
 Bre Pettis was recently on FLOSS Weekly discussing the MakerBot. It is a podcast on the TWIT Network about open source projects hosted by Leo Laporte, Randal Schwartz and Jono Bacon. It is a really interesting show and they have had people from the Arduino and Processing projects in the past year and have RepRap lined up for a future show. If you missed the show you can check it out at http://twit.tv/floss92\r
@@ -18,6 +20,7 @@ UPDATE: Lindsay25 was kind enough to print a copy and sent it to me. I have atta
     okh:repo <https://www.thingiverse.com/thing:1235> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:1235> .

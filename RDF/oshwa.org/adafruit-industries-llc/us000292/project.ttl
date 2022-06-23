@@ -2,21 +2,15 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:AdafruitTripleaxisMagnetometerLis3mdl a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Adafruit Triple-axis Magnetometer - LIS3MDL" ;
-    okh:additionalType "['Electronics']" ;
-    okh:certificationDate "2020-04-21T00:00:00-04:00" ;
-    okh:country "United States of America" ;
     okh:dataSource "oshwa.org" ;
     okh:documentationLanguage "en" ;
-    okh:documentationLicense "CC BY-SA" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function "This compact sensor uses I2C to communicate and its very easy to use. This sensor can sense ranges from +-4 gauss (+- 400 uTesla) up to +-16 gauss (+- 1600 uT or 1.6 mT). For ultra high precision, 155 Hz update rate is recommended - but the sensor can also output at 1000 Hz. This sensor uses a 4-pin Sparkfun Qwiic-compatible connector called STEMMA QT, which allows the sensor to communicate over I2C without needing to solder.  Click the link labeled 'Project Website' to find out more." ;
-    okh:hardwareLicense "Other" ;
     okh:licensor "Adafruit Industries, LLC" ;
-    okh:primaryType "Electronics" ;
     okh:repo <https://certification.oshwa.org/us000292.html> ;
     okh:repoHost "certification.oshwa.org" ;
-    okh:softwareLicense "MIT" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
     okh:uploadMethod "auto" ;
     okh:version "Rev A" ;

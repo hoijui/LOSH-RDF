@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A3229/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:12InterlockedRings a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "12 Interlocked Rings" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Inspired by Guru\\'s 2 interlocking rings, I made a copy and added 10 others!\r
  \r
 Image shows just after printing. It took 1h 10m.""" ;
@@ -14,6 +16,7 @@ Image shows just after printing. It took 1h 10m.""" ;
     okh:repo <https://www.thingiverse.com/thing:3229> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:3229> .

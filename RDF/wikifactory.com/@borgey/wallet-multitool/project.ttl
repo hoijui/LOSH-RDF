@@ -1,16 +1,17 @@
-@prefix : <https://wikifactory.com/@borgey/wallet-multitool/c283f01ce348883f6605815276308d633a4fc6de/> .
+@prefix : <https://wikifactory.com/%40borgey/wallet-multitool/c283f01ce348883f6605815276308d633a4fc6de/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:WalletMultitool a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Wallet Multitool " ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "An upgraded version of a 3D printed multitool I designed a while back and have carried since. Using vacuum forming to overcome various issues of the original design." ;
-    okh:hasComponent :CardBodyV1,
-        :CardDrawV1,
-        :EndAV3,
-        :EndBV4,
-        :TemplateTallV3 ;
+    okh:hasComponent :Cardbodyv1,
+        :Carddrawv1,
+        :Endav3,
+        :Endbv4,
+        :Templatetallv3 ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "Christopher Borge" ;
@@ -18,83 +19,84 @@
     okh:repo <https://wikifactory.com/@borgey/wallet-multitool> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "manifest" ;
     okh:version "c283f01ce348883f6605815276308d633a4fc6de" ;
     okh:versionOf <https://wikifactory.com/@borgey/wallet-multitool> .
 
-:CardBodyV1 a okh:Part ;
+:Cardbodyv1 a okh:Part ;
     rdfs:label "card body v1" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Christopher Borge" ;
-    okh:source :CardBodyV1_source ;
+    okh:source :Cardbodyv1_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:CardBodyV1_source a okh:SourceFile ;
+:Cardbodyv1_source a okh:SourceFile ;
     rdfs:label "Source File of card body v1 of Wallet Multitool  c283f01ce348883f6605815276308d633a4fc6de" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/142390/card-body-v1.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MDIwOTE=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/142390/card-body-v1.stl> .
 
-:CardDrawV1 a okh:Part ;
+:Carddrawv1 a okh:Part ;
     rdfs:label "card draw v1" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Christopher Borge" ;
-    okh:source :CardDrawV1_source ;
+    okh:source :Carddrawv1_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:CardDrawV1_source a okh:SourceFile ;
+:Carddrawv1_source a okh:SourceFile ;
     rdfs:label "Source File of card draw v1 of Wallet Multitool  c283f01ce348883f6605815276308d633a4fc6de" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/142390/card-draw-v1.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MDIwOTA=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/142390/card-draw-v1.stl> .
 
-:EndAV3 a okh:Part ;
+:Endav3 a okh:Part ;
     rdfs:label "end a v3" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Christopher Borge" ;
-    okh:source :EndAV3_source ;
+    okh:source :Endav3_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:EndAV3_source a okh:SourceFile ;
+:Endav3_source a okh:SourceFile ;
     rdfs:label "Source File of end a v3 of Wallet Multitool  c283f01ce348883f6605815276308d633a4fc6de" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/142390/end-a-v3.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MDIwODk=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/142390/end-a-v3.stl> .
 
-:EndBV4 a okh:Part ;
+:Endbv4 a okh:Part ;
     rdfs:label "end b v4" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Christopher Borge" ;
-    okh:source :EndBV4_source ;
+    okh:source :Endbv4_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:EndBV4_source a okh:SourceFile ;
+:Endbv4_source a okh:SourceFile ;
     rdfs:label "Source File of end b v4 of Wallet Multitool  c283f01ce348883f6605815276308d633a4fc6de" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/142390/end-b-v4.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MDIwODg=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/142390/end-b-v4.stl> .
 
 :Image a okh:Image ;
     rdfs:label "Image of Wallet Multitool  c283f01ce348883f6605815276308d633a4fc6de" ;
     okh:fileFormat "JPG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/142390/dsc_0104.JPG> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MDIwMjI=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/142390/dsc_0104.JPG> .
 
 :Readme a okh:Readme ;
     rdfs:label "Readme of Wallet Multitool  c283f01ce348883f6605815276308d633a4fc6de" ;
     okh:fileFormat "MD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/142390/readme-4f788.md> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MDIwNzE=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/142390/readme-4f788.md> .
 
-:TemplateTallV3 a okh:Part ;
+:Templatetallv3 a okh:Part ;
     rdfs:label "template tall v3" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Christopher Borge" ;
-    okh:source :TemplateTallV3_source ;
+    okh:source :Templatetallv3_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:TemplateTallV3_source a okh:SourceFile ;
+:Templatetallv3_source a okh:SourceFile ;
     rdfs:label "Source File of template tall v3 of Wallet Multitool  c283f01ce348883f6605815276308d633a4fc6de" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/142390/template-tall-v3.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MDIwODc=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/142390/template-tall-v3.stl> .
 

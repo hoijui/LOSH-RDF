@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A11841/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MiniBatarang a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Mini Batarang" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """neurothing's Batarang! is awesome but I wanted a smaller version that could be printed as a single part.  I created this by first closing the holes in batpivot.stl using Meshlab and then combining it with batfixed.stl in OpenSCAD.\r
 \r
 If you want to modify the .scad file please note that the part it generates is full size.  You'll need to scale and rotate it to fit your setup.  You'll also need to grab batfixed.stl from http://www.thingiverse.com/thing:3878.""" ;
@@ -14,6 +16,7 @@ If you want to modify the .scad file please note that the part it generates is f
     okh:repo <https://www.thingiverse.com/thing:11841> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:11841> .

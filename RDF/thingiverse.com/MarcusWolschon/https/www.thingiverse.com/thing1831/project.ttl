@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A1831/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Xytableunfinished a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "XY-table (unfinished)" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """My contest to design an XY-table\r
 ( http://www.bitsfrombytes.com/wiki/index.php?title=User:MarcusWolschon/Challenges and http://www.thingiverse.com/thing:1757)\r
 may have been too complex a task, so I designed\r
@@ -27,6 +29,7 @@ of Alibre Design but you can use the 30day test-version of it as well (as I did)
     okh:repo <https://www.thingiverse.com/thing:1831> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:1831> .

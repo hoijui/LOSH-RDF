@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A31200/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:IphonePutterMount a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "iPhone Putter Mount" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "So. I was getting ready for a vendor golf event, and decided that I wanted to somehow get Rodney Dangerfields putter from Caddyshack - however, optics are so old school when the iPhone has everything needed for the ultimate putter.  While out shopping at a sports store, I saw the iPing product (they give their app away, charge $30 for the mount) and I made one - with high hopes that someone wrote the app I so badly wanted." ;
     okh:hasImage :Image ;
     okh:licensor "JPiratefish" ;
     okh:repo <https://www.thingiverse.com/thing:31200> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:31200> .

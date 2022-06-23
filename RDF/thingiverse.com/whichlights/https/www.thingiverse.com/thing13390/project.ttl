@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A13390/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MindwaveCatEars a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "MindWave Cat Ears" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Some time ago, a friend of mine asked me to make her a pair of mind-controlled cat ears, and I said, "Oh sure! I can do that."   \r
 \r
 \r
@@ -122,6 +124,7 @@ Thanks again to all of you, and to the others I haven't mentioned. I promise to 
     okh:repo <https://www.thingiverse.com/thing:13390> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/BSD-4-Clause> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:13390> .

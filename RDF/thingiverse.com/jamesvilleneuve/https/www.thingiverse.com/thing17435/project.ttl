@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A17435/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:TntProblemFixerAllForFun a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "tnt problem fixer all for fun" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "this is for fun, it is a fake and safe plastic tnt box with a handle you print, then use a small piece of 3mm feedstock and put it thru the handle,let the feedstock hang in the device. also there is a little hole on the side for a wire to go out, so you can hook it up to whatever you want to pretend to blow up.." ;
     okh:hasImage :Image ;
     okh:licensor "jamesvilleneuve" ;
     okh:repo <https://www.thingiverse.com/thing:17435> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:17435> .

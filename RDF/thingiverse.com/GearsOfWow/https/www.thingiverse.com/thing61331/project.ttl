@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A61331/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:TapeTap a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Tape Tap" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "Unless you own a fancy tape dispenser; you only have two options with tape.  Either fold the end over and discard that piece when you need a new length.  Or you can orbit the tape repeatedly, using eyes and fingernails to locate and pry up the tape end.  I give you option three, the Tape Tap.  Adhere the tape end to this tap and save yourself some trouble." ;
     okh:hasImage :Image ;
     okh:licensor "GearsOfWow" ;
     okh:repo <https://www.thingiverse.com/thing:61331> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:61331> .

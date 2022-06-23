@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A9539/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:BoxFanKnob a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Box Fan Knob" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """It being summer now, my local hackerspace Sprout has started needed ventilation. We have a box fan (and, over the years, I've had several) that had no knob. Did we lose it? Did it break? Did the knob fairies make off with it? Who knows. I do know that my fingers hurt from trying to turn it and I never seemed to have a pair of pliers handy. I did have a Thing-o-Matic, though...\r
 \r
 I started by downloading Stove Knob by wizard23 and while it did technically work, the hole for the shaft was too large and my fan, like many others I have seen, gets along better with a knob that has a shaft receptacle extending a good bit beyond the back of the larger, human-friendly knob part. I started over and spent a few minutes in Sketchup making a model.\r
@@ -16,6 +18,7 @@ The first print didn't provide enough tolerance for the ooze and the shaft of th
     okh:repo <https://www.thingiverse.com/thing:9539> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:9539> .

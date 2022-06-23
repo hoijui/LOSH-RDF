@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A39654/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:1000UniqueSnowflakes a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "1000 Unique Snowflakes" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """These are the first 1000 generated snowflakes from http://www.thingiverse.com/thing:37525 "Blizzard Of Unique Snowflakes".\r
 \r
 It took probably 3 days with 4 parallel processes on a quad core machine to generate all of these so I figured I'd share!\r
@@ -16,6 +18,7 @@ Note: These were generated at 0.5mm tall rather than the script's default 2.0 mm
     okh:repo <https://www.thingiverse.com/thing:39654> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:39654> .

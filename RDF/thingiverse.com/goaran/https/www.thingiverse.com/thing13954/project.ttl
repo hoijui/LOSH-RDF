@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A13954/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ReprapCubeSpeedOptimizedBigBuiltAereaReplicating a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "reprap cube - speed optimized, big built aerea, replicating" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This in another reprap derivat printer. The main idea to built it was to get a printer which is fast and has lots of space to build things. The x and y axis work with an etch-a-sketch kind of mechanism with two belts. The z axis is driven by 3 thread rods. The main frame is a cube built of 20mm extruded aluminium profile. my frame is 400x400x400 but this can be scaled as you like.   
 The extruder i designed for the printer is that one: http://www.thingiverse.com/thing:14311 and the electronics i use are these: http://www.thingiverse.com/thing:6480  
 The pulleys were rendere with the scad script by droftarts: http://www.thingiverse.com/thing:16627 thanks a lot for that. Except for the frame,the rods and some standard parts, all parts are printed. (The edge-connecters could be printed too, this can be extended here)   
@@ -18,6 +20,7 @@ I had it running without an extruder just to test if the axis go as fast as i wa
     okh:repo <https://www.thingiverse.com/thing:13954> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:13954> .

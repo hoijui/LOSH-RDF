@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A14851/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:CheapMakerbotUsingAdafruitMotorShieldUpdate a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Cheap makerbot using adafruit motor shield. UPDATE" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I have been working on a makerbot that is controlled by the adafruit motor shield. I made all the parts and wooden pieces by hand using a saw. Once i had all the wooden pieces I put it together and added 2 nema 17 stepper motors for the x and y axis. I used a parallax continous rotation servo for the z axis. The code isbased on some code by Max Livesey and I edited it so it will 3d print instead of ploting. I built the whole thing for around 250 us dollars.\r
  (it is using an arduino mega so analog pins can be used with an extruder board i built)""" ;
     okh:hasImage :Image ;
@@ -13,6 +15,7 @@
     okh:repo <https://www.thingiverse.com/thing:14851> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:14851> .

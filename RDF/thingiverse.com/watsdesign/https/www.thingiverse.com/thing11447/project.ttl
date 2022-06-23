@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A11447/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:HeavyDutyFilamentSpoolForMendel a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Heavy duty filament spool - for mendel" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Remixed with http://www.thingiverse.com/thing:10254 (spindle for Randyy's spool), and http://www.thingiverse.com/thing:11250 (one piece printable arms) to adapt it for the RepRap.\r
 \r
 It's not very different from the original model, but I spend many hours in Sketchup tweaking it : correcting the scale in mm, getting rid of many mesh problems (face orientations and holes, especially in the hub), lower the height of the hub and the arms, join the arms in one piece like Fil did with the Randyy's ones, fuse the RotoScan's clip with the Tjhowse's spindle, organize the parts to be production friendly for a Mendel bed.\r
@@ -19,6 +21,7 @@ For me it printed good, hub and spindle are maybe tight to clip at first but can
     okh:repo <https://www.thingiverse.com/thing:11447> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:11447> .

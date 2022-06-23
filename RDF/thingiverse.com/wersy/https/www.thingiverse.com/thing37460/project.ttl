@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A37460/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:XendStabilizerForPrintrbot a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "X-End Stabilizer for Printrbot" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """As I saw the x-ends of the laser cut variant of the Printrbot I thought this could also be done with the plastic variant.\r
 A plate that connect the x-ends tight should bring more stability to the x-end unit. By the way you can give your Printrbot a personal note giving him a name :-)""" ;
     okh:hasImage :Image ;
@@ -13,6 +15,7 @@ A plate that connect the x-ends tight should bring more stability to the x-end u
     okh:repo <https://www.thingiverse.com/thing:37460> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:37460> .

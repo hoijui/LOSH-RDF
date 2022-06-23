@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A28507/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:AlphaSigmaMu a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Alpha Sigma Mu" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Alpha Sigma Mu is the international professional and academic honor society for the field of materials science and engineering. The Greek letters stand for the art and science of materials. It was founded in 1932 at Michigan Tech - but is now all over...  \r
 \r
 This component is part of an open source lab library, by the [Michigan Tech's Open Sustainability Technology Research Group](http://www.appropedia.org/Category:MOST).""" ;
@@ -14,6 +16,7 @@ This component is part of an open source lab library, by the [Michigan Tech's Op
     okh:repo <https://www.thingiverse.com/thing:28507> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:28507> .

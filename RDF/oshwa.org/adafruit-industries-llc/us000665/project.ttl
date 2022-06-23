@@ -2,21 +2,15 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:AdafruitMicroSdSpiOrSdioCardBreakoutBoard a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Adafruit Micro SD SPI or SDIO Card Breakout Board" ;
-    okh:additionalType "['Electronics']" ;
-    okh:certificationDate "2020-09-12T00:00:00-04:00" ;
-    okh:country "United States of America" ;
     okh:dataSource "oshwa.org" ;
     okh:documentationLanguage "en" ;
-    okh:documentationLicense "CC BY-SA" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function "If you've hit the limit of storage available on your microcontroller, this breakout is designed to help - unlike our other adapter, it is not fixed for SPI usage, and can be used with SDIO hardware support. SDIO is a multi-pin data protocol (up to 4 data pins at once!) SDIO also tends to be able to be clocked faster than SPI. Of course, your speeds will vary depending on what microcontroller you hook it up to." ;
-    okh:hardwareLicense "Other" ;
     okh:licensor "Adafruit Industries, LLC" ;
-    okh:primaryType "Electronics" ;
     okh:repo <https://certification.oshwa.org/us000665.html> ;
     okh:repoHost "certification.oshwa.org" ;
-    okh:softwareLicense "MIT" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
     okh:uploadMethod "auto" ;
     okh:version "Rev B" ;

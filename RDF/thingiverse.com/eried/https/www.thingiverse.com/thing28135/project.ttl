@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A28135/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:AutomaticsemiPlatformCalibrationChecker a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Automatic (semi) platform calibration checker" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """In almost a year using a 3d printer, I have learned that platform calibration is probably the most important factor to get nice prints.\r
 \r
 This "method" uses a digital depth meter, a webcam, a macro, a spreadsheet app and a OCR application to get a matrix of the current heights in the platform. My adjustment will be based on a primitive approach (almost by hand).""" ;
@@ -14,6 +16,7 @@ This "method" uses a digital depth meter, a webcam, a macro, a spreadsheet app a
     okh:repo <https://www.thingiverse.com/thing:28135> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:28135> .

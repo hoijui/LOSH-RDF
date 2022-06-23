@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A38466/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MouseGuardTenderpawJanus a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Mouse Guard Tenderpaw Janus" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Mouse Guard Tenderpaw pawn and two dice with the black axe acting as a 6!\r
 \r
 Use supports on the build plate to make sure his big nose is not drooping!\r
@@ -16,6 +18,7 @@ Printed with 15% infill and .20mm layer height on a Prusa I3 and a Reprap Prusa 
     okh:repo <https://www.thingiverse.com/thing:38466> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:38466> .

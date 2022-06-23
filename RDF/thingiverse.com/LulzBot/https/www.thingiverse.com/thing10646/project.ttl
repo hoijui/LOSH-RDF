@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A10646/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:SupaflatXcarriage a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Supa-Flat X-Carriage" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """The Supa-Flat X-Carriage is a modified x-carriage for the Prusa Mendel that uses the boltable PLA bushings. It also has space for the Buddhaschnozzle and Arcol hotend.\r
 \r
 Hardware spacing:\r
@@ -22,6 +24,7 @@ Licensing\r
     okh:repo <https://www.thingiverse.com/thing:10646> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:10646> .

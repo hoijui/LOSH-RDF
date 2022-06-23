@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A247/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:HexConnectorToy a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Hex Connector Toy" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I created this design while learning how to use my laser, it's a good simple project that creates 35, 1.2in hex pieces that you can build abstract sculptures with. They make a great desk toy or gift with a custom engraving on the peices. I'll be giving several sets out this Christmas.\r
 \r
 This pattern creates about 35 pieces, and the only material you'll need is a 8x8in 1/8th (200x200x2mm) piece of plexiglas. \r
@@ -22,6 +24,7 @@ I originally drew this in flash, and am including that as well as a DXF.""" ;
     okh:repo <https://www.thingiverse.com/thing:247> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:247> .

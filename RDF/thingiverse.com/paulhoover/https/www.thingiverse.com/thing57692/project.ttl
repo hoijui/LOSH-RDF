@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A57692/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:WeatherVase5yearoldDesigned a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Weather Vase 5-year-old designed" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "My daughter wanted to make something for her teacher.  She sketched a bunch of different ideas.  We decided to make this vase with different toppers for the weather of the day.  Her teacher didn't quite get it when she said, \"My dad's robot made this,\" but she loved it. Enjoy!  And please make more toppers and publish!" ;
     okh:hasImage :Image ;
     okh:licensor "paulhoover" ;
     okh:repo <https://www.thingiverse.com/thing:57692> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:57692> .

@@ -2,21 +2,15 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:AdafruitFeather32u4Adalogger a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Adafruit Feather 32u4 Adalogger" ;
-    okh:additionalType "['Electronics']" ;
-    okh:certificationDate "2020-05-28T00:00:00-04:00" ;
-    okh:country "United States of America" ;
     okh:dataSource "oshwa.org" ;
     okh:documentationLanguage "en" ;
-    okh:documentationLicense "CC BY-SA" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function "This is the Adafruit Feather 32u4 Adalogger - our take on an 'all-in-one' datalogger (or data-reader) with built in USB and battery charging. Its an Adafruit Feather 32u4 with a microSD holder. At the Feather 32u4's heart is at ATmega32u4 clocked at 8 MHz and at 3.3V logic. This chip has 32K of flash and 2K of RAM, with built in USB so it has a USB-to-Serial program & debug capability built in with no need for an FTDI-like chip. Click the link labeled 'Project Website' to find out more." ;
-    okh:hardwareLicense "Other" ;
     okh:licensor "Adafruit Industries, LLC" ;
-    okh:primaryType "Electronics" ;
     okh:repo <https://certification.oshwa.org/us000634.html> ;
     okh:repoHost "certification.oshwa.org" ;
-    okh:softwareLicense "MIT" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
     okh:uploadMethod "auto" ;
     okh:version "Rev B" ;

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A7929/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:JingsPyraminx a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Jing's Pyraminx" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This puzzle is similar to the rubik's cube and is currently massed produced and can be purchased from the producer, Meffert's. However I wanted to design a smaller, flat faced version. It also has a different mechanism than the massed produced version. It should work perfectly in theory, though finding the right size screw might take some work. I could always add pins that you could just glue in place if anyone wants. I also split two of the parts in half because of overhang problems. This way it should be able to be printed without support material, and then the two halves would have to be glued together.\r
 \r
 Unfortunately I don't really know how to orient the pieces, so hopefully you guys can do that yourselves.\r
@@ -19,6 +21,7 @@ Edit 1) 4/21/11: Changed the instructions to make it more clear.""" ;
     okh:repo <https://www.thingiverse.com/thing:7929> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:7929> .

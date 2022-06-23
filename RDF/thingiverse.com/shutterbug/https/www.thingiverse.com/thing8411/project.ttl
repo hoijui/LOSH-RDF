@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A8411/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:DivideCatFoodInto3Servings a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Divide Cat Food into 3 servings" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "Our two cats love their wet food every morning. So much in fact, that they wake me up at 4:30 a.m. when they are ready to eat. But if they eat too much, they get too fat. So I divide each can of Friskies wet cat food into 3 servings. But I don't always divide it correctly at 4:30 a.m., so I decided to make this cat food serving guide. Print on Makerbot, and then press this into a freshly-opened can of cat food to help make the servings even." ;
     okh:hasImage :Image ;
     okh:licensor "shutterbug" ;
     okh:repo <https://www.thingiverse.com/thing:8411> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:8411> .

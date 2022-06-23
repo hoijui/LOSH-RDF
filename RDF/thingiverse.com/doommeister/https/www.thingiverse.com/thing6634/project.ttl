@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A6634/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:GuitarStringWinderforLazyPeople a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Guitar String Winder (for  lazy people)" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """A string winder for your guitar or other stringed intruments. The winder is is intended for when you change strings and should be used in concert with a cordeless drill or electric screw driver to speed up the winding process.\r
 \r
 Use the drill to wind or unwind the slack string onto the tuning head.""" ;
@@ -14,6 +16,7 @@ Use the drill to wind or unwind the slack string onto the tuning head.""" ;
     okh:repo <https://www.thingiverse.com/thing:6634> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:6634> .

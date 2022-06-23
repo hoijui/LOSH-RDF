@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A11657/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:YaxisReprapRedesignWithIntegratedPcbHeatedbed a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Y-axis Reprap redesign with integrated PCB Heatedbed." ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """The Prusajrâ€™s PCB heatedbed is a very interesting commercial piece for its simplicity and performance. The problem is that it doesn't fit perfectly with the design of the Y-Axis of Reprap.\r
 \r
 Due to heat, expansion, and fixation at the four corners, the platform could reach warp. To fix this I have set the platform under an 3 mm aluminum plate to provide rigidity and protection. The platform is placed upside down, where hotter. The protection of the upside PCB is replaced by the aluminum sheet.\r
@@ -26,6 +28,7 @@ I've also uploaded some photos, some can see the changes that have made my Prusa
     okh:repo <https://www.thingiverse.com/thing:11657> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:11657> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A33427/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ProtosHeatbedPowersupplyHolderstrap a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "PRotos Heatbed Powersupply Holder/Strap" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """A strap to screw a box with a button hole down.\r
 \r
 All dimensions are adjustable in the SCAD file. \r
@@ -16,6 +18,7 @@ Protos Heizbett Netzteil Halter""" ;
     okh:repo <https://www.thingiverse.com/thing:33427> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:33427> .

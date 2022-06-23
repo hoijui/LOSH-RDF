@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A47017/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:DimpleHinge a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Dimple Hinge" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is the type of really simple hinge you see on a lot of small plastic boxes.\r
 \r
 I use it as my standard hinge for any boxes or containers I make.  \r
@@ -18,6 +20,7 @@ I made this quite awhile ago, but recently shared it with a friend who said I sh
     okh:repo <https://www.thingiverse.com/thing:47017> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:47017> .

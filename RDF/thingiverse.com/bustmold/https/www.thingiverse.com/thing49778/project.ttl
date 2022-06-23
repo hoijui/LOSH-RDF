@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A49778/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:DiveSpearForLionfishHunting3dPrintable a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Dive Spear for LionFish Hunting 3D Printable" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Lionfish are the first exotic species to invade coral reefs. They have multiplied at a rate that is almost unheard of in marine history, going from nonexistent to pervasive in just a few short years. Along the way, they've eaten or starved out local fish, disrupted commercial fishing, and threatened the tourism industry. Some experts believe that lionfish are so widespread that their effect on the ecosystems of the Western Atlantic will be almost impossible to reverse. Still, some people are determined to try, if only to protect those waters which haven't yet been invaded.  
 Download the world's first 3D-printable spear for lionfish hunting designed by Mold Busters to protect the reefs and the environment.  
 Read a full article by Shane Graber covering this experiment here  -   
@@ -21,6 +23,7 @@ For more information about our environmental efforts, please visit https://www.b
     okh:repo <https://www.thingiverse.com/thing:49778> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:49778> .

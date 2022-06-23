@@ -1,15 +1,16 @@
-@prefix : <https://wikifactory.com/+elektricworks/pikon-telescope/e79aea736ee54d91658cacdb3daa8b409ce1015b/> .
+@prefix : <https://wikifactory.com/%2Belektricworks/pikon-telescope/e79aea736ee54d91658cacdb3daa8b409ce1015b/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PikonTelescope a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Pikon Telescope" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "The PiKon is a 3D printed, Raspberry Pi powered astro-cam developed by Mark Wrigley. The design was made for Sheffield University's 'Festival of the Mind' to demonstrate what the 'citizen scientist' could do with disruptive technologies. Check out the dedicated web site www.PiKonic.com ." ;
     okh:hasComponent :Cameramount,
         :Focusknob,
-        :MirrorMount,
         :Mirrorbase,
+        :Mirrormount,
         :Raspberrypimount,
         :Raspberrypimount2,
         :Spider,
@@ -22,6 +23,7 @@
     okh:repo <https://wikifactory.com/+elektricworks/pikon-telescope> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
+    okh:uploadMethod "manifest" ;
     okh:version "e79aea736ee54d91658cacdb3daa8b409ce1015b" ;
     okh:versionOf <https://wikifactory.com/+elektricworks/pikon-telescope> .
 
@@ -36,7 +38,7 @@
     rdfs:label "Source File of camera-mount of Pikon Telescope e79aea736ee54d91658cacdb3daa8b409ce1015b" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/43/camera-mount.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxNTEy> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/43/camera-mount.stl> .
 
 :Focusknob a okh:Part ;
     rdfs:label "focus-knob" ;
@@ -49,26 +51,13 @@
     rdfs:label "Source File of focus-knob of Pikon Telescope e79aea736ee54d91658cacdb3daa8b409ce1015b" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/43/focus-knob.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxNTEx> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/43/focus-knob.stl> .
 
 :Image a okh:Image ;
     rdfs:label "Image of Pikon Telescope e79aea736ee54d91658cacdb3daa8b409ce1015b" ;
     okh:fileFormat "JPG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/43/fd9liwgj0moplupmedium.jpg> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxOTg=> .
-
-:MirrorMount a okh:Part ;
-    rdfs:label "mirror mount" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "James Botler" ;
-    okh:source :MirrorMount_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> .
-
-:MirrorMount_source a okh:SourceFile ;
-    rdfs:label "Source File of mirror mount of Pikon Telescope e79aea736ee54d91658cacdb3daa8b409ce1015b" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/43/mirror-mount.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxNTEw> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/43/fd9liwgj0moplupmedium.jpg> .
 
 :Mirrorbase a okh:Part ;
     rdfs:label "mirror-base" ;
@@ -81,7 +70,20 @@
     rdfs:label "Source File of mirror-base of Pikon Telescope e79aea736ee54d91658cacdb3daa8b409ce1015b" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/43/mirror-base.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxNTEz> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/43/mirror-base.stl> .
+
+:Mirrormount a okh:Part ;
+    rdfs:label "mirror mount" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "James Botler" ;
+    okh:source :Mirrormount_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> .
+
+:Mirrormount_source a okh:SourceFile ;
+    rdfs:label "Source File of mirror mount of Pikon Telescope e79aea736ee54d91658cacdb3daa8b409ce1015b" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/43/mirror-mount.stl> ;
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/43/mirror-mount.stl> .
 
 :Raspberrypimount a okh:Part ;
     rdfs:label "raspberry-pi-mount" ;
@@ -101,19 +103,19 @@
     rdfs:label "Source File of raspberry-pi-mount2 of Pikon Telescope e79aea736ee54d91658cacdb3daa8b409ce1015b" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/43/raspberry-pi-mount2.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxNTE3> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/43/raspberry-pi-mount2.stl> .
 
 :Raspberrypimount_source a okh:SourceFile ;
     rdfs:label "Source File of raspberry-pi-mount of Pikon Telescope e79aea736ee54d91658cacdb3daa8b409ce1015b" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/43/raspberry-pi-mount.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxNTE0> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/43/raspberry-pi-mount.stl> .
 
 :Readme a okh:Readme ;
     rdfs:label "Readme of Pikon Telescope e79aea736ee54d91658cacdb3daa8b409ce1015b" ;
     okh:fileFormat "MD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/43/readme-13.md> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2ODg0> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/43/readme-13.md> .
 
 :Spider a okh:Part ;
     rdfs:label "spider" ;
@@ -126,7 +128,7 @@
     rdfs:label "Source File of spider of Pikon Telescope e79aea736ee54d91658cacdb3daa8b409ce1015b" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/43/spider.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxNTE1> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/43/spider.stl> .
 
 :Tripodmount a okh:Part ;
     rdfs:label "tripod-mount" ;
@@ -139,5 +141,5 @@
     rdfs:label "Source File of tripod-mount of Pikon Telescope e79aea736ee54d91658cacdb3daa8b409ce1015b" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/43/tripod-mount.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxNTE2> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/43/tripod-mount.stl> .
 

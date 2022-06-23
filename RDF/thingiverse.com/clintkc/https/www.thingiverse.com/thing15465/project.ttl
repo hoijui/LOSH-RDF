@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A15465/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:TomBuildPlatformAccuracyAdjustment a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "TOM build platform accuracy adjustment" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I purchased my TOM in order to build 3D objects, of course.  I've designed most of my objects to max-out the X and Y limits of the build platform (I originally had the ABP, but removed it in lieu of the HBP... because it increases your build height and provides a flatter build surface.  I'm interested in build capacity & quality, not printing things as fast as I can).\r
 \r
 I measured my build platform, and found that it is 120mm X by 120mm Y... however, I have the HBP with hex bolts at 4 corners and self-adhesive aluminum tape on the platform.  So my actual "theoretical" build area should be approximately 120mm X by 102mm Y (between the hex-bolt heads).  But MANY of my larger prints (although designed to fit in a 120mm x 102mm space) were over-limiting on the X and/or Y axes.  \r
@@ -46,6 +48,7 @@ Thanks, guys....""" ;
     okh:repo <https://www.thingiverse.com/thing:15465> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:15465> .

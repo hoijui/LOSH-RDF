@@ -2,22 +2,16 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:CatwanArduinoShield a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "CATWAN ARDUINO SHIELD" ;
-    okh:additionalType "['Electronics', 'Home Connection', 'Robotics', 'Science']" ;
-    okh:certificationDate "2020-09-12T00:00:00-04:00" ;
-    okh:country "Mexico" ;
     okh:dataSource "oshwa.org" ;
     okh:documentationLanguage "en" ;
-    okh:documentationLicense "CC BY-SA" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function """The Arduino LoRa Cat Shield is a long-range transceiver with LoRa shield technology for the Arduino and based on the lmic and RFM95 open source libraries. The Shield allows the user to send data and reach extremely long ranges with a small amount of data and low current consumption.
 The LoRa shield features an RFM95 that is based on the SX1276 chip that targets professional wireless sensor network applications such as irrigation systems, smart metering, smart cities, smartphone detection, etc.""" ;
-    okh:hardwareLicense "CERN" ;
     okh:licensor "ELECTRONIC CATS SAPI DE CV" ;
-    okh:primaryType "IOT" ;
     okh:repo <https://certification.oshwa.org/mx000017.html> ;
     okh:repoHost "certification.oshwa.org" ;
-    okh:softwareLicense "LGPL" ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
     okh:uploadMethod "auto" ;
     okh:version "1.0" ;

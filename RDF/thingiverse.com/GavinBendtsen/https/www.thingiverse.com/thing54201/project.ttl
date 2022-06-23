@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A54201/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:DjiLegExtensions a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "DJI leg extensions" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "these are printable bolt on leg extensions for DJI 450 or 550 arms.  If you are interested In multirotors fpv etc. pleas check out garagepilots.com There is good information and a supportive community. This design was  created in part by Dennis Baldwin. http://www.youtube.com/watch?v=kX4IC2N6UeU" ;
     okh:hasImage :Image ;
     okh:licensor "GavinBendtsen" ;
     okh:repo <https://www.thingiverse.com/thing:54201> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:54201> .

@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A5614/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:DcServoControllerV10 a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "DC Servo Controller v1.0" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "The DC Servo Controller is a specialized Arduino designed to control a DC motor in with feedback from an encoder. This is what is called a 'closed-loop' system and more commonly a 'servo' motor. When most people think servo motor, an image of the hobby servo comes to mind. Hobby servos are special motors with a motor, gearbox, and control electronics built into one single package. These motors are cheap and easy to control. This board is more flexible, and is the big brother to that type of setup. With the MakerBot DC Servo Controller, you have the freedom to fully program your servo, and is is also designed to work with our Magnetic Linear Encoders or Magnetic Rotary Encoders which give you an amazing amount of accuracy and flexibility in your design. You can also use much stronger motors that can draw up to 2.8A! With this board you can build awesome, accurate, and easily programmed robots." ;
     okh:hasImage :Image ;
     okh:licensor "MakerBot" ;
     okh:repo <https://www.thingiverse.com/thing:5614> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:5614> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A34754/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:AcrylicCaseForSolidoodle2 a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Acrylic Case for Solidoodle 2" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is an acrylic case for the Solidoodle 2, held on by 1/4" magnets.  The top is raised to provide more room for the filament to bend on the way to the extruder.  It is also removable to provide easy access for changing filament and adjusting the Z screw without taking the whole thing off.  Each side pops off easily for easy access to the print or glass clips from the side.  The right side has an opening sized for an 80mm fan.  You can use the fan to blow in to cool the print area for PLA, or blow out through a filter for ventilation.  Or you can use it to blow hot air in from a heater to raise the ambient temperature of the case.  I plan on designing some attachments for the hot air duct.\r
 \r
 The door is the one that comes with the metal case.  If you do not have one, try contacting Solidoodle and see if they will sell you a door a la carte.  Otherwise, it shouldn't be too difficult to design one of your own.\r
@@ -16,6 +18,7 @@ Here is some video featuring the case - http://youtu.be/uBgVFn7DZCs""" ;
     okh:repo <https://www.thingiverse.com/thing:34754> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:34754> .

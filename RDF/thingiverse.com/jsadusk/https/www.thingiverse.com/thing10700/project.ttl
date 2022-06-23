@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A10700/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:BikeTireValveCapForSchraderValve a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Bike tire valve cap for Schrader valve" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I recently posted a valve cap for Presta valves ( http://www.thingiverse.com/thing:10570 ), but at least in the US Schrader valves are much more common.  So I made a Schrader version.  Replace your constantly lost valve caps!\r
 \r
 If you don't know whether you have Schrader or Presta, if you're in the US you probably have Schrader, and if you're in Europe you probably have Presta.""" ;
@@ -14,6 +16,7 @@ If you don't know whether you have Schrader or Presta, if you're in the US you p
     okh:repo <https://www.thingiverse.com/thing:10700> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:10700> .

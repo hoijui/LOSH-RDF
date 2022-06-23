@@ -1,21 +1,24 @@
 @prefix : <https://www.thingiverse.com/thing%3A6409/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ThingomaticExtruderA3949IcRelayFix a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Thing-o-Matic Extruder A3949 IC Relay fix" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """After burning out 2 A3949 motor driver ICs for the Plastruder feeder, I replaced it one more time and built a relay interface. My motor is over 20ohms, so I donâ€™t understand why it keeps nuking the chip, but no more!\r
 \r
 This took about 45 minutes to build on a perfboard, with an ATX power jack stolen from a CPU fan pass-through cable.\r
 \r
-Direction relay only kicks in when there is a â€œreverse feedâ€ called (which is rare). Better not to exercise a relay when the default off condition does over 98% of the work. The power relay energizes regardless what polarity the power is.""" ;
+Direction relay only kicks in when there is a â€œreverse feedâ€x9d called (which is rare). Better not to exercise a relay when the default off condition does over 98% of the work. The power relay energizes regardless what polarity the power is.""" ;
     okh:hasImage :Image ;
     okh:licensor "Solarbotics" ;
     okh:repo <https://www.thingiverse.com/thing:6409> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:6409> .

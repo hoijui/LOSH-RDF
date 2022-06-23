@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A22029/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:BikeHelmetLightClip a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Bike Helmet Light Clip" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "I have a bike light that used to have a belt clip. The belt clip snapped off, so it had been sitting in my junk drawer. Now it's useful again!" ;
     okh:hasImage :Image ;
     okh:licensor "chriscrewdson" ;
     okh:repo <https://www.thingiverse.com/thing:22029> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:22029> .

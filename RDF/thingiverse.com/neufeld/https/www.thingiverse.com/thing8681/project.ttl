@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A8681/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MountingBracketForThree35inchDrivesInTwo525inchDriveBays a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Mounting Bracket for Three 3.5-Inch Drives in Two 5.25-Inch Drive Bays" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I have a rackmount server with a drive cage for one 3.5" hard drive and three 5.25" drives, but I wanted to mount four 3.5" drives.\r
 \r
 This bracket adapts 3.5" drives to fit in the 5.25" cage and positions three 3.5" drives vertically in the space intended for two 5.25" drives.""" ;
@@ -14,6 +16,7 @@ This bracket adapts 3.5" drives to fit in the 5.25" cage and positions three 3.5
     okh:repo <https://www.thingiverse.com/thing:8681> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:8681> .

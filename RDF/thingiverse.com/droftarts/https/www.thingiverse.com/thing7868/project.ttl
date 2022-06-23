@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A7868/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:AfghanLatheByVikOlliver a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Afghan Lathe by Vik Olliver" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Firstly, this is NOT MY IDEA! It was published by Vik Olliver, Diamond Age Solutions Ltd. http://diamondage.co.nz. I have reproduced it here, assuming that it is public domain. However, I will be happy to remove it if the original author would like me to. His document says "Documentation released under the GFDL for free reproduction." I hope that extends to his pictures!\r
 \r
 I am building a mrkimrobotics 1X2 reprap http://mrkimrobotics.com/ and http://www.thingiverse.com/thing:5773 from basic, locally sourced parts, and getting to the point were I need to create a hot end. I realised I needed a lathe for this, but don't have space or cash for a real one and all thingiverse lathes http://www.thingiverse.com/tag:lathe require some reprapped parts - but mine isn't built yet! Somehow I stumbled upon Vik's page and feel it deserves a wider audience.\r
@@ -18,6 +20,7 @@ Vik Olliver: "Why an 'Afghan Lathe'? Because I first saw this kind of technique 
     okh:repo <https://www.thingiverse.com/thing:7868> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:7868> .

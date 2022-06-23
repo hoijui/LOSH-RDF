@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A22980/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:RonsCompactExtruder a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Ron's Compact Extruder" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is not the extruder you're looking for. If you're looking for the extruder referenced in Josef Prusa's i3 design, see http://www.thingiverse.com/thing:24219 \r
 \r
 A direct drive extruder designed for use with a Minebea geared stepper motor, a Makerbot drive wheel, and a MakerGear GrooveMount (or similar) hot end.\r
@@ -21,70 +23,71 @@ So, here you have my best effort for a compact extruder.\r
 My goals for it are (in order):\r
 \r
 1) Torque.  It must be able to drive 3mm filament.\r
-Â Â Â Â So far, I've only tested it with PLA, but I've had no difficulty\r
-Â Â Â Â extruding at average speeds.\r
+Âxa0Âxa0Âxa0Âxa0So far, I've only tested it with PLA, but I've had no difficulty\r
+Âxa0Âxa0Âxa0Âxa0extruding at average speeds.\r
 \r
 2) Reliability. It must never let the filament slip, or lose steps.\r
-Â Â Â Â Once I figured out that I needed to reduce the retraction\r
-Â Â Â Â speed to 10mm/s, it became quite reliable.\r
+Âxa0Âxa0Âxa0Âxa0Once I figured out that I needed to reduce the retraction\r
+Âxa0Âxa0Âxa0Âxa0speed to 10mm/s, it became quite reliable.\r
 \r
 3) Size. It must give me use of the full width of my print bed.\r
-Â Â Â Â On the newer of my printers, which was built with an extra\r
-Â Â Â Â 15mm width in the frame, I've achieved that goal.  On the\r
-Â Â Â Â older printer, the frame will limit my width at high print\r
-Â Â Â Â heights by around 10mm.\r
+Âxa0Âxa0Âxa0Âxa0On the newer of my printers, which was built with an extra\r
+Âxa0Âxa0Âxa0Âxa015mm width in the frame, I've achieved that goal.  On the\r
+Âxa0Âxa0Âxa0Âxa0older printer, the frame will limit my width at high print\r
+Âxa0Âxa0Âxa0Âxa0heights by around 10mm.\r
 \r
 4) Ease of setup.  I don't like adjusting bolt tension whenever I\r
-Â Â Â Â change filament.\r
-Â Â Â Â The makerbot drive wheel is designed for use with fixed idler\r
-Â Â Â tension, and (when tested with other extruder designs)\r
-Â Â Â Â allowed me to switch between PLA and ABS filament, with\r
-Â Â Â Â .1mm difference in diameter, without having to readjust.\r
+Âxa0Âxa0Âxa0Âxa0change filament.\r
+Âxa0Âxa0Âxa0Âxa0The makerbot drive wheel is designed for use with fixed idler\r
+Âxa0Âxa0Âxa0tension, and (when tested with other extruder designs)\r
+Âxa0Âxa0Âxa0Âxa0allowed me to switch between PLA and ABS filament, with\r
+Âxa0Âxa0Âxa0Âxa0.1mm difference in diameter, without having to readjust.\r
 \r
 5) Ease of maintenance.  I don't like taking an extruder apart to\r
-Â Â Â Â clean it.\r
-Â Â Â Â The back side of the extruder body is open, so that you can\r
-Â Â Â Â clean the teeth of the drive wheel without even loosening\r
-Â Â Â Â the idler.\r
-Â Â Â Â The filament guide runs close between the idler and drive\r
-Â Â Â Â wheel, to reduce the likelihood of jamming the the\r
-Â Â Â Â extruder when switching filaments.\r
+Âxa0Âxa0Âxa0Âxa0clean it.\r
+Âxa0Âxa0Âxa0Âxa0The back side of the extruder body is open, so that you can\r
+Âxa0Âxa0Âxa0Âxa0clean the teeth of the drive wheel without even loosening\r
+Âxa0Âxa0Âxa0Âxa0the idler.\r
+Âxa0Âxa0Âxa0Âxa0The filament guide runs close between the idler and drive\r
+Âxa0Âxa0Âxa0Âxa0wheel, to reduce the likelihood of jamming the the\r
+Âxa0Âxa0Âxa0Âxa0extruder when switching filaments.\r
 \r
 After designing it, I found that arcol had started an indiegogo campaign to build drive wheels in various sizes, so I added another goal.\r
 \r
 6) It needs to accommodate either the makerbot MK7 drive\r
-Â Â Â Â wheel, or the arcol hyena 11x5 drive wheel.\r
-Â Â Â Â The current version adds a taper to the lower filament guide, which allows it to be used with either drive wheel.\r
+Âxa0Âxa0Âxa0Âxa0wheel, or the arcol hyena 11x5 drive wheel.\r
+Âxa0Âxa0Âxa0Âxa0The current version adds a taper to the lower filament guide, which allows it to be used with either drive wheel.\r
 \r
 Motor:\r
-Â Â Â Â  http://www.eminebea.com/en/product/rotary/steppingmotor/pm/gearbox/pg35l-d48.shtml \r
-Â Â Â Â (available at http://www.mpja.com/prodinfo.asp?number=18840+MS , but you'll need a small gear puller or faucet puller to remove the vestigial gear).\r
+Âxa0Âxa0Âxa0Âxa0 http://www.eminebea.com/en/product/rotary/steppingmotor/pm/gearbox/pg35l-d48.shtml \r
+Âxa0Âxa0Âxa0Âxa0(available at http://www.mpja.com/prodinfo.asp?number=18840+MS , but you'll need a small gear puller or faucet puller to remove the vestigial gear).\r
 \r
 Drive wheel:\r
-Â Â Â Â  http://store.makerbot.com/mk7-drive-gear.html or\r
-Â Â Â Â  http://www.indiegogo.com/mini-hyena (the 11x5 version).\r
+Âxa0Âxa0Âxa0Âxa0 http://store.makerbot.com/mk7-drive-gear.html or\r
+Âxa0Âxa0Âxa0Âxa0 http://www.indiegogo.com/mini-hyena (the 11x5 version).\r
 \r
 Two variations are provided: One which fits a compact carriage (45mm in in the x-axis), and another which fits the standard Prusa carriage.\r
 \r
 Revisions:\r
-Â Â Â Â Fixed the bridges in the carriage belt clips.\r
-Â Â Â Â Increased the thickness of the carriage mount.\r
-Â Â Â Â Increased the diameter of the igus bushing holes.\r
-Â Â Â Â Added an (experimental) pocket for an LM8UU bearing to\r
-Â Â Â Â Â Â Â Â each of the carriage rails.  I haven't tested this, and I'm\r
-Â Â Â Â Â Â Â Â not sure if it will work to use only 2 LM8UU on a\r
-Â Â Â Â Â Â Â Â carriage, but it saves plastic - consider yourself\r
-Â Â Â Â Â Â Â Â warned.\r
-Â Â Â Â Added bolt holes for a 40mm fan to the carriage.\r
-Â Â Â Â Widened the openings in the LM8UU pockets.  Hopefully\r
-Â Â Â Â Â Â Â Â it'll now actually be possible to get a bearing into them.\r
-Â Â Â Â Moved the filament channel a bit closer to the drive wheel, and tapered the lower filament channel, in order to support arcol's "mini hyena" drive wheel.\r
-Â Â Â Â Closed the outside of the extruder body, to prevent it from flexing as the filament is driven.""" ;
+Âxa0Âxa0Âxa0Âxa0Fixed the bridges in the carriage belt clips.\r
+Âxa0Âxa0Âxa0Âxa0Increased the thickness of the carriage mount.\r
+Âxa0Âxa0Âxa0Âxa0Increased the diameter of the igus bushing holes.\r
+Âxa0Âxa0Âxa0Âxa0Added an (experimental) pocket for an LM8UU bearing to\r
+Âxa0Âxa0Âxa0Âxa0Âxa0Âxa0Âxa0Âxa0each of the carriage rails.  I haven't tested this, and I'm\r
+Âxa0Âxa0Âxa0Âxa0Âxa0Âxa0Âxa0Âxa0not sure if it will work to use only 2 LM8UU on a\r
+Âxa0Âxa0Âxa0Âxa0Âxa0Âxa0Âxa0Âxa0carriage, but it saves plastic - consider yourself\r
+Âxa0Âxa0Âxa0Âxa0Âxa0Âxa0Âxa0Âxa0warned.\r
+Âxa0Âxa0Âxa0Âxa0Added bolt holes for a 40mm fan to the carriage.\r
+Âxa0Âxa0Âxa0Âxa0Widened the openings in the LM8UU pockets.  Hopefully\r
+Âxa0Âxa0Âxa0Âxa0Âxa0Âxa0Âxa0Âxa0it'll now actually be possible to get a bearing into them.\r
+Âxa0Âxa0Âxa0Âxa0Moved the filament channel a bit closer to the drive wheel, and tapered the lower filament channel, in order to support arcol's "mini hyena" drive wheel.\r
+Âxa0Âxa0Âxa0Âxa0Closed the outside of the extruder body, to prevent it from flexing as the filament is driven.""" ;
     okh:hasImage :Image ;
     okh:licensor "raldrich" ;
     okh:repo <https://www.thingiverse.com/thing:22980> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:22980> .

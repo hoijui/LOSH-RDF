@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A8132/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PolybotEffectorBase a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "PolyBot Effector Base" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Now that I'm pretty sure about the way in which I want to hold tools on my PolyBot, I need a single piece effector (tool holder).\r
 \r
 This derivative puts the axle mounts on the base plate directly.  This makes for a single piece to print instead of the keyed version it derives from.\r
@@ -22,6 +24,7 @@ This is challenging to print as there's a lot of surface area, and it will tend 
     okh:repo <https://www.thingiverse.com/thing:8132> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:8132> .

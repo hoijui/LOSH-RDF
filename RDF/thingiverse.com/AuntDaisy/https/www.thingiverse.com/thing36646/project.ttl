@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A36646/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ChristmasDanishHeartTemplates a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Christmas Danish Heart templates" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """These are 3D printable templates for cutting (or drawing) the paper used to make Danish Hearts.   
 There are 3, 4 & 5 strip templates and one wiggly one.  
 Children love weaving them and the template allows you too cut lots of paper at once. (For more design's see  Lene and Anna Schepper's wonderful blog http://papermatrix.wordpress.com/hearts/ )  
@@ -22,6 +24,7 @@ I've included an OpenSCAD file to generate straight line Danish Hearts of any si
     okh:repo <https://www.thingiverse.com/thing:36646> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:36646> .

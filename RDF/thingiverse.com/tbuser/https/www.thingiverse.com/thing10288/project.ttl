@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A10288/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PinConnectors a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Pin Connectors" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """UPDATE: Instead of using this, you might want to check out V2 http://www.thingiverse.com/thing:10541\r
 \r
 When I made the Mars Rover http://www.thingiverse.com/thing:10057 I used very simple pins to bolt the parts together that relied only on a friction fit to hold in place.  That let me make very small connectors, but they're hard to print and hard to assemble and tend to break easily and/or fall apart.\r
@@ -18,6 +20,7 @@ This simple openscad library script is totally parametric so you can play with d
     okh:repo <https://www.thingiverse.com/thing:10288> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:10288> .

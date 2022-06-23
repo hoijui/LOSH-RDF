@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A33002/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:CellPhoneStand a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Cell Phone Stand" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """A simple cell phone stand that breaks down for traveling.  
 The original fit a phone up to 1/2" thick.  On a request i have added two more lower sections to accommodate larger phones.  .125" & .25" larger.  I uploaded medium and VERY high resolution parts so take your pic, look at the file sizes and download what you would like.  I am going to also upload the top section on VERY high res also for those of you who like real smooth prints as i do.  Hope everyone enjoys.  Let me know of any other good ideas for improvements!  :)""" ;
     okh:hasImage :Image ;
@@ -13,6 +15,7 @@ The original fit a phone up to 1/2" thick.  On a request i have added two more l
     okh:repo <https://www.thingiverse.com/thing:33002> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:33002> .

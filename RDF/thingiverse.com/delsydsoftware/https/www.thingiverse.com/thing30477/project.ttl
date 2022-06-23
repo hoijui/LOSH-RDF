@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A30477/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:BoschRa1181RouterTableDustCollectionAdapterFor125InchShopVacHose a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Bosch RA1181 Router Table Dust collection adapter for 1.25 inch Shop Vac hose" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Update: I have added an improved version of the adapter which prints without supports. Version 1 is still available if anyone needs it, but Version 2 is much better.  
 
 This is a simple adapter for attaching a 1.25 inch Shop Vac hose directly to a Bosch RA1181 router table dust collection port.  
@@ -16,6 +18,7 @@ This may be usable by other pieces of equipment that use a 2.5 inch dust collect
     okh:repo <https://www.thingiverse.com/thing:30477> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:30477> .

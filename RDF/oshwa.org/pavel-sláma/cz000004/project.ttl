@@ -2,21 +2,15 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:EthIo a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "ETH IO" ;
-    okh:additionalType "['Electronics', 'Home Connection']" ;
-    okh:certificationDate "2021-06-03T00:00:00-04:00" ;
-    okh:country "Czech Republic" ;
     okh:dataSource "oshwa.org" ;
     okh:documentationLanguage "en" ;
-    okh:documentationLicense "CC BY-SA" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function "ESP32 based ethernet I/O board for home automation." ;
-    okh:hardwareLicense "CERN" ;
     okh:licensor "Pavel Sláma" ;
-    okh:primaryType "Electronics" ;
     okh:repo <https://certification.oshwa.org/cz000004.html> ;
     okh:repoHost "certification.oshwa.org" ;
-    okh:softwareLicense "MIT" ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
     okh:uploadMethod "auto" ;
     okh:version "2.1" ;

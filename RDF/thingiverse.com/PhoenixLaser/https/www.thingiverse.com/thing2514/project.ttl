@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A2514/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:SteampunkInspiredWoodenTypewriterKeys a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Steampunk Inspired Wooden Typewriter Keys" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Complete set of wood typewriter keys laser engraved in 3D.\r
 \r
 Included is the original SVG file so you can edit in case you want to change the font, or make other special types of keys.\r
@@ -19,6 +21,7 @@ http://www.youtube.com/watch?v=6W6BC4B2kjw""" ;
     okh:repo <https://www.thingiverse.com/thing:2514> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:2514> .

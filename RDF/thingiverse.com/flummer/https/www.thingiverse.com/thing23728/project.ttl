@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A23728/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MicrophoneFlag a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Microphone Flag" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a microphone flag to be used with regular handheld interview microphones.  
 I have tested it with my Shure Beta 58A microphones, but it should easily fit many other vocal/interview mics.  
 The OpenSCAD file is made so that it is easy to change the size an shape to fit more or less any logo or name that you would want to put on it.  
@@ -15,6 +17,7 @@ I have also attached a few different STL files, for those that don't want to bot
     okh:repo <https://www.thingiverse.com/thing:23728> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:23728> .

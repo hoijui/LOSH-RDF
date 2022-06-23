@@ -2,13 +2,13 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ToothpasteContainer a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Toothpaste Container" ;
     okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "A cleaner way to brush your teeth!" ;
-    okh:hasComponent :BlueprintstoothpasteContainerIsometricExplodedView,
-        :Blueprintstoothpastecontainer,
+    okh:hasComponent :Blueprintstoothpastecontainer,
+        :Blueprintstoothpastecontainerisometricexplodedview,
         :Bom,
         :Bookletmdflex2,
         :Partsassembly,
@@ -34,19 +34,6 @@
     okh:version "9f3237c942a85547c96dae05d19f468d1f7d94f1" ;
     okh:versionOf <https://wikifactory.com/@abnergomez/toothpaste-container> .
 
-:BlueprintstoothpasteContainerIsometricExplodedView a okh:Part ;
-    rdfs:label "Blueprints/Toothpaste Container Isometric Exploded View" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Abner Gómez" ;
-    okh:source :BlueprintstoothpasteContainerIsometricExplodedView_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:BlueprintstoothpasteContainerIsometricExplodedView_source a okh:SourceFile ;
-    rdfs:label "Source File of Blueprints/Toothpaste Container Isometric Exploded View of Toothpaste Container 9f3237c942a85547c96dae05d19f468d1f7d94f1" ;
-    okh:fileFormat "PDF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64036/toothpaste_container_isometric_exploded_view.PDF> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTQwMDU=> .
-
 :Blueprintstoothpastecontainer a okh:Part ;
     rdfs:label "Blueprints/Toothpaste_Container" ;
     okh:documentationLanguage "en" ;
@@ -58,7 +45,20 @@
     rdfs:label "Source File of Blueprints/Toothpaste_Container of Toothpaste Container 9f3237c942a85547c96dae05d19f468d1f7d94f1" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64036/toothpaste_container.PDF> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTQwMDI=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64036/toothpaste_container.PDF> .
+
+:Blueprintstoothpastecontainerisometricexplodedview a okh:Part ;
+    rdfs:label "Blueprints/Toothpaste Container Isometric Exploded View" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Abner Gómez" ;
+    okh:source :Blueprintstoothpastecontainerisometricexplodedview_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Blueprintstoothpastecontainerisometricexplodedview_source a okh:SourceFile ;
+    rdfs:label "Source File of Blueprints/Toothpaste Container Isometric Exploded View of Toothpaste Container 9f3237c942a85547c96dae05d19f468d1f7d94f1" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64036/toothpaste_container_isometric_exploded_view.PDF> ;
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64036/toothpaste_container_isometric_exploded_view.PDF> .
 
 :Bom a okh:Part ;
     rdfs:label "BOM" ;
@@ -71,7 +71,7 @@
     rdfs:label "Source File of BOM of Toothpaste Container 9f3237c942a85547c96dae05d19f468d1f7d94f1" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64036/bom.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTg5NzQ=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64036/bom.pdf> .
 
 :Bookletmdflex2 a okh:Part ;
     rdfs:label "booklet__MDflex2" ;
@@ -84,13 +84,13 @@
     rdfs:label "Source File of booklet__MDflex2 of Toothpaste Container 9f3237c942a85547c96dae05d19f468d1f7d94f1" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64036/booklet__mdflex2.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTg5NTk=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64036/booklet__mdflex2.pdf> .
 
 :Image a okh:Image ;
     rdfs:label "Image of Toothpaste Container 9f3237c942a85547c96dae05d19f468d1f7d94f1" ;
     okh:fileFormat "PNG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64036/untitled_9-eef9a.png> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTQxNTE=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64036/untitled_9-eef9a.png> .
 
 :Partsassembly a okh:Part ;
     rdfs:label "Parts/Assembly" ;
@@ -103,7 +103,7 @@
     rdfs:label "Source File of Parts/Assembly of Toothpaste Container 9f3237c942a85547c96dae05d19f468d1f7d94f1" ;
     okh:fileFormat "SLDASM" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64036/assembly-67873.SLDASM> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTg5NDQ=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64036/assembly-67873.SLDASM> .
 
 :Partstc001 a okh:Part ;
     rdfs:label "Parts/TC001" ;
@@ -116,7 +116,7 @@
     rdfs:label "Source File of Parts/TC001 of Toothpaste Container 9f3237c942a85547c96dae05d19f468d1f7d94f1" ;
     okh:fileFormat "SLDPRT" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64036/tc001.SLDPRT> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTg5MzU=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64036/tc001.SLDPRT> .
 
 :Partstc002 a okh:Part ;
     rdfs:label "Parts/TC002" ;
@@ -129,7 +129,7 @@
     rdfs:label "Source File of Parts/TC002 of Toothpaste Container 9f3237c942a85547c96dae05d19f468d1f7d94f1" ;
     okh:fileFormat "SLDPRT" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64036/cover.SLDPRT> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTg5MzQ=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64036/cover.SLDPRT> .
 
 :Partstc003 a okh:Part ;
     rdfs:label "Parts/TC003" ;
@@ -142,7 +142,7 @@
     rdfs:label "Source File of Parts/TC003 of Toothpaste Container 9f3237c942a85547c96dae05d19f468d1f7d94f1" ;
     okh:fileFormat "SLDPRT" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64036/tc003.SLDPRT> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTg5Mjk=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64036/tc003.SLDPRT> .
 
 :Partstc004 a okh:Part ;
     rdfs:label "Parts/TC004" ;
@@ -155,7 +155,7 @@
     rdfs:label "Source File of Parts/TC004 of Toothpaste Container 9f3237c942a85547c96dae05d19f468d1f7d94f1" ;
     okh:fileFormat "SLDPRT" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64036/tc004.SLDPRT> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTg5Mjg=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64036/tc004.SLDPRT> .
 
 :Partstc005 a okh:Part ;
     rdfs:label "Parts/TC005" ;
@@ -168,7 +168,7 @@
     rdfs:label "Source File of Parts/TC005 of Toothpaste Container 9f3237c942a85547c96dae05d19f468d1f7d94f1" ;
     okh:fileFormat "SLDPRT" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64036/tc005.SLDPRT> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTg5Mjc=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64036/tc005.SLDPRT> .
 
 :Partstc006 a okh:Part ;
     rdfs:label "Parts/TC006" ;
@@ -181,7 +181,7 @@
     rdfs:label "Source File of Parts/TC006 of Toothpaste Container 9f3237c942a85547c96dae05d19f468d1f7d94f1" ;
     okh:fileFormat "SLDPRT" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64036/tc006.SLDPRT> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTg5MjM=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64036/tc006.SLDPRT> .
 
 :Partstc007 a okh:Part ;
     rdfs:label "Parts/TC007" ;
@@ -194,7 +194,7 @@
     rdfs:label "Source File of Parts/TC007 of Toothpaste Container 9f3237c942a85547c96dae05d19f468d1f7d94f1" ;
     okh:fileFormat "SLDPRT" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64036/tc007.SLDPRT> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTg5MjE=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64036/tc007.SLDPRT> .
 
 :Partstc008 a okh:Part ;
     rdfs:label "Parts/TC008" ;
@@ -207,7 +207,7 @@
     rdfs:label "Source File of Parts/TC008 of Toothpaste Container 9f3237c942a85547c96dae05d19f468d1f7d94f1" ;
     okh:fileFormat "SLDPRT" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64036/tc008.SLDPRT> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTg5MjA=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64036/tc008.SLDPRT> .
 
 :Partstc009 a okh:Part ;
     rdfs:label "Parts/TC009" ;
@@ -220,7 +220,7 @@
     rdfs:label "Source File of Parts/TC009 of Toothpaste Container 9f3237c942a85547c96dae05d19f468d1f7d94f1" ;
     okh:fileFormat "SLDPRT" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64036/tc009.SLDPRT> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTg5MTg=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64036/tc009.SLDPRT> .
 
 :Partstoothpastemodel a okh:Part ;
     rdfs:label "Parts/ToothPasteModel" ;
@@ -233,13 +233,13 @@
     rdfs:label "Source File of Parts/ToothPasteModel of Toothpaste Container 9f3237c942a85547c96dae05d19f468d1f7d94f1" ;
     okh:fileFormat "SLDPRT" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64036/toothpastemodel.SLDPRT> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTg5MTc=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64036/toothpastemodel.SLDPRT> .
 
 :Readme a okh:Readme ;
     rdfs:label "Readme of Toothpaste Container 9f3237c942a85547c96dae05d19f468d1f7d94f1" ;
     okh:fileFormat "MD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64036/readme-84fe4.md> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTg5ODM=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64036/readme-84fe4.md> .
 
 :Safetoplaydesignchallengemethodology a okh:Part ;
     rdfs:label "SafeToPlay_Design_Challenge_Methodology" ;
@@ -252,5 +252,5 @@
     rdfs:label "Source File of SafeToPlay_Design_Challenge_Methodology of Toothpaste Container 9f3237c942a85547c96dae05d19f468d1f7d94f1" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64036/safetoplay_design_challenge_methodology.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo0MDI2NTk=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64036/safetoplay_design_challenge_methodology.pdf> .
 

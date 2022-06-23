@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A18491/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:LogoSonghaã a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Logo SonghaÃ¯" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """The Centre SonghaÃ¯ is just incredible. You know the Open-Source-Ecology project ? This one is similar, but exist for more than 25 years... http://www.songhai.org/\r
 \r
 We stayed here ten days to start a FabLab in that wonderful context.\r
@@ -18,6 +20,7 @@ With the Sketchup model of what we wanted to engrave in a soap.""" ;
     okh:repo <https://www.thingiverse.com/thing:18491> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:18491> .

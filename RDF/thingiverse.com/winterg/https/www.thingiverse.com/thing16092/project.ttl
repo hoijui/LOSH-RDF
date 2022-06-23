@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A16092/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:AnimatronicCameraTripodMountforTheater a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Animatronic camera tripod mount (for theater)" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """A few months ago, my school was getting ready for a theater run of "The Little Shop of Horrors" and needed a tripod that could mount a video camera and be controlled from back stage wirelessly via radio. The whole idea behind the thing was that at the end of the play, when the plant achieved sentience, a camera, hidden inside of the huge plant, would look around at the audience and pick-out one member of the audience to devour.\r
 \r
 I was most dismayed to find out that junior year of high school is not the most forgiving time to be trying to bang-out a completed, complicated, reliable device involving software, electronic and mechanical hardware as a one-man development team. A student needs more than 4 hours of sleep every night to be able to at least attempt to hold an intelligent conversation once a day for the duration of the school week.\r
@@ -27,6 +29,7 @@ If anyone has any questions about my code or my tripod, just drop me a quick com
     okh:repo <https://www.thingiverse.com/thing:16092> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:16092> .

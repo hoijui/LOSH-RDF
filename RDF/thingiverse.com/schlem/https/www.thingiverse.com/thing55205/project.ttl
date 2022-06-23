@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A55205/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:GizmacciThreeRotatingAdjustableVent a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Gizmacci Three - rotating adjustable vent " ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This gizmacci is an element in my 3D Printer Enclosure. \r
 \r
 This is an adjustable vent that sit atop the plexiglass enclosure to passively vent hot air and fumes through convection. This is designed to fit in 2 inch hole.  I had very good success with a new hole saw at slow speed. \r
@@ -18,6 +20,7 @@ You will need some nasty-ass chemistry to bond ABS and Acrylic - I used Devcon H
     okh:repo <https://www.thingiverse.com/thing:55205> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:55205> .

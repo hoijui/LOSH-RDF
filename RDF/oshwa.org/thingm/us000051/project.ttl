@@ -2,20 +2,15 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Blink1UsbNotificationLight a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "blink(1) USB notification light" ;
-    okh:certificationDate "2016-10-04T00:00:00-04:00" ;
-    okh:country "United States of America" ;
     okh:dataSource "oshwa.org" ;
     okh:documentationLanguage "en" ;
-    okh:documentationLicense "CC BY-SA" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function "blink(1) is a programmable USB notification light used to  display important Internet or computer events in an ambient non-obtrusive fashion." ;
-    okh:hardwareLicense "Other" ;
     okh:licensor "ThingM" ;
-    okh:primaryType "Electronics" ;
     okh:repo <https://certification.oshwa.org/us000051.html> ;
     okh:repoHost "certification.oshwa.org" ;
-    okh:softwareLicense "Other" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
     okh:uploadMethod "auto" ;
     okh:version "1.0+" ;

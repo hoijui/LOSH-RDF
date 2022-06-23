@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A27739/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:NautilusGearsWithModifiedBar a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Nautilus Gears With Modified Bar" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I love the Nautilus Gears(thing:27233) but I had trouble printing the bar.\r
 To fix this I redrew the connecting bar so it should be easier to print the taller parts.\r
 As well, I made the 2 connecting bars needed the same.\r
@@ -16,6 +18,7 @@ I also uploaded the original nautilus gear file for completeness.""" ;
     okh:repo <https://www.thingiverse.com/thing:27739> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:27739> .

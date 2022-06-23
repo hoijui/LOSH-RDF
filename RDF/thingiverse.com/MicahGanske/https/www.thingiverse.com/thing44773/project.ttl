@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A44773/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Nexus4DockSphere a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Nexus 4 Dock Sphere" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I got tired of waiting for Google to release their dock for the Nexus 4 so I made my own in Blender.  It doesn't have cool wireless charging, but you don't have to F5 the Play store page into oblivion to order one so that's a plus!  \r
 \r
 There are two versions of the dock, one scaled for a naked N4 and one for an N4 with official bumper.  I have a bumper (lucky me, I know), so I've only printed one for the bumper but the naked dock should work too.  \r
@@ -16,6 +18,7 @@ Oh, and I have to give credit to Charles Perez on GrabCad for making a beautiful
     okh:repo <https://www.thingiverse.com/thing:44773> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:44773> .

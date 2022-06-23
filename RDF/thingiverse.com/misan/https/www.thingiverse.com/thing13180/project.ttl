@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A13180/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:NameTag a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Name tag" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I have used this for testing how to create something from scratch using OpenSCAD (and Inkscape). \r
 \r
 The name tag doubles as a name-stamp in the back.""" ;
@@ -14,6 +16,7 @@ The name tag doubles as a name-stamp in the back.""" ;
     okh:repo <https://www.thingiverse.com/thing:13180> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:13180> .

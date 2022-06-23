@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A8483/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:BezierHeartInOpenscad a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Bezier Heart in OpenScad" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """The question is, what good are Bezier curves?\r
 \r
 This thing is constructed from Bezier curves.  It is actually inspired from some Processing code.  It demonstrates how easy it is to translate from some graphics system that has Bezier support, to using the new Bezier functions within OpenScad.\r
@@ -22,6 +24,7 @@ And, on top of that, it's a simple example of how you can use the Bezier functio
     okh:repo <https://www.thingiverse.com/thing:8483> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:8483> .

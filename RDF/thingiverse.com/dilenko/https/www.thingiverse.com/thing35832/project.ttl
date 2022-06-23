@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A35832/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:11ShoppingTrolleyCoin a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "£1 / €1 shopping trolley coin" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This trolley coin is just like all the other trolley coins on thingiverse BUT it comes in one pound / one euro flavour AND its got a tail with a round thing to facillitate easy removal.\r
 \r
 The idea is this coin lives in your wallet without the risk of it being used for currency (which always happens with my other coins)\r
@@ -24,6 +26,7 @@ Llevala en tu cartera para cuando la necesites :o)""" ;
     okh:repo <https://www.thingiverse.com/thing:35832> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:35832> .

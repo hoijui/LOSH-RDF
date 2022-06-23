@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A15794/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:SpeedHandleForAPanaviseJr a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Speed Handle for a PanaVise Jr." ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a Speed Handle for a PanaVise(tm) Jr. vise.  With it, you can open and close the jaws much faster and more easily than using the stock handle which comes with the vise.  For some period of time, PanaVise provided these along with these vises.\r
 \r
 The knob fits securely over the vise's existing knob.""" ;
@@ -14,6 +16,7 @@ The knob fits securely over the vise's existing knob.""" ;
     okh:repo <https://www.thingiverse.com/thing:15794> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:15794> .

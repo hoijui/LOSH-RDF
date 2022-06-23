@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A6979/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:LetterACookieCutterMkIi a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Letter A cookie cutter MK II" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """The new version of the cookie cutter.  This one has thicker walls and a base with holes in it, and I tapered the top of the walls to a point.  Don't know how it will print yet but I am doing a test print now so it should be OK.  \r
 \r
 At least the model carves without skienforge yelling at me.\r
@@ -18,6 +20,7 @@ http://www.thingiverse.com/thing:6998""" ;
     okh:repo <https://www.thingiverse.com/thing:6979> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:6979> .

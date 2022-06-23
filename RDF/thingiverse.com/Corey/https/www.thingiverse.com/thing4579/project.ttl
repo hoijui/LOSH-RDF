@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A4579/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Coreystruder01 a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "CoreyStruder 0.1" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is an extruder design that is optimized for 3D printing or milling on a cnc mill.  I've played with several of the existing extruder designs and found elements to dislike on all of them so far.  Typically, you need to dismantle the entire extruder to perform the most mundane maintainence, which is crazy.  I've played with the standard Mendel extruder, Wade's, and Makerbot Mk4.  I've heard good things about the Paxtruder, so this design borrows heavily from that design(plastic pusher instead of roller) although here it's a PTFE button that is 3/8" dia and .230" LG.  The material is available in 3/8" round and is soft enough to slice with an exacto blade.  We turned ours down from some 5/8" PTFE round that we had laying around for making thermal insulators.  It also uses the clever dual bolt-pattern of the Makerbot MK5 so that it can accept a gearhead DC motor or a stepper.\r
 \r
 I don't have access to a lasercutter, so this extruder was designed to be milled or printed.  The radii in the inside corners are to allow clearance for a 1/4" endmill.  We printed a quickie today in anticipation of machining an aluminum one, and it works so well that we'll probably just keep using the printed one.\r
@@ -16,6 +18,7 @@ Ease of maintainence is key here.  The motor comes out readily by removing 4 scr
     okh:repo <https://www.thingiverse.com/thing:4579> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:4579> .

@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A11312/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:DishDryer a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Dish Dryer" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "This is a Dish Dryer i designed for my kitchen - its mounted with 4 dowel pins (plus 2 for the clip) into the wall. It is designed that the water from the dishes runs to the front and drips down into the sink below it. Therefore it is mounted with 3 degres inclination." ;
     okh:hasImage :Image ;
     okh:licensor "f15h" ;
     okh:repo <https://www.thingiverse.com/thing:11312> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:11312> .

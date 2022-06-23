@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A40314/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:9gServoArmsDifferentCouplersTo5mmThreadedRodWip a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "9g Servo arms, different couplers to 5mm threaded rod WIP" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Thingiverse is great. With flouSH's part I did not have to start from scratch. Unfortunately the PP3DP UP has different tolerances and print properties, the first ones where to loose and the teeth did not turn out well. \r
 There you have a great example for reprap/slic3r VS closed source: While the later will usually produce great and repeatable results, there's just not much you can do when something just won't work with the limited settings available.\r
 \r
@@ -21,6 +23,7 @@ I added the servo topper coupling, which will sit ontop of the four-arm and does
     okh:repo <https://www.thingiverse.com/thing:40314> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:40314> .

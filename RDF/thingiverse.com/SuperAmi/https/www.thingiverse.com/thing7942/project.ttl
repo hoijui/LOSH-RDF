@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A7942/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:OverTheEdgeToolHolder a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Over the Edge Tool Holder" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """After printing the calliper holder http://www.thingiverse.com/thing:7206, I was inspired to make a holder for my tweezers and right angle.  It is designed to fit my Thing-O-Matic by simply hanging over the edge of the top with a grip on the inside.  Minor modification should allow it to work with a cupcake as well.\r
 \r
 My guess is that most of you do not have the same constellation of right angle and 4 tweezers, like I do, but I hope that the OpenSCAD file will help you create your own over the edge tool holder.""" ;
@@ -14,6 +16,7 @@ My guess is that most of you do not have the same constellation of right angle a
     okh:repo <https://www.thingiverse.com/thing:7942> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:7942> .

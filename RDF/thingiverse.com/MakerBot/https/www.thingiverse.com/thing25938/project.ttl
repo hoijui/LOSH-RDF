@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A25938/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MapleLeaf a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Maple Leaf" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This leaf has curves and points, so that from the side it looks sort of like a landscape of rolling hills. From above it looks exactly like a maple leaf, with realistic veins and stem. Make a bunch in Green PLA, or in different colors to get the fall foliage effect.\r
 \r
 Buy Green PLA here! \r
@@ -17,6 +19,7 @@ Created by Jason Bakutis""" ;
     okh:repo <https://www.thingiverse.com/thing:25938> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:25938> .

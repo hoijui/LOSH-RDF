@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A25621/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PlanetBikeTailLightMountForRacks a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Planet Bike Tail Light Mount for Racks" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is what you want if you need to mount a Planet Bike superflash or other tail light with a similar mounting system to your bicycle.  PlanetBike makes great little tail lights and they provide a seat post mount, but if you've got a rack and need a center-mount tail light, that's an extra charge.\r
 \r
 This uses a standard 6mm hex-head screw, which is what pretty much everything attaches to a bike with.  The head is counter-sunk so there is clearance for the light.  Totally sourced the light interface bits from http://www.thingiverse.com/thing:8947 so big thanks to gpvillamil for all that fussy work.""" ;
@@ -14,6 +16,7 @@ This uses a standard 6mm hex-head screw, which is what pretty much everything at
     okh:repo <https://www.thingiverse.com/thing:25621> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:25621> .

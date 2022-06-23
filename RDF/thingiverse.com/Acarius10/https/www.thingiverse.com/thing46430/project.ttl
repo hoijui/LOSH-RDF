@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A46430/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:CustomizabletowelHanger a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "CustomizableTowel Hanger" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Tired of those pesky hand towels falling on the floor when you need them most? \r
 Worry no more! \r
 The Towel Hanger secures towels and then when you need them, simple pull the towel out. And with the hanger, you can simple put it where you would normally put your hand towel!""" ;
@@ -14,6 +16,7 @@ The Towel Hanger secures towels and then when you need them, simple pull the tow
     okh:repo <https://www.thingiverse.com/thing:46430> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:46430> .

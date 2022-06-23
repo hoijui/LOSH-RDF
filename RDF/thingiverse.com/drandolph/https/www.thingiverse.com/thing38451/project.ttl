@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A38451/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:YetAnotherSpoolHolderLaserCut a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Yet Another Spool Holder Laser Cut" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I was originally going to cut the Printrbot Spool Stand but it was nowhere close to what I wanted. They are using clip in wood parts to hold the bearings and the bearing are not supported from the inside. Also it doesn't fit 8" spools like the ones Makerbot uses. So this will hold 8" full spools and fully support the weight and spin freely. It also prevents the spool from sliding off and jamming. Another nice feature is that you can tie multiple units side by side without the spools touching. Perfect for multiextrusion or just holding all of your filaments ready to feed into your printer.\r
 \r
 makergeeks.com is selling this item on their website without direct attribution (other than a link to this page) or attempted to notify me of it. I fully support open source and understand that this is part of the deal.""" ;
@@ -14,6 +16,7 @@ makergeeks.com is selling this item on their website without direct attribution 
     okh:repo <https://www.thingiverse.com/thing:38451> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:38451> .

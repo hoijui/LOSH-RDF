@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A31998/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:SkullWithPointedTeeth a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Skull with Pointed Teeth" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "A cleaned and repaired scan of Halloween prop skull with pointed, vampire-like teeth on both the upper and lower jaws.  The scan was taken using 123D Catch and is [available here in raw form](http://www.123dapp.com/obj-Catch/Skull-with-Pointed-Teeth/859975).  The creation of this scan (and tips for doing it yourself)  is featured in the \"Scanning in 3D\" chapter of [Getting Started with MakerBot](https://www.amazon.com/Getting-Started-MakerBot-Bre-Pettis/dp/1449338658/ref=la_B00H8EY9TE_1_2?s=books&ie=UTF8&qid=1414258961&sr=1-2). Also appearing in [Make: Ultimate Guide to 3D Printing 2014](http://www.makershed.com/Make_Ultimate_Guide_to_3D_Printing_p/1449357377.htm)." ;
     okh:hasImage :Image ;
     okh:licensor "akaziuna" ;
     okh:repo <https://www.thingiverse.com/thing:31998> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:31998> .

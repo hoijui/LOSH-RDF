@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A9237/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:LasercutTieHolderForMetalClosetRods a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Lasercut Tie Holder for Metal Closet Rods" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I came across the 3D printed tie racks which seemed rather handy, but not having a 3D printer I drafted up a file I could cut on our laser instead. \r
 \r
 The tie slots are staggered in the hopes the ties would lay flatter against the rack.""" ;
@@ -14,6 +16,7 @@ The tie slots are staggered in the hopes the ties would lay flatter against the 
     okh:repo <https://www.thingiverse.com/thing:9237> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:9237> .

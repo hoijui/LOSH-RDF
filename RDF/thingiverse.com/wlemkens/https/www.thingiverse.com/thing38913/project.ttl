@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A38913/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:AsusXtionProMount a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Asus Xtion Pro Mount" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a mount to attach an Asus Xtion Pro or Asus Xtion Pro Live by 1 or 4 M6 bolts.\r
 \r
 The hole for the single is in the center of the base and has room for a M6 nut.\r
@@ -16,6 +18,7 @@ The holes for the 4 M6's are located at the corners of the base spaced 25mm apar
     okh:repo <https://www.thingiverse.com/thing:38913> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:38913> .

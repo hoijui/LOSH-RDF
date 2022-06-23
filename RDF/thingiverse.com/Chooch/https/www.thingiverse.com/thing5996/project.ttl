@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A5996/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:WearableSnowshoes a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Wearable Snowshoes" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """With Snowmageddon, Snowpocalypse and Snowzilla wreaking havoc on Chicago, I said SnOMG! and thought this may be a fitting upload. I've always wanted snowshoes for such occasions. Luckily, work has been cancelled today, so I wont have to walk in this blizzard, but I am looking for a fun project to do while i'm home.\r
 \r
 These are low polygon snowshoes, now you can't print them out with a 3D printer, but you can print them out on a 2D printer with a papercraft program called Pepakura Designer. It allows you to make 3D objects out of paper. \r
@@ -24,6 +26,7 @@ I also added the object file & STL if you want to unfold it yourself or do somet
     okh:repo <https://www.thingiverse.com/thing:5996> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:5996> .

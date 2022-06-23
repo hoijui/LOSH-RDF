@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A36059/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ProgramableCryptex a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Programable Cryptex" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """There are many cryptex models around, but this one can be set to any 5 letter word you want.  \r
 \r
 *** NEW ***\r
@@ -27,6 +29,7 @@ Alternative ring1 added with reversed letters for easier printing. I found this 
     okh:repo <https://www.thingiverse.com/thing:36059> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:36059> .

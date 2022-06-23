@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A3305/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:CalibrationScriptV20 a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Calibration script v2.0" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """The new g-code calibration script generator available at the old address:\r
 http://elco.crsndoo.com/reprap/calibrate.html\r
 \r
@@ -17,6 +19,7 @@ note that extruder speed will be in g-code written as value you enter * 10""" ;
     okh:repo <https://www.thingiverse.com/thing:3305> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:3305> .

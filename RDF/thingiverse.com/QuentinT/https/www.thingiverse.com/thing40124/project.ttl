@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A40124/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:TosjduenfsCableChainWithRoundedEdges a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "tosjduenfs' Cable Chain With Rounded Edges" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is the same part as tosjduenfs' cable chain, but with added fillets that make printing easier.  The original thing had hard corners, so when I printed at high speed on my machine, the parts did not line up due to backlash.  The new rounded edges should reduce the oversized corners because the printer can smoothly accelerate around corners.   
 
 The cable channel is 1/2" wide and 3/8" tall. Each link adds 1/2" to the chain. The folding diameter is about 1  7/8\"""" ;
@@ -14,6 +16,7 @@ The cable channel is 1/2" wide and 3/8" tall. Each link adds 1/2" to the chain. 
     okh:repo <https://www.thingiverse.com/thing:40124> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:40124> .

@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A18163/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:AnywhereCapWithLessOverhangs a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Anywhere cap with less overhangs" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "This is a modification of http://www.thingiverse.com/thing:17960. I have removed some of the overhangs so that this thing is easier to print" ;
     okh:hasImage :Image ;
     okh:licensor "roemmic" ;
     okh:repo <https://www.thingiverse.com/thing:18163> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:18163> .

@@ -2,21 +2,15 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Fosdem85 a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "FOSDEM-85" ;
-    okh:additionalType "['Education', 'Electronics']" ;
-    okh:certificationDate "2019-06-30T00:00:00-04:00" ;
-    okh:country "Bulgaria" ;
     okh:dataSource "oshwa.org" ;
     okh:documentationLanguage "en" ;
-    okh:documentationLicense "CC BY-SA" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function "FOSDEM-85 is soldering kit for beginners, it contains ATTiny85 microcontroller programmable by Arduino IDE." ;
-    okh:hardwareLicense "Other" ;
     okh:licensor "OLIMEX Ltd" ;
-    okh:primaryType "Electronics" ;
     okh:repo <https://certification.oshwa.org/bg000024.html> ;
     okh:repoHost "certification.oshwa.org" ;
-    okh:softwareLicense "GPL" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;

@@ -2,21 +2,15 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Fujinet a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "FujiNet" ;
-    okh:additionalType "['3D Printing']" ;
-    okh:certificationDate "2020-08-14T00:00:00-04:00" ;
-    okh:country "United States of America" ;
     okh:dataSource "oshwa.org" ;
     okh:documentationLanguage "en" ;
-    okh:documentationLicense "CC BY-SA" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function "FujiNet is a peripheral for Atari 8-Bit computers that attaches to the Atari SIO bus. It emulates original Atari peripherals such as Floppy Disk Drives, Printers and Modems. In addition to the peripheral emulation it provides a new Network interface allowing software developers to create programs that can interface with modern day networks. The hardware is a custom design with an SIO plug and SIO receptacle for attaching other peripherals. The brain of FujiNet the the ESP32 WROVER module." ;
-    okh:hardwareLicense "CERN" ;
     okh:licensor "Joseph Honold" ;
-    okh:primaryType "Electronics" ;
     okh:repo <https://certification.oshwa.org/us000651.html> ;
     okh:repoHost "certification.oshwa.org" ;
-    okh:softwareLicense "GPL" ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
     okh:uploadMethod "auto" ;
     okh:version "1.0" ;

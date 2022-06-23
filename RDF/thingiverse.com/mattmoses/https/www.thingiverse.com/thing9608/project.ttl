@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A9608/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Electromagnet2 a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Electromagnet 2" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a follow-on to http://www.thingiverse.com/thing:904\r
 \r
 It is a cylinder with a helical channel.  The channel is designed so that the part can be printed without any internal support material.  This was printed on a Dimension uPrint with zero internal support material.\r
@@ -24,6 +26,7 @@ UPDATE June 27 2011 - Also be sure to check out Rhys Jones' new results on the R
     okh:repo <https://www.thingiverse.com/thing:9608> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:9608> .

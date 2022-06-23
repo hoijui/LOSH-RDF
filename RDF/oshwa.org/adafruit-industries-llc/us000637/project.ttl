@@ -2,21 +2,15 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:AdafruitPowerRelayFeatherwing a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Adafruit Power Relay FeatherWing" ;
-    okh:additionalType "['Electronics']" ;
-    okh:certificationDate "2020-05-28T00:00:00-04:00" ;
-    okh:country "United States of America" ;
     okh:dataSource "oshwa.org" ;
     okh:documentationLanguage "en" ;
-    okh:documentationLicense "CC BY-SA" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function "This is the Power Relay FeatherWing. It gives you power to control, and control over power. Put simply, you can now turn on and off lamps, fans, solenoids, and other small appliances that run on up to 250VAC or DC power using any Feather board. Compared to our smaller Relay FeatherWings, this one can handle a beefy 1200 Watts. Click the link labeled 'Project Website' to find out more." ;
-    okh:hardwareLicense "Other" ;
     okh:licensor "Adafruit Industries, LLC" ;
-    okh:primaryType "Electronics" ;
     okh:repo <https://certification.oshwa.org/us000637.html> ;
     okh:repoHost "certification.oshwa.org" ;
-    okh:softwareLicense "MIT" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
     okh:uploadMethod "auto" ;
     okh:version "Rev A" ;

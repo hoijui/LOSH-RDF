@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A5751/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PacMan a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Pac Man" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "I love the Pac Man Ghosts (http://www.thingiverse.com/thing:4500) but I don't think anyone has uploaded a Pac Man!  So here we are.  Scaled to match the ghosts.  I also made a half-thick version because I have been printing skinny ghosts (they look better to me that way)." ;
     okh:hasImage :Image ;
     okh:licensor "theron" ;
     okh:repo <https://www.thingiverse.com/thing:5751> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:5751> .

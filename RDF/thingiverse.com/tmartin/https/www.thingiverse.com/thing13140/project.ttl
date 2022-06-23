@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A13140/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:CarAudio2dinTo1dinMountingKit a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Car Audio 2DIN to 1DIN mounting kit" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This part is designed to allow you to mount a 1-DIN car stereo into a 2-Din slot. DIN is generally defined as 180X50mm, so a 2-DIN is 180X100mm. Many cars come with a 2-DIN sized manufacturer radio, while many aftermarket radios are 1-Din, necessitating a part to fill the gap in the front panel. In my case the car in question is a 1996 ford explorer with a 2-DIN radio slot. After the stock radio broke a few years ago I got a new radio that came with a mounting kit. After that radio got stolen the insurance sent us a radio that came with a mediocre mounting kit that promptly broke, so I designed and printed my own. The adapter mounts a Pioneer P5100UB head unit into the slot of a 1996 Ford Explorer, however DIN sizes tend to be standardized, making it possible that this unit will work for other vehicles, which is why I decided to post it.\r
 \r
 Features:\r
@@ -21,6 +23,7 @@ The top image of course looks straight in and is far brighter than the driver wo
     okh:repo <https://www.thingiverse.com/thing:13140> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:13140> .

@@ -1,9 +1,10 @@
-@prefix : <https://wikifactory.com/@brnrds/corexy-drawing-machine/de45e6f8f5406af2d97c2aaf72d5bbb25e09ed32/> .
+@prefix : <https://wikifactory.com/%40brnrds/corexy-drawing-machine/de45e6f8f5406af2d97c2aaf72d5bbb25e09ed32/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:CorexyDrawingMachine a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "CoreXY Drawing Machine" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "Drawbot inspired by the AxiDraw, João Leão's and others' Fab Academy Project, and similar machines.Emphasis on iteration, toward a machined version later down the road, with current (0.2) and previous versions being 3D printed, and using off-the-shelf hardware." ;
     okh:licensor "Bernardo Santos" ;
@@ -11,6 +12,7 @@
     okh:repo <https://wikifactory.com/@brnrds/corexy-drawing-machine> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
+    okh:uploadMethod "manifest" ;
     okh:version "de45e6f8f5406af2d97c2aaf72d5bbb25e09ed32" ;
     okh:versionOf <https://wikifactory.com/@brnrds/corexy-drawing-machine> .
 

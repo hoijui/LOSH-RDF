@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A34084/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:RotationalBinaryRing a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Rotational Binary Ring" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """A ring that can be inscribed with a message in binary around the outer band.  Very useful for "special" occasions. \r
 \r
 This design was used to print the engagement ring for my then-girlfriend, but now-fiance.  I can attest to the effectiveness of this design :)  Several revisions were printed in several plastics from Shapeways.  Frosted detail probably was the most impressive plastic version due to a slight transparency.  White strong and flexible worked, but did not reproduce the engravings well.  The silver print from Shapeways came out very well.""" ;
@@ -14,6 +16,7 @@ This design was used to print the engagement ring for my then-girlfriend, but no
     okh:repo <https://www.thingiverse.com/thing:34084> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:34084> .

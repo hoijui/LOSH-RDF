@@ -2,21 +2,16 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:CreatorTransferChamber a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Creator Transfer Chamber" ;
-    okh:additionalType "['Enclosure']" ;
-    okh:country "United States of America" ;
-    okh:cpcPatentClass "Enclosure" ;
+    okh:cpcPatentClass "F16M" ;
     okh:dataSource "oshwa.org" ;
     okh:documentationLanguage "en" ;
-    okh:documentationLicense "CC BY" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function "Our engineers worked around the clock to create a transfer chamber that protects the inside of our restaurant from outside air yet still allows us to transport completed meals, in their hermetically sealed bags, out to delivery customers. The chamber uses a positive pressure system combined with a self-sanitizing conveyor. This is to protect our staff as much as it is to protect our guests." ;
-    okh:hardwareLicense "CERN" ;
     okh:licensor "Creator, Inc." ;
-    okh:primaryType "Manufacturing" ;
     okh:repo <https://certification.oshwa.org/us000235.html> ;
     okh:repoHost "certification.oshwa.org" ;
-    okh:softwareLicense "No software" ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
     okh:uploadMethod "auto" ;
     okh:version "1.0" ;

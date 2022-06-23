@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A25184/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PoliticalButtons a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Political Buttons" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Some experiments attempting to make political buttons are described here.  The buttons consist of a 2 mm thick circular plate rounded at the edges to hide a mounting pin.  A number 2 safety pin held in place by two short pieces of 1.75 mm filament is used to mount the button on clothing.\r
 \r
 A 1 mm deep message is inscribed in the surface of the button.  The recesses can be left unfilled or, if a two color printer is available, filled with a different color.  As an alternative the recesses can be filled with air drying clay.\r
@@ -34,6 +36,7 @@ The open SCAD programs that created the files are buttons.scad and messages.scad
     okh:repo <https://www.thingiverse.com/thing:25184> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:25184> .

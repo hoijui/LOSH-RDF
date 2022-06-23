@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A50741/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:CustomizerIphone4CaseUpdated a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Customizer IPhone 4 Case - updated" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """By way of teaching myself SCAD for the Customizer competition, I set myself a challenge to reproduce Makerbot's IPhone cover, without cheating and looking at their code! This is the result. If anyone else is trying to learn SCAD I found this a very helpful approach.\r
 \r
 There are a few modifications from the original version. The edges are more rounded, and there are small radii on the edge breaks for the buttons etc.\r
@@ -17,6 +19,7 @@ For some reason the stl file generated seems to be removing the pattern now, des
     okh:repo <https://www.thingiverse.com/thing:50741> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:50741> .

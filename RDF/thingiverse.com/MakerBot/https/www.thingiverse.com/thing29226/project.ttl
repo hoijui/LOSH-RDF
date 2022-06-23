@@ -1,12 +1,14 @@
 @prefix : <https://www.thingiverse.com/thing%3A29226/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:OneSmallStep a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "One Small Step" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
-    okh:function """Neil Armstrong (August 5, 1930 Ã¢â¬â August 25, 2012)\r
+    okh:documentationReadinessLevel otrl:Odrl3 ;
+    okh:function """Neil Armstrong (August 5, 1930 Ã¢âx82¬âx80x9c August 25, 2012)\r
 \r
 Created by Todd""" ;
     okh:hasImage :Image ;
@@ -14,6 +16,7 @@ Created by Todd""" ;
     okh:repo <https://www.thingiverse.com/thing:29226> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:29226> .

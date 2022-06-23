@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A10492/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:CheeseSlicerwithTidyWire a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Cheese Slicer (with tidy wire)" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """The slicer was totally influenced by bohnded's cheese slicer - http://www.thingiverse.com/thing:9683 (thank you for the inspiration bohnded!)\r
 \r
 My girlfriend spotted his and asked me to print one but I wanted to make it a little different by enlarging the handle and tidying the wire away if possible.\r
@@ -18,6 +20,7 @@ I had to print raftless because of size so it warped a little.""" ;
     okh:repo <https://www.thingiverse.com/thing:10492> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:10492> .

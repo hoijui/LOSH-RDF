@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A9293/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Blockbot a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "BlockBot" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Another transformer. I was going to wait till I had finished detailing everything, but I figured the sooner it's released the sooner someone can start having fun with it. Files in SW2011. Seeing how it's taken me several months to get this far don't hold your breath on me finishing any time soon.\r
 \r
 Edit 1: Stripped out all detailing so the files are a blank "canvas" and added STL and STEP.\r
@@ -18,6 +20,7 @@ Edit 3: Superseded by V3.""" ;
     okh:repo <https://www.thingiverse.com/thing:9293> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:9293> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A9652/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:DominoCreator a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Domino Creator!" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """this is an OpenScad script that will create Domino tiles for you!\r
 \r
 you only need to specify the size of each tile, the maximum 'eyes' you want (most common = 6; max. supported by now = 9) and the number of tiles to skip (for bigger sizes that cannot be created in a single run).\r
@@ -20,6 +22,7 @@ because OpenScad does neither have working variables nor allows recursive module
     okh:repo <https://www.thingiverse.com/thing:9652> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:9652> .

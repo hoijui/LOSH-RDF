@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A2126/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ParametricGearPulleyHoleResizingmendelDrivePulley a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Parametric Gear Pulley Hole Resizing (Mendel Drive Pulley)" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I developed a OpenSCAD script to fill and re-cut the motor shaft hole in an existing STL file.  The specific use here is to fill the original hole in the Mendel drive pulley and re-cut it as a \\"D\\" shaped hole for a Lin Engineering 4218L-01-11.  The script is written such that you specify the STL file you want to change, the center of the hole, and the size of the new hole, so it can easily be changed to modify ANY gear/pulley to fit ANY motor.  The script also has a test mode where it can generate a cube with the new hole in it.  This will print faster and let you check the fit on your motor.\r
 \r
 Attached are the following:\r
@@ -18,6 +20,7 @@ The original reprap STL - drive-pulley_3off.stl""" ;
     okh:repo <https://www.thingiverse.com/thing:2126> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:2126> .

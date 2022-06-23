@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A15016/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PillBoxes a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Pill Boxes" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """OpenSCAD has default values for the number of faces in its representations of spheres.  When the command "sphere(r=2);" is entered a 16 sided polyhedron is formed that looks like two seven sided pill boxes stuck together.  Pill_Box_01.stl is made from a portion of this 16 sided polyhedron.  It has sloping sides, and while attractive, is difficult to print.  Pill_Box_02.stl is a simpler box with seven vertical sides.  It has room for a few more pills and is perhaps easier to print.  Both boxes are labeled with the days of the week.\r
 \r
 Two lids, held in place by a pin, are provided.  One is a simple flat lid with a built in pin.  The second lid has raised edges and uses a separate pin. Images of the lids are shown at the left.  Code for the lid with pill pockets is included in lid_nice.scad.\r
@@ -18,6 +20,7 @@ The openSCAD files that created the boxes and lids are available below.  I've in
     okh:repo <https://www.thingiverse.com/thing:15016> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:15016> .

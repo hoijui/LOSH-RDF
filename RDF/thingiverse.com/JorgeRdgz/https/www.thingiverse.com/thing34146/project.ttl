@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A34146/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:RostockPrisma a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Rostock Prisma" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """A derivative of Johann's Rostock but using 80/20 1010 T-Slotted aluminum instead of smooth SS rods.  The extruded aluminum provide support for the prism structure.\r
 \r
 Video:  http://youtu.be/STc54aOQdK4\r
@@ -15,11 +17,11 @@ The goal for my derivative of the Johannâ€™s Rostock was to build a simpler
 \r
 Gone are all the wood parts, and the stainless steel rods.  I kept the idea of using as many 3D printed parts as possible, since I had easy access to a friendâ€™s Prusa Mendel printer.  I am a software developer; hence it was easy for me to learn OpenSCAD to design my own parts.  I tried to keep the number of new parts to a minimum and, if possible, reuse or make a derivative of the original Rostock parts.\r
 \r
-I studied the Rostock Max by SeeMeCNC, which I think it is awesome.   I love the â€œCheapskateâ€ design so I tried to replicate it but instead of flat plates for the carriage I decided to modify Johannâ€™s design to fit the profile of the 1010 and to accommodate four 608 bearings.  After multiple iterations and head scratching sessions, I concluded that the best and easiest way to provide anti-backlash pressure between the bearings and the channel was to elongate the shaft holes and wrap a rubber band between the opposing M4 bolts serving as bearing shafts.  It works beautifully. \r
+I studied the Rostock Max by SeeMeCNC, which I think it is awesome.   I love the â€œCheapskateâ€x9d design so I tried to replicate it but instead of flat plates for the carriage I decided to modify Johannâ€™s design to fit the profile of the 1010 and to accommodate four 608 bearings.  After multiple iterations and head scratching sessions, I concluded that the best and easiest way to provide anti-backlash pressure between the bearings and the channel was to elongate the shaft holes and wrap a rubber band between the opposing M4 bolts serving as bearing shafts.  It works beautifully. \r
 \r
-Another difference is in the track of the GT2 belt.  On the Max, the belt in the back of the carriage tracks within the 1010 slot. On the other side of the carriage, the belt tracks a few millimeters parallel to the 1010 beam.  On the PRISMA, the whole length of the belt, up and down segments, track within the inward facing slot of the 1010 beam.   Thereâ€™s a separation of approximately 3mm between the up and down moving segments of the belt.  The separation is made possible by the double bearing idler design.  One bearing pushes one segment of the belt inward into the channel while the other keeps the top belt tracking just above and flush with the edges of the channel.  The only drawback to this approach was that it requires you to widen 1.5â€ (38mm) of the channel at the top and bottom to allow the 608 bearing to fit inside the slot in order to push the belt farther in.   You can easily accomplish this task with a Dremel rotary tool, metal cutting tool, small sanding tool and a flat screwdriver.\r
+Another difference is in the track of the GT2 belt.  On the Max, the belt in the back of the carriage tracks within the 1010 slot. On the other side of the carriage, the belt tracks a few millimeters parallel to the 1010 beam.  On the PRISMA, the whole length of the belt, up and down segments, track within the inward facing slot of the 1010 beam.   Thereâ€™s a separation of approximately 3mm between the up and down moving segments of the belt.  The separation is made possible by the double bearing idler design.  One bearing pushes one segment of the belt inward into the channel while the other keeps the top belt tracking just above and flush with the edges of the channel.  The only drawback to this approach was that it requires you to widen 1.5â€x9d (38mm) of the channel at the top and bottom to allow the 608 bearing to fit inside the slot in order to push the belt farther in.   You can easily accomplish this task with a Dremel rotary tool, metal cutting tool, small sanding tool and a flat screwdriver.\r
 \r
-The three vertical sections of 1010 extrusion provide the support for the entire structure.  I used my cheap compound miter saw with a $12 metal cutting blade to cut the extruded aluminum pieces.  I cut the vertical pieces to 36â€ ( 914.4mm).  This translates to a maximum build height of roughly 13â€ (330mm).   You can increase the build height by using longer verticals, however you need to keep in mind that you will need longer GT2 belts.  \r
+The three vertical sections of 1010 extrusion provide the support for the entire structure.  I used my cheap compound miter saw with a $12 metal cutting blade to cut the extruded aluminum pieces.  I cut the vertical pieces to 36â€x9d ( 914.4mm).  This translates to a maximum build height of roughly 13â€x9d (330mm).   You can increase the build height by using longer verticals, however you need to keep in mind that you will need longer GT2 belts.  \r
 \r
 The horizontal aluminum pieces are sandwiched in between top and bottom plastic corner gussets at each end and secured with t-nuts.  You can buy 80/20 t-nuts at $0.24 a piece or you can make your own by printing a bunch or tnut.stl copies and super gluing a regular 10-32 nut to the plastic.   The final structure is a triangular/prism beam very straight, clean and sturdy. \r
 \r
@@ -29,6 +31,7 @@ Lastly, all other parts hang from the aluminum extrusion; motor mounts, heated b
     okh:repo <https://www.thingiverse.com/thing:34146> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:34146> .

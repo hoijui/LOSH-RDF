@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A1759/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:TestObjectsForSkeinforgeTutorial a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Test Objects for Skeinforge Tutorial" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This thing holds test objects for the skeinforge configuration tutorial taking shape on the makerbot wiki.\r
 http://wiki.makerbot.com/configuring-skeinforge""" ;
     okh:hasImage :Image ;
@@ -13,6 +15,7 @@ http://wiki.makerbot.com/configuring-skeinforge""" ;
     okh:repo <https://www.thingiverse.com/thing:1759> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:1759> .

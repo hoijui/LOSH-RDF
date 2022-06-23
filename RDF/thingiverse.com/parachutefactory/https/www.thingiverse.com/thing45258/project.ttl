@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A45258/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:CannonAtMorroCastleHavanaCuba a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Cannon at Morro Castle - Havana, Cuba" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """A Photoscan capture of a cannon at Castillo de los Tres Reyes Magos del Morro in Havana, Cuba. This, and other cannons like it, have been crushing pirates from the Morro since. 1589.\r
 \r
 The cannons are rusting, and won't be around forever.""" ;
@@ -14,6 +16,7 @@ The cannons are rusting, and won't be around forever.""" ;
     okh:repo <https://www.thingiverse.com/thing:45258> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:45258> .

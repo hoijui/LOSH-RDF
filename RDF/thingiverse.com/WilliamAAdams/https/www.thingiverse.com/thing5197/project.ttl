@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A5197/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:YazzonicDiscBallHolder a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Yazzonic Disc Ball Holder" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """The original thing this derives from was a bit hard to print.  Because of the placement of the integral balls, it required a lot of support material, no matter what the orientation.\r
 \r
 This thing prints the Yazzonic Disc Balls OnIt in separate pieces.  There is the basic disc, which now has little ball grabbing protrusions, and then there are the separate balls, which are specifically designed to slip over the disc, and be held in place by the protrusions.\r
@@ -18,6 +20,7 @@ Also, this particular default design can take 1/2" wooden beads as well.  They f
     okh:repo <https://www.thingiverse.com/thing:5197> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:5197> .

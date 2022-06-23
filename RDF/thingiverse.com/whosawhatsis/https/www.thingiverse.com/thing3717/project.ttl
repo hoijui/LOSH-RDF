@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A3717/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:WadesGearedExtruderForHuxley a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Wade's Geared Extruder For Huxley" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I've been having a lot of trouble getting the bowden cable to work on my Mini Mendel Huxley, so I thought I'd try to make a carriage-mounted extruder. It's untested, but I think the mini mendel can handle it, if your x motor isn't too low-torque. My oversized Mini Mendel Huxley has plenty of room for it, but even the regular one should have at least enough height left to make all of the mendel parts. I'm also working on a better way to attach a bowden cable, so it will be easy to add one to regain the height if necessary.\r
 \r
 Unfortunately, it doesn't do me much good, because I still can't print it (chicken and egg problem, again).""" ;
@@ -14,6 +16,7 @@ Unfortunately, it doesn't do me much good, because I still can't print it (chick
     okh:repo <https://www.thingiverse.com/thing:3717> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:3717> .

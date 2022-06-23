@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A26098/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:GoatChocolateMold a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Goat Chocolate Mold" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is my first design in google sketchup! It is a goat mold for chocolate. My cousin is a chocolate maker (Dr. Chocolate in Seattle) and so I designed a mold for a fundraiser she is donating chocolates to--it is goat themed :)\r
 \r
 The piece currently printing out on a Makerbot Cupcake in the Metrix Create:Space with a .35mm extruder head. So far it looks good and the guys and Metrix are extremely supportive and easy to work with.\r
@@ -18,6 +20,7 @@ I'm open to any comments or suggestions, thanks!""" ;
     okh:repo <https://www.thingiverse.com/thing:26098> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:26098> .

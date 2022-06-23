@@ -2,19 +2,19 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Karp a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "kARP " ;
     okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "kombucha Applied Research Program by thr34d5An open research on the craft of kombucha.                                                                                    Join us: hello@thr34d5.org - Rejoignez nous : bonjour@thr34d5.org" ;
-    okh:hasComponent :KombuchaTsugiOpenBagPatternsbagsdocumentationworth,
-        :Kombuchabag,
+    okh:hasComponent :Kombuchabag,
+        :Kombuchatsugiopenbagpatternsbagsdocumentationworth,
         :Poolinclignatedpool200x200x200160419,
-        :RecipesPostersenglishRecipeToGrowAKombuchaPellicle,
-        :RecipesPostersenglishrecipetotreatakombuchapellicle,
-        :RecipesPostersfrancaisrecettepourcultiverunepelliculedekombucha,
-        :RecipesPostersfrancaisrecettepourtraiterunepelliculedekombucha,
-        :TackingFilefichesuivi ;
+        :Recipespostersenglishrecipetogrowakombuchapellicle,
+        :Recipespostersenglishrecipetotreatakombuchapellicle,
+        :Recipespostersfrancaisrecettepourcultiverunepelliculedekombucha,
+        :Recipespostersfrancaisrecettepourtraiterunepelliculedekombucha,
+        :Tackingfilefichesuivi ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "vivien roussel" ;
@@ -31,20 +31,7 @@
     rdfs:label "Image of kARP  88cc5747ed45d4212a818ef0cb3f4631435d10ad" ;
     okh:fileFormat "JPG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/22214/img1569.JPG> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyMDk1MDA=> .
-
-:KombuchaTsugiOpenBagPatternsbagsdocumentationworth a okh:Part ;
-    rdfs:label "Kombucha tsugi: open bag patterns/BAGS-Documentation-WORTH" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Adrien Rigobello" ;
-    okh:source :KombuchaTsugiOpenBagPatternsbagsdocumentationworth_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:KombuchaTsugiOpenBagPatternsbagsdocumentationworth_source a okh:SourceFile ;
-    rdfs:label "Source File of Kombucha tsugi: open bag patterns/BAGS-Documentation-WORTH of kARP  88cc5747ed45d4212a818ef0cb3f4631435d10ad" ;
-    okh:fileFormat "PDF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/22214/bags-documentation-worth.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo1NjYwMjA=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/22214/img1569.JPG> .
 
 :Kombuchabag a okh:Part ;
     rdfs:label "kombucha_bag" ;
@@ -57,7 +44,20 @@
     rdfs:label "Source File of kombucha_bag of kARP  88cc5747ed45d4212a818ef0cb3f4631435d10ad" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/22214/kombucha_bag.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozNjczMjc=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/22214/kombucha_bag.pdf> .
+
+:Kombuchatsugiopenbagpatternsbagsdocumentationworth a okh:Part ;
+    rdfs:label "Kombucha tsugi: open bag patterns/BAGS-Documentation-WORTH" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Adrien Rigobello" ;
+    okh:source :Kombuchatsugiopenbagpatternsbagsdocumentationworth_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Kombuchatsugiopenbagpatternsbagsdocumentationworth_source a okh:SourceFile ;
+    rdfs:label "Source File of Kombucha tsugi: open bag patterns/BAGS-Documentation-WORTH of kARP  88cc5747ed45d4212a818ef0cb3f4631435d10ad" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/22214/bags-documentation-worth.pdf> ;
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/22214/bags-documentation-worth.pdf> .
 
 :Poolinclignatedpool200x200x200160419 a okh:Part ;
     rdfs:label "Pool /inclignatedPool_200x200x200_160419" ;
@@ -70,83 +70,83 @@
     rdfs:label "Source File of Pool /inclignatedPool_200x200x200_160419 of kARP  88cc5747ed45d4212a818ef0cb3f4631435d10ad" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/22214/inclignatedpool_200x200x200_160419.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyNDI3Mzk=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/22214/inclignatedpool_200x200x200_160419.stl> .
 
 :Readme a okh:Readme ;
     rdfs:label "Readme of kARP  88cc5747ed45d4212a818ef0cb3f4631435d10ad" ;
     okh:fileFormat "MD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/22214/readme-7be32.md> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozNDA2NDc=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/22214/readme-7be32.md> .
 
-:RecipesPostersenglishRecipeToGrowAKombuchaPellicle a okh:Part ;
+:Recipespostersenglishrecipetogrowakombuchapellicle a okh:Part ;
     rdfs:label "Recipes posters/[English] Recipe to grow a kombucha pellicle" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Adrien Rigobello" ;
-    okh:source :RecipesPostersenglishRecipeToGrowAKombuchaPellicle_source ;
+    okh:source :Recipespostersenglishrecipetogrowakombuchapellicle_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:RecipesPostersenglishRecipeToGrowAKombuchaPellicle_source a okh:SourceFile ;
+:Recipespostersenglishrecipetogrowakombuchapellicle_source a okh:SourceFile ;
     rdfs:label "Source File of Recipes posters/[English] Recipe to grow a kombucha pellicle of kARP  88cc5747ed45d4212a818ef0cb3f4631435d10ad" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/22214/english_recipe_to_grow_a_kombucha_pellicle.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozNDA2MzE=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/22214/english_recipe_to_grow_a_kombucha_pellicle.pdf> .
 
-:RecipesPostersenglishrecipetotreatakombuchapellicle a okh:Part ;
+:Recipespostersenglishrecipetotreatakombuchapellicle a okh:Part ;
     rdfs:label "Recipes posters/English_Recipe_to_treat_a_kombucha_pellicle" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Adrien Rigobello" ;
-    okh:source :RecipesPostersenglishrecipetotreatakombuchapellicle_source ;
+    okh:source :Recipespostersenglishrecipetotreatakombuchapellicle_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:RecipesPostersenglishrecipetotreatakombuchapellicle_source a okh:SourceFile ;
+:Recipespostersenglishrecipetotreatakombuchapellicle_source a okh:SourceFile ;
     rdfs:label "Source File of Recipes posters/English_Recipe_to_treat_a_kombucha_pellicle of kARP  88cc5747ed45d4212a818ef0cb3f4631435d10ad" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/22214/english_recipe_to_treat_a_kombucha_pellicle.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyNDMxMTM=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/22214/english_recipe_to_treat_a_kombucha_pellicle.pdf> .
 
-:RecipesPostersfrancaisrecettepourcultiverunepelliculedekombucha a okh:Part ;
+:Recipespostersfrancaisrecettepourcultiverunepelliculedekombucha a okh:Part ;
     rdfs:label "Recipes posters/Francais_Recette_pour_cultiver_une_pellicule_de_kombucha" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Adrien Rigobello" ;
-    okh:source :RecipesPostersfrancaisrecettepourcultiverunepelliculedekombucha_source ;
+    okh:source :Recipespostersfrancaisrecettepourcultiverunepelliculedekombucha_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:RecipesPostersfrancaisrecettepourcultiverunepelliculedekombucha_source a okh:SourceFile ;
+:Recipespostersfrancaisrecettepourcultiverunepelliculedekombucha_source a okh:SourceFile ;
     rdfs:label "Source File of Recipes posters/Francais_Recette_pour_cultiver_une_pellicule_de_kombucha of kARP  88cc5747ed45d4212a818ef0cb3f4631435d10ad" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/22214/francais_recette_pour_cultiver_une_pellicule_de_kombucha.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozNDA2Mjg=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/22214/francais_recette_pour_cultiver_une_pellicule_de_kombucha.pdf> .
 
-:RecipesPostersfrancaisrecettepourtraiterunepelliculedekombucha a okh:Part ;
+:Recipespostersfrancaisrecettepourtraiterunepelliculedekombucha a okh:Part ;
     rdfs:label "Recipes posters/Francais_Recette_pour_traiter_une_pellicule_de_kombucha" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Adrien Rigobello" ;
-    okh:source :RecipesPostersfrancaisrecettepourtraiterunepelliculedekombucha_source ;
+    okh:source :Recipespostersfrancaisrecettepourtraiterunepelliculedekombucha_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:RecipesPostersfrancaisrecettepourtraiterunepelliculedekombucha_source a okh:SourceFile ;
+:Recipespostersfrancaisrecettepourtraiterunepelliculedekombucha_source a okh:SourceFile ;
     rdfs:label "Source File of Recipes posters/Francais_Recette_pour_traiter_une_pellicule_de_kombucha of kARP  88cc5747ed45d4212a818ef0cb3f4631435d10ad" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/22214/francais_recette_pour_traiter_une_pellicule_de_kombucha.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyNDMxMTI=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/22214/francais_recette_pour_traiter_une_pellicule_de_kombucha.pdf> .
 
-:TackingFilefichesuivi a okh:Part ;
+:Tackingfilefichesuivi a okh:Part ;
     rdfs:label "Tacking file/FicheSuivi" ;
     okh:documentationLanguage "en" ;
-    okh:image :TackingFilefichesuivi_image ;
+    okh:image :Tackingfilefichesuivi_image ;
     okh:licensor "vivien roussel" ;
-    okh:source :TackingFilefichesuivi_source ;
+    okh:source :Tackingfilefichesuivi_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:TackingFilefichesuivi_image a okh:Image ;
+:Tackingfilefichesuivi_image a okh:Image ;
     rdfs:label "Image of Tacking file/FicheSuivi of kARP  88cc5747ed45d4212a818ef0cb3f4631435d10ad" ;
     okh:fileFormat "JPG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/22214/fichesuivi.jpg> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMzk5MTQ=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/22214/fichesuivi.jpg> .
 
-:TackingFilefichesuivi_source a okh:SourceFile ;
+:Tackingfilefichesuivi_source a okh:SourceFile ;
     rdfs:label "Source File of Tacking file/FicheSuivi of kARP  88cc5747ed45d4212a818ef0cb3f4631435d10ad" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/22214/fichesuivi.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMzk5MTM=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/22214/fichesuivi.pdf> .
 

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A40673/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:LegoInspiredCaseForOptimusGe973BellNotTested a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Lego Inspired Case for Optimus G (E973 Bell) - Not Tested" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Designed Case for Optimus G (from Bell Canada).\r
 This model has not yet been printed and tested as I don't have a fully functioning printer at this time.\r
 Feel free to print it at your own risk, let me know if it works for you.""" ;
@@ -14,6 +16,7 @@ Feel free to print it at your own risk, let me know if it works for you.""" ;
     okh:repo <https://www.thingiverse.com/thing:40673> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:40673> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A2059/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MiniCdStand a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Mini CD Stand" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "de" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Sorry my english is bad, but i hope you can understand me.\r
 \r
 This is a mini-cd-stand. \r
@@ -32,6 +34,7 @@ Mein Design ist anders als im Original und man ist in der Lage mehrere Mini-CD-S
     okh:repo <https://www.thingiverse.com/thing:2059> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:2059> .

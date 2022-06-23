@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A23754/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:J2Logo a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "J2 Logo" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Old HL2-style logo for the J2 community. www.joe.to  
 
 Update: Added a Thin version as the original is very thick in reality. The height is simply .25 of the original. Also, added a new photo of test prints.  
@@ -16,6 +18,7 @@ Video of the printing: youtube.com/watch?v=KHsPCjRtIHg""" ;
     okh:repo <https://www.thingiverse.com/thing:23754> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:23754> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A38421/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ChopsticksForKids a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "chopsticks for kids!" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I started to design some slip-on "hands" to slide on the end of a set of disposable wooden chopsticks - to make it easier for chopstickers in training to get and hold on to food.  Even when using Zydac's wonderfully springy trainer accessory @ http://www.thingiverse.com/thing:5923, its still hard for beginners to line up the tips for food grip.\r
 \r
 But then I decided it was potentially wasteful to design a accessory for disposable chopsticks, even if the accessory itself was reusable. Solution: a full set of reusable, washable chopsticks!\r
@@ -18,6 +20,7 @@ DISCLAIMER:  I can personally vouch that PLA is not dishwasher safe.  It *will* 
     okh:repo <https://www.thingiverse.com/thing:38421> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:38421> .

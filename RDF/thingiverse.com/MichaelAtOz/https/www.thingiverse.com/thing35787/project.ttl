@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A35787/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:UpdatedMakerslideEccentricSpacerParametric a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "UPDATED Makerslide Eccentric Spacer - Parametric" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """UPDATE Feb 2013: Well it doesn't print well with my 0.5mm nozzle. The wall where the hole is close to the side is too thin, see photos. I may try it scalled to a larger bolt size and play with slic3r settings a bit.\r
 \r
 This is not a direct derivative of makerslide http://www.thingiverse.com/thing:8992 as it does not include the spacers.\r
@@ -28,6 +30,7 @@ However you can modify easily for other sizes.""" ;
     okh:repo <https://www.thingiverse.com/thing:35787> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:35787> .

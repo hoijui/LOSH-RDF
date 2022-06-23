@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A43636/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:AcrylicWadesGearedExtruderForQubdHotEnd a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Acrylic Wade's Geared Extruder for QU-BD Hot end." ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """The QU-BD extruder didn't work for me.  I didn't have a 624 bearing for bdring's mod or the other MK8 minimalistic mods but I do have a laser cutter.\r
 \r
 I used this for a few weeks without problems until my Solidoodle arrived. Spent a week screwing around with the QU-BD stock and couldn't take it anymore.  This thing worked great and let me focus on printing, instead of the machine failures.""" ;
@@ -14,6 +16,7 @@ I used this for a few weeks without problems until my Solidoodle arrived. Spent 
     okh:repo <https://www.thingiverse.com/thing:43636> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:43636> .

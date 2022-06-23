@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A37415/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:CddvdromDriveEjectTool a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "CD/DVD-Rom drive Eject Tool." ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "For those times when you need a paper clip to get the tray to open up on your CD/DVD drive." ;
     okh:hasImage :Image ;
     okh:licensor "Tcorgard" ;
     okh:repo <https://www.thingiverse.com/thing:37415> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:37415> .

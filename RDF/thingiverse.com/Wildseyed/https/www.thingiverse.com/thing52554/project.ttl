@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A52554/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:EmersonEvc355MountToBladeMqxQuadcopter a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Emerson EVC-355 mount to Blade mQX QUadcopter" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This clip-on mount lets you fly an Emerson HD Action Cam EVC-355 on your Blade mQX Quadcopter.\r
 \r
 The camera can be found at some Big Lots stores, and on-line.""" ;
@@ -14,6 +16,7 @@ The camera can be found at some Big Lots stores, and on-line.""" ;
     okh:repo <https://www.thingiverse.com/thing:52554> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:52554> .

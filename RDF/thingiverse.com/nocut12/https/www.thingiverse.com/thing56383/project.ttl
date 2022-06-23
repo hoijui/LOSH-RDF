@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A56383/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PcPsuMountFor20mmExtrusion a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "PC PSU Mount for 20mm Extrusion" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """These two plates will let you mount a standard ATX power supply to your 20mm extrusion based printer. \r
 \r
 One plate mounts using the standard mounting holes on the front. The second plate mounts to two holes that were on the back of my PSU. I'm not sure if they are standard on all ATX PSU. If they aren't on yours, you could probably just  use only the front plate.\r
@@ -16,6 +18,7 @@ I've attached the Sketchup files in case you need to make any modifications.""" 
     okh:repo <https://www.thingiverse.com/thing:56383> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:56383> .

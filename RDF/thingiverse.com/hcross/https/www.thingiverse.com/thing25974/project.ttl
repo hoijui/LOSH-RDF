@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A25974/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Hx1modQuickfitXcarriage a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "HX1-Mod Quick-Fit X-Carriage" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This mod is for the SeeMeCNC H-1 and is a complete redesign of the X-Carriage using PLA bushings and a Quick-Fit adaptor. A Quick-Fit support has also been designed for Steve's Extruder. This support is also designed for Budaschnozzle 1.0 but can be easily adapted for other hotends.\r
 \r
 A video of this things installed is available here : http://youtu.be/DFIuspUwfxo""" ;
@@ -14,6 +16,7 @@ A video of this things installed is available here : http://youtu.be/DFIuspUwfxo
     okh:repo <https://www.thingiverse.com/thing:25974> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:25974> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A4762/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:EtchableMechanicalEndstopwithSupportParts a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Etchable Mechanical Endstop (with support parts)" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Because I believe every 'bot should have at least one of these, I made a video. Behold: http://www.youtube.com/watch?v=2iGnlqBLn5s&sns=em\r
 \r
 I started with the latest Mechanical Endstop on thingiverse from MakerBot (v1.0), which is for the Gen4 electronics, cleaned up the traces to make it easier to make at home, and then made a few. \r
@@ -25,6 +27,7 @@ These boards should also work well with the Mendel inspired x and y carriage low
     okh:repo <https://www.thingiverse.com/thing:4762> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:4762> .

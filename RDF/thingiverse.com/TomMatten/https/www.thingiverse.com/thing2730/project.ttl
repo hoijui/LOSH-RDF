@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A2730/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MakerBong a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Maker Bong" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """"Maker Bong make any bong"  
 
 Maker Bong puts the smoker back in charge. Maker Bong gives the individual the ability to create what ever type of bong they desire, whether it be a steamroller, Hookah, or normal bong. Also the Maker Bong's Chamber piece allows one to add ice water, giving the user the ability to create a double, triple, or however many chamber bong for an insanely smooth smoking experience.  
@@ -38,6 +40,7 @@ Maker Bong puts the smoker back in charge. With interchangeable pieces your Make
     okh:repo <https://www.thingiverse.com/thing:2730> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:2730> .

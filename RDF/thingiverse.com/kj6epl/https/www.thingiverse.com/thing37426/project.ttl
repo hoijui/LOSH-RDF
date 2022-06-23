@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A37426/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:JpAerospacePongsat a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "JP Aerospace PongSat" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """If you've ever wanted to fly an experiment to the edge of space, this is your chance! PongSat by JP Aerospace is the World's Space Program! A Pongsat is an experiment stuffed inside a ping pong ball, and we fly them for FREE! Sky's (no-- SPACE) is the limit! What will you fly?  \r
 \r
 Update: By the way, this is an on-going program, not a one time event. We do routine PongSat flights every few months. The PongSat program itself is several years old, and will likely continue for as long as JP Aerospace is in business. So even though this "thing" was posted a couple years ago, it is still very much alive and well. Make yours today!""" ;
@@ -14,6 +16,7 @@ Update: By the way, this is an on-going program, not a one time event. We do rou
     okh:repo <https://www.thingiverse.com/thing:37426> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:37426> .

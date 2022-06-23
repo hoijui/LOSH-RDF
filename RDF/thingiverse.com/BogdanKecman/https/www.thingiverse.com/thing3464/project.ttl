@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A3464/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:BfbHotEndModel a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "bfb hot end model" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Model of the BFB\\'s (http://www.bitsfrombytes.com) hot end (best hot end I tried). Unfortunately not easily manufactured if one does not have access to some fancy tools, but luckily BFB sell them as parts.\r
 \r
 modules in the scad file:\r
@@ -31,6 +33,7 @@ You can see about the hot end itself: http://www.bitsfrombytes.com/wiki/index.ph
     okh:repo <https://www.thingiverse.com/thing:3464> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/BSD-4-Clause> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:3464> .

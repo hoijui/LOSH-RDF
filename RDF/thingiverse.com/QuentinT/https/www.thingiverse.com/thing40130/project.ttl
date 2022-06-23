@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A40130/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:EndMountForTosjduenfsCableChain a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "End Mount for tosjduenfs' Cable Chain" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is an end mount that I made for tosjduenfs' cable chain.  It will screw into my bed mount plate with two #6 machine screws, and will guide my heat bed and thermistor wires, keeping them out of the way.  \r
 \r
 I have had an issue with my heater cables breaking where they attach to the heat bed because of the repeated flexing each time the y axis moves.  This mounting plate will not let the cables flex until they reach the cable chain, which will in turn limit the diameter of any bends.""" ;
@@ -14,6 +16,7 @@ I have had an issue with my heater cables breaking where they attach to the heat
     okh:repo <https://www.thingiverse.com/thing:40130> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:40130> .

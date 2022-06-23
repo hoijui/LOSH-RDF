@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A15784/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:DoubleplusgoodHandsokayPairWithLeftyVersion a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Doubleplusgood -- Hands 'Okay' Pair, with Lefty Version" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """The original model from cyclone is totally awesome, but it's only the right hand. So I mirrored the hand in Blender. Now you've got a complete set. A-okay for us lefties.\r
 \r
 Grab the left-hand-only version if you've already printed the right hand and want a match.\r
@@ -16,6 +18,7 @@ They make great bookends and a great pairing with Yoda (see the pic... hiding he
     okh:repo <https://www.thingiverse.com/thing:15784> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:15784> .

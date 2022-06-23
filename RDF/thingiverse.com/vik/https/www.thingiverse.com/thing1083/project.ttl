@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A1083/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:4555mmHydroponicPot a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "45/55mm Hydroponic Pot" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """No, not that kind of hydroponic pot. This is just a little plastic tub with a mesh bottom that you fill with vermiculite, perlite, clay balls etc. and plant hydroponic plants in. The pots then go into 45mm or 55mm holes drilled in a piece of 100x50mm rectangular downpipe to form a [ http://en.wikipedia.org/wiki/Nutrient_film_technique ] Nutrient Film Technique (NFT) hydroponic system. I grow a lot of tomatoes, beans, lettuce, brassica, celery, basil etc. in my NFT runs but the pots keep on breaking.\r
 \r
 Now I don't need to worry. Even if the plant bursts the pot, at the end of the growing season I'll just throw the whole lot in the compost heap and print another one. They should stack, so you can keep a few ready to hand. It's cool using your RepRap to help grow food!""" ;
@@ -14,6 +16,7 @@ Now I don't need to worry. Even if the plant bursts the pot, at the end of the g
     okh:repo <https://www.thingiverse.com/thing:1083> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:1083> .

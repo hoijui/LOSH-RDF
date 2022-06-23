@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A13203/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ChristmasWreathOrnamentaddYourName a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Christmas Wreath Ornament (Add your Name)" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """With the holidays right around the corner I was thinking about gifts to make on my Reprap. After making a Christmas Wreath Ornament I realized it would be much cooler to have one with my dogs name on it. The solidworks file is Attached if you would like to add your own name :-)  \r
 \r
 \r
@@ -20,6 +22,7 @@ This is my gift to the community this year :-)""" ;
     okh:repo <https://www.thingiverse.com/thing:13203> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:13203> .

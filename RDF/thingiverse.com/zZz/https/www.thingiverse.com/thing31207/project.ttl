@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A31207/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ExtruderMotorMount2dDrawing a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Extruder motor mount 2D drawing." ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "I broke my extruder motor mount on the RapMan 3 installing my second extruder, so since i still have one working, decided to print one. The first two did not turn out right, hope this one works. If any one out there is willing to check the measurements I would greatly appreciate it, this is a 2D file created in Alibre. When finalized, I will upload the STL file for other clumsy people out there." ;
     okh:hasImage :Image ;
     okh:licensor "zZz" ;
     okh:repo <https://www.thingiverse.com/thing:31207> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:31207> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A14592/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Irobi a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "iRobi" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """3D model of a household robot modeled in 3ds max for a magazine article illustration about electronics for the home of the future. You can see the full illustration on my web site: http://www.andylackow.com. Based on the iRobi made by the Korean company, Yujin Robotics. Here's a quote about the little guy, "The iRobi is cute house and kid sitter robot. It can be remotely controlled via the web and has a surveillance camera. It can also tutor kids with his large integrated display. The eyes and mouth of the iRobi can show different moods."\r
 \r
 Sounds like some syntax got a little lost in the translation.""" ;
@@ -14,6 +16,7 @@ Sounds like some syntax got a little lost in the translation.""" ;
     okh:repo <https://www.thingiverse.com/thing:14592> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:14592> .

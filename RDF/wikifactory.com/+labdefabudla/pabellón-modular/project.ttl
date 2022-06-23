@@ -1,29 +1,30 @@
-@prefix : <https://wikifactory.com/+labdefabudla/pabellón-modular/7c7454d19084cfffc584810a30e77ae2d42bcfab/> .
+@prefix : <https://wikifactory.com/%2Blabdefabudla/pabell%C3%B3n-modular/7c7454d19084cfffc584810a30e77ae2d42bcfab/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PabellónModularG4 a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Pabellón Modular G4" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "es" ;
     okh:function "Pabellón en respuesta a una de las posibilidades que entregan 4 uniones especificas." ;
     okh:hasComponent :,
-        :ImpresiónParametros,
+        :Impresinparametros,
         :Instructivo,
-        :PlanimetriauniónDeBaseg4,
-        :PlanimetriauniónDeCielog4,
-        :PlanimetriauniónDeTensoresg4,
-        :UbicaciónDeListonDeMadera,
-        :UbicaciónDeUniónBase,
-        :UbicaciónDeUniónCielo,
-        :UbicaciónDeUniónTensor,
-        :UbicaciónSogaElastica,
-        :UnióDeCieloescalaRealg4,
-        :UniónDeBaseescala125g4,
-        :UniónDeBaseescalaRealg4,
-        :UniónDeCieloEscalaRealg4,
-        :UniónDeCieloescala125g4,
-        :UniónDeTensoresescala125g4,
-        :UniónDeTensoresescalaRealg4 ;
+        :Planimetriaunindebaseg4,
+        :Planimetriaunindecielog4,
+        :Planimetriaunindetensoresg4,
+        :Ubicacindelistondemadera,
+        :Ubicacindeuninbase,
+        :Ubicacindeunincielo,
+        :Ubicacindeunintensor,
+        :Ubicacinsogaelastica,
+        :Unidecieloescalarealg4,
+        :Unindebaseescala125g4,
+        :Unindebaseescalarealg4,
+        :Unindecieloescala125g4,
+        :Unindecieloescalarealg4,
+        :Unindetensoresescala125g4,
+        :Unindetensoresescalarealg4 ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "ioranamarceloestrada7" ;
@@ -32,6 +33,7 @@
     okh:repo <https://wikifactory.com/+labdefabudla/pabellón-modular> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:uploadMethod "manifest" ;
     okh:version "7c7454d19084cfffc584810a30e77ae2d42bcfab" ;
     okh:versionOf <https://wikifactory.com/+labdefabudla/pabellón-modular> .
 
@@ -46,20 +48,20 @@
     rdfs:label "Image of Pabellón Modular G4 7c7454d19084cfffc584810a30e77ae2d42bcfab" ;
     okh:fileFormat "JPG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144632/collage16.jpg> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2Mjk5MjI=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144632/collage16.jpg> .
 
-:ImpresiónParametros a okh:Part ;
+:Impresinparametros a okh:Part ;
     rdfs:label "Impresión & Parametros" ;
     okh:documentationLanguage "es" ;
     okh:licensor "Angeles Aguilar" ;
-    okh:source :ImpresiónParametros_source ;
+    okh:source :Impresinparametros_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:ImpresiónParametros_source a okh:SourceFile ;
+:Impresinparametros_source a okh:SourceFile ;
     rdfs:label "Source File of Impresión & Parametros of Pabellón Modular G4 7c7454d19084cfffc584810a30e77ae2d42bcfab" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144632/impresión-parametros.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjkzMzI=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144632/impresión-parametros.pdf> .
 
 :Instructivo a okh:Part ;
     rdfs:label "Instructivo" ;
@@ -72,226 +74,226 @@
     rdfs:label "Source File of Instructivo of Pabellón Modular G4 7c7454d19084cfffc584810a30e77ae2d42bcfab" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144632/instrucciones-4.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2Mjk2NDc=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144632/instrucciones-4.pdf> .
 
-:PlanimetriauniónDeBaseg4 a okh:Part ;
+:Planimetriaunindebaseg4 a okh:Part ;
     rdfs:label "Planimetria_Unión de Base_G4" ;
     okh:documentationLanguage "es" ;
     okh:licensor "Angeles Aguilar" ;
-    okh:source :PlanimetriauniónDeBaseg4_source ;
+    okh:source :Planimetriaunindebaseg4_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:PlanimetriauniónDeBaseg4_source a okh:SourceFile ;
+:Planimetriaunindebaseg4_source a okh:SourceFile ;
     rdfs:label "Source File of Planimetria_Unión de Base_G4 of Pabellón Modular G4 7c7454d19084cfffc584810a30e77ae2d42bcfab" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144632/planimetria_unión-de-base_g4.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjkxODQ=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144632/planimetria_unión-de-base_g4.pdf> .
 
-:PlanimetriauniónDeCielog4 a okh:Part ;
+:Planimetriaunindecielog4 a okh:Part ;
     rdfs:label "Planimetria_Unión de Cielo_G4" ;
     okh:documentationLanguage "es" ;
     okh:licensor "Angeles Aguilar" ;
-    okh:source :PlanimetriauniónDeCielog4_source ;
+    okh:source :Planimetriaunindecielog4_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:PlanimetriauniónDeCielog4_source a okh:SourceFile ;
+:Planimetriaunindecielog4_source a okh:SourceFile ;
     rdfs:label "Source File of Planimetria_Unión de Cielo_G4 of Pabellón Modular G4 7c7454d19084cfffc584810a30e77ae2d42bcfab" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144632/planimetria_unión-de-cielo.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjkxMzc=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144632/planimetria_unión-de-cielo.pdf> .
 
-:PlanimetriauniónDeTensoresg4 a okh:Part ;
+:Planimetriaunindetensoresg4 a okh:Part ;
     rdfs:label "Planimetria_Unión de Tensores_G4" ;
     okh:documentationLanguage "es" ;
     okh:licensor "Angeles Aguilar" ;
-    okh:source :PlanimetriauniónDeTensoresg4_source ;
+    okh:source :Planimetriaunindetensoresg4_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:PlanimetriauniónDeTensoresg4_source a okh:SourceFile ;
+:Planimetriaunindetensoresg4_source a okh:SourceFile ;
     rdfs:label "Source File of Planimetria_Unión de Tensores_G4 of Pabellón Modular G4 7c7454d19084cfffc584810a30e77ae2d42bcfab" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144632/planimetria_unión-de-tensores.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjkxNTA=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144632/planimetria_unión-de-tensores.pdf> .
 
 :Readme a okh:Readme ;
     rdfs:label "Readme of Pabellón Modular G4 7c7454d19084cfffc584810a30e77ae2d42bcfab" ;
     okh:fileFormat "MD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144632/readme-cf815.md> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzAwNjk=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144632/readme-cf815.md> .
 
-:UbicaciónDeListonDeMadera a okh:Part ;
+:Ubicacindelistondemadera a okh:Part ;
     rdfs:label "Ubicación de liston de madera" ;
     okh:documentationLanguage "es" ;
     okh:licensor "ioranamarceloestrada7" ;
-    okh:source :UbicaciónDeListonDeMadera_source ;
+    okh:source :Ubicacindelistondemadera_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:UbicaciónDeListonDeMadera_source a okh:SourceFile ;
+:Ubicacindelistondemadera_source a okh:SourceFile ;
     rdfs:label "Source File of Ubicación de liston de madera of Pabellón Modular G4 7c7454d19084cfffc584810a30e77ae2d42bcfab" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144632/ubicación-de-liston-de-madera-721ac.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjkxNjU=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144632/ubicación-de-liston-de-madera-721ac.pdf> .
 
-:UbicaciónDeUniónBase a okh:Part ;
+:Ubicacindeuninbase a okh:Part ;
     rdfs:label "Ubicación de unión base" ;
     okh:documentationLanguage "es" ;
     okh:licensor "ioranamarceloestrada7" ;
-    okh:source :UbicaciónDeUniónBase_source ;
+    okh:source :Ubicacindeuninbase_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:UbicaciónDeUniónBase_source a okh:SourceFile ;
+:Ubicacindeuninbase_source a okh:SourceFile ;
     rdfs:label "Source File of Ubicación de unión base of Pabellón Modular G4 7c7454d19084cfffc584810a30e77ae2d42bcfab" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144632/ubicación-de-unión-base-58320.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjkxNjM=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144632/ubicación-de-unión-base-58320.pdf> .
 
-:UbicaciónDeUniónCielo a okh:Part ;
+:Ubicacindeunincielo a okh:Part ;
     rdfs:label "Ubicación de unión cielo" ;
     okh:documentationLanguage "es" ;
     okh:licensor "ioranamarceloestrada7" ;
-    okh:source :UbicaciónDeUniónCielo_source ;
+    okh:source :Ubicacindeunincielo_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:UbicaciónDeUniónCielo_source a okh:SourceFile ;
+:Ubicacindeunincielo_source a okh:SourceFile ;
     rdfs:label "Source File of Ubicación de unión cielo of Pabellón Modular G4 7c7454d19084cfffc584810a30e77ae2d42bcfab" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144632/ubicación-de-unión-cielo-28675.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjkxNjI=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144632/ubicación-de-unión-cielo-28675.pdf> .
 
-:UbicaciónDeUniónTensor a okh:Part ;
+:Ubicacindeunintensor a okh:Part ;
     rdfs:label "Ubicación de unión tensor" ;
     okh:documentationLanguage "es" ;
     okh:licensor "ioranamarceloestrada7" ;
-    okh:source :UbicaciónDeUniónTensor_source ;
+    okh:source :Ubicacindeunintensor_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:UbicaciónDeUniónTensor_source a okh:SourceFile ;
+:Ubicacindeunintensor_source a okh:SourceFile ;
     rdfs:label "Source File of Ubicación de unión tensor of Pabellón Modular G4 7c7454d19084cfffc584810a30e77ae2d42bcfab" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144632/ubicación-de-unión-tensor-b8b3b.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjkxNjQ=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144632/ubicación-de-unión-tensor-b8b3b.pdf> .
 
-:UbicaciónSogaElastica a okh:Part ;
+:Ubicacinsogaelastica a okh:Part ;
     rdfs:label "Ubicación soga elastica" ;
     okh:documentationLanguage "es" ;
     okh:licensor "ioranamarceloestrada7" ;
-    okh:source :UbicaciónSogaElastica_source ;
+    okh:source :Ubicacinsogaelastica_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:UbicaciónSogaElastica_source a okh:SourceFile ;
+:Ubicacinsogaelastica_source a okh:SourceFile ;
     rdfs:label "Source File of Ubicación soga elastica of Pabellón Modular G4 7c7454d19084cfffc584810a30e77ae2d42bcfab" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144632/ubicación-soga-elastica.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjkxNjY=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144632/ubicación-soga-elastica.pdf> .
 
-:UnióDeCieloescalaRealg4 a okh:Part ;
+:Unidecieloescalarealg4 a okh:Part ;
     rdfs:label "Unió de Cielo_Escala Real_G4" ;
     okh:documentationLanguage "es" ;
     okh:licensor "Angeles Aguilar" ;
-    okh:source :UnióDeCieloescalaRealg4_source ;
+    okh:source :Unidecieloescalarealg4_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:UnióDeCieloescalaRealg4_source a okh:SourceFile ;
+:Unidecieloescalarealg4_source a okh:SourceFile ;
     rdfs:label "Source File of Unió de Cielo_Escala Real_G4 of Pabellón Modular G4 7c7454d19084cfffc584810a30e77ae2d42bcfab" ;
     okh:fileFormat "3DM" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144632/unió-de-cielo_escala-real_g4.3dm> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjkxMzE=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144632/unió-de-cielo_escala-real_g4.3dm> .
 
-:UniónDeBaseescala125g4 a okh:Part ;
+:Unindebaseescala125g4 a okh:Part ;
     rdfs:label "Unión de Base_Escala 1,25_G4" ;
     okh:documentationLanguage "es" ;
     okh:licensor "Angeles Aguilar" ;
-    okh:source :UniónDeBaseescala125g4_source ;
+    okh:source :Unindebaseescala125g4_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:UniónDeBaseescala125g4_source a okh:SourceFile ;
+:Unindebaseescala125g4_source a okh:SourceFile ;
     rdfs:label "Source File of Unión de Base_Escala 1,25_G4 of Pabellón Modular G4 7c7454d19084cfffc584810a30e77ae2d42bcfab" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144632/unión-de-base_escala-125_g4.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjkxMTM=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144632/unión-de-base_escala-125_g4.stl> .
 
-:UniónDeBaseescalaRealg4 a okh:Part ;
+:Unindebaseescalarealg4 a okh:Part ;
     rdfs:label "Unión de Base_Escala Real_G4" ;
     okh:documentationLanguage "es" ;
-    okh:export :UniónDeBaseescalaRealg4_export1 ;
+    okh:export :Unindebaseescalarealg4_export1 ;
     okh:licensor "Angeles Aguilar" ;
-    okh:source :UniónDeBaseescalaRealg4_source ;
+    okh:source :Unindebaseescalarealg4_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:UniónDeBaseescalaRealg4_export1 a okh:ExportFile ;
+:Unindebaseescalarealg4_export1 a okh:ExportFile ;
     rdfs:label "Export File of Unión de Base_Escala Real_G4 of Pabellón Modular G4 7c7454d19084cfffc584810a30e77ae2d42bcfab" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144632/unión-de-base_escala-real_g4.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjkxMTU=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144632/unión-de-base_escala-real_g4.stl> .
 
-:UniónDeBaseescalaRealg4_source a okh:SourceFile ;
+:Unindebaseescalarealg4_source a okh:SourceFile ;
     rdfs:label "Source File of Unión de Base_Escala Real_G4 of Pabellón Modular G4 7c7454d19084cfffc584810a30e77ae2d42bcfab" ;
     okh:fileFormat "3DM" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144632/unión-de-base_escala-real_g4.3dm> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjkxMTY=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144632/unión-de-base_escala-real_g4.3dm> .
 
-:UniónDeCieloEscalaRealg4 a okh:Part ;
-    rdfs:label "Unión de Cielo_ Escala Real_G4" ;
-    okh:documentationLanguage "es" ;
-    okh:licensor "Angeles Aguilar" ;
-    okh:source :UniónDeCieloEscalaRealg4_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:UniónDeCieloEscalaRealg4_source a okh:SourceFile ;
-    rdfs:label "Source File of Unión de Cielo_ Escala Real_G4 of Pabellón Modular G4 7c7454d19084cfffc584810a30e77ae2d42bcfab" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144632/unión-de-cielo_-escala-real_g4.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjkxMzM=> .
-
-:UniónDeCieloescala125g4 a okh:Part ;
+:Unindecieloescala125g4 a okh:Part ;
     rdfs:label "Unión de Cielo_Escala 1,25_G4" ;
     okh:documentationLanguage "es" ;
     okh:licensor "Angeles Aguilar" ;
-    okh:source :UniónDeCieloescala125g4_source ;
+    okh:source :Unindecieloescala125g4_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:UniónDeCieloescala125g4_source a okh:SourceFile ;
+:Unindecieloescala125g4_source a okh:SourceFile ;
     rdfs:label "Source File of Unión de Cielo_Escala 1,25_G4 of Pabellón Modular G4 7c7454d19084cfffc584810a30e77ae2d42bcfab" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144632/unión-de-cielo_escala-125_g4.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjkxMzU=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144632/unión-de-cielo_escala-125_g4.stl> .
 
-:UniónDeTensoresescala125g4 a okh:Part ;
+:Unindecieloescalarealg4 a okh:Part ;
+    rdfs:label "Unión de Cielo_ Escala Real_G4" ;
+    okh:documentationLanguage "es" ;
+    okh:licensor "Angeles Aguilar" ;
+    okh:source :Unindecieloescalarealg4_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Unindecieloescalarealg4_source a okh:SourceFile ;
+    rdfs:label "Source File of Unión de Cielo_ Escala Real_G4 of Pabellón Modular G4 7c7454d19084cfffc584810a30e77ae2d42bcfab" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144632/unión-de-cielo_-escala-real_g4.stl> ;
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144632/unión-de-cielo_-escala-real_g4.stl> .
+
+:Unindetensoresescala125g4 a okh:Part ;
     rdfs:label "Unión de Tensores _Escala 1,25_G4" ;
     okh:documentationLanguage "es" ;
     okh:licensor "Angeles Aguilar" ;
-    okh:source :UniónDeTensoresescala125g4_source ;
+    okh:source :Unindetensoresescala125g4_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:UniónDeTensoresescala125g4_source a okh:SourceFile ;
+:Unindetensoresescala125g4_source a okh:SourceFile ;
     rdfs:label "Source File of Unión de Tensores _Escala 1,25_G4 of Pabellón Modular G4 7c7454d19084cfffc584810a30e77ae2d42bcfab" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144632/unión-de-tensores-_escala-125_g4.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjkxNTI=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144632/unión-de-tensores-_escala-125_g4.stl> .
 
-:UniónDeTensoresescalaRealg4 a okh:Part ;
+:Unindetensoresescalarealg4 a okh:Part ;
     rdfs:label "Unión de Tensores_Escala Real_G4" ;
     okh:documentationLanguage "es" ;
-    okh:export :UniónDeTensoresescalaRealg4_export1 ;
+    okh:export :Unindetensoresescalarealg4_export1 ;
     okh:licensor "Angeles Aguilar" ;
-    okh:source :UniónDeTensoresescalaRealg4_source ;
+    okh:source :Unindetensoresescalarealg4_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:UniónDeTensoresescalaRealg4_export1 a okh:ExportFile ;
+:Unindetensoresescalarealg4_export1 a okh:ExportFile ;
     rdfs:label "Export File of Unión de Tensores_Escala Real_G4 of Pabellón Modular G4 7c7454d19084cfffc584810a30e77ae2d42bcfab" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144632/unión-de-tensores_escala-real_g4.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjkxNTQ=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144632/unión-de-tensores_escala-real_g4.stl> .
 
-:UniónDeTensoresescalaRealg4_source a okh:SourceFile ;
+:Unindetensoresescalarealg4_source a okh:SourceFile ;
     rdfs:label "Source File of Unión de Tensores_Escala Real_G4 of Pabellón Modular G4 7c7454d19084cfffc584810a30e77ae2d42bcfab" ;
     okh:fileFormat "3DM" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144632/unión-de-tensores_escala-real_g4.3dm> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjkxNTE=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144632/unión-de-tensores_escala-real_g4.3dm> .
 
 :_source a okh:SourceFile ;
     rdfs:label "Source File of . of Pabellón Modular G4 7c7454d19084cfffc584810a30e77ae2d42bcfab" ;
-    okh:fileFormat "PDF" ;
+    okh:fileFormat "" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144632/pdf-6bf7d.> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjkxNTk=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144632/pdf-6bf7d.> .
 

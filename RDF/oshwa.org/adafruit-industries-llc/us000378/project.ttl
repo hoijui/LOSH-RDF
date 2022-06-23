@@ -2,21 +2,15 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:AdafruitEinkFeatherFriendWith32kbSram a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Adafruit eInk Feather Friend with 32KB SRAM" ;
-    okh:additionalType "['Electronics']" ;
-    okh:certificationDate "2020-04-29T00:00:00-04:00" ;
-    okh:country "United States of America" ;
     okh:dataSource "oshwa.org" ;
     okh:documentationLanguage "en" ;
-    okh:documentationLicense "CC BY-SA" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function "The Eink Feather Friend is much friendlier - it comes with  256 Kilobit (32 Kilobyte) SRAM chip. That means you can control up to a 4.2\" 300x400 tri-color display (300*400 * 2 colors / 8 bits-per-byte = 30KB).  This chip shares the SPI port the eInk display uses, so you only need one extra pin. And, no more frame-buffering! You can use the SRAM to set up whatever you want to display, then shuffle data from SRAM to eInk when you're ready. Click the link labeled 'Project Website' to find out more." ;
-    okh:hardwareLicense "Other" ;
     okh:licensor "Adafruit Industries, LLC" ;
-    okh:primaryType "Electronics" ;
     okh:repo <https://certification.oshwa.org/us000378.html> ;
     okh:repoHost "certification.oshwa.org" ;
-    okh:softwareLicense "MIT" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
     okh:uploadMethod "auto" ;
     okh:version "Rev A" ;

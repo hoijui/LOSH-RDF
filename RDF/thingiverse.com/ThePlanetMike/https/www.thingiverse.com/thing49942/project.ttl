@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A49942/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:HansLensStand a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Hans' Lens Stand" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a stand designed to hold 50mm diameter lenses for experiments with optics that I designed for my friend Hans who is a teacher. The stand can be clipped onto the edge of a meter stick so that measurements between lenses can easily be made while they stay aligned. The stands can double as feet to support the meter stick, or even holders of a light source such as a flashlight or laser.   \r
 \r
 My unique design even accommodates all thicknesses in a standard pack of lenses such as this one sold on Amazon.com: http://www.amazon.com/gp/product/B00657LW8G?ie=UTF8&camp=213733&creative=393177&creativeASIN=B00657LW8G&linkCode=shr&tag=theplamik-20&qid=1360550742&sr=8-1&keywords=lens+set. This was no small feat! Whether thick or thin, convex or concave, this lens holder will hold them well.""" ;
@@ -14,6 +16,7 @@ My unique design even accommodates all thicknesses in a standard pack of lenses 
     okh:repo <https://www.thingiverse.com/thing:49942> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:49942> .

@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A64811/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:IpadHandlestand a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "iPad HandleStand" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "The iPad HandleStand is a protective case that has been hacked with a pair of 3D printed handles that hinge open into an A-Frame adjustable stand.  It works with a Smart Cover or with the Logitech UltraThin Keyboard Cover, and it tilts to any angle.  Additional information can be found on the blog: http://interlockroc.org/2013/04/06/3d-printed-handlestand-for-ipad/" ;
     okh:hasImage :Image ;
     okh:licensor "MacGyvrBot" ;
     okh:repo <https://www.thingiverse.com/thing:64811> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:64811> .

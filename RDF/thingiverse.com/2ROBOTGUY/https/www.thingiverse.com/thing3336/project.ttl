@@ -1,12 +1,14 @@
 @prefix : <https://www.thingiverse.com/thing%3A3336/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:YoshimotoCube a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Yoshimoto Cube " ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
-    okh:function """The Yoshimoto Cube is a polyhedral  mechanical puzzle  toy invented in 1971 by Japanese Naoki Yoshimoto (å‰æœ¬ç›´è²´, Yoshimoto Naoki). The cube is made up of eight interconnected cubes and it is capable of folding and unfolding itself in a cyclic fashion. You can keep folding, or unfolding the cube, indefinitely. Once folded, the cube can be turned into two rhombic  stellated dodecahedrons. Yoshimoto discovered that these two shapes could pieced together into a square when he was finding different ways he could split a cube equally in half.\r
+    okh:documentationReadinessLevel otrl:Odrl3 ;
+    okh:function """The Yoshimoto Cube is a polyhedral  mechanical puzzle  toy invented in 1971 by Japanese Naoki Yoshimoto (åx90‰æœ¬ç›´è²´, Yoshimoto Naoki). The cube is made up of eight interconnected cubes and it is capable of folding and unfolding itself in a cyclic fashion. You can keep folding, or unfolding the cube, indefinitely. Once folded, the cube can be turned into two rhombic  stellated dodecahedrons. Yoshimoto discovered that these two shapes could pieced together into a square when he was finding different ways he could split a cube equally in half.\r
 \r
 --------------------------------UPDATE------------------------------------\r
 6/13/2010\r
@@ -44,6 +46,7 @@ Later I will add an Active hinge for easy assembly. But till then enjoy! \r
     okh:repo <https://www.thingiverse.com/thing:3336> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:3336> .

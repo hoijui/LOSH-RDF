@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A36132/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:OldSchoolLincolnLogs a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Old School Lincoln Logs" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Old-fashioned Lincoln Logs, for when you just need one more piece, or when your dog ate part of that old set.  Dimensions match those of a set dating back to the eighties, at least.\r
 \r
 The newer generation of Lincoln Log-cabin builders have it soft.  In my day, the cabins were made of round logs, and were drafty, and we liked it!  We didn't have these new-fangled, flat-bottomed logs that are all-together too easy to stack.  We only had a few of the specialized, flat-bottomed foundation logs, and did we complain? (much?)\r
@@ -18,6 +20,7 @@ Now with roof support!""" ;
     okh:repo <https://www.thingiverse.com/thing:36132> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/LGPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:36132> .

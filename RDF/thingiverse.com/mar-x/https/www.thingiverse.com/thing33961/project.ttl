@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A33961/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ColourChangingFilamentExperiment a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Colour Changing Filament experiment " ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "This is a ramp of ABS Filament, 175mm Change Colour Filament (Green to Yellow) printed with dual extrusion in a surround to try get a sense of the medium's ability to change colour vs thickness. Depending on the results there may be some hidden uses for this ability to change colour due to heat." ;
     okh:hasImage :Image ;
     okh:licensor "mar-x" ;
     okh:repo <https://www.thingiverse.com/thing:33961> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:33961> .

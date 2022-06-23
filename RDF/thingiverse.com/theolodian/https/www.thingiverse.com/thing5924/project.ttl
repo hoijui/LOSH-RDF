@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A5924/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:DellKeyboardFoot a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Dell Keyboard Foot" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Folding foot for a Dell SK-8135 multimedia keyboard.  Useful after BSOD induced rage.\r
 \r
 I am aware that others have designed keyboard feet before, however the first thing that I will try to print I wanted to design from scratch.\r
@@ -16,6 +18,7 @@ Overall size is 23x24x6mm including pivots.""" ;
     okh:repo <https://www.thingiverse.com/thing:5924> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:5924> .

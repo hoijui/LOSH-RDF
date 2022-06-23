@@ -1,14 +1,15 @@
-@prefix : <https://wikifactory.com/+OttoDIY/bob-303/5a4b7838b3ae327a2ace412dba07681c846aa361/> .
+@prefix : <https://wikifactory.com/%2BOttoDIY/bob-303/5a4b7838b3ae327a2ace412dba07681c846aa361/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Bob303 a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "BOB-303" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "BOB-303 is a simplified biped, based on +OttoDIY, but enhanced to accomodate the use of AI, Computer Vision and simple ROS integration. It uses a Raspberry Pi Zero with a camera and has 6 servo motors for a fuller gait." ;
-    okh:hasComponent :Bob303lasertemplate03,
+    okh:hasComponent :Bob303,
+        :Bob303lasertemplate03,
         :Bob303manual,
-        :Bob303part,
         :Bob303wikifactory ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
@@ -18,8 +19,22 @@
     okh:repo <https://wikifactory.com/+OttoDIY/bob-303> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:uploadMethod "manifest" ;
     okh:version "5a4b7838b3ae327a2ace412dba07681c846aa361" ;
     okh:versionOf <https://wikifactory.com/+OttoDIY/bob-303> .
+
+:Bob303 a okh:Part ;
+    rdfs:label "BOB-303" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Personal Robotics" ;
+    okh:source :Bob303_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+
+:Bob303_source a okh:SourceFile ;
+    rdfs:label "Source File of BOB-303 of BOB-303 5a4b7838b3ae327a2ace412dba07681c846aa361" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/28574/bob-303.stl> ;
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/28574/bob-303.stl> .
 
 :Bob303lasertemplate03 a okh:Part ;
     rdfs:label "BOB-303_laser_template_0.3" ;
@@ -32,7 +47,7 @@
     rdfs:label "Source File of BOB-303_laser_template_0.3 of BOB-303 5a4b7838b3ae327a2ace412dba07681c846aa361" ;
     okh:fileFormat "SVG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/28574/bob-303_laser_template_03.svg> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyODQwMDY=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/28574/bob-303_laser_template_03.svg> .
 
 :Bob303manual a okh:Part ;
     rdfs:label "BOB-303_Manual" ;
@@ -45,20 +60,7 @@
     rdfs:label "Source File of BOB-303_Manual of BOB-303 5a4b7838b3ae327a2ace412dba07681c846aa361" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/28574/bob-303_manual.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyNzgwODg=> .
-
-:Bob303part a okh:Part ;
-    rdfs:label "BOB-303" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Personal Robotics" ;
-    okh:source :Bob303part_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
-
-:Bob303part_source a okh:SourceFile ;
-    rdfs:label "Source File of BOB-303 of BOB-303 5a4b7838b3ae327a2ace412dba07681c846aa361" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/28574/bob-303.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyNzY1OTk=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/28574/bob-303_manual.pdf> .
 
 :Bob303wikifactory a okh:Part ;
     rdfs:label "BOB-303_wikifactory" ;
@@ -71,17 +73,17 @@
     rdfs:label "Source File of BOB-303_wikifactory of BOB-303 5a4b7838b3ae327a2ace412dba07681c846aa361" ;
     okh:fileFormat "FCSTD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/28574/bob-303_wikifactory.FCStd> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyNzgwODc=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/28574/bob-303_wikifactory.FCStd> .
 
 :Image a okh:Image ;
     rdfs:label "Image of BOB-303 5a4b7838b3ae327a2ace412dba07681c846aa361" ;
     okh:fileFormat "JPG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/28574/image.jpg> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMTc5Mjg=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/28574/image.jpg> .
 
 :Readme a okh:Readme ;
     rdfs:label "Readme of BOB-303 5a4b7838b3ae327a2ace412dba07681c846aa361" ;
     okh:fileFormat "MD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/28574/readme-0ebc0.md> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyNzgwODk=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/28574/readme-0ebc0.md> .
 

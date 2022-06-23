@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A10898/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:50mmTo35mmFanMount a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "50mm to 35mm fan mount" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """It seems that everyone uses 50mm fans, it just so happens that i have a dozen or so 35mm fans laying about. Smaller the better in my mind. No need to over do it.\r
 \r
 There are many mounts included in other parts, and i wanted to use my smaller fans in those locations.\r
@@ -22,6 +24,7 @@ now the heatsink stays ice-cold (room temp really, poetic license, sue me) and i
     okh:repo <https://www.thingiverse.com/thing:10898> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:10898> .

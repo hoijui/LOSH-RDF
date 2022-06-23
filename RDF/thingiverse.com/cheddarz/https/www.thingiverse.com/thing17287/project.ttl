@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A17287/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PokãâballBadge a okh:Module ;
-    rdfs:label "PokÃÂ©ball badge" ;
+:Project a okh:Module ;
+    rdfs:label "PokÃx83Â©ball badge" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I WANNA BE\r
 THE VERY BEST\r
 (DUN DUN)\r
@@ -39,12 +41,13 @@ POKEMON""" ;
     okh:repo <https://www.thingiverse.com/thing:17287> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:17287> .
 
 :Image a okh:Image ;
-    rdfs:label "Image of PokÃÂ©ball badge 1.0.0" ;
+    rdfs:label "Image of PokÃx83Â©ball badge 1.0.0" ;
     okh:fileFormat "JPG" ;
     okh:fileUrl <https://cdn.thingiverse.com/renders/0d/cf/57/28/b5/pokeball_display_large_display_large.jpg> ;
     okh:permaURL <https://cdn.thingiverse.com/renders/0d/cf/57/28/b5/pokeball_display_large_display_large.jpg> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A29353/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PrintableJet a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Printable Jet" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """No assembly required! ...except maybe some paint.\r
 Loosely based on the F-86 Sabre:\r
 http://en.wikipedia.org/wiki/F-86""" ;
@@ -14,6 +16,7 @@ http://en.wikipedia.org/wiki/F-86""" ;
     okh:repo <https://www.thingiverse.com/thing:29353> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:29353> .

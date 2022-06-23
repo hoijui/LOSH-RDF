@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A9434/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ZfollowerVer2 a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Z-Follower Ver 2" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This was my prototype: http://www.thingiverse.com/thing:9187\r
 \r
 Version 2 reduces plastic and print time and cleans up spacing.  It works but is by no means long-term tested.  My bot does not seem to have any issues with binding at the top like it used to.  I am using only one of these things on the right side, the other side still has brass press-fit bearings.\r
@@ -20,6 +22,7 @@ Original Sketchup file included for whatever modifications people want to make."
     okh:repo <https://www.thingiverse.com/thing:9434> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:9434> .

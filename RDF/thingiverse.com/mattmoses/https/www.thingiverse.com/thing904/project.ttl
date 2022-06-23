@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A904/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Electromagnet a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Electromagnet" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is an attempt at a printable/castable electromagnet.  The coil is made from plastic castings and low-melt alloy.  There is one base-disk and four coil-disks in the assembly.  Each coil-disk has 1.5 turns, so there is a total of 6 turns in the coil.  The magnetic core is made from iron powder mixed with epoxy.  \r
 \r
 This electromagnet did not work very well.  With a current of tens of amps it can barely move a paperclip.  Poor performance is probably mostly due to the low permeability of the magnetic core.  It is possible that the same device with a solid iron/steel core would work much better.\r
@@ -20,6 +22,7 @@ If anyone makes a working electromagnet you could put it on this thing http://ww
     okh:repo <https://www.thingiverse.com/thing:904> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:904> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A49253/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Prusa60mmHotEndFanDuctByPhizinza a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Prusa 60mm hot end fan duct by Phizinza" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I saw a few around and modeled one on richgain's version.   
 It's two parts, the duct and the bracket. You might need a different bracket as this one is made for a Greg's extruder. But if gives 16mm or so of adjustability in height for different hot ends.  
 
@@ -19,6 +21,7 @@ I based it on a 60mm fan because that's what I had on hand.""" ;
     okh:repo <https://www.thingiverse.com/thing:49253> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:49253> .

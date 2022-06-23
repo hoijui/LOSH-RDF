@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A10180/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:HbpAdjusters a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "HBP Adjusters" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "I designed this to make leveling my HBP a little easier. Once everything is installed the level can be adjusted very easily. The HBP can be installed or removed easily also. I have know idea if this will work on the ABP but should work on the acrylic platform. You have to use a 3 point leveling system though, 2 corner adjusters on the front and a straight one in the middle in the rear. If you put corner ones in the rear they may hit the Z rods, or any extensions such as Jetguys brass tube Z extenders." ;
     okh:hasImage :Image ;
     okh:licensor "epideath" ;
     okh:repo <https://www.thingiverse.com/thing:10180> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:10180> .

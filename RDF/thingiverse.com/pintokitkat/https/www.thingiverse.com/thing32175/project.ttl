@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A32175/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MyGoldWatch a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "My gold watch" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """After forty years with the bank I didn't get a gold watch, I got a Replicator, so I decided to make myself the watch.  \r
 \r
 Inspired by VirgilVox's Makerbot watch (http://www.thingiverse.com/thing:31902), I created this case and strap in Sketchup and inserted the works from my treasured timepiece that celebrates two (Ok, one) of today's great inventors and makers - Wallace and Gromit.""" ;
@@ -14,6 +16,7 @@ Inspired by VirgilVox's Makerbot watch (http://www.thingiverse.com/thing:31902),
     okh:repo <https://www.thingiverse.com/thing:32175> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:32175> .

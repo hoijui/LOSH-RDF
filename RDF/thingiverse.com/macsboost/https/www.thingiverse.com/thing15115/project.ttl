@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A15115/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PeltorTacticalHeadphone18Adapter a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Peltor Tactical Headphone 1/8 Adapter" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """"Make your tactical, practical!"\r
 Convert your useless proprietary "Peltor Tactical Sport" Model # 97451 headphone connector to something useful like a 1/8" headphone jack. Use this part to adapt the radioshack part 274-0249 headphone jack into that funky space on your peltor tactical headphones.  These are headphones model "Peltor 97451 Tactical Sport Hearing Protector" on amazon.""" ;
     okh:hasImage :Image ;
@@ -13,6 +15,7 @@ Convert your useless proprietary "Peltor Tactical Sport" Model # 97451 headphone
     okh:repo <https://www.thingiverse.com/thing:15115> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:15115> .

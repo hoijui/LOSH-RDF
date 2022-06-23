@@ -1,9 +1,10 @@
-@prefix : <https://wikifactory.com/@moedn-ipk/opennext-dummy-a/1b75bdf1b40355745c6e5c955459accb8d4bd23f/> .
+@prefix : <https://wikifactory.com/%40moedn-ipk/opennext-dummy-a/1b75bdf1b40355745c6e5c955459accb8d4bd23f/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Opennextdummya a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "OPEN!NEXT-Dummy-A" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "Dummy Project for research purposes" ;
     okh:licensor "Martin Häuer" ;
@@ -11,6 +12,7 @@
     okh:repo <https://wikifactory.com/@moedn-ipk/opennext-dummy-a> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
+    okh:uploadMethod "manifest" ;
     okh:version "1b75bdf1b40355745c6e5c955459accb8d4bd23f" ;
     okh:versionOf <https://wikifactory.com/@moedn-ipk/opennext-dummy-a> .
 

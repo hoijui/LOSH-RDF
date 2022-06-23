@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A28637/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:UsbtoserialAdapter a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "USB-to-Serial Adapter" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a USB-to-Serial adapter designed around the Texas Instruments TUSB3410.\r
 \r
 The header connects directly to a Xilinx Spartan-3 dev board, and jumpers allow the TUSB3410 to be powered from the USB power or the dev board's 5V or 3.3V rail.\r
@@ -16,6 +18,7 @@ I wanted this instead of the more popular USB-to-serial dongles because the IO i
     okh:repo <https://www.thingiverse.com/thing:28637> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:28637> .

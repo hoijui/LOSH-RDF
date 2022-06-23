@@ -1,19 +1,20 @@
-@prefix : <https://wikifactory.com/+carola/project-carola-alpha/96143324c1bcbcb180f712e73586bca9899342a5/> .
+@prefix : <https://wikifactory.com/%2Bcarola/project-carola-alpha/96143324c1bcbcb180f712e73586bca9899342a5/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ProjectCarolaAlpha a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Project CAROLA Alpha" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "mobile open source mask microfactory #CAROLAmask #masks4world #opensource" ;
-    okh:hasComponent :CarolaHorizontalSketch1,
-        :CarolaLogoblack,
-        :CarolaLogofullColor,
-        :CarolaLogofullColorDark,
-        :CarolaLogowhite,
-        :CarolaWebV402,
+    okh:hasComponent :Carolahorizontalsketch1,
+        :Carolalogoblack,
+        :Carolalogofullcolor,
+        :Carolalogofullcolordark,
+        :Carolalogowhite,
         :Carolawebpreview,
         :Carolawebv401,
+        :Carolawebv402,
         :Flyercarola,
         :Flyercarolafinal,
         :Projectcarolaflyerall,
@@ -27,86 +28,74 @@
     okh:repo <https://wikifactory.com/+carola/project-carola-alpha> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
+    okh:uploadMethod "manifest" ;
     okh:version "96143324c1bcbcb180f712e73586bca9899342a5" ;
     okh:versionOf <https://wikifactory.com/+carola/project-carola-alpha> .
 
-:CarolaHorizontalSketch1 a okh:Part ;
+:Carolahorizontalsketch1 a okh:Part ;
     rdfs:label "Carola Horizontal Sketch 1" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Ines Mulec" ;
-    okh:source :CarolaHorizontalSketch1_source ;
+    okh:source :Carolahorizontalsketch1_source ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> .
 
-:CarolaHorizontalSketch1_source a okh:SourceFile ;
+:Carolahorizontalsketch1_source a okh:SourceFile ;
     rdfs:label "Source File of Carola Horizontal Sketch 1 of Project CAROLA Alpha 96143324c1bcbcb180f712e73586bca9899342a5" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40458/carola_horizontal_sketch_1.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMjcyNDU=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40458/carola_horizontal_sketch_1.pdf> .
 
-:CarolaLogoblack a okh:Part ;
+:Carolalogoblack a okh:Part ;
     rdfs:label "Carola LOGO-Black" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Ines Mulec" ;
-    okh:source :CarolaLogoblack_source ;
+    okh:source :Carolalogoblack_source ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> .
 
-:CarolaLogoblack_source a okh:SourceFile ;
+:Carolalogoblack_source a okh:SourceFile ;
     rdfs:label "Source File of Carola LOGO-Black of Project CAROLA Alpha 96143324c1bcbcb180f712e73586bca9899342a5" ;
     okh:fileFormat "SVG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40458/carola_logo-black.svg> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMjcyMDI=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40458/carola_logo-black.svg> .
 
-:CarolaLogofullColor a okh:Part ;
+:Carolalogofullcolor a okh:Part ;
     rdfs:label "Carola LOGO-Full Color" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Ines Mulec" ;
-    okh:source :CarolaLogofullColor_source ;
+    okh:source :Carolalogofullcolor_source ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> .
 
-:CarolaLogofullColorDark a okh:Part ;
-    rdfs:label "Carola LOGO-Full Color Dark" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Ines Mulec" ;
-    okh:source :CarolaLogofullColorDark_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> .
-
-:CarolaLogofullColorDark_source a okh:SourceFile ;
-    rdfs:label "Source File of Carola LOGO-Full Color Dark of Project CAROLA Alpha 96143324c1bcbcb180f712e73586bca9899342a5" ;
-    okh:fileFormat "SVG" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40458/carola_logo-full_color_dark.svg> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMjcxNTU=> .
-
-:CarolaLogofullColor_source a okh:SourceFile ;
+:Carolalogofullcolor_source a okh:SourceFile ;
     rdfs:label "Source File of Carola LOGO-Full Color of Project CAROLA Alpha 96143324c1bcbcb180f712e73586bca9899342a5" ;
     okh:fileFormat "SVG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40458/carola_logo-full_color.svg> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMjcyMDg=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40458/carola_logo-full_color.svg> .
 
-:CarolaLogowhite a okh:Part ;
+:Carolalogofullcolordark a okh:Part ;
+    rdfs:label "Carola LOGO-Full Color Dark" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Ines Mulec" ;
+    okh:source :Carolalogofullcolordark_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> .
+
+:Carolalogofullcolordark_source a okh:SourceFile ;
+    rdfs:label "Source File of Carola LOGO-Full Color Dark of Project CAROLA Alpha 96143324c1bcbcb180f712e73586bca9899342a5" ;
+    okh:fileFormat "SVG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40458/carola_logo-full_color_dark.svg> ;
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40458/carola_logo-full_color_dark.svg> .
+
+:Carolalogowhite a okh:Part ;
     rdfs:label "Carola LOGO-White" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Ines Mulec" ;
-    okh:source :CarolaLogowhite_source ;
+    okh:source :Carolalogowhite_source ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> .
 
-:CarolaLogowhite_source a okh:SourceFile ;
+:Carolalogowhite_source a okh:SourceFile ;
     rdfs:label "Source File of Carola LOGO-White of Project CAROLA Alpha 96143324c1bcbcb180f712e73586bca9899342a5" ;
     okh:fileFormat "SVG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40458/carola_logo-white.svg> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMjcxNTI=> .
-
-:CarolaWebV402 a okh:Part ;
-    rdfs:label "carola _ web v4-02" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Kęstutis Kuskys" ;
-    okh:source :CarolaWebV402_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> .
-
-:CarolaWebV402_source a okh:SourceFile ;
-    rdfs:label "Source File of carola _ web v4-02 of Project CAROLA Alpha 96143324c1bcbcb180f712e73586bca9899342a5" ;
-    okh:fileFormat "SVG" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40458/carola___web_v4-02.svg> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMzc0Mjc=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40458/carola_logo-white.svg> .
 
 :Carolawebpreview a okh:Part ;
     rdfs:label "carola___web_preview" ;
@@ -119,7 +108,7 @@
     rdfs:label "Source File of carola___web_preview of Project CAROLA Alpha 96143324c1bcbcb180f712e73586bca9899342a5" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40458/carola___web_preview.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMzY3ODM=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40458/carola___web_preview.pdf> .
 
 :Carolawebv401 a okh:Part ;
     rdfs:label "carola___web_v4-01" ;
@@ -132,7 +121,20 @@
     rdfs:label "Source File of carola___web_v4-01 of Project CAROLA Alpha 96143324c1bcbcb180f712e73586bca9899342a5" ;
     okh:fileFormat "SVG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40458/carola___web_v4-01.svg> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMzc0MjU=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40458/carola___web_v4-01.svg> .
+
+:Carolawebv402 a okh:Part ;
+    rdfs:label "carola _ web v4-02" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Kęstutis Kuskys" ;
+    okh:source :Carolawebv402_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> .
+
+:Carolawebv402_source a okh:SourceFile ;
+    rdfs:label "Source File of carola _ web v4-02 of Project CAROLA Alpha 96143324c1bcbcb180f712e73586bca9899342a5" ;
+    okh:fileFormat "SVG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40458/carola___web_v4-02.svg> ;
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40458/carola___web_v4-02.svg> .
 
 :Flyercarola a okh:Part ;
     rdfs:label "Flyer_Carola" ;
@@ -145,7 +147,7 @@
     rdfs:label "Source File of Flyer_Carola of Project CAROLA Alpha 96143324c1bcbcb180f712e73586bca9899342a5" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40458/flyer_carola.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMzE5OTI=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40458/flyer_carola.pdf> .
 
 :Flyercarolafinal a okh:Part ;
     rdfs:label "Flyer_Carola-final" ;
@@ -159,19 +161,19 @@
     rdfs:label "Image of Flyer_Carola-final of Project CAROLA Alpha 96143324c1bcbcb180f712e73586bca9899342a5" ;
     okh:fileFormat "AI" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40458/flyer_carola-final.ai> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozNDA0ODE=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40458/flyer_carola-final.ai> .
 
 :Flyercarolafinal_source a okh:SourceFile ;
     rdfs:label "Source File of Flyer_Carola-final of Project CAROLA Alpha 96143324c1bcbcb180f712e73586bca9899342a5" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40458/flyer_carola-final.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozNDAxMzM=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40458/flyer_carola-final.pdf> .
 
 :Image a okh:Image ;
     rdfs:label "Image of Project CAROLA Alpha 96143324c1bcbcb180f712e73586bca9899342a5" ;
     okh:fileFormat "JPG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40458/carola_wikifactory_1480x986px-5df15.jpg> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozNDA0MzY=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40458/carola_wikifactory_1480x986px-5df15.jpg> .
 
 :Projectcarolaflyerall a okh:Part ;
     rdfs:label "projectcarola_flyer_all" ;
@@ -184,7 +186,7 @@
     rdfs:label "Source File of projectcarola_flyer_all of Project CAROLA Alpha 96143324c1bcbcb180f712e73586bca9899342a5" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40458/flyer_carola-final.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozNDAyODc=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40458/flyer_carola-final.pdf> .
 
 :Projectcarolaflyerde a okh:Part ;
     rdfs:label "projectcarola_flyer_de" ;
@@ -197,7 +199,7 @@
     rdfs:label "Source File of projectcarola_flyer_de of Project CAROLA Alpha 96143324c1bcbcb180f712e73586bca9899342a5" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40458/projectcarola_flyer_en.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozNDAyODY=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40458/projectcarola_flyer_en.pdf> .
 
 :Projectcarolaflyeren a okh:Part ;
     rdfs:label "projectcarola_flyer_en" ;
@@ -210,11 +212,11 @@
     rdfs:label "Source File of projectcarola_flyer_en of Project CAROLA Alpha 96143324c1bcbcb180f712e73586bca9899342a5" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40458/projectcarola_flyer_en.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozNDAyOTY=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40458/projectcarola_flyer_en.pdf> .
 
 :Readme a okh:Readme ;
     rdfs:label "Readme of Project CAROLA Alpha 96143324c1bcbcb180f712e73586bca9899342a5" ;
     okh:fileFormat "MD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40458/readme-06c66.md> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMjcxNDE=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40458/readme-06c66.md> .
 

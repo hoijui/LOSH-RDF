@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A66082/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:FlirAx5ThermalCameraMount a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "FLIR Ax5 Thermal Camera Mount" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """We have been integrating larger FLIR cameras like the A615 into smaller UAVs for USDA and NOAA, and now there is a new line of tiny, cheaper (relative) Ax5 machine vision cameras.  These are small enough to fly on many hobby-grade multi-rotors.\r
 \r
 This mounts fits the FLIR Ax5 Series of compact thermal cameras, and lets them attach to a 1/4"-20 thread.""" ;
@@ -14,6 +16,7 @@ This mounts fits the FLIR Ax5 Series of compact thermal cameras, and lets them a
     okh:repo <https://www.thingiverse.com/thing:66082> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:66082> .

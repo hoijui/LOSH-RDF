@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A8620/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MechanicalLaserScannerVer20 a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Mechanical laser scanner ver2.0" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a laser scanning system that I designed to use with DAVID 3D Scanner software.  I have yet to buy the software, but the free version really lets you try out everything before you buy...you can at least take some high resolution screenshots of your scans. You can save low resolution files and use meshlab to assemble them.\r
 \r
 More info at: http://www.david-laserscanner.com/\r
@@ -20,6 +22,7 @@ When combined with custom makerbot parts, two M3 screws/nuts and a red or green 
     okh:repo <https://www.thingiverse.com/thing:8620> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:8620> .

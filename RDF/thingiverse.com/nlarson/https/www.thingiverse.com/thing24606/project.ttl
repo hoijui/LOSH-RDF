@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A24606/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PooperScooper a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Pooper Scooper" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """A shovel and rake style pooper scooper printable on the MakerBot.  Some assembly required.\r
 \r
 Rake is 4" Wide, The Shovel is ~7" Wide and there are ergonomic handles that are fun to watch print.\r
@@ -16,6 +18,7 @@ The 7" Shovel base is printed in 5 parts and glued together using ABS pipe cemen
     okh:repo <https://www.thingiverse.com/thing:24606> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:24606> .

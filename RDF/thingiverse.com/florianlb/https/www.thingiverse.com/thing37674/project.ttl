@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A37674/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PartialRotateextrudeopenscadWorkingWith0Radius a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Partial rotate_extrude (OpenSCAD) working with 0 radius" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "While designing an object for my 3D printer, I used the partial_rotate_extrude provided by CarryTheWhat. However, I realized that his routine did not work with a zero radius. I slightly modified the script to account for a new parameter to permit a partial_rotate_extrude working with a translation radius of zero." ;
     okh:hasImage :Image ;
     okh:licensor "florianlb" ;
     okh:repo <https://www.thingiverse.com/thing:37674> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:37674> .

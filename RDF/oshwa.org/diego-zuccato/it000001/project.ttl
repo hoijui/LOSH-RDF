@@ -2,20 +2,15 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Domonode a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "DomoNode" ;
-    okh:certificationDate "2017-12-12T00:00:00-04:00" ;
-    okh:country "Italy" ;
     okh:dataSource "oshwa.org" ;
     okh:documentationLanguage "en" ;
-    okh:documentationLicense "Other" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function "Expandable node for domotic automation. For DIN bar." ;
-    okh:hardwareLicense "CERN" ;
     okh:licensor "Diego Zuccato" ;
-    okh:primaryType "IOT" ;
     okh:repo <https://certification.oshwa.org/it000001.html> ;
     okh:repoHost "certification.oshwa.org" ;
-    okh:softwareLicense "MIT" ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
     okh:uploadMethod "auto" ;
     okh:version "1.1" ;

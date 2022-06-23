@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A37209/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:SettlersOfCatanHdAddons a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Settlers Of Catan HD Add-ons" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I am a huge fan of the Settlers of Catan board game. This is only an add on to the game and you will still need to buy the game to play. I am trying to make a HD version which will interlock and stop the pieces from separating during play. The piece is larger than the usual to allow for more detail. Comments and suggestions are greatly appreciated as I work more detail into each piece. It measure 15cm from one parallel face to the other.\r
 \r
 UPDATE: DEC14 - ADDED A SHEEP TO WOOL TILE\r
@@ -16,6 +18,7 @@ DEC16 - ADDED SEA AND SHEEP PORT""" ;
     okh:repo <https://www.thingiverse.com/thing:37209> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:37209> .

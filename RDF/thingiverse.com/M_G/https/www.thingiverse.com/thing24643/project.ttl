@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A24643/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ParametricPrintablePowerTie a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Parametric Printable Power Tie!" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """OpenSCAD parametric script to generate a 3D printable tie. This differs from most others in that it allows you to easily make diagonal stripes in the tie by angling the tie, slicing it into sections and swapping filament colours. It also is assembled using strapping/webbing and a more complex neck piece which should allow it to be worn in a more standard/traditional way!\r
 \r
 I have seen several tie designs on thingiverse recently and I've wanted to make one myself. Specifically I have been mystified as to why I've not seen a wide strapping type material used to hold the pieces together and wrap around the neck comfortably. Equally I am amazed that no-one (as far as I have seen) has made a diagonally striped tie using filament swapping. This design is inspired by the other ties recently on thingiverse but is all original work.\r
@@ -42,6 +44,7 @@ Permission to use, copy, modify, and distribute this software and its documentat
     okh:repo <https://www.thingiverse.com/thing:24643> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:24643> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A43867/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:VaseFigurineScanTest a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Vase Figurine Scan test" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Test scan using the PC version of Autodesk's 123D Catch.\r
 \r
 I used MeshLab to take a look to the output, Meshmixer to close the holes and OpenSCAD to make it flat.""" ;
@@ -14,6 +16,7 @@ I used MeshLab to take a look to the output, Meshmixer to close the holes and Op
     okh:repo <https://www.thingiverse.com/thing:43867> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:43867> .

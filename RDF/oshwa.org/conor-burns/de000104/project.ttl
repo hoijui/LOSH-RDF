@@ -2,21 +2,15 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:0xcb a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "0xCB" ;
-    okh:additionalType "['3D Printing', 'Electronics', 'Manufacturing']" ;
-    okh:certificationDate "2021-03-24T00:00:00-04:00" ;
-    okh:country "Germany" ;
     okh:dataSource "oshwa.org" ;
     okh:documentationLanguage "en" ;
-    okh:documentationLicense "CC BY" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function "Open Source PCB for a QMK macropad" ;
-    okh:hardwareLicense "CERN" ;
     okh:licensor "Conor Burns" ;
-    okh:primaryType "Electronics" ;
     okh:repo <https://certification.oshwa.org/de000104.html> ;
     okh:repoHost "certification.oshwa.org" ;
-    okh:softwareLicense "GPL" ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
     okh:uploadMethod "auto" ;
     okh:version "1.0" ;

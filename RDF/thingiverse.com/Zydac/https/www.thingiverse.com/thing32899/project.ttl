@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A32899/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:LinearBearingYStageForCupcake a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Linear Bearing Y Stage for Cupcake" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Still upgrading my Cupcake! This is a compact lightweight Y stage for the Makerbot Cupcake that uses SW4G linear bearings.\r
 \r
 note 11/1/12:  I added an 8mm version as well since Apparently some Cupcake models use 8mm rods.  This should fit an LM8 linear bearing. This is untested - I am assuming the rod spacing is the same as my model.\r
@@ -16,6 +18,7 @@ note 11/1/12:  I added an 8mm version as well since Apparently some Cupcake mode
     okh:repo <https://www.thingiverse.com/thing:32899> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:32899> .

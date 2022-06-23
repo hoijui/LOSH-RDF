@@ -2,21 +2,21 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:XlClayPrinterMertxe a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "XL Clay Printer - Mertxe" ;
     okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "3D Delta printer with a printing volume of 1 meter high and 70cm wide." ;
-    okh:hasComponent :01TheDesigndeltaPrinterMeasures,
-        :01TheDesignprintOnTheFloor,
-        :02BomBillOfMaterialsmertxeBillOfMaterialsBom,
-        :04ElectronicsmertxeElectronicsWiring,
-        :CustomMechanicalComponents3mBeltClampFor15MmWide,
-        :CustomMechanicalComponentscustommechanicalcomponentsfabricationfile,
-        :CustomMechanicalComponentsfabricationparts,
-        :CustomMechanicalComponentslathe,
-        :Mertxe3dModelsdeltajetclay,
-        :Mertxe3dModelsjetclayxldeltaprinter ;
+    okh:hasComponent :01thedesigndeltaprintermeasures,
+        :01thedesignprintonthefloor,
+        :02bombillofmaterialsmertxebillofmaterialsbom,
+        :04electronicsmertxeelectronicswiring,
+        :Custommechanicalcomponents3mbeltclampfor15mmwide,
+        :Custommechanicalcomponentscustommechanicalcomponentsfabricationfile,
+        :Custommechanicalcomponentsfabricationparts,
+        :Custommechanicalcomponentslathe,
+        :Mertxe3dmodelsdeltajetclay,
+        :Mertxe3dmodelsjetclayxldeltaprinter ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "JetClay" ;
@@ -29,159 +29,159 @@
     okh:version "952b7026e554c29b18ca93b9719a8b6c5ddf0117" ;
     okh:versionOf <https://wikifactory.com/+jetclay/xl-delta-printer> .
 
-:01TheDesigndeltaPrinterMeasures a okh:Part ;
+:01thedesigndeltaprintermeasures a okh:Part ;
     rdfs:label "01 The Design/Delta Printer measures" ;
     okh:documentationLanguage "en" ;
     okh:licensor "JetClay" ;
-    okh:source :01TheDesigndeltaPrinterMeasures_source ;
+    okh:source :01thedesigndeltaprintermeasures_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:01TheDesigndeltaPrinterMeasures_source a okh:SourceFile ;
+:01thedesigndeltaprintermeasures_source a okh:SourceFile ;
     rdfs:label "Source File of 01 The Design/Delta Printer measures of XL Clay Printer - Mertxe 952b7026e554c29b18ca93b9719a8b6c5ddf0117" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151504/impresora-general.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTcwNTU=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151504/impresora-general.pdf> .
 
-:01TheDesignprintOnTheFloor a okh:Part ;
+:01thedesignprintonthefloor a okh:Part ;
     rdfs:label "01 The Design/Print on the floor" ;
     okh:documentationLanguage "en" ;
     okh:licensor "JetClay" ;
-    okh:source :01TheDesignprintOnTheFloor_source ;
+    okh:source :01thedesignprintonthefloor_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:01TheDesignprintOnTheFloor_source a okh:SourceFile ;
+:01thedesignprintonthefloor_source a okh:SourceFile ;
     rdfs:label "Source File of 01 The Design/Print on the floor of XL Clay Printer - Mertxe 952b7026e554c29b18ca93b9719a8b6c5ddf0117" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151504/print-on-the-floor.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTcwNDQ=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151504/print-on-the-floor.pdf> .
 
-:02BomBillOfMaterialsmertxeBillOfMaterialsBom a okh:Part ;
+:02bombillofmaterialsmertxebillofmaterialsbom a okh:Part ;
     rdfs:label "02 BOM - Bill Of Materials/Mertxe - Bill Of Materials BOM" ;
     okh:documentationLanguage "en" ;
     okh:licensor "JetClay" ;
-    okh:source :02BomBillOfMaterialsmertxeBillOfMaterialsBom_source ;
+    okh:source :02bombillofmaterialsmertxebillofmaterialsbom_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:02BomBillOfMaterialsmertxeBillOfMaterialsBom_source a okh:SourceFile ;
+:02bombillofmaterialsmertxebillofmaterialsbom_source a okh:SourceFile ;
     rdfs:label "Source File of 02 BOM - Bill Of Materials/Mertxe - Bill Of Materials BOM of XL Clay Printer - Mertxe 952b7026e554c29b18ca93b9719a8b6c5ddf0117" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151504/mertxe-bill-of-materials-bom-c9d51.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NzUzMTg=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151504/mertxe-bill-of-materials-bom-c9d51.pdf> .
 
-:04ElectronicsmertxeElectronicsWiring a okh:Part ;
+:04electronicsmertxeelectronicswiring a okh:Part ;
     rdfs:label "04 Electronics/Mertxe - electronics - wiring" ;
     okh:documentationLanguage "en" ;
-    okh:image :04ElectronicsmertxeElectronicsWiring_image ;
+    okh:image :04electronicsmertxeelectronicswiring_image ;
     okh:licensor "JetClay" ;
-    okh:source :04ElectronicsmertxeElectronicsWiring_source ;
+    okh:source :04electronicsmertxeelectronicswiring_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:04ElectronicsmertxeElectronicsWiring_image a okh:Image ;
+:04electronicsmertxeelectronicswiring_image a okh:Image ;
     rdfs:label "Image of 04 Electronics/Mertxe - electronics - wiring of XL Clay Printer - Mertxe 952b7026e554c29b18ca93b9719a8b6c5ddf0117" ;
     okh:fileFormat "AI" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151504/mertxe-electronics-wiring.ai> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTcwMzE=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151504/mertxe-electronics-wiring.ai> .
 
-:04ElectronicsmertxeElectronicsWiring_source a okh:SourceFile ;
+:04electronicsmertxeelectronicswiring_source a okh:SourceFile ;
     rdfs:label "Source File of 04 Electronics/Mertxe - electronics - wiring of XL Clay Printer - Mertxe 952b7026e554c29b18ca93b9719a8b6c5ddf0117" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151504/mertxe-electronics-wiring.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTcwMzA=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151504/mertxe-electronics-wiring.pdf> .
 
-:CustomMechanicalComponents3mBeltClampFor15MmWide a okh:Part ;
+:Custommechanicalcomponents3mbeltclampfor15mmwide a okh:Part ;
     rdfs:label "CUSTOM MECHANICAL COMPONENTS/3M BELT CLAMP FOR 15 MM WIDE" ;
     okh:documentationLanguage "en" ;
     okh:licensor "JetClay" ;
-    okh:source :CustomMechanicalComponents3mBeltClampFor15MmWide_source ;
+    okh:source :Custommechanicalcomponents3mbeltclampfor15mmwide_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:CustomMechanicalComponents3mBeltClampFor15MmWide_source a okh:SourceFile ;
+:Custommechanicalcomponents3mbeltclampfor15mmwide_source a okh:SourceFile ;
     rdfs:label "Source File of CUSTOM MECHANICAL COMPONENTS/3M BELT CLAMP FOR 15 MM WIDE of XL Clay Printer - Mertxe 952b7026e554c29b18ca93b9719a8b6c5ddf0117" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151504/3m-belt-clamp-for-15-mm-wide.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTY2Mzk=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151504/3m-belt-clamp-for-15-mm-wide.stl> .
 
-:CustomMechanicalComponentscustommechanicalcomponentsfabricationfile a okh:Part ;
+:Custommechanicalcomponentscustommechanicalcomponentsfabricationfile a okh:Part ;
     rdfs:label "CUSTOM MECHANICAL COMPONENTS/CustomMechanicalComponents_FabricationFile" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Irene Ferrer Mendieta" ;
-    okh:source :CustomMechanicalComponentscustommechanicalcomponentsfabricationfile_source ;
+    okh:source :Custommechanicalcomponentscustommechanicalcomponentsfabricationfile_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:CustomMechanicalComponentscustommechanicalcomponentsfabricationfile_source a okh:SourceFile ;
+:Custommechanicalcomponentscustommechanicalcomponentsfabricationfile_source a okh:SourceFile ;
     rdfs:label "Source File of CUSTOM MECHANICAL COMPONENTS/CustomMechanicalComponents_FabricationFile of XL Clay Printer - Mertxe 952b7026e554c29b18ca93b9719a8b6c5ddf0117" ;
     okh:fileFormat "DXF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151504/custommechanicalcomponents_fabricationfile-c8f13.dxf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NjIyNTM=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151504/custommechanicalcomponents_fabricationfile-c8f13.dxf> .
 
-:CustomMechanicalComponentsfabricationparts a okh:Part ;
+:Custommechanicalcomponentsfabricationparts a okh:Part ;
     rdfs:label "CUSTOM MECHANICAL COMPONENTS/fabricationparts" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Irene Ferrer Mendieta" ;
-    okh:source :CustomMechanicalComponentsfabricationparts_source ;
+    okh:source :Custommechanicalcomponentsfabricationparts_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:CustomMechanicalComponentsfabricationparts_source a okh:SourceFile ;
+:Custommechanicalcomponentsfabricationparts_source a okh:SourceFile ;
     rdfs:label "Source File of CUSTOM MECHANICAL COMPONENTS/fabricationparts of XL Clay Printer - Mertxe 952b7026e554c29b18ca93b9719a8b6c5ddf0117" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151504/fabricationparts-f9323.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NjIyMzg=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151504/fabricationparts-f9323.pdf> .
 
-:CustomMechanicalComponentslathe a okh:Part ;
+:Custommechanicalcomponentslathe a okh:Part ;
     rdfs:label "CUSTOM MECHANICAL COMPONENTS/lathe" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Irene Ferrer Mendieta" ;
-    okh:source :CustomMechanicalComponentslathe_source ;
+    okh:source :Custommechanicalcomponentslathe_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:CustomMechanicalComponentslathe_source a okh:SourceFile ;
+:Custommechanicalcomponentslathe_source a okh:SourceFile ;
     rdfs:label "Source File of CUSTOM MECHANICAL COMPONENTS/lathe of XL Clay Printer - Mertxe 952b7026e554c29b18ca93b9719a8b6c5ddf0117" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151504/lathe-a9e43.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NjMyMTY=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151504/lathe-a9e43.pdf> .
 
 :Image a okh:Image ;
     rdfs:label "Image of XL Clay Printer - Mertxe 952b7026e554c29b18ca93b9719a8b6c5ddf0117" ;
     okh:fileFormat "JPG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151504/dsc_0046.JPG> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTY1OTM=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151504/dsc_0046.JPG> .
 
-:Mertxe3dModelsdeltajetclay a okh:Part ;
+:Mertxe3dmodelsdeltajetclay a okh:Part ;
     rdfs:label "Mertxe 3d models/DeltaJetclay" ;
     okh:documentationLanguage "en" ;
-    okh:export :Mertxe3dModelsdeltajetclay_export1 ;
+    okh:export :Mertxe3dmodelsdeltajetclay_export1 ;
     okh:licensor "Irene Ferrer Mendieta" ;
-    okh:source :Mertxe3dModelsdeltajetclay_source ;
+    okh:source :Mertxe3dmodelsdeltajetclay_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Mertxe3dModelsdeltajetclay_export1 a okh:ExportFile ;
+:Mertxe3dmodelsdeltajetclay_export1 a okh:ExportFile ;
     rdfs:label "Export File of Mertxe 3d models/DeltaJetclay of XL Clay Printer - Mertxe 952b7026e554c29b18ca93b9719a8b6c5ddf0117" ;
     okh:fileFormat "STP" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151504/deltajetclay.stp> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NjMxOTQ=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151504/deltajetclay.stp> .
 
-:Mertxe3dModelsdeltajetclay_source a okh:SourceFile ;
+:Mertxe3dmodelsdeltajetclay_source a okh:SourceFile ;
     rdfs:label "Source File of Mertxe 3d models/DeltaJetclay of XL Clay Printer - Mertxe 952b7026e554c29b18ca93b9719a8b6c5ddf0117" ;
     okh:fileFormat "IGS" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151504/deltajetclay-b80f2.igs> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NjMxOTU=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151504/deltajetclay-b80f2.igs> .
 
-:Mertxe3dModelsjetclayxldeltaprinter a okh:Part ;
+:Mertxe3dmodelsjetclayxldeltaprinter a okh:Part ;
     rdfs:label "Mertxe 3d models/JetClay_XL_Delta_printer" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Irene Ferrer Mendieta" ;
-    okh:source :Mertxe3dModelsjetclayxldeltaprinter_source ;
+    okh:source :Mertxe3dmodelsjetclayxldeltaprinter_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Mertxe3dModelsjetclayxldeltaprinter_source a okh:SourceFile ;
+:Mertxe3dmodelsjetclayxldeltaprinter_source a okh:SourceFile ;
     rdfs:label "Source File of Mertxe 3d models/JetClay_XL_Delta_printer of XL Clay Printer - Mertxe 952b7026e554c29b18ca93b9719a8b6c5ddf0117" ;
     okh:fileFormat "3DM" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151504/jetclay_xl_delta_printer-825dc.3dm> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NjMyMDg=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151504/jetclay_xl_delta_printer-825dc.3dm> .
 
 :Readme a okh:Readme ;
     rdfs:label "Readme of XL Clay Printer - Mertxe 952b7026e554c29b18ca93b9719a8b6c5ddf0117" ;
     okh:fileFormat "MD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151504/readme-e9359.md> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2Njk2OTQ=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151504/readme-e9359.md> .
 

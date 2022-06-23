@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A6067/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:3dPrintedSumoBotParts a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "3D Printed Sumo Bot Parts" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a mostly 3D printable sumo bot. It is going to be competing in the Science Olympiad sumo bot event. So far, the major vitamins we used are as follows...\r
 \r
 - 1/8in x 1/2in aluminum rail\r
@@ -31,6 +33,7 @@ Just a note about the files, they are not at all parametric. I drew a picture in
     okh:repo <https://www.thingiverse.com/thing:6067> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:6067> .

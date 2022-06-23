@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A36977/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:JustinBiebersSeveredHead a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Justin Bieber's Severed Head" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Whether you love him or loathe him, you will want to print out the head of Justin Bieber using your 3D printer and I've made a file so you can do it.\r
 \r
 This is part of my MakerLove.com project, where i create items that are embarrassing to buy in the store.  Instead of buying them, people can print them out in the privacy of their own home.  So all of you closet Bieber Fever types can enjoy yourselves privately.""" ;
@@ -14,6 +16,7 @@ This is part of my MakerLove.com project, where i create items that are embarras
     okh:repo <https://www.thingiverse.com/thing:36977> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:36977> .

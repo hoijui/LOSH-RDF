@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A29280/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Factory a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Factory" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """A factory. No, not a FactoryFactory.\r
 \r
 It makes things. What kinds of things? I dunno, mans? Extra mans? Units? Shields?\r
@@ -20,6 +22,7 @@ Go hammer yourself: https://tinkercad.com/things/cZHV7xDzF5f-factory""" ;
     okh:repo <https://www.thingiverse.com/thing:29280> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:29280> .

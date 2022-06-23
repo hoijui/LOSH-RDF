@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A14075/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:FacetimeHandleForIphone4 a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Facetime Handle for iPhone 4" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Facetime is fun, but after awhile the arm gets tired and the phone drifts down to chest height, giving your caller an unflattering view up your nose.  This handle will help you keep the front camera closer to eye level without holding your hand in front of your face the whole time.\r
 \r
 The phone can tilt and swivel on the ball joint, and turn 90 degrees to one side for landscape view.  If you want to put the phone down, you can convert the handle to a tabletop stand.\r
@@ -24,6 +26,7 @@ The ball joint is from StefanHH (http://www.thingiverse.com/thing:5578) and the 
     okh:repo <https://www.thingiverse.com/thing:14075> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:14075> .

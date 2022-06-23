@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A4394/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PrintableFrostruderMk2 a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Printable Frostruder MK2" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I wanted to explore the frontier of frosting extrusion, but I didn\\'t have the money for a Makerbot Frostruder and an air compressor. So instead of buying one, I designed one. Chooch\\'s design is nice, but it has too many printed parts and it doesn\\'t use the standard 60cc syringe. The only way I could use the Makerbot 60cc syringe was to design a new mount.\r
 \r
 For less than the price of a Makerbot Frostruder you can make my printed Frostruder and buy an air compressor. The design consists of a syringe mount and a syringe. Part of the mount is thing #1912 so you\\'ll need to print that as well as the files in this thing.\r
@@ -18,6 +20,7 @@ Keep in mind that this is a very experimental design. It actually works quite we
     okh:repo <https://www.thingiverse.com/thing:4394> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:4394> .

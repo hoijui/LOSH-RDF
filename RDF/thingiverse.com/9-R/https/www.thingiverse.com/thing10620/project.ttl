@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A10620/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:R0ketNipple a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "r0ket nipple" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "The attendees of the Chaos Communication Camp get a r0ket-badge with a 5 way switch to control it. This cap can be attached to it, to enhance the look and feel of it." ;
     okh:hasImage :Image ;
     okh:licensor "9-R" ;
     okh:repo <https://www.thingiverse.com/thing:10620> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:10620> .

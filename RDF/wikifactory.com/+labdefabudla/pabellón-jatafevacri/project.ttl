@@ -2,19 +2,19 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PabellónJatafevacri a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Pabellón JaTaFeVaCri " ;
     okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "es" ;
     okh:function "Pabellon que busca dar a conocer las posibilidades de la pieza de unión desarrollada.Por su versatilidad, permite el armado de estructuras complejas.Navegar el pabellon: https://api2.enscape3d.com/v1/view/790a047b-5017-487b-86b2-3410e94c2624" ;
-    okh:hasComponent :Pabellónimagenespabellon,
-        :Pabellónmodelo3dpabellon,
-        :PiezaDeUniónimpresión3dbase,
-        :PiezaDeUniónimpresión3desfera,
-        :PiezaDeUniónimpresión3dunion,
-        :PiezaDeUniónmodelo3dunioneditable,
-        :PiezaDeUniónplanosplanimetríaUnión,
-        :PiezaDeUniónplanosángulosYEjes ;
+    okh:hasComponent :Pabellnimagenespabellon,
+        :Pabellnmodelo3dpabellon,
+        :Piezadeuninimpresin3dbase,
+        :Piezadeuninimpresin3desfera,
+        :Piezadeuninimpresin3dunion,
+        :Piezadeuninmodelo3dunioneditable,
+        :Piezadeuninplanosngulosyejes,
+        :Piezadeuninplanosplanimetraunin ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "Tamara Fernandez" ;
@@ -31,115 +31,115 @@
     rdfs:label "Image of Pabellón JaTaFeVaCri  25273486bbd173a7204ac801b5e8780ceb1fa114" ;
     okh:fileFormat "JPG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144571/portada.jpg> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MTA0OTE=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144571/portada.jpg> .
 
-:Pabellónimagenespabellon a okh:Part ;
+:Pabellnimagenespabellon a okh:Part ;
     rdfs:label "Pabellón/Imagenes/PABELLON" ;
     okh:documentationLanguage "es" ;
     okh:licensor "Cristian David Diaz Rebolledo" ;
-    okh:source :Pabellónimagenespabellon_source ;
+    okh:source :Pabellnimagenespabellon_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Pabellónimagenespabellon_source a okh:SourceFile ;
+:Pabellnimagenespabellon_source a okh:SourceFile ;
     rdfs:label "Source File of Pabellón/Imagenes/PABELLON of Pabellón JaTaFeVaCri  25273486bbd173a7204ac801b5e8780ceb1fa114" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144571/pabellon.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MTE4NjA=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144571/pabellon.pdf> .
 
-:Pabellónmodelo3dpabellon a okh:Part ;
+:Pabellnmodelo3dpabellon a okh:Part ;
     rdfs:label "Pabellón/Modelo 3D/PABELLON" ;
     okh:documentationLanguage "es" ;
     okh:licensor "Cristian David Diaz Rebolledo" ;
-    okh:source :Pabellónmodelo3dpabellon_source ;
+    okh:source :Pabellnmodelo3dpabellon_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Pabellónmodelo3dpabellon_source a okh:SourceFile ;
+:Pabellnmodelo3dpabellon_source a okh:SourceFile ;
     rdfs:label "Source File of Pabellón/Modelo 3D/PABELLON of Pabellón JaTaFeVaCri  25273486bbd173a7204ac801b5e8780ceb1fa114" ;
     okh:fileFormat "3DM" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144571/pabellon.3dm> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MTEzNzA=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144571/pabellon.3dm> .
 
-:PiezaDeUniónimpresión3dbase a okh:Part ;
+:Piezadeuninimpresin3dbase a okh:Part ;
     rdfs:label "Pieza de unión/Impresión 3D/BASE" ;
     okh:documentationLanguage "es" ;
     okh:licensor "Cristian David Diaz Rebolledo" ;
-    okh:source :PiezaDeUniónimpresión3dbase_source ;
+    okh:source :Piezadeuninimpresin3dbase_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:PiezaDeUniónimpresión3dbase_source a okh:SourceFile ;
+:Piezadeuninimpresin3dbase_source a okh:SourceFile ;
     rdfs:label "Source File of Pieza de unión/Impresión 3D/BASE of Pabellón JaTaFeVaCri  25273486bbd173a7204ac801b5e8780ceb1fa114" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144571/base-9cd8e.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MTIyMzc=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144571/base-9cd8e.stl> .
 
-:PiezaDeUniónimpresión3desfera a okh:Part ;
+:Piezadeuninimpresin3desfera a okh:Part ;
     rdfs:label "Pieza de unión/Impresión 3D/ESFERA" ;
     okh:documentationLanguage "es" ;
     okh:licensor "Cristian David Diaz Rebolledo" ;
-    okh:source :PiezaDeUniónimpresión3desfera_source ;
+    okh:source :Piezadeuninimpresin3desfera_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:PiezaDeUniónimpresión3desfera_source a okh:SourceFile ;
+:Piezadeuninimpresin3desfera_source a okh:SourceFile ;
     rdfs:label "Source File of Pieza de unión/Impresión 3D/ESFERA of Pabellón JaTaFeVaCri  25273486bbd173a7204ac801b5e8780ceb1fa114" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144571/esfera-2f21d.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MTIyMzY=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144571/esfera-2f21d.stl> .
 
-:PiezaDeUniónimpresión3dunion a okh:Part ;
+:Piezadeuninimpresin3dunion a okh:Part ;
     rdfs:label "Pieza de unión/Impresión 3D/UNION" ;
     okh:documentationLanguage "es" ;
     okh:licensor "Cristian David Diaz Rebolledo" ;
-    okh:source :PiezaDeUniónimpresión3dunion_source ;
+    okh:source :Piezadeuninimpresin3dunion_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:PiezaDeUniónimpresión3dunion_source a okh:SourceFile ;
+:Piezadeuninimpresin3dunion_source a okh:SourceFile ;
     rdfs:label "Source File of Pieza de unión/Impresión 3D/UNION of Pabellón JaTaFeVaCri  25273486bbd173a7204ac801b5e8780ceb1fa114" ;
     okh:fileFormat "3DM" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144571/union.3dm> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MTE4NDA=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144571/union.3dm> .
 
-:PiezaDeUniónmodelo3dunioneditable a okh:Part ;
+:Piezadeuninmodelo3dunioneditable a okh:Part ;
     rdfs:label "Pieza de unión/Modelo 3D/UNION_EDITABLE" ;
     okh:documentationLanguage "es" ;
     okh:licensor "Cristian David Diaz Rebolledo" ;
-    okh:source :PiezaDeUniónmodelo3dunioneditable_source ;
+    okh:source :Piezadeuninmodelo3dunioneditable_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:PiezaDeUniónmodelo3dunioneditable_source a okh:SourceFile ;
+:Piezadeuninmodelo3dunioneditable_source a okh:SourceFile ;
     rdfs:label "Source File of Pieza de unión/Modelo 3D/UNION_EDITABLE of Pabellón JaTaFeVaCri  25273486bbd173a7204ac801b5e8780ceb1fa114" ;
     okh:fileFormat "3DM" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144571/union_editable.3dm> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MTE4NDI=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144571/union_editable.3dm> .
 
-:PiezaDeUniónplanosplanimetríaUnión a okh:Part ;
-    rdfs:label "Pieza de unión/Planos/PLANIMETRÍA UNIÓN" ;
-    okh:documentationLanguage "es" ;
-    okh:licensor "felipefigueroachan" ;
-    okh:source :PiezaDeUniónplanosplanimetríaUnión_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:PiezaDeUniónplanosplanimetríaUnión_source a okh:SourceFile ;
-    rdfs:label "Source File of Pieza de unión/Planos/PLANIMETRÍA UNIÓN of Pabellón JaTaFeVaCri  25273486bbd173a7204ac801b5e8780ceb1fa114" ;
-    okh:fileFormat "PDF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144571/planimetría-unión-e0d81.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2Mjk4OTc=> .
-
-:PiezaDeUniónplanosángulosYEjes a okh:Part ;
+:Piezadeuninplanosngulosyejes a okh:Part ;
     rdfs:label "Pieza de unión/Planos/ÁNGULOS Y EJES" ;
     okh:documentationLanguage "es" ;
     okh:licensor "felipefigueroachan" ;
-    okh:source :PiezaDeUniónplanosángulosYEjes_source ;
+    okh:source :Piezadeuninplanosngulosyejes_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:PiezaDeUniónplanosángulosYEjes_source a okh:SourceFile ;
+:Piezadeuninplanosngulosyejes_source a okh:SourceFile ;
     rdfs:label "Source File of Pieza de unión/Planos/ÁNGULOS Y EJES of Pabellón JaTaFeVaCri  25273486bbd173a7204ac801b5e8780ceb1fa114" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144571/ángulos-y-ejes.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MjkxOTQ=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144571/ángulos-y-ejes.pdf> .
+
+:Piezadeuninplanosplanimetraunin a okh:Part ;
+    rdfs:label "Pieza de unión/Planos/PLANIMETRÍA UNIÓN" ;
+    okh:documentationLanguage "es" ;
+    okh:licensor "felipefigueroachan" ;
+    okh:source :Piezadeuninplanosplanimetraunin_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Piezadeuninplanosplanimetraunin_source a okh:SourceFile ;
+    rdfs:label "Source File of Pieza de unión/Planos/PLANIMETRÍA UNIÓN of Pabellón JaTaFeVaCri  25273486bbd173a7204ac801b5e8780ceb1fa114" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144571/planimetría-unión-e0d81.pdf> ;
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144571/planimetría-unión-e0d81.pdf> .
 
 :Readme a okh:Readme ;
     rdfs:label "Readme of Pabellón JaTaFeVaCri  25273486bbd173a7204ac801b5e8780ceb1fa114" ;
     okh:fileFormat "MD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144571/readme-5a580.md> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2MzAyMTE=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/144571/readme-5a580.md> .
 

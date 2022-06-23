@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A8602/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:LiquidTransferFunnel a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Liquid Transfer Funnel" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "I found an example of this in Publix and decided to make my own version. The product I started with is made from soft rubber, but I think hard plastic will work OK. Features not in an ordinary funnel model include: internal fins to secure an upright bottle as a source, grips on the side to help remove the source bottle, an air escape channel for the sink bottle, and grips on the spout to maintain stability of the sink bottle. Imaging how much shampoo or hand soap you could save with this efficient transfer device! Also, with a little modification, this might make an easy device for demonstrating a vortex with two 2-liter bottles." ;
     okh:hasImage :Image ;
     okh:licensor "tstokesbme" ;
     okh:repo <https://www.thingiverse.com/thing:8602> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:8602> .

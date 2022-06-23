@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A58276/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:CustomizableMotorCase a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Customizable Motor Case" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a Customizable version of http://www.thingiverse.com/thing:28143  
 
 I have lots of different generic motors, and I need them for a couple of projects that involve the Arduino. In order to make the motor less ugly and more capable of being screwed on to something, I made a parametric case, so that I could put in the parameters, and get a case for any of my motors. Then I realized that other people might need a motor case too, so I put it on Thingiverse under public domain. It also comes with 2 example motor case, for the motors shown in the pictures.  
@@ -18,6 +20,7 @@ Now you can change the resolution for better prints and faster rendering!""" ;
     okh:repo <https://www.thingiverse.com/thing:58276> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:58276> .

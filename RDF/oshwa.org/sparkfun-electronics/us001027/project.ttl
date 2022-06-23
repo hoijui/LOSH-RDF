@@ -2,20 +2,15 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:FioV3Atmega32u4 a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Fio v3 - ATmega32U4" ;
-    okh:certificationDate "2021-01-19T00:00:00-05:00" ;
-    okh:country "United States of America" ;
     okh:dataSource "oshwa.org" ;
     okh:documentationLanguage "en" ;
-    okh:documentationLicense "CC BY-SA" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function "The ATmega32U4, running at 8MHz, makes it possible for you to use the on-board USB jack not only to charge a connected Li-Poly battery but to actually program the device! Because this board uses a similar bootloader to the one on the Pro Micro, you will need to download and install the special software driver below. There's also a board definition add-on for the Arduino IDE which will add support for this board." ;
-    okh:hardwareLicense "CERN" ;
     okh:licensor "SparkFun Electronics" ;
-    okh:primaryType "Electronics" ;
     okh:repo <https://certification.oshwa.org/us001027.html> ;
     okh:repoHost "certification.oshwa.org" ;
-    okh:softwareLicense "MIT" ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
     okh:uploadMethod "auto" ;
     okh:version "v31" ;

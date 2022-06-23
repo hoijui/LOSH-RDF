@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A46364/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Replicator2TslotFrame a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Replicator 2 T-Slot Frame" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """These 10mm Aluminum extrusion mounts are snapped onto the metal top of the Replicator2 frame. The extrusions are mounted all the way around the perimiter.  Using more mini t-slots I can now bolt whatever I want to the printer conveniently.\r
 \r
 As my design develops I will probably remove older files to add more current ones, I have done this several times already and several of my photos reflect old designs... but you'll get the idea.  \r
@@ -16,6 +18,7 @@ All of the acrylic pieces are expected to change demensions as I work out the de
     okh:repo <https://www.thingiverse.com/thing:46364> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:46364> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A8068/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:RootsBlower a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Roots Blower" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """A Roots Blower is an air pump with strangely shaped rotors.  They are used in automotive superchargers and high-vacuum pumps, among other places.\r
 \r
 See http://en.wikipedia.org/wiki/Roots_type_supercharger\r
@@ -21,6 +23,7 @@ http://www.thingiverse.com/thing:5505""" ;
     okh:repo <https://www.thingiverse.com/thing:8068> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:8068> .

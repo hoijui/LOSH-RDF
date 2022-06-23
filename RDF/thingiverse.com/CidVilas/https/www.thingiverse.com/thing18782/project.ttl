@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A18782/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Hammernub a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "HammerNub" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a derivative of Tony Busers Hammerhead for Kinect.  This should mount on the Xtion Pro Live for handheld goodness.\r
 \r
 UPDATE:  Edited the AR15 Handle to have a USB cutout where the cable can be fed into.  This makes handling the sensor even more convenient.""" ;
@@ -14,6 +16,7 @@ UPDATE:  Edited the AR15 Handle to have a USB cutout where the cable can be fed 
     okh:repo <https://www.thingiverse.com/thing:18782> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:18782> .

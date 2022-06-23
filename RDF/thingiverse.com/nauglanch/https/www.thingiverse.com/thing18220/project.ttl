@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A18220/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:SauronsShades a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Sauron's Shades" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """George Orwell's 1984 is here in your living room with Xbox Kinect. (Sure, GM has had Onstar for a while, but that is audio only.)\r
 \r
 We call the Kinect the "Eye of Sauron" so print and pop Sauron's Shades on for that romantic interlude or whenever you want to put the blinders on Sauron without the hassle of turning it completely off. Just remember audio is still on.""" ;
@@ -14,6 +16,7 @@ We call the Kinect the "Eye of Sauron" so print and pop Sauron's Shades on for t
     okh:repo <https://www.thingiverse.com/thing:18220> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:18220> .

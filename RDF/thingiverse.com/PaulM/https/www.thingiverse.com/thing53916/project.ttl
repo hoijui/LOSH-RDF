@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A53916/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:CustomisableSpirographVaseGenerator a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Customisable Spirograph Vase Generator" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Remember Spirograph? Now available in 3d!\r
 \r
 Classic spirograph involves rotating one cog around the inside or outside of another fixed cog. A pen is used through a hole in the rotating cog to trace out a spirograph pattern.\r
@@ -18,6 +20,7 @@ The parameters describing the "rotating cog" radius, "fixed cog" radius and dist
     okh:repo <https://www.thingiverse.com/thing:53916> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:53916> .

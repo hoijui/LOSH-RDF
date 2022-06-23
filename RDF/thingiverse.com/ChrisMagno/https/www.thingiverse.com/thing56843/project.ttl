@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A56843/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PileOfFailedEmmettBearings a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Pile of Failed Emmett bearings" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """For a little fun, I thought I would share this small pile of hockey pucks.  It took 5 attempts, but I got something that seems to work.\r
 \r
 Do not give up, it will (eventually work)\r
@@ -18,6 +20,7 @@ Sliced with Slic3r 0.98  .25 layer""" ;
     okh:repo <https://www.thingiverse.com/thing:56843> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:56843> .

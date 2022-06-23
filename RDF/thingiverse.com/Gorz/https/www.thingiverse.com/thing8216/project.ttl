@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A8216/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:FilamentSpool a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Filament spool.." ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "In my new venture I need a spool for PLA, but I could not find any that was to my taste. Here is what I came up with and I hope it will serve you well." ;
     okh:hasImage :Image ;
     okh:licensor "Gorz" ;
     okh:repo <https://www.thingiverse.com/thing:8216> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:8216> .

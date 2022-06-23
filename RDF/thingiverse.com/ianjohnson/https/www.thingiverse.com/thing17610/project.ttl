@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A17610/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:VineCoffeeScoop a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Vine Coffee Scoop" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """A coffee scoop/tamper made from passion flower vines.\r
 \r
 When my scoop/tamper broke, I decided to make a new one, but do something a little more interesting than a plain handle with a bowl at one end and a disk at the other.  I like Hawaiian coffee, and have a couple other Hawaiian things around the espresso machine, so I thought I might try something tropical.  \r
@@ -18,6 +20,7 @@ I scaled, edited, and mashed the parts together to make the finished scoop and r
     okh:repo <https://www.thingiverse.com/thing:17610> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:17610> .

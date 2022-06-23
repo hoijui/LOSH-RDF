@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A16113/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:CameraMountForMakerbotThingomaticWHbp a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Camera Mount for MakerBot Thing-o-Matic w/ HBP" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "A camera mount to fit web cams on the MakerBot so that timelaspes can be made of the parts that are printed. This mount sits in place of the front pannel of the HBP." ;
     okh:hasImage :Image ;
     okh:licensor "Dawg2" ;
     okh:repo <https://www.thingiverse.com/thing:16113> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:16113> .

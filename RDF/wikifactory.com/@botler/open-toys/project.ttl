@@ -2,26 +2,26 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:OpenToys a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Open toys" ;
     okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "3D Printing pieces to transform vegetables into toys." ;
-    okh:hasComponent :3dPrintedPartsairshiphelix,
-        :3dPrintedPartscarwheels,
-        :3dPrintedPartscarwing,
-        :3dPrintedPartshelicopterhelix,
-        :3dPrintedPartshelicopterskates,
-        :3dPrintedPartshelicoptersmallhelix,
-        :3dPrintedPartsplanesmallwing,
-        :3dPrintedPartsplanesmallwingsrl,
-        :3dPrintedPartsplanewing,
-        :3dPrintedPartsplanewingreactorrl,
-        :3dPrintedPartsplanewingrl,
-        :3dPrintedPartsrocketreactor,
-        :3dPrintedPartsrocketwingreactorrl,
-        :3dPrintedPartssmhelix,
-        :3dPrintedPartssubmarine ;
+    okh:hasComponent :3dprintedpartsairshiphelix,
+        :3dprintedpartscarwheels,
+        :3dprintedpartscarwing,
+        :3dprintedpartshelicopterhelix,
+        :3dprintedpartshelicopterskates,
+        :3dprintedpartshelicoptersmallhelix,
+        :3dprintedpartsplanesmallwing,
+        :3dprintedpartsplanesmallwingsrl,
+        :3dprintedpartsplanewing,
+        :3dprintedpartsplanewingreactorrl,
+        :3dprintedpartsplanewingrl,
+        :3dprintedpartsrocketreactor,
+        :3dprintedpartsrocketwingreactorrl,
+        :3dprintedpartssmhelix,
+        :3dprintedpartssubmarine ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "James Botler" ;
@@ -33,210 +33,210 @@
     okh:version "1b3ea9a8cf16b2c4ec6616d96f6db4661245eb58" ;
     okh:versionOf <https://wikifactory.com/@botler/open-toys> .
 
-:3dPrintedPartsairshiphelix a okh:Part ;
+:3dprintedpartsairshiphelix a okh:Part ;
     rdfs:label "3D Printed parts/AirshipHelix" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :3dPrintedPartsairshiphelix_source ;
+    okh:source :3dprintedpartsairshiphelix_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dPrintedPartsairshiphelix_source a okh:SourceFile ;
+:3dprintedpartsairshiphelix_source a okh:SourceFile ;
     rdfs:label "Source File of 3D Printed parts/AirshipHelix of Open toys 1b3ea9a8cf16b2c4ec6616d96f6db4661245eb58" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/15303/airshiphelix.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxNDExMzk=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/15303/airshiphelix.stl> .
 
-:3dPrintedPartscarwheels a okh:Part ;
+:3dprintedpartscarwheels a okh:Part ;
     rdfs:label "3D Printed parts/CarWheels" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :3dPrintedPartscarwheels_source ;
+    okh:source :3dprintedpartscarwheels_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dPrintedPartscarwheels_source a okh:SourceFile ;
+:3dprintedpartscarwheels_source a okh:SourceFile ;
     rdfs:label "Source File of 3D Printed parts/CarWheels of Open toys 1b3ea9a8cf16b2c4ec6616d96f6db4661245eb58" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/15303/carwheels.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxNDExMzg=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/15303/carwheels.stl> .
 
-:3dPrintedPartscarwing a okh:Part ;
+:3dprintedpartscarwing a okh:Part ;
     rdfs:label "3D Printed parts/CarWing" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :3dPrintedPartscarwing_source ;
+    okh:source :3dprintedpartscarwing_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dPrintedPartscarwing_source a okh:SourceFile ;
+:3dprintedpartscarwing_source a okh:SourceFile ;
     rdfs:label "Source File of 3D Printed parts/CarWing of Open toys 1b3ea9a8cf16b2c4ec6616d96f6db4661245eb58" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/15303/carwing.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxNDExMzc=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/15303/carwing.stl> .
 
-:3dPrintedPartshelicopterhelix a okh:Part ;
+:3dprintedpartshelicopterhelix a okh:Part ;
     rdfs:label "3D Printed parts/HelicopterHelix" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :3dPrintedPartshelicopterhelix_source ;
+    okh:source :3dprintedpartshelicopterhelix_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dPrintedPartshelicopterhelix_source a okh:SourceFile ;
+:3dprintedpartshelicopterhelix_source a okh:SourceFile ;
     rdfs:label "Source File of 3D Printed parts/HelicopterHelix of Open toys 1b3ea9a8cf16b2c4ec6616d96f6db4661245eb58" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/15303/helicopterhelix.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxNDExMzY=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/15303/helicopterhelix.stl> .
 
-:3dPrintedPartshelicopterskates a okh:Part ;
+:3dprintedpartshelicopterskates a okh:Part ;
     rdfs:label "3D Printed parts/HelicopterSkates" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :3dPrintedPartshelicopterskates_source ;
+    okh:source :3dprintedpartshelicopterskates_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dPrintedPartshelicopterskates_source a okh:SourceFile ;
+:3dprintedpartshelicopterskates_source a okh:SourceFile ;
     rdfs:label "Source File of 3D Printed parts/HelicopterSkates of Open toys 1b3ea9a8cf16b2c4ec6616d96f6db4661245eb58" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/15303/helicopterskates.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxNDExMzU=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/15303/helicopterskates.stl> .
 
-:3dPrintedPartshelicoptersmallhelix a okh:Part ;
+:3dprintedpartshelicoptersmallhelix a okh:Part ;
     rdfs:label "3D Printed parts/HelicopterSmallHelix" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :3dPrintedPartshelicoptersmallhelix_source ;
+    okh:source :3dprintedpartshelicoptersmallhelix_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dPrintedPartshelicoptersmallhelix_source a okh:SourceFile ;
+:3dprintedpartshelicoptersmallhelix_source a okh:SourceFile ;
     rdfs:label "Source File of 3D Printed parts/HelicopterSmallHelix of Open toys 1b3ea9a8cf16b2c4ec6616d96f6db4661245eb58" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/15303/helicoptersmallhelix.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxNDExMzQ=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/15303/helicoptersmallhelix.stl> .
 
-:3dPrintedPartsplanesmallwing a okh:Part ;
+:3dprintedpartsplanesmallwing a okh:Part ;
     rdfs:label "3D Printed parts/PlaneSmallWing" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :3dPrintedPartsplanesmallwing_source ;
+    okh:source :3dprintedpartsplanesmallwing_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dPrintedPartsplanesmallwing_source a okh:SourceFile ;
+:3dprintedpartsplanesmallwing_source a okh:SourceFile ;
     rdfs:label "Source File of 3D Printed parts/PlaneSmallWing of Open toys 1b3ea9a8cf16b2c4ec6616d96f6db4661245eb58" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/15303/planesmallwing.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxNDExMzM=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/15303/planesmallwing.stl> .
 
-:3dPrintedPartsplanesmallwingsrl a okh:Part ;
+:3dprintedpartsplanesmallwingsrl a okh:Part ;
     rdfs:label "3D Printed parts/PlaneSmallWings_RL" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :3dPrintedPartsplanesmallwingsrl_source ;
+    okh:source :3dprintedpartsplanesmallwingsrl_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dPrintedPartsplanesmallwingsrl_source a okh:SourceFile ;
+:3dprintedpartsplanesmallwingsrl_source a okh:SourceFile ;
     rdfs:label "Source File of 3D Printed parts/PlaneSmallWings_RL of Open toys 1b3ea9a8cf16b2c4ec6616d96f6db4661245eb58" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/15303/planesmallwingsrl.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxNDExMzI=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/15303/planesmallwingsrl.stl> .
 
-:3dPrintedPartsplanewing a okh:Part ;
+:3dprintedpartsplanewing a okh:Part ;
     rdfs:label "3D Printed parts/PlaneWing" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :3dPrintedPartsplanewing_source ;
+    okh:source :3dprintedpartsplanewing_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dPrintedPartsplanewing_source a okh:SourceFile ;
+:3dprintedpartsplanewing_source a okh:SourceFile ;
     rdfs:label "Source File of 3D Printed parts/PlaneWing of Open toys 1b3ea9a8cf16b2c4ec6616d96f6db4661245eb58" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/15303/planewing.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxNDExMzE=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/15303/planewing.stl> .
 
-:3dPrintedPartsplanewingreactorrl a okh:Part ;
+:3dprintedpartsplanewingreactorrl a okh:Part ;
     rdfs:label "3D Printed parts/PlaneWingReactorRL" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :3dPrintedPartsplanewingreactorrl_source ;
+    okh:source :3dprintedpartsplanewingreactorrl_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dPrintedPartsplanewingreactorrl_source a okh:SourceFile ;
+:3dprintedpartsplanewingreactorrl_source a okh:SourceFile ;
     rdfs:label "Source File of 3D Printed parts/PlaneWingReactorRL of Open toys 1b3ea9a8cf16b2c4ec6616d96f6db4661245eb58" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/15303/planewingreactorrl.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxNDExMjk=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/15303/planewingreactorrl.stl> .
 
-:3dPrintedPartsplanewingrl a okh:Part ;
+:3dprintedpartsplanewingrl a okh:Part ;
     rdfs:label "3D Printed parts/PlaneWing_RL" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :3dPrintedPartsplanewingrl_source ;
+    okh:source :3dprintedpartsplanewingrl_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dPrintedPartsplanewingrl_source a okh:SourceFile ;
+:3dprintedpartsplanewingrl_source a okh:SourceFile ;
     rdfs:label "Source File of 3D Printed parts/PlaneWing_RL of Open toys 1b3ea9a8cf16b2c4ec6616d96f6db4661245eb58" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/15303/planewingrl.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxNDExMzA=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/15303/planewingrl.stl> .
 
-:3dPrintedPartsrocketreactor a okh:Part ;
+:3dprintedpartsrocketreactor a okh:Part ;
     rdfs:label "3D Printed parts/RocketReactor" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :3dPrintedPartsrocketreactor_source ;
+    okh:source :3dprintedpartsrocketreactor_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dPrintedPartsrocketreactor_source a okh:SourceFile ;
+:3dprintedpartsrocketreactor_source a okh:SourceFile ;
     rdfs:label "Source File of 3D Printed parts/RocketReactor of Open toys 1b3ea9a8cf16b2c4ec6616d96f6db4661245eb58" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/15303/rocketreactor.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxNDExMjg=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/15303/rocketreactor.stl> .
 
-:3dPrintedPartsrocketwingreactorrl a okh:Part ;
+:3dprintedpartsrocketwingreactorrl a okh:Part ;
     rdfs:label "3D Printed parts/RocketWingReactorRL" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :3dPrintedPartsrocketwingreactorrl_source ;
+    okh:source :3dprintedpartsrocketwingreactorrl_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dPrintedPartsrocketwingreactorrl_source a okh:SourceFile ;
+:3dprintedpartsrocketwingreactorrl_source a okh:SourceFile ;
     rdfs:label "Source File of 3D Printed parts/RocketWingReactorRL of Open toys 1b3ea9a8cf16b2c4ec6616d96f6db4661245eb58" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/15303/rocketwingreactorrl.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxNDExMjc=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/15303/rocketwingreactorrl.stl> .
 
-:3dPrintedPartssmhelix a okh:Part ;
+:3dprintedpartssmhelix a okh:Part ;
     rdfs:label "3D Printed parts/SMHelix" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :3dPrintedPartssmhelix_source ;
+    okh:source :3dprintedpartssmhelix_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dPrintedPartssmhelix_source a okh:SourceFile ;
+:3dprintedpartssmhelix_source a okh:SourceFile ;
     rdfs:label "Source File of 3D Printed parts/SMHelix of Open toys 1b3ea9a8cf16b2c4ec6616d96f6db4661245eb58" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/15303/smhelix.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxNDExMjY=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/15303/smhelix.stl> .
 
-:3dPrintedPartssubmarine a okh:Part ;
+:3dprintedpartssubmarine a okh:Part ;
     rdfs:label "3D Printed parts/Submarine" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :3dPrintedPartssubmarine_source ;
+    okh:source :3dprintedpartssubmarine_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dPrintedPartssubmarine_source a okh:SourceFile ;
+:3dprintedpartssubmarine_source a okh:SourceFile ;
     rdfs:label "Source File of 3D Printed parts/Submarine of Open toys 1b3ea9a8cf16b2c4ec6616d96f6db4661245eb58" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/15303/submarine.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxNDExMjU=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/15303/submarine.stl> .
 
 :Image a okh:Image ;
     rdfs:label "Image of Open toys 1b3ea9a8cf16b2c4ec6616d96f6db4661245eb58" ;
     okh:fileFormat "JPG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/15303/photo1previewfeatured.jpg> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxNDEwMzM=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/15303/photo1previewfeatured.jpg> .
 
 :Readme a okh:Readme ;
     rdfs:label "Readme of Open toys 1b3ea9a8cf16b2c4ec6616d96f6db4661245eb58" ;
     okh:fileFormat "MD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/15303/readme.md> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxNDEwNDE=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/15303/readme.md> .
 

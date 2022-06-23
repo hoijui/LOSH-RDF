@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A338/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:OneDayChair a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "One Day Chair" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """A Chair with a bit of a back story.\r
 \r
 In the interest of putting off our real work around oomlout we set ourselves a simple challenge, make a chair. What ensued a day (well we're a bit disappointed as it took closer to half a day but we digress) where we went from figuring out what size a chair should be through computer drawings, cnc cutting and finally assembly.\r
@@ -18,6 +20,7 @@ http://www.oomlout.com/blog/""" ;
     okh:repo <https://www.thingiverse.com/thing:338> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:338> .

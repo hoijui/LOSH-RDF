@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A17221/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:BrilloHolder a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Brillo Holder " ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """If you've done a lot of soldering lately, then you are familiar with using metallic brillo to clean the tip of your soldering iron.  More efficient than a sponge or water, it's a quick and efficient means of cleaning the tip.\r
 \r
 I gave away my holder last year, and sadly, Fry's has not carried replacements since.  Frustrated after a year, I created my own simplified version.\r
@@ -16,6 +18,7 @@ Thank you to Padawan for the great assist and patience on 8 revisions, for somet
     okh:repo <https://www.thingiverse.com/thing:17221> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:17221> .

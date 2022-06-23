@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A19266/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:IphoneHybridCase a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "iPhone hybrid case" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "Can't decide if you want to cover up your beautiful iPhone in order to protect it? Then this case is for you! It gives you the best of both worlds. Half of your phone is protected by a case while the other half is allowed to be open and free as Apple intended." ;
     okh:hasImage :Image ;
     okh:licensor "ID_Johnathan" ;
     okh:repo <https://www.thingiverse.com/thing:19266> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:19266> .

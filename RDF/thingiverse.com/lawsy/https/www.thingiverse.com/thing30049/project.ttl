@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A30049/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:SolidoodlePaneloluCaseAndMagneticCaseMount a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Solidoodle Panelolu case and magnetic case mount" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I have recently received my Solidoodle V2 and added a Panelolu LCD with rotary encoder and SD card support. The problem was I had no way to mount it nicely.\r
 \r
 This design uses two of the files from the Think3DPrint3D case, and adds some other custom parts for a complete solution.""" ;
@@ -14,6 +16,7 @@ This design uses two of the files from the Think3DPrint3D case, and adds some ot
     okh:repo <https://www.thingiverse.com/thing:30049> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:30049> .

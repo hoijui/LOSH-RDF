@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A14115/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:RobustMultimeterStand a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Robust Multimeter Stand " ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "This is a multimeter stand for a specific sized meter made by Cen-Tech and market by a large tool discounter. Width is 70 mm and thickness is 23mm. Length is non critical. I printed several first generation designs (not released) and have printed the one second generation shown here. The difference being all the holes to reduce plastic. The others I have printed have held up well to months of use in our lab at work. Included is the Alibre source and a step export as well as the stl." ;
     okh:hasImage :Image ;
     okh:licensor "dougc314" ;
     okh:repo <https://www.thingiverse.com/thing:14115> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:14115> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A19133/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Quester1akaConeyIslandSubYellowSubmarine a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Quester 1 (aka Coney Island sub / Yellow Submarine)" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """In 1963, Jerry Bianco, a Brooklyn Navy Yard ship fitter got it in his head that he was going to build a submarine to raise the wreck of the Andrea Doria - a luxury cruise ship that had sank off of Nantucket only 7 years earlier. This would be achieved by depositing inflatable dunnage bags inside of the wreck and float it to the surface.\r
 \r
 Even a small sub would take a large sum of cash to build, but Jerry managed get financial backing from interested treasure seekers and proceeded to build his dream.\r
@@ -26,6 +28,7 @@ Maybe someone can make a scale model of the Andrea Doria to go with this...""" ;
     okh:repo <https://www.thingiverse.com/thing:19133> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:19133> .

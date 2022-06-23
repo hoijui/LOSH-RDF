@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A14591/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:8mmJagsYetAnotherExtruderFilamentDrive a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "8mm Jag's Yet Another Extruder Filament Drive" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is Jag's "Yet another extrude filament drive", modified to work with a 8mm bearing on the idler arm. (http://www.thingiverse.com/thing:7113)\r
 \r
 Use this if you only have one 606 bearing, have access to 8mm bearings, and are in a pinch.\r
@@ -20,6 +22,7 @@ MarcusWolschon has created this buffed-up version: http://www.thingiverse.com/th
     okh:repo <https://www.thingiverse.com/thing:14591> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:14591> .

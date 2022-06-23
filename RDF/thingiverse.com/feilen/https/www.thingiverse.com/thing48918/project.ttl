@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A48918/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:NetbookReplacementAcAdapterPowerSafetyBox a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Netbook Replacement AC Adapter: Power Safety Box" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """A simple box to cover a broken point in the AC adapter in my netbook's cable, which I've resoldered and coated liberally in liquid electrical tape, but still gets bent quite a bit more than I'd like.\r
 \r
 This Thing is parametric, and may be tweaked before actually going into use.""" ;
@@ -14,6 +16,7 @@ This Thing is parametric, and may be tweaked before actually going into use.""" 
     okh:repo <https://www.thingiverse.com/thing:48918> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:48918> .

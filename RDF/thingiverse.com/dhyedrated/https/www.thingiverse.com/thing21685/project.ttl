@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A21685/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:BlindFrontClip a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Blind Front clip" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """UPDATED! Heat and a poor design led to my bracket breaking & folding open. Version 2 has a better backbone.OEM clips only need 3 even with this upgrade I'll probably print 4 to spread out the weight.\r
 Two of the clips that hold the piece of vinyl that hides the track for my vertical blinds broke. So out came the calipers!""" ;
     okh:hasImage :Image ;
@@ -13,6 +15,7 @@ Two of the clips that hold the piece of vinyl that hides the track for my vertic
     okh:repo <https://www.thingiverse.com/thing:21685> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:21685> .

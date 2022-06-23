@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A12193/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:AllinoneBudaschnozzleMountAndOpenXCarriageForMendel a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "All-in-One Budaschnozzle Mount and Open X Carriage for Mendel" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a mount and X-carriage for the Budaschnozzle hot end - http://reprap.org/wiki/LulzBot/Budaschnozzle. I wanted to gain a few mm of build height so I fused the mount on the Open X Carriage. I also thought that the mount that came with the hot end needed to be improved to work with the Wade extruder. This would extend the PTFE tubing (0.25" OD x 0.125"ID) past the current mount so it meets the extruder and it includes a filler where the insulator would usually mount to center the PTFE tubing.\r
 \r
 I just realized that this doesn't really gain any build height since it doesn't change the distance from the nozzle tip to the top of the extruder. So, I'll update it with the modified nozzle mount instead.""" ;
@@ -14,6 +16,7 @@ I just realized that this doesn't really gain any build height since it doesn't 
     okh:repo <https://www.thingiverse.com/thing:12193> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:12193> .

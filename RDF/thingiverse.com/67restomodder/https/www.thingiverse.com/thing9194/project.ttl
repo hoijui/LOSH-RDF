@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A9194/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:SunGears a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Sun Gears" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "After playing with both the Heart Gears http://www.thingiverse.com/thing:6291 and Gear Gears http://www.thingiverse.com/thing:6533, a good friend wanted something different.  She liked the way the Heart Gears moved and is totally into solar power, so she asked if I could make gears that looked like a sun.  Believe it or not, I am very new at this and had very little experience with OpenSCAD.  I understood that if I could get an stl file of a sun it should be relatively straightforward.  Unfortunately, I could not find a good one.  However, I did find the Geek Campfire thing by jonschwartz http://www.thingiverse.com/thing:578, and thought it would look pretty cool if I put several of them around a squashed sphere.  Voila!  I made her one in translucent blue PLA (at her request) and now you can make one too.  The image of the one I printed is an earlier revision (hence the flat ends of the two tallest gears), but I fixed that in this release.  I have included an stl of the complete assembly, but only so you can see what it looks like." ;
     okh:hasImage :Image ;
     okh:licensor "67restomodder" ;
     okh:repo <https://www.thingiverse.com/thing:9194> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:9194> .

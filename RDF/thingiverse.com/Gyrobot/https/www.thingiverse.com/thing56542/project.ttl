@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A56542/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PlanetaryFanModuleForBrabeast a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Planetary Fan Module for Brabeast" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is the fan module add on for the Brabeast http://www.thingiverse.com/thing:48087 which is based upon the famous walking Strandbeest from Theo Jansen ( http://www.strandbeest.com ). It is modular clip together system that is 3D printer (FDM) friendly just like the original Brabeast. The fan has a sun gear driving some planetary gears, there is a split annulus (always makes me snigger) gear which achieves a very high reduction (86.4:1)  \r
 \r
 A video of this :  \r
@@ -19,6 +21,7 @@ http://www.facebook.com/gyrobotuk""" ;
     okh:repo <https://www.thingiverse.com/thing:56542> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:56542> .

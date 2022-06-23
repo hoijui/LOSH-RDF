@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A10089/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ShowerClip a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Shower Clip" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is the first useful object I've created with my makerbot (i.e. not just an upgrade for the makerbot itself, nor art for art's sake).  The shower clip has been broken for as long as I've lived at this apartment and it used to be zip-tied in place.  The problem was you couldn't remove the shower-head from the clip, so it was hard to clean the tub, etc.  \r
 \r
 Now all is functional again.  This was the first request my girlfriend had of my makerbot; it only took 6 months.  So much for rapid prototyping...""" ;
@@ -14,6 +16,7 @@ Now all is functional again.  This was the first request my girlfriend had of my
     okh:repo <https://www.thingiverse.com/thing:10089> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:10089> .

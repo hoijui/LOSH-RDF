@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A1339/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:OpenscadHelicalGears a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "OpenSCAD Helical Gears" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is the second half of my http://openscad.org gear sets.\r
 \r
 I couldn't get the top and bottom parts of the double helical to union properly, so I ended up offsetting the bottom piece by 0.1mm :( It skeins and prints fine though.\r
@@ -19,6 +21,7 @@ UPDATE: I'm printing some gears and noticed a couple mistakes on the openSCAD sc
     okh:repo <https://www.thingiverse.com/thing:1339> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:1339> .

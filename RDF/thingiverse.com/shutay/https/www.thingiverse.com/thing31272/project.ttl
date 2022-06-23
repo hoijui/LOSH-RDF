@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A31272/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:OlinuxinoMaxiUboxR2 a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Olinuxino Maxi U-Box R2" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """U-Box for an Olimex Olinuxino MAXI board. The Olinuxino is Open Hardware by Olimex, and runs Linux on a 454MHz ARM9 processor with 64MB RAM. For more information on this board, have a look at https://www.olimex.com/Products/OLinuXino/iMX233/iMX233-OLinuXino-MAXI/\r
 \r
 The design includes 2 circular nubs to provide support underneath the board, although at this size, it probably isn't necessary, but it made me feel good to have them.\r
@@ -16,6 +18,7 @@ If you have the Olinuxino-MINI instead of this Maxi, it should also fit, althoug
     okh:repo <https://www.thingiverse.com/thing:31272> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:31272> .

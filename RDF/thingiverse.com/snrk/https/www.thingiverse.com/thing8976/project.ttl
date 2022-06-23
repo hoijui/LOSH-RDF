@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A8976/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:IpadDrawingPencil a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "iPad drawing pencil" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Wanted a pencil for my iPad ever since I bought SketchBook Pro (finger drawing isn't for me), but the Apple store in my town didn't have any in stock, and the ones that they sell are small and skinny. Was really more interested in the beefier kind, but then I had to buy from Amazon or eBay.\r
 \r
 But! I have a ToM, and therefore the possibility to make anything, so why not make my own capacitive pen? Printed one out that didn't work, because I didn't do my homework and check up how these pens really are constructed. Then designed a new version that allows the conductive foam to make (electrical) contact with the hand, and voila; my own, perfect drawing pen!! The only downside is that I no longer can blame the imprecise finger input for my bad drawings.""" ;
@@ -14,6 +16,7 @@ But! I have a ToM, and therefore the possibility to make anything, so why not ma
     okh:repo <https://www.thingiverse.com/thing:8976> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:8976> .

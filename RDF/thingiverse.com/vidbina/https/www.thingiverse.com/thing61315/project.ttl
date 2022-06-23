@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A61315/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Loop a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Loop" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """A finger ring casing for a smart device to your liking. Keep your gadget close!\r
 \r
 At the moment I'm working on the circuitry for a HID, this idea came to me during the Artefact of Society Design Course I completed on Coursera a little while ago.\r
@@ -18,6 +20,7 @@ The current model is still one seamless piece, I still need to complete the mode
     okh:repo <https://www.thingiverse.com/thing:61315> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:61315> .

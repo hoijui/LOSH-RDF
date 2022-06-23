@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A5137/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:CybermanCybusLogoBadge a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Cyberman Cybus logo badge" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Since I cant find any detail drawings for a cyberman helmet, I figured a good first step would be to draw the chest logo. For the uninitiated, this is the chest piece of the cybermen, one of the arch nemeses of the Doctor.\r
 \r
 http://en.wikipedia.org/wiki/Cybermen""" ;
@@ -14,6 +16,7 @@ http://en.wikipedia.org/wiki/Cybermen""" ;
     okh:repo <https://www.thingiverse.com/thing:5137> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:5137> .

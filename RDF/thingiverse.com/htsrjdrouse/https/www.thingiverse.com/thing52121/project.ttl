@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A52121/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:DrrobotlabsDiyrecycleableMicrowellPlateMicroarraySlide a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Dr.RobotLabs DIY (recycleable) microwell plate / microarray slide" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I test a lot of microarray slides and agarose coatings always work well (same stuff you use for DNA electrophoresis gels). So like when you cast DNA gels thought it would be cool to print a really small gel caster for surface coating. \r
 \r
 Surprisingly you can make really consistent coatings with this trick and you can use the same set up to attach gaskets to create small wells.\r
@@ -27,6 +29,7 @@ http://www.htsresources.com/recycleable_surfaces_for_bioassays.php""" ;
     okh:repo <https://www.thingiverse.com/thing:52121> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:52121> .

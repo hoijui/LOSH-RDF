@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A39095/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:TreeStand a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Tree Stand" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "Converted the Solidworks to see if it would be printable by a DIY printer. The size is 500x500 if you rotate it 45 degrees which won't fit on most DIY printers. Yet another reason for me to build a Large Format Printer. I thought it was an interesting shape so I decided to make it a derivative." ;
     okh:hasImage :Image ;
     okh:licensor "cyclone" ;
     okh:repo <https://www.thingiverse.com/thing:39095> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:39095> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A50533/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:GearForWadeExtruder a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Gear for wade extruder" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """this is a new double helical gear 13/72 theeth. the module is 1 and the pitch is Pi*m (3.14mm). pressure angle is 20Â°\r
 doble helix 15Â° inclination. correct axis distance is 42.5mm.""" ;
     okh:hasImage :Image ;
@@ -13,6 +15,7 @@ doble helix 15Â° inclination. correct axis distance is 42.5mm.""" ;
     okh:repo <https://www.thingiverse.com/thing:50533> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:50533> .

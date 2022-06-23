@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A3420/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:AntivibrationFoamFootForDarwin a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Anti-vibration foam foot for Darwin" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a foot which, once printed, will accept a nearly 40mm square section of 10mm thick self adhesive foam.  The feet of the Darwin frame (the smooth vertical rods) fit loosly in the top of the foot.  The hole is there to keep the foot from sliding away from the centre.\r
 \r
 It reduces the vibration passed through to a hard surface - useful if your Darwin sits on a table.""" ;
@@ -14,6 +16,7 @@ It reduces the vibration passed through to a hard surface - useful if your Darwi
     okh:repo <https://www.thingiverse.com/thing:3420> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:3420> .

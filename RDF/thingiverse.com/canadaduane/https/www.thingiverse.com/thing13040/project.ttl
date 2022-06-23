@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A13040/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:KeyRackwithSemicircleHooks a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Key Rack (with semicircle hooks)" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "This is a first attempt at making a key rack. It's decent, but if I were to do it again, I'd make the holes smaller (rather than build spacers after-the-fact), and I'd make the back panel thinner. I was experimenting with OpenSCAD's Minkowski and Hull transformations, so that's my excuse for the design decisions :)" ;
     okh:hasImage :Image ;
     okh:licensor "canadaduane" ;
     okh:repo <https://www.thingiverse.com/thing:13040> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:13040> .

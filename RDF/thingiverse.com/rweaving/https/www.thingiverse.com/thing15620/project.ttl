@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A15620/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:TubularDrive a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Tubular Drive" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a tubular drive mechanism.  It is designed to use 1/2 inch aluminum conduit.  This is a work in process, and I am already working on a newer version that will use dual rails.  I think that this type of mechanism will work well as an linear axis drive mechanism when combined a stepper motor, and magnetic linear encoder would provide high accuracy large scale positioning. \r
 \r
 Tubular Drive Test Fixed Drive\r
@@ -18,6 +20,7 @@ http://www.youtube.com/watch?v=70dTRN7zSpU""" ;
     okh:repo <https://www.thingiverse.com/thing:15620> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:15620> .

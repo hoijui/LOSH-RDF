@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A7077/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Surf2solidpy a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "surf2solid.py" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """A quick and dirty sketch of a python clone of http://www.thingiverse.com/thing:6955\r
 \r
 Takes a function of x,y,r, and t (theta, in radians), plots it, returns it as a solid which it spits to stdout, or writes to a .scad or .stl file, depending on usage. Arguments are set toward the top of the scrip. The function is specified as a string. This script requires numpy. Comments need improvement.\r
@@ -24,6 +26,7 @@ update : OpenSCAD doesn't like the .stl output, but the .scad script output seem
     okh:repo <https://www.thingiverse.com/thing:7077> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:7077> .

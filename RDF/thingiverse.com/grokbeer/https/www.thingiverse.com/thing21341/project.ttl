@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A21341/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:SpoutForDishwasherPowderBottle a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Spout for Dishwasher Powder Bottle" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """For some reason my bottle of Earthwise Dishwasher Powder was missing a spout in the neck of the bottle.  This might have been intentional but I found it hard to pour the correct amount so decided to print it a spout.\r
 \r
 WARNING: If you print this make sure it ends up sitting flush with the top of the neck otherwise it may stop the cap from being child-proof.""" ;
@@ -14,6 +16,7 @@ WARNING: If you print this make sure it ends up sitting flush with the top of th
     okh:repo <https://www.thingiverse.com/thing:21341> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:21341> .

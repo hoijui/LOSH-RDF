@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A34302/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ParametricBroomHolder a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Parametric Broom Holder" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """disruptit's broom holder is a great idea, but its only one size, and I found my various brooms and mops had enough variation to not all fit.  Also, it prints with the flanges pointing up, so its flexing against the layer grain and tends to crack.\r
 \r
 I redesigned the same basic shape as a parametric openscad object.  Just measure the broom you want to hang and change the dimensions to match.  It also prints standing on end so as not to crack along layers.""" ;
@@ -14,6 +16,7 @@ I redesigned the same basic shape as a parametric openscad object.  Just measure
     okh:repo <https://www.thingiverse.com/thing:34302> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:34302> .

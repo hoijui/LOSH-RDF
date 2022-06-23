@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A12652/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:CreaturesOfThingiverse a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Creatures of Thingiverse" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """So these little guys are the creatures of thingiverse. Then come my desire to create a customizable creatures that can become as diverse as its users want.  So this will be an ongoing project of adding more pieces to create all different types critters.  So I am hoping to get lots of people involved in adding parts to their collection or give them accessories and decals. So, give them a lives and stories of their own to tell. \r
 \r
 Designing to me is very much about sharing and feeding off other people. I just wanted to do something very community based and get myself to model something for myself and others as often as possible I am going to try to add a new piece ever 2 days or so.  This is the first iteration. So fellow members if you want them bigger (there around 2in x 3in x 2in) let me know and let me know about how much detail I can model in.  I was debating one with scales but didn't want to cause hardship when they didn't show up well in a print due to size same goes for hole tolerance.\r
@@ -19,6 +21,7 @@ Anyway that is if for now feel free to ask question. Create a story or world for
     okh:repo <https://www.thingiverse.com/thing:12652> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:12652> .

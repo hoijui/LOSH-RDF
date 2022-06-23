@@ -2,25 +2,19 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Co2Detector a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "CO2 Detector" ;
-    okh:additionalType "['Electronics']" ;
-    okh:certificationDate "2021-01-08T00:00:00-05:00" ;
-    okh:country "Spain" ;
     okh:dataSource "oshwa.org" ;
     okh:documentationLanguage "en" ;
-    okh:documentationLicense "CC 0" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function """A device that connects to a mqtt queue to send CO2 and TVOC data to an IoT gateway. In addition to that, there are three LEDs to show what is the current state of the air based on CO2 PPMs:
 
     Green light is shown if there are less than 600 PPM of CO2.
     Yellow light if there are between 600 and 800 PPM.
     Red when the CO2 is greater than 800.""" ;
-    okh:hardwareLicense "CERN" ;
     okh:licensor "Guillermo Amat Gomariz" ;
-    okh:primaryType "IOT" ;
     okh:repo <https://certification.oshwa.org/es000019.html> ;
     okh:repoHost "certification.oshwa.org" ;
-    okh:softwareLicense "Apache" ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.2" ;

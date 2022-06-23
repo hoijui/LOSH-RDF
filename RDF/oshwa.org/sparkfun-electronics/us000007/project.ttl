@@ -2,20 +2,15 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ArduinoProMini32833v8mhz a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Arduino Pro Mini 328 - 3.3V/8MHz" ;
-    okh:certificationDate "2016-10-31T00:00:00-04:00" ;
-    okh:country "United States of America" ;
     okh:dataSource "oshwa.org" ;
     okh:documentationLanguage "en" ;
-    okh:documentationLicense "CC BY-SA" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function "This is a 3.3V Arduino running the 8MHz bootloader. Arduino Pro Mini does not come with connectors populated so that you can solder in any connector or wire with any orientation you need." ;
-    okh:hardwareLicense "Other" ;
     okh:licensor "SparkFun Electronics" ;
-    okh:primaryType "Electronics" ;
     okh:repo <https://certification.oshwa.org/us000007.html> ;
     okh:repoHost "certification.oshwa.org" ;
-    okh:softwareLicense "Other" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
     okh:uploadMethod "auto" ;
     okh:version "1.4" ;

@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A5648/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PaperkaptonAbpConveyorBelt a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Paper/Kapton ABP Conveyor Belt" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "After destroying several plastic belts in silly experiments, I needed a cheaper and quicker way of sourcing replacements. There's nothing cheaper and quicker than making your own with kapton tape and paper! I think it works even better than the plastic belts because of better adhesion and less surface warping. Works with the Cupcake's ABP V1.0 and on the Thing-O-Matic's ABP (although you quickly get wrinkles in the middle because of the roller gap)" ;
     okh:hasImage :Image ;
     okh:licensor "AVataRR" ;
     okh:repo <https://www.thingiverse.com/thing:5648> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:5648> .

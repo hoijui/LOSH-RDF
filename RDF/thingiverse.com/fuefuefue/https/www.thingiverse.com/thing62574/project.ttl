@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A62574/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:TigrBikeLockBracket a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Tigr Bike Lock Bracket" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "This prevents the legs of the Tigr Lock from scratching the top tube and seat tube, and provides a secure place to stow the cylinder!" ;
     okh:hasImage :Image ;
     okh:licensor "fuefuefue" ;
     okh:repo <https://www.thingiverse.com/thing:62574> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:62574> .

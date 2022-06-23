@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A3582/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:GlobalDynamicsLogo a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Global Dynamics Logo" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "For all of you Eureka fans out there, this is a quickie model/print intended to have a pin back glued to it and used as a pin for your backpack, hat, or whatever." ;
     okh:hasImage :Image ;
     okh:licensor "Modelmaker" ;
     okh:repo <https://www.thingiverse.com/thing:3582> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:3582> .

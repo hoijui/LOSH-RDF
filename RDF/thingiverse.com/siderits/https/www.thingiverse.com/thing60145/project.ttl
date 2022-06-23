@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A60145/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:UsbPoweredRtqpcrModule a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "USB powered RT-qPCR module" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Difficulty level: Advanced (see disclaimer at end).  \r
 \r
 I've listed the parts and approaches that I've used, and my results so far.  I think the project is at the point where others might find it worth considering for more advanced setups.  It grew out of an Instructable: http://www.instructables.com/id/Coffee-Cup-PCR-Thermocycler-costing-under-350/        \r
@@ -31,7 +33,7 @@ A unique aspect of this project is that the development of a low cost portable R
 \r
  The goal is to provide a portable USB powered RT-PCR module at a cost below 220$ and to provide this configuration with educational content, possibly in association with a biopharmaceutical corporation.    \r
 \r
-The objective is to provide this system not only at an affordable cost for academic programs but also to â€œruggedizeâ€ the module for use in biomedical, environmental and field research settings. \r
+The objective is to provide this system not only at an affordable cost for academic programs but also to â€œruggedizeâ€x9d the module for use in biomedical, environmental and field research settings. \r
 \r
 Ideally the unit could be run with a parallax Basic stamp module, an LCD screen and a minty boost power supply.\r
 \r
@@ -45,6 +47,7 @@ Disclaimer:  This is my experience.  I'm not telling you what to do, just what I
     okh:repo <https://www.thingiverse.com/thing:60145> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:60145> .

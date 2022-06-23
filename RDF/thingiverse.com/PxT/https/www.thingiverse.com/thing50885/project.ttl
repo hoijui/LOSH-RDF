@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A50885/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:CustomizableSignheartAppleLogo a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Customizable Sign (Heart / Apple logo)" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """My daughter wanted a version of the customizable sign with a heart logo. So here it is!  I have also added an additional choice of an Apple logo.\r
 \r
 Based on thing:40705 and the heart code from thing:8483.  The apple was converted to a polygon using thing:25036.""" ;
@@ -14,6 +16,7 @@ Based on thing:40705 and the heart code from thing:8483.  The apple was converte
     okh:repo <https://www.thingiverse.com/thing:50885> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:50885> .

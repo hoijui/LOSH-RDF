@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A7870/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:SewagePipePlasticSpool a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Sewage pipe plastic spool" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a simple adapter to connect build a spool out of standard European 50mm plastic sewage pipe and some 608 skate bearings. Both the bearings and the pipe are press fit when printed on our Thing-O-Matic. I used a M8 bolt through the bearing as an axle.\r
 \r
 It doesn't really work, the diameter is too small for the loose plastic filament. When pulled the strand under tension cuts through the stack of filaments and ends up at the bottom. Presumably re-spoling might help, need to test it. Also need to make another version for larger diameter pipe. That said, this system beats our old system of storing the filament in a box on the table.. :-)\r
@@ -16,6 +18,7 @@ This part was made with Tinkercad. Edit the part online at: https://tinkercad.co
     okh:repo <https://www.thingiverse.com/thing:7870> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/BSD-4-Clause> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:7870> .

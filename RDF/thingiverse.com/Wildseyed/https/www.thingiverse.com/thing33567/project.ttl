@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A33567/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:AdafruitRgbShieldFaceplate a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Adafruit RGB Shield Faceplate" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """The RBG Shield from Adafruit Industries is great, but it's not an easy design to enclose, due to the close proximity of the buttons, and the various feature heights.  I have tried to address the button problem as best I can think of right now.  I may add faces to the buttons that can be glued on after the faceplate is assembled.\r
 \r
 The design allows both CNC Router, and 3D printing.  It's a tight fit, so be sure to calibrate before (or after) printing.  Even with calibration, you may need to sand the LCD window a bit, as that part is not always of uniform dimensions.\r
@@ -18,6 +20,7 @@ If you have any recommendations on how to improve this design for mounting, plea
     okh:repo <https://www.thingiverse.com/thing:33567> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:33567> .

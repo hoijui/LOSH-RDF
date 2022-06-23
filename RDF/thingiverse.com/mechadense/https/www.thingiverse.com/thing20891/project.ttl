@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A20891/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:UltimakerBowdenDrillHeadmount a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Ultimaker Bowden Drill HeadMount" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Description:\r
 \r
 A drill holder for the Ultimaker 3D Printer.\r
@@ -40,6 +42,7 @@ hobby site:\r
     okh:repo <https://www.thingiverse.com/thing:20891> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:20891> .

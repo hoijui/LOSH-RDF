@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A43283/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:BlindsClip a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Blinds Clip" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a clip on attachement to my wooden window blinds, it allows me to hangs a sheet to darken the room.\r
 \r
 I have a projector and a screen, but the sun shines through the blinds degrading my viewing contrast during the day.  This allows a dark sheet to further block the sun without permanantly changing the blinds.\r
@@ -16,6 +18,7 @@ My contrast is much better, while still allowing me to easily open the windows."
     okh:repo <https://www.thingiverse.com/thing:43283> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:43283> .

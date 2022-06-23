@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A24459/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:CircularFanDuct a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Circular fan duct" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """As my hotend is not centered in the carriage (I'm using Greg's accessible extruder: http://www.thingiverse.com/thing:8252), I have adjusted this fan duct design to short it in 4mm (use on the left side of the carriage).\r
 \r
 I have also added a clearance on the left side to allow space for the LM8UU bearing on both sides.""" ;
@@ -14,6 +16,7 @@ I have also added a clearance on the left side to allow space for the LM8UU bear
     okh:repo <https://www.thingiverse.com/thing:24459> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:24459> .

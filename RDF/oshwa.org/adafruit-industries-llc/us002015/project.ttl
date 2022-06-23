@@ -2,21 +2,15 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:CircuitPlayground200x200TricolorEinkGizmo a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Circuit Playground 200x200 Tri-Color E-Ink Gizmo" ;
-    okh:additionalType "['Electronics']" ;
-    okh:certificationDate "2021-08-19T00:00:00-04:00" ;
-    okh:country "United States of America" ;
     okh:dataSource "oshwa.org" ;
     okh:documentationLanguage "en" ;
-    okh:documentationLicense "CC BY-SA" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function "Extend and expand your Circuit Playground projects with a bolt-on E-Ink Gizmo that lets you add a lovely tri-color e-Ink display in a sturdy and reliable fashion. Once attached, you'll get a 1.54\" 200x200 display (black and red ink pixels and a white-ish background), two 3-pin STEMMA connectors for attaching NeoPixel strips or servos, and a Class D audio amplifier with a Molex PicoBlade connector. Click the link labeled 'Project Website' to find out more." ;
-    okh:hardwareLicense "Other" ;
     okh:licensor "Adafruit Industries, LLC" ;
-    okh:primaryType "Electronics" ;
     okh:repo <https://certification.oshwa.org/us002015.html> ;
     okh:repoHost "certification.oshwa.org" ;
-    okh:softwareLicense "MIT" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
     okh:uploadMethod "auto" ;
     okh:version "Rev B" ;

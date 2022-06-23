@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A23933/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MakerbotReplicatorFeetUpgrade a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "MakerBot Replicator Feet Upgrade" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "I got tired of the rubber Replicator feet falling off every time I moved my MakerBot.  If you lift your Replicator these will still fall off but the feet will stay on if you drag your Replicato across a desk.  There is a hole on the bottom to insert a pencil eraser to dampen vibration." ;
     okh:hasImage :Image ;
     okh:licensor "etrohn" ;
     okh:repo <https://www.thingiverse.com/thing:23933> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:23933> .

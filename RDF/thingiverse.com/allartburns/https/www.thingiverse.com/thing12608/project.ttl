@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A12608/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ModularToolholderRackForMakerbotCupcake a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "modular tool-holder rack for MakerBot Cupcake" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """There's been a few tool-holders posted, but they never fit my set of tools.   So I thought, why not make a modular tool rack that hangs off the side of the Cupcake and that people can customize.\r
 \r
 There are two basic pieces -- "lip" and "nolip".  The nolip pieces are for lighter objects and fit next the the z-axis parts and rely upon the lip pieces for support.  The lip pieces are for heavier parts and clip onto the side of the makerbot.\r
@@ -16,6 +18,7 @@ Due to the space between the z-bolts not being a multiple of the z-bolt mounts, 
     okh:repo <https://www.thingiverse.com/thing:12608> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:12608> .

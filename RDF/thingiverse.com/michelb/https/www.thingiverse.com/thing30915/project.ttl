@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A30915/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:SupportDeFilPourReprap a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "support de fil pour reprap" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "fr" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "Un support ultra simple compose de deux jambes qui se clipsent sur les tiges suppÃ©rieurs et d'une piece en formede H qui s'emboite sur ces deux jambes" ;
     okh:hasImage :Image ;
     okh:licensor "michelb" ;
     okh:repo <https://www.thingiverse.com/thing:30915> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:30915> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A22853/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:InfinityGarden a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Infinity Garden" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """The Infinity Garden is my personal version/derivation of the Kontinuum Garden designed by the Rasmussen brothers of Copenhagen, Denmark.\r
 \r
 You can read more about their awesome project, or help fund them at this address: http://www.indiegogo.com/Kontinuumgarden\r
@@ -22,6 +24,7 @@ Again, this is a PROOF-OF-CONCEPT only, so I didn't check out dowel sizes at the
     okh:repo <https://www.thingiverse.com/thing:22853> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:22853> .

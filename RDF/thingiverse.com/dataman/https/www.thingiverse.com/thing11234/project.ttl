@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A11234/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Mk5BearingRetainerOpen a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "MK5 Bearing Retainer Open" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a derivative of Mk5 Bearing Retainer by Emmet (thing:5789).\r
 Kudos Emmet, nice job, but I wanted something that still allows me to see the filament, gear, and pinch mechanism.  This open version hopes to provide access that, as well as still allow mounting of Stepper Indicator by Geir (thing:10116)\r
 \r
@@ -15,6 +17,7 @@ OpenScad source file included.""" ;
     okh:repo <https://www.thingiverse.com/thing:11234> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:11234> .

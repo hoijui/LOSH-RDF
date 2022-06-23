@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A21166/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:GarageDoorInsulationHolder a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Garage Door Insulation Holder" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I purchased a garage door insulator kit this winter. Over time the lousy double sided tape included gave way on the bases of many of the holders that keep the insulation in place. In the process of trying to figure out what to do I broke a number of the bases (the top connector where the cover goes would snap a latching piece off). So rather than chuck it all I designed a new set and will be replacing the old double sided tape with industrial variety or construction adhesive.\r
 \r
 I thought someone else might find a use for these. I have included the SCAD file for anyone that wants to play around with it a bit. It took 4 attempts to get one that works with my remaining original covers but earlier varieties worked fine, with their own covers.\r
@@ -16,6 +18,7 @@ There is nothing special about the insulation used so there is no reason someone
     okh:repo <https://www.thingiverse.com/thing:21166> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:21166> .

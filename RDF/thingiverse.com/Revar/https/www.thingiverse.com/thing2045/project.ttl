@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A2045/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:WormGearLatheTool a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Worm Gear Lathe Tool" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I decided that the timing belt gear in my plastruder was just too unreliable, so I wanted to try out a worm gear drive cog like I'd seen others have good success with.  I have a cheap 9x20 lathe and a tap set, but I was missing something to hold the gear blank to the tap while letting it rotate.  So I fabbed one.\r
 \r
 This isn't a robust thing, but it's good enough, and I've been able to make several small brass worm gears with it.""" ;
@@ -14,6 +16,7 @@ This isn't a robust thing, but it's good enough, and I've been able to make seve
     okh:repo <https://www.thingiverse.com/thing:2045> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:2045> .

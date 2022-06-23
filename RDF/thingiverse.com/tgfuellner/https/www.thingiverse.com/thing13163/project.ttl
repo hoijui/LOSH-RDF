@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A13163/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:EnclosureForSolarCharger a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Enclosure for Solar Charger" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Made a simple but good looking enclosure for this great solar charger:\r
 http://www.opend.co.za/hardware/solarcharge1/index.html""" ;
     okh:hasImage :Image ;
@@ -13,6 +15,7 @@ http://www.opend.co.za/hardware/solarcharge1/index.html""" ;
     okh:repo <https://www.thingiverse.com/thing:13163> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:13163> .

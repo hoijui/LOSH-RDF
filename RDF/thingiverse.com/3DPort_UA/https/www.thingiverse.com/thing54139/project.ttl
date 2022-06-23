@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A54139/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PorscheCarreraGtRepaired a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Porsche Carrera GT repaired" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I take Domonoky's Porsche Carrera and made it symmetrically. In his model, the wheel arches have been different widths.\r
 Also made some other changes, such as holes for the axles are reduced and shifted the maximum down. So, now the wheels do not rub on the arch, and my son is now rolls the car with the rest of its fleet of vehicles :)""" ;
     okh:hasImage :Image ;
@@ -13,6 +15,7 @@ Also made some other changes, such as holes for the axles are reduced and shifte
     okh:repo <https://www.thingiverse.com/thing:54139> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:54139> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A45154/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:KnobFor6mmShaftsFlutedWithIndicatorAndTaperedOpeningWithMattsonMiniModularLogo a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "knob for 6mm shafts, fluted with indicator and tapered opening, with mattson mini modular logo" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """mattson mini modular asked me what it might look like if i designed a knob with their logo, so here it is!\r
 \r
 Of course, many of you will not happen to need a knob with a mattson mini modular logo on top, but here are some reasons why this might be a good starting point for your own projects:\r
@@ -31,6 +33,7 @@ have fun!""" ;
     okh:repo <https://www.thingiverse.com/thing:45154> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:45154> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A22223/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Mendel90AdapterForHerringboneGears a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Mendel90 adapter for herringbone gears" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I really wanted to be able to use Triffidhunter's parametric herringbone gears ( http://www.thingiverse.com/thing:10707 ) as recommended by Richrap, but they were just too tall to fit on my X-carriage.\r
 This adapter will raise the Wade's block by 2 mm which is just enough to allow the large gear to fit.\r
 Read more at http://mynext3dprinter.tumblr.com""" ;
@@ -14,6 +16,7 @@ Read more at http://mynext3dprinter.tumblr.com""" ;
     okh:repo <https://www.thingiverse.com/thing:22223> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:22223> .

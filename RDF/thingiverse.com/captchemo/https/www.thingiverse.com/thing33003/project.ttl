@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A33003/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:LedVotiveCandleHolder a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "LED Votive Candle & Holder" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """With Halloween right around the corner, I decided to create a "safe" LED candle to add to my decorations.  It's 80 mm high x 75 mm in diameter.  Printed in natural white ABS, it produces a realistic glow.\r
 \r
 I purchased some flickering LEDs from an on-line electronics retailer, but needed a way to mount them.  I made the LED holder to mount the LED with a CR2032 3v. coin battery.  Since the LED is rated at 3 volts, no resister is needed.  The holder grips the LED and battery and it's the perfect size for the 3D printed Votive Candle.  You can also use widely available commercial LED candles.\r
@@ -16,6 +18,7 @@ The LED and holder also works great to illuminate other 3D printed vases and obj
     okh:repo <https://www.thingiverse.com/thing:33003> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:33003> .

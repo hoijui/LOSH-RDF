@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A25593/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:AcrylicSpider a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Acrylic spider" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "Acrylic spider. Painted then laser cut and assembled. This spider was made to display at the KC Maker Faire as part of our Fablab display. Our Fablab is now open for public use at the Business Technology Campus of MCC in Kansas City. Find us on facebook for more info. Find more like this at: http://www.blechwelt.com/teil_des_monats/archiv.htm" ;
     okh:hasImage :Image ;
     okh:licensor "dsh1001" ;
     okh:repo <https://www.thingiverse.com/thing:25593> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:25593> .

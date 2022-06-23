@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A12590/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:CoversForDeeplet10sTriangle a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Covers for Deeplet 1.0's Triangle" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Deeplet 1.0 needed to make a cover for her 30-60-90 degree triangle... Thought I'd print her some simple covers that would protect her triangle.\r
 \r
 Hoek1.stl is for the 30 degree angle\r
@@ -15,6 +17,7 @@ Hoek2.stl is for the 60 degree angle""" ;
     okh:repo <https://www.thingiverse.com/thing:12590> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:12590> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A13356/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ThingOMaticCornerSupportFeet a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Thing O Matic corner support feet" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """These are simple supports for the four corners of a TOM. They are the same height as the rubber feet, so they can be used either with or without the rubber feet attached. If you are using any of the printable feet designed to raise up you TOM, these supports will provide a more stable platform, prevent bowing of the bottom piece, and make it possible to move the upper part of the TOM around a bit without having to worry about the printed feet sliding off the bottom plate. \r
 \r
 Here are the feet you might want to use:\r
@@ -18,6 +20,7 @@ Risers, by me: http://www.thingiverse.com/thing:13039""" ;
     okh:repo <https://www.thingiverse.com/thing:13356> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:13356> .

@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A22434/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:QuickclampEndReplacement a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Quick-clamp end replacement" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "Replacement for a broken quick-clamp end. Beefed it up a little, but haven't tested it for strength at all. But the original broke, so it should be better than nothing. Besides, use a proper metal clamp if your after strength. :)" ;
     okh:hasImage :Image ;
     okh:licensor "Muke" ;
     okh:repo <https://www.thingiverse.com/thing:22434> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:22434> .

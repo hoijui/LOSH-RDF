@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A4926/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:BracketForSimple2mGroundPlaneAntenna a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Bracket for simple 2M ground plane antenna" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """EDIT:  I have made a replacement that does a much better job of hanging on to the PVC mount.   Now that we have faster print times you can crank this out in a couple of hours:  
 
 http://www.thingiverse.com/thing:670821  
@@ -17,6 +19,7 @@ This is a simple bracket for making a field expedient 2M ground plane antenna us
     okh:repo <https://www.thingiverse.com/thing:4926> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:4926> .

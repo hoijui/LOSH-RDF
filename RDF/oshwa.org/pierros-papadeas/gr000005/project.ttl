@@ -2,26 +2,20 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Astrohat a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Astrohat" ;
-    okh:additionalType "['Science']" ;
-    okh:certificationDate "2021-05-03T00:00:00-04:00" ;
-    okh:country "Greece" ;
     okh:dataSource "oshwa.org" ;
     okh:documentationLanguage "en" ;
-    okh:documentationLicense "CC BY-SA" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function """A Raspberry Pi 4 compatible hat for all your astronomy equipment. Features include:
 - 6x 12V controllable outputs @3a each with current monitoring (2 PWM controllable for dew heaters)
 - Temperature, Humidity and Pressure sensor port (external module)
 - 1x adjustable 6-12 V output
 - Port for serial communication and power to external device (GPS)
 - Automotive grade electronics and design""" ;
-    okh:hardwareLicense "CERN" ;
     okh:licensor "Pierros Papadeas" ;
-    okh:primaryType "Electronics" ;
     okh:repo <https://certification.oshwa.org/gr000005.html> ;
     okh:repoHost "certification.oshwa.org" ;
-    okh:softwareLicense "GPL" ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
     okh:uploadMethod "auto" ;
     okh:version "1.2" ;

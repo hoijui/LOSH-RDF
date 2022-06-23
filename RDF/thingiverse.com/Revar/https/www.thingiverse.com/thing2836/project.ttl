@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A2836/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:LcdkeypadControlPanelForMakerbot a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "LCD+Keypad Control Panel for Makerbot" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "This is an LCD and keypad control panel for controlling a Reprap Motherboard based fabber like the MakerBot CupcakeCNC. With this you will be able to use your fabber without needing to attach it to a computer. You can set heater temperatures, move and zero the axes and print .s3g and .gcode files directly from the SD card. The LCD will show you continuous temperature readings, position, and build progress." ;
     okh:hasImage :Image ;
     okh:licensor "Revar" ;
     okh:repo <https://www.thingiverse.com/thing:2836> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:2836> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A42743/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ImprovisedReamerForCleaningPrintedThreads a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Improvised Reamer For Cleaning Printed Threads" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I am currently making some new X ends for my Sells Mendel using trapezoidal threaded lead screws, I have made the nuts for myself in a traditional fashion by machining and tapping the threads. However I started thinking about if the nuts could be printed, turns out they can but I always have trouble cleaning the threads. This is no problem if you have a tap but trapezoidal taps are expensive.\r
 \r
 This thing is intended to suggest a method that you can produce your own Ghetto reamers to clean out printed threads.\r
@@ -18,6 +20,7 @@ Bear in mind that most threaded rod is soft, you could not fabricate a tap this 
     okh:repo <https://www.thingiverse.com/thing:42743> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:42743> .

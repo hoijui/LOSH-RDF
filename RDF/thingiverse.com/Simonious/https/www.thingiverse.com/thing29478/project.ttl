@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A29478/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:XcarriageForRail a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "x-carriage for rail" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This x-carriage is intended for an x-rail.\r
 \r
 This is here for me to direct people to it, if you don't know you need it, you probably don't.""" ;
@@ -14,6 +16,7 @@ This is here for me to direct people to it, if you don't know you need it, you p
     okh:repo <https://www.thingiverse.com/thing:29478> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:29478> .

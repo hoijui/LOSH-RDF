@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A46327/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Knob a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Knob" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Update:\r
 \r
 If you like this knob, I suggest that you go to http://www.thingiverse.com/thing:54024 and open it in the customizer.  It will let you make this knob and many others in exactly the dimentions you want.\r
@@ -19,6 +21,7 @@ The hole for the shaft is 5.9mm diameter and 5mm deep.  There is a hole on the s
     okh:repo <https://www.thingiverse.com/thing:46327> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:46327> .

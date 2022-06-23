@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A7677/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:TrafficCone a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Traffic Cone" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I needed something to print with my lovely new safety orange filament.\r
 So, what better thing than a traffic cone?""" ;
     okh:hasImage :Image ;
@@ -13,6 +15,7 @@ So, what better thing than a traffic cone?""" ;
     okh:repo <https://www.thingiverse.com/thing:7677> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:7677> .

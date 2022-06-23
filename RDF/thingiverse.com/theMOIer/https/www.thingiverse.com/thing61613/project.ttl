@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A61613/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:1PieceFullPrintableGearAssembly a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "1 Piece Full Printable Gear Assembly" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a gear assembly that is fully printable,\r
 requires no snaps, and works.""" ;
     okh:hasImage :Image ;
@@ -13,6 +15,7 @@ requires no snaps, and works.""" ;
     okh:repo <https://www.thingiverse.com/thing:61613> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:61613> .

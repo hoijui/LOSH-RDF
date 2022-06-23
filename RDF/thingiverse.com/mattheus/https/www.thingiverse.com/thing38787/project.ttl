@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A38787/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:UniformAndScalableReductionGear1256 a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Uniform and scalable reduction gear (1:256)" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Reductor that done from identical gears 1:4 each (uniform) and can be setup with as many gears in sequence as you need (scalable) to get ratio and torque that you need.\r
 On images reductor done from 4 gears and has ration 1:256, but you can easy install more/less gears to each of two reductor axes to have ratio that you need.\r
 There also included fram for gears system with holder for motor.""" ;
@@ -14,6 +16,7 @@ There also included fram for gears system with holder for motor.""" ;
     okh:repo <https://www.thingiverse.com/thing:38787> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:38787> .

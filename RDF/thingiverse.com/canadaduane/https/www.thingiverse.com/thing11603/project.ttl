@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A11603/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ParametricHerringboneAndHelicalGears a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Parametric Herringbone and Helical Gears" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Ever since my friend Mike B. showed me a herringbone gear that he had printed from rhys-jones'  Herringbone Geared Extruder blueprints, I've been interested in making my own. What would be really useful, I thought, would be a parametric version of this type of gear--then we could build custom gear sizes for robot parts, or whatever project we have going.  So here is my attempt at using OpenSCAD to generate parametric herringbone gears.\r
 \r
 It's a work in progress, but I hope this might be useful in its current state and maybe as a community we can figure out the best way to generate these.""" ;
@@ -14,6 +16,7 @@ It's a work in progress, but I hope this might be useful in its current state an
     okh:repo <https://www.thingiverse.com/thing:11603> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:11603> .

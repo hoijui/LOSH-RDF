@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A8916/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:BlinkmCylonMkii a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "BlinkM Cylon mkII" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """For Maker Faire this year I made a second version of my BlinkM Cylon: BlinkM Cylon mkII. This is not a very cost-effective way of getting a Cylon effect. It however is a good way of showing how to wire up multiple BlinkMs with a long cable, using the new WireM cabling kit for BlinkM. And unlike normal Cylon circuits, this has full RGB color effects and gradual fading.\r
 \r
 It features a snap-fit laser-cut enclosure.\r
@@ -17,6 +19,7 @@ http://todbot.com/blog/2011/05/29/blinkm-cylon-mkii/""" ;
     okh:repo <https://www.thingiverse.com/thing:8916> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:8916> .

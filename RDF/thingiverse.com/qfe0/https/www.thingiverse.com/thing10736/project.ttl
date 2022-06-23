@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A10736/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:TravelShampooDrainer a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Travel shampoo drainer" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I made this part to keep the bar of shampoo I use out of the water, while it's being stored in a tin.  \r
 \r
 I've modified fdavies' part only slightly.  I cut the pattern into disc instead of hexagon, added some hemispherical feet, and scaled the size to fit into the tin I have.""" ;
@@ -14,6 +16,7 @@ I've modified fdavies' part only slightly.  I cut the pattern into disc instead 
     okh:repo <https://www.thingiverse.com/thing:10736> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:10736> .

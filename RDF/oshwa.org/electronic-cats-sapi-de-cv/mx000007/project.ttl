@@ -2,21 +2,15 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:CatwanCitizen a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "CatWAN Citizen" ;
-    okh:additionalType "['Agriculture', 'Electronics', 'Environmental']" ;
-    okh:certificationDate "2019-03-23T00:00:00-04:00" ;
-    okh:country "Mexico" ;
     okh:dataSource "oshwa.org" ;
     okh:documentationLanguage "en" ;
-    okh:documentationLicense "CC 0" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function "LoRa Smart city sensor, based on open hardware and free software, generating and sharing real open data on air pollution, acoustics and many more, compatible with LoRa and LoRaWAN." ;
-    okh:hardwareLicense "CERN" ;
     okh:licensor "ELECTRONIC CATS SAPI DE CV" ;
-    okh:primaryType "IOT" ;
     okh:repo <https://certification.oshwa.org/mx000007.html> ;
     okh:repoHost "certification.oshwa.org" ;
-    okh:softwareLicense "GPL" ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
     okh:uploadMethod "auto" ;
     okh:version "0.1" ;

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A1561/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:RaumfahrtagenturorgCoretime a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "raumfahrtagentur.org coretime" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """this is a digital 7 segment led wall clock with 42mm high digits based on a atmel atmega168.\r
 the display modules come from RFT, a former manufacturer in the GDR(DDR). (second hand)""" ;
     okh:hasImage :Image ;
@@ -13,6 +15,7 @@ the display modules come from RFT, a former manufacturer in the GDR(DDR). (secon
     okh:repo <https://www.thingiverse.com/thing:1561> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:1561> .

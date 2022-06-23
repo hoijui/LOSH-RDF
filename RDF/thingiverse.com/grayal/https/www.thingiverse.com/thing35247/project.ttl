@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A35247/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ExtraHeightVersionOfPiBox a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Extra height version of Pi Box" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is an extra height version of Adafruit's Pi Box so that there is room to add a RaspyJuice board over the GPIO pins with extra slots for the servo leads and power leads to fit in.\r
 \r
 The RaspyJuice is an 'add-on' board for the Raspberry Pi which makes it easy to power by battery and drive servos. See http://code.google.com/p/raspy-juice/ for more details.\r
@@ -26,6 +28,7 @@ Creative Commons Attribution, Share-Alike""" ;
     okh:repo <https://www.thingiverse.com/thing:35247> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:35247> .

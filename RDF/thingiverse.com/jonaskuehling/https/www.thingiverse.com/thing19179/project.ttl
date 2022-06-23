@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A19179/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:SpiderCouplingWithSugruInsertMold a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Spider coupling with Sugru insert mold" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a derivative of MiseryBot's excellent spider coupling http://www.thingiverse.com/thing:7678\r
 \r
 I basically modified few values to have it fit the 8mm diameter of my trapezoidal spindles - the original thing was adjusted to fit the common M8 threaded rods whose diameter is slightly smaller than 8mm. Additionally I corrected the M3 nut trap sizes since they were little too small to match ISO 4032 nuts.\r
@@ -18,6 +20,7 @@ This is the best performing coupler I used so far. Note that the spindles need t
     okh:repo <https://www.thingiverse.com/thing:19179> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:19179> .

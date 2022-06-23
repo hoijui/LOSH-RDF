@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A7976/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ClockworkLibraryPrintableClockScript a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Clockwork Library & Printable Clock Script" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Winner of the Pattywac Makerbot United Challenge for collaborative design: http://www.makerbot.com/blog/2011/05/16/pattywac-makerbot-united-challenge-winner/  
 
 
@@ -90,6 +92,7 @@ I think this configuration is close to final, except for the escapement, which w
     okh:repo <https://www.thingiverse.com/thing:7976> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:7976> .

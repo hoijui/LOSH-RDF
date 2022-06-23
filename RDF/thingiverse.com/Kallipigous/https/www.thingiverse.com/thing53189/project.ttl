@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A53189/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:AngyBirdyBank a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Angy Birdy Bank." ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "This is a piggy bank in the shape of the red angry bird as dictated by my 7 year old. It's designed to be printed in four colors: red, white, black and gold to match the character. It has a (crude) plug in the bottom that you can screw in and out for the money to be released. The slot at the top is designed for quarters but if you want to use if for other currencies for larger coins you could just scale it a bit. An English 2 Pence piece almost fits as it is." ;
     okh:hasImage :Image ;
     okh:licensor "Kallipigous" ;
     okh:repo <https://www.thingiverse.com/thing:53189> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:53189> .

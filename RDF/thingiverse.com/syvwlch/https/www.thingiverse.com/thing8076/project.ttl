@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A8076/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ClockScriptForReducedFriction4Gears2Shafts a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Clock Script for Reduced Friction (4 gears, 2 shafts)" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is an alternate configuration for the printable clock, using four gears instead of eight, as well as some suggestions from rustedrobot and barrychuck (thanks guys!) to further reduce friction in the gear train, like only using concentric shafts to support the hands. \r
 \r
 It's also much faster to print, of course! :-)\r
@@ -23,6 +25,7 @@ http://www.thingiverse.com/thing:8155""" ;
     okh:repo <https://www.thingiverse.com/thing:8076> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:8076> .

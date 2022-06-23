@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A18317/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:T800TerminatorExoskull a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "T-800 Terminator Exoskull" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I've been looking for one of these a long time, but was unable to find a printable model anywhere. I finally gave in and heavily modified the terminator skull found at: http://grabcad.com/library/terminator-head   
 
 and made it a single, solid mesh, learning how to use blender in the process.   
@@ -22,6 +24,7 @@ The original was printed on a Fablicator.  www.Fablicator.com""" ;
     okh:repo <https://www.thingiverse.com/thing:18317> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:18317> .

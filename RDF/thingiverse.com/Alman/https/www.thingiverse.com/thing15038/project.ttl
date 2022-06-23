@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A15038/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:DcPowerSocketCover a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "DC Power Socket Cover" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "Protective cover for SB 350 series by Anderson Power Products or similar. I recently acquired a power winch for my pickup truck, as it is a receiver mount style, it will only be mounted there while in use. I will use it at either end of my truck, therefore I will have one of these power sockets on each bumper. The covers will keep crap out of them, ensuring they will be reliable when needed the most." ;
     okh:hasImage :Image ;
     okh:licensor "Alman" ;
     okh:repo <https://www.thingiverse.com/thing:15038> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:15038> .

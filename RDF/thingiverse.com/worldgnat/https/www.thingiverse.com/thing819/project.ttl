@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A819/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MountingBracket a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Mounting Bracket" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a mounting bracket designed for attaching things to walls. I tried to make it relatively strong and look half decent. The edges could be rounded, the support could go to the middle of the "shelf" rather than the end of it, and the lip at the end could look less awkward, but it should at least be functional.\r
 \r
 There are two versions. One has holes in the top and the bottom, as well as another hole in the support so you can actually get to the hole in the bottom with a drill. I'm a little Blender-challenged, especially when it comes to measurements, so I don't know the exact diameter of the holes, but I was aiming for about 3mm. That should be about the size of your standard dry-wall screw. The other version has no holes in case my estimation was totally off, if you want to use another size screw, scale the model up and use the same size screw, or whatever.""" ;
@@ -14,6 +16,7 @@ There are two versions. One has holes in the top and the bottom, as well as anot
     okh:repo <https://www.thingiverse.com/thing:819> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:819> .

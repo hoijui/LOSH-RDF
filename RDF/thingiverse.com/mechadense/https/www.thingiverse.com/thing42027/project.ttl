@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A42027/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ExperimentalWhistleI a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Experimental Whistle I" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """To sharpen the blade and polish the channel both can be slided out and are easily acessible with files or sanding paper. The sliding also should permit adjustment for maximum loudness. (It needs to be tweaked since at the moment it is loudest on the maximally open position)\r
 \r
 This whistle is designed in such a way that no flat top printing surfaces are visible to the internal chamber meaning that even if your flow settings are a bit too low the chamber will still be airtight. Its made out of two half-shells to avoid any internal overhangs.""" ;
@@ -14,6 +16,7 @@ This whistle is designed in such a way that no flat top printing surfaces are vi
     okh:repo <https://www.thingiverse.com/thing:42027> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:42027> .

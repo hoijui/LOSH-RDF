@@ -2,22 +2,15 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:CalliopeMini a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Calliope mini" ;
-    okh:additionalType "['Arts', 'Electronics', 'IOT', 'Robotics', 'Science', 'Wearables']" ;
-    okh:certificationDate "2020-10-23T00:00:00-04:00" ;
-    okh:country "Germany" ;
-    okh:cpcPatentClass "Arts" ;
     okh:dataSource "oshwa.org" ;
     okh:documentationLanguage "en" ;
-    okh:documentationLicense "CC BY" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function "We tried other microcontrollers with primary school children and in the end it was clear: We need one that the children can handle without easily producing short circuits. A board that teachers, pupils and students can use in the classroom without necessarily having to distribute and solder other small parts. A board that is loud and colourful. And last but not least, we also need the possibility for children and teachers to bring the minicomputer to life with a simple programming language." ;
-    okh:hardwareLicense "CERN" ;
     okh:licensor "Calliope" ;
-    okh:primaryType "Education" ;
     okh:repo <https://certification.oshwa.org/de000092.html> ;
     okh:repoHost "certification.oshwa.org" ;
-    okh:softwareLicense "MIT" ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
     okh:uploadMethod "auto" ;
     okh:version "2.0" ;

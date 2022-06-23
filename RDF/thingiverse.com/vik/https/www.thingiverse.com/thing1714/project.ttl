@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A1714/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MendelYBeltClamp a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Mendel Y Belt Clamp" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a clamp that attaches directly to the underside of the Mendel deposition bed when used with http://www.thingiverse.com/thing:1708 feet. Like the feet, it used No. 4 1/2" countersunk woodscrews or equivalent. The belt is clamped in place by 2 M4 nuts, M4 washers and M4x16mm machine screws.\r
 \r
 It's kinda neat in that it uses the mess caused when trying to cap a hexagonal hole as a means to entrap a nut.""" ;
@@ -14,6 +16,7 @@ It's kinda neat in that it uses the mess caused when trying to cap a hexagonal h
     okh:repo <https://www.thingiverse.com/thing:1714> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:1714> .

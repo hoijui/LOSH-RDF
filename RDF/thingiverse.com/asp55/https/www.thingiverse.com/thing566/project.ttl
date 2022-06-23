@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A566/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ArduinoControlledDimmerSwitch a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Arduino controlled Dimmer Switch" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I designed this as a component for a piece that I'm not ready to reveal the whole story of yet.\r
 \r
 This portion of the project contains an outlet, a dimmer switch, and a servo (and for now: a dirty rubber band). The servo operates the dimmer, which in turn controls the amount of current going through one of the outlet's two sockets. (The other one delivers consistent power to the micro-controller / servo via a wall wart.) This is a really nice way to control an outlet...because in all truth, full source voltage is scary, scary stuff.""" ;
@@ -14,6 +16,7 @@ This portion of the project contains an outlet, a dimmer switch, and a servo (an
     okh:repo <https://www.thingiverse.com/thing:566> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:566> .

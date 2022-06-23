@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A32722/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:TardisBox a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Tardis Box" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """A tardis box with removable lid. Designed for girlfriend to use to keep things like dollar bills in. It was created by me in sketchup and created to scale and then scaled down in order to fit in a 3d printer. As i don't have a 3D printer till end of 2012, not sure how it will print out.\r
 \r
 *Update: Made walls thicker so hopefully it should be more stable now.""" ;
@@ -14,6 +16,7 @@
     okh:repo <https://www.thingiverse.com/thing:32722> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:32722> .

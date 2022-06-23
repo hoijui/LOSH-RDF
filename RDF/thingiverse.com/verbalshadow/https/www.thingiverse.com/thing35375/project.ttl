@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A35375/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:TheLandlordGame a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "The Landlord Game" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is my birthday present to the world.\r
 \r
 The Landlord Game is my attempt to free the Board game Monopoly. The Patent on the game (and it precessors like "The Landlord's Game") has long since expired. However the length of the copyright means that the owner still has a firm control over how people can gain access to this classic game. To fix this problem I decided to create a new board and assorted cards free from all of the IP issues. My board design is inspired by both the orginal patent designs for both Monoply and The Landlord's Game. Using Only Black and White to be sure that it can be printed and used by as many people as possible. Throw in a dash of the modern/older ages and we are almost there. There are a few difference between Monoply and The Landlord Game.\r
@@ -21,6 +23,7 @@ Joshua L. Blocher verbalshadow@gmail.com""" ;
     okh:repo <https://www.thingiverse.com/thing:35375> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:35375> .

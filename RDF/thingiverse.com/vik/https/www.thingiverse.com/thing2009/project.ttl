@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A2009/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:SpikyGearFor33Or35mmBallChain a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Spiky gear for 3.3 or 3.5mm ball chain" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """These are tiny little ball-chain gears that work with 3.3mm and 3.5mm diameter ball-chain, and still fit on the NEMA17\\'s 5mm output shaft. They are designed for the X and Y axis of a Mendel, though the X axis and deposition bed still need a little more work. Obviously, they can be used elsewhere.\r
 \r
 The gears are designed to be \\"spiky\\", but the vaguearities of the printing and rendering process lop the spikes off and leave enough by accident to produce a functioning gear!""" ;
@@ -14,6 +16,7 @@ The gears are designed to be \\"spiky\\", but the vaguearities of the printing a
     okh:repo <https://www.thingiverse.com/thing:2009> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:2009> .

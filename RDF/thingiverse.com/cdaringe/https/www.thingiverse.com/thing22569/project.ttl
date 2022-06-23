@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A22569/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:BikeStandToolPartsTrayParkSpinDoctor a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Bike Stand Tool & Parts Tray  // Park & Spin Doctor" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Riding your bike is awesome.  Working on your bike is fun too.  Sometimes.\r
 \r
 This little tool tray will hold your small parts, some wrenches, some screw drivers, an aerosol can, another small bottle (chain lube!), or perhaps some other widgets!  Bring the tools to your work plane!  This is for your wrenching pleasure.""" ;
@@ -14,6 +16,7 @@ This little tool tray will hold your small parts, some wrenches, some screw driv
     okh:repo <https://www.thingiverse.com/thing:22569> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:22569> .

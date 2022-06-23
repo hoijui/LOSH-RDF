@@ -2,29 +2,29 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:KrabV10 a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Krab v1.0" ;
     okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "Krab is a small 6-axis robotic arm controlled from Rhino Grasshopper environment enabled to do both Forward and Inverse Kinematics in a 180 degree space in each of the axes." ;
     okh:hasComponent :Electronicsfileskrabv6board,
-        :Files3dPrintedPartsj1,
-        :Files3dPrintedPartsj1holder,
-        :Files3dPrintedPartsj2,
-        :Files3dPrintedPartsj3,
-        :Files3dPrintedPartsj4,
-        :Files3dPrintedPartsj5n,
-        :Files3dPrintedPartsservoholder,
-        :Files3dPrintedPartsservoholdermirror,
-        :Files3dPrintedPartszaxis,
-        :FilescncPartsbasebottom,
-        :FilescncPartsbasetop,
+        :Files3dprintedpartsj1,
+        :Files3dprintedpartsj1holder,
+        :Files3dprintedpartsj2,
+        :Files3dprintedpartsj3,
+        :Files3dprintedpartsj4,
+        :Files3dprintedpartsj5n,
+        :Files3dprintedpartsservoholder,
+        :Files3dprintedpartsservoholdermirror,
+        :Files3dprintedpartszaxis,
+        :Filescncpartsbasebottom,
+        :Filescncpartsbasetop,
         :Fileseaglekrabboardv6,
         :Fileseaglekrabv6board,
-        :FileslaserCuttingPartsbearingplate,
-        :FileslaserCuttingPartsj1basecut,
-        :FilesmodelControlInterfacekrabmasterlite,
-        :InterfaceAndApplicationProgrammingfileskrabmasterlite ;
+        :Fileslasercuttingpartsbearingplate,
+        :Fileslasercuttingpartsj1basecut,
+        :Filesmodelcontrolinterfacekrabmasterlite,
+        :Interfaceandapplicationprogrammingfileskrabmasterlite ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "Avishek Das" ;
@@ -48,156 +48,156 @@
     rdfs:label "Export File of Electronics/Files/krab_v6_board of Krab v1.0 e7ae919d65e81c3f991cd8208d1bada8d3eed7e0" ;
     okh:fileFormat "SCH" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/981/krabv6board.sch> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMDY5Nw==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/981/krabv6board.sch> .
 
 :Electronicsfileskrabv6board_source a okh:SourceFile ;
     rdfs:label "Source File of Electronics/Files/krab_v6_board of Krab v1.0 e7ae919d65e81c3f991cd8208d1bada8d3eed7e0" ;
     okh:fileFormat "BRD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/981/krabv6board.brd> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMDY5OA==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/981/krabv6board.brd> .
 
-:Files3dPrintedPartsj1 a okh:Part ;
+:Files3dprintedpartsj1 a okh:Part ;
     rdfs:label "Files/3D Printed Parts/J1" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Files3dPrintedPartsj1_source ;
+    okh:source :Files3dprintedpartsj1_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Files3dPrintedPartsj1_source a okh:SourceFile ;
+:Files3dprintedpartsj1_source a okh:SourceFile ;
     rdfs:label "Source File of Files/3D Printed Parts/J1 of Krab v1.0 e7ae919d65e81c3f991cd8208d1bada8d3eed7e0" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/981/j1.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMDg4MQ==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/981/j1.stl> .
 
-:Files3dPrintedPartsj1holder a okh:Part ;
+:Files3dprintedpartsj1holder a okh:Part ;
     rdfs:label "Files/3D Printed Parts/J1_holder" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Files3dPrintedPartsj1holder_source ;
+    okh:source :Files3dprintedpartsj1holder_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Files3dPrintedPartsj1holder_source a okh:SourceFile ;
+:Files3dprintedpartsj1holder_source a okh:SourceFile ;
     rdfs:label "Source File of Files/3D Printed Parts/J1_holder of Krab v1.0 e7ae919d65e81c3f991cd8208d1bada8d3eed7e0" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/981/j1-holder.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMDg4MA==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/981/j1-holder.stl> .
 
-:Files3dPrintedPartsj2 a okh:Part ;
+:Files3dprintedpartsj2 a okh:Part ;
     rdfs:label "Files/3D Printed Parts/J2" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Files3dPrintedPartsj2_source ;
+    okh:source :Files3dprintedpartsj2_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Files3dPrintedPartsj2_source a okh:SourceFile ;
+:Files3dprintedpartsj2_source a okh:SourceFile ;
     rdfs:label "Source File of Files/3D Printed Parts/J2 of Krab v1.0 e7ae919d65e81c3f991cd8208d1bada8d3eed7e0" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/981/j2.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMDg4Mg==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/981/j2.stl> .
 
-:Files3dPrintedPartsj3 a okh:Part ;
+:Files3dprintedpartsj3 a okh:Part ;
     rdfs:label "Files/3D Printed Parts/J3" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Files3dPrintedPartsj3_source ;
+    okh:source :Files3dprintedpartsj3_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Files3dPrintedPartsj3_source a okh:SourceFile ;
+:Files3dprintedpartsj3_source a okh:SourceFile ;
     rdfs:label "Source File of Files/3D Printed Parts/J3 of Krab v1.0 e7ae919d65e81c3f991cd8208d1bada8d3eed7e0" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/981/j3.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMDg4Mw==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/981/j3.stl> .
 
-:Files3dPrintedPartsj4 a okh:Part ;
+:Files3dprintedpartsj4 a okh:Part ;
     rdfs:label "Files/3D Printed Parts/J4" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Files3dPrintedPartsj4_source ;
+    okh:source :Files3dprintedpartsj4_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Files3dPrintedPartsj4_source a okh:SourceFile ;
+:Files3dprintedpartsj4_source a okh:SourceFile ;
     rdfs:label "Source File of Files/3D Printed Parts/J4 of Krab v1.0 e7ae919d65e81c3f991cd8208d1bada8d3eed7e0" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/981/j4.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMDg4NA==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/981/j4.stl> .
 
-:Files3dPrintedPartsj5n a okh:Part ;
+:Files3dprintedpartsj5n a okh:Part ;
     rdfs:label "Files/3D Printed Parts/J5_N" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Files3dPrintedPartsj5n_source ;
+    okh:source :Files3dprintedpartsj5n_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Files3dPrintedPartsj5n_source a okh:SourceFile ;
+:Files3dprintedpartsj5n_source a okh:SourceFile ;
     rdfs:label "Source File of Files/3D Printed Parts/J5_N of Krab v1.0 e7ae919d65e81c3f991cd8208d1bada8d3eed7e0" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/981/j5n.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMDg4Nw==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/981/j5n.stl> .
 
-:Files3dPrintedPartsservoholder a okh:Part ;
+:Files3dprintedpartsservoholder a okh:Part ;
     rdfs:label "Files/3D Printed Parts/Servo_Holder" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Files3dPrintedPartsservoholder_source ;
+    okh:source :Files3dprintedpartsservoholder_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Files3dPrintedPartsservoholder_source a okh:SourceFile ;
+:Files3dprintedpartsservoholder_source a okh:SourceFile ;
     rdfs:label "Source File of Files/3D Printed Parts/Servo_Holder of Krab v1.0 e7ae919d65e81c3f991cd8208d1bada8d3eed7e0" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/981/servo-holder.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMDg4NQ==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/981/servo-holder.stl> .
 
-:Files3dPrintedPartsservoholdermirror a okh:Part ;
+:Files3dprintedpartsservoholdermirror a okh:Part ;
     rdfs:label "Files/3D Printed Parts/Servo_Holder_mirror" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Files3dPrintedPartsservoholdermirror_source ;
+    okh:source :Files3dprintedpartsservoholdermirror_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Files3dPrintedPartsservoholdermirror_source a okh:SourceFile ;
+:Files3dprintedpartsservoholdermirror_source a okh:SourceFile ;
     rdfs:label "Source File of Files/3D Printed Parts/Servo_Holder_mirror of Krab v1.0 e7ae919d65e81c3f991cd8208d1bada8d3eed7e0" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/981/servo-holder-mirror.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMDg4Ng==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/981/servo-holder-mirror.stl> .
 
-:Files3dPrintedPartszaxis a okh:Part ;
+:Files3dprintedpartszaxis a okh:Part ;
     rdfs:label "Files/3D Printed Parts/Z_axis" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :Files3dPrintedPartszaxis_source ;
+    okh:source :Files3dprintedpartszaxis_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Files3dPrintedPartszaxis_source a okh:SourceFile ;
+:Files3dprintedpartszaxis_source a okh:SourceFile ;
     rdfs:label "Source File of Files/3D Printed Parts/Z_axis of Krab v1.0 e7ae919d65e81c3f991cd8208d1bada8d3eed7e0" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/981/z-axis.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMDg4OA==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/981/z-axis.stl> .
 
-:FilescncPartsbasebottom a okh:Part ;
+:Filescncpartsbasebottom a okh:Part ;
     rdfs:label "Files/CNC Parts/Base_Bottom" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :FilescncPartsbasebottom_source ;
+    okh:source :Filescncpartsbasebottom_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:FilescncPartsbasebottom_source a okh:SourceFile ;
+:Filescncpartsbasebottom_source a okh:SourceFile ;
     rdfs:label "Source File of Files/CNC Parts/Base_Bottom of Krab v1.0 e7ae919d65e81c3f991cd8208d1bada8d3eed7e0" ;
     okh:fileFormat "DXF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/981/base-bottom.dxf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMDg5MA==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/981/base-bottom.dxf> .
 
-:FilescncPartsbasetop a okh:Part ;
+:Filescncpartsbasetop a okh:Part ;
     rdfs:label "Files/CNC Parts/Base_Top" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :FilescncPartsbasetop_source ;
+    okh:source :Filescncpartsbasetop_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:FilescncPartsbasetop_source a okh:SourceFile ;
+:Filescncpartsbasetop_source a okh:SourceFile ;
     rdfs:label "Source File of Files/CNC Parts/Base_Top of Krab v1.0 e7ae919d65e81c3f991cd8208d1bada8d3eed7e0" ;
     okh:fileFormat "DXF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/981/base-top.dxf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMDg4OQ==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/981/base-top.dxf> .
 
 :Fileseaglekrabboardv6 a okh:Part ;
     rdfs:label "Files/EAGLE/krab_board_v6" ;
@@ -210,7 +210,7 @@
     rdfs:label "Source File of Files/EAGLE/krab_board_v6 of Krab v1.0 e7ae919d65e81c3f991cd8208d1bada8d3eed7e0" ;
     okh:fileFormat "SCH" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/981/krabboardv6-0.sch> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMDg5MQ==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/981/krabboardv6-0.sch> .
 
 :Fileseaglekrabv6board a okh:Part ;
     rdfs:label "Files/EAGLE/krab_v6_board" ;
@@ -223,69 +223,69 @@
     rdfs:label "Source File of Files/EAGLE/krab_v6_board of Krab v1.0 e7ae919d65e81c3f991cd8208d1bada8d3eed7e0" ;
     okh:fileFormat "BRD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/981/krabv6board-0.brd> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMDg5Mg==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/981/krabv6board-0.brd> .
 
-:FileslaserCuttingPartsbearingplate a okh:Part ;
+:Fileslasercuttingpartsbearingplate a okh:Part ;
     rdfs:label "Files/Laser Cutting Parts/Bearing_Plate" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :FileslaserCuttingPartsbearingplate_source ;
+    okh:source :Fileslasercuttingpartsbearingplate_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:FileslaserCuttingPartsbearingplate_source a okh:SourceFile ;
+:Fileslasercuttingpartsbearingplate_source a okh:SourceFile ;
     rdfs:label "Source File of Files/Laser Cutting Parts/Bearing_Plate of Krab v1.0 e7ae919d65e81c3f991cd8208d1bada8d3eed7e0" ;
     okh:fileFormat "DXF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/981/bearing-plate.dxf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMDg5OA==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/981/bearing-plate.dxf> .
 
-:FileslaserCuttingPartsj1basecut a okh:Part ;
+:Fileslasercuttingpartsj1basecut a okh:Part ;
     rdfs:label "Files/Laser Cutting Parts/J1_base_Cut" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :FileslaserCuttingPartsj1basecut_source ;
+    okh:source :Fileslasercuttingpartsj1basecut_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:FileslaserCuttingPartsj1basecut_source a okh:SourceFile ;
+:Fileslasercuttingpartsj1basecut_source a okh:SourceFile ;
     rdfs:label "Source File of Files/Laser Cutting Parts/J1_base_Cut of Krab v1.0 e7ae919d65e81c3f991cd8208d1bada8d3eed7e0" ;
     okh:fileFormat "DXF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/981/j1-base-cut.dxf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMDg5Nw==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/981/j1-base-cut.dxf> .
 
-:FilesmodelControlInterfacekrabmasterlite a okh:Part ;
+:Filesmodelcontrolinterfacekrabmasterlite a okh:Part ;
     rdfs:label "Files/Model Control Interface/Krab_Master_Lite" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :FilesmodelControlInterfacekrabmasterlite_source ;
+    okh:source :Filesmodelcontrolinterfacekrabmasterlite_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:FilesmodelControlInterfacekrabmasterlite_source a okh:SourceFile ;
+:Filesmodelcontrolinterfacekrabmasterlite_source a okh:SourceFile ;
     rdfs:label "Source File of Files/Model Control Interface/Krab_Master_Lite of Krab v1.0 e7ae919d65e81c3f991cd8208d1bada8d3eed7e0" ;
     okh:fileFormat "3DM" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/981/krabmasterlite-0.3dm> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMDg5Mw==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/981/krabmasterlite-0.3dm> .
 
 :Image a okh:Image ;
     rdfs:label "Image of Krab v1.0 e7ae919d65e81c3f991cd8208d1bada8d3eed7e0" ;
     okh:fileFormat "JPG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/981/18finalprojectfabacademy2017avishek-daskrabassembly15.jpg> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMDg1Ng==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/981/18finalprojectfabacademy2017avishek-daskrabassembly15.jpg> .
 
-:InterfaceAndApplicationProgrammingfileskrabmasterlite a okh:Part ;
+:Interfaceandapplicationprogrammingfileskrabmasterlite a okh:Part ;
     rdfs:label "Interface and Application Programming/Files/Krab_Master_Lite" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :InterfaceAndApplicationProgrammingfileskrabmasterlite_source ;
+    okh:source :Interfaceandapplicationprogrammingfileskrabmasterlite_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:InterfaceAndApplicationProgrammingfileskrabmasterlite_source a okh:SourceFile ;
+:Interfaceandapplicationprogrammingfileskrabmasterlite_source a okh:SourceFile ;
     rdfs:label "Source File of Interface and Application Programming/Files/Krab_Master_Lite of Krab v1.0 e7ae919d65e81c3f991cd8208d1bada8d3eed7e0" ;
     okh:fileFormat "3DM" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/981/krabmasterlite.3dm> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMDg1MA==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/981/krabmasterlite.3dm> .
 
 :Readme a okh:Readme ;
     rdfs:label "Readme of Krab v1.0 e7ae919d65e81c3f991cd8208d1bada8d3eed7e0" ;
     okh:fileFormat "MD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/981/readme-39.md> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMTM1NA==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/981/readme-39.md> .
 

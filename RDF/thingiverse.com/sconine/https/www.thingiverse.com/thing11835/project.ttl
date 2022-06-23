@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A11835/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:StackingLogsForALogCabin a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Stacking Logs for a Log Cabin" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Another model that was inspired by my kids.  Classic logs to stack, sort of like Lincoln Logs, but I don't think they are the same size as Lincoln Logs.  3 different log styles and a roof.  These things are easy to print and roll right off the automated build platform.\r
 \r
 We have had some debates around the house about the cost of these logs, I suppose given the amount of plastic in them, energy used to make them, etc... they are pretty inefficient.  My point of view is that at this point in the evolution of 3-D printing we're still trying to discover what is worth printing, so with that in mind, figured what the heck might as well post these since they are kind of fun.\r
@@ -16,6 +18,7 @@ Thanks for the comments!  Pretty interesting to see the math behind the cost.  M
     okh:repo <https://www.thingiverse.com/thing:11835> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:11835> .

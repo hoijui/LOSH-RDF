@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A15163/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MendelmaxYaxisMakerslideMount a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "MendelMax y-axis Makerslide mount" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is pretty close to the original y-axis makerslide mount.  It uses a little less material and moves the makerslide down about 20mm to recover a little wasted Z.\r
 \r
 Also included are some very simple belt hold downs that fit the hole pattern of the original makerslide y-carriage, but aren't so tall that they'll cause problems - which will happen if you use this new y-mount and the old belt anchors.\r
@@ -16,6 +18,7 @@ Note: My carriage is tall, if yours is not as tall as mine this may lower your m
     okh:repo <https://www.thingiverse.com/thing:15163> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:15163> .

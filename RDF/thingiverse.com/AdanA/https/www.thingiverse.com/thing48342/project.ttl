@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A48342/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:HandyStackingPartsBin a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Handy Stacking Parts Bin" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Nothing super special, just a nice little bin.\r
  \r
 I have grander ambitions to make these in various complementary sizes and shapes, add divider features, make a toolbox system that works with them, etc. While I get around to doing any of those things, however, this is a nice busykeeper for when I'm not quite ready for the printer to print something else.""" ;
@@ -14,6 +16,7 @@ I have grander ambitions to make these in various complementary sizes and shapes
     okh:repo <https://www.thingiverse.com/thing:48342> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:48342> .

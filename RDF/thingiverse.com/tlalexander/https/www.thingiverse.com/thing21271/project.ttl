@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A21271/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PrusasPcbHeatbeadMk1DxfPdfAndJpgDrawing a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Prusa's PCB Heatbead Mk1 DXF, PDF and JPG drawing" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Want to make a plate of some kind to match up with your fancy MK1 heated bed?\r
 \r
 Well, its pretty easy to download the excellent and free EagleCAD software to get the measurements, but from the comments it seemed quite a few people weren't savvy to that, and even then, exporting DXFs is a bit funny (File->Run->dxf.ulp) so I figured I'd continue my habit of converting things (I've learned how to convert just about anything into just about anything else) and just go and do it for you!\r
@@ -19,6 +21,7 @@ http://www.thingiverse.com/thing:3919""" ;
     okh:repo <https://www.thingiverse.com/thing:21271> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:21271> .

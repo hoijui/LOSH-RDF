@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A48411/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:HtcEvo4gLteOneXStand a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "HTC EVO 4g LTE / One X Stand " ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Has tunnel for speaker for better sound. I recently found out that this will work with the HTC One X, but have not tested it.\r
 \r
 I just got this back from Shapeways. Unfortunately it was 2mm less wide than it should have been. I had to modify it a LOT using an exacto knife. \r
@@ -18,6 +20,7 @@ Let me know if you like it!! I'll have a full case up soon ;)""" ;
     okh:repo <https://www.thingiverse.com/thing:48411> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:48411> .

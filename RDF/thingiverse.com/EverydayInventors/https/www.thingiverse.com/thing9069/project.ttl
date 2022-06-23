@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A9069/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Attiny13v8soicTo8dilBreakout a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "ATtiny13V 8SOIC to 8DIL breakout " ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """While making an order at a large on-line parts supplier I added a hand-full of low-cost ATtiny13V microcontrollers to my order as an impulse buy.  It was only after my order arrived that I discovered I had accidentally ordered the SOIC version rather than the DIP version of this chip. No problem!  With a little work in EAGLE it is possible to design a small breakout board to convert the 8pin SOIC chip into a breadboard friendly 8pin DIL package with the added benefit of a reset switch and an in-system programming header.\r
 \r
 I haven't actually built this thing yet, so there are no guarantees it will work.  Next time I have a batch of prototypes manufactured I'll throw this design in also to test.  I'll update this post/thing accordingly.\r
@@ -16,6 +18,7 @@ Update: it works.""" ;
     okh:repo <https://www.thingiverse.com/thing:9069> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:9069> .

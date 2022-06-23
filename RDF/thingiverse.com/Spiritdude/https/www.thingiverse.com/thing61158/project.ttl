@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A61158/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Openjscadorg a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "OpenJSCAD.org" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "OpenJSCAD with OpenSCAD-like functions to ease transition from OpenSCAD to OpenJSCAD, yet object-oriented programming interface as of OpenJsCad, interactive parametric models, etc. with new frontend for local or online editing." ;
     okh:hasImage :Image ;
     okh:licensor "Spiritdude" ;
     okh:repo <https://www.thingiverse.com/thing:61158> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/BSD-4-Clause> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:61158> .

@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A52679/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:NamePlate a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Name Plate" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "Very simple name plate made with flimsy little stands for my recently promoted mother. The plate is 8 by 2 inches and the stands are 2.35 by 0.575." ;
     okh:hasImage :Image ;
     okh:licensor "Slynch" ;
     okh:repo <https://www.thingiverse.com/thing:52679> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:52679> .

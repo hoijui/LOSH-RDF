@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A9821/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:CheapandeasyModelRocket a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Cheap-and-easy model rocket" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Just in time for the Fourth of July! This is intended to be a semi-disposable dirt-cheap model rocket that can be produced in under an hour on a makerbot in only one print. It uses standard inexpensive estes C-class motors since these are not much more expensive than an A motor and much more powerful. It has been flown three times and has performed well each time. It does not have a parachute or any other recovery mechanism and on the occasions I've flown it I have yet to retrieve one since it travels extremely high and seems to disintegrate when the ejection charge goes off. I flew it mainly at night for the spark trail effects and couldn't find it afterwords, but judging by the impressive visible trail it flew very far and straight. \r
 \r
 Disclaimer: This rocket has no method of retarding it's descent and presents a potential hazard to anyone in the area, fly only in uninhabited areas and at your own risk.\r
@@ -16,6 +18,7 @@ Design Features: The six fins towards the back give this rocket good stability d
     okh:repo <https://www.thingiverse.com/thing:9821> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:9821> .

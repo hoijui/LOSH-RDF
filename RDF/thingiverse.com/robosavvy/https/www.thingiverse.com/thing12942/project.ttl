@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A12942/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:AluminumSlidingWindowWindTopProtection a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Aluminum Sliding window Wind Top protection" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Here at our office we have Aluminium sliding windows that do not prevent the wind from comming in in the joining of the two windows so this part solves that issue :)\r
 \r
 This is to be used on the top part of the window, if you are looking for the piece for the down part of the windows check the thing http://www.thingiverse.com/thing:12939\r
@@ -16,6 +18,7 @@ Just measure your Aluminium window and adjust the piece size to fit there.""" ;
     okh:repo <https://www.thingiverse.com/thing:12942> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:12942> .

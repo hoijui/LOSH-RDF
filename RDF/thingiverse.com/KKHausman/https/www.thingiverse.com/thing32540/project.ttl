@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A32540/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:SmallFunnelForHipFlask a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Small Funnel for Hip Flask" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "This is a small funnel for filling narrow throated vessels like perfume bottles or hip flasks. The funnel's neck is 4.7mm wide and 10mm long." ;
     okh:hasImage :Image ;
     okh:licensor "KKHausman" ;
     okh:repo <https://www.thingiverse.com/thing:32540> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:32540> .

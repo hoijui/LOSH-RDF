@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A28859/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:AssassinsCreedHiddenBlade a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Assassins Creed Hidden Blade" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a model of the hidden blade used in the first Assassins Creed game. Based on popular switchblade designs can now be printed and assembled for a working replica. Intended for display and bragging rights only!   \r
 WARNING!! This object is very large by design and is meant for a Makerbot Replicators build plate!  \r
 EDIT (05/08/2014) - I fixed all of the solid issues with the parts and replaced download files with updated versions. Still working on changing the design to a smaller version.  \r
@@ -15,6 +17,7 @@ EDIT (08/13/2014) - Alright, I'm getting a bit tired of the nasty remarks going 
     okh:repo <https://www.thingiverse.com/thing:28859> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:28859> .

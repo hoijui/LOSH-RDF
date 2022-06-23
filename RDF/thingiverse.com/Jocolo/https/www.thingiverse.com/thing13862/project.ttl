@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A13862/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Ancientaliasspickup a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Ancient (aliass:pick-up)" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """We have had this design that it looks like a old car, the impression time is too long so we have thought about separating in diferent parts; we will upload the parts that we have separated for you can print this parts if you want. Is important that if you want to separate in different parts, you have to do a small axis by way of union between those parts.\r
 The axis methos is usefull to unite with your chassis.(Note: the chassis ,which appears here, is back down,then when you have printed the chassis, you're going to realize of that the correct way is the opposite). \r
 Enjoy your print!""" ;
@@ -14,6 +16,7 @@ Enjoy your print!""" ;
     okh:repo <https://www.thingiverse.com/thing:13862> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:13862> .

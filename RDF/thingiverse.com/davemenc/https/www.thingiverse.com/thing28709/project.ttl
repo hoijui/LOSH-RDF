@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A28709/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:BungieClip a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Bungie Clip" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is an adjustable bungie clip. With this and a length of bungie cord you can secure things without the normal hooks. \r
 \r
 Generally, the hooks are OK but if you have a bungie cord that's too long with hooks you're kind of out of luck. And if the thing you're trying to secure is a bundle of pipes, the hooks really get in the way because they don't bend well around the bundle.\r
@@ -17,6 +19,7 @@ The clip is fully functional right now but it could be less clunkly looking, mor
     okh:repo <https://www.thingiverse.com/thing:28709> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:28709> .

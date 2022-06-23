@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A3961/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:IsaacXAxisOptoFlag a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Isaac X Axis Opto Flag" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a printable X-Axis flag for my Fleming CNC Isaac. It will only work if you are using Adrian's Geared extruder driver as well. It is the first thing I have printed that I designed myself. It is the second functional thing I designed in openscad. The file is not easily parametric (no variables). \r
 \r
 I am going to be posting my Z and Y brackets/flags for Isaac as well.""" ;
@@ -14,6 +16,7 @@ I am going to be posting my Z and Y brackets/flags for Isaac as well.""" ;
     okh:repo <https://www.thingiverse.com/thing:3961> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:3961> .

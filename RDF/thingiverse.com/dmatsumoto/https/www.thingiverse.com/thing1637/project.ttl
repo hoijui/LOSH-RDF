@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A1637/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:SingleWalledTestPiece a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Single walled test piece" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I was trying to dial in my Cupcake using da3v's single walled test piece, and for some reason my Cupcake started to print the design really strangely as I tweaked the settings.  Eventually, even restoring the default settings would result in a print with weird blobs and the stage would orbit a lot, even though my first five prints with the same STL file were great.\r
 \r
 Anyhow, it sounds like the problem is with my Skeinforge settings not liking the smaller wall sizes.  Just to keep things consistent, I remade the part in Alibre Design to have 0.5mm walls all of the way around.  The rounded corners have a constant 0.5mm thickness as well.""" ;
@@ -14,6 +16,7 @@ Anyhow, it sounds like the problem is with my Skeinforge settings not liking the
     okh:repo <https://www.thingiverse.com/thing:1637> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:1637> .

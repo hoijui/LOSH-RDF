@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A4367/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:EcMount a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "EC Mount" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a "clip on" mount for the EC board, with an added option for a fan base to keep it cool.\r
 I developed this idea as a way to allow for a simple interchange between the extruder and the Unicorn pen plotter. No more bolting on and bolting off of the controller from one tool to the next.\r
 I have uploaded the stl files of the controller mount and the fan plate, along with the rar file of the SolidWorks assembly.""" ;
@@ -14,6 +16,7 @@ I have uploaded the stl files of the controller mount and the fan plate, along w
     okh:repo <https://www.thingiverse.com/thing:4367> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:4367> .

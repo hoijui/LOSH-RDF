@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A8885/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:SfmScanner a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "SFM Scanner" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Structure from motion is a class of algorithms that take information about point correspondences between images and use them to reconstruct 3D scenes. While some pretty serious math is involved, no specialist hardware is required aside from a camera. \r
 \r
 We've seen lots of structure from motion based 3D scanning solutions already this year, the best known being http://my3dscanner.com/, but all of them are closed source. This is hard to deal with when I see cool things like Qi Pan's ProFORMA software (http://www.youtube.com/watch?v=vEOmzjImsVc&fmt=22) but can't use them or look at how they work. There's been plenty of good open source innovation in laser based 3D scanners, but very little on the software side of scanning, which kind of surprises me given that software is usually the area that people think of as conducive to an open source approach. \r
@@ -24,6 +26,7 @@ If you're interested in more detail on how everything was done you can read my f
     okh:repo <https://www.thingiverse.com/thing:8885> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:8885> .

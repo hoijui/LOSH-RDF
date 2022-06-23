@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A13235/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:CliponZstopCompanion a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Clip-on Z-Stop Companion" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "This is pretty much the same. I widened the main part to fit my X end. The new part is the easily adjustable thumb wheel. This is just my thumb wheel nut with a sleeve attached. It makes it easy to adjust the Z home." ;
     okh:hasImage :Image ;
     okh:licensor "ronthomp" ;
     okh:repo <https://www.thingiverse.com/thing:13235> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:13235> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A33902/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:TortureTest a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Torture Test" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This was the Torture Test used during the 3D Print Weekend at MAKE HQ to test over 15 different printers. The model was designed by one of the testers during the weekend, Cliff Biffle, and is meant to push your printer to its limits!\r
 \r
 See the results in the 3D Printing Special Issue, on newsstands November 13th. You can purchase it from the Maker Shed here: http://www.makershed.com/Make_Ultimate_Guide_to_3D_Printing_p/1449357377.htm""" ;
@@ -14,6 +16,7 @@ See the results in the 3D Printing Special Issue, on newsstands November 13th. Y
     okh:repo <https://www.thingiverse.com/thing:33902> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:33902> .

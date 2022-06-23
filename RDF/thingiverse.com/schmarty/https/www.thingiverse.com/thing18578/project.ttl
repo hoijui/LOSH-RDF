@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A18578/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:changeLogoForUrbaniteMagazineCover a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "'Change' Logo for Urbanite Magazine Cover" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """The Baltimore Node is pleased to have taken part in the creation of the cover for Urbanite Magazine's March 2012 "Change Makers" issue.\r
 \r
 The file was designed in Inkscape and OpenSCAD and printed on MakerBot Thing-O-Matic #5564.  Dozens of photos were taken during the build and then combined into the final cover image by the excellent people at Urbanite.\r
@@ -20,6 +22,7 @@ If you're in the Baltimore/DC area, check out the Baltimore Node Hackerspace! ht
     okh:repo <https://www.thingiverse.com/thing:18578> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:18578> .

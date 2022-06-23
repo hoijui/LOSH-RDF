@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A36774/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:BlinkingChristmasTreeWithADifferentBase a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Blinking Christmas Tree with a different base" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "The Blinking Christmas tree was one of the first prints on my new Mendel90 machine, assembled from a kit of parts from Nophead - and it turned out VERY well indeed. However, I thought that I would make a change to the base so that it could accommodate a power supply connector. I also decided against building up the multivibrator circuits and took the easy route by purchasing flashing LEDs." ;
     okh:hasImage :Image ;
     okh:licensor "Alzibiff" ;
     okh:repo <https://www.thingiverse.com/thing:36774> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:36774> .

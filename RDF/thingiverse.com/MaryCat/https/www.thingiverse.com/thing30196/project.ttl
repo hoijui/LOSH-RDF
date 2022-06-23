@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A30196/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:RcMarycar a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "RC MaryCar" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """http://www.youtube.com/watch?v=xFhIsxR6I8s&feature=youtu.be\r
 \r
 This project is one of many that have been initiated at the University because of the innovation that has led printers Thing-O-Matic, by Department of Systems Engineering and Automation, in the field of robotics. Also it has the objective to test the viability of low cost printable robotics.\r
@@ -26,6 +28,7 @@ P.D: Sorry for my English""" ;
     okh:repo <https://www.thingiverse.com/thing:30196> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:30196> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A14243/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ProjectShellterOxystele a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Project Shellter - Oxystele" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """UPDATE 2011-12-13 07:23  
 Kylie Karshellian adopted a print of this shell today! See it happen here with annotations and music: http://youtu.be/LtvlLBQnEc0  
 UPDATE 2011-12-07 21:35  
@@ -17,7 +19,7 @@ Modeled on the shell of the Oxystele sinensis sea snail, http://en.wikipedia.org
 It was created using Maya's shellNode plugin, which is based upon Cortie's model, and thickened using Blender's Solidify modifier http://www.blender.org/development/release-logs/blender-256-beta/solidify-modifier/.  
 The goal is a workflow using open source tools, but this shell surface required a commercial tool. Thanks to a tip from http://www.thingiverse.com/mesheldrake, the conversion to a solid is now handled by an open source tool. :)  
 Cortie's model and many of its resultant shells have been written in Maple http://www.maplesoft.com/applications/view.aspx?SID=3851&view=html. Porting them to an open source tool such as Sage or Blender is the last step in creating a complete open source workflow.  
-Any python ninjas up to the taskÃÂ¢Ã¢ÂÂ¬ÃÂ½  
+Any python ninjas up to the taskÃx83Â¢Ã¢Âx82Â¬Ãx82Â½  
 Follow Project Shellter progress here:  
 http://projectshellter.com  
 http://twitter.com/ProjectShellter  
@@ -29,6 +31,7 @@ http://bit.ly/ProjectShellterVideos""" ;
     okh:repo <https://www.thingiverse.com/thing:14243> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:14243> .

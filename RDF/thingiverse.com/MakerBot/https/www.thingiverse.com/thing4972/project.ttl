@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A4972/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ThingomaticHeaterBoardV11 a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Thingomatic Heater Board v1.1" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Integrated heat, temperature sensting, and motor control\r
 \r
 The Thingomatic Heater Board is mashup of innovative 3D printing techniques. The heater board fulfils a number of roles in the Thingomatic. First, it provides a nice, flat printing surface with mounting holes. Second, the PCB itself is one large, flat heater which provides very even heating across the surface. Third, the PCB includes an on-board thermistor which allows the board to measure its own temperature. Last, but not least, the PCB includes a header for connecting it to the rest of the MakerBot electronics so that you can easily wire it up.""" ;
@@ -14,6 +16,7 @@ The Thingomatic Heater Board is mashup of innovative 3D printing techniques. The
     okh:repo <https://www.thingiverse.com/thing:4972> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:4972> .

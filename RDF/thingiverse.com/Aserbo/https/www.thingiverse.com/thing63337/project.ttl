@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A63337/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:SpoolCentreThingyBfbprintrobot a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Spool centre thingy BFB--Printrobot" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """To centre 1Kg spools with a bore of 32mm on the spool spinners of a BFB3000/ 3D Touch.\r
 \r
 Hard to see in the preview image, but there is a stepped diametre, check drawing to see if it fits your spools.""" ;
@@ -14,6 +16,7 @@ Hard to see in the preview image, but there is a stepped diametre, check drawing
     okh:repo <https://www.thingiverse.com/thing:63337> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:63337> .

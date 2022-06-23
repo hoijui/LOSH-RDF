@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A54957/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:AssassinsCreedKeychain a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Assassin's Creed + keychain" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Assassin's Creed logo. Made on Solidworks.  
 
 Now I have added a small hole on the top of it to be used as a keychain (let me know how it works/fits, I can make changes where necessary).""" ;
@@ -14,6 +16,7 @@ Now I have added a small hole on the top of it to be used as a keychain (let me 
     okh:repo <https://www.thingiverse.com/thing:54957> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:54957> .

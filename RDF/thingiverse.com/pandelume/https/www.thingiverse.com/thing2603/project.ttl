@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A2603/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ExperimentalCupcakeCncSequentialBuildPlatform a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Experimental Cupcake CNC Sequential Build Platform" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is an experimental concept for a drop-in replacement of the cupcake CNC x-y stage.  The idea here is that the y-stage is replaced by a stepper-driven conveyor belt that will move back and forth during build, and then be driven forward to eject the part after the build is complete.  So far I don\\\\\\'t have a 3-d printer or lasercutter, so it\\\\\\'s a concept only - but I figured that this was the place for it even during development.  I would very much like to hear suggestions for improvements.  Conveyor and timing belt routing should work, but could be better.  At the moment you need 7ct .25\\\\\\" rods to route the conveyor belt, and it would be nice to cut that down.\r
 \r
 The conveyor is baking parchment taped together with kapton tape.  Baking parchment can withstand temperatures of 400+ degrees F and is relatively cheap and readily available everywhere.  I think this will work, but perhaps someone with a printer can try lining their print bed with a square and see how it stands up.  The conveyor is driven around a set of printed rollers, each with o-rings (they go in the grooves or rollers A and B) to help grip the parchment.  As modeled the conveyor has no tensioner, but I think it may need one.  At the front of the build area the conveyor is routed between two .25\\\\\\" rods, which is supposed to peel the parchment off the bottom of the ABS part - hopefully that will work.\r
@@ -18,6 +20,7 @@ I have an assembly drawing, but I just noticed some errors so I\\'ll upload once
     okh:repo <https://www.thingiverse.com/thing:2603> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:2603> .

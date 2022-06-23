@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A9644/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:SliponPrusaBeltBushing a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Slip-On Prusa Belt Bushing" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """If you are missing steps in the X or Y on your Prusa, it could be because the belt is getting caught between the fender washer and the bearing. The best solution is a belt guide such as GregFrost's (http://www.thingiverse.com/thing:8574), but those require you to disassemble your printer before you can install them. \r
 \r
 These belt bushings aren't quite as good, but the simply slip over the rod, so you can install them just by loosening a couple nuts. They fill the gap between the bearing and the washer, and are a bit slipperier, so they should help reduce binding. \r
@@ -16,6 +18,7 @@ Inspired by a design by Wilson (http://www.thingiverse.com/wilson).""" ;
     okh:repo <https://www.thingiverse.com/thing:9644> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:9644> .

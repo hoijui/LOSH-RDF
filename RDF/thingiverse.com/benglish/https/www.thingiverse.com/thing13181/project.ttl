@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A13181/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:GoproHeroCameraMount a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "GoPro Hero Camera Mount" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """These are velcro mounts for the GoPro Hero video camera.  They were designed to easily attach to RC plane fuselages and wings.  I have since used them to attach the camera to my leg and helmet.  They work remarkably well.\r
 \r
 I used these mounts to film this video of my RC glider: http://www.youtube.com/watch?v=3jVroP8jzSQ\r
@@ -18,6 +20,7 @@ Slope Combat: http://www.youtube.com/watch?v=hyWu5y56QWc""" ;
     okh:repo <https://www.thingiverse.com/thing:13181> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:13181> .

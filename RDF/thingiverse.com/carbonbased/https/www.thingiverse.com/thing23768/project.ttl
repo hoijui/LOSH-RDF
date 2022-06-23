@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A23768/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PenXactoAndPickHolder a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Pen, X-Acto, and Pick Holder" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "At my day job as a custom cable assembler, I use X-Acto knives and picks quite a lot but I don't like setting them down unprotected on my desk when switching between them since they are sharp and/or pointy. So this thing was made to hold them, as well as pens, brushes, and whatever other cylindrical things you might have around. The styling is a bit, um, interesting so feel free to modify." ;
     okh:hasImage :Image ;
     okh:licensor "carbonbased" ;
     okh:repo <https://www.thingiverse.com/thing:23768> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:23768> .

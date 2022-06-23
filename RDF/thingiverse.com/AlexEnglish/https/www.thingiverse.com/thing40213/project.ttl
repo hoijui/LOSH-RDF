@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A40213/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ParameterizedDevelopmentBoardHolder a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Parameterized Development Board Holder" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Derived from Arduino DUE mount by MaikaiGuy: http://www.thingiverse.com/thing:37278\r
 \r
 This should work for many small microcontroller development boards.\r
@@ -20,6 +22,7 @@ The version pictured is the one with the sew tabs, as that's what I needed at th
     okh:repo <https://www.thingiverse.com/thing:40213> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:40213> .

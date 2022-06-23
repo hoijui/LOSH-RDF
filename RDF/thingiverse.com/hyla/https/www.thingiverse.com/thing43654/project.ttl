@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A43654/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PinForprintedMicrohexapod a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Pin For 'Printed Micro-Hexapod'" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Another trifle, really :)\r
 Use this for connecting the front- and hind legs to the cross bars instead of screws or wire for this project:\r
 http://www.thingiverse.com/thing:34796""" ;
@@ -14,6 +16,7 @@ http://www.thingiverse.com/thing:34796""" ;
     okh:repo <https://www.thingiverse.com/thing:43654> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:43654> .

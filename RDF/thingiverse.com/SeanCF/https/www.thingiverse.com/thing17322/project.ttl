@@ -1,12 +1,14 @@
 @prefix : <https://www.thingiverse.com/thing%3A17322/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:TreasureChestWithLock a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Treasure Chest with Lock" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
-    okh:function """Build something your child will treasure for a lifetime, a treasure chest! Our son absolutely loves all things treasure, so I decided to create a small treasure chest for him. He absolutely loves the result, keeping his most valuable treasure safe inside. Then of course our other son wanted one desperately too, so I improved the cut and made another. And then the wife wanted one for her desk at work, and then one as a present for her sisterÃ¢â¬Â¦ So I thought I might share the design.\r
+    okh:documentationReadinessLevel otrl:Odrl3 ;
+    okh:function """Build something your child will treasure for a lifetime, a treasure chest! Our son absolutely loves all things treasure, so I decided to create a small treasure chest for him. He absolutely loves the result, keeping his most valuable treasure safe inside. Then of course our other son wanted one desperately too, so I improved the cut and made another. And then the wife wanted one for her desk at work, and then one as a present for her sisterÃ¢âx82¬Â¦ So I thought I might share the design.\r
 \r
 For 3mm MDF.\r
 \r
@@ -24,6 +26,7 @@ Guaranteed to attract treasure of all kinds.""" ;
     okh:repo <https://www.thingiverse.com/thing:17322> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:17322> .

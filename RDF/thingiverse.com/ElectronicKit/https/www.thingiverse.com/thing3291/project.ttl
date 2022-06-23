@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A3291/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ElectricBoxSpacer a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Electric Box Spacer" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """When you replace a light switch or wall socket, occassionally the spacing between the fixture and the wall enclosure does not match.  This is especially true if some remodeling has occured or the fixture was not installed correctly in the 1st place.\r
 \r
 The attached stl files generate a 4-up set and a single spacer commonly used for that application.\r
@@ -18,6 +20,7 @@ Yeah, I know these are cheap to purchase and available at most hardware stores t
     okh:repo <https://www.thingiverse.com/thing:3291> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:3291> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A32845/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Paperfly a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "PaperFly" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Variant of the Bukobot Fly to print with PLA directly on tissue paper.\r
 \r
 It's a work in progress, but this is the one I was printing at World Maker Faire 2012.""" ;
@@ -14,6 +16,7 @@ It's a work in progress, but this is the one I was printing at World Maker Faire
     okh:repo <https://www.thingiverse.com/thing:32845> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:32845> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A5431/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:3AxisCncRouterMdfMetric a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "3 axis CNC router MDF ( metric )" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is my second DIY 3 axis cnc machine. It is designed in solidworks 2008 (~50-60 hours) and built mostly out of MDF. Provided are all the source files and drawings in both Solidworks and edrawing formats. This machine is possible to make with just some hand & power tools, but I used my first cnc machine to make most of the smaller parts.  
 
 
@@ -20,6 +22,7 @@ Expected cost to build a machine like this from scratch is 1000-1300 euros. It a
     okh:repo <https://www.thingiverse.com/thing:5431> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:5431> .

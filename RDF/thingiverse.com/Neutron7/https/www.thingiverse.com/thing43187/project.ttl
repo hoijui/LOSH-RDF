@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A43187/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:CornerFootForMakerbotAndOtherLaserCutBoxes a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "corner foot for makerbot and other laser cut boxes." ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I made this to replace the little feet on the replicator with some elastomers. but you could attach many different kinds of feet to various laser cut boxes with it.\r
 \r
 I have also included an elastomer holder, but it only works with 0.74" internal 1.38" external elastomers.""" ;
@@ -14,6 +16,7 @@ I have also included an elastomer holder, but it only works with 0.74" internal 
     okh:repo <https://www.thingiverse.com/thing:43187> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:43187> .

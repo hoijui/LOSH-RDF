@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A38639/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:UltracapacitorRacking a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Ultracapacitor Racking" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a rack holder for 3000 Farad Capacitors (Ultracapacitors).  \r
 \r
 This component is part of efforts to encourage the use of open source methods in solar photovoltaic technology by the [Michigan Tech's Open Sustainability Technology Research Group](http://www.appropedia.org/Category:MOST).  \r
@@ -16,6 +18,7 @@ For similar see the [Open-Source Lab How to Build Your Own Hardware and Reduce R
     okh:repo <https://www.thingiverse.com/thing:38639> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:38639> .

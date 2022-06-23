@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A12778/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:AdjustableZEndstopWithCableGuide a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Adjustable Z endstop with cable guide" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a derivation of kwixson Adjustable Z endstop.\r
 I've added a small protrusion with a 4mm hole which is designed to provide a tie point for the electrical wiring for the x-axis motor and associated endstop.\r
 \r
@@ -17,6 +19,7 @@ I had a further need of this isolation than a standard Prusa might, as I have ad
     okh:repo <https://www.thingiverse.com/thing:12778> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:12778> .

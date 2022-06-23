@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A8987/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:RoundNema23FanMount a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Round Nema23 Fan mount" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a fan mount for a round bodied nema 23 stepper motor.  Intended for use using a 80mm fan\r
 \r
 It should snap on and hold itself on, I plan on using some double sided tape to ensure that it holds itself on.\r
@@ -18,6 +20,7 @@ It was created in Autodesk Inventor 2011, IPT file is included along with a STL 
     okh:repo <https://www.thingiverse.com/thing:8987> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:8987> .

@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A19159/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:LongboardWedgedRiser a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Longboard wedged riser" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "When mounting trucks onto a longboard, you sometimes want to adjust its height (to prevent 'wheelbites') and/or angle (to make the truck turn more or less) by putting a riser between the truck and the deck. I created it with OpenSCAD, so changes can easily be made to the height and angle (in a future version probably with 2 variables), and printed it in the FabLab at RWTH Aachen University: http://hci.rwth-aachen.de/fablab" ;
     okh:hasImage :Image ;
     okh:licensor "zorgblaubaer" ;
     okh:repo <https://www.thingiverse.com/thing:19159> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:19159> .

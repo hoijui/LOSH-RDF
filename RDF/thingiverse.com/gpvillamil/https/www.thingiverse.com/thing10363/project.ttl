@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A10363/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PinChainBraceletWithVariableWidth a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Pin Chain Bracelet with variable width" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """A variation on tbuser's bracelet, with the ability to specify the width of the bracelet in sections.\r
 \r
 The pin is made longer, and more of the small sections are printed to allow you to stack.\r
@@ -18,6 +20,7 @@ The picture of the pink bracelet is 5 sections wide.""" ;
     okh:repo <https://www.thingiverse.com/thing:10363> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:10363> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A3447/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:BusPirateV3Case a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Bus Pirate v3 Case" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """So this is a case for the Bus Pirate v3 board from Seeed Studio found at http://www.seeedstudio.com/depot/bus-pirate-v3-assembled-p-609.html?cPath=61_68\r
 \r
 v3 is much smaller than then v2 board that is found here.\r
@@ -22,6 +24,7 @@ http://www.thingiverse.com/thing:2135""" ;
     okh:repo <https://www.thingiverse.com/thing:3447> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:3447> .

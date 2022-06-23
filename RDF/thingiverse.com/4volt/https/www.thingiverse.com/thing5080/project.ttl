@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A5080/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:8bitSpaceInvaderOrnaments a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "8bit Space Invader Ornaments" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I am a big fan of making Christmas gifts wherever possible, last year these Space Invaders inspired Christmas tree ornaments were one of the most popular things I made. If was a fun project, easy to execute.\r
 \r
 So Iâ€™m releasing the files out into the wild, I hope that you all make bit more and maybe buy a little less. \r
@@ -22,6 +24,7 @@ http://4volt.com/Buy/SpaceInvader.aspx""" ;
     okh:repo <https://www.thingiverse.com/thing:5080> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:5080> .

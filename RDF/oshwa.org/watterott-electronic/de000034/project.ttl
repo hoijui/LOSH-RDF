@@ -2,20 +2,15 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Bme680breakout a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "BME680-Breakout" ;
-    okh:certificationDate "2020-05-16T00:00:00-04:00" ;
-    okh:country "Germany" ;
     okh:dataSource "oshwa.org" ;
     okh:documentationLanguage "en" ;
-    okh:documentationLicense "CC BY-SA" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function "Breakout with BME680 environmental sensor from Bosch Sensortec." ;
-    okh:hardwareLicense "Other" ;
     okh:licensor "Watterott electronic" ;
-    okh:primaryType "Electronics" ;
     okh:repo <https://certification.oshwa.org/de000034.html> ;
     okh:repoHost "certification.oshwa.org" ;
-    okh:softwareLicense "No software" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;

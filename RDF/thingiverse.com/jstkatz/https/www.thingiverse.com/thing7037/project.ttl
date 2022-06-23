@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A7037/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Mk56StepstruderNema23DirectDrivePivotingFilamentPusher a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "MK5-6 STEPSTRUDER NEMA 23 DIRECT DRIVE PIVOTING FILAMENT PUSHER" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a direct drive extruder mechanism that fits with the hotend and dinos of a MK5-6. I wanted to move to a stepper drive extruder but didn't want to wait three weeks for makerbot to ship their new beefy nema 17. I also had a lot of issues with the delrin plunger.\r
 \r
 I liked the idea of a ball bearing to provide the pressure between the filament and the drive wheel as in a wade's but didn't like the 4 bolts to adjust to change filament.\r
@@ -22,6 +24,7 @@ The sizing for everything is imperial in this case but I can make other versions
     okh:repo <https://www.thingiverse.com/thing:7037> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:7037> .

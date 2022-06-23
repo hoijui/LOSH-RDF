@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A10861/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:HoleCalibrationTestBlocks a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Hole Calibration Test Blocks" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """After I printed out my first 20mm calibration cube, I found my bot was quite accurate for outside dimensions (my 20mm cube measured 19.95mm....close enough).  However, I found that holes were consistently undersized.  So I created a set of calibration blocks to measure how much undersized the holes are and are they the same for different diameters?  \r
 \r
 The blocks have a series of holes in 0.1mm increments.  The nominal hole is the one circled, then the other holes are smaller or larger in that 0.1mm increment.  I found that I had to design a 8.6mm hole in order to get an actual 8mm hole.  \r
@@ -16,6 +18,7 @@ The pegs on the other hand, were very accurate.  An 8mm peg was 7.95mm....very c
     okh:repo <https://www.thingiverse.com/thing:10861> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:10861> .

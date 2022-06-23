@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A2544/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ParameterizedDrainScreen a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Parameterized drain screen" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """After losing a toothpaste cap down the sink, I decided to create a screen to catch objects, but still allow water drainage.  The design is parameterized so you can use OpenSCAD to generate a drain screen personalized to your sink configuration.  It consists of a top plate with square holes in it, and a short sleeve that fits inside the inner diameter of the drain pipe and centers the screen.\r
 \r
 Note that on my poorly tuned MakerBot, producing a fine rectangular grid is very tough, so the default grid is quite coarse.  (Even that did not come out so great.)  MakerBots tuned for fine detail or bigger screens will probably have more successful prints.\r
@@ -16,6 +18,7 @@ Your drain is probably not the same size as mine, so the attached STL file is ju
     okh:repo <https://www.thingiverse.com/thing:2544> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:2544> .

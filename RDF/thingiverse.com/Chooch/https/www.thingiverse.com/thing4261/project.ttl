@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A4261/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PfierceZaxisExtendersVer52 a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Pfierce Z-axis extenders ver 5.2" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """These are the infamous Pfierce Z-axis extenders that helped me set my tallest print record: http://wiki.makerbot.com/hall-of-fame-tallest-print\r
 \r
 Made famous by Makerblock:\r
@@ -22,6 +24,7 @@ Ask and you shall receive Makerblock!""" ;
     okh:repo <https://www.thingiverse.com/thing:4261> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:4261> .

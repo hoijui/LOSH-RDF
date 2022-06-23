@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A10478/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PrintableZstageForMakerbotCupcakeCnc a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Printable Z-Stage for Makerbot / Cupcake CNC" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is an alternative Z-Stage for Makerbot/Cupcake with MK5/MK6 extruder. It's heavily inspired by MiseryBot's "MiZ Rider" ( http://www.thingiverse.com/thing:7954 ). I even copied MiseryBot's stepper motor coupler verbatim.\r
 \r
 I was considering building MiseryBot's Z-Rider and was looking for a source for the small ball bearings. Turned out that for my neck of the world, those bearings would have been significantly more expensive than real linear bearings, so I designed this Z-Stage based on linear bearings.\r
@@ -34,6 +36,7 @@ Additional parts (vitamins):\r
     okh:repo <https://www.thingiverse.com/thing:10478> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:10478> .

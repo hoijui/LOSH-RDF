@@ -1,9 +1,10 @@
-@prefix : <https://wikifactory.com/+makilab/breathoflife-in-belgium/831a8bb13f298824d390dcf62a836e9d7fce5bc8/> .
+@prefix : <https://wikifactory.com/%2Bmakilab/breathoflife-in-belgium/831a8bb13f298824d390dcf62a836e9d7fce5bc8/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Breath4lifeInBelgium a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Breath4Life in Belgium" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "A local iteration/revisit of the 2010 MIT project  low-cost portable mechanical ventilator in the context of Corona-virus crisis.https://breath4life.odoo.com/" ;
     okh:hasComponent :02qaregstrategy,
@@ -21,9 +22,9 @@
         :Caleballonbombe2x,
         :Droite,
         :Meca0163supportbasewalllongv13x,
-        :Meca0164SupportMicroswitchPositionUpV61x,
         :Meca0164supportmicroswitchpositionupv61x,
-        :Meca0165SupportMicroswitchPositionDown1x,
+        :Meca0164supportmicroswitchpositionupv61x1,
+        :Meca0165supportmicroswitchpositiondown1x,
         :Meca0165supportmicroswitchpositiondownv41x,
         :Meca0166intermediarybedsupportv12x,
         :Paroimoteur2x,
@@ -31,14 +32,18 @@
         :Pouliev41,
         :Renfortbas3x,
         :Renfortbasmoteur5x,
-        :Rouleau110V24x,
-        :Rouleau60V24x,
+        :Renfortbasmoteur5x1,
+        :Rouleau110v24x,
+        :Rouleau60v24x,
         :Rouleaulevierd110v1,
         :Rouleaulevierd60v1,
         :Softwarearchitecture,
         :Supportballonperpendiculaire5x,
+        :Supportballonperpendiculaire5x1,
         :Supportperpendiculairebras4x,
-        :Tigelimitswitchdebutcourse1x ;
+        :Supportperpendiculairebras4x1,
+        :Tigelimitswitchdebutcourse1x,
+        :Tigelimitswitchdebutcourse1x1 ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "Régis Lomba" ;
@@ -47,6 +52,7 @@
     okh:repo <https://wikifactory.com/+makilab/breathoflife-in-belgium> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> ;
+    okh:uploadMethod "manifest" ;
     okh:version "831a8bb13f298824d390dcf62a836e9d7fce5bc8" ;
     okh:versionOf <https://wikifactory.com/+makilab/breathoflife-in-belgium> .
 
@@ -61,7 +67,7 @@
     rdfs:label "Source File of 0.2_QARegStrategy of Breath4Life in Belgium 831a8bb13f298824d390dcf62a836e9d7fce5bc8" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/02_qaregstrategy.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMzE3NjU=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/02_qaregstrategy.pdf> .
 
 :02riskanalysis a okh:Part ;
     rdfs:label "0.2_Risk_analysis" ;
@@ -74,7 +80,7 @@
     rdfs:label "Source File of 0.2_Risk_analysis of Breath4Life in Belgium 831a8bb13f298824d390dcf62a836e9d7fce5bc8" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/02_risk_analysis.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMzE3Njk=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/02_risk_analysis.pdf> .
 
 :02systemrequirements a okh:Part ;
     rdfs:label "0.2_System_Requirements" ;
@@ -87,7 +93,7 @@
     rdfs:label "Source File of 0.2_System_Requirements of Breath4Life in Belgium 831a8bb13f298824d390dcf62a836e9d7fce5bc8" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/02_system_requirements.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMzE3NzA=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/02_system_requirements.pdf> .
 
 :02userrequirements a okh:Part ;
     rdfs:label "0.2_User_Requirements" ;
@@ -100,7 +106,7 @@
     rdfs:label "Source File of 0.2_User_Requirements of Breath4Life in Belgium 831a8bb13f298824d390dcf62a836e9d7fce5bc8" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/02_user_requirements.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMzE3NjI=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/02_user_requirements.pdf> .
 
 :Ambuthermo a okh:Part ;
     rdfs:label "ambuthermo" ;
@@ -113,7 +119,7 @@
     rdfs:label "Source File of ambuthermo of Breath4Life in Belgium 831a8bb13f298824d390dcf62a836e9d7fce5bc8" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/ambuthermo.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMzEzOTY=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/ambuthermo.pdf> .
 
 :Arriere a okh:Part ;
     rdfs:label "arriere" ;
@@ -126,7 +132,7 @@
     rdfs:label "Source File of arriere of Breath4Life in Belgium 831a8bb13f298824d390dcf62a836e9d7fce5bc8" ;
     okh:fileFormat "DXF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/arriere.dxf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMzE0MDY=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/arriere.dxf> .
 
 :Assemblyv11 a okh:Part ;
     rdfs:label "Assembly_v1.1" ;
@@ -139,7 +145,7 @@
     rdfs:label "Source File of Assembly_v1.1 of Breath4Life in Belgium 831a8bb13f298824d390dcf62a836e9d7fce5bc8" ;
     okh:fileFormat "STEP" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/assembly_v11.step> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozNDI3NzA=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/assembly_v11.step> .
 
 :Assemblyv12 a okh:Part ;
     rdfs:label "Assembly_v12" ;
@@ -152,7 +158,7 @@
     rdfs:label "Source File of Assembly_v12 of Breath4Life in Belgium 831a8bb13f298824d390dcf62a836e9d7fce5bc8" ;
     okh:fileFormat "STEP" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/assembly_v12.step> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMzEzODc=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/assembly_v12.step> .
 
 :B4lpowerschematic a okh:Part ;
     rdfs:label "B4L_power_schematic" ;
@@ -165,7 +171,7 @@
     rdfs:label "Source File of B4L_power_schematic of Breath4Life in Belgium 831a8bb13f298824d390dcf62a836e9d7fce5bc8" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/b4l_power_schematic.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozNDA5MTQ=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/b4l_power_schematic.pdf> .
 
 :B4luischematic a okh:Part ;
     rdfs:label "B4L_UI_schematic" ;
@@ -178,7 +184,7 @@
     rdfs:label "Source File of B4L_UI_schematic of Breath4Life in Belgium 831a8bb13f298824d390dcf62a836e9d7fce5bc8" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/b4l_ui_schematic.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozNDExMTY=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/b4l_ui_schematic.pdf> .
 
 :Bas a okh:Part ;
     rdfs:label "bas" ;
@@ -191,7 +197,7 @@
     rdfs:label "Source File of bas of Breath4Life in Belgium 831a8bb13f298824d390dcf62a836e9d7fce5bc8" ;
     okh:fileFormat "DXF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/bas.dxf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMzE0MDQ=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/bas.dxf> .
 
 :Brasavecrouleauv112x a okh:Part ;
     rdfs:label "BrasAvecRouleau_v11_-_2x" ;
@@ -204,7 +210,7 @@
     rdfs:label "Source File of BrasAvecRouleau_v11_-_2x of Breath4Life in Belgium 831a8bb13f298824d390dcf62a836e9d7fce5bc8" ;
     okh:fileFormat "DXF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/brasavecrouleau_v11_-_2x.dxf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTE2MTI=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/brasavecrouleau_v11_-_2x.dxf> .
 
 :Caleballonbombe2x a okh:Part ;
     rdfs:label "CaleBallonBombe - 2x" ;
@@ -217,7 +223,7 @@
     rdfs:label "Source File of CaleBallonBombe - 2x of Breath4Life in Belgium 831a8bb13f298824d390dcf62a836e9d7fce5bc8" ;
     okh:fileFormat "DXF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/caleballonbombe_-_2x-2b7e7.dxf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMzU5Nzc=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/caleballonbombe_-_2x-2b7e7.dxf> .
 
 :Droite a okh:Part ;
     rdfs:label "droite" ;
@@ -230,13 +236,13 @@
     rdfs:label "Source File of droite of Breath4Life in Belgium 831a8bb13f298824d390dcf62a836e9d7fce5bc8" ;
     okh:fileFormat "DXF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/droite.dxf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMzE0MDM=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/droite.dxf> .
 
 :Image a okh:Image ;
     rdfs:label "Image of Breath4Life in Belgium 831a8bb13f298824d390dcf62a836e9d7fce5bc8" ;
     okh:fileFormat "PNG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/capture-60c45.PNG> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozNDExMDY=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/capture-60c45.PNG> .
 
 :Meca0163supportbasewalllongv13x a okh:Part ;
     rdfs:label "MECA016.3_-_Support_base_wall_-_long_v1_-_3x" ;
@@ -249,46 +255,46 @@
     rdfs:label "Source File of MECA016.3_-_Support_base_wall_-_long_v1_-_3x of Breath4Life in Belgium 831a8bb13f298824d390dcf62a836e9d7fce5bc8" ;
     okh:fileFormat "DXF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/meca0163_-_support_base_wall_-_long_v1_-_3x.dxf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozNDI3Mzg=> .
-
-:Meca0164SupportMicroswitchPositionUpV61x a okh:Part ;
-    rdfs:label "MECA016.4 - Support microswitch position up v6 - 1x" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Kris Laermans" ;
-    okh:source :Meca0164SupportMicroswitchPositionUpV61x_source ;
-    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> .
-
-:Meca0164SupportMicroswitchPositionUpV61x_source a okh:SourceFile ;
-    rdfs:label "Source File of MECA016.4 - Support microswitch position up v6 - 1x of Breath4Life in Belgium 831a8bb13f298824d390dcf62a836e9d7fce5bc8" ;
-    okh:fileFormat "DXF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/meca0164_-_support_microswitch_position_up_v6_-_1x.dxf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozNDI3NTU=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/meca0163_-_support_base_wall_-_long_v1_-_3x.dxf> .
 
 :Meca0164supportmicroswitchpositionupv61x a okh:Part ;
-    rdfs:label "MECA016.4_-_Support_microswitch_position_up_v6_-_1x" ;
+    rdfs:label "MECA016.4 - Support microswitch position up v6 - 1x" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Kris Laermans" ;
     okh:source :Meca0164supportmicroswitchpositionupv61x_source ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> .
 
-:Meca0164supportmicroswitchpositionupv61x_source a okh:SourceFile ;
+:Meca0164supportmicroswitchpositionupv61x1 a okh:Part ;
+    rdfs:label "MECA016.4_-_Support_microswitch_position_up_v6_-_1x" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Kris Laermans" ;
+    okh:source :Meca0164supportmicroswitchpositionupv61x1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> .
+
+:Meca0164supportmicroswitchpositionupv61x1_source a okh:SourceFile ;
     rdfs:label "Source File of MECA016.4_-_Support_microswitch_position_up_v6_-_1x of Breath4Life in Belgium 831a8bb13f298824d390dcf62a836e9d7fce5bc8" ;
     okh:fileFormat "DXF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/meca0164_-_support_microswitch_position_up_v6_-_1x-bd81c.dxf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozNDI3ODY=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/meca0164_-_support_microswitch_position_up_v6_-_1x-bd81c.dxf> .
 
-:Meca0165SupportMicroswitchPositionDown1x a okh:Part ;
+:Meca0164supportmicroswitchpositionupv61x_source a okh:SourceFile ;
+    rdfs:label "Source File of MECA016.4 - Support microswitch position up v6 - 1x of Breath4Life in Belgium 831a8bb13f298824d390dcf62a836e9d7fce5bc8" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/meca0164_-_support_microswitch_position_up_v6_-_1x.dxf> ;
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/meca0164_-_support_microswitch_position_up_v6_-_1x.dxf> .
+
+:Meca0165supportmicroswitchpositiondown1x a okh:Part ;
     rdfs:label "MECA016.5 - Support microswitch position down - 1x" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Kris Laermans" ;
-    okh:source :Meca0165SupportMicroswitchPositionDown1x_source ;
+    okh:source :Meca0165supportmicroswitchpositiondown1x_source ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> .
 
-:Meca0165SupportMicroswitchPositionDown1x_source a okh:SourceFile ;
+:Meca0165supportmicroswitchpositiondown1x_source a okh:SourceFile ;
     rdfs:label "Source File of MECA016.5 - Support microswitch position down - 1x of Breath4Life in Belgium 831a8bb13f298824d390dcf62a836e9d7fce5bc8" ;
     okh:fileFormat "DXF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/meca0165_-_support_microswitch_position_down_v4_-_body1.dxf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozNDI3ODk=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/meca0165_-_support_microswitch_position_down_v4_-_body1.dxf> .
 
 :Meca0165supportmicroswitchpositiondownv41x a okh:Part ;
     rdfs:label "MECA016.5_-_Support_microswitch_position_down_v4_-_1x" ;
@@ -301,7 +307,7 @@
     rdfs:label "Source File of MECA016.5_-_Support_microswitch_position_down_v4_-_1x of Breath4Life in Belgium 831a8bb13f298824d390dcf62a836e9d7fce5bc8" ;
     okh:fileFormat "DXF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/meca0165_-_support_microswitch_position_down_v4_-_1x.dxf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozNDI3MzY=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/meca0165_-_support_microswitch_position_down_v4_-_1x.dxf> .
 
 :Meca0166intermediarybedsupportv12x a okh:Part ;
     rdfs:label "MECA016.6_-_Intermediary_bed_support_v1_-_2x" ;
@@ -314,7 +320,7 @@
     rdfs:label "Source File of MECA016.6_-_Intermediary_bed_support_v1_-_2x of Breath4Life in Belgium 831a8bb13f298824d390dcf62a836e9d7fce5bc8" ;
     okh:fileFormat "DXF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/meca0166_-_intermediary_bed_support_v1_-_2x.dxf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozNDI3NjA=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/meca0166_-_intermediary_bed_support_v1_-_2x.dxf> .
 
 :Paroimoteur2x a okh:Part ;
     rdfs:label "ParoiMoteur - 2x" ;
@@ -328,13 +334,13 @@
     rdfs:label "Export File of ParoiMoteur - 2x of Breath4Life in Belgium 831a8bb13f298824d390dcf62a836e9d7fce5bc8" ;
     okh:fileFormat "DXF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/paroimoteur_-_2x-7d440.dxf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMzU5NzU=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/paroimoteur_-_2x-7d440.dxf> .
 
 :Paroimoteur2x_source a okh:SourceFile ;
     rdfs:label "Source File of ParoiMoteur - 2x of Breath4Life in Belgium 831a8bb13f298824d390dcf62a836e9d7fce5bc8" ;
     okh:fileFormat "DXF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/paroimoteur_-_2x.dxf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMzEzNDE=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/paroimoteur_-_2x.dxf> .
 
 :Plaquethermoaspiv2 a okh:Part ;
     rdfs:label "PlaqueThermoAspi_v2" ;
@@ -347,7 +353,7 @@
     rdfs:label "Source File of PlaqueThermoAspi_v2 of Breath4Life in Belgium 831a8bb13f298824d390dcf62a836e9d7fce5bc8" ;
     okh:fileFormat "DXF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/plaquethermoaspi_v2.dxf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMzE0MDA=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/plaquethermoaspi_v2.dxf> .
 
 :Pouliev41 a okh:Part ;
     rdfs:label "Poulie_v4.1" ;
@@ -360,13 +366,13 @@
     rdfs:label "Source File of Poulie_v4.1 of Breath4Life in Belgium 831a8bb13f298824d390dcf62a836e9d7fce5bc8" ;
     okh:fileFormat "STEP" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/poulie_v41.STEP> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMzE4NzY=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/poulie_v41.STEP> .
 
 :Readme a okh:Readme ;
     rdfs:label "Readme of Breath4Life in Belgium 831a8bb13f298824d390dcf62a836e9d7fce5bc8" ;
     okh:fileFormat "MD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/readme-fc674.md> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTE1NDA=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/readme-fc674.md> .
 
 :Renfortbas3x a okh:Part ;
     rdfs:label "RenfortBas_-_3x" ;
@@ -379,50 +385,59 @@
     rdfs:label "Source File of RenfortBas_-_3x of Breath4Life in Belgium 831a8bb13f298824d390dcf62a836e9d7fce5bc8" ;
     okh:fileFormat "DXF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/renfortbas_-_3x-573f3.dxf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMzEzNjY=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/renfortbas_-_3x-573f3.dxf> .
 
 :Renfortbasmoteur5x a okh:Part ;
-    rdfs:label "RenfortBasMoteur - 5x",
-        "RenfortBasMoteur_-_5x" ;
+    rdfs:label "RenfortBasMoteur - 5x" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Régis Lomba" ;
     okh:source :Renfortbasmoteur5x_source ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> .
 
-:Renfortbasmoteur5x_source a okh:SourceFile ;
-    rdfs:label "Source File of RenfortBasMoteur - 5x of Breath4Life in Belgium 831a8bb13f298824d390dcf62a836e9d7fce5bc8",
-        "Source File of RenfortBasMoteur_-_5x of Breath4Life in Belgium 831a8bb13f298824d390dcf62a836e9d7fce5bc8" ;
-    okh:fileFormat "DXF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/renfortbasmoteur_-_5x-58f3f.dxf>,
-        <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/renfortbasmoteur_-_5x.dxf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMzEzMzg=>,
-        <https://wikifactory.com/files/RmlsZTozMzEzNjU=> .
+:Renfortbasmoteur5x1 a okh:Part ;
+    rdfs:label "RenfortBasMoteur_-_5x" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Régis Lomba" ;
+    okh:source :Renfortbasmoteur5x1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> .
 
-:Rouleau110V24x a okh:Part ;
+:Renfortbasmoteur5x1_source a okh:SourceFile ;
+    rdfs:label "Source File of RenfortBasMoteur_-_5x of Breath4Life in Belgium 831a8bb13f298824d390dcf62a836e9d7fce5bc8" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/renfortbasmoteur_-_5x-58f3f.dxf> ;
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/renfortbasmoteur_-_5x-58f3f.dxf> .
+
+:Renfortbasmoteur5x_source a okh:SourceFile ;
+    rdfs:label "Source File of RenfortBasMoteur - 5x of Breath4Life in Belgium 831a8bb13f298824d390dcf62a836e9d7fce5bc8" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/renfortbasmoteur_-_5x.dxf> ;
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/renfortbasmoteur_-_5x.dxf> .
+
+:Rouleau110v24x a okh:Part ;
     rdfs:label "Rouleau110 v2 - 4x" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Régis Lomba" ;
-    okh:source :Rouleau110V24x_source ;
+    okh:source :Rouleau110v24x_source ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> .
 
-:Rouleau110V24x_source a okh:SourceFile ;
+:Rouleau110v24x_source a okh:SourceFile ;
     rdfs:label "Source File of Rouleau110 v2 - 4x of Breath4Life in Belgium 831a8bb13f298824d390dcf62a836e9d7fce5bc8" ;
     okh:fileFormat "DXF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/rouleau110_v2_-_4x.dxf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMzEzNjM=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/rouleau110_v2_-_4x.dxf> .
 
-:Rouleau60V24x a okh:Part ;
+:Rouleau60v24x a okh:Part ;
     rdfs:label "Rouleau60 v2 - 4x" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Régis Lomba" ;
-    okh:source :Rouleau60V24x_source ;
+    okh:source :Rouleau60v24x_source ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> .
 
-:Rouleau60V24x_source a okh:SourceFile ;
+:Rouleau60v24x_source a okh:SourceFile ;
     rdfs:label "Source File of Rouleau60 v2 - 4x of Breath4Life in Belgium 831a8bb13f298824d390dcf62a836e9d7fce5bc8" ;
     okh:fileFormat "DXF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/rouleau60_v2_-_4x.dxf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMzU5NzM=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/rouleau60_v2_-_4x.dxf> .
 
 :Rouleaulevierd110v1 a okh:Part ;
     rdfs:label "Rouleau_levier_D110_v1" ;
@@ -435,7 +450,7 @@
     rdfs:label "Source File of Rouleau_levier_D110_v1 of Breath4Life in Belgium 831a8bb13f298824d390dcf62a836e9d7fce5bc8" ;
     okh:fileFormat "STEP" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/rouleau_levier_d110_v1.STEP> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMzE4Nzk=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/rouleau_levier_d110_v1.STEP> .
 
 :Rouleaulevierd60v1 a okh:Part ;
     rdfs:label "Rouleau_levier_D60_v1" ;
@@ -448,7 +463,7 @@
     rdfs:label "Source File of Rouleau_levier_D60_v1 of Breath4Life in Belgium 831a8bb13f298824d390dcf62a836e9d7fce5bc8" ;
     okh:fileFormat "STEP" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/rouleau_levier_d60_v1.STEP> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMzE4NzU=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/rouleau_levier_d60_v1.STEP> .
 
 :Softwarearchitecture a okh:Part ;
     rdfs:label "Software_architecture" ;
@@ -461,56 +476,83 @@
     rdfs:label "Source File of Software_architecture of Breath4Life in Belgium 831a8bb13f298824d390dcf62a836e9d7fce5bc8" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/software_architecture.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozNDIzODY=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/software_architecture.pdf> .
 
 :Supportballonperpendiculaire5x a okh:Part ;
-    rdfs:label "SupportBallonPerpendiculaire - 5x",
-        "SupportBallonPerpendiculaire_-_5x" ;
+    rdfs:label "SupportBallonPerpendiculaire - 5x" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Régis Lomba" ;
     okh:source :Supportballonperpendiculaire5x_source ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> .
 
-:Supportballonperpendiculaire5x_source a okh:SourceFile ;
-    rdfs:label "Source File of SupportBallonPerpendiculaire - 5x of Breath4Life in Belgium 831a8bb13f298824d390dcf62a836e9d7fce5bc8",
-        "Source File of SupportBallonPerpendiculaire_-_5x of Breath4Life in Belgium 831a8bb13f298824d390dcf62a836e9d7fce5bc8" ;
+:Supportballonperpendiculaire5x1 a okh:Part ;
+    rdfs:label "SupportBallonPerpendiculaire_-_5x" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Régis Lomba" ;
+    okh:source :Supportballonperpendiculaire5x1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> .
+
+:Supportballonperpendiculaire5x1_source a okh:SourceFile ;
+    rdfs:label "Source File of SupportBallonPerpendiculaire_-_5x of Breath4Life in Belgium 831a8bb13f298824d390dcf62a836e9d7fce5bc8" ;
     okh:fileFormat "DXF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/supportballonperpendiculaire_-_5x-cd615.dxf>,
-        <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/supportballonperpendiculaire_-_5x.dxf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMzEzMzU=>,
-        <https://wikifactory.com/files/RmlsZTozMzEzNjI=> .
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/supportballonperpendiculaire_-_5x-cd615.dxf> ;
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/supportballonperpendiculaire_-_5x-cd615.dxf> .
+
+:Supportballonperpendiculaire5x_source a okh:SourceFile ;
+    rdfs:label "Source File of SupportBallonPerpendiculaire - 5x of Breath4Life in Belgium 831a8bb13f298824d390dcf62a836e9d7fce5bc8" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/supportballonperpendiculaire_-_5x.dxf> ;
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/supportballonperpendiculaire_-_5x.dxf> .
 
 :Supportperpendiculairebras4x a okh:Part ;
-    rdfs:label "SupportPerpendiculaireBras - 4x",
-        "SupportPerpendiculaireBras_-_4x" ;
+    rdfs:label "SupportPerpendiculaireBras - 4x" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Régis Lomba" ;
     okh:source :Supportperpendiculairebras4x_source ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> .
 
-:Supportperpendiculairebras4x_source a okh:SourceFile ;
-    rdfs:label "Source File of SupportPerpendiculaireBras - 4x of Breath4Life in Belgium 831a8bb13f298824d390dcf62a836e9d7fce5bc8",
-        "Source File of SupportPerpendiculaireBras_-_4x of Breath4Life in Belgium 831a8bb13f298824d390dcf62a836e9d7fce5bc8" ;
+:Supportperpendiculairebras4x1 a okh:Part ;
+    rdfs:label "SupportPerpendiculaireBras_-_4x" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Régis Lomba" ;
+    okh:source :Supportperpendiculairebras4x1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> .
+
+:Supportperpendiculairebras4x1_source a okh:SourceFile ;
+    rdfs:label "Source File of SupportPerpendiculaireBras_-_4x of Breath4Life in Belgium 831a8bb13f298824d390dcf62a836e9d7fce5bc8" ;
     okh:fileFormat "DXF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/supportperpendiculairebras_-_4x-e055a.dxf>,
-        <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/supportperpendiculairebras_-_4x.dxf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMzEzMzI=>,
-        <https://wikifactory.com/files/RmlsZTozMzEzNTk=> .
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/supportperpendiculairebras_-_4x-e055a.dxf> ;
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/supportperpendiculairebras_-_4x-e055a.dxf> .
+
+:Supportperpendiculairebras4x_source a okh:SourceFile ;
+    rdfs:label "Source File of SupportPerpendiculaireBras - 4x of Breath4Life in Belgium 831a8bb13f298824d390dcf62a836e9d7fce5bc8" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/supportperpendiculairebras_-_4x.dxf> ;
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/supportperpendiculairebras_-_4x.dxf> .
 
 :Tigelimitswitchdebutcourse1x a okh:Part ;
-    rdfs:label "TigeLimitSwitchDebutCourse - 1x",
-        "TigeLimitSwitchDebutCourse_-_1x" ;
+    rdfs:label "TigeLimitSwitchDebutCourse - 1x" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Régis Lomba" ;
     okh:source :Tigelimitswitchdebutcourse1x_source ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> .
 
-:Tigelimitswitchdebutcourse1x_source a okh:SourceFile ;
-    rdfs:label "Source File of TigeLimitSwitchDebutCourse - 1x of Breath4Life in Belgium 831a8bb13f298824d390dcf62a836e9d7fce5bc8",
-        "Source File of TigeLimitSwitchDebutCourse_-_1x of Breath4Life in Belgium 831a8bb13f298824d390dcf62a836e9d7fce5bc8" ;
+:Tigelimitswitchdebutcourse1x1 a okh:Part ;
+    rdfs:label "TigeLimitSwitchDebutCourse_-_1x" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Régis Lomba" ;
+    okh:source :Tigelimitswitchdebutcourse1x1_source ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> .
+
+:Tigelimitswitchdebutcourse1x1_source a okh:SourceFile ;
+    rdfs:label "Source File of TigeLimitSwitchDebutCourse_-_1x of Breath4Life in Belgium 831a8bb13f298824d390dcf62a836e9d7fce5bc8" ;
     okh:fileFormat "DXF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/tigelimitswitchdebutcourse_-_1x-1fbbc.dxf>,
-        <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/tigelimitswitchdebutcourse_-_1x.dxf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMzEzMzE=>,
-        <https://wikifactory.com/files/RmlsZTozMzEzNTg=> .
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/tigelimitswitchdebutcourse_-_1x-1fbbc.dxf> ;
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/tigelimitswitchdebutcourse_-_1x-1fbbc.dxf> .
+
+:Tigelimitswitchdebutcourse1x_source a okh:SourceFile ;
+    rdfs:label "Source File of TigeLimitSwitchDebutCourse - 1x of Breath4Life in Belgium 831a8bb13f298824d390dcf62a836e9d7fce5bc8" ;
+    okh:fileFormat "DXF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/tigelimitswitchdebutcourse_-_1x.dxf> ;
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40460/tigelimitswitchdebutcourse_-_1x.dxf> .
 

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A25484/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:iAmGratefulForKeyRing a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "\"I am grateful for...\" key ring" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I watched this TED lecture and it got me thinking: indeed, if we focus more on what we are grateful for, we just live better.\r
 \r
 http://www.ted.com/talks/lang/en/shawn_achor_the_happy_secret_to_better_work.html""" ;
@@ -14,6 +16,7 @@ http://www.ted.com/talks/lang/en/shawn_achor_the_happy_secret_to_better_work.htm
     okh:repo <https://www.thingiverse.com/thing:25484> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:25484> .

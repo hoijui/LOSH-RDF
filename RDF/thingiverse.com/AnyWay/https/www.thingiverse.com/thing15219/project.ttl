@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A15219/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Yaxislm8uu a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "y-axis-lm8uu" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Fixing a single screw in the center of the holder.\r
 This allows you to automatically align the site even if the screw holes are drilled not sure. Alignment works well if the distance between the parallel-hole slightly smaller (1-2mm), the distances between the shafts. During this process, simply turn on a slight angle, and will remain horizontal. Works well when worn on the three LM8UU, a little worse when mounting on 4 LM8UU. Worse still works if the distance between the parallel holes larger distance between the shafts, cell alignments will occur due to the deviation from the horizontal position.\r
 Convenient to install the clamp groove width of 3.5 mm.\r
@@ -15,6 +17,7 @@ The minimum height above the platform rolls for this method of attachment Lm8uu.
     okh:repo <https://www.thingiverse.com/thing:15219> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:15219> .

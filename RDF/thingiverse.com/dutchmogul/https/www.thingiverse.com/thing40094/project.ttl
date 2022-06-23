@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A40094/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:StarSpawnOfCthulhu a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Star Spawn of Cthulhu" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """One of the lesser beings belonging to the same race as Cthulhu (not the big guy himself). I don't normally take the time to model other people's properties, but I this is one of my all-time favorite monsters. He's scaled to 15mm, but you could re-size him by 200% for 28mm gaming if you're feeling epic.  \r
 \r
 \r
@@ -20,6 +22,7 @@ https://tinkercad.com/things/aU1ySeHudoT-star-spawn-of-cthulhu-wip""" ;
     okh:repo <https://www.thingiverse.com/thing:40094> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:40094> .

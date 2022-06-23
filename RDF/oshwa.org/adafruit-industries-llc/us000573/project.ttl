@@ -2,21 +2,15 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:AdafruitDrv8833DcstepperMotorDriverBreakoutBoard a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Adafruit DRV8833 DC/Stepper Motor Driver Breakout Board" ;
-    okh:additionalType "['Electronics']" ;
-    okh:certificationDate "2020-05-09T00:00:00-04:00" ;
-    okh:country "United States of America" ;
     okh:dataSource "oshwa.org" ;
     okh:documentationLanguage "en" ;
-    okh:documentationLicense "CC BY-SA" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function "Spin two DC motors or step one bi-polar or uni-polar stepper with up to 1.2A per channel using the DRV8833. With this chip, you get 2 full H-bridges, and good support for low voltage uses (can run from 2.7V up to 10.8V motor power) and has built in current limiting capability. We set it up for 1A current limiting, but you can also disable the current limiting. Click the link labeled 'Project Website' to find out more." ;
-    okh:hardwareLicense "Other" ;
     okh:licensor "Adafruit Industries, LLC" ;
-    okh:primaryType "Electronics" ;
     okh:repo <https://certification.oshwa.org/us000573.html> ;
     okh:repoHost "certification.oshwa.org" ;
-    okh:softwareLicense "MIT" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
     okh:uploadMethod "auto" ;
     okh:version "Rev A" ;

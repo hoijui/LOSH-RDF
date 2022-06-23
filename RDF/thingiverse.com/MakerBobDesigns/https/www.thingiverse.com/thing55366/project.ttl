@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A55366/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Iphone5SlimCaseBlank a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "iPhone 5 Slim Case Blank" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a very similar design to my iPhone 4s Slim Case Blank.  http://www.thingiverse.com/thing:51533\r
 I chopped, stretched, and massaged it until it fits like a glove!  Use this as a clean slate for your custom things.  Post pictures if you make one, and please let me know if you have any problems.\r
 I have also included a version with holes that expose the Apple and iPhone logos on the back of the phone.""" ;
@@ -14,6 +16,7 @@ I have also included a version with holes that expose the Apple and iPhone logos
     okh:repo <https://www.thingiverse.com/thing:55366> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:55366> .

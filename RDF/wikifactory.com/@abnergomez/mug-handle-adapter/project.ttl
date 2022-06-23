@@ -2,12 +2,12 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MugHandleAdapter a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Mug Handle Adapter" ;
     okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "A sure way to grab your favorite mug." ;
-    okh:hasComponent :BlueprintsmugHandle,
+    okh:hasComponent :Blueprintsmughandle,
         :Bom,
         :Bookletmdflex2,
         :Partsassembly,
@@ -25,18 +25,18 @@
     okh:version "1dd03a22bdf03166726889b8ffa370a764188733" ;
     okh:versionOf <https://wikifactory.com/@abnergomez/mug-handle-adapter> .
 
-:BlueprintsmugHandle a okh:Part ;
+:Blueprintsmughandle a okh:Part ;
     rdfs:label "Blueprints/Mug Handle" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Abner Gómez" ;
-    okh:source :BlueprintsmugHandle_source ;
+    okh:source :Blueprintsmughandle_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:BlueprintsmugHandle_source a okh:SourceFile ;
+:Blueprintsmughandle_source a okh:SourceFile ;
     rdfs:label "Source File of Blueprints/Mug Handle of Mug Handle Adapter 1dd03a22bdf03166726889b8ffa370a764188733" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/63052/mug_handle.PDF> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTg4OTE=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/63052/mug_handle.PDF> .
 
 :Bom a okh:Part ;
     rdfs:label "BOM" ;
@@ -49,7 +49,7 @@
     rdfs:label "Source File of BOM of Mug Handle Adapter 1dd03a22bdf03166726889b8ffa370a764188733" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/63052/bom.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTg4NTA=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/63052/bom.pdf> .
 
 :Bookletmdflex2 a okh:Part ;
     rdfs:label "booklet__MDflex2" ;
@@ -62,13 +62,13 @@
     rdfs:label "Source File of booklet__MDflex2 of Mug Handle Adapter 1dd03a22bdf03166726889b8ffa370a764188733" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/63052/booklet__mdflex2.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTg4NTk=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/63052/booklet__mdflex2.pdf> .
 
 :Image a okh:Image ;
     rdfs:label "Image of Mug Handle Adapter 1dd03a22bdf03166726889b8ffa370a764188733" ;
     okh:fileFormat "PNG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/63052/untitled_13-cba55.png> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTg4NDM=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/63052/untitled_13-cba55.png> .
 
 :Partsassembly a okh:Part ;
     rdfs:label "Parts/Assembly" ;
@@ -81,7 +81,7 @@
     rdfs:label "Source File of Parts/Assembly of Mug Handle Adapter 1dd03a22bdf03166726889b8ffa370a764188733" ;
     okh:fileFormat "SLDASM" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/63052/assembly.SLDASM> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTg4NjU=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/63052/assembly.SLDASM> .
 
 :Partsha001 a okh:Part ;
     rdfs:label "Parts/HA001" ;
@@ -95,13 +95,13 @@
     rdfs:label "Export File of Parts/HA001 of Mug Handle Adapter 1dd03a22bdf03166726889b8ffa370a764188733" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/63052/ha001.STL> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTg4Nzg=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/63052/ha001.STL> .
 
 :Partsha001_source a okh:SourceFile ;
     rdfs:label "Source File of Parts/HA001 of Mug Handle Adapter 1dd03a22bdf03166726889b8ffa370a764188733" ;
     okh:fileFormat "SLDPRT" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/63052/ha001.SLDPRT> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTg4NjQ=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/63052/ha001.SLDPRT> .
 
 :Partsha002 a okh:Part ;
     rdfs:label "Parts/HA002" ;
@@ -115,19 +115,19 @@
     rdfs:label "Export File of Parts/HA002 of Mug Handle Adapter 1dd03a22bdf03166726889b8ffa370a764188733" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/63052/ha002.STL> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTg4NzY=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/63052/ha002.STL> .
 
 :Partsha002_source a okh:SourceFile ;
     rdfs:label "Source File of Parts/HA002 of Mug Handle Adapter 1dd03a22bdf03166726889b8ffa370a764188733" ;
     okh:fileFormat "SLDPRT" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/63052/mug_handle_2.SLDPRT> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTg4NjM=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/63052/mug_handle_2.SLDPRT> .
 
 :Readme a okh:Readme ;
     rdfs:label "Readme of Mug Handle Adapter 1dd03a22bdf03166726889b8ffa370a764188733" ;
     okh:fileFormat "MD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/63052/readme-b661f.md> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo0MDA2MzM=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/63052/readme-b661f.md> .
 
 :Safetoplaydesignchallengemethodology a okh:Part ;
     rdfs:label "SafeToPlay_Design_Challenge_Methodology" ;
@@ -140,5 +140,5 @@
     rdfs:label "Source File of SafeToPlay_Design_Challenge_Methodology of Mug Handle Adapter 1dd03a22bdf03166726889b8ffa370a764188733" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/63052/safetoplay_design_challenge_methodology.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo0MDI2NTU=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/63052/safetoplay_design_challenge_methodology.pdf> .
 

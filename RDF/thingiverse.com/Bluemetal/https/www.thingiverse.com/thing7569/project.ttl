@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A7569/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:LedStripLighting a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "LED Strip Lighting " ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "I wanted to see my TOM doing its job and holding a flashlight got old pretty fast, so I decide to install LED lighting. I bought an adhesive backed cool white SMD LED strip at Amazon (I am sure there are cheaper alternatives out there but Amazon is \"reasonable\" and fast) ( http://www.amazon.com/Flexible-Lighting-LED-Ribbon-2026wh/dp/B002QQ1YOM/ref=sr_1_1?ie=UTF8&qid=1301971588&sr=8-1 ) and its matching PWM (Pulse Width Modulation) dimming control ( http://www.amazon.com/Dimming-Controller-Lights-Ribbon-Volt/dp/B003L4KKF2/ref=pd_cp_hi_2 )." ;
     okh:hasImage :Image ;
     okh:licensor "Bluemetal" ;
     okh:repo <https://www.thingiverse.com/thing:7569> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:7569> .

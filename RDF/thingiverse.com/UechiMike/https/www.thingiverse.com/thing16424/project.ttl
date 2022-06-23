@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A16424/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ThingomaticGcodeExtensionForInkscape a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Thing-O-Matic G-Code Extension for Inkscape" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is an Inkscape extension modified from Makerbot's wonderful Unicorn G-Code extension.  Instead of using the servo based pen control this uses the Z-axis along with the spacer replacement pen holder I modified here:  http://www.thingiverse.com/thing:15788\r
 \r
 Or this one here: (or any number of other pen holders) http://www.thingiverse.com/thing:16901\r
@@ -19,6 +21,7 @@ I take no credit for the original code was all done by Marty McGuire - see the o
     okh:repo <https://www.thingiverse.com/thing:16424> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:16424> .

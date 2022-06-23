@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A29860/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ModularBicycleDashboard a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Modular Bicycle Dashboard" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I had the idea a while back that it would be nice to have a dashboard for my bike where my ham radio HT, my garmin GPS and switches for managing my head/tail/running lights could be easily accessed while riding. Thinking this was probably the most brilliant idea since ... oh, I don't know ... maybe Edison's light bulb or my mother-in-law moving further away ... I decided others might like to have a dashboard like mine but only, others are likely to have different devices that may not fit what I made so I decided to design (in a very loose sense of that word) a dashboard that would let others use the framework, but they could design the mount they want for their devices, hence the "modular' part of the name.\r
 \r
 As you can tell by the file name, after 11 iterations, I've decided this one is to a point that I can let others know what I'm up to and get someone (or several someones) who is/are smarter than myself (a large % of the population of any given kindergarten) involved that can improve the design.\r
@@ -16,6 +18,7 @@ So here is my Modular Bicycle Dashboard""" ;
     okh:repo <https://www.thingiverse.com/thing:29860> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:29860> .

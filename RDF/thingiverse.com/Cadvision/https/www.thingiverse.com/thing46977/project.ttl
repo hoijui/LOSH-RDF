@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A46977/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ActionCameraMountForRcCelica a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Action camera mount for RC Celica" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "3D printable camera mount for Tamiya DF-03Ra Celica RC car. Tested with Liquid Image Ego action camera. Should fit also for GoPro." ;
     okh:hasImage :Image ;
     okh:licensor "Cadvision" ;
     okh:repo <https://www.thingiverse.com/thing:46977> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:46977> .

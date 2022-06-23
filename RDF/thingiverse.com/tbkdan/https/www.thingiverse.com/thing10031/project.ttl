@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A10031/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MakergearSimplifiedExtruderBlockWithQuickRelease a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "MakerGear Simplified Extruder Block with Quick Release" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """After recently putting together a MakerGear Prusa Mendel and having to unscrew 4 bolts countless times to clear jams, I decided one of the first parts I would design would be a quick-release mechanism for the filament drive. It's very similar to the current MakerGear extruder design with the exception that the bearing block is on a hinge with two bolts to hold it in. Now, when I need to clear a jam or change filament, I pull the screws close and unscrew the nut by hand, lift them over the top, and then swing the hinge open :-)\r
 \r
 This is designed to be a drop-in replacement - the only additional parts you will need are some screws for the hinge and the top retainer. Since I'm in the US, I sized the hinge screw as a #6; 1.5" should do the trick. The top screws were loosely sized for a #6 but could probably fit many other sizes; I'd recommend at least 2.25" or 2.5" length on those ones. The rest of the screws use the MakerGear hardware (M4 with M4 nuts on the block mount at the base, M3 on the extruder stepper mount, 5/16" for the bearing hole.\r
@@ -16,6 +18,7 @@ As requested, I made two versions: one with a bigger filament hole for 3mm (over
     okh:repo <https://www.thingiverse.com/thing:10031> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:10031> .

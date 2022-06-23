@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A39580/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PondPumpEnlargingAdapter a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Pond pump enlarging adapter" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "This time I needed to enlarge the ID of another of my pond pump's outflow ports from 12 mm to 25 mm to suit a larger hose. Change the diameters in the OpenSCAD to suit your own installation." ;
     okh:hasImage :Image ;
     okh:licensor "sharv999" ;
     okh:repo <https://www.thingiverse.com/thing:39580> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:39580> .

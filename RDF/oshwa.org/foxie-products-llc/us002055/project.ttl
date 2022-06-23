@@ -2,21 +2,15 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Cardclock a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "CardClock" ;
-    okh:additionalType "['3D Printing', 'Electronics', 'IOT']" ;
-    okh:certificationDate "2021-09-30T00:00:00-04:00" ;
-    okh:country "United States of America" ;
     okh:dataSource "oshwa.org" ;
     okh:documentationLanguage "en" ;
-    okh:documentationLicense "CC BY" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function "Open-source GPLv3, ESP8266-powered, WiFi-enabled, RTC-havin', super-capacitor havin', analog+digital, RGB LED-laden, clock the size of a credit card." ;
-    okh:hardwareLicense "CERN" ;
     okh:licensor "Foxie Products, LLC" ;
-    okh:primaryType "Electronics" ;
     okh:repo <https://certification.oshwa.org/us002055.html> ;
     okh:repoHost "certification.oshwa.org" ;
-    okh:softwareLicense "GPL" ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
     okh:uploadMethod "auto" ;
     okh:version "1.0" ;

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A52299/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:WobbleRingSteppingMotorV2 a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Wobble Ring Stepping Motor V2!!" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a snap together version (some glue) of my printable motor. It has been shrunk and uses only 9 pieces, air pistons included.\r
 \r
 The bellowPiston part is printed with no infill and needs to be airtight. When inflated it extends outward to push the glued on bellowLink part. The bellowLinks then push the wobbleRing, meshing with the drivenGear. Each piston is inflated and deflated sequentially to "step" the motor 4 degrees forward or backwards.\r
@@ -30,6 +32,7 @@ I also have to mention that I have not printed this yet, so I don't know if it w
     okh:repo <https://www.thingiverse.com/thing:52299> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:52299> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A35384/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:AngledPillowBlock a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Angled Pillow Block" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I use two of these to mount my filament spool to the top of my OpenBeam Rostock.  This makes the printer very solid and portable, I can just grab the whole thing and toss it in my car. It feeds nicely,with a curved filament path right into the extruder.\r
 \r
 They would be generally useful in any place where you want to mount a rod at an angle to the beam.""" ;
@@ -14,6 +16,7 @@ They would be generally useful in any place where you want to mount a rod at an 
     okh:repo <https://www.thingiverse.com/thing:35384> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:35384> .

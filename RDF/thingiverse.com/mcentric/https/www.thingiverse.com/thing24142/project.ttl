@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A24142/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Up3d1kgSpoolHolder a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "UP3D 1kg spool holder" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I made this spool holder for the wide 1kg spools from repraper.com. It fits the UP1 Start Plus 1.1 from UP3D.\r
 I know it's quite over designed, but I needed something that would work right away... and it does :)\r
 With the settings I used for the UP! the part came in at about 92g ABS.""" ;
@@ -14,6 +16,7 @@ With the settings I used for the UP! the part came in at about 92g ABS.""" ;
     okh:repo <https://www.thingiverse.com/thing:24142> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:24142> .

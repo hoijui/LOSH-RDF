@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A30072/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MeanwellSp32012TerminalCover a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "MeanWell SP-320-12 Terminal Cover" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Cover for power supply.\r
 I made it for the MeanWell I bought but it should fit any psu with the mounting holes as they seem to be pretty standard probably.\r
 \r
@@ -24,6 +26,7 @@ I copied the same licence as the original.""" ;
     okh:repo <https://www.thingiverse.com/thing:30072> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:30072> .

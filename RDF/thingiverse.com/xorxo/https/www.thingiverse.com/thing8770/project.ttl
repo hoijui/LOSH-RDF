@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A8770/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:3dKnothiresWithSupport a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "3D Knot (hi-res) with support" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is the hires-knot by chylld scaled and with manually added support.\r
 \r
 I had some trouble printing the original one because i did not want to omit some of the first layers. The main problem was that the overhang parts bent upwards and at some point the nozzle kicked one of the three parts around.\r
@@ -19,6 +21,7 @@ It might be a bit more support than needed, but with this models i do not need t
     okh:repo <https://www.thingiverse.com/thing:8770> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/BSD-4-Clause> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:8770> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A53878/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PrusaPsuMountRearLeftSide a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Prusa PSU mount rear left side" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I was looking for a PSU mount in rear left side of my prusa and all I found doesn't match my PSU, so I decide to make my own design using as reference this one http://www.thingiverse.com/thing:40672.\r
 \r
 It works real fine and can be printed with a Prusa 2 (7'5cm high), others PSU mount are too high.\r
@@ -16,6 +18,7 @@ Also I add the dwg file of the design.""" ;
     okh:repo <https://www.thingiverse.com/thing:53878> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:53878> .

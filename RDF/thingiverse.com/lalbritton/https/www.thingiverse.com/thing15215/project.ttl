@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A15215/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:DropperCaps a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Dropper Caps" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Adapts a dropper top sold for 1 oz "regular" bottles to fit on bottles with a smaller mouth. See article for details: http://swampcastle.blogspot.com/2011/12/dropper-caps-for-extract-bottles.html\r
 \r
 Also available at Shapeways, sadly not cheaply: http://www.shapeways.com/shops/swampcastle?section=Cooking""" ;
@@ -14,6 +16,7 @@ Also available at Shapeways, sadly not cheaply: http://www.shapeways.com/shops/s
     okh:repo <https://www.thingiverse.com/thing:15215> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:15215> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A27533/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:TantalusCup a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "  Tantalus Cup" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """The Tantalus cup works normally if it is partially filled.  If filled to the brim most of the liquid siphons out through the bottom.  It is also called a  Pythagorean cup.\r
 \r
 Thing:17330 by Scooter46290 is a such a cup with a simple but elegant siphon composed of three concentric cones about a central tube.  Here is another version where the siphon is concealed in the stem.  It has the advantage that the siphon has a greater head and can more completely empty the cup.   Open scad and stl files are provided.""" ;
@@ -14,6 +16,7 @@ Thing:17330 by Scooter46290 is a such a cup with a simple but elegant siphon com
     okh:repo <https://www.thingiverse.com/thing:27533> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:27533> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A11336/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:GorillapodPhoneMount a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Gorillapod Phone Mount" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """My phone takes pretty good pictures, but I find the quality slips when I can't keep it stable.  This mount allows me to clip the phone onto my Gorillapod, giving me the stability I need.  Being able to gorilla my phone to a post is also pretty neat.\r
 \r
 I'm particularly happy with how the insert clip turned out.  This mount will slide in and lock in place, just like the native part.  (I've also broken the clip out into it's own scad in case you'd like to design your own Gorillapod-compatible thing.)\r
@@ -18,6 +20,7 @@ UPDATE:  I pulled the iphone4 dimensions off the apple website and added an stl 
     okh:repo <https://www.thingiverse.com/thing:11336> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:11336> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A63908/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PiWithDigits a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "pi with digits" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """A quick pi symbol with the digits of pi out to six decimal places. \r
 I added the name of our 5/6 math teacher to mine and printed it out for a 'thank-you' gift for having me in to talk with her students about 3D printing! \r
 \r
@@ -16,6 +18,7 @@ Edit it online: https://tinkercad.com/things/2VtJG8dqfAq""" ;
     okh:repo <https://www.thingiverse.com/thing:63908> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:63908> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A56629/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:BezierCurvesAndKnotsScriptForBlender a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Bezier curves and knots script for Blender" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a Python script that I've been working on for Blender, to generate 3D geometry based on bezier curves.  My goal is to produce a variety of attractive and accurate Celtic knots and braids to use as artistic elements in my projects.  \r
 \r
 I developed a customizable picture frame as a testbench for my work.  You can use it as a stand-alone project to generate a picture frame with text (or without).\r
@@ -22,6 +24,7 @@ UPDATE: 2012 Mar 6 -- version 1.1. uploaded to fix bugs in the utility function 
     okh:repo <https://www.thingiverse.com/thing:56629> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:56629> .

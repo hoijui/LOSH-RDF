@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A29000/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Ipad2SoundDeflector a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "iPad 2 Sound deflector" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I wanted to fix the small bump in the back of \r
 tomlombardi original file and also manifold the edges so slicer didn't complain about it. After attempting the print my build let go of the glass right at the end and ruined the print grrrr so I added a few small 1mm high squares to help it stick better.  Second time printed perfect. These are removed very easy with a box cutter or exacto knife. \r
 \r
@@ -15,6 +17,7 @@ I am including the sketchup file as well so it can be modified if you so desire.
     okh:repo <https://www.thingiverse.com/thing:29000> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:29000> .

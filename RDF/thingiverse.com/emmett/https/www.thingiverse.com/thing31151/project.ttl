@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A31151/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:RhombicDodecahedraChain a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Rhombic Dodecahedra Chain" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """These rhombic dodecahedra are unconnected, yet inseparable. They have been specifically sized for the Dual Replicator, in such a way that both extruders can be used at once (using JoeyC's script), to print different color interlocking polyhedra. \r
 \r
 This thing turns out to be pretty fun to play with; it makes a decent rattle and I enjoy the game of hanging onto one end and trying to swing it to make all six modules stack upright.""" ;
@@ -14,6 +16,7 @@ This thing turns out to be pretty fun to play with; it makes a decent rattle and
     okh:repo <https://www.thingiverse.com/thing:31151> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:31151> .

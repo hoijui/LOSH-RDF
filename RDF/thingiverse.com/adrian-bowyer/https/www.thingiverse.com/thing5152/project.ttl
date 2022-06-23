@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A5152/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PrintableInkjetHead a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Printable Inkjet Head" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is an inkjet head that can be made from 3D printed parts plus simple easy-to-obtain components.  It requires no machining to make it - you just need scissors and a scalpel.\r
 \r
 This is experimental, and in particular it needs development on its driver electronics.  But it does work.""" ;
@@ -14,6 +16,7 @@ This is experimental, and in particular it needs development on its driver elect
     okh:repo <https://www.thingiverse.com/thing:5152> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:5152> .

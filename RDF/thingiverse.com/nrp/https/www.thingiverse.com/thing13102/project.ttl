@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A13102/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:AugmentedRealityFor3dPrinting a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Augmented Reality for 3D Printing" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Post with links at http://eclecti.cc/computergraphics/augmented-reality-for-3d-printing\r
 \r
 My roommateâ€™s struggles designing his first 3D printed part gave me the idea to write an augmented reality viewer that lets you preview and interact with STL models in the real world without having to commit an object to plastic. This is actually sort of an update on part of a project I did for a Computational Photography course three years ago, but not terrible looking this time. I used the ArUco library to track the fiducial markers, largely because there is a javascript version if I ever want to make it web based. The program, which I uncreatively named arstl, reads in ASCII and binary STL files and displays them on top of the tracked marker. Right now, it uses a pretty basic OpenGL shader for a shiny plastic look, but I plan on making a more convincingly plastic one with bump mapping and subsurface scattering soon. As usual, the code is up on github under an ISC License. The STL parsing part of it is in the public domain, in case anyone finds it useful.\r
@@ -16,6 +18,7 @@ Video of it in action at: http://www.youtube.com/watch?v=HWSvJXuuznk""" ;
     okh:repo <https://www.thingiverse.com/thing:13102> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/BSD-4-Clause> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:13102> .

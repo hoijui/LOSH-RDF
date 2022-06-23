@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A30831/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:SwissArmyKnifeToothpick a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Swiss Army Knife toothpick" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "Don't know about you, but I'm always losing the toothpick from my Victorinox Swiss Army Knife. OK, you can get a new one on eBay, but it's so much better to be able to print yours out in just a couple of minutes - and in your choice of colour." ;
     okh:hasImage :Image ;
     okh:licensor "SteveCaplin" ;
     okh:repo <https://www.thingiverse.com/thing:30831> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:30831> .

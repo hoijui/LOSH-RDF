@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A28277/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:OpenrovUnderwaterRobot a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "OpenROV Underwater Robot" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I have created a model of the OpenROV (openrov.com) in Google Sketchup.  I did this in response to one of the original designers asking me if I could sketch up a drawing of how I envisioned attaching some auxiliary thrusters I proposed attaching to the ROV. I know he didn't mean use "Google Sketchup (tm)" to do it, but since I have experience with that program and I find it useful to have a virtual model to test concepts I went ahead and modeled one up the best I could.\r
 \r
 I created the model because I don't actually have the physical ROV in my possession at this point. I'm a Kickstarter backer with a pre-assembled ROV coming my way though :) Until November 2012 when the ROVs are to ship out, I have to make do.  Answering questions about physical designs is difficult without having something tangible to work with. By creating a scale 3D model I was able to see and verify if my proposed solutions could actually work. \r
@@ -36,6 +38,7 @@ The camera motion in the videos is controlled in real-time by me using a Space N
     okh:repo <https://www.thingiverse.com/thing:28277> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:28277> .

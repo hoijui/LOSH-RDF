@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A33960/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:WitchsEyeOrnament a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Witch's Eye Ornament" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This ornament is meant to resemble a German blown glass decoration popular in the nineteenth and early twentieth century.  The ornament was made by pressing a softened glass bubble against a form leaving a round geometric indentation.  The indentation was silvered making a reflective surface called a "witch's eye".\r
 \r
 In an attempt to duplicate the glass ornament portions of a polyhedron were subtracted from a sphere to make three indentations.  A thin layer of material was added to the sphere surface so that the ornament could have two colors.  A connector was placed at the top.\r
@@ -16,6 +18,7 @@ The ornament lacks the reflective surfaces that created the "witch's eyes".  Per
     okh:repo <https://www.thingiverse.com/thing:33960> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:33960> .

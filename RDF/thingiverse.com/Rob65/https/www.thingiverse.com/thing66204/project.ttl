@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A66204/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ToolHoldersForLeapfrogCreatrorOther40mmAluminumProfiles a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Tool holders for Leapfrog Creatr (or other 40mm Aluminum profiles)" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I always hate it to discover my tools have gone when I need them.\r
 especially the small hex wrenches that I need with my Leapfrog Creatr are always just missing when I need them (not that I need them that much though...)\r
 So I decided to make some clips to clip the tools on the aluminum profile that makes up the box of the Creatr. These are actually common 40x40mm extruder profiles with 8mm T-nut as delivered by Bosch, Maytec and othe manufacturers.\r
@@ -20,6 +22,7 @@ The SolidWorks file is for SolidWorks 2010""" ;
     okh:repo <https://www.thingiverse.com/thing:66204> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:66204> .

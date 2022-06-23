@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A11858/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ElectromagnetRatchetMotor a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Electromagnet Ratchet Motor" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This experimental motor is another attempt at building a printable actuator.  The advantage this design might have over a motor like this one http://www.thingiverse.com/thing:11164 is that it does not use magnets.  This is not really a practical motor, but others interested in this topic might be able to build on this design.  \r
 \r
 It was designed for use with this electromagnet http://www.thingiverse.com/thing:9608 and actually operated for a very brief moment before the electromagnet burned out.  The electromagnet is driven by a pulsed DC current (a square wave at 5 to 10 Hz).  With each pulse, the arm is attracted to the electromagnet, and it advances the ratchet wheel by one tooth.  Gravity returns the arm to its rest position.  The motor sits in the funny-looking wheel stand so that different inclinations can be tried.  This is a simple way to adjust the return force on the arm.  \r
@@ -30,6 +32,7 @@ http://reprap.org/wiki/Actuator_Fabrication""" ;
     okh:repo <https://www.thingiverse.com/thing:11858> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:11858> .

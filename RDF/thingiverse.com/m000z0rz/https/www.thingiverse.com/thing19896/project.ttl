@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A19896/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MockingjayPin a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Mockingjay Pin" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Mockingjay pin from Hunger Games - printing these to wear to the movie this weekend!\r
 I really liked lowsider's http://www.thingiverse.com/thing:19747 , but I don't have a laser cutter. I ended up using the .dxf from lookwhatjoeysmaking's http://www.thingiverse.com/thing:18567 , filling in the holes in Paint to get the sillouette from lowsider's pin, and then following the excellent instructions at http://reprap.org/wiki/Mendel_User_Manual/Converting_a_simple_2D_image_into_a_printed_object to get from the .png to a new .dxf, imported in OpenSCAD and generated the .stl\r
 \r
@@ -15,6 +17,7 @@ Too bad I didn't have http://www.faberdashery.co.uk/products-page/print-material
     okh:repo <https://www.thingiverse.com/thing:19896> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:19896> .

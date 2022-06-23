@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A8318/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:HookForHangingPlant a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Hook for hanging plant." ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This type of terrace roof is popular here (the Netherlands) and so are the hanging plants. Unfortunately the hooks don't work well with the edge of the terrace roof, so I created an additional hook that fits both.\r
 Note that when the hook is hanging down the bottom part of the hole is curved to better fit the hook of the plant hanger.\r
 Design was done in Sketchup. Simple design but very useful thing.\r
@@ -16,6 +18,7 @@ The image is sideways because thingiverse wants all images to be in landscape or
     okh:repo <https://www.thingiverse.com/thing:8318> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:8318> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A11197/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:AirconAirMixer a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Aircon air mixer" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This thing is a fan-powered air mixer that fits into a standard round air conditioner outlet.\r
 \r
 These outlets use an adjustable cone to blow cold air along the ceiling, which provides a even temperature distribution in the room.\r
@@ -22,6 +24,7 @@ This fan-thing hooks into the outlet and widens the column of air, making it a l
     okh:repo <https://www.thingiverse.com/thing:11197> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:11197> .

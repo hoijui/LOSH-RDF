@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A14156/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:AnotherPrintrbotClonepartly a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Another printrbot clone (partly)" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I saw there was one printrbot clone http://www.thingiverse.com/thing:14130 , so I thought I'd post the files I have been working on. Same reverse engineering process. They are not a derivative, except having looked at the pictures. Though if the originals had been here, I would have posted them as a derivative... eh... or I wouldn't have just printed the originals I guess. \r
 \r
 It's just the base (and some funny feet to put under it). \r
@@ -18,6 +20,7 @@ Update: I've added a different variant which is more plastic (not using the thre
     okh:repo <https://www.thingiverse.com/thing:14156> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:14156> .

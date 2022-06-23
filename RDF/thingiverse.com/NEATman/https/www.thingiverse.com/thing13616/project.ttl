@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A13616/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ModelRocketBCEngineSize a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Model Rocket - B & C Engine Size" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """UPDATE - I've added "Rocket 2 - Payload.stl" It's the same size rocket, but with a payload section at the top.  It also has a new lighter weight motor retention system, made from a cleverly bent large paper clip to keep the weight down.  To assemble, straighten a large standard paper clip.  Bend the "U" at one end, insert downward, from the nose cone end toward the tail end.  Then bend the paperclip out sideways, and add the knee bend and loop at the end.  It acts like a torsion spring to retain the rocket motor.  \r
 \r
 I tried unsuccessfully to properly print out the rockets that were here on thingiverse, so my son and I designed our own in solidworks.  I think it was mostly due to learning the limitations of our TOM, and not a problem with the existing designs.  You will notice that this is a "all at once" print, where you print the fins, tubes and nose cone all at the same time.  There are connecting ribs between the parts so that the fin section will stabilize the other tall thin parts - you'll notice in one of the pictures that the print failed near the end when the tall skinny tubes were tilting around on the ABP conveyor belt.\r
@@ -19,6 +21,7 @@ I have added a STL without the connecting ribs - just make sure you have a solid
     okh:repo <https://www.thingiverse.com/thing:13616> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:13616> .

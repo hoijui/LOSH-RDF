@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A6715/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:RodClamp a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Rod Clamp" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "Clips a 10mm rod on to a square 22mm frame. Used with an old printer head guide rod and a steel frame fireplace wood bin to form the hub & frame of my filament spools with http://www.thingiverse.com/thing:4337. Includes a slot & fitting \"U\" spring clip to keep the rod in place on one end, since the rod was nicely slotted like that." ;
     okh:hasImage :Image ;
     okh:licensor "leghk" ;
     okh:repo <https://www.thingiverse.com/thing:6715> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:6715> .

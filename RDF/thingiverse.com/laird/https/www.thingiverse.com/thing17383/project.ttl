@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A17383/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ParametricPen a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Parametric Pen" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """No more losing your pens! This is parametric pen, which you can put a label on. Because who wouldn't want a pen with their name printed as the shape of the pen.\r
 \r
 You should be able to size it to slip over a Bic pen, or to use as a barrel of a pen kit.\r
@@ -18,6 +20,7 @@ Updated so that the pen's face is at z=0, making it easier to print.""" ;
     okh:repo <https://www.thingiverse.com/thing:17383> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:17383> .

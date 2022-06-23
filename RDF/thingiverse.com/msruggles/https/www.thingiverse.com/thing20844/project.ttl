@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A20844/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:TurretChessV2 a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Turret Chess V2" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "I made the design shorter and a little smaller to reduce cost/time to print. I also added 6 holes (5 in the pawn) in the bottom to accommodate 1/8\" cubic magnets. I think for my application I only need three magnets in each piece, but it's easy to have extra designed in rather than trying to drill them later." ;
     okh:hasImage :Image ;
     okh:licensor "msruggles" ;
     okh:repo <https://www.thingiverse.com/thing:20844> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:20844> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A2033/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ArduinoRobotShieldV21 a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Arduino Robot Shield v2.1" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I've felt a need for a way to very quickly and easily attach sensors and motors to an Arduino to prototype simple robots. I love ladyada's motor shield but was frustrated by it's inability to easily connect to sensors.\r
 \r
 So far I've tested the board on my sumobots and a prototype fire-fighting robot and it works perfectly. \r
@@ -20,6 +22,7 @@ I have a few extra boards which I might be selling in the near future. Let me kn
     okh:repo <https://www.thingiverse.com/thing:2033> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:2033> .

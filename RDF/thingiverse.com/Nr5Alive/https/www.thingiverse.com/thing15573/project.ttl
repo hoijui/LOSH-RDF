@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A15573/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MouseShoe a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Mouse shoe" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Another small copy of a handmade terra cotta shoe with mouses in.\r
 I shot 40 photos to generate this shoe.""" ;
     okh:hasImage :Image ;
@@ -13,6 +15,7 @@ I shot 40 photos to generate this shoe.""" ;
     okh:repo <https://www.thingiverse.com/thing:15573> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:15573> .

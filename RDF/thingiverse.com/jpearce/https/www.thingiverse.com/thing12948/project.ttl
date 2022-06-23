@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A12948/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:RecyclebotV22 a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "RecycleBot v2.2" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """A RecycleBot is a waste plastic extruder - that can take household polymer waste and turn it into valuable 3-D printer feedstock.  \r
 \r
 \r
@@ -24,12 +26,13 @@ Our goal is to have a fully automated system running off of an Ardruino. Imagine
 \r
 We are about half way there -- if anyone would like to help particularly on the controls side - please drop me a line. Improvements will be posted on a [wiki](http://www.appropedia.org/Recyclebot) first  as we go and imported to Thingiverse when they are solid.  \r
 \r
-More info: Christian Baechler, Matthew DeVuono, and Joshua M. Pearce, [Distributed Recycling of Waste Polymer into RepRap Feedstock](http://www.academia.edu/2643418/Distributed_Recycling_of_Waste_Polymer_into_RepRap_Feedstock), Rapid Prototyping Journal, 19(2), pp. 118-125 (2013).""" ;
+More info: Christian Baechler, Matthew DeVuono, and Joshua M. Pearce, x93[Distributed Recycling of Waste Polymer into RepRap Feedstock](http://www.academia.edu/2643418/Distributed_Recycling_of_Waste_Polymer_into_RepRap_Feedstock),x9d Rapid Prototyping Journal, 19(2), pp. 118-125 (2013).""" ;
     okh:hasImage :Image ;
     okh:licensor "jpearce" ;
     okh:repo <https://www.thingiverse.com/thing:12948> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:12948> .

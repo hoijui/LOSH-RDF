@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A9452/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:SmallBox a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Small box" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a derivitive box with a lattice work top based on "Islamic Pattern Lasercut Box by hirmes "http://www.thingiverse.com/thing:847".\r
 \r
 The top pattern is cut out so you can see into the box, the interior pattern on the bottom of the box is only an engraving, without any cutouts.""" ;
@@ -14,6 +16,7 @@ The top pattern is cut out so you can see into the box, the interior pattern on 
     okh:repo <https://www.thingiverse.com/thing:9452> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:9452> .

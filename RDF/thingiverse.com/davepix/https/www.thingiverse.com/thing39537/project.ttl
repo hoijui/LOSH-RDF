@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A39537/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:EntekAlephOneShelfBracket a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Entek Aleph One Shelf Bracket" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Shelf brackets to hold an Aleph One LED Light strip made by Entek \r
 \r
 Allows the strip to be mounted on the edge or depending on how deep your shelf is mounted front to back as in the photo""" ;
@@ -14,6 +16,7 @@ Allows the strip to be mounted on the edge or depending on how deep your shelf i
     okh:repo <https://www.thingiverse.com/thing:39537> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:39537> .

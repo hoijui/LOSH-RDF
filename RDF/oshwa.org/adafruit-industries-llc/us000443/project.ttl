@@ -2,21 +2,15 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Adafruit154MonochromeEinkEpaperDisplayWithSram a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Adafruit 1.54\" Monochrome eInk / ePaper Display with SRAM" ;
-    okh:additionalType "['Electronics']" ;
-    okh:certificationDate "2020-04-30T00:00:00-04:00" ;
-    okh:country "United States of America" ;
     okh:dataSource "oshwa.org" ;
     okh:documentationLanguage "en" ;
-    okh:documentationLicense "CC BY-SA" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function "The breakout has a 1.54\" monochrome (black and white) display. It's higher resolution than our 1.54\" Tri-Color display with 200x200 black pixels on a white-ish background. The monochrome displays also take a lot less time to update, only a couple seconds instead of 15 seconds. Using our CircuitPython or Arduino libraries, you can create a 'frame buffer' with what pixels you want to have activated and then write that to the display. Click the link labeled 'Project Website' to find out more." ;
-    okh:hardwareLicense "Other" ;
     okh:licensor "Adafruit Industries, LLC" ;
-    okh:primaryType "Electronics" ;
     okh:repo <https://certification.oshwa.org/us000443.html> ;
     okh:repoHost "certification.oshwa.org" ;
-    okh:softwareLicense "MIT" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
     okh:uploadMethod "auto" ;
     okh:version "Rev E" ;

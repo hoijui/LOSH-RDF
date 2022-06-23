@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A3141/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ChainLink a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Chain Link" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Chain links are actually sort of tricky to model for a plastic extrusion printer like the Makerbot- there aren't very many variations that don't feature too extreme of an overhang anywhere. This one has been working so far, inspired by http://www.thingiverse.com/thing:519. The main difference in mine is that both the 'ball' and 'socket' of each link face the same direction, so a pieced-together chain has links that alternate direction (Check out the pictures). I'm not sure how excited one should get over this, but it does give the chain a sort of flattened, "belt-like" quality that might lend itself to use as some sort of belt that can be attached to a large wheel? Note that each link can only pivot about 35-40 degrees before it becomes in danger of detaching from the link behind it. I plan on creating a second version that addresses some problems:\r
 \r
 -Deeper gap between the "fingers" of the fork, to increase range of pivot.\r
@@ -16,6 +18,7 @@
     okh:repo <https://www.thingiverse.com/thing:3141> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:3141> .

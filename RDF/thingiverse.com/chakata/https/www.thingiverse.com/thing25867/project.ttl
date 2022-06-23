@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A25867/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:BowdenClampkissMethod a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Bowden Clamp (K.I.S.S. method)" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Bowden Clamp (K.I.S.S. method) for Ultimaker\r
 Well! It happened to us too!  A couple of prints and then the Bowden Tube popped up and that was all she wrote!  Searching this site and we found the solution (we thought) which is Owen's Bowden Clamp for Ultimaker (Heater End) http://www.thingiverse.com/thing:11864 but then Catch 22 kicked in. How to use the solution when you can't make the solution, (because the Bowden thingy has popped up and won't stay in because............)  Ok!  Another solution needed.  So applying the K.I.S.S. (Keep it simple, stupid!)  method, here it is.""" ;
     okh:hasImage :Image ;
@@ -13,6 +15,7 @@ Well! It happened to us too!  A couple of prints and then the Bowden Tube popped
     okh:repo <https://www.thingiverse.com/thing:25867> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:25867> .

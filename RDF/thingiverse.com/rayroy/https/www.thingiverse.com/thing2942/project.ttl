@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A2942/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:StereoscopicIpodNanoMount a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Stereoscopic iPod nano mount" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """You can print in 3D, how about recording video in 3D!?  This simple yet elegant mount accepts two fifth gen iPod nanos enabling the creator to record their daily webvlogs in glorious stereoscopic 3D video.\r
 \r
 Here is a video of its practical application!\r
@@ -23,6 +25,7 @@ Ray Roy""" ;
     okh:repo <https://www.thingiverse.com/thing:2942> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:2942> .

@@ -2,22 +2,15 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ArbolIot a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Arbol IoT" ;
-    okh:additionalType "['Environmental']" ;
-    okh:certificationDate "2019-09-15T00:00:00-04:00" ;
-    okh:country "Mexico" ;
-    okh:cpcPatentClass "Environmental" ;
     okh:dataSource "oshwa.org" ;
     okh:documentationLanguage "en" ;
-    okh:documentationLicense "Other" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function "Environment sensor to analyze differences between tree zones and non-tree zones within a city" ;
-    okh:hardwareLicense "CERN" ;
     okh:licensor "IMEPLAN" ;
-    okh:primaryType "Environmental" ;
     okh:repo <https://certification.oshwa.org/mx000010.html> ;
     okh:repoHost "certification.oshwa.org" ;
-    okh:softwareLicense "GPL" ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
     okh:uploadMethod "auto" ;
     okh:version "1.0" ;

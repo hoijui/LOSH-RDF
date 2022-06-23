@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A40099/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PoolTableBridge a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Pool Table Bridge" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Just a simple bridge for your pool table.   
 You can attach easily (and temporarily) to the end of one of your Pool/Cue Sticks. It allows you to sink those shots that are......just......out.............of............................reach.  
 Note that another .stl file that adds "side" guides is also provided and attached. "Pool_Table_Bridge_2.stl\"""" ;
@@ -14,6 +16,7 @@ Note that another .stl file that adds "side" guides is also provided and attache
     okh:repo <https://www.thingiverse.com/thing:40099> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:40099> .

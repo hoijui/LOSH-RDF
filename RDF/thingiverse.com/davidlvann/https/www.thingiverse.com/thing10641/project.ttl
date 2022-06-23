@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A10641/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ParametricTruss a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Parametric Truss" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Creates a flat truss from cylinders, automatically creating a triangular support structure based on the length and height of the truss desired. Takes a long time to compute, please be patient. Also, if you desire to use my point-to-point my trigonometry might be a little off. :-P\r
 \r
 EDIT: I got rid of the $fn variables that increased the resolution but increased the render time even more. Supposedly this improves printing as well.""" ;
@@ -14,6 +16,7 @@ EDIT: I got rid of the $fn variables that increased the resolution but increased
     okh:repo <https://www.thingiverse.com/thing:10641> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:10641> .

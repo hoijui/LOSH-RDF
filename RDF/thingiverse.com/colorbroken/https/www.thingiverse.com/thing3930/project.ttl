@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A3930/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:120FilmAdvanceCrank a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "120 Film Advance Crank" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "This is for a long-term camera mod project I've been undertaking for nearly 3 years.  The crank is pretty slick, I'm pleased with it, but it will require another part to interface with it as to prevent light leaks (bad for photography) and to keep it in place on the camera.  There is a tube heading up the center core for stability and structural rigidity -- \"solid\" or infilled prints would snap apart easily.  Giving the print a core requires the extruder to make a nice fat ring in the center, giving it a nice marrow to keep it solid.  Try it on your own models, it's toot-sweet." ;
     okh:hasImage :Image ;
     okh:licensor "colorbroken" ;
     okh:repo <https://www.thingiverse.com/thing:3930> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:3930> .

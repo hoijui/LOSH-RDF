@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A14832/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:LedTree a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "LED tree" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Inspired by http://www.thingiverse.com/thing:7018\r
 \r
 I drew this from scratch and spent quite a while tweaking the model to have a fuller more natural look. It helps if you can keep the "branches" from cooling too much while it loops them around. If they go stiff too fast, then the branches don't droop down enough and it ruins the effect.\r
@@ -16,6 +18,7 @@ I had to slow my printer down to 20mm/s to avoid serial port errors causing it t
     okh:repo <https://www.thingiverse.com/thing:14832> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:14832> .

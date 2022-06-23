@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A15877/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:FoldarapTheFoldingReprap a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "FoldaRap, the Folding Reprap" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Since 2012, I'm traveling around the town/country/world with my little folding RepRap !\r
 \r
 I started by a folding reprap the size of a Mendel, then a smaller version more Huxley-transportable, and finally I'm developping this one build with standard aluminium extrusions.\r
@@ -38,6 +40,7 @@ Version 1.0 : released summer 2012\r
     okh:repo <https://www.thingiverse.com/thing:15877> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:15877> .

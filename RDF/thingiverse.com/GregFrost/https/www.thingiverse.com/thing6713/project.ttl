@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A6713/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:AccessibleWadesExtruder a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Accessible Wade's Extruder" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Nothing to see here. You really want version 3: http://www.thingiverse.com/thing:8252 (although this is still a good reference for the benefits of the accessible aspects.\r
 \r
 **Version 2 now uploaded**. Generate STLs from the version 2 scad to get the version 2 changes. NOTE: To do this you must have configuration.scad from the prusa git repo in the same directory as gregs-wade-v2.scad so that bolt and nut sizes defined in that file can be used.\r
@@ -43,6 +45,7 @@ Version 2 Changes:\r
     okh:repo <https://www.thingiverse.com/thing:6713> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:6713> .

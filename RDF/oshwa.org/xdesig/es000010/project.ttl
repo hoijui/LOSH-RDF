@@ -2,22 +2,16 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:EchidnaBlack a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Echidna Black" ;
-    okh:additionalType "['Electronics', 'Robotics', 'Science']" ;
-    okh:certificationDate "2020-06-05T00:00:00-04:00" ;
-    okh:country "Spain" ;
-    okh:cpcPatentClass "Electronics" ;
+    okh:cpcPatentClass "H" ;
     okh:dataSource "oshwa.org" ;
     okh:documentationLanguage "en" ;
-    okh:documentationLicense "CC BY-SA" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function "It is an open source project intended to facilitate the learning of the programming of physical systems in the last years of primary and secondary school. To this end, a stand-alone PCB has been designed with your use in mind, with visual programming environments and with lines of code. It is backed by an educational guide with suggested activities for the classroom." ;
-    okh:hardwareLicense "CERN" ;
     okh:licensor "XDeSIG" ;
-    okh:primaryType "Education" ;
     okh:repo <https://certification.oshwa.org/es000010.html> ;
     okh:repoHost "certification.oshwa.org" ;
-    okh:softwareLicense "No software" ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
     okh:uploadMethod "auto" ;
     okh:version "00" ;

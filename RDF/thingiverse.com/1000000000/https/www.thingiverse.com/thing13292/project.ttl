@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A13292/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:DoubleThrowieCases a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Double Throwie Cases" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "This is a pair of almost identical casings for throwies which fit together in several different ways and allow easy access to the LEDs so that it is easier to replace any dead battery. This was designed in tinkercad and printed using a MakerBot. I used 6x3h,10d=m, 2x6.5d,1m=m, Li3V coin cell 5mm LED" ;
     okh:hasImage :Image ;
     okh:licensor "1000000000" ;
     okh:repo <https://www.thingiverse.com/thing:13292> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:13292> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A25644/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:TwoRabbits a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Two Rabbits" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Here are two souvenir rabbits.  One is a star gazing rabbit probably from Wales.  It's claimed that moon and star gazing rabbit stories are ancient but there seems little evidence to support this idea - possibly a ploy to sell rabbits.  The stone rabbit is a souvenir of Canada; it is almost certaintly a reproduction.\r
 \r
 Both rabbits were scanned in with 123D Catch which does a surprisingly good job on these small objects. The star gazing rabbit is 75 mm high and the stone rabbit 65 mm long.""" ;
@@ -14,6 +16,7 @@ Both rabbits were scanned in with 123D Catch which does a surprisingly good job 
     okh:repo <https://www.thingiverse.com/thing:25644> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:25644> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A55269/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Slimzcoupling a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Slim-Z-Coupling" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """There are countless Z-Coupling for 3D-Printer: rigid, flexible, printable and other variations. I'm using the Slim-Z-Coupling for a couple of weeks and I thought it's mature to propose this solution.\r
 \r
 Features:\r
@@ -22,6 +24,7 @@ Update: Slim-Z-Coupling2.tiff (white background)""" ;
     okh:repo <https://www.thingiverse.com/thing:55269> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:55269> .

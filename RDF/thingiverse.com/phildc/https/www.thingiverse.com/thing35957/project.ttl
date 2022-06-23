@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A35957/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Container20FeetForHoModelTrain a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Container 20 feet for HO model train" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """March 17, 2020:\r
 Ref also to newer models;\r
 https://www.thingiverse.com/thing:4190818\r
@@ -15,12 +17,13 @@ https://www.thingiverse.com/thing:4227204\r
 --------------------------------------------------------------------------------------\r
 This is a test to show what can be done for HO miniature train.\r
 \r
-Not a model of a real thing. Picture shows it in front of a regular MÃÂ¤rklin container.""" ;
+Not a model of a real thing. Picture shows it in front of a regular MÃx83Â¤rklin container.""" ;
     okh:hasImage :Image ;
     okh:licensor "phildc" ;
     okh:repo <https://www.thingiverse.com/thing:35957> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:35957> .

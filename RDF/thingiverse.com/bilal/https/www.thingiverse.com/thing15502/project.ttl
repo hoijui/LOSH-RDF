@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A15502/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:TimAndersonsFoot a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Tim Anderson's Foot" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "This is Tim Anderson's foot! I want to make a mold out of this, print it in parts and make him shoes! If you could help me create a block with a cut out of his foot inside of it that would be awesome. I'm not the best at modeling yet!" ;
     okh:hasImage :Image ;
     okh:licensor "bilal" ;
     okh:repo <https://www.thingiverse.com/thing:15502> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:15502> .

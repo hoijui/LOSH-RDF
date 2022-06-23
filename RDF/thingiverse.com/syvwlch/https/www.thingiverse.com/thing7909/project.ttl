@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A7909/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PrintableClockParametricProofOfConcept a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Printable Clock, Parametric Proof of Concept" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Another proof of concept along the way to a WORKING printable clock. A working clock would, for example, have a case. :-)\r
 \r
 Aside from such petty concerns, this clock is complete, in that we have a power source (a drum to wind a string and weight), a whole gear train (5/3/2/2/5/3/2/2), a Graham escapement, a (token) pendulum and three hands mounted on concentric shafts to show the time. \r
@@ -29,6 +31,7 @@ Lastly, the modular nature of this PoC should allow for separate tweaking of the
     okh:repo <https://www.thingiverse.com/thing:7909> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:7909> .

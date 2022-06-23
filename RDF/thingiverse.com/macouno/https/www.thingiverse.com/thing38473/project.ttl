@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A38473/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:DeskShark a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Desk Shark" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I really like the idea of using a hard surface as if it's water! So... just for fun, as an experiment... I decided to turn my very green desk into a little bit of ocean... SWIM FASTER HONEY!\r
 \r
 To support my work and help me make more free stuff you can buy something from my Etsy shop: http://www.etsy.com/shop/macouno""" ;
@@ -14,6 +16,7 @@ To support my work and help me make more free stuff you can buy something from m
     okh:repo <https://www.thingiverse.com/thing:38473> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:38473> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A11423/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:FunctionalPinTumblerPadlockModel a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Functional Pin Tumbler Padlock Model" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Functional Pin Tumbler Padlock Model. User Print-To-3D: http://www.thingiverse.com/printto3d shared a very cool sectioned Paddle-Lock: http://js-kit.com/blob/sk9sIwQKzOFH1K4lciYmmQ.jpg that got me interested in making something that actually locks.\r
 \r
 Again, all items are printable except for the springs which I removed from ball-point click pens (thankfully my wife is still putting up with disassembled pens around the house).  This one is a little more complicated but it still works and makes a good desk oddity.  If you were to glue the "Top", "Retainer", and "Lid" in place, the only way to get this lock open without the key would be to break it.  But, what is the fun if you can't take it apart?\r
@@ -17,6 +19,7 @@ Note 2: The "Lock" component is a difficult print.  I was able to get good resul
     okh:repo <https://www.thingiverse.com/thing:11423> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:11423> .

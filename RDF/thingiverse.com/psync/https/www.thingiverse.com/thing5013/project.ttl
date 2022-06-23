@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A5013/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ParameterizedScrewThreadAndorSpring a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Parameterized Screw Thread and/or Spring" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """My first ever Thingiverse upload! This is a screw thread described in OpenSCAD, and as a bonus you can use the helix module portion to generate a spring as well! I was trying to use the twist function in OpenSCAD, but a friend of mine mentioned using two rotated split toruses and this is the result.\r
 \r
 I've managed to print this out successfully, and this is part of a clamp I'm designing, but I figured this might be useful to someone out there. I have yet to try out just printing the spring portion, but it might work!""" ;
@@ -14,6 +16,7 @@ I've managed to print this out successfully, and this is part of a clamp I'm des
     okh:repo <https://www.thingiverse.com/thing:5013> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:5013> .

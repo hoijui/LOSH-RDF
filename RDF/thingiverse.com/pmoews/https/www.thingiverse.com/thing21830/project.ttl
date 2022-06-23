@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A21830/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ParametricChairAndTable a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Parametric Chair and Table" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Here are parametric openSCAD files that create chairs and tables.  Objects from a few millimeters across to full size chairs and tables can be built.  The programs are probably best suited for making small models for dioramas. More amusing than useful perhaps but it is interesting to quickly construct a succession of different tables and chairs. For example the chair can be widened to make a bench or lengthened to make a bed.\r
 \r
 You need openSCAD to make full use of the parametric files.  OpenSCAD is easy to download and install.  It includes an editor that can be used to vary the input parameters in the scad files.\r
@@ -26,6 +28,7 @@ Two parametric scad files are included: chair.scad and table.scad.  Parameters f
     okh:repo <https://www.thingiverse.com/thing:21830> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:21830> .

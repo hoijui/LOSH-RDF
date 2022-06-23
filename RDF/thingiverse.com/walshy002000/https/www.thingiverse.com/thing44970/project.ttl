@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A44970/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:OutdoorTableUmbrellaHoleBushing a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Outdoor Table Umbrella Hole Bushing" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Bushing/protector for the umbrella hole in an outdoor table.\r
 \r
 Designed for a 50mm diameter hole can easily be scaled for different size holes.\r
@@ -16,6 +18,7 @@ Comes in threaded and non-threaded versions.""" ;
     okh:repo <https://www.thingiverse.com/thing:44970> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/BSD-4-Clause> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:44970> .

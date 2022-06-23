@@ -2,15 +2,12 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:AnaviMiracleController a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "ANAVI Miracle Controller" ;
-    okh:additionalType "['IOT', 'Tool']" ;
-    okh:certificationDate "2019-07-14T00:00:00-04:00" ;
-    okh:country "Bulgaria" ;
-    okh:cpcPatentClass "IOT" ;
+    okh:cpcPatentClass "H04" ;
     okh:dataSource "oshwa.org" ;
     okh:documentationLanguage "en" ;
-    okh:documentationLicense "CC BY-SA" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function """ANAVI Miracle Controller is an open source hardware development board for controlling two 12V or 5V addressable LED strips with:
 
 * ESP8266 WiFi microcontroller
@@ -19,12 +16,9 @@
 * Dedicated slot for I2C OLED display
 * Slots for up to 3 plug and play I2C sensors for temperature, barometric pressure, humidity and light
 * UART (Universal asynchronous receiver/transmitter) pins for debugging""" ;
-    okh:hardwareLicense "Other" ;
     okh:licensor "ANAVI TECHNOLOGY" ;
-    okh:primaryType "Tool" ;
     okh:repo <https://certification.oshwa.org/bg000050.html> ;
     okh:repoHost "certification.oshwa.org" ;
-    okh:softwareLicense "GPL" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
     okh:uploadMethod "auto" ;
     okh:version "1.1" ;

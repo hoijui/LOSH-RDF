@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A12299/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:YBearingBracket a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Y bearing bracket" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """The original bracket by Alekseev_D made the bottom of my belt rub on the bottom rod (using a 608 bearing), so I created this variant to move the bearing up a bit.  4mm up was enough for me.  I also created the attached belt clamp spacer (a variant on Prusa's belt clamp file) to move the belt attachment point up 4mm to make it so it will pull absolutely straight.  It's also parametric so you can make the spacing different.\r
 \r
 This allows mounting the bottom Y carriage "upside-down" which gives more Z travel by utilizing otherwise wasted space under the printer.  This also eliminates one 608 bearing and the associated nut and washers.  It does add one bolt.  In all the vitamin count is reduced including one bearing.\r
@@ -18,6 +20,7 @@ Just be aware that you may have similar issues if the print bed is dropped down 
     okh:repo <https://www.thingiverse.com/thing:12299> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:12299> .

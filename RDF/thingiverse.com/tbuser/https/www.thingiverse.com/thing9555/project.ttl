@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A9555/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:SpoolGuards a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Spool Guards" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Update: If you mount your spools horizontally on top, I'd recommend using this filament guide instead of using spool guards: http://www.thingiverse.com/thing:9604\r
 \r
 These are OpenSCAD Parametric MakerBot Filament Spool Housings.  I always found Pax's excellent Spool Housings to be very difficult to print and kept thinking if only it were a little thicker so they don't delaminate or a slightly different shape, it could be even better, unfortunately I don't have Solidworks... so after having a few disasters with my stackable spool http://www.thingiverse.com/thing:9198 causing filament to fall off the side and failing yet again to print enough spool housings to surround it, I wrote my own in OpenSCAD.  Now that it's in OpenSCAD I can experiment with different sizes and dimensions.  I can also do cool things like putting an embossed logo on the outside to add some style.  :)\r
@@ -28,6 +30,7 @@ Option to print a slice with a nifty embossed MakerBot M in a circle logo (or a 
     okh:repo <https://www.thingiverse.com/thing:9555> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:9555> .

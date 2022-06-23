@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A27537/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ThePiRaspberryPiCase a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "The Pi :: Raspberry Pi Case" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I have designed many cases in the past 6 months for the Raspberry Pi and have only uploaded on of them to Thingiverse. But I have been working on a new case for a week now. It is not like any other case I can find on Thingiverse and the internet and is totally unique.\r
 I present to you The Pi. The first case in the shape of the Raspberry Pi logo.\r
 \r
@@ -17,6 +19,7 @@ More info will be posted on the design process and tips for printing on http://G
     okh:repo <https://www.thingiverse.com/thing:27537> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:27537> .

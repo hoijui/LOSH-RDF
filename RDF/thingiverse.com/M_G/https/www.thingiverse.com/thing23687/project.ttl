@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A23687/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:DeansGeodesicDomeAndNgonPyramidMaker a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Dean's Geodesic Dome and N-gon Pyramid Maker" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """As part of on-going collaboration with the Crawford School of Art and Design in the area of 3D printing we are producing parts to be used by, Dean O'Connor, a final year student in his work. Some pictures of the installed piece are included here.\r
 \r
 Link to Dean's page on Crawford School of Art and Design's exhibitions website:\r
@@ -32,6 +34,7 @@ Expected print time on a Thing-o-matic is about 20 minutes per piece or 13 hours
     okh:repo <https://www.thingiverse.com/thing:23687> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:23687> .

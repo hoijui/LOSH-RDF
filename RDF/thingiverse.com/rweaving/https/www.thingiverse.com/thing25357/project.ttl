@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A25357/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:TealPintailDuckWhistle a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Teal & Pintail Duck Whistle " ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "This bird whistle, which I got from a friend, in intended to lure Teal and Pintail ducks.  My friend received this whistle, his favorite, from a craftsman, who has since passed away. He has not been able to find additional whistles of this style for his children.  This is my version of this classic whistle.  The pitch of the sound matches the original very well. It is designed for calling birds for observation only. I imagine that it might be a useful device in a post apocalyptic situation." ;
     okh:hasImage :Image ;
     okh:licensor "rweaving" ;
     okh:repo <https://www.thingiverse.com/thing:25357> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:25357> .

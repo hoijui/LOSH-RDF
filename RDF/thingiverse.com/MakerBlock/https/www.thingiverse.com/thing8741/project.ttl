@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A8741/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PrintableSpinbotArtbot a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Printable SpinBot - ArtBot" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I went to Maker Faire Bay Area 2009 and saw these cool little robots that held pens and drew lots of spirograph style drawings as it spun around.  Unfortunately, I got distracted by something and forgot to go back to it.  \r
 \r
 I didn't get to go back to Maker Faire until just this last weekend.  Fortunately, my daughter immediately caught sight of these robots and we built one together.  It was a lot of fun to build with her and a lot of fun to watch in action.\r
@@ -23,6 +25,7 @@ After looking it over, I decided it could probably be made into a very printable
     okh:repo <https://www.thingiverse.com/thing:8741> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:8741> .

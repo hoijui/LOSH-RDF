@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A3659/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:HybridPtfewoodInsulator a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "hybrid PTFE/wood insulator" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is an experimental insulator made of wood with a PTFE insert. This was inspired by a suggestion I saw somewhere (can't find it now) that wood would be a better insulator than PTFE.\r
 \r
 It's made from a section of 5/8" dowel (should be hard wood, the one I had was a bit soft). I drilled a 5mm hole all the way down the center, then turned an M6 bolt into the hole to thread it. Attempts to use an M6 tap left threads that were too weak. I then took a piece of 1/4" OD, 1/8" ID teflon tubing (the same recommended for a bowden extruder, in fact I just cut an extra piece off of mine) and turned an M6 nut up and down the tube a couple of times. The tube is too flexible for a die to thread it cleanly, but you get pretty good threads with a nut.\r
@@ -18,6 +20,7 @@ This all really should have been done with a lathe or at least a drill press, bu
     okh:repo <https://www.thingiverse.com/thing:3659> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:3659> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A10110/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:TheHobbingGristle a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "The hobbing gristle" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I have built a custom sliced wade's extruder (more on this later) that can develop quite some pressure. Since I do not have a lathe, I dremelled the bolt (M8x8) using the method described by Elk http://www.thingiverse.com/thing:9291. This initially worked well, but I was confronted with early failure of the bolt (see picture) and I wasn't quite satisfied with the precision obtained with that method (picture), so I built this small indexer. This is to be manually rotated after each hobbing cycle. \r
 An obvious further development would be adding a stepper (a quick release coupler, anyone?) but I'd need to care about changing the parallel port interface or configuring emc-arduino.""" ;
     okh:hasImage :Image ;
@@ -13,6 +15,7 @@ An obvious further development would be adding a stepper (a quick release couple
     okh:repo <https://www.thingiverse.com/thing:10110> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:10110> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A31784/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:HalloweenACollectionOfThings a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Halloween -  A collection of things" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Halloween and 31st October is not a date that ever meant anything to me as a child â€“ never much going on in 60s and 70s Great Britain. However, its popularity has grown and now seems to be on a par with - or even might have overtaken the 5th November in terms of fun for the kids at this time of year. For me â€“ too old for trick or treating but now I have a 3D printer .....\r
 I suppose that this thing is really a derivative rather than something brand new as it is assembled from a grand total of 7 existing Thingiverse things and one of my own design.\r
 The starting point is the pumpkin or Jack-O-Lantern from SSW which was produced on my RepRapPro Huxley. SSWâ€™s files were scaled up to 120%: http://www.thingiverse.com/thing:31395 I printed the body and lid with Squeezed Orange PLA from Faberdashery and used their Village Green colour for the stalk. As I wanted to get as much light through it as possible, I took the decision to use settings of two perimeters and an infill figure of 5% for the body. This worked out well and looks extremely realistic when lit from the inside with a battery powered amber flame LED T-Lite:    http://www.smartcandle.co.uk/prod_name/electric-flameless-commercial-grade-amber-flame-tea-light-candle-sc3684a.aspx\r
@@ -22,6 +24,7 @@ The two large spiders came from  Antona: http://www.thingiverse.com/thing:4517 O
     okh:repo <https://www.thingiverse.com/thing:31784> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:31784> .

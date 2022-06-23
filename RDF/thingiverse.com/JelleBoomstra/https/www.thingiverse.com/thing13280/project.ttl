@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A13280/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:FlexBoxAWoodenBoxWithALivingHinge a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Flex Box - A wooden box with a living hinge" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "I really like the flex box, but it lacked a little in size. So I sized it up, gave it press fitting parts and an unobtrusive snap-lock for the lid. On top of that, it was the last day at work for my colleague Siert (who will be working at Ultimaker from now on), so I made this as a gift. Unfortunately Siert himself was ill at the day of his going-away party/mourning, he will have to find out about my gift through thingiverse :)" ;
     okh:hasImage :Image ;
     okh:licensor "JelleBoomstra" ;
     okh:repo <https://www.thingiverse.com/thing:13280> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:13280> .

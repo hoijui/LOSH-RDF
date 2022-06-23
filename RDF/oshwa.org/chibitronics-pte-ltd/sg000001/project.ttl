@@ -2,21 +2,15 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ChibiChip a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Chibi Chip" ;
-    okh:additionalType "['Education', 'Electronics', 'Tool']" ;
-    okh:certificationDate "2017-08-03T00:00:00-04:00" ;
-    okh:country "Singapore" ;
     okh:dataSource "oshwa.org" ;
     okh:documentationLanguage "en" ;
-    okh:documentationLicense "Other" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function "Chibi Chip paper-compatible microcontroller featuring acoustic provisioning" ;
-    okh:hardwareLicense "CERN" ;
     okh:licensor "Chibitronics PTE LTD" ;
-    okh:primaryType "Electronics" ;
     okh:repo <https://certification.oshwa.org/sg000001.html> ;
     okh:repoHost "certification.oshwa.org" ;
-    okh:softwareLicense "No software" ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
     okh:uploadMethod "auto" ;
     okh:version "PVT1" ;

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A9861/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:CryptexRing a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Cryptex Ring" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Attempt at a cryptex ring.  The large ring has 26 interior facets.  There's not enough clearance, but they should mesh with the 26 outer facets of the middle ring.  The inner ring is probably unnecessary.  Again, I'm not entirely sure about clearances and fits, but it should be possible to set the 'correct' position by raising the sleeve 1/2 the height.\r
 \r
 Also still figuring out OpenSCAD and Thing-A-Verse\r
@@ -16,6 +18,7 @@ The recently uploaded openscad file is an attempt to make things parametric and 
     okh:repo <https://www.thingiverse.com/thing:9861> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:9861> .

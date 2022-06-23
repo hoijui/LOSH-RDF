@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A32337/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ElevationDockWedgeForIphone a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Elevation Dock Wedge for iPhone" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I funded the amazingly cool Elevation Dock on Kickstarter (at http://www.kickstarter.com/projects/hop/elevation-dock-the-best-dock-for-iphone).  But when I received my Elevation Dock, I wasn't happy with the angle that the iPhone's screen faces.  When the iPhone is sitting on my desk in the Elevation Dock, the iPhone screen was facing my chest, which is too low for my preferences.\r
 \r
 I do understand why the ElevationLabs guys designed it this way.  It is because a lot of people will be using this Elevation Dock on their bedside table, and I think it is the perfect angle for that.  Personally, I put my iPhone under my pillow each night because I listen to white noise on my foam earbuds (the awesome and underrated Koss "The Plug" that I buy on Amazon at http://www.amazon.com/Koss-Plug-In-Ear-Headphones-Black/dp/B00001P4XA/ref=sr_1_1?ie=UTF8&qid=1350148891&sr=8-1&keywords=koss+plug), and I use the iPhone app "Sleep Cycle" (see it at http://www.sleepcycle.com or in the App Store) as my alarm, and the app needs to be able to detect my motion in the night using the iPhone's accelerometer so that it wakes me up when I am in the part of my sleep cycle when I am most awake so I don't wake up groggy.  That's why I don't use the Elevation Dock next to my bed.\r
@@ -20,6 +22,7 @@ Enjoy!""" ;
     okh:repo <https://www.thingiverse.com/thing:32337> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:32337> .

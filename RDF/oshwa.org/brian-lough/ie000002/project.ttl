@@ -2,20 +2,15 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:D1MiniTftShield a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "D1 Mini TFT Shield" ;
-    okh:certificationDate "2020-11-17T00:00:00-05:00" ;
-    okh:country "Ireland" ;
     okh:dataSource "oshwa.org" ;
     okh:documentationLanguage "en" ;
-    okh:documentationLicense "CC BY-SA" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function "A display shield for the ESP8266 D1 Mini development board. The Display is a ST7789 240x240 Colour TFT" ;
-    okh:hardwareLicense "CERN" ;
     okh:licensor "Brian Lough" ;
-    okh:primaryType "Electronics" ;
     okh:repo <https://certification.oshwa.org/ie000002.html> ;
     okh:repoHost "certification.oshwa.org" ;
-    okh:softwareLicense "MIT" ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
     okh:uploadMethod "auto" ;
     okh:version "1.2" ;

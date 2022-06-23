@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A17922/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MiniThorsHammer a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Mini Thor's Hammer" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "I recently took Skimbal's Thor's Hammer to MegaCon in Orlando, Florida, as a tribute to Stan Lee (who was in attendance). I wanted to make a smaller version that could be printed quickly for giveaways, and this is what I came up with. Note that I put both parts on the plate at the same time such that I could print a plate of silver and a plate of brown and then swap heads. My explanation -- the silver handle one is the \"space version.\" They are rather cute, so no one minded that much. Next up: dualstrusion version of the same files!" ;
     okh:hasImage :Image ;
     okh:licensor "mifga" ;
     okh:repo <https://www.thingiverse.com/thing:17922> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:17922> .

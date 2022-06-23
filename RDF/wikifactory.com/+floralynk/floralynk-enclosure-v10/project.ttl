@@ -2,26 +2,26 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:FloralynkEnclosureV10 a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "floraLynk Enclosure v1.0" ;
     okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "This is a FreeCAD project for a sheet metal enclosure for floraLynk mini v1.0FloraLynk mini v1.0 is a solution to control the environment in a small greenhouse. It can be used to control temperature humidity and light for optimal growing of plants." ;
-    okh:hasComponent :DxfFilesForLaserCuttingfloralynkallparts,
-        :Freecad40x40x10Fan5vSunon,
+    okh:hasComponent :Dxffilesforlasercuttingfloralynkallparts,
+        :Freecad40x40x10fan5vsunon,
         :Freecadbottomplatev10,
         :Freecadcoverv10,
-        :Freecadebs3535mmStereoConnector,
+        :Freecadebs3535mmstereoconnector,
         :Freecadenclosurev10,
-        :FreecadfloralynkMiniV10Hardware,
+        :Freecadfloralynkminiv10hardware,
         :Freecadfloralynkv10assembly,
         :Freecadphotoresistor,
         :Freecadtopplatev10,
-        :PdfDrawingsbottomplatev1,
-        :PdfDrawingscover,
-        :PdfDrawingsenclosurev1,
-        :PdfDrawingstopplatev10,
-        :StepFilesfloralynkminiv10 ;
+        :Pdfdrawingsbottomplatev1,
+        :Pdfdrawingscover,
+        :Pdfdrawingsenclosurev1,
+        :Pdfdrawingstopplatev10,
+        :Stepfilesfloralynkminiv10 ;
     okh:hasImage :Image ;
     okh:licensor "floraLynk" ;
     okh:organisation "floraLynk" ;
@@ -33,31 +33,31 @@
     okh:version "d350b59c3cca3f58e6332a09def321f4850e4b14" ;
     okh:versionOf <https://wikifactory.com/+floralynk/floralynk-enclosure-v10> .
 
-:DxfFilesForLaserCuttingfloralynkallparts a okh:Part ;
+:Dxffilesforlasercuttingfloralynkallparts a okh:Part ;
     rdfs:label "DXF files for laser cutting/floralynk_all_parts" ;
     okh:documentationLanguage "en" ;
     okh:licensor "floraLynk" ;
-    okh:source :DxfFilesForLaserCuttingfloralynkallparts_source ;
+    okh:source :Dxffilesforlasercuttingfloralynkallparts_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:DxfFilesForLaserCuttingfloralynkallparts_source a okh:SourceFile ;
+:Dxffilesforlasercuttingfloralynkallparts_source a okh:SourceFile ;
     rdfs:label "Source File of DXF files for laser cutting/floralynk_all_parts of floraLynk Enclosure v1.0 d350b59c3cca3f58e6332a09def321f4850e4b14" ;
     okh:fileFormat "DXF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151374/floralynk_all_parts.dxf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTI3ODM=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151374/floralynk_all_parts.dxf> .
 
-:Freecad40x40x10Fan5vSunon a okh:Part ;
+:Freecad40x40x10fan5vsunon a okh:Part ;
     rdfs:label "FreeCAD/40x40x10 fan 5v sunon" ;
     okh:documentationLanguage "en" ;
     okh:licensor "floraLynk" ;
-    okh:source :Freecad40x40x10Fan5vSunon_source ;
+    okh:source :Freecad40x40x10fan5vsunon_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Freecad40x40x10Fan5vSunon_source a okh:SourceFile ;
+:Freecad40x40x10fan5vsunon_source a okh:SourceFile ;
     rdfs:label "Source File of FreeCAD/40x40x10 fan 5v sunon of floraLynk Enclosure v1.0 d350b59c3cca3f58e6332a09def321f4850e4b14" ;
     okh:fileFormat "FCSTD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151374/40x40x10-fan-5v-sunon.FCStd> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTI3NjQ=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151374/40x40x10-fan-5v-sunon.FCStd> .
 
 :Freecadbottomplatev10 a okh:Part ;
     rdfs:label "FreeCAD/Bottom_plate_v1.0" ;
@@ -70,7 +70,7 @@
     rdfs:label "Source File of FreeCAD/Bottom_plate_v1.0 of floraLynk Enclosure v1.0 d350b59c3cca3f58e6332a09def321f4850e4b14" ;
     okh:fileFormat "FCSTD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151374/bottom_plate_v10.FCStd> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTI3NjM=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151374/bottom_plate_v10.FCStd> .
 
 :Freecadcoverv10 a okh:Part ;
     rdfs:label "FreeCAD/Cover_v1.0" ;
@@ -83,20 +83,20 @@
     rdfs:label "Source File of FreeCAD/Cover_v1.0 of floraLynk Enclosure v1.0 d350b59c3cca3f58e6332a09def321f4850e4b14" ;
     okh:fileFormat "FCSTD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151374/cover_v10.FCStd> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTI3NjI=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151374/cover_v10.FCStd> .
 
-:Freecadebs3535mmStereoConnector a okh:Part ;
+:Freecadebs3535mmstereoconnector a okh:Part ;
     rdfs:label "FreeCAD/EBS35 3.5mm Stereo Connector" ;
     okh:documentationLanguage "en" ;
     okh:licensor "floraLynk" ;
-    okh:source :Freecadebs3535mmStereoConnector_source ;
+    okh:source :Freecadebs3535mmstereoconnector_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:Freecadebs3535mmStereoConnector_source a okh:SourceFile ;
+:Freecadebs3535mmstereoconnector_source a okh:SourceFile ;
     rdfs:label "Source File of FreeCAD/EBS35 3.5mm Stereo Connector of floraLynk Enclosure v1.0 d350b59c3cca3f58e6332a09def321f4850e4b14" ;
     okh:fileFormat "FCSTD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151374/ebs35-35mm-stereo-connector.FCStd> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTI3NjE=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151374/ebs35-35mm-stereo-connector.FCStd> .
 
 :Freecadenclosurev10 a okh:Part ;
     rdfs:label "FreeCAD/Enclosure_v1.0" ;
@@ -109,20 +109,20 @@
     rdfs:label "Source File of FreeCAD/Enclosure_v1.0 of floraLynk Enclosure v1.0 d350b59c3cca3f58e6332a09def321f4850e4b14" ;
     okh:fileFormat "FCSTD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151374/enclosure_v10.FCStd> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTI3NjA=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151374/enclosure_v10.FCStd> .
 
-:FreecadfloralynkMiniV10Hardware a okh:Part ;
+:Freecadfloralynkminiv10hardware a okh:Part ;
     rdfs:label "FreeCAD/floraLynk mini v1.0 Hardware" ;
     okh:documentationLanguage "en" ;
     okh:licensor "floraLynk" ;
-    okh:source :FreecadfloralynkMiniV10Hardware_source ;
+    okh:source :Freecadfloralynkminiv10hardware_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:FreecadfloralynkMiniV10Hardware_source a okh:SourceFile ;
+:Freecadfloralynkminiv10hardware_source a okh:SourceFile ;
     rdfs:label "Source File of FreeCAD/floraLynk mini v1.0 Hardware of floraLynk Enclosure v1.0 d350b59c3cca3f58e6332a09def321f4850e4b14" ;
     okh:fileFormat "FCSTD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151374/floralynk-mini-v10-hardware.FCStd> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTI3NTk=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151374/floralynk-mini-v10-hardware.FCStd> .
 
 :Freecadfloralynkv10assembly a okh:Part ;
     rdfs:label "FreeCAD/Floralynk_v1.0_assembly" ;
@@ -135,7 +135,7 @@
     rdfs:label "Source File of FreeCAD/Floralynk_v1.0_assembly of floraLynk Enclosure v1.0 d350b59c3cca3f58e6332a09def321f4850e4b14" ;
     okh:fileFormat "FCSTD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151374/floralynk_v10_assembly.FCStd> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTI3NTg=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151374/floralynk_v10_assembly.FCStd> .
 
 :Freecadphotoresistor a okh:Part ;
     rdfs:label "FreeCAD/Photoresistor" ;
@@ -148,7 +148,7 @@
     rdfs:label "Source File of FreeCAD/Photoresistor of floraLynk Enclosure v1.0 d350b59c3cca3f58e6332a09def321f4850e4b14" ;
     okh:fileFormat "FCSTD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151374/photoresistor.FCStd> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTI3NTc=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151374/photoresistor.FCStd> .
 
 :Freecadtopplatev10 a okh:Part ;
     rdfs:label "FreeCAD/Top_plate_v1.0" ;
@@ -161,76 +161,76 @@
     rdfs:label "Source File of FreeCAD/Top_plate_v1.0 of floraLynk Enclosure v1.0 d350b59c3cca3f58e6332a09def321f4850e4b14" ;
     okh:fileFormat "FCSTD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151374/top_plate_v10.FCStd> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTI3NTY=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151374/top_plate_v10.FCStd> .
 
 :Image a okh:Image ;
     rdfs:label "Image of floraLynk Enclosure v1.0 d350b59c3cca3f58e6332a09def321f4850e4b14" ;
     okh:fileFormat "JPG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151374/floralynk_mini_v10.jpg> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTI2NjI=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151374/floralynk_mini_v10.jpg> .
 
-:PdfDrawingsbottomplatev1 a okh:Part ;
+:Pdfdrawingsbottomplatev1 a okh:Part ;
     rdfs:label "PDF Drawings/Bottom_plate_v1" ;
     okh:documentationLanguage "en" ;
     okh:licensor "floraLynk" ;
-    okh:source :PdfDrawingsbottomplatev1_source ;
+    okh:source :Pdfdrawingsbottomplatev1_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:PdfDrawingsbottomplatev1_source a okh:SourceFile ;
+:Pdfdrawingsbottomplatev1_source a okh:SourceFile ;
     rdfs:label "Source File of PDF Drawings/Bottom_plate_v1 of floraLynk Enclosure v1.0 d350b59c3cca3f58e6332a09def321f4850e4b14" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151374/bottom_plate_v1.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTI4NTE=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151374/bottom_plate_v1.pdf> .
 
-:PdfDrawingscover a okh:Part ;
+:Pdfdrawingscover a okh:Part ;
     rdfs:label "PDF Drawings/cover" ;
     okh:documentationLanguage "en" ;
     okh:licensor "floraLynk" ;
-    okh:source :PdfDrawingscover_source ;
+    okh:source :Pdfdrawingscover_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:PdfDrawingscover_source a okh:SourceFile ;
+:Pdfdrawingscover_source a okh:SourceFile ;
     rdfs:label "Source File of PDF Drawings/cover of floraLynk Enclosure v1.0 d350b59c3cca3f58e6332a09def321f4850e4b14" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151374/cover.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTI4NTA=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151374/cover.pdf> .
 
-:PdfDrawingsenclosurev1 a okh:Part ;
+:Pdfdrawingsenclosurev1 a okh:Part ;
     rdfs:label "PDF Drawings/Enclosure_v1" ;
     okh:documentationLanguage "en" ;
     okh:licensor "floraLynk" ;
-    okh:source :PdfDrawingsenclosurev1_source ;
+    okh:source :Pdfdrawingsenclosurev1_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:PdfDrawingsenclosurev1_source a okh:SourceFile ;
+:Pdfdrawingsenclosurev1_source a okh:SourceFile ;
     rdfs:label "Source File of PDF Drawings/Enclosure_v1 of floraLynk Enclosure v1.0 d350b59c3cca3f58e6332a09def321f4850e4b14" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151374/enclosure_v1.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTI4NDk=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151374/enclosure_v1.pdf> .
 
-:PdfDrawingstopplatev10 a okh:Part ;
+:Pdfdrawingstopplatev10 a okh:Part ;
     rdfs:label "PDF Drawings/Top_plate_v1.0" ;
     okh:documentationLanguage "en" ;
     okh:licensor "floraLynk" ;
-    okh:source :PdfDrawingstopplatev10_source ;
+    okh:source :Pdfdrawingstopplatev10_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:PdfDrawingstopplatev10_source a okh:SourceFile ;
+:Pdfdrawingstopplatev10_source a okh:SourceFile ;
     rdfs:label "Source File of PDF Drawings/Top_plate_v1.0 of floraLynk Enclosure v1.0 d350b59c3cca3f58e6332a09def321f4850e4b14" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151374/top_plate_v10.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTI4NDg=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151374/top_plate_v10.pdf> .
 
-:StepFilesfloralynkminiv10 a okh:Part ;
+:Stepfilesfloralynkminiv10 a okh:Part ;
     rdfs:label "STEP files/Floralynk_mini_v1.0" ;
     okh:documentationLanguage "en" ;
     okh:licensor "floraLynk" ;
-    okh:source :StepFilesfloralynkminiv10_source ;
+    okh:source :Stepfilesfloralynkminiv10_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:StepFilesfloralynkminiv10_source a okh:SourceFile ;
+:Stepfilesfloralynkminiv10_source a okh:SourceFile ;
     rdfs:label "Source File of STEP files/Floralynk_mini_v1.0 of floraLynk Enclosure v1.0 d350b59c3cca3f58e6332a09def321f4850e4b14" ;
     okh:fileFormat "STEP" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151374/floralynk_mini_v10.step> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTMwMjk=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151374/floralynk_mini_v10.step> .
 

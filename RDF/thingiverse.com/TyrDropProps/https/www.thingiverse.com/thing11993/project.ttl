@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A11993/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MakerbotMascotContestMrMakerbot a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "MakerBot Mascot Contest: Mr. MakerBot" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """All the fun of Mr. Potato Head with a DIY flare.\r
 Endless possibilities of limb and head variations.\r
 \r
@@ -25,6 +27,7 @@ Limb Pack #1 coming soon.""" ;
     okh:repo <https://www.thingiverse.com/thing:11993> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:11993> .

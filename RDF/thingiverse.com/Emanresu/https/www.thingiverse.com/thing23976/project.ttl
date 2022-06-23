@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A23976/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:CustomizableClampMountForNema17Stepper a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Customizable Clamp Mount for NEMA 17 Stepper" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """A simple mount for a NEMA stepper motor designed to be clamped to a surface (specifically an optics breadboard, but any flat surface should work).   \r
 \r
 The application this mount was designed for is one where the stepper is coupled via a flexible drive shaft, (http://www.mcmaster.com/#flexible-drive-shafts/=mkxgvu) such that placement of the motor isn't critical.  It has 3 clamping surfaces so the motor can be oriented at 0º, 45º, or 90º with respect to the table it is clamped to.""" ;
@@ -14,6 +16,7 @@ The application this mount was designed for is one where the stepper is coupled 
     okh:repo <https://www.thingiverse.com/thing:23976> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:23976> .

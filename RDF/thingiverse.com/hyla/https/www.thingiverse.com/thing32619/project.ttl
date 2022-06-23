@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A32619/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:EnhancedServoButton a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Enhanced Servo Button" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "Enhanced 'Servo Button' for various designs with servos and servo brackets (e.g. http://www.thingiverse.com/thing:5784). Instead of glueing the button to the servo one can now screw it onto it." ;
     okh:hasImage :Image ;
     okh:licensor "hyla" ;
     okh:repo <https://www.thingiverse.com/thing:32619> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:32619> .

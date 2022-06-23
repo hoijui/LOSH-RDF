@@ -1,19 +1,22 @@
 @prefix : <https://www.thingiverse.com/thing%3A10793/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:TdaSmartWheel a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "TDA: Smart Wheel" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a model of a Smart Wheel created as part of my final English project about the creations of Neal Stephenson's novel The Diamond Age ( see http://www.thingiverse.com/thing:10789 ). \r
 Here is the paragraph about it in my artistic statement:\r
-The first project I created is the â€œSmart Wheel.â€ In the novel it is a wheel made out of thousands of legs that are able to act as a computer controlled suspension system. In order to implement this using current day technology at a non-prohibitive cost some corners were cut. One is the complexity of the wheel's spokes; in The Diamond Age each of the thousands of spokes has its own processor and sensors, as well as fitting in a nanoscale form factor. In the project, this was cut down to a more simple rubber band system with larger and fewer spokes. The spoke and hub were printed with the Cupcake, and in the style of the Matter Compiler's interface both are fully parametric, with the size and number of spokes being fully customizable. As it has many holes, this is a relatively difficult object for the Cupcake to print, a limitation which a Matter Compiler lacks. At some points the spokes will jam, which is due to a resolution limitation of the Cupcake.""" ;
+The first project I created is the â€œSmart Wheel.â€x9d In the novel it is a wheel made out of thousands of legs that are able to act as a computer controlled suspension system. In order to implement this using current day technology at a non-prohibitive cost some corners were cut. One is the complexity of the wheel's spokes; in The Diamond Age each of the thousands of spokes has its own processor and sensors, as well as fitting in a nanoscale form factor. In the project, this was cut down to a more simple rubber band system with larger and fewer spokes. The spoke and hub were printed with the Cupcake, and in the style of the Matter Compiler's interface both are fully parametric, with the size and number of spokes being fully customizable. As it has many holes, this is a relatively difficult object for the Cupcake to print, a limitation which a Matter Compiler lacks. At some points the spokes will jam, which is due to a resolution limitation of the Cupcake.""" ;
     okh:hasImage :Image ;
     okh:licensor "hobinjk" ;
     okh:repo <https://www.thingiverse.com/thing:10793> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:10793> .

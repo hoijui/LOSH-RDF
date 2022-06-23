@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A33862/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:M5SpacerForPbcLinearSlide a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "M5 Spacer for PBC Linear Slide" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """For the MendelMax linear slide upgrade.\r
 \r
 I needed 15 of these for the upgrade and didn't want to buy a pack of 100 + shipping.\r
@@ -18,6 +20,7 @@ I needed 15 of these for the upgrade and didn't want to buy a pack of 100 + ship
     okh:repo <https://www.thingiverse.com/thing:33862> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:33862> .

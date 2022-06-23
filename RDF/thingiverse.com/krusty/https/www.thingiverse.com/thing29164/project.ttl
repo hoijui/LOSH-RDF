@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A29164/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Hal9000PlasmaGlobe a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "HAL 9000 Plasma Globe" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Plasma globes, as they go, are pretty cool. The HAL 9000 computer from '2001 a Space Odyssey' was pretty cool too, unless you were Dave. For whatever reason, HAL just did't like Dave.\r
 \r
 Anyhow, I figured what would be cooler than a plasma globe stuffed inside a HAL 9000 shell to sit on my desk where I can bask in it's plasmary goodness!""" ;
@@ -14,6 +16,7 @@ Anyhow, I figured what would be cooler than a plasma globe stuffed inside a HAL 
     okh:repo <https://www.thingiverse.com/thing:29164> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:29164> .

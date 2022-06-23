@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A8346/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ParametricMinecraftCreeper a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Parametric Minecraft - Creeper" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """There you are working on you giant mansion minding your own business when you walk outside for a smoke. As you light up you realize it has gotten really quiet, then as you try to sprint back for your door. SSSSSssssSSSssSS. It is to late you have been caught by the creeper. As you die in the fiery explosion you think, man this is gonna suck. Walking back to your home from the hospital you find all of you stuff laying in the hole that used to be your yard.\r
 \r
 Now you can play pranks on your friends and spawn your own army of creepers to take over the world. I present the Parametric Creeper, this model is based off the scale sizes that I found to make a Scale creeper in game, based off one block per pixel. I then modified them to be parametric and built an OpenSCAD script to generate the models.Below are the figures for the statue I used, and should be the same as the pixel count for a creeper skin:\r
@@ -28,6 +30,7 @@ Update 2: As with my other models I have cleaned up the code for this one commen
     okh:repo <https://www.thingiverse.com/thing:8346> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:8346> .

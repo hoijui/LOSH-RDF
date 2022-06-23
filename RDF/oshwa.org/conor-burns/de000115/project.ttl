@@ -2,22 +2,16 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:0xcbMicro a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "0xCB micro" ;
-    okh:additionalType "['3D Printing', 'Electronics', 'Manufacturing']" ;
-    okh:certificationDate "2021-06-30T00:00:00-04:00" ;
-    okh:country "Germany" ;
     okh:dataSource "oshwa.org" ;
     okh:documentationLanguage "en" ;
-    okh:documentationLicense "CC BY-SA" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function """A small controller that fits on top of one cherry style switch to handwire a 1% - 65% Keyboard. 
 The micro also supports RGB underglow and has a backlight driver.""" ;
-    okh:hardwareLicense "CERN" ;
     okh:licensor "Conor Burns" ;
-    okh:primaryType "Electronics" ;
     okh:repo <https://certification.oshwa.org/de000115.html> ;
     okh:repoHost "certification.oshwa.org" ;
-    okh:softwareLicense "GPL" ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
     okh:uploadMethod "auto" ;
     okh:version "1.0" ;

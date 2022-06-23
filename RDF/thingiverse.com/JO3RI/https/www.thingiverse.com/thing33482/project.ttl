@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A33482/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:SimplePictureStand a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Simple Picture Stand" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """All those beautiful Halloween pictures you took today and those Christmas picture you will be taking. Some of them have to be printed onto photopaper, to be shown on your desk, or on a nice place at home.\r
 \r
 Well, print this little stand, slip in your picture and you're done.\r
@@ -16,6 +18,7 @@ It has a 40mm diameter and a 27,5mm height and is a 7,5mm high cylinder with hal
     okh:repo <https://www.thingiverse.com/thing:33482> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:33482> .

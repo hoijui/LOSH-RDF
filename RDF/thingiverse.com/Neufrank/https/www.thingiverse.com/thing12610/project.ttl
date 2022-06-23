@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A12610/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:SnapTogetherUnitsFor3dChainLinkRings a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Snap together units for 3-D chain link rings" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "The original seemed to be hard to print.  Here are printable snap together subunits (hopefully).  Made by projecting a subunit to 2D...  In theory the units fit together correctly (as in the picture); however, this is not tested in the real world yet so proceed at your own risk." ;
     okh:hasImage :Image ;
     okh:licensor "Neufrank" ;
     okh:repo <https://www.thingiverse.com/thing:12610> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:12610> .

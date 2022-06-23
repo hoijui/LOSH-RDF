@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A26571/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PneumaticStrawRockets a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "pneumatic straw rockets" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This thing was made with Tinkercad. Edit it online https://tinkercad.com/things/h8VBT82HsZW\r
 \r
 Not really sure these are a good idea ;) But after getting hit several times today by spitballs from my son I decided we would print a rocket to shoot out of the straw. Standard questions about getting one in your eye apply, but they arenâ€™t sharp. As far as accidentally inhailing one I recommend using a bendy straw and bending it at a right angle for play. They are long enough that they canâ€™t be sucked around the bend.""" ;
@@ -14,6 +16,7 @@ Not really sure these are a good idea ;) But after getting hit several times tod
     okh:repo <https://www.thingiverse.com/thing:26571> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:26571> .

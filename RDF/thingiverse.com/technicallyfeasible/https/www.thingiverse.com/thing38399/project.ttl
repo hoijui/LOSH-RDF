@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A38399/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Solidoodle2Nema14FanMount a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Solidoodle 2 NEMA14 fan mount" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is another NEMA14 stepper motor fan mount. I specifically wanted one for my Solidoodle2 because the x-axis motor gets very hot but I wasn't satisfied with the other two things I found on here. One didn't have any holes for the air to actually come out on top and the other was to asymmetric for me.\r
 \r
 So, here is my take on it.\r
@@ -16,6 +18,7 @@ I will try to improve the airflow still because even now there is not much comin
     okh:repo <https://www.thingiverse.com/thing:38399> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:38399> .

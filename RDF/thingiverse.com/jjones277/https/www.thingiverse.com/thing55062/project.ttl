@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A55062/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PiBox a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Pi Box" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """What we have here is a lunch box sized case for your Raspberry Pi project.  I intended this to be a housing for a RaspBMC media center, but it would work equally well for almost any project.  If you've worked with the Raspberry Pi then you've probably been frustrated with the lack of a power button and the tangle of wire from the various connectors on all sides of the board.  I wanted a nice and neat box to house my project that would look clean and finished.  Here is what I've come up with.\r
 \r
 This is an active work in progress - so any ideas, complaints, or questions are always welcome.""" ;
@@ -14,6 +16,7 @@ This is an active work in progress - so any ideas, complaints, or questions are 
     okh:repo <https://www.thingiverse.com/thing:55062> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:55062> .

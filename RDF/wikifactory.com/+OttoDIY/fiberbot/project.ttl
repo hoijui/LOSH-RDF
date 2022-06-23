@@ -2,20 +2,20 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Fiberbot a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Fiberbot" ;
     okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "This is fiberbot. an Otto DIY remix It was designed and built by fiberlogy in reference to fiberlogy's original spool." ;
-    okh:hasComponent :3dPrintedFilesbasket2slipo,
-        :3dPrintedFilesfront,
-        :3dPrintedFilesleftfoot,
-        :3dPrintedFilesleftleg,
-        :3dPrintedFilesrearnarrowlegs,
-        :3dPrintedFilesrearwidelegs,
-        :3dPrintedFilesrightfoot,
-        :3dPrintedFilesrightleg,
-        :InstructionManualfiberbotinstruction ;
+    okh:hasComponent :3dprintedfilesbasket2slipo,
+        :3dprintedfilesfront,
+        :3dprintedfilesleftfoot,
+        :3dprintedfilesleftleg,
+        :3dprintedfilesrearnarrowlegs,
+        :3dprintedfilesrearwidelegs,
+        :3dprintedfilesrightfoot,
+        :3dprintedfilesrightleg,
+        :Instructionmanualfiberbotinstruction ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "Camilo Parra Palacio" ;
@@ -28,132 +28,132 @@
     okh:version "c05d3fe252ab1e291e0bd830df30ed08c32489d1" ;
     okh:versionOf <https://wikifactory.com/+OttoDIY/fiberbot> .
 
-:3dPrintedFilesbasket2slipo a okh:Part ;
+:3dprintedfilesbasket2slipo a okh:Part ;
     rdfs:label "3D Printed Files/basket_2S_Li_Po" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Camilo Parra Palacio" ;
-    okh:source :3dPrintedFilesbasket2slipo_source ;
+    okh:source :3dprintedfilesbasket2slipo_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:3dPrintedFilesbasket2slipo_source a okh:SourceFile ;
+:3dprintedfilesbasket2slipo_source a okh:SourceFile ;
     rdfs:label "Source File of 3D Printed Files/basket_2S_Li_Po of Fiberbot c05d3fe252ab1e291e0bd830df30ed08c32489d1" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1549/basket2slipo.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxNDY4Mw==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1549/basket2slipo.stl> .
 
-:3dPrintedFilesfront a okh:Part ;
+:3dprintedfilesfront a okh:Part ;
     rdfs:label "3D Printed Files/front" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Camilo Parra Palacio" ;
-    okh:source :3dPrintedFilesfront_source ;
+    okh:source :3dprintedfilesfront_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:3dPrintedFilesfront_source a okh:SourceFile ;
+:3dprintedfilesfront_source a okh:SourceFile ;
     rdfs:label "Source File of 3D Printed Files/front of Fiberbot c05d3fe252ab1e291e0bd830df30ed08c32489d1" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1549/front.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxNDY3OQ==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1549/front.stl> .
 
-:3dPrintedFilesleftfoot a okh:Part ;
+:3dprintedfilesleftfoot a okh:Part ;
     rdfs:label "3D Printed Files/left_foot" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Camilo Parra Palacio" ;
-    okh:source :3dPrintedFilesleftfoot_source ;
+    okh:source :3dprintedfilesleftfoot_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:3dPrintedFilesleftfoot_source a okh:SourceFile ;
+:3dprintedfilesleftfoot_source a okh:SourceFile ;
     rdfs:label "Source File of 3D Printed Files/left_foot of Fiberbot c05d3fe252ab1e291e0bd830df30ed08c32489d1" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1549/leftfoot.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxNDY4MQ==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1549/leftfoot.stl> .
 
-:3dPrintedFilesleftleg a okh:Part ;
+:3dprintedfilesleftleg a okh:Part ;
     rdfs:label "3D Printed Files/left_leg" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Camilo Parra Palacio" ;
-    okh:source :3dPrintedFilesleftleg_source ;
+    okh:source :3dprintedfilesleftleg_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:3dPrintedFilesleftleg_source a okh:SourceFile ;
+:3dprintedfilesleftleg_source a okh:SourceFile ;
     rdfs:label "Source File of 3D Printed Files/left_leg of Fiberbot c05d3fe252ab1e291e0bd830df30ed08c32489d1" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1549/leftleg.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxNDY4Mg==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1549/leftleg.stl> .
 
-:3dPrintedFilesrearnarrowlegs a okh:Part ;
+:3dprintedfilesrearnarrowlegs a okh:Part ;
     rdfs:label "3D Printed Files/rear_narrow_legs" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Camilo Parra Palacio" ;
-    okh:source :3dPrintedFilesrearnarrowlegs_source ;
+    okh:source :3dprintedfilesrearnarrowlegs_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:3dPrintedFilesrearnarrowlegs_source a okh:SourceFile ;
+:3dprintedfilesrearnarrowlegs_source a okh:SourceFile ;
     rdfs:label "Source File of 3D Printed Files/rear_narrow_legs of Fiberbot c05d3fe252ab1e291e0bd830df30ed08c32489d1" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1549/rearnarrowlegs.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxNDY4MA==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1549/rearnarrowlegs.stl> .
 
-:3dPrintedFilesrearwidelegs a okh:Part ;
+:3dprintedfilesrearwidelegs a okh:Part ;
     rdfs:label "3D Printed Files/rear_wide_legs" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Camilo Parra Palacio" ;
-    okh:source :3dPrintedFilesrearwidelegs_source ;
+    okh:source :3dprintedfilesrearwidelegs_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:3dPrintedFilesrearwidelegs_source a okh:SourceFile ;
+:3dprintedfilesrearwidelegs_source a okh:SourceFile ;
     rdfs:label "Source File of 3D Printed Files/rear_wide_legs of Fiberbot c05d3fe252ab1e291e0bd830df30ed08c32489d1" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1549/rearwidelegs.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxNDY4NA==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1549/rearwidelegs.stl> .
 
-:3dPrintedFilesrightfoot a okh:Part ;
+:3dprintedfilesrightfoot a okh:Part ;
     rdfs:label "3D Printed Files/right_foot" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Camilo Parra Palacio" ;
-    okh:source :3dPrintedFilesrightfoot_source ;
+    okh:source :3dprintedfilesrightfoot_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:3dPrintedFilesrightfoot_source a okh:SourceFile ;
+:3dprintedfilesrightfoot_source a okh:SourceFile ;
     rdfs:label "Source File of 3D Printed Files/right_foot of Fiberbot c05d3fe252ab1e291e0bd830df30ed08c32489d1" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1549/rightfoot.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxNDY4NQ==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1549/rightfoot.stl> .
 
-:3dPrintedFilesrightleg a okh:Part ;
+:3dprintedfilesrightleg a okh:Part ;
     rdfs:label "3D Printed Files/right_leg" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Camilo Parra Palacio" ;
-    okh:source :3dPrintedFilesrightleg_source ;
+    okh:source :3dprintedfilesrightleg_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:3dPrintedFilesrightleg_source a okh:SourceFile ;
+:3dprintedfilesrightleg_source a okh:SourceFile ;
     rdfs:label "Source File of 3D Printed Files/right_leg of Fiberbot c05d3fe252ab1e291e0bd830df30ed08c32489d1" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1549/rightleg.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxNDY4Ng==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1549/rightleg.stl> .
 
 :Image a okh:Image ;
     rdfs:label "Image of Fiberbot c05d3fe252ab1e291e0bd830df30ed08c32489d1" ;
     okh:fileFormat "JPG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1549/88d76568641f807634c590de6c88c082previewfeatured-0.jpg> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxNDY3Nw==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1549/88d76568641f807634c590de6c88c082previewfeatured-0.jpg> .
 
-:InstructionManualfiberbotinstruction a okh:Part ;
+:Instructionmanualfiberbotinstruction a okh:Part ;
     rdfs:label "Instruction Manual/fiberbot_instruction" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Camilo Parra Palacio" ;
-    okh:source :InstructionManualfiberbotinstruction_source ;
+    okh:source :Instructionmanualfiberbotinstruction_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:InstructionManualfiberbotinstruction_source a okh:SourceFile ;
+:Instructionmanualfiberbotinstruction_source a okh:SourceFile ;
     rdfs:label "Source File of Instruction Manual/fiberbot_instruction of Fiberbot c05d3fe252ab1e291e0bd830df30ed08c32489d1" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1549/fiberbotinstruction.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxNDY4OA==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1549/fiberbotinstruction.pdf> .
 
 :Readme a okh:Readme ;
     rdfs:label "Readme of Fiberbot c05d3fe252ab1e291e0bd830df30ed08c32489d1" ;
     okh:fileFormat "MD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1549/readme-8e0b2.md> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyMTE4Mzc=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1549/readme-8e0b2.md> .
 

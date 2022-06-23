@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A27718/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ParametricWineGlassAndBowls a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Parametric Wine Glass and Bowls " ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """The rotate_extrude command in openSCAD has fascinating posibilities.  It can replace the potters wheel and the woodworkers lathe.  All one has to do is draw a 2 dimensional profile of a clay pot or wooden bowl, convert it to a polygon, invoke rotate_extrude and a pot or bowl is produced.\r
 \r
 Here is a parametric program that uses the rotate_extrude command to make wine glasses, glasses, and bowls.  Examples outputs are given below:\r
@@ -21,6 +23,7 @@ The parameters that produced the above outputs are appended as comments to the o
     okh:repo <https://www.thingiverse.com/thing:27718> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:27718> .

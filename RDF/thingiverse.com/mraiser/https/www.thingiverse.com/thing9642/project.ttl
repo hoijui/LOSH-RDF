@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A9642/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:WaterLevelSensor a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Water level sensor" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "This is a simple sensor you can print out to notify you when the water level in a container drops below the desired threshold." ;
     okh:hasImage :Image ;
     okh:licensor "mraiser" ;
     okh:repo <https://www.thingiverse.com/thing:9642> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:9642> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A7921/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:TwoLayerCableOrganizerClip a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Two Layer Cable Organizer Clip" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """The idea was to make something that could separate power and ethernet cables I have running under the back of my desk so I made a 2 layer cable organizer to take care of it.  I put large holes in the bottom two cable sections to make for easier mounting.  This was designed in Google Sketchup but the exported STL did pass the gcode generation without error.  I do not have my 3D printer yet so this is an untested design.  This is my third designed object.\r
 \r
 Update: Made a smaller and much faster to print clip of similar design here: http://www.thingiverse.com/thing:8739""" ;
@@ -14,6 +16,7 @@ Update: Made a smaller and much faster to print clip of similar design here: htt
     okh:repo <https://www.thingiverse.com/thing:7921> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:7921> .

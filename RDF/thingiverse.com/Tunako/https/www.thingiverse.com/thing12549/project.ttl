@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A12549/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:OrcaV240mmPrintFanMount a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Orca v.2 40mm print fan mount" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Mount for an 40mm cooling fan. Fits on an Orca v 0.2 with V9 Hotend.\r
 \r
 Improves print quality, especially when printing thin walled objects.\r
@@ -32,6 +34,7 @@ hole_spacing = 32; hole_size = 4.5; outer_size = 40; corner_cut_radius = 27; out
     okh:repo <https://www.thingiverse.com/thing:12549> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:12549> .

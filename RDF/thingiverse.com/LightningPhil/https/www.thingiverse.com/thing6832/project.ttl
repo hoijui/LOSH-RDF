@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A6832/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:DoorstopFoot a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Door-stop foot" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """A foot that stops the door.  A more long winded explanation would be:\r
 \r
 A plastic version of what goes in shoes, cunningly shaped into a wedge such that it may encourage doors to stay put.\r
@@ -16,6 +18,7 @@ Importantly, one side of this is angled and ends up with a lot of ridges when pr
     okh:repo <https://www.thingiverse.com/thing:6832> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:6832> .

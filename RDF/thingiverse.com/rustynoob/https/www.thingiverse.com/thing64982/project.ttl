@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A64982/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:80mmFanGrill a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "80mm fan grill" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """a handy 3d printable 80mm fan guard I whipped together for a project I was working on. I forgot to reposition the object before uploading the file so you will need to be sure to place it properly before printing. Enjoy. A big shout out goes to Sander from MakeThisReal.com for letting me use his 3d printer and getting me addicted to 3d printing.  
 The second version of the file has holes instead of pins.""" ;
     okh:hasImage :Image ;
@@ -13,6 +15,7 @@ The second version of the file has holes instead of pins.""" ;
     okh:repo <https://www.thingiverse.com/thing:64982> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:64982> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A28852/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:3ozNickelWeight a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "3Oz Nickel Weight" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I needed a tidy counterweight for my Drawbot.  I tried designing some different cantilevered pen holders with little success but did learn some stuff along the way.  First the basic pen holder works good with about 3 oz of weight hanging off it it for a sharpie.  Second,  as well as the ball bearings work- i'd rather use them for something else.\r
 \r
 I threw this together with the intention of filling it with sand - but like half the the stuff on the internet the weight per cc was off but 2x on the site I found it on.  Fortunately for me the design I came up with is also the perfect size for a stack of nickels.""" ;
@@ -14,6 +16,7 @@ I threw this together with the intention of filling it with sand - but like half
     okh:repo <https://www.thingiverse.com/thing:28852> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:28852> .

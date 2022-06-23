@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A14544/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:EscherstyleTessellatingLizard a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Escher-Style Tessellating Lizard / " ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is an hexagonally-tessellating lizard tile closely based on M.C. Escher's famous design.  This vector art has lived on my old personal homepage, since 2008, at   
 http://www.seanmichaelragan.com/html/%5B2008-04-18%5D_MC_Escher_lizard_vector_art.shtml  
 Recently, Angus Hines (angushines.com) downloaded it and used it to lasercut a bunch of ~3" tiles in fluorescent acrylic (which are shown in the attached images), and it occurred to me it was probably time to share these files on Thingiverse.   
@@ -17,6 +19,7 @@ http://www.smragan.com/2012/02/28/120-laser-cut-acrylic-reptiles-mounted-to-wall
     okh:repo <https://www.thingiverse.com/thing:14544> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:14544> .

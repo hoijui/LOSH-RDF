@@ -1,12 +1,14 @@
 @prefix : <https://www.thingiverse.com/thing%3A9416/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:NomialsOnTheComplexUnitCircle a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Nomials on the Complex Unit Circle" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
-    okh:function """The real and imaginary components of the first few nomials on the complex unit circle. That is: Re(zâ°), Re(zÂ¹), Re(zÂ²), Re(zÂ³)... Im(zÂ¹)... Because of Taylor's theorem, these are deeply fundamental functions.\r
+    okh:documentationReadinessLevel otrl:Odrl3 ;
+    okh:function """The real and imaginary components of the first few nomials on the complex unit circle. That is: Re(zâx81°), Re(zÂ¹), Re(zÂ²), Re(zÂ³)... Im(zÂ¹)... Because of Taylor's theorem, these are deeply fundamental functions.\r
 \r
 This is an example for surfcad, a surface oriented python cad library. The python code generates all the STLs. Only the real ones have been uploaded since you can just rotate them and get the complex ones where necessary.\r
 \r
@@ -16,6 +18,7 @@ A blog post on surfcad can be found at https://christopherolah.wordpress.com/201
     okh:repo <https://www.thingiverse.com/thing:9416> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:9416> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A3815/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MakerwatchSsgWristwatchSkinAndSkeleton a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Makerwatch SSG Wristwatch Skin and Skeleton" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """The MakerBot Watch (The Makerwatch) is a great platform for developing new directions in open source electronics. But Bres current laser cut watch housing leaves something to be desired (sorry dude :). And, not everyone is up to the challenge of cutting steel or modeling in 3d to make a new housing.\r
 \r
 The SSG design framework, developed by Dominic at the Humblefactory, breaks an object down into different functional layers -- skin, skeleton, and guts. The exciting thing about this separation is how it makes the process of making derivative objects, or entirely new remixes much easier. All you need to know to make a new SSG watch is how to sew, and where to buy some fly fabric. The skin gives most of the style, and some of the function (clasps, pockets, pen-loops -- you decide!)\r
@@ -29,6 +31,7 @@ PPS - Big ups to Matt and the crew at Metrix Createspace in Seattle, as well as 
     okh:repo <https://www.thingiverse.com/thing:3815> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:3815> .

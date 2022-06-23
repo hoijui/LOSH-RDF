@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A51088/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Naze32CoverAndMounting a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "NAZE32 Cover and mounting" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "As the NAZE32 flight controller has 30,5mm distance I needed an adapter to mount this one on standard 45mm mountings. I also added a GPS Cover for a rctimer CN06-v2 ublox module." ;
     okh:hasImage :Image ;
     okh:licensor "gzebedin" ;
     okh:repo <https://www.thingiverse.com/thing:51088> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:51088> .

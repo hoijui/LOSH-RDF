@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A13695/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ParametricSpoolAdapterForSewingMachine a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Parametric Spool Adapter for Sewing Machine" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a VERY simple thing, but I'm gonna try to document real good :)\r
 \r
 If you want to actually machine sew the conductive thread from SparkFun ( https://www.sparkfun.com/products/8549 ), you will want to spool them on that small thing.  The big spool from SFE did match the sewing machine's peg, so I made a simple adapter.\r
@@ -16,6 +18,7 @@ The print quality was really bad, but it did the job.""" ;
     okh:repo <https://www.thingiverse.com/thing:13695> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:13695> .

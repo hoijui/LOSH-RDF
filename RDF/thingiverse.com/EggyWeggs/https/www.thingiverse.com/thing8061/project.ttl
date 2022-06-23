@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A8061/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PortalTurret a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Portal Turret" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Easter and finishing Portal 2 inspired me to make this basic turret template for use with the Egg-Bot.  The back of the design has one of the famous quotes by everyone's favorite, child-like home defense product.  \r
 \r
 Watch it being printed here: http://www.youtube.com/watch?v=U4bl18mVOv4""" ;
@@ -14,6 +16,7 @@ Watch it being printed here: http://www.youtube.com/watch?v=U4bl18mVOv4""" ;
     okh:repo <https://www.thingiverse.com/thing:8061> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:8061> .

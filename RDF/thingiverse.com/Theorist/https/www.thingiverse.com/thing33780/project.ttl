@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A33780/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PipeClamps a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Pipe Clamps" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """These are meant for building structures from pipes; furniture, railing, etc. Designed as a cheaper alternative to the metal clamps and fittings made by companies like Kee Klamp and Alvin Industrial.\r
 \r
 Here are some things made with pipe clamps:\r
@@ -18,6 +20,7 @@ I have no affiliation with the aforementioned companies. I take  no responsibili
     okh:repo <https://www.thingiverse.com/thing:33780> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:33780> .

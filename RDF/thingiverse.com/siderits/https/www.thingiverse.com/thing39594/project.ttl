@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A39594/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:SpoolRollerholder a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Spool roller/holder" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Spool holder/roller for re-spooling ABS.\r
 Uses Alllectronics.com rollers (4.95 $ each), 8" long x 1.05" diameter aluminum roller on a 9.75" x 0.375" diameter metal axle. Ball bearings at both ends, \r
 NMB # RI-1438D.""" ;
@@ -14,6 +16,7 @@ NMB # RI-1438D.""" ;
     okh:repo <https://www.thingiverse.com/thing:39594> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:39594> .

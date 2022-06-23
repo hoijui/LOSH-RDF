@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A23260/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PenPlotterAttachmentForCncChucks a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Pen Plotter attachment for CNC chucks" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is an attachment that lets you turn your CNC mill into a pen plotter without any modifications.\r
 \r
 The attachment has a stalk that the chuck can grip just like a drill bit or endmill. I've included two versions, one with a plastic stalk and one with a hole for a machine screw (#5 diameter, 1.5 inches or longer) in case the plastic stalk is too weak.""" ;
@@ -14,6 +16,7 @@ The attachment has a stalk that the chuck can grip just like a drill bit or endm
     okh:repo <https://www.thingiverse.com/thing:23260> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:23260> .

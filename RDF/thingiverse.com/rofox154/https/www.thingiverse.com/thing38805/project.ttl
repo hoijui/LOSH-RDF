@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A38805/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MyMakerbot3dPortraitFromDec212012 a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "My MakerBot 3D Portrait from Dec 21, 2012" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "This Thing is a MakerBot 3D Portrait of Robert Fox scanned at the MakerBot Retail Store in SoHo on Dec 21, 2012.  These scans are at 1/4th the original size." ;
     okh:hasImage :Image ;
     okh:licensor "rofox154" ;
     okh:repo <https://www.thingiverse.com/thing:38805> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:38805> .

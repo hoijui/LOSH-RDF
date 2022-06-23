@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A31031/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:3x3LedLightBoxForRostock a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "3x3 LED Light Box for Rostock" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a very simple box for a 3x3 5mm LED light. I'm using it to illuminate the print area of a Rostock.\r
 \r
 It features a 3x3 LED array, space for the legs and resistors, two holes for screwing it to a base and even a hole to pull in the cable.""" ;
@@ -14,6 +16,7 @@ It features a 3x3 LED array, space for the legs and resistors, two holes for scr
     okh:repo <https://www.thingiverse.com/thing:31031> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:31031> .

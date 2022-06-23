@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A12732/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Wheeler a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Wheeler" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "Wheeler is a crazy robot that zips around fast on his one wheel. Wheeler lost his legs when he was 5 as they became too rusty. He uses his new wheel as an advantage to zip around helping others.  You can trust wheeler to be there in  flash when you need him. He's just a good bloke in general and a well respected robot." ;
     okh:hasImage :Image ;
     okh:licensor "hawkiz" ;
     okh:repo <https://www.thingiverse.com/thing:12732> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:12732> .

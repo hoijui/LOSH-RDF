@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A11232/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:CanonIxus70BatteryAdapter a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Canon IXUS 70 battery adapter" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """to use an external power supply. there is a small rubber cover in the hinged door of the camera. underneath sits a 6mm hole where the cable can go trough. Use a VERY small connector. i strip the cable for about 5cm and tin it completely. then I begin on the bottom and bending them around the edge. negative/black goes near the corner, positive/red to the center. You have to measure a few times so the stripped part ends near the big hole. there you can make a knot. bond the tinned wires to the case with a soldering iron. then apply 4.3 volts, 1A minimum to the wires and you are up and running.\r
 \r
 ver     date      comment\r
@@ -18,6 +20,7 @@ ver     date      comment\r
     okh:repo <https://www.thingiverse.com/thing:11232> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:11232> .

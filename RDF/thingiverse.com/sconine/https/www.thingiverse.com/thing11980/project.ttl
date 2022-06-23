@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A11980/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MechanicalAnimals a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Mechanical Animals" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """These are 3 different machanical animals.  They are all pretty basic mechanical devices that turn rotary motion into more of a linear motion.  My kids (and their friends) have gotten a real kick out of them.  I drew them all in sketchup.\r
 \r
 Jumping Prairie Dog Turn the crank and make the prairie dog jump up and down.\r
@@ -18,6 +20,7 @@ Wood Pecker Turn the crank and see the wood pecker peck away. (This was original
     okh:repo <https://www.thingiverse.com/thing:11980> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:11980> .

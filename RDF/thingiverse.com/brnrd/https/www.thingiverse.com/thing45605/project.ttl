@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A45605/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MountingBracketForAzteegX3AndX1AndSanguinololuForPrusaMendel a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Mounting Bracket for Azteeg X3 and X1 and Sanguinololu for Prusa Mendel" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "This is a redesign of my Azteeg X1 bracket for the Azteeg X3. It mounts the board under the Y axis print bed. I had to lower the position of the board well below the y belt for clearance because the X3 board is wider than the X1. A version of the STL file for the X1 and Sanguinololu is also included." ;
     okh:hasImage :Image ;
     okh:licensor "brnrd" ;
     okh:repo <https://www.thingiverse.com/thing:45605> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:45605> .

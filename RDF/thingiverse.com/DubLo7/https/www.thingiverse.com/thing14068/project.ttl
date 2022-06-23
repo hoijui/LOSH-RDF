@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A14068/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:AirHockeyHandleAndPuckparametric a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Air Hockey Handle and Puck (Parametric)" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I'm making my own Air Hockey Table and the dog thinks the pucks are chew toys.  Once bitten they don't float so I ended up making my own.  Everything is completely parametric so you can experiment with whatever works best for you in terms of diameter and thickness.\r
 \r
 Larger diameter pucks tend to float better because they have more air under them.  Play around with the thickness and size of the air gap until you have whatever works best for you.\r
@@ -19,6 +21,7 @@ Enjoy.""" ;
     okh:repo <https://www.thingiverse.com/thing:14068> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:14068> .

@@ -2,15 +2,15 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:HexagonDeskOrganizer a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Hexagon Desk Organizer" ;
     okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "Let's design and make a modular, multi-functional desk organizer with Fusion 360 and CNC carving. Beginner level." ;
-    okh:hasComponent :DesignGcodeFiles1,
-        :DesignGcodeFilescphone,
-        :DesignGcodeFilescsdDisk,
-        :DesignGcodeFilestool ;
+    okh:hasComponent :Designgcodefiles1,
+        :Designgcodefilescphone,
+        :Designgcodefilescsddisk,
+        :Designgcodefilestool ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "Snapmaker" ;
@@ -23,67 +23,67 @@
     okh:version "ea495af5ce648b5c385ec657a9bfed40687e6fca" ;
     okh:versionOf <https://wikifactory.com/+snapmaker/hexagon-desk-organizer> .
 
-:DesignGcodeFiles1 a okh:Part ;
+:Designgcodefiles1 a okh:Part ;
     rdfs:label "Design & G-code Files/1" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Snapmaker" ;
-    okh:source :DesignGcodeFiles1_source ;
+    okh:source :Designgcodefiles1_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:DesignGcodeFiles1_source a okh:SourceFile ;
+:Designgcodefiles1_source a okh:SourceFile ;
     rdfs:label "Source File of Design & G-code Files/1 of Hexagon Desk Organizer ea495af5ce648b5c385ec657a9bfed40687e6fca" ;
     okh:fileFormat "SVG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/42598/1.svg> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMjgzNDc=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/42598/1.svg> .
 
-:DesignGcodeFilescphone a okh:Part ;
+:Designgcodefilescphone a okh:Part ;
     rdfs:label "Design & G-code Files/C-phone" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Snapmaker" ;
-    okh:source :DesignGcodeFilescphone_source ;
+    okh:source :Designgcodefilescphone_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:DesignGcodeFilescphone_source a okh:SourceFile ;
+:Designgcodefilescphone_source a okh:SourceFile ;
     rdfs:label "Source File of Design & G-code Files/C-phone of Hexagon Desk Organizer ea495af5ce648b5c385ec657a9bfed40687e6fca" ;
     okh:fileFormat "STEP" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/42598/c-phone.step> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMzEwNTM=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/42598/c-phone.step> .
 
-:DesignGcodeFilescsdDisk a okh:Part ;
+:Designgcodefilescsddisk a okh:Part ;
     rdfs:label "Design & G-code Files/C-SD disk" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Snapmaker" ;
-    okh:source :DesignGcodeFilescsdDisk_source ;
+    okh:source :Designgcodefilescsddisk_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:DesignGcodeFilescsdDisk_source a okh:SourceFile ;
+:Designgcodefilescsddisk_source a okh:SourceFile ;
     rdfs:label "Source File of Design & G-code Files/C-SD disk of Hexagon Desk Organizer ea495af5ce648b5c385ec657a9bfed40687e6fca" ;
     okh:fileFormat "STEP" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/42598/c-sd_disk.step> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMzEwNzA=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/42598/c-sd_disk.step> .
 
-:DesignGcodeFilestool a okh:Part ;
+:Designgcodefilestool a okh:Part ;
     rdfs:label "Design & G-code Files/TOOL" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Snapmaker" ;
-    okh:source :DesignGcodeFilestool_source ;
+    okh:source :Designgcodefilestool_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:DesignGcodeFilestool_source a okh:SourceFile ;
+:Designgcodefilestool_source a okh:SourceFile ;
     rdfs:label "Source File of Design & G-code Files/TOOL of Hexagon Desk Organizer ea495af5ce648b5c385ec657a9bfed40687e6fca" ;
     okh:fileFormat "STEP" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/42598/tool.step> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMzEwNTE=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/42598/tool.step> .
 
 :Image a okh:Image ;
     rdfs:label "Image of Hexagon Desk Organizer ea495af5ce648b5c385ec657a9bfed40687e6fca" ;
     okh:fileFormat "JPG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/42598/hx6a4860.jpg> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMjc1Mzk=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/42598/hx6a4860.jpg> .
 
 :Readme a okh:Readme ;
     rdfs:label "Readme of Hexagon Desk Organizer ea495af5ce648b5c385ec657a9bfed40687e6fca" ;
     okh:fileFormat "MD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/42598/readme-b1768.md> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMzI0NzU=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/42598/readme-b1768.md> .
 

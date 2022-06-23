@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A20916/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:HotendFanMountWithDualAirFlow a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Hot-end fan mount with dual air flow" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """With the new Slic3r "Cooling" option, using a fan in the hot-end to cool the layers faster is a great improvement in the print quality and speed.\r
 \r
 This part was designed to make it possible to cool down the hot-end heatsink and at the same time blow some air on the printed part, without dissipating heat from the hot-end itself.\r
@@ -16,6 +18,7 @@ I was very inspired by thing http://www.thingiverse.com/thing:16266 but also wan
     okh:repo <https://www.thingiverse.com/thing:20916> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:20916> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A10397/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:XiangqiSetchineseChessBox2x4X4 a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Xiangqi set (Chinese Chess) box (2x4 x4)" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Since the previous box (4x4 x2) doesn't print quite well on a ToM HBP, designing a smaller box seems a better use of time (than tinkering with curl issues).\r
 \r
 This box holds 8 pieces per layer (2x4), stacked 4 pieces high.  While still reaching the edge of the platform, the corners of the box stay well inside the evenly heated area and so shouldn't curl.\r
@@ -16,6 +18,7 @@ Since the box is smaller, the text on the lid now isn't surrounded by so much em
     okh:repo <https://www.thingiverse.com/thing:10397> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:10397> .

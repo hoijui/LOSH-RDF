@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A9016/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:WensisPvLayerHolder a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Wensi's PV layer holder" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This OpenSCAD script will generate a simple one piece fixture to hold a colleague's PV layer components i.e. PV cell, PCB and supercapacitor\r
 \r
 NOTE: Before v0.7 parts of this file lie below z=0, these files will need to be moved onto the platform before printing! Be careful if you decide to print this!\r
@@ -50,6 +52,7 @@ Changes from previous versions:\r
     okh:repo <https://www.thingiverse.com/thing:9016> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:9016> .

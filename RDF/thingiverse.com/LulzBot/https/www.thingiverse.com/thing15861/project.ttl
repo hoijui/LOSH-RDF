@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A15861/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MendelmaxZAxisMountsAndClamp a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "MendelMax Z axis mounts and clamp" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """We made a redesign of the Z-axis parts as we wanted to beef up the Z axis mounts. The Z motor mount was beefed up as the original was a bit thin and cracked a bit too easy. The bottom Z mount was more stable and is able to hold a 608 bearing for an 8mm drive shaft. The bottom Z mount was also moved from sitting on the table surface and M5 nut captures were added. The z clamp are also different as they are a little shorter than the standard Mendelmax Z-clamps.\r
 \r
 All of the hardware is the same except you will need two extra M5 10mm screws for the bottom Z-mount. We used x4 M5 14mm screws for the clamps. The M5 14mm screws were actually what we had to use with the standard parts so you may already longer screws there.\r
@@ -17,6 +19,7 @@ Added Solidworks files""" ;
     okh:repo <https://www.thingiverse.com/thing:15861> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:15861> .

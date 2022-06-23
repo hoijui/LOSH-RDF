@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A6640/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Botofthecloth a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Bot-of-the-Cloth" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """A fabric-based portable XY gantry. The two driving ideas behind the design are the way in which the string is wound in order to achieve two degrees of freedom, and the notion of 3D printing components with eyelets so that they can be sewn onto fabric.\r
 \r
 The components were printed on a Dimension FDM machine with support material. Some post-processing was necessary to enlarge holes for bearing shafts and bearings. I'd imagine that you could print on a Makerbot and still get a useable component after additional post-print work. I'm using surplus gearhead motors which I found on ebay, but stepper motors could be easily adapted by changing the drive holder.\r
@@ -19,6 +21,7 @@ http://newtextiles.media.mit.edu/?p=570""" ;
     okh:repo <https://www.thingiverse.com/thing:6640> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:6640> .

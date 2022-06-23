@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A5957/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PrintableM5Washer a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Printable M5 Washer" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "This is a simple printable M5 washer. The stl files are for a single print, a plate of 12, 36 and a full plate of 64. I have uploaded my originals as well as the _fixed files from cloud.netfabb.com/ just in case there is a difference. Dimensions were derived from en.wikipedia.org/wiki/Washer_(hardware) )(hardware) is part of the link but Thingiverse doesn't recognize it even if the link is hard coded...?" ;
     okh:hasImage :Image ;
     okh:licensor "TheLoneInventor" ;
     okh:repo <https://www.thingiverse.com/thing:5957> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:5957> .

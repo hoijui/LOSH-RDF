@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A19030/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Tuber a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Tuber" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Cool looking crisscrossing tubes.\r
 \r
 I've seen people print things similar to this before but have not found the file for it, so I made my own. \r
@@ -16,6 +18,7 @@ It printed on a Fablicator with KISSlicer in 4.5 hours.""" ;
     okh:repo <https://www.thingiverse.com/thing:19030> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:19030> .

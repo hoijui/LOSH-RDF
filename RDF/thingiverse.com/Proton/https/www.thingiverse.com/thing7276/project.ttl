@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A7276/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:VibrationBowl a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Vibration bowl" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """A vibration bowl is used for orienting and singling out small parts.\r
 You can find lots of examples on Youtube, for example:\r
 http://www.youtube.com/watch?v=BY2Byhj0xbY\r
@@ -22,6 +24,7 @@ Disclaimer: Designed by a person who has never seen a vibration bowl working, ha
     okh:repo <https://www.thingiverse.com/thing:7276> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:7276> .

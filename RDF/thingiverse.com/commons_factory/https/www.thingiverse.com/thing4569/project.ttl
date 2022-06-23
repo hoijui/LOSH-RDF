@@ -1,16 +1,18 @@
 @prefix : <https://www.thingiverse.com/thing%3A4569/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MutantBrush a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "mutant brush" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """mutant brush is a design for a node and bars spatial structure. The nodes are digitally fabricated using laser cutter, and 3 mm 810 x 600 mm mdf sheets. The bars are put together with broom sticks. \r
 \r
 It can be used as an urban plug in to personalize, customize or appropriate urban space, but also in community or private patios, gardens, terraces, etc. \r
 \r
-The project has been developed in a cooperative process by a team composed by Fran FernÃ¡ndez Gallardo, Sergio Fernando GarcÃ­a de la Riva, Francisco MartÃ­n, Javier SantamarÃ­a with tutors Areti Nikolopoulou and Jose Perez de Lama at "The commons factory :: plug ins at santa ana" workshop, taking place october 18-25th 2010 at Absolut Lab [Fab Lab], Madrid, Spain\r
+The project has been developed in a cooperative process by a team composed by Fran FernÃ¡ndez Gallardo, Sergio Fernando GarcÃxada de la Riva, Francisco MartÃxadn, Javier SantamarÃxada with tutors Areti Nikolopoulou and Jose Perez de Lama at "The commons factory :: plug ins at santa ana" workshop, taking place october 18-25th 2010 at Absolut Lab [Fab Lab], Madrid, Spain\r
 \r
 The piece / construction system has been designed as site specific, but think it does have a very generic character.\r
 \r
@@ -21,6 +23,7 @@ http://www.absolut-lab.com""" ;
     okh:repo <https://www.thingiverse.com/thing:4569> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:4569> .

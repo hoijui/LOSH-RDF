@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A32342/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ImageToHalftoneToPrintableObject a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Image to Halftone to Printable Object" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a Processing app that will load a JPEG or PNG, convert it to a halftone image (with many parameters), and output a STL[1] or OpenSCAD[2] file.\r
 \r
 Make cool halftone coasters. Use them as plastic "rubber" stamps. Make art!\r
@@ -26,6 +28,7 @@ NOTE 3 - I've only tested the OSX executable (which works fine), but not the Win
     okh:repo <https://www.thingiverse.com/thing:32342> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:32342> .

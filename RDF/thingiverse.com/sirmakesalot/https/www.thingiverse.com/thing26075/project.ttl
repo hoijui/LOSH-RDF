@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A26075/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:UniversalJointNeckTie a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Universal joint neck tie" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """"Say! Where did you get that very unique tie?" Stan asked as we met at the water cooler during break. "I made it of course!" I replied.\r
 "Oh Sirmakesalot! What will you come up with next? You and your Maker contraption!! Ha ha!"\r
 \r
@@ -17,6 +19,7 @@
     okh:repo <https://www.thingiverse.com/thing:26075> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:26075> .

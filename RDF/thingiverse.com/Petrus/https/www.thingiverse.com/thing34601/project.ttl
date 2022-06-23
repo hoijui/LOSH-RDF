@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A34601/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PrintableSubdCovers a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Printable sub-d covers" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Covers for 9-pins and 25 pins sub-d connectors.\r
 I also uploaded the sketchup files if you want to modify it for 15-pins connectors.""" ;
     okh:hasImage :Image ;
@@ -13,6 +15,7 @@ I also uploaded the sketchup files if you want to modify it for 15-pins connecto
     okh:repo <https://www.thingiverse.com/thing:34601> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:34601> .

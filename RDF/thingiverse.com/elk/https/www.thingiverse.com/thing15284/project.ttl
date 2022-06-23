@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A15284/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ElksLm8uuYAxisHolders a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Elk's LM8UU Y Axis Holders" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Derivate work of the above mentioned part. I just made some minor adjustments (cosmetics / reinforcements / easier sliede-in of bearings...):\r
 \r
 - Rounded screw-surface (a bit less material used)\r
@@ -19,6 +21,7 @@ Prints nice! Made with a 0.35mm nozzle, ABS, 2 shells... see pic. The print was 
     okh:repo <https://www.thingiverse.com/thing:15284> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:15284> .

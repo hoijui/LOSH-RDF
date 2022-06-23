@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A12609/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ModularxAxisSet a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "ModularX Axis Set" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """A while ago I came up with a design for a new X axis for a Vertical configuration (vX config) based on bar spacing of 70mm for the vertical spacing and 30mm between the Z axis lead screw and smooth rod, per the original Reprap Mendel spec. Long story short, my printer is running great now after some time of neglect and I've been able to work on this design more and iron out some potential kinks!  
 
 The key difference now is that in addition to a Vertical configuration, I've come up with a Horizontal configuration (hX config) which uses the same zClamps, so if you're perfectly happy with your carriage and extruder, but want to try new Z ends this should offer an alternative to the default Mendel setup.  
@@ -34,6 +36,7 @@ hX Config
     okh:repo <https://www.thingiverse.com/thing:12609> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:12609> .

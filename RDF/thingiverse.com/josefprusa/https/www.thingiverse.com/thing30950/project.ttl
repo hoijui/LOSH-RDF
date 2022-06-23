@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A30950/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:UseMakerwareWithThingomatic a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Use MakerWare with Thing-o-Matic" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Watch the video here http://www.youtube.com/watch?v=fcWjpMpV9rA\r
 \r
 Well, new MakerWare by Makerbot does not support old Makerbots (Thing-o-Matic and Cupcake), even tho the sw is ready and adding them would take seconds. Unfortunately it is closed source (Makerbot had to pay for Qt license to be able to close the source) Fortunately it is easy to bluff it and still use it with older machines!\r
@@ -24,6 +26,7 @@ Support Open Hardware here http://news.ycombinator.com/news""" ;
     okh:repo <https://www.thingiverse.com/thing:30950> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:30950> .

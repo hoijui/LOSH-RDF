@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A1884/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MendelIn1Sheet a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Mendel in 1 sheet" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """All parts for Mendel saved as 1 sheet in Blender and stl file.  Based off the 01-15-10 update of Mendel by Adrian Bower.  All files are correctly oriented to be printed and are all perfectly on the same Z axis.\r
 \r
 I included a .005mm sheet so it is very easy to combine parts to make multi part prints.  Just move the parts to the sheet, select all parts you want to join, and press  j.  Delete the rest of the parts and export to a new stl.""" ;
@@ -14,6 +16,7 @@ I included a .005mm sheet so it is very easy to combine parts to make multi part
     okh:repo <https://www.thingiverse.com/thing:1884> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:1884> .

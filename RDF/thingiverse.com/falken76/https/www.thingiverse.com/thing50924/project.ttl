@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A50924/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:SegaGenesis a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Sega Genesis" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "For those of you who remember it, this is the Sega Genesis that came out in 1989. 16 Bit awesome is what it was when it came out. If you print one, please let me see it.  The vent panel isn't complete, it is damaged, I might fix it in the future, but I don't really feel like it at the moment.  The model is water tight so it should be able to be printed." ;
     okh:hasImage :Image ;
     okh:licensor "falken76" ;
     okh:repo <https://www.thingiverse.com/thing:50924> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:50924> .

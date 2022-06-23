@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A1038/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:GosperIsland a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Gosper Island" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "Make 49 of these and you'll see the repeating pattern of the Gosper Island (okay, you can actually do with 7, but 49 is much more fun!)..." ;
     okh:hasImage :Image ;
     okh:licensor "SimonFront" ;
     okh:repo <https://www.thingiverse.com/thing:1038> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:1038> .

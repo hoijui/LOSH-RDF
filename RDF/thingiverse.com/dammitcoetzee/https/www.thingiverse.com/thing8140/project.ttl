@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A8140/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:FabricTapeMeasureHolder a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Fabric Tape Measure Holder" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I bought one of those fabric tape measures a while back because they are fantastically useful for measuring oddly shaped things or perimeters. The problem is that they get tangled and bent faster than a neatly coiled pile of usb cables.\r
 \r
 This device has a few features that I think are nice:\r
@@ -17,6 +19,7 @@ This device has a few features that I think are nice:\r
     okh:repo <https://www.thingiverse.com/thing:8140> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:8140> .

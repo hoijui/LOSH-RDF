@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A19858/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PrusaPlaZCouplingRevisited a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Prusa PLA Z Coupling Revisited" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This coupling connects to a 5mm motor shaft and an 8mm threaded rod without any rubber hose in the mix.\r
 \r
 I made this version a bit taller. Making it taller gives more area that can grip the motor shaft and the rod resulting in a much tighter fit.\r
@@ -18,6 +20,7 @@ I hope you guys like it! :)""" ;
     okh:repo <https://www.thingiverse.com/thing:19858> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:19858> .

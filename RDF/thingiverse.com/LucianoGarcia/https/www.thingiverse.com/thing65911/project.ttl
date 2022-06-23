@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A65911/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:OpenBoxForGen7 a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Open box for GEN7" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "Box for pcb gen7 with cooling for pololus drives motors and my logo O2D customize." ;
     okh:hasImage :Image ;
     okh:licensor "LucianoGarcia" ;
     okh:repo <https://www.thingiverse.com/thing:65911> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/LGPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:65911> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A46970/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:DeltaRobotV1WithFourArms a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Delta Robot v1 with four arms" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """All my designs & progress available @ [Marginally Clever](http://marginallyclever.com)  \r
 [Video](http://www.youtube.com/watch?v=okvIrxqSDBU)  \r
 Scale model of a 4 armed delta robot used in automated manufacturing.  I'm looking for better ball joints.  A universal joint that mates to M3 would be fantastic.  \r
@@ -26,6 +28,7 @@ Discord: https://discord.gg/Q5TZFmB""" ;
     okh:repo <https://www.thingiverse.com/thing:46970> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:46970> .

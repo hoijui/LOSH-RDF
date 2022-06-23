@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A29640/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:TimingBeltCoupleransiMxl a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Timing Belt Coupler (ANSI MXL)" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This allows you to connect two ends of an ANSI MXL sized timing belt together. You can use this to take a length of belt and turn it into a loop.\r
 \r
 It's designed to fit very snugly on the belt, so you may need to use a small flathead screwdriver to push the belt into the coupler. It provides a very solid joint.\r
@@ -16,6 +18,7 @@ It would be nice to make this parametric in OpenSCAD. I needed to knock somethin
     okh:repo <https://www.thingiverse.com/thing:29640> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:29640> .

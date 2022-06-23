@@ -1,41 +1,44 @@
 @prefix : <https://www.thingiverse.com/thing%3A2570/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MotorizedHalfAutomaticPanoHead a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Motorized half automatic pano head" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
-    okh:function """**Untested project for the MakerBot Giveaway contest. Iâ€™ve got no clue about how sturdy MakerBot printed parts are, this means that I donâ€™t know if the parts I designed are thick enough to support the weight of the camera and steppers. Iâ€™m maybe plain wrong ! However, parts size have been carefully designed to fit into Makerbotâ€™s build envelope. The only overhangs are holes, therefore the parts should be printable on a MakerBot (At least, I hope !). STL parts have been checked with Netfabb and are manifold EDIT:I reuploaded the STL parts. They are now oriented in build direction**\r
-\r
-This half automatic pano head has been designed to take pictures using a Canon Powershot A560 compact digital camera. The purpose is to shoot panoramas without getting into the risk of forgetting to take THE PICTURE absolutely needed to get a complete panorama (when you donâ€™t have got a wide angle lens, you need to take a lot of pictures!)... The head moves left/right and up/down. Two NEMA 17 sized stepper motors are controlled by an Arduino  (or compatible clone) using two Sparkfun\\'s Easydriver. The shutting mecanism will be controlled by Arduino.\r
-\r
-The Canon Powershotâ€™s normally donâ€™t have remote shutting capabilities. Fortunately, a great open source software package can add a lot of functionalities to these cameras: CHDK. It adds remote shutting by detecting when voltage is applied on camera usb port.\r
-This head has to be mounted on a standard tripod.\r
-Function: When pressing the start/stop button, the camera will take a picture (or more, if CHDK â€œbracketing in continuous modeâ€ is checked â€“ needed for HDR), then moves upward, takes a picture,â€¦ , then moves left,then moves downwards, takes a picture, â€¦ ,and it does the same column after column. When the necessary pictures have been taken, the photograph has to press the start/stop button. After, the reset button has to be pressed to put the pano head back in starting position (only horizontal axis needs to be moved).\r
-\r
-Advantages of this design:\r
--No need to carry a notebook to control this head. \r
--Simple to use.\r
-\r
-drawbacks of this design:\r
- - the row/column intervals and time between moves can only be changed by editing the arduino sketch. \r
-- No care taken about â€œNo-parallax pointâ€ for now.\r
-\r
-Software used:\r
-3D CAD: Alibre Design http://www.alibre.com/\r
-Renderings: SimLab Composer 2 http://www.simlab-soft.com/\r
-Netfabb (STL file checking + repair): http://www.netfabb.com/\r
-\r
-Other:\r
- Hugin (panorama stitching and more): http://hugin.sourceforge.net/\r
-Arduino: http://www.arduino.cc/\r
+    okh:documentationReadinessLevel otrl:Odrl3 ;
+    okh:function """**Untested project for the MakerBot Giveaway contest. Iâ€™ve got no clue about how sturdy MakerBot printed parts are, this means that I donâ€™t know if the parts I designed are thick enough to support the weight of the camera and steppers. Iâ€™m maybe plain wrong ! However, parts size have been carefully designed to fit into Makerbotâ€™s build envelope. The only overhangs are holes, therefore the parts should be printable on a MakerBot (At least, I hope !). STL parts have been checked with Netfabb and are manifold EDIT:I reuploaded the STL parts. They are now oriented in build direction**
+
+This half automatic pano head has been designed to take pictures using a Canon Powershot A560 compact digital camera. The purpose is to shoot panoramas without getting into the risk of forgetting to take THE PICTURE absolutely needed to get a complete panorama (when you donâ€™t have got a wide angle lens, you need to take a lot of pictures!)... The head moves left/right and up/down. Two NEMA 17 sized stepper motors are controlled by an Arduino  (or compatible clone) using two Sparkfun's Easydriver. The shutting mecanism will be controlled by Arduino.
+
+The Canon Powershotâ€™s normally donâ€™t have remote shutting capabilities. Fortunately, a great open source software package can add a lot of functionalities to these cameras: CHDK. It adds remote shutting by detecting when voltage is applied on camera usb port.
+This head has to be mounted on a standard tripod.
+Function: When pressing the start/stop button, the camera will take a picture (or more, if CHDK â€œbracketing in continuous modeâ€x9d is checked â€“ needed for HDR), then moves upward, takes a picture,â€¦ , then moves left,then moves downwards, takes a picture, â€¦ ,and it does the same column after column. When the necessary pictures have been taken, the photograph has to press the start/stop button. After, the reset button has to be pressed to put the pano head back in starting position (only horizontal axis needs to be moved).
+
+Advantages of this design:
+-No need to carry a notebook to control this head. 
+-Simple to use.
+
+drawbacks of this design:
+ - the row/column intervals and time between moves can only be changed by editing the arduino sketch. 
+- No care taken about â€œNo-parallax pointâ€x9d for now.
+
+Software used:
+3D CAD: Alibre Design http://www.alibre.com/
+Renderings: SimLab Composer 2 http://www.simlab-soft.com/
+Netfabb (STL file checking + repair): http://www.netfabb.com/
+
+Other:
+ Hugin (panorama stitching and more): http://hugin.sourceforge.net/
+Arduino: http://www.arduino.cc/
 CHDK (Unleash the POWER in your Canon PowerShot!): http://chdk.wikia.com/wiki/CHDK""" ;
     okh:hasImage :Image ;
     okh:licensor "Fx_CAD" ;
     okh:repo <https://www.thingiverse.com/thing:2570> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:2570> .

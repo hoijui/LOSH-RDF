@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A38560/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:EasyPrintBearing a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Easy Print Bearing" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Here is a bearing that uses truncated elliptical rollers instead of balls. This is intended to be easy to print all as one print without having to try to break the bearings free. Theoretically it should just come off of the build platform working with no cleanup. This is the first thing I have made in openscad, as I just started learning it today in preparation for my printerâ€™s arrival. Also I don't have my printer yet so don't know if it prints properly. Please try it out and let me know!\r
 \r
 Update 1.1 (FIX): Still truncated elliptical rollers. Scaling fix so that roller ends are at same z level as ring edges (they were slightly off in the original version due to a 0.95 z scaling factor that I missed). I'm not sure if it is enough of a difference to mess up printing but I figured I'd fix it anyway. Also width changed to 21mm for closer roller packing. \r
@@ -18,6 +20,7 @@ Update 2.1: Slightly larger rollers to reduce play and also much tighter roller 
     okh:repo <https://www.thingiverse.com/thing:38560> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:38560> .

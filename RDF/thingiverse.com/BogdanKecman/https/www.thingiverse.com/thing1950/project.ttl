@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A1950/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MendelXCarriageModifiedToHoldBitsfombytesHotEnd a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Mendel X Carriage modified to hold BitsFomBytes hot end" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I own a rapman (bits from bytes laser cut reprap derivative) and looking at many designs I like the extruder this guys made very much. The extruder is divided in two parts (linked with 2 screws) - the "drive" part where a stepper driven shaft grab and push the filament - and the "hot end" part that is, well, melting the plastic.\r
 \r
 After many kg's of filament (abs, pp, hdpe, pla) trough the hot end from bfb I never had issues with it and as they sold hot end as a separate "part" I figure one can mount it to the Mendel using the pinch wheel drive and the bowden cable as the "other part" of the extruder assembly. This is a good idea but a hot end from bfb is ~40mm in dia hence I had to modify the carriage a bit (just drilled a big 40mm hole in them).""" ;
@@ -14,6 +16,7 @@ After many kg's of filament (abs, pp, hdpe, pla) trough the hot end from bfb I n
     okh:repo <https://www.thingiverse.com/thing:1950> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/BSD-4-Clause> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:1950> .

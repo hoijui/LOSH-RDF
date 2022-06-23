@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A34216/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:LowPolyDressForm a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Low Poly Dress Form" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I wanted to make a project that was conceptually easy, but was also an insane undertaking.\r
 \r
 And so, here is a life-size dress form, exploded into individual quads, which can be printed (standing up) on a Replicator1 build plate.\r
@@ -16,6 +18,7 @@ Abandon all hope, ye who enter here.""" ;
     okh:repo <https://www.thingiverse.com/thing:34216> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:34216> .

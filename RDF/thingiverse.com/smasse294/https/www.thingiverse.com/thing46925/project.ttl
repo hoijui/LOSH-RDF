@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A46925/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ScanguageMountingBracket a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Scanguage Mounting Bracket" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """#Introduction:  
 This is a mounting bracket for the Scanguage.  The concept is based off using the rear view mirror as support. This allows you to place the Scanguage above or below the rear view mirror.  
 
@@ -41,6 +43,7 @@ Your attention should be on the road and you should have an unobstructed driving
     okh:repo <https://www.thingiverse.com/thing:46925> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:46925> .

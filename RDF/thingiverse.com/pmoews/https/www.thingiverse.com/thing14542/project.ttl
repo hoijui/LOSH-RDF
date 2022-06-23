@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A14542/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:HollyAndSnowmanOrnaments a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Holly and Snowman Ornaments" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I've been working on Christmas ornaments, (see "Christmas Ornaments" and "Medallions for Christmas"), using openSCAD.  "Buckyballs" could also serve as ornaments when hung from a string.  Here are three more examples:  
 Two are based on an actual holly leaf.  A holly leaf was obtained from Trader Joe's and photographed.  The photograph was converted to a path in Inkscape using the command "trace bitmap".  Inkscape can output many file formats, one is file type pov for povray.  The povray output for paths is very similar to openSCAD input for polygons.  Povray uses < and > where openSCAD uses [ and ].  A block erase and two global changes in a text editor created a polygon command for the holly leaf. See the images at the left.  
 Leaf_ornament.stl is the result of a number of experiments. It is a spherical shell with the holly leaf displayed at the center. Holly_leaf.scad creates it.  Leaf_flat.stl came from commenting out most of holly_leaf.scad plus a few small adjustments.  
@@ -15,6 +17,7 @@ On completion of holly_leaf.scad it was obvious that the holly leaf could be rep
     okh:repo <https://www.thingiverse.com/thing:14542> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:14542> .

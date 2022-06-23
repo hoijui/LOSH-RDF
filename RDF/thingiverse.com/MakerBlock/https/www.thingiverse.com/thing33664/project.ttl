@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A33664/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:DroidRazrMaxxStand a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Droid RAZR MAXX stand" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """My Droid RAZR Maxx has a speaker on the back where the audio for video playback and music comes through.  This is fine when I've placed the phone screen-down, but it would be nice to have an elegant way to prop it up so I can watch a movie, show, or just have the screen face me while it's sitting out.\r
 \r
 Basically, this is a little squished sphere with a Droid cutout and a circular tunnel cutout so that the audio can (hopefully) travel from the back of the phone to the listener in front.  It would also really help as a stand for speaker-phone mode.\r
@@ -20,6 +22,7 @@ Update - I made some minor changes to the model, including allowing clearance fo
     okh:repo <https://www.thingiverse.com/thing:33664> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:33664> .

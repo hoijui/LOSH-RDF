@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A1537/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:DiveCribbageBoard a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Dive! Cribbage Board" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Its a cribbage board layout, for engraving into a piece of wood.\r
 \r
 In the last week in Dundee I managed to get round to doing something that has been plaguing me for about two years: a cribbage board from my friend Suzy. I had already drilled the holes and it took me a while to think up something to laser engrave. I eventually decided on a kind of 'field of shapes' thing given that the board was already punctuated by hundreds of circular holes.\r
@@ -20,6 +22,7 @@ The typeface I used is Cooper Black.""" ;
     okh:repo <https://www.thingiverse.com/thing:1537> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:1537> .

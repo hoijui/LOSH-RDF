@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A38534/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:OrdBotZScrewIsolatorwobbleSuppressor a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Ord Bot Z screw Isolator (Wobble Suppressor)" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Inspired by DaleDunn's elegant solution for z wobble on the Prusa (Thing 20147), I designed a version for the Ord Bot Hadron. This should also work on the Quantum assuming there's enough clearance.\r
 \r
 There are two versions: One uses the z nuts that came with the Ord Bot Kit and the other uses M8 nuts. A plastic washer might be needed between the two parts to minimize change in z height due to bent threaded rods.\r
@@ -22,6 +24,7 @@ The remaining z wobble was due to friction between one of the z nut holders and 
     okh:repo <https://www.thingiverse.com/thing:38534> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:38534> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A27779/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MiniMakerFaireRhodeIslandKeychain a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Mini Maker Faire Rhode Island Keychain" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I took the amazing Mini Maker Faire Rhode Island logo created by Josie Morway ( http://www.josiemorway.com ) and made it a 3D printable object that is perfect for a keychain. Print your own or better yet, back our Kickstarter for $25 or more to help support the Faire and we will print one for you and mail it to you!\r
 \r
 http://www.kickstarter.com/projects/143072809/rhode-island-mini-maker-faire-2012?ref=live""" ;
@@ -14,6 +16,7 @@ http://www.kickstarter.com/projects/143072809/rhode-island-mini-maker-faire-2012
     okh:repo <https://www.thingiverse.com/thing:27779> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:27779> .

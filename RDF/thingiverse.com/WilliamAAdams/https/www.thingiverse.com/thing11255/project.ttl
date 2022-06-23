@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A11255/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:FlangedConnector a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Flanged Connector" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Way back in the day, my daughter and I wanted to build some simple structures using drinking straws.  The typical method was to shove some paperclips into the ends, hook the paper clips together, and bit by bit assemble the structure.  It was very hard, and until the whole structure was assembled, it remained frustratingly limp.  I wanted a better way, and dreamed of having some tiny connectors that I could simply stick in the end of the straws and easily connect them.  Then I got into ZomeTool and forget about the idea.  Recently while cleaning out the house, I found the bundle of 1,000 straws I had purchased back then, which rekindled the spark of an idea I had back then.  Now, armed with OpenScad skills, and a 3D printer...\r
 \r
 This thing is finally that basic connector.  But, it goes a bit beyond what I originally intended.  These connectors are hollow, so you can actually use them to string bits and pieces of tubing together, and get liquid to flow between them.\r
@@ -29,6 +31,7 @@ Added blog entry here: http://williamaadams.wordpress.com/2011/09/05/useful-hous
     okh:repo <https://www.thingiverse.com/thing:11255> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:11255> .

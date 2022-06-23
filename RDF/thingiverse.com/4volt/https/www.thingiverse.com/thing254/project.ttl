@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A254/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:FunctionalPapercraftAFoldedBox a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Functional Papercraft: A Folded Box" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """It seems that many of my things I'll be giving as Christmas presents this year are small, less then a few inches in dimensions. That brings up the question, How do I pack it? One could put the thing in a envelope or a small plastic bag, but all of those like a distinct "giftiness", they don't really look like a gift.\r
 \r
 Enter the Folded Box, it's small enough to print and/or cut from a piece of standard size card stock. You can also easily customize it with a logo or name to make it that much cooler.\r
@@ -23,6 +25,7 @@ If you are interested in more of my stuff check out: http://4volt.com""" ;
     okh:repo <https://www.thingiverse.com/thing:254> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:254> .

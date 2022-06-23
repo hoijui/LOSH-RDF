@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A33722/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:SolidZendStopÂAdjustInSoftware a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Solid Z-End Stop â€“ Adjust in Software" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "Tired of fiddling with your Z end stop? Frustrated trying to adjust it to 0.1mm accuracy? Here's a method of making the adjustment in software and never having to mess with mechanical adjustment again." ;
     okh:hasImage :Image ;
     okh:licensor "doctek" ;
     okh:repo <https://www.thingiverse.com/thing:33722> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:33722> .

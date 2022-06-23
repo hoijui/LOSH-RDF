@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A5135/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:AngleLayoutAndAssemblyTool a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Angle Layout and Assembly Tool" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Here is a handy tool for use when you need to transfer or compare an angle.  Most of the time this type of tool is used for measuring, transfering and comparing 90 degrees.  This version will go from 53 degrees (acute) to 306 degrees (obtuse).\r
 \r
 A full size commerical layout tool I have is about 130mm per leg, this one is 100mm.  Close enough with the added benefit of fitting into some locations where a shorter tool works better.\r
@@ -16,6 +18,7 @@ For woodworking, you could print up 4 of these, glue them fixed at 90 degrees an
     okh:repo <https://www.thingiverse.com/thing:5135> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:5135> .

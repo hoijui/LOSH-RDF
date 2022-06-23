@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A13368/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MotorizedFunctionalDifferentialGearSystem a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Motorized Functional Differential Gear System" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """After making Thing-O-Fun's functional differential gear system and playing with it for a while I realized that this thing just had to be motorized. I had a Solarbotics GM9 gear motor lying around and it was a perfect fit. All that was needed was a modified input shaft to match up with the shaft on the gear motor and a base to hold the batteries and power switch.\r
 \r
 I included the scad file so that you can easily change the switch opening to fit your switch.\r
@@ -16,6 +18,7 @@ Watch it in motion at http://youtu.be/bFceF0CeGFk""" ;
     okh:repo <https://www.thingiverse.com/thing:13368> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:13368> .

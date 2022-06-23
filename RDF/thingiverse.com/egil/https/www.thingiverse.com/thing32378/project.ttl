@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A32378/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:LcMeterCase a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "LC meter case" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Improved version of the case for the the LC-100S inductance/capatitancy meter. This instrument is readily available at very low cost (approx USD 30) on ebay and elsewhere, but comes as a bare PCB without a case.  
 
 This new, improved version is based on the improvements made to my original version by linearchaos in http://www.thingiverse.com/thing:376273 . It is tuned even more, and also adds a real button for the "Func" key.  
@@ -20,6 +22,7 @@ Note: If you consider buying this meter, you should also look at the meter in ht
     okh:repo <https://www.thingiverse.com/thing:32378> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:32378> .

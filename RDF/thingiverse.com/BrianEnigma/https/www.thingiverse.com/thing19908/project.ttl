@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A19908/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:CatToyBall a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Cat Toy Ball" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """There are some cat toys at the house that are particularly popular with the local residents.  They are simple hollow spheres with cut-out slots.  They are great for kitties to kick around â€” small and light.  After staring at one for a few minutes, piecing out the geometry, I realized that this would make a great instructional design for an introduction to 3D CAD modeling using simple geometric shapes and boolean transforms.\r
 \r
 In the main image are the original (left), render (middle), and printed (right) versions of this object.\r
@@ -18,6 +20,7 @@ The final fully parametric OpenSCAD file is attached.""" ;
     okh:repo <https://www.thingiverse.com/thing:19908> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:19908> .

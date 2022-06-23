@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A6451/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ExtruderControllerMountminimalistVersion a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Extruder Controller Mount (Minimalist Version)" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Upon purchasing the Plastruder MK5, I was bewildered to discover that there's nowhere to mount the actual control electronics.  (I still have no idea what MakerBot Industries was thinking with this one.)\r
 \r
 I rewired and hung the EC off the side of the bot, which is a reasonable configuration with the new relay board.  This is the mount I used.  I didn't post it initially because it's ridiculously simple..but it's so much simpler than the other EC mounts on here that I thought it might be useful to someone!""" ;
@@ -14,6 +16,7 @@ I rewired and hung the EC off the side of the bot, which is a reasonable configu
     okh:repo <https://www.thingiverse.com/thing:6451> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:6451> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A11753/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:KeyHolder a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Key Holder" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """The conventional key ring is not very conducive to pockets. The plane of your keys is perpendicular to the plane of the ring, forming a shape that cannot lay flat. There is always some edge poking into your leg.  \r
 This is a work in progress, but the idea is a thin form-factor key holder capable of holding 3-4 keys. The thumb wheels swivel around and catch their respective key. A swivel in the opposite direction pulls the key back into the case.  \r
 You might have to adapt it to fit your keys.. Also, my original intent was for two house keys on one side and one large car key on the other.. as the model stands, some of the keys will catch on each other.  \r
@@ -22,6 +24,7 @@ My intent is for this product to be Open Hardware, under the TAPR OHL: http://ww
     okh:repo <https://www.thingiverse.com/thing:11753> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:11753> .

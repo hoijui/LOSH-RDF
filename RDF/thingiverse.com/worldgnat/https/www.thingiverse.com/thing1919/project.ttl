@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A1919/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ABetterMouseTrap a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "A Better Mouse Trap" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Cathal Garvey issued a challenge on the Thingiverse list a few hours ago, "Mouse get!" The challenge is to build a humane mouse trap that can be printed on a Makerbot, and that will trap a mouse and keep him in! \r
 \r
 Uploaded here is my attempt at designing such a trap. I'm printing it now, and will test it once it's fully printed (in a few hours.) It's not the most material efficient design, but I think it should foot the bill for a maximum security mouse trapping and storage facility. In fact, if you print it out of PLA, I'm willing to bet that this trap would stand up to a mouse wielding heavy artillery (heavy for a mouse, that is.) \r
@@ -16,6 +18,7 @@ The idea is that when the mouse steps on the ramp, the support will be pulled aw
     okh:repo <https://www.thingiverse.com/thing:1919> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:1919> .

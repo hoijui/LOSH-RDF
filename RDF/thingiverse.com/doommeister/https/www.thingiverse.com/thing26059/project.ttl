@@ -1,12 +1,14 @@
 @prefix : <https://www.thingiverse.com/thing%3A26059/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:OmNomTheChompyDinosoar a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Om Nom The Chompy Dinosoar" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
-    okh:function """This is an open SCAD script to make Morceri's â€œSueâ€ into the chompy Dino head that you always wanted.\r
+    okh:documentationReadinessLevel otrl:Odrl3 ;
+    okh:function """This is an open SCAD script to make Morceri's â€œSueâ€x9d into the chompy Dino head that you always wanted.\r
 \r
 I have uploaded a derivative STL which has been simplified as openSCAD crashes each time I try to render using the original.\r
 \r
@@ -16,6 +18,7 @@ This my first stab at this, I will update with a little more clearance for even 
     okh:repo <https://www.thingiverse.com/thing:26059> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:26059> .

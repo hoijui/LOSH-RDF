@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A19010/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:3dPrinterHeatedBedTabsToHoldDownGlass a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "3D Printer - Heated Bed Tabs to hold down glass" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a tab for mounting 3mm glass to a 3D printer - four of these will be required, one for each corner. The holes are 3mm diameter, and designed for M3 bolts.\r
 \r
 The 3mm glass plus the PCB will add up to a height greater than the 3mm allowed for in the 'void' in this model - the idea is that this will create a bit of a press fit with the glass, and hopefully the glass won't be able to move around when the tabs are tightened. This should also mean that the tabs don't need to line up perfectly with the corners of the glass in order for the glass to be held tightly in place, ie. the mounting of the tabs doesn't need to be perfect. Another way to achieve this friction with the glass would be to add some higher friction material to the void space, in between the glass and the tab.\r
@@ -16,6 +18,7 @@ I've now added a *.stl file of the tab""" ;
     okh:repo <https://www.thingiverse.com/thing:19010> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:19010> .

@@ -2,21 +2,15 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Adafruit16channelPwmServoHatForRaspberryPiMiniKit a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Adafruit 16-Channel PWM / Servo HAT for Raspberry Pi - Mini Kit" ;
-    okh:additionalType "['Electronics']" ;
-    okh:certificationDate "2020-05-04T00:00:00-04:00" ;
-    okh:country "United States of America" ;
     okh:dataSource "oshwa.org" ;
     okh:documentationLanguage "en" ;
-    okh:documentationLicense "CC BY-SA" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function "DC Servo Motors require very specific and repetitive timing pulses to set the positions. Instead of asking the Pi Linux kernel to send these signals, pop on this handy HAT. It adds the capability to control 16 Servos with perfect timing. It can also do PWM up to 1.6 KHz with 12 bit precision, all completely free-running. Click the link labeled 'Project Website' to find out more." ;
-    okh:hardwareLicense "Other" ;
     okh:licensor "Adafruit Industries, LLC" ;
-    okh:primaryType "Electronics" ;
     okh:repo <https://certification.oshwa.org/us000512.html> ;
     okh:repoHost "certification.oshwa.org" ;
-    okh:softwareLicense "MIT" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
     okh:uploadMethod "auto" ;
     okh:version "Rev A" ;

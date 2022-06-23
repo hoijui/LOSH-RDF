@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A4503/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:DropInHoldersFor8mmThreadedRod a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Drop in holders for 8mm threaded rod" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Just a simple way to hold a 8mm threaded rod or something similar. I use these on my filament spool, but they should be generally useful if you need to hold a rod and gravity alone is suitable to keep it in place.\r
 \r
 These are designed to mount in Misumi aluminum extrusions, but would work in anything similar or even screwed into wood or something else.""" ;
@@ -14,6 +16,7 @@ These are designed to mount in Misumi aluminum extrusions, but would work in any
     okh:repo <https://www.thingiverse.com/thing:4503> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:4503> .

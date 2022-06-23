@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A30923/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MakerbotReplicatorToolHolder a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "MakerBot Replicator Tool Holder" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "I decided that before I lose the spare parts and allen wrenches that came with the MakerBot Replicator I would build a tool holder that attaches to the frame. It holds the 5 wrenches and includes a removable cup that you can keep small parts in. If you don't want the cup, the opening works well for putting pliers, etc in." ;
     okh:hasImage :Image ;
     okh:licensor "bradk2012" ;
     okh:repo <https://www.thingiverse.com/thing:30923> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:30923> .

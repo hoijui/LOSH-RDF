@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A9904/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:SnapInParametricHoleCover a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Snap in parametric hole cover" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a parametric snap in cover to go in a hole in sheet metal (or whatever)\r
 \r
 After printing out new handles for our screen door ( http://www.thingiverse.com/thing:9882 ) there were 4 extra holes left over that were intended to be used if the door opened the other way.\r
@@ -15,6 +17,7 @@ Now they are filled in...""" ;
     okh:repo <https://www.thingiverse.com/thing:9904> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:9904> .

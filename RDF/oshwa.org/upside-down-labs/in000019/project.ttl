@@ -2,22 +2,15 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Bioamp a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "BioAmp" ;
-    okh:additionalType "['Education', 'Electronics', 'Robotics', 'Science', 'Sound', 'Tool', 'Wearables']" ;
-    okh:certificationDate "2020-11-24T00:00:00-05:00" ;
-    okh:country "India" ;
-    okh:cpcPatentClass "Education" ;
     okh:dataSource "oshwa.org" ;
     okh:documentationLanguage "en" ;
-    okh:documentationLicense "CC BY" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function "BioAmp v1 is a single chip biopotential amplifier. It can record any biopotential signal non-invasively and doesn't require any microcontroller to sample the signal. You just plug 9v Battery to board, Electrodes to body and Audio jack to Mobile/Laptop and you are ready to record signals like EMG, ECG, EKG, EOG, and EEG." ;
-    okh:hardwareLicense "CERN" ;
     okh:licensor "Upside Down Labs" ;
-    okh:primaryType "Science" ;
     okh:repo <https://certification.oshwa.org/in000019.html> ;
     okh:repoHost "certification.oshwa.org" ;
-    okh:softwareLicense "MIT" ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
     okh:uploadMethod "auto" ;
     okh:version "1.5" ;

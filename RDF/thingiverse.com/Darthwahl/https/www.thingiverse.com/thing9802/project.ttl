@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A9802/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PrintableArduinoUnoDuemilanoveClipinHolder a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Printable Arduino UNO & Duemilanove Clip-in Holder" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """How many times have you wanted to mount your arduino in a project in a non permanent manner but weren't able to because you didn't have the right hardware or spacers? Well, I have had that happen a few times, and it sucks, so I made a printable holder that you can simply clip the arduino into. \r
 \r
 I'm thinking of adding onto this project and making project cases that this slides into, or battery holders, or robot legs. Hell, I don't know, with this technology practically anything is possible.\r
@@ -16,6 +18,7 @@ EDIT: I have added a .3DS and .SKP version as well, so if you see ways to upgrad
     okh:repo <https://www.thingiverse.com/thing:9802> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:9802> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A15561/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:GalaxyNexusDock a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Galaxy Nexus Dock" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Note: This dock will hold your phone, but it stands up a little too straight for my liking. When I get some time I'll fix it, but it'll be awhile.\r
 \r
 This is a dock for the Samsung Galaxy Nexus. I got tired of waiting for them to release an official one, so I decided to make one.\r
@@ -18,6 +20,7 @@ Rubber Feet: http://search.digikey.com/us/en/products/SJ-5508%20%28BLACK%29/SJ55
     okh:repo <https://www.thingiverse.com/thing:15561> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:15561> .

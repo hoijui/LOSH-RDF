@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A11878/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:HeadLamp a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Head Lamp" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Desktop lamp with my face on it! The face was generated using facegen with their automatic face modeler ( www.facegen.com ). Unfortunately, the license for the feature is pretty steep ($300). In full disclosure, it doesn't quite look like me.. but I'm also new to the tool.  \r
 Model was printed on an up! printer ( pp3dp.com )  \r
 My intent is for this product to be Open Hardware, under the TAPR OHL: tapr.org/TAPR_Open_Hardware_License_v1.0.txt\r
@@ -19,6 +21,7 @@ https://www.youtube.com/watch?v=P1T-cU5-fO8""" ;
     okh:repo <https://www.thingiverse.com/thing:11878> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:11878> .

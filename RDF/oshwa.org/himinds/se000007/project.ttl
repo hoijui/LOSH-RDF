@@ -2,14 +2,11 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:HimindsWirelessEnvironmentalSensor a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "HiMinds Wireless Environmental Sensor" ;
-    okh:additionalType "['Education', 'Environmental']" ;
-    okh:certificationDate "2020-11-06T00:00:00-05:00" ;
-    okh:country "Sweden" ;
     okh:dataSource "oshwa.org" ;
     okh:documentationLanguage "en" ;
-    okh:documentationLicense "CC BY-SA" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function """The purpose of HiMinds wireless environmental sensor project is to develop a rechargeable battery-operated wireless sensor that can measure: 
 
 - Carbon dioxide (CO₂) levels
@@ -22,12 +19,9 @@
 
 It is designed to fit into a CBRS01VWH enclosure from CAMDENBOSS. 
 The work is based on OSHWA UID BG000019.""" ;
-    okh:hardwareLicense "Other" ;
     okh:licensor "HiMinds" ;
-    okh:primaryType "IOT" ;
     okh:repo <https://certification.oshwa.org/se000007.html> ;
     okh:repoHost "certification.oshwa.org" ;
-    okh:softwareLicense "MIT" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
     okh:uploadMethod "auto" ;
     okh:version "2.0" ;

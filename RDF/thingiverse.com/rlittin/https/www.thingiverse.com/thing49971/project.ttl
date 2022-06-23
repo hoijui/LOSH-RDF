@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A49971/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:RostockWithFishingBraidDriveLines a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Rostock with fishing braid drive lines" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is my variation on the Rostock printer.  It is pretty much Johann's original design with the following changes:\r
 \r
 1) Braid fishing line instead of belts for main axis drives,\r
@@ -19,6 +21,7 @@ The main reason for the braid in place of the drive belts was that I was finding
     okh:repo <https://www.thingiverse.com/thing:49971> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:49971> .

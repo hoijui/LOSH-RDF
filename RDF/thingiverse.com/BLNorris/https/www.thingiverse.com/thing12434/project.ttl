@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A12434/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:RustyspoonsVerticalXaxis a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "RustySpoon's Vertical X-Axis" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I Designed this because I liked the vertical axis style, but none of the current designs that I found would let you use current extruder designs.\r
 This lets you use a Gregs Wade style extruder, and most anything with the same style mount.\r
 \r
@@ -25,6 +27,7 @@ http://youtu.be/NgFt0bLryy4""" ;
     okh:repo <https://www.thingiverse.com/thing:12434> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:12434> .

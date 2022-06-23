@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A3521/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:OpenBenchLogicSnifferCase a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Open Bench Logic Sniffer - case" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """If you got your Open Bench Logic Sniffer from Dangerous Prototypes http://dangerousprototypes.com/open-logic-sniffer or Gadget Factory http://www.gadgetfactory.net/gf/project/butterflylogic/ you might found that with unprotected underside working with it on a table full of wires and solder drops and other conducting materials is not "safe".\r
 \r
 I designed this simple "slide in" protection for the OBLS, you simply slide your OBLS in this and use as usual without having to worry about "what you are putting it on\"""" ;
@@ -14,6 +16,7 @@ I designed this simple "slide in" protection for the OBLS, you simply slide your
     okh:repo <https://www.thingiverse.com/thing:3521> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/BSD-4-Clause> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:3521> .

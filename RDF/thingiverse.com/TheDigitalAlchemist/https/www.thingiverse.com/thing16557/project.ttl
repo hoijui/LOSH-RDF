@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A16557/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Makerbotopia a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "MAKERBOTOPIA" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Here's a way we can chat about our creations, Hold virtual events, engage in some online gaming, and other stuff.\r
 Right now, it's just a Windows client, and there's not much there to explore. But the chat works, and you can explore the virtual world a bit... If interest grows, I'll create a cross-platform version, a way to share/collect things, and add more places to explore...(and whatever else you guys want...) :)\r
 \r
@@ -20,6 +22,7 @@ Be well.\r
     okh:repo <https://www.thingiverse.com/thing:16557> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:16557> .

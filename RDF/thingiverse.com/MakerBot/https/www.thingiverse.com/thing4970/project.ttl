@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A4970/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:StepperMotorDriverV33 a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Stepper Motor Driver v3.3" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Microstepping for great justice\r
 \r
 These new stepper drivers are capable of doing 1/8 stepping which means that instead of jerking from one position to the next, the stepper motor will gradually move between them.  This results in lower vibrations, lower noise, and better precision.  Your machine will be quieter, print better, and create world peace.\r
@@ -22,6 +24,7 @@ The chip we're using is capable of handling up to 2.8A per phase, so you can eas
     okh:repo <https://www.thingiverse.com/thing:4970> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:4970> .

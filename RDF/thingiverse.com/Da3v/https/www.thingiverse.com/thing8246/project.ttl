@@ -1,19 +1,22 @@
 @prefix : <https://www.thingiverse.com/thing%3A8246/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:LaserCutSensingPlatformNode a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Laser Cut Sensing Platform Node" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is based on Teabot's thingiverse.com/thing:5029\r
 \r
-The Sensing Platform is a set of hardware and software tools that allow students, educators, researchers, and â€œmakersâ€ to easily collect data from multiple, disparate sensors, and then transmit the sensor data into a â€œhubâ€ which allows for easy display, graphing, and logging of the sensor data.""" ;
+The Sensing Platform is a set of hardware and software tools that allow students, educators, researchers, and â€œmakersâ€x9d to easily collect data from multiple, disparate sensors, and then transmit the sensor data into a â€œhubâ€x9d which allows for easy display, graphing, and logging of the sensor data.""" ;
     okh:hasImage :Image ;
     okh:licensor "Da3v" ;
     okh:repo <https://www.thingiverse.com/thing:8246> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:8246> .

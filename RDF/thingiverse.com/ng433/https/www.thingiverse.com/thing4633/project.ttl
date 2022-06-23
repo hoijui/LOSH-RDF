@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A4633/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MouseTrapCar a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Mouse Trap Car" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "I had been looking for a chance to demonstrate to the rest of the family the utility of a 3d printer . My daughter needed to design a vehicle that would roll as far as possible after tossing a weight using a mousetrap . We used old CD's for wheels . Getting an axle into a CD was easy using a printed hub. Mounting the bearings required a wheelblock ( its designed for a 5mm ID bearing). So by printing the CD hub and the wheelblock the car was quickly assembled." ;
     okh:hasImage :Image ;
     okh:licensor "ng433" ;
     okh:repo <https://www.thingiverse.com/thing:4633> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:4633> .

@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A6504/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:FlowerInVase a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Flower in Vase" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "Ok, I first started out seeing if my Thing-O-Matic could print Tony Cervantes's flower http://www.thingiverse.com/thing:5883 .  To my surprise, it did.  So I modified it a little to add a base to the flower so that I could attach a stem, and then created a vase to put it in.  Yes, the vase printed to my surprise also!" ;
     okh:hasImage :Image ;
     okh:licensor "Andr0id" ;
     okh:repo <https://www.thingiverse.com/thing:6504> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:6504> .

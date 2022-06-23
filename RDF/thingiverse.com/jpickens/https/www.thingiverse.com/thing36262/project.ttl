@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A36262/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:16mmSleeveCarriageForRostockPrinterAndIgusLinearBearings a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "16mm Sleeve Carriage for Rostock Printer and Igus Linear Bearings" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Metzench designed an open 16mm saddle carriage for the Igus RJM-01-08 plastic linear bearing.  The Igus bearings require a 16mm bushing to "squeeze" the ribbed bearing to 8mm tolerance.  I modified the SCAD from Johann's original Rostock carriage to have a 16mm enclosed sleeve for holding the bearing.\r
 \r
 I should add that I am currently building a Johann's Rostock with 8mm rods, and hope to use these simple and cheap bearings instead of the loud and expensive metal ones.  We'll see how it goes.""" ;
@@ -14,6 +16,7 @@ I should add that I am currently building a Johann's Rostock with 8mm rods, and 
     okh:repo <https://www.thingiverse.com/thing:36262> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:36262> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A6938/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PrusamaticMotorizedConveyorBuildPlatform a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Prusamatic motorized conveyor build platform" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I recently upgraded to a MakerGear Prusa Mendel from a Cupcake CNC with an automated build platform, and I missed the automatic ejection of parts out the front.  So I designed a super-sized conveyor platform, re-using the gearmotor and also making use of AVataRR's paper + kapton belt design.\r
 \r
 Video of it working: http://natetrue.posterous.com/automated-prusa-mendel-3d-printer-win-go-prus\r
@@ -30,6 +32,7 @@ Known issues:\r
     okh:repo <https://www.thingiverse.com/thing:6938> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:6938> .

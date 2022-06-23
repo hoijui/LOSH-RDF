@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A35068/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:RingMaker a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Ring Maker" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """We develop a lot of free applications dedicated to 3D printing to explore and facilitate the use of 3D printers by many. The first Image2stl, allows the creation of 3D object from a 2D base (jpg or png). Associating the colors to values â€‹â€‹extrusion, the program detects differences in color level to translate the 2D to 3D. Thus, an image composed of a gradient from black to white gradient will create a volume.\r
 \r
 This application has been designed by the Design Association The Future Now and developed by JoÃ«l Belouet.\r
@@ -17,6 +19,7 @@ http://dothefuturenow.org/ressources/2-ringmaker-imaginer-designer-et-imprimez-v
     okh:repo <https://www.thingiverse.com/thing:35068> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:35068> .

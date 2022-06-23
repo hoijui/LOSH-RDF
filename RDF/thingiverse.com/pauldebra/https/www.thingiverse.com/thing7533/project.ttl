@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A7533/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:BottomSupportPieceForAccordion a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Bottom support piece for accordion." ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """The supports for an accordeon tend to break after some years.\r
 There are (unfortunately) several types. This one is for larger (conservatory) instruments.\r
 Note that the hole for the screw is not in the center. There are two possible pieces which are a mirror image of each other.\r
@@ -16,6 +18,7 @@ This was created in Google Sketchup.""" ;
     okh:repo <https://www.thingiverse.com/thing:7533> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:7533> .

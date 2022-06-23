@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A6704/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PlatformCollisionSaverAndEstop a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Platform Collision Saver and E-STOP" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This thing is meant to protect you from the agony of destroying your Thing O Matic or Cupcake heated build platform PCB by putting your print head through it.  It can happen to the best of us.\r
 \r
 It is a simple circuit that plugs into the EMERGENCY STOP port on a Thing-O-Matic, although I can easily set it up to work the same way for Cupcake users.  Two wires go to your print head and aluminum heat spreader, and detect when they have collided.\r
@@ -44,6 +46,7 @@ The latest version of my firmware includes fixes to this that make the estop but
     okh:repo <https://www.thingiverse.com/thing:6704> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/BSD-4-Clause> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:6704> .

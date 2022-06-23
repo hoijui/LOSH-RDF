@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A51501/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:AlbertEinsteinByJacobEpstein1933 a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Albert Einstein by Jacob Epstein, 1933" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Scanned at the Birmingham Museum and Art Gallery. Part of my series "3D Printed Portraiture: Past, Present, and Future," cosmowenman.com/3DPPPPF.html, shown at the MakerBot exhibit at the Consumer Electronics Show in January, 2013.\r
 \r
 Albert Einstein sat for sculptor Jacob Epstein in Britain in 1933, while a refugee from Nazi Germany. Epstein described Einstein's "wild hair floating in the wind" and wrote that "his glance contained a mixture of the humane, the humorous, and the profound."\r
@@ -24,6 +26,7 @@ twitter.com/CosmoWenman""" ;
     okh:repo <https://www.thingiverse.com/thing:51501> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:51501> .

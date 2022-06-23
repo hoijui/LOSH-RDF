@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A54075/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:YetAnotherRodaxisEndCapfinetunableForTheUltimaker a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Yet another rod/axis end cap (fine-tunable) for the Ultimaker" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I had some slight longitudinal free play in my rods. Some were making noise when the head brutally changed its direction on a diagonal movement. It probably did not help making better prints also.  
 
 So I re-designed my caps once again. This time I embedded one nut in the internal side, and it becomes very easy to prevent any rod from moving on its axis.  
@@ -16,6 +18,7 @@ Update (thingster derivative): you can also add an external secondary nut in ord
     okh:repo <https://www.thingiverse.com/thing:54075> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:54075> .

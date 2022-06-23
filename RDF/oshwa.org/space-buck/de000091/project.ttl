@@ -2,21 +2,15 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Doubleoh a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Double-Oh" ;
-    okh:additionalType "['IOT', 'Other']" ;
-    okh:certificationDate "2020-09-25T00:00:00-04:00" ;
-    okh:country "Germany" ;
     okh:dataSource "oshwa.org" ;
     okh:documentationLanguage "en" ;
-    okh:documentationLicense "CC BY" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function "A Wi-Fi enabled power supply in a AA-battery form factor, initially designed for sex toys (but with the potential for much much more)" ;
-    okh:hardwareLicense "CERN" ;
     okh:licensor "Space Buck" ;
-    okh:primaryType "Electronics" ;
     okh:repo <https://certification.oshwa.org/de000091.html> ;
     okh:repoHost "certification.oshwa.org" ;
-    okh:softwareLicense "Other" ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
     okh:uploadMethod "auto" ;
     okh:version "2.7" ;

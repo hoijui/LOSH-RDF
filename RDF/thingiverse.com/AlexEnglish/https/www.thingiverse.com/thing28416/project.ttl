@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A28416/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:CanColanderstrainer a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Can Colander/Strainer" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """The other day I saw a can colander (like this: http://www.amazon.com/Progressive-International-GT-3966-Can-Colander/dp/B00004S7VI/ref=sr_1_1?ie=UTF8&qid=1344822907) in the canned vegetable section in the grocery store.  My first thought was, "Huh, that could be handy," immediately followed by, "I could print that."\r
 \r
 So, here it is.\r
@@ -22,6 +24,7 @@ Unlike the commercial version linked above, this one is designed to fit into the
     okh:repo <https://www.thingiverse.com/thing:28416> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:28416> .

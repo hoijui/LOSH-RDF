@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A65577/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PushFitCircuitBoards a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Push fit circuit boards" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Want an alternative to fiddly screw terminal blocks? This design allows easy joins between wires with push fit plugs. The plugs are for use between stranded copper wire and solid wire, like leds and phone charger wires.\r
 \r
 The little holes are for twisting together solid core wires like leds and resistors.\r
@@ -16,6 +18,7 @@ The example file is for a moodlamp, but you can use the openscad file to create 
     okh:repo <https://www.thingiverse.com/thing:65577> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:65577> .

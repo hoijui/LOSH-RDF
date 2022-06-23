@@ -2,21 +2,15 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:AdafruitMonochrome112128x128OledGraphicDisplay a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Adafruit Monochrome 1.12\" 128x128 OLED Graphic Display" ;
-    okh:additionalType "['Electronics']" ;
-    okh:certificationDate "2022-02-04T00:00:00-05:00" ;
-    okh:country "United States of America" ;
     okh:dataSource "oshwa.org" ;
     okh:documentationLanguage "en" ;
-    okh:documentationLicense "CC BY-SA" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function "This OLED goes out to all the fans who want more pixels! Normally our 128x64 OLEDs are the biggest ones we've stocked that can use I2C. This one is 128x128 pixels and it even has an extra bonus - it can do grayscale pixels!This board uses a 4-pin Sparkfun Qwiic-compatible connector called STEMMA QT, which allows the sensor to communicate over I2C without soldering.Click the link labeled 'Project Website' to find out more." ;
-    okh:hardwareLicense "Other" ;
     okh:licensor "Adafruit Industries, LLC" ;
-    okh:primaryType "Electronics" ;
     okh:repo <https://certification.oshwa.org/us002076.html> ;
     okh:repoHost "certification.oshwa.org" ;
-    okh:softwareLicense "MIT" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
     okh:uploadMethod "auto" ;
     okh:version "Rev A" ;

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A9324/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ScanTrackerForNextEngine a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Scan Tracker for Next Engine" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This device sits on your Next Engine scanning platform to help you get the best quality scans. It works by providing extra geometry to increase alignment accuracy. This is especially useful for scanning objects that have a very regular shape like a sphere or a cylinder. It also helps with manual initial alignment by giving you recognizable reference points.\r
 \r
 A volume-optimized version of the Scan Tracker is available from Shapeways at http://shpws.me/1Uvl. The Nylon will partly diffuse the laser light. To increase the accuracy, the Dark Grey Strong and Flexible material will help prevent this. Printing on a home FDM machine, you will get the best results by sanding and painting the tracker with a light grey primer. \r
@@ -16,6 +18,7 @@ UPDATE: The solid version here was missing many of the fillets used in the hollo
     okh:repo <https://www.thingiverse.com/thing:9324> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:9324> .

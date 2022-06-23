@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A11750/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:wadeHandedGregsHingedAccessibleWTechzoneTip a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "'Wade Handed' Greg's Hinged Accessible w/ Techzone Tip" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This extruder is modified to return to the original handedness of Wade's extruder(http://www.thingiverse.com/thing:1794), while retaining the new designs of Greg's Accessible Hinged Extruder(http://www.thingiverse.com/thing:8252).  The holes match the original wade's design as well, so that this is a drop in replacement for Wade's Extruder when using a steel hot tip from TechZone.  If only thingiverse allowed dual ancestry, we would credit all of the things listed here.\r
 \r
 The gears started off as the Herringbone Geared extruder (http://www.thingiverse.com/thing:5111) by rhys-jones, and have been modified a little bit. The gears have been slimmed down where possible, and now have beveled edges as has been seen on designs floating around.  They should maintain the gear ratio of a standard Wade's extruder.  \r
@@ -16,6 +18,7 @@ We are still revising this design, so any suggestions are welcome and will be fa
     okh:repo <https://www.thingiverse.com/thing:11750> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:11750> .

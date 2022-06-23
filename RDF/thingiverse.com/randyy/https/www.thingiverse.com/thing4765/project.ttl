@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A4765/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:CupcakeXyStageQuickReleaseKit a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Cupcake XY Stage Quick Release Kit" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Like TwoTimes, I've been experimenting with new chassis designs.  I became so frustrated with repeatedly tearing down and reassembling my Makerbot that I designed this kit to make removal of the entire XY stage a breeze.  It also makes cleaning out the floor of the build area very easy.  The entire process takes less than a minute and requires NO TOOLS!!!\r
 \r
 To change the XY stage out on a stock Makerbot, I typically had to:  1) Remove the 8 bolts holding the rod covers on the left side of the bot with a hex wrench and needlenose pliers to hold the nuts.  2) Remove the rod covers and slide the rods out. 3) Loosen the X Idler with a different hex wrench and an open end wrench 4) Put a band-aid on the cut I got when the wrench slipped 5) Take the XY stage off and loosen the 4 bolts holding the belt retainers on, removing the belt from the XY stage.  5) Fish around for the nuts that I dropped and lost in my Cupcake, and after giving up, pull new ones from my spares box 6) Put the experimental stage on the belt and place the assembly into the Cupcake. 7)  Wrestle with holding tension on the idler with one hand, hold the bottom nut with my second hand, and tighten the M8 bolt with my third hand, hoping that I've gotten it tight enough but not too tight.  8) replace the guide rods and begin replacing the rod covers and bolts. 9) Pretend I'm a neurosurgeon or operating the Mars rover by blindly trying to thread a nut onto an M3 bolt using needlenose pliers, holding the nut between the idler pulley and guide rod.  10) Put a dollar in the Swear Jar after dropping the nut for the 16th time.  17) Finally get it all together and realize 30 minutes have passed and I'm no longer in the mood to use the Makerbot.\r
@@ -18,6 +20,7 @@ Full disclosure -  Although this was a unique creation, I later discovered that 
     okh:repo <https://www.thingiverse.com/thing:4765> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/LGPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:4765> .

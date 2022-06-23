@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A5027/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:UnicornLogoHandsketchVariant a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Unicorn Logo - Hand-sketch Variant" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "I rendered Matt's artwork on an egg using an Eggbot. This required resizing the original artwork in Inkscape. To make the egg drawing appear more similar to Matt's original, I further stretched the drawing horizontally with the amount of stretch given by the secant of the latitude. (I.e., it's stretched more and more as you approach the egg's poles.)" ;
     okh:hasImage :Image ;
     okh:licensor "dnewman" ;
     okh:repo <https://www.thingiverse.com/thing:5027> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:5027> .

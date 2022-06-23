@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A4074/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Forklift a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Forklift" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Lately I've been wanting to see more toy cars and trucks on Thingiverse. I rarely have time to actually design things for the MakerBot, but it's Sunday morning and I woke up thinking of forklifts, so I decided to make one.\r
 \r
 There are brutal overhangs, but I'm going to try anyhow!""" ;
@@ -14,6 +16,7 @@ There are brutal overhangs, but I'm going to try anyhow!""" ;
     okh:repo <https://www.thingiverse.com/thing:4074> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:4074> .

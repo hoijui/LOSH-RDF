@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A38612/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MoravianStarHerrnhuterStern a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Moravian star - Herrnhuter Stern" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """A Moravian star (German: Herrnhuter Stern) is an illuminated piece of Advent and Christmas decoration. The Star is popular in Germany and in places in America and Europe where there are Moravian congregations. \r
 The stars take their English name from the Moravian Church. In Germany, they are known as Herrnhut stars, named for the Moravian Mother Community in Saxony, Germany, where they were first commercially produced.\r
 \r
@@ -17,6 +19,7 @@ Here you will find all my other projects on thingiverse.com/jtronics/things""" ;
     okh:repo <https://www.thingiverse.com/thing:38612> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:38612> .

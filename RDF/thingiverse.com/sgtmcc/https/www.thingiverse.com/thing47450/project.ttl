@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A47450/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ParallelUniverse a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Parallel Universe" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """You too can now create and rule your own parallel universe. Science fiction has become science fact. Amaze your friends, astonish physics professors, be the envy of your neighborhood. Because if you are going to have a parallel universe a 3D one is what you want!\r
 \r
 This is my very first design I made for my 3D printing course. Excuse the paint job, It got touched while the paint was still soft.""" ;
@@ -14,6 +16,7 @@ This is my very first design I made for my 3D printing course. Excuse the paint 
     okh:repo <https://www.thingiverse.com/thing:47450> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:47450> .

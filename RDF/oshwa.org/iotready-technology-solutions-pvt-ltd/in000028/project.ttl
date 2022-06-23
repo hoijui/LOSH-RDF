@@ -2,21 +2,15 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Esp32WifiBleWeighingScale a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "esp32 wifi ble weighing scale" ;
-    okh:additionalType "['Electronics', 'IOT', 'Manufacturing']" ;
-    okh:certificationDate "2021-06-17T00:00:00-04:00" ;
-    okh:country "India" ;
     okh:dataSource "oshwa.org" ;
     okh:documentationLanguage "en" ;
-    okh:documentationLicense "CC BY" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function "This is a weighing scale designed to share data over Wi-Fi using esp32 WROOM32 module. For the weighing scale we are using a load cell and measuring the output using a HX711 24-bit ADC designed for weigh scales and industrial control applications to interface directly with a bridge sensor." ;
-    okh:hardwareLicense "CERN" ;
     okh:licensor "IoTReady Technology Solutions Pvt Ltd" ;
-    okh:primaryType "IOT" ;
     okh:repo <https://certification.oshwa.org/in000028.html> ;
     okh:repoHost "certification.oshwa.org" ;
-    okh:softwareLicense "MIT" ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
     okh:uploadMethod "auto" ;
     okh:version "1.0" ;

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A15288/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MinifigsizedCoffin a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Minifig-sized coffin" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """For the first time we were demoing our new ToM to a friend, using carefully tested objects, when his son asked us to make us some accessories for his lego viking.  Never a great fan of programming as a spectator sport, but I (and my friend's son) were still quite pleased with the results.\r
 \r
 This coffin's been tidied up and improved since the demo but still could do with some work it probably could be a bit smaller and it'd be nice to add studs/suckets on the top and bottom (or base and lid), and it could do with holes for attaching things to it, but it's ok as is (and my first upload)""" ;
@@ -14,6 +16,7 @@ This coffin's been tidied up and improved since the demo but still could do with
     okh:repo <https://www.thingiverse.com/thing:15288> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:15288> .

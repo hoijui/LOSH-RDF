@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A12288/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:YodaLiteMoreFaceLessRobeAndABitBigger a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Yoda - Lite - more face less robe and a bit bigger" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """MUST resist the temptation to talk like Yoda.\r
 \r
 He is about 1.5X bigger and less of the robe, more of the detailed face.""" ;
@@ -14,6 +16,7 @@ He is about 1.5X bigger and less of the robe, more of the detailed face.""" ;
     okh:repo <https://www.thingiverse.com/thing:12288> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:12288> .

@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A11840/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Hexmarker a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "HexMarker" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "I am a big fan of the game Dead Space and Dead Space 2. I loved the design of the alien artifact known as the Marker. So I decided I wanted to make my own interpretation of the Marker based on hexagons, my favorite 2D shape. The Marker from Dead Space is a pair of extruded squares, my design is a trio of extruded hexagons." ;
     okh:hasImage :Image ;
     okh:licensor "quadrivia" ;
     okh:repo <https://www.thingiverse.com/thing:11840> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:11840> .

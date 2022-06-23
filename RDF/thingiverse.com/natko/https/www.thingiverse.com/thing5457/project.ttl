@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A5457/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ZAxisEndStopMinimalist a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Z Axis End Stop - Minimalist" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Ok - my take on the cupcake end stop, after trashing the kapton belt for the second time on the automated build platform v1 (ABP). This is due to Z axis skipping so until I can resolve the skipping the importance of a Z stop is critical.\r
 \r
 I had a spare microswitch and 10k resistor so came up with this, hope it save's other peoples belts.\r
@@ -16,6 +18,7 @@ P.S. I found it really fiddly to set up but have not needed to adjust once done.
     okh:repo <https://www.thingiverse.com/thing:5457> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:5457> .

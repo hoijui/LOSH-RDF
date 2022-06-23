@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A9443/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:UsbFlashDriveShell a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "USB Flash Drive Shell" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I'm a Design & Technology teacher with a new MakerBot and I'm trying to think of projects for my year 10 students. This is an idea that I had, students will carefully pull apart an old (or new) working  USB stick and they would design a new shell for it. This project will test their measuring and CAD skills.\r
 \r
 Here is my first attempt - not very creative but I just wanted to make sure that it was possible. \r
@@ -16,6 +18,7 @@ Feel free to put forward any other ideas for year 10 projects... they need to be
     okh:repo <https://www.thingiverse.com/thing:9443> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:9443> .

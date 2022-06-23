@@ -2,23 +2,17 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Fri3dBadge2020 a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Fri3d Badge 2020" ;
-    okh:additionalType "['Education', 'Electronics', 'IOT', 'Wearables']" ;
-    okh:certificationDate "2022-02-25T00:00:00-05:00" ;
-    okh:country "Belgium" ;
     okh:dataSource "oshwa.org" ;
     okh:documentationLanguage "en" ;
-    okh:documentationLicense "CC-BY-SA-4.0" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function """This ESP32 based badge will be given to all attendees of Fri3d Camp 2020* and will extensively be used during the event. In order to make the board reusable we've opted for a micro:bit connector and have some expansions planned of our own.
 
 *2020 = 2022""" ;
-    okh:hardwareLicense "CC-BY-SA-4.0" ;
     okh:licensor "FRI3D CAMP" ;
-    okh:primaryType "Electronics" ;
     okh:repo <https://certification.oshwa.org/be000006.html> ;
     okh:repoHost "certification.oshwa.org" ;
-    okh:softwareLicense "No software" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
     okh:uploadMethod "auto" ;
     okh:version "03" ;

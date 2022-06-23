@@ -2,21 +2,15 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Bigsammy a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "big-sammy" ;
-    okh:additionalType "['Electronics']" ;
-    okh:certificationDate "2021-07-15T00:00:00-04:00" ;
-    okh:country "Portugal" ;
     okh:dataSource "oshwa.org" ;
     okh:documentationLanguage "en" ;
-    okh:documentationLicense "Other" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function "Open source wired mouse hardware." ;
-    okh:hardwareLicense "CERN" ;
     okh:licensor "openinput" ;
-    okh:primaryType "Electronics" ;
     okh:repo <https://certification.oshwa.org/pt000004.html> ;
     okh:repoHost "certification.oshwa.org" ;
-    okh:softwareLicense "No software" ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
     okh:uploadMethod "auto" ;
     okh:version "0.1" ;

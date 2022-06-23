@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A40363/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:DemoctraticChess a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Democtratic Chess" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """In this game of chess pieces that are taken can be stacked to create new pieces with combined abilities (for example you can make up new Queen by stacking Rook and Bishop or even stack Pawn and Knight to make up new figure). This makes gameplay unusual and every loosed figure can change situation of board very significant!\r
 Pieces are not ugly, but done of special shape to be able stack them onto each other to create combined figures. \r
 There is also board and case design from plastic.""" ;
@@ -14,6 +16,7 @@ There is also board and case design from plastic.""" ;
     okh:repo <https://www.thingiverse.com/thing:40363> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:40363> .

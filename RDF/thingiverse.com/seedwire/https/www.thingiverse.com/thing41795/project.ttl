@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A41795/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:BoltexBoltMazeMeetsCryptexKindOf a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Boltex: Bolt maze meets cryptex, kind of..." ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Update: v2 fixes some taller printing problems with more support and a better "ledge" to prevent the high torques that will topple the bolt. Also, improved the base and handle to make it easier to grab... and fixed a tolerance problem that made the bolt and outer shell waaaaay too tight on most printers.  
 
 Update: just found this http://www.thingiverse.com/thing:1481   
@@ -20,6 +22,7 @@ This contraption is a bolt maze proper with a nut attached to an outer tube whic
     okh:repo <https://www.thingiverse.com/thing:41795> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:41795> .

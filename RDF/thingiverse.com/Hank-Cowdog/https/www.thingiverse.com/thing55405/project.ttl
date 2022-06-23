@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A55405/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Hanks3pointBedLevelingForPrintrbot a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Hank's 3-point bed leveling for Printrbot" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This printrbot print bed platform and base starts with Beardface's printrbot bed ( http://www.thingiverse.com/thing:17717 ) and incorporates a three point leveling system using the leveling knob idea from http://www.thingiverse.com/thing:9094 (reimplemented as an OpenSCAD file), but using a 3-point leveling approach.  The bed platform and base are designed to be cut out of 1/4" MDF using a laser CNC printer.  The spinner knobs can be 3D printed from ABS or PLA.\r
 \r
 Caveats:\r
@@ -17,6 +19,7 @@ Caveats:\r
     okh:repo <https://www.thingiverse.com/thing:55405> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:55405> .

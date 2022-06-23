@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A2694/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:JamesTheDoormansShoe a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "James the Doorman's Shoe" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "My friend bought a fancy designer door stop called \"JAMES\" THE DOORMAN from Amazon, (he actually bought two to get free shipping) only to find that it didn't hold his garage door open! It turns out that James's foot is too low and doesn't have enough height to jam under the door. So, I offered to make James a shoe that would raise his jamming height. Initial designs were very simple, but had problems such as being too big to print, taking too long to print, or slipping off. This is a 3rd gen design. I'd be more than happy for someone else to take this design an make it better because you can never have a better door stop (or is that a mousetrap?)." ;
     okh:hasImage :Image ;
     okh:licensor "tastybento" ;
     okh:repo <https://www.thingiverse.com/thing:2694> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:2694> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A2466/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:CogIphoneStandV01 a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "COG iPhone Stand v0.1" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is an iPhone stand that can be machined, waterjet, or printed. It's called COG because it keeps the center of gravity of the phone over the base, no matter what angle you set it at. The different flat spots around the back are used as the feet.\r
 \r
 Demonstration: http://www.youtube.com/watch?v=E7DHMn9wUEU\r
@@ -16,6 +18,7 @@ This can also be used to set the camera at a certain angle for timelapse or vide
     okh:repo <https://www.thingiverse.com/thing:2466> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:2466> .

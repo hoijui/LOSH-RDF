@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A4251/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ExperimentalThingomaticInspiredCupcakeZstage a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Experimental Thing-o-Matic Inspired Cupcake Z-stage" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """If you\\'re like me, you were smitten with envy when the Thing-o-matic was announced; if you\\'re even more like me, you can\\'t really afford it (yet).  I designed this as a way to retrofit some of the new functionality into the cupcake - specifically the faster, lead-screw based Z-movement and Z-shafting to improve print quality.  With any luck, this mod and the 4th generation electronics will bring the cupcake into the same class of build quality as the Thing-o-matic, if in a reduced build size/poor cousin kind of way.  And I really mean reduced build size - this Z-stage cuts about 45mm off the available height, so be warned.\r
 \r
 NOTES:\r
@@ -23,6 +25,7 @@ I've also uploaded a printable Z-motor spacer block and shaft coupler.""" ;
     okh:repo <https://www.thingiverse.com/thing:4251> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:4251> .

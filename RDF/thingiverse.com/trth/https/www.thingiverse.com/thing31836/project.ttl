@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A31836/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:80mmX80mmX16mmFan a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "80mm x 80mm x 16mm fan" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "Here is a fan so you can design your own mount or fan parts.  This is the specific fan I bought (http://www.amazon.com/gp/product/B005C31GIA/ref=oh_details_o01_s01_i00)." ;
     okh:hasImage :Image ;
     okh:licensor "trth" ;
     okh:repo <https://www.thingiverse.com/thing:31836> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:31836> .

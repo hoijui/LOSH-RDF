@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A22512/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:TheMagicFlutePuzzleByGregoryBenedetti a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "The Magic Flute puzzle by Gregory Benedetti" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a copy of a puzzle found on Puzzle Will Be Played. Its full English title is The Magic Flute - Queen of the Night as it is one of a series by Gregory Benedetti.\r
 http://puzzlewillbeplayed.com/DieZauberfloete/KoeniginDerNacht/\r
 The puzzle was constructed using Burr Tools and I have included the .xmpuzzle file so you can play with the pieces and export different sized STL files if you wish.""" ;
@@ -14,6 +16,7 @@ The puzzle was constructed using Burr Tools and I have included the .xmpuzzle fi
     okh:repo <https://www.thingiverse.com/thing:22512> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:22512> .

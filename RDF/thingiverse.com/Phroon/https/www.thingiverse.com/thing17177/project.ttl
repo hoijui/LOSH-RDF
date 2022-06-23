@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A17177/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:GladosDualColorRing a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "GLaDOS Dual Color Ring" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Have GLaDOS wrapped around your little finger for science, you monster.\r
 \r
 Aperture Science is proud to present the ultimate in portable AI technology.  With the Aperture Science portable Genetic Lifeform and Disk Operating System (GLaDOS) you'll always have so much science to do, even on the go!""" ;
@@ -14,6 +16,7 @@ Aperture Science is proud to present the ultimate in portable AI technology.  Wi
     okh:repo <https://www.thingiverse.com/thing:17177> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:17177> .

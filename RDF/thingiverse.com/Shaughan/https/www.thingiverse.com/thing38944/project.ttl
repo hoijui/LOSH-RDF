@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A38944/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:UpdateToSamsungNexusCarCradle a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Update to Samsung Nexus car cradle." ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I recently fitted a 3800mAh battery which included a new back cover to cope with the extra thickness of the battery. All up it added 5.4mm to the phone thickness, so it no longer fitted my first cradle design.\r
 I also had to dispose of my soft gell cover, and fitted a bumper cover instead through which the new back cover fits extremely well.\r
 The new design retains the charging and antenna, but now allows both a standard nexus phone (with bumper or full gell cover) and an extended battery cover (with bumper) to slide down into it and be charged if you have a USB charge adaptor available.\r
@@ -15,6 +17,7 @@ Additionally, I removed the "by Shaughan" motive as I wondered if that put some 
     okh:repo <https://www.thingiverse.com/thing:38944> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:38944> .

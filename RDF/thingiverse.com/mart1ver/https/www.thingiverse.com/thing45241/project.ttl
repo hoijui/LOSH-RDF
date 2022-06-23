@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A45241/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:BoutonDePlacardOuDeTiroirLambda a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "bouton de placard ou de tiroir lambda" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "fr" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "bouton de porte de remplacement pour tiroirs et portes de meubles de toute marque" ;
     okh:hasImage :Image ;
     okh:licensor "mart1ver" ;
     okh:repo <https://www.thingiverse.com/thing:45241> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:45241> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A19304/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ParametricGyroCube a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Parametric Gyro Cube" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I found lots of issues with thing:19026 when I tried to slice it. The positioning of the parts in the model appeared to be eyeballed and it required a lot of unnecessary supports. This one should print without support, and of course it's completely parametric.\r
 \r
 with the experimental firmware and upgrades that are on my bot right now, I haven't managed to finish a print of this yet, and I probably won't get another chance to try for a few days, so I thought I'd post it now and see if anyone else wants to try.\r
@@ -16,6 +18,7 @@ Here's a visualization of roughly what it should look like in action: https://pl
     okh:repo <https://www.thingiverse.com/thing:19304> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:19304> .

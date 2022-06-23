@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A3429/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:AboveGroundPoolPin a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Above Ground Pool Pin" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """You may be like me.  I have an above ground pool made by Intex.  Every year I go to set it up and every year something has broken or is missing from the previous year.  Well, this year I had a bunch of broken pool pins.  I didn't feel like ordering them and waiting a week for them to arrive via UPS or whatever.  Instead, I took a few measurements and modeled them up in my computer!\r
 \r
 I first tried making them in two halves and gluing them together.  That made my fingers sticky.  So I combined the two halves, chopped a bit more off the bottom, and Bingo!  Drop-in replacement pool pins.\r
@@ -18,6 +20,7 @@ UPDATE: They worked great all summer long!  No shearing problems at all.""" ;
     okh:repo <https://www.thingiverse.com/thing:3429> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:3429> .

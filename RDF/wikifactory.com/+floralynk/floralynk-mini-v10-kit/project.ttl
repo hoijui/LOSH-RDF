@@ -1,26 +1,27 @@
-@prefix : <https://wikifactory.com/+floralynk/floralynk-mini-v10-kit/19563c3f0d9da871228e51ca0be582e22f48850d/> .
+@prefix : <https://wikifactory.com/%2Bfloralynk/floralynk-mini-v10-kit/19563c3f0d9da871228e51ca0be582e22f48850d/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:FloralynkMiniV10 a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "floraLynk mini v1.0" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "FloraLynk mini v1.0 is a solution to control the environment in a small greenhouse. It can be used to control temperature humidity and light for optimal growing of plants. A unique feature is that the boards have built-in wifi connectivity so they can communicate with an app on your phone or tablet." ;
     okh:hasComponent :Bmp180,
         :Dht11aosong,
-        :FloralinkMiniV10,
-        :FloralinkMiniV10ElectricalCircuit,
-        :FloralinkMiniV10bcu,
-        :FloralinkMiniV10bmask,
-        :FloralinkMiniV10bpaste,
-        :FloralinkMiniV10bsilks,
-        :FloralinkMiniV10edgecuts,
-        :FloralinkMiniV10fcu,
-        :FloralinkMiniV10fmask,
-        :FloralinkMiniV10fpaste,
-        :FloralinkMiniV10fsilks,
-        :FloralinkMiniV10pcb,
-        :FloralynkMiniV10Hardware,
+        :Floralinkminiv10,
+        :Floralinkminiv10bcu,
+        :Floralinkminiv10bmask,
+        :Floralinkminiv10bpaste,
+        :Floralinkminiv10bsilks,
+        :Floralinkminiv10edgecuts,
+        :Floralinkminiv10electricalcircuit,
+        :Floralinkminiv10fcu,
+        :Floralinkminiv10fmask,
+        :Floralinkminiv10fpaste,
+        :Floralinkminiv10fsilks,
+        :Floralinkminiv10pcb,
+        :Floralynkminiv10hardware,
         :Mq135hanwei1 ;
     okh:hasImage :Image ;
     okh:licensor "floraLynk" ;
@@ -29,6 +30,7 @@
     okh:repo <https://wikifactory.com/+floralynk/floralynk-mini-v10-kit> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
+    okh:uploadMethod "manifest" ;
     okh:version "19563c3f0d9da871228e51ca0be582e22f48850d" ;
     okh:versionOf <https://wikifactory.com/+floralynk/floralynk-mini-v10-kit> .
 
@@ -43,7 +45,7 @@
     rdfs:label "Source File of BMP180 of floraLynk mini v1.0 19563c3f0d9da871228e51ca0be582e22f48850d" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151178/bmp180.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTE5NjY=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151178/bmp180.pdf> .
 
 :Dht11aosong a okh:Part ;
     rdfs:label "DHT11-Aosong" ;
@@ -56,217 +58,217 @@
     rdfs:label "Source File of DHT11-Aosong of floraLynk mini v1.0 19563c3f0d9da871228e51ca0be582e22f48850d" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151178/dht11-aosong.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTE5NjE=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151178/dht11-aosong.pdf> .
 
-:FloralinkMiniV10 a okh:Part ;
+:Floralinkminiv10 a okh:Part ;
     rdfs:label "FloraLink mini V1.0" ;
     okh:documentationLanguage "en" ;
-    okh:export :FloralinkMiniV10_export1,
-        :FloralinkMiniV10_export2 ;
+    okh:export :Floralinkminiv10_export1,
+        :Floralinkminiv10_export2 ;
     okh:licensor "floraLynk" ;
-    okh:source :FloralinkMiniV10_source ;
+    okh:source :Floralinkminiv10_source ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> .
 
-:FloralinkMiniV10ElectricalCircuit a okh:Part ;
-    rdfs:label "FloraLink mini V1.0 Electrical circuit" ;
-    okh:documentationLanguage "en" ;
-    okh:image :FloralinkMiniV10ElectricalCircuit_image ;
-    okh:licensor "floraLynk" ;
-    okh:source :FloralinkMiniV10ElectricalCircuit_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> .
-
-:FloralinkMiniV10ElectricalCircuit_image a okh:Image ;
-    rdfs:label "Image of FloraLink mini V1.0 Electrical circuit of floraLynk mini v1.0 19563c3f0d9da871228e51ca0be582e22f48850d" ;
-    okh:fileFormat "PNG" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151178/floralink-mini-v10-electrical-circuit.png> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTE3OTI=> .
-
-:FloralinkMiniV10ElectricalCircuit_source a okh:SourceFile ;
-    rdfs:label "Source File of FloraLink mini V1.0 Electrical circuit of floraLynk mini v1.0 19563c3f0d9da871228e51ca0be582e22f48850d" ;
-    okh:fileFormat "PDF" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151178/floralink-mini-v10-electrical-circuit-f5107.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTIyMjE=> .
-
-:FloralinkMiniV10_export1 a okh:ExportFile ;
+:Floralinkminiv10_export1 a okh:ExportFile ;
     rdfs:label "Export File of FloraLink mini V1.0 of floraLynk mini v1.0 19563c3f0d9da871228e51ca0be582e22f48850d" ;
     okh:fileFormat "PRO" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151178/floralink-mini-v10-7f0b1.pro> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTE4Mzg=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151178/floralink-mini-v10-7f0b1.pro> .
 
-:FloralinkMiniV10_export2 a okh:ExportFile ;
+:Floralinkminiv10_export2 a okh:ExportFile ;
     rdfs:label "Export File of FloraLink mini V1.0 of floraLynk mini v1.0 19563c3f0d9da871228e51ca0be582e22f48850d" ;
     okh:fileFormat "SCH" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151178/floralink-mini-v10-b3bce.sch> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTIyMzA=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151178/floralink-mini-v10-b3bce.sch> .
 
-:FloralinkMiniV10_source a okh:SourceFile ;
+:Floralinkminiv10_source a okh:SourceFile ;
     rdfs:label "Source File of FloraLink mini V1.0 of floraLynk mini v1.0 19563c3f0d9da871228e51ca0be582e22f48850d" ;
     okh:fileFormat "KICAD_PCB" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151178/floralink-mini-v10-4eb1a.kicad_pcb> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTE4NDA=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151178/floralink-mini-v10-4eb1a.kicad_pcb> .
 
-:FloralinkMiniV10bcu a okh:Part ;
+:Floralinkminiv10bcu a okh:Part ;
     rdfs:label "FloraLink mini V1.0-B_Cu" ;
     okh:documentationLanguage "en" ;
     okh:licensor "floraLynk" ;
-    okh:source :FloralinkMiniV10bcu_source ;
+    okh:source :Floralinkminiv10bcu_source ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> .
 
-:FloralinkMiniV10bcu_source a okh:SourceFile ;
+:Floralinkminiv10bcu_source a okh:SourceFile ;
     rdfs:label "Source File of FloraLink mini V1.0-B_Cu of floraLynk mini v1.0 19563c3f0d9da871228e51ca0be582e22f48850d" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151178/floralink-mini-v10-b_cu.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTE2Njk=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151178/floralink-mini-v10-b_cu.pdf> .
 
-:FloralinkMiniV10bmask a okh:Part ;
+:Floralinkminiv10bmask a okh:Part ;
     rdfs:label "FloraLink mini V1.0-B_Mask" ;
     okh:documentationLanguage "en" ;
     okh:licensor "floraLynk" ;
-    okh:source :FloralinkMiniV10bmask_source ;
+    okh:source :Floralinkminiv10bmask_source ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> .
 
-:FloralinkMiniV10bmask_source a okh:SourceFile ;
+:Floralinkminiv10bmask_source a okh:SourceFile ;
     rdfs:label "Source File of FloraLink mini V1.0-B_Mask of floraLynk mini v1.0 19563c3f0d9da871228e51ca0be582e22f48850d" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151178/floralink-mini-v10-b_mask.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTE2NjU=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151178/floralink-mini-v10-b_mask.pdf> .
 
-:FloralinkMiniV10bpaste a okh:Part ;
+:Floralinkminiv10bpaste a okh:Part ;
     rdfs:label "FloraLink mini V1.0-B_Paste" ;
     okh:documentationLanguage "en" ;
     okh:licensor "floraLynk" ;
-    okh:source :FloralinkMiniV10bpaste_source ;
+    okh:source :Floralinkminiv10bpaste_source ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> .
 
-:FloralinkMiniV10bpaste_source a okh:SourceFile ;
+:Floralinkminiv10bpaste_source a okh:SourceFile ;
     rdfs:label "Source File of FloraLink mini V1.0-B_Paste of floraLynk mini v1.0 19563c3f0d9da871228e51ca0be582e22f48850d" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151178/floralink-mini-v10-b_paste.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTE2NjE=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151178/floralink-mini-v10-b_paste.pdf> .
 
-:FloralinkMiniV10bsilks a okh:Part ;
+:Floralinkminiv10bsilks a okh:Part ;
     rdfs:label "FloraLink mini V1.0-B_SilkS" ;
     okh:documentationLanguage "en" ;
     okh:licensor "floraLynk" ;
-    okh:source :FloralinkMiniV10bsilks_source ;
+    okh:source :Floralinkminiv10bsilks_source ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> .
 
-:FloralinkMiniV10bsilks_source a okh:SourceFile ;
+:Floralinkminiv10bsilks_source a okh:SourceFile ;
     rdfs:label "Source File of FloraLink mini V1.0-B_SilkS of floraLynk mini v1.0 19563c3f0d9da871228e51ca0be582e22f48850d" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151178/floralink-mini-v10-b_silks.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTE2NzM=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151178/floralink-mini-v10-b_silks.pdf> .
 
-:FloralinkMiniV10edgecuts a okh:Part ;
+:Floralinkminiv10edgecuts a okh:Part ;
     rdfs:label "FloraLink mini V1.0-Edge_Cuts" ;
     okh:documentationLanguage "en" ;
     okh:licensor "floraLynk" ;
-    okh:source :FloralinkMiniV10edgecuts_source ;
+    okh:source :Floralinkminiv10edgecuts_source ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> .
 
-:FloralinkMiniV10edgecuts_source a okh:SourceFile ;
+:Floralinkminiv10edgecuts_source a okh:SourceFile ;
     rdfs:label "Source File of FloraLink mini V1.0-Edge_Cuts of floraLynk mini v1.0 19563c3f0d9da871228e51ca0be582e22f48850d" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151178/floralink-mini-v10-edge_cuts.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTE2NjM=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151178/floralink-mini-v10-edge_cuts.pdf> .
 
-:FloralinkMiniV10fcu a okh:Part ;
+:Floralinkminiv10electricalcircuit a okh:Part ;
+    rdfs:label "FloraLink mini V1.0 Electrical circuit" ;
+    okh:documentationLanguage "en" ;
+    okh:image :Floralinkminiv10electricalcircuit_image ;
+    okh:licensor "floraLynk" ;
+    okh:source :Floralinkminiv10electricalcircuit_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> .
+
+:Floralinkminiv10electricalcircuit_image a okh:Image ;
+    rdfs:label "Image of FloraLink mini V1.0 Electrical circuit of floraLynk mini v1.0 19563c3f0d9da871228e51ca0be582e22f48850d" ;
+    okh:fileFormat "PNG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151178/floralink-mini-v10-electrical-circuit.png> ;
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151178/floralink-mini-v10-electrical-circuit.png> .
+
+:Floralinkminiv10electricalcircuit_source a okh:SourceFile ;
+    rdfs:label "Source File of FloraLink mini V1.0 Electrical circuit of floraLynk mini v1.0 19563c3f0d9da871228e51ca0be582e22f48850d" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151178/floralink-mini-v10-electrical-circuit-f5107.pdf> ;
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151178/floralink-mini-v10-electrical-circuit-f5107.pdf> .
+
+:Floralinkminiv10fcu a okh:Part ;
     rdfs:label "FloraLink mini V1.0-F_Cu" ;
     okh:documentationLanguage "en" ;
     okh:licensor "floraLynk" ;
-    okh:source :FloralinkMiniV10fcu_source ;
+    okh:source :Floralinkminiv10fcu_source ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> .
 
-:FloralinkMiniV10fcu_source a okh:SourceFile ;
+:Floralinkminiv10fcu_source a okh:SourceFile ;
     rdfs:label "Source File of FloraLink mini V1.0-F_Cu of floraLynk mini v1.0 19563c3f0d9da871228e51ca0be582e22f48850d" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151178/floralink-mini-v10-f_cu.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTE2NzE=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151178/floralink-mini-v10-f_cu.pdf> .
 
-:FloralinkMiniV10fmask a okh:Part ;
+:Floralinkminiv10fmask a okh:Part ;
     rdfs:label "FloraLink mini V1.0-F_Mask" ;
     okh:documentationLanguage "en" ;
     okh:licensor "floraLynk" ;
-    okh:source :FloralinkMiniV10fmask_source ;
+    okh:source :Floralinkminiv10fmask_source ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> .
 
-:FloralinkMiniV10fmask_source a okh:SourceFile ;
+:Floralinkminiv10fmask_source a okh:SourceFile ;
     rdfs:label "Source File of FloraLink mini V1.0-F_Mask of floraLynk mini v1.0 19563c3f0d9da871228e51ca0be582e22f48850d" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151178/floralink-mini-v10-f_mask.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTE2Njc=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151178/floralink-mini-v10-f_mask.pdf> .
 
-:FloralinkMiniV10fpaste a okh:Part ;
+:Floralinkminiv10fpaste a okh:Part ;
     rdfs:label "FloraLink mini V1.0-F_Paste" ;
     okh:documentationLanguage "en" ;
     okh:licensor "floraLynk" ;
-    okh:source :FloralinkMiniV10fpaste_source ;
+    okh:source :Floralinkminiv10fpaste_source ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> .
 
-:FloralinkMiniV10fpaste_source a okh:SourceFile ;
+:Floralinkminiv10fpaste_source a okh:SourceFile ;
     rdfs:label "Source File of FloraLink mini V1.0-F_Paste of floraLynk mini v1.0 19563c3f0d9da871228e51ca0be582e22f48850d" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151178/floralink-mini-v10-f_paste.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTE2NjI=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151178/floralink-mini-v10-f_paste.pdf> .
 
-:FloralinkMiniV10fsilks a okh:Part ;
+:Floralinkminiv10fsilks a okh:Part ;
     rdfs:label "FloraLink mini V1.0-F_SilkS" ;
     okh:documentationLanguage "en" ;
     okh:licensor "floraLynk" ;
-    okh:source :FloralinkMiniV10fsilks_source ;
+    okh:source :Floralinkminiv10fsilks_source ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> .
 
-:FloralinkMiniV10fsilks_source a okh:SourceFile ;
+:Floralinkminiv10fsilks_source a okh:SourceFile ;
     rdfs:label "Source File of FloraLink mini V1.0-F_SilkS of floraLynk mini v1.0 19563c3f0d9da871228e51ca0be582e22f48850d" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151178/floralink-mini-v10-f_silks.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTE2NzU=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151178/floralink-mini-v10-f_silks.pdf> .
 
-:FloralinkMiniV10pcb a okh:Part ;
+:Floralinkminiv10pcb a okh:Part ;
     rdfs:label "FloraLink mini V1.0-PCB" ;
     okh:documentationLanguage "en" ;
-    okh:image :FloralinkMiniV10pcb_image ;
+    okh:image :Floralinkminiv10pcb_image ;
     okh:licensor "floraLynk" ;
-    okh:source :FloralinkMiniV10pcb_source ;
+    okh:source :Floralinkminiv10pcb_source ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> .
 
-:FloralinkMiniV10pcb_image a okh:Image ;
+:Floralinkminiv10pcb_image a okh:Image ;
     rdfs:label "Image of FloraLink mini V1.0-PCB of floraLynk mini v1.0 19563c3f0d9da871228e51ca0be582e22f48850d" ;
     okh:fileFormat "PNG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151178/floralink-mini-v10-pcb.png> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTE3OTE=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151178/floralink-mini-v10-pcb.png> .
 
-:FloralinkMiniV10pcb_source a okh:SourceFile ;
+:Floralinkminiv10pcb_source a okh:SourceFile ;
     rdfs:label "Source File of FloraLink mini V1.0-PCB of floraLynk mini v1.0 19563c3f0d9da871228e51ca0be582e22f48850d" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151178/floralink-mini-v10-pcb-829a0.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTE4NDc=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151178/floralink-mini-v10-pcb-829a0.pdf> .
 
-:FloralynkMiniV10Hardware a okh:Part ;
+:Floralynkminiv10hardware a okh:Part ;
     rdfs:label "floraLynk mini v1.0 Hardware" ;
     okh:documentationLanguage "en" ;
-    okh:export :FloralynkMiniV10Hardware_export1 ;
+    okh:export :Floralynkminiv10hardware_export1 ;
     okh:licensor "floraLynk" ;
-    okh:source :FloralynkMiniV10Hardware_source ;
+    okh:source :Floralynkminiv10hardware_source ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> .
 
-:FloralynkMiniV10Hardware_export1 a okh:ExportFile ;
+:Floralynkminiv10hardware_export1 a okh:ExportFile ;
     rdfs:label "Export File of floraLynk mini v1.0 Hardware of floraLynk mini v1.0 19563c3f0d9da871228e51ca0be582e22f48850d" ;
     okh:fileFormat "STEP" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151178/floralynk-mini-v10-hardware-cabe2.step> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTE3MTA=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151178/floralynk-mini-v10-hardware-cabe2.step> .
 
-:FloralynkMiniV10Hardware_source a okh:SourceFile ;
+:Floralynkminiv10hardware_source a okh:SourceFile ;
     rdfs:label "Source File of floraLynk mini v1.0 Hardware of floraLynk mini v1.0 19563c3f0d9da871228e51ca0be582e22f48850d" ;
     okh:fileFormat "FCSTD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151178/floralynk-mini-v10-hardware-d9fff.FCStd> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTE3MDk=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151178/floralynk-mini-v10-hardware-d9fff.FCStd> .
 
 :Image a okh:Image ;
     rdfs:label "Image of floraLynk mini v1.0 19563c3f0d9da871228e51ca0be582e22f48850d" ;
     okh:fileFormat "JPG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151178/floralynk-mini-v10-hardware-05.jpg> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTI2NjQ=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151178/floralynk-mini-v10-hardware-05.jpg> .
 
 :Mq135hanwei1 a okh:Part ;
     rdfs:label "MQ-135_Hanwei-1" ;
@@ -279,5 +281,5 @@
     rdfs:label "Source File of MQ-135_Hanwei-1 of floraLynk mini v1.0 19563c3f0d9da871228e51ca0be582e22f48850d" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151178/mq-135_hanwei-1.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTIyMTI=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151178/mq-135_hanwei-1.pdf> .
 

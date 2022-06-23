@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A11261/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ABetterNickelCalibrationTest a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "A Better Nickel Calibration Test" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """The last nickel calibration test I designed gave no real feedback on how to fix the problem. This one should allow for measurements and corrections.\r
 \r
 This one is exactly 21.21 mm wide in both the x and y. The slots are the same lengths (21.21mm) but a little wide (3mm)to disregard the width of the slot until the x and y are perfect.\r
@@ -23,6 +25,7 @@ Gearbest- https://www.gearbest.com/3d-printers-3d-printer-kits-c_11399/?lkid=130
     okh:repo <https://www.thingiverse.com/thing:11261> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:11261> .

@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A11110/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MakerbotMk7PenHolder a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "MakerBot MK7 Pen Holder" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "Replace one of you MK7 spacers with this part and you can pen plot with a fine point Sharpie." ;
     okh:hasImage :Image ;
     okh:licensor "charlespax" ;
     okh:repo <https://www.thingiverse.com/thing:11110> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:11110> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A3160/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:RamInsertionTool a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "RAM insertion tool" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """If you've got the spring loaded ram chips, or you're only putting in one, you might not need this, but if you have to upgrade a large number of ram chips of the style that need to be forcefully pushed in, it's hard on the hands.\r
 \r
 This tool makes it easy to apply an even amount of force across the whole chip without digging a hole in your thumbs or hands, using either the top curved surface against the heel of your palm or the two thumb depressions on either side.""" ;
@@ -14,6 +16,7 @@ This tool makes it easy to apply an even amount of force across the whole chip w
     okh:repo <https://www.thingiverse.com/thing:3160> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:3160> .

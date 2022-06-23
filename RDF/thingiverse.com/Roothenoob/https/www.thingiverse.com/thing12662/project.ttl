@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A12662/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Throwie a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Throwie" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I used Thing-o-matics makerbot to make a cube and a lid.  Inside the cube I had an led, battery and a switch.  I soldered one lead of the switch to the cathode and then a wire to the other lead of the switch which rested on they positive side of the battery and the anode rested on the negative side of the battery. \r
 I used tinkercad to make the stl.""" ;
     okh:hasImage :Image ;
@@ -13,6 +15,7 @@ I used tinkercad to make the stl.""" ;
     okh:repo <https://www.thingiverse.com/thing:12662> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:12662> .

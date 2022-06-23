@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A14747/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:QuickChangeBuildPlatformForTom a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Quick Change Build Platform for TOM" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I really love my heated build platform with an aluminum top covered with Kapton tape! It's an awesome way to go, but I REALLY miss the automated build platform for repetitive, decorative and small parts. I miss the fun of watching a part dropping on my desk. The sadness of your trusty ABP sitting on a shelf... it's just not right.\r
 \r
 This thing makes it right again, no tools, just unplug and press the release and in 20 seconds you've swapped out the HBP with an ABP! Another benefit is that you can pop out a platform to service it, i.e. put new tape or fix a belt.\r
@@ -16,6 +18,7 @@ I've designed this upgrade to be completely non destructive, a bolt in replaceme
     okh:repo <https://www.thingiverse.com/thing:14747> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:14747> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A8692/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ChalkManKeyring a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Chalk Man Keyring" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """The idea of a chalk outline is an old one and seems deeply ingrained on the public's psyche. Completely ignoring the usual reticence around dead people and anything to do with them, I have trivialised it to the point of being a nifty little keyring!\r
 \r
 Initial product reviews are promising:\r
@@ -19,6 +21,7 @@ In summary, 3/4 of people who saw it were interested in my new keyring, one to t
     okh:repo <https://www.thingiverse.com/thing:8692> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:8692> .

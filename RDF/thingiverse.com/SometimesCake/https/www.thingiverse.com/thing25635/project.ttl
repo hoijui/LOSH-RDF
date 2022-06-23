@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A25635/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:SketchRuler a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Sketch Ruler" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I wanted a ruler that was the right size to use in sketching my ideas on a clip board.  I found http://www.thingiverse.com/thing:1888\r
 \r
 It was close to the right size but it had protruding surfaces that were awkward if the ruler was flipped over when sketching.  The length was a bit too long to fit on my print bed too.\r
@@ -20,6 +22,7 @@ This is my ideal sketching tool.  My neighbor saw it and asked that I would prin
     okh:repo <https://www.thingiverse.com/thing:25635> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:25635> .

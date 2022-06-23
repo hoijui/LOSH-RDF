@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A8906/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ToyCinderBlock a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Toy Cinder Block" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "My 3 year old niece, for whatever reason, said she wanted a cinder block for her birthday.  While I doubt she'll be able to have too much fun playing with a real cinder block, I figured a set of 1/10th scale plastic cinder blocks might keep her entertained." ;
     okh:hasImage :Image ;
     okh:licensor "jestin" ;
     okh:repo <https://www.thingiverse.com/thing:8906> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:8906> .

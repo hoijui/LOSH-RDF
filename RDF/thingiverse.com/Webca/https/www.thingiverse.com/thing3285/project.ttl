@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A3285/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:3dPrintedFullSizeMakerbot a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "3D printed full size makerbot" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """The reprap is not the only 3d printer that can replicate itself, now the Makerbot can to.\r
 \r
 This Makerbot is made out of aproximatly 150 individual pieces that is printed on , \\"yes you guessed it) a Makerbot.\r
@@ -21,6 +23,7 @@ Now i have added a zip file that includes all stl- and max-files.""" ;
     okh:repo <https://www.thingiverse.com/thing:3285> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:3285> .

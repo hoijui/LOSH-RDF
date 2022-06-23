@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A1816/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:OakOcarina a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "oak ocarina" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I had a 20 by 1.5 inch slab of oak, so I designed an ocarina that could be assembled from cross-sections that would fit on it.  It's crude but it really plays!  Video at http://www.flickr.com/photos/ranjit/4352330523/\r
 \r
 I sent around the wrong link for the 2011 roundrect ocarina! If you're looking for that, it's here: http://www.thingiverse.com/thing:6182\r
@@ -16,6 +18,7 @@ This is part of my project to make a crude musical instrument every day in Febru
     okh:repo <https://www.thingiverse.com/thing:1816> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:1816> .

@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A48536/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:5mmTo65mmCoupler a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "5mm to 6.5mm Coupler" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "This is just a coupler, joining a 5mm shaft, such as the Nem17 shaft, with a 6.5mm shaft, such as a lead screw from an older CNC project. It is not flexible, but it can withstand most Z speeds and moves executed during 3D printing. 25mm width / 35mm height." ;
     okh:hasImage :Image ;
     okh:licensor "Trispectiv" ;
     okh:repo <https://www.thingiverse.com/thing:48536> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:48536> .

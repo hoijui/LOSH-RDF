@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A36320/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:OlympusMzuiko1250mmZoomGearForNauticamHousing a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Olympus m.zuiko 12-50mm zoom gear for Nauticam Housing" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This a three-part zoom gear for this lens in Nauticam underwater housing.  
 
 Updated and simper version in http://www.thingiverse.com/thing:662297""" ;
@@ -14,6 +16,7 @@ Updated and simper version in http://www.thingiverse.com/thing:662297""" ;
     okh:repo <https://www.thingiverse.com/thing:36320> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:36320> .

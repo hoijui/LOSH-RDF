@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A8439/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:CubefarmLackTable a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "cube_farm - lack table" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """ikea lackrack hack, now in miniature!\r
 \r
 With this, I am introducing the server_farm modular rack model system: devices are 19 mm wide, 1.75 mm per U, racks are 20mm wide on the inside, 2 mm per U. Devices are just stacked inside the rack. For screw hole locations (which I won't bother with), refer to the 19 inch rack standard. Tabs on rackmount devices for screw holes should stick out 1 mm to the side. Please tag server_farm compatable stuff server_farm""" ;
@@ -14,6 +16,7 @@ With this, I am introducing the server_farm modular rack model system: devices a
     okh:repo <https://www.thingiverse.com/thing:8439> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:8439> .

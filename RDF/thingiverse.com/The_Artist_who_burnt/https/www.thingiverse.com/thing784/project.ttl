@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A784/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:TurntableForA3dScannerBothPrintableOrMillable a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Turntable for a 3d scanner. Both printable or millable" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a turntable for a 3dscanner. I've designed it so that it's either printable or millable. However, if you are milling then know that there is alot of wastage. It can be produced with a makerbot and all parts are withing 10x10. It requires a solarbotics gm3 motor.\r
 \r
 I actually created this a few months ago and put it on the reprap blog, but never got around to putting it up here. Especially given zignig made and posted his on the exact same day.""" ;
@@ -14,6 +16,7 @@ I actually created this a few months ago and put it on the reprap blog, but neve
     okh:repo <https://www.thingiverse.com/thing:784> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:784> .

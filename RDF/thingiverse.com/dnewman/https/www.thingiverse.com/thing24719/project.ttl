@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A24719/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MagicCoinPiercingTrick a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Magic Coin Piercing Trick" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Abracadabra!  Perform a magic coin piercing trick and amaze your family and friends.  The eight solid pins pierce the solid coin eight times yet the coin comes back out of the container undamaged!\r
 \r
 See the demo video at http://youtu.be/96b9ElucVW0 .\r
@@ -24,6 +26,7 @@ Enjoy!\r
     okh:repo <https://www.thingiverse.com/thing:24719> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:24719> .

@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A17557/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:OrcaV02XMotorMountUpgrade a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Orca v0.2 X motor mount upgrade" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "This is a new X motor mount plate for the Orca v0.2 3D printer, offering a greatly simplified belt path. (The default belt path blatantly breaks the allowed design rules for T5 belts, and I couldn't make T2.5 belts last in it either)." ;
     okh:hasImage :Image ;
     okh:licensor "ttsalo" ;
     okh:repo <https://www.thingiverse.com/thing:17557> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:17557> .

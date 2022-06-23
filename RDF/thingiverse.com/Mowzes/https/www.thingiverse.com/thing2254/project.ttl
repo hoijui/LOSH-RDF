@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A2254/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Hovercraft a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Hovercraft" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """In this project the more advanced prototyping techniques where used to make a fully functioning prototype of a RC hovercraft.   
 The form was created by combining several form analogies like  
 beetles, honeycomb patterns made by bees and the web of a spider, all to make the most of the total performance of the hovercraft.""" ;
@@ -14,6 +16,7 @@ beetles, honeycomb patterns made by bees and the web of a spider, all to make th
     okh:repo <https://www.thingiverse.com/thing:2254> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:2254> .

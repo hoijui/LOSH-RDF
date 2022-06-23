@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A27233/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:NautilusGears a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Nautilus Gears" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Nautilus gears based on logarithmic spirals.\r
 \r
 Gear profiles generated based on research by Ágnes Dabi, Zsigmond Istvan Varju, Dr. Laczik Balint et. al. at the Budapesti Muszaki es Gazdasagtudomanyi Egyetem.\r
@@ -34,6 +36,7 @@ I will keep the original bars on for reference.""" ;
     okh:repo <https://www.thingiverse.com/thing:27233> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:27233> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A12886/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:CageWithWorkingGate a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Cage with working gate" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I needed a present for my little sister's birthday earlier this month, and I was totally out of ideas. All I had was a cute little stuffed monkey, when I hit upon the idea to print a cage to put the monkey in. After printing everything out, I put him in with a little "Help me" sign, and he was sitting on a gift card. It went over great.\r
 \r
 It was designed in OpenSCAD, and you should be able to tinker with it pretty well. With the exception of small fudge factors, the dimensions are all in the sizes.scad file. It may not work perfectly, as I got near my deadline I started using more fudge factors and experimentation.\r
@@ -20,6 +22,7 @@ The cage is the biggest thing my Thing-o-Matic has ever made. I designed it to b
     okh:repo <https://www.thingiverse.com/thing:12886> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:12886> .

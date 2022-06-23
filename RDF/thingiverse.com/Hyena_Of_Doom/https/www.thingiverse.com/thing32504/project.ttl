@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A32504/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:FalloutSmallEnergyCellReplica a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Fallout Small Energy Cell Replica" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a replica of the Small energy cell Ammunition for the Laser pistol in fallout 3/ Fallout new Vegas. Iâ€™ve made two versions of this; one is fully printed and accurate to the game files but with a far higher detail level. The other was designed when I noticed that the cells in the item are almost exactly the same size as AA batteries and is designed to accommodate three of them making an actually functional cell (Iâ€™m actually thinking of designing a battery compartment to fit these, it should be trivial)\r
 Iâ€™ll put up a better pic as soon as I receive the grey filament Iâ€™ve ordered.""" ;
     okh:hasImage :Image ;
@@ -13,6 +15,7 @@ Iâ€™ll put up a better pic as soon as I receive the grey filament Iâ€™
     okh:repo <https://www.thingiverse.com/thing:32504> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:32504> .

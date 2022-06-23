@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A2385/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Klingonmedallionwkp3k a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "KlingonMedallion-WKP3K" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I removed the .STL file because of the following email I recieved;  \r
 \r
 I came across your thing on thingiverse, http://www.thingiverse.com/thing:2385/ and noticed it is essentially part of the logo of the Klingon Language Institute.  As this constitutes an infringement on our logo (and intellectual property), would you please remove the Thing from the site?  Thanks.  \r
@@ -30,6 +32,7 @@ blog.makezine.com/archive/2010/04/makerbot_giveaway.html""" ;
     okh:repo <https://www.thingiverse.com/thing:2385> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:2385> .

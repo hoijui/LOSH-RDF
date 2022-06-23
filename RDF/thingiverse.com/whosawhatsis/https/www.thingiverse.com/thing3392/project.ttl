@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A3392/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Iphone4 a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "iPhone 4" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a parametric iPhone 4 that I've been working on so that I can design a car mounting kit, but with a little modification, you should be able to use them to print a good-looking dummy iPhone 4 (especially using the black and silver PLA available from ultimachine).\r
 \r
 I made it by taking the photos from the Apple website into photoshop, scaling them to actual size, then taking measurements using the marquee tool and the info pane. Units are in mm, and should be accurate to within 1mm. If I find any problems when I get my real one, I'll update the files.""" ;
@@ -14,6 +16,7 @@ I made it by taking the photos from the Apple website into photoshop, scaling th
     okh:repo <https://www.thingiverse.com/thing:3392> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:3392> .

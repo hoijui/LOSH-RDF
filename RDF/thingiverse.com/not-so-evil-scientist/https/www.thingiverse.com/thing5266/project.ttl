@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A5266/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:CookieChessSet a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "cookie chess set" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """For Christmas this year I created chess cookie cutters.  Here are the designs, feel free to use them for yourself and if you hurry they can be ready before Christmas morning.  I used the Custom-Cookie-Generator ( http://www.thingiverse.com/thing:3433 ) created by Guru to create the 3d designs its loads of help.\r
 \r
 in the Discussion leave your location country ,state or providence im interested in the distribution globaly of who liked it.""" ;
@@ -14,6 +16,7 @@ in the Discussion leave your location country ,state or providence im interested
     okh:repo <https://www.thingiverse.com/thing:5266> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:5266> .

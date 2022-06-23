@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A27458/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:NexusSDowelMount a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Nexus S Dowel Mount" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a snap-on mount for a Nexus S used to attach it to a wooden dowel.  The scad is parametrized so you can tune it to your phone and dowel.  It's based on 11336, thanks man!\r
 \r
 I added a radius to a couple of the inner corners but didn't get it exactly right.  Any bigger and the scad will need restructuring so didn't bother...""" ;
@@ -14,6 +16,7 @@ I added a radius to a couple of the inner corners but didn't get it exactly righ
     okh:repo <https://www.thingiverse.com/thing:27458> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:27458> .

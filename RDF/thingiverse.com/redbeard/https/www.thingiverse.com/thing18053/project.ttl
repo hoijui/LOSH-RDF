@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A18053/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PugMonsterPet a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Pug Monster Pet" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I have always felt that the cute little pugs are hiding a horrible monster inside them.\r
 This is my first design for a Designer Toy, but I have been collecting them for years, and I'd love to see this printed.""" ;
     okh:hasImage :Image ;
@@ -13,6 +15,7 @@ This is my first design for a Designer Toy, but I have been collecting them for 
     okh:repo <https://www.thingiverse.com/thing:18053> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:18053> .

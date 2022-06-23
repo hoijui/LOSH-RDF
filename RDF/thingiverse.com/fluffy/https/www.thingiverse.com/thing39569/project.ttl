@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A39569/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:CoffeeTableFoot a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Coffee table foot" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I have an old modular coffee table from the (I think) 70s, with no brand or the like on it, but it's of very simple yet effective construction: a round, wooden disc with three sets of four holes partially drilled through it, metal rods inserted into those holes, and plastic feet that bundle the rods together into legs.\r
 \r
 Unfortunately, being fairly old, the plastic on the feet broke down and fell apart, so I made use of my Makerbot to make new feet for it.\r
@@ -18,6 +20,7 @@ I've provided two different versions; version 1 is similar to the feet that came
     okh:repo <https://www.thingiverse.com/thing:39569> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:39569> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A33790/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PinConnectorsV3 a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Pin Connectors V3" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """UPDATE: I have made an improved and simplified pin connector library that I would recommend instead of this now: http://www.thingiverse.com/thing:213310. This V3 library may still be best for certain situations, but for most, I think you'll like the new one better.   
 ***  
 This is an update for tbuser's awesome pin library. I've been making enough use of these that I found a few changes that I think improve them significantly, though this should still function as a drop-in replacement for the V2 library. For all the people who've had trouble cramming the pins into my heart gears, this may help you make easier pins.  
@@ -24,6 +26,7 @@ The primary changes are:
     okh:repo <https://www.thingiverse.com/thing:33790> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:33790> .

@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A28603/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:TwobladeBoomerang a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Two-Blade Boomerang" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "This patterned after an actual boomerang I made. I haven't scaled it to proper dimensions or 3d printed it, so I don't know yet if it would fly." ;
     okh:hasImage :Image ;
     okh:licensor "lapjoint" ;
     okh:repo <https://www.thingiverse.com/thing:28603> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:28603> .

@@ -2,24 +2,17 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:FranzininhoTiny a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Franzininho tiny" ;
-    okh:additionalType "['Education', 'Electronics', 'Robotics', 'Science']" ;
-    okh:certificationDate "2020-12-07T00:00:00-05:00" ;
-    okh:country "Brazil" ;
-    okh:cpcPatentClass "Education" ;
     okh:dataSource "oshwa.org" ;
     okh:documentationLanguage "en" ;
-    okh:documentationLicense "CC BY-SA" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function """Franzininho tiny is an Arduino-compatible board based on the ATtiny841 microcontroller and member of the Franzininho project.
 
 The ATtiny microcontroller has been chosen that maintains compatibility with Franzininho DIY (ATtiny85-based), but now the board coming assembled and ready to use.""" ;
-    okh:hardwareLicense "CERN" ;
     okh:licensor "Franzininho" ;
-    okh:primaryType "Education" ;
     okh:repo <https://certification.oshwa.org/br000004.html> ;
     okh:repoHost "certification.oshwa.org" ;
-    okh:softwareLicense "No software" ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
     okh:uploadMethod "auto" ;
     okh:version "1.0" ;

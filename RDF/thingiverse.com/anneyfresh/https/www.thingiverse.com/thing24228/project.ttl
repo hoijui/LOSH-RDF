@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A24228/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:DurgaPuppet a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Durga Puppet" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This puppet was made with my husband Keith Ozar http://www.thingiverse.com/OZAR at the Metropolitan Museum of Art MakerBot Hackathon. We felt so bad for the "Standing Female Deity, possibly Durga" without her arms- now she is definitely Durga!\r
 Keith captured the head with 123D catch and \r
 I modeled the body and arms in Blender from turnaround photos I took in the gallery. We printed the body on our Thing-O-Matic at home after the first day and printed the head and arms on a Replicator at the event on day 2. It was a whirlwind and I wish the parts fit together a little better, but as my second MakerBot project ever- I think we did a good job. We wanted to share what we accomplished at this awesome event and will continue to refine this! This design is inspired by the old fashioned "Jumping Jack" toy.""" ;
@@ -14,6 +16,7 @@ I modeled the body and arms in Blender from turnaround photos I took in the gall
     okh:repo <https://www.thingiverse.com/thing:24228> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:24228> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A12448/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:RingCreationScript a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Ring creation script" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This OpenSCAD script will generate a Tiffany Etoile style ring with a tension/Bezel/Partial-Bezel set jewel mount for a brilliant (round) cut diamond or similar shiny thing.\r
 Most parameters are user selectable as are the ring profile shapes.\r
 \r
@@ -88,6 +90,7 @@ Changes from previous versions:\r
     okh:repo <https://www.thingiverse.com/thing:12448> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:12448> .

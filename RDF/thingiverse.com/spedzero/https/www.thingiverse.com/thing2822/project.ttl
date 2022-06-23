@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A2822/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:TheProstheticHandKit a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "The Prosthetic Hand Kit" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """MMMMM Cupcakes! Ever wonder how the one armed man eats cupcakes? Now's your chance to find out, see my design for a prosthetic 'hand'. With a Cupcake CNC printer you can make your own prosthetic hand to practice eating cupcakes, dress up for Halloween, scare your mother or as I had envisioned provide prostheses to areas affective by war, disease, natural disasters or the like. Using a Cupcake CNC printer and a basic hand and wrist design will allow for inexpensive production in areas with little resources. The fact that the printer is portable and affordable allows for someone like myself (a prosthetic technician) to travel to places like Haiti and make be low elbow prothesis on the spot for victims. The opportunities to assist people with low cost prosthesis are endless with the Cupcake CNC printer!!!\r
 And if you don't know an amputee or don't want to scare your mother this design can be used as an in home grabber for hard to reach shelves (I just make my gorgeous tall wife do it for me) or as claws for your robot army as they take over the world. As you can see something for the bleeding hearts and the hearts taking over the world, something for everyone!""" ;
     okh:hasImage :Image ;
@@ -13,6 +15,7 @@ And if you don't know an amputee or don't want to scare your mother this design 
     okh:repo <https://www.thingiverse.com/thing:2822> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:2822> .

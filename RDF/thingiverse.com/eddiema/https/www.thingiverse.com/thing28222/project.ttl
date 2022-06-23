@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A28222/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PrintrbotBasicCradle a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Printrbot basic cradle." ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """A thing the base of the basic plastic printrbot can fit into.\r
 Mainly intended for bots with external bracing so the core of the printer can be removed and replaced in the same location on the work surface.""" ;
     okh:hasImage :Image ;
@@ -13,6 +15,7 @@ Mainly intended for bots with external bracing so the core of the printer can be
     okh:repo <https://www.thingiverse.com/thing:28222> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:28222> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A8511/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:KeyChainFobs a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Key Chain Fobs" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """These are Key Chain Fobs or Zipper Tab attachments or in my case Ceiling Fan Pull Knobs. With varying themes (3d printing, Star Wars, sports). I live in Florida, so there is a ceiling fan in about every room of every house. \r
 \r
 My brother keeps breaking his pull string knobs in his house, so he asked me to print some up with some various symbols on them. He is a big fan of Star Wars and Sports. He asked me to do one with the Rebel Alliance Insignia, one with the Empire Insignia, one for his favorite football team and one for his favorite baseball team. \r
@@ -18,6 +20,7 @@ Update, Printed the Star Wars ones""" ;
     okh:repo <https://www.thingiverse.com/thing:8511> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:8511> .

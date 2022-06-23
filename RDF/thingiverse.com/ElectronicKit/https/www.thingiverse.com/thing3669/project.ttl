@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A3669/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:StationeryStamp a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Stationery Stamp" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """The idea is to use a 3D printer to make office stationery stamps.  Actually, the ABS stamp you produce is more like a wood cut, but works almost as good as a soft rubber stamp. Impressions are much improved by having a stack of paper under the sheet you are printing on.  Each stamp impression is slightly different is the good and bad news.\r
 \r
  I remember (a LOT of years ago) having to put my initials in black Indian ink onto every piece of clothing for Summer camp and later in high-school gym class.  Having a monogram stamp and some suitable permanent ink would have sure saved time.  Woodworkers might find this handy to initial the bottom of their finished projects.\r
@@ -26,6 +28,7 @@ This idea works good - you get a perfectly useable stamp that gets  across a sho
     okh:repo <https://www.thingiverse.com/thing:3669> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:3669> .

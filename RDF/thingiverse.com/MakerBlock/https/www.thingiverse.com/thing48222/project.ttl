@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A48222/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:RecyclingSymbols a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Recycling Symbols" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """MakerBot employee Johnathan Cook suggested embedding recycling symbols into the things we print.  I think this is a really cool idea.  \r
 \r
 I was able to take Johnathan's original JPG, trace it into an SVG in Inkscape, export to DXF files for cutting, and then extrude into a printable STL in OpenSCAD. I've attached a file with each of these intermediary filetypes. If someone wanted, they could now add one of these symbols sticking out from their object or cut out from their object to leave this impression. \r
@@ -25,6 +27,7 @@ This file produces a recycling symbol of approximately 70x70x10mm.""" ;
     okh:repo <https://www.thingiverse.com/thing:48222> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:48222> .

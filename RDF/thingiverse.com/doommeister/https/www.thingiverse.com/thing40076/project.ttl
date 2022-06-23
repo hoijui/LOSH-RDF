@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A40076/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ParametricCableOrPipeClip a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Parametric Cable or Pipe Clip" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Inspired or reminded by gnu's Cable Clip (Parametric)  http://www.thingiverse.com/thing:39901 I remembered having made this openSCAD file that will generate three types of pipe or cable clip with either sharp or smoothed edges. I never finished making it into a proper library though as all the code needed re factoring. Here it is though, you can make the nail down sort of cable clip a split screw down type and an holder for a zip tie.\r
 \r
 Edits\r
@@ -15,6 +17,7 @@ v0.95 - Slight tidy up for use with the customiser""" ;
     okh:repo <https://www.thingiverse.com/thing:40076> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:40076> .

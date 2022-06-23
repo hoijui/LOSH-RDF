@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A29373/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PlasticstraightMetalJacket a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Plastic 'Straight Metal Jacket'" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Five-inch (12.5 cm) wide wall mounter - I wanted to mount some wall-mountable boxes laying around in  a mess.\r
 \r
  I have bought them years ago, they always slip down one from the other, from table etc. Now they are sitting gently on the wall.\r
@@ -16,6 +18,7 @@
     okh:repo <https://www.thingiverse.com/thing:29373> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:29373> .

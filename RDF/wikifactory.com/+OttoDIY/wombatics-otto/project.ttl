@@ -2,15 +2,15 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:WombaticsOtto a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Wombatics Otto" ;
     okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "We have designed a Robotic Mainboard for Otto. It is based on Arduino Nano with BLE, Motion Sensor and Lithium battery charger. The 3D print design of the new body and head is for easy access to the board." ;
-    okh:hasComponent :3dPrintottoDiyBodyWithUltrasonicHolderV2,
-        :3dPrintottoDiyHeadHelmetV2,
-        :3dPrintottodiyfootv08,
-        :3dPrintottodiylegv08 ;
+    okh:hasComponent :3dprintottodiybodywithultrasonicholderv2,
+        :3dprintottodiyfootv08,
+        :3dprintottodiyheadhelmetv2,
+        :3dprintottodiylegv08 ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "Thomas Chan" ;
@@ -23,67 +23,67 @@
     okh:version "cc6f871ea25753247aefd555d19db52f5a0b2427" ;
     okh:versionOf <https://wikifactory.com/+OttoDIY/wombatics-otto> .
 
-:3dPrintottoDiyBodyWithUltrasonicHolderV2 a okh:Part ;
+:3dprintottodiybodywithultrasonicholderv2 a okh:Part ;
     rdfs:label "3d print/Otto DIY Body with Ultrasonic Holder V2" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Thomas Chan" ;
-    okh:source :3dPrintottoDiyBodyWithUltrasonicHolderV2_source ;
+    okh:source :3dprintottodiybodywithultrasonicholderv2_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dPrintottoDiyBodyWithUltrasonicHolderV2_source a okh:SourceFile ;
+:3dprintottodiybodywithultrasonicholderv2_source a okh:SourceFile ;
     rdfs:label "Source File of 3d print/Otto DIY Body with Ultrasonic Holder V2 of Wombatics Otto cc6f871ea25753247aefd555d19db52f5a0b2427" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/28728/otto_diy_body_with_ultrasonic_holder_v2.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyNzgwMzc=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/28728/otto_diy_body_with_ultrasonic_holder_v2.stl> .
 
-:3dPrintottoDiyHeadHelmetV2 a okh:Part ;
-    rdfs:label "3d print/Otto DIY Head Helmet V2" ;
-    okh:documentationLanguage "en" ;
-    okh:licensor "Thomas Chan" ;
-    okh:source :3dPrintottoDiyHeadHelmetV2_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:3dPrintottoDiyHeadHelmetV2_source a okh:SourceFile ;
-    rdfs:label "Source File of 3d print/Otto DIY Head Helmet V2 of Wombatics Otto cc6f871ea25753247aefd555d19db52f5a0b2427" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/28728/otto_diy_head_helmet_v2.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyNzgwMzY=> .
-
-:3dPrintottodiyfootv08 a okh:Part ;
+:3dprintottodiyfootv08 a okh:Part ;
     rdfs:label "3d print/OttoDIY_foot_v08" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Thomas Chan" ;
-    okh:source :3dPrintottodiyfootv08_source ;
+    okh:source :3dprintottodiyfootv08_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dPrintottodiyfootv08_source a okh:SourceFile ;
+:3dprintottodiyfootv08_source a okh:SourceFile ;
     rdfs:label "Source File of 3d print/OttoDIY_foot_v08 of Wombatics Otto cc6f871ea25753247aefd555d19db52f5a0b2427" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/28728/ottodiy_foot_v08.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyNzgwMzg=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/28728/ottodiy_foot_v08.stl> .
 
-:3dPrintottodiylegv08 a okh:Part ;
+:3dprintottodiyheadhelmetv2 a okh:Part ;
+    rdfs:label "3d print/Otto DIY Head Helmet V2" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Thomas Chan" ;
+    okh:source :3dprintottodiyheadhelmetv2_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:3dprintottodiyheadhelmetv2_source a okh:SourceFile ;
+    rdfs:label "Source File of 3d print/Otto DIY Head Helmet V2 of Wombatics Otto cc6f871ea25753247aefd555d19db52f5a0b2427" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/28728/otto_diy_head_helmet_v2.stl> ;
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/28728/otto_diy_head_helmet_v2.stl> .
+
+:3dprintottodiylegv08 a okh:Part ;
     rdfs:label "3d print/OttoDIY_Leg_v08" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Thomas Chan" ;
-    okh:source :3dPrintottodiylegv08_source ;
+    okh:source :3dprintottodiylegv08_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:3dPrintottodiylegv08_source a okh:SourceFile ;
+:3dprintottodiylegv08_source a okh:SourceFile ;
     rdfs:label "Source File of 3d print/OttoDIY_Leg_v08 of Wombatics Otto cc6f871ea25753247aefd555d19db52f5a0b2427" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/28728/ottodiy_leg_v08.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyNzgwMzk=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/28728/ottodiy_leg_v08.stl> .
 
 :Image a okh:Image ;
     rdfs:label "Image of Wombatics Otto cc6f871ea25753247aefd555d19db52f5a0b2427" ;
     okh:fileFormat "JPEG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/28728/img_e0793.jpeg> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyNzgwMDQ=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/28728/img_e0793.jpeg> .
 
 :Readme a okh:Readme ;
     rdfs:label "Readme of Wombatics Otto cc6f871ea25753247aefd555d19db52f5a0b2427" ;
     okh:fileFormat "MD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/28728/readme-67e09.md> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyNzgwNzY=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/28728/readme-67e09.md> .
 

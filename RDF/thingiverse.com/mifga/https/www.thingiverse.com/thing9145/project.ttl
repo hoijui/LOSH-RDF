@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A9145/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Colbertsta a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "ColbertSta" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Stephen Colbert is no thug -- but thanks to the magic of 3D modeling, his head joins a strong tradition of physical mashups in the T-verse: the Gangsta mashups. \r
 \r
 I replaced the head of yzorg's Gangsta model (http://www.thingiverse.com/thing:5367) as cleaned up by cibomahto (http://www.thingiverse.com/thing:6891) with "The Head of Stephen Colbert by Colbert" (http://www.thingiverse.com/thing:9104).""" ;
@@ -14,6 +16,7 @@ I replaced the head of yzorg's Gangsta model (http://www.thingiverse.com/thing:5
     okh:repo <https://www.thingiverse.com/thing:9145> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:9145> .

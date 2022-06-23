@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A10505/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ProtoceratopsAtTheRomstl a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Protoceratops at the ROM (STL)" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Quick & simple STL Translation of the Protoceratops point cloud, made by copying the process outlined at this uoregon tutorial:\r
  http://lcni.uoregon.edu/~mark/Projects/Brain_casting/Point_cloud_to_mesh.html\r
 \r
@@ -17,6 +19,7 @@ If anyone with more experience in point cloud to mesh wants to add their input, 
     okh:repo <https://www.thingiverse.com/thing:10505> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:10505> .

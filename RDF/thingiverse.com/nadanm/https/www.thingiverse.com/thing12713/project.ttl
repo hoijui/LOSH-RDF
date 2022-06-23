@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A12713/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:SteelRobot a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Steel Robot" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "It was awkward to see when I went to assamble the robot that the arm where about twica as big a the legs and since i am not as good at Computer Aided Design I did not know how to fix it. But I endured and here is a somewhat steel robot." ;
     okh:hasImage :Image ;
     okh:licensor "nadanm" ;
     okh:repo <https://www.thingiverse.com/thing:12713> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:12713> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A19495/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:YaxisSupportUsingLm8uuBearings a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Y-Axis support using LM8UU bearings" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a variation of thingiverse.com/thing:11657\r
 I decided to use LM8UU linear bearings simply because I could not find the recommended nylon washers and although I tested some replacement options for the nylon bushings I could not help wanting to utilize linear bearings.  After trying a few options I settled for some LME8UUAJ Adjustable Ball Bushings. \r
 I had this version laser cut to test the idea. 4 holes over each of the bearing holes were drilled (shown in the pic) and were tapped with 2mm threads for the grub screws to hold the linear bearings.\r
@@ -16,6 +18,7 @@ I decided to try Spherical Bushings(GE-08.00x16.00W300) after noticing that the 
     okh:repo <https://www.thingiverse.com/thing:19495> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:19495> .

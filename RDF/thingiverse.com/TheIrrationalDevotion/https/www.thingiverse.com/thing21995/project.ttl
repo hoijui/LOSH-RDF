@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A21995/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PrusaMendelFilamentGuide a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Prusa Mendel Filament Guide" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "This is designed to snap onto the top rails of a Prusa Mendel securely. It can incorporate a screw/nut to secure it, but when I've printed it out and used it, I've not needed them." ;
     okh:hasImage :Image ;
     okh:licensor "TheIrrationalDevotion" ;
     okh:repo <https://www.thingiverse.com/thing:21995> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:21995> .

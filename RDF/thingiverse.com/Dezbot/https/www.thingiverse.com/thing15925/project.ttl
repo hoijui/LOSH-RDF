@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A15925/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:CasterWheelBootPad a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Caster wheel boot pad" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I remodeled my office with "nicer" painted floors and didnâ€™t want my favorite desk chairâ€™s caster wheels leaving imprint marks upon the floor.  \r
 \r
 In order to prevent marking the floor due to the direct contact of the chairâ€™s wheels  I designed some foot pads / boots for them.  \r
@@ -22,6 +24,7 @@ The final model took my MakerBot about 30 minutes to print each boot,  which I s
     okh:repo <https://www.thingiverse.com/thing:15925> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:15925> .

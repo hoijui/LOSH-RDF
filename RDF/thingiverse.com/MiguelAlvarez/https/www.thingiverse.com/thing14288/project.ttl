@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A14288/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:BoseAe2HeadphoneHardCase a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Bose AE2 Headphone Hard Case" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is my first Thingiverse upload! I decided to make this since it only includes a bag (pfft I dont care about dust when it could snap in my backpack!!)\r
 I have yet to create it my self as my makerbot thing-o-matic still hasn't arrived :(\r
 I printed a 1:1 ratio diagram of the headphone slot to make sure that the headphones would fit.\r
@@ -26,6 +28,7 @@ The cover and the case have been split into 9 parts each.""" ;
     okh:repo <https://www.thingiverse.com/thing:14288> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:14288> .

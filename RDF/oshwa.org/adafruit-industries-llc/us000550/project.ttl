@@ -2,21 +2,15 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:AdafruitDragontailForMicrobit a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Adafruit DragonTail for micro:bit" ;
-    okh:additionalType "['Electronics']" ;
-    okh:certificationDate "2020-05-08T00:00:00-04:00" ;
-    okh:country "United States of America" ;
     okh:dataSource "oshwa.org" ;
     okh:documentationLanguage "en" ;
-    okh:documentationLicense "CC BY-SA" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function "So, we made the Adafruit DragonTail for micro:bit. This breakout board has the card-edge connector for your micro:bit, and then breaks out all the pads so that it can be plugged in to any solderless breadboard. You even get two pads for the power railing! It comes fully assembled - no soldering required. And every pad is clearly labeled: by name, if it has an analog input, and when it is shared with the LED matrix. Click the link labeled 'Project Website' to find out more." ;
-    okh:hardwareLicense "Other" ;
     okh:licensor "Adafruit Industries, LLC" ;
-    okh:primaryType "Electronics" ;
     okh:repo <https://certification.oshwa.org/us000550.html> ;
     okh:repoHost "certification.oshwa.org" ;
-    okh:softwareLicense "MIT" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
     okh:uploadMethod "auto" ;
     okh:version "Rev A" ;

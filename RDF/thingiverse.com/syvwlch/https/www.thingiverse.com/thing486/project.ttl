@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A486/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:LocktabFlatrollHexagonalColumn a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Lock-Tab FlatRoll, Hexagonal Column" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Another variant on the FlatRoll column idea... this time with locking tabs.\r
 \r
 Can't be 100% certain until someone actually tries to print one, but I think this should print out just fine (if I didn't forget an overhang of greater than 45 degrees somewhere), and the locking tabs should lock nice and firm.\r
@@ -16,6 +18,7 @@ The thickness of the underside is easily adjusted in Sketchup, and the precise v
     okh:repo <https://www.thingiverse.com/thing:486> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:486> .

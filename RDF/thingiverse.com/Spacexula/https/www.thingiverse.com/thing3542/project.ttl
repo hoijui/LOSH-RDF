@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A3542/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PrintableHorizontalFilamentSpool a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Printable Horizontal Filament Spool" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a directive of Makerbot's Horizontal Filement Spool.  http://www.thingiverse.com/thing:3116.  It takes about 3 hours to print, and the size can be adjusted to any footprint depending on how long you make the rod.  It is designed to 8mm Metric, but my build is using 5/16, which works perfectly well, so no need to have two versions.\r
 \r
 You can see what it looks like in this video:\r
@@ -17,6 +19,7 @@ The HeeksCAD file is the raw solids before I chaffered (Some of the blocks might
     okh:repo <https://www.thingiverse.com/thing:3542> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:3542> .

@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A26004/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:EuropajovianSatelliteGlobe a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Europa (Jovian Satellite) Globe" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "In the tradition of the Moon Shot and the Earth Shot, This is my shot at making a globe of the 2nd Jovian Galilean moon, Europa.  It is slightly smaller than our moon but is covered in a fractured ice sheet covering a large (presumed) salt water ocean.  It prints perfectly on the Replicator." ;
     okh:hasImage :Image ;
     okh:licensor "neurothing" ;
     okh:repo <https://www.thingiverse.com/thing:26004> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:26004> .

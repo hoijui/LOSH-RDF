@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A12467/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:SafetyImprovementForMakerbotSafetyCutoffSwitchRevC a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Safety Improvement for MakerBot Safety Cutoff Switch, Rev C" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """The Rev C MakerBot Safety Cutoff Switch operation depends on the E-stop cable to function. If the cable is unplugged or fails then the safety cutoff is unable to interrupt the power to the heater element. This modification allows the Safety Cutoff Switch to operate without the E-stop cable, ensuring that the heater will be shut off if required.\r
 \r
 This mod also adds a snubber diode to the relay coil to reduce power surges when the relay shuts off.\r
@@ -16,6 +18,7 @@ NOTE: These instructions are ONLY applicable to the Rev C Safety Cutoff Switch."
     okh:repo <https://www.thingiverse.com/thing:12467> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:12467> .

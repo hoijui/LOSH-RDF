@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A12437/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:VeryPoorIdlerModWithOffCenterLever a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Very poor Idler mod with Off center lever" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I really love using Gregs Hinged Extruder; but with a new printer, I was in and out of the filament slot so often I found I could use some help. I read Rich's Blog http://richrap.blogspot.com/2011/06/1st-replication-and-design-improvement.html where he discussed a simple lever. I could not find his STL file, so I quickly did this attempt in Google Sketchup.\r
 \r
 [EDIT - I have uploaded a cleaner and more centered lever.]\r
@@ -16,6 +18,7 @@ If this already exists then please accept this as just my version that I printed
     okh:repo <https://www.thingiverse.com/thing:12437> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:12437> .

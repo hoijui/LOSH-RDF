@@ -2,16 +2,8 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Image a okh:Image ;
-    rdfs:label "Image of MagicBox f9da96db0f1f78fa7cc25a5b31de2c32c780834e" ;
-    okh:fileFormat "PNG" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/155467/obrázok1-edd6c.png> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NzYxNjU=> .
-
-:Magicbox a okh:Module,
-        okh:Part ;
-    rdfs:label "MAGICbox",
-        "MagicBox" ;
+:Project a okh:Module ;
+    rdfs:label "MagicBox" ;
     okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "MagicBox as lockable box that can be unlocked by mobile application." ;
@@ -23,21 +15,33 @@
     okh:release <https://wikifactory.com/+fablabbratislava/magicbox/v/f9da96d> ;
     okh:repo <https://wikifactory.com/+fablabbratislava/magicbox> ;
     okh:repoHost "wikifactory.com" ;
-    okh:source :Magicbox_source ;
     okh:spdxLicense <https://spdx.org/licenses/MIT> ;
     okh:uploadMethod "auto" ;
     okh:version "f9da96db0f1f78fa7cc25a5b31de2c32c780834e" ;
     okh:versionOf <https://wikifactory.com/+fablabbratislava/magicbox> .
 
+:Image a okh:Image ;
+    rdfs:label "Image of MagicBox f9da96db0f1f78fa7cc25a5b31de2c32c780834e" ;
+    okh:fileFormat "PNG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/155467/obrázok1-edd6c.png> ;
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/155467/obrázok1-edd6c.png> .
+
+:Magicbox a okh:Part ;
+    rdfs:label "MAGICbox" ;
+    okh:documentationLanguage "en" ;
+    okh:licensor "Veronika Rajňáková" ;
+    okh:source :Magicbox_source ;
+    okh:spdxLicense <https://spdx.org/licenses/MIT> .
+
 :Magicbox_source a okh:SourceFile ;
     rdfs:label "Source File of MAGICbox of MagicBox f9da96db0f1f78fa7cc25a5b31de2c32c780834e" ;
     okh:fileFormat "SCAD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/155467/magicbox.scad> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NzYwOTk=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/155467/magicbox.scad> .
 
 :Readme a okh:Readme ;
     rdfs:label "Readme of MagicBox f9da96db0f1f78fa7cc25a5b31de2c32c780834e" ;
     okh:fileFormat "MD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/155467/readme-0e357.md> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NzYxNjI=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/155467/readme-0e357.md> .
 

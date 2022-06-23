@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A3226/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MendelYFootWithBearingexperimental a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Mendel y foot with bearing (experimental)" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a derivative of Vik's fantastic all in one design for the y-axis meandel foot http://www.thingiverse.com/thing:1708 . His version works without a bearing and uses natural smoothness of PLA to allow easy movement. This is a mod of that design in that it uses a single bearing to slide. This means that if like me you can only print with ABS, then you don't need to worry about the friction effects.\r
 \r
 Note that although this is made to be used with a 624 bearing, you can still used vik's design with a bunch of stacked washers. If the hole makes your part a bit too flimsy, then feel free to reduce the size of the bearing groove at the rear of the section.\r
@@ -18,6 +20,7 @@ Note: Like the original, this design has requires an active gravity well to oper
     okh:repo <https://www.thingiverse.com/thing:3226> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:3226> .

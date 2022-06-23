@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A39430/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:InteractiveBuildPlateLevellingPrintAid a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Interactive Build Plate Levelling - Print Aid" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Having problems with your first layer surface finish? Is it clumpy, stringy and inconsistent? Use this interactive single layer print to fine tune your build plate adjustment. Works like a charm!\r
 \r
 UPDATE Jan 19 2013\r
@@ -16,6 +18,7 @@ I have uploaded a new shape to try which provides an area over each level adjust
     okh:repo <https://www.thingiverse.com/thing:39430> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:39430> .

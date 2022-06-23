@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A16723/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ClockPrototype1 a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Clock prototype 1" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Here's a sneak peek of a clock prototype i've been throwing together. Its not complete yet as there are no hands for the hours/minutes seconds and the minute gear currently spins backwards.\r
 \r
 The goal of this prototype was to verify that is it possible to print the full geartrain from escapement to hours gear and have the gears spin when a reasonable amount of force is applied.\r
@@ -22,6 +24,7 @@ To get a sense of scale, the backing squares are 100mm x 100mm.""" ;
     okh:repo <https://www.thingiverse.com/thing:16723> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:16723> .

@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A30848/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:DialIndicatorMountForUp3dPrinter a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Dial Indicator mount for Up 3d printer" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "This is a simple mount to attach a dial gauge or dial indicator onto an UP! printer where the print head would normally attach. This simple thing is being posted as an idea for others to use on different machines. The UP! head only uses one screw so this is an easy swap out to verify platform level-ness and flatness too." ;
     okh:hasImage :Image ;
     okh:licensor "Bigrinner" ;
     okh:repo <https://www.thingiverse.com/thing:30848> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:30848> .

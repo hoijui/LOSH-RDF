@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A26379/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:TriggertrapBracket a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Triggertrap Bracket" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a bracket that fits on the back of your Triggertrap V1 https://triggertrap.com/products/triggertrap-v1/\r
 I combined this with my 4 way hotshoe http://www.thingiverse.com/thing:26378\r
 to mount my Triggertrap to my camera.""" ;
@@ -14,6 +16,7 @@ to mount my Triggertrap to my camera.""" ;
     okh:repo <https://www.thingiverse.com/thing:26379> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:26379> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A40232/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:FanGuardRetainingPinForReplicator2 a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Fan guard retaining pin for Replicator 2" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Every time I unscrew the heat-sink fan screws to remove the stepper motor, I find the fan guard flops about and gets in the way. So I have created this retaining clip that simply snaps into place and holds the guard firmly against the fan regardless of whether the retaining screws are removed.\r
 \r
 I recently upgraded my fan to a 24v 40 x 40 x 10 mm ball bearing fan which has a higher CFM air flow but lower RPM - so its much quieter. Highly recommended upgrade! \r
@@ -16,6 +18,7 @@ This clip was designed using an ACIS solid in Shark FX (sfx file included) so wi
     okh:repo <https://www.thingiverse.com/thing:40232> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:40232> .

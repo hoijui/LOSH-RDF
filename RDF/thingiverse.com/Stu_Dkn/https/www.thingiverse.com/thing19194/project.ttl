@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A19194/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ControlPanelForMendelmax a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Control Panel for MendelMax" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a mount for an LCD keypad that I'm intending to use with the excellent SJFW firmware on my mendelmax. There is also a position for a small piece of vero board to mount connectors and resisters for the LEDs etc.\r
 \r
 The two large holes are 20mm diameter and will take a standard illuminated automotive switch as found on ebay, one will be used for the printer on/off and the second will control the strips of LEDs I will fit along the inside of the frame for printing in the dark :-). The five small holes on the bottom right are for LEDs to show when the heated bed and hot end etc are active with space to the left for labels.\r
@@ -20,6 +22,7 @@ Switches have arrived, see the new picture.""" ;
     okh:repo <https://www.thingiverse.com/thing:19194> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:19194> .

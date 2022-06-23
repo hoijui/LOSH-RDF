@@ -2,21 +2,15 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Adafruit213HdTricolorEinkEpaperDisplayFeatherwing a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Adafruit 2.13\" HD Tri-Color eInk / ePaper Display FeatherWing" ;
-    okh:additionalType "['Electronics']" ;
-    okh:certificationDate "2021-03-01T00:00:00-05:00" ;
-    okh:country "United States of America" ;
     okh:dataSource "oshwa.org" ;
     okh:documentationLanguage "en" ;
-    okh:documentationLicense "CC BY-SA" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function "The FeatherWing sports a 2.13\" tri-color (red, black, and white) display. It has 250x122 black and red ink pixels and a white-ish background. Using our CircuitPython or Arduino libraries, you can create a 'frame buffer' with what pixels you want to have activated and then write that out to the display. This takes a decent amount of memory, so we also tossed a small SRAM chip on the back. Click the link labeled 'Project Website' to find out more." ;
-    okh:hardwareLicense "Other" ;
     okh:licensor "Adafruit Industries, LLC" ;
-    okh:primaryType "Electronics" ;
     okh:repo <https://certification.oshwa.org/us001068.html> ;
     okh:repoHost "certification.oshwa.org" ;
-    okh:softwareLicense "MIT" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
     okh:uploadMethod "auto" ;
     okh:version "Rev C" ;

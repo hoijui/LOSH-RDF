@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A17392/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MendelHuxleyMiniPlates100X100Mm a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Mendel Huxley Mini Plates  100 x 100 mm" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Derivative ha ha i wish no these are just some mini plates that can be printed on a small footprint printer 100x100mm. So that i could print them on a Thing o Matic (with ABP or with HBP)\r
 \r
 This was all done with openscad and quite a bit of work ;-) so maybe it will help someone.\r
@@ -16,6 +18,7 @@ This was all done with openscad and quite a bit of work ;-) so maybe it will hel
     okh:repo <https://www.thingiverse.com/thing:17392> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:17392> .

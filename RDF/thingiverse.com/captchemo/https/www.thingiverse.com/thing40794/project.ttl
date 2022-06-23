@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A40794/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:EasyReplicator1MotherboardFanMod a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Easy Replicator1 Motherboard Fan Mod" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I've never liked the placement of the motherboard cooling fan on the Rep1.  It pulls air from the heated build chamber and randomly blows it into the motherboard chamber.  There have been some great mods here on Thingiverse to solve this problem, but after looking at most of them, I wanted a simpler, less invasive way to better cool the motherboard.\r
 \r
 Once I turned the printer over and looked at the situation, I quickly saw that if you just relocated the fan to the edge of the cover board it would pull air from the open area underneath the printer where it is much cooler and the fan would blow air more directly onto the motherboard. And best of all, there is minimal drilling involved, and no messing with the motherboard.\r
@@ -16,6 +18,7 @@ My fan was starting to go out, so I recently upgraded to an Orion fan (Digi-Key 
     okh:repo <https://www.thingiverse.com/thing:40794> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:40794> .

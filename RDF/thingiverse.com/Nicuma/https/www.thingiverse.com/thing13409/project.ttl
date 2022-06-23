@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A13409/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ScrewClamp a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Screw clamp" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """That's a parametric screw clamp, useful for joining parts.  It can be used as a support for other tools, too. [[Work in progress]]\r
 \r
 The difference between both parts lies in that: the first, screw_clamp_up, stays fixed to the rod, whereas the other one moves freely along it (the diameter of the hole is 1 mm bigger so that there is clearance).  In order to fix the final position or to tighten the grip, use two hex nuts or a wing nut.""" ;
@@ -14,6 +16,7 @@ The difference between both parts lies in that: the first, screw_clamp_up, stays
     okh:repo <https://www.thingiverse.com/thing:13409> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:13409> .

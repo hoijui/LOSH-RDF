@@ -2,15 +2,15 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ProtectiveGoggles a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Protective Goggles " ;
     okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "Open Source Protective Googles for health workers. Already validated by two hospitals in Porto this design was made in collaboration with ESAD and its easily 3D printed and laser or hand cut." ;
-    okh:hasComponent :ProductionFilesaroOculosCurvo,
-        :ProductionFilesoculosv3,
-        :ProductionFilesprotectivegoggles2,
-        :ProductionFilessafetyGlasses ;
+    okh:hasComponent :Productionfilesarooculoscurvo,
+        :Productionfilesoculosv3,
+        :Productionfilesprotectivegoggles2,
+        :Productionfilessafetyglasses ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "VIVA Lab" ;
@@ -27,63 +27,63 @@
     rdfs:label "Image of Protective Goggles  665ad0b0c6320647dae09abe56b05728b9f3bf48" ;
     okh:fileFormat "JPG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/41368/img_20200320_183914.jpg> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMjI1Nzc=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/41368/img_20200320_183914.jpg> .
 
-:ProductionFilesaroOculosCurvo a okh:Part ;
+:Productionfilesarooculoscurvo a okh:Part ;
     rdfs:label "Production Files/aro oculos curvo" ;
     okh:documentationLanguage "en" ;
     okh:licensor "VIVA Lab" ;
-    okh:source :ProductionFilesaroOculosCurvo_source ;
+    okh:source :Productionfilesarooculoscurvo_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:ProductionFilesaroOculosCurvo_source a okh:SourceFile ;
+:Productionfilesarooculoscurvo_source a okh:SourceFile ;
     rdfs:label "Source File of Production Files/aro oculos curvo of Protective Goggles  665ad0b0c6320647dae09abe56b05728b9f3bf48" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/41368/aro_oculos_curvo.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMjI1MDQ=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/41368/aro_oculos_curvo.stl> .
 
-:ProductionFilesoculosv3 a okh:Part ;
+:Productionfilesoculosv3 a okh:Part ;
     rdfs:label "Production Files/Oculos_v3" ;
     okh:documentationLanguage "en" ;
     okh:licensor "VIVA Lab" ;
-    okh:source :ProductionFilesoculosv3_source ;
+    okh:source :Productionfilesoculosv3_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:ProductionFilesoculosv3_source a okh:SourceFile ;
+:Productionfilesoculosv3_source a okh:SourceFile ;
     rdfs:label "Source File of Production Files/Oculos_v3 of Protective Goggles  665ad0b0c6320647dae09abe56b05728b9f3bf48" ;
     okh:fileFormat "STEP" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/41368/oculos_v3.step> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMjQ2NTk=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/41368/oculos_v3.step> .
 
-:ProductionFilesprotectivegoggles2 a okh:Part ;
+:Productionfilesprotectivegoggles2 a okh:Part ;
     rdfs:label "Production Files/Protective_Goggles_2" ;
     okh:documentationLanguage "en" ;
     okh:licensor "VIVA Lab" ;
-    okh:source :ProductionFilesprotectivegoggles2_source ;
+    okh:source :Productionfilesprotectivegoggles2_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:ProductionFilesprotectivegoggles2_source a okh:SourceFile ;
+:Productionfilesprotectivegoggles2_source a okh:SourceFile ;
     rdfs:label "Source File of Production Files/Protective_Goggles_2 of Protective Goggles  665ad0b0c6320647dae09abe56b05728b9f3bf48" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/41368/protective_goggles_2.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMjI1MzI=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/41368/protective_goggles_2.pdf> .
 
-:ProductionFilessafetyGlasses a okh:Part ;
+:Productionfilessafetyglasses a okh:Part ;
     rdfs:label "Production Files/Safety Glasses" ;
     okh:documentationLanguage "en" ;
     okh:licensor "VIVA Lab" ;
-    okh:source :ProductionFilessafetyGlasses_source ;
+    okh:source :Productionfilessafetyglasses_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:ProductionFilessafetyGlasses_source a okh:SourceFile ;
+:Productionfilessafetyglasses_source a okh:SourceFile ;
     rdfs:label "Source File of Production Files/Safety Glasses of Protective Goggles  665ad0b0c6320647dae09abe56b05728b9f3bf48" ;
     okh:fileFormat "DXF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/41368/safety_glasses.dxf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMjI1MDM=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/41368/safety_glasses.dxf> .
 
 :Readme a okh:Readme ;
     rdfs:label "Readme of Protective Goggles  665ad0b0c6320647dae09abe56b05728b9f3bf48" ;
     okh:fileFormat "MD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/41368/readme-e9813.md> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTE2NjE=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/41368/readme-e9813.md> .
 

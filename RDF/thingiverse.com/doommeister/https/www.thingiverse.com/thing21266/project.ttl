@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A21266/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:FanDuctForSellsMendel a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Fan duct for Sells Mendel" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a mount and duct for a 40mm cooling fan that will fit the std Sells Mendel X carriage. I could only find one fan mount for this venerable machine and I wanted to duct air closer to the hot end than this would allow. The duct will mount  40mm fan and attaches to the carriage by replacing one of the belt clamps. I have sized the model for my Mendel on which I have replaced one of the belt clamps with a tensioning clamp. Which you can find here http://www.thingiverse.com/thing:16012. The model is slightly optomised from the one I printed to save on plastic and weight. \r
 \r
 Please be sure to that when your print is finished your skeining software homes to Y =0 and X = 130, i.e. over the purge plate at the last layer height. If you home X = 0 to high up the Z axis then a crash may occur due due to the reducing size of the triangle frame work. This is one of the reasons I am moving to an Orca so that the X axis is fixed at the top and I can hang all sorts of crap of it\r
@@ -16,6 +18,7 @@ the SCAD file started out with the intent of being parametric but a failed big s
     okh:repo <https://www.thingiverse.com/thing:21266> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:21266> .

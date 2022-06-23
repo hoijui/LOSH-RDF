@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A19950/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:OrcaV03Lm8uuBearingHolders a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Orca V0.3 LM8UU bearing holders" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """As of V8 I am considering this stable and complete, the only thing I am planning to add is some thumb wheels for levelling the bed. \r
 \r
 This is a complete set of printed parts to convert your Orca V0.3 to use LM8UU linear ball bearings. The set includes bearing holders for the X, Y and Z axis's, new Y axis bar clamps so you can gain a little (approx 8mm) Z axis height, Y axis belt clamps, X carriage, and end stop holders for Hall O end stops. I would also highly recommend replacing the MP v9/10 extruder with a Wades derivative (I am using the emaker/Reprap Pro one).\r
@@ -22,6 +24,7 @@ v8 adds an extra nut to the abl Z nut holders (takes out some slop) and a 5th ax
     okh:repo <https://www.thingiverse.com/thing:19950> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:19950> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A28304/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PsuBoardMount a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "PSU Board Mount" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a simple board mount for this type of reprap power supply: \r
 \r
 http://www.ebay.com/itm/New-12V-DC-30A-350W-Regulated-Switching-Power-Supply-MW-/120692623020?pt=LH_DefaultDomain_0&hash=item1c19d746ac#ht_4341wt_1397\r
@@ -16,6 +18,7 @@ It has two holes for the PSU and a single hole to mount to a board. I used 3/4" 
     okh:repo <https://www.thingiverse.com/thing:28304> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:28304> .

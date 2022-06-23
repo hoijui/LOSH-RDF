@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A6629/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:UnivCameraQuickRelease a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Univ. Camera Quick Release" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Hey thingikids.  I had a customer come in to our shop last week with a special project, though he didn't know it.  He is a VASCULAR SURGEON and he has a tiny little ultrasound machine he takes with him everywhere, like a teddy bear.  He has used a special attachment, a bracket, with a modified Polaroid camera so he can take photos of his work via the ultrasound machine and prove to the insurance people he did what he did, and probably managed not to kill them in the process.\r
 \r
 You can't really get Polaroid film anymore, so he's sort of stuck.  He asked if there was a way we could set up a different kind of system for him.  Since Fuji Instax film and cameras don't let you focus so closely, and digital is kinda the wave of the future as well as compatible with those interwebs you hear about sometimes.\r
@@ -16,6 +18,7 @@ My boss, wise sage man that he is, suggested using the existing bracket to fit a
     okh:repo <https://www.thingiverse.com/thing:6629> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:6629> .

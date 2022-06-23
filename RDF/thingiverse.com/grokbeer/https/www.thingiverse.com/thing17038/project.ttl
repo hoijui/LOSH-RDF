@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A17038/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Occlupanidae a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Occlupanidae" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I started out simply wanting to print a giant bread tag for a friend.  Little did I know that an entire taxonomy exists for the parasitoids known as Occlupanid (Occlu = to close, pan = bread).\r
 \r
 The most thorough research into these organisms has been conducted by the Holotypic Occlupanid Research Group - http://www.horg.com/horg.  Their work was even used in the report "Plastic bag clip discovered in partial colectomy accompanying proposal for phylogenic plastic bag clip classification" published in the BMJ Case Reports journal: http://casereports.bmj.com/content/2011/bcr.02.2011.3869.abstract.\r
@@ -18,6 +20,7 @@ I intend to extend the SCAD file to include examples of species from each order.
     okh:repo <https://www.thingiverse.com/thing:17038> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:17038> .

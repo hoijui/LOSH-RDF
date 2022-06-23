@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A23436/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:BinaryClock a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Binary Clock" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Update Dec 16, 2013:  
 Updated the Arduino code with a new option called BLINK_TEST.  The blink test is a debugging option that will blink all lights in sequence from top-left to bottom-right, column by column.  Each light should activate for one second, turn off, and then the next light in the sequence should continue the pattern.  This is intended to debug and ensure that all wiring is correctly assembled.  If a light fails to blink, or the wrong light activates when it shouldn't, you most likely have a wiring issue with either the LED that should have been lit, or the LED that was lit out of sequence.  
 
@@ -26,6 +28,7 @@ This is still a work in progress because I plan to also design a 3D printable ca
     okh:repo <https://www.thingiverse.com/thing:23436> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:23436> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A27087/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:DialIndicatorMountForQuickFitXCarriage a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Dial Indicator Mount for Quick Fit X Carriage" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Leverage RichRap's Quick Fit X Carriage to add a precision bed-leveling aid. \r
 \r
 Using a dial indicator takes the guesswork out of how level your bed is and since you can just swap it in and out in a flash it's easier to switch right from leveling to printing.\r
@@ -16,6 +18,7 @@ Strictly speaking, this isn't a derivative and instead the .scad script was writ
     okh:repo <https://www.thingiverse.com/thing:27087> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:27087> .

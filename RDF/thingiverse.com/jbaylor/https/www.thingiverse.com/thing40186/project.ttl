@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A40186/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ArduinoAndOledCase a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Arduino and OLED case" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """These are three acrylic cases for an Arduino and OLED.   They are meant to be inside a box with the face plate attaching it to a control panel.   
 
 -----  
@@ -25,6 +27,7 @@ If you want the circuits and part numbers, let me know and I can post more detai
     okh:repo <https://www.thingiverse.com/thing:40186> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:40186> .

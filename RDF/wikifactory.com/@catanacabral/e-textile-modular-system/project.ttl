@@ -2,33 +2,33 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:EtextileModularSystem a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "E-textile Modular System" ;
     okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "Inspired by Little Bits, E-textile Modular System consists of modules that can be assembled to create custom fit electronic clothing that anyone could adapt over time, by simply re-assembling them." ;
-    okh:hasComponent :InputModuleimboardlayout,
-        :InputModuleimboardschematics,
-        :InputModuleimboardsvg,
-        :InputModuleimpdfcopper,
-        :InputModuleimrhinotexvinyl,
-        :InputModuleimsvgcopper,
-        :ModularSystemmspdf,
-        :ModularSystemmsrhino,
-        :OutputModuleompdfcopper,
-        :OutputModuleompdftexvinyl,
-        :OutputModuleomrhinocopper,
-        :OutputModuleomrhinotexvinyl,
-        :PowerModulepmpdfcopper,
-        :PowerModulepmpdftexvinyl,
-        :PowerModulepmrhinocopper,
-        :PowerModulepmrhinotexvinyl,
-        :WireModuleBackwmbpdfcopper,
-        :WireModuleBackwmbpdftexvinyl,
-        :WireModuleBackwmbrhinocopper,
-        :WireModuleBackwmbrhinotexvinyl,
-        :WireModuleFrontwmfrhinocopper,
-        :WireModuleFrontwmfrhinotexvinyl ;
+    okh:hasComponent :Inputmoduleimboardlayout,
+        :Inputmoduleimboardschematics,
+        :Inputmoduleimboardsvg,
+        :Inputmoduleimpdfcopper,
+        :Inputmoduleimrhinotexvinyl,
+        :Inputmoduleimsvgcopper,
+        :Modularsystemmspdf,
+        :Modularsystemmsrhino,
+        :Outputmoduleompdfcopper,
+        :Outputmoduleompdftexvinyl,
+        :Outputmoduleomrhinocopper,
+        :Outputmoduleomrhinotexvinyl,
+        :Powermodulepmpdfcopper,
+        :Powermodulepmpdftexvinyl,
+        :Powermodulepmrhinocopper,
+        :Powermodulepmrhinotexvinyl,
+        :Wiremodulebackwmbpdfcopper,
+        :Wiremodulebackwmbpdftexvinyl,
+        :Wiremodulebackwmbrhinocopper,
+        :Wiremodulebackwmbrhinotexvinyl,
+        :Wiremodulefrontwmfrhinocopper,
+        :Wiremodulefrontwmfrhinotexvinyl ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "Ana Cabral" ;
@@ -44,297 +44,297 @@
     rdfs:label "Image of E-textile Modular System d50d4ba9305dcedb30a846927c726a3a06d7ff64" ;
     okh:fileFormat "JPG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/973/systemint3720.jpg?response-content-type=image%2Fjpeg&response-content-disposition=attachment%3B%20filename%3D%22system_int_3_720.jpg%22&AWSAccessKeyId=LTAI4GK1mTcvu7wXYTXXtiy6&Signature=LRRkmXRfzVxzzL5OfqiL3e7ReJU%3D&Expires=1645920956> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMDQ1MQ==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/973/systemint3720.jpg?response-content-type=image%2Fjpeg&response-content-disposition=attachment%3B%20filename%3D%22system_int_3_720.jpg%22&AWSAccessKeyId=LTAI4GK1mTcvu7wXYTXXtiy6&Signature=LRRkmXRfzVxzzL5OfqiL3e7ReJU%3D&Expires=1645920956> .
 
-:InputModuleimboardlayout a okh:Part ;
+:Inputmoduleimboardlayout a okh:Part ;
     rdfs:label "Input Module/im_board_layout" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :InputModuleimboardlayout_source ;
+    okh:source :Inputmoduleimboardlayout_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:InputModuleimboardlayout_source a okh:SourceFile ;
+:Inputmoduleimboardlayout_source a okh:SourceFile ;
     rdfs:label "Source File of Input Module/im_board_layout of E-textile Modular System d50d4ba9305dcedb30a846927c726a3a06d7ff64" ;
     okh:fileFormat "KICAD_PCB" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/973/imboardlayout.kicad_pcb?response-content-type=application%2Foctet-stream&response-content-disposition=attachment%3B%20filename%3D%22im_board_layout.kicad_pcb%22&AWSAccessKeyId=LTAI4GK1mTcvu7wXYTXXtiy6&Signature=A52q2Vj8L0x%2BH2O4oR78d%2Bn%2F5QA%3D&Expires=1645920956> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMDQwNQ==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/973/imboardlayout.kicad_pcb?response-content-type=application%2Foctet-stream&response-content-disposition=attachment%3B%20filename%3D%22im_board_layout.kicad_pcb%22&AWSAccessKeyId=LTAI4GK1mTcvu7wXYTXXtiy6&Signature=A52q2Vj8L0x%2BH2O4oR78d%2Bn%2F5QA%3D&Expires=1645920956> .
 
-:InputModuleimboardschematics a okh:Part ;
+:Inputmoduleimboardschematics a okh:Part ;
     rdfs:label "Input Module/im_board_schematics" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :InputModuleimboardschematics_source ;
+    okh:source :Inputmoduleimboardschematics_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:InputModuleimboardschematics_source a okh:SourceFile ;
+:Inputmoduleimboardschematics_source a okh:SourceFile ;
     rdfs:label "Source File of Input Module/im_board_schematics of E-textile Modular System d50d4ba9305dcedb30a846927c726a3a06d7ff64" ;
     okh:fileFormat "SCH" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/973/imboardschematics.sch?response-content-type=application%2Foctet-stream&response-content-disposition=attachment%3B%20filename%3D%22im_board_schematics.sch%22&AWSAccessKeyId=LTAI4GK1mTcvu7wXYTXXtiy6&Signature=7y0e%2B6dQUfYDPQpdRnRlc1jw070%3D&Expires=1645920956> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMDQwNw==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/973/imboardschematics.sch?response-content-type=application%2Foctet-stream&response-content-disposition=attachment%3B%20filename%3D%22im_board_schematics.sch%22&AWSAccessKeyId=LTAI4GK1mTcvu7wXYTXXtiy6&Signature=7y0e%2B6dQUfYDPQpdRnRlc1jw070%3D&Expires=1645920956> .
 
-:InputModuleimboardsvg a okh:Part ;
+:Inputmoduleimboardsvg a okh:Part ;
     rdfs:label "Input Module/im_board_svg" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :InputModuleimboardsvg_source ;
+    okh:source :Inputmoduleimboardsvg_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:InputModuleimboardsvg_source a okh:SourceFile ;
+:Inputmoduleimboardsvg_source a okh:SourceFile ;
     rdfs:label "Source File of Input Module/im_board_svg of E-textile Modular System d50d4ba9305dcedb30a846927c726a3a06d7ff64" ;
     okh:fileFormat "SVG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/973/imboardsvg.svg?response-content-type=image%2Fsvg%2Bxml&response-content-disposition=attachment%3B%20filename%3D%22im_board_svg.svg%22&AWSAccessKeyId=LTAI4GK1mTcvu7wXYTXXtiy6&Signature=mC7KGAJCOjLo6CJAWW%2BF2bzj0vE%3D&Expires=1645920957> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMDQxMA==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/973/imboardsvg.svg?response-content-type=image%2Fsvg%2Bxml&response-content-disposition=attachment%3B%20filename%3D%22im_board_svg.svg%22&AWSAccessKeyId=LTAI4GK1mTcvu7wXYTXXtiy6&Signature=mC7KGAJCOjLo6CJAWW%2BF2bzj0vE%3D&Expires=1645920957> .
 
-:InputModuleimpdfcopper a okh:Part ;
+:Inputmoduleimpdfcopper a okh:Part ;
     rdfs:label "Input Module/im_pdf_copper" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :InputModuleimpdfcopper_source ;
+    okh:source :Inputmoduleimpdfcopper_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:InputModuleimpdfcopper_source a okh:SourceFile ;
+:Inputmoduleimpdfcopper_source a okh:SourceFile ;
     rdfs:label "Source File of Input Module/im_pdf_copper of E-textile Modular System d50d4ba9305dcedb30a846927c726a3a06d7ff64" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/973/impdfcopper.pdf?response-content-type=application%2Fpdf&response-content-disposition=attachment%3B%20filename%3D%22im_pdf_copper.pdf%22&AWSAccessKeyId=LTAI4GK1mTcvu7wXYTXXtiy6&Signature=5JC120JrKQ0s%2FWoAbqnCSAnFw1M%3D&Expires=1645920957> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMDQxMg==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/973/impdfcopper.pdf?response-content-type=application%2Fpdf&response-content-disposition=attachment%3B%20filename%3D%22im_pdf_copper.pdf%22&AWSAccessKeyId=LTAI4GK1mTcvu7wXYTXXtiy6&Signature=5JC120JrKQ0s%2FWoAbqnCSAnFw1M%3D&Expires=1645920957> .
 
-:InputModuleimrhinotexvinyl a okh:Part ;
+:Inputmoduleimrhinotexvinyl a okh:Part ;
     rdfs:label "Input Module/im_rhino_texvinyl" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :InputModuleimrhinotexvinyl_source ;
+    okh:source :Inputmoduleimrhinotexvinyl_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:InputModuleimrhinotexvinyl_source a okh:SourceFile ;
+:Inputmoduleimrhinotexvinyl_source a okh:SourceFile ;
     rdfs:label "Source File of Input Module/im_rhino_texvinyl of E-textile Modular System d50d4ba9305dcedb30a846927c726a3a06d7ff64" ;
     okh:fileFormat "3DM" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/973/imrhinotexvinyl.3dm?response-content-type=application%2F3dm&response-content-disposition=attachment%3B%20filename%3D%22im_rhino_texvinyl.3dm%22&AWSAccessKeyId=LTAI4GK1mTcvu7wXYTXXtiy6&Signature=iCRhGmKoYR%2BrOCcpYdMFtF9s5eU%3D&Expires=1645920957> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMDQwOQ==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/973/imrhinotexvinyl.3dm?response-content-type=application%2F3dm&response-content-disposition=attachment%3B%20filename%3D%22im_rhino_texvinyl.3dm%22&AWSAccessKeyId=LTAI4GK1mTcvu7wXYTXXtiy6&Signature=iCRhGmKoYR%2BrOCcpYdMFtF9s5eU%3D&Expires=1645920957> .
 
-:InputModuleimsvgcopper a okh:Part ;
+:Inputmoduleimsvgcopper a okh:Part ;
     rdfs:label "Input Module/im_svg_copper" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :InputModuleimsvgcopper_source ;
+    okh:source :Inputmoduleimsvgcopper_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:InputModuleimsvgcopper_source a okh:SourceFile ;
+:Inputmoduleimsvgcopper_source a okh:SourceFile ;
     rdfs:label "Source File of Input Module/im_svg_copper of E-textile Modular System d50d4ba9305dcedb30a846927c726a3a06d7ff64" ;
     okh:fileFormat "SVG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/973/imsvgcopper.svg?response-content-type=image%2Fsvg%2Bxml&response-content-disposition=attachment%3B%20filename%3D%22im_svg_copper.svg%22&AWSAccessKeyId=LTAI4GK1mTcvu7wXYTXXtiy6&Signature=WUsPSq5%2BoTyWqYtkf6jNeX4exWM%3D&Expires=1645920957> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMDQxMw==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/973/imsvgcopper.svg?response-content-type=image%2Fsvg%2Bxml&response-content-disposition=attachment%3B%20filename%3D%22im_svg_copper.svg%22&AWSAccessKeyId=LTAI4GK1mTcvu7wXYTXXtiy6&Signature=WUsPSq5%2BoTyWqYtkf6jNeX4exWM%3D&Expires=1645920957> .
 
-:ModularSystemmspdf a okh:Part ;
+:Modularsystemmspdf a okh:Part ;
     rdfs:label "Modular System/ms_pdf" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :ModularSystemmspdf_source ;
+    okh:source :Modularsystemmspdf_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:ModularSystemmspdf_source a okh:SourceFile ;
+:Modularsystemmspdf_source a okh:SourceFile ;
     rdfs:label "Source File of Modular System/ms_pdf of E-textile Modular System d50d4ba9305dcedb30a846927c726a3a06d7ff64" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/973/mspdf.pdf?response-content-type=application%2Fpdf&response-content-disposition=attachment%3B%20filename%3D%22ms_pdf.pdf%22&AWSAccessKeyId=LTAI4GK1mTcvu7wXYTXXtiy6&Signature=GGOdvBC6u%2BN05mLKz2Hqeic6v2c%3D&Expires=1645920957> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMDQwMw==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/973/mspdf.pdf?response-content-type=application%2Fpdf&response-content-disposition=attachment%3B%20filename%3D%22ms_pdf.pdf%22&AWSAccessKeyId=LTAI4GK1mTcvu7wXYTXXtiy6&Signature=GGOdvBC6u%2BN05mLKz2Hqeic6v2c%3D&Expires=1645920957> .
 
-:ModularSystemmsrhino a okh:Part ;
+:Modularsystemmsrhino a okh:Part ;
     rdfs:label "Modular System/ms_rhino" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :ModularSystemmsrhino_source ;
+    okh:source :Modularsystemmsrhino_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:ModularSystemmsrhino_source a okh:SourceFile ;
+:Modularsystemmsrhino_source a okh:SourceFile ;
     rdfs:label "Source File of Modular System/ms_rhino of E-textile Modular System d50d4ba9305dcedb30a846927c726a3a06d7ff64" ;
     okh:fileFormat "3DM" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/973/msrhino.3dm?response-content-type=application%2F3dm&response-content-disposition=attachment%3B%20filename%3D%22ms_rhino.3dm%22&AWSAccessKeyId=LTAI4GK1mTcvu7wXYTXXtiy6&Signature=X0vu0rvqXPZcw6jXFhjWreL40Hc%3D&Expires=1645920957> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMDQwNA==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/973/msrhino.3dm?response-content-type=application%2F3dm&response-content-disposition=attachment%3B%20filename%3D%22ms_rhino.3dm%22&AWSAccessKeyId=LTAI4GK1mTcvu7wXYTXXtiy6&Signature=X0vu0rvqXPZcw6jXFhjWreL40Hc%3D&Expires=1645920957> .
 
-:OutputModuleompdfcopper a okh:Part ;
+:Outputmoduleompdfcopper a okh:Part ;
     rdfs:label "Output Module/om_pdf_copper" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :OutputModuleompdfcopper_source ;
+    okh:source :Outputmoduleompdfcopper_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:OutputModuleompdfcopper_source a okh:SourceFile ;
+:Outputmoduleompdfcopper_source a okh:SourceFile ;
     rdfs:label "Source File of Output Module/om_pdf_copper of E-textile Modular System d50d4ba9305dcedb30a846927c726a3a06d7ff64" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/973/ompdfcopper.pdf?response-content-type=application%2Fpdf&response-content-disposition=attachment%3B%20filename%3D%22om_pdf_copper.pdf%22&AWSAccessKeyId=LTAI4GK1mTcvu7wXYTXXtiy6&Signature=AMgjwW2QKYAoTTUVcOnXDrNeMCs%3D&Expires=1645920957> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMDQxNQ==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/973/ompdfcopper.pdf?response-content-type=application%2Fpdf&response-content-disposition=attachment%3B%20filename%3D%22om_pdf_copper.pdf%22&AWSAccessKeyId=LTAI4GK1mTcvu7wXYTXXtiy6&Signature=AMgjwW2QKYAoTTUVcOnXDrNeMCs%3D&Expires=1645920957> .
 
-:OutputModuleompdftexvinyl a okh:Part ;
+:Outputmoduleompdftexvinyl a okh:Part ;
     rdfs:label "Output Module/om_pdf_texvinyl" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :OutputModuleompdftexvinyl_source ;
+    okh:source :Outputmoduleompdftexvinyl_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:OutputModuleompdftexvinyl_source a okh:SourceFile ;
+:Outputmoduleompdftexvinyl_source a okh:SourceFile ;
     rdfs:label "Source File of Output Module/om_pdf_texvinyl of E-textile Modular System d50d4ba9305dcedb30a846927c726a3a06d7ff64" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/973/ompdftexvinyl.pdf?response-content-type=application%2Fpdf&response-content-disposition=attachment%3B%20filename%3D%22om_pdf_texvinyl.pdf%22&AWSAccessKeyId=LTAI4GK1mTcvu7wXYTXXtiy6&Signature=JsxddIsmjEhPgad37Bcf8MqTtKY%3D&Expires=1645920957> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMDQxNA==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/973/ompdftexvinyl.pdf?response-content-type=application%2Fpdf&response-content-disposition=attachment%3B%20filename%3D%22om_pdf_texvinyl.pdf%22&AWSAccessKeyId=LTAI4GK1mTcvu7wXYTXXtiy6&Signature=JsxddIsmjEhPgad37Bcf8MqTtKY%3D&Expires=1645920957> .
 
-:OutputModuleomrhinocopper a okh:Part ;
+:Outputmoduleomrhinocopper a okh:Part ;
     rdfs:label "Output Module/om_rhino_copper" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :OutputModuleomrhinocopper_source ;
+    okh:source :Outputmoduleomrhinocopper_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:OutputModuleomrhinocopper_source a okh:SourceFile ;
+:Outputmoduleomrhinocopper_source a okh:SourceFile ;
     rdfs:label "Source File of Output Module/om_rhino_copper of E-textile Modular System d50d4ba9305dcedb30a846927c726a3a06d7ff64" ;
     okh:fileFormat "3DM" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/973/omrhinocopper.3dm?response-content-type=application%2F3dm&response-content-disposition=attachment%3B%20filename%3D%22om_rhino_copper.3dm%22&AWSAccessKeyId=LTAI4GK1mTcvu7wXYTXXtiy6&Signature=L47vc5lbqmnMNFmd5NgjFuDtIfM%3D&Expires=1645920957> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMDQxNg==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/973/omrhinocopper.3dm?response-content-type=application%2F3dm&response-content-disposition=attachment%3B%20filename%3D%22om_rhino_copper.3dm%22&AWSAccessKeyId=LTAI4GK1mTcvu7wXYTXXtiy6&Signature=L47vc5lbqmnMNFmd5NgjFuDtIfM%3D&Expires=1645920957> .
 
-:OutputModuleomrhinotexvinyl a okh:Part ;
+:Outputmoduleomrhinotexvinyl a okh:Part ;
     rdfs:label "Output Module/om_rhino_texvinyl" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :OutputModuleomrhinotexvinyl_source ;
+    okh:source :Outputmoduleomrhinotexvinyl_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:OutputModuleomrhinotexvinyl_source a okh:SourceFile ;
+:Outputmoduleomrhinotexvinyl_source a okh:SourceFile ;
     rdfs:label "Source File of Output Module/om_rhino_texvinyl of E-textile Modular System d50d4ba9305dcedb30a846927c726a3a06d7ff64" ;
     okh:fileFormat "3DM" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/973/omrhinotexvinyl.3dm?response-content-type=application%2F3dm&response-content-disposition=attachment%3B%20filename%3D%22om_rhino_texvinyl.3dm%22&AWSAccessKeyId=LTAI4GK1mTcvu7wXYTXXtiy6&Signature=s54Le3KtBKbMJyRU9obgWEHDx1o%3D&Expires=1645920957> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMDQxNw==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/973/omrhinotexvinyl.3dm?response-content-type=application%2F3dm&response-content-disposition=attachment%3B%20filename%3D%22om_rhino_texvinyl.3dm%22&AWSAccessKeyId=LTAI4GK1mTcvu7wXYTXXtiy6&Signature=s54Le3KtBKbMJyRU9obgWEHDx1o%3D&Expires=1645920957> .
 
-:PowerModulepmpdfcopper a okh:Part ;
+:Powermodulepmpdfcopper a okh:Part ;
     rdfs:label "Power Module/pm_pdf_copper" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :PowerModulepmpdfcopper_source ;
+    okh:source :Powermodulepmpdfcopper_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:PowerModulepmpdfcopper_source a okh:SourceFile ;
+:Powermodulepmpdfcopper_source a okh:SourceFile ;
     rdfs:label "Source File of Power Module/pm_pdf_copper of E-textile Modular System d50d4ba9305dcedb30a846927c726a3a06d7ff64" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/973/pmpdfcopper.pdf?response-content-type=application%2Fpdf&response-content-disposition=attachment%3B%20filename%3D%22pm_pdf_copper.pdf%22&AWSAccessKeyId=LTAI4GK1mTcvu7wXYTXXtiy6&Signature=8B76gRUcWYFuntPqT1QXK9w0bCI%3D&Expires=1645920957> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMDQyMQ==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/973/pmpdfcopper.pdf?response-content-type=application%2Fpdf&response-content-disposition=attachment%3B%20filename%3D%22pm_pdf_copper.pdf%22&AWSAccessKeyId=LTAI4GK1mTcvu7wXYTXXtiy6&Signature=8B76gRUcWYFuntPqT1QXK9w0bCI%3D&Expires=1645920957> .
 
-:PowerModulepmpdftexvinyl a okh:Part ;
+:Powermodulepmpdftexvinyl a okh:Part ;
     rdfs:label "Power Module/pm_pdf_texvinyl" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :PowerModulepmpdftexvinyl_source ;
+    okh:source :Powermodulepmpdftexvinyl_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:PowerModulepmpdftexvinyl_source a okh:SourceFile ;
+:Powermodulepmpdftexvinyl_source a okh:SourceFile ;
     rdfs:label "Source File of Power Module/pm_pdf_texvinyl of E-textile Modular System d50d4ba9305dcedb30a846927c726a3a06d7ff64" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/973/pmpdftexvinyl.pdf?response-content-type=application%2Fpdf&response-content-disposition=attachment%3B%20filename%3D%22pm_pdf_texvinyl.pdf%22&AWSAccessKeyId=LTAI4GK1mTcvu7wXYTXXtiy6&Signature=gDKBEWsgu4Vwk72iAksge2Y9zk8%3D&Expires=1645920957> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMDQyMA==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/973/pmpdftexvinyl.pdf?response-content-type=application%2Fpdf&response-content-disposition=attachment%3B%20filename%3D%22pm_pdf_texvinyl.pdf%22&AWSAccessKeyId=LTAI4GK1mTcvu7wXYTXXtiy6&Signature=gDKBEWsgu4Vwk72iAksge2Y9zk8%3D&Expires=1645920957> .
 
-:PowerModulepmrhinocopper a okh:Part ;
+:Powermodulepmrhinocopper a okh:Part ;
     rdfs:label "Power Module/pm_rhino_copper" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :PowerModulepmrhinocopper_source ;
+    okh:source :Powermodulepmrhinocopper_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:PowerModulepmrhinocopper_source a okh:SourceFile ;
+:Powermodulepmrhinocopper_source a okh:SourceFile ;
     rdfs:label "Source File of Power Module/pm_rhino_copper of E-textile Modular System d50d4ba9305dcedb30a846927c726a3a06d7ff64" ;
     okh:fileFormat "3DM" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/973/pmrhinocopper.3dm?response-content-type=application%2F3dm&response-content-disposition=attachment%3B%20filename%3D%22pm_rhino_copper.3dm%22&AWSAccessKeyId=LTAI4GK1mTcvu7wXYTXXtiy6&Signature=PP0jPImS0HzT0%2BKmSXxCqSdNzwA%3D&Expires=1645920957> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMDQxOA==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/973/pmrhinocopper.3dm?response-content-type=application%2F3dm&response-content-disposition=attachment%3B%20filename%3D%22pm_rhino_copper.3dm%22&AWSAccessKeyId=LTAI4GK1mTcvu7wXYTXXtiy6&Signature=PP0jPImS0HzT0%2BKmSXxCqSdNzwA%3D&Expires=1645920957> .
 
-:PowerModulepmrhinotexvinyl a okh:Part ;
+:Powermodulepmrhinotexvinyl a okh:Part ;
     rdfs:label "Power Module/pm_rhino_texvinyl" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :PowerModulepmrhinotexvinyl_source ;
+    okh:source :Powermodulepmrhinotexvinyl_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:PowerModulepmrhinotexvinyl_source a okh:SourceFile ;
+:Powermodulepmrhinotexvinyl_source a okh:SourceFile ;
     rdfs:label "Source File of Power Module/pm_rhino_texvinyl of E-textile Modular System d50d4ba9305dcedb30a846927c726a3a06d7ff64" ;
     okh:fileFormat "3DM" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/973/pmrhinotexvinyl.3dm?response-content-type=application%2F3dm&response-content-disposition=attachment%3B%20filename%3D%22pm_rhino_texvinyl.3dm%22&AWSAccessKeyId=LTAI4GK1mTcvu7wXYTXXtiy6&Signature=EPsPZF6dETi%2BgwDV3RMuw8BYIJs%3D&Expires=1645920957> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMDQxOQ==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/973/pmrhinotexvinyl.3dm?response-content-type=application%2F3dm&response-content-disposition=attachment%3B%20filename%3D%22pm_rhino_texvinyl.3dm%22&AWSAccessKeyId=LTAI4GK1mTcvu7wXYTXXtiy6&Signature=EPsPZF6dETi%2BgwDV3RMuw8BYIJs%3D&Expires=1645920957> .
 
 :Readme a okh:Readme ;
     rdfs:label "Readme of E-textile Modular System d50d4ba9305dcedb30a846927c726a3a06d7ff64" ;
     okh:fileFormat "MD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/973/readme-14.md?response-content-type=text%2Fmarkdown&response-content-disposition=attachment%3B%20filename%3D%22README.md%22&AWSAccessKeyId=LTAI4GK1mTcvu7wXYTXXtiy6&Signature=ZuHl4hQpLiwR0Y9uJmiGRqgXLaM%3D&Expires=1645920957> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMDQ3Nw==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/973/readme-14.md?response-content-type=text%2Fmarkdown&response-content-disposition=attachment%3B%20filename%3D%22README.md%22&AWSAccessKeyId=LTAI4GK1mTcvu7wXYTXXtiy6&Signature=ZuHl4hQpLiwR0Y9uJmiGRqgXLaM%3D&Expires=1645920957> .
 
-:WireModuleBackwmbpdfcopper a okh:Part ;
+:Wiremodulebackwmbpdfcopper a okh:Part ;
     rdfs:label "Wire Module Back/wmb_pdf_copper" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :WireModuleBackwmbpdfcopper_source ;
+    okh:source :Wiremodulebackwmbpdfcopper_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:WireModuleBackwmbpdfcopper_source a okh:SourceFile ;
+:Wiremodulebackwmbpdfcopper_source a okh:SourceFile ;
     rdfs:label "Source File of Wire Module Back/wmb_pdf_copper of E-textile Modular System d50d4ba9305dcedb30a846927c726a3a06d7ff64" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/973/wmbpdfcopper.pdf?response-content-type=application%2Fpdf&response-content-disposition=attachment%3B%20filename%3D%22wmb_pdf_copper.pdf%22&AWSAccessKeyId=LTAI4GK1mTcvu7wXYTXXtiy6&Signature=jGv25atNpeE1tPdekFCfRVHZfuw%3D&Expires=1645920958> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMDQyNQ==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/973/wmbpdfcopper.pdf?response-content-type=application%2Fpdf&response-content-disposition=attachment%3B%20filename%3D%22wmb_pdf_copper.pdf%22&AWSAccessKeyId=LTAI4GK1mTcvu7wXYTXXtiy6&Signature=jGv25atNpeE1tPdekFCfRVHZfuw%3D&Expires=1645920958> .
 
-:WireModuleBackwmbpdftexvinyl a okh:Part ;
+:Wiremodulebackwmbpdftexvinyl a okh:Part ;
     rdfs:label "Wire Module Back/wmb_pdf_texvinyl" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :WireModuleBackwmbpdftexvinyl_source ;
+    okh:source :Wiremodulebackwmbpdftexvinyl_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:WireModuleBackwmbpdftexvinyl_source a okh:SourceFile ;
+:Wiremodulebackwmbpdftexvinyl_source a okh:SourceFile ;
     rdfs:label "Source File of Wire Module Back/wmb_pdf_texvinyl of E-textile Modular System d50d4ba9305dcedb30a846927c726a3a06d7ff64" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/973/wmbpdftexvinyl.pdf?response-content-type=application%2Fpdf&response-content-disposition=attachment%3B%20filename%3D%22wmb_pdf_texvinyl.pdf%22&AWSAccessKeyId=LTAI4GK1mTcvu7wXYTXXtiy6&Signature=9uEFc5YKyfForT3QPjgSBVvD3Wk%3D&Expires=1645920958> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMDQyNA==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/973/wmbpdftexvinyl.pdf?response-content-type=application%2Fpdf&response-content-disposition=attachment%3B%20filename%3D%22wmb_pdf_texvinyl.pdf%22&AWSAccessKeyId=LTAI4GK1mTcvu7wXYTXXtiy6&Signature=9uEFc5YKyfForT3QPjgSBVvD3Wk%3D&Expires=1645920958> .
 
-:WireModuleBackwmbrhinocopper a okh:Part ;
+:Wiremodulebackwmbrhinocopper a okh:Part ;
     rdfs:label "Wire Module Back/wmb_rhino_copper" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :WireModuleBackwmbrhinocopper_source ;
+    okh:source :Wiremodulebackwmbrhinocopper_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:WireModuleBackwmbrhinocopper_source a okh:SourceFile ;
+:Wiremodulebackwmbrhinocopper_source a okh:SourceFile ;
     rdfs:label "Source File of Wire Module Back/wmb_rhino_copper of E-textile Modular System d50d4ba9305dcedb30a846927c726a3a06d7ff64" ;
     okh:fileFormat "3DM" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/973/wmbrhinocopper.3dm?response-content-type=application%2F3dm&response-content-disposition=attachment%3B%20filename%3D%22wmb_rhino_copper.3dm%22&AWSAccessKeyId=LTAI4GK1mTcvu7wXYTXXtiy6&Signature=RjI2TpFyEBQUO8AOd6MsP7ohjrY%3D&Expires=1645920958> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMDQyNw==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/973/wmbrhinocopper.3dm?response-content-type=application%2F3dm&response-content-disposition=attachment%3B%20filename%3D%22wmb_rhino_copper.3dm%22&AWSAccessKeyId=LTAI4GK1mTcvu7wXYTXXtiy6&Signature=RjI2TpFyEBQUO8AOd6MsP7ohjrY%3D&Expires=1645920958> .
 
-:WireModuleBackwmbrhinotexvinyl a okh:Part ;
+:Wiremodulebackwmbrhinotexvinyl a okh:Part ;
     rdfs:label "Wire Module Back/wmb_rhino_texvinyl" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :WireModuleBackwmbrhinotexvinyl_source ;
+    okh:source :Wiremodulebackwmbrhinotexvinyl_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:WireModuleBackwmbrhinotexvinyl_source a okh:SourceFile ;
+:Wiremodulebackwmbrhinotexvinyl_source a okh:SourceFile ;
     rdfs:label "Source File of Wire Module Back/wmb_rhino_texvinyl of E-textile Modular System d50d4ba9305dcedb30a846927c726a3a06d7ff64" ;
     okh:fileFormat "3DM" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/973/wmbrhinotexvinyl.3dm?response-content-type=application%2F3dm&response-content-disposition=attachment%3B%20filename%3D%22wmb_rhino_texvinyl.3dm%22&AWSAccessKeyId=LTAI4GK1mTcvu7wXYTXXtiy6&Signature=BE3vZgpvr93fuGIw%2Bd4RambD6aw%3D&Expires=1645920958> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMDQyMg==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/973/wmbrhinotexvinyl.3dm?response-content-type=application%2F3dm&response-content-disposition=attachment%3B%20filename%3D%22wmb_rhino_texvinyl.3dm%22&AWSAccessKeyId=LTAI4GK1mTcvu7wXYTXXtiy6&Signature=BE3vZgpvr93fuGIw%2Bd4RambD6aw%3D&Expires=1645920958> .
 
-:WireModuleFrontwmfrhinocopper a okh:Part ;
+:Wiremodulefrontwmfrhinocopper a okh:Part ;
     rdfs:label "Wire Module Front/wmf_rhino_copper" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :WireModuleFrontwmfrhinocopper_source ;
+    okh:source :Wiremodulefrontwmfrhinocopper_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:WireModuleFrontwmfrhinocopper_source a okh:SourceFile ;
+:Wiremodulefrontwmfrhinocopper_source a okh:SourceFile ;
     rdfs:label "Source File of Wire Module Front/wmf_rhino_copper of E-textile Modular System d50d4ba9305dcedb30a846927c726a3a06d7ff64" ;
     okh:fileFormat "3DM" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/973/wmfrhinocopper-0.3dm?response-content-type=application%2F3dm&response-content-disposition=attachment%3B%20filename%3D%22wmf_rhino_copper.3dm%22&AWSAccessKeyId=LTAI4GK1mTcvu7wXYTXXtiy6&Signature=9U3mQWatk3lrfF9k8bHfHbeBv4A%3D&Expires=1645920958> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMDQzMg==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/973/wmfrhinocopper-0.3dm?response-content-type=application%2F3dm&response-content-disposition=attachment%3B%20filename%3D%22wmf_rhino_copper.3dm%22&AWSAccessKeyId=LTAI4GK1mTcvu7wXYTXXtiy6&Signature=9U3mQWatk3lrfF9k8bHfHbeBv4A%3D&Expires=1645920958> .
 
-:WireModuleFrontwmfrhinotexvinyl a okh:Part ;
+:Wiremodulefrontwmfrhinotexvinyl a okh:Part ;
     rdfs:label "Wire Module Front/wmf_rhino_texvinyl" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :WireModuleFrontwmfrhinotexvinyl_source ;
+    okh:source :Wiremodulefrontwmfrhinotexvinyl_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:WireModuleFrontwmfrhinotexvinyl_source a okh:SourceFile ;
+:Wiremodulefrontwmfrhinotexvinyl_source a okh:SourceFile ;
     rdfs:label "Source File of Wire Module Front/wmf_rhino_texvinyl of E-textile Modular System d50d4ba9305dcedb30a846927c726a3a06d7ff64" ;
     okh:fileFormat "3DM" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/973/wmfrhinotexvinyl-1.3dm?response-content-type=application%2F3dm&response-content-disposition=attachment%3B%20filename%3D%22wmf_rhino_texvinyl.3dm%22&AWSAccessKeyId=LTAI4GK1mTcvu7wXYTXXtiy6&Signature=oIgyBT6%2Bj%2FGzB%2BhugT8ERj%2F0DDg%3D&Expires=1645920958> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMDQzNA==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/973/wmfrhinotexvinyl-1.3dm?response-content-type=application%2F3dm&response-content-disposition=attachment%3B%20filename%3D%22wmf_rhino_texvinyl.3dm%22&AWSAccessKeyId=LTAI4GK1mTcvu7wXYTXXtiy6&Signature=oIgyBT6%2Bj%2FGzB%2BhugT8ERj%2F0DDg%3D&Expires=1645920958> .
 

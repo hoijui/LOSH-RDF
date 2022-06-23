@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A16254/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:LionelTrainTunelsForChristmasDisplay a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Lionel Train Tunels for Christmas Display" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Crossing tunnel is sized to support a Christmas tree on top.\r
 Straight tunnels are designed to match.""" ;
     okh:hasImage :Image ;
@@ -13,6 +15,7 @@ Straight tunnels are designed to match.""" ;
     okh:repo <https://www.thingiverse.com/thing:16254> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:16254> .

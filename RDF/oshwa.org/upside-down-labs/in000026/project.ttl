@@ -2,22 +2,15 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:BioampExgPill a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "BioAmp EXG Pill" ;
-    okh:additionalType "['Education', 'Electronics', 'Robotics', 'Science', 'Sound', 'Wearables', 'Other']" ;
-    okh:certificationDate "2021-04-16T00:00:00-04:00" ;
-    okh:country "India" ;
-    okh:cpcPatentClass "Education" ;
     okh:dataSource "oshwa.org" ;
     okh:documentationLanguage "en" ;
-    okh:documentationLicense "CC BY" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function "BioAmp EXG Pill is a small (2.54 X 1.00 cm) and elegant BioPotential signal acquisition analog front end board that you can use with any 5v micro with an ADC. It is capable of recording publication grade BioPotential signals like ECG, EMG, EOG, and EEG without the inclusion of any dedicated Hardware/Software filter." ;
-    okh:hardwareLicense "CERN" ;
     okh:licensor "Upside Down Labs" ;
-    okh:primaryType "Science" ;
     okh:repo <https://certification.oshwa.org/in000026.html> ;
     okh:repoHost "certification.oshwa.org" ;
-    okh:softwareLicense "MIT" ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
     okh:uploadMethod "auto" ;
     okh:version "0.7" ;

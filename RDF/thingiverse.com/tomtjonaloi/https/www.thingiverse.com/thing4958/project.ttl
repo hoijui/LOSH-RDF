@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A4958/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PublicChairalwaysUnderConstruction a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Public Chair (always under construction)" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "The chair consist out of 2x3 printed elements plus tubes with a diameter of 12mm (at the moment i use cheap heating tubes, but i guess all kinds of tubes are ok). The design of the chair is also not fixed as the 3D version of the chair is already somewhat rounder." ;
     okh:hasImage :Image ;
     okh:licensor "tomtjonaloi" ;
     okh:repo <https://www.thingiverse.com/thing:4958> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:4958> .

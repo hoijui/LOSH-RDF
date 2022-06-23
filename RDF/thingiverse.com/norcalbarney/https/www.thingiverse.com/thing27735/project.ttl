@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A27735/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:TrinityMicroextruder a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Trinity MicroExtruder" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "This is a version of the TrinityLabs MicroExtruder for Buddaschnozzle and MG mounts.  The original file had the filament hole off-center, so I recentered it.  I also made the base a little thicker, and added the holes for MG mounting without a mounting plate." ;
     okh:hasImage :Image ;
     okh:licensor "norcalbarney" ;
     okh:repo <https://www.thingiverse.com/thing:27735> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:27735> .

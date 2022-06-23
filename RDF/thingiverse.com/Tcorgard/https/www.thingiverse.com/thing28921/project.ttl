@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A28921/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:SierraMadreRadio a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Sierra Madre Radio" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is the radio you first see before you black out and get taken to The Sierra Madre. In Dead Money for Fallout New Vegas.\r
 \r
 It is close, i drew it from just a screen capture of the front. I could play the game again and get it much closer, but will have to wait and see.\r
@@ -16,6 +18,7 @@ UPDATE: I relooked at my CAD file and noticed it was not curvy enough for a 50's
     okh:repo <https://www.thingiverse.com/thing:28921> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:28921> .

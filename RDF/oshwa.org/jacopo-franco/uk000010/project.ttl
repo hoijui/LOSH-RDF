@@ -2,24 +2,18 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Espositoruler a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "ESPositoRuler" ;
-    okh:additionalType "['Education', 'Electronics', 'Tool', 'Wearables']" ;
-    okh:certificationDate "2020-06-09T00:00:00-04:00" ;
-    okh:country "United Kingdom" ;
     okh:dataSource "oshwa.org" ;
     okh:documentationLanguage "en" ;
-    okh:documentationLicense "CC BY-SA" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function """An ESP32-PICO-V3 powered ruler with an onboard 3-axis accelerometer.
 It can be powered from both USB and a 1s LiPo battery using the dedicated connector.
 Suggested 1s 500mAh drone battery repurposed. The connector is a standard JST-XH 2 pins.
 The ruler format provides great flexibility on how it may be deployed.""" ;
-    okh:hardwareLicense "CERN" ;
     okh:licensor "Jacopo Franco" ;
-    okh:primaryType "IOT" ;
     okh:repo <https://certification.oshwa.org/uk000010.html> ;
     okh:repoHost "certification.oshwa.org" ;
-    okh:softwareLicense "No software" ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
     okh:uploadMethod "auto" ;
     okh:version "3" ;

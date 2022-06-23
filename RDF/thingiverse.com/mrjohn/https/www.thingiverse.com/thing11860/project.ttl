@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A11860/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:GeordiLaForgesVisorstarTrek a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Geordi La Forge's Visor (Star Trek)" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """VISOR 1- DON'T USE. The front bars were too small and broke easily. Small head area. Support material was difficult to remove since it was at an x angle.\r
 \r
 VISOR 2- Improved the bars and made them slots. Still give a 1:1 view ratio. Widened the visor. Turned on to the Y axis so you can include "Support material" at the x. (Makes it easier to remove support)\r
@@ -28,6 +30,7 @@ Gearbest- https://www.gearbest.com/3d-printers-3d-printer-kits-c_11399/?lkid=130
     okh:repo <https://www.thingiverse.com/thing:11860> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:11860> .

@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A45277/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:UltimakerBottomFanReplacement a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Ultimaker bottom fan replacement" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "The default fan that comes with the Ultimaker 3D printer to cool the electronics mounted on the bottom is very loud. It makes a grinding noise. Atleast, for a lot of us it does. The fan is probably not ment to be up side or down or something. Anyway. It is so loud you probably want to replace it by something else. I used two 60mm fans to replace it with some very simple mounts. I have seen replacements as large as the original wooden plate. I like to use the fans to bridge space from M3 screw hole to M3 screw hole to mount on, instead of printed parts. It is a quick and dirty solution. But this is not something you want to print, but rather something you need to print to reduce the noise. Beware that these fans offer less protection to your electronics than the original wooden plate. Just make sure your electronic parts will never be in need of protection. I printed it in ABS and I am surprised by the strength of the overall construction. You could probably create better mounts/clips than these, as these are not parametric. But this 'thing' is more about sharing the idea of such simple but effective construction." ;
     okh:hasImage :Image ;
     okh:licensor "mikedeklerk" ;
     okh:repo <https://www.thingiverse.com/thing:45277> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:45277> .

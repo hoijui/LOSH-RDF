@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A63672/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:EarHookForSamsungBluetoothRemix a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Ear Hook for Samsung Bluetooth - Remix" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Replacement ear hook for Samsung Bluetooth ear pieces.  Samsung ships it with a spare hook because they know it will break in 6 months.  Why buy more when you can print them?\r
 \r
 Remixed because:\r
@@ -26,6 +28,7 @@ What's different:\r
     okh:repo <https://www.thingiverse.com/thing:63672> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:63672> .

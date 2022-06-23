@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A23896/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MythicalHydraFigurine a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Mythical Hydra Figurine" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I first started making this model years ago, before I even heard of 3D printing, to serve as a mascot to my high school band, HydraPlayn (yes, my dad and I came up with that name driving on a rainy day, no we weren't a particularly serious band, and yes...we were extremely awesome).  Unfortunately, I was never able to finish it in time to put it onto any graphics before I had to leave for college.  Since then, it has just been a little pet project to practice my 3D modeling skills.  When my father and I got a 3D printer, however, I knew that I had to print this out.  After a few modifications to make it printer-friendly, the hydra lives!\r
 \r
 Use this Hydra figurine, depicting the mythical multi-headed beast bickering among itself, to make any space more lively.  Set it up in the kitchen as a decoration, in the bedroom to guard you while you sleep, or hide it in a rival's locker to scare the Hades out of them.""" ;
@@ -14,6 +16,7 @@ Use this Hydra figurine, depicting the mythical multi-headed beast bickering amo
     okh:repo <https://www.thingiverse.com/thing:23896> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:23896> .

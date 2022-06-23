@@ -2,21 +2,15 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:BeagleboneAi a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "BeagleBone AI" ;
-    okh:additionalType "['Education']" ;
-    okh:certificationDate "2019-09-06T00:00:00-04:00" ;
-    okh:country "United States of America" ;
     okh:dataSource "oshwa.org" ;
     okh:documentationLanguage "en" ;
-    okh:documentationLicense "CC BY-SA" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function "Fast track to Embedded Artificial Intelligence. Based on the Texas Instruments AM5729, developers have access to the powerful SoC with the ease of BeagleBone® Black header and mechanical compatibility. BeagleBone® AI makes it easy to explore how artificial intelligence (AI) can be used in everyday life via the TI C66x digital-signal-processor (DSP) cores and embedded-vision-engine (EVE) cores supported through an optimized TIDL machine learning OpenCL API with pre-installed tools." ;
-    okh:hardwareLicense "Other" ;
     okh:licensor "BeagleBoard.org Foundation" ;
-    okh:primaryType "Electronics" ;
     okh:repo <https://certification.oshwa.org/us000169.html> ;
     okh:repoHost "certification.oshwa.org" ;
-    okh:softwareLicense "Other" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
     okh:uploadMethod "auto" ;
     okh:version "A1" ;

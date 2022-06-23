@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A3764/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:20OzBottleHolder a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "20 oz bottle holder" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "This bottle clip helps me carry my requisite 20oz bottle of Diet Mountain Dew.  It also works on the Deer Park water bottles that my wife likes.  If you carry one of those bottles between your fingers it can hurt on a long hike.  This solution is a little more fun and a lot more comfortable on the fingers." ;
     okh:hasImage :Image ;
     okh:licensor "Stefan" ;
     okh:repo <https://www.thingiverse.com/thing:3764> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:3764> .

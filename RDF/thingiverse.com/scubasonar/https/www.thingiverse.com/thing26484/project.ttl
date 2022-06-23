@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A26484/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:RainGutterVerticalGarden a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Rain Gutter Vertical Garden" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a bracket for attaching rain gutters to walls for vertical gardening. You can fill the gutter with dirt and grow that way or fill it with rocks and use it for hydroponics or aquaponics. However you like to grow your food just make sure to grow more of it! \r
 \r
 Video of the system in action: https://vimeo.com/45814238""" ;
@@ -14,6 +16,7 @@ Video of the system in action: https://vimeo.com/45814238""" ;
     okh:repo <https://www.thingiverse.com/thing:26484> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:26484> .

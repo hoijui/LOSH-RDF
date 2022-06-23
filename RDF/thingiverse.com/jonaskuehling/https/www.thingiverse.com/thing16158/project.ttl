@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A16158/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:SlimLm8uuHolderParametric a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Slim LM8UU Holder Parametric" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Slim, revised variant of jridley's parametric ziptieless SCAD LM8UU holder.\r
 \r
 I never liked snap fit solutions for parts that rely on precision. In particular the current Prusa design uses two different ideas for LM8UU holders which either lead to heavy warping of the whole part when inserting the linear bearings because of a very tight fit (e.g. x ends) or snap in easily (in case you don't brake them..) but leave a faily loose fit needing additional zip ties to fasten them (e.g. x carriage).\r
@@ -20,6 +22,7 @@ Update V1.1 (2012-01-23);\r
     okh:repo <https://www.thingiverse.com/thing:16158> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:16158> .

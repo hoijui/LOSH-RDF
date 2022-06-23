@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A5585/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:BaltimoreNodeLogounicorn a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Baltimore Node logo (Unicorn)" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I felt that it was about time Baltimore Node had a Unicorn-plottable logo! You can learn more about this awesome hackerspace at baltimorenode.org.\r
 \r
 I've attached all the files I used to create the G-Code for this thing, which tells the story of how you can make your own:\r
@@ -24,6 +26,7 @@ I used Pleasant3D for its excellent G-Code preview capabilities to check that ev
     okh:repo <https://www.thingiverse.com/thing:5585> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:5585> .

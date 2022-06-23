@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A18297/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:3dPrintableCaricatureBustOfMarkFrauenfelder a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "3D Printable Caricature bust of Mark Frauenfelder" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I sculpted this bust of Mark in Zbrush.  Check out a quick video of the textured version here:\r
 http://www.youtube.com/watch?v=vzc4k9FCY7g\r
 \r
@@ -17,6 +19,7 @@ Printed model is suitable for painting and displaying with pride.""" ;
     okh:repo <https://www.thingiverse.com/thing:18297> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:18297> .

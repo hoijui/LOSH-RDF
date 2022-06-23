@@ -2,21 +2,15 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:AdafruitMonsterM4skDiyElectronicEyesMask a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Adafruit MONSTER M4SK - DIY Electronic Eyes Mask" ;
-    okh:additionalType "['Electronics']" ;
-    okh:certificationDate "2020-04-24T00:00:00-04:00" ;
-    okh:country "United States of America" ;
     okh:dataSource "oshwa.org" ;
     okh:documentationLanguage "en" ;
-    okh:documentationLicense "CC BY-SA" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function "The MONSTER M4SK is like the Hallowing but with two gorgeous 240x240 pixel IPS TFT displays, driven by a powerful 120MHZ Cortex M4 processor. This board has 4 JST plugs. The 2 3-pin JSTs connect to analog/timer pins on the SAMD51, so you can use them for sensors or GPIO devices. The 4-pin JST connector connects to the I2C port and you can fit Grove connectors in it. For the PDM mic port, you can use a breakout cable to wire to a PDM mic. Click the link labeled 'Project Website' to find out more." ;
-    okh:hardwareLicense "Other" ;
     okh:licensor "Adafruit Industries, LLC" ;
-    okh:primaryType "Electronics" ;
     okh:repo <https://certification.oshwa.org/us000328.html> ;
     okh:repoHost "certification.oshwa.org" ;
-    okh:softwareLicense "MIT" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
     okh:uploadMethod "auto" ;
     okh:version "Rev D" ;

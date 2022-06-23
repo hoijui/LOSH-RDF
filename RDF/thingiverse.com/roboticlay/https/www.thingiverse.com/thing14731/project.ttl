@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A14731/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:TinkerAMakerbotMascot a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Tinker a Makerbot Mascot" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """By a stroke of luck I heard about a makerbot mascot competition to win a Thing-O-Matic the same semester that I took a Solidworks class. Not bad for the first thing I ever modeled, the wrench is sized for 4-40 hex nuts.\r
 \r
 Crafted from the bottom up, I had this idea that the Mascot should have a back story. "A created creator born to build" I tried to imagine how I would build him every step of the way. Tinker's name eventually came from what he would do best, tinker with things.\r
@@ -16,6 +18,7 @@ Unfortunately I didn't win, Maybe next time ;) One day I'll print him out, maybe
     okh:repo <https://www.thingiverse.com/thing:14731> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:14731> .

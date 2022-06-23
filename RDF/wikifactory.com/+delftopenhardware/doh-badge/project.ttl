@@ -1,9 +1,10 @@
-@prefix : <https://wikifactory.com/+delftopenhardware/doh-badge/d53351b51eac92c2e3f3a315040133cefd7816cb/> .
+@prefix : <https://wikifactory.com/%2Bdelftopenhardware/doh-badge/d53351b51eac92c2e3f3a315040133cefd7816cb/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:DohBadge a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "D.O.H. Badge" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "A true PCB badge for Delft Open Hardware, with rainbow LED's!" ;
     okh:hasComponent :Dohbadge,
@@ -19,6 +20,7 @@
     okh:repo <https://wikifactory.com/+delftopenhardware/doh-badge> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
+    okh:uploadMethod "manifest" ;
     okh:version "d53351b51eac92c2e3f3a315040133cefd7816cb" ;
     okh:versionOf <https://wikifactory.com/+delftopenhardware/doh-badge> .
 
@@ -35,19 +37,19 @@
     rdfs:label "Export File of doh-badge of D.O.H. Badge d53351b51eac92c2e3f3a315040133cefd7816cb" ;
     okh:fileFormat "PRO" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/149235/doh-badge.pro> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDQyMzA=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/149235/doh-badge.pro> .
 
 :Dohbadge_export2 a okh:ExportFile ;
     rdfs:label "Export File of doh-badge of D.O.H. Badge d53351b51eac92c2e3f3a315040133cefd7816cb" ;
     okh:fileFormat "SCH" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/149235/doh-badge.sch> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDQyMjk=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/149235/doh-badge.sch> .
 
 :Dohbadge_source a okh:SourceFile ;
     rdfs:label "Source File of doh-badge of D.O.H. Badge d53351b51eac92c2e3f3a315040133cefd7816cb" ;
     okh:fileFormat "KICAD_PCB" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/149235/doh-badge.kicad_pcb> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDQyMzI=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/149235/doh-badge.kicad_pcb> .
 
 :Dohbadgeschematic a okh:Part ;
     rdfs:label "doh-badge-schematic" ;
@@ -60,7 +62,7 @@
     rdfs:label "Source File of doh-badge-schematic of D.O.H. Badge d53351b51eac92c2e3f3a315040133cefd7816cb" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/149235/doh-badge-schematic.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDQyNDA=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/149235/doh-badge-schematic.pdf> .
 
 :Ibom a okh:Part ;
     rdfs:label "ibom" ;
@@ -73,19 +75,19 @@
     rdfs:label "Source File of ibom of D.O.H. Badge d53351b51eac92c2e3f3a315040133cefd7816cb" ;
     okh:fileFormat "HTML" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/149235/ibom.html> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDQyMzk=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/149235/ibom.html> .
 
 :Image a okh:Image ;
     rdfs:label "Image of D.O.H. Badge d53351b51eac92c2e3f3a315040133cefd7816cb" ;
     okh:fileFormat "JPG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/149235/pxl_20210827_064518915.jpg> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDQyNDc=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/149235/pxl_20210827_064518915.jpg> .
 
 :Readme a okh:Readme ;
     rdfs:label "Readme of D.O.H. Badge d53351b51eac92c2e3f3a315040133cefd7816cb" ;
     okh:fileFormat "MD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/149235/readme-02e1f.md> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDQyMTU=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/149235/readme-02e1f.md> .
 
 :Usbb1hsb63dmodelstep56544 a okh:Part ;
     rdfs:label "USB-B1HSB6--3DModel-STEP-56544" ;
@@ -98,7 +100,7 @@
     rdfs:label "Source File of USB-B1HSB6--3DModel-STEP-56544 of D.O.H. Badge d53351b51eac92c2e3f3a315040133cefd7816cb" ;
     okh:fileFormat "STEP" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/149235/usb-b1hsb6-3dmodel-step-56544.STEP> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDQyMzM=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/149235/usb-b1hsb6-3dmodel-step-56544.STEP> .
 
 :Wemosminischematic a okh:Part ;
     rdfs:label "WEMOS-mini-schematic" ;
@@ -111,5 +113,5 @@
     rdfs:label "Source File of WEMOS-mini-schematic of D.O.H. Badge d53351b51eac92c2e3f3a315040133cefd7816cb" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/149235/wemos-mini-schematic.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NDQyMTc=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/149235/wemos-mini-schematic.pdf> .
 

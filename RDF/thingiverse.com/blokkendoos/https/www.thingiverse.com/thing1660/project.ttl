@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A1660/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:NanotecStepperdriverBreakout a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Nanotec stepperdriver breakout" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """In case you want to use the Nanotec stepperdriver boards for your 3D, e.g. RepRap, printer, this board might be of use. It provides for the recommended capacitor and connectors for (AMP) Power, steppermotoer, and Min/Max sensors. Use it for the X, Y, Z and (optionally) extruder steppermotors.\r
 The nanotec board provides microstepping (1/8 or 1/16 for SMC11 or SMC11-2 respectively)\r
 \r
@@ -17,6 +19,7 @@ Attached is a PCB version as well as a Veroboard layout.""" ;
     okh:repo <https://www.thingiverse.com/thing:1660> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:1660> .

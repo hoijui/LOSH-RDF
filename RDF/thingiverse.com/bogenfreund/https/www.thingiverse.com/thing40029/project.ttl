@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A40029/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:HotshoemountableHolderForArduinoUno a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Hotshoe-mountable holder for Arduino Uno" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "This is a carrier plate for mounting an Arduino to a camera. The holder is designed to match the layout of the Arduino Uno (tested with revision 2) and fits into the standardized hot shoe mounting point most cameras feature (usually for attaching flash devices). The carrier plate also has an extension for holding a 9V battery. You can use the holder if you want to connect your Arduino to a camera, for example for building a remote control or similar devices." ;
     okh:hasImage :Image ;
     okh:licensor "bogenfreund" ;
     okh:repo <https://www.thingiverse.com/thing:40029> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:40029> .

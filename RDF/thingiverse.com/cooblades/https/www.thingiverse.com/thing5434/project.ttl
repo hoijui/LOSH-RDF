@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A5434/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ModularDiyPhotobooth a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Modular DIY Photobooth" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """For my wedding in October 2011 I asked my fiance if I could build something, she only asked that it not be tacky. This is what I came up with. It's a modular folding photo booth. I designed the model in Sketchup, programmed it in Autoit, and gave it a nice Glados voice. I needed an input device and I decided to make a serial comm button. I took a 555 timer and made it generate a 4.8kHz square wave. At 9600 baud this translates to UUUUUUUU plus one garbage character when the button is released. for now it only uses a Webcam to take photos but hopefully I will be find a deal on a canon power shot sometime in the next months to upgrade it. Since the printouts are resized, the small webcam resolution isn't noticable, however it won't be suitable if i wanted to incorporate the singles frames into a album. I'm working on some upgrades using the twitter api so I can have the booth update me whenever it is taking photos. This way I can tell it's status and share photos easier. \r
 \r
 \r
@@ -17,6 +19,7 @@ http://www.youtube.com/watch?v=jNGg821bC7c""" ;
     okh:repo <https://www.thingiverse.com/thing:5434> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:5434> .

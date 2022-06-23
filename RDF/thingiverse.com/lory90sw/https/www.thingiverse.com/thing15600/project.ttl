@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A15600/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:GladioRomano a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Gladio Romano" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """it's a  3d Replica of the orgininal Galdio Romano of the Ancient Rome\r
 The size of the blade is about 40 cm\r
 It's Strenght enought to engage a real battle!! XDXD\r
@@ -15,6 +17,7 @@ the File Impungatura is a netfab fixed  version of the Grip of this: http://www.
     okh:repo <https://www.thingiverse.com/thing:15600> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:15600> .

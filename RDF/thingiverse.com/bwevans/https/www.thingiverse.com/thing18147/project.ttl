@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A18147/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MosaicFanOnFan a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Mosaic Fan on Fan" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "Another attempt at making a fan mount for the second fan that's included in the Mosaic kit but is lacking any hardware. Really useful for printing PLA!" ;
     okh:hasImage :Image ;
     okh:licensor "bwevans" ;
     okh:repo <https://www.thingiverse.com/thing:18147> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:18147> .

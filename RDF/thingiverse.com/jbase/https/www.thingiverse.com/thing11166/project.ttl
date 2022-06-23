@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A11166/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:CupcakeZstageF01 a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Cupcake Z-Stage F-01" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a small part that you use to fix the Z-Stage on the four threaded rods. Cupcake CNC developers only included 4 of them, fixing the Z-Stage from the top. However, it is useful to fix it also from the bottom to prevent it 'jumping off' the nuts. I found the DXF on thingiverse, however for some reason I failed to convert it to STL miserably. :) \r
 \r
 So I created this part myself using a real-world ruler and openScad (openScad is a damn cool piece of software that uses simple programming language to create 3D parts). Here is the openScad source if you wanna play with it:\r
@@ -52,6 +54,7 @@ Enjoy!""" ;
     okh:repo <https://www.thingiverse.com/thing:11166> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:11166> .

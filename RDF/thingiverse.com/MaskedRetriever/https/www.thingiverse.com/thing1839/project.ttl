@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A1839/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:SculptModeStartPoints a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Sculpt Mode Start Points" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """The Sculpt Mode in Blender has been upgraded pretty significantly for 2.5!\r
 \r
 To celebrate, I've uploaded some .blend files which are already set up for sculpting.  There'll be a tutorial on the Thingiverse Blog later, but if you've used Blender to do a few things like model scaling, opening one of these in 2.5 should be mostly self-explanatory.\r
@@ -16,6 +18,7 @@ The different files represent different shapes to use as start points.  They all
     okh:repo <https://www.thingiverse.com/thing:1839> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:1839> .

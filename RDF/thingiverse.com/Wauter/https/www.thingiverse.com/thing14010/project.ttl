@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A14010/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ImprovisedHotGlueHobbingJig a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Improvised hot glue hobbing jig" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I found the process of putting together my first 3D printer without access to a workshop or another 3D printer rather straightforward, except when it came to hobbing the bolt for wade's extruder.. So I thought this might be worth sharing\r
 \r
 You can easily put together a basic hobbing jig using just hot glue, bbq skewers and a cooking pot (or any solid surface :)""" ;
@@ -14,6 +16,7 @@ You can easily put together a basic hobbing jig using just hot glue, bbq skewers
     okh:repo <https://www.thingiverse.com/thing:14010> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:14010> .

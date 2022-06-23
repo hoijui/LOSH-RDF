@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A38802/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:SymmetricalCompliantZcoupler a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Symmetrical compliant Z-coupler" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "This coupler clamps directly to the lead screw, while also clamping to the motor via a rubber tube slipped over the shaft. This gives some tolerance to misalignment or bent screws without causing Z position errors like a springy helical coupler. It's just a tweak of Triffid Hunter's great iteration; in previous generations of the part, the clamping screws conflicted with the rubber tubing if the lead screw was smaller than the tubing O.D. This just locates the clamp screws relative to the larger of the tubing OD or the lead screw diameter, thus working with narrower screws (such as my 6.35mm ones) or thicker-walled tubing." ;
     okh:hasImage :Image ;
     okh:licensor "bluecoast" ;
     okh:repo <https://www.thingiverse.com/thing:38802> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:38802> .

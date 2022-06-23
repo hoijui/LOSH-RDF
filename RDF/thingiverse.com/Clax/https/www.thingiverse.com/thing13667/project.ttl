@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A13667/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:EnclosureWithFanGen6 a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Enclosure with fan Gen6" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """An enclosure for Gen 6 is not nothing new. Even other people have designed cooling systems for "GEN6 electronics" http://www.thingiverse.com/thing:12302, but this provides some additional feature.\r
 The air flow is conveyed on the GEN6 heatsinks, and in particular, with two wings (Fig. 3 and 4), concentrated on the heatsink of the extruder motor. This is because it is the most critical, that heat up more.\r
 Even the air outlet holes are more focused on that side to facilitate cooling.\r
@@ -19,6 +21,7 @@ This project requires a 40mm fan, four 3mm screws and two 2mm screws (like wood)
     okh:repo <https://www.thingiverse.com/thing:13667> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:13667> .

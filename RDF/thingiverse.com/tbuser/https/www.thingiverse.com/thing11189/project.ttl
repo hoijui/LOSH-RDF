@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A11189/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ToyRobotToolkit a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Toy Robot Toolkit" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a library of useful connectors and parts that can be mixed and matched to create interesting linkages and body shapes for toy robots.  I'll be adding new bits and pieces to this over time.\r
 \r
 Uses OpenSCAD so everything is parametric and hackable to make your own custom parts that snap together using all plastic pin connectors.\r
@@ -18,6 +20,7 @@ It's a kind of evolution of my Mars Exploration Rover http://www.thingiverse.com
     okh:repo <https://www.thingiverse.com/thing:11189> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:11189> .

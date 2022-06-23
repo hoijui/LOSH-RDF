@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A2648/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PumpingStationOneLogo a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Pumping Station: One Logo " ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is the logo for Pumping Station: One.  It is a medallion for a necklace or a give-a-way for guests.  I am currently trying to build a reprap machine for the hackerspace and would love for this to be the first object it prints.  This could also be made with a laser cutter too if you modify the stl.  Maybe even white acrylic and call it a snowflake and make Christmas ornaments out of it.  Feel free to print one out before I do.  Let me know how it goes.\r
 \r
 www.pumpingstationone.org""" ;
@@ -14,6 +16,7 @@ www.pumpingstationone.org""" ;
     okh:repo <https://www.thingiverse.com/thing:2648> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:2648> .

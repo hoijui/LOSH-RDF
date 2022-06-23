@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A49211/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:DragonHead a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Dragon Head" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "This is a 3d Scan of a dragon head sculpture we made in clay, it was to test our new nextengine 3d scanner,  The actual item stands 12 inches and is 6.5 inches across at the widest points.  I'm giving this info in case the amount of plastic used to print is of concern.  We have a Han Solo frozen in Carbonite that was actually gift wrap we made for an Ipad mini that I will scan and put up if anyone is interested, we're still learning how to use the scanner and are having difficulty with that model." ;
     okh:hasImage :Image ;
     okh:licensor "falken76" ;
     okh:repo <https://www.thingiverse.com/thing:49211> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:49211> .

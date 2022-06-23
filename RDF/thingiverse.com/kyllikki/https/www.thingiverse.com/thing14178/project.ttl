@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A14178/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:KeyboardBatteryCover a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Keyboard battery cover" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Battery cover for Logitech EX110 wireless keyboard.\r
 My kids are really hard on keyboards, they recently managed to loose the battery cover for this one, so I designed a new one in scad. The print is ok but orange was possibly not the best colour selection!\r
 The SCAD file is parametrised so might be usable for other battery cover requirements.""" ;
@@ -14,6 +16,7 @@ The SCAD file is parametrised so might be usable for other battery cover require
     okh:repo <https://www.thingiverse.com/thing:14178> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/BSD-4-Clause> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:14178> .

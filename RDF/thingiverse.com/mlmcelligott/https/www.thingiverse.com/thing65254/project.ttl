@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A65254/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:CreatrFilamentGuide a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Creatr filament guide" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "I was getting annoyed when the filament tube was getting kinked every time it passed under the top cover near the rear of the my creatr bed so I designed this guide to stop it getting kinked." ;
     okh:hasImage :Image ;
     okh:licensor "mlmcelligott" ;
     okh:repo <https://www.thingiverse.com/thing:65254> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:65254> .

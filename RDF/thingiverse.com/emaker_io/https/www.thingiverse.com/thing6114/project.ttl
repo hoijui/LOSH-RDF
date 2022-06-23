@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A6114/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PcbHeatbedForHuxley a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "PCB Heatbed for Huxley" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a PCB Heatbed for the eMAKER Huxley, but should work on any 3D printer which has a 140x140mm print area.\r
 \r
 Thanks to prusajr for the information provided in his PCB heatbed, thing:2172, from which this thing is derived.\r
@@ -16,6 +18,7 @@ Track widths are set to give 4.5Ohms at 25C, rising to 6.6Ohms at 150C (for stan
     okh:repo <https://www.thingiverse.com/thing:6114> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:6114> .

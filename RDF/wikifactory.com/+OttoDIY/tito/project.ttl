@@ -2,16 +2,16 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Tito a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Tito" ;
     okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "Arduino UNO 3D Printable biped robot, Tito is a Biped dancing DIY robot, has been adapted to an standard Arduino UNO board with easier connections and supports. It was the first design iteration for +OttoDIY." ;
-    okh:hasComponent :3dPrintedFilestitobase,
-        :3dPrintedFilestitofootl,
-        :3dPrintedFilestitofootr,
-        :3dPrintedFilestitohead,
-        :3dPrintedFilestitoleg,
+    okh:hasComponent :3dprintedfilestitobase,
+        :3dprintedfilestitofootl,
+        :3dprintedfilestitofootr,
+        :3dprintedfilestitohead,
+        :3dprintedfilestitoleg,
         :Cadtitov01 ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
@@ -25,70 +25,70 @@
     okh:version "c3e4a51e8e24675d8749faffb37a4b53223e8b82" ;
     okh:versionOf <https://wikifactory.com/+OttoDIY/tito> .
 
-:3dPrintedFilestitobase a okh:Part ;
+:3dprintedfilestitobase a okh:Part ;
     rdfs:label "3D Printed Files/Tito_base" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Camilo Parra Palacio" ;
-    okh:source :3dPrintedFilestitobase_source ;
+    okh:source :3dprintedfilestitobase_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:3dPrintedFilestitobase_source a okh:SourceFile ;
+:3dprintedfilestitobase_source a okh:SourceFile ;
     rdfs:label "Source File of 3D Printed Files/Tito_base of Tito c3e4a51e8e24675d8749faffb37a4b53223e8b82" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1341/titobase.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMzQxNw==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1341/titobase.stl> .
 
-:3dPrintedFilestitofootl a okh:Part ;
+:3dprintedfilestitofootl a okh:Part ;
     rdfs:label "3D Printed Files/Tito_footL" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Camilo Parra Palacio" ;
-    okh:source :3dPrintedFilestitofootl_source ;
+    okh:source :3dprintedfilestitofootl_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:3dPrintedFilestitofootl_source a okh:SourceFile ;
+:3dprintedfilestitofootl_source a okh:SourceFile ;
     rdfs:label "Source File of 3D Printed Files/Tito_footL of Tito c3e4a51e8e24675d8749faffb37a4b53223e8b82" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1341/titofootl.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMzQyMA==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1341/titofootl.stl> .
 
-:3dPrintedFilestitofootr a okh:Part ;
+:3dprintedfilestitofootr a okh:Part ;
     rdfs:label "3D Printed Files/Tito_footR" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Camilo Parra Palacio" ;
-    okh:source :3dPrintedFilestitofootr_source ;
+    okh:source :3dprintedfilestitofootr_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:3dPrintedFilestitofootr_source a okh:SourceFile ;
+:3dprintedfilestitofootr_source a okh:SourceFile ;
     rdfs:label "Source File of 3D Printed Files/Tito_footR of Tito c3e4a51e8e24675d8749faffb37a4b53223e8b82" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1341/titofootr.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMzQxOQ==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1341/titofootr.stl> .
 
-:3dPrintedFilestitohead a okh:Part ;
+:3dprintedfilestitohead a okh:Part ;
     rdfs:label "3D Printed Files/Tito_head" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Camilo Parra Palacio" ;
-    okh:source :3dPrintedFilestitohead_source ;
+    okh:source :3dprintedfilestitohead_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:3dPrintedFilestitohead_source a okh:SourceFile ;
+:3dprintedfilestitohead_source a okh:SourceFile ;
     rdfs:label "Source File of 3D Printed Files/Tito_head of Tito c3e4a51e8e24675d8749faffb37a4b53223e8b82" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1341/titohead.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMzQyMQ==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1341/titohead.stl> .
 
-:3dPrintedFilestitoleg a okh:Part ;
+:3dprintedfilestitoleg a okh:Part ;
     rdfs:label "3D Printed Files/Tito_leg" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Camilo Parra Palacio" ;
-    okh:source :3dPrintedFilestitoleg_source ;
+    okh:source :3dprintedfilestitoleg_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:3dPrintedFilestitoleg_source a okh:SourceFile ;
+:3dprintedfilestitoleg_source a okh:SourceFile ;
     rdfs:label "Source File of 3D Printed Files/Tito_leg of Tito c3e4a51e8e24675d8749faffb37a4b53223e8b82" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1341/titoleg.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMzQxOA==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1341/titoleg.stl> .
 
 :Cadtitov01 a okh:Part ;
     rdfs:label "CAD/TITO_v01" ;
@@ -101,17 +101,17 @@
     rdfs:label "Source File of CAD/TITO_v01 of Tito c3e4a51e8e24675d8749faffb37a4b53223e8b82" ;
     okh:fileFormat "STP" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1341/titov01.stp> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyNzY4NTc=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1341/titov01.stp> .
 
 :Image a okh:Image ;
     rdfs:label "Image of Tito c3e4a51e8e24675d8749faffb37a4b53223e8b82" ;
     okh:fileFormat "JPG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1341/fp3r7ggivo3xlyilarge-0.jpg> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxMzQxMg==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1341/fp3r7ggivo3xlyilarge-0.jpg> .
 
 :Readme a okh:Readme ;
     rdfs:label "Readme of Tito c3e4a51e8e24675d8749faffb37a4b53223e8b82" ;
     okh:fileFormat "MD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1341/readme-db0ce.md> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozNTAyODE=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/1341/readme-db0ce.md> .
 

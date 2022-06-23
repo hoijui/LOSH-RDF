@@ -2,21 +2,15 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Adxl3355vReadyTripleaxisAccelerometer3gAnalogOut a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "ADXL335 - 5V ready triple-axis accelerometer (+-3g analog out)" ;
-    okh:additionalType "['Electronics']" ;
-    okh:certificationDate "2020-05-08T00:00:00-04:00" ;
-    okh:country "United States of America" ;
     okh:dataSource "oshwa.org" ;
     okh:documentationLanguage "en" ;
-    okh:documentationLicense "CC BY-SA" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function "This breakout comes with 3 analog outputs for X, Y and Z axis measurements on a 0.75\"x0.75\" breakout board. The VCC takes up to 5V in and regulates it to 3.3V with an output pin. The analog outputs are ratiometric: that means that 0g measurement output is always at half of the 3.3V output (1.65V), -3g is at 0v and 3g is at 3.3V with full scaling in between. Click the link labeled 'Project Website' to find out more." ;
-    okh:hardwareLicense "Other" ;
     okh:licensor "Adafruit Industries, LLC" ;
-    okh:primaryType "Electronics" ;
     okh:repo <https://certification.oshwa.org/us000561.html> ;
     okh:repoHost "certification.oshwa.org" ;
-    okh:softwareLicense "MIT" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
     okh:uploadMethod "auto" ;
     okh:version "Rev A" ;

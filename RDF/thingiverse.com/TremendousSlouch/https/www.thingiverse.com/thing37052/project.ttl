@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A37052/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:TugBoat a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Tug Boat" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "This is a toy tug boat that I built when showing how to use Autodesk 123D on my YouTube channel. It turned out to be a pretty cool and simple little 3D print, so I thought I would share." ;
     okh:hasImage :Image ;
     okh:licensor "TremendousSlouch" ;
     okh:repo <https://www.thingiverse.com/thing:37052> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:37052> .

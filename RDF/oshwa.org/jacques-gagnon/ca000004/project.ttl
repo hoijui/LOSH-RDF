@@ -2,21 +2,15 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Blueretro a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "BlueRetro" ;
-    okh:certificationDate "2020-10-11T00:00:00-04:00" ;
-    okh:country "Canada" ;
-    okh:cpcPatentClass "" ;
     okh:dataSource "oshwa.org" ;
     okh:documentationLanguage "en" ;
-    okh:documentationLicense "CC BY" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function "BlueRetro is a multiplayer Bluetooth controllers adapter for various retro game consoles. The project is open source hardware & software under the CERN-OHL-P-2.0 & Apache-2.0 licenses respectively. It's built for the popular ESP32 chip. Wii, Switch, PS3, PS4, Xbox One & generic HID Bluetooth devices are supported. NES, SNES, Saturn, JVS (Arcade), N64, GameCube & Dreamcast are supported with simultaneous 4+ players using a single adapter." ;
-    okh:hardwareLicense "CERN" ;
     okh:licensor "Jacques Gagnon" ;
-    okh:primaryType "Other" ;
     okh:repo <https://certification.oshwa.org/ca000004.html> ;
     okh:repoHost "certification.oshwa.org" ;
-    okh:softwareLicense "Apache" ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
     okh:uploadMethod "auto" ;
     okh:version "1.1" ;

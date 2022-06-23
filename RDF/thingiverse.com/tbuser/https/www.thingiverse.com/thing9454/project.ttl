@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A9454/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Parametric27To1Gearset a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Parametric 27 to 1 Gearset" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """The original had tolerences that were too loose when printed on my Thing-O-Matic, so I started re-writing the frame in OpenSCAD.  This fits together perfectly on my printer and works great.  It all snaps together nice and tight and turns smoothly - all plastic no screws!  I also added a hand crank to make it easier to turn.  This makes an awesome demo object!\r
 \r
 Here's a video of it in action: http://www.youtube.com/watch?v=g73Gw_hJUnE""" ;
@@ -14,6 +16,7 @@ Here's a video of it in action: http://www.youtube.com/watch?v=g73Gw_hJUnE""" ;
     okh:repo <https://www.thingiverse.com/thing:9454> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:9454> .

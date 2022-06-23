@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A9013/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:20mmPlasticTslotExtrusionoutDated a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "20mm Plastic T-Slot Extrusion (Out Dated)" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is an old release, the new release is located here. thingiverse.com/thing:10261\r
 \r
 Aluminum T-slot  extrusion is great, it is also expensive and your required project does not always call for the strength or weight of aluminum. This is a prerelease of a 20mm plastic T-slot profile we are in the process of having manufactured. It is designed for use with M3 nuts and bolts and the dimensions have been modified for printing. The small insert holds two captive nuts to aid in bolting down faceplates and accessories. Expect faceplates, brackets, hinges, handles and many other accessories to be uploaded in the coming days.""" ;
@@ -14,6 +16,7 @@ Aluminum T-slot  extrusion is great, it is also expensive and your required proj
     okh:repo <https://www.thingiverse.com/thing:9013> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:9013> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A4189/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PfierceRoboticBuildPlatformVer10 a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Pfierce Robotic Build Platform ver1.0" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """The PRBP is a derivative of the MBI ABP 1.0 and the Printable ABP. It can be printed and used to do continuous printing, to turn your bot into a desktop factory.\r
 \r
 It features a 100mm x 100mm build platform and a tensioner, plus you get to keep your cool LED's and last but not least... all the pfierceness you'll ever need with it's awesome teeth!\r
@@ -24,6 +26,7 @@ Happy printing and check back for updates.""" ;
     okh:repo <https://www.thingiverse.com/thing:4189> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:4189> .

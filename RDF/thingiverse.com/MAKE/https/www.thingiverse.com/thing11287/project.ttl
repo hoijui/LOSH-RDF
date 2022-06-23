@@ -1,12 +1,14 @@
 @prefix : <https://www.thingiverse.com/thing%3A11287/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MakeysTrophy2011 a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Makeys Trophy 2011" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
-    okh:function """MAKE magazine is excited to have completed nominations for the first annual MAKE Magazine Industry Maker Awards, AKA â€œThe Makeys.â€ Over the course of the past 12 weeks, leading up to our award ceremony on September 16 at Maker Faire New York 2011 (to be webcast live from New York City), MAKE has nominated (and published online profiles of) 12 companies that have shown outstanding support for independent maker/hacker culture. Three companies/products have been nominated in four categories.\r
+    okh:documentationReadinessLevel otrl:Odrl3 ;
+    okh:function """MAKE magazine is excited to have completed nominations for the first annual MAKE Magazine Industry Maker Awards, AKA â€œThe Makeys.â€x9d Over the course of the past 12 weeks, leading up to our award ceremony on September 16 at Maker Faire New York 2011 (to be webcast live from New York City), MAKE has nominated (and published online profiles of) 12 companies that have shown outstanding support for independent maker/hacker culture. Three companies/products have been nominated in four categories.\r
 \r
 This year, the physical trophies will be produced in collaboration with Thingiverse.com (the 3D object sharing site), and manufactured by MakerBot Industries (3D printer manufactures).\r
 \r
@@ -18,6 +20,7 @@ Trophy design by Jonathan Monaghan, printed by Matt Griffin, based on an illustr
     okh:repo <https://www.thingiverse.com/thing:11287> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:11287> .

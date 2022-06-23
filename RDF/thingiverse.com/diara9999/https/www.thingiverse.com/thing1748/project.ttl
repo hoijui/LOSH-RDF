@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A1748/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:GenericWristmount a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Generic wristmount" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is my first experiment with openscad and my first thing in thingiverse! Just uploaded a test export. It should definitely be printable, but not very useful without any attachments :) Suggestions regarding the dimensions to standardize on for the attachment slot are welcome. I will add the option to put opposing magnets as a locking mechanism.\r
 \r
 Update: Put up a prettier export, and a pic with the new color theme available in OpenScad.\r
@@ -20,6 +22,7 @@ Update: Corrected the scale, it was off by a factor of 2. Added the magnet slot.
     okh:repo <https://www.thingiverse.com/thing:1748> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:1748> .

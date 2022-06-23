@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A24363/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:UltimakerExtruderMutliClip a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Ultimaker Extruder Mutli Clip" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This thing has moved to Youmagine: https://www.youmagine.com/designs/ultimaker-extruder-mutli-clip  
 
 This gadget clips onto the Bowden cable retainer on the top of the Ultimaker extruder. It makes retractions work considerably better (discussed here: http://groups.google.com/group/ultimaker/browse_thread/thread/7537389e8085beaf#)  
@@ -16,6 +18,7 @@ This is a different take on the remarkably effective and simple Quick Connect Sh
     okh:repo <https://www.thingiverse.com/thing:24363> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:24363> .

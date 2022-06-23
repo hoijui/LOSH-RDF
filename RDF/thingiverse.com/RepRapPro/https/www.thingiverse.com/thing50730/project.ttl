@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A50730/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ReprapproTricolourMendel a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "RepRapPro Tricolour Mendel" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "Here are all the 3D printed parts for the RepRapPro Ltd version of Mendel. This is a three-head machine, so it will do colour and multi-material printing.  But if you only want one colour, just leave off two extruders and drives, and the slave controller electronics..." ;
     okh:hasImage :Image ;
     okh:licensor "RepRapPro" ;
     okh:repo <https://www.thingiverse.com/thing:50730> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:50730> .

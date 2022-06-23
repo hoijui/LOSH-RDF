@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A56261/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:GoproHero3BareCase a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Gopro Hero 3 Bare Case" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Updated with a few cuttouts  
 
 Found i needed to scale up by 2% for ABS  
@@ -16,6 +18,7 @@ Gopro Hero 3 Bare Case""" ;
     okh:repo <https://www.thingiverse.com/thing:56261> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:56261> .

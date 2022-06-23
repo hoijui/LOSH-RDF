@@ -2,18 +2,18 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Univergo a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "UNIVErGO" ;
     okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "fr" ;
     okh:function "D'une situation particulière de handicap à des espaces de travail ergonomiques adaptés pour tous.A travers un processus innovant apporté par l'UBO Open Factory, ce projet propose une innovation d'usage et de processus au sein de l'UBO sur l'aménagement des espaces de travail" ;
-    okh:hasComponent :BoiteACrayonAvecSupport,
-        :EtagereAvecEquerre,
-        :Etagère3Parties,
-        :EtagèreTriangulaire,
-        :EtagèreTriangulaire10mm,
-        :Supportdetelephoneboiterectangulaire25x40cm5mm,
-        :SupportÉcran ;
+    okh:hasComponent :Boiteacrayonavecsupport,
+        :Etagereavecequerre,
+        :Etagre3parties,
+        :Etagretriangulaire,
+        :Etagretriangulaire10mm,
+        :Supportcran,
+        :Supportdetelephoneboiterectangulaire25x40cm5mm ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "Yves QUERE" ;
@@ -26,82 +26,95 @@
     okh:version "6981a33768aa7204fe844bfa334660360a05bee8" ;
     okh:versionOf <https://wikifactory.com/+uboopenfactory/univergo> .
 
-:BoiteACrayonAvecSupport a okh:Part ;
+:Boiteacrayonavecsupport a okh:Part ;
     rdfs:label "boite a crayon avec support" ;
     okh:documentationLanguage "fr" ;
     okh:licensor "Alexandre PERETJATKO" ;
-    okh:source :BoiteACrayonAvecSupport_source ;
+    okh:source :Boiteacrayonavecsupport_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:BoiteACrayonAvecSupport_source a okh:SourceFile ;
+:Boiteacrayonavecsupport_source a okh:SourceFile ;
     rdfs:label "Source File of boite a crayon avec support of UNIVErGO 6981a33768aa7204fe844bfa334660360a05bee8" ;
     okh:fileFormat "SVG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40348/boite-a-crayon-avec-support.svg> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTI3MTk=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40348/boite-a-crayon-avec-support.svg> .
 
-:EtagereAvecEquerre a okh:Part ;
+:Etagereavecequerre a okh:Part ;
     rdfs:label "Etagere avec Equerre" ;
     okh:documentationLanguage "fr" ;
     okh:licensor "Alexandre PERETJATKO" ;
-    okh:source :EtagereAvecEquerre_source ;
+    okh:source :Etagereavecequerre_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:EtagereAvecEquerre_source a okh:SourceFile ;
+:Etagereavecequerre_source a okh:SourceFile ;
     rdfs:label "Source File of Etagere avec Equerre of UNIVErGO 6981a33768aa7204fe844bfa334660360a05bee8" ;
     okh:fileFormat "SVG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40348/etagere-avec-equerre.svg> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTI3MTc=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40348/etagere-avec-equerre.svg> .
 
-:Etagère3Parties a okh:Part ;
+:Etagre3parties a okh:Part ;
     rdfs:label "Etagère 3 parties" ;
     okh:documentationLanguage "fr" ;
     okh:licensor "Alexandre PERETJATKO" ;
-    okh:source :Etagère3Parties_source ;
+    okh:source :Etagre3parties_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:Etagère3Parties_source a okh:SourceFile ;
+:Etagre3parties_source a okh:SourceFile ;
     rdfs:label "Source File of Etagère 3 parties of UNIVErGO 6981a33768aa7204fe844bfa334660360a05bee8" ;
     okh:fileFormat "SVG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40348/etagère-3-parties.svg> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTI3MTg=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40348/etagère-3-parties.svg> .
 
-:EtagèreTriangulaire a okh:Part ;
+:Etagretriangulaire a okh:Part ;
     rdfs:label "Etagère triangulaire" ;
     okh:documentationLanguage "fr" ;
     okh:licensor "Alexandre PERETJATKO" ;
-    okh:source :EtagèreTriangulaire_source ;
+    okh:source :Etagretriangulaire_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:EtagèreTriangulaire10mm a okh:Part ;
+:Etagretriangulaire10mm a okh:Part ;
     rdfs:label "Etagère triangulaire-10mm" ;
     okh:documentationLanguage "fr" ;
     okh:licensor "Alexandre PERETJATKO" ;
-    okh:source :EtagèreTriangulaire10mm_source ;
+    okh:source :Etagretriangulaire10mm_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:EtagèreTriangulaire10mm_source a okh:SourceFile ;
+:Etagretriangulaire10mm_source a okh:SourceFile ;
     rdfs:label "Source File of Etagère triangulaire-10mm of UNIVErGO 6981a33768aa7204fe844bfa334660360a05bee8" ;
     okh:fileFormat "SVG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40348/etagère-triangulaire-10mm.svg> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTI3MTU=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40348/etagère-triangulaire-10mm.svg> .
 
-:EtagèreTriangulaire_source a okh:SourceFile ;
+:Etagretriangulaire_source a okh:SourceFile ;
     rdfs:label "Source File of Etagère triangulaire of UNIVErGO 6981a33768aa7204fe844bfa334660360a05bee8" ;
     okh:fileFormat "SVG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40348/etagère-triangulaire.svg> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTI3MTY=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40348/etagère-triangulaire.svg> .
 
 :Image a okh:Image ;
     rdfs:label "Image of UNIVErGO 6981a33768aa7204fe844bfa334660360a05bee8" ;
     okh:fileFormat "JPG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40348/img_5431.jpg> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMTgxMDc=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40348/img_5431.jpg> .
 
 :Readme a okh:Readme ;
     rdfs:label "Readme of UNIVErGO 6981a33768aa7204fe844bfa334660360a05bee8" ;
     okh:fileFormat "MD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40348/readme-c08de.md> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTI3MjI=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40348/readme-c08de.md> .
+
+:Supportcran a okh:Part ;
+    rdfs:label "Support écran" ;
+    okh:documentationLanguage "fr" ;
+    okh:licensor "Alexandre PERETJATKO" ;
+    okh:source :Supportcran_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Supportcran_source a okh:SourceFile ;
+    rdfs:label "Source File of Support écran of UNIVErGO 6981a33768aa7204fe844bfa334660360a05bee8" ;
+    okh:fileFormat "SVG" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40348/support-écran.svg> ;
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40348/support-écran.svg> .
 
 :Supportdetelephoneboiterectangulaire25x40cm5mm a okh:Part ;
     rdfs:label "supportDeTelephone-boiteRectangulaire-25x40cm_5mm" ;
@@ -114,18 +127,5 @@
     rdfs:label "Source File of supportDeTelephone-boiteRectangulaire-25x40cm_5mm of UNIVErGO 6981a33768aa7204fe844bfa334660360a05bee8" ;
     okh:fileFormat "SVG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40348/supportdetelephone-boiterectangulaire-25x40cm_5mm.svg> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTI3MTM=> .
-
-:SupportÉcran a okh:Part ;
-    rdfs:label "Support écran" ;
-    okh:documentationLanguage "fr" ;
-    okh:licensor "Alexandre PERETJATKO" ;
-    okh:source :SupportÉcran_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:SupportÉcran_source a okh:SourceFile ;
-    rdfs:label "Source File of Support écran of UNIVErGO 6981a33768aa7204fe844bfa334660360a05bee8" ;
-    okh:fileFormat "SVG" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40348/support-écran.svg> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTI3MTQ=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/40348/supportdetelephone-boiterectangulaire-25x40cm_5mm.svg> .
 

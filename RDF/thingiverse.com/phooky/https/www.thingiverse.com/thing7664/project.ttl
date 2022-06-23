@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A7664/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:LampshadeScript a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Lampshade script" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """By request, this is the famous, fabulous lampshade script. We've used it to produce lampshades, bracelets, faux ABS LPs, small storage cups, and in any situation where a hollow cylindrical or conical form optionally with a solid bottom is called for.\r
 \r
 This script takes an image file as input and produces a gcode file that will create a conical form of the specified parameters, with the image embossed on the surface. It's recommended that you use the -c flag, which will cause the form to be built as a single, continuous spiral.\r
@@ -24,6 +26,7 @@ Have fun!""" ;
     okh:repo <https://www.thingiverse.com/thing:7664> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:7664> .

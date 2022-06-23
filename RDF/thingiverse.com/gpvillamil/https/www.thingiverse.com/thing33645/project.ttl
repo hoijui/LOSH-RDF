@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A33645/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:FoldingMobilePhoneStand a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Folding mobile phone stand" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a little mobile phone stand, designed to fold into a compact package (about 2" x 2" x 1/4").\r
 \r
 Works with just about any mobile phone and case, and if it doesn't, feel free to alter the OpenSCAD file!""" ;
@@ -14,6 +16,7 @@ Works with just about any mobile phone and case, and if it doesn't, feel free to
     okh:repo <https://www.thingiverse.com/thing:33645> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:33645> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A66581/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:SingleSwitchMount a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Single Switch Mount" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I went to RadioShack and found a package of switches that had a nice click to them. All of them were expensive for a single one until I found one that would work for exactly what I needed. There was a slight notch in the hole so the switch stays in place.\r
 \r
 The one I found at my local RadoShack was this http://www.radioshack.com/product/index.jsp?productId=12688419 except it was a double pack for mounting in a vehicle.""" ;
@@ -14,6 +16,7 @@ The one I found at my local RadoShack was this http://www.radioshack.com/product
     okh:repo <https://www.thingiverse.com/thing:66581> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:66581> .

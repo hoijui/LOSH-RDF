@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A16149/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:SeigLatheHeadstockShim a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Seig Lathe headstock shim" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Seig Maker of basically all 7x10-7x12-7x14 lathes.\r
 \r
 The lathe that I purchased was short 1 spacer (between headstock gear and rear bearing) so I makerbotted one up, works fine so far, I believe this will last just fine, could also use for front bearing to gear spacer.""" ;
@@ -14,6 +16,7 @@ The lathe that I purchased was short 1 spacer (between headstock gear and rear b
     okh:repo <https://www.thingiverse.com/thing:16149> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:16149> .

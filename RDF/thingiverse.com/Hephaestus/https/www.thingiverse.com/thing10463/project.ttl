@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A10463/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Makerbot1KgSpoolHolderMashup a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Makerbot 1 kg Spool Holder Mashup" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I have been trying out some of the various spool holder designs on Thingiverse and none of them completely worked very well.  So I took the best features on what I tried so far and redesigned them to this form.  I have been very happy with it so far and I no longer worry about kinks in the plastic filament anymore. \r
 \r
 BTW...this design should allow you to mount 2 spools on your TOM at the same time.  If that is something you would like to do.""" ;
@@ -14,6 +16,7 @@ BTW...this design should allow you to mount 2 spools on your TOM at the same tim
     okh:repo <https://www.thingiverse.com/thing:10463> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:10463> .

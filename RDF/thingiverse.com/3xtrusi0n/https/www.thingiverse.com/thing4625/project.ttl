@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A4625/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:DualHeadMk5Extruder a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Dual Head MK5 Extruder" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "Since the new creation by iFeelBeta of the dissolvable PLA support material, I want to push it to the limit and throw it on the MakerBot for an even better upgrade to the MK5. I will be adding files periodically as they become perfected. The stl\\'s may have to be scaled up by ten times because AutoCAD inventor makes all stl\\'s smaller than they are exported. I have not made a rig to test this yet but so far it seems like it will work extremely well. Will be uploading firmware upgrades in about another 3 weeks or so ( bear with me because im not the greatest C++ coder for i\\'ve only been working in C++ for about 2 years). Also if anyone wants other files (including source in a little bit) can be uploaded in a couple of days." ;
     okh:hasImage :Image ;
     okh:licensor "3xtrusi0n" ;
     okh:repo <https://www.thingiverse.com/thing:4625> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:4625> .

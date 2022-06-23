@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A3347/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:BushingForSpool a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Bushing for Spool" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a bushing to fit a spool with a 1.5" (39mm) center hole.  The hole in the bushing is 1/4" (2.38mm).  This was made to work along with the spool holder posted by JadeKnight\r
 http://www.thingiverse.com/thing:3066""" ;
     okh:hasImage :Image ;
@@ -13,6 +15,7 @@ http://www.thingiverse.com/thing:3066""" ;
     okh:repo <https://www.thingiverse.com/thing:3347> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:3347> .

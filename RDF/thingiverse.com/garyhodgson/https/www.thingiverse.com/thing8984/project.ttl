@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A8984/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:FootForMinimendelhuxleyReprapPrinter a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Foot for Mini-Mendel/Huxley RepRap Printer" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """A small foot that can clip onto the 6mm bars of a Mini-Mendel/Huxley RepRap printer.\r
 \r
 UPDATE 5.6.11: I should warn that I created these feet before constructing the Z axis, and it may be the case that these feet are too short with all the gears and mechanisms under the Z rods.  At the moment there are a few millimeters clearance, but I have not yet installed the motors or Z rods completely.  I will update this description once I complete the build.\r
@@ -19,6 +21,7 @@ This part was made with Tinkercad. Edit the part online at: https://tinkercad.co
     okh:repo <https://www.thingiverse.com/thing:8984> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:8984> .

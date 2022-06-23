@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A14878/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:CubeInSphere a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Cube in Sphere" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This may not be a new invention, but I've never seen it before.  It's a cube trapped inside a sphere (ball), and prints well.  Just for your information, the opposite corners of the cube are the same dimension as the outside radius of the sphere.\r
 \r
 I printed this in the same scale as presented here, and did so with full support enabled.  I also printed it without the base structure you see here in these files.  I also printed it with no rafting, since I was doing full interior & exterior support.  It turned out OK, but took awhile to clean up even with a new Xacto knife blade (and I'm pretty crafty when it comes to using my hands).""" ;
@@ -14,6 +16,7 @@ I printed this in the same scale as presented here, and did so with full support
     okh:repo <https://www.thingiverse.com/thing:14878> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:14878> .

@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A26915/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:NesControllerWireWrap a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "NES Controller Wire Wrap" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "I have always had problems with the wires coming out of my NES controllers and they would always become a mess. I decided to create this wire wrap to clip onto the controller so I could keep the wires nice and tidy." ;
     okh:hasImage :Image ;
     okh:licensor "coasterman" ;
     okh:repo <https://www.thingiverse.com/thing:26915> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:26915> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A4957/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:BungforSwissBall a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Bung (for swiss ball)" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """A spare bung for my swiss ball (a fitness-mad 75cm one).\r
 \r
 I decided to print 2 x bung.stl as that way possible de-lamination doesn't mean having rubbish inside the ball.\r
@@ -18,6 +20,7 @@ bung.stl works fine, even though it doesn't appear to render on thingiverse.""" 
     okh:repo <https://www.thingiverse.com/thing:4957> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:4957> .

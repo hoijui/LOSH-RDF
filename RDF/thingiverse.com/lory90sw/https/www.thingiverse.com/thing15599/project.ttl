@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A15599/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Galileo3dPrinter a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Galileo 3D Printer" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """The  3D printer Galileo is a 3d printer open source .It' s a derivated work from the model of the RepRap Prusa from which the movement of the axes X, Y, Z but have been substantial changes that have allowed achieve greater print area and a lower cost of implementation\r
 \r
 Indice\r
@@ -64,6 +66,7 @@ http://www.youtube.com/watch?v=Nd-upXvIbSo&feature=player_embedded""" ;
     okh:repo <https://www.thingiverse.com/thing:15599> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:15599> .

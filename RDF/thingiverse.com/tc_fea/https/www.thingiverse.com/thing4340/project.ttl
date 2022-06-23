@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A4340/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:FractalTree2 a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Fractal Tree 2" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """A simulated tree. This is more in the fun with quasi-fractals genre. This prints more nicely than my original fractal tree thing:3373. No spaghetti is produced since each layer is a continuous path.\r
 \r
 The "branches" and "leaves" are each 1.5 mm wide so they should print two strings of plastic thick.\r
@@ -16,6 +18,7 @@ See thing:4787 for .stl for roots similar to Zomboe's roots.""" ;
     okh:repo <https://www.thingiverse.com/thing:4340> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:4340> .

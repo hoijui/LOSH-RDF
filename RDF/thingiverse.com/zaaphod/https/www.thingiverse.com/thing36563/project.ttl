@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A36563/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:HeightGauge a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Height Gauge" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "This is my very first thing!  I was having difficulty setting my printer head to table distance, the majority of the problem for me is my bifocals never being in the correct place to see clearly.  So I devised this simple height gauge, it's just a little lightweight lever with build in pivot, and a base with a reference on it." ;
     okh:hasImage :Image ;
     okh:licensor "zaaphod" ;
     okh:repo <https://www.thingiverse.com/thing:36563> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:36563> .

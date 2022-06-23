@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A5797/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Thingomatic4axisStepperExtruder a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Thing-O-Matic 4-Axis Stepper Extruder" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """It's clear from the RepG source code and firmwares on git that Makerbot is just about to release a MK6 extruder, which will be stepper-driven on the 4th axis of the Thing-O-Matic.  You can stay ahead of the curve by getting in now!  Driving your stepper from the axis gives you control as fine as you'd possibly like.  In addition, it's a great way to get around the problems some people (me!) have had with the Thing-O-Matic extruder controller's motor port; it's not used in this build (although I /think/ the firmware wants a cooling fan for the stepper motor on that port now, I'm still investigating).\r
 \r
 \r
@@ -21,6 +23,7 @@ PLEASE NOTE:  If you want to build this and use it, YOU *MUST* USE THE LATEST RE
     okh:repo <https://www.thingiverse.com/thing:5797> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/BSD-4-Clause> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:5797> .

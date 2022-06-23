@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A48985/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:QuicktwistReleaseGregsXCarriage a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Quick-Twist Release Greg's X Carriage" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Well finally printed it and almost worked strait off the bat. The tabs are a little bit too long at the moment and have to shave about 0.5mm off of them, may be tollerance setting.  \r
 \r
 Basically bolt-on tabs on the bottom of the extruder and grooves in the x carriage that the tabs slide into and lock in place, takes about 3 second to take off an extruder, just twist and lift.  \r
@@ -24,6 +26,7 @@ UPDATE 2: Almost 3 years on and finally a part failed. one of the tabs broke as 
     okh:repo <https://www.thingiverse.com/thing:48985> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:48985> .

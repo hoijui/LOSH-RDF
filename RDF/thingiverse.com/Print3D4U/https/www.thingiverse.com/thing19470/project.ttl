@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A19470/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:HobberToolForReprapExtruderBoltWithDremel a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Hobber Tool for RepRap Extruder Bolt with Dremel" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I baught Proxxon Table Kt for my Dremmel: http://www.amazon.com/gp/product/B000S81MHY/ref=oh_o02_s00_i01_details\r
 So I made this tool to make hobbed bolt for RepRap printer extruder.""" ;
     okh:hasImage :Image ;
@@ -13,6 +15,7 @@ So I made this tool to make hobbed bolt for RepRap printer extruder.""" ;
     okh:repo <https://www.thingiverse.com/thing:19470> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/LGPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:19470> .

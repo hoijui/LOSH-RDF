@@ -2,20 +2,20 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:WeedoOriginal a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Weedo Original" ;
     okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "es" ;
     okh:function "Weedo es un dispensador inteligente que permite dosificar el consumo. Es nuestro primer MVP, cuenta con varios sensores y apertura motorizada. Funciona por WiFi mediante una App, permitiendo hasta 7 departamentos independientes para dosificación por calendario u objetivos gamificados." ;
-    okh:hasComponent :FileRhinobloqueohusillo,
-        :FileRhinocarcasaExterior,
-        :FileRhinoestructuraDeMadera4,
-        :FileRhinoestructuraDeMadera5,
-        :FileRhinoestructurademadera1,
-        :FileRhinoestructuramadera2,
-        :FileRhinoestructuramadera3,
-        :WeedoV1weedov1,
-        :WeedoV2weedov2 ;
+    okh:hasComponent :Filerhinobloqueohusillo,
+        :Filerhinocarcasaexterior,
+        :Filerhinoestructurademadera1,
+        :Filerhinoestructurademadera4,
+        :Filerhinoestructurademadera5,
+        :Filerhinoestructuramadera2,
+        :Filerhinoestructuramadera3,
+        :Weedov1weedov1,
+        :Weedov2weedov2 ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "Samuel De Sosa" ;
@@ -28,132 +28,132 @@
     okh:version "6c180e6f34cd86a9ce22b48f675ddd142e632e60" ;
     okh:versionOf <https://wikifactory.com/+theweedolife/weedo-original> .
 
-:FileRhinobloqueohusillo a okh:Part ;
+:Filerhinobloqueohusillo a okh:Part ;
     rdfs:label "File Rhino/Bloqueo_Husillo" ;
     okh:documentationLanguage "es" ;
     okh:licensor "David Rodriguez Poley" ;
-    okh:source :FileRhinobloqueohusillo_source ;
+    okh:source :Filerhinobloqueohusillo_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:FileRhinobloqueohusillo_source a okh:SourceFile ;
+:Filerhinobloqueohusillo_source a okh:SourceFile ;
     rdfs:label "Source File of File Rhino/Bloqueo_Husillo of Weedo Original 6c180e6f34cd86a9ce22b48f675ddd142e632e60" ;
     okh:fileFormat "3DM" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/2267/bloqueo_husillo.3dm> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMTE4NTU=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/2267/bloqueo_husillo.3dm> .
 
-:FileRhinocarcasaExterior a okh:Part ;
+:Filerhinocarcasaexterior a okh:Part ;
     rdfs:label "File Rhino/Carcasa Exterior" ;
     okh:documentationLanguage "es" ;
     okh:licensor "David Rodriguez Poley" ;
-    okh:source :FileRhinocarcasaExterior_source ;
+    okh:source :Filerhinocarcasaexterior_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:FileRhinocarcasaExterior_source a okh:SourceFile ;
+:Filerhinocarcasaexterior_source a okh:SourceFile ;
     rdfs:label "Source File of File Rhino/Carcasa Exterior of Weedo Original 6c180e6f34cd86a9ce22b48f675ddd142e632e60" ;
     okh:fileFormat "3DM" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/2267/carcasa_exterior.3dm> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMTE4NzI=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/2267/carcasa_exterior.3dm> .
 
-:FileRhinoestructuraDeMadera4 a okh:Part ;
-    rdfs:label "File Rhino/Estructura de madera 4" ;
-    okh:documentationLanguage "es" ;
-    okh:licensor "David Rodriguez Poley" ;
-    okh:source :FileRhinoestructuraDeMadera4_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:FileRhinoestructuraDeMadera4_source a okh:SourceFile ;
-    rdfs:label "Source File of File Rhino/Estructura de madera 4 of Weedo Original 6c180e6f34cd86a9ce22b48f675ddd142e632e60" ;
-    okh:fileFormat "3DM" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/2267/estructura_de_madera_4.3dm> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMTE4NzY=> .
-
-:FileRhinoestructuraDeMadera5 a okh:Part ;
-    rdfs:label "File Rhino/Estructura de madera 5" ;
-    okh:documentationLanguage "es" ;
-    okh:licensor "David Rodriguez Poley" ;
-    okh:source :FileRhinoestructuraDeMadera5_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
-
-:FileRhinoestructuraDeMadera5_source a okh:SourceFile ;
-    rdfs:label "Source File of File Rhino/Estructura de madera 5 of Weedo Original 6c180e6f34cd86a9ce22b48f675ddd142e632e60" ;
-    okh:fileFormat "3DM" ;
-    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/2267/estructura_de_madera_5.3dm> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMTE4ODA=> .
-
-:FileRhinoestructurademadera1 a okh:Part ;
+:Filerhinoestructurademadera1 a okh:Part ;
     rdfs:label "File Rhino/Estructura_de_madera_1" ;
     okh:documentationLanguage "es" ;
     okh:licensor "David Rodriguez Poley" ;
-    okh:source :FileRhinoestructurademadera1_source ;
+    okh:source :Filerhinoestructurademadera1_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:FileRhinoestructurademadera1_source a okh:SourceFile ;
+:Filerhinoestructurademadera1_source a okh:SourceFile ;
     rdfs:label "Source File of File Rhino/Estructura_de_madera_1 of Weedo Original 6c180e6f34cd86a9ce22b48f675ddd142e632e60" ;
     okh:fileFormat "3DM" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/2267/estructura_de_madera_1.3dm> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMTE4NTM=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/2267/estructura_de_madera_1.3dm> .
 
-:FileRhinoestructuramadera2 a okh:Part ;
+:Filerhinoestructurademadera4 a okh:Part ;
+    rdfs:label "File Rhino/Estructura de madera 4" ;
+    okh:documentationLanguage "es" ;
+    okh:licensor "David Rodriguez Poley" ;
+    okh:source :Filerhinoestructurademadera4_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Filerhinoestructurademadera4_source a okh:SourceFile ;
+    rdfs:label "Source File of File Rhino/Estructura de madera 4 of Weedo Original 6c180e6f34cd86a9ce22b48f675ddd142e632e60" ;
+    okh:fileFormat "3DM" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/2267/estructura_de_madera_4.3dm> ;
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/2267/estructura_de_madera_4.3dm> .
+
+:Filerhinoestructurademadera5 a okh:Part ;
+    rdfs:label "File Rhino/Estructura de madera 5" ;
+    okh:documentationLanguage "es" ;
+    okh:licensor "David Rodriguez Poley" ;
+    okh:source :Filerhinoestructurademadera5_source ;
+    okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
+
+:Filerhinoestructurademadera5_source a okh:SourceFile ;
+    rdfs:label "Source File of File Rhino/Estructura de madera 5 of Weedo Original 6c180e6f34cd86a9ce22b48f675ddd142e632e60" ;
+    okh:fileFormat "3DM" ;
+    okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/2267/estructura_de_madera_5.3dm> ;
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/2267/estructura_de_madera_5.3dm> .
+
+:Filerhinoestructuramadera2 a okh:Part ;
     rdfs:label "File Rhino/Estructura_madera_2" ;
     okh:documentationLanguage "es" ;
     okh:licensor "David Rodriguez Poley" ;
-    okh:source :FileRhinoestructuramadera2_source ;
+    okh:source :Filerhinoestructuramadera2_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:FileRhinoestructuramadera2_source a okh:SourceFile ;
+:Filerhinoestructuramadera2_source a okh:SourceFile ;
     rdfs:label "Source File of File Rhino/Estructura_madera_2 of Weedo Original 6c180e6f34cd86a9ce22b48f675ddd142e632e60" ;
     okh:fileFormat "3DM" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/2267/estructura_madera_2.3dm> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMTE4NTA=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/2267/estructura_madera_2.3dm> .
 
-:FileRhinoestructuramadera3 a okh:Part ;
+:Filerhinoestructuramadera3 a okh:Part ;
     rdfs:label "File Rhino/Estructura_madera_3" ;
     okh:documentationLanguage "es" ;
     okh:licensor "David Rodriguez Poley" ;
-    okh:source :FileRhinoestructuramadera3_source ;
+    okh:source :Filerhinoestructuramadera3_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:FileRhinoestructuramadera3_source a okh:SourceFile ;
+:Filerhinoestructuramadera3_source a okh:SourceFile ;
     rdfs:label "Source File of File Rhino/Estructura_madera_3 of Weedo Original 6c180e6f34cd86a9ce22b48f675ddd142e632e60" ;
     okh:fileFormat "3DM" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/2267/estructura_madera_3.3dm> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMTE4NDk=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/2267/estructura_madera_3.3dm> .
 
 :Image a okh:Image ;
     rdfs:label "Image of Weedo Original 6c180e6f34cd86a9ce22b48f675ddd142e632e60" ;
     okh:fileFormat "PNG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/2267/p2v2.png> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyOTc2NjU=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/2267/p2v2.png> .
 
 :Readme a okh:Readme ;
     rdfs:label "Readme of Weedo Original 6c180e6f34cd86a9ce22b48f675ddd142e632e60" ;
     okh:fileFormat "MD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/2267/readme-ec3de.md> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozMTE5MDI=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/2267/readme-ec3de.md> .
 
-:WeedoV1weedov1 a okh:Part ;
+:Weedov1weedov1 a okh:Part ;
     rdfs:label "Weedo v1/Weedo_v1" ;
     okh:documentationLanguage "es" ;
     okh:licensor "Samuel De Sosa" ;
-    okh:source :WeedoV1weedov1_source ;
+    okh:source :Weedov1weedov1_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:WeedoV1weedov1_source a okh:SourceFile ;
+:Weedov1weedov1_source a okh:SourceFile ;
     rdfs:label "Source File of Weedo v1/Weedo_v1 of Weedo Original 6c180e6f34cd86a9ce22b48f675ddd142e632e60" ;
     okh:fileFormat "3DM" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/2267/weedo-v1.3dm> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxODMxOA==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/2267/weedo-v1.3dm> .
 
-:WeedoV2weedov2 a okh:Part ;
+:Weedov2weedov2 a okh:Part ;
     rdfs:label "Weedo v2/Weedo_v2" ;
     okh:documentationLanguage "es" ;
     okh:licensor "Samuel De Sosa" ;
-    okh:source :WeedoV2weedov2_source ;
+    okh:source :Weedov2weedov2_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> .
 
-:WeedoV2weedov2_source a okh:SourceFile ;
+:Weedov2weedov2_source a okh:SourceFile ;
     rdfs:label "Source File of Weedo v2/Weedo_v2 of Weedo Original 6c180e6f34cd86a9ce22b48f675ddd142e632e60" ;
     okh:fileFormat "3DM" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/2267/weedo-v2-1.3dm> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToxODM0NA==> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/2267/weedo-v2-1.3dm> .
 

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A13261/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:AcrylicCaseForThingomatictom a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Acrylic Case for ThingOMatic (TOM)" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I'm not a big fan of the wood case for the TOM and I wanted to make one out of Acrylic.  I found the very nice case that BuiltToSpec did ( http://www.thingiverse.com/thing:11641 ) but I wanted a case built on the latest case design.  BuiltToSpec's was based on the older case which had the side mounted fan, I wasn't sure what other changes had been implemented in the latest design, and I was pretty sure I would have to make a good deal of adjustments to support my actual Acrylic thickness.  So I just started with the latest official TOM case drawings.  I did use BuiltToSpec's idea to stress relieve the corners of the nut slots though - kudo's for that thought!\r
 \r
 Anyway, the attached drawings were modified to work with the 1/4 Inch Acrylic I could source.  I waited until the Acrylic actually arrived and then measured its thickness.  As others will attest, the thickness of 1/4 inch Acrylic can vary a lot between manufacturers and I even saw a pretty good variation in one corner of the single 4x8 sheet I had cut down to use!  If you want to do an Acrlic case, I suggest you get the Acrylic first and measure its thickness precisely before you start cutting stuff!\r
@@ -36,6 +38,7 @@ I added some LED strip lighting to the top of my case, but that is nothing that 
     okh:repo <https://www.thingiverse.com/thing:13261> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:13261> .

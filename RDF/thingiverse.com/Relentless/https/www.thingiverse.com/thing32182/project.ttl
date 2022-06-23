@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A32182/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:SprayPaintCapSpacer a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Spray Paint Cap Spacer" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a ridiculously simple thing.  Its a spacer for going under the cap of a spray paint can cap.  It allows you to keep a cap on your can without the danger of, you know... spraying yourself in the face unintentionally.  After all no one wants to unintentionally bust a cap.  lol.  So think of it as a safety switch for you cans.  \r
 \r
 But I'm always loosing these things and stores usually don't have spares, so here's one you can just make copies of.""" ;
@@ -14,6 +16,7 @@ But I'm always loosing these things and stores usually don't have spares, so her
     okh:repo <https://www.thingiverse.com/thing:32182> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:32182> .

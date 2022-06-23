@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A36301/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PrusaI2PowerPanel a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Prusa i2 power panel" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a power panel to be mounted at the rear of Mendel Prusa. It clips on threaded rods, and can be optionnally secured with 4 cable ties It's specifically desined for Prusa Iteration 2, since smooth rods are on top of thheaded rods, allowing to save place between the rear two threaded rods. That space is used for the power panel.\r
 \r
 The power panel holds an IEC standard socket and a switch to switch off machine without unplugging power cord.\r
@@ -22,6 +24,7 @@ Sketchup source file provided.""" ;
     okh:repo <https://www.thingiverse.com/thing:36301> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:36301> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A9428/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:3StartsLeadScrew a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "3 starts lead screw " ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """When I saw http://www.thingiverse.com/thing:9383 by PacManFan I remembered that I also was playing a little bit with lead screws, auges, whatever but "I forgot" to upload it...\r
 \r
 It has been hard to find back most of the parts I was printing and using to do those tests and it has been really hard to find the OpenSCAD file that I upload here. I have hundreds of them. \r
@@ -24,6 +26,7 @@ The lead screw provided has a travel per turn of 36mm and I was not modifying th
     okh:repo <https://www.thingiverse.com/thing:9428> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:9428> .

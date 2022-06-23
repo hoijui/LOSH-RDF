@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A24700/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Orca04xHolderForIgusRjmp0108SlideBearings a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Orca 0.4x Holder for IGUS RJMP 01 08 slide bearings" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """UPDATE: im working on a new version of this with some improvements in terms of fit that will incorporate all thoughts from this object, corrected measurements and design-refinement\r
 \r
 for those of you who can't wait (the cad files are ready just not verified by print) please use Aggresives parts in the meantime\r
@@ -33,6 +35,7 @@ Update: Here's a video of them in action http://youtu.be/on6PA-QSfIc""" ;
     okh:repo <https://www.thingiverse.com/thing:24700> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:24700> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A35240/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:DeadSimpleIphone5TripodMount a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Dead simple iPhone5 tripod mount" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I just measured my iPhone together with its case and made a small holder to mount it on a GorillaPod tripod for timelapse recording. Use a 1/4" nut in the middle for the proper tripod mount thread.  
 
 Update: I just made a cut on the right side to the headphone port (you can use Volume + button on the headphone wire as a shutter button).  
@@ -16,6 +18,7 @@ https://www.youmagine.com/designs/dead-simple-iphone-5-tripod-mount""" ;
     okh:repo <https://www.thingiverse.com/thing:35240> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:35240> .

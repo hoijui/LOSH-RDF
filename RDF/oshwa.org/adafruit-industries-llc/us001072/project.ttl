@@ -2,21 +2,15 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:AdafruitSensirionSht40TemperatureHumiditySensor a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Adafruit Sensirion SHT40 Temperature & Humidity Sensor" ;
-    okh:additionalType "['Electronics']" ;
-    okh:certificationDate "2021-03-01T00:00:00-05:00" ;
-    okh:country "United States of America" ;
     okh:dataSource "oshwa.org" ;
     okh:documentationLanguage "en" ;
-    okh:documentationLicense "CC BY-SA" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function "Sensirion Temperature/Humidity sensors are some of the finest & highest-accuracy devices you can get. The SHT40 has an excellent �1.8% typical relative humidity accuracy from 25 to 75% and �0.2 �C typical accuracy from 0 to 75 �C. This sensor uses a 4-pin Sparkfun Qwiic-compatible connector called STEMMA QT, which allows the sensor to communicate over I2C without soldering. Click the link labeled 'Project Website' to find out more." ;
-    okh:hardwareLicense "Other" ;
     okh:licensor "Adafruit Industries, LLC" ;
-    okh:primaryType "Electronics" ;
     okh:repo <https://certification.oshwa.org/us001072.html> ;
     okh:repoHost "certification.oshwa.org" ;
-    okh:softwareLicense "MIT" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
     okh:uploadMethod "auto" ;
     okh:version "Rev A" ;

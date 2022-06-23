@@ -1,21 +1,24 @@
 @prefix : <https://www.thingiverse.com/thing%3A21623/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:38InchLinearRodPressFitClamp a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "3/8 inch linear rod press fit clamp" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
-    okh:function """This is a press fit rod clamp that I built for my Thing-O-Matic so I could freely position the Z home limit switch on the 3/8â€ linear rod of the Z axis.  \r
+    okh:documentationReadinessLevel otrl:Odrl3 ;
+    okh:function """This is a press fit rod clamp that I built for my Thing-O-Matic so I could freely position the Z home limit switch on the 3/8â€x9d linear rod of the Z axis.  \r
 \r
 The motivation behind this clamp is that I typically design and print small objects in height, less than 30mm on average, so waiting on the Z-axis to travel ~120mm to find home is a waste of time.  To save time I wanted to be able to adjust the location of the Z limit switch on the TOM, this clamp allows me to do that.  The clamp could be used for other purposes also.\r
 \r
-After moving the Z limit switch recalibrating for new prints is a breeze because with Replicator 0025 it comes with the â€œThing O Matic Calibration Scriptâ€ which allows me to quickly recalibrate right from the UI with a couple of clicks.""" ;
+After moving the Z limit switch recalibrating for new prints is a breeze because with Replicator 0025 it comes with the â€œThing O Matic Calibration Scriptâ€x9d which allows me to quickly recalibrate right from the UI with a couple of clicks.""" ;
     okh:hasImage :Image ;
     okh:licensor "Dezbot" ;
     okh:repo <https://www.thingiverse.com/thing:21623> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:21623> .

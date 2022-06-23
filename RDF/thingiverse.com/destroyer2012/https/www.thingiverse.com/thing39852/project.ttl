@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A39852/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Histone a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Histone" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """How do you manage a three meter-long molecule if you are a 30 micron-wide cell? Lots of scaffolding proteins. This is a model of a histone complex, which is a complex of eight proteins that work together to organize DNA into a super-coiled structure, sort of like a fractal telephone cord. \r
 \r
 From PDB structure 1aoi \r
@@ -16,6 +18,7 @@ Learn more here http://tinyurl.com/azpcjxf""" ;
     okh:repo <https://www.thingiverse.com/thing:39852> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:39852> .

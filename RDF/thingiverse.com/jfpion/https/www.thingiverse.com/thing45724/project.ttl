@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A45724/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MercedesC9OnePiecePrint a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "mercedes c9 one piece print" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I took the unsliced stl, made some small dent in the basement to avoid warping (only need a drop of glue to give it the original strength)\r
 make the holes for the wheel axes \r
 \r
@@ -19,6 +21,7 @@ printed on glass 110Â°C with ABS juice, work very well""" ;
     okh:repo <https://www.thingiverse.com/thing:45724> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:45724> .

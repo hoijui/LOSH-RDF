@@ -2,21 +2,15 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:AdafruitCyberdeckBonnetForRaspberryPi400 a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Adafruit CYBERDECK Bonnet for Raspberry Pi 400" ;
-    okh:additionalType "['Electronics']" ;
-    okh:certificationDate "2021-08-19T00:00:00-04:00" ;
-    okh:country "United States of America" ;
     okh:dataSource "oshwa.org" ;
     okh:documentationLanguage "en" ;
-    okh:documentationLicense "CC BY-SA" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function "Howdy keyboard cowboys, are you surfing the information superhighway with a Pi 400? Want a cool heads-up display, or maybe you need to wire up some NeoPixel wetware? Well, we just fenced 12 megabytes of ram and some angled socket header, and it's a major upgrade to our extender board. This bonnet has a 4-pin Sparkfun Qwiic-compatible connector called STEMMA QT, which allows you to easily add loads of sensors and other devices without soldering. Click the link labeled 'Project Website' to find out more." ;
-    okh:hardwareLicense "Other" ;
     okh:licensor "Adafruit Industries, LLC" ;
-    okh:primaryType "Electronics" ;
     okh:repo <https://certification.oshwa.org/us002039.html> ;
     okh:repoHost "certification.oshwa.org" ;
-    okh:softwareLicense "MIT" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
     okh:uploadMethod "auto" ;
     okh:version "Rev B" ;

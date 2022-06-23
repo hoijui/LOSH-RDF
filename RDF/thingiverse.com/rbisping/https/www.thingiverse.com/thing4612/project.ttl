@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A4612/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PrintableMk5HotEndMount a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "printable mk5 hot end mount" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a mounting plate to attach a mk5 hot end to any mendel extruder design.\r
 \r
 note: the first one is the initial design and I found that the mk5 mounting holes were a little bit close together, and the corey extruder wouldnt mount to the standard mendel mounting holes, the middle one is just the first one reoriented by repg and the last one has a added hole for the corey struder and the mk5 holes moved out a bit. I havent bothered to print the last one yet since the first one actualy worked fine by just drilling out the holes a little bit.""" ;
@@ -14,6 +16,7 @@ note: the first one is the initial design and I found that the mk5 mounting hole
     okh:repo <https://www.thingiverse.com/thing:4612> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:4612> .

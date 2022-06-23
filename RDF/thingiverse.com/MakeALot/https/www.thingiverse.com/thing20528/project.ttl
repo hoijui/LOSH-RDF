@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A20528/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Lewischess a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Lewis #Chess" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This part was made with Tinkercad. Edit the part online at: https://tinkercad.com/things/c5S1XUkAMJC\r
 and\r
 tinkercad.com/things/ajCtOXu3nXz\r
@@ -16,6 +18,7 @@ The Lewis chessmen  are a group of 78 12th-century chess pieces""" ;
     okh:repo <https://www.thingiverse.com/thing:20528> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:20528> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A20186/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:CastPewterSignfrom3dPrintedPart a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Cast pewter sign (from 3D printed part)" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Tired of sales people knocking on your door?  Hang this on your door and hope that solicitors in your neighborhood can read (most, but apparently not all, can read).  \r
 \r
 I needed a "No Soliciting" sign for our front door and I was not pleased with the stickers I could get at the local hardware store....they are functional, but not so great looking. So I turned to my Makerbot to produce exactly what I wanted.  I thought plastic would not be too durable in the sunlight, even if painted and I wanted to try my hand at metal casting since I had never done that before.  I designed the sign to be about 8" long so I split it into two pieces to fit on my TOM.  I added some sprue/vent structures into the design to allow casting in pewter.  I experimented with several different casting mold and sprue structures and found that this seemed to work best.  Since this is a one-sided piece (back side is flat), I used a piece of porcelain tile as the back half of the mold, and used plaster as the front half of the mold.  I glued the plastic master to the tile with a little acetone, built up a box around it, poured in plaster, baked the plaster, removed the plastic master, then poured the molten metal.  That is the basic process.  To finish it, I sanded/polished the metal then painted the background red.  \r
@@ -20,6 +22,7 @@ It is fun learning a new skill.""" ;
     okh:repo <https://www.thingiverse.com/thing:20186> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:20186> .

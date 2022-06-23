@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A4150/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:BikeLightreasonablyUniversalSomewhatModular a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Bike light (reasonably universal, somewhat modular)" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """So I decided I'd use my makerbot to make my girlfriend a new bike light for her birthday. I've been using the new sketchup's solid modeling tools, which are extremely useful and quite fun if you have access to them. The only problem I have with them is the difficulty of editing components once they've been fused together. Additionally, I worried the light I got might not be bright enough. I've seen a few bike lights on thingiverse, but they all seem to be for one particular type of flashlight. So I decided to make my design a little more modular and easy to adapt to most any kind of flashlight.\r
 \r
 As of now there are 3 components:\r
@@ -21,6 +23,7 @@ So if you want to modify it, just edit each individual component in sketchup to 
     okh:repo <https://www.thingiverse.com/thing:4150> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:4150> .

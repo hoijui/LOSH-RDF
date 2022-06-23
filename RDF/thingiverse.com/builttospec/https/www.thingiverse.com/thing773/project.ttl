@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A773/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MechanicalInverter a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Mechanical Inverter" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is one of the first things I experimented with after getting my laser cutter.  I wanted to see what could be done with the cutter besides marking and vector cutting, so I decided to experiment with etching channels in acrylic.  This is a simple, mechanical \\"inverter\\" is the by-product of this and a recent discussion I had with a coworker about physical representations of logic gates.\r
 \r
 On the \\"input\\" side, the plunger being pushed in represents a 1 on the input, and pulled out represents a zero.  On the output, a pulled in plunger represents a 0, and pushed out a 1.  This convention is used because the output is presumably being used as the input of the next gate in the chain.""" ;
@@ -14,6 +16,7 @@ On the \\"input\\" side, the plunger being pushed in represents a 1 on the input
     okh:repo <https://www.thingiverse.com/thing:773> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:773> .

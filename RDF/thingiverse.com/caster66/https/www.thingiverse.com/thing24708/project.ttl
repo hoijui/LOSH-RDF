@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A24708/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:IkeaAntoniusLegAdapter a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Ikea Antonius leg adapter" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """So I decided to build myself a relatively cheap workbench using Ikea's Antonius line of furniture. I saw that they had a nice little rack system for drawers, a 4 ft table top, and a set of legs and I thought Perfect! Bought two sets of everything planning to make an 8ft bench with lots of storage underneath.\r
 \r
 When I got them home to assemble them, lo and behold even though they were from the same system they were not designed to play nice together or at least the way I wanted them to.\r
@@ -20,6 +22,7 @@ I just got my Prusa finished so haven't had a chance to print these off yet but 
     okh:repo <https://www.thingiverse.com/thing:24708> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:24708> .

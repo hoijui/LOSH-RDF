@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A34326/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:10mmXendsForMendelmax15 a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "10mm x-ends for MendelMax 1.5" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a modified version of KÃ¼hling's Mendelmax x-ends.  This version is for 10mm smooth rods on the Y axis and X axis.\r
 \r
 I have not made these parts yet and as such, I have left it as a work in progress.  I will change the stuts when I get positive reports of it working or have a working print of my own.""" ;
@@ -14,6 +16,7 @@ I have not made these parts yet and as such, I have left it as a work in progres
     okh:repo <https://www.thingiverse.com/thing:34326> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:34326> .

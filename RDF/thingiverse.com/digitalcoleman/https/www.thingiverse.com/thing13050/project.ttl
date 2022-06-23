@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A13050/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Zippads a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "ZipPads" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "These are two simple designs for zipper handles.  The idea is that when you have gloves on or lack the dexterity to operate a zipper because of disability or other medical condition you would easily be able to open and close your coats, backpacks, camera bags, etc.  One is simply larger with an indentation while the other can be operated by sticking a finger through the hole.  You will need to use a bit or cord, shoelace, or ribbon to tie the ZipPads to your current zipper handle, or take off the current handle with some help and run the cord through the zipper itself." ;
     okh:hasImage :Image ;
     okh:licensor "digitalcoleman" ;
     okh:repo <https://www.thingiverse.com/thing:13050> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:13050> .

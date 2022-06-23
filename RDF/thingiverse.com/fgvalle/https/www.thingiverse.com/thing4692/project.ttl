@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A4692/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:OozebaneCalibration a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Oozebane calibration" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is my first attempt at making a file that will aid in oozebane calibration.\r
 \r
 The goal is to have it print the outline of the object first, and then have it print the connecting lines, one at a time, so that we could measure what the necessary early startup and shutdown distances will be.\r
@@ -18,6 +20,7 @@ Included are the original Solid Works file and an stl file.""" ;
     okh:repo <https://www.thingiverse.com/thing:4692> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:4692> .

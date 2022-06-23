@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A48618/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:SpoolHolderRollers a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "spool holder rollers" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "these wide rollers will keep the spool turning freely without the need for bearings, metal parts etc - 2 sizes - large roller for cable type reels (75mm opening) and small roller for black plastic reels (32mm opening) - the large one has grooves to counter the seams in the metal reel" ;
     okh:hasImage :Image ;
     okh:licensor "spezzer" ;
     okh:repo <https://www.thingiverse.com/thing:48618> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:48618> .

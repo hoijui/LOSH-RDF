@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A6492/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:FullyParametricWadesstyleTensioner a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Fully Parametric Wade's-Style Tensioner" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """A new version of the tensioner, Scribble?  After less than a week?\r
 \r
 Don't panic.  It's not all that new.  I've just been refactoring the OpenSCAD code to make it /fully/ parametric.  This is an early step in some bigger ideas I'm working on.\r
@@ -30,6 +32,7 @@ There will be one more version of this coming - I managed to learn how to get pr
     okh:repo <https://www.thingiverse.com/thing:6492> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/BSD-4-Clause> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:6492> .

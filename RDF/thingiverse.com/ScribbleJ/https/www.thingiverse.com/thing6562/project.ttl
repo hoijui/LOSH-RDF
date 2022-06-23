@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A6562/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:DrillJigBearingBoltRetainer a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Drill Jig Bearing & Bolt Retainer" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """The drill jig this is a derivative of is PURE GENIUS and I love it.  I've been working on some parametric filament drive plans, that will use a hobbed bolt, so that part is just what I need.\r
 \r
 But there's one problem.  My scripts let me determine my bolt length rather precisely, and part tolerances... and to make a long story short, if you want to hob at bolt at the very furthest possible point so there's only room for a nut and no bolt extending beyond it, it's not possible in this jig, because of the way the bearings are held out with a bit of plastic...\r
@@ -16,6 +18,7 @@ If this writeup is horrible, it's because I've been up all hours and I'm just re
     okh:repo <https://www.thingiverse.com/thing:6562> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:6562> .

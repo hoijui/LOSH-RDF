@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A40690/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:LaserBladeAcrylic a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Laser Blade - Acrylic" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "Credit has to go to Plasma2002 for this one.  I simply took his idea and modified it to fit more common razor blades.  I also am including the AutoCad dwg file.  I made mine out of 1/4 inch acrylic and I love these things.  Gone is my honeycomb table.  No more is the occasional discoloration you get when the laser gets to the edge of the honeycomb table and is just a little too hot and melts the material you are working with.  Plus you can see so much better what you are working on.  I usually have around 6 of these little guys floating around on the bed at any given time or less if the material is smaller and I need to see around." ;
     okh:hasImage :Image ;
     okh:licensor "StealthMicro" ;
     okh:repo <https://www.thingiverse.com/thing:40690> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:40690> .

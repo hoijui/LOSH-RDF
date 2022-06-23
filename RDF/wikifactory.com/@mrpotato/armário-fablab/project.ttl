@@ -2,18 +2,18 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ArmárioFablab a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Armário FabLab" ;
     okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "pt" ;
     okh:function "O objetivo do projeto visa solucionar um problema encontrado no FabLab, não ter um local adequado para por as mochilas. A partir desse problema, pensamos em produzir um armário onde possamos guardar as mochilas com segurança." ;
-    okh:hasComponent :ArquivosDoArmáriolateralDireita,
-        :ArquivosDoArmáriolateralEsquerda,
-        :ArquivosDoArmárioporta,
-        :ArquivosDoArmárioprateleira,
-        :ArquivosDoArmáriotrava3,
-        :ArquivosDoArmáriotravaComDogbone,
-        :ArquivosDoArmáriotravaSemDogbone ;
+    okh:hasComponent :Arquivosdoarmriolateraldireita,
+        :Arquivosdoarmriolateralesquerda,
+        :Arquivosdoarmrioporta,
+        :Arquivosdoarmrioprateleira,
+        :Arquivosdoarmriotrava3,
+        :Arquivosdoarmriotravacomdogbone,
+        :Arquivosdoarmriotravasemdogbone ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "Gustavo Rodrigues Souza" ;
@@ -25,106 +25,106 @@
     okh:version "08d38ee2274456d2a649ad4685b320b507dcd6e6" ;
     okh:versionOf <https://wikifactory.com/@mrpotato/armário-fablab> .
 
-:ArquivosDoArmáriolateralDireita a okh:Part ;
+:Arquivosdoarmriolateraldireita a okh:Part ;
     rdfs:label "arquivos do armário/lateral direita" ;
     okh:documentationLanguage "pt" ;
     okh:licensor "Gustavo Rodrigues Souza" ;
-    okh:source :ArquivosDoArmáriolateralDireita_source ;
+    okh:source :Arquivosdoarmriolateraldireita_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:ArquivosDoArmáriolateralDireita_source a okh:SourceFile ;
+:Arquivosdoarmriolateraldireita_source a okh:SourceFile ;
     rdfs:label "Source File of arquivos do armário/lateral direita of Armário FabLab 08d38ee2274456d2a649ad4685b320b507dcd6e6" ;
     okh:fileFormat "DXF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151315/lateral-direita-fa23d.dxf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTM1MjE=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151315/lateral-direita-fa23d.dxf> .
 
-:ArquivosDoArmáriolateralEsquerda a okh:Part ;
+:Arquivosdoarmriolateralesquerda a okh:Part ;
     rdfs:label "arquivos do armário/lateral esquerda" ;
     okh:documentationLanguage "pt" ;
     okh:licensor "Gustavo Rodrigues Souza" ;
-    okh:source :ArquivosDoArmáriolateralEsquerda_source ;
+    okh:source :Arquivosdoarmriolateralesquerda_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:ArquivosDoArmáriolateralEsquerda_source a okh:SourceFile ;
+:Arquivosdoarmriolateralesquerda_source a okh:SourceFile ;
     rdfs:label "Source File of arquivos do armário/lateral esquerda of Armário FabLab 08d38ee2274456d2a649ad4685b320b507dcd6e6" ;
     okh:fileFormat "DXF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151315/lateral-esquerda.dxf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTM1MjA=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151315/lateral-esquerda.dxf> .
 
-:ArquivosDoArmárioporta a okh:Part ;
+:Arquivosdoarmrioporta a okh:Part ;
     rdfs:label "arquivos do armário/porta" ;
     okh:documentationLanguage "pt" ;
     okh:licensor "Gustavo Rodrigues Souza" ;
-    okh:source :ArquivosDoArmárioporta_source ;
+    okh:source :Arquivosdoarmrioporta_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:ArquivosDoArmárioporta_source a okh:SourceFile ;
+:Arquivosdoarmrioporta_source a okh:SourceFile ;
     rdfs:label "Source File of arquivos do armário/porta of Armário FabLab 08d38ee2274456d2a649ad4685b320b507dcd6e6" ;
     okh:fileFormat "DXF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151315/porta.dxf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTM1MTk=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151315/porta.dxf> .
 
-:ArquivosDoArmárioprateleira a okh:Part ;
+:Arquivosdoarmrioprateleira a okh:Part ;
     rdfs:label "arquivos do armário/prateleira" ;
     okh:documentationLanguage "pt" ;
     okh:licensor "Gustavo Rodrigues Souza" ;
-    okh:source :ArquivosDoArmárioprateleira_source ;
+    okh:source :Arquivosdoarmrioprateleira_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:ArquivosDoArmárioprateleira_source a okh:SourceFile ;
+:Arquivosdoarmrioprateleira_source a okh:SourceFile ;
     rdfs:label "Source File of arquivos do armário/prateleira of Armário FabLab 08d38ee2274456d2a649ad4685b320b507dcd6e6" ;
     okh:fileFormat "DXF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151315/prateleira.dxf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTM1MTg=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151315/prateleira.dxf> .
 
-:ArquivosDoArmáriotrava3 a okh:Part ;
+:Arquivosdoarmriotrava3 a okh:Part ;
     rdfs:label "arquivos do armário/trava 3" ;
     okh:documentationLanguage "pt" ;
     okh:licensor "Gustavo Rodrigues Souza" ;
-    okh:source :ArquivosDoArmáriotrava3_source ;
+    okh:source :Arquivosdoarmriotrava3_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:ArquivosDoArmáriotrava3_source a okh:SourceFile ;
+:Arquivosdoarmriotrava3_source a okh:SourceFile ;
     rdfs:label "Source File of arquivos do armário/trava 3 of Armário FabLab 08d38ee2274456d2a649ad4685b320b507dcd6e6" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151315/trava-3.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTM1MTc=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151315/trava-3.stl> .
 
-:ArquivosDoArmáriotravaComDogbone a okh:Part ;
+:Arquivosdoarmriotravacomdogbone a okh:Part ;
     rdfs:label "arquivos do armário/trava com dogbone" ;
     okh:documentationLanguage "pt" ;
     okh:licensor "Gustavo Rodrigues Souza" ;
-    okh:source :ArquivosDoArmáriotravaComDogbone_source ;
+    okh:source :Arquivosdoarmriotravacomdogbone_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:ArquivosDoArmáriotravaComDogbone_source a okh:SourceFile ;
+:Arquivosdoarmriotravacomdogbone_source a okh:SourceFile ;
     rdfs:label "Source File of arquivos do armário/trava com dogbone of Armário FabLab 08d38ee2274456d2a649ad4685b320b507dcd6e6" ;
     okh:fileFormat "DXF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151315/trava-com-dogbone.dxf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTM1MTY=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151315/trava-com-dogbone.dxf> .
 
-:ArquivosDoArmáriotravaSemDogbone a okh:Part ;
+:Arquivosdoarmriotravasemdogbone a okh:Part ;
     rdfs:label "arquivos do armário/trava sem dogbone" ;
     okh:documentationLanguage "pt" ;
     okh:licensor "Gustavo Rodrigues Souza" ;
-    okh:source :ArquivosDoArmáriotravaSemDogbone_source ;
+    okh:source :Arquivosdoarmriotravasemdogbone_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:ArquivosDoArmáriotravaSemDogbone_source a okh:SourceFile ;
+:Arquivosdoarmriotravasemdogbone_source a okh:SourceFile ;
     rdfs:label "Source File of arquivos do armário/trava sem dogbone of Armário FabLab 08d38ee2274456d2a649ad4685b320b507dcd6e6" ;
     okh:fileFormat "DXF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151315/trava-sem-dogbone.dxf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTM1MTU=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151315/trava-sem-dogbone.dxf> .
 
 :Image a okh:Image ;
     rdfs:label "Image of Armário FabLab 08d38ee2274456d2a649ad4685b320b507dcd6e6" ;
     okh:fileFormat "JPG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151315/img_20211101_162527353-7732d.jpg> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTc5MzU=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151315/img_20211101_162527353-7732d.jpg> .
 
 :Readme a okh:Readme ;
     rdfs:label "Readme of Armário FabLab 08d38ee2274456d2a649ad4685b320b507dcd6e6" ;
     okh:fileFormat "MD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151315/readme-d7439.md> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo2NTc5MjA=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/151315/readme-d7439.md> .
 

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A11932/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Tcadsphere a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "TCadSphere" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is just a 12mm sphere. What's the big deal? Well, I made it in TinkerCad and TinkerCad does not have a sphere tool... yet. No, it is not perfect, but it may be usable. No, I haven't printed it out yet, as it looks like I need a new extruder board. But, once I have one and am back up and running this is early on my list.\r
 \r
 Share and enjoy!\r
@@ -16,6 +18,7 @@ This part was made with Tinkercad. Edit the part online at: https://tinkercad.co
     okh:repo <https://www.thingiverse.com/thing:11932> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:11932> .

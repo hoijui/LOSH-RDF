@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A50199/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:SafeTBagel a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Safe T Bagel" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "Cool tool to safely cut your morning bagel with even the dullest of knives. Just pop or cram said bread into the top, use the small slot to guide the knife all the way to the end of the cut. It can be used to cut kaiser rolls for you non-bagel types" ;
     okh:hasImage :Image ;
     okh:licensor "poetryinmotion" ;
     okh:repo <https://www.thingiverse.com/thing:50199> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:50199> .

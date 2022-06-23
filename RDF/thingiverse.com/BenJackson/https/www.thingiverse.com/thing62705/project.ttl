@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A62705/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ArgonTankBracket a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Argon Tank Bracket" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """My Lincoln SP-175+ gave up its own cart to another welder so I tried putting it on a Harbor Freight MIG cart ( http://www.harborfreight.com/welding-cart-90305.html ).  Due to the sloped top shelf and the centrally located gas inlet I couldn't get the welder where I wanted without running into the tank (80cf).  There's plenty of room on the tank tray so I moved it back about 3" with this bracket.  The 80cf tank is 7" diameter (same as 40 and 125 and fits what I thought was a 150).\r
 \r
 I'm thinking of modifying the design to remove the spacer so I can use it on another cart and possibly against a wall for storage.""" ;
@@ -14,6 +16,7 @@ I'm thinking of modifying the design to remove the spacer so I can use it on ano
     okh:repo <https://www.thingiverse.com/thing:62705> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:62705> .

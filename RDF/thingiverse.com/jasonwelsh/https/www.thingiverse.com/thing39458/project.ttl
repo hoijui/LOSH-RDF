@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A39458/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:TheElectronicButtonBox a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "The Electronic Button Box" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """So for today's invention I have this nifty little thing that is small, folds and is powered.  
 Did I mention small?  
 I started by finding a micro breadboard in a drawer and whispering to myself "useless".  
@@ -24,6 +26,7 @@ I hope you enjoy!""" ;
     okh:repo <https://www.thingiverse.com/thing:39458> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:39458> .

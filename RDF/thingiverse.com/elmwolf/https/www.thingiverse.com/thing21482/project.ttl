@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A21482/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Bullroar a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Bullroar" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """If your a "child of the 80s" like me you probably remember the movie Crocidile Dundee, and it's Sequel. In the second movie Mic Dundee goes up on the side of a mountain and makes a "telephone call" to all the locals. He uses a Bullroar which is something the aborigines have been using for hundreds of years. It produces a thrumming noise kinda like the prop of a cessna airplane.\r
 I tried carving one of these a long time ago and while it did sort of work it wasn't as nice as I had hoped. So A couple weeks ago i found my original carved one and decided to model it and print a new one. It does work (although not a loud as in the movie). A teacher could easily use this as an experiment as there is a lot of science and math that could be involved. Firt, how many middle sections do you need to print, secondly how much rope do you need to get the maximum sound etc.\r
 \r
@@ -15,6 +17,7 @@ a word of warning you might want to wear a leather glove when you try it the fir
     okh:repo <https://www.thingiverse.com/thing:21482> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:21482> .

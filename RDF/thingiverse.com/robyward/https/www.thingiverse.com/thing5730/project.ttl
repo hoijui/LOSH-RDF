@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A5730/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:TeardropPendantLightLaserCut a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Teardrop Pendant Light - laser cut" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a laser cut teardrop pendant that I'm in the process of making. I think I'll end up with 3 separate drops as lights hanging in a circle at different heights. I have a forum at http://www.sharemake.com/groups/laser-cutters/forum/topic/tear-drop-laser-cut-pendant-light/ on the whole process.\r
 \r
 This is just the prototype but if you like it make it. It all works and fits together fine.""" ;
@@ -14,6 +16,7 @@ This is just the prototype but if you like it make it. It all works and fits tog
     okh:repo <https://www.thingiverse.com/thing:5730> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:5730> .

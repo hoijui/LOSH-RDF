@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A6799/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ParametricBulletScript a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Parametric Bullet Script" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """NOTE!  This isn't a weapon, or intended to be used as any kind of projectile.   It's a model only, it'll probably break your firearm if you try to load it, it'll probably break your printer if you print it, and knowing my abhorrent OpenSCAD skills, it'll probably blow up your computer if you download it.   Don't be stupid.\r
 \r
 OpenSCAD script for generating bullet models.   Amateurish code, but it seems like it'll work.  Handy for making snap caps, or for designing other parts.   And for people who will say 'that's a cartridge, not a bullet', I know.""" ;
@@ -14,6 +16,7 @@ OpenSCAD script for generating bullet models.   Amateurish code, but it seems li
     okh:repo <https://www.thingiverse.com/thing:6799> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:6799> .

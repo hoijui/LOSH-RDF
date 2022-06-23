@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A31056/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:RoboticClaw a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Robotic Claw" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a first experiment on building a 3D printed robotic claw, I first got inspired by this (http://www.thingiverse.com/thing:18339) project but it was designed for a micro servo, and I wanted to use a standard size servo so I had to design the claw from scratch.\r
 The actual design still need one tweak or two to be optimized for 3D printing, but as it is now is fully functional.\r
 \r
@@ -15,6 +17,7 @@ http://youtu.be/S2QnFcUeU5o""" ;
     okh:repo <https://www.thingiverse.com/thing:31056> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:31056> .

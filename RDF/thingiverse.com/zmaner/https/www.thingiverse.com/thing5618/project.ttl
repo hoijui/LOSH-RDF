@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A5618/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:CableHolder a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Cable Holder" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a Cable holder that you can mount to your wall or desk.  I figured I was sick of all those cables in a tangle mess so I designed this and have found it very useful.  Included are Corel Draw Ver. 14 and 10.  Please let me know what you think about this and I hope it is useful for you.\r
 \r
 Enjoy!""" ;
@@ -14,6 +16,7 @@ Enjoy!""" ;
     okh:repo <https://www.thingiverse.com/thing:5618> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:5618> .

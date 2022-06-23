@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A2728/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Backflowchiller a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "BackFlowChiller" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "It is a small back flow chiller. Through the outer cavity you are able to pump a hot or cold fluid. Through the inner tubing you may pump a fluid which in turn gets heated or chilled by the other fluid. The two fluid are except for the transfer of heat isolated form each other. They will not mix." ;
     okh:hasImage :Image ;
     okh:licensor "DIYengineer" ;
     okh:repo <https://www.thingiverse.com/thing:2728> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:2728> .

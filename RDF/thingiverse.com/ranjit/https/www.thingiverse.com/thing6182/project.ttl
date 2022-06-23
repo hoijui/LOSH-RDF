@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A6182/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:RoundrectOcarina a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "roundrect ocarina" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """An improvised ocarina design - to my surprise, it worked on the first try.  Cut from a 3.5 x 11.5 inch slab of 1/4" maple.  Check the video to hear what it sounds like: http://www.flickr.com/photos/ranjit/5423038441/\r
 \r
 With the finger holes on the sides instead of the top, it's not as easy to play as my previous ocarina: http://www.thingiverse.com/thing:1816 - but it's way easier to assemble.\r
@@ -16,6 +18,7 @@ This is part of my project to make a crude musical instrument every day in Febru
     okh:repo <https://www.thingiverse.com/thing:6182> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:6182> .

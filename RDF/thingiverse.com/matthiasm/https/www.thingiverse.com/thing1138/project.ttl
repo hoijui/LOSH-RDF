@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A1138/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Fanboy a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Fanboy" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a little clamp-on angle that goes onto the Z-platform of the MakerBot. It carries a 40mm diameter PC cooling fan, directed at the extruder nozzle. \r
 \r
 The fan is supposed to quickly cool the extruded material to improve printouts. The part was designed so that a second part can be flipped and printed to carry a second fan. No beauty in this part, no industrial design, just  lot of ABS to hold a tiny cooling fan.\r
@@ -16,6 +18,7 @@ After printing and testing the Thing, I found two problems: 1: the beam below th
     okh:repo <https://www.thingiverse.com/thing:1138> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/LGPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:1138> .

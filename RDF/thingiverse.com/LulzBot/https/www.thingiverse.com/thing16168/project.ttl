@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A16168/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:AdjustableZstopActivator a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Adjustable Z-stop activator" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """We have been wanting to make an adjustable z-endstop holder. Tommyc's Z-stop companion seemed to be a much easier fix so we adjusted the design to fit our printers. You will need a little extra length on the X-axis smooth rods to mount the activator. \r
 \r
 We also removed the trigger arms on the mechanical endstop. The arms tend to bend giving differing points of triggering. The Z-stop activator hits the trigger rather than the trigger arm.\r
@@ -21,6 +23,7 @@ x1-2 springs""" ;
     okh:repo <https://www.thingiverse.com/thing:16168> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:16168> .

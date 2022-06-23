@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A34029/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:AndroidNetrunnerDeckBoxes a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Android: Netrunner deck boxes" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Deck boxes for the Android: Netrunner card game - all seven factions. And a box for tokens with two compartments.\r
 \r
 More images here:\r
@@ -22,6 +24,7 @@ Modeled in Google SketchUp.""" ;
     okh:repo <https://www.thingiverse.com/thing:34029> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:34029> .

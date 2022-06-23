@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A9165/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PrusaMendelWadesXcarriageChatterReducer a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Prusa Mendel / Wades X-carriage Chatter Reducer" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """An issue with the Prusa X-carriage + Wades extruder combo is that the overhanging motor causes the bushings opposite the motor to be very lightly loaded, and if the bushings are loose, it can cause that end to lift/drop on direction change and chatter.  In order to tighten things up long enough to print better replacement parts, I designed this bit.  It attaches to the carriage using the extruder mounting screw as a stud, so it only works with Makergear or similar hot ends that leave that screw open.\r
 Original source file is from Solidworks 2011.""" ;
     okh:hasImage :Image ;
@@ -13,6 +15,7 @@ Original source file is from Solidworks 2011.""" ;
     okh:repo <https://www.thingiverse.com/thing:9165> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:9165> .

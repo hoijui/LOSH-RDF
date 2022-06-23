@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A25564/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ReplicatorThermometerhumidityMeterClip a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Replicator Thermometer/Humidity Meter Clip" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I've got a nice acrylic hood on my Replicator (http://www.thingiverse.com/thing:23386) that keeps it nice and toasty inside, but I was wondering how much.  This clip mounts an Acurite meter inside the Replicator build area.  It mounts to the inside of the back panel, just like the spool holders mount on the back, using the cutout that is/was/maybe intended for a nozzle wiper.\r
 \r
 UPDATED: 6/24/12  The original was too 'bouncy'.  It's been updated to remove the flex.""" ;
@@ -14,6 +16,7 @@ UPDATED: 6/24/12  The original was too 'bouncy'.  It's been updated to remove th
     okh:repo <https://www.thingiverse.com/thing:25564> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:25564> .

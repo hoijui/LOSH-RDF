@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A652/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ExtruderHeaternozzleAssemblySingleMaterialPortTwoSideAirPortsidea20090531 a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Extruder Heater+Nozzle Assembly; Single Material Port, Two Side Air Ports (Idea 20090531)" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a work-in-progress (not fabricated/prototyped yet), exploring how to design a CNC/laser cuttable extruder head assembly for Makerbot/CandyFab applications.\r
 \r
 - Target material is 0.9mm thick steel/aluminum as provided by http://www.ponoko.com/\r
@@ -25,6 +27,7 @@
     okh:repo <https://www.thingiverse.com/thing:652> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:652> .

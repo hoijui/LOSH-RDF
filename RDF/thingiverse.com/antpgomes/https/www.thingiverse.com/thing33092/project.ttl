@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A33092/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Munny a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Munny" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Following up on this instructable, decided to make the model for those who cannot buy a Munny in their country!\r
 \r
 http://www.instructables.com/id/Munny-Speakers/""" ;
@@ -14,6 +16,7 @@ http://www.instructables.com/id/Munny-Speakers/""" ;
     okh:repo <https://www.thingiverse.com/thing:33092> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:33092> .

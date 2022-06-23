@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A8143/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:3dLabyrinthGenerator a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "3D Labyrinth generator" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I wrote processing sketches to generate labyrinths ( http://www.local-guru.net/blog/2011/04/23/generating-labyrinths-in-processing )\r
 \r
 or hexagonal labyrinths ( http://www.local-guru.net/blog/2011/04/26/hexagonal-labyrinths-in-processing ) some days ago. \r
@@ -16,6 +18,7 @@ Then I modified my sketch a bit to generate a 3D version of the labyrinth and ex
     okh:repo <https://www.thingiverse.com/thing:8143> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:8143> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A17310/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:BicycleHeadLightMount a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Bicycle Head Light Mount" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Fully parametric (untested, it works for the parameters as they are set)\r
 \r
 The provided STL are fine for a handlebar where the stem clamp measures 46mm, the diameter of the handlebar is 25mm just next to the stem clamp and 22.5mm of diameter some 15mm far away from the clamp.\r
@@ -17,6 +19,7 @@ thingiverse.com/thing:17359""" ;
     okh:repo <https://www.thingiverse.com/thing:17310> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:17310> .

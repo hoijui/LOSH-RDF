@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A11566/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:WorkingDoorstop a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "working doorstop " ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """In the dorms we have industrial carpet on the floors and all commercial doorstops people have or bought slid, were too short or failed. So I turned to Thingiverse and printed every door stop on here and they unfortunately they were destroyed by the door closers or did not work. So I designed a saw like door stop that was taller and did opt have any large openings to get crushed instead it has columns to direct the force to the carpet and grip tighter.  I also incorporated the schools logo in to the door stop. \r
 \r
 My cupcake has been running nonstop to make enough for my floor. the doorstops have been in use for 4 weeks and are all holding up.""" ;
@@ -14,6 +16,7 @@ My cupcake has been running nonstop to make enough for my floor. the doorstops h
     okh:repo <https://www.thingiverse.com/thing:11566> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:11566> .

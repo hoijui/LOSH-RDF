@@ -2,19 +2,19 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ContactlessDispenser a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Contactless dispenser" ;
     okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "An automatic contactless hydroalcolic gel dispenser.The idea is to use a standard hydroalcolic gel container with a pump, insert it inside the dispenser to get an automatic contactless dispenser." ;
-    okh:hasComponent :ArduinoDiagramsoapdispenser,
-        :StlFilesarm,
-        :StlFilesaxe,
-        :StlFilesbolt,
-        :StlFilesbutton,
-        :StlFilesdistri,
-        :StlFilesgear,
-        :StlFilesplateau ;
+    okh:hasComponent :Arduinodiagramsoapdispenser,
+        :Stlfilesarm,
+        :Stlfilesaxe,
+        :Stlfilesbolt,
+        :Stlfilesbutton,
+        :Stlfilesdistri,
+        :Stlfilesgear,
+        :Stlfilesplateau ;
     okh:hasReadme :Readme ;
     okh:licensor "Pascal L'Haridon" ;
     okh:release <https://wikifactory.com/@lharidon/test/v/b1363fd> ;
@@ -25,113 +25,113 @@
     okh:version "b1363fd2bc877e301fad202200569f7a13b7b1d7" ;
     okh:versionOf <https://wikifactory.com/@lharidon/test> .
 
-:ArduinoDiagramsoapdispenser a okh:Part ;
+:Arduinodiagramsoapdispenser a okh:Part ;
     rdfs:label "Arduino diagram/soap-dispenser" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Pascal L'Haridon" ;
-    okh:source :ArduinoDiagramsoapdispenser_source ;
+    okh:source :Arduinodiagramsoapdispenser_source ;
     okh:spdxLicense <https://spdx.org/licenses/BSD-2-Clause> .
 
-:ArduinoDiagramsoapdispenser_source a okh:SourceFile ;
+:Arduinodiagramsoapdispenser_source a okh:SourceFile ;
     rdfs:label "Source File of Arduino diagram/soap-dispenser of Contactless dispenser b1363fd2bc877e301fad202200569f7a13b7b1d7" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64821/soap-dispenser.pdf> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTYzMDg=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64821/soap-dispenser.pdf> .
 
 :Readme a okh:Readme ;
     rdfs:label "Readme of Contactless dispenser b1363fd2bc877e301fad202200569f7a13b7b1d7" ;
     okh:fileFormat "MD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64821/readme-33433.md> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTYyNzM=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64821/readme-33433.md> .
 
-:StlFilesarm a okh:Part ;
+:Stlfilesarm a okh:Part ;
     rdfs:label "STL Files/Arm" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Pascal L'Haridon" ;
-    okh:source :StlFilesarm_source ;
+    okh:source :Stlfilesarm_source ;
     okh:spdxLicense <https://spdx.org/licenses/BSD-2-Clause> .
 
-:StlFilesarm_source a okh:SourceFile ;
+:Stlfilesarm_source a okh:SourceFile ;
     rdfs:label "Source File of STL Files/Arm of Contactless dispenser b1363fd2bc877e301fad202200569f7a13b7b1d7" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64821/arm.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTYyODU=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64821/arm.stl> .
 
-:StlFilesaxe a okh:Part ;
+:Stlfilesaxe a okh:Part ;
     rdfs:label "STL Files/Axe" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Pascal L'Haridon" ;
-    okh:source :StlFilesaxe_source ;
+    okh:source :Stlfilesaxe_source ;
     okh:spdxLicense <https://spdx.org/licenses/BSD-2-Clause> .
 
-:StlFilesaxe_source a okh:SourceFile ;
+:Stlfilesaxe_source a okh:SourceFile ;
     rdfs:label "Source File of STL Files/Axe of Contactless dispenser b1363fd2bc877e301fad202200569f7a13b7b1d7" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64821/axe.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTYyODk=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64821/axe.stl> .
 
-:StlFilesbolt a okh:Part ;
+:Stlfilesbolt a okh:Part ;
     rdfs:label "STL Files/Bolt" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Pascal L'Haridon" ;
-    okh:source :StlFilesbolt_source ;
+    okh:source :Stlfilesbolt_source ;
     okh:spdxLicense <https://spdx.org/licenses/BSD-2-Clause> .
 
-:StlFilesbolt_source a okh:SourceFile ;
+:Stlfilesbolt_source a okh:SourceFile ;
     rdfs:label "Source File of STL Files/Bolt of Contactless dispenser b1363fd2bc877e301fad202200569f7a13b7b1d7" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64821/bolt.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTYyODA=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64821/bolt.stl> .
 
-:StlFilesbutton a okh:Part ;
+:Stlfilesbutton a okh:Part ;
     rdfs:label "STL Files/Button" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Pascal L'Haridon" ;
-    okh:source :StlFilesbutton_source ;
+    okh:source :Stlfilesbutton_source ;
     okh:spdxLicense <https://spdx.org/licenses/BSD-2-Clause> .
 
-:StlFilesbutton_source a okh:SourceFile ;
+:Stlfilesbutton_source a okh:SourceFile ;
     rdfs:label "Source File of STL Files/Button of Contactless dispenser b1363fd2bc877e301fad202200569f7a13b7b1d7" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64821/button.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTYyNzk=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64821/button.stl> .
 
-:StlFilesdistri a okh:Part ;
+:Stlfilesdistri a okh:Part ;
     rdfs:label "STL Files/Distri" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Pascal L'Haridon" ;
-    okh:source :StlFilesdistri_source ;
+    okh:source :Stlfilesdistri_source ;
     okh:spdxLicense <https://spdx.org/licenses/BSD-2-Clause> .
 
-:StlFilesdistri_source a okh:SourceFile ;
+:Stlfilesdistri_source a okh:SourceFile ;
     rdfs:label "Source File of STL Files/Distri of Contactless dispenser b1363fd2bc877e301fad202200569f7a13b7b1d7" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64821/distri.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTYyOTE=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64821/distri.stl> .
 
-:StlFilesgear a okh:Part ;
+:Stlfilesgear a okh:Part ;
     rdfs:label "STL Files/Gear" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Pascal L'Haridon" ;
-    okh:source :StlFilesgear_source ;
+    okh:source :Stlfilesgear_source ;
     okh:spdxLicense <https://spdx.org/licenses/BSD-2-Clause> .
 
-:StlFilesgear_source a okh:SourceFile ;
+:Stlfilesgear_source a okh:SourceFile ;
     rdfs:label "Source File of STL Files/Gear of Contactless dispenser b1363fd2bc877e301fad202200569f7a13b7b1d7" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64821/gear.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTYyOTY=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64821/gear.stl> .
 
-:StlFilesplateau a okh:Part ;
+:Stlfilesplateau a okh:Part ;
     rdfs:label "STL Files/Plateau" ;
     okh:documentationLanguage "en" ;
     okh:licensor "Pascal L'Haridon" ;
-    okh:source :StlFilesplateau_source ;
+    okh:source :Stlfilesplateau_source ;
     okh:spdxLicense <https://spdx.org/licenses/BSD-2-Clause> .
 
-:StlFilesplateau_source a okh:SourceFile ;
+:Stlfilesplateau_source a okh:SourceFile ;
     rdfs:label "Source File of STL Files/Plateau of Contactless dispenser b1363fd2bc877e301fad202200569f7a13b7b1d7" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64821/plateau.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTozOTYyNzY=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/64821/plateau.stl> .
 

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A41002/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ParametricSimpleCupOrVase a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Parametric Simple Cup or Vase" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """There are plenty of other cups and vases on Thingiverse. This OpenSCAD file was uploaded primarily to check out the Customizer feature.\r
 \r
 It makes a simple cup or vase with either a circular cross-section or a regular polygon cross-section.""" ;
@@ -14,6 +16,7 @@ It makes a simple cup or vase with either a circular cross-section or a regular 
     okh:repo <https://www.thingiverse.com/thing:41002> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:41002> .

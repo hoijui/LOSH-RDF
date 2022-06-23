@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A26065/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:TheReplicationOfVenus a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "The Replication of Venus" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """"Replica di Venere"\r
 The Replication of Venus\r
 with audio: http://youtu.be/aKmJ713CIPc\r
@@ -15,7 +17,7 @@ Cosmonaut figure as Venus on a Replicator, after Botticelli. Had to be done.\r
 \r
 Archetype meets Renaissance meets 1920's futurism meets bleeding-edge pop culture. She's getting closer and closer to stepping out into the real world.\r
 \r
-"Î›ÎµÎ¹Ï„Î¿Ï…ÏÎ³ÎµÎ¯ ÏƒÎµ Ï„ÏŒÏƒÎ± Ï€Î¿Î»Î»Î¬ ÎµÏ€Î¯Ï€ÎµÎ´Î±" - Homer\r
+"Î›ÎµÎ¹Ï„Î¿Ï…Ïx81Î³ÎµÎ¯ ÏƒÎµ Ï„ÏŒÏƒÎ± Ï€Î¿Î»Î»Î¬ ÎµÏ€Î¯Ï€ÎµÎ´Î±" - Homer\r
 \r
 ********\r
 This prints pretty well on a Replicator with these settings:\r
@@ -48,6 +50,7 @@ http://www.youtube.com/CosmoWenman""" ;
     okh:repo <https://www.thingiverse.com/thing:26065> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:26065> .

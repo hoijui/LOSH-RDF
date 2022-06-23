@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A646/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:BrushlessDcMotorPartsV01 a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Brushless DC Motor Parts v0.1" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """It bothers me when ubiquitous parts, such as motors, must be bought. Hobbyists make tiny motors for RC planes etc, but they require fairly specific custom parts. I tried to design similar parts so that they are more easily available.\r
 \r
 I decided on a brushless design because it seemed like it would be easier to print, and because after some research it seemed that it is harder to design a reliable brush motor than a reliable brushless one. A lot of my inspiration/information came from this page: http://www.flyelectric.ukgateway.net/cdrom.htm, and it would probably be helpful for assembling the printed parts as well. \r
@@ -18,6 +20,7 @@ For some bizarre reason the entire center has a bunch of non-manifold holes, whi
     okh:repo <https://www.thingiverse.com/thing:646> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:646> .

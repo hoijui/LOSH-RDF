@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A41487/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ReplacementBlenderCap a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Replacement Blender Cap" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """After making a delicious pitcher of mudslides the other day, I disassembled the blender pitcher and put all the parts in the dishwasher. I was disappointed to see that the little tabs that held the cap to the lid of the pitcher had broken.\r
 \r
 It took me a few minutes to think about how to model this in OpenSCAD. It took a few more minutes to actually model it. I wish I could say the same about OpenSCAD compile and render. That took over an hour at $fn = 50.\r
@@ -16,6 +18,7 @@ The new cap works and fits very nicely. It prints like a breeze with no issues. 
     okh:repo <https://www.thingiverse.com/thing:41487> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:41487> .

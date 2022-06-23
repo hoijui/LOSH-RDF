@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A56481/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Samstone a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "SamStone" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Sam Cohn was an exuberant boy with a 1000 watt smile. He loved his friends, family, dog, and bird deeply. Sam was passionate about guitar, snowboarding, lacrosse, and having fun.   
 
 
@@ -30,6 +32,7 @@ If you found a SamStone. or have a SamStone story, please let us know about it."
     okh:repo <https://www.thingiverse.com/thing:56481> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:56481> .

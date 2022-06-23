@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A12369/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:WireManagementForReprap a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Wire Management for RepRap" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This "Thingy" makes a 20mm diameter wire clip or a wire conduit.  The flexible outside easily opens and clips over the Mendel rod then it snaps tight onto the 8mm or 5/16 rod.   The wires are pushed inside and the outside is then compressed so the barb clips/snaps into the grove to lock the conduit.\r
 The clip can be repeatedly snapped and unsnapped to route and reroute wire.\r
 \r
@@ -15,6 +17,7 @@ It can also be removed and used again somewhere else.""" ;
     okh:repo <https://www.thingiverse.com/thing:12369> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:12369> .

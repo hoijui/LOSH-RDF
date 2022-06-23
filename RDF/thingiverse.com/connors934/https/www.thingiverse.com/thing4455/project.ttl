@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A4455/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:HollowMendoBlock a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Hollow Mendo Block" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is the rotor block for the mendocino motor. The hole is 3/8" and is sized for a standard dowel. The magnets I've used have an interior dimension of 3/8". Wire is wrapped in the grooves, and solar cells are mounted on the flats. The way I have made the mendo motor in the past depended on a 1" balsa block with a similar shape. The grooves were put in with a router table and custom jig. The center hole was done with a drill press. I don't have access to those tools, so am developing this as a way of making the motor without use of the woodshop tools. \r
 \r
 Here is an article on the Mendo Motor: http://fussingwithstuff.com/2008/06/mendocino-motor.html""" ;
@@ -14,6 +16,7 @@ Here is an article on the Mendo Motor: http://fussingwithstuff.com/2008/06/mendo
     okh:repo <https://www.thingiverse.com/thing:4455> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:4455> .

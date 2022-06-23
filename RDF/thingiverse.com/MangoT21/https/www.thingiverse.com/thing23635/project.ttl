@@ -1,14 +1,16 @@
 @prefix : <https://www.thingiverse.com/thing%3A23635/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:IpadBedsideStand a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "iPad Bedside Stand" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """A two position iPad stand.  Designed for an iPad generation one, but surely easily adapted for the newer models.  It has two holding slots, one for portrait (with captive 30pin charging cable) and one for landscape non-charging viewing. We thought there would be some counterbalance issues due to the weight of the stand vs the tablet, so we incorporated a place to sit a hockey puck for weight.  However, it seems to work fine without, so weâ€™re calling that a combination cup holder and car keys/loose change holding slot.  \r
 \r
-Kudos to thingiverse user â€œZaggoâ€ and thing http://www.thingiverse.com/thing:1279 from way back for the idea to arrest movement of the cabling with an undulating underside channel.\r
+Kudos to thingiverse user â€œZaggoâ€x9d and thing http://www.thingiverse.com/thing:1279 from way back for the idea to arrest movement of the cabling with an undulating underside channel.\r
 \r
 Our bot is live to the web at www.justin.tv/bot14me2""" ;
     okh:hasImage :Image ;
@@ -16,6 +18,7 @@ Our bot is live to the web at www.justin.tv/bot14me2""" ;
     okh:repo <https://www.thingiverse.com/thing:23635> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:23635> .

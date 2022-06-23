@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A753/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:LetterBlocks a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Letter Blocks" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I made these for fathers day a while back (printed out my dad's name) but they actually came out really well. They have a nice sound and feel to them. Since then I've just been printing out random letters and rediscovering the joy of playing with blocks.\r
 \r
 **Just uploaded the whole alphabet. Enjoy :)\r
@@ -15,6 +17,7 @@ I've just been designing the letters as I need them but if you have a specific r
     okh:repo <https://www.thingiverse.com/thing:753> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:753> .

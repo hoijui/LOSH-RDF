@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A31372/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MangopowerV02 a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "MangoPower v0.2" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Alison needed a board to control some lights, flipping them on and off at timed intervals. I built this atmega168 based relay board to do just that. Running on a regulated 5v power supply the board can control up to 5 relays.\r
 \r
 The software was written in the arduino ide, but the chips were not burned with the arduino bootloader. Instead, the sketch was burned straight to the chip to allow for no delay on power up.\r
@@ -16,6 +18,7 @@ The software was written in the arduino ide, but the chips were not burned with 
     okh:repo <https://www.thingiverse.com/thing:31372> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:31372> .

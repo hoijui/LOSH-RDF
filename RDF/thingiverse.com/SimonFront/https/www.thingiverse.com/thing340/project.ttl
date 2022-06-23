@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A340/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:CatPooperScooper a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Cat Pooper Scooper (" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Taking care of two cats sooner or later involves some very nasty "sorting". \r
 \r
 Sorting litter from poop normally involves some sort of cheap plastic scoop, but since the shops were closed before I realised I needed one, I quickly threw one together in Illustrator.\r
@@ -18,6 +20,7 @@ This is version 2.0 scaled up about 20%...""" ;
     okh:repo <https://www.thingiverse.com/thing:340> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:340> .

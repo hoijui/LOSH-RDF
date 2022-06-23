@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A12689/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:RingSizeSystemConversion a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Ring Size System Conversion" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Spreadsheet based tool to help convert between the various ring size system (e.g. US+Can, UK+IE+AUS+NZ, IND+CHN, Swiss)and allow you to calculate the ring internal diameter in mm. Also gives linear best fit equations based on data found here http://en.wikipedia.org/wiki/Ring_size\r
 \r
 Potentially very useful when combined with the following:\r
@@ -20,6 +22,7 @@ Note: A table allowing you to convert between all the different sizing systems i
     okh:repo <https://www.thingiverse.com/thing:12689> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:12689> .

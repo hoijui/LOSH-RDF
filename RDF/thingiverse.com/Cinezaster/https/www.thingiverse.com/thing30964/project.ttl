@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A30964/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:TiltShiftLensForNikon a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Tilt shift lens for nikon" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This thing was made with Tinkercad. Edit it online https://tinkercad.com/things/4ofIStkP7AL\r
 I made this to show a friend what possibly could be done with tilt/shift lenses. He owned a nikon. I don't, so I was never able to finish this project to something very useful and safe to use.\r
 \r
@@ -16,6 +18,7 @@ __The fittings are to loose, so keep hands on lens and body.__""" ;
     okh:repo <https://www.thingiverse.com/thing:30964> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:30964> .

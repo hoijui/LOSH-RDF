@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A6898/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:SpinningTop a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Spinning top" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """My kids have been wanting me to build a spinning top since I ordered the 3d printer. They play a lot with Bey Blade and Battle striker, and I guess I should really make some compatible components. This one is very simple though. I've printed it on my Thing-o-matic. \r
 \r
 It might have been better with a sharper tip, but my son claims it's more stable like this (best would be a rounded tip).""" ;
@@ -14,6 +16,7 @@ It might have been better with a sharper tip, but my son claims it's more stable
     okh:repo <https://www.thingiverse.com/thing:6898> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:6898> .

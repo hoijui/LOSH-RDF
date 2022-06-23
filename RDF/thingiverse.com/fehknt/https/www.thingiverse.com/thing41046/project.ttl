@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A41046/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ZThrustBearingMountForLochesUpgradedMgPrusa a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Z thrust bearing mount for Loches upgraded MG Prusa" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is kind of an ugly hack to make the nice coupling system from http://www.thingiverse.com/thing:16263 work with a MG Prusa that had Loches Z axis upgrade http://www.thingiverse.com/thing:22887 applied.  Basically, I de-integrated it a bit.  Works great except that the rods no longer reach the lower constraint.  I recommend printing a new lower z-axis stabilizer before mounting these.\r
 \r
 Poor print quality was from a botched slic3r config on my part, but it works...""" ;
@@ -14,6 +16,7 @@ Poor print quality was from a botched slic3r config on my part, but it works..."
     okh:repo <https://www.thingiverse.com/thing:41046> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:41046> .

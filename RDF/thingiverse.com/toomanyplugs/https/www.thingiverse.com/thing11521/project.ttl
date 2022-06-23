@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A11521/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:SnapinMendelFilamentGuideWithDiagonalSlot a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Snap-In Mendel Filament Guide, with diagonal slot" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Many of the filament guides I've seen require either more vitamins (bolts/nuts/rods), or the removal of the frame nuts for installation. I had a heck of a time squaring and tightening my frame, so I didn't want to have to take it apart again.\r
 \r
 This filament guide is a snap-in one designed for the pitch of the threaded rods on the original Mendel (58.89mm). I don't know if the Prusa has a different pitch, but this guide should work even if it is up to about 5-7mm narrower than the Mendel (obviously wider won't work so well without modification).\r
@@ -18,6 +20,7 @@ I also used the diagonal slot idea from fil's thing http://www.thingiverse.com/t
     okh:repo <https://www.thingiverse.com/thing:11521> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:11521> .

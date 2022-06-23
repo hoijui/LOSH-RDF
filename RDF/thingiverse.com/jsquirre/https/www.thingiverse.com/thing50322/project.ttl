@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A50322/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ReplacementDellCaddy a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Replacement Dell Caddy" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Dell Optiplex GX520 GX620 745 755 755 760 hard drive caddy tray. This is my first creation i  do not have a printer to print and test it yet.   
 
 3/22/2014 UPDATE after wasting plastic trying to clone this caddy i designed tabs that accomplish the same function without using as much plastic and no locking mechanism. This new design relies on slightly oversized parts to create enough friction to keep the hard drive from moving. Plus it's universal Just make sure the thicker tab resets under the drive. Providing a spacer and friction to keep the drive in place when slid into the bay.""" ;
@@ -14,6 +16,7 @@
     okh:repo <https://www.thingiverse.com/thing:50322> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:50322> .

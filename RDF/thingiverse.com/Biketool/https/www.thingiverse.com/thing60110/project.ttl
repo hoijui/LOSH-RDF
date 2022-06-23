@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A60110/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:RepairMicroRcHelicopterControlStickAndUsbCharger a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Repair Micro RC Helicopter Control Stick and USB Charger" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a replacement part control stick assembly for my kids cheap micro IR RC helicopter controller(gray in pic).  Probably a standard part for RC toys so view the .stl in Meshlab and compare it to your broken part.\r
 I also included the USB charger board enclosure I made when we first got the toy as the included charger burns through AA batteries fast.""" ;
     okh:hasImage :Image ;
@@ -13,6 +15,7 @@ I also included the USB charger board enclosure I made when we first got the toy
     okh:repo <https://www.thingiverse.com/thing:60110> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:60110> .

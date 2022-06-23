@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A24003/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:InsulatingCanHolder a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Insulating Can Holder" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """While there are numerous nifty can holders on Thingiverse, I could not find one that helped insulate my drink and keep my precious Diet Dew colder longer. This functional but plain thing holds a standard 12 oz. soda can (or can of similar diameter) and helps insulate it. After using this one for a couple weeks, it seems to work as well as a foam can coolie at keeping my drinks cold.\r
 \r
 Stay thirsty my friends...""" ;
@@ -14,6 +16,7 @@ Stay thirsty my friends...""" ;
     okh:repo <https://www.thingiverse.com/thing:24003> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:24003> .

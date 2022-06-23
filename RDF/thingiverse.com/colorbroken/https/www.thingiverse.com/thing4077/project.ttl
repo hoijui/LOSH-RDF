@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A4077/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:EyeglassTemples a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Eyeglass Temples" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "I already wrote this up and then I lost it, so here's the short descriptor for now:  I broke my temples, put lame metal skinny ones on, and decided that was enough.  These are printed in two pieces, joined and melt-welded together, and work pretty darned well.  For the opposite side you just print the file mirrored, and VOILA, working eyeglasses!  More details shortly, sorry, I'm angry at me for not saving.  Brokenbot pity da foo." ;
     okh:hasImage :Image ;
     okh:licensor "colorbroken" ;
     okh:repo <https://www.thingiverse.com/thing:4077> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:4077> .

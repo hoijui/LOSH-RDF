@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A18879/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:HisAndHerOwls a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "His and Her Owls" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """My new YouTube Channel: https://www.youtube.com/channel/UCnnw56J_TeOsF4M_F5pPPJQ\r
 \r
 As a gift for two friends of mine who's wedding I am officiating, I slightly modified and printed these two owls based (almost completely) on the excellent model by Cushwa.  \r
@@ -16,6 +18,7 @@ Enjoy!""" ;
     okh:repo <https://www.thingiverse.com/thing:18879> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:18879> .

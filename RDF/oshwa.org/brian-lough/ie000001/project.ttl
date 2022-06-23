@@ -2,22 +2,16 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Flexcfriend a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Flex-C-Friend" ;
-    okh:additionalType "['Electronics', 'Tool']" ;
-    okh:certificationDate "2020-08-14T00:00:00-04:00" ;
-    okh:country "Ireland" ;
-    okh:cpcPatentClass "Electronics" ;
+    okh:cpcPatentClass "H" ;
     okh:dataSource "oshwa.org" ;
     okh:documentationLanguage "en" ;
-    okh:documentationLicense "CC BY-SA" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function "An external board for powering TS100 Soldering irons from USB-C Power Delivery" ;
-    okh:hardwareLicense "CERN" ;
     okh:licensor "Brian Lough" ;
-    okh:primaryType "Tool" ;
     okh:repo <https://certification.oshwa.org/ie000001.html> ;
     okh:repoHost "certification.oshwa.org" ;
-    okh:softwareLicense "No software" ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
     okh:uploadMethod "auto" ;
     okh:version "1.2" ;

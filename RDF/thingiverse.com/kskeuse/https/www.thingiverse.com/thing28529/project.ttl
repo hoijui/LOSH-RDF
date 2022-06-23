@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A28529/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:BorderlandsShieldMod a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Borderlands Shield Mod" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Just another Borderlands 2 model that I made for fun. \r
 \r
 September 18th can't come quick enough!\r
@@ -16,6 +18,7 @@ Note: I take requests for 3D designs!""" ;
     okh:repo <https://www.thingiverse.com/thing:28529> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:28529> .

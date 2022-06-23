@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A47565/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:BalloonPoweredTurbine a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Balloon Powered Turbine" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This was an idea I had when fiddling with the balloon car. I spent the day thinking about how to make it instead of going out to buy new balloons, so I haven't actually tested it with a good balloon, but sticking a straw in the inlet and blowing spins it up pretty fast and makes a cool turbo whistle sound.\r
 \r
 UPDATE: I actually bought new balloons! 12" "helium-quality" party balloons. They spin the turbine, but they have larger necks so you have to hold the balloon in place and there is some leakage. I'm working on a version 2 with a larger inlet, as well as a larger diameter output shaft.\r
@@ -17,6 +19,7 @@ It only runs for about 3 seconds, I'm assuming that's because I opened the inlet
     okh:repo <https://www.thingiverse.com/thing:47565> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:47565> .

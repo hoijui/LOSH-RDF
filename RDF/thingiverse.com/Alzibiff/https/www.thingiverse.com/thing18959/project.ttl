@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A18959/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:GearOclockNumberPlatesAndCoupleOfChanges a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Gear O'Clock - number plates and couple of changes" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Following on from Bad Brad's Gear O'Clock (amazing) and VeryWetPaint's accessories (brilliant), I have produced two plates - one for the odd numbers and one for the even numbers - dimensions still in inches. There are another couple of files here too which I hope will help people with home build reprap machines - I am using a RepRapPro Huxley. In order to slice the open top mechanism housing and the main drive gear from VeryWetPaint using Slic3r and Skeinforge I found that I had to rotate them through 180 degrees in the Z direction before I could get a print - the files here are the ones from VeryWetPain but rotated as above.  
 
 Bearing in mind that I am working in mm and that that PrintTo3D and VeryWetPaint are working in inches, I used the scale option in Slic3r for my two clocks. The first clock, which I wanted to mount on my desk divider at work was scaled at x20 and I used a scale of x25 for my other one - this is the maximum size for my RepRapPro Huxley - the ClockBaseDiv4 STL from VeryWetPaint is excellent and just about fits on my print bed at x25.  I amended VeryWetPaint's slotted drive gear as I purchased a clock movement with circular push fit type shafts. (Here in the UK, the only movement I could find with a slotted minute shaft was VERY expensive and so I used movements from www.ClockParts.co.uk - a lot cheaper!). The file here, (which has a drive gear scaled at x20 from the original) has a 3.6mm hole which pushes on to the minute shaft: no need to remove the hour shaft. This part has a 26mm diameter face and takes the second hand gear scaled at full size.  
@@ -16,6 +18,7 @@ At first, I started printing numbers using a single colour, intending to paint t
     okh:repo <https://www.thingiverse.com/thing:18959> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:18959> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A30401/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MasterLine a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Master Line " ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """The Master line has been designed and constructed so as to keep in order the lines of your kite. Compatible with all makes and models of kites to 4 (or 5 lines), the system has 4 (or 5) connectors, each consisting of two identical halves which mate to "embrace" every single line without squeezing it. During normal operation of each kite, the line will host a connector. At the end of the session, when separate lines by 'kite is sufficient to interconnect the elements of the Master line in the same order in which you disconnect from the kite. The system ensures that the lines do not cross and can always maintain the correct order to be reconnected to the kite without the need to unroll the entire length, avoiding any possibility of knotting or tangling the four lines.  
 https://www.youtube.com/watch?v=XCw6HihptwI""" ;
     okh:hasImage :Image ;
@@ -13,6 +15,7 @@ https://www.youtube.com/watch?v=XCw6HihptwI""" ;
     okh:repo <https://www.thingiverse.com/thing:30401> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:30401> .

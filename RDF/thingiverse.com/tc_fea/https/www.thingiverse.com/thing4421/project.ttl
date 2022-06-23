@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A4421/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:GhostToy a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Ghost Toy" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """1/4/2012 update: added ghost_3_111218b_0.84mm.stl with 0.84mm thick wall for printing with thinner nozzles.\r
 \r
 This is a little ghost toy. Print it in glow in the dark plastic or insert a small light.\r
@@ -20,6 +22,7 @@ file: mk_ghost_2_101011b.mac creates the geometry in ANSYS classic.""" ;
     okh:repo <https://www.thingiverse.com/thing:4421> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:4421> .

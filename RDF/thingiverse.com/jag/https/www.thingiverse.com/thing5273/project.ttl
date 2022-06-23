@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A5273/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ToyTankerTruck a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "toy tanker truck" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "An openscad toy truck.  The wheels should spin.  I designed this thing a long time ago and never set up oozebane so I was never able to get the wheels working.  Now with the Mk6 stepstruder, it's no problem.  There are still some small threads sticking the axles to the truck but you can break them pretty easily (especially if it's still a tiny bit warm)" ;
     okh:hasImage :Image ;
     okh:licensor "jag" ;
     okh:repo <https://www.thingiverse.com/thing:5273> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:5273> .

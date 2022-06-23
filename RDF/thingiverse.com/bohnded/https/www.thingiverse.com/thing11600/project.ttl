@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A11600/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:AnotherMakerbotMascotContestEntry a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Another MakerBot Mascot Contest Entry" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Wanted to make another one. Despite the inspiration sketch, this was inspired more by old tin robots, TV and my Dad's old portable reel to reel.\r
 \r
 This one is pretty tiny compared to the last one, but it is all in one plate... except for the pegs.\r
@@ -16,6 +18,7 @@ This one was made entirely in TinkerCad. I just imported it into SketchUp for an
     okh:repo <https://www.thingiverse.com/thing:11600> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:11600> .

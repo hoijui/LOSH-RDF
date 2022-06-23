@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A5951/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:2TwistyTieSpool a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "2 Twisty Tie Spool" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I'm busy setting up my Makerbot, and I don't want to go out and buy a spool, so what do I do?  Use the two twisty ties that came with the plastic to hang the roll from the nearest available surface of appropriate height...\r
 \r
 Every 5 minutes or so during printing you have to give the roll a turn, so this isn't a long term solution, but this will get you going long enough to print out a spool.""" ;
@@ -14,6 +16,7 @@ Every 5 minutes or so during printing you have to give the roll a turn, so this 
     okh:repo <https://www.thingiverse.com/thing:5951> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:5951> .

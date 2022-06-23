@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A9236/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ObamaTsp a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Obama TSP" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I was testing the TSP (Traveling Salesman Problem) art scripts (written for the Eggbot) to do a print on my Unicorn and this was the first image I came to that I thought would print well.\r
 \r
 I compiled the TSP solver under Ubuntu and used GIMP to generate the point image.\r
@@ -20,6 +22,7 @@ http://wiki.evilmadscience.com/TSP_art""" ;
     okh:repo <https://www.thingiverse.com/thing:9236> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:9236> .

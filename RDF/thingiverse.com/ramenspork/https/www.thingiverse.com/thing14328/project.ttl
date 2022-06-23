@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A14328/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MatrixBuildings a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Matrix Buildings" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I teach Linear Algebra to a small class of High School students.  We took a few days to learn openSCAD and use the multmatrix function to explore some "real world applications".\r
 \r
 The kids in the class had no prior programming experience and I think openSCAD was a great way for them to learn some of the basics of programming.\r
@@ -16,6 +18,7 @@ Their homework assignment was to design two objects, a building and a tree, by w
     okh:repo <https://www.thingiverse.com/thing:14328> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:14328> .

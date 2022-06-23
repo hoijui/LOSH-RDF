@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A8244/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:WallMountableBottleOpener a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Wall mountable bottle opener" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Because thingiverse can never have enough bottle openers...\r
 \r
 Here's an openscad wall mountable penny bottle opener.\r
@@ -18,6 +20,7 @@ There is now a first attempt at a version with a tongue and eyes.  I haven't pri
     okh:repo <https://www.thingiverse.com/thing:8244> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:8244> .

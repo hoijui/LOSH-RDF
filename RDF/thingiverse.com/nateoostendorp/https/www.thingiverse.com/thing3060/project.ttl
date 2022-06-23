@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A3060/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ParametricCookieCutter a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Parametric Cookie Cutter" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Inspired by whowhatwhere\\'s cookie cutters, I decided to take a stab at making a more generalizable cookie cutter pattern.\r
 \r
 This OpenSCAD script has parameters for the standard dimensions, but it also has a \\"primitive\\" module which you can replace with any scalable flat shape.  It creates a wall in 3 thicknesses -- a thick lip at the very bottom, a sturdy wall for most of the height, and then a single-filament-width tip at the very top.""" ;
@@ -14,6 +16,7 @@ This OpenSCAD script has parameters for the standard dimensions, but it also has
     okh:repo <https://www.thingiverse.com/thing:3060> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/BSD-4-Clause> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:3060> .

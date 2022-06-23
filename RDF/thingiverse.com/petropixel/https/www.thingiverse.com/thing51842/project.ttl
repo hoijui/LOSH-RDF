@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A51842/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:BalloonTurbineCar a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Balloon Turbine Car" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """It works! It's not that impressive! It's kind of a dead end.\r
 \r
 My original design had these structures that plugged into each side of the turbine and stretched out to the backsides of the wheels. The idea was they would support the axles, eliminate the need for the clip on the output shaft, and provide a mounting point for the car's body. In practice, they added too much drag to the axle and were way too flimsy. The axle spins much better without them, but it's easily dislocated.\r
@@ -19,6 +21,7 @@ I whipped up a set of lightweight drive wheels, which added maybe another 6 inch
     okh:repo <https://www.thingiverse.com/thing:51842> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:51842> .

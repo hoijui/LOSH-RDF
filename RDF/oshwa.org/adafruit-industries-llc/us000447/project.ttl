@@ -2,21 +2,15 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Adxl377HighgTripleaxisAccelerometer200gAnalogOut a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "ADXL377 - High-G Triple-Axis Accelerometer (+-200g Analog Out)" ;
-    okh:additionalType "['Electronics']" ;
-    okh:certificationDate "2020-04-30T00:00:00-04:00" ;
-    okh:country "United States of America" ;
     okh:dataSource "oshwa.org" ;
     okh:documentationLanguage "en" ;
-    okh:documentationLicense "CC BY-SA" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function "The ADXL377 3-axis accelerometer can sense up to 200g's of force. The sensor is soldered onto a PCB with four mounting holes and a 3.3V regulator so you can use it with 5v logic such as an Arduino. We also add 0.01uF filter caps for 500Hz output bandwidth. This breakout comes with 3 analog outputs for X, Y and Z axis measurements. Click the link labeled 'Project Website' to find out more." ;
-    okh:hardwareLicense "Other" ;
     okh:licensor "Adafruit Industries, LLC" ;
-    okh:primaryType "Electronics" ;
     okh:repo <https://certification.oshwa.org/us000447.html> ;
     okh:repoHost "certification.oshwa.org" ;
-    okh:softwareLicense "MIT" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
     okh:uploadMethod "auto" ;
     okh:version "0.3" ;

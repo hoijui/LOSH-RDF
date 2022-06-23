@@ -2,23 +2,17 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:EspLineFollower a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "ESP Line Follower" ;
-    okh:additionalType "['Robotics']" ;
-    okh:certificationDate "2021-10-15T00:00:00-04:00" ;
-    okh:country "United States of America" ;
-    okh:cpcPatentClass "Robotics" ;
+    okh:cpcPatentClass "B25J9/00" ;
     okh:dataSource "oshwa.org" ;
     okh:documentationLanguage "en" ;
-    okh:documentationLicense "CC BY-SA" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function """An educational kit to build and learn robotics individually or in classrooms using line following algorithm.
 The project is designed around ESP8266, but can be used with ESP32 as well.""" ;
-    okh:hardwareLicense "CERN" ;
     okh:licensor "Azoteca Software LLC" ;
-    okh:primaryType "Education" ;
     okh:repo <https://certification.oshwa.org/us002057.html> ;
     okh:repoHost "certification.oshwa.org" ;
-    okh:softwareLicense "MIT" ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
     okh:uploadMethod "auto" ;
     okh:version "1.0" ;

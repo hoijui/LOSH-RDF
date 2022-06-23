@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A24234/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:3LeggedChair a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "3 legged chair" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a project I made for school. We were asked to bring a piece of furniture into class from the garbage and dissect it, realize the construction method then rebuild it into a piece of sculpture. This was to be the basis for our final design. \r
 I found a chair in my back yard that had been there for several years. I thought it was like a soldier shipped off to war then upon returning is discarded because it is "broken." I gave the chair a crystal clear acrylic leg to signify an injury. \r
 Taking the essence of the wounded chair I then decided to design a chair that was born without one leg. I did the math to ensure it could still stand and began construction. \r
@@ -17,6 +19,7 @@ It was my intention to bring further awareness of disabilities.""" ;
     okh:repo <https://www.thingiverse.com/thing:24234> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:24234> .

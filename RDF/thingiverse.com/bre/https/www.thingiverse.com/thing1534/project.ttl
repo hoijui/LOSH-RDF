@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A1534/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:BrePettisIn3d a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Bre Pettis in 3D!" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Yup, outside the buffet at the Excaliber Joli took 3D scans of us and burned us a cd. This really needs some cleaning up and a backside to be solid, but I\\'m really impressed with the scan. It got the texture of the argyle lines on my sweater!\r
 \r
 Update: It's been on my agenda to print myself out and so I've uploaded an edited version. \r
@@ -16,6 +18,7 @@ Update: Another updated version!""" ;
     okh:repo <https://www.thingiverse.com/thing:1534> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:1534> .

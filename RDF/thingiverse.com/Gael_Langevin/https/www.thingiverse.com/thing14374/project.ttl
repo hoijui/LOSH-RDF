@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A14374/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:BfbPlateForSpoolHolder a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "BFB Plate for spool holder" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "This is just a derivative of a great spool holder from Charlespax, adapted with a plate to fit the BFB's printers. you don't need to drill to damage your printer to fix this stuff, this is a hook up thing!" ;
     okh:hasImage :Image ;
     okh:licensor "Gael_Langevin" ;
     okh:repo <https://www.thingiverse.com/thing:14374> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:14374> .

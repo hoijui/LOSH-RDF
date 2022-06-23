@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A27286/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:3dTextureFractalCellular a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "3D Texture - Fractal Cellular" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This Fractal Cellular procedural texture has been rendered into a volume data cube. It is a non-tiling 8-bit texture at 256 x 256 x 256 voxel resolution. Iso-surface meshes are also provided in PLY and STL. I have also included PNG codec AVI versions, one of which "fades" at the edges (for making surfaces that don't end abruptly). \r
 These textures are from an archive I made nearly a decade ago, by simply sweeping a plane through a procedural texture and rendering out the results. Here are the available formats:\r
 \r
@@ -25,6 +27,7 @@ STL isosurface mesh (reduced) 810K polygons""" ;
     okh:repo <https://www.thingiverse.com/thing:27286> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:27286> .

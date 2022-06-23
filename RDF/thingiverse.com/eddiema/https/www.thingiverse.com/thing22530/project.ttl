@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A22530/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Xl10tpulleyd26 a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "XL10t_pulley-D26" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """XL10t_pulley increased to 26mm around the screw hole. The original looks OK but they have been spiltting near the screw. Note that this probably won't work for the X pulley because of the "ZEST" screw. A normal pulley with lots of fill may be the best thing here.\r
 I've added a second part here - the "r" version has a 6*3mm recess for the screw head.\r
 There is still a problem if the screw is too long.\r
@@ -15,6 +17,7 @@ Based on http://www.thingiverse.com/thing:6822 but redrawn in sketchup.""" ;
     okh:repo <https://www.thingiverse.com/thing:22530> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:22530> .

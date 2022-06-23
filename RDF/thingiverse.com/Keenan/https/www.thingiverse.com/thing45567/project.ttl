@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A45567/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:bladeRunnerEnnisHouseTile a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "\"Blade Runner\" Ennis House Tile " ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This design is most famous for being used in the sci-fi classic film "Blade Runner". It was originally designed by Frank Lloyd Wright for the 1924 Ennis house in Los Angeles, where the design was used on repeating concrete blocks.  
 
 Also check out my Freeman House Tile, another Frank Lloyd Wright design.  http://www.thingiverse.com/thing:172787""" ;
@@ -14,6 +16,7 @@ Also check out my Freeman House Tile, another Frank Lloyd Wright design.  http:/
     okh:repo <https://www.thingiverse.com/thing:45567> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:45567> .

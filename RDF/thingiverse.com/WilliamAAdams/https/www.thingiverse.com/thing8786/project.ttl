@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A8786/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:BezierMeshSurfaceV10 a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Bezier Mesh Surface V1.0" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Well, I started out wanting to do some nicer fillets on my OpenScad designs, and suddenly, I have a full blown Bezier surface/solids library!\r
 \r
 This thing is the Version 1.0 for this stuff.  I think it's actually good enough to produce some nice looking objects. \r
@@ -33,6 +35,7 @@ http://williamaadams.wordpress.com/2011/05/26/linear-extrusion-of-bezier-surface
     okh:repo <https://www.thingiverse.com/thing:8786> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:8786> .

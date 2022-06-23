@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A7147/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:SpoolMashup a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Spool Mashup" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I had a problem I liked:\r
 100% printable filament spool by abliss:\r
 http://www.thingiverse.com/thing:5766\r
@@ -22,6 +24,7 @@ Both designs are great, and I want to thank both authors for doing all the real 
     okh:repo <https://www.thingiverse.com/thing:7147> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:7147> .

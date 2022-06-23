@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A61146/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:8020fractionalParallelMatingPlug a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "80/20 (fractional) parallel mating plug" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a small, friction-fit plug that mates sections of 80/20 profile together in parallel.\r
 See 8020inc.net for more information on 80/20.\r
 Hopefully, the photos will make the application clear - while 80/20 has a whole galaxy of different types of couplers and fasteners, I wasn't able to find anything that mates profiles that are flush up against each other.""" ;
@@ -14,6 +16,7 @@ Hopefully, the photos will make the application clear - while 80/20 has a whole 
     okh:repo <https://www.thingiverse.com/thing:61146> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:61146> .

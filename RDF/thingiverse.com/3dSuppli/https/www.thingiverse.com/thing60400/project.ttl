@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A60400/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Mendelmax15ParametricYRodMount a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "MendelMax 1.5 - Parametric Y Rod Mount" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a wider replacement for the standard Y Rod Mount for 8mm smooth rods found in the MendelMax 1.5.  The default Y Rod Mount is set to 100mm rod center to rod center - this .stl has that distance lengthened to 136mm for a much wider and more stable base for your MendelMax Y carriage.  
 
 The OpenSCAD script is dependent upon the original Y Rod Mount from kludgineer's "MendelMax 1.5".  It is parametric, so simply set the rod distance you desire, and you'll get an .stl that works for your specifics.  (Just make sure it still fits on your print bed).  
@@ -19,6 +21,7 @@ http://www.thingiverse.com/thing:61633""" ;
     okh:repo <https://www.thingiverse.com/thing:60400> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:60400> .

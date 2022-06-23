@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A3933/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:CaneGripperWarningTotallyMessedUpScale a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Cane Gripper (! WARNING! Totally messed up scale!) " ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """UPDATE: I finally have a 3D printer. This model does not work. I think I will get around fixing/redesigning it someday.   
 
 First, Please note that this is my first Thing on Thingiverse. Please be kind to me. This is a draft of a draft of a draft. I mainly wanted to share this to try Thingiverse out.   
@@ -38,6 +40,7 @@ The cane can then be used to manipulate the object.""" ;
     okh:repo <https://www.thingiverse.com/thing:3933> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:3933> .

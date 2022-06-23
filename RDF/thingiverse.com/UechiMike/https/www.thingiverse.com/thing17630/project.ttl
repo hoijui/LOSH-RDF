@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A17630/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:DelicateRingathingwPinConnectorsRing a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Delicate Ring-A-Thing /w Pin Connectors Ring" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I like the original Ring-A-Thing except for it's chunkiness and completely separate pin.  I decided to save a little plastic and revised the design slightly to eliminate the chunkyness, save some plastic and make it a little more "delicate" for small hands.\r
 \r
 I wish OpenScad had a filet feature.\r
@@ -16,6 +18,7 @@ I wish OpenScad had a filet feature.\r
     okh:repo <https://www.thingiverse.com/thing:17630> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:17630> .

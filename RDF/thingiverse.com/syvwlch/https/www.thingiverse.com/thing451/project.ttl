@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A451/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Teapot a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Teapot" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Felt like doing something a bit more complicated than a cup, so I went for a teapot.\r
 \r
 All shaped in TopMod, subdivided/smoothed in Blender.\r
@@ -16,6 +18,7 @@ I'll be working on variants of this for a while... improving the spout, adding a
     okh:repo <https://www.thingiverse.com/thing:451> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:451> .

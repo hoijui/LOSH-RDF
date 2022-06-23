@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A28988/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:FanatecShifterClamp a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Fanatec Shifter Clamp" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "So the shifter mounting bars on a Fanatec steering wheel are pretty flimsy.  The entire shifter will rock back and forth about 20 degrees when shifting from say 3rd to 4th.  I made a little clamp to keep the bars from rotating with respect to each other and in turn that keeps the shifter from rotating.  I've got one clamp on there now, but one on each side would probably be best." ;
     okh:hasImage :Image ;
     okh:licensor "FluidDoc" ;
     okh:repo <https://www.thingiverse.com/thing:28988> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:28988> .

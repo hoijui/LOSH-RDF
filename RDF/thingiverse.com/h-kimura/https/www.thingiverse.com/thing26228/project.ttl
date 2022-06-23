@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A26228/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:CycloidGearWithOnly4Teeth a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Cycloid Gear with only 4 teeth" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """A gear which is composed of Cycloid curves is presented.\r
 This type of gears have very interesting features. One is that the gear can be composed of very small number of teeth. Theoretical limit of the smallest number of the teeth is 3, however, it is not practical. Here I show a cycloid gear with 4 teeth that is sufficiently practical. The distance between the shafts of the gears is 60mm, and the radius of the base circle of the gear is 30mm, and the radius of the rolling circle that generates the cycloid curves of the gear is 15mm. Please visit:\r
 http://sysplan.nams.kyushu-u.ac.jp/gen/hobby/puzzle/gearsj.html""" ;
@@ -14,6 +16,7 @@ http://sysplan.nams.kyushu-u.ac.jp/gen/hobby/puzzle/gearsj.html""" ;
     okh:repo <https://www.thingiverse.com/thing:26228> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:26228> .

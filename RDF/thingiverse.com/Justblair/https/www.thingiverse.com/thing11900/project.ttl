@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A11900/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ReprapPrusaXEndMotorBraces a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "RepRap Prusa X End Motor Braces" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """My Reprap Prusa is still in it's early life stages.  Amongst some of the problems I have had to solve one is the X end motor parts which are a little flimsy.  \r
 \r
 One problem that this created for me is that tightening the X carriage belt is difficult. The reason is that there is a fair amount of flex in the plastic part.  I have read others who feel that the part has been stripped down a little too much and now is flimsy.  Obviously you could create a new part with some more plastic in there to make it sturdier.\r
@@ -20,6 +22,7 @@ With this alteration the X motor end becomes rock solid and tensioning the X car
     okh:repo <https://www.thingiverse.com/thing:11900> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:11900> .

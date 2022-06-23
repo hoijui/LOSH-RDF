@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A23717/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:TheLittleBoltHobbit a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "The little bolt hobbit" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """If you use different extruders, is a hassle to recalibrate your reprap each time you change the extruder. Therefore I decided to make my hobbet bolts much more precisely and reproducible.   
 
 To gain better hobbet bolts, you need the little bolt hobbit and a proxxon micromot 50 (with some adjustment you might also be able to use any other kind of dremel-like tool).   
@@ -23,6 +25,7 @@ edit 4: I just added a 30tooth gear for those of you who prefer less teeth on th
     okh:repo <https://www.thingiverse.com/thing:23717> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:23717> .

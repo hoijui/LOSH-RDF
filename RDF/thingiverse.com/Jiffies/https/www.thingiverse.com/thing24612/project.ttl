@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A24612/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:CableRetainerClipForTheReplicator a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Cable Retainer Clip for The Replicator" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """My Replicator came with a missing clip, did I call support? NO! This was a superb opportunity to create my very own first thingy! :-)\r
 \r
 This is a small clip used to hold down the cable that comes out from the floor in The Replicator and goes up to the heated bed.""" ;
@@ -14,6 +16,7 @@ This is a small clip used to hold down the cable that comes out from the floor i
     okh:repo <https://www.thingiverse.com/thing:24612> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:24612> .

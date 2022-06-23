@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A755/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ToothedKeysToOperateGearsFromOutsideOfDioramaBoxes a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "toothed keys to operate gears from outside of diorama boxes" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """So.. i made all these gears (see other u/l) and when I made the dioramas, there was no way to turn the gears from the outside. I consulted my favorite guru for ideas (that didnt involve me using a lathe to carve a worm gear) and we came up with this. So I designed it to match the tiny gears in my gear sheet (two at top) and the long ones are for 6 inch boxes, the small ones for 4 inch frames.. \r
 i'm going to go print it on the lazor. hopefully it'll work. fingers crossed.""" ;
     okh:hasImage :Image ;
@@ -13,6 +15,7 @@ i'm going to go print it on the lazor. hopefully it'll work. fingers crossed."""
     okh:repo <https://www.thingiverse.com/thing:755> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:755> .

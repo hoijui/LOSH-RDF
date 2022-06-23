@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A15558/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:SimpleSpoolHolderForUltimachine5lbSpools a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Simple Spool Holder for Ultimachine 5lb Spools" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I was using a bearing hub and a piece of threaded rod to hold a spool, but as my collection of PLA grew, it was too much weight for the threaded rod and starting to use up all my 608 bearings.\r
 \r
 The PLA Spools from Ultimachine are 1.5" in diameter.  My local Home Depot sells 10' long sticks of conduit for $12 and they cut it for free.  (I went with 3', 3', 4').  The conduit fits nicely in the spools and they spin fine.  There is a bit of friction which isn't a bad thing IMO, so the spools don't unwind too much accidentally.\r
@@ -18,6 +20,7 @@ I have some slat-wall brackets that seem to work well, keeping the spools at a d
     okh:repo <https://www.thingiverse.com/thing:15558> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:15558> .

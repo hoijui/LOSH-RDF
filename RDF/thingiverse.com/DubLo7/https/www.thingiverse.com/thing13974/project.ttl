@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A13974/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:AProperlyPointyPrincessHeartCrown a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "A Properly Pointy Princess Heart Crown" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is my modification of The Princess Heart Crown requested by my daughter.  I made the original Princess Heart Crown, but she didn't like how the top was flat / cut off looking.\r
 \r
 I modified the design to have properly pointed hearts, as well as a little circle on the top of one of them so it's clear which was is the front of the crown.\r
@@ -16,6 +18,7 @@ I've included both the STL and the OpenSCAD files.  Please enjoy and feel free t
     okh:repo <https://www.thingiverse.com/thing:13974> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:13974> .

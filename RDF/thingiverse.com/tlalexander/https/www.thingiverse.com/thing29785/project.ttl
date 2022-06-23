@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A29785/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ReprapHeatedBedGenerator a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Reprap heated bed generator" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a processing sketch that generates Eagle BRD files for a heated bed based on parameters you specify.  You can make it whatever size you want and use trace widths and spacing as needed to get whatever resistance you want.\r
 \r
 THIS HAS NOT BEEN TESTED! I suggest making a small cheap  board with an easy to measure resistance like 50 Ohms or so, ordering it through a cheap service like BatchPCB, and verifying that the calculations were correct! Throw on a cool design and you can make coasters out of your example boards. :)\r
@@ -21,6 +23,7 @@ https://github.com/tlalexander/ReprapHeatedBedGenerator""" ;
     okh:repo <https://www.thingiverse.com/thing:29785> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:29785> .

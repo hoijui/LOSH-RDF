@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A38292/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:NotEasyBrokenEarholderShell a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "not easy broken earholder shell" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """a derivative of a derivative shell for the earbud holder (thing nÂ° 36321) with build in support as nÂ° 38039.\r
 I made it because the original was very fragile and broke when you snap it in place or in the pocket so I kept the U shape to the end of the shell and manage to get enough room for the core when opening it""" ;
     okh:hasImage :Image ;
@@ -13,6 +15,7 @@ I made it because the original was very fragile and broke when you snap it in pl
     okh:repo <https://www.thingiverse.com/thing:38292> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:38292> .

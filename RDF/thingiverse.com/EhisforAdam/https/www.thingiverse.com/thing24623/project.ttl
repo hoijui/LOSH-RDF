@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A24623/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:VintageChumbyClockRadio a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Vintage Chumby Clock Radio" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I've been wanting to do a case modded Chumby for quite some time.  I bought the Chumby One for $50 quite a long time ago from Woot and started it up once then tore it apart. It sat like that for a while, then I bought the radio off ebay. Luckily the clock opening was close to the correct size for the Chumby screen. I sat on it for a while until I got my Makerbot. The radio and clock internals are on a removable chassis held into the body by 2 screws, I decided to use this same basic idea for my Chumby mod because I didn't want to permanently modify the radio. The base plate is a piece of aluminum sheet and the various components are riveted in place. All the Chumby components are held in place with the screws that originally held them together. \r
 \r
 Problems/Future Plans:\r
@@ -21,6 +23,7 @@ Problems/Future Plans:\r
     okh:repo <https://www.thingiverse.com/thing:24623> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:24623> .

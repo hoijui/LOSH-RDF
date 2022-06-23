@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A49235/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Ramps14FanMount40mm a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "RAMPS 1.4 fan mount 40mm" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "This is a simple symmetric bracket that mounts on the RAMPS shield. No screws required to attach the bracket to the board. Fits 40 mm fan with bolt spacing 35 mm (1.4\") outside to outside. Three improvements have been added. Nut trap on the inside, small skirt to channel air, and increased depth to not interfere the stepper wires," ;
     okh:hasImage :Image ;
     okh:licensor "CivilEITprint" ;
     okh:repo <https://www.thingiverse.com/thing:49235> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:49235> .

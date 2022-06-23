@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A11269/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:LightBulbBaseE14E27 a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Light bulb base e14, e27" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I needed a little more light in the room, and the lightbulbs I had couldÂ´nt be screwed up anywhere. Therefore I got the bright idea to let the printer solve the problem. ;)\r
 Hopefully someone else can use them for bright ideas as well.\r
 They are made to fit the bulb sizes E14 and E27.""" ;
@@ -14,6 +16,7 @@ They are made to fit the bulb sizes E14 and E27.""" ;
     okh:repo <https://www.thingiverse.com/thing:11269> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:11269> .

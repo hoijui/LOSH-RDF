@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A32086/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Ww1230a12vdc30aSwitchingPowerSupplyCoverAndMountingBracketForEcksbotAndPrusaStyle3dPrinters a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "WW-1230A 12VDC 30A Switching Power Supply Cover and Mounting Bracket for Ecksbot and Prusa Style 3D Printers" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I have been putting the finishing touches on my Ecksbot build and decided to clean up the mounting scheme for the electronics.  I'm looking for portability so, I decided to mount the power supply onto the printer.  I also wanted to add more protection against accidental contact with the AC wiring than what is afforded by the barrier strip cover.  As such, I present a front cover, rear cover and mounting plate for the WW-1230A 12VDC 30A switching power supply found on Ebay.  \r
 \r
 The design files where created with Cubify Invent and are compatible with the Ecksbot or Prusa style 3D printers.\r
@@ -16,6 +18,7 @@ Update 9 Oct 2012 - Added a build plate that includes the front, rear and mounti
     okh:repo <https://www.thingiverse.com/thing:32086> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:32086> .

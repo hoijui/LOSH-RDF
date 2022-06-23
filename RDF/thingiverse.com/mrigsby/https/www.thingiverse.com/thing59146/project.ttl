@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A59146/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Cordless120VoltMakerbotSpoolLamp a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Cordless 120 Volt MakerBot Spool Lamp" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a cordless desktop 120 volt lamp (uses the Philips L Prize lamp--60 watt equivalent) and it is powered by AA batteries through an inverter.\r
 \r
 I used a MakerBot spool and printed the shade and structural parts.\r
@@ -21,6 +23,7 @@ http://www.instructables.com/id/Cordless-120-Volt-MakerBot-Spool-Lamp/""" ;
     okh:repo <https://www.thingiverse.com/thing:59146> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:59146> .

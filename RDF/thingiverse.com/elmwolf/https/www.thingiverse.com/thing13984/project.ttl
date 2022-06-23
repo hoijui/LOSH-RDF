@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A13984/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ElmwolfsPersonalGeekCoin a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Elmwolf's Personal GEEK Coin" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "For quite a while I have been trying to find a way to answer that question, What makes me, Me? I came to the realization that this was the final answer. I am a geek, through and through, and this coin explains that. The Face of it is a decent melding of Star Trek, Star Wars and Stargate, the Back has the simple and elegant word GEEK emblazoned on it. It screams that I am a Sci-Fi Bi Geek. ;c) And to top it all off it's printed on a 3d printer. What could be geekier." ;
     okh:hasImage :Image ;
     okh:licensor "elmwolf" ;
     okh:repo <https://www.thingiverse.com/thing:13984> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:13984> .

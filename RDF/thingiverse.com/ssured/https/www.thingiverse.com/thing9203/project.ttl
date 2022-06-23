@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A9203/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:VerticeConnectorsForPlatonicSolids a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Vertice connectors for platonic solids" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Platonic solids, http://en.wikipedia.org/wiki/Platonic_solid, are beautiful objects because of their symmetry and simplicity. Combining wood and 3d printed connectors makes it easy to create these polyhedrons yourself!\r
 \r
 I printed the full set of 5 for a school in India. They now use them for the advanced geometry classes and as a decoration in the math classroom.""" ;
@@ -14,6 +16,7 @@ I printed the full set of 5 for a school in India. They now use them for the adv
     okh:repo <https://www.thingiverse.com/thing:9203> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:9203> .

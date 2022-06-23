@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A2194/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:TrautmanHookopenprosthetics a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Trautman Hook (OpenProsthetics)" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is the Trautman Hook that was put in the public domain and can be found on http://openprosthetics.org/\r
 \r
 This is not as much an object that I hope people will be printing, I sincerely hope to call out to those those with designs skill, prototyping capacity and vision to collaboratively create innovative, useful and affordable prosthetic 'systems'. I hope that you will not limit your ideas to just the rapid prototyped parts but use all of your making experience. I hope this will be the start of a discussion of what the RepRap/Makerbot/BfB/etc. (and commercial RP/AM) community can do for for those who are unfortunate. I'm confident that we can exchange valuable ideas! Most of us have spare motors, controller boards and various other electronic and mechanical parts, moreover they are similar so we could reproduce each others' solutions including non-RP parts!\r
@@ -27,6 +29,7 @@ The image with the foosball table is from http://en.wikipedia.org/wiki/File:Army
     okh:repo <https://www.thingiverse.com/thing:2194> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:2194> .

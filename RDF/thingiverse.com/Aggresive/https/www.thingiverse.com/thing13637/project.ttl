@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A13637/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:55lbReelIdlerAndReelMountForOrca03 a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "5.5lb Reel Idler and Reel Mount for Orca 0.3" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is my design to hold a 5.5lb reel of filament on an orca 0.3. The filament I am using is a RepRap Central 5.5lb Reel.\r
 \r
 The idlers will look slightly different to mine, as I had to remove some of the material from them to get them to fit. This has since been rectified in the stl.""" ;
@@ -14,6 +16,7 @@ The idlers will look slightly different to mine, as I had to remove some of the 
     okh:repo <https://www.thingiverse.com/thing:13637> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:13637> .

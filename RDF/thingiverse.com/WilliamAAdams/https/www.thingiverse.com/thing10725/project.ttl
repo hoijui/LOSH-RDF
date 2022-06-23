@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A10725/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PlatonicSolidsForOpenscadV02 a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Platonic Solids for OpenScad - v0.2" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """A funny thing happened on the way to developing geodesic stuff.  I found that I needed to fully develop some Platonic solids.  And since I needed to develop 3 of them, I figured I'd develop them all.\r
 \r
 This thing represents the latest incarnation of the maths_geodesic library, plus extras.\r
@@ -60,6 +62,7 @@ Replaced the platonics.stl, with platonic_set.stl.  I have a better dodecahedron
     okh:repo <https://www.thingiverse.com/thing:10725> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:10725> .

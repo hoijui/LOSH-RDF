@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A17283/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PrintableOptoFlags a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Printable Opto Flags" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """These are the printable opto flags we used on our first batch of printers that have been going out on Ebay.\r
 \r
 Note: The Y and Z flag require extra length of the X and Y axis smooth rod for mounting. The X flag mounts onto the wades extruder with the mounting bolt (this will not work with the accessible extruder).""" ;
@@ -14,6 +16,7 @@ Note: The Y and Z flag require extra length of the X and Y axis smooth rod for m
     okh:repo <https://www.thingiverse.com/thing:17283> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:17283> .

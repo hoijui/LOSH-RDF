@@ -1,12 +1,14 @@
 @prefix : <https://www.thingiverse.com/thing%3A1242/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MäoriFishhook a okh:Module ;
-    rdfs:label "MÄori fish-hook" ;
+:Project a okh:Module ;
+    rdfs:label "MÄx81ori fish-hook" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
-    okh:function """MÄori fish hooks don't work by penetrating the fish. Instead, they slide over the front of the fish's lower jaw and grip it with large barbs. This allowed the MÄori to improve their catch, and thus expand their population. The discovery of the design is traditionally attributed to the demigod Maui.\r
+    okh:documentationReadinessLevel otrl:Odrl3 ;
+    okh:function """MÄx81ori fish hooks don't work by penetrating the fish. Instead, they slide over the front of the fish's lower jaw and grip it with large barbs. This allowed the MÄx81ori to improve their catch, and thus expand their population. The discovery of the design is traditionally attributed to the demigod Maui.\r
 \r
 Credit: Bronwyn Holloway-Smith (http://bronwyn.co.nz) and Vik Olliver CC-BY-SA""" ;
     okh:hasImage :Image ;
@@ -14,12 +16,13 @@ Credit: Bronwyn Holloway-Smith (http://bronwyn.co.nz) and Vik Olliver CC-BY-SA""
     okh:repo <https://www.thingiverse.com/thing:1242> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:1242> .
 
 :Image a okh:Image ;
-    rdfs:label "Image of MÄori fish-hook 1.0.0" ;
+    rdfs:label "Image of MÄx81ori fish-hook 1.0.0" ;
     okh:fileFormat "JPG" ;
     okh:fileUrl <https://cdn.thingiverse.com/renders/6f/67/ac/bd/dc/fish-hook_display_large_display_large.jpg> ;
     okh:permaURL <https://cdn.thingiverse.com/renders/6f/67/ac/bd/dc/fish-hook_display_large_display_large.jpg> .

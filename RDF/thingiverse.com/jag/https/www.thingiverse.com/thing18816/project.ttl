@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A18816/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:IkeaKuraBedTentClipsForRoundBars a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Ikea KURA bed tent clips for round bars" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """We wanted to install an Ikea Kura bed tent ( http://www.ikea.com/us/en/catalog/products/20116207/ ) on my son's bunk bed.  The tent is made to clip onto the square rails of the Ikea Kura bed.\r
 My son's bed has round rails.  So, we needed some custom clips.""" ;
     okh:hasImage :Image ;
@@ -13,6 +15,7 @@ My son's bed has round rails.  So, we needed some custom clips.""" ;
     okh:repo <https://www.thingiverse.com/thing:18816> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:18816> .

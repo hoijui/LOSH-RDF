@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A35012/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:AirpropToycar a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Airprop Toycar" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is not just another airpropelled car. This is an airpropelled car that can became almost everything.\r
 You can make your own accessories and plug it over the car to transform it in what you want.\r
 If you make some accessory please link this project.""" ;
@@ -14,6 +16,7 @@ If you make some accessory please link this project.""" ;
     okh:repo <https://www.thingiverse.com/thing:35012> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:35012> .

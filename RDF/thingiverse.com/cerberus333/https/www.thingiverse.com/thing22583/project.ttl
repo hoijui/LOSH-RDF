@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A22583/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ToiletDollhouse a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Toilet dollhouse" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Toilet dollhouse\r
 There is a square included in the stl that is there for the purpose of scaling. it is supposed to be 1 foot square(in scale) adjust your scaling to suit your specific dollhouse scale factor.\r
 in 1/12 size the square should be printing at 1 inch \r
@@ -20,6 +22,7 @@ I Have not printed this as yet.\r
     okh:repo <https://www.thingiverse.com/thing:22583> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:22583> .

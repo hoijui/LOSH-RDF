@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A26985/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ExhaustEnclosureAndStorageBoxForEpilogZing6030front a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Exhaust Enclosure and Storage Box for Epilog Zing 6030 (Front)" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This box attaches to the left side of an Epilog Zing 6030 Lasercutter. It provides protection for the exhaust outlets, by tunneling the air to the front and back, as well as storage for documents, rulers, lens cleaning equipment, air filter remote and other things.\r
 \r
 It only covers the front half of the Lasercutter's left side. Also check out for the rear box design.""" ;
@@ -14,6 +16,7 @@ It only covers the front half of the Lasercutter's left side. Also check out for
     okh:repo <https://www.thingiverse.com/thing:26985> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:26985> .

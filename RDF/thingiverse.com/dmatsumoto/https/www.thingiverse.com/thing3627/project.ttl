@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A3627/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MakerbotCupcakecompatiblePololuStepperDriverBoard a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "MakerBot Cupcake-compatible Pololu stepper driver board" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "I really wanted to move to a microstep-capable stepper driver, and heard lots of good things about the board from Pololu that is based on the Allegro A4983 (http://www.pololu.com/catalog/product/1202).  I went through several iterations of my PCB, and here is the \"final\" version -- well, it's the one that I sent in for prototyping.  Note that there isn't any silkscreening on this image because ExpressPCB's proto service doesn't include that or soldermask.  I drew the text as traces so there would at least be some labeling.  Those weird cutouts inside of the U1 footprint are there because I thought some people might want to try to install the Pololu carrier board underneath the PCB if they were hurting for space above the board.  I do not yet know if the location is in a good spot for the capacitor, yet.  The small hole in the lower right corner is for the pot adjustment, and the hole in the middle is for the Allegro chip.  Makergear gives a screw to use as a heatsink, so I figure people can poke the screw out from this hole, and then use the small pads above and below to hold the screw down with some wire (wrap it around the screw, then solder it into place)." ;
     okh:hasImage :Image ;
     okh:licensor "dmatsumoto" ;
     okh:repo <https://www.thingiverse.com/thing:3627> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:3627> .

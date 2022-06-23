@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A11640/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:WaterWheelWithVenetianBlindSlats a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Water wheel with venetian blind slats" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Parametric disc for repurposing plastic venetian blind slats from trash in a small water wheel, Banki-Michell style turbine, and eventually in an electricity generator.  
 First version in SketchUp more than one year ago, I publish it now, converted to OpenScad so you can describe your own slats, change the blades orientation, etc.  
 I'd love to see those disc cut out / milled of unused CDs or DVDs because trash cans are full of them (I don't know if it's possible to lasercut CDs on the non reflective side).  
@@ -19,6 +21,7 @@ http://autonopedia.org/renewable_energy/Water/Index_Water_Power.htm""" ;
     okh:repo <https://www.thingiverse.com/thing:11640> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:11640> .

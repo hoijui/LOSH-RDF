@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A24075/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Hx1modFanDuctForBudaschnozzle a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "HX1-Mod Fan duct for Budaschnozzle" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "This is a fan duct that can be attached to my other extruder support to adapt the Budaschnozzle hotend to the SeeMeCNC H-1. This is a work in progress, the output is not enought far away from the nozzle and the plastic wraps." ;
     okh:hasImage :Image ;
     okh:licensor "hcross" ;
     okh:repo <https://www.thingiverse.com/thing:24075> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:24075> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A49841/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MacbookAirgen1HingeFix a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "MacBook Air (Gen 1) Hinge Fix" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """The hinges on my old MacBook Ait froze up and busted, and this point it's not worth it to me to buy the new parts (something like $200).\r
 \r
 So I built these to hold the screen up when open, and not take up too much space.  I just epoxied em to the bottom of the Air, and they hold the screen at a pretty good angle.""" ;
@@ -14,6 +16,7 @@ So I built these to hold the screen up when open, and not take up too much space
     okh:repo <https://www.thingiverse.com/thing:49841> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:49841> .

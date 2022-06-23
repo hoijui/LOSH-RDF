@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A11196/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ThePowerOfHeart a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "The power of heart" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """A design for a laser-cut heart enclosure. There's enough room inside for a button-cell battery and a little bit of circuitry - I used a BlinkM MinM. A cutout on the back provides for a switch such as the LilyPad slide switch.\r
 \r
 Ma-ti would be proud.""" ;
@@ -14,6 +16,7 @@ Ma-ti would be proud.""" ;
     okh:repo <https://www.thingiverse.com/thing:11196> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:11196> .

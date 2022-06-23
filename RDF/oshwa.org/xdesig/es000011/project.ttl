@@ -2,23 +2,16 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:EscornaCpu a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Escorna CPU" ;
-    okh:additionalType "['Education', 'Electronics', 'Robotics']" ;
-    okh:certificationDate "2020-06-05T00:00:00-04:00" ;
-    okh:country "Spain" ;
-    okh:cpcPatentClass "Education" ;
     okh:dataSource "oshwa.org" ;
     okh:documentationLanguage "en" ;
-    okh:documentationLicense "CC BY-SA" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function """Integrates an ATmega328P, a step-up (great to use with 1.2V batteries, suggestion made by caligari) and the rest of the electronics needed to build a full-compatible Escornabot Project. USB communications are supported by CH340E
 Arduino Uno, Arduino Nano compatible or ATmega mini core""" ;
-    okh:hardwareLicense "CERN" ;
     okh:licensor "xdesig" ;
-    okh:primaryType "Education" ;
     okh:repo <https://certification.oshwa.org/es000011.html> ;
     okh:repoHost "certification.oshwa.org" ;
-    okh:softwareLicense "GPL" ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
     okh:uploadMethod "auto" ;
     okh:version "2.4" ;

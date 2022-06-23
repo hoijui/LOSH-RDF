@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A38261/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ReplacementShiftCableEndFor19962002SaturnSlsl2swsw2ManualShifter a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Replacement shift cable end for 1996-2002 Saturn SL/SL2/SW/SW2 manual shifter" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Saturns are notorious for having issues with the manual shifter. Most of these problems revolve around a little rubber cap that holds the shift cable in place. A few solutions were offered in the aftermarket, including a steel bushing that was for sale on eBay for a while (and may still be).\r
 \r
 The steel bushing corrected the design issue, but introduced another issue. It has a tendency to put so much torque on the shift cable that the plastic end of the cable breaks off. This is a huge problem, because it means buying a $200+ cable and spending a few hours installing it, only to have the shift cable end pop off again.\r
@@ -18,6 +20,7 @@ After replacing the shift cable, the end popped off again. This time, I decided 
     okh:repo <https://www.thingiverse.com/thing:38261> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:38261> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A1425/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:SarrusLinkageMarkIii a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Sarrus Linkage Mark III" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is the next step in my attempt to make a Sarrus linkage based 3D printer.  The idea is to have a cartesian mechanism without those long rods and bearings.\r
 \r
 I built three of the Mark III and mounted them in a x-y arrangement as shown.  They can move over a square about 105 mm wide, and someday may carry an extruder.  They are driven by DC motors taken from inkjet printers.  These motors are driven in a servo arrangement using quadrature optical encoders and optical strips removed from the same printers.""" ;
@@ -14,6 +16,7 @@ I built three of the Mark III and mounted them in a x-y arrangement as shown.  T
     okh:repo <https://www.thingiverse.com/thing:1425> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:1425> .

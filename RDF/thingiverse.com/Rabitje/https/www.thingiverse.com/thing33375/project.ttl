@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A33375/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PepperDispenser a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Pepper dispenser" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "During dinner the pepper dispenser didn't work so I open it and i find out a broken part. So I designed a better part and print it (all in 25 min) and I went back for my soup with this time my pepper dispenser working!!!" ;
     okh:hasImage :Image ;
     okh:licensor "Rabitje" ;
     okh:repo <https://www.thingiverse.com/thing:33375> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:33375> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A1454/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:theBusAVwBusPinewoodDerbyCar a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "'The Bus' -  A VW Bus Pinewood Derby Car" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """A VW Bus that I printed for my company's annual pinewood derby fundraiser.\r
 \r
 'The Bus' is sized to fit over the block of wood that comes in the pinewood derby kit. It also uses the wheels provided in the kit.\r
@@ -16,6 +18,7 @@ You can also print out you own wheels and use a block of scrap wood to complete 
     okh:repo <https://www.thingiverse.com/thing:1454> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:1454> .

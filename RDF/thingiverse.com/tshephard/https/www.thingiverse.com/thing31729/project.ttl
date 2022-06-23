@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A31729/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:FreeThingiversenotAProtest a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Free Thingiverse (not a protest)" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Recently, Makerbot closed source their printer much to the dismay of the maker community that helped endorse their brand by spreading the word of their mission to build an open source future based off the designs of reprap.\r
 \r
 Makerbot is still a good company, and we'd like to help them succeed.  To this end, let's ask them to stay true to their roots and open up Thingiverse.  Let's ask them to do a nightly drop onto Bittorrent (or similar) including all CC (or similarly licensed) designs, including images, thumbnails, 3D models, derivatives and like information.  Comments would be great too, even if the TOS needs to be updated a bit.\r
@@ -18,6 +20,7 @@ Please like this object, print it, build a derivative, and forward it to your fr
     okh:repo <https://www.thingiverse.com/thing:31729> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:31729> .

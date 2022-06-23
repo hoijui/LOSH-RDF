@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A20200/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MouseSkullfromMicroct a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Mouse skull (from micro-CT)" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """The data for this STL is taken from a micro-CT scan of a mouse skull, processed in ImageJ - http://rsb.info.nih.gov/ij/ . The original data was provided by Mark Henkelman of the Mouse Imaging Centre (MICe) http://www.mouseimaging.ca  
 
 Files include the whole skull, and then a left half-skull sliced just to the left of the midline. I made this one as I was interested in the structure of the turbinate bones in the nasal passages, and it can be tricky to visualize complex 3D structures like this on a computer screen, even with 3D rendering.   
@@ -22,6 +24,7 @@ UPDATE 2013.04.06: Uploaded a demo print of the model done on the Replicator2 (r
     okh:repo <https://www.thingiverse.com/thing:20200> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:20200> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A4748/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ParametricApronForReducingWarp a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Parametric Apron for Reducing Warp " ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """While printing the various large z axis components, I was struggling with significant warping.  Stopping the corners of the bits from cooling quickly seems to help a lot (see picture).  So I knocked up a parametric version of the magic corner pieces to help me (and you) with the problem in the future.\r
 \r
 inspired by http://hydraraptor.blogspot.com/2010/09/some-corners-like-it-hot.html , which may have been inspired by http://technocraticanarchist.blogspot.com/2009/12/printing-big-bits-of-mendel.html\r
@@ -17,6 +19,7 @@ Obviously, this licence only applies to apron.scad.  The other files are taken, 
     okh:repo <https://www.thingiverse.com/thing:4748> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:4748> .

@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A10274/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:PrusaYaxisBeltTensioner a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Prusa Y-axis belt tensioner" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """I found it a bit challenging to get the Y-axis belt tension just right by using the belt clamps, so I made this Y-belt tensioner in SketchUp. It allows for more accurate tensioning of the belt using a M3 bolt and captive nut. The design is based on the belt tensioning system used in GregFrost's LM8UU X-Carriage (http://www.thingiverse.com/thing:9869).\r
 \r
 The holes have the same spacing as the original belt clamps, so you should be able to simply replace the existing clamps without drilling new holes.\r
@@ -18,6 +20,7 @@ Sorry for the SketchUp design. I haven't taken the plunge into parametric modell
     okh:repo <https://www.thingiverse.com/thing:10274> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC0-1.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:10274> .

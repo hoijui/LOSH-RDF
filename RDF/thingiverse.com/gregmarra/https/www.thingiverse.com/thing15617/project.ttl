@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A15617/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ToothbrushHolder a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Toothbrush Holder" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """These toothbrush attach with 3M Command hook adhesive strips so they won't damage walls. They fit the strip from 3M Decorating Clips very well. ( http://www.amazon.com/Command-17026-VP-Decorating-Clips-Strips/dp/B000M3YGHS/ )\r
 \r
 The holder is a little bit narrow, so some toothbrushes are a tighter fit than I'd like. Revision 2 would widen the base oval about a half centimeter without opening the holder neck width so more brushes fit nicely.\r
@@ -16,6 +18,7 @@ I was inspired by dezbot's toothbrush holder ( http://www.thingiverse.com/thing:
     okh:repo <https://www.thingiverse.com/thing:15617> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:15617> .

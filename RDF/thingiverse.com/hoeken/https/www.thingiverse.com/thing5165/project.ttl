@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A5165/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:HoekensServoMount a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Hoeken's Servo Mount" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "This is a generic mount for a HS-311 servo (the same one used on the MakerBot Unicorn).  I'm creating a series of modular mounts for doing simple motor control.  This is the latest entry." ;
     okh:hasImage :Image ;
     okh:licensor "hoeken" ;
     okh:repo <https://www.thingiverse.com/thing:5165> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:5165> .

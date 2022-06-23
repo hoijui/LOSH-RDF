@@ -1,17 +1,20 @@
 @prefix : <https://www.thingiverse.com/thing%3A1667/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:HandholdForRockClimbing a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Handhold for Rock Climbing" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "This is a handhold to be bolted onto an indoor rock climbing wall. I printed it out with ABS and experienced some warping issues because it is such a large part. Widget tells me that printing with PLA may solve the warping issues so I'll try that next. I haven't actually tried this on the wall yet. I'll let you know how it goes..." ;
     okh:hasImage :Image ;
     okh:licensor "SketchySam" ;
     okh:repo <https://www.thingiverse.com/thing:1667> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/BSD-4-Clause> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:1667> .

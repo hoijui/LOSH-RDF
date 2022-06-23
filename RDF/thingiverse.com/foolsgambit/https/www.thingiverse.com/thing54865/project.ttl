@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A54865/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:BasicPocketTacticsTray a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Basic Pocket Tactics Tray" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """For use with Pocket Tactics, as seen here: http://www.thingiverse.com/thing:41740 . Credit to Arian Croft (dutchmogul) for creating the game.\r
 \r
 This is the semi-official standard Pocket Tactics tray design, best for compatibility with other Pocket Tactics players. It helps to keep your map from being disturbed during game play, and is small enough to fit in a dice bag with your force, tiles and dice. I'd recommend including three with each force, to ensure the map can be built out dynamically. Of course, tiles can always be placed off the trays for complete flexibility in map layout, although variants of the game could be created where the entire map must be built within a certain number of trays, and rules for where new trays are placed, and who places them, could be created.""" ;
@@ -14,6 +16,7 @@ This is the semi-official standard Pocket Tactics tray design, best for compatib
     okh:repo <https://www.thingiverse.com/thing:54865> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:54865> .

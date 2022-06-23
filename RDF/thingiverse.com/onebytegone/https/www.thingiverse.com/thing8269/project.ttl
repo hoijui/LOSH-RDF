@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A8269/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MakerbotWebcamAttachment a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "MakerBot Webcam Attachment" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """Have you ever wanted to watch your MakerBot print while you are away? Perhaps setup a live feed of your MakerBot? Or just want to add a webcam to your MakerBot? Then this will hopefully help you out.\r
 \r
 The MakerBot Webcam Attachment (It needs a better name) is a printable mount that attaches your webcam to a printable arm which connects to the frame of your MakerBot. By setting up a VNC server on the computer controlling your MakerBot and attaching the webcam, you will then be able to control and watch your MakerBot from any computer in the world with internet access! Also, you could setup a web sever on that computer and host a live stream of what is print on your MakerBot. \r
@@ -23,6 +25,7 @@ WARNING: As barrychuck brought out, running a MakerBot while unattended is very 
     okh:repo <https://www.thingiverse.com/thing:8269> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:8269> .

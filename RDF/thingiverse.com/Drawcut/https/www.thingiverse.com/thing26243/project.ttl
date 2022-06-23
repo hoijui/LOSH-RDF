@@ -1,11 +1,13 @@
 @prefix : <https://www.thingiverse.com/thing%3A26243/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:SpurGearsForPrintrbotprintedExtruder a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Spur Gears for Printrbot (Printed Extruder)" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function """This is a set of spur gears for the Printrbot extruder.  The original herringbone gears of the PB are not well suited for the application, IMO.  The herringbones are sensitive to misalignment and give few benefits in return.  The small spur gear is made wider then the large gear to allow for axial misalignment.  The hubs are taken directly from the original Printrbot STLs.  Gear ratio is the same as original.  I have not yet printed or tested these yet but they seem to slice OK in Slic3r 0.8.4. \r
 \r
 Technical Data:\r
@@ -32,6 +34,7 @@ Updated 10/7/12: Added fixed versions of the V1 parts.  Fixed by using Netfab's 
     okh:repo <https://www.thingiverse.com/thing:26243> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:26243> .

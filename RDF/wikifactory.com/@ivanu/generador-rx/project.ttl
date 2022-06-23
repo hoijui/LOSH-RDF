@@ -1,14 +1,15 @@
-@prefix : <https://wikifactory.com/@ivanu/generador-rx/c703b633c1ce43f4b80838c5f2f2420389b5afa7/> .
+@prefix : <https://wikifactory.com/%40ivanu/generador-rx/c703b633c1ce43f4b80838c5f2f2420389b5afa7/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:GeneratorRx18 a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "GENERATOR RX 18" ;
+    okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "es" ;
     okh:function "Maqueta prototipo Generador Electromagnético eólico o hídrico o como motor generador." ;
     okh:hasComponent :Discodeataque,
         :Eje,
-        :EstatorInductorCentral,
+        :Estatorinductorcentral,
         :Rodamientp22x12x10,
         :Rodamientp22x12x10newver,
         :Rotorinductorcentral,
@@ -22,6 +23,7 @@
     okh:repo <https://wikifactory.com/@ivanu/generador-rx> ;
     okh:repoHost "wikifactory.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> ;
+    okh:uploadMethod "manifest" ;
     okh:version "c703b633c1ce43f4b80838c5f2f2420389b5afa7" ;
     okh:versionOf <https://wikifactory.com/@ivanu/generador-rx> .
 
@@ -37,13 +39,13 @@
     rdfs:label "Export File of disco_de_ataque of GENERATOR RX 18 c703b633c1ce43f4b80838c5f2f2420389b5afa7" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/95565/disco_de_ataque.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NzA2NTk=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/95565/disco_de_ataque.stl> .
 
 :Discodeataque_source a okh:SourceFile ;
     rdfs:label "Source File of disco_de_ataque of GENERATOR RX 18 c703b633c1ce43f4b80838c5f2f2420389b5afa7" ;
     okh:fileFormat "IPT" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/95565/disco_de_ataque.ipt> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NzA2Mjg=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/95565/disco_de_ataque.ipt> .
 
 :Eje a okh:Part ;
     rdfs:label "eje" ;
@@ -56,32 +58,32 @@
     rdfs:label "Source File of eje of GENERATOR RX 18 c703b633c1ce43f4b80838c5f2f2420389b5afa7" ;
     okh:fileFormat "IPT" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/95565/eje.ipt> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NzA2MzI=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/95565/eje.ipt> .
 
-:EstatorInductorCentral a okh:Part ;
+:Estatorinductorcentral a okh:Part ;
     rdfs:label "estator inductor central" ;
     okh:documentationLanguage "es" ;
     okh:licensor "Ivan Ugidos Martinez" ;
-    okh:source :EstatorInductorCentral_source ;
+    okh:source :Estatorinductorcentral_source ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> .
 
-:EstatorInductorCentral_source a okh:SourceFile ;
+:Estatorinductorcentral_source a okh:SourceFile ;
     rdfs:label "Source File of estator inductor central of GENERATOR RX 18 c703b633c1ce43f4b80838c5f2f2420389b5afa7" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/95565/rotor_inductor_central-edb3a.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NzA3MTI=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/95565/rotor_inductor_central-edb3a.stl> .
 
 :Image a okh:Image ;
     rdfs:label "Image of GENERATOR RX 18 c703b633c1ce43f4b80838c5f2f2420389b5afa7" ;
     okh:fileFormat "JPG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/95565/4.JPG> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NzA2MjQ=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/95565/4.JPG> .
 
 :Readme a okh:Readme ;
     rdfs:label "Readme of GENERATOR RX 18 c703b633c1ce43f4b80838c5f2f2420389b5afa7" ;
     okh:fileFormat "MD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/95565/readme.md> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NzA3NDU=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/95565/readme.md> .
 
 :Rodamientp22x12x10 a okh:Part ;
     rdfs:label "rodamientp_22x12x10" ;
@@ -94,7 +96,7 @@
     rdfs:label "Source File of rodamientp_22x12x10 of GENERATOR RX 18 c703b633c1ce43f4b80838c5f2f2420389b5afa7" ;
     okh:fileFormat "IPT" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/95565/rodamientp_22x12x10.ipt> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NzA2MzA=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/95565/rodamientp_22x12x10.ipt> .
 
 :Rodamientp22x12x10newver a okh:Part ;
     rdfs:label "rodamientp 22x12x10.newVer" ;
@@ -107,7 +109,7 @@
     rdfs:label "Source File of rodamientp 22x12x10.newVer of GENERATOR RX 18 c703b633c1ce43f4b80838c5f2f2420389b5afa7" ;
     okh:fileFormat "IPT" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/95565/rodamientp_22x12x10.ipt> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NzA2MzE=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/95565/rodamientp_22x12x10.ipt> .
 
 :Rotorinductorcentral a okh:Part ;
     rdfs:label "rotor_inductor_central" ;
@@ -120,7 +122,7 @@
     rdfs:label "Source File of rotor_inductor_central of GENERATOR RX 18 c703b633c1ce43f4b80838c5f2f2420389b5afa7" ;
     okh:fileFormat "IPT" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/95565/rotor_inductor_central.ipt> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NzA2Mjk=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/95565/rotor_inductor_central.ipt> .
 
 :Rotorversion2 a okh:Part ;
     rdfs:label "Rotor_version_2" ;
@@ -133,7 +135,7 @@
     rdfs:label "Source File of Rotor_version_2 of GENERATOR RX 18 c703b633c1ce43f4b80838c5f2f2420389b5afa7" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/95565/rotor_version_2.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NzA3MDA=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/95565/rotor_version_2.stl> .
 
 :Tapa03 a okh:Part ;
     rdfs:label "tapa03" ;
@@ -146,7 +148,7 @@
     rdfs:label "Source File of tapa03 of GENERATOR RX 18 c703b633c1ce43f4b80838c5f2f2420389b5afa7" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/95565/tapa03.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NzA3MjE=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/95565/tapa03.stl> .
 
 :Tapa3 a okh:Part ;
     rdfs:label "tapa3" ;
@@ -160,11 +162,11 @@
     rdfs:label "Export File of tapa3 of GENERATOR RX 18 c703b633c1ce43f4b80838c5f2f2420389b5afa7" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/95565/tapa3.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NzA3MjA=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/95565/tapa3.stl> .
 
 :Tapa3_source a okh:SourceFile ;
     rdfs:label "Source File of tapa3 of GENERATOR RX 18 c703b633c1ce43f4b80838c5f2f2420389b5afa7" ;
     okh:fileFormat "IPT" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/95565/tapa3.ipt> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo0NzA3MTk=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/95565/tapa3.ipt> .
 

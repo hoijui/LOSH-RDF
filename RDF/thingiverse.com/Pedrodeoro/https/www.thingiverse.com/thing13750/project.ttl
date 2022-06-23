@@ -1,12 +1,14 @@
 @prefix : <https://www.thingiverse.com/thing%3A13750/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MatíasWolf a okh:Module ;
-    rdfs:label "Matí­as Wolf" ;
+:Project a okh:Module ;
+    rdfs:label "Matíxadas Wolf" ;
     okh:dataSource "thingiverse.com" ;
     okh:documentationLanguage "en" ;
-    okh:function """Character of the game childhood education "El lobo MatÃ­as".\r
+    okh:documentationReadinessLevel otrl:Odrl3 ;
+    okh:function """Character of the game childhood education "El lobo MatÃxadas".\r
 \r
 Web: http://www.telefonica.net/web2/fiodorelgato/""" ;
     okh:hasImage :Image ;
@@ -14,12 +16,13 @@ Web: http://www.telefonica.net/web2/fiodorelgato/""" ;
     okh:repo <https://www.thingiverse.com/thing:13750> ;
     okh:repoHost "www.thingiverse.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "auto" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://www.thingiverse.com/thing:13750> .
 
 :Image a okh:Image ;
-    rdfs:label "Image of Matí­as Wolf 1.0.0" ;
+    rdfs:label "Image of Matíxadas Wolf 1.0.0" ;
     okh:fileFormat "JPG" ;
     okh:fileUrl <https://cdn.thingiverse.com/renders/ce/47/1f/9c/b6/lobo1_display_large_display_large.jpg> ;
     okh:permaURL <https://cdn.thingiverse.com/renders/ce/47/1f/9c/b6/lobo1_display_large_display_large.jpg> .

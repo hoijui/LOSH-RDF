@@ -2,13 +2,13 @@
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:BrailleAlphabetTiles a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Braille Alphabet Tiles" ;
     okh:dataSource "wikifactory.com" ;
     okh:documentationLanguage "en" ;
     okh:function "These tiles are used to learn the alphabet in Braille. The tiles are designed in OpenSCAD, and have parameters that you can modify (for instance, to change the font size of the letters, or to adjust the margin to make a larger or smaller tile)." ;
-    okh:hasComponent :3dDesignFilesbraillechars,
-        :3dDesignFilesbrailletiles ;
+    okh:hasComponent :3ddesignfilesbraillechars,
+        :3ddesignfilesbrailletiles ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
     okh:licensor "James Botler" ;
@@ -20,48 +20,48 @@
     okh:version "a07d6748f0f1455feb945a237b6a4c6dac41509b" ;
     okh:versionOf <https://wikifactory.com/@botler/braille-alphabet-tiles> .
 
-:3dDesignFilesbraillechars a okh:Part ;
+:3ddesignfilesbraillechars a okh:Part ;
     rdfs:label "3D Design Files/braillechars" ;
     okh:documentationLanguage "en" ;
     okh:licensor "James Botler" ;
-    okh:source :3dDesignFilesbraillechars_source ;
+    okh:source :3ddesignfilesbraillechars_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:3dDesignFilesbraillechars_source a okh:SourceFile ;
+:3ddesignfilesbraillechars_source a okh:SourceFile ;
     rdfs:label "Source File of 3D Design Files/braillechars of Braille Alphabet Tiles a07d6748f0f1455feb945a237b6a4c6dac41509b" ;
     okh:fileFormat "SCAD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/34/braillechars.scad> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3MTQw> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/34/braillechars.scad> .
 
-:3dDesignFilesbrailletiles a okh:Part ;
+:3ddesignfilesbrailletiles a okh:Part ;
     rdfs:label "3D Design Files/braille_tiles" ;
     okh:documentationLanguage "en" ;
-    okh:export :3dDesignFilesbrailletiles_export1 ;
+    okh:export :3ddesignfilesbrailletiles_export1 ;
     okh:licensor "James Botler" ;
-    okh:source :3dDesignFilesbrailletiles_source ;
+    okh:source :3ddesignfilesbrailletiles_source ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
 
-:3dDesignFilesbrailletiles_export1 a okh:ExportFile ;
+:3ddesignfilesbrailletiles_export1 a okh:ExportFile ;
     rdfs:label "Export File of 3D Design Files/braille_tiles of Braille Alphabet Tiles a07d6748f0f1455feb945a237b6a4c6dac41509b" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/34/brailletiles.stl> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3MTM5> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/34/brailletiles.stl> .
 
-:3dDesignFilesbrailletiles_source a okh:SourceFile ;
+:3ddesignfilesbrailletiles_source a okh:SourceFile ;
     rdfs:label "Source File of 3D Design Files/braille_tiles of Braille Alphabet Tiles a07d6748f0f1455feb945a237b6a4c6dac41509b" ;
     okh:fileFormat "SCAD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/34/brailletiles.scad> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3MTM4> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/34/brailletiles.scad> .
 
 :Image a okh:Image ;
     rdfs:label "Image of Braille Alphabet Tiles a07d6748f0f1455feb945a237b6a4c6dac41509b" ;
     okh:fileFormat "PNG" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/34/ranpdya.png> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZToyMDU=> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/34/ranpdya.png> .
 
 :Readme a okh:Readme ;
     rdfs:label "Readme of Braille Alphabet Tiles a07d6748f0f1455feb945a237b6a4c6dac41509b" ;
     okh:fileFormat "MD" ;
     okh:fileUrl <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/34/readme-0.md> ;
-    okh:permaURL <https://wikifactory.com/files/RmlsZTo3MTQ0> .
+    okh:permaURL <https://wikifactory-prod-uploads.oss-accelerate.aliyuncs.com/34/readme-0.md> .
 

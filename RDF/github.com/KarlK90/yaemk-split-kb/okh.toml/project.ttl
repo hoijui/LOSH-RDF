@@ -1,11 +1,13 @@
 @prefix : <https://github.com/KarlK90/yaemk-split-kb/1.2.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:YaemkYetAnotherErgonomicMechanicalKeyboard a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "YAEMK - Yet Another Ergonomic Mechanical Keyboard" ;
     okh:dataSource "github.com" ;
     okh:documentationLanguage "en-US" ;
+    okh:documentationReadinessLevel otrl:Odrl4 ;
     okh:function "YEAMK is a 5x8 split keyboard with configurable thumb-clusters, rotary encoders and oleds. It runs on ARM and RISC-V microcontrollers." ;
     okh:hasBoM :BillOfMaterials ;
     okh:hasImage :Image ;
@@ -16,6 +18,8 @@
     okh:repo <https://github.com/KarlK90/yaemk-split-kb> ;
     okh:repoHost "github.com" ;
     okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> ;
+    okh:technologyReadinessLevel otrl:Otrl5 ;
+    okh:uploadMethod "manifest" ;
     okh:version "1.2.0" ;
     okh:versionOf <https://github.com/KarlK90/yaemk-split-kb> .
 

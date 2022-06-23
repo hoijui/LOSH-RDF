@@ -1,0 +1,36 @@
+@prefix : <https://github.com/Opentrons/otone_hardware/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Project a okh:Module ;
+    rdfs:label "Opentrons Mechanics" ;
+    okh:cpcPatentClass "G01N" ;
+    okh:documentationLanguage "en-GB" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
+    okh:function "Opentrons makes robots for biologists. The robots automate experiments that would otherwise be done by hand, allowing our users to spend more time pursuing answers to the 21st century’s most important questions, and less time pipetting." ;
+    okh:hasBoM :BillOfMaterials ;
+    okh:hasReadme :Readme ;
+    okh:licensor "Jonathan Badal" ;
+    okh:release <https://github.com/Opentrons/otone_hardware/tree/5488af883a50c170301a0c1845abd50a51b9dfb3> ;
+    okh:repo <https://github.com/Opentrons/otone_hardware> ;
+    okh:repoHost "github.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/Apache-2.0> ;
+    okh:technologyReadinessLevel otrl:Otrl6 ;
+    okh:tsdc "ASM" ;
+    okh:uploadMethod "manifest" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://github.com/Opentrons/otone_hardware> .
+
+:BillOfMaterials a okh:BoM ;
+    rdfs:label "BillOfMaterials of Opentrons Mechanics 1.0.0" ;
+    okh:fileFormat "XLS" ;
+    okh:fileUrl <https://raw.githubusercontent.com/Opentrons/otone_hardware/5488af883a50c170301a0c1845abd50a51b9dfb3/OTOne_BOM.xls> ;
+    okh:permaURL <https://raw.githubusercontent.com/Opentrons/otone_hardware/5488af883a50c170301a0c1845abd50a51b9dfb3/OTOne_BOM.xls> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of Opentrons Mechanics 1.0.0" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://raw.githubusercontent.com/Opentrons/otone_hardware/5488af883a50c170301a0c1845abd50a51b9dfb3/README.md> ;
+    okh:permaURL <https://raw.githubusercontent.com/Opentrons/otone_hardware/5488af883a50c170301a0c1845abd50a51b9dfb3/README.md> .
+

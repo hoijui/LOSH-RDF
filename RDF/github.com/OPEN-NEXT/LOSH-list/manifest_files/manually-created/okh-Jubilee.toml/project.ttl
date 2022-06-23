@@ -1,46 +1,50 @@
 @prefix : <https://github.com/machineagency/jubilee/2.2.2/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Jubilee a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Jubilee" ;
     okh:cpcPatentClass "B33Y30/00" ;
-    okh:dataSource "github.com" ;
     okh:documentationLanguage "en-GB" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "Jubilee is an open-source, extensible multi-tool motion platform capable of running GCode for non-loadbearing automation applications.Out-of-the-box, Jubilee is configured for multimaterial 3D printing and multicolor pen plotting, but we've had success with light liquid-handling and image stitching applications too." ;
-    okh:hasBoM :BillOfMaterials,
-        :ManufacturingInstructions,
-        :UserManual ;
+    okh:hasBoM :BillOfMaterials ;
     okh:hasImage :Image ;
+    okh:hasManufacturingInstructions :ManufacturingInstructions ;
     okh:hasReadme :Readme ;
     okh:licensor "Joshua Vasquez" ;
-    okh:organisation "machineagency" ;
-    okh:outerDimensionMM "cube(size = [560,480,610])" ;
     okh:release <https://github.com/machineagency/jubilee/releases/tag/v2.2.2> ;
     okh:repo <https://github.com/machineagency/jubilee> ;
     okh:repoHost "github.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-4.0> ;
-    okh:tsdc "['MEC', 'STD', 'ASM']" ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
+    okh:tsdc "ASM" ;
+    okh:uploadMethod "manifest" ;
     okh:version "2.2.2" ;
     okh:versionOf <https://github.com/machineagency/jubilee> .
 
 :BillOfMaterials a okh:BoM ;
     rdfs:label "BillOfMaterials of Jubilee 2.2.2" ;
-    okh:fileFormat "" .
+    okh:fileFormat "" ;
+    okh:fileUrl <https://docs.google.com/spreadsheets/d/1pRzBQxVzL9c4T9b1RrKvSjlSwJJhJ7NcbSV6iJUv0X0/edit#gid=0> ;
+    okh:permaURL <https://docs.google.com/spreadsheets/d/1pRzBQxVzL9c4T9b1RrKvSjlSwJJhJ7NcbSV6iJUv0X0/edit#gid=0> .
 
 :Image a okh:Image ;
     rdfs:label "Image of Jubilee 2.2.2" ;
-    okh:fileFormat "PNG" .
+    okh:fileFormat "PNG" ;
+    okh:fileUrl <https://raw.githubusercontent.com/machineagency/jubilee/v2.2.2/frame/pics/jubilee_v2.png> ;
+    okh:permaURL <https://raw.githubusercontent.com/machineagency/jubilee/v2.2.2/frame/pics/jubilee_v2.png> .
 
 :ManufacturingInstructions a okh:ManufacturingInstructions ;
     rdfs:label "ManufacturingInstructions of Jubilee 2.2.2" ;
-    okh:fileFormat "PHP?TITLE=MAIN_PAGE" .
+    okh:fileFormat "PHP" ;
+    okh:fileUrl <https://jubilee3d.com/index.php?title=Main_Page> ;
+    okh:permaURL <https://jubilee3d.com/index.php?title=Main_Page> .
 
 :Readme a okh:Readme ;
     rdfs:label "Readme of Jubilee 2.2.2" ;
-    okh:fileFormat "" .
-
-:UserManual a okh:UserManual ;
-    rdfs:label "UserManual of Jubilee 2.2.2" ;
-    okh:fileFormat "" .
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://raw.githubusercontent.com/machineagency/jubilee/v2.2.2/README.md> ;
+    okh:permaURL <https://raw.githubusercontent.com/machineagency/jubilee/v2.2.2/README.md> .
 

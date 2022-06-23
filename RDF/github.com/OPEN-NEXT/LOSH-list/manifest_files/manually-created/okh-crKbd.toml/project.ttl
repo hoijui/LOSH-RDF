@@ -1,34 +1,34 @@
 @prefix : <https://github.com/foostan/crkbd/3.0.1/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:CorneKeyboardCrkbdHelidox a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Corne keyboard, crKbd, Helidox" ;
     okh:cpcPatentClass "G06C 7/02" ;
-    okh:dataSource "github.com" ;
-    okh:documentationLanguage "['en_US', 'jp_JP']" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "The Corne is a 40% split mechanical USB general purpose keyboard. It is made up of two halves with 3x6 column staggered keys and 3 thumb keys. It has full RGB backlighting, and is fully programmable using the popular Open Source QMK firmware. The basic design principles are, to have a minimal, ergonomically arranged set of keys that are all reachable by moving a finger by at most a distance of one key in diagonal." ;
-    okh:hasBoM :BillOfMaterials,
-        :ManufacturingInstructions ;
+    okh:hasBoM :BillOfMaterials ;
     okh:hasReadme :Readme ;
-    okh:licensor "Kosuke Adachi" ;
     okh:release <https://github.com/foostan/crkbd/releases/tag/corne-cherry-v3.0.1> ;
     okh:repo <https://github.com/foostan/crkbd/> ;
     okh:repoHost "github.com" ;
     okh:spdxLicense <https://spdx.org/licenses/MIT> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:tsdc "PCB" ;
+    okh:uploadMethod "manifest" ;
     okh:version "3.0.1" ;
     okh:versionOf <https://github.com/foostan/crkbd/> .
 
 :BillOfMaterials a okh:BoM ;
     rdfs:label "BillOfMaterials of Corne keyboard, crKbd, Helidox 3.0.1" ;
-    okh:fileFormat "MD" .
-
-:ManufacturingInstructions a okh:ManufacturingInstructions ;
-    rdfs:label "ManufacturingInstructions of Corne keyboard, crKbd, Helidox 3.0.1" ;
-    okh:fileFormat "MD" .
+    okh:fileFormat "MD#PARTS" ;
+    okh:fileUrl <https://raw.githubusercontent.com/foostan/crkbd/corne-cherry-v3.0.1/corne-cherry/doc/v3/buildguide_en.md#parts> ;
+    okh:permaURL <https://raw.githubusercontent.com/foostan/crkbd/corne-cherry-v3.0.1/corne-cherry/doc/v3/buildguide_en.md#parts> .
 
 :Readme a okh:Readme ;
     rdfs:label "Readme of Corne keyboard, crKbd, Helidox 3.0.1" ;
-    okh:fileFormat "MD" .
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://raw.githubusercontent.com/foostan/crkbd/corne-cherry-v3.0.1/README.md> ;
+    okh:permaURL <https://raw.githubusercontent.com/foostan/crkbd/corne-cherry-v3.0.1/README.md> .
 

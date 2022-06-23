@@ -1,22 +1,24 @@
 @prefix : <https://github.com/e-radionicacom/Inkplate-6-hardware/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Inkplate6 a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Inkplate 6" ;
     okh:cpcPatentClass "H04W" ;
-    okh:dataSource "github.com" ;
     okh:documentationLanguage "en-GB" ;
-    okh:function " Inkplate 6 is a powerful, Wi-Fi enabled ESP32 based six-inch e-paper display – recycled from a Kindle e-reader." ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
+    okh:function "Inkplate 6 is a powerful, Wi-Fi enabled ESP32 based six-inch e-paper display - recycled from a Kindle e-reader." ;
     okh:hasImage :Image ;
     okh:hasManufacturingInstructions :ManufacturingInstructions ;
     okh:hasReadme :Readme ;
     okh:licensor "David Zovko" ;
-    okh:release <https://github.com/e-radionicacom/Inkplate-6-hardware> ;
     okh:repo <https://github.com/e-radionicacom/Inkplate-6-hardware> ;
     okh:repoHost "github.com" ;
     okh:spdxLicense <https://spdx.org/licenses/TAPR-OHL-1.0> ;
-    okh:tsdc "STD" ;
+    okh:technologyReadinessLevel otrl:Otrl6 ;
+    okh:tsdc "ASM" ;
+    okh:uploadMethod "manifest" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://github.com/e-radionicacom/Inkplate-6-hardware> .
 
@@ -28,13 +30,11 @@
 
 :ManufacturingInstructions a okh:ManufacturingInstructions ;
     rdfs:label "ManufacturingInstructions of Inkplate 6 1.0.0" ;
-    okh:fileFormat "PDF" ;
-    okh:fileUrl <https://raw.githubusercontent.com/e-radionicacom/Inkplate-6-hardware/v1.0.0/blob/master/Technical%20drawings/Inkplate6%20features%20technical%20drawing.pdf> ;
-    okh:permaURL <https://raw.githubusercontent.com/e-radionicacom/Inkplate-6-hardware/v1.0.0/blob/master/Technical%20drawings/Inkplate6%20features%20technical%20drawing.pdf> .
+    okh:fileFormat "PDF" .
 
 :Readme a okh:Readme ;
     rdfs:label "Readme of Inkplate 6 1.0.0" ;
     okh:fileFormat "MD" ;
-    okh:fileUrl <https://raw.githubusercontent.com/e-radionicacom/Inkplate-6-hardware/v1.0.0/manifest_files/manually-created/README.md> ;
-    okh:permaURL <https://raw.githubusercontent.com/e-radionicacom/Inkplate-6-hardware/v1.0.0/manifest_files/manually-created/README.md> .
+    okh:fileUrl <https://raw.githubusercontent.com/e-radionicacom/Inkplate-6-hardware/v1.0.0/README.md> ;
+    okh:permaURL <https://raw.githubusercontent.com/e-radionicacom/Inkplate-6-hardware/v1.0.0/README.md> .
 

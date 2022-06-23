@@ -1,12 +1,13 @@
 @prefix : <https://source.mnt.re/reform/reform/2.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:MntReform a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "MNT Reform" ;
     okh:cpcPatentClass "H05K" ;
-    okh:dataSource "github.com" ;
     okh:documentationLanguage "en-GB" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function "MNT Reform is the radical, ultimate open hardware laptop, designed and assembled in Berlin." ;
     okh:hasBoM :BillOfMaterials ;
     okh:hasImage :Image ;
@@ -15,7 +16,9 @@
     okh:repo <https://source.mnt.re/reform/reform> ;
     okh:repoHost "source.mnt.re" ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-S-2.0> ;
+    okh:technologyReadinessLevel otrl:Otrl5 ;
     okh:tsdc "ASM" ;
+    okh:uploadMethod "manifest" ;
     okh:version "2.0.0" ;
     okh:versionOf <https://source.mnt.re/reform/reform> .
 

@@ -1,12 +1,13 @@
 @prefix : <https://en.oho.wiki/wiki/Small_water_turbine/43323/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:SmallWaterTurbine a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Small water turbine" ;
     okh:cpcPatentClass "Y02E10/20" ;
-    okh:dataSource "github.com" ;
     okh:documentationLanguage "en-GB" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function "The 5kW water turbine would be used to feed an electrical network (coffee farm in South America), which is why a 60Hz generator is selected, however, this can be adapted to the needs of whoever is going to replicate it. In any case, the same orciginal design was followed" ;
     okh:hasBoM :BillOfMaterials ;
     okh:hasImage :Image ;
@@ -17,6 +18,7 @@
     okh:repo <https://en.oho.wiki/wiki/Small_water_turbine> ;
     okh:repoHost "en.oho.wiki" ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:tsdc "MEC" ;
     okh:uploadMethod "manifest" ;
     okh:version "43323" ;

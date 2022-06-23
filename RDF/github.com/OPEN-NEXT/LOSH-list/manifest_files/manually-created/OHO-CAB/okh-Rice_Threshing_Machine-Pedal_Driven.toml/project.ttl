@@ -1,12 +1,13 @@
 @prefix : <https://en.oho.wiki/wiki/Rice_Threshing_Machine_-_Pedal_Driven/44528/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:RiceThreshingMachinePedalDriven a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Rice Threshing Machine - Pedal Driven" ;
     okh:cpcPatentClass "A01F7/00" ;
-    okh:dataSource "github.com" ;
     okh:documentationLanguage "en-GB" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "Rice Threshing Machine - Pedal Driven" ;
     okh:hasBoM :BillOfMaterials ;
     okh:hasImage :Image ;
@@ -17,6 +18,7 @@
     okh:repo <https://en.oho.wiki/wiki/Rice_Threshing_Machine_-_Pedal_Driven> ;
     okh:repoHost "en.oho.wiki" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:tsdc "MEC" ;
     okh:uploadMethod "manifest" ;
     okh:version "44528" ;

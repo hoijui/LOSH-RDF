@@ -1,12 +1,13 @@
 @prefix : <https://en.oho.wiki/wiki/Long_Andre_cargo_bike/44694/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:LongAndreCargoBike a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Long Andre cargo bike" ;
     okh:cpcPatentClass "B62J7/00" ;
-    okh:dataSource "github.com" ;
     okh:documentationLanguage "en-GB" ;
+    okh:documentationReadinessLevel <http://purl.org/oseg/ontologies/OTRL#Odrl3*> ;
     okh:function "Long Andre Cargo bike consists of an old frame and semi-finished steel products that are readily available. The box encloses the two front wheels so that the surfaces can also be used for advertising. It is very suitable for short distances" ;
     okh:hasBoM :BillOfMaterials ;
     okh:hasImage :Image ;
@@ -17,6 +18,7 @@
     okh:repo <https://en.oho.wiki/wiki/Long_Andre_cargo_bike> ;
     okh:repoHost "en.oho.wiki" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:uploadMethod "manifest" ;
     okh:version "44694" ;
     okh:versionOf <https://en.oho.wiki/wiki/Long_Andre_cargo_bike> .

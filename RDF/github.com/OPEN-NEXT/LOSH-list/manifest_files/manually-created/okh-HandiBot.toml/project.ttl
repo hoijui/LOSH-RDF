@@ -1,0 +1,42 @@
+@prefix : <https://github.com/Handibot/handibot-hardware/2.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Project a okh:Module ;
+    rdfs:label "HandiBot" ;
+    okh:alternativeLicense "LicenseRef-PANAKA-OH" ;
+    okh:cpcPatentClass "G05B" ;
+    okh:documentationLanguage "en-GB" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
+    okh:function "A Handibot tool is a new kind of portable, digitally-controlled power tool for cutting, drilling, carving, and many other machining operations– the first Universal Digital Power Tool (UDPT) – or just, a Smart Tool. If you're familiar with industrial CNC (computer numerically controlled) equipment, think of the Handibot tool as a portable version of CNC." ;
+    okh:hasBoM :BillOfMaterials ;
+    okh:hasImage :Image ;
+    okh:hasReadme :Readme ;
+    okh:licensor "Brian Gillespie" ;
+    okh:organisation "Handibot" ;
+    okh:release <https://github.com/Handibot/handibot-hardware/tree/1a6dad5f5baabf23cbcb1d52d004bc6ec6ae5cbd> ;
+    okh:repo <https://github.com/Handibot/handibot-hardware> ;
+    okh:repoHost "github.com" ;
+    okh:technologyReadinessLevel otrl:Otrl5 ;
+    okh:tsdc "ASM" ;
+    okh:uploadMethod "manifest" ;
+    okh:version "2.0.0" ;
+    okh:versionOf <https://github.com/Handibot/handibot-hardware> .
+
+:BillOfMaterials a okh:BoM ;
+    rdfs:label "BillOfMaterials of HandiBot 2.0.0" ;
+    okh:fileFormat "PDF" .
+
+:Image a okh:Image ;
+    rdfs:label "Image of HandiBot 2.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://raw.githubusercontent.com/Handibot/handibot-hardware/1a6dad5f5baabf23cbcb1d52d004bc6ec6ae5cbd/images/model.jpg> ;
+    okh:permaURL <https://raw.githubusercontent.com/Handibot/handibot-hardware/1a6dad5f5baabf23cbcb1d52d004bc6ec6ae5cbd/images/model.jpg> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of HandiBot 2.0.0" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://raw.githubusercontent.com/Handibot/handibot-hardware/1a6dad5f5baabf23cbcb1d52d004bc6ec6ae5cbd/README.md> ;
+    okh:permaURL <https://raw.githubusercontent.com/Handibot/handibot-hardware/1a6dad5f5baabf23cbcb1d52d004bc6ec6ae5cbd/README.md> .
+

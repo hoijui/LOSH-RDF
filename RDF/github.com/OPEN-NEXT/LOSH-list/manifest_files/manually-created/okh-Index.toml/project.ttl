@@ -1,45 +1,57 @@
-@prefix : <https://github.com/index-machines/index/1.2.2/> .
+@prefix : <https://github.com/index-machines/index/2.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Index a okh:Module ;
-    rdfs:label "Index" ;
+:Project a okh:Module ;
+    rdfs:label "Index PnP" ;
     okh:cpcPatentClass "B65G1/00" ;
-    okh:dataSource "github.com" ;
     okh:documentationLanguage "en-GB" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "The Index Pick and Place is an open source pick and place machine to aid in Mid-Scale Manufacturing." ;
-    okh:hasBoM :BillOfMaterials,
-        :ManufacturingInstructions,
-        :UserManual ;
+    okh:hasBoM :BillOfMaterials ;
     okh:hasImage :Image ;
+    okh:hasManufacturingInstructions :ManufacturingInstructions ;
     okh:hasReadme :Readme ;
+    okh:hasUserManual :UserManual ;
     okh:licensor "Stephen Hawes" ;
-    okh:organisation "Index Machines" ;
-    okh:release <https://github.com/index-machines/index/releases/tag/v1.2.2> ;
+    okh:release <https://github.com/index-machines/index/releases/tag/v2.0.0> ;
     okh:repo <https://github.com/index-machines/index/> ;
     okh:repoHost "github.com" ;
-    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-only> ;
-    okh:tsdc "['MEC', 'STD', 'ASM']" ;
-    okh:version "1.2.2" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl5 ;
+    okh:tsdc "ASM" ;
+    okh:uploadMethod "manifest" ;
+    okh:version "2.0.0" ;
     okh:versionOf <https://github.com/index-machines/index/> .
 
 :BillOfMaterials a okh:BoM ;
-    rdfs:label "BillOfMaterials of Index 1.2.2" ;
-    okh:fileFormat "CSV" .
+    rdfs:label "BillOfMaterials of Index PnP 2.0.0" ;
+    okh:fileFormat "CSV" ;
+    okh:fileUrl <https://raw.githubusercontent.com/index-machines/index/v2.0.0/parts.csv> ;
+    okh:permaURL <https://raw.githubusercontent.com/index-machines/index/v2.0.0/parts.csv> .
 
 :Image a okh:Image ;
-    rdfs:label "Image of Index 1.2.2" ;
-    okh:fileFormat "JPG" .
+    rdfs:label "Image of Index PnP 2.0.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://raw.githubusercontent.com/index-machines/index/v2.0.0/img/index-hero.jpg> ;
+    okh:permaURL <https://raw.githubusercontent.com/index-machines/index/v2.0.0/img/index-hero.jpg> .
 
 :ManufacturingInstructions a okh:ManufacturingInstructions ;
-    rdfs:label "ManufacturingInstructions of Index 1.2.2" ;
-    okh:fileFormat "" .
+    rdfs:label "ManufacturingInstructions of Index PnP 2.0.0" ;
+    okh:fileFormat "" ;
+    okh:fileUrl <https://github.com/index-machines/index/wiki> ;
+    okh:permaURL <https://github.com/index-machines/index/wiki> .
 
 :Readme a okh:Readme ;
-    rdfs:label "Readme of Index 1.2.2" ;
-    okh:fileFormat "" .
+    rdfs:label "Readme of Index PnP 2.0.0" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://raw.githubusercontent.com/index-machines/index/v2.0.0/README.md> ;
+    okh:permaURL <https://raw.githubusercontent.com/index-machines/index/v2.0.0/README.md> .
 
 :UserManual a okh:UserManual ;
-    rdfs:label "UserManual of Index 1.2.2" ;
-    okh:fileFormat "" .
+    rdfs:label "UserManual of Index PnP 2.0.0" ;
+    okh:fileFormat "" ;
+    okh:fileUrl <https://github.com/index-machines/index/wiki> ;
+    okh:permaURL <https://github.com/index-machines/index/wiki> .
 

@@ -1,12 +1,13 @@
 @prefix : <https://github.com/fossasia/pslab-hardware/6.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Pslabhardware a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Pslab-hardware" ;
     okh:cpcPatentClass "H05K" ;
-    okh:dataSource "github.com" ;
     okh:documentationLanguage "en-GB" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "PSLab is a tiny pocket science lab that provides an array of test and measurement instruments for doing science and engineering experiments." ;
     okh:hasImage :Image ;
     okh:hasReadme :Readme ;
@@ -15,6 +16,7 @@
     okh:repo <https://github.com/fossasia/pslab-hardware> ;
     okh:repoHost "github.com" ;
     okh:spdxLicense <https://spdx.org/licenses/Apache-2.0> ;
+    okh:technologyReadinessLevel otrl:Otrl6 ;
     okh:tsdc "PCB" ;
     okh:uploadMethod "manifest" ;
     okh:version "6.0.0" ;
@@ -29,6 +31,6 @@
 :Readme a okh:Readme ;
     rdfs:label "Readme of Pslab-hardware 6.0.0" ;
     okh:fileFormat "MD" ;
-    okh:fileUrl <https://raw.githubusercontent.com/fossasia/pslab-hardware/V6.0-beta/manifest_files/manually-created/GSCOP_documentation_projects/README.md> ;
-    okh:permaURL <https://raw.githubusercontent.com/fossasia/pslab-hardware/V6.0-beta/manifest_files/manually-created/GSCOP_documentation_projects/README.md> .
+    okh:fileUrl <https://raw.githubusercontent.com/fossasia/pslab-hardware/V6.0-beta/README.md> ;
+    okh:permaURL <https://raw.githubusercontent.com/fossasia/pslab-hardware/V6.0-beta/README.md> .
 

@@ -1,12 +1,13 @@
 @prefix : <https://en.oho.wiki/wiki/Hammer_Mill_for_Corn_Processing/44028/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:HammerMillForCornProcessing a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Hammer Mill for Corn Processing" ;
     okh:cpcPatentClass "A23P" ;
-    okh:dataSource "github.com" ;
     okh:documentationLanguage "en-GB" ;
+    okh:documentationReadinessLevel otrl:Odrl2 ;
     okh:function "Hammer Mill for Corn Processing" ;
     okh:hasBoM :BillOfMaterials ;
     okh:hasImage :Image ;
@@ -17,6 +18,7 @@
     okh:repo <https://en.oho.wiki/wiki/Hammer_Mill_for_Corn_Processing> ;
     okh:repoHost "en.oho.wiki" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:tsdc "MEC" ;
     okh:uploadMethod "manifest" ;
     okh:version "44028" ;

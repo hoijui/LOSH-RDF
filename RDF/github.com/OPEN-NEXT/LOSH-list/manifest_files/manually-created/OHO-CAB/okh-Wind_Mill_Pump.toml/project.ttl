@@ -1,12 +1,13 @@
 @prefix : <https://en.oho.wiki/wiki/Wind_Mill_Pump/44683/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:WindMillPump a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Wind Mill Pump" ;
     okh:cpcPatentClass "Y02E10/76" ;
-    okh:dataSource "github.com" ;
     okh:documentationLanguage "en-GB" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "DIY equipment to pump water using a Savonius turbine and a diaphragm pump" ;
     okh:hasBoM :BillOfMaterials ;
     okh:hasImage :Image ;
@@ -17,6 +18,7 @@
     okh:repo <https://en.oho.wiki/wiki/Wind_Mill_Pump> ;
     okh:repoHost "en.oho.wiki" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:tsdc "MEC" ;
     okh:uploadMethod "manifest" ;
     okh:version "44683" ;

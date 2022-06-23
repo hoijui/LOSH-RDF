@@ -1,0 +1,58 @@
+@prefix : <https://github.com/nortd/lasersaur/14.0.3/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Project a okh:Module ;
+    rdfs:label "Lasersaur" ;
+    okh:cpcPatentClass "B23K" ;
+    okh:documentationLanguage "en-US" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
+    okh:function "The Lasersaur is a beautiful laser cutter with an outstanding price-performance ratio. We designed it to fill the need of makers, designers, architects and researchers who want a safe and highly-capable machine. Unlike others it's open source and comes fully loaded with knowledge to run, maintain, and modify." ;
+    okh:hasBoM :BillOfMaterials ;
+    okh:hasImage :Image ;
+    okh:hasManufacturingInstructions :ManufacturingInstructions ;
+    okh:hasReadme :Readme ;
+    okh:hasUserManual :UserManual ;
+    okh:licensor "Stefan Hechenberger" ;
+    okh:organisation "Nortd Labs" ;
+    okh:release <https://github.com/nortd/lasersaur/wiki> ;
+    okh:repo <https://github.com/nortd/lasersaur> ;
+    okh:repoHost "github.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
+    okh:tsdc "ASM" ;
+    okh:uploadMethod "manifest" ;
+    okh:version "14.0.3" ;
+    okh:versionOf <https://github.com/nortd/lasersaur> .
+
+:BillOfMaterials a okh:BoM ;
+    rdfs:label "BillOfMaterials of Lasersaur 14.0.3" ;
+    okh:fileFormat "" ;
+    okh:fileUrl <https://github.com/nortd/lasersaur/wiki/bom> ;
+    okh:permaURL <https://github.com/nortd/lasersaur/wiki/bom> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of Lasersaur 14.0.3" ;
+    okh:fileFormat "" ;
+    okh:fileUrl <https://camo.githubusercontent.com/2cd582f9b6f9ccc54b29f1a81a2b7add222fbdc3564c4a07d54ddc2b64f42294/687474703a2f2f6661726d392e737461746963666c69636b722e636f6d2f383134322f373133393539393332355f316237303336623937655f6d2e6a7067> ;
+    okh:permaURL <https://camo.githubusercontent.com/2cd582f9b6f9ccc54b29f1a81a2b7add222fbdc3564c4a07d54ddc2b64f42294/687474703a2f2f6661726d392e737461746963666c69636b722e636f6d2f383134322f373133393539393332355f316237303336623937655f6d2e6a7067> .
+
+:ManufacturingInstructions a okh:ManufacturingInstructions ;
+    rdfs:label "ManufacturingInstructions of Lasersaur 14.0.3" ;
+    okh:fileFormat "" ;
+    okh:fileUrl <http://www.lasersaur.com/manual/build/> ;
+    okh:permaURL <http://www.lasersaur.com/manual/build/> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of Lasersaur 14.0.3" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://raw.githubusercontent.com/nortd/lasersaur/v14.0.3/README.md> ;
+    okh:permaURL <https://raw.githubusercontent.com/nortd/lasersaur/v14.0.3/README.md> .
+
+:UserManual a okh:UserManual ;
+    rdfs:label "UserManual of Lasersaur 14.0.3" ;
+    okh:fileFormat "" ;
+    okh:fileUrl <https://github.com/nortd/lasersaur/wiki/operation> ;
+    okh:permaURL <https://github.com/nortd/lasersaur/wiki/operation> .
+

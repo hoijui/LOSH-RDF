@@ -1,12 +1,13 @@
 @prefix : <https://en.oho.wiki/wiki/Crown_Cap_Machine/43333/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:CrownCapMachine a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Crown Cap Machine" ;
     okh:cpcPatentClass "B67B3/02" ;
-    okh:dataSource "github.com" ;
     okh:documentationLanguage "en-GB" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "Hand operated device for sealing bottle tops" ;
     okh:hasBoM :BillOfMaterials ;
     okh:hasImage :Image ;
@@ -18,6 +19,7 @@
     okh:repo <https://en.oho.wiki/wiki/Crown_Cap_Machine> ;
     okh:repoHost "en.oho.wiki" ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:tsdc "MEC" ;
     okh:uploadMethod "manifest" ;
     okh:version "43333" ;

@@ -1,31 +1,32 @@
 @prefix : <https://github.com/opensourceimaging/cosi-measure/tree/05c9b61cfbde511fc26578b4dd1ab3c4c9aa9163/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:CosiMeasureMechanicalSystem a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "COSI Measure - Mechanical System" ;
     okh:cpcPatentClass "B25J9/026" ;
-    okh:dataSource "github.com" ;
     okh:documentationLanguage "en-GB" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "Mechanical setup for the CostEeffective Open Source Imaging (COSI), a collaborative initiative currently building an affordable low field open source magnetic resonance imaging (MRI) scanner. Along this path, affordable and customizable open source tools are required." ;
     okh:hasBoM :BillOfMaterials ;
-    okh:hasComponent :AluminiumPlate1,
-        :AluminiumPlate3,
-        :AluminiumPlate4,
-        :AluminiumPlate5,
-        :AluminiumPlate6,
-        :AluminiumPlate7,
-        :AluminiumPlate8,
-        :AluminiumPlate9,
-        :LimitswitchholderXaxisChainholder,
-        :LimitswitchholderXminus,
-        :LimitswitchholderXplus,
-        :LimitswitchholderYaxisChainholder,
-        :LimitswitchholderYminus,
-        :LimitswitchholderYplus,
-        :LimitswitchholderZaxis1of2,
-        :LimitswitchholderZaxis2of2,
-        :LimitswitchholderZaxisChainholder ;
+    okh:hasComponent :Aluminiumplate1,
+        :Aluminiumplate3,
+        :Aluminiumplate4,
+        :Aluminiumplate5,
+        :Aluminiumplate6,
+        :Aluminiumplate7,
+        :Aluminiumplate8,
+        :Aluminiumplate9,
+        :Limitswitchholderxaxischainholder,
+        :Limitswitchholderxminus,
+        :Limitswitchholderxplus,
+        :Limitswitchholderyaxischainholder,
+        :Limitswitchholderyminus,
+        :Limitswitchholderyplus,
+        :Limitswitchholderzaxis1of2,
+        :Limitswitchholderzaxis2of2,
+        :Limitswitchholderzaxischainholder ;
     okh:hasImage :Image ;
     okh:hasManufacturingInstructions :ManufacturingInstructions ;
     okh:hasReadme :Readme ;
@@ -34,170 +35,171 @@
     okh:repo <https://github.com/opensourceimaging/cosi-measure/tree/05c9b61cfbde511fc26578b4dd1ab3c4c9aa9163/> ;
     okh:repoHost "github.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
+    okh:technologyReadinessLevel otrl:Otrl3 ;
     okh:tsdc "MEC" ;
     okh:uploadMethod "manifest" ;
     okh:version "1.0.0" ;
     okh:versionOf <https://github.com/opensourceimaging/cosi-measure/tree/05c9b61cfbde511fc26578b4dd1ab3c4c9aa9163/> .
 
-:AluminiumPlate1 a okh:Part ;
+:Aluminiumplate1 a okh:Part ;
     rdfs:label "Aluminium Plate 1" ;
     okh:documentationLanguage "en-GB" ;
-    okh:export :AluminiumPlate1_export1,
-        :AluminiumPlate1_export2 ;
-    okh:hasOuterDimensions :AluminiumPlate1_OuterDimensions ;
+    okh:export :Aluminiumplate1_export1,
+        :Aluminiumplate1_export2 ;
+    okh:hasOuterDimensions :Aluminiumplate1_OuterDimensions ;
     okh:licensor "Lukas Winter" ;
     okh:material "EN AW-2017A" ;
-    okh:source :AluminiumPlate1_source ;
+    okh:source :Aluminiumplate1_source ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
     okh:tsdc "CNC" .
 
-:AluminiumPlate1_OuterDimensions a okh:OuterDimensions ;
+:Aluminiumplate1_OuterDimensions a okh:OuterDimensions ;
     rdfs:label "Outer Dimensions of Aluminium Plate 1" ;
     okh:openSCAD "cube(size = [1084,140,10])" ;
     okh:unit "mm" .
 
-:AluminiumPlate1_export1 a okh:ExportFile ;
+:Aluminiumplate1_export1 a okh:ExportFile ;
     rdfs:label "Export File of Aluminium Plate 1 of COSI Measure - Mechanical System 1.0.0" ;
     okh:fileFormat "PDF" .
 
-:AluminiumPlate1_export2 a okh:ExportFile ;
+:Aluminiumplate1_export2 a okh:ExportFile ;
     rdfs:label "Export File of Aluminium Plate 1 of COSI Measure - Mechanical System 1.0.0" ;
     okh:fileFormat "PDF" .
 
-:AluminiumPlate1_source a okh:SourceFile ;
+:Aluminiumplate1_source a okh:SourceFile ;
     rdfs:label "Source File of Aluminium Plate 1 of COSI Measure - Mechanical System 1.0.0" ;
     okh:fileFormat "FCSTD" .
 
-:AluminiumPlate3 a okh:Part ;
+:Aluminiumplate3 a okh:Part ;
     rdfs:label "Aluminium Plate 3" ;
     okh:documentationLanguage "en-GB" ;
-    okh:hasOuterDimensions :AluminiumPlate3_OuterDimensions ;
+    okh:hasOuterDimensions :Aluminiumplate3_OuterDimensions ;
     okh:licensor "Lukas Winter" ;
     okh:material "EN AW-2017A" ;
-    okh:source :AluminiumPlate3_source ;
+    okh:source :Aluminiumplate3_source ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
     okh:tsdc "CNC" .
 
-:AluminiumPlate3_OuterDimensions a okh:OuterDimensions ;
+:Aluminiumplate3_OuterDimensions a okh:OuterDimensions ;
     rdfs:label "Outer Dimensions of Aluminium Plate 3" ;
     okh:openSCAD "cube(size = [110,100,10])" ;
     okh:unit "mm" .
 
-:AluminiumPlate3_source a okh:SourceFile ;
+:Aluminiumplate3_source a okh:SourceFile ;
     rdfs:label "Source File of Aluminium Plate 3 of COSI Measure - Mechanical System 1.0.0" ;
     okh:fileFormat "FCSTD" .
 
-:AluminiumPlate4 a okh:Part ;
+:Aluminiumplate4 a okh:Part ;
     rdfs:label "Aluminium Plate 4" ;
     okh:documentationLanguage "en-GB" ;
-    okh:hasOuterDimensions :AluminiumPlate4_OuterDimensions ;
+    okh:hasOuterDimensions :Aluminiumplate4_OuterDimensions ;
     okh:licensor "Lukas Winter" ;
     okh:material "EN AW-2017A" ;
-    okh:source :AluminiumPlate4_source ;
+    okh:source :Aluminiumplate4_source ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
     okh:tsdc "CNC" .
 
-:AluminiumPlate4_OuterDimensions a okh:OuterDimensions ;
+:Aluminiumplate4_OuterDimensions a okh:OuterDimensions ;
     rdfs:label "Outer Dimensions of Aluminium Plate 4" ;
     okh:openSCAD "cube(size = [200,110,10])" ;
     okh:unit "mm" .
 
-:AluminiumPlate4_source a okh:SourceFile ;
+:Aluminiumplate4_source a okh:SourceFile ;
     rdfs:label "Source File of Aluminium Plate 4 of COSI Measure - Mechanical System 1.0.0" ;
     okh:fileFormat "" .
 
-:AluminiumPlate5 a okh:Part ;
+:Aluminiumplate5 a okh:Part ;
     rdfs:label "Aluminium Plate 5" ;
     okh:documentationLanguage "en-GB" ;
-    okh:hasOuterDimensions :AluminiumPlate5_OuterDimensions ;
+    okh:hasOuterDimensions :Aluminiumplate5_OuterDimensions ;
     okh:licensor "Lukas Winter" ;
     okh:material "EN AW-2017A" ;
-    okh:source :AluminiumPlate5_source ;
+    okh:source :Aluminiumplate5_source ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
     okh:tsdc "CNC" .
 
-:AluminiumPlate5_OuterDimensions a okh:OuterDimensions ;
+:Aluminiumplate5_OuterDimensions a okh:OuterDimensions ;
     rdfs:label "Outer Dimensions of Aluminium Plate 5" ;
     okh:openSCAD "cube(size = [190,145,10])" ;
     okh:unit "mm" .
 
-:AluminiumPlate5_source a okh:SourceFile ;
+:Aluminiumplate5_source a okh:SourceFile ;
     rdfs:label "Source File of Aluminium Plate 5 of COSI Measure - Mechanical System 1.0.0" ;
     okh:fileFormat "FCSTD" .
 
-:AluminiumPlate6 a okh:Part ;
+:Aluminiumplate6 a okh:Part ;
     rdfs:label "Aluminium Plate 6" ;
     okh:documentationLanguage "en-GB" ;
-    okh:hasOuterDimensions :AluminiumPlate6_OuterDimensions ;
+    okh:hasOuterDimensions :Aluminiumplate6_OuterDimensions ;
     okh:licensor "Lukas Winter" ;
     okh:material "EN AW-2017A" ;
-    okh:source :AluminiumPlate6_source ;
+    okh:source :Aluminiumplate6_source ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
     okh:tsdc "CNC" .
 
-:AluminiumPlate6_OuterDimensions a okh:OuterDimensions ;
+:Aluminiumplate6_OuterDimensions a okh:OuterDimensions ;
     rdfs:label "Outer Dimensions of Aluminium Plate 6" ;
     okh:openSCAD "cube(size = [190,132,10])" ;
     okh:unit "mm" .
 
-:AluminiumPlate6_source a okh:SourceFile ;
+:Aluminiumplate6_source a okh:SourceFile ;
     rdfs:label "Source File of Aluminium Plate 6 of COSI Measure - Mechanical System 1.0.0" ;
     okh:fileFormat "FCSTD" .
 
-:AluminiumPlate7 a okh:Part ;
+:Aluminiumplate7 a okh:Part ;
     rdfs:label "Aluminium Plate 7" ;
     okh:documentationLanguage "en-GB" ;
-    okh:hasOuterDimensions :AluminiumPlate7_OuterDimensions ;
+    okh:hasOuterDimensions :Aluminiumplate7_OuterDimensions ;
     okh:licensor "Lukas Winter" ;
     okh:material "EN AW-2017A" ;
-    okh:source :AluminiumPlate7_source ;
+    okh:source :Aluminiumplate7_source ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
     okh:tsdc "CNC" .
 
-:AluminiumPlate7_OuterDimensions a okh:OuterDimensions ;
+:Aluminiumplate7_OuterDimensions a okh:OuterDimensions ;
     rdfs:label "Outer Dimensions of Aluminium Plate 7" ;
     okh:openSCAD "cube(size = [190,75,10])" ;
     okh:unit "mm" .
 
-:AluminiumPlate7_source a okh:SourceFile ;
+:Aluminiumplate7_source a okh:SourceFile ;
     rdfs:label "Source File of Aluminium Plate 7 of COSI Measure - Mechanical System 1.0.0" ;
     okh:fileFormat "FCSTD" .
 
-:AluminiumPlate8 a okh:Part ;
+:Aluminiumplate8 a okh:Part ;
     rdfs:label "Aluminium Plate 8" ;
     okh:documentationLanguage "en-GB" ;
-    okh:hasOuterDimensions :AluminiumPlate8_OuterDimensions ;
+    okh:hasOuterDimensions :Aluminiumplate8_OuterDimensions ;
     okh:licensor "Lukas Winter" ;
     okh:material "EN AW-2017A" ;
-    okh:source :AluminiumPlate8_source ;
+    okh:source :Aluminiumplate8_source ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
     okh:tsdc "CNC" .
 
-:AluminiumPlate8_OuterDimensions a okh:OuterDimensions ;
+:Aluminiumplate8_OuterDimensions a okh:OuterDimensions ;
     rdfs:label "Outer Dimensions of Aluminium Plate 8" ;
     okh:openSCAD "cube(size = [190,50,10])" ;
     okh:unit "mm" .
 
-:AluminiumPlate8_source a okh:SourceFile ;
+:Aluminiumplate8_source a okh:SourceFile ;
     rdfs:label "Source File of Aluminium Plate 8 of COSI Measure - Mechanical System 1.0.0" ;
     okh:fileFormat "FCSTD" .
 
-:AluminiumPlate9 a okh:Part ;
+:Aluminiumplate9 a okh:Part ;
     rdfs:label "Aluminium Plate 9" ;
     okh:documentationLanguage "en-GB" ;
-    okh:hasOuterDimensions :AluminiumPlate9_OuterDimensions ;
+    okh:hasOuterDimensions :Aluminiumplate9_OuterDimensions ;
     okh:licensor "Lukas Winter" ;
     okh:material "EN AW-2017A" ;
-    okh:source :AluminiumPlate9_source ;
+    okh:source :Aluminiumplate9_source ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
     okh:tsdc "CNC" .
 
-:AluminiumPlate9_OuterDimensions a okh:OuterDimensions ;
+:Aluminiumplate9_OuterDimensions a okh:OuterDimensions ;
     rdfs:label "Outer Dimensions of Aluminium Plate 9" ;
     okh:openSCAD "cube(size = [190,100,10])" ;
     okh:unit "mm" .
 
-:AluminiumPlate9_source a okh:SourceFile ;
+:Aluminiumplate9_source a okh:SourceFile ;
     rdfs:label "Source File of Aluminium Plate 9 of COSI Measure - Mechanical System 1.0.0" ;
     okh:fileFormat "FCSTD" .
 
@@ -209,210 +211,210 @@
     rdfs:label "Image of COSI Measure - Mechanical System 1.0.0" ;
     okh:fileFormat "PNG" .
 
-:LimitswitchholderXaxisChainholder a okh:Part ;
+:Limitswitchholderxaxischainholder a okh:Part ;
     rdfs:label "LimitSwitchHolder x-axis chainholder" ;
     okh:documentationLanguage "en-GB" ;
-    okh:export :LimitswitchholderXaxisChainholder_export1,
-        :LimitswitchholderXaxisChainholder_export2 ;
+    okh:export :Limitswitchholderxaxischainholder_export1,
+        :Limitswitchholderxaxischainholder_export2 ;
     okh:licensor "Lukas Winter" ;
     okh:material "PLA" ;
-    okh:source :LimitswitchholderXaxisChainholder_source ;
+    okh:source :Limitswitchholderxaxischainholder_source ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
     okh:tsdc "3DP" .
 
-:LimitswitchholderXaxisChainholder_export1 a okh:ExportFile ;
+:Limitswitchholderxaxischainholder_export1 a okh:ExportFile ;
     rdfs:label "Export File of LimitSwitchHolder x-axis chainholder of COSI Measure - Mechanical System 1.0.0" ;
     okh:fileFormat "STEP" .
 
-:LimitswitchholderXaxisChainholder_export2 a okh:ExportFile ;
+:Limitswitchholderxaxischainholder_export2 a okh:ExportFile ;
     rdfs:label "Export File of LimitSwitchHolder x-axis chainholder of COSI Measure - Mechanical System 1.0.0" ;
     okh:fileFormat "STL" .
 
-:LimitswitchholderXaxisChainholder_source a okh:SourceFile ;
+:Limitswitchholderxaxischainholder_source a okh:SourceFile ;
     rdfs:label "Source File of LimitSwitchHolder x-axis chainholder of COSI Measure - Mechanical System 1.0.0" ;
     okh:fileFormat "FCSTD" .
 
-:LimitswitchholderXminus a okh:Part ;
+:Limitswitchholderxminus a okh:Part ;
     rdfs:label "LimitSwitchHolder x-minus" ;
     okh:documentationLanguage "en-GB" ;
-    okh:export :LimitswitchholderXminus_export1,
-        :LimitswitchholderXminus_export2 ;
+    okh:export :Limitswitchholderxminus_export1,
+        :Limitswitchholderxminus_export2 ;
     okh:licensor "Lukas Winter" ;
     okh:material "PLA" ;
-    okh:source :LimitswitchholderXminus_source ;
+    okh:source :Limitswitchholderxminus_source ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
     okh:tsdc "3DP" .
 
-:LimitswitchholderXminus_export1 a okh:ExportFile ;
+:Limitswitchholderxminus_export1 a okh:ExportFile ;
     rdfs:label "Export File of LimitSwitchHolder x-minus of COSI Measure - Mechanical System 1.0.0" ;
     okh:fileFormat "STEP" .
 
-:LimitswitchholderXminus_export2 a okh:ExportFile ;
+:Limitswitchholderxminus_export2 a okh:ExportFile ;
     rdfs:label "Export File of LimitSwitchHolder x-minus of COSI Measure - Mechanical System 1.0.0" ;
     okh:fileFormat "STL" .
 
-:LimitswitchholderXminus_source a okh:SourceFile ;
+:Limitswitchholderxminus_source a okh:SourceFile ;
     rdfs:label "Source File of LimitSwitchHolder x-minus of COSI Measure - Mechanical System 1.0.0" ;
     okh:fileFormat "FCSTD" .
 
-:LimitswitchholderXplus a okh:Part ;
+:Limitswitchholderxplus a okh:Part ;
     rdfs:label "LimitSwitchHolder x-plus" ;
     okh:documentationLanguage "en-GB" ;
-    okh:export :LimitswitchholderXplus_export1,
-        :LimitswitchholderXplus_export2 ;
+    okh:export :Limitswitchholderxplus_export1,
+        :Limitswitchholderxplus_export2 ;
     okh:licensor "Lukas Winter" ;
     okh:material "PLA" ;
-    okh:source :LimitswitchholderXplus_source ;
+    okh:source :Limitswitchholderxplus_source ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
     okh:tsdc "3DP" .
 
-:LimitswitchholderXplus_export1 a okh:ExportFile ;
+:Limitswitchholderxplus_export1 a okh:ExportFile ;
     rdfs:label "Export File of LimitSwitchHolder x-plus of COSI Measure - Mechanical System 1.0.0" ;
     okh:fileFormat "STEP" .
 
-:LimitswitchholderXplus_export2 a okh:ExportFile ;
+:Limitswitchholderxplus_export2 a okh:ExportFile ;
     rdfs:label "Export File of LimitSwitchHolder x-plus of COSI Measure - Mechanical System 1.0.0" ;
     okh:fileFormat "STL" .
 
-:LimitswitchholderXplus_source a okh:SourceFile ;
+:Limitswitchholderxplus_source a okh:SourceFile ;
     rdfs:label "Source File of LimitSwitchHolder x-plus of COSI Measure - Mechanical System 1.0.0" ;
     okh:fileFormat "FCSTD" .
 
-:LimitswitchholderYaxisChainholder a okh:Part ;
+:Limitswitchholderyaxischainholder a okh:Part ;
     rdfs:label "LimitSwitchHolder y-axis chainholder" ;
     okh:documentationLanguage "en-GB" ;
-    okh:export :LimitswitchholderYaxisChainholder_export1,
-        :LimitswitchholderYaxisChainholder_export2 ;
+    okh:export :Limitswitchholderyaxischainholder_export1,
+        :Limitswitchholderyaxischainholder_export2 ;
     okh:licensor "Lukas Winter" ;
     okh:material "PLA" ;
-    okh:source :LimitswitchholderYaxisChainholder_source ;
+    okh:source :Limitswitchholderyaxischainholder_source ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
     okh:tsdc "3DP" .
 
-:LimitswitchholderYaxisChainholder_export1 a okh:ExportFile ;
+:Limitswitchholderyaxischainholder_export1 a okh:ExportFile ;
     rdfs:label "Export File of LimitSwitchHolder y-axis chainholder of COSI Measure - Mechanical System 1.0.0" ;
     okh:fileFormat "STEP" .
 
-:LimitswitchholderYaxisChainholder_export2 a okh:ExportFile ;
+:Limitswitchholderyaxischainholder_export2 a okh:ExportFile ;
     rdfs:label "Export File of LimitSwitchHolder y-axis chainholder of COSI Measure - Mechanical System 1.0.0" ;
     okh:fileFormat "STL" .
 
-:LimitswitchholderYaxisChainholder_source a okh:SourceFile ;
+:Limitswitchholderyaxischainholder_source a okh:SourceFile ;
     rdfs:label "Source File of LimitSwitchHolder y-axis chainholder of COSI Measure - Mechanical System 1.0.0" ;
     okh:fileFormat "FCSTD" .
 
-:LimitswitchholderYminus a okh:Part ;
+:Limitswitchholderyminus a okh:Part ;
     rdfs:label "LimitSwitchHolder y-minus" ;
     okh:documentationLanguage "en-GB" ;
-    okh:export :LimitswitchholderYminus_export1,
-        :LimitswitchholderYminus_export2 ;
+    okh:export :Limitswitchholderyminus_export1,
+        :Limitswitchholderyminus_export2 ;
     okh:licensor "Lukas Winter" ;
     okh:material "PLA" ;
-    okh:source :LimitswitchholderYminus_source ;
+    okh:source :Limitswitchholderyminus_source ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
     okh:tsdc "3DP" .
 
-:LimitswitchholderYminus_export1 a okh:ExportFile ;
+:Limitswitchholderyminus_export1 a okh:ExportFile ;
     rdfs:label "Export File of LimitSwitchHolder y-minus of COSI Measure - Mechanical System 1.0.0" ;
     okh:fileFormat "STEP" .
 
-:LimitswitchholderYminus_export2 a okh:ExportFile ;
+:Limitswitchholderyminus_export2 a okh:ExportFile ;
     rdfs:label "Export File of LimitSwitchHolder y-minus of COSI Measure - Mechanical System 1.0.0" ;
     okh:fileFormat "STL" .
 
-:LimitswitchholderYminus_source a okh:SourceFile ;
+:Limitswitchholderyminus_source a okh:SourceFile ;
     rdfs:label "Source File of LimitSwitchHolder y-minus of COSI Measure - Mechanical System 1.0.0" ;
     okh:fileFormat "FCSTD" .
 
-:LimitswitchholderYplus a okh:Part ;
+:Limitswitchholderyplus a okh:Part ;
     rdfs:label "LimitSwitchHolder y-plus" ;
     okh:documentationLanguage "en-GB" ;
-    okh:export :LimitswitchholderYplus_export1,
-        :LimitswitchholderYplus_export2 ;
+    okh:export :Limitswitchholderyplus_export1,
+        :Limitswitchholderyplus_export2 ;
     okh:licensor "Lukas Winter" ;
     okh:material "PLA" ;
-    okh:source :LimitswitchholderYplus_source ;
+    okh:source :Limitswitchholderyplus_source ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
     okh:tsdc "3DP" .
 
-:LimitswitchholderYplus_export1 a okh:ExportFile ;
+:Limitswitchholderyplus_export1 a okh:ExportFile ;
     rdfs:label "Export File of LimitSwitchHolder y-plus of COSI Measure - Mechanical System 1.0.0" ;
     okh:fileFormat "STEP" .
 
-:LimitswitchholderYplus_export2 a okh:ExportFile ;
+:Limitswitchholderyplus_export2 a okh:ExportFile ;
     rdfs:label "Export File of LimitSwitchHolder y-plus of COSI Measure - Mechanical System 1.0.0" ;
     okh:fileFormat "STL" .
 
-:LimitswitchholderYplus_source a okh:SourceFile ;
+:Limitswitchholderyplus_source a okh:SourceFile ;
     rdfs:label "Source File of LimitSwitchHolder y-plus of COSI Measure - Mechanical System 1.0.0" ;
     okh:fileFormat "FCSTD" .
 
-:LimitswitchholderZaxis1of2 a okh:Part ;
+:Limitswitchholderzaxis1of2 a okh:Part ;
     rdfs:label "LimitSwitchHolder z-axis 1of2" ;
     okh:documentationLanguage "en-GB" ;
-    okh:export :LimitswitchholderZaxis1of2_export1,
-        :LimitswitchholderZaxis1of2_export2 ;
+    okh:export :Limitswitchholderzaxis1of2_export1,
+        :Limitswitchholderzaxis1of2_export2 ;
     okh:licensor "Lukas Winter" ;
     okh:material "PLA" ;
-    okh:source :LimitswitchholderZaxis1of2_source ;
+    okh:source :Limitswitchholderzaxis1of2_source ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
     okh:tsdc "3DP" .
 
-:LimitswitchholderZaxis1of2_export1 a okh:ExportFile ;
+:Limitswitchholderzaxis1of2_export1 a okh:ExportFile ;
     rdfs:label "Export File of LimitSwitchHolder z-axis 1of2 of COSI Measure - Mechanical System 1.0.0" ;
     okh:fileFormat "STEP" .
 
-:LimitswitchholderZaxis1of2_export2 a okh:ExportFile ;
+:Limitswitchholderzaxis1of2_export2 a okh:ExportFile ;
     rdfs:label "Export File of LimitSwitchHolder z-axis 1of2 of COSI Measure - Mechanical System 1.0.0" ;
     okh:fileFormat "STL" .
 
-:LimitswitchholderZaxis1of2_source a okh:SourceFile ;
+:Limitswitchholderzaxis1of2_source a okh:SourceFile ;
     rdfs:label "Source File of LimitSwitchHolder z-axis 1of2 of COSI Measure - Mechanical System 1.0.0" ;
     okh:fileFormat "FCSTD" .
 
-:LimitswitchholderZaxis2of2 a okh:Part ;
+:Limitswitchholderzaxis2of2 a okh:Part ;
     rdfs:label "LimitSwitchHolder z-axis 2of2" ;
     okh:documentationLanguage "en-GB" ;
-    okh:export :LimitswitchholderZaxis2of2_export1,
-        :LimitswitchholderZaxis2of2_export2 ;
+    okh:export :Limitswitchholderzaxis2of2_export1,
+        :Limitswitchholderzaxis2of2_export2 ;
     okh:licensor "Lukas Winter" ;
     okh:material "PLA" ;
-    okh:source :LimitswitchholderZaxis2of2_source ;
+    okh:source :Limitswitchholderzaxis2of2_source ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
     okh:tsdc "3DP" .
 
-:LimitswitchholderZaxis2of2_export1 a okh:ExportFile ;
+:Limitswitchholderzaxis2of2_export1 a okh:ExportFile ;
     rdfs:label "Export File of LimitSwitchHolder z-axis 2of2 of COSI Measure - Mechanical System 1.0.0" ;
     okh:fileFormat "STEP" .
 
-:LimitswitchholderZaxis2of2_export2 a okh:ExportFile ;
+:Limitswitchholderzaxis2of2_export2 a okh:ExportFile ;
     rdfs:label "Export File of LimitSwitchHolder z-axis 2of2 of COSI Measure - Mechanical System 1.0.0" ;
     okh:fileFormat "STL" .
 
-:LimitswitchholderZaxis2of2_source a okh:SourceFile ;
+:Limitswitchholderzaxis2of2_source a okh:SourceFile ;
     rdfs:label "Source File of LimitSwitchHolder z-axis 2of2 of COSI Measure - Mechanical System 1.0.0" ;
     okh:fileFormat "FCSTD" .
 
-:LimitswitchholderZaxisChainholder a okh:Part ;
+:Limitswitchholderzaxischainholder a okh:Part ;
     rdfs:label "LimitSwitchHolder z-axis chainholder" ;
     okh:documentationLanguage "en-GB" ;
-    okh:export :LimitswitchholderZaxisChainholder_export1,
-        :LimitswitchholderZaxisChainholder_export2 ;
+    okh:export :Limitswitchholderzaxischainholder_export1,
+        :Limitswitchholderzaxischainholder_export2 ;
     okh:licensor "Lukas Winter" ;
     okh:material "PLA" ;
-    okh:source :LimitswitchholderZaxisChainholder_source ;
+    okh:source :Limitswitchholderzaxischainholder_source ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
     okh:tsdc "3DP" .
 
-:LimitswitchholderZaxisChainholder_export1 a okh:ExportFile ;
+:Limitswitchholderzaxischainholder_export1 a okh:ExportFile ;
     rdfs:label "Export File of LimitSwitchHolder z-axis chainholder of COSI Measure - Mechanical System 1.0.0" ;
     okh:fileFormat "STEP" .
 
-:LimitswitchholderZaxisChainholder_export2 a okh:ExportFile ;
+:Limitswitchholderzaxischainholder_export2 a okh:ExportFile ;
     rdfs:label "Export File of LimitSwitchHolder z-axis chainholder of COSI Measure - Mechanical System 1.0.0" ;
     okh:fileFormat "STL" .
 
-:LimitswitchholderZaxisChainholder_source a okh:SourceFile ;
+:Limitswitchholderzaxischainholder_source a okh:SourceFile ;
     rdfs:label "Source File of LimitSwitchHolder z-axis chainholder of COSI Measure - Mechanical System 1.0.0" ;
     okh:fileFormat "FCSTD" .
 

@@ -1,12 +1,13 @@
 @prefix : <https://en.oho.wiki/wiki/Safe_and_Sturdy_Shelter/44027/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:SafeAndSturdyShelter a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "Safe and Sturdy Shelter" ;
     okh:cpcPatentClass "A01K1/02" ;
-    okh:dataSource "github.com" ;
     okh:documentationLanguage "en-GB" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "Rabbit hutch with a good level of security, protecting the rabbits from predators" ;
     okh:hasBoM :BillOfMaterials ;
     okh:hasImage :Image ;
@@ -17,6 +18,7 @@
     okh:repo <https://en.oho.wiki/wiki/Safe_and_Sturdy_Shelter> ;
     okh:repoHost "en.oho.wiki" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:tsdc "MEC" ;
     okh:uploadMethod "manifest" ;
     okh:version "44027" ;

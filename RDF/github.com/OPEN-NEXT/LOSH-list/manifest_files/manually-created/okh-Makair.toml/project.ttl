@@ -1,0 +1,49 @@
+@prefix : <https://github.com/makers-for-life/makair/1.5.4/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Project a okh:Module ;
+    rdfs:label "MakAir" ;
+    okh:cpcPatentClass "A61M16/00" ;
+    okh:documentationLanguage "en-GB" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
+    okh:function "Mass-producible open-source Covid-19 ARDS ventilator. Aims at helping hospitals cope with a possible shortage of professional ventilators during the outbreak. Worldwide." ;
+    okh:hasBoM :BillOfMaterials ;
+    okh:hasImage :Image ;
+    okh:hasManufacturingInstructions :ManufacturingInstructions ;
+    okh:hasReadme :Readme ;
+    okh:release <https://github.com/makers-for-life/makair/releases/tag/v1.5.4> ;
+    okh:repo <https://github.com/makers-for-life/makair> ;
+    okh:repoHost "github.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/Unlicense> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
+    okh:tsdc "ASM" ;
+    okh:uploadMethod "manifest" ;
+    okh:version "1.5.4" ;
+    okh:versionOf <https://github.com/makers-for-life/makair> .
+
+:BillOfMaterials a okh:BoM ;
+    rdfs:label "BillOfMaterials of MakAir 1.5.4" ;
+    okh:fileFormat "MD#COMPONENTS" ;
+    okh:fileUrl <https://raw.githubusercontent.com/makers-for-life/makair/v1.5.4/README.md#Components> ;
+    okh:permaURL <https://raw.githubusercontent.com/makers-for-life/makair/v1.5.4/README.md#Components> .
+
+:Image a okh:Image ;
+    rdfs:label "Image of MakAir 1.5.4" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://raw.githubusercontent.com/makers-for-life/makair/v1.5.4/res/assets/abstract-readme-standard.jpg> ;
+    okh:permaURL <https://raw.githubusercontent.com/makers-for-life/makair/v1.5.4/res/assets/abstract-readme-standard.jpg> .
+
+:ManufacturingInstructions a okh:ManufacturingInstructions ;
+    rdfs:label "ManufacturingInstructions of MakAir 1.5.4" ;
+    okh:fileFormat "MD#HOW-TO-BUILD" ;
+    okh:fileUrl <https://raw.githubusercontent.com/makers-for-life/makair/v1.5.4/README.md#how-to-build> ;
+    okh:permaURL <https://raw.githubusercontent.com/makers-for-life/makair/v1.5.4/README.md#how-to-build> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of MakAir 1.5.4" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://raw.githubusercontent.com/makers-for-life/makair/v1.5.4/README.md> ;
+    okh:permaURL <https://raw.githubusercontent.com/makers-for-life/makair/v1.5.4/README.md> .
+

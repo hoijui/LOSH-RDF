@@ -1,14 +1,16 @@
 @prefix : <https://github.com/OPEN-NEXT/LOSH-dummy-MOSH-A/1.0.2/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:LoshDummyMosha a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "LOSH Dummy MOSH-A" ;
     okh:dataSource "github.com" ;
     okh:documentationLanguage "en-GB" ;
+    okh:documentationReadinessLevel otrl:Odrl4 ;
     okh:function "Doesn't do much, yet." ;
     okh:hasBoM :BillOfMaterials ;
-    okh:hasComponent :ClampRing ;
+    okh:hasComponent :Clampring ;
     okh:hasImage :Image ;
     okh:hasManufacturingInstructions :ManufacturingInstructions ;
     okh:hasReadme :Readme ;
@@ -17,7 +19,9 @@
     okh:repo <https://github.com/OPEN-NEXT/LOSH-dummy-MOSH-A> ;
     okh:repoHost "github.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-S-2.0> ;
+    okh:technologyReadinessLevel otrl:Otrl5 ;
     okh:tsdc "MEC" ;
+    okh:uploadMethod "manifest" ;
     okh:version "1.0.2" ;
     okh:versionOf <https://github.com/OPEN-NEXT/LOSH-dummy-MOSH-A> .
 
@@ -27,37 +31,37 @@
     okh:fileUrl <https://raw.githubusercontent.com/OPEN-NEXT/LOSH-dummy-MOSH-A/v1.0.1/sBoM.csv> ;
     okh:permaURL <https://raw.githubusercontent.com/OPEN-NEXT/LOSH-dummy-MOSH-A/v1.0.1/sBoM.csv> .
 
-:ClampRing a okh:Part ;
+:Clampring a okh:Part ;
     rdfs:label "Clamp Ring" ;
+    okh:alternativeLicense "LicenseRef" ;
     okh:documentationLanguage "en-GB" ;
-    okh:export :ClampRing_export1,
-        :ClampRing_export2 ;
-    okh:image :ClampRing_image ;
+    okh:export :Clampring_export1,
+        :Clampring_export2 ;
+    okh:image :Clampring_image ;
     okh:licensor "Martin Häuer" ;
     okh:material "PLA" ;
-    okh:source :ClampRing_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-S-2.0> ;
+    okh:source :Clampring_source ;
     okh:tsdc "3DP" .
 
-:ClampRing_export1 a okh:ExportFile ;
+:Clampring_export1 a okh:ExportFile ;
     rdfs:label "Export File of Clamp Ring of LOSH Dummy MOSH-A 1.0.2" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://raw.githubusercontent.com/OPEN-NEXT/LOSH-dummy-MOSH-A/v1.0.1/3DParts/ClampRing/ClampRing.pdf> ;
     okh:permaURL <https://raw.githubusercontent.com/OPEN-NEXT/LOSH-dummy-MOSH-A/v1.0.1/3DParts/ClampRing/ClampRing.pdf> .
 
-:ClampRing_export2 a okh:ExportFile ;
+:Clampring_export2 a okh:ExportFile ;
     rdfs:label "Export File of Clamp Ring of LOSH Dummy MOSH-A 1.0.2" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://raw.githubusercontent.com/OPEN-NEXT/LOSH-dummy-MOSH-A/v1.0.1/3DParts/ClampRing/ClampRing.stl> ;
     okh:permaURL <https://raw.githubusercontent.com/OPEN-NEXT/LOSH-dummy-MOSH-A/v1.0.1/3DParts/ClampRing/ClampRing.stl> .
 
-:ClampRing_image a okh:Image ;
+:Clampring_image a okh:Image ;
     rdfs:label "Image of Clamp Ring of LOSH Dummy MOSH-A 1.0.2" ;
     okh:fileFormat "JPG" ;
     okh:fileUrl <https://raw.githubusercontent.com/OPEN-NEXT/LOSH-dummy-MOSH-A/v1.0.1/Documentation/Assembly_Guide/Parts_Print_2.jpg> ;
     okh:permaURL <https://raw.githubusercontent.com/OPEN-NEXT/LOSH-dummy-MOSH-A/v1.0.1/Documentation/Assembly_Guide/Parts_Print_2.jpg> .
 
-:ClampRing_source a okh:SourceFile ;
+:Clampring_source a okh:SourceFile ;
     rdfs:label "Source File of Clamp Ring of LOSH Dummy MOSH-A 1.0.2" ;
     okh:fileFormat "SCAD" ;
     okh:fileUrl <https://raw.githubusercontent.com/OPEN-NEXT/LOSH-dummy-MOSH-A/v1.0.1/3DParts/ClampRing/ClampRing.scad> ;

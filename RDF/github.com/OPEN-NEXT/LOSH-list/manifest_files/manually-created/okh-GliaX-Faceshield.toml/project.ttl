@@ -1,0 +1,48 @@
+@prefix : <https://github.com/GliaX/faceshield/3.2.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Project a okh:Module ;
+    rdfs:label "GliaX-Faceshield" ;
+    okh:cpcPatentClass "A41G" ;
+    okh:documentationLanguage "en-GB" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
+    okh:function "The goal of GliaX-Faceshield is to create a low cost, high quality, reusable face shield that can be quickly deployed." ;
+    okh:hasBoM :BillOfMaterials ;
+    okh:hasManufacturingInstructions :ManufacturingInstructions ;
+    okh:hasReadme :Readme ;
+    okh:hasUserManual :UserManual ;
+    okh:repo <https://github.com/GliaX/faceshield> ;
+    okh:repoHost "github.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/GPL-3.0-or-later> ;
+    okh:technologyReadinessLevel otrl:Otrl5 ;
+    okh:tsdc "3DP" ;
+    okh:uploadMethod "manifest" ;
+    okh:version "3.2.0" ;
+    okh:versionOf <https://github.com/GliaX/faceshield> .
+
+:BillOfMaterials a okh:BoM ;
+    rdfs:label "BillOfMaterials of GliaX-Faceshield 3.2.0" ;
+    okh:fileFormat "MD#BILL-OF-MATERIALS" ;
+    okh:fileUrl <https://raw.githubusercontent.com/GliaX/faceshield/v3.2.0/README.md#bill-of-materials> ;
+    okh:permaURL <https://raw.githubusercontent.com/GliaX/faceshield/v3.2.0/README.md#bill-of-materials> .
+
+:ManufacturingInstructions a okh:ManufacturingInstructions ;
+    rdfs:label "ManufacturingInstructions of GliaX-Faceshield 3.2.0" ;
+    okh:fileFormat "PNG" ;
+    okh:fileUrl <https://raw.githubusercontent.com/GliaX/faceshield/v3.2.0/instructions_bilingual.png> ;
+    okh:permaURL <https://raw.githubusercontent.com/GliaX/faceshield/v3.2.0/instructions_bilingual.png> .
+
+:Readme a okh:Readme ;
+    rdfs:label "Readme of GliaX-Faceshield 3.2.0" ;
+    okh:fileFormat "MD" ;
+    okh:fileUrl <https://raw.githubusercontent.com/GliaX/faceshield/v3.2.0/README.md> ;
+    okh:permaURL <https://raw.githubusercontent.com/GliaX/faceshield/v3.2.0/README.md> .
+
+:UserManual a okh:UserManual ;
+    rdfs:label "UserManual of GliaX-Faceshield 3.2.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://raw.githubusercontent.com/GliaX/faceshield/v3.2.0/instructions.jpg> ;
+    okh:permaURL <https://raw.githubusercontent.com/GliaX/faceshield/v3.2.0/instructions.jpg> .
+

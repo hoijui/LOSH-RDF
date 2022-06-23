@@ -1,23 +1,25 @@
 @prefix : <https://gitlab.com/OSEGermany/ohloom/0.10.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Ohloom a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "OHLOOM" ;
     okh:cpcPatentClass "D03D 35/00" ;
     okh:dataSource "github.com" ;
     okh:documentationLanguage "en-GB" ;
+    okh:documentationReadinessLevel otrl:Odrl4 ;
     okh:function "The Open Hardware Loom is a simple, hand-operated weaving loom made of wood, screws and 3D printed plastic pieces for the most part. It is simple to make and operate." ;
     okh:hasBoM :BillOfMaterials ;
-    okh:hasComponent :ClampRing,
+    okh:hasComponent :Clampring,
         :Combholder,
         :Combmodul,
         :Crossbeam,
         :Polebase,
-        :RatchetWheel,
         :Ratchetpawl,
+        :Ratchetwheel,
         :Screwsockets,
-        :ScrewsocketsForScrewhead,
+        :Screwsocketsforscrewhead,
         :Shuttle,
         :Sideframe,
         :Slotbeam,
@@ -37,7 +39,9 @@
     okh:repo <https://gitlab.com/OSEGermany/ohloom> ;
     okh:repoHost "gitlab.com" ;
     okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl5 ;
     okh:tsdc "MEC" ;
+    okh:uploadMethod "manifest" ;
     okh:version "0.10.0" ;
     okh:versionOf <https://gitlab.com/OSEGermany/ohloom> .
 
@@ -47,37 +51,37 @@
     okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/sample_data/sBoM.csv> ;
     okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/sample_data/sBoM.csv> .
 
-:ClampRing a okh:Part ;
+:Clampring a okh:Part ;
     rdfs:label "Clamp Ring" ;
+    okh:alternativeLicense "LicenseRef" ;
     okh:documentationLanguage "en-GB" ;
-    okh:export :ClampRing_export1,
-        :ClampRing_export2 ;
-    okh:image :ClampRing_image ;
+    okh:export :Clampring_export1,
+        :Clampring_export2 ;
+    okh:image :Clampring_image ;
     okh:licensor "Jens Meisner" ;
     okh:material "ABS" ;
-    okh:source :ClampRing_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:source :Clampring_source ;
     okh:tsdc "3DP" .
 
-:ClampRing_export1 a okh:ExportFile ;
+:Clampring_export1 a okh:ExportFile ;
     rdfs:label "Export File of Clamp Ring of OHLOOM 0.10.0" ;
     okh:fileFormat "PDF" ;
     okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/ClampRing/ClampRing.pdf> ;
     okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/ClampRing/ClampRing.pdf> .
 
-:ClampRing_export2 a okh:ExportFile ;
+:Clampring_export2 a okh:ExportFile ;
     rdfs:label "Export File of Clamp Ring of OHLOOM 0.10.0" ;
     okh:fileFormat "STL" ;
     okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/ClampRing/ClampRing.stl> ;
     okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/ClampRing/ClampRing.stl> .
 
-:ClampRing_image a okh:Image ;
+:Clampring_image a okh:Image ;
     rdfs:label "Image of Clamp Ring of OHLOOM 0.10.0" ;
     okh:fileFormat "JPG" ;
     okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/Documentation/Assembly_Guide/Parts_Print_2.jpg> ;
     okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/Documentation/Assembly_Guide/Parts_Print_2.jpg> .
 
-:ClampRing_source a okh:SourceFile ;
+:Clampring_source a okh:SourceFile ;
     rdfs:label "Source File of Clamp Ring of OHLOOM 0.10.0" ;
     okh:fileFormat "SCAD" ;
     okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/ClampRing/ClampRing.scad> ;
@@ -85,14 +89,14 @@
 
 :Combholder a okh:Part ;
     rdfs:label "CombHolder" ;
+    okh:alternativeLicense "LicenseRef" ;
     okh:documentationLanguage "en-GB" ;
     okh:export :Combholder_export1,
         :Combholder_export2 ;
     okh:image :Combholder_image ;
     okh:licensor "Jens Meisner" ;
     okh:material "wood" ;
-    okh:source :Combholder_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+    okh:source :Combholder_source .
 
 :Combholder_export1 a okh:ExportFile ;
     rdfs:label "Export File of CombHolder of OHLOOM 0.10.0" ;
@@ -120,6 +124,7 @@
 
 :Combmodul a okh:Part ;
     rdfs:label "CombModul" ;
+    okh:alternativeLicense "LicenseRef" ;
     okh:documentationLanguage "en-GB" ;
     okh:export :Combmodul_export1,
         :Combmodul_export2 ;
@@ -127,7 +132,6 @@
     okh:licensor "Jens Meisner" ;
     okh:material "PLA" ;
     okh:source :Combmodul_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
     okh:tsdc "3DP" .
 
 :Combmodul_export1 a okh:ExportFile ;
@@ -156,14 +160,14 @@
 
 :Crossbeam a okh:Part ;
     rdfs:label "CrossBeam" ;
+    okh:alternativeLicense "LicenseRef" ;
     okh:documentationLanguage "en-GB" ;
     okh:export :Crossbeam_export1,
         :Crossbeam_export2 ;
     okh:image :Crossbeam_image ;
     okh:licensor "Jens Meisner" ;
     okh:material "wood" ;
-    okh:source :Crossbeam_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+    okh:source :Crossbeam_source .
 
 :Crossbeam_export1 a okh:ExportFile ;
     rdfs:label "Export File of CrossBeam of OHLOOM 0.10.0" ;
@@ -203,11 +207,11 @@
 
 :Polebase a okh:Part ;
     rdfs:label "PoleBase" ;
+    okh:alternativeLicense "LicenseRef" ;
     okh:documentationLanguage "en-GB" ;
     okh:licensor "Jens Meisner" ;
     okh:material "PLA" ;
     okh:source :Polebase_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
     okh:tsdc "3DP" .
 
 :Polebase_source a okh:SourceFile ;
@@ -216,44 +220,9 @@
     okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/PoleBase/PoleBase.scad> ;
     okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/PoleBase/PoleBase.scad> .
 
-:RatchetWheel a okh:Part ;
-    rdfs:label "Ratchet Wheel" ;
-    okh:documentationLanguage "en-GB" ;
-    okh:export :RatchetWheel_export1,
-        :RatchetWheel_export2 ;
-    okh:image :RatchetWheel_image ;
-    okh:licensor "Jens Meisner" ;
-    okh:material "PLA" ;
-    okh:source :RatchetWheel_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
-    okh:tsdc "3DP" .
-
-:RatchetWheel_export1 a okh:ExportFile ;
-    rdfs:label "Export File of Ratchet Wheel of OHLOOM 0.10.0" ;
-    okh:fileFormat "PDF" ;
-    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/RatchetWheel/RatchetWheel.pdf> ;
-    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/RatchetWheel/RatchetWheel.pdf> .
-
-:RatchetWheel_export2 a okh:ExportFile ;
-    rdfs:label "Export File of Ratchet Wheel of OHLOOM 0.10.0" ;
-    okh:fileFormat "STL" ;
-    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/RatchetWheel/RatchetWheel.stl> ;
-    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/RatchetWheel/RatchetWheel.stl> .
-
-:RatchetWheel_image a okh:Image ;
-    rdfs:label "Image of Ratchet Wheel of OHLOOM 0.10.0" ;
-    okh:fileFormat "JPG" ;
-    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/sample_data/Documentation/Assembly_Guide/Parts_Print_1.jpg> ;
-    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/sample_data/Documentation/Assembly_Guide/Parts_Print_1.jpg> .
-
-:RatchetWheel_source a okh:SourceFile ;
-    rdfs:label "Source File of Ratchet Wheel of OHLOOM 0.10.0" ;
-    okh:fileFormat "SCAD" ;
-    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/RatchetWheel/RatchetWheel.scad> ;
-    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/RatchetWheel/RatchetWheel.scad> .
-
 :Ratchetpawl a okh:Part ;
     rdfs:label "RatchetPawl" ;
+    okh:alternativeLicense "LicenseRef" ;
     okh:documentationLanguage "en-GB" ;
     okh:export :Ratchetpawl_export1,
         :Ratchetpawl_export2 ;
@@ -261,7 +230,6 @@
     okh:licensor "Jens Meisner" ;
     okh:material "PLA" ;
     okh:source :Ratchetpawl_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
     okh:tsdc "3DP" .
 
 :Ratchetpawl_export1 a okh:ExportFile ;
@@ -288,6 +256,42 @@
     okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/RatchetPawl/RatchetPawl.scad> ;
     okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/RatchetPawl/RatchetPawl.scad> .
 
+:Ratchetwheel a okh:Part ;
+    rdfs:label "Ratchet Wheel" ;
+    okh:alternativeLicense "LicenseRef" ;
+    okh:documentationLanguage "en-GB" ;
+    okh:export :Ratchetwheel_export1,
+        :Ratchetwheel_export2 ;
+    okh:image :Ratchetwheel_image ;
+    okh:licensor "Jens Meisner" ;
+    okh:material "PLA" ;
+    okh:source :Ratchetwheel_source ;
+    okh:tsdc "3DP" .
+
+:Ratchetwheel_export1 a okh:ExportFile ;
+    rdfs:label "Export File of Ratchet Wheel of OHLOOM 0.10.0" ;
+    okh:fileFormat "PDF" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/RatchetWheel/RatchetWheel.pdf> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/RatchetWheel/RatchetWheel.pdf> .
+
+:Ratchetwheel_export2 a okh:ExportFile ;
+    rdfs:label "Export File of Ratchet Wheel of OHLOOM 0.10.0" ;
+    okh:fileFormat "STL" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/RatchetWheel/RatchetWheel.stl> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/RatchetWheel/RatchetWheel.stl> .
+
+:Ratchetwheel_image a okh:Image ;
+    rdfs:label "Image of Ratchet Wheel of OHLOOM 0.10.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/sample_data/Documentation/Assembly_Guide/Parts_Print_1.jpg> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/sample_data/Documentation/Assembly_Guide/Parts_Print_1.jpg> .
+
+:Ratchetwheel_source a okh:SourceFile ;
+    rdfs:label "Source File of Ratchet Wheel of OHLOOM 0.10.0" ;
+    okh:fileFormat "SCAD" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/RatchetWheel/RatchetWheel.scad> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/RatchetWheel/RatchetWheel.scad> .
+
 :Readme a okh:Readme ;
     rdfs:label "Readme of OHLOOM 0.10.0" ;
     okh:fileFormat "MD" ;
@@ -296,6 +300,7 @@
 
 :Screwsockets a okh:Part ;
     rdfs:label "ScrewSockets" ;
+    okh:alternativeLicense "LicenseRef" ;
     okh:documentationLanguage "en-GB" ;
     okh:export :Screwsockets_export1,
         :Screwsockets_export2 ;
@@ -303,30 +308,7 @@
     okh:licensor "Jens Meisner" ;
     okh:material "PLA" ;
     okh:source :Screwsockets_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
     okh:tsdc "3DP" .
-
-:ScrewsocketsForScrewhead a okh:Part ;
-    rdfs:label "ScrewSockets for ScrewHead" ;
-    okh:documentationLanguage "en-GB" ;
-    okh:image :ScrewsocketsForScrewhead_image ;
-    okh:licensor "Jens Meisner" ;
-    okh:material "PLA" ;
-    okh:source :ScrewsocketsForScrewhead_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
-    okh:tsdc "3DP" .
-
-:ScrewsocketsForScrewhead_image a okh:Image ;
-    rdfs:label "Image of ScrewSockets for ScrewHead of OHLOOM 0.10.0" ;
-    okh:fileFormat "JPG" ;
-    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/Documentation/Assembly_Guide/Parts_Print_5.jpg> ;
-    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/Documentation/Assembly_Guide/Parts_Print_5.jpg> .
-
-:ScrewsocketsForScrewhead_source a okh:SourceFile ;
-    rdfs:label "Source File of ScrewSockets for ScrewHead of OHLOOM 0.10.0" ;
-    okh:fileFormat "SCAD" ;
-    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/ScrewSockets/ScrewSockets.scad> ;
-    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/ScrewSockets/ScrewSockets.scad> .
 
 :Screwsockets_export1 a okh:ExportFile ;
     rdfs:label "Export File of ScrewSockets of OHLOOM 0.10.0" ;
@@ -352,16 +334,38 @@
     okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/ScrewSockets/ScrewSockets.scad> ;
     okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/ScrewSockets/ScrewSockets.scad> .
 
+:Screwsocketsforscrewhead a okh:Part ;
+    rdfs:label "ScrewSockets for ScrewHead" ;
+    okh:alternativeLicense "LicenseRef" ;
+    okh:documentationLanguage "en-GB" ;
+    okh:image :Screwsocketsforscrewhead_image ;
+    okh:licensor "Jens Meisner" ;
+    okh:material "PLA" ;
+    okh:source :Screwsocketsforscrewhead_source ;
+    okh:tsdc "3DP" .
+
+:Screwsocketsforscrewhead_image a okh:Image ;
+    rdfs:label "Image of ScrewSockets for ScrewHead of OHLOOM 0.10.0" ;
+    okh:fileFormat "JPG" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/Documentation/Assembly_Guide/Parts_Print_5.jpg> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/Documentation/Assembly_Guide/Parts_Print_5.jpg> .
+
+:Screwsocketsforscrewhead_source a okh:SourceFile ;
+    rdfs:label "Source File of ScrewSockets for ScrewHead of OHLOOM 0.10.0" ;
+    okh:fileFormat "SCAD" ;
+    okh:fileUrl <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/ScrewSockets/ScrewSockets.scad> ;
+    okh:permaURL <https://gitlab.com/OSEGermany/ohloom/-/raw/ohloom-0.10.0/3DParts/ScrewSockets/ScrewSockets.scad> .
+
 :Shuttle a okh:Part ;
     rdfs:label "Shuttle" ;
+    okh:alternativeLicense "LicenseRef" ;
     okh:documentationLanguage "en-GB" ;
     okh:export :Shuttle_export1,
         :Shuttle_export2 ;
     okh:image :Shuttle_image ;
     okh:licensor "Jens Meisner" ;
     okh:material "wood" ;
-    okh:source :Shuttle_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+    okh:source :Shuttle_source .
 
 :Shuttle_export1 a okh:ExportFile ;
     rdfs:label "Export File of Shuttle of OHLOOM 0.10.0" ;
@@ -389,14 +393,14 @@
 
 :Sideframe a okh:Part ;
     rdfs:label "SideFrame" ;
+    okh:alternativeLicense "LicenseRef" ;
     okh:documentationLanguage "en-GB" ;
     okh:export :Sideframe_export1,
         :Sideframe_export2 ;
     okh:image :Sideframe_image ;
     okh:licensor "Jens Meisner" ;
     okh:material "wood" ;
-    okh:source :Sideframe_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+    okh:source :Sideframe_source .
 
 :Sideframe_export1 a okh:ExportFile ;
     rdfs:label "Export File of SideFrame of OHLOOM 0.10.0" ;
@@ -424,14 +428,14 @@
 
 :Slotbeam a okh:Part ;
     rdfs:label "SlotBeam" ;
+    okh:alternativeLicense "LicenseRef" ;
     okh:documentationLanguage "en-GB" ;
     okh:export :Slotbeam_export1,
         :Slotbeam_export2 ;
     okh:image :Slotbeam_image ;
     okh:licensor "Jens Meisner" ;
     okh:material "wood" ;
-    okh:source :Slotbeam_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+    okh:source :Slotbeam_source .
 
 :Slotbeam_export1 a okh:ExportFile ;
     rdfs:label "Export File of SlotBeam of OHLOOM 0.10.0" ;
@@ -459,14 +463,14 @@
 
 :Stringstick a okh:Part ;
     rdfs:label "StringStick" ;
+    okh:alternativeLicense "LicenseRef" ;
     okh:documentationLanguage "en-GB" ;
     okh:export :Stringstick_export1,
         :Stringstick_export2 ;
     okh:image :Stringstick_image ;
     okh:licensor "Jens Meisner" ;
     okh:material "wood" ;
-    okh:source :Stringstick_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+    okh:source :Stringstick_source .
 
 :Stringstick_export1 a okh:ExportFile ;
     rdfs:label "Export File of StringStick of OHLOOM 0.10.0" ;
@@ -500,17 +504,18 @@
 
 :Warpclothbeam a okh:Part ;
     rdfs:label "WarpClothBeam" ;
+    okh:alternativeLicense "LicenseRef" ;
     okh:documentationLanguage "en-GB" ;
     okh:export :Warpclothbeam_export1,
         :Warpclothbeam_export2 ;
     okh:image :Warpclothbeam_image ;
     okh:licensor "Jens Meisner" ;
     okh:material "wood" ;
-    okh:source :Warpclothbeam_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> .
+    okh:source :Warpclothbeam_source .
 
 :Warpclothbeam1 a okh:Part ;
     rdfs:label "Warpclothbeam 1" ;
+    okh:alternativeLicense "LicenseRef" ;
     okh:documentationLanguage "en-GB" ;
     okh:export :Warpclothbeam1_export1,
         :Warpclothbeam1_export2 ;
@@ -518,7 +523,6 @@
     okh:licensor "Jens Meisner" ;
     okh:material "PLA" ;
     okh:source :Warpclothbeam1_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
     okh:tsdc "3DP" .
 
 :Warpclothbeam1_export1 a okh:ExportFile ;
@@ -547,6 +551,7 @@
 
 :Warpclothbeam2 a okh:Part ;
     rdfs:label "Warpclothbeam 2" ;
+    okh:alternativeLicense "LicenseRef" ;
     okh:documentationLanguage "en-GB" ;
     okh:export :Warpclothbeam2_export1,
         :Warpclothbeam2_export2 ;
@@ -554,7 +559,6 @@
     okh:licensor "Jens Meisner" ;
     okh:material "PLA" ;
     okh:source :Warpclothbeam2_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
     okh:tsdc "3DP" .
 
 :Warpclothbeam2_export1 a okh:ExportFile ;
@@ -583,6 +587,7 @@
 
 :Warpclothbeam3 a okh:Part ;
     rdfs:label "Warpclothbeam 3" ;
+    okh:alternativeLicense "LicenseRef" ;
     okh:documentationLanguage "en-GB" ;
     okh:export :Warpclothbeam3_export1,
         :Warpclothbeam3_export2 ;
@@ -590,7 +595,6 @@
     okh:licensor "Jens Meisner" ;
     okh:material "PLA" ;
     okh:source :Warpclothbeam3_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
     okh:tsdc "3DP" .
 
 :Warpclothbeam3_export1 a okh:ExportFile ;
@@ -619,6 +623,7 @@
 
 :Warpclothbeam4 a okh:Part ;
     rdfs:label "Warpclothbeam 4" ;
+    okh:alternativeLicense "LicenseRef" ;
     okh:documentationLanguage "en-GB" ;
     okh:export :Warpclothbeam4_export1,
         :Warpclothbeam4_export2 ;
@@ -626,7 +631,6 @@
     okh:licensor "Jens Meisner" ;
     okh:material "PLA" ;
     okh:source :Warpclothbeam4_source ;
-    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
     okh:tsdc "3DP" .
 
 :Warpclothbeam4_export1 a okh:ExportFile ;

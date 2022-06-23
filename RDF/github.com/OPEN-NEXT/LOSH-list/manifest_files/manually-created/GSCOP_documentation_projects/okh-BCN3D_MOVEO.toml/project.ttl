@@ -1,12 +1,13 @@
 @prefix : <https://github.com/BCN3D/BCN3D-Moveo/1.0.0/> .
 @prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Bcn3dMoveo a okh:Module ;
+:Project a okh:Module ;
     rdfs:label "BCN3D MOVEO" ;
     okh:cpcPatentClass "G01S" ;
-    okh:dataSource "github.com" ;
     okh:documentationLanguage "en-GB" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
     okh:function "BCN3D Moveo is a robotic arm design from scratch. The structure is fully printed using additive manufacturing technologies and its electronics are controlled by the software Arduino." ;
     okh:hasBoM :BillOfMaterials ;
     okh:hasImage :Image ;
@@ -16,6 +17,7 @@
     okh:repo <https://github.com/BCN3D/BCN3D-Moveo> ;
     okh:repoHost "github.com" ;
     okh:spdxLicense <https://spdx.org/licenses/MIT> ;
+    okh:technologyReadinessLevel otrl:Otrl4 ;
     okh:tsdc "ASM" ;
     okh:uploadMethod "manifest" ;
     okh:version "1.0.0" ;
@@ -36,8 +38,8 @@
 :Readme a okh:Readme ;
     rdfs:label "Readme of BCN3D MOVEO 1.0.0" ;
     okh:fileFormat "MD" ;
-    okh:fileUrl <https://raw.githubusercontent.com/BCN3D/BCN3D-Moveo/v1.0.0/manifest_files/manually-created/GSCOP_documentation_projects/README.md> ;
-    okh:permaURL <https://raw.githubusercontent.com/BCN3D/BCN3D-Moveo/v1.0.0/manifest_files/manually-created/GSCOP_documentation_projects/README.md> .
+    okh:fileUrl <https://raw.githubusercontent.com/BCN3D/BCN3D-Moveo/v1.0.0/README.md> ;
+    okh:permaURL <https://raw.githubusercontent.com/BCN3D/BCN3D-Moveo/v1.0.0/README.md> .
 
 :UserManual a okh:UserManual ;
     rdfs:label "UserManual of BCN3D MOVEO 1.0.0" ;

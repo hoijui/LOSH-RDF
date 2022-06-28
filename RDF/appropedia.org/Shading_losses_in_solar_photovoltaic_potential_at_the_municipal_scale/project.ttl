@@ -1,0 +1,19 @@
+@prefix : <https://www.appropedia.org/Shading_losses_in_solar_photovoltaic_potential_at_the_municipal_scale/23/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Project a okh:Module ;
+    rdfs:label "Shading_losses_in_solar_photovoltaic_potential_at_the_municipal_scale" ;
+    okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl1 ;
+    okh:function "Recently several algorithms have been developed to calculate the solar photovoltaic (PV) potential on the basis of 2.5D raster data that can capture urban morphology. This study provides a new algorithm that (i) incorporates both terrain and near surface shadowing effects on the beam component; (ii) scales down the diffuse components of global irradiation; and (iii) utilizes free and open source GRASS and the module r.sun in modeling irradiation. This algorithm is semi-automatic and easy to upgrade or correct (no hand drawn areas), open source, detailed and provides rules of thumb for PV system design at the municipal level. The workflow is pilot tested on LiDAR data for 100 buildings in downtown Kingston, Ontario. Shading behavior was considered and suitable roof sections for solar PV installations selected using a multi-criteria objective." ;
+    okh:licensor "Joshua M. Pearce" ;
+    okh:repo <https://www.appropedia.org/Shading_losses_in_solar_photovoltaic_potential_at_the_municipal_scale> ;
+    okh:repoHost "www.appropedia.org" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl1 ;
+    okh:uploadMethod "manifest-script" ;
+    okh:version "23" ;
+    okh:versionOf <https://www.appropedia.org/Shading_losses_in_solar_photovoltaic_potential_at_the_municipal_scale> .
+

@@ -1,0 +1,20 @@
+@prefix : <https://gitlab.com/bath_open_instrumentation_group/mech-jiwe/UNVERSIONED/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Project a okh:Module ;
+    rdfs:label "Mech-Jiwe" ;
+    okh:alternativeLicense "LicenseRef-LicenseRef-CER" ;
+    okh:documentationLanguage "EN-GB" ;
+    okh:documentationReadinessLevel otrl:Odrl1 ;
+    okh:function """A mechanical tester which uses a welded frame, a number of 3D-printed parts, an Arduino, and a few other simple components. The tester is for low force stress testing.
+We hope to use the tester to test the mechanical properties of 3D printer filament and 3D printed parts.""" ;
+    okh:licensor "Julian Stirling <j.stirling@bath.ac.uk>" ;
+    okh:repo <https://gitlab.com/bath_open_instrumentation_group/mech-jiwe> ;
+    okh:repoHost "gitlab.com" ;
+    okh:technologyReadinessLevel otrl:Otrl3 ;
+    okh:uploadMethod "manifest-script" ;
+    okh:version "UNVERSIONED" ;
+    okh:versionOf <https://gitlab.com/bath_open_instrumentation_group/mech-jiwe> .
+

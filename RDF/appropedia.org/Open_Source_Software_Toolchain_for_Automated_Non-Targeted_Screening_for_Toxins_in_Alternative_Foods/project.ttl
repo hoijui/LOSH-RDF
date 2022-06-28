@@ -1,0 +1,19 @@
+@prefix : <https://www.appropedia.org/Open_Source_Software_Toolchain_for_Automated_Non-Targeted_Screening_for_Toxins_in_Alternative_Foods/6/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Project a okh:Module ;
+    rdfs:label "Open_Source_Software_Toolchain_for_Automated_Non-Targeted_Screening_for_Toxins_in_Alternative_Foods" ;
+    okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl1 ;
+    okh:function "Previous published methods for non-targeted screening of toxins in alternative foods such as leaf concentrate, agricultural residues or plastic fed to biological consortia are time consuming and expensive and thus present accessibility, as well as, time-constraint issues for scientists from under resourced settings to identify safe alternative foods. The novel methodology presented here, utilizes a completely free and open source software toolchain for automatically screening unknown alternative foods for toxicity using experimental data from high-pressure liquid chromatography and mass spectrometry. The process uses three distinct tools (mass spectrometry analysis with MZmine 2, formula assignment with MFAssignR, and data filtering with ToxAssign) enabling it to be modular and easily upgradable in the future. MZmine 2 and MFAssignR have been previously described, while ToxAssign was developed here to match the formulas output by formula assignment to potentially toxic compounds in a local table, then look up toxic data on the Open Food Tox Database for the matched compounds. This process is designed to fill the gap between food safety analysis techniques and developing alternative food production techniques to allow for new methods of food production to be preliminarily tested before animal testing." ;
+    okh:licensor "Joshua M. Pearce" ;
+    okh:repo <https://www.appropedia.org/Open_Source_Software_Toolchain_for_Automated_Non-Targeted_Screening_for_Toxins_in_Alternative_Foods> ;
+    okh:repoHost "www.appropedia.org" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl1 ;
+    okh:uploadMethod "manifest-script" ;
+    okh:version "6" ;
+    okh:versionOf <https://www.appropedia.org/Open_Source_Software_Toolchain_for_Automated_Non-Targeted_Screening_for_Toxins_in_Alternative_Foods> .
+

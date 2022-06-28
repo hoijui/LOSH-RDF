@@ -1,0 +1,22 @@
+@prefix : <https://gitlab.com/openflexure/openflexure-simple-illumination/0.1/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Project a okh:Module ;
+    rdfs:label "OpenFlexure Simple Illumination" ;
+    okh:documentationLanguage "English-UK" ;
+    okh:documentationReadinessLevel otrl:Odrl1 ;
+    okh:function """Simple illumination for the OpenFlexure microscope. This is simply a mounted LED and resistor.
+
+Microscope illumination""" ;
+    okh:licensor "Julian Stirling <j.stirling@bath.ac.uk>" ;
+    okh:release <https://gitlab.com/openflexure/openflexure-simple-illumination> ;
+    okh:repo <https://gitlab.com/openflexure/openflexure-simple-illumination> ;
+    okh:repoHost "gitlab.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
+    okh:technologyReadinessLevel otrl:Otrl1 ;
+    okh:uploadMethod "manifest-script" ;
+    okh:version "0.1" ;
+    okh:versionOf <https://gitlab.com/openflexure/openflexure-simple-illumination> .
+

@@ -1,0 +1,19 @@
+@prefix : <https://www.appropedia.org/Measuring_cup/64/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Project a okh:Module ;
+    rdfs:label "Measuring_cup" ;
+    okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl1 ;
+    okh:function "Many people in 3rd World countries do not have access to stores like Walmart or Target where they can purchase necessary items. One of the items nessecary for most of cooking is a measuring cup. The openscad project is set to print a 1 cup measuring cup, but can be easily scaled to any practical size for cooking.   == Bill of Materials == OpenCAD  File:MeasuringCup1.scad STL  File:1cup.stl   == Tools needed == MOST Delta RepRap or similar RepRap 3-D printer   == Skills and knowledge needed == How to print structural items with a 3D printer Use of Acetone for smoothing and crack filling   == Technical Specifications and Assembly Instructions ==   === Prepping for the Print === Use the Variable \"cups\" to change the size of the cup (Ex .5 for a half cup or 2 for 2 cups Use the Variable \"lines\" to change the number of size indicators up to a max of 8. Export STL In your slicer, use a high infill and thick outer layer   === Other Info === Print time is ~2 Hours No Post Printing assembly required   === Common Problems and Solutions === Make sure initial layers do not curl up." ;
+    okh:licensor "Paul Bristol" ;
+    okh:repo <https://www.appropedia.org/Measuring_cup> ;
+    okh:repoHost "www.appropedia.org" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-3.0> ;
+    okh:technologyReadinessLevel otrl:Otrl3 ;
+    okh:uploadMethod "manifest-script" ;
+    okh:version "64" ;
+    okh:versionOf <https://www.appropedia.org/Measuring_cup> .
+

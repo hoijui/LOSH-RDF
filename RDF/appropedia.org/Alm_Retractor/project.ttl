@@ -1,0 +1,19 @@
+@prefix : <https://www.appropedia.org/Alm_Retractor/85/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Project a okh:Module ;
+    rdfs:label "Alm Retractor" ;
+    okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl1 ;
+    okh:function "This technology is an OSAT appropriate technology as it will provide a medical tool for others to use that may not have this technology available to them. The parts of this tool are easily printed and the hardware is nowhere near excessive for someone who has a 3D printer. 3DPrint.com has an article about using 3D printed surgical tools in low income countries but only include the most simple retractor. As far as I can tell nobody has made a 3D printed Alm retractor before this.   == Bill of Materials ==   === STL Files === 1x File:Retractor Bolt Handle.stl 2x File:Retractor Bolt Retainer.stl 1x File:Retractor Expander Mount.stl 1x File:Retractor Screw Mount.stl 2x File:Retractor Arm.stl <-- Need to mirror this part for one arm 2x File:Retractor Extending Arm.stl   === SCAD Files === File:Retractor Bolt Handle.scad File:Retractor Bolt Retainer.scad File:Retractor Expander Mount.scad File:Retractor Screw Mount.scad File:Retractor Arm.scad File:Retractor Extending Arm.scad   === Additional Hardware === 2x M3x0.5 10mm screw cost=$0.13 2x M3x0.5 12mm screw cost=$0.15 2x M3x0.5 16mm screw cost=$0.16 1x M8x1 50mm bolt cost=$0.39 1x M8x1 nut cost=$0.09   == Tools needed == MOST Delta RepRap or similar RepRap 3-D printer 2.5mm Allen Wrench Pliers   == Skills and knowledge needed == Only standard 3D printing skills are needed for this project   == Technical Specifications and Assembly Instructions == Including drawings or pictures of the device at stage of assembly at minimum." ;
+    okh:licensor ". Robert Arden" ;
+    okh:repo <https://www.appropedia.org/Alm_Retractor> ;
+    okh:repoHost "www.appropedia.org" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-3.0> ;
+    okh:technologyReadinessLevel otrl:Otrl3 ;
+    okh:uploadMethod "manifest-script" ;
+    okh:version "85" ;
+    okh:versionOf <https://www.appropedia.org/Alm_Retractor> .
+

@@ -1,0 +1,28 @@
+@prefix : <https://github.com/BadenLab/LED-Zappelin/2.2/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Project a okh:Module ;
+    rdfs:label "LED Zappelin', An open source and versatile LED controller for arbitrary spectrum visual stimulation and optogenetics during 2-photon imaging." ;
+    okh:documentationLanguage "English-UK" ;
+    okh:documentationReadinessLevel otrl:Odrl1 ;
+    okh:function """Two-photon (2P) microscopy is a cornerstone technique in neuroscience research, but combining this technology with spectrally arbitrary light stimulation can be challenging due to crosstalk between stimulation light and fluorescence detection. To overcome this limitation, we present a simple and low-cost electronic solution based on an ESP32 microcontroller and a TLC5947 LED driver to rapidly time-interleave stimulation and detection epochs during scans. Implemented for less than $100, our design can independently drive up to 24 arbitrary spectrum LEDs to meet user requirements. We demonstrate the utility of our stimulator for colour vision experiments on the in vivo tetrachromatic zebrafish retina and for optogenetic circuit mapping in Drosophila.
+
+LED Zappelin' is meant to be used in laboratory experiments where light stimulation is necessary.""" ;
+    okh:hasBoM :BillOfMaterials ;
+    okh:licensor "Maxime Zimmermann <m.zimmermann@sussex.ac.uk>" ;
+    okh:repo <https://github.com/BadenLab/LED-Zappelin> ;
+    okh:repoHost "github.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
+    okh:technologyReadinessLevel otrl:Otrl3 ;
+    okh:uploadMethod "manifest-script" ;
+    okh:version "2.2" ;
+    okh:versionOf <https://github.com/BadenLab/LED-Zappelin> .
+
+:BillOfMaterials a okh:BoM ;
+    rdfs:label "BillOfMaterials of LED Zappelin', An open source and versatile LED controller for arbitrary spectrum visual stimulation and optogenetics during 2-photon imaging. 2.2" ;
+    okh:fileFormat "" ;
+    okh:fileUrl <https://github.com/BadenLab/LED-Zappelin/tree/master/Bills%20of%20Materials> ;
+    okh:permaURL <https://github.com/BadenLab/LED-Zappelin/tree/master/Bills%20of%20Materials> .
+

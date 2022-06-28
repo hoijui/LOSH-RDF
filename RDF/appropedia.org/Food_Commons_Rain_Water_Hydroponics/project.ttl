@@ -1,0 +1,19 @@
+@prefix : <https://www.appropedia.org/Food_Commons_Rain_Water_Hydroponics/32/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Project a okh:Module ;
+    rdfs:label "Food_Commons_Rain_Water_Hydroponics" ;
+    okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl1 ;
+    okh:function "This is a two tank, gravity-fed rain water irrigation system, using Arduino as controller/timer. The system can be used for indoor or outdoor production. Bottom tank is \"collection tank\", top tank is \"water tower\". Water level sensors exist in both tanks, when collection tank has water, and water tower needs water, water will be pumped up to water tower until it is full. Plantings are sectioned off into \"zones\"." ;
+    okh:licensor "Sam Rose" ;
+    okh:repo <https://www.appropedia.org/Food_Commons_Rain_Water_Hydroponics> ;
+    okh:repoHost "www.appropedia.org" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl1 ;
+    okh:uploadMethod "manifest-script" ;
+    okh:version "32" ;
+    okh:versionOf <https://www.appropedia.org/Food_Commons_Rain_Water_Hydroponics> .
+

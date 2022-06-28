@@ -1,0 +1,20 @@
+@prefix : <https://build.openflexure.org/openflexure-delta-stage/v1.1.0/1.0.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Project a okh:Module ;
+    rdfs:label "OpenFlexure Delta Stage" ;
+    okh:alternativeLicense "LicenseRef-LicenseRef-CER" ;
+    okh:documentationLanguage "EN-GB" ;
+    okh:documentationReadinessLevel otrl:Odrl1 ;
+    okh:function """A delta-bot stage based on the OpenFlexure design
+The delta stage is used for sub-micron positioning in 3D.""" ;
+    okh:licensor "Richard Bowman <rwb34@bath.ac.uk>" ;
+    okh:repo <https://build.openflexure.org/openflexure-delta-stage/v1.1.0/> ;
+    okh:repoHost "build.openflexure.org" ;
+    okh:technologyReadinessLevel otrl:Otrl3 ;
+    okh:uploadMethod "manifest-script" ;
+    okh:version "1.0.0" ;
+    okh:versionOf <https://build.openflexure.org/openflexure-delta-stage/v1.1.0/> .
+

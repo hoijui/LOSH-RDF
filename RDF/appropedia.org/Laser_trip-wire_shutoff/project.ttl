@@ -1,0 +1,19 @@
+@prefix : <https://www.appropedia.org/Laser_trip-wire_shutoff/39/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Project a okh:Module ;
+    rdfs:label "Laser_trip-wire_shutoff" ;
+    okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl1 ;
+    okh:function "Construction of a laser trip-wire to shut off a Delta printer (specifically MOST delta RepRap ) in the event of a detached hotend nozzle or rod which may happen as a result of :  Printing too fast Un-level print bed Hotend nozzel impact with a print ATENTION: You cannot use this method if you have taken up the BTemp digital pin on the Melzi board. This will not be an issue unless you have installed a heated print bed) This design requires the newest version of the Franklin firmware (as of Dec. 9, 2015).  		 		   == Materials Needed == Newest version of Franklin firmware (as of Dec. 9, 2015) Franklin firmware A laser light source: I used a BOSCH GTL2 laser level A photo resistor: 5mm GL5549 Photo Light Sensitive Resistor CDS 4 mirrors measuring 25mm wide by 44mm high, or other reflective surface (I used cut CD's) wires solder / soldering iron heat shrink tubing Drill with 3/16 bit   == Items to 3D Print == 4 Mirror Mounts *Mirror Mounts Photo resistor housing *Photo Resistor Housing   == Instructions == Upgrade your Delta RepRap printer with the current version of the Franklin firmware (see MOST delta RepRap for details Franklin install)." ;
+    okh:licensor "Kevin Sunderland" ;
+    okh:repo <https://www.appropedia.org/Laser_trip-wire_shutoff> ;
+    okh:repoHost "www.appropedia.org" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-3.0> ;
+    okh:technologyReadinessLevel otrl:Otrl3 ;
+    okh:uploadMethod "manifest-script" ;
+    okh:version "39" ;
+    okh:versionOf <https://www.appropedia.org/Laser_trip-wire_shutoff> .
+

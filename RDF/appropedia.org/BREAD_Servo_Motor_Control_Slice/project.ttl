@@ -1,0 +1,19 @@
+@prefix : <https://www.appropedia.org/BREAD_Servo_Motor_Control_Slice/9/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Project a okh:Module ;
+    rdfs:label "BREAD Servo Motor Control Slice" ;
+    okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl1 ;
+    okh:function "The BREAD (Broadly Reconfigurable and Expandable Automation Device) Servo Motor Control Slice is a circuit board with an Arduino Nano and five ports at which one can connect a servo motor. Commands can then be sent through the Arduino, allowing the motors to be controlled.   == Documentation == Command Structure Argument 1: Command ID   Command 1: mode command Command 2: value command Argument 2: read / write bit (!R/W)  0: read 1: write Argument 3: Parameter 1  Currently always used to specify the motor channel Argument 4: Parameter 2  Currently always used to specify data to be written when !R/W = 1 (write), and always ignored when !R/W = 0 (read) All 4 of these arguments are stored as integers for the time being.  Command 0 - Test Does nothing.  Command 1 - Mode !R/W:  0: read The command will return the motor's mode 1: write Set the motor's mode Param1: Channel - Select which motor to apply the command to  Acceptable values: 0 <= X <= 5 Param2:  Read Mode: N/A Write Mode: Mode to set the motor to Acceptable Mode Values:  0: Normal Mode Motor will move as fast as possible 1 - 5: Slow Mode Motor will turn more slowly, with 5 being the slowest Values greater than 5 may work, but are untested  Command 2 - Value !R/W:  0: read The command will return the motor's current position 1: write Set the motor's target position Param1: Channel - Select which motor to apply the command to  Acceptable values: 1 <= X <= 5 Param2:  Read Mode: N/A Write Mode: The position to move the motor to  Slow Mode When the mode of a motor channel is set to a non-zero value (1 <= X <= 5), the motor will not move at its mazimum speed." ;
+    okh:licensor ". Ian Huff" ;
+    okh:repo <https://www.appropedia.org/BREAD_Servo_Motor_Control_Slice> ;
+    okh:repoHost "www.appropedia.org" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-3.0> ;
+    okh:technologyReadinessLevel otrl:Otrl3 ;
+    okh:uploadMethod "manifest-script" ;
+    okh:version "9" ;
+    okh:versionOf <https://www.appropedia.org/BREAD_Servo_Motor_Control_Slice> .
+

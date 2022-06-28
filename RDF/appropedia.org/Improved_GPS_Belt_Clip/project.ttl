@@ -1,0 +1,20 @@
+@prefix : <https://www.appropedia.org/Improved_GPS_Belt_Clip/54/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Project a okh:Module ;
+    rdfs:label "Improved_GPS_Belt_Clip" ;
+    okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl1 ;
+    okh:function """The goal of this project was to improve on a previous design which targeted to make a GPS belt clip, this is specifically targeted at search and rescue style GPS systems with a spine style mount. In this version I updated the design to be a single piece print rather than two parts that need to be glued. As well as cutting out excess material and making the part in openSCAD such that the part can be fully customizable to meet the needs of more than those with the specific device this was made for. With the new design a user should be able to customize this clip to not only mount GPS devices but also any device that can be slid into a slot for mounting, such as circular or t-slotted mounts.   == Bill of Materials == Any filament you might have laying around (I used PLA but some higher strength filaments could be beneficial) A 3D printer A computer Source File: File:Belt Clip V2.scad Default Configuration STL File: Found on thingiverse here [1]   == Tools needed == MOST Delta RepRap or similar RepRap 3-D printer   == Skills and knowledge needed == Basic 3D printer knowledge Basic slicer knowledge   == Technical Specifications and Assembly Instructions == Download STL, or customize a new model and download Slice STL file in slicer of choice Print file Slide device's mount into clip Use to your heart's content Note: Print time will vary with print size but on average it should be around 20 mins   == Common Problems and Solutions == You shouldn't have any issues when building this unless there are issues with your printer.
+transportation, hobbyism""" ;
+    okh:licensor "John" ;
+    okh:repo <https://www.appropedia.org/Improved_GPS_Belt_Clip> ;
+    okh:repoHost "www.appropedia.org" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl1 ;
+    okh:uploadMethod "manifest-script" ;
+    okh:version "54" ;
+    okh:versionOf <https://www.appropedia.org/Improved_GPS_Belt_Clip> .
+

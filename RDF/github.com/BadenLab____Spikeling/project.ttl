@@ -1,0 +1,33 @@
+@prefix : <https://github.com/BadenLab/Spikeling/1.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Project a okh:Module ;
+    rdfs:label "Spikeling" ;
+    okh:documentationLanguage "en-UK" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
+    okh:function """A hardware implementation of the Izhikevich model of a spiking neuron.
+Understanding of how neurons encode and compute information is fundamental to our study of the brain,
+but opportunities for hands-on experience with neurophysiological techniques on live neurons are scarce in science education.
+Here, we present Spikeling, an open source £25 in silico implementation of a spiking neuron that mimics a wide range of neuronal behaviours
+for classroom education and public neuroscience outreach.
+
+Spikeling is a device for teaching how neurons work
+""" ;
+    okh:hasBoM :BillOfMaterials ;
+    okh:licensor "Tom Baden <t.baden@sussex.ac.uk>" ;
+    okh:repo <https://github.com/BadenLab/Spikeling> ;
+    okh:repoHost "github.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
+    okh:technologyReadinessLevel otrl:Otrl3 ;
+    okh:uploadMethod "manifest-script" ;
+    okh:version "1.0" ;
+    okh:versionOf <https://github.com/BadenLab/Spikeling> .
+
+:BillOfMaterials a okh:BoM ;
+    rdfs:label "BillOfMaterials of Spikeling 1.0" ;
+    okh:fileFormat "TSV" ;
+    okh:fileUrl <https://raw.githubusercontent.com/BadenLab/Spikeling/v1.0/1-click_BOM.tsv> ;
+    okh:permaURL <https://raw.githubusercontent.com/BadenLab/Spikeling/v1.0/1-click_BOM.tsv> .
+

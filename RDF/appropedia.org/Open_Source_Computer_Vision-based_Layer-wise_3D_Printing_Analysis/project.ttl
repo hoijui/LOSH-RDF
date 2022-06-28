@@ -1,0 +1,19 @@
+@prefix : <https://www.appropedia.org/Open_Source_Computer_Vision-based_Layer-wise_3D_Printing_Analysis/17/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Project a okh:Module ;
+    rdfs:label "Open_Source_Computer_Vision-based_Layer-wise_3D_Printing_Analysis" ;
+    okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl1 ;
+    okh:function "The paper describes an open source computer vision-based hardware structure and software algorithm, which analyzes layer-wise the 3-D printing processes, tracks printing errors, and generates appropriate printer actions to improve reliability. This approach is built upon multiple-stage monocular image examination, which allows monitoring both the external shape of the printed object and internal structure of its layers. Starting with the side-view height validation, the developed program analyzes the virtual top view for outer shell contour correspondence using the multi-template matching and iterative closest point algorithms, as well as inner layer texture quality clustering the spatial-frequency filter responses with Gaussian mixture models and segmenting structural anomalies with the agglomerative hierarchical clustering algorithm. This allows evaluation of both global and local parameters of the printing modes. The experimentally-verified analysis time per layer is less than one minute, which can be considered a quasi-real-time process for large prints." ;
+    okh:licensor "Joshua M. Pearce" ;
+    okh:repo <https://www.appropedia.org/Open_Source_Computer_Vision-based_Layer-wise_3D_Printing_Analysis> ;
+    okh:repoHost "www.appropedia.org" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl1 ;
+    okh:uploadMethod "manifest-script" ;
+    okh:version "17" ;
+    okh:versionOf <https://www.appropedia.org/Open_Source_Computer_Vision-based_Layer-wise_3D_Printing_Analysis> .
+

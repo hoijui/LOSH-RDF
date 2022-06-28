@@ -1,0 +1,19 @@
+@prefix : <https://www.appropedia.org/RGB_Roof_Type_Classification/4/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Project a okh:Module ;
+    rdfs:label "RGB Roof Type Classification" ;
+    okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl1 ;
+    okh:function "=== Objective === This project aims to classify the roofs in order to recognize whether it is possible to install solar panels on them or not. The roofs are divided into 3 categories namely Flat, Gable, and Hip. The Flat roofs are the potential to install solar panels on them. The project provides an overview of how many houses can be equipped with a solar panel.   === Main Libraries === TensorFlow: TensorFlow 2.0 uses the Keras API for training the model." ;
+    okh:licensor ". Nasim Fani" ;
+    okh:repo <https://www.appropedia.org/RGB_Roof_Type_Classification> ;
+    okh:repoHost "www.appropedia.org" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl1 ;
+    okh:uploadMethod "manifest-script" ;
+    okh:version "4" ;
+    okh:versionOf <https://www.appropedia.org/RGB_Roof_Type_Classification> .
+

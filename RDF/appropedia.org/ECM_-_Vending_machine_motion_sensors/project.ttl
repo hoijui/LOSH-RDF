@@ -1,0 +1,20 @@
+@prefix : <https://www.appropedia.org/ECM_-_Vending_machine_motion_sensors/17/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Project a okh:Module ;
+    rdfs:label "ECM_-_Vending_machine_motion_sensors" ;
+    okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl1 ;
+    okh:function """Vending machines are an everpresent novelty in many establishments and a simple example of how energy saving techniques can be applied with significant impact to energy costs and annual CO2 output. Here we explore the economic and environmental viability of using a motion sensor unit to control the operation of a vending machine such that it remains on stand-by mode while not in use. When motion is sensed (that is, a potential customer approaches the vending machine), the controller turns on the machine's light and compressor to be ready for a sale. The lights and compressor (optional) are then then turned off after a predefined period of inactivity, typically 15 minutes. Quality of vendable goods it maintained by a microcontroller in the system that powers up the machine every 2 hours to to maintain standard operating temperatures.
+saving energy""" ;
+    okh:licensor "Matthew Urquhart" ;
+    okh:repo <https://www.appropedia.org/ECM_-_Vending_machine_motion_sensors> ;
+    okh:repoHost "www.appropedia.org" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl1 ;
+    okh:uploadMethod "manifest-script" ;
+    okh:version "17" ;
+    okh:versionOf <https://www.appropedia.org/ECM_-_Vending_machine_motion_sensors> .
+

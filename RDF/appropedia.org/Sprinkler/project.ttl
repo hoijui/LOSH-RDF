@@ -1,0 +1,20 @@
+@prefix : <https://www.appropedia.org/Sprinkler/28/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Project a okh:Module ;
+    rdfs:label "Sprinkler" ;
+    okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl1 ;
+    okh:function """Conserving water is becoming more of an important issue in today's world. An open-sourced sprinkler attachment for a hose can lead to less consumption of water. Its main use is providing a low cost irrigation solution for small gardens. Urban farming specifically can greatly benefit from an open-sourced sprinkler attachment.   == Bill of Materials == 3D Printer 1.75mm diameter PLA (1kg ~ $25) .STL file Hose Water Supply   == Tools needed == MOST Delta RepRap or similar RepRap 3-D printer   == Skills and knowledge needed == Basic understanding of 3D printing   == Technical Specifications and Assembly Instructions == Download the STL file Generate gcode via Cura, Slicer or another slicing software Print the sprinkler head using the 3D printer Screw the sprinkler head onto the water hose threads Turn on water supply once sprinkler head is placed in desired area Assembly time estimate: under 1min   === Common Problems and Solutions === When printing the sprinkler head, set the infill high enough to eliminate unwanted leaking or spraying.
+saving water""" ;
+    okh:licensor "James W. Berry IV" ;
+    okh:repo <https://www.appropedia.org/Sprinkler> ;
+    okh:repoHost "www.appropedia.org" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl1 ;
+    okh:uploadMethod "manifest-script" ;
+    okh:version "28" ;
+    okh:versionOf <https://www.appropedia.org/Sprinkler> .
+

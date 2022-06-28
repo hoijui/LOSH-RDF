@@ -1,0 +1,19 @@
+@prefix : <https://www.appropedia.org/Neck_Immobilizer_for_Trauma/62/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Project a okh:Module ;
+    rdfs:label "Neck_Immobilizer_for_Trauma" ;
+    okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl1 ;
+    okh:function "This is meant to be used by EMT or other first responders for immobilizing a head and neck after major trauma, keeping the head steady during transport. All that is needed for this device is a 3D printer, and straps   == Bill of Materials == Needed parts:  2x 3D Printed Head Blocks - $5.18 each in PLA OpenScad File: File:Neck Immobilizer Head Block.scad STL File: File:Neck Immobilizer Head Block v01.stl 2x 3D Printed Outer Plates - $1.95 each in PLA OpenScad File: File:Neck Immobilizer Outer Plate.scad STL File: 1x 3D Printed Head Plate - $2.18 in PLA OpenScad File: File:Neck Immobilizer Head Plate.scad STL File: 2x Straps - $8.49; can be any strap up to 2 inches wide, using hook and loop fasteners or some other type of connection to tighten down at the forehead and chin (https://www.amazon.com/VELCRO-Brand-All-Purpose-Fastening-Organizing/dp/B00006IC2S?th=1)   == Tools needed == MOST Delta RepRap or similar RepRap 3-D printer   == Skills and knowledge needed == Must have a 3D Printer and knowledge to use OpenSCAD models are fully parametric; however basic knowledge of OpenSCAD, and a computer capable of rendering, are necessary for updating dimensions   == Technical Specifications and Assembly Instructions == Creating the device is primarily done by the printing of each part. Once each part is complete, the fasteners are done through printed components on each part. First, slide the outer plates on either side of the head plate, using the dovetail rails. Support material is likely needed for the dovetails, so first clean out the support material, then the parts should slide right together." ;
+    okh:licensor "Cameron" ;
+    okh:repo <https://www.appropedia.org/Neck_Immobilizer_for_Trauma> ;
+    okh:repoHost "www.appropedia.org" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-3.0> ;
+    okh:technologyReadinessLevel otrl:Otrl3 ;
+    okh:uploadMethod "manifest-script" ;
+    okh:version "62" ;
+    okh:versionOf <https://www.appropedia.org/Neck_Immobilizer_for_Trauma> .
+

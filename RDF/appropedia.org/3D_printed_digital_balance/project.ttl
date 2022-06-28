@@ -1,0 +1,19 @@
+@prefix : <https://www.appropedia.org/3D_printed_digital_balance/85/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Project a okh:Module ;
+    rdfs:label "3D printed digital balance" ;
+    okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl1 ;
+    okh:function "This OSAT is a digital mass balance with two outputs: Digital output for data logging capabilities, and an LCD display. This has value in several different areas, including pharmaceutical use (weighting out medicines) and scientific uses (such as 3D printing quality verification). This balance is powered and controlled by an Arduino Nano. Using the digital I/O pins, the Nano powers and reads information from an HX711 32-bit load cell amplifier. The readout from this loadcell can be calibrated using a standard mass." ;
+    okh:licensor "." ;
+    okh:repo <https://www.appropedia.org/3D_printed_digital_balance> ;
+    okh:repoHost "www.appropedia.org" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-3.0> ;
+    okh:technologyReadinessLevel otrl:Otrl3 ;
+    okh:uploadMethod "manifest-script" ;
+    okh:version "85" ;
+    okh:versionOf <https://www.appropedia.org/3D_printed_digital_balance> .
+

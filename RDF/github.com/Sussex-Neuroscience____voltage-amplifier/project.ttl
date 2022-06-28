@@ -1,0 +1,20 @@
+@prefix : <https://github.com/Sussex-Neuroscience/voltage-amplifier/0.1/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Project a okh:Module ;
+    rdfs:label "Arduino Voltage Amplifier" ;
+    okh:documentationLanguage "EN-UK" ;
+    okh:documentationReadinessLevel otrl:Odrl1 ;
+    okh:function """a voltage amplifier based on LM741, run with 9V batteries and shaped as an Arduino Due shield
+This device can generate high voltages which can be dangerous! make sure you take all the necessary safety precautions for safe use.""" ;
+    okh:licensor "Andre Maia Chagas <a.maia-chagas@sussex.ac.uk>" ;
+    okh:repo <https://github.com/Sussex-Neuroscience/voltage-amplifier> ;
+    okh:repoHost "github.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
+    okh:technologyReadinessLevel otrl:Otrl3 ;
+    okh:uploadMethod "manifest-script" ;
+    okh:version "0.1" ;
+    okh:versionOf <https://github.com/Sussex-Neuroscience/voltage-amplifier> .
+

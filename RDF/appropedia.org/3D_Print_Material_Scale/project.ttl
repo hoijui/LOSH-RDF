@@ -1,0 +1,19 @@
+@prefix : <https://www.appropedia.org/3D_Print_Material_Scale/32/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Project a okh:Module ;
+    rdfs:label "3D Print Material Scale" ;
+    okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl1 ;
+    okh:function "The goal of this project is to be used by a 3D Printing service to accurately determine prices of prints based on the amount of material used and the type of material used. The device will be able to measure the weight of a print using a small load cell and display the weight on an integrated LCD screen. In addition to the weight, the screen will display the cost of the print given the current settings.   == Bill Of Materials ==  Github code for scale: https://github.com/zsarnold/OSHE_Print_Scale NIH Model Library: https://3dprint.nih.gov/discover/3dpx-012320   == Tools Needed == MOST Delta RepRap or similar RepRap 3-D printer Allen Wrench (For M5, M4 and M3 Bolts) Soldering Iron and Solder X-ACTO Knife or similar for cleaning printed material PC for Arduino Programming   == Technical Specifications and Assembly Instructions ==  		 		 		 		   ==== Wiring ==== Arduino Nano A4 - LCD SDA A5 - LCD SCL D2 - Scale module D3 - Scale module 5v - Scale module/LCD GND - Scale module/LCD Scale Load cell - Scale module   ==== Upcoming Features ==== Push buttons will be located on the sides of the housing and allow for the user to change the material and the user rate (private or university-related). The measurement plate will be modular so the user could measure prints on a plate or in a bowl, which would be beneficial for large amounts of very small prints." ;
+    okh:licensor ". Drew Vincent" ;
+    okh:repo <https://www.appropedia.org/3D_Print_Material_Scale> ;
+    okh:repoHost "www.appropedia.org" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl1 ;
+    okh:uploadMethod "manifest-script" ;
+    okh:version "32" ;
+    okh:versionOf <https://www.appropedia.org/3D_Print_Material_Scale> .
+

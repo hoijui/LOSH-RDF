@@ -1,0 +1,22 @@
+@prefix : <https://openflexure.gitlab.io/openflexure-block-stage/UNVERSIONED/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Project a okh:Module ;
+    rdfs:label "OpenFlexure Block Stage" ;
+    okh:documentationLanguage "English-UK" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
+    okh:function """This project is a 3D printable design that enables very fine (sub-micron) mechanical positioning of a small moving stage, with surprisingly good mechanical stability.  It follows on from the OpenFlexure Microscope.  Currently, it's designed to function as a more-or-less drop in replacement for fibre alignment stages available from various scientific suppliers, but the project aims to be useful to electrophysiologists, nanotechnology folk, and many more.  
+
+Optomechanical alignment in teaching and research""" ;
+    okh:licensor "Richard Bowman <rwb34@bath.ac.uk>" ;
+    okh:release <https://build.openflexure.org/openflexure-block-stage/> ;
+    okh:repo <https://openflexure.gitlab.io/openflexure-block-stage/> ;
+    okh:repoHost "openflexure.gitlab.io" ;
+    okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
+    okh:technologyReadinessLevel otrl:Otrl3 ;
+    okh:uploadMethod "manifest-script" ;
+    okh:version "UNVERSIONED" ;
+    okh:versionOf <https://openflexure.gitlab.io/openflexure-block-stage/> .
+

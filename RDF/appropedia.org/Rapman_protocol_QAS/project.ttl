@@ -1,0 +1,19 @@
+@prefix : <https://www.appropedia.org/Rapman_protocol_QAS/100/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Project a okh:Module ;
+    rdfs:label "Rapman_protocol_QAS" ;
+    okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl1 ;
+    okh:function "== First Setup == Complete the build of the machine, including extruder. Plug in extruder Load filament along filament feeders, into top of extruder, through pressure screws (they must be loose to do this) and into the hotend as far as it will easily go. Turn on RapMan Enter Manual Move mode, and move hotend over hole in print board Enter Tool Setup mode Set temperature to 235 for ABS to start (leave motor off) and wait for hotend to come up to temperature. Try to manually push the filament through the hotend and extrude it If you are unable to feed the material, the hotend is not hot enough. Heat it by 5 degree increments until you can push it with medium resistance - it should not be easy, neither should it be impossible." ;
+    okh:licensor "ANONYMOUS" ;
+    okh:repo <https://www.appropedia.org/Rapman_protocol_QAS> ;
+    okh:repoHost "www.appropedia.org" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl1 ;
+    okh:uploadMethod "manifest-script" ;
+    okh:version "100" ;
+    okh:versionOf <https://www.appropedia.org/Rapman_protocol_QAS> .
+

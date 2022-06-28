@@ -1,0 +1,19 @@
+@prefix : <https://www.appropedia.org/Modular_solar_tracking_system/9/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Project a okh:Module ;
+    rdfs:label "Modular_solar_tracking_system" ;
+    okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl1 ;
+    okh:function "This idea is inspired by the Ecole Polytechnique Fédérale de Lausanne's \"Solar Thermal Energy Regulator system\" (see http://web.archive.org/web/20121216042224/http://www.elektor.com:80/magazines/2010/may/solar-thermal-energy-regulator.1321945.lynkx ). As I understand it, the system uses (commercial !) evacuated tube collectors and the heating of the solar thermal collectors is done to eliminate fluctuations in the system and keep it operating as good as possible as the panels get into the shade as the sun turns. In my view however, I think that a simpler system could be more effective, which simply disconnects the panels entirely as they get into the shade (such a system btw wouldn't need temperature sensors so the problem regarding the use of the semiconductor sensors would also be solved). In addition, given that a dsPIC controller is used, the system can also be made more advanced and include solar tracking (see http://en.wikipedia.org/wiki/Solar_tracker ) I am confident that relooking the design and adding solar tracking could have a great benefit to areas, other than Switserland (including areas in subtropical and tropical zones).   == Setup == The idea is had is to make the whole system more modular and also usable in other zones (ie subtropical/tropical zones)." ;
+    okh:licensor "KVDP" ;
+    okh:repo <https://www.appropedia.org/Modular_solar_tracking_system> ;
+    okh:repoHost "www.appropedia.org" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl1 ;
+    okh:uploadMethod "manifest-script" ;
+    okh:version "9" ;
+    okh:versionOf <https://www.appropedia.org/Modular_solar_tracking_system> .
+

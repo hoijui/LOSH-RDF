@@ -1,0 +1,29 @@
+@prefix : <https://github.com/amchagas/Flypi/2.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Project a okh:Module ;
+    rdfs:label "FlyPi" ;
+    okh:documentationLanguage "English-UK" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
+    okh:function """"Flypi" is a 3D printable all in one biology lab that can be used for state of the art experiments in neurosciences as well as for human intestine parasites detection.
+It is a 3D-printable open-source platform for fluorescence microscopy, optogenetics, and accurate temperature control during behaviour of zebrafish, Drosophila, and Caenorhabditis elegans.
+
+Flypi was developed for researchers to perform experiments using low cost tools as well as educators to train students and do outreach activities with the general public""" ;
+    okh:hasBoM :BillOfMaterials ;
+    okh:licensor "Andre Maia Chagas <a.maia-chagas@sussex.ac.uk>" ;
+    okh:repo <https://github.com/amchagas/Flypi/> ;
+    okh:repoHost "github.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
+    okh:technologyReadinessLevel otrl:Otrl3 ;
+    okh:uploadMethod "manifest-script" ;
+    okh:version "2.0" ;
+    okh:versionOf <https://github.com/amchagas/Flypi/> .
+
+:BillOfMaterials a okh:BoM ;
+    rdfs:label "BillOfMaterials of FlyPi 2.0" ;
+    okh:fileFormat "CSV" ;
+    okh:fileUrl <https://raw.githubusercontent.com/amchagas/Flypi/v2.0/PCB/flypi_pcb_kicad/1-click-bom.csv> ;
+    okh:permaURL <https://raw.githubusercontent.com/amchagas/Flypi/v2.0/PCB/flypi_pcb_kicad/1-click-bom.csv> .
+

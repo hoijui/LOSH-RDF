@@ -1,0 +1,19 @@
+@prefix : <https://www.appropedia.org/Expanded_Microchannel_Heat_Exchanger%3A_Finite_Difference_Modeling/4/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Project a okh:Module ;
+    rdfs:label "Expanded_Microchannel_Heat_Exchanger:_Finite_Difference_Modeling" ;
+    okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl1 ;
+    okh:function "A finite difference model of a heat exchanger (HX) considered maldistribution, axial conduction, heat leak, and the edge effect, all of which are needed to model a high effectiveness HX. An HX prototype was developed, and channel height data were obtained using a computerized tomography (CT) scan from previous work along with experimental results. This study used the core geometry data to model results with the finite difference model, and compared the modeled and experimental results to help improve the expanded microchannel HX (EMHX) prototype design. The root mean square (RMS) error was 3.8%. Manifold geometries were not put into the model because the data were not available, so impacts of the manifold were investigated by varying the temperature conditions at the inlet and exit of the core. Previous studies have not considered the influence of heat transfer in the manifold on the HX effectiveness when maldistribution is present." ;
+    okh:licensor "Joshua M. Pearce" ;
+    okh:repo <https://www.appropedia.org/Expanded_Microchannel_Heat_Exchanger:_Finite_Difference_Modeling> ;
+    okh:repoHost "www.appropedia.org" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl1 ;
+    okh:uploadMethod "manifest-script" ;
+    okh:version "4" ;
+    okh:versionOf <https://www.appropedia.org/Expanded_Microchannel_Heat_Exchanger:_Finite_Difference_Modeling> .
+

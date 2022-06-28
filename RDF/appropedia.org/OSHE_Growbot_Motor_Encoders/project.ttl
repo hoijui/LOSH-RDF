@@ -1,0 +1,19 @@
+@prefix : <https://www.appropedia.org/OSHE_Growbot_Motor_Encoders/74/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Project a okh:Module ;
+    rdfs:label "OSHE_Growbot_Motor_Encoders" ;
+    okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl1 ;
+    okh:function "This OSAT project was created to assist the senior capstone project for the Open Source Hardware Enterprise, OSHE Growbot. The parts designed are used in conjunction with Drew Vincent's, motor mounts for the Growbot. The Growbot project can be used to fulfill the OSAT 'Zero Hunger' goal.   == Bill of Materials ==  Motor Encoders File Download Encoder Connector  Encoder Mount for Motor Housing  Motor Test Bench   == Tools needed == MOST Delta RepRap or similar RepRap 3-D printer 2mm Allen Wrench 2.5mm Allen Wrench 3mm Allen Wrench Pliers Soldering iron   == Technical Specifications and Assembly Instructions ==  Encoder Connector (5 minutes to assemble)   Print the encoder connector and clean the infill - 35mins with 50% infill with Prusa MK3s Push the M4 bolt into the middle hole, so the bolt head is recessed Attach nut on the other side Attach the 3D printed piece onto the motor using 4 M3 bolts Should look like the image below   Encoder Mount (10 minutes to assemble)   Print the encoder mount for motor housing - 50mins at 15% infill with Prusa MK3s Use the soldering iron to insert the heat inserts 2 M2 Heat inserts go into the small holes on the large front face 4 M3 Heat inserts go into the holes on the edges Attach the encoder to the mount using 2 M2x8 bolts Finally, use this assembly within Drew's motor mount, OSHE Growbot Mounting Units Should look like the image below   Motor Testbench (40 mins to assemble)   Print the test bench parts - 4.5 hrs at 15% infill with Prusa MK3s Follow the encoder connector directions Follow the encoder mount instructions with 2 M3 inserts instead of 4 Attach the motor to the test bench mount using 4 M4x8 bolts Attach the encoder mount onto the test bench using 2 M3x8 bolts Should look like the image below   === Common Problems and Solutions === A common mistake is when installing the heat inserts. They need to be flush with the outside of the parts and need to be inserted perpendicular." ;
+    okh:licensor "Zach Arnold" ;
+    okh:repo <https://www.appropedia.org/OSHE_Growbot_Motor_Encoders> ;
+    okh:repoHost "www.appropedia.org" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-3.0> ;
+    okh:technologyReadinessLevel otrl:Otrl3 ;
+    okh:uploadMethod "manifest-script" ;
+    okh:version "74" ;
+    okh:versionOf <https://www.appropedia.org/OSHE_Growbot_Motor_Encoders> .
+

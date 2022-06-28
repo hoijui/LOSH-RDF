@@ -1,0 +1,20 @@
+@prefix : <https://www.appropedia.org/OSHE_Near_Field_Audio_Speaker/5/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Project a okh:Module ;
+    rdfs:label "OSHE Near Field Audio Speaker" ;
+    okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl1 ;
+    okh:function """The goal of this project is to design and create a portable speaker using Near Field Audio technology while maintaining good audio quality and a low cost BOM.   == Background and Problem Statement == Most portable speakers operate wirelessly via the Bluetooth communication protocol. Near Field Audio is an alternative technology that sacrifices range for power efficiency and cost effectiveness. It also allows for device not compliant with Bluetooth to be used assuming they have a speaker output of their own. The goal of this project is to fill this niche with a quality, low cost, open source system.    == Vision == To realize this Near Field Audio Speaker, the following goals need to be met  The project must be simple and have a low barrier to entry Any parts used must be easily 3D printed or otherwise acquired The cost to build the speaker must be $100 or less The project must be open source More abstract requirements were also defined:  Audio quality equal or better than comparable Bluetooth speaker More efficient use of battery than comparable Bluetooth speaker Inclusion of audio passthrough   == Research and Design == To receive audio wirelessly a receiver is needed.
+Speaker, Near Field Audio Receiver""" ;
+    okh:licensor ". Harris Neill" ;
+    okh:repo <https://www.appropedia.org/OSHE_Near_Field_Audio_Speaker> ;
+    okh:repoHost "www.appropedia.org" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl3 ;
+    okh:uploadMethod "manifest-script" ;
+    okh:version "5" ;
+    okh:versionOf <https://www.appropedia.org/OSHE_Near_Field_Audio_Speaker> .
+

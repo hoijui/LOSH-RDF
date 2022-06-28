@@ -1,0 +1,27 @@
+@prefix : <https://pachterlab.github.io/poseidon/UNVERSIONED/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Project a okh:Module ;
+    rdfs:label "Poseidon - Open source bioinstrumentation" ;
+    okh:documentationLanguage "English-UK" ;
+    okh:documentationReadinessLevel otrl:Odrl1 ;
+    okh:function """An easy-to-use, highly customizable, and open source syringe pump and microscope system.
+The poseidon syringe pump and microscope system is an open source alternative to commercial systems. It costs less than $400 and can be assembled in an hour. It uses 3D printed parts and common components that can be easily purchased either from Amazon or other retailers. The microscope and pumps can be used together in microfluidics experiments, or independently for other applications. The pumps and microscope can be run from a Windows, Mac, Linux, or Raspberry Pi computer with an easy to use GUI.""" ;
+    okh:hasBoM :BillOfMaterials ;
+    okh:licensor "Lior Patcher <lpachter@caltech.edu>" ;
+    okh:repo <https://pachterlab.github.io/poseidon> ;
+    okh:repoHost "pachterlab.github.io" ;
+    okh:spdxLicense <https://spdx.org/licenses/BSD-2-Clause> ;
+    okh:technologyReadinessLevel otrl:Otrl3 ;
+    okh:uploadMethod "manifest-script" ;
+    okh:version "UNVERSIONED" ;
+    okh:versionOf <https://pachterlab.github.io/poseidon> .
+
+:BillOfMaterials a okh:BoM ;
+    rdfs:label "BillOfMaterials of Poseidon - Open source bioinstrumentation UNVERSIONED" ;
+    okh:fileFormat "XLSX" ;
+    okh:fileUrl <https://github.com/OKH-Forks/poseidon/blob/release/HARDWARE/poseidon_bill-of-materials_v1.0_2019-01-28.xlsx> ;
+    okh:permaURL <https://github.com/OKH-Forks/poseidon/blob/release/HARDWARE/poseidon_bill-of-materials_v1.0_2019-01-28.xlsx> .
+

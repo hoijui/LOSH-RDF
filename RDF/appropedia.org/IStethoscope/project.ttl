@@ -1,0 +1,19 @@
+@prefix : <https://www.appropedia.org/IStethoscope/23/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Project a okh:Module ;
+    rdfs:label "IStethoscope" ;
+    okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl1 ;
+    okh:function "== Problem being addressed == While regular stethoscopes can pick up heartbeats, they do not record the data automatically; stethoscopes are also an extra device for doctors to carry around.   == Detailed description of the solution == The iStethoscope is a mobile app able to pick up a heartbeat by using an iPhone’s built-in microphone. It can record and play back eight seconds of heartbeat, and display a phonocardiograph and a spectrogram, which can then be emailed to a specialist. This allows doctors to have the capability to accurately hear a heartbeat at all times without having to carry around a stethoscope. It also would allow less trained medical workers to record their patients’ heartbeats and send it to a doctor for consultation." ;
+    okh:licensor "Amir Sabet" ;
+    okh:repo <https://www.appropedia.org/IStethoscope> ;
+    okh:repoHost "www.appropedia.org" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-3.0> ;
+    okh:technologyReadinessLevel otrl:Otrl1 ;
+    okh:uploadMethod "manifest-script" ;
+    okh:version "23" ;
+    okh:versionOf <https://www.appropedia.org/IStethoscope> .
+

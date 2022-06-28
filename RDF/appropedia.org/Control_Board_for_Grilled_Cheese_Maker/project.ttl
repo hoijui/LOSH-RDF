@@ -1,0 +1,19 @@
+@prefix : <https://www.appropedia.org/Control_Board_for_Grilled_Cheese_Maker/13/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Project a okh:Module ;
+    rdfs:label "Control_Board_for_Grilled_Cheese_Maker" ;
+    okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl1 ;
+    okh:function "The basis for this project was a component of a semester long team project at Michigan Tech to design, develop, and test a robot of our own imagination. Our team decided on creating a grilled cheese making robot, and as part of that a circuit board to control the robot was necessary. The electrical design for the board was simple in concept-- create a board capable of controlling 3 separate stepper motors and a resistive heating device, while taking in human input, mechanical positions, and thermal readings (to allow for closed-loop control). This could be accomplished (and was accomplished) quite easily using a microcontroller with pulse width modulation capabilities and a few breakout boards for stepper motor control.   == Design ==  Pictured above is the finished schematic for Mr." ;
+    okh:licensor "Nicholas Whisman" ;
+    okh:repo <https://www.appropedia.org/Control_Board_for_Grilled_Cheese_Maker> ;
+    okh:repoHost "www.appropedia.org" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-3.0> ;
+    okh:technologyReadinessLevel otrl:Otrl1 ;
+    okh:uploadMethod "manifest-script" ;
+    okh:version "13" ;
+    okh:versionOf <https://www.appropedia.org/Control_Board_for_Grilled_Cheese_Maker> .
+

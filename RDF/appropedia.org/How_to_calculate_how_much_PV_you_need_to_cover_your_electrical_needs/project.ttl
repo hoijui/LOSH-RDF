@@ -1,0 +1,19 @@
+@prefix : <https://www.appropedia.org/How_to_calculate_how_much_PV_you_need_to_cover_your_electrical_needs/12/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Project a okh:Module ;
+    rdfs:label "How_to_calculate_how_much_PV_you_need_to_cover_your_electrical_needs" ;
+    okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl1 ;
+    okh:function "== Steps == Safety first. Determine your energy use - you can do this by collecting a year's worth of electric bills and adding up the energy (measured in kilo watt hours kW-hrs) used. Another way to do this is to do a plug load analysis of all of your electric devices: [math]\\displaystyle{ V=IR }[/math] Determine the solar insolation in your region and more specifically location of the pv panel to determine kW-hrs/kW installed of PV. This is done with your latitude or distance from the equator. Divide your energy use by the available solar insolation found from step 3 to get your number of maximum installed Watts. Design a pv system that meets your electrical power needs given the parameters of the available insolation." ;
+    okh:licensor "ANONYMOUS" ;
+    okh:repo <https://www.appropedia.org/How_to_calculate_how_much_PV_you_need_to_cover_your_electrical_needs> ;
+    okh:repoHost "www.appropedia.org" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl1 ;
+    okh:uploadMethod "manifest-script" ;
+    okh:version "12" ;
+    okh:versionOf <https://www.appropedia.org/How_to_calculate_how_much_PV_you_need_to_cover_your_electrical_needs> .
+

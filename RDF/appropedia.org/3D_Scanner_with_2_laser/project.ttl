@@ -1,0 +1,19 @@
+@prefix : <https://www.appropedia.org/3D_Scanner_with_2_laser/2/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Project a okh:Module ;
+    rdfs:label "3D Scanner with 2 laser" ;
+    okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl1 ;
+    okh:function "Creating 3D objects, using a camera and two line lasers.   == Summary == In this scanner, we perform the scan with the help of two line lasers and a camera, in such a way that these three are fixed to each other and relative to a moving object. This is done in a dark environment where only laser light is present. The camera and lasers are moved by the motor along the axis of the horizon and the object is scanned from left to right. Then the laser lines must be extracted." ;
+    okh:licensor ". Alireza Lorestani" ;
+    okh:repo <https://www.appropedia.org/3D_Scanner_with_2_laser> ;
+    okh:repoHost "www.appropedia.org" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl1 ;
+    okh:uploadMethod "manifest-script" ;
+    okh:version "2" ;
+    okh:versionOf <https://www.appropedia.org/3D_Scanner_with_2_laser> .
+

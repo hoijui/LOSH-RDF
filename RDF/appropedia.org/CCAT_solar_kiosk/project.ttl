@@ -1,0 +1,19 @@
+@prefix : <https://www.appropedia.org/CCAT_solar_kiosk/342/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Project a okh:Module ;
+    rdfs:label "CCAT_solar_kiosk" ;
+    okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl1 ;
+    okh:function "This project was implemented because CCAT had two 100 watt solar panels that served no purpose, but were already mounted on a wall in an optimal location for sunlight. Solar panels are designed to absorb the sun's light and convert it to electricity for our consumption. The solar kiosk is a charging station that has a \"Dual USB Power Charger\" that has its own volt regulator inside and a volt regulator to control the volts coming out from the panels at about 24V max and in to an inverter at 12 volts direct current (DC). The inverter is 200 watts which supports two 120V alternative current (AC) and has a USB port. There is also a 20 Amp fuse on the positive wire coming from the panels that will stop the flow of electricity if there is too high of a current flowing through." ;
+    okh:licensor "Tyler" ;
+    okh:repo <https://www.appropedia.org/CCAT_solar_kiosk> ;
+    okh:repoHost "www.appropedia.org" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-3.0> ;
+    okh:technologyReadinessLevel otrl:Otrl1 ;
+    okh:uploadMethod "manifest-script" ;
+    okh:version "342" ;
+    okh:versionOf <https://www.appropedia.org/CCAT_solar_kiosk> .
+

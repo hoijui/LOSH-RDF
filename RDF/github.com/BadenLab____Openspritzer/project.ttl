@@ -1,0 +1,32 @@
+@prefix : <https://github.com/badenlab/Openspritzer/1.3/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Project a okh:Module ;
+    rdfs:label "Openspritzer -  an open hardware pressure ejection system for reliably delivering picolitre volumes." ;
+    okh:documentationLanguage "English-UK" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
+    okh:function """Designed for ease of use, robustness and low-cost, the “Openspritzer” is an open hardware “Picospritzer” as routinely used in biological labs around the world. The performance of Openspritzer and commercial alternatives is effectively indistiguishable.
+
+The system is based on a solenoid valve connected to a pressure gauge. Control can be attained directly via an external TTL pulse or internally through an Arduino set by a rotary encoder. The basic setup can be put together for 3-400€, or substantially less if you are prepare to shop around.
+
+We anticipate that due to its high performance and low cost Openspritzer will be of interest to a broad range of researchers working in the life and physical sciences.
+
+Openspritzer was developed for researchers to perform experiments that require injections of very small volumes""" ;
+    okh:hasBoM :BillOfMaterials ;
+    okh:licensor "Maxime Zimmermann <m.zimmermann@sussex.ac.uk>" ;
+    okh:repo <https://github.com/badenlab/Openspritzer/> ;
+    okh:repoHost "github.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
+    okh:technologyReadinessLevel otrl:Otrl3 ;
+    okh:uploadMethod "manifest-script" ;
+    okh:version "1.3" ;
+    okh:versionOf <https://github.com/badenlab/Openspritzer/> .
+
+:BillOfMaterials a okh:BoM ;
+    rdfs:label "BillOfMaterials of Openspritzer -  an open hardware pressure ejection system for reliably delivering picolitre volumes. 1.3" ;
+    okh:fileFormat "CSV" ;
+    okh:fileUrl <https://github.com/BadenLab/Openspritzer/blob/master/Bill%20of%20Materials/BOM.csv> ;
+    okh:permaURL <https://github.com/BadenLab/Openspritzer/blob/master/Bill%20of%20Materials/BOM.csv> .
+

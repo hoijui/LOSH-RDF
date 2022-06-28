@@ -1,0 +1,20 @@
+@prefix : <https://www.appropedia.org/OSHE_LiDAR_Bot/21/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Project a okh:Module ;
+    rdfs:label "OSHE LiDAR Bot" ;
+    okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl1 ;
+    okh:function """The goal of this project is to create a simple, inexpensive real time LiDAR mapping solution that can be easily implemented in a variety of use cases.   == Background and Problem Statement == In the world of robotics and 3D mapping, LiDAR technology is fast becoming industry standard. Compared to RADAR, the lower wavelength used allows LiDAR to hold a higher standard of accuracy and precision. Many market solutions for LiDAR systems however, are complex, expensive, and proprietary. The goal of this project is to create an LiDAR system that is accessible from both a cost and complexity standpoint.
+Robotics, 3D mapping""" ;
+    okh:licensor ". Noah Jaeger" ;
+    okh:repo <https://www.appropedia.org/OSHE_LiDAR_Bot> ;
+    okh:repoHost "www.appropedia.org" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl1 ;
+    okh:uploadMethod "manifest-script" ;
+    okh:version "21" ;
+    okh:versionOf <https://www.appropedia.org/OSHE_LiDAR_Bot> .
+

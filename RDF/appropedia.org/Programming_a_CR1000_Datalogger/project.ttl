@@ -1,0 +1,19 @@
+@prefix : <https://www.appropedia.org/Programming_a_CR1000_Datalogger/7/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Project a okh:Module ;
+    rdfs:label "Programming_a_CR1000_Datalogger" ;
+    okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl1 ;
+    okh:function "CRBasic is the programming language which controls the functionality of a Campbell Scientific Datalogger. The program controls all processes in the logger related to the collection of data, including variable names, data table layouts, transducer definitions and ranging, and control port operation. In order to begin a program in CRBasic, it is recommended to first create a program in short cut, available through loggernet, which contains a wizard and allows for the creation of the basic structure of a program including table and sensor declarations. Once the program has been created in short cut, it can be edited in CRBasic to add in any advanced functionality required. This guide covers the basic functionality of CRBasic as well as some specifics to the programming in the test site at St.Lawrence College." ;
+    okh:licensor "Rob Andrews" ;
+    okh:repo <https://www.appropedia.org/Programming_a_CR1000_Datalogger> ;
+    okh:repoHost "www.appropedia.org" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl1 ;
+    okh:uploadMethod "manifest-script" ;
+    okh:version "7" ;
+    okh:versionOf <https://www.appropedia.org/Programming_a_CR1000_Datalogger> .
+

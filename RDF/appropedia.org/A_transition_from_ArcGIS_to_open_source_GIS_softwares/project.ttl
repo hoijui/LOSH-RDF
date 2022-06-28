@@ -1,0 +1,19 @@
+@prefix : <https://www.appropedia.org/A_transition_from_ArcGIS_to_open_source_GIS_softwares/44/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Project a okh:Module ;
+    rdfs:label "A transition from ArcGIS to open source GIS softwares" ;
+    okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl1 ;
+    okh:function "This guide was written as we made this transition to use GIS in estimating solar photovoltaic yield over large areas. Full text of study available here: H.T. Nguyen and J.M. Pearce, \"Estimating Potential Photovoltaic Yield with r.sun and the Open Source Geographical Resources Analysis Support System\" Solar Energy 84, pp. 831-843, 2010. open access   == An overview of available GIS softwares == GRASS = Geographic Resource Analysis Support System http://grass.osgeo.org/ is considered the leading open source substitute for GIS. The most updated version is 6.4 and quite friendly to install. Being the leading substitute for ArcGIS, however, GRASS does not handle vector files of size close to 1 GB very well nor data table of size larger than 4 MB and does not have a function to calculate area (which is surprising)." ;
+    okh:licensor ". Ha Thanh Nguyen" ;
+    okh:repo <https://www.appropedia.org/A_transition_from_ArcGIS_to_open_source_GIS_softwares> ;
+    okh:repoHost "www.appropedia.org" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-3.0> ;
+    okh:technologyReadinessLevel otrl:Otrl1 ;
+    okh:uploadMethod "manifest-script" ;
+    okh:version "44" ;
+    okh:versionOf <https://www.appropedia.org/A_transition_from_ArcGIS_to_open_source_GIS_softwares> .
+

@@ -1,0 +1,28 @@
+@prefix : <https://7bindustries.com/static/braille-signage-generator/index.html/1.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Project a okh:Module ;
+    rdfs:label "Braille Signage Generator" ;
+    okh:documentationLanguage "en-US" ;
+    okh:documentationReadinessLevel otrl:Odrl1 ;
+    okh:function """Script that generates 3D printable braille signage based on user-provided English text.
+Individuals who want to create 3D printed braille signage/labels for those with visual impairments and blindness.""" ;
+    okh:hasBoM :BillOfMaterials ;
+    okh:licensor "Jeremy Wright <jwright@7bindustries.com>" ;
+    okh:release <https://github.com/7B-Things/braille-signage-generator/archive/refs/heads/main.zip> ;
+    okh:repo <https://7bindustries.com/static/braille-signage-generator/index.html> ;
+    okh:repoHost "7bindustries.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-P-2.0> ;
+    okh:technologyReadinessLevel otrl:Otrl3 ;
+    okh:uploadMethod "manifest-script" ;
+    okh:version "1.0" ;
+    okh:versionOf <https://7bindustries.com/static/braille-signage-generator/index.html> .
+
+:BillOfMaterials a okh:BoM ;
+    rdfs:label "BillOfMaterials of Braille Signage Generator 1.0" ;
+    okh:fileFormat "HTML" ;
+    okh:fileUrl <https://7bindustries.com/static/braille-signage-generator/landing_BOM.html> ;
+    okh:permaURL <https://7bindustries.com/static/braille-signage-generator/landing_BOM.html> .
+

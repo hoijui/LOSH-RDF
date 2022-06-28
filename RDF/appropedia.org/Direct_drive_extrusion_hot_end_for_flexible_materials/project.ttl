@@ -1,0 +1,19 @@
+@prefix : <https://www.appropedia.org/Direct_drive_extrusion_hot_end_for_flexible_materials/71/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Project a okh:Module ;
+    rdfs:label "Direct_drive_extrusion_hot_end_for_flexible_materials" ;
+    okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl1 ;
+    okh:function "This page lays out the steps required to convert your current Delta Athena II printer to have a newly designed flexible driveshaft printer, which makes printing in flexible materials a reality.   == Design == The current setup on the Athena II printer is not suited for flexible materials like ninja flex. Due to the bowndeth sheath setup we mostly use stiff filaments such as PLA. The new design was based off of the desire to remove the bowden sheath from the printer and to get the same impact as a direct drive printer. Using a flexible shaft I was able to mount the motor to the Athena II's frame and still have the extruder feed directly above the print nozzle, removing the need for a long bowden sheath.   == Printing == The design required that I modify the hotend, and extruder stepper motor bracket." ;
+    okh:licensor "Matthew Olson" ;
+    okh:repo <https://www.appropedia.org/Direct_drive_extrusion_hot_end_for_flexible_materials> ;
+    okh:repoHost "www.appropedia.org" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-3.0> ;
+    okh:technologyReadinessLevel otrl:Otrl3 ;
+    okh:uploadMethod "manifest-script" ;
+    okh:version "71" ;
+    okh:versionOf <https://www.appropedia.org/Direct_drive_extrusion_hot_end_for_flexible_materials> .
+

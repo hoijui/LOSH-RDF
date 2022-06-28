@@ -1,0 +1,20 @@
+@prefix : <https://www.appropedia.org/ECM_-_Energy_efficient_power_supplies_for_desktop_computer/22/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Project a okh:Module ;
+    rdfs:label "ECM_-_Energy_efficient_power_supplies_for_desktop_computer" ;
+    okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl1 ;
+    okh:function """This ECM can be used to determine the financial and energy savings derived from replacing a computer's old power supply with a new power supply that is more energy efficient. The goal is to reduce electricity consumption of the devices that are critical for conducting business, without changing their function, capacity or capabilities.   == ECM Inputs == The construction of this calculator is quite simply, based on the following inputs:  Number of computers used by the organization Computer power rating (found on the power supply's case) Hours per day the computer is powered "on" Current power supply efficiency (may be available from the manufacturer) User "type" (i.e. light, medium, heavy or 'power' user)   == ECM Assumptions == The following assumptions are used in the calculator:  Values for grid emissions, expressed in kg/kWh generated. Electricity cost, expressed in $/kWh (can be updated; contact your local utility provider for more information) 15 different high-efficiency power supplies, each with a power rating cost and efficiency.
+saving energy""" ;
+    okh:licensor "Matthew Urquhart" ;
+    okh:repo <https://www.appropedia.org/ECM_-_Energy_efficient_power_supplies_for_desktop_computer> ;
+    okh:repoHost "www.appropedia.org" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl1 ;
+    okh:uploadMethod "manifest-script" ;
+    okh:version "22" ;
+    okh:versionOf <https://www.appropedia.org/ECM_-_Energy_efficient_power_supplies_for_desktop_computer> .
+

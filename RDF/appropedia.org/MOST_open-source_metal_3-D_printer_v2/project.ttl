@@ -1,0 +1,19 @@
+@prefix : <https://www.appropedia.org/MOST_open-source_metal_3-D_printer_v2/36/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Project a okh:Module ;
+    rdfs:label "MOST_open-source_metal_3-D_printer_v2" ;
+    okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl1 ;
+    okh:function "For the first version see open-source metal 3-D printer (This is actually version 3, although we use two - this is better so start here)   == BOM and Blue Prints == https://osf.io/ytvgm/ (includes OpenSCAD, STLs and BOM)   == Software == Franklin Slicer and process improvements for open-source GMAW-based metal 3-D printing - better 3D Metal Printing Slicer Plugin Open Source Arc Analyzer: Multi-Sensor Monitoring of Wire Arc Additive Manufacturing   == Applications == Integrated Voltage—Current Monitoring and Control of Gas Metal Arc Weld Magnetic Ball-Jointed Open Source 3-D Printer   == See also == Applications of Open Source GMAW-Based Metal 3-D Printing Substrate Release Mechanisms for Gas Metal Arc Weld 3D Aluminum Metal Printing - how to get your print off the substrate with a hammer Low-cost Open-Source Voltage and Current Monitor for Gas Metal Arc Weld 3-D Printing Hypoeutectic Aluminum–Silicon Alloy Development for GMAW-Based 3-D Printing Using Wedge Castings Open-source Lab Open source 3-D printing of OSAT Life-cycle economic analysis of distributed manufacturing with open-source 3-D printers Environmental impacts of distributed manufacturing from 3-D printing of polymer components and products Building research equipment with free, open-source hardware Delft University of Technology - MIG+ Prusa I3 Weld 3D - 1st commercial spin off (appears dead, see archived copy) see literature on \"wire arc additive manufacturing\" (WAAM) Mini Metal Maker- 3D printer designed specifically for metal clay which is then fired - $25 build instructions so quasi open source 3D Metal Printing Slicer Plugin In Situ Formation of Substrate Release Mechanisms for Gas Metal Arc Weld Metal 3-D Printing Integrated Voltage—Current Monitoring and Control of Gas Metal Arc Weld Magnetic Ball-Jointed Open Source 3-D Printer Aluminum substrate cleaning for 3-D printing:MOST Using an inverse delta to wax print for metal casting   == Notes for Users ==   === Background on the system === For the all metal delta-based printer, the drive mechanism utilized three NEMA17 stepper motors (5.5 kg-cm torque) with lead screws integrated into their shafts, requiring no couplings between the motors and lead screws. The trapezoidal-threaded lead screws had a 5 mm pitch and were 300 mm in length. The three motors were arranged vertically on a 394 mm circle, spaced 120° apart. In general, the 3-axis stage was based upon an industrial delta robot design commonly used for pick-and-place operations, except allowing for greater movement in the z-direction. Control was provided by an Arduino-based controller." ;
+    okh:licensor "Joshua M. Pearce" ;
+    okh:repo <https://www.appropedia.org/MOST_open-source_metal_3-D_printer_v2> ;
+    okh:repoHost "www.appropedia.org" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-4.0> ;
+    okh:technologyReadinessLevel otrl:Otrl1 ;
+    okh:uploadMethod "manifest-script" ;
+    okh:version "36" ;
+    okh:versionOf <https://www.appropedia.org/MOST_open-source_metal_3-D_printer_v2> .
+

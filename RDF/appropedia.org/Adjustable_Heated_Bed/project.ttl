@@ -1,0 +1,19 @@
+@prefix : <https://www.appropedia.org/Adjustable_Heated_Bed/86/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Project a okh:Module ;
+    rdfs:label "Adjustable Heated Bed" ;
+    okh:documentationLanguage "en" ;
+    okh:documentationReadinessLevel otrl:Odrl1 ;
+    okh:function "Normally PCB Heated Bed draws about 10 amps of current. We need a lot of power and a big power supply for that, which is a big problem in 3-D Printing. Sometimes we are printing only small parts, so we don't need the whole bed heated up. This is what i am trying to do, so we don't need the whole bed heated up when printing something small. I am making an adjustable heated bed that we could adjust to heat only the parts that we want to print on." ;
+    okh:licensor ". Handy Chandra" ;
+    okh:repo <https://www.appropedia.org/Adjustable_Heated_Bed> ;
+    okh:repoHost "www.appropedia.org" ;
+    okh:spdxLicense <https://spdx.org/licenses/CC-BY-SA-3.0> ;
+    okh:technologyReadinessLevel otrl:Otrl3 ;
+    okh:uploadMethod "manifest-script" ;
+    okh:version "86" ;
+    okh:versionOf <https://www.appropedia.org/Adjustable_Heated_Bed> .
+

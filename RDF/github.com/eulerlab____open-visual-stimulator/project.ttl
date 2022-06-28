@@ -1,0 +1,29 @@
+@prefix : <https://github.com/eulerlab/open-visual-stimulator/1.0/> .
+@prefix okh: <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/OKH-LOSH.ttl#> .
+@prefix otrl: <http://purl.org/oseg/ontologies/OTRL#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Project a okh:Module ;
+    rdfs:label "Open Visual Stimulator" ;
+    okh:documentationLanguage "en-UK" ;
+    okh:documentationReadinessLevel otrl:Odrl3 ;
+    okh:function """The open visual stimulator is a projector system that can take up to six different leds with any chosen wavelength and project images, videos, patterns.
+
+This system was developed for neuroscience research and to be used for experiments in vision.
+""" ;
+    okh:hasBoM :BillOfMaterials ;
+    okh:licensor "Andre Maia Chagas <a.maia-chagas@sussex.ac.uk>" ;
+    okh:repo <https://github.com/eulerlab/open-visual-stimulator> ;
+    okh:repoHost "github.com" ;
+    okh:spdxLicense <https://spdx.org/licenses/CERN-OHL-1.2> ;
+    okh:technologyReadinessLevel otrl:Otrl3 ;
+    okh:uploadMethod "manifest-script" ;
+    okh:version "1.0" ;
+    okh:versionOf <https://github.com/eulerlab/open-visual-stimulator> .
+
+:BillOfMaterials a okh:BoM ;
+    rdfs:label "BillOfMaterials of Open Visual Stimulator 1.0" ;
+    okh:fileFormat "" ;
+    okh:fileUrl <https://elifesciences.org/articles/48779#table2> ;
+    okh:permaURL <https://elifesciences.org/articles/48779#table2> .
+

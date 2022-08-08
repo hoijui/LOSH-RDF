@@ -1,0 +1,23 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3"
+function = "Inching closer to perfection.\r\n\r\nThis thing is an update to the revoloids library.\r\n\r\nThis time around, I've gotten the normals calculated correctly, so that a 'shell_extrude' can be performed.  So, now there are two methods in the revoloids.scad file: linear_extrude_revoloid, shell_extrude_revoloid\r\n\r\nThe first one will 'intrude' towards the center of rotation.  that's a nice valid way of doing things, but the ends must be relatively flat or things will get messed up.\r\n\r\nThe shell_extrude, which is new here, will 'do the needful' and extrude inward, or outward, based on the normals at the points on the curves (circule, and cubic curve).  That's useful in some cases, and you'll get a uniform thickness across the piece.\r\n\r\nThere's some nice 'visual debug' support, so you can see fancy colors, wireframes, normals, and the like (exhibited in the attached pictures).  And yes, it does in fact generate valid .stl files (exhibited in the attached .stl files).\r\n\r\nWhat more can be done with this?  Well, I took the opportunity to remove the implementation of the bezier surface of revolution, because it is now redundant.  I would like to do piecewise curves with C0/C1 continuity.  It's just a matter of stitching them together.  That will allow for more complex shapes.  Other than that, not much other than some more simplifications, and rotation around an arbitrary axis.  But, perhaps that can wait for a 2.0 version.\r\n\r\nStill need to work on convenient end caps\r\n\r\nUltimately I'll merge this into the Renderer.scad file\r\n\r\nBEWARE:\r\nYour ends should NOT be totally vertical \r\nHermite curves still don't come out quite correctly\r\n\r\nUPDATE: 270611\r\nI figured out my Hermite problem.  The actual problem relates to the cheap way in which I am still calculating the normal to the circle.  You absolutely MUST create your curve in the x-y plane.  It will be interesting at some point to add the ability to do it more free form, but for now, it's best if your curve is planar in the x-y"
+image = "https://cdn.thingiverse.com/renders/5b/87/33/c5/15/revoloid_shell_bezier_display_large_display_large.jpg"
+license = "CC-BY-4.0"
+licensor = "WilliamAAdams"
+name = "OpenScad Revoloids version 0.7"
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://www.thingiverse.com/thing:9623"
+software = []
+technology-readiness-level = "OTRL-4"
+upload-method = "auto"
+version = "1.0.0"
+
+[__meta]
+created-at = "2011-06-25T17:53:41+00:00"
+last-visited = "2022-02-25T11:00:02.616920+00:00"
+owner = "WilliamAAdams"
+repo = "https://www.thingiverse.com/thing:9623"
+source = "thingiverse.com"
+
+[specific-api-data]

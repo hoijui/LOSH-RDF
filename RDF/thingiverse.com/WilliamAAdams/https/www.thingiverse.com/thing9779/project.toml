@@ -1,0 +1,23 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3"
+function = "Not being able to leave well enough alone, I found that I needed to have partial surfaces of revolution.\r\n\r\nThis thing adds the ability to specify starting and ending angles for the revolution (defaults to 0 to 360).\r\n\r\nThat's kind of nice because for the simple cases where you are not intersecting with something at odd angles, you can simply generate the exact surface that you need, and call it a day.\r\n\r\nIncluded in this revision is an experiment to see if the built-in 'rotate_extrude' could do a better job of things.  Although it does play nicely with the CSG operations while viewing, it does not generate 2-manifold structures (and thus, no .stl files).  I'm thinking maybe I need to overlap surfaces or something, rather than calculating exact vertices.\r\n\r\nAt any rate, I thought of adding rotation about an arbitrary line, as a final step, but really, that's easily achieved in OpenScad, so this might be the end of the line for these routines.\r\n\r\nIsn't it amazing what can be done with OpenScad!!\r\n\r\nBlog Entry: http://williamaadams.wordpress.com/2011/07/01/revolutionary-surfaces-with-openscad/"
+image = "https://cdn.thingiverse.com/renders/57/c9/ee/fd/39/revoloid_shell_partial_bezier_display_large_display_large.jpg"
+license = "CC0-1.0"
+licensor = "WilliamAAdams"
+name = "OpenScad Revoloids version 0.8"
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://www.thingiverse.com/thing:9779"
+software = []
+technology-readiness-level = "OTRL-4"
+upload-method = "auto"
+version = "1.0.0"
+
+[__meta]
+created-at = "2011-07-01T08:43:55+00:00"
+last-visited = "2022-02-25T11:00:02.616920+00:00"
+owner = "WilliamAAdams"
+repo = "https://www.thingiverse.com/thing:9779"
+source = "thingiverse.com"
+
+[specific-api-data]

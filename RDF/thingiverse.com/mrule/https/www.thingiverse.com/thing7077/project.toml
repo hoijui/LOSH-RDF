@@ -1,0 +1,23 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3"
+function = "A quick and dirty sketch of a python clone of http://www.thingiverse.com/thing:6955\r\n\r\nTakes a function of x,y,r, and t (theta, in radians), plots it, returns it as a solid which it spits to stdout, or writes to a .scad or .stl file, depending on usage. Arguments are set toward the top of the scrip. The function is specified as a string. This script requires numpy. Comments need improvement.\r\n\r\nPython seems popular, so I'm hoping this will be stolen and modified. \r\n\r\nThere are probably still bugs in the mesh generation, I haven't even tried slicing the test object. If you spot a fix, tell me (or post a fix as your own thing).\r\n\r\nupdate : fixed generation of base polygons\r\nupdate : fixed normal orientation for .scad and .stl output\r\nupdate : fixed scaling issues, now scales part to the intended dimensions\r\nupdate : fixed some command line argument parsing\r\nupdate : OpenSCAD doesn't like the .stl output, but the .scad script output seems ok. Probably some problem with specifying the normals."
+image = "https://cdn.thingiverse.com/renders/99/e1/12/47/09/test_display_large_display_large.jpg"
+license = "GPL-3.0-or-later"
+licensor = "mrule"
+name = "surf2solid.py"
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://www.thingiverse.com/thing:7077"
+software = []
+technology-readiness-level = "OTRL-4"
+upload-method = "auto"
+version = "1.0.0"
+
+[__meta]
+created-at = "2011-03-16T21:55:55+00:00"
+last-visited = "2022-02-25T11:00:02.616920+00:00"
+owner = "mrule"
+repo = "https://www.thingiverse.com/thing:7077"
+source = "thingiverse.com"
+
+[specific-api-data]

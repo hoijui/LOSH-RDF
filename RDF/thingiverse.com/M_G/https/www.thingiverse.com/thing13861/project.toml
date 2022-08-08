@@ -1,0 +1,23 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3"
+function = "An EXTREMELY poorly written attempt at making a heart shape out of a mobius strip. Using the following equation x=16sin^3(theta), y=13cos(theta)-5cos(2*theta)-2cos(3*theta)-cos(4*theta) taken from http://mathworld.wolfram.com/HeartCurve.html\r\n\r\nThere are 3 cross sectional shapes to choose from: rectangle, ellipse and pill\r\n\r\nOh, also there is code in here for a standard round mobius shape I used as a sanity check if you want to comment it back in... just added a variable (heart) to let you use a ring or heart shape set it to 1 or 0 respectively\r\n\r\nRendering this in openscad will take a disgraceful amount of time at present. My old crappy work computer's fan has been screaming for 15 minutes working on this.\r\n\r\nKey Variables:\r\n\r\nangular_resolution=1;//how many degrees per cross sectional shape, smaller implies higher quality, if you see gaps between the segments of your model  decrease this or increase extrude_height\r\n\r\n//shapes, set a single of these items to 1 the rest 0 i.e. for ellipse shape...\r\ncs_pill_shape=0;\r\ncs_ellipse_shape=1;\r\ncs_rectangle_shape=0;\r\n\r\n//\r\nshape_dimension_a=3;//how long your cross sectional shape is\r\nshape_dimension_b=1;//how wide your cross sectional shape is\r\n\r\n//if you see gaps between the segments of your model increase this or decrease angular resolution\r\nextrude_height=0.1;"
+image = "https://cdn.thingiverse.com/renders/8a/26/b2/2e/b2/mobius_heart_display_large_display_large.jpg"
+license = "CC-BY-SA-4.0"
+licensor = "M_G"
+name = "Mobius Heart"
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://www.thingiverse.com/thing:13861"
+software = []
+technology-readiness-level = "OTRL-4"
+upload-method = "auto"
+version = "1.0.0"
+
+[__meta]
+created-at = "2011-11-22T16:09:18+00:00"
+last-visited = "2022-02-25T11:00:02.616920+00:00"
+owner = "M_G"
+repo = "https://www.thingiverse.com/thing:13861"
+source = "thingiverse.com"
+
+[specific-api-data]

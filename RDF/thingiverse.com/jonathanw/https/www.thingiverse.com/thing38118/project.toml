@@ -1,0 +1,23 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3"
+function = "# yagv - Yet Another Gcode Viewer\r\n\r\nThis is a fast 3D Gcode Viewer for Reprap-style 3D printers, in Python and OpenGL (via pyglet)\r\n\r\nIt was written since I could not find a visualizer that fitted my needs, i.e:\r\n* Load large files painlessly\r\n* Let me choose the layer to display\r\n* Color segments according to function\r\n* Show a full 3D view for better undertanding of the code.\r\n\r\n\r\nDesigned in Ubuntu Linux; Expected to work in any Linux, Windows or OS X\r\n\r\nFull code at https://github.com/jonathanwin/yagv and attached\r\n\r\n## Requires:\r\n\r\n* python 2.x (2.7.3 tested)\r\n  http://python.org/\r\n* pyglet 1.1+ (1.1.4 tested)\r\n  http://www.pyglet.org\r\n\r\n## Usage:\r\n\r\nyagv [file.gcode]\r\n* By default, open data/hana_swimsuit_fv_solid_v1.gcode if no file specified\r\n\r\n## Features:\r\n\r\n* Colors segments according to their type:\r\n  * extruding\r\n  * flying the head to the next extrusion point\r\n  * retracting filament\r\n  * restoring filament\r\n* Allows displaying layers independently to examine them.\r\n* Automagically splits the gcode into layers.\r\n* Automatic scaling to fit the window.\r\n* Zoom and rotation (Panning planned).\r\n\r\n## Issues:\r\n\r\n* Panning for close inspection not yet supported.\r\n* Retract/restore detected but invisible (0-length segments).\r\n* Designed with Slic3r output in mind, may not support other slicing programs (suggestions/patches welcome).\r\n* Some gcodes unsupported:\r\n  * G91: Set to Relative Positioning (used by some slicers)\r\n  * G20: Set Units to Inches (usage unknown) \r\n  * Arcs (G2 & G3 ?)\r\n\r\nSupplied demo gcode is a slice of http://www.thingiverse.com/thing:5176 (loaded if called with no file)\r\n\r\nSince I started this, hudbrog published his very nice GCode Analyzer/Visualizer; check it out: http://www.thingiverse.com/thing:35248"
+image = "https://cdn.thingiverse.com/renders/fe/d4/68/e4/0f/yagv-0.3b-1_display_large.jpg"
+license = "CC-BY-4.0"
+licensor = "jonathanw"
+name = "Yet Another Gcode Viewer"
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://www.thingiverse.com/thing:38118"
+software = []
+technology-readiness-level = "OTRL-4"
+upload-method = "auto"
+version = "1.0.0"
+
+[__meta]
+created-at = "2012-12-17T00:09:40+00:00"
+last-visited = "2022-03-01T11:00:10.320765+00:00"
+owner = "jonathanw"
+repo = "https://www.thingiverse.com/thing:38118"
+source = "thingiverse.com"
+
+[specific-api-data]

@@ -1,0 +1,13 @@
+okhv = "OKH-LOSHv1.0"
+name = "Open_Source_Computer_Vision-based_Layer-wise_3D_Printing_Analysis"
+repo = "https://www.appropedia.org/Open_Source_Computer_Vision-based_Layer-wise_3D_Printing_Analysis"
+version = "17"
+license = "CC-BY-SA-4.0"
+licensor = "Joshua M. Pearce"
+upload-method = "manifest-script"
+image = ["https://www.appropedia.org/w/images/thumb/c/c2/Sunhusky.png/1000px-Sunhusky.png"]
+documentation-language = "en"
+timestamp = "1650188561"
+function = "The paper describes an open source computer vision-based hardware structure and software algorithm, which analyzes layer-wise the 3-D printing processes, tracks printing errors, and generates appropriate printer actions to improve reliability. This approach is built upon multiple-stage monocular image examination, which allows monitoring both the external shape of the printed object and internal structure of its layers. Starting with the side-view height validation, the developed program analyzes the virtual top view for outer shell contour correspondence using the multi-template matching and iterative closest point algorithms, as well as inner layer texture quality clustering the spatial-frequency filter responses with Gaussian mixture models and segmenting structural anomalies with the agglomerative hierarchical clustering algorithm. This allows evaluation of both global and local parameters of the printing modes. The experimentally-verified analysis time per layer is less than one minute, which can be considered a quasi-real-time process for large prints."
+documentation-readiness-level = "ODRL-1"
+technology-readiness-level = "OTRL-1"

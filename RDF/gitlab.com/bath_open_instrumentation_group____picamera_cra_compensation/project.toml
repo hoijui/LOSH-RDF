@@ -1,0 +1,25 @@
+okhv = "OKH-LOSHv1.0"
+name = "Raspberry Pi Camera Calibration Jig"
+repo = "https://bath_open_instrumentation_group.gitlab.io/picamera_cra_compensation/"
+version = "1.0.0"
+license = "CERN-OHL-1.2"
+licensor = "ANONYMOUS"
+upload-method = "manifest-script"
+image = ["calibration_jig/assembly_instructions/images/jig_assembled.jpg"]
+documentation-language = "en"
+bom = "calibration_jig/assembly_instructions/calibration_jig.md"
+release = "https://gitlab.com/bath_open_instrumentation_group/picamera_cra_compensation/-/archive/master/picamera_cra_compensation-master.zip"
+timestamp = "1650188561"
+function = "A 3D-printed jig to uniformly illuminate the Raspberry Pi camera module's sensor, for the purpose of calibrating its response to different colours of illumination.  This enables flat-field correction, and also the unmixing of colour channels.  As the off-centre lenslet array means that (with uniform angle-of-incidence) the pixels at the edge suffer from significant crosstalk relative to the centre, correcting for varying colour response results in much truer colour representation.\nCalibrating the Raspberry Pi camera module for colour response.\nNo major health and safety issues have been identified."
+documentation-readiness-level = "ODRL-1"
+technology-readiness-level = "OTRL-3"
+user-manual = "manuscript"
+manufacturing-instructions = ["calibration_jig/assembly_instructions/calibration_jig.md"]
+
+[[software]]
+label = "Python control scripts"
+release = "https://gitlab.com/bath_open_instrumentation_group/picamera_cra_compensation/image_acquisition/"
+
+[[software]]
+label = "Arduino firmware"
+release = "https://gitlab.com/bath_open_instrumentation_group/picamera_cra_compensation/neopixel_driver"

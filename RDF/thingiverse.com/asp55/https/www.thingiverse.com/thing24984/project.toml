@@ -1,0 +1,23 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3"
+function = "(NOTE: this is version 0.1. I really don't recommend using it. Instead, use the finalized v1.0 Putting this up more for record keeping purposes than anything else.)\r\n\r\nThis ISP is based on Using an Arduino as an AVR ISP[http://arduino.cc/en/Tutorial/ArduinoISP].\r\n\r\nI was elated when the Arduino as ISP sketch was released. I spent about a year with a breadboarded version using zif socket and a nest of wires, bypassing the Arduino bootloader and burning my sketches straight to the chip. It didn't take long for this breadboard setup to become a cumbersome chore, so I decided to make a dedicated pcb to handle it.\r\n\r\nSome mistakes in this first version: \r\n\r\n1) Because I'd been using a breadboarded Arduino as my source ISP, I hadn't accounted for auto-reset, so you either have to disable it on the board, or jump the Reset pin to 5V with a 100Î© resistor.\r\n\r\n2) While I was using a ZIF socket on the breadboard, I didn't use the right component in the PCB design, so the holes were to narrow to use it.\r\n\r\nThese issues were all addressed in v0.2 (now v1.0)."
+image = "https://cdn.thingiverse.com/renders/81/64/90/b6/e2/IMG_2010_display_large_display_large.jpg"
+license = "CC-BY-SA-4.0"
+licensor = "asp55"
+name = "Arduino as ISP Shield v0.1"
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://www.thingiverse.com/thing:24984"
+software = []
+technology-readiness-level = "OTRL-4"
+upload-method = "auto"
+version = "1.0.0"
+
+[__meta]
+created-at = "2012-06-15T14:20:12+00:00"
+last-visited = "2022-02-27T11:00:04.378619+00:00"
+owner = "asp55"
+repo = "https://www.thingiverse.com/thing:24984"
+source = "thingiverse.com"
+
+[specific-api-data]

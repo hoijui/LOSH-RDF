@@ -1,0 +1,23 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3"
+function = "Continuing the madness...  I was getting laughed at in my Design 101 class, so the only way I thought of to silence the other kids was to come out with my SuperShapes!\r\n\r\nAfter having done the previous SuperEllipse work, it was just a matter of time before the formulas came knocking at my door wanting to be implemented.\r\n\r\nThis thing implements the SuperFormula (muwaaahhhaahaaahaaa)!!\r\n\r\nWhat the heck is that?  Best thing is to take a look at the pretty pictures at this web site: http://paulbourke.net/geometry/supershape3d/\r\n\r\nIf you're really a math nutter, then take a look at the math as well.  It's actually not that complicated.  The complication here is just turning the formula into something that can be dealt with by OpenScad.  In particular, making sure the thing turns out to be 2-manifold, so that you can actually generate .stl files and print the results, therein lies the rub.\r\n\r\nThe supershape.scad files contains two rotines of interest:\r\nRenderSuperShape2D() - This takes the definition of a single supershape, and renders the curve of that supershape in 2D, using wireframe.  With this single routine, you can go to the wiki entry for Superfomula (http://en.wikipedia.org/wiki/Superformula) and plug in the various numbers, and see pretty pictures.\r\n\r\nRenderSuperShape() - This takes two supershape definitions (one modulates the other), and renders real pretty pictures.  You can look at the Paul Bourke site to get very interesting parameters to plug into that one.\r\n\r\nAnother source of parameters might be POVRay files.\r\n\r\nThat's enough for a Friday post I think.\r\n\r\nBut wait, there's more...\r\n\r\nYou also get the procedural texture mapping checkerboard pattern, thrown in for free.  What is procedural texture mapping?  Well, instead of using a bitmap to represent the different colors (or heights) on an object, you can just call a routine and ask it for the color at a particular position.  No fus, no muss, no arrays to slow you down!  At any rate, it's just a little hidden gem.\r\n\r\nThis code is public domain.  I figure having such a nice routine freely available might encourage people to make some very interesting shapes.\r\n\r\nChallenge:  How the heck do you get OpenScad to display in wireframe, and with a fade on the other colors?\r\n\r\nUPDATE: 22102011\r\nAdded the tristar.stl file.  This was an experiment in rendering the 2D shapes with faces, and not just wireframes, then using them with CSG operations.  The result is of course a deadly weapon once rendered in hardened steel and sharpened."
+image = "https://cdn.thingiverse.com/renders/72/40/16/a0/ad/fadedwire_display_large_display_large.jpg"
+license = "CC0-1.0"
+licensor = "WilliamAAdams"
+name = "SuperShapes in OpenScad"
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://www.thingiverse.com/thing:12770"
+software = []
+technology-readiness-level = "OTRL-4"
+upload-method = "auto"
+version = "1.0.0"
+
+[__meta]
+created-at = "2011-10-21T17:18:24+00:00"
+last-visited = "2022-02-25T11:00:02.616920+00:00"
+owner = "WilliamAAdams"
+repo = "https://www.thingiverse.com/thing:12770"
+source = "thingiverse.com"
+
+[specific-api-data]

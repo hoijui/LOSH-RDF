@@ -1,0 +1,23 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3"
+function = "Well, it's inevitable that there will be 3D printable analogs to just about every graphics primitive/technique in existance today.\r\n\r\nThis thing is an exploration in metaball creation using OpenScad.  What's a metaball?  In graphics, particularly ray-tracing, they're blobby objects.  That's how you get a nice muscular rendering over a skeleton, for example.\r\n\r\nAlthough be a fairly straight forward technique, they are very computationally expensive.  This implementation is the most rudimentary I could possibly come up with in 2D space.  It uses a \"granule\" approach to the rendering.  Depending on your metaball configuration, you could probably actually print one of these.\r\n\r\nHow to use it?  Right now, you can either have two balls or three balls influencing each other.  I find it very hard to go with an arbitrary number of balls without having any true variables in OpenScad.  it's also very hard because I can't figure out how to do loops within functions.  I'd like to iterate over an array of elements, and return a sum from a function.  That would be perfect.\r\n\r\nYou can't truly appreciate how very interesting this system is unless you watch an animation of successive frames.  I've included a .zip with the pictures generated from two seconds of animation.  I've also included an animated .gif which I created using this site: http://www.gifninja.com/\r\n\r\nAt any rate, it's about where I was when I created the first Bezier functions a few weeks back.  A few iterations from now, I should have a nice isosurface library for some metaball blobby goodness.\r\n\r\nDefinitely a work in progress, not even a 0.1 version, but I thought people might like to look at the technique."
+image = "https://cdn.thingiverse.com/renders/97/fa/5c/8d/86/frame00017_display_large_display_large.jpg"
+license = "CC-BY-4.0"
+licensor = "WilliamAAdams"
+name = "OpenScad MetaBalls!"
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://www.thingiverse.com/thing:9047"
+software = []
+technology-readiness-level = "OTRL-4"
+upload-method = "auto"
+version = "1.0.0"
+
+[__meta]
+created-at = "2011-06-04T13:41:52+00:00"
+last-visited = "2022-02-25T11:00:02.616920+00:00"
+owner = "WilliamAAdams"
+repo = "https://www.thingiverse.com/thing:9047"
+source = "thingiverse.com"
+
+[specific-api-data]

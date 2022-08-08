@@ -1,0 +1,23 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3"
+function = "After looking at the Mars Exploration Rover: http://www.thingiverse.com/thing:10057  I was inspired to do something in OpenScad that I've wanted to do for a long time.\r\n\r\nThis thing is a technique for representing and rendering your models using some arrays and 'recursion'.\r\n\r\nThere are just a couple of routines introduced, but with them, you can essentially do something like:\r\n\r\nCSG([OP_UNION, [\r\n\t\t[PRIM_CYLINDER, [2,2, 8+15+3],zero(), zero()],\r\n\t\t[PRIM_CYLINDER, [4,4, 3],zero(),zero()],\r\n\t]]);\r\n\r\nor, if you just want to do a simple part;\r\n    place_prim([PRIM_CYLINDER, [2,2, 8+15+3],zero(), zero()]);\r\n\r\nThis is not earth shattering, but it's just another tool in the text modeling arsenal.  Since the models, as well as the operations on parts, are simply represented as arrays of numbers, you can use functions to generate these, or concatenations of them.\r\n\r\nIt's kind of interesting in that the code begins to look like LISP or other array based variants.\r\n\r\nAt any rate, it's another technique.\r\n\r\nThe openscad_vm.scad file contains the actual brains.  There is a 'test_openscad_vm.scad' file that shows some test cases of all the routines.  The file \"mars_rover_vm.scad\" takes some of the interesting parts from the inspiring mars rover project, and turns them into parts appropriate for usage in the openscad VM.  The most complex object 'camera' shows how to nest CSG operations as well as primitive parts."
+image = "https://thingiverse-rerender-new.s3.amazonaws.com/renders/d8/1f/d5/25/2f/camera_display_large.jpg"
+license = "CC-BY-4.0"
+licensor = "WilliamAAdams"
+name = "OpenScad Virtual Machine - v0.1"
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://www.thingiverse.com/thing:10131"
+software = []
+technology-readiness-level = "OTRL-4"
+upload-method = "auto"
+version = "1.0.0"
+
+[__meta]
+created-at = "2011-07-17T12:39:27+00:00"
+last-visited = "2022-02-25T11:00:02.616920+00:00"
+owner = "WilliamAAdams"
+repo = "https://www.thingiverse.com/thing:10131"
+source = "thingiverse.com"
+
+[specific-api-data]

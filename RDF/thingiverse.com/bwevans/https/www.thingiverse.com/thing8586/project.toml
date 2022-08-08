@@ -1,0 +1,23 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3"
+function = "Looking for ways to rebuild my two cupcakes in the search of the uber-cupcake, I stumbled on tinkerings' hybrid pololu / makerbot stepper driver. This thing is awesome and I had to have one. But looking at it closer I thought the trace routing could be a bit better with larger traces, tighter tolerances, and I felt it needed a little more power. \r\n\r\nSo I rerouted the board, brought everything up to the top layer (dip switches would be worlds easier to adjust without taking the board off the bot), changed all the surface mount parts to 0805, and added an ATX-4 connector for a little more amperage. I also removed three of the endstop connections (because who really needs six?) to reduce the size of the board even more. Now its only a tiny bit bigger than the existing makerbot stepper drivers. With the right capacitors I still think it gets pretty good airflow under the drivers... these A4983 drivers rock and don't get too hot on the makerbot.\r\n\r\nUpdate: Everything works like a charm! The images show the cupcake after installation and even though my wiring is not fully done it makes a huge difference in the tidiness of the electronics. If my x carriage wasn't acting up the bot would be much quieter... the extruder motor is louder than the steppers.\r\n\r\nUpdate: Make sure that the belt tension is adjusted properly, as in looser than you think should even work - this was my problem with the x carriage. Then you need to dial back the current using the trimpot on the pololus until the motors move smoothly and quietly. Properly adjusted this thing is as quiet, well, as quiet as a resonant plywood box can be."
+image = "https://cdn.thingiverse.com/renders/9b/83/14/1e/30/IMG_1446_display_large_display_large.jpg"
+license = "GPL-3.0-or-later"
+licensor = "bwevans"
+name = "PSMD (Pololu Stepper Motor Driver) Triple Axis Remix"
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://www.thingiverse.com/thing:8586"
+software = []
+technology-readiness-level = "OTRL-4"
+upload-method = "auto"
+version = "1.0.0"
+
+[__meta]
+created-at = "2011-05-16T19:46:37+00:00"
+last-visited = "2022-02-25T11:00:02.616920+00:00"
+owner = "bwevans"
+repo = "https://www.thingiverse.com/thing:8586"
+source = "thingiverse.com"
+
+[specific-api-data]

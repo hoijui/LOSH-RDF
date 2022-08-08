@@ -1,0 +1,27 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3*"
+function = "A device that connects to a mqtt queue to send CO2 and TVOC data to an IoT gateway. In addition to that, there are three LEDs to show what is the current state of the air based on CO2 PPMs:\n\n    Green light is shown if there are less than 600 PPM of CO2.\n    Yellow light if there are between 600 and 800 PPM.\n    Red when the CO2 is greater than 800."
+license = "CERN-OHL-1.2"
+licensor = "Guillermo Amat Gomariz"
+name = "CO2 Detector"
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://certification.oshwa.org/es000019.html"
+software = []
+upload-method = "auto"
+version = "1.0.2"
+
+[__meta]
+last-visited = "2022-02-27T01:02:29.643902+00:00"
+owner = "guillermo-amat-gomariz"
+repo = "es000019"
+source = "oshwa.org"
+
+[specific-api-data]
+additionalType = [ "Electronics",]
+certificationDate = 2021-01-08T00:00:00-05:00
+country = "Spain"
+documentationLicense = "CC 0"
+hardwareLicense = "CERN"
+primaryType = "IOT"
+softwareLicense = "Apache"

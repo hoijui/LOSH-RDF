@@ -1,0 +1,23 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3"
+function = "This is a simple stepper mounting bracket, generated to your exact specifications.\r\n\r\nThis model is not interesting.  HOWEVER, the .scad file IS interesting!\r\n\r\nIf you are an OpenSCAD user, put on your thinging cap and let me take you back to thingiversity.\r\n\r\nOpenSCAD supports minkoski sums.  This is basically taking one shape, and moving it all along the perimeter of another shape, to get a new shape.  This is a brilliant way to add tolerances and to stretch shapes without changing the features like happens with scale().\r\n\r\nImagine you have a stepper mounting hole pattern, four holes equally spaced around one large center hole.  Imagine, as is common, you'd like to add tolerances to the mount; perhaps make a sliding space.\r\n\r\nYou might imagine an easy way to do this would be to simply create the hole pattern, then extrude it's 3D shape the distance of the slide shaft.\r\n\r\nAnd that's exactly what you can do with a minkowski sum!  You just take the bolthole pattern and minkowsi() it with a cube of the dimensions you want; for example:\r\n\r\nminkowski()\r\n{\r\n  BOLTHOLE_PATTERN();\r\n  cube([10,.01,.01]);\r\n}\r\n\r\nThis will extend the bolt holes 10mm in the X direction and tolerances of .01 in the Y and Z directions.  SO... this is also the best and easiest way to add quick tolerances to your models so they overlap properly and you don't get coincident planes.\r\n\r\nHere's some more information on the theory:  http://www.cgal.org/Manual/latest/doc_html/cgal_manual/Minkowski_sum_3/Chapter_main.html\r\n\r\n\r\nEnjoy!"
+image = "https://cdn.thingiverse.com/renders/9a/26/dc/5a/7e/20110220_011_display_large_display_large.jpg"
+license = "BSD-4-Clause "
+licensor = "ScribbleJ"
+name = "Parametic Simple Stepper Mount"
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://www.thingiverse.com/thing:6549"
+software = []
+technology-readiness-level = "OTRL-4"
+upload-method = "auto"
+version = "1.0.0"
+
+[__meta]
+created-at = "2011-02-20T07:27:46+00:00"
+last-visited = "2022-02-25T11:00:02.616920+00:00"
+owner = "ScribbleJ"
+repo = "https://www.thingiverse.com/thing:6549"
+source = "thingiverse.com"
+
+[specific-api-data]

@@ -1,0 +1,23 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3"
+function = "I really wanted a fully integrated solution for controlling a heated build platform, as well as for communicating with the motherboard. I also wanted to be able to use the heated build platform as a controlled hot plate in order to do surface mount reflow. I created this board to have the ability to do both. I started this several months ago, but just now was able to gather all of the parts to build it and test it.\r\n\r\nThe board is meant to control mains voltage (i.e. 120/240 VAC), and therefore uses an optically-isolated triac that is protected by a fuse. Temperature feedback is through a Type-K thermocouple being read by a MAX6675. The whole system is controlled by an ATMega328 based Arduino in a TQFP package. Feedback to the user is through a 16x2 LCD and 3 buttons. The control circuitry is powered though the 5V line on a Molex connector off of an ATX power supply.\r\n \r\nFeatures:\r\n*Controls up to 1000W of AC mains power\r\n* I2C Communications back to the motherboard\r\n*Measurable temperature range of 0 to 1024 degrees C with 2 degree accuracy\r\n*16x2 character LCD screen\r\n*Up, Down, and Select buttons\r\n*Programmed with USB-TTL cable or ISCP programmer\r\n*Arduino-based for easy coding and compatibility with other boards\r\n*AC Power is optically isolated and fused\r\n*Breakout of extra I/O pin\r\n\r\nSo far, Iâ€™ve been able to test the temperature sensor, the LCD, the buttons, and programming, but I have not been able to test the AC power yet. I should be testing that soon, but right now, use at your own risk.\r\n\r\nThe ZIP file contains the EAGLE files, Gerber production files, pictures of the board, and a Microsoft Excel file containing all of the parts, suppliers, costs, and board designators.\r\n\r\nI am considering selling this board as a kit if I get enough interest, so please tell me what you think!\r\n\r\nUPDATE: I have been using this design for several months now, and it seems to work fine. In the mean time, this design has won me the PLTW Innova Award for Imagination! http://www.pltw.org/innovaawards"
+image = "https://cdn.thingiverse.com/renders/76/ca/63/1c/6e/IMG_1968_display_large_display_large.jpg"
+license = "GPL-3.0-or-later"
+licensor = "Jeremydeath"
+name = "Heated Build Platform Controller V0.2"
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://www.thingiverse.com/thing:3538"
+software = []
+technology-readiness-level = "OTRL-4"
+upload-method = "auto"
+version = "1.0.0"
+
+[__meta]
+created-at = "2010-07-14T01:59:47+00:00"
+last-visited = "2022-02-25T11:00:02.616920+00:00"
+owner = "Jeremydeath"
+repo = "https://www.thingiverse.com/thing:3538"
+source = "thingiverse.com"
+
+[specific-api-data]

@@ -1,0 +1,21 @@
+okhv = "OKH-LOSHv1.0"
+name = "OpenFlexure Delta Stage"
+repo = "https://build.openflexure.org/openflexure-delta-stage/v1.1.0/"
+version = "1.0.0"
+license = "LicenseRef-CERN OHL"
+licensor = "Richard Bowman <rwb34@bath.ac.uk>"
+upload-method = "manifest-script"
+image = ["https://openflexure.org/assets/DeltaBlender.png"]
+documentation-language = "EN-GB"
+timestamp = "1650188561"
+function = "A delta-bot stage based on the OpenFlexure design\nThe delta stage is used for sub-micron positioning in 3D."
+documentation-readiness-level = "ODRL-1"
+technology-readiness-level = "OTRL-3"
+
+[[software]]
+label = "openflexure-microscope-server"
+release = "https://gitlab.com/openflexure/openflexure-microscope-server"
+
+[[software]]
+label = "openflexure-ev"
+release = "https://gitlab.com/openflexure/openflexure-microscope-jsclient"

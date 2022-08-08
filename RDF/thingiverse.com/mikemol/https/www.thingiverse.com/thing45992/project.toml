@@ -1,0 +1,23 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3"
+function = "OpenSCAD module library for a gaming tile system on a square grid. I mostly play Pathfinder and D&D, so I need a 1\" grid. Since everyone on Thingiverse seems to be metric, and 1\" works out to 25.4mm, the pattern set is intended to produce 26mm grid spaces. Walls themselves are 4mm thick, and set between grid spaces, not within the grid square. This is really the only way to have real physical walls for something like D&D, unless you want walls to consume entire squares.\r\n\r\nPattern set consists of \"walls\" and \"posts\". Posts are designed to sit at the ends of walls and hold them together, giving them some rigidity. I couldn't see how to have walls connect directly with each other and still keep the number of unique parts very low.\r\n\r\nThe wall module has recesses intended to receive the post module, and a protrusion on the bottom intended to be receives by a plate module. The pocket on the top is not intended to receive another wall module, but instead a thin protrusion extending from the bottom of the plates; in this way, you can construct a building or dungeon with multiple levels.\r\n\r\nThe plate module holds sockets for the wall module's bottom protrusions. They also hold smaller protrusions underneath, allowing them to be set on top of erect walls, as well as easily and loosely stacked upon one another, for storage. Plates do not (and should not) strongly plug into anything they're set upon; this should allow them to be easily lifted off of whatever they're set on without accidentally pulling on or dismantling anything underneath.\r\n\r\nThe plates also have round indentations on them. These are intended to allow the placement of furniture-style items.\r\n\r\nThere are only a few remaining things to do before I consider this Thing complete:\r\n\r\n* Code cleanup. Walls, posts, plates, examples, etc. should each be in a separate file.\r\n* Plates should have a side-ways interlocking mechanism to allow you to build larger plates out of already-printed smaller plates.\r\n* Walls need to support facades. This will be done with hook-shaped recesses, allowing facade tiles to be easily set and removed.\r\n* There may need to be a \"buttress\" wall module, for post stability on corners. I'll design it. If it proves to be unnecessary, well, great.\r\n* Plates may get round bumps added to their undersides. These will settle into the round recesses on top, to make plate stack alignment easy.\r\n* After the above are done, play testing is in order, to verify that the interfaces all work together the way I intended, and to find any design weaknesses that need to be corrected.\r\n\r\nAfter those are done, I think this Thing will be reasonably complete; it will largely be a set of libraries defining basic components. Things like large plates, long walls, windows and roof components can all be designed and uploaded as separate Things; the interfaces will have been designed, and anything that follows them should work fine.\r\n\r\nFuture Things will include:\r\n\r\n* Facades that support attaching miniatures to walls, so that climbing miniatures can be placed visually where they're thought to be.\r\n* Rooftop modules.\r\n* Doors\r\n* Windows\r\n* Long walls\r\n* Large plates\r\n* Tall walls.\r\n\r\n(At least some of these will be constructed as parametric libraries. I.e. \"make me a wall this many tiles long and this many floors high...\")"
+image = "https://cdn.thingiverse.com/renders/7c/59/3a/51/13/gridwall_display_large.jpg"
+license = "CC-BY-4.0"
+licensor = "mikemol"
+name = "Wall/Grid pattern"
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://www.thingiverse.com/thing:45992"
+software = []
+technology-readiness-level = "OTRL-4"
+upload-method = "auto"
+version = "1.0.0"
+
+[__meta]
+created-at = "2013-02-01T11:07:07+00:00"
+last-visited = "2022-03-03T11:00:02.931797+00:00"
+owner = "mikemol"
+repo = "https://www.thingiverse.com/thing:45992"
+source = "thingiverse.com"
+
+[specific-api-data]

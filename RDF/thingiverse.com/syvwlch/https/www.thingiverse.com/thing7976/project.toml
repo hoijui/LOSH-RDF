@@ -1,0 +1,23 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3"
+function = "Winner of the Pattywac Makerbot United Challenge for collaborative design: http://www.makerbot.com/blog/2011/05/16/pattywac-makerbot-united-challenge-winner/  \n\n\n\nThank you team! :-)  \n\n\n\nVideo of the first ticking powered escapement mechanism:  \n\nhttp://www.prototribe.net/vidplay/testjig2.html  \n\n\n\n___________WARNING_________  \n\n\n\nSeveral bugs have been fixed since this release, and the current tip-of-the-spear for development is a simplified 2-gear clock with only minutes and seconds.  \n\n\n\nCurrent development version to be found on git hub here:  \n\ngithub.com/syvwlch/Printable-Clock-Project  \n\n\n\nCurrent version of the 8-Gear Clock (revision D):  \n\nhttp://www.thingiverse.com/thing:8284  \n\n\n\nCurrent bleeding edge development version of the test jig:  \n\nhttp://www.thingiverse.com/thing:8275  \n\n\n\nCurrent repository for the latest version of the clockwork library:  \n\nhttp://www.thingiverse.com/thing:8155  \n\n\n\nThanks to RustedRobot for his continued assistance debugging the clock!   \n\n___________WARNING_________  \n\n\n\nThis is both a derivative of the printable clock PoC, and of my escapement library: http://www.thingiverse.com/thing:7822 . The involute gear profiles are from the MCAD library.  \n\n\n\n(EDIT: The clock got a mention by Cory Doctorow on boing boing!  \n\nhttp://www.boingboing.net/2011/04/23/model-files-for-a-wo.html )  \n\n\n\nI cleaned up the code so it would render faster, moved all the gear work into the library, and created a laidOutToPrint() module to facilitate creating the STLs of the individual parts. I included an optional print volume visualizer, so you can check every part doesn't exceed the printer's capabilities.  \n\n\n\nThe assembled() module is still fully animate-able, and I've added colors to help see if everything meshes properly.  \n\n\n\nThe clock itself now has clip-on hands, front & back frames, and most importantly, I switched to a different set of gear ratios (3.2, 3, 2.5 & 2.5) which allows for bigger shafts by keeping the ratios small.   \n\n\n\nAssuming an 80x80x80mm printing volume, you now have a bit more than 12mm (almost half an inch!) available for the overall diameter of the shaft, the two sleeves that slide over it and the necessary clearances.  \n\n\n\nI think this configuration is close to final, except for the escapement, which will need fine-tuning... but without re-printing the rest of the clock."
+image = "https://cdn.thingiverse.com/renders/5c/81/06/65/bc/Clockwork-1_display_large_display_large.jpg"
+license = "CC-BY-SA-4.0"
+licensor = "syvwlch"
+name = "Clockwork Library & Printable Clock Script"
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://www.thingiverse.com/thing:7976"
+software = []
+technology-readiness-level = "OTRL-4"
+upload-method = "auto"
+version = "1.0.0"
+
+[__meta]
+created-at = "2011-04-22T15:17:58+00:00"
+last-visited = "2022-02-25T11:00:02.616920+00:00"
+owner = "syvwlch"
+repo = "https://www.thingiverse.com/thing:7976"
+source = "thingiverse.com"
+
+[specific-api-data]

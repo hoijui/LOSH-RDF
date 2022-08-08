@@ -1,0 +1,23 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3"
+function = "Since we've started using acceleration, there hasn't really been an accurate way of calculating how long a print is going to take until you do it.  The RepRap host software averages how long each line of Gcode takes as the build is running, and then extrapolates it over the entire build.  The problem with this is it takes a long time to get an accurate average, and also the top of parts tend to have shorter lines than the bottom - leading to inaccuracies.\r\n\r\n\r\n This is a simple java program to estimate how long the gcode will take to run, taking into account accelerations.  Thus far it only calculates the time for all G1 and G28 moves, but this is the vast majority.  \r\nThe reason for starting this is I've been trying to tune my slicing preferences to optimise build speeds, but its unclear exactly how much I'm gaining without doing the print first. Also often I've found the sacrifice in quality just isn't worth the time benefit.\r\n\r\nThus far its a little quick and dirty. Its tried and tested with RepRap 5D style acceleration but *should* also be compatible with the new caruKlip accel too; you just need to tell the software which you are using in the parameters section of the code\r\n\r\nI've done a few tests and thus far its always been accurate to within a few minutes\r\n\r\nP.S. Be gentle, I'm not a programmer :D"
+image = "https://cdn.thingiverse.com/renders/62/71/d6/c7/1a/Screen_shot_2011-04-27_at_19.57.42_display_large_display_large.jpg"
+license = "LGPL-3.0-or-later"
+licensor = "rhys-jones"
+name = "Print Time Estimator"
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://www.thingiverse.com/thing:8106"
+software = []
+technology-readiness-level = "OTRL-4"
+upload-method = "auto"
+version = "1.0.0"
+
+[__meta]
+created-at = "2011-04-27T13:44:02+00:00"
+last-visited = "2022-02-25T11:00:02.616920+00:00"
+owner = "rhys-jones"
+repo = "https://www.thingiverse.com/thing:8106"
+source = "thingiverse.com"
+
+[specific-api-data]

@@ -1,0 +1,23 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3"
+function = "Watch a 4x6 - Matrix on YouTube:\r\nhttp://www.youtube.com/watch?v=DeNzGhN-fe8\r\n\r\nThis thing is a LED-Matrix ... the Cubes are 8cm x 8cm x 3cm .. the Chip for controlling the LED's is a WS2803 (get them at ebay) .. a WS2803 is a constant-current-led-driver with 18 channels .. meaning with 1 chip you can control 18 leds or 6 rgb leds.\r\nPlease note a RGB-LED is having different voltages per color ... but the same current ;-) .. so a constant current driver will ensure the voltages are automatically set by the chip .. you dont have to care about that.\r\n\r\nOkay .. this tiny Chips are SPI-Controller ... so they have a Input-CLOCK-Pin and Input-DATA -Pin ... AND best of all ;-) Clock-Out-Pin and Data-Out-Pin .. so you can chain this chip with 2 wires :-)\r\n\r\ne.g. for the 15 x 6 RGB-LED-Matrix i'am building .. a build 6 Cube-Columns ... every column is powered by one WS2803 Chip which is connected to the next column .. its quite easy to build a giant LED-Matrix with this driver .. please notice .. a LED is max. requiring 20ma so in my scenario i'am using    15*6 Leds => 90 LEDs each LED will require current ;-) so you need a pretty strong power-source (5v @ 6a)\r\n\r\nFor controlling the WS2803 i'am using a simple Arduino UNO (you can use any other microcontroller you like .. Picunio .. stm32...)\r\n\r\nAt the Bottom of every column i am mounting a \"electronics cube\" for the ws2803 circuit .. the cubes are having wiring holes ... one led-mount (you need cooling to get the correct diameter) and a option to use cable ties .... i used a glue gun.\r\n\r\n*** For the WS2803 you ned RGB-LEDs with same ANODE (+) ***\r\n\r\n*** The WS2803 is a PWM-Driver so you can dim every led with 8 bit (0..255) ***\r\n\r\n*** The photos are showing the back-side of the cubes ;-)\r\n\r\n*** Power-Source Notes: \r\n\r\nLED[r?] 2,2v * 20ma => 0,044 Watt per Channel\r\nLED[g?] 3,3v * 20ma => 0,066 Watt per Channel\r\nLED[b?] 3,4v * 20ma => 0,068 Watt per Channel\r\nLED                => 0,79  Watt per LED\r\n\r\ne.g. 6x6 Matrix => 36 RGB-LEDs (108 Channels)\r\n\r\n36 RGB-LEDs * 0,79W => 28,44 Watt + ICs + Microcontroller + Doubled-Security ..\r\nLets say a 60 Watt Power-Source should be fine in this case .. however .. do our own calculations ;-) .."
+image = "https://cdn.thingiverse.com/renders/42/ab/62/12/32/DSCF3495_display_large.jpg"
+license = "CC-BY-SA-4.0"
+licensor = "Dorty"
+name = "Scalable-RGB-LED-Matrix"
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://www.thingiverse.com/thing:37121"
+software = []
+technology-readiness-level = "OTRL-4"
+upload-method = "auto"
+version = "1.0.0"
+
+[__meta]
+created-at = "2012-12-08T22:41:33+00:00"
+last-visited = "2022-03-01T11:00:10.320765+00:00"
+owner = "Dorty"
+repo = "https://www.thingiverse.com/thing:37121"
+source = "thingiverse.com"
+
+[specific-api-data]

@@ -1,0 +1,23 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3"
+function = "I wanted to print the Archimedean Solids before doing the Catalans, thing:17137, but it was not possible at that time. Two lists are required to make an openSCAD polygon command: 1) a list of vertices and 2) a list of triangles which connect the vertices to make the surface.  For many polyhedra the netlib library has a list of vertices and a list of faces; my program converts the list of faces to a list of triangles.  However the netlib library does not have vertex or face information for the Archimedean Solids.\r\n\r\nArchimedean vertices are available from Wikipedia and\r\nI decided to revise my code so that only vertices are required. I changed my fortran program to work in two steps.  In step one it produces a set of vertices for an Archimedean solid scaled to\r\nmimic a cage molecule. The scaled vertices are input into a molecular modeling program. I used VMD from the University of Illinois. VMD shows the polyhedron as a wire frame model with labeled vertices.  I then made,  by inspection, a list of faces to be input into the second step of the program. Output is a polyhedron command.  It looks possible to program the whole process but as only 13 solids were involved I chose to use my existing code and identify the faces by hand.\r\n\r\nThe time spent looking at wire frame models made me realize how nice they look and how little material would be necessary to print them. Then I came across the truncated icosahedron - ah the Buckyball - see thing 12675.  The 60 atoms of the Buckyball fit onto the 60 vertices of the truncated icosahedron.  All of the edges of an Archimedean polyhedron have the same length so one could use the Buckyball program to make ball and stick and wire frame models of all of the Archimedean solids.\r\n\r\nThe complete set of hollow Archimedean stl files is in hollow_archimedean_stl.zip and the scad files used to produce them are in hollow_archimedean_scad.zip. Note that errors are always possible.\r\n\r\nAll 13 files produced attractive models.  The maximum dimension is about 50 mm so as to print quickly but scaling up should be possible. Six of my favorites are included as stl files (see images) :\r\nhollow_cuboctohedron.stl\r\nhollow_trunc_octahedron.stl\r\nhollow_rhombi_cuboctohedron.stl\r\nhollow_icosidodecahedron.stl\r\nhollow_trunc_dodecahedron.stl\r\nhollow_trunc_icosahedron.stl"
+image = "https://cdn.thingiverse.com/renders/04/5c/cb/fa/48/image1_display_large_display_large.jpg"
+license = "CC-BY-4.0"
+licensor = "pmoews"
+name = "Hollow Polyhedra - Archimedean Solids"
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://www.thingiverse.com/thing:17571"
+software = []
+technology-readiness-level = "OTRL-4"
+upload-method = "auto"
+version = "1.0.0"
+
+[__meta]
+created-at = "2012-02-14T00:07:18+00:00"
+last-visited = "2022-02-25T11:00:02.616920+00:00"
+owner = "pmoews"
+repo = "https://www.thingiverse.com/thing:17571"
+source = "thingiverse.com"
+
+[specific-api-data]

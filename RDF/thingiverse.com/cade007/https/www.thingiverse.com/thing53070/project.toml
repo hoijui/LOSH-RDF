@@ -1,0 +1,23 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3"
+function = "This is a logo of one of my buddies companies that I think is pretty cool.  I've also engraved this logo onto some business card holders with a CNC machine I have.  It was my first real tracing type design in blender.  I was having issues with the blender stl model getting the plate to be seen by Slic3r.  I'll describe best I can and maybe someone can shed some light on why I was having issues.  I created the DICE logo with bezier curves in blender and then just extruded, which seemed simple enough.  At that point I had an extrusion of just the logo and that model exported fine.  I wanted the logo to be on a plate so I can use it for a keychain so in blender, I just used a cube and transformed it to the right dimensions to create a plate for the logo, then positioned it so it was intersecting the logo.  From that I just exported an stl model.  I looked at it in meshlab and it looked perfect with the plate, but then when I bring that same stl file into Slic3r the plate was missing.  Not sure exactly what versions I'm using, but I can look into that.  I'm pretty new at this so maybe it's just a Slic3r issue.  I didn't try any other slicing tool.  \r\n\r\nTo get this to work I had to pull in the model into repetier host (I'm using a Solidoodle 2 with repetier host) and pull in another cube.  Then I transformed the cube again just like I did in blender to make a thin plate and put that underneath the DICE logo.  I then exported that STL model, which is the one I uploaded and that printed just fine with the plate.  I didn't know you could combine models like that through repetier host, it can be pretty useful for quick fixes.  I would also love to be able to punch holes in stl models using repetier host, but I haven't figured that out yet."
+image = "https://cdn.thingiverse.com/renders/32/64/51/8e/c7/IMG_3055_display_large.jpg"
+license = "CC-BY-SA-4.0"
+licensor = "cade007"
+name = "DICE Logo "
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://www.thingiverse.com/thing:53070"
+software = []
+technology-readiness-level = "OTRL-4"
+upload-method = "auto"
+version = "1.0.0"
+
+[__meta]
+created-at = "2013-02-22T17:09:53+00:00"
+last-visited = "2022-03-05T11:00:09.742500+00:00"
+owner = "cade007"
+repo = "https://www.thingiverse.com/thing:53070"
+source = "thingiverse.com"
+
+[specific-api-data]

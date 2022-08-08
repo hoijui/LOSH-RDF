@@ -1,0 +1,13 @@
+okhv = "OKH-LOSHv1.0"
+name = "Hinges"
+repo = "https://www.appropedia.org/Hinges"
+version = "69"
+license = "CC-BY-SA-3.0"
+licensor = "ANONYMOUS"
+upload-method = "manifest-script"
+image = ["https://www.appropedia.org/w/images/thumb/9/95/DoorHinge.jpg/1000px-DoorHinge.jpg"]
+documentation-language = "en"
+timestamp = "1650188561"
+function = "== Bill of Materials == PLC Plastic 32 grams Screws Bolt File:DoorFastener.stl File:DoorHinge.stl   == Tools needed == MOST Delta RepRap or similar RepRap 3-D printer PLC Plastic Mounting Screws   == Technical Specifications and Assembly Instructions == Load the files in Openscad Will have to edit these one at a time Change the parameters to what will suit your needs hinge_scale: changes the size of your door hinge (minimum accepted value is 1, creating a door hinge with dimensions 0.236\" x 0.4409\" or 6mm x 11.2mm) screw_radius: radius for the screws for your door ensure that the screw sizes are smaller than your hinge dimensions door_pin: the pin radius for your connector (needs to be same for both files!) door_width: the hinge width (recommended to be same for both files for efficient operations) Compile and export as STL Open up Cura In Cura load the STL model Create as GCode Open Up RepetierHost Load the GCode, print (est. 1 hour total)   === Common Problems and Solutions === May want to consider not using exact spacing for the two hinges. If the printer is not calibrated exactly, then the hinges will have a lot of friction, or may cause trailing and may not fit together properly.  May want to consider adding to the two hinge parts a C style clamp option, if good screws are not possible to come by for the user. This would allow them to simply require the seven bolts or pins to fasten the door to the hinge."
+documentation-readiness-level = "ODRL-1"
+technology-readiness-level = "OTRL-3"

@@ -1,0 +1,23 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3"
+function = "This OpenSCAD script provides modules for both Spur and Bevel Gears. It has some major enhancements over my original gear script http://www.thingiverse.com/thing:3534. It uses some of the spur gear nomenclature code from TheOtherRob http://github.com/TheOtherRob/MCAD with my own code for generating the involute teeth. The bevel gear is also my own work. Thanks also to elmom for some enhancements to my original gear script http://www.thingiverse.com/thing:3547.\r\n\r\nEnhancements include the Bevel gear module, backlash settings, parameterised number of facets for the involute curve and whole of tooth generation to avoid some of the issues the original script had when mirroring a half tooth.\r\n\r\nThe STLs provided are not intended for direct use, but instead show examples of what can be done with the parametric script.\r\n\r\nParametric Involute Spur Gears take the following parameters:\r\nnumber_of_teeth\r\ncircular_pitch or diametral_pitch: controls the size of the teeth (and hence the size of the gear).\r\npressure_angle: controls the shape of the teeth.\r\nclearance: The gap between the root between teeth and the teeth point on a meshing gear.\r\ngear_thickness: the thickness of the gear plate.\r\nrim_thickness: the thickness of the gear at the rim (including the teeth).\r\nrim_width: radial distance from the root of the teeth to the inside of the rim.\r\nhub_thickness: the thickness of the section around the bore.\r\nhub_diameter\r\nbore_diameter: size of the hole in the middle\r\ncircles: the number of circular holes to cut in the gear plate.\r\nbacklash: the space between this the back of this gears teeth and the front of its meshing gear\\\\\\'s teeth when the gear is correctly spaced from it.\r\ntwist: for making helical gears.\r\ninvolute_facets: the number of facets in one side of the involute tooth shape. If this is omitted it will be 1/4 of $fn. If $fn is not set, it will be 5.\r\n\r\nParametric Involute Profile Bevel (Conical) Gears take the following parameters:\r\n\tnumber_of_teeth\r\n\tcone_distance: The distance from the pitch apex to the outside pitch diameter.\r\n\tface_width: The length of the teeth.\r\n\toutside_circular_pitch: The circular pitch at the outside pitch diameter.\r\n\tpressure_angle: Defines the shape of the teeth.\r\n\tclearance: Gap between the tip of the teeth on one gear and the root of the teeth on another meshing gear.\r\n\tbore_diameter: The size of the hole in the middle.\r\n\tgear_thickness: The thickness of the gear for bevel_gear_back_cone finish (see below). \r\n\tbacklash: Makes the tooth width smaller to make a gap between teeth of correctly spaced gears to allow for manufacturing tolerances.\r\n\tinvolute_facets: As for spur gears.\r\n\tfinish: Specify either bevel_gear_flat(0) or bevel_gear_back_cone(1). If you don't specify this parameter you will get a flat gear for pitch angles less than 45 degrees and a back cone gear for pitch angles greater than 45 degrees. The example shows both with the small gear being the flat one.\r\n\r\nUpdate: v5.0 Implements backlash for bevel gears (This was not working in v4.0)."
+image = "https://thingiverse-rerender-new.s3.amazonaws.com/renders/dc/41/c3/32/89/bevel_gear_pair_display_large.jpg"
+license = "LGPL-3.0-or-later"
+licensor = "GregFrost"
+name = "Parametric Involute  Bevel and Spur Gears"
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://www.thingiverse.com/thing:3575"
+software = []
+technology-readiness-level = "OTRL-4"
+upload-method = "auto"
+version = "1.0.0"
+
+[__meta]
+created-at = "2010-07-19T02:00:41+00:00"
+last-visited = "2022-02-25T11:00:02.616920+00:00"
+owner = "GregFrost"
+repo = "https://www.thingiverse.com/thing:3575"
+source = "thingiverse.com"
+
+[specific-api-data]

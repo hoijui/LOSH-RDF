@@ -1,0 +1,23 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3"
+function = "I've been thinking on OpenScad libraries and tutorials of late, and in the process discovering more of what OpenScad can and can not do.  Sometimes there are gems that I had not seen before, and I have a 'smack my forehead' aha moment.\r\n\r\nThis thing is a little bit of a tutorial on how to do rounded corners on things using the 'hull()' builtin module.\r\n\r\nI derived from this other thing because although there is already a 'boxes.scad' that comes with the standard OpenScad, it shows that there's more than one way to skin a box.\r\n\r\nThe 'hull()' method basically fills out a convex hull based on the points that are layed out in 2D.  In the case of a rectangle, you can essentially just place circles at the corners, and use the hull() with a linear_extrude(), and you've got your rounded rectangle thing.\r\n\r\nmodule roundedRect(size, radius)\r\n{\r\n    x = size[0];\r\n    y = size[1];\r\n    z = size[2];\r\n\r\n    linear_extrude(height=z)\r\n    hull()\r\n    {\r\n        // place 4 circles in the corners, with the given radius\r\n        translate([(-x/2)+(radius/2), (-y/2)+(radius/2), 0])\r\n        circle(r=radius);\r\n\t\r\n        translate([(x/2)-(radius/2), (-y/2)+(radius/2), 0])\r\n        circle(r=radius);\r\n\t\r\n        translate([(-x/2)+(radius/2), (y/2)-(radius/2), 0])\r\n        circle(r=radius);\r\n\t\r\n        translate([(x/2)-(radius/2), (y/2)-(radius/2), 0])\r\n        circle(r=radius);\r\n    }\r\n}\r\n\r\nIt's as simple as that!\r\n\r\nWhat I like about this is the flexibility.  You're not limited to rectangles.  You can layout as many little circles as you like, with any radius, and the hull() method will 'do the needful'.\r\n\r\nAnother way to do this is to use a hidden gem calls minkowski sum:\r\n\r\nmodule miniround(size, radius)\r\n{\r\n    $fn=50;\r\n    x = size[0]-radius/2;\r\n    y = size[1]-radius/2;\r\n\r\n    minkowski()\r\n    {\r\n        cube(size=[x,y,size[2]]);\r\n        cylinder(r=radius);\r\n        // Using a sphere is possible, but will kill performance\r\n        //sphere(r=radius);\r\n    }\r\n}\r\n\r\nIf you use $fn=12, then you can use the sphere, and get rounded corners all around.  Higher values will be more round, but will really take a long time to render.\r\n\r\nPersonally, I'm not totally clear on the limitations of using minkowski.  Apparently, if you tried to the it this way:\r\n\r\nmodule roundedPolygon(polypoints, paths, height, radius)\r\n{\r\n    linear_extrude(height=height, convexity=3)\r\n    hull()\r\n    for(pt = polypoints)\r\n    {\r\n        translate([pt[0], pt[1], 0])\r\n        circle(r=radius);\r\n    }\r\n}\r\n\r\nYou'd get an error related to minkowski.\r\n\r\nAt any rate, there are multiple ways to do things with OpenScad.  Even though there are many libraries available, it might prove useful to explore the possibilities anyway as you might find another way that better suits your needs and situation."
+image = "https://cdn.thingiverse.com/renders/f0/8b/29/55/59/roundedcube_display_large_display_large.jpg"
+license = "CC-BY-SA-4.0"
+licensor = "WilliamAAdams"
+name = "Round corners for Openscad - Tutorial"
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://www.thingiverse.com/thing:9347"
+software = []
+technology-readiness-level = "OTRL-4"
+upload-method = "auto"
+version = "1.0.0"
+
+[__meta]
+created-at = "2011-06-15T10:32:41+00:00"
+last-visited = "2022-02-25T11:00:02.616920+00:00"
+owner = "WilliamAAdams"
+repo = "https://www.thingiverse.com/thing:9347"
+source = "thingiverse.com"
+
+[specific-api-data]

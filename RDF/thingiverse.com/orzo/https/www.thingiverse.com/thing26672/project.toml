@@ -1,0 +1,23 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3"
+function = "The arm and bracket are recreations of the PSU Open-X Re-design in openscad.  The original re-design changed the angle from the horizontal that the arm holds the bearings from 30 to 45.  I've made that a parameter that defaults to 45.  If you change it, you'll want to change the height and shoulder parameters to adjust the position at which the bearing is held also.\r\n\r\nWith non-default parameters, you can generate the bracket as it was in the re-design, but it defaults to produce my changes:\r\n\r\n1. radius of the bracket at the top is reduced so that it won't protrude above the top of the carriage.\r\n2. the slot was replaced by a simple screw hole\r\n3. the cylindrical extension stem beside the bearing was reduced by 1 mm.\r\n4. the extension was also tapered so that it is not flush with the bearing.\r\n\r\n\r\nThe carriage is an edit of the Open-X Carriage mk2.  With non-default parameters you can generate the mk2 or the original open-x carriage, but with defaults, you get my changes to the mk2:\r\n\r\n1. one of the recesses for a screw head is removed because I attach an opto-endstop flag there.\r\n2. The interior ribs and the holes for mounting a wade extruder oriented along the x axis are removed. I prefer to have the open space rather than the mounting option.  I've added a thick curved inner wall to make up for the loss of the ribs.  Printed at 100% infill, it is very sturdy.\r\n\r\n\r\nAn additional module is provided that renders the assembled parts along with x bars and bearings.  This can be useful for visualizing the effects of your edits."
+image = "https://cdn.thingiverse.com/renders/e4/f1/15/61/9c/P1010893_display_large_display_large.jpg"
+license = "CC-BY-SA-4.0"
+licensor = "orzo"
+name = "Parameterized Open-X"
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://www.thingiverse.com/thing:26672"
+software = []
+technology-readiness-level = "OTRL-4"
+upload-method = "auto"
+version = "1.0.0"
+
+[__meta]
+created-at = "2012-07-12T05:44:05+00:00"
+last-visited = "2022-02-27T11:00:04.378619+00:00"
+owner = "orzo"
+repo = "https://www.thingiverse.com/thing:26672"
+source = "thingiverse.com"
+
+[specific-api-data]

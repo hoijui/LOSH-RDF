@@ -1,0 +1,23 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3"
+function = "This is an initial version of my idea for a replacement Cupcake xy carriage assembly.  It's designed to duplicate the functionality of a ABP, but incorporating the conveyor belt directly into the y stage.  I wanted an ABP but didn't want to replace my existing electronics and HBP with new parts (at $185).  I decided that the ideal setup would be to use existing Makerbot parts to create it.  Instead of having the stepper move the platform and use a different motor to drive the conveyor belt, this is designed to have the y axis stepper move the CONVEYOR BELT during the build, with the HBP moving only in the x axis underneath it.  When done, the end.gcode can just move the y axis to +200 to drop the piece off the front of the belt.\r\n\r\nIt has ball bearing movements and the carriage is about 15mm shorter than a normal Cupcake, providing for taller builds.\r\n\r\nIt steals parts from a Mendel (eight 624 bearings and a modified version of the 180 and 360 sleds), and it has been designed to cannibalize most parts from the existing Cupcake x and y stages (hence, the name).  It uses an HBP only modified with countersunk boltheads for a flat surface and the carriage gets stability by utilizing the old y-stage guide rods as support beams that the printed parts attach to.  The entire bed has four leveling screws, and the HBP has leveling screws on spring loaded floats, similar to a Mendel bed.  The conveyor belt is driven with 5 drive rollers, one of which has tensioner adjustments to keep the belt tight and running straight.  The various printed parts are held together with dovetail joinery, which I've used with success on other projects to make strong hardwareless connections (they can be glued together with ABS glue if more strength is needed, but I haven't had to before).\r\n\r\nUnfortunately, this is in a beta stage at this point, but I'm posting it to meet the deadline for the bearing contest.  I've printed most parts, but I messed up on the length of my HBP springs and the x-belt clamp, which I need to redesign (and aren't depicted in the renderings).  I've made my conveyor (out of .0002 PET which I bought before MBI spec'd it at .0005) and the roller assemblies (I found 3/8\"latex tubing which is super-sticky and fits on 1/4\" rod at my local home store). \r\n\r\nI have to go to work today though, so I'll be putting it together over the next few days and work out any kinks.\r\n\r\nAnyway, I created the models in OpenSCAD and designed them to be parametric, using a variety of bearing sizes or whatever thicknesses of rollers that you source at home.  I'll clean up the SCADs and post them within the week.\r\n\r\nUPDATE - Don't build it in this state.  I put one together and it has several strength-related issues.  I'm working on v3, which is a complete redesign.  I'm still hopeful it will work with modification, but I cannot recommend it at this point."
+image = "https://cdn.thingiverse.com/renders/6e/43/ba/99/76/Screen_shot_2010-10-03_at_8.35.06_AM_display_large_display_large.jpg"
+license = "LGPL-3.0-or-later"
+licensor = "randyy"
+name = "FrankenCarriage"
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://www.thingiverse.com/thing:4294"
+software = []
+technology-readiness-level = "OTRL-4"
+upload-method = "auto"
+version = "1.0.0"
+
+[__meta]
+created-at = "2010-10-03T11:39:55+00:00"
+last-visited = "2022-02-25T11:00:02.616920+00:00"
+owner = "randyy"
+repo = "https://www.thingiverse.com/thing:4294"
+source = "thingiverse.com"
+
+[specific-api-data]

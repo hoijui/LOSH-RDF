@@ -1,0 +1,23 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3"
+function = "This is a python script for generating cylindrical coordinate functions as OpenSCAD scripts. \r\n\r\nSpecify height, radial resolution, vertical resolution, wall thickness, and a twist parameter at the top of the python script. \r\n\r\nSpecify radius as a function of theta and height in a function called \"fun\" also in the script.\r\n\r\nThe archive contains a few files :\r\n-- cylindrical.py is the script\r\n-- spin.sh is an example of using inotify to automatically regenerate the .scad file every time the .py script is updates.\r\n-- various .stl outputs and some .gcode\r\n\r\nThis script solves the problem of :\r\n-- generating a surface from a cylindrical function\r\n-- generating a constant-thickness wall for most reasonable curves\r\n-- a polygon function for plotting polygons in polar coordinates ( can be used to interpolate between polygons or other shapes )\r\n\r\nThis script is good for :\r\n-- interpolating between different shapes along the cylinder with rotation\r\n-- generating procedurally generated forms more quickly than composition in OpenSCAD\r\n\r\nThe script can now write STLs directly and can be configured to output solid objects or objects with a solid bottom. If a .stl filename is given as the first command line argument, the script will save to that file, otherwise it will print to standard out. Python also attempts to automatically call meshlab if it is installed to display the rendered result. If a .scad filename is given as the command line argument, an OpenSCAD script will be written and meshlab will not be launched."
+image = "https://cdn.thingiverse.com/renders/a2/c0/80/84/17/DSCF2854_display_large_display_large.jpg"
+license = "LGPL-3.0-or-later"
+licensor = "mrule"
+name = "Cylindrical Functions Script"
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://www.thingiverse.com/thing:6465"
+software = []
+technology-readiness-level = "OTRL-4"
+upload-method = "auto"
+version = "1.0.0"
+
+[__meta]
+created-at = "2011-02-16T19:14:58+00:00"
+last-visited = "2022-02-25T11:00:02.616920+00:00"
+owner = "mrule"
+repo = "https://www.thingiverse.com/thing:6465"
+source = "thingiverse.com"
+
+[specific-api-data]

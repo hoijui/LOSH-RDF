@@ -1,0 +1,23 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3"
+function = "**UPDATED 10 September 2014:** New documentation file `documentation-with-oshpark-links.html` which has OSH Park links for ordering circuit boards.  Removed old batchpcb.com links as batchpcb.com was sold to OSH Park. Use this file in place of the `index.html` file in the `dice.zip` file.  \r\n\r\nThis project provides four sets of plans (schematics, board layouts, etc.) for Arduino and AVR based, animated digital dice.  Also included are 3D models for printing enclosures for two of the smaller designs.  \r\nA (very non-exciting) video of the dice in action may be seen at http://youtu.be/Kp_W-V4TNko .  \r\nThe files dice.zip and dice.tar.gz provide the full documentation, source code, .hex files, Eagle CAD files, Gerber files for use with a fab, OpenSCAD enclosure models, rendered .stl files, etc. for the projects.  See the index.html file in the distribution for the documentation.  These materials are being distributed under the TAPR Open Hardware License, http://tapr.org/OHL .  \r\nThe projects demonstrate using the following AVR and Arduino features  \r\n* button debouncing,  \r\n* sleeping the device using power down mode,  \r\n* awakening the device from sleep with a change to a low voltage state on the INT0 pin,  \r\n* enabling and disabling the watchdog timer interrupt,  \r\n* software PWM using a timer/counter compare interrupt, and  \r\n* implementing simple (i.e., non-precise) timed delay functions.  \r\nThe necessary hardware is straightforward, requiring  \r\n* a microcontroller with at least eight digital I/O pins,  \r\n* seven LEDs,  \r\n* seven current limiting resistors for the seven LEDs,  \r\n* a momentary push button switch,  \r\n* a pull-up resistor for use with the push button switch,  \r\n* an optional bypass capacitor for the microcontroller, and  \r\n* a power source such as a 3V coin cell or two AAA batteries for use with an AVR microprocessor.  \r\nC language source code for AVR-GCC is provided which has been tested on an Arduino Duemilanove (ATmega328p), an ATtiny24, and an ATtiny2313. The same source code file works for all three processors and can be used as an Arduino sketch.  \r\nWhile the projects are intended for an Arduino, ATtiny24/44/84, or ATtiny2313/4313, the sources can be built for other processors (but may need changes).   The documentation also includes links for ordering individual boards from oshpark.com starting at $10.95 for  \r\nthree of the small boards (OSH Park sells in units of three just like Ramans, http://en.wikipedia.org/wiki/Rendezvous_with_Rama)."
+image = "https://cdn.thingiverse.com/renders/e8/a3/5f/4c/af/boards_display_large_display_large.jpg"
+license = "CC-BY-SA-4.0"
+licensor = "dnewman"
+name = "Animated Digital Dice w/printable enclosures"
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://www.thingiverse.com/thing:24272"
+software = []
+technology-readiness-level = "OTRL-4"
+upload-method = "auto"
+version = "1.0.0"
+
+[__meta]
+created-at = "2012-06-06T10:33:59+00:00"
+last-visited = "2022-02-27T11:00:04.378619+00:00"
+owner = "dnewman"
+repo = "https://www.thingiverse.com/thing:24272"
+source = "thingiverse.com"
+
+[specific-api-data]

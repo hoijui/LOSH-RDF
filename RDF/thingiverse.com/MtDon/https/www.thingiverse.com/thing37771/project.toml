@@ -1,0 +1,23 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3"
+function = "Print various shapes of yo-yos using the OpenSCAD script.  Both \"Imperial\" and \"Butterfly\" shaped yo-yos may be made.\r\n\r\nThe shape of the yo-yo halves are based on an ellipsoid, formed by scaling a unit radius sphere, using different scale factors for the z-axis vs the x-axis and y-axis. \r\n\r\nFaces are formed in the ellipsoid by differencing cubes, offset from the xy plane, from the ellipsoid.\r\n\r\nA hole for the yo-yo axle is formed by differencing a cylinder from the  modified ellipsoid.\r\n\r\nAll the parts and assemblies are translated so they all sit on the XY plane, and centered on x=0, y=0, except the x-sections.\r\n\r\nThere are also options for cutting a pattern into the outside faces, making large cutouts into the outside faces and cutting voids into the interior of the yo-yo halves.  Both the cutouts and voids are meant to be used to vary the moment of inertia of the yo-yo.\r\n\r\nAxles can be either printed or cut from wood dowels, metal rods, or plastic rods.\r\n\r\nYo-yos can also be rendered with both halves and the axle assembled. So there is the possibility of printing a complete yo-yo, other than the string, If you want to print a complete yo-yo, you need to set the parameters used to adjust the hole diameter and the axle length such that they do not cause the parts to be unconnected. The stl files of merged parts that I've uploaded have been made using parameter values which cause the merged parts to be connected into one solid 3D part. The merged x-sections show the unconnected parts that were modeled using the parameters used for printing separate parts, so there are small gaps between the axle and axle holes.\r\n\r\nThe yo-yos in the photos were printed on the MakerBot Replicator at TechShop Austin - Round Rock (Texas). Using black ABS plastic, 80 percent fill, and 3 shells.\r\n\r\nThis is a work in progress.  Some of the things I want to add are:  use of ball bearing axles, use of cylinders as the base shape, axles with a narrower diameter at their center than at their ends (to keep the string away from the sides), printing patterns on the inside faces of the halves to modify the friction of the inside faces.  I also want to experiment with post-processing the parts to make them smoother. I also want to write a simplified OpenSCAD script where all the parameters are input as actual values rather than as ratios and factors, and with slightly fewer choices.\r\n\r\nThe file Star01.stl is a \"centered and set on the XY plane\"  version of the star in http://www.thingiverse.com/thing:35495 .\r\n\r\nPlease play around with the different parameters and post photos of your yo-yos or yo-yo parts."
+image = "https://cdn.thingiverse.com/renders/eb/d5/c3/ea/32/3_yoyos_01_display_large.jpg"
+license = "CC0-1.0"
+licensor = "MtDon"
+name = "Parametric Yo-Yo"
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://www.thingiverse.com/thing:37771"
+software = []
+technology-readiness-level = "OTRL-4"
+upload-method = "auto"
+version = "1.0.0"
+
+[__meta]
+created-at = "2012-12-14T10:11:40+00:00"
+last-visited = "2022-03-01T11:00:10.320765+00:00"
+owner = "MtDon"
+repo = "https://www.thingiverse.com/thing:37771"
+source = "thingiverse.com"
+
+[specific-api-data]

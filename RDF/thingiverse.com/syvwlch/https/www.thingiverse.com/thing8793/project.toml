@@ -1,0 +1,23 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3"
+function = "This is the Thing page for the Screw Library I am working on. I could be talked into releasing it as Public Domain, but have left it as CC-BY-SA for now, at least until it's fully stabilized.\r\n\r\nThe latest code is available on GitHub here:\r\n\r\nhttps://github.com/syvwlch/Thingiverse-Projects/tree/master/Threaded%20Library\r\n\r\nCurrently, the library allows you to create a threaded rod with a trapezoidal profile, like the Acme or metric lead screws that are so common in CNC machines. \r\n\r\nThe trapezoidThread module creates the rod along Z, centered in X and Y, but not in Z. Same logic as cylinders with center=false. \r\n\r\nThe parameters are the following:\r\n\r\nlength\r\n// axial length of the threaded rod\r\n// used to calculate how many turns to create\r\n// the rod is NOT trimmed to this length!!!\r\n\r\npitch\r\n// axial distance from crest to crest\r\n\r\npitchRadius\r\n// radial distance from center to mid-profile\r\n\r\nthreadHeightToPitch\r\n// ratio between profile height and pitch\r\n// default value is 0.5\r\n\r\nprofileRatio\r\n// ratio between raised profile and pitch\r\n// default value is 0.5\r\n\r\nthreadAngle\r\n// angle between the two faces of the thread, in degrees\r\n// std value for Acme is 29 or for metric lead screw is 30\r\n// default value is 30\r\n\r\nRH\r\n// true if thread winds clockwise along shaft\r\n// i.e.follows the Right Hand Rule\r\n// default value is true\r\n\r\nclearance\r\n// radial clearance, normalized to thread height\r\n// default value is 0.1\r\n\r\nbacklash\r\n// axial clearance, normalized to pitch\r\n// default value is 0.1\r\n\r\nstepsPerTurn\r\n// number of facets to create per turn\r\n// default value is 24\r\n\r\nYou can create a triangular profile thread by setting profileRatio to zero, but that is cumbersome. I will create a separate module for that and add it to this page, later.\r\n\r\nUPDATE:\r\n\r\nI have added a trapezoidThreadNegativeSpace module to create a negative space of a thread with the proper clearances to screw on, as long as you give it the same parameters. It can add two chamfered holes at the entries. It takes the following parameters on top of the ones needed for trapezoidThread:\r\n\r\nlength\r\n// thickness of the part to be drilled out by this object\r\n\r\ncountersunk\r\n// depth of the 45 degree chamfers, normalized to pitch\r\n// default value is zero, no chamfer\r\n\r\nI have also added a trapezoidNut module which uses the above negative space module to create a hexagonal lead nut with the right clearances to screw onto any thread that shares the same parameters. It takes the following additional parameters:\r\n\r\nradius\r\n// outer radius of the nut"
+image = "https://cdn.thingiverse.com/renders/8a/30/a4/8b/d1/LeadScrewAndNut-02_display_large_display_large.jpg"
+license = "CC-BY-SA-4.0"
+licensor = "syvwlch"
+name = "Screw Library"
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://www.thingiverse.com/thing:8793"
+software = []
+technology-readiness-level = "OTRL-4"
+upload-method = "auto"
+version = "1.0.0"
+
+[__meta]
+created-at = "2011-05-25T16:58:00+00:00"
+last-visited = "2022-02-25T11:00:02.616920+00:00"
+owner = "syvwlch"
+repo = "https://www.thingiverse.com/thing:8793"
+source = "thingiverse.com"
+
+[specific-api-data]

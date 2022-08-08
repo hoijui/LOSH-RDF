@@ -1,0 +1,23 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3"
+function = "Structure from motion is a class of algorithms that take information about point correspondences between images and use them to reconstruct 3D scenes. While some pretty serious math is involved, no specialist hardware is required aside from a camera. \r\n\r\nWe've seen lots of structure from motion based 3D scanning solutions already this year, the best known being http://my3dscanner.com/, but all of them are closed source. This is hard to deal with when I see cool things like Qi Pan's ProFORMA software (http://www.youtube.com/watch?v=vEOmzjImsVc&fmt=22) but can't use them or look at how they work. There's been plenty of good open source innovation in laser based 3D scanners, but very little on the software side of scanning, which kind of surprises me given that software is usually the area that people think of as conducive to an open source approach. \r\n\r\nSo for my computational photography final project last semester I set out to make an open source SFM scanner in Matlab, since a lot of toolkits were already available to do the heavy math part. Unfortunately I won't have much time to work on it this summer, so I decided to release the code now to see if anyone could do anything with it. \r\n\r\nThe program starts with either user input images or input from a webcam, extracts feature points using David Lowe's SIFT, attempts to remove outliers using the MAPSAC algorithm from Philip Torr's toolkit, then uses Vincent Rabaud's toolkit to reconstruct the 3D positions of the points. From there Liugi Giaccari's implementation of the Crust algorithm is used to find a surface mesh automatically, and a function by Andreas Richter I found on the Matlab file exchange to export an STL file. The end result is that you can (theoretically) go from photo capture to STL output without any user intervention. In practice you might be better off exporting the point cloud and meshing it with Meshlab or some other program.\r\n\r\nAs of now I have only written a function to extract structure from 2 images using the normalized 8 point algorithm. I think this might require a stereo camera setup, which you might be able to approximate using just one webcam. More importantly, SIFT is not a very good detector for getting dense sets of features, and 2 images will not give you much to work with, so results as of now will be poor to unrecognizable. Fortunately all the code is pretty modular, so switching in a new feature detector or making other modifications should work fine after transposing a matrix or changing some variables. \r\n\r\nVincent's toolbox can use quite a few different methods, most of which are much better than the 8 point algorithm, but it needs either calibration data or more than 2 input images. Implementing affine and metric upgrades would be even better. I'm hopeful that this project will progress to the point where it is possible to make use of these methods, and I'll try to answer any questions anyone trying to add to what's there now might have.\r\n\r\nIf you're interested in more detail on how everything was done you can read my final project report, attached below."
+image = "https://cdn.thingiverse.com/renders/0a/de/cd/7f/f8/pointcloud_display_large_display_large.jpg"
+license = "GPL-3.0-or-later"
+licensor = "wstrinz"
+name = "SFM Scanner"
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://www.thingiverse.com/thing:8885"
+software = []
+technology-readiness-level = "OTRL-4"
+upload-method = "auto"
+version = "1.0.0"
+
+[__meta]
+created-at = "2011-05-28T17:05:07+00:00"
+last-visited = "2022-02-25T11:00:02.616920+00:00"
+owner = "wstrinz"
+repo = "https://www.thingiverse.com/thing:8885"
+source = "thingiverse.com"
+
+[specific-api-data]

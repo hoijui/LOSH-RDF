@@ -1,0 +1,23 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3"
+function = "This is adopted version of cliffords gear generator. Some format statements were changed, to run also on old versions of python, also the visual display part was removed.\r\nMake the file executeable, and it should run on the slightly outdated ubuntu hardy, that is necessary to run the free cnc-controller software emc2.\r\ngeargen_hardy is just this version\r\n\r\nhowever, gearsgcode.py is an advanced script, that will also create a ngc gcode file.\r\nit is parameterized.\r\nIt has cutter compensation enabled. Therefore, you need to have a valid tooltable in emc2. Also, you need to make the parameter #5 a little bit larger than the tool radius, so the initial move works.\r\nIf the tool radius is too large for the dents, emc2 will complain.\r\nAlso, it is recommended that the clearance specified via -c is larger then the tool radius, so there is no friction in the groves."
+image = "https://cdn.thingiverse.com/renders/ca/fe/53/ea/b8/cuttercompensation_display_large_display_large.jpg"
+license = "GPL-3.0-or-later"
+licensor = "bkubicek"
+name = "DXF and GCode- generator for involute gears"
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://www.thingiverse.com/thing:1963"
+software = []
+technology-readiness-level = "OTRL-4"
+upload-method = "auto"
+version = "1.0.0"
+
+[__meta]
+created-at = "2010-03-06T02:25:47+00:00"
+last-visited = "2022-02-25T11:00:02.616920+00:00"
+owner = "bkubicek"
+repo = "https://www.thingiverse.com/thing:1963"
+source = "thingiverse.com"
+
+[specific-api-data]

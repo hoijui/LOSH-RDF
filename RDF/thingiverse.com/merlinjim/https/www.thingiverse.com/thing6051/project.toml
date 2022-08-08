@@ -1,0 +1,23 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3"
+function = "A repeatable Dado Box.  One way to look at it is that this box can stack with itself on any surface.  I use a loop like this to slice up big models in openscad:\r\n\r\nfor(ix=[0:2])\r\n{\r\nfor(iy=[0:2])\r\n{\r\nintersection() {\r\ntranslate([ix * dadoSize, iy * dadoSize, 0])\r\nplaceMyModel();\r\ntranslate([ix * boxSize + ix * dadoSize), iy * boxSize + iy * boxSize, boxSize / 2])\r\ntranslate([baseOffsetX, baseOffsetY, baseOffsetZ])\r\nplaceDadoBox(boxSize, dadoSize);\r\n}\r\n}\r\n}\r\n}\r\n}\r\n\r\nThis will seperate a big model into many smaller models that fit together like puzzle pieces.\r\n\r\nMy 2-D dado box (take off all the rotate([0, 90, 0]) shapes) works very well, is printable, and can be slid together easily... but requires a little bit of clamping and gluing to get a nice stable construction out of.\r\n\r\nThe 3-D dado box however, not so much.  You can't slide two neighboring pieces together without a weird diagonal slide, and the dado box itself isn't printable.  I'm hoping someone wants to make a derivative of this that's printable, and I'm also hoping that if the box itself is printable, that means the items you make with it\r\n\r\nP.S. I actually am a veteran POVRay user, so I didn't need much of the tutorials to understand how OpenSCAD works... but because I have been reading the tutorials, and they are, in fact, awesome... I decided to tag it with openscadtutorial anyways."
+image = "https://thingiverse-rerender-new.s3.amazonaws.com/renders/c6/b9/93/82/c2/DadoBox_display_large.jpg"
+license = "CC0-1.0"
+licensor = "merlinjim"
+name = "Dado Box (for use with openscad CSG ops)"
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://www.thingiverse.com/thing:6051"
+software = []
+technology-readiness-level = "OTRL-4"
+upload-method = "auto"
+version = "1.0.0"
+
+[__meta]
+created-at = "2011-02-03T14:16:37+00:00"
+last-visited = "2022-02-25T11:00:02.616920+00:00"
+owner = "merlinjim"
+repo = "https://www.thingiverse.com/thing:6051"
+source = "thingiverse.com"
+
+[specific-api-data]

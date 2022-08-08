@@ -1,0 +1,23 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3"
+function = "After using my new Z-stage ( http://www.thingiverse.com/thing:10478 ) for a while, I found one annoying problem: there is no easy way to adjust the position manually. With the original Cupcake stage, you just pull on the timing belt. Or install a crank on one of the threaded rods. With 10478, the only way is to turn the threaded rod directly, getting oily fingers in the process.\r\n\r\nThis thing is an auxiliary stepper controller, which can be inserted between the printer's motherboard and stepper drivers. It's based on an ATTYNY44 processor and very few additional parts.\r\n\r\nOf course you can use this device for any other axis as well, including extruder. Or simply use it as a stepper tester - the input can be left open.\r\n\r\nThere are two buttons, 'up' and 'down'. If you leave them alone, the device passes the motherboard signals through. That is, you can print as normal.\r\n\r\nWhen you press either of the buttons, the device takes over and controls the stepper directly. This way, you can make adjustments even during a print.\r\n\r\n- 'up' moves the stepper one way, 'down' the other.\r\n- After holding a button for 2 seconds the speed is doubled.\r\n- Pushing and holding both buttons for 2 seconds enters setup mode (LED flashes).\r\n-- Repeatedly pushing 'up' increases speed\r\n-- Repeatedly pushing 'down' decreases speed\r\n-- Pushing both buttons saves new speed setting\r\n\r\nThe source code is in zcrank.c - It uses just under 2K of flash memory."
+image = "https://cdn.thingiverse.com/renders/6b/ba/be/a4/c0/IMG_2620_display_large_display_large.jpg"
+license = "CC0-1.0"
+licensor = "Iwo"
+name = "Electronic Z-Crank"
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://www.thingiverse.com/thing:11571"
+software = []
+technology-readiness-level = "OTRL-4"
+upload-method = "auto"
+version = "1.0.0"
+
+[__meta]
+created-at = "2011-09-15T07:32:30+00:00"
+last-visited = "2022-02-25T11:00:02.616920+00:00"
+owner = "Iwo"
+repo = "https://www.thingiverse.com/thing:11571"
+source = "thingiverse.com"
+
+[specific-api-data]

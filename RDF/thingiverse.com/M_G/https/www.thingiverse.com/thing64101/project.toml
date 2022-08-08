@@ -1,0 +1,23 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3"
+function = "This OpenSCAD script will generate a simple one piece fixture to hold Wensi's PV layer's PV cell, PCB and supercap. This is using the slightly newer layout and SCAP propsed on the 17th August 2011\r\n\r\nAuthor: Mark Gaffney\r\nVersion: 2.2\r\nDate: 2011-09-16\r\n\r\nTodo:\r\nadd thin infill for hollow sections to improve printability\r\nmake slide in PV version\r\nmake 2x corner 1 middle tab PV version\r\nmake screw post PCB version\r\nmake pin post PCB version\r\nmake mushroom post PCB version\r\nmove holes for SCAP pins (2x dia=0.6+blah separation=~10-blah dist_from_bottom~=2.5-blah dist_from_sides=5-blah) and PV wires to more logcal place, also change to square, triangle or teardrop shape for better printability\r\nremember the SCAP is now a table profile with dia~=10.5\r\n\r\nWarning:\r\nthere is no top part for this\r\n\r\nChanges from previous versions:\r\n2.2\r\n - \tChange cutout for trapezoidal/pyramidal shape\r\n2.1\r\n - \tFixed some vlaues to place the support posts in corect location (up +1mm) scap leads Right +2mm\r\n - \tincreased post diameter for the two along one side slightly\r\n2.0\r\n - \tNew layout (PCB rotated 90Degrees) and larger SCAP\r\n - \tchange pcb_l 30->35 pcb_b 35->30\r\n - \tchange scap_l 23->20 scap_b 15->22 scap_h 5->10\r\n\r\n0.8\r\n -  add thin infill for hollow sections to improve printability\r\n0.7\r\n -  moved entire structure above z=0 plane (no longer a destroyer of belts)\r\n - \tadded mouse ears\r\n0.6\r\n - \tmade thinner\r\n - \tfixed incorrect measurements for PV panel\r\n0.5\r\n - \tAdded holes for wires between sections\r\n\r\n0.4\r\n - \tRemoved plastic from centre of pv area to speed up print\r\n\r\n0.3\r\n - \tFixed error with cutout translates due to misuse of separation and clearance variables\r\n - \tFixed error with second half of calculation of total _b using max() where I forgot to include separation\r\n\r\n0.2\r\n - \tAdded support posts\r\n\r\n0.1\r\n - \tFirst attempt"
+image = "https://cdn.thingiverse.com/renders/a1/1f/8d/1e/a5/DSC00188_display_large.jpg"
+license = "CC-BY-4.0"
+licensor = "M_G"
+name = "Wensi PV layer holder"
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://www.thingiverse.com/thing:64101"
+software = []
+technology-readiness-level = "OTRL-4"
+upload-method = "auto"
+version = "1.0.0"
+
+[__meta]
+created-at = "2013-03-20T18:57:03+00:00"
+last-visited = "2022-03-07T11:00:04.028160+00:00"
+owner = "M_G"
+repo = "https://www.thingiverse.com/thing:64101"
+source = "thingiverse.com"
+
+[specific-api-data]

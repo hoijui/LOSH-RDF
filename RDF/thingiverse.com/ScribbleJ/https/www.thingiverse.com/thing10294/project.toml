@@ -1,0 +1,23 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3"
+function = "CRITICAL UPDATES!\r\n\r\nTHIS WILL BE THE FINAL UPDATE ON THIS PAGE.  PLEASE SEE THE FOLLOWING URL FOR MORE IN-DEPTH INFORMATION:\r\n\r\nhttp://reprap.org/wiki/Sjfw\r\n\r\n\r\n(NOW WORKS WITH REPLICATORG!)\r\n\r\n(Old) VIDEOS:\r\n\r\nhttp://www.youtube.com/watch?v=pA8x-Q9ZMOQ 100mm/sec 20mmcube, pt1\r\nhttp://www.youtube.com/watch?v=AHn1s-ehS14 100mm/sec 20mmcube, pt2\r\n\r\nMore photos at my flickr, but it's sort of Prusa-centric as of this writing:\r\nhttp://www.flickr.com/photos/13723140@N04/\r\n\r\n\r\nFEATURES:\r\n* Acceleration - this allows you to run your printer up to speeds it could never achieve without.  Plus, it sounds neat.  I have run mine up to 100mm/sec without breaking a sweat; I expect it could go significantly faster.  This with no hardware mods to the axes.\r\n* \"Volumetric 5D\" - this basically means it uses the E codes to drive the extruder and those E codes are the type that SF40+ uses when you turn on the \"Dimension\" plugin.  This is cool stuff because you can make major changes, switch from 1.75mm to 3.00mm filament by only changing one number, for example.  \r\n* Gcode parser - the firmware speaks gcode, like repraps do, not a 'compiled down' version like Makerbots typically do.\r\n* ADVANCED gcode parser - the firmware pre-parses all incoming gcode long before it's executed, resulting in very tiny intra-move delays.  Even if you're not using an SD card and you get horrible USB noise, you should be able to print just fine with no pauses.\r\n* N-dimensional.  Very few changes needed to support any number of axes.\r\n* LCD support - hitachi style, temperature display only.\r\n* SD Card support\r\n* Full runtime configuration\r\n* Full LCD support, plus control panel.\r\n* Full hostless printing!\r\n\r\n\r\nMy goals in developing the firmware are (in no particular order):\r\n\r\n* Have a firmware I'm comfortable developing on.  The existing firmwares were not written in a way I was happy about, generally.\r\n* Have a firmware that works on Gen4 (ToM) and RAMPS (Prusa).  \r\n* Have a firmware that supports \"Dimension\" in SF40+, using \"Volumetric 5D\" or whatever the buzzword is.\r\n* Have a firmware that supports acceleration on movements.\r\n* Have a firmware that understands ASCII Gcode instead of using a binary format like Makerbot.\r\n* Break with the reprap gcode protocol standards where I think they do not make sense.\r\n\r\nMake no mistake about it - this firmware is primarily for me.  But I hope other people eventually find it useful."
+image = "https://cdn.thingiverse.com/renders/5d/35/7d/5c/fe/DSCN1646_display_large_display_large.jpg"
+license = "BSD-4-Clause "
+licensor = "ScribbleJ"
+name = "Thing-O-Matic Accelerated Custom Firmware"
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://www.thingiverse.com/thing:10294"
+software = []
+technology-readiness-level = "OTRL-4"
+upload-method = "auto"
+version = "1.0.0"
+
+[__meta]
+created-at = "2011-07-24T06:44:51+00:00"
+last-visited = "2022-02-25T11:00:02.616920+00:00"
+owner = "ScribbleJ"
+repo = "https://www.thingiverse.com/thing:10294"
+source = "thingiverse.com"
+
+[specific-api-data]

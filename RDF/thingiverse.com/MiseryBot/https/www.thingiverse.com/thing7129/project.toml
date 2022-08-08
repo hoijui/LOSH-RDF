@@ -1,0 +1,23 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3"
+function = "This is a retrofit stepper design for anyone wanting to get rid of the DC motor filament pusher. It uses the MK5 hot end.\r\n\r\nEdit: I ended up having to make an aluminum idler pulley. The printed ABS idler pulleys work for a while but eventually get a flat spot and stop working.\r\n\r\nThe big benefit of this design is that you can cam it open and have full inspection or cleaning ability in seconds.\r\n\r\nOh, and it uses a stepper which allows you to use the Skeinforge 35 reversal module, which will allow your prints to not suck.\r\n\r\nThe spring tensioner is largely insensitive to variations in filament thickness. One less thing to fiddle with.\r\n\r\nIt uses a lever design \"NEW! IMPROVED! Now with MECHANICAL ADVANTAGE!\" that will push really hard on the filament, but is super easy to open and close.\r\n\r\nThis design uses the super cool 13.6:1 geared stepper motor from over at MakerGear:\r\nhttp://www.makergear.com/products/motors\r\n\r\nIn case MakerGear is out of stock, whosawhatsis reports this motor should work:\r\nhttp://www.phidgets.com/products.php?category=23&product_id=3311\r\n\r\nWith the stainelss MK5 drive pulley\r\nhttp://store.makerbot.com/mk5-drive-gear.html\r\ndrilled out to 8mm (get these with a 20% off coupon: http://bit.ly/fUdpE9 ).\r\n\r\nThe motor shaft has a support bearing, and all four motor mounting bolts are used.\r\n\r\nIt bolts right down to the MK5 plexi bridge, using the original hardware.\r\n\r\nIt needs two 6-32 x 4\" screws. I found these as part of a toggle bolt at my local TrueValue hardware store.\r\n\r\nIt also needs two springs that will fit over the 6-32 bolts. I used Century Spring Company SC-419, also from my local TrueValue hardware store.\r\n\r\nIt re-uses the 8x7x22 and 6x6x17 bearings from the old MK4.\r\n\r\nThe design is in OpenSCAD, and included in the file. There are some conditionals to create the files to be exported to STL for the builds. There is either an error in the OpenSCAD file or I am pushing OpenSCAD's limits, because it will only preview in \"thrown together\" mode now. Well, if you put a % on main body it previews OK. Oh, and the Z axis goes through the motor, which was dumb.\r\n\r\nThere is a little video of it building here:\r\nhttp://www.youtube.com/watch?v=nRKHwylv1Ms\r\n\r\nHistory: This is kind of like a lot of different pushers. I like a grooved rolling idler with a bearing. I do not like the a flat bearing pressing right onto the round filament. I like the MK5 drive wheel. I like the 13.6:1 MakerGear stepper. The MK5 Extruder is working (this particular minute). I like the idea of having all four motor mount bolts used. I like having the end of the motor shaft supported in a bearing. Putting all that together with an over-center lever and spring tensioner gets us here. \r\n\r\nMK5 Wade's-Style Tensioner by ScribbleJ\r\nhttp://www.thingiverse.com/thing:6402\r\n\r\nMK5-6 STEPSTRUDER NEMA 23 DIRECT DRIVE PIVOTING FILAMENT PUSHER by jstkatz\r\nhttp://www.thingiverse.com/thing:7037\r\n\r\nYet another extruder filament pusher by jag\r\nhttp://www.thingiverse.com/thing:7113\r\n\r\nAccessible Wade's Extruder by GregFrost\r\nhttp://www.thingiverse.com/thing:6713"
+image = "https://cdn.thingiverse.com/renders/5b/e3/42/aa/ad/MiseryPusher_OpenSCAD_ICON_display_large_display_large.jpg"
+license = "CC-BY-SA-4.0"
+licensor = "MiseryBot"
+name = "MiseryPusher: Geared Stepper filament pusher for MK5 extruder"
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://www.thingiverse.com/thing:7129"
+software = []
+technology-readiness-level = "OTRL-4"
+upload-method = "auto"
+version = "1.0.0"
+
+[__meta]
+created-at = "2011-03-19T17:52:59+00:00"
+last-visited = "2022-02-25T11:00:02.616920+00:00"
+owner = "MiseryBot"
+repo = "https://www.thingiverse.com/thing:7129"
+source = "thingiverse.com"
+
+[specific-api-data]

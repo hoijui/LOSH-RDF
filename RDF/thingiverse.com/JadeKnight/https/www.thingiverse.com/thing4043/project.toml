@@ -1,0 +1,23 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3"
+function = "This is a board that allows you to power a Mk4/Mk5 Plastruder, Heated Build Platform, etc. using external mosfets (and an optional relay). It can be directly connected to a stock Extruder Controller without any modifications. The input lines connect to the '-'(GND) terminals on the EC.\r\n\r\nAfter already burning out one EC mosfet, and hearing that you might need to use a relay board to power the Mk5, I finally decided to design and build this board. The IRF520 mosfets I used in the prototype should be able to power a Mk5 Plastruder without any problems, and do it silently ;). They support PWM heating code as well, for better temperature management. All the outputs are protected with flyback diodes, so they can drive inductive loads as well (motors, other relays, etc). \r\n\r\nUsing this board to power the Plastruder/HBP reduces the current going through the mosfets on the Extruder Controller down to ~10ma per mosfet. Your EC mosfets should not heat up or burn out. If you do happen to burn out a mosfet on this board, it is a lot easier to fix/replace than the ones on the Extruder Controller.\r\n\r\nIt also reduces the current going through the Cat5 cable going into the EC, which could help reduce communication errors that can occur. \r\n\r\nI've only tested this with my Mk4 Plastruder and HBP, but the current capability should be there to support a Mk5 (IRF520 = 10A). Since it is not part of the extruder controller, it is much easier to add other cooling solutions (i.e. fans), or even use other types of mosfets. I mounted large TO-220 heatsinks to the IRF520's to help keep them cool. \r\n\r\nThis is the first 'big' circuit I've designed, so there might be errors in the schematic. If there are errors, or if anyone know of ways to improve the design, please leave a comment.\r\n\r\nFuture plans/ideas:\r\n  1. Try using higher pull-up resistors (100K instead of 1.2K)\r\n  2. Add a master/emergency cutoff switch\r\n  3. Design/order/test an actual PCB"
+image = "https://cdn.thingiverse.com/renders/52/4b/6a/48/7b/ExternalMosfetBoard_display_large_display_large.jpg"
+license = "CC-BY-SA-4.0"
+licensor = "JadeKnight"
+name = "Extruder External Mosfet Power Board"
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://www.thingiverse.com/thing:4043"
+software = []
+technology-readiness-level = "OTRL-4"
+upload-method = "auto"
+version = "1.0.0"
+
+[__meta]
+created-at = "2010-09-09T15:20:40+00:00"
+last-visited = "2022-02-25T11:00:02.616920+00:00"
+owner = "JadeKnight"
+repo = "https://www.thingiverse.com/thing:4043"
+source = "thingiverse.com"
+
+[specific-api-data]

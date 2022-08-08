@@ -1,0 +1,23 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3"
+function = "The Automated Build Platform is a totally new way of printing your 3D objects. For the first time ever multiple objects can be printed in succession without the need for human intervention.\r\n\r\nUp until now, the 3D printing industry has been focused on making one part at a time. You had to manually remove your object from the build surface and prepare your machine for the next build. This is true for all other 3D printers on the planet. MakerBot is the first to bring to you a truly automated 3D printing experience. That era is over and the new dawn of personal manufacturing has truly begun.\r\n\r\nDesigned by MakerBot Industries own enemy of entropy, Charles Pax, the Automated Build Platform is the latest upgrade to the MakerBot Personal Manufacturing line of products. In development for over a year, it is a heated build platform combined with an automatic conveyor belt. The conveyor rolls forward after completing a print, wipes the boogers off the nozzle, resets itself, and prints again! \r\n\r\nLet me say that in another way- you can print part after part, hands free! \r\n\r\nThe build surface is essentially a conveyor belt upon which each object is printed. Once an object is complete the belt turns over and and the machine begins the next print. It's that simple! There's even a brush to clean your nozzle between objects.\r\n\r\nIt's an awesome addition to the CupCake, and it has all the printing advantages of the MakerBot Heated Build Platform built in. Optimized to work with the beautiful and reliable MK5 MakerBot Extruder, you can look forward to watching your desktop factory auto-eject your dreams into a parts bucket of unending awesomeness!\r\n\r\nThe ABP is compatible with all versions of ReplicatorG as long as you use the modified start.txt and end.txt. You should use ReplicatorG 19 because it has these files integrated in a Skeinforge profile.\r\n\r\nAt the very beginning of a print the nozzle tip must be centered on the build platform just above the surface. This initial state is assumed in the start.txt file. One of the first commands given in start.txt tells the machine to assume the nozzle position as x=0, y=0, z=0. After printing an object the nozzle tip must be returned to this same spot to be ready for the next print. The end.txt file takes care of this. One of the last commands in end.txt makes the machine move the nozzle to x=0, y=0, z=0. The result is that one print ends in the same spot where a second print must begin. This allows us to take any two print files (gcode files) generated in this way and stick them end to end to make one print file that will print two objects in a row. Awesome!"
+image = "https://cdn.thingiverse.com/renders/20/46/6d/29/83/4987265902_dbc51e5835_o_display_large_display_large.jpg"
+license = "GPL-3.0-or-later"
+licensor = "MakerBot"
+name = "Automated Build Platform"
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://www.thingiverse.com/thing:4056"
+software = []
+technology-readiness-level = "OTRL-4"
+upload-method = "auto"
+version = "1.0.0"
+
+[__meta]
+created-at = "2010-09-13T13:39:55+00:00"
+last-visited = "2022-02-25T11:00:02.616920+00:00"
+owner = "MakerBot"
+repo = "https://www.thingiverse.com/thing:4056"
+source = "thingiverse.com"
+
+[specific-api-data]

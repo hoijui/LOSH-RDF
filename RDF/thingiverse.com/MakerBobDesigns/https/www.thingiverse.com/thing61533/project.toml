@@ -1,0 +1,23 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3"
+function = "This is my second attempt at understanding the operations in OpenSCAD.\r\nI made a model of a 4\" square electrical box with a raised plaster ring in AutoCAD and then exported to an STL.  I couldn't get emmett's heart gears file to work, so I basically destroyed the original cubeGears3 code http://www.thingiverse.com/thing:10483 until it didn't work either.  I rebuilt it enough to get the result I was looking for.  I made both the Gear1 and Gear2 module accept x and z rotation inputs (1 or 2), and then added some rotation code inside those modules, the twogears module, and the assembly module to make them behave for a non cube object.  I added an object module that loads a custom stl file and orients it for gear mashup.\r\n\r\nI am still not clear on the way the relationship between the overall model, the center and pins is determined.  I cheated and just tweaked the center cube until it looked like I wanted, and then I measured the necessary pin length and used the Pins library to make one.  I have not posted this revised code, because I don't really feel that it is any way an improvement over the original.  I may post it if requested, or if I can work some of the remaining bugs out.\r\nThe center stl has emmett's original slits, but I reoriented it in such a way to make them not work as originally intended.  It is OK, because it cleans up easily, and I made the center pins captured anyway."
+image = "https://cdn.thingiverse.com/renders/1b/06/97/d0/9d/4sqTwist1_display_large.jpg"
+license = "CC-BY-SA-4.0"
+licensor = "MakerBobDesigns"
+name = "Electrical Box Twist Model"
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://www.thingiverse.com/thing:61533"
+software = []
+technology-readiness-level = "OTRL-4"
+upload-method = "auto"
+version = "1.0.0"
+
+[__meta]
+created-at = "2013-03-13T22:57:34+00:00"
+last-visited = "2022-03-07T11:00:04.028160+00:00"
+owner = "MakerBobDesigns"
+repo = "https://www.thingiverse.com/thing:61533"
+source = "thingiverse.com"
+
+[specific-api-data]

@@ -1,0 +1,23 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3"
+function = "This is a custom built version of the latest ReplicatorG (24) that includes to option to home your Makerbot using only one GCode (M138). It also includes a ready to use custom-built firmware for both the Thingomatic and the Cupcake that stores all of the data needed to home the Makerbot, right on the Makerbot! In permanent EEPROM memory! This means that one no longer has to re-slice all of their model STL files just to fix their homing routine! Just run through the GUI based setup process again (located in the control panel) to recalibrate your homing position and the Makerbot should start every print from its new home location without any re-skeining. In addition to being easier to use and modify than messing around with the old homing routine in the Start.txt file, opens up the possibility of using the same Start.txt file for multiple bots (Yay botfarming!)\r\n\r\n\r\nIf you're curious about the code involved in this script. You can find the sourcecode in my Github Repos (with a pending pull to the ReplicatorG and MB firmware trunk)\r\nHere: git://github.com/xtremd/ReplicatorG.git\r\n\r\nAnd here for the custom Makerbot firmware: git://github.com/xtremd/Xtremd.git \r\n\r\n\r\nDisclaimer: This homing routine does an intricate dance designed to keep nozzle crashing possibilities to a minimum. It should always work but sometimes (usually due to user error/misread instructions/badly coded start.gcode/Evil Gremlins) very bad things can happen. Please be careful when first using this! I am in no way responsible for your bot driving a very hot nozzle through its build platform due to some user error or any other horrible train-wreck set of circumstances!! \r\n\r\n\r\nSorry that sounded so much like a TV infomercial. Happy Hacking! :)"
+image = "https://cdn.thingiverse.com/renders/1c/6e/8c/5c/d7/Setup_Good_display_large_display_large.jpg"
+license = "GPL-3.0-or-later"
+licensor = "winterg"
+name = "Firmware homing support for ReplicatorG 24"
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://www.thingiverse.com/thing:6887"
+software = []
+technology-readiness-level = "OTRL-4"
+upload-method = "auto"
+version = "1.0.0"
+
+[__meta]
+created-at = "2011-03-07T22:25:27+00:00"
+last-visited = "2022-02-25T11:00:02.616920+00:00"
+owner = "winterg"
+repo = "https://www.thingiverse.com/thing:6887"
+source = "thingiverse.com"
+
+[specific-api-data]

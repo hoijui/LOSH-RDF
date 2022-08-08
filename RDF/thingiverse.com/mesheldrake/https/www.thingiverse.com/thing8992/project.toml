@@ -1,0 +1,23 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3"
+function = "This is the MakerSlide extrusion by Bart Dring http://www.thingiverse.com/bdring from http://www.makerslide.com/. \r\n\r\nMakerSlide is a V rail integrated into a standard aluminum extrusion profile. It's going to make designing light-duty CNC systems easier and more affordable.\r\n\r\nI've just put the design in a few different formats, so we can start to use it in free software.\r\n\r\nOpenSCAD + DXF\r\n\r\nmakerslide_extrusion_profile.dxf : The first step was to bring the published DXF into Blender, convert into millimeters (1 Blender unit == 1 mm), and place it at the origin in a way that will be easy to work with when trying to do translate() calculations in your head, for OpenSCAD.\r\n\r\nmakerslide.scad : This OpenSCAD script just demonstrates using the built-in DXF import-and-extrude function, wrapped in a module, so you can start using makerslide(h) whenever you need to stick a linear slide somewhere. (Make sure makerslide_extrusion_profile.dxf is in the same directory as the OpenSCAD script.)\r\n\r\nvwheel.scad : model of the delrin V wheel from the drawings for bdring's version 2.0 laser http://www.buildlog.net/sm_laser/drawings.html\r\n\r\nBlender\r\n\r\nmakerslide_2D.blend : This is the Blender file I used to make the DXF. (Though I changed the layer name in the DXF source to \"makerslide\".)\r\n\r\nmakerslide_3D.blend : 100mm extrusion as a mesh in Blender.\r\n\r\nvwheel.blend : delrin V wheel, with bearing, as mesh in Blender.\r\n\r\nSketchup\r\n\r\nmakerslide_100mm.skp : 100mm extrusion and one v wheel in Sketchup.\r\n\r\nThere is another \"dynamic\" (parametric length) version of this by Meduza done in Sketchup Pro. Find it in the Sketchup 3D Warehouse, here:\r\n\r\nhttp://sketchup.google.com/3dwarehouse/details?mid=220018fa83b2ba2f52f05c121726c97c\r\n\r\n... but no wheel. So check Meduza's model to see if it's easier to work with, and then get the wheel out of my model."
+image = "https://cdn.thingiverse.com/renders/8e/f9/d7/53/ca/makerslide_extrusion_profile_display_large_display_large.jpg"
+license = "CC-BY-SA-4.0"
+licensor = "mesheldrake"
+name = "MakerSlide Extrusion by bdring"
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://www.thingiverse.com/thing:8992"
+software = []
+technology-readiness-level = "OTRL-4"
+upload-method = "auto"
+version = "1.0.0"
+
+[__meta]
+created-at = "2011-06-02T17:26:49+00:00"
+last-visited = "2022-02-25T11:00:02.616920+00:00"
+owner = "mesheldrake"
+repo = "https://www.thingiverse.com/thing:8992"
+source = "thingiverse.com"
+
+[specific-api-data]

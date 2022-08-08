@@ -1,0 +1,23 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3"
+function = "**Untested project for the MakerBot Giveaway contest. Iâ€™ve got no clue about how sturdy MakerBot printed parts are, this means that I donâ€™t know if the parts I designed are thick enough to support the weight of the camera and steppers. Iâ€™m maybe plain wrong ! However, parts size have been carefully designed to fit into Makerbotâ€™s build envelope. The only overhangs are holes, therefore the parts should be printable on a MakerBot (At least, I hope !). STL parts have been checked with Netfabb and are manifold EDIT:I reuploaded the STL parts. They are now oriented in build direction**\n\nThis half automatic pano head has been designed to take pictures using a Canon Powershot A560 compact digital camera. The purpose is to shoot panoramas without getting into the risk of forgetting to take THE PICTURE absolutely needed to get a complete panorama (when you donâ€™t have got a wide angle lens, you need to take a lot of pictures!)... The head moves left/right and up/down. Two NEMA 17 sized stepper motors are controlled by an Arduino  (or compatible clone) using two Sparkfun's Easydriver. The shutting mecanism will be controlled by Arduino.\n\nThe Canon Powershotâ€™s normally donâ€™t have remote shutting capabilities. Fortunately, a great open source software package can add a lot of functionalities to these cameras: CHDK. It adds remote shutting by detecting when voltage is applied on camera usb port.\nThis head has to be mounted on a standard tripod.\nFunction: When pressing the start/stop button, the camera will take a picture (or more, if CHDK â€œbracketing in continuous modeâ€x9d is checked â€“ needed for HDR), then moves upward, takes a picture,â€¦ , then moves left,then moves downwards, takes a picture, â€¦ ,and it does the same column after column. When the necessary pictures have been taken, the photograph has to press the start/stop button. After, the reset button has to be pressed to put the pano head back in starting position (only horizontal axis needs to be moved).\n\nAdvantages of this design:\n-No need to carry a notebook to control this head. \n-Simple to use.\n\ndrawbacks of this design:\n - the row/column intervals and time between moves can only be changed by editing the arduino sketch. \n- No care taken about â€œNo-parallax pointâ€x9d for now.\n\nSoftware used:\n3D CAD: Alibre Design http://www.alibre.com/\nRenderings: SimLab Composer 2 http://www.simlab-soft.com/\nNetfabb (STL file checking + repair): http://www.netfabb.com/\n\nOther:\n Hugin (panorama stitching and more): http://hugin.sourceforge.net/\nArduino: http://www.arduino.cc/\nCHDK (Unleash the POWER in your Canon PowerShot!): http://chdk.wikia.com/wiki/CHDK"
+image = "https://cdn.thingiverse.com/renders/25/ce/f1/89/97/front_view_display_large_display_large.jpg"
+license = "CC-BY-SA-4.0"
+licensor = "Fx_CAD"
+name = "Motorized half automatic pano head"
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://www.thingiverse.com/thing:2570"
+software = []
+technology-readiness-level = "OTRL-4"
+upload-method = "auto"
+version = "1.0.0"
+
+[__meta]
+created-at = "2010-04-26T11:47:32+00:00"
+last-visited = "2022-02-25T11:00:02.616920+00:00"
+owner = "Fx_CAD"
+repo = "https://www.thingiverse.com/thing:2570"
+source = "thingiverse.com"
+
+[specific-api-data]

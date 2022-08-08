@@ -1,0 +1,23 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3"
+function = "This is a RepRap part for the Darwin design that I couldn't find, so I designed one. It will allow you to use common 608 skate bearings. This obsoletes the Z-Studding tie bracket, which require more material than this object, but needs no bearing (does need an M5 bolt and two nuts).\r\n\r\nFor other bearings, simply adjust \"bearing_OD\" and export the model with OpenSCAD.\r\n\r\nThe parametric model also includes a corner bracket based on accurate measurements of the STL file. This might be useful to someone! You can see it when you uncomment the following line:\r\n//translate([-8.8,-8.8,-32-3]) corner_bracket();\r\n\r\nIf your Z-platform is not completely accurate, the slotted holes allow you to adjust the precise location of the bearings so that the platform exerts no force perpendicular to the threaded rod, just that it puts a static force on it because of its weight. This is very important to prevent a wobble which you could see across the vertical surfaces of all your prints.\r\n\r\nBecause you need 7 of these, or at least 3 of these at the bottom, I tried to minimize the material needed. Of course it can be further reduced, but I didn't want to push it before trying it first.\r\n\r\nAt 0.2 fill, the volume extruded is 4.8 cc and takes 25 minutes. At 0.45 fill (more than needed) it's 5.2 cc."
+image = "https://cdn.thingiverse.com/renders/d1/91/b3/5c/31/IMG_1958_bearing_display_large_display_large.jpg"
+license = "GPL-3.0-or-later"
+licensor = "Erik"
+name = "Bearing bracket for Z-posts"
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://www.thingiverse.com/thing:1404"
+software = []
+technology-readiness-level = "OTRL-4"
+upload-method = "auto"
+version = "1.0.0"
+
+[__meta]
+created-at = "2009-12-08T12:17:22+00:00"
+last-visited = "2022-02-25T11:00:02.616920+00:00"
+owner = "Erik"
+repo = "https://www.thingiverse.com/thing:1404"
+source = "thingiverse.com"
+
+[specific-api-data]

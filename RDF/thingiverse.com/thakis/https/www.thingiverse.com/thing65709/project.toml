@@ -1,0 +1,23 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3"
+function = "An icosahedron in 238 bytes. This is all of it:  \n\n    r = sqrt(3 / (1 + 2*sqrt(5)/5) - 1);  \n    for (j = [0, 180]) rotate([0, j, 0])  \n      for (i = [0:4]) rotate([0, 0, i * 360 / 5])  \n        for (k = [0, 1]) rotate([0, -atan(r) - 2*k*atan(r/2), 0])  \n          rotate([0, 0, 180*k]) cylinder(1, 0, r, $fn=3);"
+image = "https://cdn.thingiverse.com/renders/f3/61/fc/0f/0f/icosa-min_display_large.jpg"
+license = "CC-BY-SA-4.0"
+licensor = "thakis"
+name = "Icosahedron"
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://www.thingiverse.com/thing:65709"
+software = []
+technology-readiness-level = "OTRL-4"
+upload-method = "auto"
+version = "1.0.0"
+
+[__meta]
+created-at = "2013-03-24T21:23:46+00:00"
+last-visited = "2022-03-07T11:00:04.028160+00:00"
+owner = "thakis"
+repo = "https://www.thingiverse.com/thing:65709"
+source = "thingiverse.com"
+
+[specific-api-data]

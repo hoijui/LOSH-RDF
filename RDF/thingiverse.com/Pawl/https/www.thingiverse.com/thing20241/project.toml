@@ -1,0 +1,23 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3"
+function = "The original Prusa Iteration 2 X-Idler does not allow the belt to line up with the pulley on the x-motor.\r\n\r\nI've included pictures showing the issue.\r\n\r\nThis thing moves the wall that holds the 608 bearing toward the rods about 5mm.\r\n\r\nI changed the following code in the x-idler.scad file:\r\ntranslate(v = [18.5, -21.5, 25.3]) cube(size = [20.5,7,4.4], center = true);\r\n\r\n                translate(v = [20, 12.5-support_beam_offset, 25.3]) cube(size = [20,5,4.4], center = true);\r\n                translate(v = [27.5, -5, 7.5+7]) cube(size = [5,40,26], center = true);\r\n\r\nAlso, I used sketchup to round an ugly corner."
+image = "https://cdn.thingiverse.com/renders/a4/b6/5b/db/65/netfabb_Studio_Basic_4.8_-_x-end-idler_display_large_display_large.jpg"
+license = "CC-BY-4.0"
+licensor = "Pawl"
+name = "Aligned Prusa X-Idler (LM8UU)"
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://www.thingiverse.com/thing:20241"
+software = []
+technology-readiness-level = "OTRL-4"
+upload-method = "auto"
+version = "1.0.0"
+
+[__meta]
+created-at = "2012-03-29T01:03:59+00:00"
+last-visited = "2022-02-25T11:00:02.616920+00:00"
+owner = "Pawl"
+repo = "https://www.thingiverse.com/thing:20241"
+source = "thingiverse.com"
+
+[specific-api-data]

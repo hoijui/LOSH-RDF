@@ -1,0 +1,23 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3"
+function = "donb (http://www.thingiverse.com/donb) sent me a message recently about the SuperFormula (en.wikipedia.org/wiki/Superformula) as it reminded him of my other surface/solids work.\r\n\r\nRecognizing the fun challenge, I thought I'd code it up.  But, instead of starting right away with the SuperFormula, I thought I'd start with the SuperEllipse, which is very close, and a step along the way anyway.\r\n\r\nThis thing is an implementation of the SuperEllipse formula in OpenScad.\r\n\r\nWhat good is a SuperEllipse?  Well, it's actually a surface of revolution.  With it you can define the ellipsoid, sphere, cylinder, cube/rectangle, and myriad other funky looking shapes that are somehwere in between these.  It's great because from one formula you get all sorts of things.  Just imagine if this were a primitive in OpenScad, as it is in things like PovRAY.\r\n\r\nAt any rate, the basic formulas are there.  The fun thing is, you can render a point cloud if you want.  That is, only the vertices, represented as tiny little spheres.  You can also render as a wireframe.  That's nice because you can see the structure, on the outside and the inside as well.  Lastly, you can render as a polyhedron.  Perhaps the most cool of all is that you could render as all three, at the same time, by just changing the values of some parameters.\r\n\r\nThe important file is superellipse.scad.  With this one comes the 'superellipse()' module.  This has parameters you can change to get the different shapes.  Within the code, there is a reference to a page that gives examples with different parameters.  By default, it renders with a radius of [1,1,1].  You can easily use the 'scale()' module to get a different size.\r\n\r\nAlthough the thing will generate 2-manifold objects, it seems to be extremely expensive to do CSG operations on them.\r\n\r\n\r\n\r\nUPDATE: I added another picture that shows a checkerboard pattern on it.  That's a little bit of \"precedural texture\", which I haven't actually released as yet, but I thought it looked cool."
+image = "https://cdn.thingiverse.com/renders/b5/5c/82/38/9c/superellipse_all_display_large_display_large.jpg"
+license = "CC-BY-4.0"
+licensor = "WilliamAAdams"
+name = "SuperEllipse in OpenScad"
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://www.thingiverse.com/thing:12419"
+software = []
+technology-readiness-level = "OTRL-4"
+upload-method = "auto"
+version = "1.0.0"
+
+[__meta]
+created-at = "2011-10-11T13:07:26+00:00"
+last-visited = "2022-02-25T11:00:02.616920+00:00"
+owner = "WilliamAAdams"
+repo = "https://www.thingiverse.com/thing:12419"
+source = "thingiverse.com"
+
+[specific-api-data]

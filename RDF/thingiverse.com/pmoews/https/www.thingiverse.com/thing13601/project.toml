@@ -1,0 +1,23 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3"
+function = "Lattice models are attractive, useful teaching tools and not easy to construct.  The diamond lattice is a traditional example.  Diamond crystallizes to form a cubic cell in which each carbon atom forms four bonds.  The diamond lattice has octahedral symmetry and the view into each of the 12 edges of the cell is the same.\r\n\r\nThe Naval Research Laboratory in Washington has long had a Division for the Structure of Matter.  NRL hosts a large collection of crystal lattice structures.  \r\nNote : The NRL no longer hosts these pages - new links below -\r\nhttps://homepage.univie.ac.at/michael.leitner/lattice/spcgrp/index.html\r\nOn one of their web pages I found a downloadable set of coordinates for the diamond unit cell.  \r\nhttps://homepage.univie.ac.at/michael.leitner/lattice/struk/a4.html\r\nAs in \"Buckyballs\" I used a fortran program to make openSCAD module calls.  Expand_diamond.f takes the unit cell coordinates of diamond, expands them to a 27 cell cube, and outputs the required calls.\r\n\r\nI was surprised at how well the model printed.  I recently installed a MK7 extruder which seems to produce cleaner results.  There were 276 atoms in the first prints and all but four printed perfectly.  Four atoms, two at each of two edges, slanted downwards and did not print well.  I removed them from the model and began to get perfect prints.  \r\n\r\nThe picture displays three of the models.  The smaller version in the center shows the build surface; the atoms detached from the raft have marks on their surfaces.  The larger models are about 65 mm on a side; the one on the right shows a view into an edge.\r\n\r\nThe fortran program used to generate the diamond openSCAD module calls, expand_diamond.f, is below as are the openSCAD program and the stl output that printed best."
+image = "https://cdn.thingiverse.com/renders/33/a8/9c/4f/5e/diamond_display_large_display_large.jpg"
+license = "CC-BY-4.0"
+licensor = "pmoews"
+name = "Diamond Lattice Model"
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://www.thingiverse.com/thing:13601"
+software = []
+technology-readiness-level = "OTRL-4"
+upload-method = "auto"
+version = "1.0.0"
+
+[__meta]
+created-at = "2011-11-15T09:18:41+00:00"
+last-visited = "2022-02-25T11:00:02.616920+00:00"
+owner = "pmoews"
+repo = "https://www.thingiverse.com/thing:13601"
+source = "thingiverse.com"
+
+[specific-api-data]

@@ -1,0 +1,22 @@
+okhv = "OKH-LOSHv1.0"
+name = "OpenFlexure Microscope"
+repo = "https://build.openflexure.org/openflexure-microscope/latest/docs/"
+version = "6.1.2"
+license = "CERN-OHL-1.2"
+licensor = "Richard Bowman <rwb34@bath.ac.uk>"
+upload-method = "manifest-script"
+image = ["https://openflexure.org/assets/MicroscopeAnnotated.png"]
+documentation-language = "English-UK"
+release = "https://build.openflexure.org/openflexure-microscope/latest/all"
+timestamp = "1650188561"
+function = "The OpenFlexure Microscope is a  3D printable microscope, including a precise mechanical stage to move the sample and focus the optics.  There are many different options for the optics, ranging from a webcam lens to a 100x, oil immersion objective.\n\nMicroscopy for research applications, university teaching, outreach, or schools"
+documentation-readiness-level = "ODRL-3"
+technology-readiness-level = "OTRL-3"
+
+[[software]]
+label = "openflexure-microscope-server"
+release = "https://gitlab.com/openflexure/openflexure-microscope-server"
+
+[[software]]
+label = "openflexure-ev"
+release = "https://gitlab.com/openflexure/openflexure-microscope-jsclient"

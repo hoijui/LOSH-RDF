@@ -1,0 +1,23 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3"
+function = "Recently on the OpenScad discussion alias, I was trying to explain how I could do my own lighting calculations if given half a chance.  Altough it's not really a possibility for the current OpenScad renderer, I got to thinking.  Even though I can't print in multiple colors (yet), I can certainly liven up my OpenScad renderings a bit.\r\n\r\nThis thing is a set of imaging routines for OpenScad.\r\n\r\nThe general principle is fairly straight forward.  First you need an image to be converted to a format that OpenScad can understand.  In the included .zip file, there is such an executable.  Just run:\r\n    ImageConverter.exe imagename > name.scad\r\n\r\nThis will generate something that looks like:\r\nimagename_triplets_array = [0,0,0, 1,2,3, 255,255,255];\r\nimagename = image(width, height, imagename_triplets_array)\r\n\r\nThere is a new function here: image() which takes parameters necessary to just package up some stuff for later usage in functions.\r\n\r\nThe crux of the routines is actually: image_getpixel(img, x,y)\r\n\r\nThis will return a color value at that point in the image.  Nice and handy.\r\n\r\nBut, when you're using images of varying sizes, you don't use pixel coordinates directly, you use normalized values (between 0..1)\r\n\r\nSo, there is another routine: image_gettexel(image, u, v)\r\n\r\nIn this case, the 'u' and 'v' values range from 0..1\r\n\r\nThat's handy when you're displaying on a bezier surface for example, or a sphere, or anything else that's parametrically defined.  You just need to supply the parametric values, and when you go to draw a particular facet, change the color for that facet, and voila!!  You've got texture mapping.\r\n\r\nJust for kicks, there is a luminance() function.  What good is that?  Well, that allows you to turn an rgb value into a single grayscale value.  If you can do that, then you can't be that far away from having a height map generated out of an image.\r\n\r\nPut it all together and you can take a picture of yourself, convert to OpenScad form, generate a height map, create a mesh that matches the height field (need to do some work for that one), and print out a 3D relief of your face!!  Poor man's scan/print if you will.\r\n\r\nAt any rate, it's not complete, and you'll find that you use images of any significant size, your machine will crawl for literally hours.\r\n\r\nBut, if you go back and look at the various font libraries, where you're typically generating 'images' that are 16x12 or something small like that, then suddenly life becomes way easy.\r\n\r\nIf I were into actually contributing to the codebase of OpenScad, rather than just commenting on it, I would suggest that making the array lookups really fast to enable stuff like this without making the machine crawl, would be a very good investment.\r\n\r\nUPDATE: 21092011\r\nAdded blog entry: http://williamaadams.wordpress.com/2011/09/21/openscad-texture-mapping/"
+image = "https://cdn.thingiverse.com/renders/e6/f0/07/b8/4b/Imaging1_display_large_display_large.jpg"
+license = "CC-BY-4.0"
+licensor = "WilliamAAdams"
+name = "Texture Mapping in OpenScad!"
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://www.thingiverse.com/thing:11616"
+software = []
+technology-readiness-level = "OTRL-4"
+upload-method = "auto"
+version = "1.0.0"
+
+[__meta]
+created-at = "2011-09-16T13:53:41+00:00"
+last-visited = "2022-02-25T11:00:02.616920+00:00"
+owner = "WilliamAAdams"
+repo = "https://www.thingiverse.com/thing:11616"
+source = "thingiverse.com"
+
+[specific-api-data]

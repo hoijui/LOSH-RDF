@@ -1,0 +1,23 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3"
+function = "There are lots of interesting cubic curves in the world.  They're interesting because with just 4 points, you can describe very interesting shapes.  These curves make for nice revolutionary solids, but with OpenScad, it's kind of a challenge.\r\n\r\nThis thing generalizes the surface of revolution based on a cubic curve.\r\n\r\nHow simple is it?\r\n\r\nThe following will generate that bell shaped picture based on a Catmull-Rom cubic curve.\r\n\r\nsurface_rotationx_cubic(anglesteps = 36, stacksteps = 12,\r\n\tumult = 0.5, A = cubic_catmullrom_M(), \r\n\tcps = [[0, 1, 0],[2,3,0], [4,1,0],[5,2,0]]);\r\n\r\nAnd this one will do the same for a standard Bezier curve based on the same control points\r\n\r\nsurface_rotationx_cubic(anglesteps = 24, stacksteps = 12,\r\n\tumult = 1, A = cubic_bezier_M(), \r\n\tcps = [[0, 1, 0],[2,3,0], [4,1,0],[5,2,0]]);\r\n\r\nAnd the same can be done for a Hermite, or any other 'cubic' curve you can think of.  The two key components are the blending function 'A', which is a 4x4 matrix, and the control points 'cps', which are simply the geometry of your control points.\r\n\r\nThe routine, found in the revolids.scad file, will take care of all the dirty work.\r\n\r\nI marked this as version '0.5' because although it will show pretty pictures, right now it's not doing the surface normal calculations, or anything else really necessary to make solids, so a couple more iterations.  But, it's fun to play with.\r\n\r\nI've really been wracking my brain on the lack of function pointers in OpenScad, but this essentially provides the same capability, utilizing the matrices, which are the essence of these things anyway.\r\n\r\nAt any rate, something to play with.\r\n\r\nUPDATE: 220611\r\nAdded a picture of a Hermite revolid with debugging normals (showing the circular normals to be incorrect)."
+image = "https://cdn.thingiverse.com/renders/a6/8a/bd/01/50/revolids_surf1_display_large_display_large.jpg"
+license = "CC-BY-4.0"
+licensor = "WilliamAAdams"
+name = "OpenScad Revolids version 0.5"
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://www.thingiverse.com/thing:9469"
+software = []
+technology-readiness-level = "OTRL-4"
+upload-method = "auto"
+version = "1.0.0"
+
+[__meta]
+created-at = "2011-06-20T09:53:33+00:00"
+last-visited = "2022-02-25T11:00:02.616920+00:00"
+owner = "WilliamAAdams"
+repo = "https://www.thingiverse.com/thing:9469"
+source = "thingiverse.com"
+
+[specific-api-data]

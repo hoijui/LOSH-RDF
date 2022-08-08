@@ -1,0 +1,23 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3"
+function = "I felt that it was about time Baltimore Node had a Unicorn-plottable logo! You can learn more about this awesome hackerspace at baltimorenode.org.\r\n\r\nI've attached all the files I used to create the G-Code for this thing, which tells the story of how you can make your own:\r\n\r\n* node_logo.svg - Start with the SVG logo available from the Node wiki.\r\n* node_logo.eps - Use Inkscape to export an EPS file, making sure to convert text to paths.\r\n* node_logo.dxf - Use pstoedit as described on Tony's 2D-to-3D post - tonybuser.com/2d-to-3d - to create a DXF, with simple line approximations of curves. I also ended up using some scaling:\r\n\r\n  pstoedit -xscale 18 -yscale 18 -dt -f dxf:-polyaslines node_logo.eps node_logo.dxf\r\n\r\n* node_logo.gcode - Use scribbles.py from GitHub to convert the DXF into Unicorn G-Code. github.com/makerbot/Makerbot\r\n\r\nI used Pleasant3D for its excellent G-Code preview capabilities to check that everything looked reasonable, find a good scaling, etc."
+image = "https://cdn.thingiverse.com/renders/a5/0d/67/f3/e0/node_logo_display_large_display_large.jpg"
+license = "CC-BY-4.0"
+licensor = "schmarty"
+name = "Baltimore Node logo (Unicorn)"
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://www.thingiverse.com/thing:5585"
+software = []
+technology-readiness-level = "OTRL-4"
+upload-method = "auto"
+version = "1.0.0"
+
+[__meta]
+created-at = "2011-01-14T15:06:43+00:00"
+last-visited = "2022-02-25T11:00:02.616920+00:00"
+owner = "schmarty"
+repo = "https://www.thingiverse.com/thing:5585"
+source = "thingiverse.com"
+
+[specific-api-data]

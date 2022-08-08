@@ -1,0 +1,23 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3"
+function = "A long time back, when I was first learning to code in Windows, I rand the Charles Petzold digital clock application as a sample.\r\n\r\nSince then, I've done everything with that clock from rendering in OpenGL to high resolution timers.\r\n\r\nThis thing takes the seven segment digital display and renders it in OpenScad.\r\n\r\nIt's pretty straight forward.  There are three routines.\r\nDisplayDigit(number, height) - Will display a single digit, centered at the origin.\r\n\r\nDisplayDigits(numbers, count, height) - Will display a sequence of numbers, separated by a gap of 4mm.\r\n\r\nRenderDigitsPlate(digits, count, thickness, height) - Will display a sequence of numbers, and put a nice rectangle underneath them in case you want to easily CSG the sequence of numbers with something else.\r\n\r\nIt's a bit hacky in that the gap between numbers is fixed, and I didn't normalize the polygon data, so it's a fixed size of 38x68.  Of course you can scale it, but...\r\n\r\nWell, there it is.  finally off my chest.  And now I have nice 7-segment numbers in the bag of tricks.\r\n\r\nYou can guess at the signifance of the number in the picture."
+image = "https://cdn.thingiverse.com/renders/2a/65/7d/49/66/plate_1879_display_large_display_large.jpg"
+license = "CC-BY-4.0"
+licensor = "WilliamAAdams"
+name = "Seven Segment Digits in OpenScad"
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://www.thingiverse.com/thing:12782"
+software = []
+technology-readiness-level = "OTRL-4"
+upload-method = "auto"
+version = "1.0.0"
+
+[__meta]
+created-at = "2011-10-22T01:40:53+00:00"
+last-visited = "2022-02-25T11:00:02.616920+00:00"
+owner = "WilliamAAdams"
+repo = "https://www.thingiverse.com/thing:12782"
+source = "thingiverse.com"
+
+[specific-api-data]

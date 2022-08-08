@@ -1,0 +1,23 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3"
+function = "Parametric hinged and bolted attachment for square bars\r\n\r\nThis OpenSCAD script will generate a 2 part holder to attach a Tyndall WIMUv3 to the upright square cross-sectional posts on the moveable sled part of the assassin trainer at Bath University. The size of the bar it is attached to can be parametrically varied\r\n\r\nVersion: 0.9\r\nDate: 2012-05-31\r\n\r\nTodo:\r\n - \tclean up code to make more parametric\r\n - \ttest fit and adjust\r\n - \tadd \"wiggle\" for bolts and captured nuts\r\n - \tadd option to choose orientation of WIMU holder section\r\n - \tadd optional corner fins to prevent thermal stress cracks when printing in black ABS\r\n \r\nWarnings:\r\nNone\r\n\r\nNote:\r\nYou will need to also have the modules mouse_ears_test.scad, pivot_1_0.scad and rounded_cuboid_v2.4.scad in the same directory or your library for this to compile correctly\r\n\r\nChanges from previous versions:\r\n0.9\r\n - \tadded option to choose position of hinge/bolt holes along sides\r\n - \tadded second captive nut section on side for tightening holder to bar\r\n0.8\r\n - \tadded tolerancing for bar fit\r\n - \tadded second bolt pivot\r\n0.7\r\n - \tadded padding partial cutout between Z axis of wimu and front/top face of wimu holder\r\n - \tadded variable for and increased pivot size around hinge pin to 5\r\n - \tadded extra mouse ears under wimu holder in attempt to prvent it from curling etc.\r\n - \tincreased height of wimu by 0.8 mm as previously printed item despite having a nominal .stl measured height of 31.4 it measured only 30.2 when printed also note average height of 5 wimus measured was 31mm\r\n0.6\r\n - \tincreased size of side holes to allow for viewing of status LEDs\r\n - \tchanged the size of cutouts on WIMU holder section to help with removal of WIMU\r\n - \tadded cutout under WIMU holder to help with removal of WIMU\r\n - \tadded captive nut section for tightening holder to bar\r\n0.5\r\n - \tadded WIMU packaging to check location of cutouts\r\n0.4\r\n - \tAdjusted position of cutouts around hinge and bolt clamp so that they dont go all the way through the wall to make for easier printing and drilling\r\n - \tMade hinge pin larger to make it easier to insert hinge pin without drilling\r\n0.3\r\n - \tAdded option to add device holder on side or not using use_holder variable\r\n - \tFixed large clamp part so that it has correct internal dimensions\r\n - \tIncreased height of small cutouts on long side of WIMU hodler so that activity LED can be seen\r\n - \tadded comments\r\n - \tMoved everything up onto the build plane\r\n - \tFixed some translate issues where bar_stock_l and bar_stock_b were mixed up\r\n - \tMoved the hinge and bolt side cutouts so that a thin piece of material would connect the 2 halves\r\n - \tMoved the mouse ears into the union and differecne operations applied to the main clamp body\r\n0.2\r\n - \treduced individual parts count by using the pivot module only twice and using cut lines to split it up\r\n0.1\r\n - \tFirst attempt"
+image = "https://cdn.thingiverse.com/renders/ba/0f/87/9f/c8/DSC00390_display_large_display_large.jpg"
+license = "CC-BY-SA-4.0"
+licensor = "M_G"
+name = "WIMUv3 hinged square bar holder"
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://www.thingiverse.com/thing:16962"
+software = []
+technology-readiness-level = "OTRL-4"
+upload-method = "auto"
+version = "1.0.0"
+
+[__meta]
+created-at = "2012-02-03T16:09:17+00:00"
+last-visited = "2022-02-25T11:00:02.616920+00:00"
+owner = "M_G"
+repo = "https://www.thingiverse.com/thing:16962"
+source = "thingiverse.com"
+
+[specific-api-data]

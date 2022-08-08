@@ -1,0 +1,23 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3"
+function = "I first tried to model metaballs in OpenScad.  That effort was preliminary, indicating to me that it's not an easy egg to crack.\r\n\r\nThis thing cracks the proverbial metaball egg.\r\n\r\nI have implemented a metaball routine in Banate CAD which gives you fairly decent results in relative real-time.  That is, you can setup a fairly simple network of 'balls', and generate an isosurface for them in a matter of about a second, or a few seconds if you want to go for much higher resolution, or have a network with a ton of balls in it.\r\n\r\nMetaballs/Blobs are used quite a lot in games for getting that nice blobbly affect on characters.  It tends to make things look more organic than what you can typically achieve with more mechanical mechanisms.\r\n\r\nThis is great for modeling as you can quickly try out various configurations of balls to get all sorts of blobby effects.  The \"seat\", or \"face\" model included here consists of just 4 influencing balls, so it's fairly simple.\r\n\r\nIn the picture, I've used fairly high resolution.  The model is much lower resolution, but realistically, it would print about the same.\r\n\r\nAlso, in the picture, I'm showing the influencing balls, just for visualilzation.  I turn them off to actually generate the .stl file.\r\n\r\nI think the approach I'm taking is actually unique, as I haven't quite seen it done my particular way in the literature.  Not a bad result for NOT using the GPU, and doing it purely in Lua.\r\n\r\nYou can play with the .fab, but it won't have the same results as I'm getting until this Sundays (12/4/2011) release of Banate CAD."
+image = "https://cdn.thingiverse.com/renders/2c/82/0b/d5/80/BlobFace_display_large_display_large.jpg"
+license = "CC-BY-4.0"
+licensor = "WilliamAAdams"
+name = "MetaBalls are Among Us!!"
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://www.thingiverse.com/thing:14246"
+software = []
+technology-readiness-level = "OTRL-4"
+upload-method = "auto"
+version = "1.0.0"
+
+[__meta]
+created-at = "2011-12-04T00:12:05+00:00"
+last-visited = "2022-02-25T11:00:02.616920+00:00"
+owner = "WilliamAAdams"
+repo = "https://www.thingiverse.com/thing:14246"
+source = "thingiverse.com"
+
+[specific-api-data]

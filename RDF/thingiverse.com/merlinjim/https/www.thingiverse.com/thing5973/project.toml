@@ -1,0 +1,23 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3"
+function = "I finally finished printing the Unicorn.  I really wish I had gone for the two piece derivative, it would've been way easier to finish and attach everything!\r\n\r\nI used the printable linear slide.  It works so-so, but has a good amount of stiction... as do the rotary joints on the servo connectors... so I wrote up this quick sketch to let me run a burn-in test on the unicorn and try to loosen up the joints.\r\n\r\nThe goal of this is to allow you to test your unicorn WITHOUT an Extruder Controller.  However, if you're comfortable re-flashing your EC, you can load it with the Arduino Bootloader and use it instead of an Arduino.  I hope the D9 port on the extruder is the same as pin 9 in Arduino - if so, it should work with the EC hooked up according to the usual instructions.  Caveat Emptor; you'll have to re-flash your EC back to the reprap / makerbot software when done, and don't come crying to me if you have to get some funky ISP programmer or it doesn't work for you or you brick your EC and Makerbot has a two month backlog on them... \r\n\r\nThe current delay for a pen move is 1 second.  This seems pretty good, with a small pause at the top and bottom of each move."
+image = "https://cdn.thingiverse.com/site/img/default/Gears_display_large.jpg"
+license = "CC0-1.0"
+licensor = "merlinjim"
+name = "Arduino Unicorn tester"
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://www.thingiverse.com/thing:5973"
+software = []
+technology-readiness-level = "OTRL-4"
+upload-method = "auto"
+version = "1.0.0"
+
+[__meta]
+created-at = "2011-02-01T08:51:09+00:00"
+last-visited = "2022-02-25T11:00:02.616920+00:00"
+owner = "merlinjim"
+repo = "https://www.thingiverse.com/thing:5973"
+source = "thingiverse.com"
+
+[specific-api-data]

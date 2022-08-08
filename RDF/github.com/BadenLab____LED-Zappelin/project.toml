@@ -1,0 +1,18 @@
+okhv = "OKH-LOSHv1.0"
+name = "LED Zappelin', An open source and versatile LED controller for arbitrary spectrum visual stimulation and optogenetics during 2-photon imaging."
+repo = "https://github.com/BadenLab/LED-Zappelin"
+version = "2.2"
+license = "CERN-OHL-1.2"
+licensor = "Maxime Zimmermann <m.zimmermann@sussex.ac.uk>"
+upload-method = "manifest-script"
+image = ["https://raw.githubusercontent.com/BadenLab/LED-Zappelin/master/Images/Presentation.png"]
+documentation-language = "English-UK"
+bom = "https://github.com/BadenLab/LED-Zappelin/tree/master/Bills%20of%20Materials"
+timestamp = "1650188561"
+function = "Two-photon (2P) microscopy is a cornerstone technique in neuroscience research, but combining this technology with spectrally arbitrary light stimulation can be challenging due to crosstalk between stimulation light and fluorescence detection. To overcome this limitation, we present a simple and low-cost electronic solution based on an ESP32 microcontroller and a TLC5947 LED driver to rapidly time-interleave stimulation and detection epochs during scans. Implemented for less than $100, our design can independently drive up to 24 arbitrary spectrum LEDs to meet user requirements. We demonstrate the utility of our stimulator for colour vision experiments on the in vivo tetrachromatic zebrafish retina and for optogenetic circuit mapping in Drosophila.\n\nLED Zappelin' is meant to be used in laboratory experiments where light stimulation is necessary."
+documentation-readiness-level = "ODRL-1"
+technology-readiness-level = "OTRL-3"
+
+[[software]]
+label = "Software"
+release = "https://github.com/BadenLab/LED-Zappelin/tree/master/Arduino%20code"

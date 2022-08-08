@@ -1,0 +1,23 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3"
+function = "I've been working on this Ruby script on and off for a while now, but never felt it was ready for distribution. Then http://minecraftprint.com/ came along, and made me push an early version out. While I see the benefit of being able to search through an entire world and pick out the structure to print, it's not really an option for larger worlds, and the selection method seemed cumbersome.\r\n\r\nMy idea is to use an established file format as the base for conversion - http://www.minecraftwiki.net/wiki/Schematic_File_Format The worldwide Minecraft communities create and read this format with an assortments of tools. At the server I play on, we use World Edit, with it you can select and save areas of the world to file very easy. To make it simpler to convert I send the schematic file through Minecraft structure planner which exports to xml.\r\n\r\nAt the moment the script is VERY crude. It runs through a Minecraft Structure Planner xml file and creates a OpenSCAD file where it places a cube(); (and it's block type) every time it finds a block. Warning: This is the first time I've touched Ruby, so if you know how to use it, my sincere apologies in advance.\r\n\r\nI hope someone else might want to build upon this work/idea. :-)\r\n\r\nPlanned improvements:\r\nConverting slabs, stairs, fences and perhaps other objects.\r\nUsing a special block for support structure.\r\nOutput optimization so it's possible to convert large structures.\r\n\r\nFuture improvements:\r\nReading the World Edit schematic files directly.\r\nExporting to stl directly with World Edit?"
+image = "https://cdn.thingiverse.com/renders/8e/9c/6e/5a/2a/screenshot_display_large_display_large.jpg"
+license = "CC-BY-SA-4.0"
+licensor = "Nudel_P"
+name = "Minecraft structure planner to OpenSCAD Ruby converter"
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://www.thingiverse.com/thing:9940"
+software = []
+technology-readiness-level = "OTRL-4"
+upload-method = "auto"
+version = "1.0.0"
+
+[__meta]
+created-at = "2011-07-09T06:37:41+00:00"
+last-visited = "2022-02-25T11:00:02.616920+00:00"
+owner = "Nudel_P"
+repo = "https://www.thingiverse.com/thing:9940"
+source = "thingiverse.com"
+
+[specific-api-data]

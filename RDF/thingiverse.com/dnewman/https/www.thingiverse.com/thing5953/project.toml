@@ -1,0 +1,23 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3"
+function = "This drawing is less demanding of plotting precision than an earlier, similar version I have posted.  This version fully draws each local region of the egg before moving on to the next region.  While this makes the plotting time a bit slower (but not by much), it reduces the amount of plotting precision needed.  (The prior version of this drawing was optimized for speed but made the egg go through many full back and forth revolutions.)\r\n\r\nIf you still have plotting precision issues, you can slightly stretch the drawing horizontally by, say, 5 pixels.  (If that's not enough, then iterate by stretching again.)  Just select layer \"2 - black\", select all in layer, and then use Object > Transform.  In the Transform sub-window, use the \"Scale\" tab and set the units to \"px\" (pixels).  You may see that the initial width isn't exactly 3200 pixels: that's because (1) the drawing is wider than 3200 pixels as it wraps around the egg, and (2) Inkscape takes into account the stroke width of the lines.\r\n\r\nAlternatively, you can remove a column or two from the drawing if you are having plotting precision issues.  The result still looks quite nice.\r\n\r\nFor plotting on spheres, you will need to rescale the vertical component of the drawing: it is presently squashed vertically so as to make it suitable for plotting on eggs.  Rescale the vertical dimension by 100% / (0.666666 * 0.95) or 157.89%.\r\n\r\nThe SVG files pattern-20.svg and pattern-16.svg have, respectively, 20 or 16 \"stars\" running horizontally around the egg.  Thus the -20 file has more stars.  The interactive Python script pattern.py may be used to generate additional SVG files with whatever density of stars you'd like, and with or without vertical compression for eggs."
+image = "https://cdn.thingiverse.com/renders/96/0f/98/07/4b/5404948928_69e9310c82_b_display_large_display_large.jpg"
+license = "CC0-1.0"
+licensor = "dnewman"
+name = "Less demanding geometric Eggbot plot"
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://www.thingiverse.com/thing:5953"
+software = []
+technology-readiness-level = "OTRL-4"
+upload-method = "auto"
+version = "1.0.0"
+
+[__meta]
+created-at = "2011-01-31T13:29:46+00:00"
+last-visited = "2022-02-25T11:00:02.616920+00:00"
+owner = "dnewman"
+repo = "https://www.thingiverse.com/thing:5953"
+source = "thingiverse.com"
+
+[specific-api-data]

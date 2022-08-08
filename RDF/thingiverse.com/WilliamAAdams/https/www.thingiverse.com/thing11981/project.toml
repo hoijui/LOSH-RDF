@@ -1,0 +1,23 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3"
+function = "I needed the ability to quickly generate a tile from a height map.  A height map is essentially a grayscale picture.  If you think of each of the 'pixel' values representing a 'z' value for a vertex in a mesh, then you can imagine applying those z values, and what you get is a mesh transformed into a 'landscape'.\r\n\r\nThis thing is just a further refinement of the technique in OpenScad.\r\n\r\nAlthough I am highlighting the technique by applying it to what looks like a landscape, I've also applied it to font rendering as well.  There are a couple of ways of doing fonts in OpenScad.  One is to use a 'bitmap' and essentially do height mapping, by representing each pixel as a cube.\r\n\r\nAnother method is to use the font information, and use the outlines to actually draw polygons and linear_extrude() them.\r\n\r\nYet a third way is to use a tool to export the font outlines into a .dxf file, and then load from there with a linear_extrude.\r\n\r\nWhat you can do here is take the font, generate grayscale images of each character, in a format that is essentially OpenScad code.  Then apply those images to a mesh, just like a landscape, and you've got extruded fonts!\r\n\r\nThe cool thing about this generalized technique is that you can use it for anything.  The routine gives you absolute control over the size and resolution.  So, for example, using the same basic grayscale image, you can print at 48x48 millimeters, with a resolution of 4 facets per millimeter.  That would be great if you're printing on a machine with .25mm layer resolution.  It would turn out fairly smooth.  On the other hand, if you don't want to wait the hours required for that, you can simply change the resolution to be 1mm/facet, and still get a decent print.\r\n\r\nThe pictures here demonstrate the technique being applied to both terrain and characters.  \r\n\r\nThere are two routines, which can be found in the MeshRenderer.scad file:\r\nshell_extrude_height_map() - To be used when your height map information is represented by single values.\r\n\r\nshell_extrude_color_map() - To be used when your height map information is still grayscale, but represented by triplets.\r\n\r\nOh yes, and one of the parameters to this routine: solid=true\r\nThat means that while you're prototyping, you can say 'solid=false', and it will simply generate a polygon surface.  Then when you're done playing around, you can say 'solid=true', and you'll get a proper 2-manifold solid that you can then press 'F6' on and go take a walk.\r\n\r\nI know, it's a lot of words, but look at the pretty pictures!!  The 64x64 resolution mountain scene took 5 hours to render.  The 48x48 took about 1.5 hours.\r\n\r\nNOTE: Although I can easily generate single characters using this technique, actually generating them en masse as shown in the picture, has some problems.  The structure ends of not being 2-manifold.  I plan to improve the general text handling aspects later.  But, the basic height mapping technique will remain the same."
+image = "https://cdn.thingiverse.com/renders/89/85/ba/8f/0d/mountain2_display_large_display_large.jpg"
+license = "CC0-1.0"
+licensor = "WilliamAAdams"
+name = "OpenScad Height Maps v0.5"
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://www.thingiverse.com/thing:11981"
+software = []
+technology-readiness-level = "OTRL-4"
+upload-method = "auto"
+version = "1.0.0"
+
+[__meta]
+created-at = "2011-09-28T08:56:59+00:00"
+last-visited = "2022-02-25T11:00:02.616920+00:00"
+owner = "WilliamAAdams"
+repo = "https://www.thingiverse.com/thing:11981"
+source = "thingiverse.com"
+
+[specific-api-data]

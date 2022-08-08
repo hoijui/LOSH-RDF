@@ -1,0 +1,23 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3"
+function = "Requires Mac OS 10.6\r\nWill not work in 10.7\r\nThis is a Cocoa Kinect application for Mac OSX.  The application does not require any additional files or installation.  Simply plug in a Kinect Sensor into your Mac and run this application.  Once loaded the window will display a Mesh of the data being seen by the Kinect. \r\n\r\nThis application was created by fernLightning:\r\nhttp://fernlightning.com/doku.php?id=randd:kinect\r\n\r\nI've modified their application to add the ability to export the Depth data to a PLY point cloud file.  Enjoy!\r\n\r\nNOTE:  The Source Code is posted!  :)\r\n\r\nThe Save STLB button creates the best mesh for printing.  STLB stands for STL Binary.  Make sure you open the mesh in MeshLab and then resave it.  This cleans the file and makes it readable by Skeinforge. \r\n\r\n UPDATE 5-7-2011:  I've added the ability to export both ASCII STL and Binary STL files with a complete mesh. It turned out to be simpler than i thought.  Also there are sliders to limit the depth values.  You can set minimum and maximum depth values.  The detail can also be limited.  '0' detail is maximum, while '10' will result is a very low resolution mesh.  The best way to figure out the effects is to try it out.  Please post comments about other improvement requests. :)  BUG: The Binary STL export works, but for some reason will crash some applications.  To fix this load into MeshLab, unify duplicate vertices and then resave the STL.\r\n UPDATE 5-8-2011:  Ive addressed some bugs and improved the Binary STL export.  Should export a much cleaner mesh.  \r\n UPDATE 5-15-2011:  Fixed export feature some more, and cleaned up the code.\r\n UPDATE 6-14-2011:  Uploaded Source Code."
+image = "https://cdn.thingiverse.com/renders/19/a9/b4/e9/62/cocoaKinectSnap_display_large_display_large.jpg"
+license = "GPL-3.0-or-later"
+licensor = "CidVilas"
+name = "OSX Kinect Application"
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://www.thingiverse.com/thing:8262"
+software = []
+technology-readiness-level = "OTRL-4"
+upload-method = "auto"
+version = "1.0.0"
+
+[__meta]
+created-at = "2011-05-04T22:26:45+00:00"
+last-visited = "2022-02-25T11:00:02.616920+00:00"
+owner = "CidVilas"
+repo = "https://www.thingiverse.com/thing:8262"
+source = "thingiverse.com"
+
+[specific-api-data]

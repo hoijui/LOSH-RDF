@@ -1,0 +1,23 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3"
+function = "A busy few hours after my first attempt at a useful OpenSCAD design (http://www.thingiverse.com/thing:9446) and I've totally re-written and refactored the code into a parametric part library.  It's still early days, but it already contains the basic building blocks and a bunch of basic parts (segments, nozzles, base plate).\r\n\r\nThere is also a demo section in the library that will generate a full set of example parts.  Or you can un-comment the lines at the bottom to render individual parts and export the STL.\r\n\r\nModule Structure\r\nBasic building blocks are defined as chainable modules, taking at least one common parameter - the bore of the hose.  Thus alternate hose sizes are trivial to generate (1/4 inch, 1/2 inch, etc).\r\n\r\nGlobal Variables\r\n- tolerance = controls the distance between the ball and socket surfaces\r\n- definition = this defines the number of facets for curved surfaces (sets the $fn parameter)\r\n\r\nParts in the Library\r\n- Hose segment\r\n- Extended hose segment (user defined length of \"waist\" between ball and socket)\r\n- Round Nozzle (user defined nozzle diameter)\r\n- Base Plate (user defined screw dia, defaults to M3)\r\n\r\nFeedback\r\nAny and all comments welcome, it would be great if someone could print off a few segments and let me know if they work! \r\n\r\nUpdates\r\n22 Jun 2011 - Uploaded v0.2 library, includes reduced wall thickness and increased distance between ball/socket surfaces (based on feedback from bohnded).  Also added DoubleSocket module.  For comparison, I've added a cross-sectional view of the latest hose segment alongside the loc-line part by charlespax - the ball/socket offset on my model is obviously still a bit tighter than charles', but not sure whether I should increase it further...?"
+image = "https://cdn.thingiverse.com/renders/35/5d/65/0d/c5/modular_host_library_22_6_2011_display_large_display_large.jpg"
+license = "CC-BY-SA-4.0"
+licensor = "axford"
+name = "Parametric Modular Hose Library v0.2"
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://www.thingiverse.com/thing:9457"
+software = []
+technology-readiness-level = "OTRL-4"
+upload-method = "auto"
+version = "1.0.0"
+
+[__meta]
+created-at = "2011-06-19T18:41:45+00:00"
+last-visited = "2022-02-25T11:00:02.616920+00:00"
+owner = "axford"
+repo = "https://www.thingiverse.com/thing:9457"
+source = "thingiverse.com"
+
+[specific-api-data]

@@ -1,0 +1,23 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3"
+function = "This is a script to help you diagnose axis problems without making a dozen oddly sloping 20mm cubes.  It homes your machine, defining home as X-57 Y-57 which puts X0 Y0 roughly in the center of the build platform.  It then makes several moves all at a set speed.  The moves include a big \"plus\" shape, an \"X\" move into the corners (this one seems particularly prone to bad resonances) and then two trips around the Carabiner V2 shape cut and pasted from rapids created by Skeinforge's \"comb\" setting (the second copy is rotated 90 degrees).  That particular shape is what made me realize my feed speed was too high (and my Y belt was far too tight).\r\n\r\nAfter its little dance it re-homes the machine, leaving it positioned so that you can go into \"Control Panel\" ctrl-J and check the \"X Position\" and \"Y Position\" under the Jog controls.\r\n\r\nI would love to see this done with some big circular moves via G2, but I had trouble with my makerbot following circular moves with uncommanded linear moves that crashed into the side of the machine with no sign of stopping..."
+image = "https://cdn.thingiverse.com/renders/f4/0c/1b/67/3c/5247077840_553308bb0b_o_display_large_display_large.jpg"
+license = "CC-BY-SA-4.0"
+licensor = "BenJackson"
+name = "Smooth Axis Test"
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://www.thingiverse.com/thing:6454"
+software = []
+technology-readiness-level = "OTRL-4"
+upload-method = "auto"
+version = "1.0.0"
+
+[__meta]
+created-at = "2011-02-16T03:34:43+00:00"
+last-visited = "2022-02-25T11:00:02.616920+00:00"
+owner = "BenJackson"
+repo = "https://www.thingiverse.com/thing:6454"
+source = "thingiverse.com"
+
+[specific-api-data]

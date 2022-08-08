@@ -1,0 +1,59 @@
+okhv = "OKH-LOSHv1.0"
+name = "Corne keyboard, crKbd, Helidox"
+repo = "https://github.com/foostan/crkbd/"
+version = "3.0.1"
+release = "https://github.com/foostan/crkbd/releases/tag/corne-cherry-v3.0.1"
+license = "MIT"
+licensor = [
+  "Kosuke Adachi"
+]
+readme = "README.md"
+image = [
+  "https://user-images.githubusercontent.com/736191/49698496-0c3c0c80-fc08-11e8-87bc-4fd2aa7f3f78.jpg",
+  "corne-cherry/doc/v3/assets/build_diode_overview.jpg"
+]
+documentation-language = [
+  "en-US",
+  "jp-JP"
+]
+technology-readiness-level = "OTRL-4"
+documentation-readiness-level = "ODRL-3"
+function = "The Corne is a 40% split mechanical USB general purpose keyboard. It is made up of two halves with 3x6 column staggered keys and 3 thumb keys. It has full RGB backlighting, and is fully programmable using the popular Open Source QMK firmware. The basic design principles are, to have a minimal, ergonomically arranged set of keys that are all reachable by moving a finger by at most a distance of one key in diagonal."
+cpc-patent-class = "G06C 7/02"
+tsdc = "PCB"
+bom = "corne-cherry/doc/v3/buildguide_en.md#parts" # There are more BoMs (for all the other versions), but OKH currently (Feb. 2022) does not support multiple BoMs
+manufacturing-instructions = [
+  "corne-cherry/doc/buildguide_en.md",
+  "corne-cherry/doc/buildguide_jp.md",
+  "corne-cherry/doc/v2/buildguide_en.md",
+  "corne-cherry/doc/v2/buildguide_jp.md",
+  "corne-cherry/doc/v2/buildguide_tilting_tenting_plate_en.md",
+  "corne-cherry/doc/v2/buildguide_tilting_tenting_plate_jp.md",
+  "corne-cherry/doc/v3/buildguide_en.md",
+  "corne-cherry/doc/v3/buildguide_jp.md",
+  "corne-chocolate/doc/buildguide_en.md",
+  "corne-chocolate/doc/buildguide_jp.md",
+  "corne-classic/doc/buildguide_en.md",
+  "corne-classic/doc/buildguide_jp.md",
+  "corne-light/doc/buildguide_en.md",
+  "corne-light/doc/buildguide_jp.md",
+  "corne-light/doc/v1/buildguide_en.md",
+  "corne-light/doc/v1/buildguide_jp.md",
+  "corne-light/doc/v2/buildguide_low_edition_en.md",
+  "corne-light/doc/v2/buildguide_low_edition_jp.md"
+  ]
+
+# TODO add source files!
+
+# TODO functional-metadata:
+#  - 2 * (Arduino) Pro Micro microcontrollers
+#  - QMK Firmware
+#  - split
+#  - N-key roll-over (NKRO)
+#  - fully programmable
+#  - full RGB backlighting
+#  - hot-swap switch sockets
+#  - RGB backlighting
+#  - 2 halves * (3 rows * 6 columns + 3 thumb_keys) = 42 keys total
+#  - 1 (optional) OLED screen per half
+#  - TRRS (4 pole 3.5mm audio cable) connection between the two halves

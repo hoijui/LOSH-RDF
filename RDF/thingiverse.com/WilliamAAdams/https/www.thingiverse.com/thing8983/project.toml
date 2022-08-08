@@ -1,0 +1,23 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3"
+function = "The previous incarnations of the library have been good for laying down generic Bezier surfaces, but it was very picky when it came to actually turning them into .stl files that are printable.\r\n\r\nThis thing will more readily turn your surfaces into .stl files.  It makes a modification to the Renderer.scad file.  Specifically, the DisplayQuadShards() routine.  It now takes an array which tells it which of the 'edge' faces to generate.\r\n\r\nThus, instead of generating all the triangles as polyhedra, it will actually generate a full 'shell'.  The 'top' is complete, and the 'bottom' is complete, but only the outside edges of the entire surface are complete.  So, there are no interior walls, which end up causing problems for the shape being 2-manifold.\r\n\r\nWhat this means is there is essentially one giant solid to process rather than a whole bunch of little ones.  This makes CGAL much happier, and pieces that would not be printable before are now printable, as evidenced by the included .stl files here.\r\n\r\nA couple more 'debugging' improvements.  You can now specify your own opacity when you utilize the shell_extrude_bezier() module.  You can also specify whether you want to see the curve frame, instead of looking at the actual polyhedron rendering.  This is useful so you can just look at the true surface, without the walls getting in the way.\r\n\r\nThe picture is an optical illusion.  I'm using an opacity of 0.75 to see the interior.  Those internal 'walls' aren't actually there.\r\n\r\nThere are still issues with compound objects.  That fancy shoe for instance: http://www.thingiverse.com/thing:8937\r\n\r\nThis renderer is now capable of dealing with the individual parts, but if you try to put them all together as a single object, it will not be able to generate a .stl.  This is progress as you could glue the individual parts together at least.\r\n\r\nAt any rate, one more step along the path..."
+image = "https://cdn.thingiverse.com/renders/4e/ed/9e/02/5c/Bezier_Surface_v10_5_display_large_display_large.jpg"
+license = "CC-BY-4.0"
+licensor = "WilliamAAdams"
+name = "OpenScad Surface Solids 1.1"
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://www.thingiverse.com/thing:8983"
+software = []
+technology-readiness-level = "OTRL-4"
+upload-method = "auto"
+version = "1.0.0"
+
+[__meta]
+created-at = "2011-06-02T10:38:12+00:00"
+last-visited = "2022-02-25T11:00:02.616920+00:00"
+owner = "WilliamAAdams"
+repo = "https://www.thingiverse.com/thing:8983"
+source = "thingiverse.com"
+
+[specific-api-data]

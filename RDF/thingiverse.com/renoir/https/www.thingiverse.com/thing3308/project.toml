@@ -1,0 +1,23 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3"
+function = "I've been working for a couple of weeks on a RepRap Arduino Mega shield. I've got a mix of early generation 2 electronics, a few home-made single sided generation 3 stepper boards, and old arduino with a screw-terminal shield and a brand-new arduino mega.\r\n\r\nI designed myself a version of an arduino mega shield to connect the gen3 stepper boards using the 10-pin IDC cables, and it might be useful for anyone transitioning between generations of electronics. Features:\r\n\r\nSingle-sided for PCB for easier home-made boards\r\n5 stepper driver headers - x,y,z,a,b - should match existing gen3 electronics.\r\n(future-proof?) UI interface header that *should* match gen4 electronics.\r\nHeater 10-pin IDC (to plug in MOSFET driver board later) - should be able to drive a reprap setup with 1 or 2 extruders/ heated bed without an additional extruder board.\r\nI2c header as per standard boards\r\nOptional extra 3-pin headers for digital in\\out and analog in : +5v, GND, and data pin. This makes it easy to add temperature sensors, kill switches, extra limit switches, etc (I'm only using the min endstops).\r\n\r\n\r\nYou can treat this as more of a prototyping board, and solder as many headers/pins as you need: I bought a dozen 50-pin headers, so I filled mine up. I'm only expecting to use one or two of the analog inputs as temperature sensors for now. \r\n\r\nNOTE that the +5v/Gnd/Signal headers for the digital and analog pins are directly connected to the internal arduino 5V supply. DO NOT run anything major off these headers. I was only planning to add simple data switches (digital input from high/low), simple thermistor circuits (Analog input) and potentially a small servo (9g micro servo) off these I/O pins - so I didn't pay much attention to them. If you are running any further circuits, use a separate power supply! (all RepRap boards have separate 12v PSU headers anyway)."
+image = "https://cdn.thingiverse.com/renders/b4/36/5c/21/25/IMG_1687_display_large_display_large.jpg"
+license = "CC-BY-4.0"
+licensor = "renoir"
+name = "Renoir's RepRap Arduino Mega Shield"
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://www.thingiverse.com/thing:3308"
+software = []
+technology-readiness-level = "OTRL-4"
+upload-method = "auto"
+version = "1.0.0"
+
+[__meta]
+created-at = "2010-06-09T01:43:30+00:00"
+last-visited = "2022-02-25T11:00:02.616920+00:00"
+owner = "renoir"
+repo = "https://www.thingiverse.com/thing:3308"
+source = "thingiverse.com"
+
+[specific-api-data]

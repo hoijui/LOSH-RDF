@@ -1,0 +1,23 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3"
+function = "I was sitting around the kitchen table wondering how I could model a playground slide, or those water slide tubes.\r\n\r\nThis thing adds hermite curve/surface support to the OpenScad Surface Solids library.\r\n\r\nThe basic Hermite interpolation calculation has actually been lurking for a while, but now it's put to good usage.  With this, there is now a lerp (linear interpolation), berp (bezier interpolation), and herp (hermite interpolation) in the library.\r\n\r\nA Hermite curve is defined by two endpoints, and the tangent vectors to those points.  It is somewhat related to a Bezier curve.  In fact, I use the same Bernstein basis functions to express it.  Some people may find it easier to deal with, some harder, but it's just another tool in the box to help you create surfaces.\r\n\r\nIn this particular case, I've added a 'sweep_hermite()' module to the renderer.  This is really easy to work with.  You define one curve to be your 'profile', and you define another curve to be the path along which you'll sweep that profile.  The module will take care of creating the appropriate polyhedra to fill in the solid.  You can give a thickness, and it will extrude in that direction.  This is similar to the linear_extrude.\r\n\r\nThis also shows a general mechanism for doing sweeps with curves.  To make it fully generalized, and to reduce the amount of code needed to support different curves, I'll be further developing the matrix representation of curves.  That will essentially be the same as having function pointers for surface creation, if you catch my drift.\r\n\r\nI've added some visual debugging support.  If you decide to show the control frame, you'll get a nice rendering of the profile and sweeep curves, complete with their tangent vectors.\r\n\r\nUsing tangent vectors is interesting.  You need to be mindful that a vector has a length and direction.  The length influences the strength of pull in the particular direction.  It's best if you think of them centered at [0,0,0] and point them in the direction you want them to go.  You'll have to play around with setting them to get the gist of it.\r\n\r\nIt occurs to me that this might be a good tool to use while learning about different types of curves and surfaces.  Particularly with the visual debugging, and the added bonus that you get to print out a physical thing after you've done all your hard playing around.\r\n\r\nI made the license public domain, as this is well trod ground.\r\n\r\nAre Splines in the offing?\r\n\r\nAt any rate..."
+image = "https://cdn.thingiverse.com/renders/d6/72/b8/a6/0b/Hermite_Sweep3_display_large_display_large.jpg"
+license = "CC0-1.0"
+licensor = "WilliamAAdams"
+name = "OpenScad Surface Solids 1.2"
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://www.thingiverse.com/thing:9389"
+software = []
+technology-readiness-level = "OTRL-4"
+upload-method = "auto"
+version = "1.0.0"
+
+[__meta]
+created-at = "2011-06-17T09:27:54+00:00"
+last-visited = "2022-02-25T11:00:02.616920+00:00"
+owner = "WilliamAAdams"
+repo = "https://www.thingiverse.com/thing:9389"
+source = "thingiverse.com"
+
+[specific-api-data]

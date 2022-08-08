@@ -1,0 +1,23 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3"
+function = "A funny thing happened on the way to developing geodesic stuff.  I found that I needed to fully develop some Platonic solids.  And since I needed to develop 3 of them, I figured I'd develop them all.\r\n\r\nThis thing represents the latest incarnation of the maths_geodesic library, plus extras.\r\n\r\nFirst of all, the original maths_geodesic.scad library had a small bug in the 'clean' function which prevented it from properly converting spherical coordinates.\r\n\r\nThere are a few additions:\r\nDEGREES() - Already exists in other libraries, convert from radians to degrees\r\nRADIANS() - Already exists in other libraries, converst from degrees to radians\r\n\r\ndeg(deg,min,sec) - Creates a data structure that holds degrees, minutes, seconds\r\ndeg_to_dec(d) - converts from that degrees data structure to decimal form\r\n\r\nThese will come in handy some time when more spherical and geographic things start to show up.\r\n\r\nsphu_from_cart(c, rad=1) - Does the same thing as sph_from_cart, but allows you to specify the radius.  This is quite handy when you're converting from some cartesian coordinates, and you want to make something with a fixed radius.\r\n\r\nthen there's some things related to polygon math.  Figuring out internal angles, and the like.  Perhaps the most interesting is figuring out the dihedral angle for a platonic.  That comes in handy for some calculations.\r\n\r\nBut, the really new stuff is the set of thing related directly to Platonic solids in the file 'platonic.scad'.\r\n\r\nFirst of all, the 5 platonic solids are represented by functions that represent their geometry/topology, in a form suitable for rendering with the polyhedron() module.\r\n\r\nSo:\r\ntetrahedron(rad=1)\r\noctahedron(rad=1)\r\nhexahedron(rad=1)\r\ndodecahedron(rad=1)\r\nicosahedron(rad=1)\r\n\r\nYou can use it like this:\r\n\r\ndisplay_polyhedron(icosahedron(20));\r\n\r\nThat will render a icosahedron centered at [0,0,0], with a radius of 20.\r\n\r\nBeing able to set the radius is really handy as you can do things like nest them, or simply create them to the size you need.  The fact that they're centered on the origin makes it fairly easy to rotate them around, to whatever orientation you like.\r\n\r\nThe .stl files here just show some casual renderings that can be generated with the test_platonic.scad file.  Doing truncations and stellations is fairly straight forward. Even doing hollowed out forms, particularly with duals, is fairly straightforward as well.\r\n\r\nThe only thing that's not here is using the inradius, circumradius, and midradius for doing proper alignment of duals.  But, how hard could it be?\r\n\r\nAt any rate, OpenScad now has a tidy little set of Platonic solids to play with.\r\n\r\nUPDATE: 19082011\r\nI have added some .stl files that are renderings of the various solids.  The Dodecahedron is actually having a problem in OpenScad.  I will debug that one and upload it when it actually works.  A very strange bug.\r\n\r\nUPDATE: 03092011\r\nReplaced the platonics.stl, with platonic_set.stl.  I have a better dodecahedron now."
+image = "https://thingiverse-rerender-new.s3.amazonaws.com/renders/6b/3f/0e/79/8a/dualcube1_display_large.jpg"
+license = "CC0-1.0"
+licensor = "WilliamAAdams"
+name = "Platonic Solids for OpenScad - v0.2"
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://www.thingiverse.com/thing:10725"
+software = []
+technology-readiness-level = "OTRL-4"
+upload-method = "auto"
+version = "1.0.0"
+
+[__meta]
+created-at = "2011-08-14T12:15:04+00:00"
+last-visited = "2022-02-25T11:00:02.616920+00:00"
+owner = "WilliamAAdams"
+repo = "https://www.thingiverse.com/thing:10725"
+source = "thingiverse.com"
+
+[specific-api-data]

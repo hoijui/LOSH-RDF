@@ -1,0 +1,23 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3"
+function = "This is an initial design for a printable parametrised counterflow air to air heat exchange (HX). \r\n\r\nTypically counterflow HXs use 2 sets of interleaved plates, with the supply air flowing through one set and the extract air flowing through the other set.  Heat is transferred from the extract air to the incoming, thereby keeping the heat in the building while replacing the air.  In this design rather than using a set of parallel plates the airflows have been mingled together by creating a component that guides the airflows into a set of rectangular channels.  \r\n\r\nThe printed version shown only has three parts of the HX included, otherwise only the slots at the top and bottom are visible which makes it difficult to explain how it works.  In the printed object the bottom section is a regular grid with airflow in one direction surrounded on four sides by airflow going in the opposite direction, this is the heat transfer part of the heat exchange.  To speed-up debugging I have made this section quite short but the length, width, height and channel layout are defined as arguments to an openscad module HX.  The middle part of the component guides the air from separate channels into a set of parallel paths and then the top bit carries the air to different sides of the heat exchange, one for supply and the other for extract.  The middle bit and top bit need to be replicated onto the bottom of the heat exchange to multiplex/demultiplex on that end.  \r\n\r\nA small version and a more usable version are shown with the bottom of the HX in place.  Outside air enters the right side of the upper triangle, warms up as it passes through the heat exchange and comes out of the left side of the bottom triangle then enters the building.  Air extracted from the building enters the right side of the bottom triangle, goes up through the HX and transfers its heat to the incoming air, exits the upper triangle on the left side.\r\n\r\nThe design is parameterised so the number of channels in the HX array can be set and these values ripple through the other components.  \r\n\r\nThis is an experiment to help understand the shape of the airmixer above the HX array.  I think the next thing to do is to break this into components so that I can experiment with different lengths and materials for the HX array, either printed or commodity extruded profile.  To assess the HX efficiency it will need a work harness, I'm thinking of a couple of muffin fans, an insulated enclosure, ideally mated to 100mm ducting and a microcontroller for instrumentation and fan control."
+image = "https://cdn.thingiverse.com/renders/74/f6/a3/07/f8/IMG_8055_display_large_display_large.jpg"
+license = "CC-BY-SA-4.0"
+licensor = "pheolix"
+name = "Counterflow Air to Air Heat Exchange"
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://www.thingiverse.com/thing:14889"
+software = []
+technology-readiness-level = "OTRL-4"
+upload-method = "auto"
+version = "1.0.0"
+
+[__meta]
+created-at = "2011-12-21T11:51:09+00:00"
+last-visited = "2022-02-25T11:00:02.616920+00:00"
+owner = "pheolix"
+repo = "https://www.thingiverse.com/thing:14889"
+source = "thingiverse.com"
+
+[specific-api-data]

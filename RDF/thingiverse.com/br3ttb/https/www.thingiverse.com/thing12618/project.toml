@@ -1,0 +1,23 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3"
+function = "I created most of these letters while doing \"The Saturday Killer\" ( http://www.thingiverse.com/thing:12592 )  I figured it would be nice to create a full-fledged font instead of just doing the letters that I needed.\r\n\r\nThis font uses the layer thickness (pathT) and extrusion width (pathW) to create small two-color-friendly  text.\r\n \r\nincluded are capital letters, numbers, and some simple punctuation.  You can create the letters by themselves (a(), b(), etc...) or you can use the provided writeText and rotateText modules.  There's also a helper spreadsheet that will create the OpenSCAD code for you.\r\n\r\nif you do the letters by themselves I highly recommend placing a cube behind your text to simplify skeining.  \r\n  d = 2*pathW\r\n  w = text length\r\n  h = 10*pathT\r\n\r\n\r\nUpdate Oct19:\r\n- Fixed the shoddy construction (see discussion below)\r\n- Added two text-creation modules: writeText and rotateText.  One of the things that irks me about the other OpenSCAD fonts is that each letter gets the same horizontal space, even if it's a thin letter (like \"I\".)  I added a little more complexity to fix that. Instead of just specifying the letters and count, you also specify the horizontal offset for each letter. kind of a pain, BUT:\r\n- I added a code-creation spreadsheet.  Just type in your words and a couple parameters, and the OpenSCAD code is automatically generated.  It's an xls, but I checked and it imports well into google docs\r\n\r\nUpdate Oct25:\r\n- Added numbers and some simple punctuation\r\n- removed \"Work in Progress\" status.  If I end up doing lowercase and more punctuation, it will be in a derivative font."
+image = "https://cdn.thingiverse.com/renders/ea/67/71/12/6c/00text_close_display_large_display_large.jpg"
+license = "CC-BY-SA-4.0"
+licensor = "br3ttb"
+name = "Small Side Font"
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://www.thingiverse.com/thing:12618"
+software = []
+technology-readiness-level = "OTRL-4"
+upload-method = "auto"
+version = "1.0.0"
+
+[__meta]
+created-at = "2011-10-17T06:38:54+00:00"
+last-visited = "2022-02-25T11:00:02.616920+00:00"
+owner = "br3ttb"
+repo = "https://www.thingiverse.com/thing:12618"
+source = "thingiverse.com"
+
+[specific-api-data]

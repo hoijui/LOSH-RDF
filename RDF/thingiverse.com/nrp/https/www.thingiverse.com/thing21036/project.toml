@@ -1,0 +1,23 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3"
+function = "A full writeup with links is at my blog: http://eclecti.cc/hardware/blinded-by-the-light-diy-retinal-projection\r\n\r\nAfter grabbing a couple of Microvision SHOWWX laser picoprojectors when they went up on Woot a few months back, I started looking for ways to use them.  Microvision started out of a project at the University of Washington HITLab in 1994 to develop laser based virtual retinal displays.  That is, a display that projects an image directly onto the userâ€™s retina.  This allows for a potentially very compact see through display that is only visible by the user.  The system they developed reflected lasers off of a mechanical resonant scanner to deflect them vertically and horizontally, placing pixels at the right locations to form an image.  The lasers were modulated to vary the brightness of the pixels.  The SHOWWX is essentially this setup after 15 years of development to make it inexpensive and miniaturize it to pocket size.  The rest of the retinal display system was a set of optics designed to reduce the scanned image down to a point at the userâ€™s pupil.  I thought I would try to shrink and cheapen that part of it as well.\r\n\r\nThe setup I built is basically what Michael Tidwell describes in his Virtual Retinal Displays thesis.  The projected image passes through a beamsplitter where some of the light is reflected away, reflects off of a spherical concave mirror to reduce back down to a point, and hits the other side of the beamsplitter, where some of the light passes through and the rest is reflected to the userâ€™s pupil along with light passing through the splitter from the outside world.  For the sake of cost savings, all of my mirrors are from the bargain bin of Anchor Optics.  The key to the project is picking the right size and focal length of the spherical mirror.  The larger setup in the picture uses a 57mm focal length mirror, which results in a fairly large rig with the laser scanner sitting at twice the focal length (the center of curvature) away from the mirror.  The smaller setup has a focal length around 27mm, which results in an image that is too close to focus on unless I take my contact lenses out.\r\n\r\nAside from my inability to find properly shaped mirrors, the big weakness of this rig is the size of the exit pupil.  The exit pupil is basically the useful size of the image leaving the system.  In this case, it is the width of the point that hits the userâ€™s pupil.  If the point is too small, eye movement will cause eye pupil to miss the image entirely.  For this system, the exit pupil is only around 1.5 mm wide, which makes it completely impractical to use head mounted or really, any other way.  I paused work on this project a few months ago with the intention of coming back to it when I could think of a way around this.  With usable see through consumer head mounted displays just around the bend though, I figured it was time to abandon the project and publish the mistakes Iâ€™ve made in case it helps anyone else."
+image = "https://cdn.thingiverse.com/renders/11/e6/31/fd/84/projection_display_large_display_large.jpg"
+license = "CC0-1.0"
+licensor = "nrp"
+name = "Retinal Projection Display"
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://www.thingiverse.com/thing:21036"
+software = []
+technology-readiness-level = "OTRL-4"
+upload-method = "auto"
+version = "1.0.0"
+
+[__meta]
+created-at = "2012-04-08T15:52:47+00:00"
+last-visited = "2022-02-25T11:00:02.616920+00:00"
+owner = "nrp"
+repo = "https://www.thingiverse.com/thing:21036"
+source = "thingiverse.com"
+
+[specific-api-data]

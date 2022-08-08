@@ -1,0 +1,23 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3"
+function = "A HBP made from stripboard. The only trick is finding a supplier of large enough stripboard. I had to try it out before I sent boards out as prizes for the contest. http://www.thingiverse.com/thing:11497. Wouldn't be much of a prize if it didn't work. :)  The PDF below is just my pathetic attempt to draw the solder connections I used to wire up the board. \r\n\r\nUpdate: Made some measurements to help the designers out there. With three strips ganged together as in the PDF soldered in a long series trace across two stripboards the current at 12V is 10 amps cold and 8.2 amps hot. That gives you 120 Watts cold and 98 watts hot. So that means that the total resistance cold is 1.2 ohms, and individual strips have a resistance of 0.13 ohms. To calc. that I had to assume that the two wide buss strips were equivalent to 3 ganged central strips. So 0.13 per strip and about .04 ohms for each of the two wide strips on the outside. \r\n\r\nSo 4 ganged together should give about 0.13/4 * 9 = .3 ohms + 2*0.04 = .38 ohms per board or .38*2 = .76 ohms for a prusa bed giving 16 amps cold and 189 watts at 12V.\r\n\r\n5 ganged together would be .13/5*7 = .182 ohms +2*.04 = .262 per board and .52 ohms total for the heated bed. Giving 23 amps at 12 V and 275 watts. \r\n\r\n6 ganged might be \"OK\" for 5V at about .3 ohm and 17 amps (5V) but it might not get that hot at only 85 watts. (I'm thinking at 5 or 6 you will probably want to think about pairing the bus strips on the sides with a couple normal strips to keep the heat even across the board. \r\n\r\n7 ganged would probably work pretty well at 5V at about .22 ohms 23 amps and 115 watts. (same here use 2 or 3 strips ganged with the wide bus on the side. )\r\n\r\nWell, that was quite an extrapolation so don't trust the numbers too much way up in the 5,6,7 gang calculations."
+image = "https://cdn.thingiverse.com/renders/4f/9e/b4/1c/f8/DSCF0141_display_large_display_large.jpg"
+license = "CC-BY-SA-4.0"
+licensor = "bryanandaimee"
+name = "Ghetto HBP"
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://www.thingiverse.com/thing:12727"
+software = []
+technology-readiness-level = "OTRL-4"
+upload-method = "auto"
+version = "1.0.0"
+
+[__meta]
+created-at = "2011-10-20T00:51:22+00:00"
+last-visited = "2022-02-25T11:00:02.616920+00:00"
+owner = "bryanandaimee"
+repo = "https://www.thingiverse.com/thing:12727"
+source = "thingiverse.com"
+
+[specific-api-data]

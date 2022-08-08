@@ -1,0 +1,23 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3"
+function = "Based upon http://www.thingiverse.com/thing:13677 I had the idea to include a few more fonts in my fonts -> OpenScad website.\r\n\r\nI have now added all the Google webfonts, http://www.google.com/webfonts, just 470 fonts are available at http://sign-generator.b9c.org/\r\n\r\nI have not tested all 470 fonts. A few give me - \"ERROR: Illegal polygonal object - make sure all polygons are defined with the same winding order. Skipping affected object.\" One or two of the thick fonts, come are only the edge extruded (hollow letters). However most work. \r\n\r\nSign-generator-openscad\r\n\r\nSo I am waiting for a Printrbot.\r\n\r\nI wanted something simple to print out as my first print. I really liked the http://www.thingiverse.com/thing:14728 Printrbot ID with number on thingiverse.com. I downloaded the files and played with it, but I wanted to customise it a little more.\r\n\r\nHave looked around at https://www.google.com/search?q=openscad+3d+text+tutorial openscad 3d text tutorials, I wanted something that was really simple to use, so here it is:-\r\n\r\nhttp://sign-generator.b9c.org/\r\n\r\nGo to New Sign enter some text, some dimensions, look at the preview - download the files. Viola. \r\n\r\nHow it works: Django applcaiton. The text is made in to a SVG graphics file. Using inkscape, the SVG is converted to a eps files - and a PNG used for previewing. The eps is then converted to dxf using pstoedit. The a text files is generated for OpendSCAD which extrudes the dxf file.  Further details can be gained from the sources files - http://code.google.com/p/sign-generator-openscad/\r\n\r\nThe server is host a very, very cheap VPS. So sometime the production of file may take up to 1 min.\r\n\r\nThanks to OpenSCAD\r\nThanks to MCAD https://github.com/elmom/MCAD\r\n\r\nBrook, is it February yet ?\r\n\r\nRegards,\r\nBrendan M. Sleight\r\n@bmsleight"
+image = "https://cdn.thingiverse.com/renders/60/68/82/e5/f3/logo_display_large_display_large.jpg"
+license = "BSD-4-Clause "
+licensor = "bmsleight"
+name = "Sign-generator-openscad v1.1"
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://www.thingiverse.com/thing:15203"
+software = []
+technology-readiness-level = "OTRL-4"
+upload-method = "auto"
+version = "1.0.0"
+
+[__meta]
+created-at = "2011-12-30T18:58:39+00:00"
+last-visited = "2022-02-25T11:00:02.616920+00:00"
+owner = "bmsleight"
+repo = "https://www.thingiverse.com/thing:15203"
+source = "thingiverse.com"
+
+[specific-api-data]

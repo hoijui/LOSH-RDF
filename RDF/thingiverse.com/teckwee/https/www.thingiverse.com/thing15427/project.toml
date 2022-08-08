@@ -1,0 +1,23 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3"
+function = "It's no secret to owners of Emaker Huxleys that the heated bed has a design flaw. Many owners, including myself, have experience multiple failures of the heated bed.\r\nhttp://www.emakershop.com/forum?vasthtmlaction=viewtopic&t=276\r\n\r\nIMHO, it's not if but when the bed will fail. I decided to design my own replacement bed for the Emaker Huxleys despite already ordering the ReprapPro Huxley's PCB bed.\r\n\r\nReason being that the PCB bed is not a drop-in replacement for the Emaker Huxleys. Changes to the Y-axis is required and the thermistor tables are different too.\r\n\r\nThis bed is designed to be a drop-in replacement and has a larger build area that will allow actual printing of the promised 140mm x 140mm area.\r\n\r\nOne of the problem when coming up with the design is determining the resistor to use. Indeed there seems to be no guide to this. For my case, I used my rusty electronics knowledge and some guesswork.\r\n\r\nFirst, determine the power wattage for the bed. 90-100W seems like a safe bet, and since the Emaker Huxley's power adapter is only rated to 120W (19V). It's best to give some allowance. Obviously, if your bed is huge or uses a thicker aluminum, you have to compensate for that.\r\n\r\nSo current, I = 90W / 19V = 4.74A\r\n\r\nResistance, R = 19V / 4.74A = 4ohms\r\n\r\nI decided to use 6 x 15W resistors to spread the heat more evenly, but I believe 4 x 25W will work too. So roughly 4ohms / 6 = 0.66ohms each.\r\nhttp://singapore.rs-online.com/web/p/products/107-3560/\r\n\r\nI also got some high-temp hook up wires.\r\nhttp://singapore.rs-online.com/web/p/products/177-0952/\r\n\r\nYou can use back the original thermistors that came with the kit but just for reference, it's this one.\r\nhttp://singapore.rs-online.com/web/p/products/528-8592/"
+image = "https://cdn.thingiverse.com/renders/78/d3/69/31/f6/Bed1_display_large_display_large.jpg"
+license = "CC-BY-SA-4.0"
+licensor = "teckwee"
+name = "Replacement heated bed for Emaker Huxley"
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://www.thingiverse.com/thing:15427"
+software = []
+technology-readiness-level = "OTRL-4"
+upload-method = "auto"
+version = "1.0.0"
+
+[__meta]
+created-at = "2012-01-04T19:50:12+00:00"
+last-visited = "2022-02-25T11:00:02.616920+00:00"
+owner = "teckwee"
+repo = "https://www.thingiverse.com/thing:15427"
+source = "thingiverse.com"
+
+[specific-api-data]

@@ -1,0 +1,23 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3"
+function = "An early development version of the Bluetooth RepRap control app. Interfaces with a Bluetooth serial module that is connected to the RepRap's rx/tx lines.\r\n\r\nIf you want to use it with an alt serial port, You'll need to use my sprinter fork that has alt serial support.  As a bonus, this version of sprinter also supports the high(er) speed file transfer that is built in to the app.\r\n\r\nThis SHOULD also be compatible with makerbots as long as you're willing to mod the electronics.\r\n\r\nBluetooth module i used: sparkfun.com/products/10269\r\nCustom Sprinter Firmware: https://github.com/pipakin/Sprinter\r\nCode is available here: github.com/pipakin/Android-Bluetooth-Reprap\r\nMarket Link: https://market.android.com/details?id=com.hermit.btreprap\r\nMarket Link (free): https://market.android.com/details?id=com.hermit.btreprap.free\r\n\r\nSupports:\r\nAxis movement and homing\r\nTemperature control (temperature status NYI)\r\nSD card listing\r\nPrinting from SD Card\r\nPushing files to the RepRap SD card\r\nPrinting directly from the android phone\r\nHigh(er) speed file transfer with custom Sprinter firmware\r\n\r\nTODO:\r\nInstallation manual for Bluetooth module\r\nInquiry scan to show unpaired devices\r\n\r\nKnown Issues:\r\nIf Bluetooth isn't enabled, it can sometimes cause a force close.\r\nIf the Bluetooth signal isn't good enough the app might get stuck on initialization.\r\nIf the phone goes to sleep the Bluetooth connection doesn't re-initialize properly (for now the program won't let the phone sleep)\r\nYou need to pair with your bluetooth device BEFORE running the program.  The program only queries for already bonded devices.\r\n\r\nUPDATE:\r\nAfter a conversation with Kliment, I think it should be fine to attach it to the primary serial port, as long as both the bluetooth module and the usb aren't trying to send at the same time.\r\n\r\nCHANGELOG:\r\n\r\n0.2.0\r\n* Added upload option to send files to the RepRap\r\n* Added bed temperature support"
+image = "https://cdn.thingiverse.com/renders/fa/7b/a4/31/a6/shot_000006_display_large_display_large.jpg"
+license = "CC-BY-SA-4.0"
+licensor = "pipakin"
+name = "Android Bluetooth Reprap App"
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://www.thingiverse.com/thing:13506"
+software = []
+technology-readiness-level = "OTRL-4"
+upload-method = "auto"
+version = "1.0.0"
+
+[__meta]
+created-at = "2011-11-11T11:24:50+00:00"
+last-visited = "2022-02-25T11:00:02.616920+00:00"
+owner = "pipakin"
+repo = "https://www.thingiverse.com/thing:13506"
+source = "thingiverse.com"
+
+[specific-api-data]

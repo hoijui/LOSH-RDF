@@ -1,0 +1,23 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3"
+function = "I was doing some Mendel research and discovered this great video about how it\\'s axes work: http://vimeo.com/6982104\r\n\r\nIt inspired me to try to build my own, and naturally, I started with Makerbot\\'s y-stage. \r\n\r\nThere are two versions of this design: (one for old-school makerbots and one for the new guys)\r\nThe makerbot who\\'s axes I\\'m redesigning is super old school and has the original 8mm steel rods (instead of the current ~6.3mm). Luckily parametric modeling means changing the design to accommodate the new rods was as easy as changing two dimensions.\r\n\r\nI've done a bunch of testing using the y-stage (both versions) and have found that it works amazingly well. A few benefits of this more complicated and arguably over-kill design:\r\n1. It doesn't matter where the drive belt applies the force to move the stage. No torque will ever jam or stick the stage.\r\n2. This means you can turn the power WAY down on the y-stage. My bot is now about as close as you can get to silent when it moves straight in the y-direction.\r\n3. It handles variability in the rods much better than the current design. Even if the rods aren't perfectly parallel, it'll work just fine.\r\n\r\nThis design is only 90% complete however. Everything works awesomely except I\\'m stumped as to a good way to attach and arrange the drive belt. As it stands I'm just using a bolt and some washers to secure it and letting the other side of the belt (which moves in the opposite direction) rub against the inside of one of the printed parts. Far from perfect but it works.\r\n\r\nI'm going to try to tackle the x-stage soon and maybe arrange the y-bars a bit differently to see if I can come up with a solution there. I'll keep you posted.\r\n\r\nAlso.... A video of some early testing:\r\nhttp://www.flickr.com/photos/24375810@N06/4630595409/"
+image = "https://cdn.thingiverse.com/renders/a8/9d/bf/0e/36/4631171240_3856969740_o_display_large_display_large.jpg"
+license = "CC-BY-SA-4.0"
+licensor = "langfordw"
+name = "Mendel Inspired Drop-In Makerbot Y-Stage"
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://www.thingiverse.com/thing:3202"
+software = []
+technology-readiness-level = "OTRL-4"
+upload-method = "auto"
+version = "1.0.0"
+
+[__meta]
+created-at = "2010-05-23T01:22:11+00:00"
+last-visited = "2022-02-25T11:00:02.616920+00:00"
+owner = "langfordw"
+repo = "https://www.thingiverse.com/thing:3202"
+source = "thingiverse.com"
+
+[specific-api-data]

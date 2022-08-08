@@ -1,0 +1,23 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3"
+function = "Another proof of concept along the way to a WORKING printable clock. A working clock would, for example, have a case. :-)\r\n\r\nAside from such petty concerns, this clock is complete, in that we have a power source (a drum to wind a string and weight), a whole gear train (5/3/2/2/5/3/2/2), a Graham escapement, a (token) pendulum and three hands mounted on concentric shafts to show the time. \r\n\r\nIt is fully parametric, animate-able, and about as modular as I could make it within the current constraints of OpenSCAD (recursion would be nice for the eight gears in the gear train!).\r\n\r\nThe code uses three different types of gear wheels, each able to support any level of nested concentric shafts if needed for support or to run clock hands:\r\n1. A drum with an outer gear along one rim,\r\n2. A pinion wheel with a gear supporting a smaller gear,\r\n3. An escapement wheel supporting a smaller gear.\r\n\r\nIt also automatically positions them relative to each other, ensures that they mesh properly and rotates them according to the correct gear ratios to support animation and to check the design.\r\n\r\nIt uses the involute gear script from the MCAD library, and my own escapement library. I intend to move as much of the script into another library at some later date, and like in some of my previous scripts, to provide both the current assembled() module and a handy laidOutToPrint() module.\r\n\r\nLastly, the modular nature of this PoC should allow for separate tweaking of the various components of the clock until they all work, without having to print an entire clock every time.\r\n\r\n(EDIT: fixed a bug, kindly pointed out by DaveD, and uploaded a fixed version of the OpenSCAD script, along with an exploded version of the STL and a JPEG of same.)"
+image = "https://thingiverse-rerender-new.s3.amazonaws.com/renders/72/19/14/c0/78/Clock-53225322-Exploded_display_large.jpg"
+license = "CC-BY-SA-4.0"
+licensor = "syvwlch"
+name = "Printable Clock, Parametric Proof of Concept"
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://www.thingiverse.com/thing:7909"
+software = []
+technology-readiness-level = "OTRL-4"
+upload-method = "auto"
+version = "1.0.0"
+
+[__meta]
+created-at = "2011-04-19T19:56:53+00:00"
+last-visited = "2022-02-25T11:00:02.616920+00:00"
+owner = "syvwlch"
+repo = "https://www.thingiverse.com/thing:7909"
+source = "thingiverse.com"
+
+[specific-api-data]

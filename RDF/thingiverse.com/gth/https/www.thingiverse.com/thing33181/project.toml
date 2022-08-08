@@ -1,0 +1,23 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3"
+function = "There's a few of these designs around, and while maybe veterans may already know, the purpose wasn't obvious to me at first so here's my attempt to explain the parts, function and reasons for this thing:-  \n\n* Firstly, the references to MK7 and MK8 are two versions of the same part - i.e. the top section of the replicator extrusion equipment.  \n\n* The stock Makerbot Replicator has a stepper motor that controls the feedrate of filament into the heater element below it.   \n\n* Pushing filament up against this stepper motor is a plastic \"delrin plunger\" -  http://store.makerbot.com/mk7-delrin-plunger.html  \n\n* This plunger encounters wear due to friction, causing less pressure on the filament against the stepper drive. Eventually the filament will exhibit feedrate problems, causing symptoms such as premature melting down in the heater/nozzle areas below.  \n\n* Another cause of problems is that the plunger does not tolerate changes in filament diameter very well, if at all - such changes can be due to quality control issues of the roll of filament, or even just a small kink in the plastic.  \n\n-- SO... in order to ensure a constant pressure forcing the filament against the stepper motor, the very clever emmett - http://www.thingiverse.com/emmett - came up with a spring loaded lever.  \n\nSubsequently to that, Doogiekr made a design modification meaning one could use the handles from 'bulldog' clips - http://www.thingiverse.com/thing:32315 /   \n\nMy derivative here contains some slight changes in the evolution of this part:  \n\na) Removed support elements in the design that needed to be cut out after printing  \n\nb) Ugly design hacks in SketchUp to fix mesh errors with rounded corners in my local SketchUp (not a reflection of anyone else's design skills but mine)  \n\nc) Modified to fit a 688 bearing with dimensions of: 8mm inner diameter, 16mm outer diameter and 5mm width.  The inner race had an approximate diameter of 10.5mm  *- See note below!*  \n\nd) Simplified the 'pin' as my replicator seemed to struggle to print the original tiny, rather complex pin.  \n\ne) Made the 'left' design in Sketchup a 'component' and then flipped it over the red axis ensuring both left and right designs are identical.  \n\n\n\n**!! NOTE !!** ***Bearings with a 16mm or larger outer diameter will not work with dual extruder models!***  \nOn my Dualstrusion Replicator 1, the two 688 bearings I used would touch as soon as both extruders have filament loaded. As such, dual extruders require a smaller outer diameter on your bearings.  \n*Refer to the last image in the sequence for a close-up photo of the bearings touching.*  \n\n\nProvided the inner diameter of your bearings is 8mm, the STL design should work as is.  Bearings with a smaller inner diameter would require a modification to the design of the holding pin, etc."
+image = "https://cdn.thingiverse.com/renders/38/25/4f/af/b4/Stepstruder_feeder_display_large.jpg"
+license = "CC-BY-SA-4.0"
+licensor = "gth"
+name = "Minimalistic Mk8 Replacements"
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://www.thingiverse.com/thing:33181"
+software = []
+technology-readiness-level = "OTRL-4"
+upload-method = "auto"
+version = "1.0.0"
+
+[__meta]
+created-at = "2012-10-26T16:38:03+00:00"
+last-visited = "2022-03-01T11:00:10.320765+00:00"
+owner = "gth"
+repo = "https://www.thingiverse.com/thing:33181"
+source = "thingiverse.com"
+
+[specific-api-data]

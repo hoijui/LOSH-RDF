@@ -1,0 +1,23 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3"
+function = "Extended the previous Proof of Concept for the printable clock to include the entire gear train. \r\n\r\nI had to use a total of eight pinion wheels, four to gear down from the escapement/seconds wheel to the minutes wheel, and another four for the hour wheel (5,3,2,2). Two would make for high gear ratios (10,6 or 8,7.5 typically) which are hard to print, and three would make the minute hand run counter-clockwise.\r\n\r\nI wrote the OpenSCAD script so that all the wheels are equidistant (by adjusting the tooth size pair by pair) and so that the gear train can be bent at each wheel in order to stack the second, minute and hour hands on top of each other (e.g. with four wheels between hands, you need to fold by 90 degrees between each wheel). \r\n\r\nIt is all fully parametric for that distance, the fold angle, the gear ratios, and number of teeth for each wheel... and you can animate the gear train, they will all rotate at the correct speed and mesh.\r\n\r\nThe only thing I was not able to do is to make the code recursive, because OpenSCAD does not support that. Booh!"
+image = "https://cdn.thingiverse.com/renders/3e/7c/e9/b7/68/ClockGearStack8_display_large_display_large.jpg"
+license = "CC-BY-SA-4.0"
+licensor = "syvwlch"
+name = "Parametric OpenSCAD Clock Gear Train (Hours, Minutes & Seconds)"
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://www.thingiverse.com/thing:7840"
+software = []
+technology-readiness-level = "OTRL-4"
+upload-method = "auto"
+version = "1.0.0"
+
+[__meta]
+created-at = "2011-04-16T19:31:40+00:00"
+last-visited = "2022-02-25T11:00:02.616920+00:00"
+owner = "syvwlch"
+repo = "https://www.thingiverse.com/thing:7840"
+source = "thingiverse.com"
+
+[specific-api-data]

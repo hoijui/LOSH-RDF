@@ -1,0 +1,23 @@
+documentation-language = "en"
+documentation-readiness-level = "ODRL-3"
+function = "A \"Dualstrusion\" Replicator arrived Monday.  I set it up on the kitchen table, leveled it - nice built in leveling algorithm - and printed a two color test cube - it was identical to the one that came with the printer - all in under three hours.  Very nice!\r\n\r\nModels of the Archimedean solids are usually multicolored and make good test objects.  While waiting for the Replicator I prepared a number of Archimedean solid models for two color printing.  Here are four of them: 1) truncated tetrahedron, 2) cuboctohedron, 3) truncated cube, and 4) truncated octahedron\r\n\r\nTwo stl files are included for each solid;\r\n\r\ntrunc_tetrahedron_less_faces.stl and trunc_tetrahedron_faces.stl\r\ncuboctahedron_less_faces.stl and cuboctahedron_faces.stl\r\ntrunc_cube_less_faces.stl and trunc_cube_faces.stl\r\ntrunc_octahedron_less_faces.stl and trunc_octahedron_faces.stl\r\n\r\nThe files can be merged and printed in two colors.\r\n\r\nFor those interested in the details a few words follow:\r\n\r\nThe stl files were created with openSCAD.  A zip file containing the open scad files is included - 2color_archi_scad_01.zip\r\n\r\nOpenSCAD's polyhedron command does most of the work. A hollow Archimedean solid from thing:17571 has two copies of the polyhedra, an outer copy and a smaller, but otherwise identical, inner copy. Suppose we wish to extract a single face, for example a pentagonal one. The coordinates of the vertices for the outer and inner pentagons are available from the hollow polyhedra scad file.  These 10 coordinates define a polyhedron that corresponds to a face.  It needs to be closed with 16 triangles, see the openSCAD manual for details\r\n\r\nOften a single openSCAD polyhedron command can be used to create a complete set of faces. However openSCAD does not work with shared vertices and where they occur shifts have to be made to avoid them.  A program is needed to write the openSCAD commands as there is too much bookkeeping to keep track of without help. OpenSCAD's \"thrown together\" command can be used to catch errors."
+image = "https://cdn.thingiverse.com/renders/7a/52/9f/72/c5/archi_01_display_large_display_large.jpg"
+license = "CC-BY-4.0"
+licensor = "pmoews"
+name = "Two Color Archimedean Solids - 1"
+okhv = "OKH-LOSHv1.0"
+part = []
+repo = "https://www.thingiverse.com/thing:19168"
+software = []
+technology-readiness-level = "OTRL-4"
+upload-method = "auto"
+version = "1.0.0"
+
+[__meta]
+created-at = "2012-03-15T00:18:16+00:00"
+last-visited = "2022-02-25T11:00:02.616920+00:00"
+owner = "pmoews"
+repo = "https://www.thingiverse.com/thing:19168"
+source = "thingiverse.com"
+
+[specific-api-data]

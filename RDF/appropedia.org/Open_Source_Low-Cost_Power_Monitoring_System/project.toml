@@ -1,0 +1,13 @@
+okhv = "OKH-LOSHv1.0"
+name = "Open_Source_Low-Cost_Power_Monitoring_System"
+repo = "https://www.appropedia.org/Open_Source_Low-Cost_Power_Monitoring_System"
+version = "15"
+license = "CC-BY-SA-4.0"
+licensor = "Joshua M. Pearce"
+upload-method = "manifest-script"
+image = ["https://www.appropedia.org/w/images/f/fa/Osenergymon.jpg"]
+documentation-language = "en"
+timestamp = "1650188561"
+function = "This study presents an entirely open-source, low-cost power monitoring system capable of many types of measurements including both loads and supplies such as solar photovoltaic systems. In addition, the system can be fabricated using only open source software and hardware. The design revolves around the Digital Universal Energy Logger (DUEL) Node, which is responsible for reading and properly scaling the voltage and current of a particular load, and then serializing it via an on-board ATTiny85 chip. The configuration of the DUEL node allows for custom sensitivity ranges, and can handle up to 50 A and 300V. Up to 127 DUEL nodes communicate via Inter-Integrated Circuit (I2C) on a bus, which can be monitored and logged through an Arduino UNO, or other compatible microcontroller. Using accessible equipment, the DUEL node can be calibrated to a desirable accuracy with low error."
+documentation-readiness-level = "ODRL-1"
+technology-readiness-level = "OTRL-1"
